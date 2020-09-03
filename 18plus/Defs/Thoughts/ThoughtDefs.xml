@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThoughtDef>
+		<defName>KilledHumanlikeBloodlust</defName>
+		<durationDays>0.0000000001</durationDays>
+		<stackLimit>1</stackLimit>
+		<stackedEffectMultiplier>0.0000000001</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>WitnessedDeathBloodlust</defName>
+		<durationDays>0.0000000001</durationDays>
+		<stackLimit>1</stackLimit>
+		<stackedEffectMultiplier>0.0000000001</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+</Defs>

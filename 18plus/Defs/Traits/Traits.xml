@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<TraitDef>
+		<defName>Cannibal</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0</commonality>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>Gay</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0</commonality>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>Masochist</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0</commonality>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>Pyromaniac</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0</commonality>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>Asexual</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0</commonality>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>Bisexual</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0</commonality>
+	</TraitDef>
+
+</Defs>
