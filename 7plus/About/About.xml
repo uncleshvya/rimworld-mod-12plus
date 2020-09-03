@@ -76,6 +76,7 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty/
 =====
 
 Что нужно сделать в следующей версии:
+- Удалить "Тип шкуры" для людей.
 - Удалить строку "Питательность" для гуманоидного тела. В версии 0.2.6a временное решение - обнулено значение питательности.
 - Исправить все тексты, даже те которые не должны появиться (на всякий случай). Ведётся поиск.
 - Исправить стилистику в предысториях.
@@ -158,6 +159,7 @@ In fact, v0.2.6a changes the lore as follows: colonists land on a habitable, but
 =====
 
 Ideas to realize in next version:
+- to delete "Pelt type" for humanlikes.
 - to delete "Nutrition" string for human body. Since version 0.2.6a, temporary solution - the amount of nutrition was zeroed.
 - to correct all texts, even improbable, as a precaution. Searching...
 - to correct some grammar in backstories file.
