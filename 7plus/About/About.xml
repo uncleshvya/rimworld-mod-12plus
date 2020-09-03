@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+	<name>7plus</name>
+	<author>UncleShvya</author>
+	<packageId>UncleShvya.7plus</packageId>
+	<url>https://github.com/uncleshvya/rimworld-mod-7plus</url>
+	<supportedVersions>
+		<li>1.2</li>
+	</supportedVersions>
+	<description>For English, scroll down.
+
+"Посвящается всем родителям-римворлдистам"
+
+- Uncle_Shvya
+
+=====
+
+Что делает мод:
+
+Этот простой xml-мод отключает самые жёсткие аспекты, чтобы дети от 7 лет могли играть в Римворлд, не получая психологических травм. Подробности в файле changelog.
+
+Проверено на Римворлде v1.2.2719 rev.709. Текущая версия 7plus мода: v0.2.6а rev.2020.09.03.
+
+=====
+
+Совместимость:
+
+Целью является сделать играбельными моды типа этих:
+modpack http://lttlword.ru/rimworld-minimalism-v1-1
+modpack http://lttlword.ru/rimworld-sborka-modov-ot-lalks-i-pal
+multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty/
+
+Несовместим с модами "Psychology", "Rational Romance" и другими, меняющими отношения между полами. Версия 0.2.6a (и старые) несовместима с модами на новые расы.
+
+=====
+
+Инструкция по установке: 
+Папки "7plus" и "18plus" скопировать в папку "Mods", а содержимое папки "texts" переместить в папку "Data\Core\Languages\Russian\" с перезаписью файлов. Если устанавливаете новую версию 7plus мода, для начала удалите старые версии из папки "Mods".
+
+=====
+
+Порядок модов:
+
+Обычно располагаю 7plus в конце списка.
+
+=====
+
+Новая игра:
+
+Желательна, но необязательна - в этом случае надо вручную удалить нежелательные трейты из файла changelog. В интернете куча видео-инструкций, поищите строку "Rimworld удалить trait".
+
+=====
+
+Известные ошибки:
+
+- При запуске игры 3 красные ошибки про пироманов. Не обращайте внимания, это значит что пироманы не сгенерятся в игре.
+- Жёлтая ошибка о 25 translation errors. Не обращайте внимания, это из-за отключенных трейтов.
+- Когда игра пытается сгенерить новую пешку с отключенными трейтами, например когда начинаешь новую игру или при событии "Налёт", - выходят по 3 красные ошибки на пешку. Не обращайте внимания. Разве что читерам будет неудобно рероллить.
+- Изредка при начале новой игры генерятся всего пара городов на планете. Ерунда, переначните с новым зерном.
+- Ради выпуска альфа-версии, люди временно превращены в механо-расу. Минусы: не начинается новая игра стандартным способом, и другие гуманоиды кроме начальных почти не будут появляться. Люди не могут лечиться. Плюсы: нет дебафа от мокрой одежды, нет кровотечений, гниющих тел. - Пусть детишки пока обучаются основной механике игры, пока я допишу мод. Сражения и так будут, проверено.
+Обход бага новой игры: проще всего - начать с модом 18plus, сохраниться. Затем запустить вместо него мод 7plus и загрузить игру. 
+Обойти баг лечения можно загрузкой сейвов или модами на хирургию. Ещё проще - в режиме разработчика - open debug actions tool - в группе "Tools-Pawns" - T:Remove Hediff - ткнуть на раненого, выбрать раны для удаления.
+- Пока люди являются механо-расой, не отображается кнопка "социум" в режиме поселения. Не особо она и нужна.
+- Редкий баг, красные ошибки при попытке колонистов общаться с конкретным поселенцем. Вероятная причина - пережитая им потеря сознания, в сочетании с версией 0.2.6а. Я решал так - загрузил игру только с модом 18plus, дождался общения колониста, и переключился обратно на мод 7plus.
+- Пока люди являются механо-расой, захватывать пленников стало гораздо сложнее. У кого совсем не получается - напишите, намекну.
+- Пока люди являются механо-расой, побег пленников - это проблема. Тоже есть пара решений, кому интересно.
+
+При игре по сети с модом Zetrith's Multiplayer:
+- При лечении ран через режим разработчика - рассинхрон. Решение - реконнект клиента.
+
+=====
+
+Технически, из-за костыля подпирающего версию 0.2.6a, поменялся лор следующим образом: колонисты высаживаются на пригодную для жизни, но безлюдную планету. Так как это весьма вероятно в космическом масштабе шестого тысячелетия, я создал под это дело сценарий. Для его использования, скопируйте папку Scenarios из дистрибутива мода в корень папки с сохранениями. Она открывается в главном меню - Настройки - Открыть папку с сохранениями.
+
+=====
+
+Что нужно сделать в следующей версии:
+- Удалить строку "Питательность" для гуманоидного тела. В версии 0.2.6a временное решение - обнулено значение питательности.
+- Исправить все тексты, даже те которые не должны появиться (на всякий случай). Ведётся поиск.
+- Исправить стилистику в предысториях.
+- Удалить возможность кровосмешения. Пока не придумал как, есть только направление - при наличии родства уменьшать значение RomanceChanceFactor. Как временное решение - вручную удалять кровное родство среди своих пешек и пленников. Делается так же как в видео-инструкции "Rimworld удалить trait", только очищать внутри тега "social". Нужно удалять у обоих родственников. Кстати, в версии 0.2.6а случайно образовалось временное решение - пропал обычный доступ к вкладке "социум".
+- Удалить возможность Affair, интрижки.
+- Прикрутить файлы перевода через мод, а не через правку ядра. Инструкция из файла readme не работает или работает нестабильно.
+
+=====
+
+У кого есть новые концепции, а особенно - решения, просьба сообщить:
+uncleshvya@yandex.ru
+Будет время - отвечу.
+
+=====
+
+7plus mod for Rimworld. Sorry for my English, i compiled this file for multilingual families.
+
+"Dedicated to all parents playing Rimworld"
+
+- Uncle_Shvya
+
+=====
+
+What The Mod Does:
+
+This simple xml mod turns off the most hardcore aspects in order to allow 7+ aged children play Rimworld, without getting psychological trauma. For details, see changelog file.
+
+Tested with game v1.2.2719 rev.709. Current 7plus mod version 0.2.6а rev.2020.09.03.
+
+=====
+
+Compatibility:
+
+The aim was to make such mods playable:
+modpack http://lttlword.ru/rimworld-minimalism-v1-1
+modpack http://lttlword.ru/rimworld-sborka-modov-ot-lalks-i-pal
+multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty/
+
+This mod is not compatible with "Psychology", "Rational Romance" or any other mods altering RimWorld's romance systems. Version 0.2.6a (and older one) is incompatible with mods for new races.
+
+=====
+
+How to install: folders "7plus" and "18plus" copy into "Mods" folder, and all from "texts" move to "Data\Core\Languages\Russian\" folder, replace files. If you are updating new version of 7plus mod, first delete old mod folders.
+
+=====
+
+Order:
+
+Usually i move 7plus mod to the end of list.
+
+=====
+
+New game:
+
+It's better to start a new game. However, old games are playable too. You should manually delete unwanted traits (see changelog file). There are a lot of video lessons in www, search the string "Rimworld delete trait".
+
+=====
+
+Known errors:
+
+- 3 red errors after game launches. These are about pyromaniacs. Means that they won't generate automatically. Just ignore.
+- 25 yellow translation errors. These are about removed traits. Just ignore.
+- When the games tries to generate pawn with removed trait, for example, during starting new game or calculating Raid incident, you can see 3 red errors per pawn. Ignore, it is too rare. Cheaters, stop use the pawn rerolling too much! ;)
+- Sometimes starting new game, you see just few towns. Restart game with another seed, it's a very rare error.
+- For compilation of the alpha version, Humans were temporarily transformed into a mechanical race. Cons: you cannot start new game just clicking the button. Other humanoids except the initial ones will almost not appear. People can't be healed. Pros: no debuff from wet clothes, no bleeding, no rotting bodies. - Let your kids learn the basic mechanics of the game, while I finish the mod. Battles will be anyway.
+New game bug - the easiest solution is to start game with 18plus mod, save. Then run 7plus mod instead and load the game.  
+Healing bug - you can bypass it via "save-load" or installing surgery mods. Or more easily - choose developer mode - open debug actions tool - see group "Tools-Pawns" - button "T: Remove Hediff" - click at the wounded pawn - choose wounds to delete.
+- While humanoids are mechanical, the "Social" button is usually hidden. This button is not extremely nessesary.
+- A rare bug, red errors when people are trying to communicate with a certain colonists. The probable cause is the loss of consciousness he experienced, when 7plus v0.2.6a installed. I decided this way - load game with the only 18plus mod, waited for the colonist to communicate, and switched back to the 7 plus mod.
+- While humanoids are a mechanical, capturing prisoners has become much more difficult. If you can't do it at all, write me for a hint.
+- While humanoids are a mechanical, prisoner's escape is a problem. There are also a couple of solutions for those who are interested.
+
+During network game with Zetrith's Multiplayer mod:
+- Desync after healing via developer mode. The solution is to reconnect the client.
+
+=====
+
+In fact, v0.2.6a changes the lore as follows: colonists land on a habitable, but unpopulated planet. Since this is a strongly possible situation in the universe of 6th millennium, I've created a scenario for this case. To use it, copy the Scenarios folder from the mod distribution to the root of the savefolder. It can be opened from main menu - Options - Open save data folder.
+
+=====
+
+Ideas to realize in next version:
+- to delete "Nutrition" string for human body. Since version 0.2.6a, temporary solution - the amount of nutrition was zeroed.
+- to correct all texts, even improbable, as a precaution. Searching...
+- to correct some grammar in backstories file.
+- to eliminate incestuous script. As a temporary solution, manually delete real kinship in savegame file, for your colonists and prisoners: search the name of pawn, scroll down, and clean inside "social" tag. The same for relative pawn. By the way, v0.2.6a granted us a temporary solution - the "Social" button is usually hidden. 
+- to eliminate Affair script.
+- to realize "Languages" folder for this mod. Instructions from "readme.txt" do not work properly.
+
+=====
+
+If you have any (helpful) suggestions for improvement, please let me know:
+uncleshvya@yandex.ru
+i'll answer as fast as possible.
+	</description>
+
+</ModMetaData>
