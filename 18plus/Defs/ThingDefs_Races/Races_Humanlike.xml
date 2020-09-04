@@ -75,7 +75,7 @@
       </li>
     </tools>
     <race>
-      <fleshType>Mechanoid</fleshType>
+      <!-- <fleshType>Mechanoid</fleshType> -->
       <!--bloodDef-->
       <!--needsRest-->
       <!--<hasGenders>true</hasGenders> -->
