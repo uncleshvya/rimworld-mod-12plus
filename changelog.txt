@@ -2,11 +2,13 @@ For English, scroll down.
 
 История изменений мода 7plus для Rimworld.
 
+2020-09-04 апдейт к официальному переводу от 2020-08-30.
+
 2020-09-03 в версии 0.2.6a апдейт скрипта "труп". Апдейт для Римворлда 1.2 закончен. Поддержка версии 1.0 заморожена до востребования.
 
 2020-09-02 апдейт скриптов "кожа" и "человечина" в версии 0.2.5. Версия скомпилирована во вспомогательный мод 18plus, для начала новой игры в 7plus моде.
 
-2020-09-01 пофиксил баг с "типом шкуры". В версии 0.2.4 закончена цензура текстов. Апдейт к официальному переводу от 2020-08-25.
+2020-09-01 пофиксил баг с "типом шкуры". В версии 0.2.4 закончена цензура текстов.
 
 2020-08-25 в версии 0.2.3 апдейт предысторий. Пофиксил translation errors.
 
@@ -36,52 +38,54 @@ For English, scroll down.
 
 2019-11-13 в версии 0.0.2 убраны бафы Bloodlust при убийстве и при наблюдении оного. Исправлена часть красных ошибок. Спасибо мододелу Torann за код.
 
-2019-11-12 Создана версия 0.0.1. Убраны трейты Cannibal, Gay, Masochist, Pyromaniac.
+2019-11-12 создана версия 0.0.1. Убраны трейты Cannibal, Gay, Masochist, Pyromaniac.
 
-2019-11-11 Доработана концепция. Спасибо модпакеру ecxel.
+2019-11-11 доработана концепция. Спасибо модпакеру ecxel.
 
-2019-11-06 Придумана основная концепция. Спасибо игроку Roma за вдохновение.
+2019-11-06 придумана основная концепция. Спасибо игроку Roma за вдохновение.
 
 =====
 
 Changelog for Rimworld 1.2. 7plus modification.
 
-2020-09-03 "corpse" script updated. Mod version 0.2.6a compiled. Update finished. Support for RimWorld v.1.0 was paused.
+2020-sep-04 mod update to official russian translation v.2020aug30.
 
-2020-09-02 mod version 0.2.5 compiled. Renamed it into "18plus" mod which allows to start a new game for 7plus mod. 
+2020-sep-03 "corpse" script updated. Mod version 0.2.6a compiled. Update finished. Support for RimWorld v.1.0 was paused.
 
-2020-09-01 "pelt type" bug fixed. Text censoring finished. Mod version 0.2.4 compiled. Updated it to official russian translation v.2020aug25.
+2020-sep-02 mod version 0.2.5 compiled. Renamed it into "18plus" mod which allows to start a new game for 7plus mod. 
 
-2020-08-25 translation errors fix. Backstories updated. Mod version 0.2.3 compiled.
+2020-sep-01 "pelt type" bug fixed. Text censoring finished. Mod version 0.2.4 compiled.
 
-2020-08-18 "bloodlust" script updated. Mod version 0.2.2 compiled.
+2020-aug-25 translation errors fix. Backstories updated. Mod version 0.2.3 compiled.
 
-2020-08-17 "asexual" and "bisexual" traits turned off. Mod version 0.2.1 compiled.
+2020-aug-18 "bloodlust" script updated. Mod version 0.2.2 compiled.
 
-2020-08-09 hardcode bug detected. Cause - hidden "bisexual" trait. Mod updating to RimW v.1.2 began. Thanks to player leon_111 for inspiration.
+2020-aug-17 "asexual" and "bisexual" traits turned off. Mod version 0.2.1 compiled.
 
-2020-01-21 code posted on Github.
+2020-aug-09 hardcode bug detected. Cause - hidden "bisexual" trait. Mod updating to RimW v.1.2 began. Thanks to player leon_111 for inspiration.
 
-2019-11-28 bugfix. Test a compatibility with Zetrith's Multiplayer mod version 0.4.8.3, LAN game. Thanks to player Ame for the link.
+2020-jan-21 code posted on Github.
 
-2019-11-27 texts, where children are taught with disregard of life and familiarity of death, were replaced with neutral texts.
+2019-nov-28 bugfix. Test a compatibility with Zetrith's Multiplayer mod version 0.4.8.3, LAN game. Thanks to player Ame for the link.
 
-2019-11-24 version 0.1.6pre-a compiled. I can not find how to remove the edibility of a humanlike corpse. Temporarily, humans were transformed into a mechanic race.
+2019-nov-27 texts, where children are taught with disregard of life and familiarity of death, were replaced with neutral texts.
 
-2019-11-20 mod version 0.0.6 compiled. Red blood was reсolored into semi-transparent one. Thanks to modder Spincrus for the code.
+2019-nov-24 version 0.1.6pre-a compiled. I can not find how to remove the edibility of a humanlike corpse. Temporarily, humans were transformed into a mechanic race.
 
-2019-11-18 texts, orienting children to sociopathy, suicide or murder, were replaced with neutral ones.
+2019-nov-20 mod version 0.0.6 compiled. Red blood was reсolored into semi-transparent one. Thanks to modder Spincrus for the code.
 
-2019-11-16 mod version 0.0.5 compiled. Human flesh and human skin removed. Humanlike butchery removed.
+2019-nov-18 texts, orienting children to sociopathy, suicide or murder, were replaced with neutral ones.
 
-2019-11-15 mod version 0.0.4 compiled. Texts with sex and cannibalism were replaced with neutral ones.
+2019-nov-16 mod version 0.0.5 compiled. Human flesh and human skin removed. Humanlike butchery removed.
 
-2019-11-14 mod version 0.0.3 compiled. Description picture added. Thanks to the photographer milatiger. 
+2019-nov-15 mod version 0.0.4 compiled. Texts with sex and cannibalism were replaced with neutral ones.
 
-2019-11-13 mod version 0.0.2 compiled. Bloodlust's buffs removed: after murders and after supervision ones. Some red bugs' fix. Thanks to modder Torann for the code.
+2019-nov-14 mod version 0.0.3 compiled. Description picture added. Thanks to the photographer milatiger. 
 
-2019-11-12 mod version 0.0.1 compiled. Traits removed: Cannibal, Gay, Masochist, Pyromaniac.
+2019-nov-13 mod version 0.0.2 compiled. Bloodlust's buffs removed: after murders and after supervision ones. Some red bugs' fix. Thanks to modder Torann for the code.
 
-2019-11-11 The concept has been finalized. Thanks to modpacker ecxel.
+2019-nov-12 mod version 0.0.1 compiled. Traits removed: Cannibal, Gay, Masochist, Pyromaniac.
 
-2019-11-06 The basic concept was invented. Thanks to player Roma for inspiration.
+2019-nov-11 the concept has been finalized. Thanks to modpacker ecxel.
+
+2019-nov-06 the basic concept was invented. Thanks to player Roma for inspiration.
