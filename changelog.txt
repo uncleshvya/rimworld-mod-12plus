@@ -86,6 +86,6 @@ Changelog for Rimworld 1.2. 7plus modification.
 
 2019-nov-12 mod version 0.0.1 compiled. Traits removed: Cannibal, Gay, Masochist, Pyromaniac.
 
-2019-nov-11 the concept has been finalized. Thanks to modpacker ecxel.
+2019-nov-11 the concept finalized. Thanks to modpacker ecxel.
 
-2019-nov-06 the basic concept was invented. Thanks to player Roma for inspiration.
+2019-nov-06 the basic concept invented. Thanks to player Roma for inspiration.
