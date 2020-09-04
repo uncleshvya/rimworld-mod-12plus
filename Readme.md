@@ -11,7 +11,7 @@ For English, scroll below.
 - содержимое папки "texts" переместить в соответствующие папки "Data\Core\Languages\Russian\" и "Data\Royalty\Languages\Russian\" с перезаписью файлов.
 - если устанавливаете новую версию 7plus мода, для начала удалите старые версии из папки "Mods".
 
-Simple xml mod turns off the most hardcore aspects in order to allow 7+ aged children play Rimworld, without getting psycological trauma. Tested with Rimworld v.1.2.2723 rev.655 with official translation v.30aug2020.
+Simple xml mod turns off the most hardcore aspects in order to allow 7+ aged children play Rimworld, without getting psychological trauma. Tested with Rimworld v.1.2.2723 rev.655 with official translation v.30aug2020.
 
 How to install:
 - download the repository or "Download 7plus mod (latest).zip" file.
