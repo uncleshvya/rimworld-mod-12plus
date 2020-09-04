@@ -16,5 +16,5 @@ Simple xml mod turns off the most hardcore aspects in order to allow 7+ aged chi
 How to install:
 - download the repository or "Download 7plus mod (latest).zip" file.
 - copy "7plus" and "18plus" folders into "Mods" folder.
-- all from "texts" move to proper "Data\Core\Languages\Russian\" and "Data\Royalty\Languages\Russian\" folders, replace files.
+- all from "texts" move to proper "Data\Core\Languages\Russian\" and "Data\Royalty\Languages\Russian\" folders, overwrite files.
 - if you are updating 7plus mod with newer version, first delete old mod folders.
