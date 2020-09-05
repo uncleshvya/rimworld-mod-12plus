@@ -20,8 +20,6 @@ For English, scroll down.
 
 2020-08-09 обнаружен неуловимый баг из-за скрытого трейта "бисексуальность". Начат апдейт мода к римву в.1.2. Спасибо игроку leon_111 за вдохновение.
 
-2020-01-21 код выложен на Github.
-
 2019-11-28 исправлено несколько недочётов. Проверена совместимость с модом Zetrith's Multiplayer версии 0.4.8.3 в сети LAN. Спасибо игроку Ame за ссылочку.
 
 2019-11-27 заменены нейтральными тексты, прививающие детям пренебрежение жизнью и привычность смерти.
@@ -67,8 +65,6 @@ Changelog for Rimworld 1.2. 7plus modification.
 2020-aug-17 "asexual" and "bisexual" traits turned off. Mod version 0.2.1 compiled.
 
 2020-aug-09 hardcode bug detected. Cause - hidden "bisexual" trait. Mod updating to RimW v.1.2 began. Thanks to player leon_111 for inspiration.
-
-2020-jan-21 code posted on Github.
 
 2019-nov-28 bugfix. Test a compatibility with Zetrith's Multiplayer mod version 0.4.8.3, LAN game. Thanks to player Ame for the link.
 
