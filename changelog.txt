@@ -50,6 +50,8 @@ For English, scroll down.
 
 Changelog for Rimworld 1.2. 7plus modification.
 
+2020-sep-05 mod update to Royalty expansion.
+
 2020-sep-04 mod update to official russian translation v.2020aug30.
 
 2020-sep-03 "corpse" script updated. Mod version 0.2.6a compiled. Update finished. Support for RimWorld v.1.0 was paused.
