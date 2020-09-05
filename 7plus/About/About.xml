@@ -59,10 +59,10 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty/
 - Когда игра пытается сгенерить новую пешку с отключенными трейтами, например когда начинаешь новую игру или при событии "Налёт", - выходят по 3 красные ошибки на пешку. Не обращайте внимания. Разве что читерам будет неудобно рероллить.
 - Изредка при начале новой игры генерятся всего пара городов на планете. Ерунда, переначните с новым зерном.
 - Ради выпуска альфа-версии, люди временно превращены в механо-расу. Минусы: не начинается новая игра стандартным способом, и другие гуманоиды кроме начальных почти не будут появляться. Люди не могут лечиться. Плюсы: нет дебафа от мокрой одежды, нет кровотечений, гниющих тел. - Пусть детишки пока обучаются основной механике игры, пока я допишу мод. Сражения и так будут, проверено.
-Обход бага новой игры: проще всего - начать с модом 18plus, сохраниться. Затем запустить вместо него мод 7plus и загрузить игру. 
+Обход бага новой игры: проще всего - начать с модом 18plus, сохраниться. Затем запустить вместо него мод 7plus и загрузить игру.
 Обойти баг лечения можно загрузкой сейвов или модами на хирургию. Ещё проще - в режиме разработчика - open debug actions tool - в группе "Tools-Pawns" - T:Remove Hediff - ткнуть на раненого, выбрать раны для удаления.
 - Пока люди являются механо-расой, не отображается кнопка "социум" в режиме поселения. Не особо она и нужна.
-- Редкий баг, красные ошибки при попытке колонистов общаться с конкретным поселенцем. Вероятная причина - пережитая им потеря сознания, в сочетании с версией 0.2.6а. Я решал так - загрузил игру только с модом 18plus, дождался общения колониста, и переключился обратно на мод 7plus.
+- Редкий баг, красные ошибки при попытке колонистов общаться с конкретным поселенцем. Вероятная причина - пережитая им потеря сознания или миссия за пределами поселения, в сочетании с версией 0.2.6а. Я решал так - загрузил игру только с модом 18plus, дождался общения колониста, и переключился обратно на мод 7plus.
 - Пока люди являются механо-расой, захватывать пленников стало гораздо сложнее. У кого совсем не получается - напишите, намекну.
 - Пока люди являются механо-расой, побег пленников - это проблема. Тоже есть пара решений, кому интересно.
 
@@ -145,7 +145,7 @@ Known errors:
 New game bug - the easiest solution is to start game with 18plus mod, save. Then run 7plus mod instead and load the game.  
 Healing bug - you can bypass it via "save-load" or installing surgery mods. Or more easily - choose developer mode - open debug actions tool - see group "Tools-Pawns" - button "T: Remove Hediff" - click at the wounded pawn - choose wounds to delete.
 - While humanoids are mechanical, the "Social" button is usually hidden. This button is not extremely nessesary.
-- A rare bug, red errors when people are trying to communicate with a certain colonists. The probable cause is the loss of consciousness he experienced, when 7plus v0.2.6a installed. I decided this way - load game with the only 18plus mod, waited for the colonist to communicate, and switched back to the 7 plus mod.
+- A rare bug, red errors when people are trying to communicate with a certain colonists. The probable cause is the loss of consciousness he experienced, or mission outside the settlement, when 7plus v0.2.6a installed. I solved this way - load game with the only 18plus mod, waited for the colonist to communicate, and switched back to the 7 plus mod.
 - While humanoids are a mechanical, capturing prisoners has become much more difficult. If you can't do it at all, write me for a hint.
 - While humanoids are a mechanical, prisoner's escape is a problem. There are also a couple of solutions for those who are interested.
 
