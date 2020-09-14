@@ -20,7 +20,7 @@
   <!-- EN: A shuttle has arrived to collect the laborers from [permitFaction_name]. -->
   <Permit_CallLaborers.LetterTextShuttleArrivedForLaborers.slateRef>Прибыл челнок, чтобы забрать рабочих из фракции [permitFaction_name].</Permit_CallLaborers.LetterTextShuttleArrivedForLaborers.slateRef>
   <!-- EN: Laborer died: {SUBJECT_definite} -->
-  <Permit_CallLaborers.LetterLabelLaborerDied.slateRef>Рабочий умер: {SUBJECT_definite}</Permit_CallLaborers.LetterLabelLaborerDied.slateRef>
+  <Permit_CallLaborers.LetterLabelLaborerDied.slateRef>Рабочий потерян: {SUBJECT_definite}</Permit_CallLaborers.LetterLabelLaborerDied.slateRef>
   <!-- EN: A laborer sent to you by [permitFaction_name] has died. Your goodwill with [permitFaction_name] has fallen by [goodwillPenaltyPawn]. -->
   <Permit_CallLaborers.LetterTextLaborerDied.slateRef>Рабочий, отправленный к вам фракцией [permitFaction_name], потерян. Ваша репутация у фракции [permitFaction_name] ухудшилась на [goodwillPenaltyPawn].</Permit_CallLaborers.LetterTextLaborerDied.slateRef>
   <!-- EN: laborers missed shuttle -->
