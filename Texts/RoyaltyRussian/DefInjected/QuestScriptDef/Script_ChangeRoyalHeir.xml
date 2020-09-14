@@ -24,11 +24,11 @@
   <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but did not build the monument within the prescribed time.\n\nYou lost 25 goodwill with [asker_faction_name]. -->
   <ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>[asker_nameDef] [asker_offended] тем, что вы пообещали увековечить нового наследника титула, но не построили монумент в обозначенный срок.\n\nВы потеряли 25 репутации у фракции [asker_faction_name]</ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>
   <!-- EN: Title holder died: {SUBJECT_definite} -->
-  <ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>Владелец титула умер: {SUBJECT_definite}</ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>
+  <ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>Владелец титула потерян: {SUBJECT_definite}</ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>
   <!-- EN: {SUBJECT_definite}, whose heir was in the process of being changed, has died. -->
   <ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>{SUBJECT_definite}, у {SUBJECT_gender ? которого : которой} менялся наследник, {SUBJECT_gender ? проиграл : проиграла}.</ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>
   <!-- EN: Designated heir died: {SUBJECT_definite} -->
-  <ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>Назначенный наследник умер: {SUBJECT_definite}</ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>
+  <ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>Назначенный наследник потерян: {SUBJECT_definite}</ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>
   <!-- EN: {SUBJECT_definite}, who was supposed to become heir to a title, has died. -->
   <ChangeRoyalHeir.LetterTextDesignatedHeirDied.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? который : которая} {SUBJECT_gender ? должен : должна} {SUBJECT_gender ? был : была} стать {SUBJECT_gender ? наследником : наследницей}, {SUBJECT_gender ? проиграл : проиграла}.</ChangeRoyalHeir.LetterTextDesignatedHeirDied.slateRef>
   <!-- EN: Monument destroyed -->
