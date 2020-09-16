@@ -2,6 +2,8 @@ For English, scroll down.
 
 История изменений мода 7plus для Rimworld.
 
+2020-09-16 отлов багов.
+
 2020-09-14 апдейт к официальному переводу от 2020-09-11. Ведётся тестирование.
 
 2020-09-05 апдейт к дополнению Royalty.
@@ -48,7 +50,9 @@ For English, scroll down.
 
 Changelog for Rimworld 1.2. 7plus modification.
 
-2020-sep-14 mod update to official russian translation v.2020sep11. Testing is in process.
+2020-sep-16 bugfix.
+
+2020-sep-14 mod update to official russian translation v.2020sep11. Testing...
 
 2020-sep-05 mod update to Royalty expansion.
 
