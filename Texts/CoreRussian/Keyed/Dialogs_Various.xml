@@ -367,7 +367,7 @@
   <!-- EN: Nutrition need per day -->
   <NutritationEatenPerDay>Требуется еды в день</NutritationEatenPerDay>
   <!-- EN: Leather type -->
-  <LeatherType>Тип шкуры</LeatherType>
+  <LeatherType>Источник текстильного ресурса</LeatherType>
   <!-- EN: Body size -->
   <BodySize>Размер тела</BodySize>
   <!-- EN: Recruit difficulty -->
