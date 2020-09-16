@@ -20,7 +20,7 @@
 
 Этот простой xml-мод отключает самые жёсткие аспекты, чтобы дети от 7 лет могли играть в Римворлд, не получая психологических травм. Подробности в файле changelog.
 
-Проверено на Римворлде v1.2.2723 rev.655 с официальным русским переводом от 30.08.2020. Текущая версия 7plus мода: v0.2.6а rev.2020.09.14.
+Проверено на Римворлде v1.2.2753 rev.705 с официальным русским переводом от 11.09.2020. Текущая версия 7plus мода: v0.2.6а rev.2020.09.16.
 
 =====
 
@@ -55,13 +55,14 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty/
 Известные ошибки:
 
 - При запуске игры 3 красные ошибки про пироманов. Не обращайте внимания, это значит что пироманы не сгенерятся в игре.
-- Жёлтая ошибка о 25 translation errors. Не обращайте внимания, это из-за отключенных трейтов.
+- Жёлтая ошибка о 24 translation errors. Не обращайте внимания, это из-за отключенных трейтов.
 - Когда игра пытается сгенерить новую пешку с отключенными трейтами, например когда начинаешь новую игру или при событии "Налёт", - выходят по 3 красные ошибки на пешку. Не обращайте внимания. Разве что читерам будет неудобно рероллить.
 - Изредка при начале новой игры генерятся всего пара городов на планете. Ерунда, переначните с новым зерном.
 - Ради выпуска альфа-версии, люди временно превращены в механо-расу. Минусы: не начинается новая игра стандартным способом, и другие гуманоиды кроме начальных почти не будут появляться. Люди не могут лечиться. Плюсы: нет дебафа от мокрой одежды, нет кровотечений, гниющих тел. - Пусть детишки пока обучаются основной механике игры, пока я допишу мод. Сражения и так будут, проверено.
 Обход бага новой игры: проще всего - начать с модом 18plus, сохраниться. Затем запустить вместо него мод 7plus и загрузить игру.
 Обойти баг лечения можно загрузкой сейвов или модами на хирургию. Ещё проще - в режиме разработчика - open debug actions tool - в группе "Tools-Pawns" - T:Remove Hediff - ткнуть на раненого, выбрать раны для удаления.
 - Пока люди являются механо-расой, не отображается кнопка "социум" в режиме поселения. Не особо она и нужна.
+- Пока люди являются механо-расой, не завершается свадьба. Обход бага - при начале церемонии сохраниться, загрузить игру с модом 18plus, дождаться когда колонисты начнут отмечать событие, и перезапустить игру с модом 7plus.
 - Редкий баг, красные ошибки при попытке колонистов общаться с конкретным поселенцем. Вероятная причина - пережитая им потеря сознания или миссия за пределами поселения, в сочетании с версией 0.2.6а. Я решал так - загрузил игру только с модом 18plus, дождался общения колониста, и переключился обратно на мод 7plus.
 - Пока люди являются механо-расой, захватывать пленников стало гораздо сложнее. У кого совсем не получается - напишите, намекну.
 - Пока люди являются механо-расой, побег пленников - это проблема. Тоже есть пара решений, кому интересно.
@@ -76,7 +77,6 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty/
 =====
 
 Что нужно сделать в следующей версии:
-- Удалить "Тип шкуры" для людей.
 - Удалить строку "Питательность" для гуманоидного тела. В версии 0.2.6a временное решение - обнулено значение питательности.
 - Исправить все тексты, даже те которые не должны появиться (на всякий случай). Ведётся поиск.
 - Исправить стилистику в предысториях.
@@ -104,7 +104,7 @@ What The Mod Does:
 
 This simple xml mod turns off the most hardcore aspects in order to allow 7+ aged children play Rimworld, without getting psychological trauma. For details, see changelog file.
 
-Tested with game v1.2.2723 rev.655 with official russian traslation v.30aug2020. Current 7plus mod version 0.2.6а rev.2020.09.14.
+Tested with game v1.2.2753 rev.705 with official russian traslation v.11sep2020. Current 7plus mod version 0.2.6а rev.2020.09.16.
 
 =====
 
@@ -138,13 +138,14 @@ It's better to start a new game. However, old games are playable too. You should
 Known errors:
 
 - 3 red errors after game launches. These are about pyromaniacs. Means that they won't generate automatically. Just ignore.
-- 25 yellow translation errors. These are about removed traits. Just ignore.
+- 24 yellow translation errors. These are about removed traits. Just ignore.
 - When the games tries to generate pawn with removed trait, for example, during starting new game or calculating Raid incident, you can see 3 red errors per pawn. Ignore, it is too rare. Cheaters, stop use the pawn rerolling too much! ;)
 - Sometimes starting new game, you see just few towns. Restart game with another seed, it's a very rare error.
 - For compilation of the alpha version, Humans were temporarily transformed into a mechanical race. Cons: you cannot start new game just clicking the button. Other humanoids except the initial ones will almost not appear. People can't be healed. Pros: no debuff from wet clothes, no bleeding, no rotting bodies. - Let your kids learn the basic mechanics of the game, while I finish the mod. Battles will be anyway.
-New game bug - the easiest solution is to start game with 18plus mod, save. Then run 7plus mod instead and load the game.  
+New game bug - the easiest solution is to start game with 18plus mod, save. Then run 7plus mod instead and load the game.
 Healing bug - you can bypass it via "save-load" or installing surgery mods. Or more easily - choose developer mode - open debug actions tool - see group "Tools-Pawns" - button "T: Remove Hediff" - click at the wounded pawn - choose wounds to delete.
 - While humanoids are mechanical, the "Social" button is usually hidden. This button is not extremely nessesary.
+- While humanoids are mechanical, the "Wedding" ceremony cannot finish automatically. The solution is to save game, load with 18plus mod. When the ceremony finished, restart game with 7plus mod.
 - A rare bug, red errors when people are trying to communicate with a certain colonists. The probable cause is the loss of consciousness he experienced, or mission outside the settlement, when 7plus v0.2.6a installed. I solved this way - load game with the only 18plus mod, waited for the colonist to communicate, and switched back to the 7 plus mod.
 - While humanoids are a mechanical, capturing prisoners has become much more difficult. If you can't do it at all, write me for a hint.
 - While humanoids are a mechanical, prisoner's escape is a problem. There are also a couple of solutions for those who are interested.
@@ -159,7 +160,6 @@ In fact, v0.2.6a changes the lore as follows: colonists land on a habitable, but
 =====
 
 Ideas to realize in next version:
-- to delete "Pelt type" for humanlikes.
 - to delete "Nutrition" string for human body. Since version 0.2.6a, temporary solution - the amount of nutrition was zeroed.
 - to correct all texts, even improbable, as a precaution. Searching...
 - to correct some grammar in backstories file.
