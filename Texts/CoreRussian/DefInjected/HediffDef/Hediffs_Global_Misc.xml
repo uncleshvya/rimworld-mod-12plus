@@ -15,7 +15,7 @@
   <!-- EN: blood loss -->
   <BloodLoss.label>потеря крови</BloodLoss.label>
   <!-- EN: A reduction in the normal blood volume. Minor blood loss has relatively mild effects, but when blood loss becomes severe, oxygen transport becomes badly impaired and the victim loses the ability to move. Extreme blood loss leads to death.\n\nBlood loss naturally recovers over time as the body slowly regenerates its blood supply. -->
-  <BloodLoss.description>Небольшое снижение объёма крови не вызывает значительного эффекта. Серьёзная же кровопотеря приводит к проблемам с доставкой кислорода, что влечёт потерю способности к передвижению. Если кровь кончится, мы потеряем поселенца.\n\nЕсли кровотечение остановлено, утраченный объём постепенно восстановится.</BloodLoss.description>
+  <BloodLoss.description>Небольшое снижение объёма крови не вызывает значительного эффекта. Серьёзная же кровопотеря приводит к проблемам с доставкой кислорода, что влечёт потерю способности к передвижению. Если кровь кончится, существо будет потеряно.\n\nЕсли кровотечение остановлено, утраченный объём постепенно восстановится.</BloodLoss.description>
   <!-- EN: minor -->
   <BloodLoss.stages.minor-0.label>слабая</BloodLoss.stages.minor-0.label>
   <!-- EN: minor -->
