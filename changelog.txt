@@ -2,7 +2,7 @@ For English, scroll down.
 
 История изменений мода 7plus для Rimworld.
 
-2020-09-16 отлов багов.
+2020-09-19 отлов багов.
 
 2020-09-14 апдейт к официальному переводу от 2020-09-11. Ведётся тестирование.
 
@@ -50,7 +50,7 @@ For English, scroll down.
 
 Changelog for Rimworld 1.2. 7plus modification.
 
-2020-sep-16 bugfix.
+2020-sep-19 bugfix.
 
 2020-sep-14 mod update to official russian translation v.2020sep11. Testing...
 
