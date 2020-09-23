@@ -2,7 +2,9 @@ For English, scroll down.
 
 История изменений мода 7plus для Rimworld.
 
-2020-09-22 придумана возможность отключить подкормку животных человечиной. Ведётся апдейт до версии мода 0.2.8a.
+2020-09-24 отключена возможность инцеста. Скомпилирована версия мода 0.2.9beta, идёт тестирование.
+
+2020-09-23 отключена возможность подкормки животных человечиной.
 
 2020-09-21 отключена возможность человеческого каннибализма.
 
@@ -24,7 +26,7 @@ For English, scroll down.
 
 2019-11-16 убраны человечина и человеческая кожа. Отключена разделка гуманоидов.
 
-2019-11-15 тексты с упоминаниями о сексе и каннибализме заменены на нейтральные.
+2019-11-15 тексты с рекламой секса и каннибализма заменены на нейтральные.
 
 2019-11-14 добавлена картинка в описание. Спасибо фотографу milatiger.
 
@@ -40,7 +42,9 @@ For English, scroll down.
 
 Changelog for Rimworld 1.2. 7plus modification.
 
-2020-sep-22 invented idea how to turn off the ability to feed predators with human meat and corpses. Mod v.0.2.8a updating...
+2020-sep-24 removed incestous ability. Mod v.0.2.9beta compiled. Testing...
+
+2020-sep-23 removed the ability to feed predators with human meat and corpses.
 
 2020-sep-21 removed humans' cannibalism for everyone.
 
@@ -62,7 +66,7 @@ Changelog for Rimworld 1.2. 7plus modification.
 
 2019-nov-16 human flesh and human skin removed. Humanlike butchery removed.
 
-2019-nov-15 texts with sex and cannibalism were replaced with neutral ones.
+2019-nov-15 texts with advertisment about sexuality, porno and cannibalism were replaced with neutral ones.
 
 2019-nov-14 description picture added. Thanks to the photographer milatiger. 
 
