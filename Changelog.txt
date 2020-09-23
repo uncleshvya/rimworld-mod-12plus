@@ -44,13 +44,11 @@ Changelog for Rimworld 1.2. 7plus modification.
 
 2020-sep-19 update to official Russian translation v.2020sep15. Testing...
 
-2020-sep-05 mod update to Royalty expansion.
-
-2020-sep-03 "corpse" script updated. Mod version 0.2.6a compiled. Update finished. Support for RimWorld v.1.0 was paused until asked.
+2020-sep-05 update to RW v.1.2 with Royalty finished. Support for RimWorld v.1.0 was paused until asked.
 
 2020-aug-17 "Asexual" and "Bisexual" traits turned off.
 
-2020-aug-09 hardcode bug detected. Cause - hidden "Bisexual" trait. Mod updating to RW v.1.2 began. Thanks to player leon_111 for inspiration.
+2020-aug-09 hardcode bug detected in RW v.1.0. Cause - hidden "Bisexual" trait. Mod updating to RW v.1.2 began. Thanks to player leon_111 for inspiration.
 
 2019-nov-28 test a compatibility with Zetrith's Multiplayer mod, LAN game. Thanks to player Ame for the link.
 
