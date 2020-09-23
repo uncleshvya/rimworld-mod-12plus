@@ -47,9 +47,9 @@
   <LeatherAmount.description>Получаемое количество шкуры в случае забоя животного.</LeatherAmount.description>
   
   <!-- EN: meat amount -->
-  <MeatAmount.label>количество мяса</MeatAmount.label>
+  <MeatAmount.label>источник органического ресурса</MeatAmount.label>
   <!-- EN: The amount of meat yielded when butchering this creature. -->
-  <MeatAmount.description>Получаемое количество мяса в случае забоя животного.</MeatAmount.description>
+  <MeatAmount.description>Получаемое количество органических ресурсов с существа.</MeatAmount.description>
   
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>порог нервного срыва</MentalBreakThreshold.label>
