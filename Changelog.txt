@@ -2,6 +2,8 @@ For English, scroll down.
 
 История изменений мода 7plus для Rimworld.
 
+2020-09-20 найдено нормальное решение взамен костыля с механо-расой. Ведётся апдейт.
+
 2020-09-19 апдейт к официальному переводу от 2020-09-15. Ведётся тестирование.
 
 2020-09-05 апдейт к дополнению Royalty.
@@ -47,6 +49,8 @@ For English, scroll down.
 =====
 
 Changelog for Rimworld 1.2. 7plus modification.
+
+2020-sep-20 "race" script invented. Updating...
 
 2020-sep-19 update to official Russian translation v.2020sep15. Testing...
 
