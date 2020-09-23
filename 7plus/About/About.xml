@@ -83,7 +83,7 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty/
 - Исправить стилистику в предысториях.
 - Удалить возможность кровосмешения. Пока не придумал как, есть только направление - при наличии родства уменьшать значение RomanceChanceFactor. Как временное решение - вручную удалять кровное родство среди своих пешек и пленников. Делается так же как в видео-инструкции "Rimworld удалить trait", только очищать внутри тега "social". Нужно удалять у обоих родственников. Кстати, в версии 0.2.6а случайно образовалось временное решение - пропал обычный доступ к вкладке "социум".
 - Удалить возможность Affair, интрижки.
-- Прикрутить файлы перевода через мод, а не через правку ядра. Инструкция из файла readme не работает или работает нестабильно.
+- Прикрутить файлы перевода через мод, а не через перезапись официального перевода.
 
 =====
 
@@ -167,7 +167,7 @@ Ideas to realize in next version:
 - to correct some grammar in backstories file.
 - to eliminate incestuous script. As a temporary solution, manually delete real kinship in savegame file, for your colonists and prisoners: search the name of pawn, scroll down, and clean inside "social" tag. The same for relative pawn. By the way, v0.2.6a granted us a temporary solution - the "Social" button is usually hidden. 
 - to eliminate Affair script.
-- to realize "Languages" folder for this mod. Instructions from "readme.txt" do not work properly.
+- to realize "Languages" folder patching for this mod, without manually replacing.
 
 =====
 
