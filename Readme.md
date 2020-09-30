@@ -7,7 +7,7 @@ For English, scroll below.
 Инструкция по установке: 
 
 - качаете репозиторий или файл "Download 7plus mod (latest).zip".
-- оттуда папки "7plus" и "18plus" скопировать в папку "Mods".
+- оттуда папку "7plus" скопировать в папку "Mods".
 - содержимое папки "texts" переместить в соответствующие папки "Data\Core\Languages\Russian\" и "Data\Royalty\Languages\Russian\" с перезаписью файлов. 
 - не используйте авто-обновление русского языка от официального переводчика, пока я не напишу скрипт!
 - если устанавливаете новую версию 7plus мода, для начала удалите старые версии из папки "Mods".
@@ -17,7 +17,7 @@ Simple xml mod turns off the most hardcore aspects in order to allow 7+ aged chi
 
 How to install:
 - download the repository or "Download 7plus mod (latest).zip" file.
-- copy "7plus" and "18plus" folders into "Mods" folder.
+- copy "7plus" folder into "Mods" folder.
 - all from "texts" move to proper "Data\Core\Languages\Russian\" and "Data\Royalty\Languages\Russian\" folders, overwrite files.
 - do not use auto-script from official Russian translator's site! I'm working on it.
 - before updating 7plus mod, delete old folders.
