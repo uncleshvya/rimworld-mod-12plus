@@ -9,9 +9,9 @@ For English, scroll below.
 - качаете репозиторий или файл "Download 7plus mod (latest).zip".
 - оттуда папку "7plus" скопировать в папку "Mods".
 - содержимое папки "texts" переместить в соответствующие папки с перезаписью файлов:
-"...Data\Core\Languages\Russian\"
-"...Data\Royalty\Languages\Russian\"
-"...Mods\HumanoidAlienRaces\Languages\Russian"
+1. "...Data\Core\Languages\Russian\"
+2. "...Data\Royalty\Languages\Russian\"
+3. "...Mods\HumanoidAlienRaces\Languages\Russian"
 - не используйте авто-обновление русского языка от официального переводчика, пока я не напишу скрипт!
 - если устанавливаете новую версию 7plus мода, для начала удалите старые версии из папки "Mods".
 - по желанию, из папки RimWorldUniverse возьмите адаптированный текстовый файл.
