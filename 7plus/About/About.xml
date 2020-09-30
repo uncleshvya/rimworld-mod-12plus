@@ -49,7 +49,7 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty/
 
 Известные ошибки:
 
-- Все исправлены.
+- Все исправлены. Идёт бета-тестирование.
 
 =====
 
@@ -60,17 +60,9 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty/
 
 =====
 
-У кого есть новые концепции, а особенно - решения, просьба сообщить:
-uncleshvya@yandex.ru
-Будет время - отвечу.
-
-=====
-
 7plus mod for Rimworld. Sorry for my English, i compiled this file for multilingual families.
 
-"Dedicated to all parents playing Rimworld"
-
-- Uncle_Shvya
+Dedicated to all parents playing Rimworld
 
 =====
 
@@ -78,7 +70,7 @@ What The Mod Does:
 
 This simple xml mod turns off the most hardcore aspects in order to allow 7+ aged children play Rimworld, without getting psychological trauma. For details, see changelog file.
 
-Tested with game v1.2.2753 rev.705 with official russian traslation v.2020-sep-15. Current 7plus mod version 0.2.6а rev.2020.09.19.
+Tested with game v1.2.2753 rev.705 with official russian traslation v.2020-sep-15. Current 7plus mod version 0.3.0beta rev.2020.09.30.
 
 =====
 
@@ -89,64 +81,35 @@ modpack http://lttlword.ru/rimworld-minimalism-v1-1
 modpack http://lttlword.ru/rimworld-sborka-modov-ot-lalks-i-pal
 multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty/
 
-This mod is not compatible with "Psychology", "Rational Romance" or any other mods altering RimWorld's romance systems. Version 0.2.6a (and older one) is incompatible with mods for new races.
-
-=====
-
-How to install: folders "7plus" and "18plus" copy into "Mods" folder, and all from "texts" move to proper "Data\Core\Languages\Russian\" and "Data\Royalty\Languages\Russian\" folders, overwrite files. If you are updating new version of 7plus mod, first delete old mod folders.
+Not compatible with "Psychology", "Rational Romance" or any other mods altering RimWorld's romance systems.
+For now, not compatible with mods for new races, animals, butchering tables and stoves. But i can do the compatibility, just mail to me mailto:uncleshvya@yandex.ru I'll answer as fast as possible.
+Not compatible with Mehni.Numbers mod. It's an extreme pity. I'm working on it.
 
 =====
 
 Order:
 
-Usually i move 7plus mod to the end of list.
+Usually i put 7plus mod to the end of list.
 
 =====
 
 New game:
 
-It's better to start a new game. However, old games are playable too. You should manually delete unwanted traits (see changelog file). There are a lot of video lessons in www, search the string "Rimworld delete trait".
+It's better to start a new game. However, old games are playable too. You should manually delete unwanted traits (see changelog file). There are a lot of video lessons in www, search the string "Rimworld delete trait". Be carefull, delete all 6 unwanted traits from savefile, and delete old saves.
 
 =====
 
 Known errors:
 
-- 3 red errors after game launch. These are about pyromaniacs. Mean that they won't generate automatically. Just ignore.
-- 24 yellow translation errors. These are about removed traits. Just ignore.
-- When the games tries to generate pawn with removed trait, for example, during starting new game or calculating Raid incident, you can see 3 red errors per pawn. Just ignore. Cheaters, stop use the pawn rerolling too much! ;)
-- Sometimes starting new game, you see just few towns. Restart game with another seed, it's a very rare error.
-- For compilation of the alpha version, Humans were temporarily transformed into a mechanical race. Cons: you cannot start new game just clicking the button. Other humanoids except the initial ones will almost not appear. People can't be healed. Pros: no debuff from wet clothes, no bleeding, no rotting bodies. - Let your kids learn the basic mechanics of the game, while I finish the mod. Battles will be anyway.
-New game bug - the easiest solution is to start game with 18plus mod, save. Then run 7plus mod instead and load the game.
-Healing bug - you can bypass it via "save-load" or installing surgery mods. Or more easily - choose developer mode - open debug actions tool - see group "Tools-Pawns" - button "T: Remove Hediff" - click the wounded pawn - choose wounds to delete.
-- While humanoids are mechanical, the "Social" button is usually hidden. This button is not extremely nessesary.
-- While humanoids are mechanical, the "Wedding" ceremony cannot finish automatically. The solution is to save game, load with 18plus mod. When the ceremony finished, restart game with 7plus mod.
-- While humanoids are a mechanical, prisoner capture has become much more difficult. If you can't do it at all, write me for a hint.
-- While humanoids are a mechanical, prisoner escape is a problem. There are some solutions for those who are interested.
-- Rare bug, red errors when people are trying to communicate with a certain pawn. The probable cause is the loss of consciousness he/she experienced, or mission outside the settlement. I solved this way - load game with the only 18plus mod, waited for the colonist to communicate, and switched back to the 7 plus mod.
-- Rare bug, when u save game during a party, loading this saved game will cause a red error. Just ignore.
-		
-During network game with Zetrith's Multiplayer mod:
-- Desync after healing via developer mode. The solution is to reconnect the client.
-
-=====
-
-In fact, v0.2.6a changes the lore as follows: colonists land on a habitable, but unpopulated planet. Since this is a strongly possible situation in the universe of 6th millennium, I've created a scenario for this occasion. To use it, copy the Scenarios folder from the mod distribution to savefolder. It can be opened from main menu - Options - Open save data folder.
+- All fixed. Testing...
 
 =====
 
 Ideas to realize in next version:
-- to delete "Nutrition" string for human body. Since version 0.2.6a, temporary solution - the amount of nutrition was zeroed.
 - to correct all texts, even improbable, as a precaution. Searching...
 - to correct some grammar in backstories file.
-- to eliminate incestuous script. As a temporary solution, manually delete real kinship in savegame file, for your colonists and prisoners: search the name of pawn, scroll down, and clean inside "social" tag. The same for relative pawn. By the way, v0.2.6a granted us a temporary solution - the "Social" button is usually hidden. 
 - to eliminate Affair script.
-- to realize "Languages" folder patching for this mod, without manually replacing.
-
-=====
-
-If you have any (helpful) suggestions for improvement, please let me know:
-uncleshvya@yandex.ru
-i'll answer as fast as possible.
+- to realize "Languages" folder via patching, without manually replacing. Or to modify auto-script from official Russian translator's site.
 	</description>
 
 </ModMetaData>
