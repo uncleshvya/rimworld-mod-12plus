@@ -8,7 +8,10 @@ For English, scroll below.
 
 - качаете репозиторий или файл "Download 7plus mod (latest).zip".
 - оттуда папку "7plus" скопировать в папку "Mods".
-- содержимое папки "texts" переместить в соответствующие папки "Data\Core\Languages\Russian\" и "Data\Royalty\Languages\Russian\" с перезаписью файлов. 
+- содержимое папки "texts" переместить в соответствующие папки с перезаписью файлов:
+"...Data\Core\Languages\Russian\"
+"...Data\Royalty\Languages\Russian\"
+"...Mods\HumanoidAlienRaces\Languages\Russian"
 - не используйте авто-обновление русского языка от официального переводчика, пока я не напишу скрипт!
 - если устанавливаете новую версию 7plus мода, для начала удалите старые версии из папки "Mods".
 - по желанию, из папки RimWorldUniverse возьмите адаптированный текстовый файл.
@@ -18,7 +21,10 @@ Simple xml mod turns off the most hardcore aspects in order to allow 7+ aged chi
 How to install:
 - download the repository or "Download 7plus mod (latest).zip" file.
 - copy "7plus" folder into "Mods" folder.
-- all from "texts" move to proper "Data\Core\Languages\Russian\" and "Data\Royalty\Languages\Russian\" folders, overwrite files.
+- all from "texts" move to proper folders, overwrite files:
+"...Data\Core\Languages\Russian\"
+"...Data\Royalty\Languages\Russian\"
+"...Mods\HumanoidAlienRaces\Languages\Russian"
 - do not use auto-script from official Russian translator's site! I'm working on it.
 - before updating 7plus mod, delete old version.
 - if necessary, update txt file from RimWorldUniverse folder.
