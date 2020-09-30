@@ -27,7 +27,9 @@
 Целью является сделать играбельными моды типа этих:
 modpack http://lttlword.ru/rimworld-minimalism-v1-1
 modpack http://lttlword.ru/rimworld-sborka-modov-ot-lalks-i-pal
-multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty/
+multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
+
+Если вдруг мод не понравился, просто отключите его. Сейвы не пострадают.
 
 Несовместим с модами "Psychology", "Rational Romance" и другими, меняющими отношения между полами.
 Пока несовместим с модами на новые расы, животных, кухонные верстаки. Но если будут желающие, я добавлю совместимость, пишите.
@@ -43,7 +45,7 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty/
 
 Новая игра:
 
-Желательна, но необязательна - в этом случае надо вручную удалить нежелательные трейты из файла changelog. В интернете куча видео-инструкций, поищите строку "Rimworld удалить trait". Только будьте внимательны, тщательно удалите из файла сохранения все 6 нежелательных трейтов, и удалите все старые сохранения.
+Желательна, но необязательна - в этом случае надо вручную удалить нежелательные трейты из файла changelog. В интернете куча видео-инструкций, поищите строку "Rimworld удалить trait". Только будьте внимательны, тщательно удалите из rws-файла все 6 нежелательных трейтов, и удалите все старые сохранения.
 
 =====
 
@@ -53,10 +55,12 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty/
 
 =====
 
+Что нужног сделать в следующей версии:
+
 - Исправить все тексты, даже те которые не должны появиться (на всякий случай). Ведётся поиск.
 - Исправить стилистику в предысториях.
 - Удалить возможность Affair, интрижки.
-- Прикрутить файлы перевода через патч, а не через перезапись официального перевода. Возможно, написать скрипт, аналогично как у офиициального переводчика.
+- Прикрутить перевод через патч, а не через перезапись файлов. Возможно, написать скрипт, аналогично как у официального переводчика.
 
 =====
 
@@ -81,6 +85,8 @@ modpack http://lttlword.ru/rimworld-minimalism-v1-1
 modpack http://lttlword.ru/rimworld-sborka-modov-ot-lalks-i-pal
 multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty/
 
+If you don't like the mod, just turn it off. Saves will be playable.
+
 Not compatible with "Psychology", "Rational Romance" or any other mods altering RimWorld's romance systems.
 For now, not compatible with mods for new races, animals, butchering tables and stoves. But i can do the compatibility, just mail to me mailto:uncleshvya@yandex.ru I'll answer as fast as possible.
 Not compatible with Mehni.Numbers mod. It's an extreme pity. I'm working on it.
@@ -95,7 +101,7 @@ Usually i put 7plus mod to the end of list.
 
 New game:
 
-It's better to start a new game. However, old games are playable too. You should manually delete unwanted traits (see changelog file). There are a lot of video lessons in www, search the string "Rimworld delete trait". Be carefull, delete all 6 unwanted traits from savefile, and delete old saves.
+It's better to start a new game. However, old games are playable too. You should manually delete unwanted traits (see changelog file). There are a lot of video lessons in www, search the string "Rimworld delete trait". Be carefull, delete all 6 unwanted traits from .rws file, and delete old saves.
 
 =====
 
