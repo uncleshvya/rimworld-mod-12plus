@@ -34,7 +34,8 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 Несовместим с модами "Psychology", "Rational Romance" и другими, меняющими отношения между полами.
 Пока несовместим с модами на новые расы, животных, кухонные верстаки. Но если будут желающие, я добавлю совместимость, пишите.
 Несовместим с модом Numbers. Ужасно жаль, я работаю над этим.
-
+Не совместим с авто-обновлением русского языка от официального переводчика. Я работаю над этим.
+	
 =====
 
 Порядок модов:
@@ -55,12 +56,12 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 
 =====
 
-Что нужног сделать в следующей версии:
+Что нужно сделать в следующей версии:
 
 - Исправить все тексты, даже те которые не должны появиться (на всякий случай). Ведётся поиск.
 - Исправить стилистику в предысториях.
 - Удалить возможность Affair, интрижки.
-- Прикрутить перевод через патч, а не через перезапись файлов. Возможно, написать скрипт, аналогично как у официального переводчика.
+- Прикрутить перевод через патч, а не через перезапись файлов. Возможно, написать скрипт, аналогично как у официального переводчика, только отслеживающий несовпадение файлов перевода и наличие файла скриптов.
 
 =====
 
@@ -90,7 +91,8 @@ If you don't like the mod, just turn it off. Saves will be playable.
 Not compatible with "Psychology", "Rational Romance" or any other mods altering RimWorld's romance systems.
 For now, not compatible with mods for new races, animals, butchering tables and stoves. But i can do the compatibility, just mail to me mailto:uncleshvya@yandex.ru I'll answer as fast as possible.
 Not compatible with Mehni.Numbers mod. It's an extreme pity. I'm working on it.
-
+Not compatible with auto-script from official Russian translator's site. I'm working on it.
+		
 =====
 
 Order:
@@ -115,7 +117,7 @@ Ideas to realize in next version:
 - to correct all texts, even improbable, as a precaution. Searching...
 - to correct some grammar in backstories file.
 - to eliminate Affair script.
-- to realize "Languages" folder via patching, without manually replacing. Or to modify auto-script from official Russian translator's site.
+- to realize "Languages" folder via patching, without manually replacing. Or to modify auto-script from official Russian translator's site. And to add a watchdog script to eliminate an occasional translation mismatch and/or automation.
 	</description>
 
 </ModMetaData>
