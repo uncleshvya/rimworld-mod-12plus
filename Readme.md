@@ -22,9 +22,9 @@ How to install:
 - download the repository or "Download 7plus mod (latest).zip" file.
 - copy "7plus" folder into "Mods" folder.
 - all from "texts" move to proper folders, overwrite files:
-"...Data\Core\Languages\Russian\"
-"...Data\Royalty\Languages\Russian\"
-"...Mods\HumanoidAlienRaces\Languages\Russian"
+1. "...Data\Core\Languages\Russian\"
+2. "...Data\Royalty\Languages\Russian\"
+3. "...Mods\HumanoidAlienRaces\Languages\Russian"
 - do not use auto-script from official Russian translator's site! I'm working on it.
 - before updating 7plus mod, delete old version.
 - if necessary, update txt file from RimWorldUniverse folder.
