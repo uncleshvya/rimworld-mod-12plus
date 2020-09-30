@@ -119,5 +119,17 @@ Ideas to realize in next version:
 - to eliminate Affair script.
 - to realize "Languages" folder via patching, without manually replacing. Or to modify auto-script from official Russian translator's site. And to add a watchdog script to eliminate an occasional translation mismatch and/or automation.
 	</description>
-
+	<modDependencies>
+		<li>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Races 2.0</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadBefore>
+	</loadBefore>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>erdelf.HumanoidAlienRaces</li>
+	</loadAfter>
 </ModMetaData>
