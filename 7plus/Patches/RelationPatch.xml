@@ -2,132 +2,106 @@
 
 <Patch>
 
-	<Operation Class="PatchOperationReplace">
+	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
-		<xpath>Defs/PawnRelationDef[defName = "Parent"]/romanceChanceFactor</xpath>
-		<value>
-			<romanceChanceFactor>0</romanceChanceFactor>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/PawnRelationDef[defName = "Child"]/romanceChanceFactor</xpath>
-		<value>
-			<romanceChanceFactor>0</romanceChanceFactor>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/PawnRelationDef[defName = "Sibling"]/romanceChanceFactor</xpath>
-		<value>
-			<romanceChanceFactor>0</romanceChanceFactor>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/PawnRelationDef[defName = "HalfSibling"]/romanceChanceFactor</xpath>
-		<value>
-			<romanceChanceFactor>0</romanceChanceFactor>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/PawnRelationDef[defName = "Grandparent"]/romanceChanceFactor</xpath>
-		<value>
-			<romanceChanceFactor>0</romanceChanceFactor>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/PawnRelationDef[defName = "Grandchild"]/romanceChanceFactor</xpath>
-		<value>
-			<romanceChanceFactor>0</romanceChanceFactor>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/PawnRelationDef[defName = "NephewOrNiece"]/romanceChanceFactor</xpath>
-		<value>
-			<romanceChanceFactor>0</romanceChanceFactor>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/PawnRelationDef[defName = "UncleOrAunt"]/romanceChanceFactor</xpath>
-		<value>
-			<romanceChanceFactor>0</romanceChanceFactor>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/PawnRelationDef[defName = "Cousin"]/romanceChanceFactor</xpath>
-		<value>
-			<romanceChanceFactor>0</romanceChanceFactor>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/PawnRelationDef[defName = "GreatGrandparent"]/romanceChanceFactor</xpath>
-		<value>
-			<romanceChanceFactor>0</romanceChanceFactor>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/PawnRelationDef[defName = "GreatGrandchild"]/romanceChanceFactor</xpath>
-		<value>
-			<romanceChanceFactor>0</romanceChanceFactor>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/PawnRelationDef[defName = "GranduncleOrGrandaunt"]/romanceChanceFactor</xpath>
-		<value>
-			<romanceChanceFactor>0</romanceChanceFactor>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/PawnRelationDef[defName = "GrandnephewOrGrandniece"]/romanceChanceFactor</xpath>
-		<value>
-			<romanceChanceFactor>0</romanceChanceFactor>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/PawnRelationDef[defName = "CousinOnceRemoved"]/romanceChanceFactor</xpath>
-		<value>
-			<romanceChanceFactor>0</romanceChanceFactor>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/PawnRelationDef[defName = "SecondCousin"]/romanceChanceFactor</xpath>
-		<value>
-			<romanceChanceFactor>0</romanceChanceFactor>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/PawnRelationDef[defName = "Kin"]/romanceChanceFactor</xpath>
-		<value>
-			<romanceChanceFactor>0</romanceChanceFactor>
-		</value>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnRelationDef[defName = "Parent"]/romanceChanceFactor</xpath>
+				<value>
+					<romanceChanceFactor>0</romanceChanceFactor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnRelationDef[defName = "Child"]/romanceChanceFactor</xpath>
+				<value>
+					<romanceChanceFactor>0</romanceChanceFactor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnRelationDef[defName = "Sibling"]/romanceChanceFactor</xpath>
+				<value>
+					<romanceChanceFactor>0</romanceChanceFactor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnRelationDef[defName = "HalfSibling"]/romanceChanceFactor</xpath>
+				<value>
+					<romanceChanceFactor>0</romanceChanceFactor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnRelationDef[defName = "Grandparent"]/romanceChanceFactor</xpath>
+				<value>
+					<romanceChanceFactor>0</romanceChanceFactor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnRelationDef[defName = "Grandchild"]/romanceChanceFactor</xpath>
+				<value>
+					<romanceChanceFactor>0</romanceChanceFactor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnRelationDef[defName = "NephewOrNiece"]/romanceChanceFactor</xpath>
+				<value>
+					<romanceChanceFactor>0</romanceChanceFactor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnRelationDef[defName = "UncleOrAunt"]/romanceChanceFactor</xpath>
+				<value>
+					<romanceChanceFactor>0</romanceChanceFactor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnRelationDef[defName = "Cousin"]/romanceChanceFactor</xpath>
+				<value>
+					<romanceChanceFactor>0</romanceChanceFactor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnRelationDef[defName = "GreatGrandparent"]/romanceChanceFactor</xpath>
+				<value>
+					<romanceChanceFactor>0</romanceChanceFactor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnRelationDef[defName = "GreatGrandchild"]/romanceChanceFactor</xpath>
+				<value>
+					<romanceChanceFactor>0</romanceChanceFactor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnRelationDef[defName = "GranduncleOrGrandaunt"]/romanceChanceFactor</xpath>
+				<value>
+					<romanceChanceFactor>0</romanceChanceFactor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnRelationDef[defName = "GrandnephewOrGrandniece"]/romanceChanceFactor</xpath>
+				<value>
+					<romanceChanceFactor>0</romanceChanceFactor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnRelationDef[defName = "CousinOnceRemoved"]/romanceChanceFactor</xpath>
+				<value>
+					<romanceChanceFactor>0</romanceChanceFactor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnRelationDef[defName = "SecondCousin"]/romanceChanceFactor</xpath>
+				<value>
+					<romanceChanceFactor>0</romanceChanceFactor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnRelationDef[defName = "Kin"]/romanceChanceFactor</xpath>
+				<value>
+					<romanceChanceFactor>0</romanceChanceFactor>
+				</value>
+			</li>
+		</operations>
 	</Operation>
 
 </Patch>
