@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
 	<!-- EN
@@ -7,24 +7,24 @@
 
 	<!-- EN
 	<XenophobiaVsAlien.stages.0.label>xenophile loves aliens</XenophobiaVsAlien.stages.0.label> -->
-	<XenophobiaVsAlien.stages.0.label>ксенофилу нравятся инопланетяне</XenophobiaVsAlien.stages.0.label>
+	<XenophobiaVsAlien.stages.0.label>симпатизирую инопланетянам</XenophobiaVsAlien.stages.0.label>
 	<!-- EN
 	<XenophobiaVsAlien.stages.0.description>xenophile loves aliens</XenophobiaVsAlien.stages.0.description> -->
-	<XenophobiaVsAlien.stages.0.description>ксенофилу нравятся инопланетяне</XenophobiaVsAlien.stages.0.description>
+	<XenophobiaVsAlien.stages.0.description>симпатизирую инопланетянам</XenophobiaVsAlien.stages.0.description>
 
 	<!-- EN
 	<XenophobiaVsAlien.stages.1.label>xenophobe hates aliens</XenophobiaVsAlien.stages.1.label> -->
-	<XenophobiaVsAlien.stages.1.label>ксенофоб ненавидит инопланетян</XenophobiaVsAlien.stages.1.label>
+	<XenophobiaVsAlien.stages.1.label>не люблю инопланетян</XenophobiaVsAlien.stages.1.label>
 	<!-- EN
 	<XenophobiaVsAlien.stages.1.description>xenophobe hates aliens</XenophobiaVsAlien.stages.1.description> -->
-	<XenophobiaVsAlien.stages.1.description>ксенофоб ненавидит инопланетян</XenophobiaVsAlien.stages.1.description>
+	<XenophobiaVsAlien.stages.1.description>не люблю инопланетян</XenophobiaVsAlien.stages.1.description>
 
 	<!-- EN
 	<AlienVsXenophobia.stages.0.label>alien loved by xenophile</AlienVsXenophobia.stages.0.label> -->
-	<AlienVsXenophobia.stages.0.label>инопланетянин, нравящийся ксенофилу</AlienVsXenophobia.stages.0.label>
+	<AlienVsXenophobia.stages.0.label>одобряю ксенофилию</AlienVsXenophobia.stages.0.label>
 
 	<!-- EN
 	<AlienVsXenophobia.stages.1.label>alien hated by xenophobe</AlienVsXenophobia.stages.1.label> -->
-	<AlienVsXenophobia.stages.1.label>инопланетянин, ненавидимый ксенофобом</AlienVsXenophobia.stages.1.label>
+	<AlienVsXenophobia.stages.1.label>не одобряю ксенофобию</AlienVsXenophobia.stages.1.label>
 
 </LanguageData>
