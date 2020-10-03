@@ -54,7 +54,8 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 Известные ошибки:
 
 - Если часто переходить по ссылкам в информации о людях, иногда выходит красная ошибка. Не обращайте внимания, это особенность движка мода.
-
+- Если колонисты перестали есть, скачайте другую версию Alien Races. Известный баг.
+		
 =====
 
 Что нужно сделать в следующей версии:
@@ -114,6 +115,7 @@ It's better to start a new game. However, old games are playable too. You should
 Known errors:
 
 - If you open pawn's information panel, and click links too much, it may cause a red error. Just ignore, it's a rare bug.
+- If your pawns do not eat, just download another version of erdelf.HumanoidAlienRaces mod. A well-known bug.
 
 =====
 
