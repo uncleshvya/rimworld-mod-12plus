@@ -2,13 +2,13 @@ For English, scroll down.
 
 История изменений мода 7plus для Rimworld.
 
-2020-10-03 апдейт к официальному переводу от 2020-09-15. Ведётся тестирование.
+2020-10-03 апдейт к официальному переводу от 2020-09-30. Скомпилирована версия 7+мода 0.3.1beta.
 
-2020-10-02 по срочному заданию игрока Roma, адаптирован мод
+2020-10-02 по срочному заданию игрока Roma, создан мод на расу котов, на основе dianawinters.OrassansLite, для 7+. Из-за особенностей программирования, исправлен сам код.
 
-2020-09-29 исправлены все красные ошибки методом подключения мода Alien Raсes. Адаптирован русский перевод для него, идёт тестирование. Скомпилирована версия 7+мода 0.3.0beta. Обнаружена несовместимость мода Alien Raсes со старыми сохранениями. Для желающих, старая версия заархивирована до востребования.
+2020-09-29 исправлено большинство красных ошибок методом подключения мода Alien Raсes. Адаптирован русский перевод для него, согласно концепции 7+.
 
-2020-09-24 отключена возможность инцеста. Скомпилирована версия мода 0.2.9beta.
+2020-09-24 отключена возможность инцеста.
 
 2020-09-23 отключена возможность подкормки животных человечиной.
 
@@ -18,13 +18,13 @@ For English, scroll down.
 
 2020-08-17 отключены трейты Asexual и Bisexual.
 
-2020-08-09 обнаружен неуловимый баг Римва в.1.0 из-за скрытого трейта "Bisexual", а т.к. есть решение в новой версии движка, то начат апдейт мода к римву в.1.2. Спасибо игроку leon_111 за вдохновение.
+2020-08-09 обнаружен неуловимый баг Римва в.1.0 из-за скрытого трейта "Bisexual", а т.к. есть решение в новой версии движка, то начат апдейт мода к Римву в.1.2. Спасибо игроку leon_111 за вдохновение.
 
 2019-11-28 проверена совместимость с модом Zetrith's Multiplayer в сети LAN. Спасибо игроку Ame за ссылочку.
 
 2019-11-27 заменены нейтральными тексты, прививающие детям пренебрежение жизнью и привычность смерти.
 
-2019-11-20 заменена красная кровь на полупрозрачную. Спасибо мододелу Spincrus за код.
+2019-11-20 заменена красная кровь на полупрозрачную.
 
 2019-11-18 заменены нейтральными тексты, ориентирующие детей на социопатию, суицид или убийство.
 
@@ -34,7 +34,7 @@ For English, scroll down.
 
 2019-11-14 добавлена картинка в описание. Спасибо фотографу milatiger.
 
-2019-11-13 отключены бафы Bloodlust при убийстве и при наблюдении оного. Исправлена часть красных ошибок. Спасибо мододелу Torann за код.
+2019-11-13 отключены бафы Bloodlust при убийстве и при наблюдении оного.
 
 2019-11-12 отключены трейты Cannibal, Gay, Masochist, Pyromaniac.
 
@@ -44,20 +44,19 @@ For English, scroll down.
 
 =====
 
-Changelog for Rimworld 1.2. 7plus modification.
+Changelog for Rimworld's 7plus modification.
 
-2020-09-30 bugfix.
+2020-oct-03 update to official Russian translation v.2020sep30. Mod v.0.3.1.beta compiled.
 
-2020-09-29 fixed all red errors via adding AlienRaсes mod dependence. Translation adapted. Testing... 
-Mod v.0.3.0beta compiled. Incompatibility detected - mod erdelf.HumanoidAlienRaces makes old saves unplayable. I archived the old version for those interested.
+2020-10-02 player Roma inspirated me to create cats' mod, based on dianawinters.OrassansLite, adapted to 7+. Having no time, i changed the code directly.
 
-2020-sep-24 removed incestous ability. Mod v.0.2.9beta compiled.
+2020-09-29 fixed almost all red errors via adding AlienRaсes mod dependence. Russian translation adapted to 7+.
+
+2020-sep-24 removed incestous ability.
 
 2020-sep-23 removed the ability to feed predators with human meat and corpses.
 
 2020-sep-21 removed humans' cannibalism for everyone.
-
-2020-sep-19 update to official Russian translation v.2020sep15. Testing...
 
 2020-sep-05 update to RW v.1.2 with Royalty finished. Support for RimWorld v.1.0 was paused until asked.
 
@@ -67,22 +66,22 @@ Mod v.0.3.0beta compiled. Incompatibility detected - mod erdelf.HumanoidAlienRac
 
 2019-nov-28 test a compatibility with Zetrith's Multiplayer mod, LAN game. Thanks to player Ame for the link.
 
-2019-nov-27 texts, where children are taught with disregard of life and familiarity of death, were replaced with neutral texts.
+2019-nov-27 texts, where children are taught with disregard of life and ordinariness of death, replaced with neutral texts.
 
-2019-nov-20 red blood was reсolored into semi-transparent one. Thanks to modder Spincrus for the code.
+2019-nov-20 red blood reсolored into semi-transparent one.
 
-2019-nov-18 texts, orienting children to sociopathy, suicide or murder, were replaced with neutral ones.
+2019-nov-18 texts, orienting children to sociopathy, suicide or murder, replaced with neutral ones.
 
 2019-nov-16 human flesh and human skin removed. Humanlike butchery removed.
 
-2019-nov-15 texts with advertisment about sexuality, porno and cannibalism were replaced with neutral ones.
+2019-nov-15 texts with advertisment about sexuality, porno and cannibalism replaced with neutral ones.
 
 2019-nov-14 description picture added. Thanks to the photographer milatiger. 
 
-2019-nov-13 Bloodlust's buffs removed: after murders and after supervision ones. Some red bugs' fix. Thanks to modder Torann for the code.
+2019-nov-13 "Bloodlust" buffs removed: after murders and after supervision ones.
 
 2019-nov-12 removed "Cannibal", "Gay", "Masochist", "Pyromaniac" traits.
 
 2019-nov-11 finalized the idea. Thanks to modpacker ecxel.
 
-2019-nov-06 the basic idea invented. Thanks to player Roma for inspiration.
+2019-nov-06 basic idea invented. Thanks to player Roma for inspiration.
