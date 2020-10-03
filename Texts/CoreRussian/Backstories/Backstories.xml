@@ -978,7 +978,7 @@
 	</Counselor26>
 
 	<!-- Offworld_Nonspecific_Adult -->
-	<Recruiter4>
+	<Recruiter14>
 		<!-- EN: recruiter -->
 		<title>вербовщик</title>
 		<titleFemale>вербовщица</titleFemale>
@@ -987,7 +987,7 @@
 		<titleShortFemale>вербовщица</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was part of an revered order of martial artists, infamous both for their skill in combat and for their practice of refusing to treat their wounded.\n\n[PAWN_pronoun] travelled [PAWN_possessive] homeworld, judging the young people [PAWN_pronoun] met to determine if they might be suitable for training. -->
 		<desc>{PAWN_nameDef} — бывший член уважаемого ордена мастеров боевых искусств, печально известных как своими боевыми навыками, так и отказом от лечения собственных раненых.\n\nВ {PAWN_possessive} обязанности входило путешествовать по родному миру, отбирая молодых людей для обучения и тренировок в ордене.</desc>
-	</Recruiter4>
+	</Recruiter14>
 
 	<!-- Offworld_Specific_Adult -->
 	<PsychiatricPatient94>
@@ -1369,10 +1369,10 @@
 	<Banished68>
 		<!-- EN: banished -->
 		<title>изгнанник</title>
-    <titleFemale>изгнанница</titleFemale>
+		<titleFemale>изгнанница</titleFemale>
 		<!-- EN: banished -->
 		<titleShort>изгнанник</titleShort>
-    <titleShortFemale>изгнанница</titleShortFemale>
+		<titleShortFemale>изгнанница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef]'s tribe banished [PAWN_objective] following a bloody dispute. [PAWN_pronoun] survived in the wilds alone for a long time. -->
 		<desc>Племя {PAWN_nameDef} изгоняет {PAWN_possessive} после кровавого конфликта. {PAWN_pronoun} {PAWN_gender ? вынужден : вынуждена} долгие годы выживать в глуши, полагаясь только на себя.</desc>
 	</Banished68>
@@ -1528,7 +1528,7 @@
 		<titleFemale>выжившая девочка</titleFemale>
 		<!-- EN: crashbaby -->
 		<titleShort>выживший</titleShort>
-        <titleShortFemale>выжившая</titleShortFemale>
+		<titleShortFemale>выжившая</titleShortFemale>
 		<!-- EN: As a baby, [PAWN_nameDef] was the only survivor of a deadly spacecraft crash. A passing tribe discovered [PAWN_objective] in the wreckage and adopted [PAWN_objective]. -->
 		<desc>Во младенческом возрасте {PAWN_nameDef} {PAWN_gender ? оказался единственным выжившим : оказалась единственной выжившей} при аварии космического корабля. Проходящее мимо племя нашло {PAWN_objective} в обломках и растило как {PAWN_gender ? своего : свою}.</desc>
 	</CrashBaby32>
@@ -8101,8 +8101,8 @@
 		<title>Rebellious student</title>
 		<!-- EN: Student -->
 		<titleShort>Student</titleShort>
-		<!-- EN: [PAWN_nameDef] had a shot at an education, but [PAWN_pronoun] rebelled against the injustices [PAWN_pronoun] saw and was expelled from three schools. This left [PAWN_objective] with a sense of integrity, but a lack of social skills.\n\n        [PAWN_nameDef] sought self-actualization. [PAWN_pronoun] spent [PAWN_possessive] days meditating and practicing katana and staff fighting techniques.\n       -->
-		<desc>[PAWN_nameDef] had a shot at an education, but [PAWN_pronoun] rebelled against the injustices [PAWN_pronoun] saw and was expelled from three schools. This left [PAWN_objective] with a sense of integrity, but a lack of social skills.\n\n        [PAWN_nameDef] sought self-actualization. [PAWN_pronoun] spent [PAWN_possessive] days meditating and practicing katana and staff fighting techniques.\n      </desc>
+		<!-- EN: [PAWN_nameDef] had a shot at an education, but [PAWN_pronoun] rebelled against the injustices [PAWN_pronoun] saw and was expelled from three schools. This left [PAWN_objective] with a sense of integrity, but a lack of social skills.\n\n        [PAWN_nameDef] sought self-actualization. [PAWN_pronoun] spent [PAWN_possessive] days meditating and practicing katana and staff fighting techniques.\n -->
+		<desc>[PAWN_nameDef] had a shot at an education, but [PAWN_pronoun] rebelled against the injustices [PAWN_pronoun] saw and was expelled from three schools. This left [PAWN_objective] with a sense of integrity, but a lack of social skills.\n\n        [PAWN_nameDef] sought self-actualization. [PAWN_pronoun] spent [PAWN_possessive] days meditating and practicing katana and staff fighting techniques.\n</desc>
 	</RebelliousStudent74>
 
 	<!-- Aleksander "Sale" Chiki, Male, Adulthood -->
@@ -8112,7 +8112,7 @@
 		<!-- EN: Fighter -->
 		<titleShort>Fighter</titleShort>
 		<!-- EN: Motivated by the violence in [PAWN_possessive] environment, [PAWN_nameDef] studied martial arts, eventually signing up for an unarmed fighting tournament.\n\n        Unlike [PAWN_possessive] opponents, [PAWN_nameDef] looked to the ancient warriors for guidance. [PAWN_pronoun] trained from dusk till dawn, perfecting [PAWN_possessive] skills.\n       -->
-		<desc>Motivated by the violence in [PAWN_possessive] environment, [PAWN_nameDef] studied martial arts, eventually signing up for an unarmed fighting tournament.\n\n        Unlike [PAWN_possessive] opponents, [PAWN_nameDef] looked to the ancient warriors for guidance. [PAWN_pronoun] trained from dusk till dawn, perfecting [PAWN_possessive] skills.\n      </desc>
+		<desc>Motivated by the violence in [PAWN_possessive] environment, [PAWN_nameDef] studied martial arts, eventually signing up for an unarmed fighting tournament.\n\n        Unlike [PAWN_possessive] opponents, [PAWN_nameDef] looked to the ancient warriors for guidance. [PAWN_pronoun] trained from dusk till dawn, perfecting [PAWN_possessive] skills.\n</desc>
 	</TournamentFighter28>
 
 	<!-- Chris Draper, Male, Childhood -->
@@ -8215,17 +8215,39 @@
 		<desc>Desiring to understand people, [PAWN_nameDef] learned hypnotism and discovered [PAWN_possessive] talent for the art.\n\n[PAWN_pronoun] gathered followers and formed a cult around [PAWN_possessive] vibrant personality. The authorities discovered [PAWN_possessive] illegal operations, and [PAWN_nameDef] fled before [PAWN_pronoun] could be arrested.</desc>
 	</HypnocultLeader61>
 
-	<!-- добавленные в версии 1.2 -->
+	<!-- Fauna "Furr" Wells, Female, Childhood -->
+	<OrphanedAcrobat84>
+		<!-- EN: Orphaned acrobat -->
+		<title>сирота-акробат</title>
+		<titleFemale>сирота-акробатка</titleFemale>
+		<!-- EN: Acrobat -->
+		<titleShort>акробат</titleShort>
+		<titleFemaleShort>акробатка</titleFemaleShort>
+		<!-- EN: Born a quiet urbworld orphan, [PAWN_nameDef] was invited to join a traveling circus. [PAWN_possessive] small size and observant nature helped [PAWN_nameDef] become a noted acrobat.\n\nUnfortunately, [PAWN_possessive] violent tendencies brought [PAWN_possessive] acrobatic career to an early end.  -->
+		<desc>{PAWN_nameDef} растёт скромной сироткой на одном из городских миров. Однажды {PAWN_possessive} приглашает к себе труппа странствующих циркачей. Они воспитывают из н{PAWN_possessive} отличного акробата.\n\nК несчастью, однажды {PAWN_nameDef} сильно травмируется и больше не может выступать на манеже.</desc>
+	</OrphanedAcrobat84>
 
+	<!-- Fauna "Furr" Wells, Female, Adulthood -->
+	<MercenaryCaptain56>
+		<!-- EN: Mercenary captain -->
+		<title>солдат-ветеран</title>
+		<!-- EN: Captain -->
+		<titleShort>ветеран</titleShort>
+		<!-- EN: [PAWN_pronoun] was in the crew of a mercenary ship. Disciplined and confident, [PAWN_nameDef] quickly rose through the ranks and gained friends.\n\nIn [PAWN_possessive] time as a mercenary captain, [PAWN_pronoun] was known for being gregarious and calm - possibly thanks to the joywires. \n -->
+		<desc>{PAWN_nameDef} участвует в многочисленных походах против пиратов, повстанцев и ксеносов. {PAWN_pronoun} сталкивается с величием и ужасами войны.\n\nУстав от тренировок, крови и боевых ранений, {PAWN_nameDef} «отходит от дел» и устраивается на непыльную солдатскую службу по обеспечению порядка в колониях. {PAWN_pronoun} проводит дни, полируя свои боевые медали и осознавая, что родные могут гордиться {PAWN_possessive} успехами.</desc>
+	</MercenaryCaptain56>
+
+	<!-- Oskar Potocki, Male, Childhood -->
 	<ArtSlave57>
 		<!-- EN: art slave -->
 		<title>раб-художник</title>
 		<!-- EN: artist -->
 		<titleShort>художник</titleShort>
 		<!-- EN: [PAWN_nameDef] was born on the dark edge of a tidally-locked urbworld. After an argument, [PAWN_possessive] father sold [PAWN_objective] to a local district lord as a slave artist.\n\nForced to create art or be punished, [PAWN_pronoun] withdrew and became unable to form relations with others. -->
-		<desc>{PAWN_nameDef} рождается в мрачном районе изолированного городского мира. Рано осиротев, {PAWN_pronoun} попадает в рабство к местному землевладельцу в качестве художника-раба.\n\nТворя искусство под угрозой наказания, {PAWN_nameDef} замыкается в себе и теряет навыки общения с людьми.</desc>
+		<desc>{PAWN_nameDef} рождается в мрачном районе изолированного городского мира. Рано осиротев, {PAWN_pronoun} попадает в собственность к местному землевладельцу в качестве художника-раба.\n\nТворя искусство под угрозой наказания, {PAWN_nameDef} замыкается в себе и теряет навыки общения с людьми.</desc>
 	</ArtSlave57>
 
+	<!-- Oskar Potocki, Male, Adulthood -->
 	<ModDesigner85>
 		<!-- EN: mod designer -->
 		<title>дизайнер модов</title>
@@ -8234,33 +8256,5 @@
 		<!-- EN: [PAWN_nameDef] designed combat modifications for frontline soldiers.\n\nOne night, in a nightmare, [PAWN_nameDef] was confronted by all the men and women killed by [PAWN_possessive] work. [PAWN_pronoun] decided to travel to the rimworlds and use [PAWN_possessive] skills for good. -->
 		<desc>{PAWN_nameDef} работает генератором идей для модов в одной популярной инди-игре, в основном придумывая новых монстров.\n\nОднажды ночью, в кошмарном сне, все эти монстры разом являются к н{PAWN_objective} и начинают терзать. Проснувшись в холодном поту, {PAWN_nameDef} решает бросить своё неблагодарное занятие, и устроиться на денежную работу.</desc>
 	</ModDesigner85>
-
-	<OrphanedAcrobat84>
-		<!-- EN: Orphaned acrobat -->
-		<title>сирота-акробат</title>
-		<titleFemale>сирота-акробатка</titleFemale>
-		<!-- EN: Acrobat -->
-		<titleShort>акробат</titleShort>
-		<titleShortFemale>акробатка</titleShortFemale>
-		<!-- Born a quiet urbworld orphan, [PAWN_nameDef] was invited to join a traveling circus. [PAWN_possessive] small size and observant nature helped [PAWN_nameDef] become a noted acrobat.\n\nUnfortunately, [PAWN_possessive] violent tendencies brought [PAWN_possessive] acrobatic career to an early end. -->
-		<desc>{PAWN_nameDef} растёт скромной сироткой на одном из городских миров. Однажды {PAWN_possessive} приглашает к себе труппа странствующих циркачей. Они воспитывают из н{PAWN_possessive} отличного акробата.\n\nК несчастью, однажды {PAWN_nameDef} сильно травмируется и больше не может выступать на манеже.</desc>
-	</OrphanedAcrobat84>
-
-	<MercenaryCaptain56>
-		<!-- EN: Mercenary captain -->
-		<title>солдат-ветеран</title>
-		<!-- EN: Captain -->
-		<titleShort>ветеран</titleShort>
-		<!-- EN: [PAWN_pronoun] was in the crew of a mercenary ship. Disciplined and confident, [PAWN_nameDef] quickly rose through the ranks and gained friends.\n\nIn [PAWN_possessive] time as a mercenary captain, [PAWN_pronoun] was known for being gregarious and calm - possibly thanks to the joywires. -->
-		<desc>{PAWN_nameDef} участвует в многочисленных походах против пиратов, повстанцев и ксеносов. {PAWN_pronoun} сталкивается с величием и ужасами войны.\n\nУстав от тренировок, крови и боевых ранений, {PAWN_nameDef} «отходит от дел» и устраивается на непыльную солдатскую службу по обеспечению порядка в колониях. {PAWN_pronoun} проводит дни, полируя свои боевые медали и осознавая, что родные могут гордиться {PAWN_possessive} успехами.</desc>
-	</MercenaryCaptain56>
-
-	<!-- UNUSED -->
-
-<!-- 	<VeteranSoldier42>
-		<title>солдат-ветеран</title>
-		<titleShort>солдат</titleShort>
-		<desc>{PAWN_nameDef} участвует в многочисленных походах против пиратов, повстанцев и ксеносов. {PAWN_pronoun} сталкивается с величием и ужасами войны.\n\nУстав от тренировок, крови и боевых ранений, {PAWN_nameDef} «отходит от дел» и устраивается на непыльную солдатскую службу по обеспечению порядка в колониях. {PAWN_pronoun} проводит дни, полируя свои боевые медали и осознавая, что родные могут гордиться {PAWN_possessive} успехами.</desc>
-	</VeteranSoldier42> -->
 
 </BackstoryTranslations>
