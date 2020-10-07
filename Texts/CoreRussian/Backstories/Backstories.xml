@@ -1957,11 +1957,11 @@
 	<!-- ImperialFighter_Adult -->
 	<ReconSniper89>
 		<!-- EN: recon sniper -->
-		<title>снайпер-диверсант</title>
+		<title>военный снайпер</title>
 		<!-- EN: sniper -->
 		<titleShort>снайпер</titleShort>
 		<!-- EN: [PAWN_nameDef] was a professional military sniper. [PAWN_pronoun] was trained to rapidly reach into unexpected firing positions, snipe key targets, and escape before enemies could pinpoint [PAWN_possessive] location. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} профессиональным военным снайпером. {PAWN_possessive} научили быстро достигать неожиданных огневых позиций, устранять ключевые цели и исчезать прежде, чем враги смогут точно определить {PAWN_possessive} местоположение.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} профессиональным военным снайпером. {PAWN_pronoun} {PAWN_gender ? обучен : обучена} быстро занимать неожиданные огневые позиции, меткими выстрелами устранять поставленные цели и уходить, прежде чем враги раскроют {PAWN_possessive} местоположение.</desc>
 	</ReconSniper89>
 
 	<!-- ImperialRoyal_Adult -->
