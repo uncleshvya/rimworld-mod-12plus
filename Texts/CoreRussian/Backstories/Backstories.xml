@@ -1981,7 +1981,7 @@
 		<!-- EN: rich kid -->
 		<titleShort>богатый ребёнок</titleShort>
 		<!-- EN: [PAWN_nameDef] came from a wealthy and influential bloodline. [PAWN_possessive] expensive education included lessons on dueling, leadership, and military strategy. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? вышел : вышла} из богатого и влиятельного рода. Как наследник, {PAWN_pronoun} {PAWN_gender ? получил : получила} дорогостоящее образование, включающее уроки дуэли, лидерства и стратегии.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? вышел : вышла} из богатого и влиятельного рода. Как {PAWN_gender ? наследник : наследница}, {PAWN_pronoun} {PAWN_gender ? получил : получила} дорогостоящее образование, включающее уроки дуэли, лидерства и стратегии.</desc>
 	</RichKid61>
 
 	<!-- ImperialCommon_Child -->
