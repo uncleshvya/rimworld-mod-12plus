@@ -78,8 +78,8 @@
     <li>asker_wasCaught(asker_gender==Female)->была замечена</li>
     <li>asker_imprisoned(asker_gender==Male)->заключил</li>
     <li>asker_imprisoned(asker_gender==Female)->заключила</li>
-    <li>lodgers0_lover_gen(lodgers0_gender==Male)->своего любовника</li>
-    <li>lodgers0_lover_gen(lodgers0_gender==Female)->свою любовницу</li>
+    <li>lodgers0_lover_gen(lodgers0_gender==Male)->свою любовницу</li>
+    <li>lodgers0_lover_gen(lodgers0_gender==Female)->своего любовника</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nК сожалению, противники [asker_nameDef] по двору заплатили фракции [enemyFaction_name], чтобы попытаться вызволить [lodgers0_prisoner_gen] и пролить свет на историю. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nК сожалению, противники [asker_nameDef] по двору спровоцировали механоидов, чтобы те вызволили [lodgers0_prisoner_gen] и пролили свет на историю. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
