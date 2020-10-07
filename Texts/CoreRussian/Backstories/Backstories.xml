@@ -1927,7 +1927,7 @@
 		<!-- EN: policewoman -->
 		<titleShortFemale>офицер полиции</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] kept the peace as a line officer in a municipal police force.\n\n[PAWN_pronoun] was trained in de-escalation, physical control, shooting, and other police skills. -->
-		<desc>{PAWN_nameDef} поддерживает порядок на городских улицах, работая в министерстве внутренних дел.\n\n{PAWN_pronoun} {PAWN_gender ? был обучен : была обучена} разрешению конфликтных ситуаций, силовому контролю, стрельбе и другим важным для полицейских навыкам.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? поддерживал : поддерживала} порядок на городских улицах, работая в министерстве внутренних дел.\n\n{PAWN_pronoun} {PAWN_gender ? был обучен : была обучена} разрешению конфликтных ситуаций, силовому контролю, стрельбе и другим важным для полицейских навыкам.</desc>
 	</Policeman45>
 
 	<!-- ImperialFighter_Child -->
