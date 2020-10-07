@@ -235,9 +235,9 @@
   <!-- EN: Trading with {0} -->
   <CaravanTrading>Торгует с {0}</CaravanTrading>
   <!-- EN: Tainted from being worn by a corpse. -->
-  <WasWornByCorpse>В грязи.</WasWornByCorpse>
+  <WasWornByCorpse>В крови.</WasWornByCorpse>
   <!-- EN: T -->
-  <WornByCorpseChar>Г</WornByCorpseChar>
+  <WornByCorpseChar>К</WornByCorpseChar>
   <!-- EN: unroofed -->
   <DeterioratingUnroofed>расположение не под крышей</DeterioratingUnroofed>
   <!-- EN: outdoors -->
