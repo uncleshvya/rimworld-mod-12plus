@@ -1933,11 +1933,13 @@
 	<!-- ImperialFighter_Child -->
 	<PoliticalCaptive7>
 		<!-- EN: political captive -->
-		<title>жертва похищения</title>
+		<title>политический пленник</title>
+		<titleFemale>политическая пленница</titleFemale>
 		<!-- EN: captive -->
-		<titleShort>жертва</titleShort>
+		<titleShort>пленник</titleShort>
+		<titleShortFemale>пленница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was kidnapped by a rival family and held for ransom. To pass the time in captivity, [PAWN_pronoun] read books and practiced martial arts. [PAWN_nameDef] had few opportunities to develop [PAWN_possessive] social skills. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? был похищен : была похищена} конкурентами ради выкупа. Коротая время в заточении, {PAWN_pronoun} {PAWN_gender ? читал : читала} книги о боевых искусствах и {PAWN_gender ? занимался : занималась} физическими упражнениями. А вот социальные навыки практиковать было не на ком.</desc>
+		<desc>В детстве {PAWN_nameDef} {PAWN_gender ? был похищен : была похищена} соперничающим кланом и {PAWN_gender ? содержался : содержалась} в плену ради выкупа. Чтобы скоротать время в неволе, {PAWN_pronoun} {PAWN_gender ? читал : читала} книги и {PAWN_gender ? упражнялся : упражнялся} в боевых искусствах. А вот социальные навыки практиковать было не на ком.</desc>
 	</PoliticalCaptive7>
 
 	<!-- ImperialFighter_Adult -->
