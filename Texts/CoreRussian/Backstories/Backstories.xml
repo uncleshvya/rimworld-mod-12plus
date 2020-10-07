@@ -1987,11 +1987,11 @@
 	<!-- ImperialCommon_Child -->
 	<RoyalBastard3>
 		<!-- EN: royal bastard -->
-		<title>бастард короля</title>
+		<title>бастард лорда</title>
 		<!-- EN: bastard -->
 		<titleShort>бастард</titleShort>
 		<!-- EN: [PAWN_nameDef] the child of a lord and a prostitute.\n\n[PAWN_possessive] father's line was secure and his holdings strong. Nobody ever came to [PAWN_nameDef] to endorse a bid for the title. [PAWN_pronoun] earned [PAWN_possessive] bread cleaning the brothel, but always felt [PAWN_pronoun] deserved much more. -->
-		<desc>{PAWN_nameDef} — ребёнок правителя и простолюдинки.\n\nУ короля была сильная власть, и уже взрослый принц. Никто не приходил к забытому бастарду, чтобы поддержать заявку на титул. {PAWN_nameDef} {PAWN_gender ? зарабатывал : зарабатывала} на хлеб, убираясь в таверне, но всегда {PAWN_nameDef} {PAWN_gender ? чувствовал : чувствовала}, что заслуживает гораздо большего.</desc>
+		<desc>{PAWN_nameDef} — {PAWN_gender ? сын : дочь} лорда и простолюдинки.\n\nУ отца была сильная власть и уже взрослый принц, поэтому никто так и не пришёл рассказать забытому бастарду о {PAWN_possessive} правах на престол. {PAWN_nameDef} {PAWN_gender ? зарабатывал : зарабатывала} на жизнь, убираясь в таверне, но всегда {PAWN_gender ? чувствовал : чувствовала} что заслуживает большего.</desc>
 	</RoyalBastard3>
 
 	<!-- ImperialCommon_Adult -->
