@@ -1909,11 +1909,11 @@
 	<!-- ImperialCommon_Adult -->
 	<PlanetaryMiner64>
 		<!-- EN: planetary miner -->
-		<title>Горный инженер</title>
+		<title>горный инженер</title>
 		<!-- EN: miner -->
-		<titleShort>Шахтёр</titleShort>
+		<titleShort>шахтёр</titleShort>
 		<!-- EN: [PAWN_nameDef] was a mining engineer for a major planetary mining corporation. [PAWN_pronoun] work kept [PAWN_objective] underground for weeks at a time, and [PAWN_pronoun] grew to appreciate the darkness. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} горным инженером в одной из крупнейших горнодобывающих корпораций. Работа часто держала {PAWN_objective} под землёй неделями, и {PAWN_nameDef} {PAWN_gender ? научился : научилась} жить в абсолютной темноте.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? работал : работала} инженером в одной из крупнейших планетарных горнодобывающих корпораций. Работа порой держала {PAWN_possessive} под землёй неделями, поэтому {PAWN_nameDef} со временем {PAWN_gender ? полюбил : полюбила} темноту.</desc>
 	</PlanetaryMiner64>
 
 	<!-- Offworld_Nonspecific_Adult -->
