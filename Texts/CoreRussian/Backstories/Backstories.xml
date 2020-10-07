@@ -1946,10 +1946,12 @@
 	<Propagandist86>
 		<!-- EN: propagandist -->
 		<title>военный пропагандист</title>
+		<titleFemale>пропагандистка</titleFemale>
 		<!-- EN: propagandist -->
 		<titleShort>пропагандист</titleShort>
+		<titleShortFemale>пропагандистка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was a skilled artist and military propagandist. [PAWN_pronoun] created works of art depicting [PAWN_possessive] lords and armies fovourably. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} искусным живописцем и военным пропагандистом. {PAWN_pronoun} {PAWN_gender ? создавал : создавала} произведения искусства, изображающие лордов и их войска в выгодном свете.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} {PAWN_gender ? талантливым художником : талантливой художницей} и {PAWN_gender ? военным пропагандистом : военной пропагандисткой}. {PAWN_pronoun} {PAWN_gender ? создавал : создавала} произведения искусства, восхваляющие лордов и армию {PAWN_possessive} государства.</desc>
 	</Propagandist86>
 
 	<!-- ImperialFighter_Adult -->
