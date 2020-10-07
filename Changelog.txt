@@ -2,7 +2,7 @@ For English, scroll down.
 
 История изменений мода 7plus для Rimworld.
 
-2020-10-03 апдейт к официальному переводу от 2020-09-30. Скомпилирована версия 7+мода 0.3.1beta.
+2020-10-07 апдейт к официальному переводу от 2020-10-05. Скомпилирована версия 7+мода 0.3.1beta.
 
 2020-10-02 по срочному заданию игрока Roma, создан мод на расу котов, на основе dianawinters.OrassansLite, для 7+. Из-за особенностей программирования, исправлен сам код.
 
@@ -46,11 +46,11 @@ For English, scroll down.
 
 Changelog for Rimworld's 7plus modification.
 
-2020-oct-03 update to official Russian translation v.2020sep30. Mod v.0.3.1.beta compiled.
+2020-oct-07 update to official Russian translation v.2020oct05. Mod v.0.3.1.beta compiled.
 
-2020-10-02 player Roma inspirated me to create cats' mod, based on dianawinters.OrassansLite, adapted to 7+. Having no time, i changed the code directly.
+2020-oct-02 player Roma inspirated me to create cats' mod, based on dianawinters.OrassansLite, adapted to 7+. Having no time, i changed the code directly.
 
-2020-09-29 fixed almost all red errors via adding AlienRaсes mod dependence. Russian translation adapted to 7+.
+2020-sep-29 fixed almost all red errors via adding AlienRaсes mod dependence. Russian translation adapted to 7+.
 
 2020-sep-24 removed incestous ability.
 
