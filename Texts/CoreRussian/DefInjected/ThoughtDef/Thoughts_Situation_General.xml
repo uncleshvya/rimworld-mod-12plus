@@ -11,21 +11,21 @@
   <ApparelDamaged.stages.tattered_apparel.description>Такое ощущение, что моя одежда вот-вот рассыплется. Нет ли у нас чего-нибудь поприличнее этого рваного мусора?</ApparelDamaged.stages.tattered_apparel.description>
   
   <!-- EN: tainted {0} -->
-  <DeadMansApparel.stages.tainted.label>{0} с повреждённого тела</DeadMansApparel.stages.tainted.label>
+  <DeadMansApparel.stages.tainted.label>{0} в чужой крови</DeadMansApparel.stages.tainted.label>
   <!-- EN: I am wearing a piece of apparel that someone died in. It creeps me out and feels dirty. -->
-  <DeadMansApparel.stages.tainted.description>Я ношу вещь, в которой кого-то ранили. У меня от этого мурашки.</DeadMansApparel.stages.tainted.description>
+  <DeadMansApparel.stages.tainted.description>Я ношу вещь, испачканную чужой кровью. У меня от этого мурашки.</DeadMansApparel.stages.tainted.description>
   <!-- EN: tainted {0} (+1) -->
-  <DeadMansApparel.stages.tainted_1.label>{0} с повреждённого тела (+1)</DeadMansApparel.stages.tainted_1.label>
+  <DeadMansApparel.stages.tainted_1.label>{0} в чужой крови (+1)</DeadMansApparel.stages.tainted_1.label>
   <!-- EN: I am wearing two pieces of apparel that someone died in. It creeps me out and feels dirty. -->
-  <DeadMansApparel.stages.tainted_1.description>На мне две вещи, в которых кого-то ранили. У меня от этого мурашки.</DeadMansApparel.stages.tainted_1.description>
+  <DeadMansApparel.stages.tainted_1.description>На мне две вещи, испачканные чужой кровью. У меня от этого мурашки.</DeadMansApparel.stages.tainted_1.description>
   <!-- EN: tainted {0} (+2) -->
-  <DeadMansApparel.stages.tainted_2.label>{0} с повреждённого тела (+2)</DeadMansApparel.stages.tainted_2.label>
+  <DeadMansApparel.stages.tainted_2.label>{0} в чужой крови (+2)</DeadMansApparel.stages.tainted_2.label>
   <!-- EN: I am wearing three pieces of apparel that someone died in. It creeps me out and feels dirty. -->
-  <DeadMansApparel.stages.tainted_2.description>На мне три вещи, в которых кого-то ранили. У меня от этого мурашки.</DeadMansApparel.stages.tainted_2.description>
+  <DeadMansApparel.stages.tainted_2.description>На мне три вещи, испачканные чужой кровью. У меня от этого мурашки.</DeadMansApparel.stages.tainted_2.description>
   <!-- EN: tainted {0} etc -->
-  <DeadMansApparel.stages.tainted_etc.label>{0} с повреждённого тела (+X)</DeadMansApparel.stages.tainted_etc.label>
+  <DeadMansApparel.stages.tainted_etc.label>{0} в чужой крови (+X)</DeadMansApparel.stages.tainted_etc.label>
   <!-- EN: I am wearing four or more pieces of apparel that someone died in. It creeps me out and feels dirty. -->
-  <DeadMansApparel.stages.tainted_etc.description>На мне четыре или даже больше вещей, в которых кого-то ранили. У меня от этого мурашки.</DeadMansApparel.stages.tainted_etc.description>
+  <DeadMansApparel.stages.tainted_etc.description>На мне четыре или даже больше вещей, испачканных чужой кровью. У меня от этого мурашки.</DeadMansApparel.stages.tainted_etc.description>
   
   <!-- EN: chilly -->
   <EnvironmentCold.stages.chilly.label>холодно</EnvironmentCold.stages.chilly.label>
