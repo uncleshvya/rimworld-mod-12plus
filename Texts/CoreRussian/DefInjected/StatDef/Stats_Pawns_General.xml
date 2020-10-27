@@ -9,12 +9,12 @@
   <!-- EN: Maximum comfortable temperature -->
   <ComfyTemperatureMax.label>макс. комфортная температура</ComfyTemperatureMax.label>
   <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
-  <ComfyTemperatureMax.description>Если температура поднимется выше этого значения, персонаж будет недоволен.\n\nЕсли значительно выше, то он получит тепловой удар, из-за которого впоследствии может быть потерян.</ComfyTemperatureMax.description>
+  <ComfyTemperatureMax.description>Если температура поднимется выше этого значения, существо будет испытывать дискомфорт.\n\nЕсли значительно выше, то оно получит тепловой удар, из-за которого впоследствии может быть потеряно.</ComfyTemperatureMax.description>
   
   <!-- EN: Minimum comfortable temperature -->
   <ComfyTemperatureMin.label>мин. комфортная температура</ComfyTemperatureMin.label>
   <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
-  <ComfyTemperatureMin.description>Если температура опустится ниже этого значения, персонаж будет недоволен. Если значительно ниже, то он получит гипотермию и обморожение, от которых впоследствии может быть потерян.</ComfyTemperatureMin.description>
+  <ComfyTemperatureMin.description>Если температура опустится ниже этого значения, существо будет испытывать дискомфорт. Если значительно ниже, то оно получит гипотермию и обморожение, от которых впоследствии может быть потеряно.</ComfyTemperatureMin.description>
   
   <!-- EN: eating speed -->
   <EatingSpeed.label>скорость поглощения пищи</EatingSpeed.label>
