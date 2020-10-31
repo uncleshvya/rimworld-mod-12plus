@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- EN <Numbers_MainTable.label>Colonists</Numbers_MainTable.label> -->
+	<Numbers_MainTable.label>Поселенцы</Numbers_MainTable.label>
+	<!-- EN <Numbers_Enemies.label>Enemies</Numbers_Enemies.label> -->
+	<Numbers_Enemies.label>Враги</Numbers_Enemies.label>
+	<!-- EN <Numbers_Prisoners.label>Prisoners</Numbers_Prisoners.label> -->
+	<Numbers_Prisoners.label>Пленники</Numbers_Prisoners.label>
+	<!-- EN <Numbers_Corpses.label>Corpses</Numbers_Corpses.label> -->
+	<Numbers_Corpses.label>Тела</Numbers_Corpses.label>
+	<!-- EN <Numbers_Guests.label>Guests</Numbers_Guests.label> -->
+	<Numbers_Guests.label>Гости</Numbers_Guests.label>
+	<!-- EN <Numbers_Animals.label>Animals</Numbers_Animals.label> -->
+	<Numbers_Animals.label>Питомцы</Numbers_Animals.label>
+	<!-- EN <Numbers_WildAnimals.label>Wild animals</Numbers_WildAnimals.label> -->
+	<Numbers_WildAnimals.label>Фауна</Numbers_WildAnimals.label>
+	<!-- EN <Numbers_AnimalCorpses.label>Animal corpses</Numbers_AnimalCorpses.label> -->
+	<Numbers_AnimalCorpses.label>Туши животных</Numbers_AnimalCorpses.label>
+
+	<!-- EN <Numbers_CombatPreset.label>combat</Numbers_CombatPreset.label> -->
+	<Numbers_CombatPreset.label>Таблица боя</Numbers_CombatPreset.label>
+	<!-- EN <Numbers_WorkTabPlusPreset.label>WorkTab plus</Numbers_WorkTabPlusPreset.label> -->
+	<Numbers_WorkTabPlusPreset.label>Таблица навыков</Numbers_WorkTabPlusPreset.label>
+	<!-- EN <Numbers_ColonistNeedsPreset.label>colonist needs</Numbers_ColonistNeedsPreset.label> -->
+	<Numbers_ColonistNeedsPreset.label>Таблица нужд</Numbers_ColonistNeedsPreset.label>
+
+</LanguageData>

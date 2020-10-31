@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- EN <koisama.Numbers.Title>Numbers overview</koisama.Numbers.Title> -->
+	<koisama.Numbers.Title>Numbers overview</koisama.Numbers.Title>
+	<!-- EN <koisama.Numbers.Count>Row Count</koisama.Numbers.Count> -->
+	<koisama.Numbers.Count>Количество строк</koisama.Numbers.Count>
+	<!-- EN <koisama.Numbers.ClickToToggle>Click to select pawn type.</koisama.Numbers.ClickToToggle> -->
+	<koisama.Numbers.ClickToToggle>Нажмите, чтобы выбрать тип существ.</koisama.Numbers.ClickToToggle>
+	<!-- EN <Numbers_ColumnHeader_Tooltip>Right click to remove column. Click and drag to move.</Numbers_ColumnHeader_Tooltip> -->
+	<Numbers_ColumnHeader_Tooltip>Перетащите столбец левой кнопкой мыши. Правая кнопка мыши удаляет столбец.</Numbers_ColumnHeader_Tooltip>
+	<!-- EN <koisama.Numbers.SetPresetLabel>Presets</koisama.Numbers.SetPresetLabel> -->
+	<koisama.Numbers.SetPresetLabel>Таблицы</koisama.Numbers.SetPresetLabel>
+
+	<!--- becomes Load {medical/combat} preset -->
+	<!-- EN <Numbers_Presets.Load>Load {0} preset</Numbers_Presets.Load> -->
+	<Numbers_Presets.Load>Загрузить таблицу {0}</Numbers_Presets.Load>
+	<!-- EN <Numbers_Presets.Medical>medical</Numbers_Presets.Medical> -->
+	<Numbers_Presets.Medical>медицины</Numbers_Presets.Medical>
+	<!-- EN <Numbers_Presets.Combat>combat</Numbers_Presets.Combat> -->
+	<Numbers_Presets.Combat>боя</Numbers_Presets.Combat>
+	<!-- EN <Numbers_Presets.WorkTabPlus>worktab plus</Numbers_Presets.WorkTabPlus> -->
+	<Numbers_Presets.WorkTabPlus>навыков</Numbers_Presets.WorkTabPlus>
+	<!-- EN <Numbers_Presets.ColonistNeeds>colonist needs</Numbers_Presets.ColonistNeeds> -->
+	<Numbers_Presets.ColonistNeeds>нужд</Numbers_Presets.ColonistNeeds>
+
+	<!-- EN <Numbers_SetAsDefault>Set current view as default</Numbers_SetAsDefault> -->
+	<Numbers_SetAsDefault>Сохранить таблицу как стандарт</Numbers_SetAsDefault>
+	<!-- EN <Numbers_SetAsDefaultExplanation>Set the current view as the default for this type of view ({0}).\n\nThis view will then be used for new colonies.\n\nCan be deleted in the mod settings:\n  [Menu] => [Options] => [Mod settings] => [Numbers].</Numbers_SetAsDefaultExplanation> -->
+	<Numbers_SetAsDefaultExplanation>Сохранить текущую таблицу, чтобы она отображалась при выборе «{0}» во вкладке Numbers.\n\nЭта настройка действует и для новых игр.\n\nУдалить сохранённые таблицы можно в настройках мода:\n  [Меню] => [Настройки] => [Настройки модификаций] => [Numbers].</Numbers_SetAsDefaultExplanation>
+	<!-- EN <Numbers_NoDefaultStoredForThisView>There are no defaults stored for the currently viewed pawn type.</Numbers_NoDefaultStoredForThisView> -->
+	<Numbers_NoDefaultStoredForThisView>Нет настроек по умолчанию для текущей таблицы.</Numbers_NoDefaultStoredForThisView>
+	<!-- EN <Numbers_LoadDefault>Load default view</Numbers_LoadDefault> -->
+	<Numbers_LoadDefault>Загрузить настройки по умолчанию для текущей таблицы.</Numbers_LoadDefault>
+
+	<!-- EN <Numbers_showMoreInfoThanVanilla>Show needs and jobs even where it would normally be hidden.</Numbers_showMoreInfoThanVanilla> -->
+	<Numbers_showMoreInfoThanVanilla>Показывать нужды и задания, которые обычно скрыты (это читерство).</Numbers_showMoreInfoThanVanilla>
+	<!-- EN <Numbers_coolerThanTheWildlifeTab>Numbers is everything I ever wanted from the Wildlife tab and I want it to take over.</Numbers_coolerThanTheWildlifeTab> -->
+	<Numbers_coolerThanTheWildlifeTab>Заменить вкладку «Фауна» на подобную из мода Numbers.</Numbers_coolerThanTheWildlifeTab>
+	<!-- EN <Numbers_coolerThanTheAnimalTab>Numbers is everything I ever wanted from the Animal tab as well and I want it to take over.</Numbers_coolerThanTheAnimalTab> -->
+	<Numbers_coolerThanTheAnimalTab>Заменить вкладку «Питомцы» на подобную из мода Numbers.</Numbers_coolerThanTheAnimalTab>
+	<!-- EN <Numbers_maxTableHeight>Maximum height of the Numbers window relative to your screensize.</Numbers_maxTableHeight> -->
+	<Numbers_maxTableHeight>Максимальная высота таблиц из мода Numbers относительно экрана.</Numbers_maxTableHeight>
+	<!-- EN <Numbers_pawnTableClickSelect>Mouse clicks in pawn tables select them. (Alt-click to work as before)</Numbers_pawnTableClickSelect> -->
+	<Numbers_pawnTableClickSelect>Выбор существа не закрывает таблицу.</Numbers_pawnTableClickSelect>
+	<!-- EN <Numbers_pawnTableClickSelect_Desc>Should behave intuitively like any other selection. Press Esc to close the tab window.\n\nShift-click to select/deselect multiple. Double click to center camera. Right-click to select a single pawn. Alt-click to close window, select and go to that one pawn. Note: Applies to *all* PawnTables, not just Numbers.</Numbers_pawnTableClickSelect_Desc> -->
+	<Numbers_pawnTableClickSelect_Desc>Нажатие мышкой на существо из таблицы только выберет его, таблица не закроется. Для закрытия используйте клавишу Esc. \n\nКнопка Shift позволит выбрать несколько существ. Двойной клик мышкой центрирует камеру. Alt+клик центрирует камеру и закрывает таблицу. \n\nЭта настройка действует не только на вкладку Numbers, но и на остальные вкладки.</Numbers_pawnTableClickSelect_Desc>
+	<!-- EN <Numbers_pawnTableHighSelected>Highlight selected pawns.</Numbers_pawnTableHighSelected> -->
+	<Numbers_pawnTableHighSelected>Подсвечивать выделенные строки.</Numbers_pawnTableHighSelected>
+	<!-- EN <Numbers_pawnTableHighSelected_Desc>Note: Applies to *all* PawnTables, not just Numbers.</Numbers_pawnTableHighSelected_Desc> -->
+	<Numbers_pawnTableHighSelected_Desc>Эта настройка действует не только на вкладку Numbers, но и на остальные вкладки.</Numbers_pawnTableHighSelected_Desc>
+	<!-- EN <Numbers_useSmolFont>Use tiny font for headers (experimental)</Numbers_useSmolFont> -->
+	<Numbers_useSmolFont>Использовать уменьшенные шрифты для заголовков (экспериментальная функция).</Numbers_useSmolFont>
+
+	<!-- EN <Numbers_LoadSavedLayout>Load saved view</Numbers_LoadSavedLayout> -->
+	<Numbers_LoadSavedLayout>Загрузить сохранённую таблицу</Numbers_LoadSavedLayout>
+	<!-- EN <Numbers_NothingSaved>Nothing saved</Numbers_NothingSaved> -->
+	<Numbers_NothingSaved>Нет сохранённых таблиц.</Numbers_NothingSaved>
+	<!-- EN <Numbers_SaveCurrentLayout>Save current view</Numbers_SaveCurrentLayout> -->
+	<Numbers_SaveCurrentLayout>Сохранить текущую таблицу</Numbers_SaveCurrentLayout>
+
+</LanguageData>
