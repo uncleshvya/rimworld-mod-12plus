@@ -13,7 +13,7 @@ For English, scroll below.
 2. "...Data\Royalty\Languages\Russian\"
 3. "...Mods\HumanoidAlienRaces\Languages\Russian"
 4. "...Mods\kNumbers\Languages\Russian"
-- не используйте авто-обновление русского языка от официального переводчика, пока я не напишу скрипт!
+- не используйте авто-обновление русского языка от официального переводчика, пока мы не напишем скрипт!
 - если устанавливаете новую версию 7plus мода, для начала удалите старые версии из папки "Mods".
 - по желанию, из папки RimWorldUniverse возьмите адаптированный текстовый файл.
 - кто хочет расу котов, разархивируйте файл OrassanLite7plus.zip в папку модов.
@@ -28,7 +28,7 @@ How to install:
 2. "...Data\Royalty\Languages\Russian\"
 3. "...Mods\HumanoidAlienRaces\Languages\Russian"
 4. "...Mods\kNumbers\Languages\Russian"
-- do not use auto-script from official Russian translator's site! I'm working on it.
+- do not use auto-script from official Russian translator's site! We're working on it.
 - before updating 7plus mod, delete old version.
 - if necessary, update txt file from RimWorldUniverse folder.
 - if you want cats' race, unzip OrassanLite7plus.zip to mods folder.
