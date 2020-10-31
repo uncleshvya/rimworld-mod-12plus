@@ -43,6 +43,7 @@
 	<Numbers_Inspiration.label>Воодушевление</Numbers_Inspiration.label>
 	<!-- EN <Numbers_DiseaseProgress.label>Disease immunity margin</Numbers_DiseaseProgress.label> -->
 	<Numbers_DiseaseProgress.label>Иммунитет к болезни</Numbers_DiseaseProgress.label>
+	<Numbers_DiseaseProgress.headerTip>Насколько иммунитет обгоняет болезнь, и скорость изменения</Numbers_DiseaseProgress.headerTip>
 	<!-- EN <Numbers_Wildness.label>Wildness</Numbers_Wildness.label> -->
 	<Numbers_Wildness.label>Дикость</Numbers_Wildness.label>
 	<!-- EN <Numbers_TameChance.label>Tame chance</Numbers_TameChance.label> -->
@@ -50,7 +51,7 @@
 	<!-- EN <Numbers_Faction.label>Faction</Numbers_Faction.label> -->
 	<Numbers_Faction.label>Фракция</Numbers_Faction.label>
 	<!-- EN <Numbers_AnimalFilthRate.label>Filth rate</Numbers_AnimalFilthRate.label> -->
-	<Numbers_AnimalFilthRate.label>Скорость загрязнения</Numbers_AnimalFilthRate.label>
+	<Numbers_AnimalFilthRate.label>Скорость загрязнения поверхности</Numbers_AnimalFilthRate.label>
 	<!-- EN <Numbers_Meditation.label>Focus</Numbers_Meditation.label> -->
 	<Numbers_Meditation.label>Виды медитации</Numbers_Meditation.label>
 
