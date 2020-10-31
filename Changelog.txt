@@ -2,7 +2,7 @@ For English, scroll down.
 
 История изменений мода 7plus для Rimworld.
 
-2020-10-27 добавлена совместимость с модом Mehni.Numbers.
+2020-10-31 добавлена совместимость с модом Mehni.Numbers и перевод оного. На стиме уже есть какой-то машинный переводик. Но пока не могу к стиму приконнектиться, даже через лттлворд. Как появится возможность, займусь взаимоинтеграцией. Одно точно известно - стимовская версия не совместима с концепцией 7+.
 
 2020-10-07 апдейт к официальному переводу от 2020-10-05. Скомпилирована версия 7+мода 0.3.1beta.
 
@@ -48,7 +48,7 @@ For English, scroll down.
 
 Changelog for Rimworld's 7plus modification.
 
-2020-oct-27 added compatibility with Mehni.Numbers mod.
+2020-oct-31 added compatibility with Mehni.Numbers mod and russian translation. Yes, some auto-translation is already exist at steam. But now i have problem to connect steam, so i'll compare versions later. Anyway, steam version is not compatible with 7plus concept.
 
 2020-oct-07 update to official Russian translation v.2020oct05. Mod v.0.3.1.beta compiled.
 
