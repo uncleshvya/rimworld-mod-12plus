@@ -35,8 +35,9 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 Несовместим с модами "Psychology", "Rational Romance" и другими, меняющими отношения между полами.
 Пока несовместим с модами на другие расы, животных, кухонные верстаки. Но если будут желающие, мы добавим совместимость, пишите uncleshvya@yandex.ru Ответим как будет время.
 Несовместим с авто-обновлением русского языка от официального переводчика. Мы работаем над этим.
+Если используете машинный перевод мода AlienRaces от Tagiro (Тхакиро) с лттлворда, замените на наш, т.к. лттлвордовский противоречит концепции "7+".
 Если используете машинный перевод мода Numbers со стима, замените на наш, т.к. стимовский противоречит концепции "7+".
-		
+
 =====
 
 Порядок модов:
@@ -54,7 +55,7 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 Известные ошибки:
 
 - Если часто переходить по ссылкам в информации о людях, иногда выходит красная ошибка. Не обращайте внимания, это особенность движка мода.
-- Если колонисты вдруг перестали сами есть, скачайте другую версию Alien Races.
+- Если колонисты вдруг перестали сами есть, скачайте другую версию мода Alien Races.
 		
 =====
 
@@ -96,8 +97,9 @@ If you don't like the mod, just turn it off. Saves will be playable.
 Not compatible with "Psychology", "Rational Romance" or any other mods altering RimWorld's romance systems.
 For now, not compatible with mods for other races, animals, butchering tables and stoves. But we can do the compatibility, just mail to us mailto:uncleshvya@yandex.ru We'll answer as fast as possible.
 Not compatible with auto-script from official Russian translator's site. We're working on it.
+For erdelf.HumanoidAlienRaces mod, do not use Tagiro's auto-translation from Lttlword. It is not compatible with 7plus concept.
 For Mehni.Numbers mod, do not use auto-translation from Steam. It is not compatible with 7plus concept.
-		
+
 =====
 
 Order:
@@ -115,7 +117,7 @@ It's better to start a new game. However, old games are playable too. You should
 Known errors:
 
 - If you open pawn's information panel, and click links too much, it may cause a red error. Just ignore, it's a rare bug.
-- If your pawns do not eat, just download another version of erdelf.HumanoidAlienRaces mod. A well-known bug.
+- If your pawns do not eat, just download another version of erdelf.HumanoidAlienRaces mod.
 
 =====
 
