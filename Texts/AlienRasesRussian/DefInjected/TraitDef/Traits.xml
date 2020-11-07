@@ -6,7 +6,7 @@
 	<Xenophobia.degreeDatas.0.label>ксенофобия</Xenophobia.degreeDatas.0.label>
 	<!--EN
 	<Xenophobia.degreeDatas.0.description>[PAWN_nameDef] hates and distrusts xenos. They see them as little more than animals.</Xenophobia.degreeDatas.0.description> -->
-	<Xenophobia.degreeDatas.0.description>{PAWN_nameDef} ненавидит инопланетян и не доверяет им. {PAWN_pronoun} видит в них больше животных, чем себе подобных.</Xenophobia.degreeDatas.0.description>
+	<Xenophobia.degreeDatas.0.description>{PAWN_nameDef} не любит инопланетян и не доверяет им. {PAWN_pronoun} видит в них больше животных, чем себе подобных.</Xenophobia.degreeDatas.0.description>
 
 	<!--EN
 	<Xenophobia.degreeDatas.1.label>xenophile</Xenophobia.degreeDatas.1.label> -->
