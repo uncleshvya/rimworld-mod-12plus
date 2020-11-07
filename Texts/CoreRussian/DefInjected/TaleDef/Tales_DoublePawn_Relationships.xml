@@ -21,7 +21,7 @@
     <li>desc_sentence->[PURSUER_nameDef] is touching [ACCEPTER_nameDef] aggressively.</li>
   -->
   <BecameLover.rulePack.rulesStrings>
-    <li>tale_noun->как [PURSUER_nameDef] и [ACCEPTER_nameDef] стали любовниками</li>
+    <li>tale_noun->как [PURSUER_nameDef] и [ACCEPTER_nameDef] начали встречаться</li>
     <li>image->, как [PURSUER_nameFull] шепчет сладкие пустяки в ухо [ACCEPTER_nameFull][circumstance_phrase]</li>
     <li>image->, как [PURSUER_nameFull] ведёт [ACCEPTER_nameFull] за руку к кровати[circumstance_phrase]</li>
     <li>image->, как [PURSUER_nameFull] резвится в кровати с [ACCEPTER_nameFull][circumstance_phrase]</li>
