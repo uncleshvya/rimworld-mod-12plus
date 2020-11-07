@@ -2,6 +2,8 @@ For English, scroll down.
 
 История изменений мода 7plus для Rimworld.
 
+2020-11-07 отлов багов.
+
 2020-10-31 добавлена совместимость с модом Mehni.Numbers и перевод оного. Идёт тестирование...
 
 2020-10-07 апдейт к официальному переводу от 2020-10-05. Скомпилирована версия 7+мода 0.3.1beta.
@@ -47,6 +49,8 @@ For English, scroll down.
 =====
 
 Changelog for Rimworld's 7plus modification.
+
+2020-nov-07 bugfix.
 
 2020-oct-31 added compatibility with Mehni.Numbers mod and russian translation. Testing...
 
