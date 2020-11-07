@@ -27,7 +27,7 @@
 	<!-- EN <Numbers_SetAsDefault>Set current view as default</Numbers_SetAsDefault> -->
 	<Numbers_SetAsDefault>Сохранить таблицу как стандарт</Numbers_SetAsDefault>
 	<!-- EN <Numbers_SetAsDefaultExplanation>Set the current view as the default for this type of view ({0}).\n\nThis view will then be used for new colonies.\n\nCan be deleted in the mod settings:\n  [Menu] => [Options] => [Mod settings] => [Numbers].</Numbers_SetAsDefaultExplanation> -->
-	<Numbers_SetAsDefaultExplanation>Сохранить текущую таблицу, чтобы она отображалась при выборе «{0}» во вкладке Numbers.\n\nЭта настройка действует и для новых игр.\n\nУдалить сохранённые таблицы можно в настройках мода:\n  [Меню] => [Настройки] => [Настройки модификаций] => [Numbers].</Numbers_SetAsDefaultExplanation>
+	<Numbers_SetAsDefaultExplanation>Сохранить текущую таблицу, чтобы она отображалась при выборе «{0}» во вкладке «Таблицы».\n\nЭта настройка действует и для новых игр.\n\nУдалить сохранённые таблицы можно в настройках мода:\n  [Меню] => [Настройки] => [Настройки модификаций] => [Numbers].</Numbers_SetAsDefaultExplanation>
 	<!-- EN <Numbers_NoDefaultStoredForThisView>There are no defaults stored for the currently viewed pawn type.</Numbers_NoDefaultStoredForThisView> -->
 	<Numbers_NoDefaultStoredForThisView>Нет настроек по умолчанию для текущей таблицы.</Numbers_NoDefaultStoredForThisView>
 	<!-- EN <Numbers_LoadDefault>Load default view</Numbers_LoadDefault> -->
