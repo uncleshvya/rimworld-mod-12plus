@@ -1459,10 +1459,10 @@
 	<Carver1>
 		<!-- EN: carver -->
 		<title>резчик</title>
-		<titleFamale>резчица</titleFamale>
+		<titleFemale>резчица</titleFemale>
 		<!-- EN: carver -->
 		<titleShort>резчик</titleShort>
-		<titleShortFamale>резчица</titleShortFamale>
+		<titleShortFemale>резчица</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] carved artworks for [PAWN_possessive] tribe from wood, stone, and occasionally, more exotic materials. The work was sometimes sold, and sometimes kept to beautify settlements and provide a focus for rituals. -->
 		<desc>{PAWN_nameDef} {PAWN_gender ? вырезал : вырезала} для своего племени скульптуры из дерева, камня, а порой и из более экзотических материалов. Что-то из {PAWN_possessive} работ продавалось, что-то — хранилось поселенцами в ритуальных целях и просто для красоты.</desc>
 	</Carver1>
@@ -1997,11 +1997,11 @@
 	<!-- ImperialCommon_Adult -->
 	<RoyalCook18>
 		<!-- EN: royal cook -->
-		<title>королевский повар</title>
+		<title>придворный повар</title>
 		<!-- EN: cook -->
 		<titleShort>повар</titleShort>
 		<!-- EN: [PAWN_nameDef] made meals for [PAWN_possessive] aristocratic patrons.\n\nOnly the finest food was acceptable, so [PAWN_nameDef] tended a small garden on the mansion grounds to get the freshest herbs and vegetables. [PAWN_pronoun] fell in love with the food [PAWN_objective]self. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? готовил : готовила} еду для своих аристократических покровителей.\n\nОни признавали только самые лучшие блюда, так что {PAWN_pronoun} {PAWN_gender ? ухаживал : ухаживала} за небольшим садом на территории особняка, чтобы получить самые свежие травы и овощи. {PAWN_nameDef} и {PAWN_gender ? сам влюбился : сама влюбилась} в эту еду.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? готовил : готовила} для знатных особ.\n\nДля этого требовалось исключительное качество продуктов, так что {PAWN_pronoun} {PAWN_gender ? ухаживал : ухаживала} за небольшим садом на территории поместья, чтобы иметь доступ к самым свежим травам и овощам. {PAWN_nameDef} признаётся, что еда стала {PAWN_possessive} страстью.</desc>
 	</RoyalCook18>
 
 	<!-- ImperialFighter_Adult -->
