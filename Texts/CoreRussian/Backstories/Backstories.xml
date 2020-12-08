@@ -2007,11 +2007,13 @@
 	<!-- ImperialFighter_Adult -->
 	<RoyalGuard51>
 		<!-- EN: royal guard -->
-		<title>королевский гвардеец</title>
+		<title>придворный стражник</title>
+		<titleFemale>придворная стражница</titleFemale>
 		<!-- EN: guard -->
-		<titleShort>гвардеец</titleShort>
+		<titleShort>стражник</titleShort>
+		<titleShortFemale>стражница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] guarded the personal palace of a powerful lord.\n\nWhile violence was rare, palace intrigue was constant. [PAWN_nameDef]'s work taught [PAWN_pronoun] to handle both words and guns. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? охранял : охраняла} личный дворец могущественного лорда. И хотя насилие было редкостью, дворцовые интриги существовали постоянно. Во время работы {PAWN_nameDef} {PAWN_gender ? научился : научилась} обращаться как со словами, так и с оружием.</desc>
+		<desc> {PAWN_nameDef} {PAWN_gender ? охранял : охраняла} личный дворец могущественного лорда.\n\nХотя насилие было редким явлением, дворец кишел интригами. При такой работе {PAWN_nameDef} {PAWN_gender ? научился : научилась} мастерски управляться и словами, и оружием.</desc>
 	</RoyalGuard51>
 
 	<!-- ImperialCommon_Adult -->
