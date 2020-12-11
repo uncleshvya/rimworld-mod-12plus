@@ -2025,7 +2025,7 @@
 		<titleShort>массажист</titleShort>
 		<titleShortFemale>массажистка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was a massage artist for an extended royal house. [PAWN_pronoun] serviced many members of the royal family, and their guests.\n\n[PAWN_nameDef] occasionally offered something extra, if the lord or lady was in the mood. Advancing in this line of work meant having refined social skills. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? работал : работала} массажистом в королевском доме, обслуживая множество членов королевской семьи и их гостей.\n\nИногда {PAWN_nameDef} {PAWN_gender ? предлагал : предлагала} «особые» услуги, если лорд или леди в соответствующем расположении духа. Продвижение в этом роде деятельности помогает в усовершенствовании социальных навыков.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? работал массажистом : работала массажисткой} при дворе известного и влиятельного рода, обслуживая множество членов знатной семьи и их гостей.\n\n{PAWN_nameDef} иногда {PAWN_gender ? предлагал : предлагала} «особенные» услуги, если лорды были в соответствующем расположении духа.\n\nСовершенствование в этом роде деятельности помогает оттачивать социальные навыки.</desc>
 	</RoyalMasseuse43>
 
 	<!-- ImperialCommon_Child -->
