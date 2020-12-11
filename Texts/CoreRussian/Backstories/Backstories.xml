@@ -2031,29 +2031,29 @@
 	<!-- ImperialCommon_Child -->
 	<ServingBoy97>
 		<!-- EN: serving boy -->
-		<title>мальчик-слуга</title>
+		<title>прислужник</title>
 		<!-- EN: serving girl -->
-		<titleFemale>девочка-служанка</titleFemale>
+		<titleFemale>прислужница</titleFemale>
 		<!-- EN: house boy -->
 		<titleShort>прислужник</titleShort>
 		<!-- EN: house girl -->
 		<titleShortFemale>прислужница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was the child of house servants, and was trained to carry on the family duty.\n\n[PAWN_pronoun] carried things and polished silverware, but was never allowed into the lords' part of the house. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? был : была}  ребёнком потомственных слуг, и {PAWN_gender ? обучался : обучалась} выполнять семейный долг. Прислужникам поручали переносить вещи и полировать серебро, но никогда не пускали в покои лордов.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} в семье придворных слуг, и {PAWN_gender ? был обучен : была обучена} всем обязанностям своих родителей.\n\n{PAWN_pronoun} {PAWN_gender ? носил : носила} вещи и {PAWN_gender ? полировал : полировала} серебряную посуду, но никогда не {PAWN_gender ? заходил : заходила} в «господскую» часть особняка.</desc>
 	</ServingBoy97>
 
 	<!-- ImperialRoyal_Child -->
 	<ShipboundLordling12>
 		<!-- EN: shipbound lordling -->
-		<title>межзвёздный лорд</title>
+		<title>лорд с корабля</title>
 		<!-- EN: shipbound lady -->
-		<titleFemale>межзвёздная леди</titleFemale>
+		<titleFemale>леди с корабля</titleFemale>
 		<!-- EN: ship lord -->
-		<titleShort>лорд корабля</titleShort>
+		<titleShort>молодой лорд</titleShort>
 		<!-- EN: ship lady -->
-		<titleShortFemale>леди корабля</titleShortFemale>
+		<titleShortFemale>молодая леди</titleShortFemale>
 		<!-- EN: [PAWN_nameDef]'s family held their power base on a grand, ancient starship. Born and raised on the ship, [PAWN_nameDef] learned all about the rigors of shipboard life, and the politics and methods of interstellar battle and orbital invasion.\n\n[PAWN_pronoun] learned to feel most at home with strong walls close on all sides and the gentle hiss of atmosphere regulators. -->
-		<desc>{PAWN_possessive} род живёт на большом древнем звездолёте. Родившись и выросши на корабле, {PAWN_nameDef} {PAWN_gender ? узнал : узнала} всё о суровой судовой жизни, политике, а так же о методах межзвездной битвы и орбитального вторжения.\n\n{PAWN_nameDef} чувствует себя в безопасности только отгородившись от мира крепкими переборками, и слыша мягкое шипение регуляторов атмосферы.</desc>
+		<desc>Основным оплотом {PAWN_possessive} семьи был огромный древний космический корабль. {PAWN_nameDef} {PAWN_gender ? родился и рос : родилась и росла} на нём и не понаслышке {PAWN_gender ? знал : знала} о всей суровости корабельного быта, методах ведения космического боя и орбитального десанта.\n\n{PAWN_nameDef} {PAWN_gender ? привык : привыкла} чувствовать себя как дома только отгородившись от мира крепкими переборками и слыша мягкое шипение атмосферных регуляторов.</desc>
 	</ShipboundLordling12>
 
 	<!-- ImperialFighter_Child -->
