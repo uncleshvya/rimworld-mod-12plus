@@ -2153,15 +2153,15 @@
 	<!-- ImperialRoyal_Child -->
 	<UrbanLordling82>
 		<!-- EN: urban lordling -->
-		<title>urban lordling</title>
+		<title>городской лорд</title>
 		<!-- EN: urban lady -->
-		<titleFemale>urban lady</titleFemale>
+		<titleFemale>городская леди</titleFemale>
 		<!-- EN: city lord -->
-		<titleShort>city lord</titleShort>
+		<titleShort>лорд</titleShort>
 		<!-- EN: city lady -->
-		<titleShortFemale>city lady</titleShortFemale>
+		<titleShortFemale>леди</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was born to a royal house with a grand manor in a great city. [PAWN_pronoun] spent [PAWN_possessive] youth in lessons on politics.\n\nWhenever [PAWN_pronoun] could, [PAWN_pronoun] would escape with [PAWN_possessive] friends to explore the half-built substructure of the metropolis. -->
-		<desc>[PAWN_nameDef] was born to a royal house with a grand manor in a great city. [PAWN_pronoun] spent [PAWN_possessive] youth in lessons on politics.\n\nWhenever [PAWN_pronoun] could, [PAWN_pronoun] would escape with [PAWN_possessive] friends to explore the half-built substructure of the metropolis.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} в знатной семье, владевшей великолепной усадьбой в огромном городе. Всё своё детство {PAWN_pronoun} {PAWN_gender ? провёл : провела}, изучая политику.\n\nПри малейшей возможности {PAWN_nameDef} {PAWN_gender ? сбегал : сбегала} со своими друзьями, чтобы исследовать столичные катакомбы.</desc>
 	</UrbanLordling82>
 
 	<!-- Tribal_Adult -->
