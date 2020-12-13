@@ -2,7 +2,7 @@
 
 For English, scroll below.
 
-Простой xml-мод, отключает самые жёсткие аспекты, чтобы дети от 7 лет тоже могли играть в Rimworld, не получая психологических травм. Проверено на игре v.1.2.2753 rev.705, с официальным русским переводом от 05.10.2020.
+Простой xml-мод, отключает самые жёсткие аспекты, чтобы дети от 7 лет тоже могли играть в Rimworld, не получая психологических травм. Проверено на игре v.1.2.2753 rev.705, с официальным русским переводом от 04.11.2020.
 
 Инструкция по установке: 
 
@@ -18,7 +18,7 @@ For English, scroll below.
 - по желанию, из папки RimWorldUniverse возьмите адаптированный текстовый файл.
 - кто хочет расу котов, разархивируйте файл OrassanLite7plus.zip в папку модов.
 
-Simple xml mod turns off the most hardcore aspects in order to allow 7+ aged children play Rimworld, without getting psychological trauma. Tested with game v.1.2.2753 rev.705 and official russian translation v.2020oct05.
+Simple xml mod turns off the most hardcore aspects in order to allow 7+ aged children play Rimworld, without getting psychological trauma. Tested with game v.1.2.2753 rev.705 and official russian translation v.2020nov04.
 
 How to install:
 - download the repository or "Download 7plus mod (latest).zip" file.
