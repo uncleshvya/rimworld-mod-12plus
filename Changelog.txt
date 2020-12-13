@@ -2,11 +2,9 @@ For English, scroll down.
 
 История изменений мода 7plus для Rimworld.
 
-2020-11-07 отлов багов.
+2020-12-13 апдейт к официальному переводу от 2020-11-04. Скомпилирована версия 7+мода 0.3.1beta.
 
 2020-10-31 добавлена совместимость с модом Mehni.Numbers и перевод оного. Идёт тестирование...
-
-2020-10-07 апдейт к официальному переводу от 2020-10-05. Скомпилирована версия 7+мода 0.3.1beta.
 
 2020-10-02 по срочному заданию игрока Roma, создан мод на расу котов, на основе dianawinters.OrassansLite, для 7+. Время поджимало, модифицировал сам код. Сделаю покрасивее, когда разберусь как патчить инопланетные расы.
 
@@ -50,11 +48,9 @@ For English, scroll down.
 
 Changelog for Rimworld's 7plus modification.
 
-2020-nov-07 bugfix.
+2020-dec-13 update to official Russian translation v.2020nov04. Mod v.0.3.1.beta compiled.
 
 2020-oct-31 added compatibility with Mehni.Numbers mod and russian translation. Testing...
-
-2020-oct-07 update to official Russian translation v.2020oct05. Mod v.0.3.1.beta compiled.
 
 2020-oct-02 player Roma inspirated me to create cats' mod, based on dianawinters.OrassansLite, adapted to 7+. Having no time, i changed the code directly. How can i patch alien races?
 
