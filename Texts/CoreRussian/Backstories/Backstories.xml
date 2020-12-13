@@ -2191,11 +2191,13 @@
 	<!-- ImperialRoyal_Adult -->
 	<Warmaster54>
 		<!-- EN: warmaster -->
-		<title>warmaster</title>
+		<title>военный советник</title>
+		<titleFemale>военная советница</titleFemale>
 		<!-- EN: warmaster -->
-		<titleShort>warmaster</titleShort>
+		<titleShort>советник</titleShort>
+		<titleShortFemale>советница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was warmaster to a mid-level royal house. [PAWN_pronoun] oversaw military aspects of the family's strategy.\n\nOn the rare occasion a battle occurred, [PAWN_nameDef] directed the military commanders. -->
-		<desc>[PAWN_nameDef] was warmaster to a mid-level royal house. [PAWN_pronoun] oversaw military aspects of the family's strategy.\n\nOn the rare occasion a battle occurred, [PAWN_nameDef] directed the military commanders.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был советником : была советницей} при дворе и {PAWN_gender ? занимался : занималась} всеми военными делами знатной семьи.\n\nВ тех редких случаях, когда происходили сражения, {PAWN_nameDef} {PAWN_gender ? руководил : руководила} офицерским составом.</desc>
 	</Warmaster54>
 
 	<!-- ImperialFighter_Adult -->
