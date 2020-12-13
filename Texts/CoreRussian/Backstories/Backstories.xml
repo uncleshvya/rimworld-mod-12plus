@@ -2652,7 +2652,7 @@
 		<!-- EN: pirate -->
 		<titleShort>атаман</titleShort>
 		<titleShortFemale>атаманша</titleShortFemale>
-		<!-- EN: With no real care for other people, [PAWN_nameDef] fit in perfectly with the pirate crew that had once held [PAWN_objecive] captive. Shortly after joining the crew, [PAWN_nameDef] began to kill anyone or anything that got in [PAWN_possessive] way—including [PAWN_possessive] crewmates. -->
+		<!-- EN: With no real care for other people, [PAWN_nameDef] fit in perfectly with the pirate crew that had once held [PAWN_objective] captive. Shortly after joining the crew, [PAWN_nameDef] began to kill anyone or anything that got in [PAWN_possessive] way—including [PAWN_possessive] crewmates. -->
 		<desc>{PAWN_nameDef} прекрасно вписывается в пиратскую команду, когда-то захватившую {PAWN_possessive} в плен, — ведь {PAWN_objective} так же плевать на людей. Заняв своё место в экипаже, {PAWN_pronoun} начинает устранять любого, кто встанет на пути, — в том числе и членов команды. Однако достигнув вершины пирамиды этого социума, {PAWN_nameDef} полностью в нём разочаровывается.</desc>
 	</PirateKing81>
 
