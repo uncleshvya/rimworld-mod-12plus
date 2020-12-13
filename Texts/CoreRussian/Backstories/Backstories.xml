@@ -2203,11 +2203,13 @@
 	<!-- ImperialFighter_Adult -->
 	<Warmonger35>
 		<!-- EN: warmonger -->
-		<title>warmonger</title>
+		<title>свирепый воин</title>
+		<titleFemale>свирепая воительница</titleFemale>
 		<!-- EN: warmonger -->
-		<titleShort>warmonger</titleShort>
+		<titleShort>воин</titleShort>
+		<titleShortFemale>воительница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] revelled in bloodshed. Soldiers who served with [PAWN_objective] were terrified of [PAWN_possessive] ferocity. They rarely socialized with [PAWN_nameDef], and [PAWN_pronoun] did not mind the isolation. -->
-		<desc>[PAWN_nameDef] revelled in bloodshed. Soldiers who served with [PAWN_objective] were terrified of [PAWN_possessive] ferocity. They rarely socialized with [PAWN_nameDef], and [PAWN_pronoun] did not mind the isolation.</desc>
+		<desc>{PAWN_nameDef} просто {PAWN_gender ? упивался : упивалась} кровопролитием. Бойцы, служившие вместе с {PAWN_gender ? ним : ней}, ужасались такой жестокости. {PAWN_nameDef} почти не {PAWN_gender ? завёл : завела} друзей, но {PAWN_objective} было хорошо и {PAWN_gender ? одному : одной}.</desc>
 	</Warmonger35>
 
 	<!-- Offworld_Specific_Child -->
