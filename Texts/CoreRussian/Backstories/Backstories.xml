@@ -2173,7 +2173,7 @@
 		<titleShort>охотник</titleShort>
 		<titleShortFemale>охотница</titleShortFemale>
 		<!-- EN: Following the death of a close friend by animal attack, [PAWN_nameDef] hunted the beast responsible. [PAWN_pronoun] tracked it to a nearby village, only to find one of the villagers wearing its pelt. -->
-		<desc>Когда {PAWN_possessive} близкого друга ранит дикий зверь, {PAWN_nameDef} клянётся лично отомстить животному. {PAWN_pronoun} несколько дней выслеживает хищника, пока не добирается до соседней деревни. Внезапно {PAWN_nameDef} замечает шкуру того самого зверя, висящую в меховой мастерской.</desc>
+		<desc>После того, как {PAWN_possessive} близкого друга ранил дикий зверь, {PAWN_nameDef} {PAWN_gender ? поклялся : поклялась} лично отомстить животному. {PAWN_pronoun} несколько дней {PAWN_gender ? выслеживал : выслеживала} хищника, пока не {PAWN_gender ? добрался : добралась} до соседней деревни. Внезапно {PAWN_nameDef} {PAWN_gender ? увидел : увидела} шкуру того самого зверя, висящую в меховой мастерской.</desc>
 	</VengefulHunter32>
 
 	<!-- ImperialCommon_Child -->
