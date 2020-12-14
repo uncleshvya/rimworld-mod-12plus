@@ -8226,11 +8226,12 @@
 	<!-- Owen "Cali" Clarke, Male, Adulthood -->
 	<HypnocultLeader61>
 		<!-- EN: Hypnocult leader -->
-		<title>Hypnocult leader</title>
+		<title>лидер гипнокульта</title>
 		<!-- EN: Cultist -->
-		<titleShort>Cultist</titleShort>
+		<titleShort>культист</titleShort>
+		<titleShortFemale>культистка</titleShortFemale>
 		<!-- EN: Desiring to understand people, [PAWN_nameDef] learned hypnotism and discovered [PAWN_possessive] talent for the art.\n\n        [PAWN_pronoun] gathered followers and formed a cult around [PAWN_possessive] vibrant personality. The authorities discovered [PAWN_possessive] illegal operations, and [PAWN_nameDef] fled before [PAWN_pronoun] could be arrested.\n       -->
-		<desc>Desiring to understand people, [PAWN_nameDef] learned hypnotism and discovered [PAWN_possessive] talent for the art.\n\n[PAWN_pronoun] gathered followers and formed a cult around [PAWN_possessive] vibrant personality. The authorities discovered [PAWN_possessive] illegal operations, and [PAWN_nameDef] fled before [PAWN_pronoun] could be arrested.</desc>
+		<desc>Желая лучше понимать людей, {PAWN_nameDef} {PAWN_gender ? обучился : обучилась} искусству гипноза, к которому позже {PAWN_gender ? обнаружил : обнаружила} у себя настоящий талант.\n\n{PAWN_nameDef} {PAWN_gender ? смог : смогла} собрать вокруг своей энергичной личности культ поклонников. Власти узнали о {PAWN_possessive} незаконной деятельности, но {PAWN_nameDef} {PAWN_gender ? успел : успела} сбежать до ареста.</desc>
 	</HypnocultLeader61>
 
 	<!-- Fauna "Furr" Wells, Female, Childhood -->
