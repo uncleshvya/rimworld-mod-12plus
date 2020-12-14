@@ -8247,11 +8247,11 @@
 	<!-- Fauna "Furr" Wells, Female, Adulthood -->
 	<MercenaryCaptain56>
 		<!-- EN: Mercenary captain -->
-		<title>солдат-ветеран</title>
+		<title>капитан наёмников</title>
 		<!-- EN: Captain -->
-		<titleShort>ветеран</titleShort>
+		<titleShort>капитан</titleShort>
 		<!-- EN: [PAWN_pronoun] was in the crew of a mercenary ship. Disciplined and confident, [PAWN_nameDef] quickly rose through the ranks and gained friends.\n\nIn [PAWN_possessive] time as a mercenary captain, [PAWN_pronoun] was known for being gregarious and calm - possibly thanks to the joywires. \n -->
-		<desc>{PAWN_nameDef} участвует в многочисленных походах против пиратов, повстанцев и ксеносов. {PAWN_pronoun} сталкивается с величием и ужасами войны.\n\nУстав от тренировок, крови и боевых ранений, {PAWN_nameDef} «отходит от дел» и устраивается на непыльную солдатскую службу по обеспечению порядка в колониях. {PAWN_pronoun} проводит дни, полируя свои боевые медали и осознавая, что родные могут гордиться {PAWN_possessive} успехами.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? устроился : устроилась} в экипаж корабля наёмников, где {PAWN_gender ? отличился : отличилась} дисциплинированностью и уверенностью в себе. Это позволило {PAWN_objective} быстро продвинуться по службе и обзавестись друзьями.\n\nВскоре {PAWN_nameDef} {PAWN_gender ? получил : получила} должность капитана. {PAWN_possessive} известными чертами были спокойствие и общительность, возможно, из-за вживлённого чипа счастья.</desc>
 	</MercenaryCaptain56>
 
 	<!-- Oskar Potocki, Male, Childhood -->
