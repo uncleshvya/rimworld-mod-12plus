@@ -8258,10 +8258,12 @@
 	<ArtSlave57>
 		<!-- EN: art slave -->
 		<title>раб-художник</title>
+		<titleFemale>рабыня-художница</titleFemale>
 		<!-- EN: artist -->
 		<titleShort>художник</titleShort>
+		<titleShortFemale>художница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was born on the dark edge of a tidally-locked urbworld. After an argument, [PAWN_possessive] father sold [PAWN_objective] to a local district lord as a slave artist.\n\nForced to create art or be punished, [PAWN_pronoun] withdrew and became unable to form relations with others. -->
-		<desc>{PAWN_nameDef} рождается в мрачном районе изолированного городского мира. Рано осиротев, {PAWN_pronoun} попадает в собственность к местному землевладельцу в качестве художника-раба.\n\nТворя искусство под угрозой наказания, {PAWN_nameDef} замыкается в себе и теряет навыки общения с людьми.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} в перенаселённой сумеречной зоне планеты, обращённой одной стороной к солнцу. Рано осиротев, {PAWN_pronoun} {PAWN_gender ? попал : попала} в собственность к местному правителю в качестве {PAWN_gender ? раба-художника : рабыни-художницы}.\n\nСоздавая произведения искусства под угрозой наказания, {PAWN_nameDef} {PAWN_gender ? отрешился : отрешилась} от реальности и {PAWN_gender ? разучился : разучилась} налаживать отношения с другими людьми.</desc>
 	</ArtSlave57>
 
 	<!-- Oskar Potocki, Male, Adulthood -->
@@ -8271,7 +8273,7 @@
 		<!-- EN: modder -->
 		<titleShort>мододел</titleShort>
 		<!-- EN: [PAWN_nameDef] designed combat modifications for frontline soldiers.\n\nOne night, in a nightmare, [PAWN_nameDef] was confronted by all the men and women killed by [PAWN_possessive] work. [PAWN_pronoun] decided to travel to the rimworlds and use [PAWN_possessive] skills for good. -->
-		<desc>{PAWN_nameDef} работает генератором идей для модов в одной популярной инди-игре, в основном придумывая новых монстров.\n\nОднажды ночью, в кошмарном сне, все эти монстры разом являются к н{PAWN_objective} и начинают терзать. Проснувшись в холодном поту, {PAWN_nameDef} решает бросить своё неблагодарное занятие, и устроиться на денежную работу.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? работал : работала} генератором идей для модов в одной популярной инди-игре, в основном придумывая новых монстров.\n\nОднажды ночью, в кошмарном сне, все эти монстры разом явились к н{PAWN_objective} и начали терзать. Проснувшись в холодном поту, {PAWN_nameDef} {PAWN_gender ? решил : решила} бросить своё неблагодарное занятие, и устроиться на денежную работу.</desc>
 	</ModDesigner85>
 
 </BackstoryTranslations>
