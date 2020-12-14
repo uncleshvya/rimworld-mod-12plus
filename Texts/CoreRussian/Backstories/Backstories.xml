@@ -8242,8 +8242,7 @@
 		<titleShort>акробат</titleShort>
 		<titleFemaleShort>акробатка</titleFemaleShort>
 		<!-- EN: Born a quiet urbworld orphan, [PAWN_nameDef] was invited to join a traveling circus. [PAWN_possessive] small size and observant nature helped [PAWN_nameDef] become a noted acrobat.\n\nUnfortunately, [PAWN_possessive] violent tendencies brought [PAWN_possessive] acrobatic career to an early end.  -->
-		<desc>{PAWN_nameDef} растёт скромной сироткой на одном из городских миров. Однажды {PAWN_possessive} приглашает к себе труппа странствующих циркачей. Они воспитывают из н{PAWN_possessive} отличного акробата.\n\nК несчастью, однажды {PAWN_nameDef} сильно травмируется и больше не может выступать на манеже.</desc>
-	</OrphanedAcrobat84>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} тихой сиротой на одном из городских миров, когда {PAWN_possessive} пригласили в странствующий цирк. Благодаря небольшому росту и наблюдательности {PAWN_nameDef} {PAWN_gender ? стал известным акробатом : стала известной акробаткой}.\n\nК несчастью, однажды {PAWN_nameDef} сильно травмируется и больше не может выступать на манеже.</OrphanedAcrobat84>
 
 	<!-- Fauna "Furr" Wells, Female, Adulthood -->
 	<MercenaryCaptain56>
