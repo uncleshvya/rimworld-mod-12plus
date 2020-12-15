@@ -8216,11 +8216,11 @@
 	<!-- Owen "Cali" Clarke, Male, Childhood -->
 	<SpaceyachtPilot89>
 		<!-- EN: Spaceyacht pilot -->
-		<title>Spaceyacht pilot</title>
+		<title>пилот космояхты</title>
 		<!-- EN: Pilot -->
-		<titleShort>Pilot</titleShort>
+		<titleShort>пилот</titleShort>
 		<!-- EN: [PAWN_nameDef] ferried wealthy businessmen and politicians to and from his home world.\n\n        Witnessing the depths of hedonism these people descended to changed [PAWN_objective] in ways not even [PAWN_pronoun] understood.\n       -->
-		<desc>[PAWN_nameDef] ferried wealthy businessmen and politicians to and from his home world.\n\nWitnessing the depths of hedonism these people descended to changed [PAWN_objective] in ways not even [PAWN_pronoun] understood.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? перевозил : перевозила} богатых предпринимателей и политиков.\n\nПостоянно наблюдая за тем, в какие пучины гедонизма эти люди опускались, {PAWN_nameDef} сильно {PAWN_gender ? изменился : изменилась }, {PAWN_gender ? сам : сама} не осознавая, насколько.</desc>
 	</SpaceyachtPilot89>
 
 	<!-- Owen "Cali" Clarke, Male, Adulthood -->
