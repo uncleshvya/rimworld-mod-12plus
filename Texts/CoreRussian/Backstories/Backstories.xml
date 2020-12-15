@@ -8116,21 +8116,23 @@
 	<!-- Aleksander "Sale" Chiki, Male, Childhood -->
 	<RebelliousStudent74>
 		<!-- EN: Rebellious student -->
-		<title>Rebellious student</title>
+		<title>школьный бунтарь</title>
+		<titleFemale>школьная бунтарка</titleFemale>
 		<!-- EN: Student -->
-		<titleShort>Student</titleShort>
+		<titleShort>школьник</titleShort>
+		<titleShortFemale>школьница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] had a shot at an education, but [PAWN_pronoun] rebelled against the injustices [PAWN_pronoun] saw and was expelled from three schools. This left [PAWN_objective] with a sense of integrity, but a lack of social skills.\n\n        [PAWN_nameDef] sought self-actualization. [PAWN_pronoun] spent [PAWN_possessive] days meditating and practicing katana and staff fighting techniques.\n -->
-		<desc>[PAWN_nameDef] had a shot at an education, but [PAWN_pronoun] rebelled against the injustices [PAWN_pronoun] saw and was expelled from three schools. This left [PAWN_objective] with a sense of integrity, but a lack of social skills.\n\n        [PAWN_nameDef] sought self-actualization. [PAWN_pronoun] spent [PAWN_possessive] days meditating and practicing katana and staff fighting techniques.\n</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? хотел : хотела} получить образование, но не {PAWN_gender ? мог : могла} смириться с несправедливостями, с которыми {PAWN_gender ? сталкивался : сталкивалась} внутри образовательной системы, из-за чего {PAWN_gender ? был исключён : была исключена} из трёх школ. Это сделало {PAWN_possessive} {PAWN_gender ? независимым : независимой}, но лишило возможности получить полноценные навыки общения.\n\n{PAWN_nameDef} {PAWN_gender ? искал : искала} способы самореализации. {PAWN_pronoun} {PAWN_gender ? проводил : проводила} свои дни, медитируя и практикуя мастерство обращения с катаной и посохом.</desc>
 	</RebelliousStudent74>
 
 	<!-- Aleksander "Sale" Chiki, Male, Adulthood -->
 	<TournamentFighter28>
 		<!-- EN: Tournament fighter -->
-		<title>Tournament fighter</title>
+		<title>боец арены</title>
 		<!-- EN: Fighter -->
-		<titleShort>Fighter</titleShort>
+		<titleShort>боец</titleShort>
 		<!-- EN: Motivated by the violence in [PAWN_possessive] environment, [PAWN_nameDef] studied martial arts, eventually signing up for an unarmed fighting tournament.\n\n        Unlike [PAWN_possessive] opponents, [PAWN_nameDef] looked to the ancient warriors for guidance. [PAWN_pronoun] trained from dusk till dawn, perfecting [PAWN_possessive] skills.\n       -->
-		<desc>Motivated by the violence in [PAWN_possessive] environment, [PAWN_nameDef] studied martial arts, eventually signing up for an unarmed fighting tournament.\n\n        Unlike [PAWN_possessive] opponents, [PAWN_nameDef] looked to the ancient warriors for guidance. [PAWN_pronoun] trained from dusk till dawn, perfecting [PAWN_possessive] skills.\n</desc>
+		<desc>Живя в окружении, полном насилия, {PAWN_nameDef} {PAWN_gender ? изучал : изучала} боевые искусства и, в конечном итоге, {PAWN_gender ? начал : начала} участвовать в соревнованиях по рукопашному бою.\n\nВ отличие от своих противников, {PAWN_nameDef} {PAWN_gender ? брал : брала} пример с различных воинов древности. {PAWN_pronoun} {PAWN_gender ? упражнялся : упражнялась} каждый день от рассвета до заката, оттачивая свои навыки.</desc>
 	</TournamentFighter28>
 
 	<!-- Chris Draper, Male, Childhood -->
