@@ -83,7 +83,7 @@
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
     <li>paralyzedInfo->[lodgersLabelSingOrPlural] [lodgers_suffer] от паралитической абазии и [lodgers_should] находиться в кровати.</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPlural] [lodgers_sick] гнилокровием и [lodgers_will] нуждаться в ежедневном лечении. Хороший уход и качественные лекарства помогут замедлить болезнь, но её невозможно вылечить сразу. Гнилокровие в запущенной стадии приводит к потере существа. Убедитесь, что у вас есть запас необходимых медикаментов.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPlural] [lodgers_sick] гнилокровием и [lodgers_will] нуждаться в ежедневном лечении. Хороший уход и качественные лекарства помогут замедлить болезнь, но её невозможно вылечить сразу. Гнилокровие в запущенной стадии приводит к потере заболевшего. Убедитесь, что у вас есть запас необходимых медикаментов.</li>
     <li>minMoodInfo-></li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nвы должны поддерживать настроение [lodgersLabelSingOrPlural_gen] выше [lodgersMoodThreshold_percent].</li>
     <li>workInfo-></li>
