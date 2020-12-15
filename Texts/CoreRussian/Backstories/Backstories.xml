@@ -8182,7 +8182,7 @@
 		<titleShort>кочевник</titleShort>
 		<titleShortFemale>кочевница</titleShortFemale>
 		<!-- EN: Born to a nomadic family in a feudal society, [PAWN_nameDef] was instructed in the arts of speechcraft, sleight of hand, horse riding.\n\n        [PAWN_pronoun] was always running around the camp doing odd jobs to help [PAWN_possessive] extended family.\n       -->
-		<desc>{PAWN_gender ? Родившийся : Родившаяся} в семье кочевников в средневековом мире, {PAWN_nameDef} с самого детства {PAWN_gender ? обучался : обучалась} красноречию, ловкости рук и верховой езде.\n\nВсё своё время {PAWN_gender ? хлопотал : хлопотала} в лагере, выполняя разнообразные, порой необычные, поручения на пользу своей большой семье.</desc>
+		<desc>{PAWN_gender ? Родившийся : Родившаяся} в семье кочевников в средневековом мире, {PAWN_nameDef} с самого детства {PAWN_gender ? обучался : обучалась} красноречию, ловкости рук и верховой езде.\n\nВсё своё время {PAWN_pronoun} {PAWN_gender ? хлопотал : хлопотала} в лагере, выполняя разнообразные, порой необычные, поручения на пользу своей большой семье.</desc>
 	</MedievalNomad12>
 
 	<!-- Eron "Kamrov" Vormak, Male, Adulthood -->
