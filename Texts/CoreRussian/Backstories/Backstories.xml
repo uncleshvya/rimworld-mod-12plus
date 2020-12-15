@@ -8196,21 +8196,25 @@
 	<!-- Freya "Tail" Fairwing, Female, Childhood -->
 	<ShunnedGirl30>
 		<!-- EN: Shunned girl -->
-		<title>Shunned girl</title>
+		<title>затравленный мальчик</title>
+		<titleFemale>затравленная девочка</titleFemale>
 		<!-- EN: Shunned -->
-		<titleShort>Shunned</titleShort>
+		<titleShort>затравленный</titleShort>
+		<titleShortFemale>затравленная</titleShortFemale>
 		<!-- EN: Freya was born into a small, poor family. She was bullied relentlessly, beaten and hated. As she grew up she developed an   interest in guns. She usually studied from books, but occasionally managed to get some practice time with the real thing. Freya later   discovered a talent for art and began to teach herself how to draw and paint. -->
-		<desc>Freya was born into a small, poor family. She was bullied relentlessly, beaten and hated. As she grew up she developed an interest in guns. She usually studied from books, but occasionally managed to get some practice time with the real thing. Freya later discovered a talent for art and began to teach herself how to draw and paint.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} в одной из бедных семей. {PAWN_possessive} жестоко травили, били и презирали. Взрослея, {PAWN_pronoun} {PAWN_gender ? приобрёл : приобрела} интерес к огнестрельному оружию. Всё новое {PAWN_nameDef} {PAWN_gender ? узнавал : узнавала} из книжек, но иногда у н{PAWN_possessive} была возможность по-настоящему попрактиковаться. Позже {PAWN_nameDef} {PAWN_gender ? обнаружил : обнаружила} в себе талант к искусству и самостоятельно {PAWN_gender ? научился : научилась} рисовать.</desc>
 	</ShunnedGirl30>
 
 	<!-- Freya "Tail" Fairwing, Female, Adulthood -->
 	<ArtStudent79>
 		<!-- EN: Art student -->
-		<title>Art student</title>
+		<title>студент-художник</title>
+		<titleFemale>студентка-художница</titleFemale>
 		<!-- EN: Artist -->
-		<titleShort>Artist</titleShort>
+		<titleShort>художник</titleShort>
+		<titleShortFemale>художница</titleShortFemale>
 		<!-- EN: After years of practice, Freya was able to enrol into an art university and take her skills further. She sought art industry work after graduating with good grades. She made some progress with private commissions, managing to make a decent living from heart. -->
-		<desc>After years of practice, Freya was able to enrol into an art university and take her skills further. She sought art industry work after graduating with good grades. She made some progress with private commissions, managing to make a decent living from heart.</desc>
+		<desc>После многих лет подготовки и практики {PAWN_nameDef} {PAWN_gender ? поступил : поступила} в академию искусств, чтобы и дальше развивать свои художественные навыки. После выпуска с хорошими оценками {PAWN_pronoun} {PAWN_gender ? искал : искала} работу в творческой отрасли. В итоге {PAWN_nameDef} начала с удовольствием для себя зарабатывать на достойную жизнь, выполняя частные заказы.</desc>
 	</ArtStudent79>
 
 	<!-- Owen "Cali" Clarke, Male, Childhood -->
