@@ -8156,21 +8156,21 @@
 	<!-- Erik "Nytro" Nystrom, Male, Childhood -->
 	<Computer80>
 		<!-- EN: computer -->
-		<title>computer</title>
+		<title>вычислитель</title>
 		<!-- EN: computer -->
-		<titleShort>computer</titleShort>
+		<titleShort>вычислитель</titleShort>
 		<!-- EN: As a child, [PAWN_nameDef] crafted complex algorithms. [PAWN_pronoun] was used as a "human computer" for most of [PAWN_possessive] childhood. This left [PAWN_objective] socially awkward and rather scrawny.\n\n        Despite the solitary confinement, [PAWN_nameDef] developed a great imagination to occupy [PAWN_possessive] idle time.\n       -->
-		<desc>As a child, [PAWN_nameDef] crafted complex algorithms. [PAWN_pronoun] was used as a "human computer" for most of [PAWN_possessive] childhood. This left [PAWN_objective] socially awkward and rather scrawny.\n\n Despite the solitary confinement, [PAWN_nameDef] developed a great imagination to occupy [PAWN_possessive] idle time.</desc>
+		<desc>Будучи ребёнком, {PAWN_nameDef} {PAWN_gender ? создавал : создавала} сложные вычислительные алгоритмы. Всё детство {PAWN_possessive} использовали как «человека-компьютера». Из-за этого {PAWN_pronoun} {PAWN_gender ? вырос : выросла} {PAWN_gender ? неловким : неловкой} в общении и {PAWN_gender ? хилым : хилой}.\n\nНесмотря на постоянное одиночество, {PAWN_nameDef} {PAWN_gender ? выработал : выработала} богатое воображение, чтобы занимать себя в свободное время.</desc>
 	</Computer80>
 
 	<!-- Erik "Nytro" Nystrom, Male, Adulthood -->
 	<ComputerEngineer36>
 		<!-- EN: computer engineer -->
-		<title>computer engineer</title>
+		<title>компьютерный инженер</title>
 		<!-- EN: engineer -->
-		<titleShort>engineer</titleShort>
+		<titleShort>инженер</titleShort>
 		<!-- EN: Leveraging [PAWN_possessive] childhood experience, [PAWN_nameDef] became a computer engineer. [PAWN_pronoun] also learned to craft delicate sculptures and random electronics for fun.\n\n        [PAWN_nameDef] became fond of technology and mostly gave up on talking to people. Using computers as friends has left [PAWN_nameDef] unable to care for others.\n       -->
-		<desc>Leveraging [PAWN_possessive] childhood experience, [PAWN_nameDef] became a computer engineer. [PAWN_pronoun] also learned to craft delicate sculptures and random electronics for fun.\n\n[PAWN_nameDef] became fond of technology and mostly gave up on talking to people. Using computers as friends has left [PAWN_nameDef] unable to care for others.</desc>
+		<desc>Руководствуясь своим детским опытом, {PAWN_nameDef} {PAWN_gender ? стал : стала} компьютерным инженером. {PAWN_pronoun} также {PAWN_gender ? научился : научилась} мастерить изощрённые скульптуры и различную электронику.\n\n{PAWN_nameDef} очень {PAWN_gender ? увлёкся : увлеклась} технологиями и почти {PAWN_gender ? перестал : перестала} общаться с людьми. Единственные друзья в виде компьютеров не научили {PAWN_possessive} заботиться о других.</desc>
 	</ComputerEngineer36>
 
 	<!-- Eron "Kamrov" Vormak, Male, Childhood -->
