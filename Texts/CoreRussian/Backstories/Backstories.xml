@@ -8182,7 +8182,7 @@
 		<titleShort>кочевник</titleShort>
 		<titleShortFemale>кочевница</titleShortFemale>
 		<!-- EN: Born to a nomadic family in a feudal society, [PAWN_nameDef] was instructed in the arts of speechcraft, sleight of hand, horse riding.\n\n        [PAWN_pronoun] was always running around the camp doing odd jobs to help [PAWN_possessive] extended family.\n       -->
-		<desc>{PAWN_gender ? Родившийся : Родившаяся} в семье кочевников в средневековом мире, {PAWN_nameDef} с самого детства {PAWN_gender ? обучался : обучалась} красноречию, ловкости рук и верховой езде.\n\n{PAWN_pronoun} всё время {PAWN_gender ? хлопотал : хлопотала} в лагере, выполняя разнообразные, порой необычные, поручения на пользу своей большой семье.</desc>
+		<desc>{PAWN_gender ? Родившийся : Родившаяся} в семье кочевников в средневековом мире, {PAWN_nameDef} с самого детства {PAWN_gender ? обучался : обучалась} красноречию, ловкости рук и верховой езде.\n\nВсё своё время {PAWN_gender ? хлопотал : хлопотала} в лагере, выполняя разнообразные, порой необычные, поручения на пользу своей большой семье.</desc>
 	</MedievalNomad12>
 
 	<!-- Eron "Kamrov" Vormak, Male, Adulthood -->
@@ -8194,7 +8194,7 @@
 		<titleShort>партизан</titleShort>
 		<titleShortFemale>партизанка</titleShortFemale>
 		<!-- EN: After refusing the wild demands of a tyrannical king, [PAWN_nameDef]'s nomad band was marked as an outlaw group and systematically hunted.\n\n        [PAWN_nameDef]'s family was eventually captured. Those who weren't killed were taken as slaves. Sold to the owner of a manufactory, [PAWN_nameDef] swore that one day [PAWN_pronoun] would have [PAWN_possessive] revenge.\n       -->
-		<desc>После вторжения врага на территорию родной страны, {PAWN_nameDef} {PAWN_gender ? организовал : организовала} эффективную группу партизан. За их головы была назначена высокая награда.\n\n{PAWN_nameDef} {PAWN_gender ? сдался : сдалась} оккупантам после того, как те захватили {PAWN_possessive} семью. Работая в плену, {PAWN_nameDef} {PAWN_gender ? поклялся : поклялась}, что однажды отомстит врагам.</desc>
+		<desc>После вторжения врага на территорию родной страны, {PAWN_nameDef} {PAWN_gender ? организовал : организовала} эффективную группу партизан. За их головы была назначена высокая награда.\n\n{PAWN_nameDef} {PAWN_gender ? сдался : сдалась} оккупантам после того, как те захватили {PAWN_possessive} семью. Работая в плену, {PAWN_gender ? бывший партизан поклялся : бывшая партизанка поклялась} отомстить врагам.</desc>
 	</VengefulNomad67>
 
 	<!-- Freya "Tail" Fairwing, Female, Childhood -->
