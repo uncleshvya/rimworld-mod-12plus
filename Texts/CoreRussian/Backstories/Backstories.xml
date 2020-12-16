@@ -2132,8 +2132,8 @@
 		<title>укротитель</title>
 		<titleFemale>укротительница</titleFemale>
 		<!-- EN: tamer -->
-		<titleShort>укротитель</title>
-		<titleFemale>укротительница</titleFemale>
+		<titleShort>укротитель</titleShort>
+		<titleShortFemale>укротительница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef]'s role in [PAWN_possessive] tribe was to connect with the natural world around - especially the world of animals. In addition to fulfilling a spiritual role, [PAWN_pronoun] also tamed wild beasts and cared for them as they served the tribe. -->
 		<desc>В своём племени {PAWN_nameDef} {PAWN_gender ? отвечал : отвечала} за единение с миром природы — особенно с животными. {PAWN_pronoun} не только {PAWN_gender ? исполнял : исполняла} свою духовную роль, но также {PAWN_gender ? приручал : приручала} диких зверей для работы в племени и {PAWN_gender ? заботился : заботилась} о них.</desc>
 	</Tamer79>
