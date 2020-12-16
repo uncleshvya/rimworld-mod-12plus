@@ -8251,7 +8251,7 @@
 		<titleFemale>сирота-акробатка</titleFemale>
 		<!-- EN: Acrobat -->
 		<titleShort>акробат</titleShort>
-		<titleFemaleShort>акробатка</titleFemaleShort>
+		<titleShortFemale>акробатка</titleShortFemale>
 		<!-- EN: Born a quiet urbworld orphan, [PAWN_nameDef] was invited to join a traveling circus. [PAWN_possessive] small size and observant nature helped [PAWN_nameDef] become a noted acrobat.\n\nUnfortunately, [PAWN_possessive] violent tendencies brought [PAWN_possessive] acrobatic career to an early end.  -->
 		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} тихой сиротой на одном из городских миров, когда {PAWN_possessive} пригласили в странствующий цирк. Благодаря небольшому росту и наблюдательности {PAWN_nameDef} {PAWN_gender ? стал известным акробатом : стала известной акробаткой}.\n\nК несчастью, однажды {PAWN_nameDef} сильно {PAWN_gender ? травмировался : травмировалась} и больше не {PAWN_gender ? мог : могла} выступать на манеже.</OrphanedAcrobat84>
 
