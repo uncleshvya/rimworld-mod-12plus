@@ -54,7 +54,7 @@
 		<!-- EN: miner -->
 		<titleShort>шахтёр</titleShort>
 		<!-- EN: [PAWN_nameDef] did the sweaty, grimy work of pulling metal out of asteroids on a deep space rig. [PAWN_pronoun] used [PAWN_possessive] hands-on industrial skills daily - and wasn't bad in a bar fight either. -->
-		<desc>{PAWN_nameDef} занимается потной и грязной работой по извлечению металла из астероидов на буровой установке в глубоком космосе. Ежедневная тяжёлая работа даёт не только профессиональные навыки, но и физическую силу на случай кабацкой драки.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? занимался : занималась} потной и грязной работой по извлечению металла из астероидов на буровой установке в глубоком космосе. Ежедневная тяжёлая работа даёт не только профессиональные навыки, но и физическую силу на случай кабацкой драки.</desc>
 	</DeepSpaceMiner3>
 
 	<!-- Offworld_Glitterworld_Adult -->
