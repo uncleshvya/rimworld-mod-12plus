@@ -64,7 +64,7 @@
 		<!-- EN: scientist -->
 		<titleShort>учёный</titleShort>
 		<!-- EN: Interstellar warfare is won by technology, so glitterworld navies are always on the peak of modern research. Even better, they have first access to archotechnological artifacts because they find them in space.\n\n[PAWN_nameDef] worked in a navy lab. -->
-		<desc>Межпланетные войны выигрываются технологиями, так что имперские Военно-космические силы всегда находятся на острие науки. Более того, именно они первыми получают доступ к артефактам архотеков, так как сами находят их в космосе.\n\nНекоторое время {PAWN_nameDef} работает в одной из лабораторий космофлота.</desc>
+		<desc>Межпланетные войны выигрываются технологиями, так что имперские военно-космические силы всегда находятся на острие науки. Более того, именно они первыми получают доступ к артефактам архотеков, так как сами находят их в космосе.\n\nНекоторое время {PAWN_nameDef} {PAWN_gender ? работал : работала} в одной из лабораторий космофлота.</desc>
 	</NavyScientist52>
 
 	<!-- ImperialFighter_Adult -->
@@ -74,7 +74,7 @@
 		<!-- EN: commissar -->
 		<titleShort>комиссар</titleShort>
 		<!-- EN: [PAWN_nameDef] was an internal spymaster in an imperial army battalion. [PAWN_pronoun] made sure that the men were loyal, and did not fall back unless ordered. This made [PAWN_objective] unpopular, but [PAWN_pronoun] gained great skill at detecting the slightest dishonesty. -->
-		<desc>{PAWN_nameDef} становится контрразведчиком в одном из имперских батальонов. На службе {PAWN_pronoun} проверяет верность людей и ни разу не отступает без прямого приказа. Такая работа не способствует популярности, зато {PAWN_nameDef} приобретает большое мастерство в обнаружении малейшей нечестности намерений.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был контрразведчиком : была контрразведчицей} в одном из имперских батальонов. На службе {PAWN_pronoun} {PAWN_gender ? проверял : проверяла} верность людей и ни разу не {PAWN_gender ? отступил : отступила} без прямого приказа. Такая работа не способствует популярности, зато {PAWN_nameDef} {PAWN_gender ? приобрёл : приобрела} большое мастерство в распознавании малейших проявлений неискренности.</desc>
 	</MilitaryCommissar71>
 
 	<!-- Pirate_Adult -->
