@@ -94,9 +94,8 @@
 		<title>боец на арене</title>
 		<!-- EN: brawler -->
 		<titleShort>гладиатор</titleShort>
-		<titleShortFemale>гладиаторша</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was nine years old when [PAWN_pronoun] got in [PAWN_possessive] first fight. [PAWN_pronoun] won, but more important was the enjoyment of [PAWN_possessive] audience. Pit fighting turned out to be a lucrative career for those who could survive it. And it was even mostly legal. -->
-		<desc>{PAWN_nameDef} вырастает в гладиаторских казармах. {PAWN_pronoun} участвует в своём первом бою в возрасте девяти лет, одерживает победу и, что гораздо важнее, становится любимцем публики. Карьера участника боёв на арене приносит неплохие деньги тем, кому удаётся выживать. Она даже законна. На некоторых планетах.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? вырос : выросла} в гладиаторских казармах. {PAWN_pronoun} {PAWN_gender ? принял участие : приняла участие} в своём первом бою в возрасте девяти лет, {PAWN_gender ? одержал : одержала} победу и, что гораздо важнее, {PAWN_gender ? стал : стала} любимцем публики. Карьера участника боёв на арене приносит неплохие деньги тем, кому удаётся выживать. Она даже законна. По большей части.</desc>
 	</PitBrawler76>
 
 	<!-- Pirate_Adult -->
