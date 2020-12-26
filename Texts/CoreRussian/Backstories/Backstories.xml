@@ -34,7 +34,7 @@
 		<titleShort>лорд</titleShort>
 		<titleShortFemale>леди</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was a lord on a preindustrial planet. [PAWN_pronoun] went to parties, managed the underlings, and even learned some swordplay.\n\n[PAWN_possessive] soft hands did not hold a work tool during that entire time. [PAWN_pronoun] considers manual labor to be beneath [PAWN_objective]. -->
-		<desc>{PAWN_nameDef} становится {PAWN_gender ? лордом : леди} на одной из доиндустриальных планет. {PAWN_pronoun} посещает званые вечера, управляет подданными и даже изучает несколько фехтовальных приёмов.\n\n{PAWN_possessive} нежные руки ни разу в жизни не держали инструмента, {PAWN_nameDef} считает ручной труд ниже своего достоинства.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был лордом : была леди} на одной из доиндустриальных планет. {PAWN_pronoun} {PAWN_gender ? посещал : посещала} званые вечера, {PAWN_gender ? управлял : управляла} подданными и даже {PAWN_gender ? изучил : изучила} несколько фехтовальных приёмов.\n\n{PAWN_possessive} нежные руки ни разу в жизни не держали инструмента, {PAWN_nameDef} считает ручной труд ниже своего достоинства.</desc>
 	</MedievalLord57>
 
 	<!-- Offworld_Specific_Adult -->
