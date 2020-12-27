@@ -105,7 +105,7 @@
 		<!-- EN: shipwright -->
 		<titleShort>корабел</titleShort>
 		<!-- EN: There is a law that says that you're not allowed to put terawatt-range grasers on a cargo scow. Especially if you hide them under what looks like a communications dish for better ambush potential. [PAWN_nameDef] discovered that there is great profit to be made, however, from those who are uninterested in these laws. -->
-		<desc>Существует закон, по которому запрещается устанавливать тераваттные лазеры на небольшие торговые суда. Особенно если вы прячете их под чем-то, напоминающим спутниковую тарелку связи, для лучшего засадного потенциала. {PAWN_nameDef} понимает, что на таком можно неплохо заработать, однако только за счёт тех, кому не слишком интересны подобные законы.</desc>
+		<desc>Существует закон, по которому запрещается устанавливать тераваттные лазеры на небольшие торговые суда. Особенно если вы прячете их под чем-то, напоминающим спутниковую тарелку связи, для лучшего засадного потенциала. {PAWN_nameDef} вовремя {PAWN_gender ? понял : поняла}, что на таком можно неплохо заработать, однако только за счёт тех, кого не слишком волнуют подобные законы.</desc>
 	</IllegalShipwright76>
 
 	<!-- Pirate_Adult -->
