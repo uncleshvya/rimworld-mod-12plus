@@ -119,7 +119,7 @@
 		<!-- EN: courtesean -->
 		<titleShortFemale>гейша</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was used for [PAWN_possessive] body by hundreds of customers in brothels on several planets. [PAWN_pronoun] gained some mental marks and a special kind of street smarts. -->
-		<desc>{PAWN_nameDef} — специалист по расслаблению, и имеет большую популярность на нескольких планетах. Это не проходит незаметно для психики, но зато {PAWN_nameDef} учится находить общий язык с самыми разными людьми.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? работал специалистом : работала специалисткой} по расслаблению, и {PAWN_gender ? снискал : снискала} большую популярность на нескольких планетах. Это не прошло незаметно для {PAWN_possessive} психики, но зато {PAWN_nameDef} {PAWN_gender ? научился : научилась}  находить общий язык с самыми разными людьми.</desc>
 	</Gigolo30>
 
 	<!-- Pirate_Adult -->
