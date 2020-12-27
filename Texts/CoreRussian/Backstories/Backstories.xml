@@ -131,7 +131,7 @@
 		<titleShort>десантник</titleShort>
 		<titleShortFemale>десантница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was a warrior in an Imperial navy. [PAWN_possessive] job was to punch into enemy starships, gun down the crew, and capture the ship intact. And [PAWN_pronoun] was good at it. -->
-		<desc>{PAWN_nameDef} становится бойцом имперских военно-космических сил. В {PAWN_possessive} обязанности входит абордаж, уничтожение экипажа и захват вражеских кораблей с минимумом наносимых повреждений. И {PAWN_nameDef} отлично с этим справляется.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} бойцом имперских военно-космических сил. В {PAWN_possessive} обязанности входили абордаж, уничтожение экипажа и захват вражеских кораблей с минимумом наносимых повреждений. И {PAWN_nameDef} отлично с этим {PAWN_gender ? справлялся : справлялась}.</desc>
 	</SpaceMarine16>
 
 	<!-- Pirate_Adult -->
