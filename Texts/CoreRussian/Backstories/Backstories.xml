@@ -141,7 +141,7 @@
 		<!-- EN: assassin -->
 		<titleShort>снайпер</titleShort>
 		<!-- EN: [PAWN_nameDef] was a professional assassin. [PAWN_pronoun] was cold, calculating, and made a good profit. In this business, an utter lack of empathy was an asset. -->
-		<desc>на военной службе {PAWN_nameDef} попадает в смертельно опасную западню. Весь отряд погибает, кроме одного человека. Поняв нецелесообразность своей работы, {PAWN_nameDef} уходит в колонисты.</desc>
+		<desc>На военной службе {PAWN_pronoun} со своим отрядом {PAWN_gender ? попал : попала} в смертельно опасную западню. Потеряв в неравной битве всех товарищей, {PAWN_nameDef} {PAWN_gender ? понял : поняла} всю нецелесообразность своей работы и {PAWN_gender ? ушёл : ушла} в колонисты.</desc>
 	</Assassin20>
 
 	<!-- Offworld_Medieval_Child -->
