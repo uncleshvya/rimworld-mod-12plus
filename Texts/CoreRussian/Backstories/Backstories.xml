@@ -200,7 +200,7 @@
 		<titleShort>отшельник</titleShort>
 		<titleShortFemale>отшельница</titleShortFemale>
 		<!-- EN: Worn out by the pressures of social interaction, [PAWN_nameDef] left [PAWN_possessive] crowded city to live a simple life in the wilderness. There, [PAWN_pronoun] spent [PAWN_possessive] days alone, tending [PAWN_possessive] garden and crafting the simple tools [PAWN_pronoun] needed to survive. -->
-		<desc>Под давлением общественной жизни перенаселённого города, {PAWN_nameDef} покидает своё привычное окружение ради спокойствия и уединения. {PAWN_pronoun} ведёт простую жизнь среди дикой природы, ухаживая за садом и самостоятельно изготавливая простейшие инструменты, необходимые для выживания.</desc>
+		<desc>Под давлением общественной жизни перенаселённого города, {PAWN_nameDef} {PAWN_gender ? покинул : покинула} своё привычное окружение ради спокойствия и уединения. {PAWN_pronoun} {PAWN_gender ? вёл : вела} простую жизнь среди дикой природы, ухаживая за садом и самостоятельно изготавливая простейшие инструменты, необходимые для выживания.</desc>
 	</Hermit82>
 
 	<!-- Offworld_Nonspecific_Adult -->
