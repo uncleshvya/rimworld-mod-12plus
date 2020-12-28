@@ -212,7 +212,7 @@
 		<titleShort>повар</titleShort>
 		<titleShortFemale>повариха</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] ran a high-class restaurant. [PAWN_pronoun] was famous among patrons for [PAWN_possessive] creative culinary specialties, and infamous among kitchen workers for [PAWN_possessive] casual disdain for grunt work. -->
-		<desc>{PAWN_nameDef} становится владельцем первоклассного кафе на одном из средних миров. Среди постоянных посетителей {PAWN_pronoun} получает известность благодаря своему творческому подходу к кулинарии, но среди работников кухни приобретает дурную репутацию из-за пренебрежения тяжёлой работой.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} владельцем первоклассного кафе на одном из средних миров. Среди постоянных посетителей {PAWN_pronoun} {PAWN_gender ? обрёл : обрела} популярность благодаря своему творческому подходу к кулинарии, но среди работников кухни {PAWN_gender ? снискал : снискала} дурную славу из-за пренебрежения тяжёлой работой.</desc>
 	</Chef52>
 
 	<!-- Offworld_Nonspecific_Child -->
