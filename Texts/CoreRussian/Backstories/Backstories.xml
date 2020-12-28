@@ -153,7 +153,7 @@
 		<titleShort>раб</titleShort>
 		<titleShortFemale>рабыня</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] grew up pulling carts and digging holes on a medieval world. Simple manual labor is [PAWN_possessive] oldest companion - along with the master's lash.\n\n[PAWN_pronoun] didn't learn to read until age nine. -->
-		<desc>{PAWN_nameDef} растёт, тягая телеги и роя ямы на одном из средневековых миров. Простой ручной труд — {PAWN_possessive} старейший спутник, как и хозяйская плеть.\n\nЧитать {PAWN_nameDef} учится лишь к девяти годам.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла}, тягая телеги и роя ямы на одном из средневековых миров. Простой ручной труд был {PAWN_objective} привычен с младых ногтей, как и хозяйская плеть.\n\nЧитать {PAWN_nameDef} {PAWN_gender ? научился : научилась} лишь к девяти годам.</desc>
 	</MedievalSlave49>
 
 	<!-- Offworld_Medieval_Child -->
