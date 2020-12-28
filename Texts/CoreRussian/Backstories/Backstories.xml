@@ -178,7 +178,7 @@
 		<titleShort>оборванец</titleShort>
 		<titleShortFemale>оборванка</titleShortFemale>
 		<!-- EN: The urbworlds - ancient and deep industrial cityscapes bursting with humanity and poison. [PAWN_nameDef] grew up in the dark, unwanted reaches of such a place. [PAWN_pronoun] had to fight for every scrap of food. -->
-		<desc>Урбанизированные миры представляют собой древние и глубоко индустриальные города, лопающиеся от перенаселения и отравленные отходами производств. {PAWN_nameDef} вырастает в одном из тёмных уголков подобных мест. {PAWN_objective} приходится драться за каждый кусочек пищи.</desc>
+		<desc>Урбанизированные миры представляют собой древние и глубоко индустриальные города, лопающиеся от перенаселения и отравленные отходами производств. {PAWN_nameDef} {PAWN_gender ? вырос : выросла} в одном из тёмных уголков подобных мест. {PAWN_objective} приходилось драться за каждый кусочек пищи.</desc>
 	</UrbworldUrchin61>
 
 	<!-- Offworld_Nonspecific_Child -->
