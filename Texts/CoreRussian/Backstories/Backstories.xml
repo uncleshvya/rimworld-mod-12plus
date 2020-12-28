@@ -188,7 +188,7 @@
 		<!-- EN: vatgrown -->
 		<titleShort>солдат</titleShort>
 		<!-- EN: [PAWN_nameDef] wasn't made as a person, but as an instrument of destruction. Grown in a bioweapons facility and taught combat during [PAWN_possessive] accelerated growth, [PAWN_nameDef] still has a proclivity for combat of all kinds and an aversion to human contact. -->
-		<desc>{PAWN_nameDef} воспитывается не как личность, а как инструмент уничтожения. {PAWN_possessive} ускоренно выращивают на специальном объекте по производству биооружия, обучая всем аспектам ведения боя.\n\nДаже через много лет {PAWN_nameDef} сохраняет тягу к сражениям и нежелание общаться с людьми.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? воспитывался : воспитывалась} не как личность, а как инструмент уничтожения. {PAWN_possessive} ускоренно вырастили на специальном объекте по производству биооружия, обучив всем аспектам ведения боя.\n\nДаже через много лет {PAWN_nameDef} {PAWN_gender ? сохранил : сохранила} тягу к сражениям и нежелание общаться с людьми.</desc>
 	</VatgrownSoldier8>
 
 	<!-- Outsider_Adult -->
