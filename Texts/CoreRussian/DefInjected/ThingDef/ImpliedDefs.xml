@@ -86,10 +86,20 @@
   <!-- EN: Мёртвое тело олень. -->
   <Corpse_Deer.description>Туша оленя.</Corpse_Deer.description>
 
+  <!-- EN: труп осёл -->
+  <Corpse_Donkey.label>туша осла</Corpse_Donkey.label>
+  <!-- EN: Мёртвое тело осёл. -->
+  <Corpse_Donkey.description>Туша осла.</Corpse_Donkey.description>
+
   <!-- EN: труп верблюд -->
   <Corpse_Dromedary.label>туша верблюда</Corpse_Dromedary.label>
   <!-- EN: Мёртвое тело верблюд. -->
   <Corpse_Dromedary.description>Туша верблюда.</Corpse_Dromedary.description>
+
+  <!-- EN: труп утка -->
+  <Corpse_Duck.label>тушка утки</Corpse_Duck.label>
+  <!-- EN: Мёртвое тело утка. -->
+  <Corpse_Duck.description>Тушка утки.</Corpse_Duck.description>
 
   <!-- EN: труп слон -->
   <Corpse_Elephant.label>туша слона</Corpse_Elephant.label>
@@ -126,10 +136,30 @@
   <!-- EN: Мёртвое тело газель. -->
   <Corpse_Gazelle.description>Туша газели.</Corpse_Gazelle.description>
 
+  <!-- EN: труп коза -->
+  <Corpse_Goat.label>туша козы</Corpse_Goat.label>
+  <!-- EN: Мёртвое тело коза. -->
+  <Corpse_Goat.description>Туша козы.</Corpse_Goat.description>
+
+  <!-- EN: труп гусь -->
+  <Corpse_Goose.label>туша гуся</Corpse_Goose.label>
+  <!-- EN: Мёртвое тело гусь. -->
+  <Corpse_Goose.description>Туша гуся.</Corpse_Goose.description>
+
+  <!-- EN: труп морская свинка -->
+  <Corpse_GuineaPig.label>тушка морской свинки</Corpse_GuineaPig.label>
+  <!-- EN: Мёртвое тело морская свинка. -->
+  <Corpse_GuineaPig.description>Тушка морской свинки.</Corpse_GuineaPig.description>
+
   <!-- EN: труп заяц -->
   <Corpse_Hare.label>тушка зайца</Corpse_Hare.label>
   <!-- EN: Мёртвое тело заяц. -->
   <Corpse_Hare.description>Тушка зайца.</Corpse_Hare.description>
+
+  <!-- EN: труп лошадь -->
+  <Corpse_Horse.label>туша лошади</Corpse_Horse.label>
+  <!-- EN: Мёртвое тело лошадь. -->
+  <Corpse_Horse.description>Туша лошади.</Corpse_Horse.description>
 
   <!-- EN: труп человек -->
   <Corpse_Human.label>тело человека</Corpse_Human.label>
@@ -231,6 +261,11 @@
   <!-- EN: Мёртвое тело носорог. -->
   <Corpse_Rhinoceros.description>Туша носорога.</Corpse_Rhinoceros.description>
 
+  <!-- EN: труп овца -->
+  <Corpse_Sheep.label>туша овцы</Corpse_Sheep.label>
+  <!-- EN: Мёртвое тело овца. -->
+  <Corpse_Sheep.description>Туша овцы.</Corpse_Sheep.description>
+
   <!-- EN: труп беляк -->
   <Corpse_Snowhare.label>тушка беляка</Corpse_Snowhare.label>
   <!-- EN: Мёртвое тело беляк. -->
@@ -280,6 +315,11 @@
   <Corpse_Wolf_Timber.label>туша волка</Corpse_Wolf_Timber.label>
   <!-- EN: Мёртвое тело волк. -->
   <Corpse_Wolf_Timber.description>Туша волка.</Corpse_Wolf_Timber.description>
+
+  <!-- EN: труп як -->
+  <Corpse_Yak.label>туша яка</Corpse_Yak.label>
+  <!-- EN: Мёртвое тело як. -->
+  <Corpse_Yak.description>Туша яка.</Corpse_Yak.description>
 
   <!-- EN: труп йоркширский терьер -->
   <Corpse_YorkshireTerrier.label>тушка терьера</Corpse_YorkshireTerrier.label>
