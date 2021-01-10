@@ -1019,7 +1019,7 @@
 		<!-- EN: game dev -->
 		<titleShort>дизайнер</titleShort>
 		<!-- EN: [PAWN_nameDef] designed virtual reality simulations for glitterworld citizens. [PAWN_pronoun] paid great attention to the details of [PAWN_possessive] worlds, including learning all [PAWN_pronoun] could about plant life to make [PAWN_possessive] landscapes more realistic. -->
-		<desc>{PAWN_nameDef} проектирует игры в виртуальной реальности для жителей утопического мира. {PAWN_pronoun} уделяет огромное внимание мелким деталям создаваемых виртуальных миров. Например, для того, чтобы сделать моделируемые ландшафты максимально реалистичными, {PAWN_pronoun} изучает ботанику.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? разрабатывал : разрабатывала} игры в виртуальной реальности для жителей утопического мира, уделяя огромное внимание мелким деталям создаваемых моделей. Например, для того, чтобы создавать ландшафты максимально реалистичными, {PAWN_nameDef} дотошно {PAWN_gender ? изучал : изучала} ботанику.</desc>
 	</VRDesigner87>
 
 	<!-- Offworld_Specific_Adult -->
