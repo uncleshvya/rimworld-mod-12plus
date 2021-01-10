@@ -1009,7 +1009,7 @@
 		<titleShort>скиталец</titleShort>
 		<titleShortFemale>скиталица</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] never figured out what to do with [PAWN_possessive] life. [PAWN_pronoun] travelled often, taking up casual work wherever [PAWN_pronoun] found it.\n\n[PAWN_pronoun] also occasionally worked on a novel that [PAWN_pronoun] knew would be a bestseller - just as soon as [PAWN_pronoun] could find a publisher who was interested. -->
-		<desc>Не имея особых планов на жизнь, {PAWN_nameDef} часто путешествует, перебиваясь случайными заработками, если удаётся их найти.\n\nКроме того, {PAWN_pronoun} время от времени работает над романом, который точно должен стать бестселлером — как только {PAWN_nameDef} сможет найти заинтересованного издателя.</desc>
+		<desc>Не имея особых планов на жизнь, {PAWN_nameDef} часто {PAWN_gender ? путешествовал : путешествовала}, перебиваясь случайными заработками, если их удавалось найти.\n\nКроме того, {PAWN_pronoun} время от времени {PAWN_gender ? работал : работала} над романом, который точно должен был стать бестселлером — всего-то нужно было найти заинтересованного издателя.</desc>
 	</Drifter67>
 
 	<!-- Offworld_Glitterworld_Adult -->
