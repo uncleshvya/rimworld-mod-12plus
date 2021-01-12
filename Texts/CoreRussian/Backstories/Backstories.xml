@@ -1029,7 +1029,7 @@
 		<!-- EN: computer -->
 		<titleShort>вычислитель</titleShort>
 		<!-- EN: [PAWN_nameDef] turned out to have an excellent memory and a gift for performing complex calculations in [PAWN_possessive] head. An industrial-world dictator decided to employ [PAWN_nameDef] to keep track of [PAWN_possessive] state's finances and expenditure. -->
-		<desc>{PAWN_nameDef} с детства обнаруживает у себя дар к выполнению в уме сложнейших вычислений и феноменальную память. Один из диктаторов среднего мира решает использовать {PAWN_possessive} таланты, чтобы следить за финансами и расходами, поскольку обычные компьютеры чересчур уязвимы для взлома.</desc>
+		<desc>Ещё в детстве {PAWN_nameDef} {PAWN_gender ? обнаружил : обнаружила} у себя дар к выполнению в уме сложнейших вычислений и феноменальную память. А один из диктаторов среднего мира как раз искал такого человека, чтобы следить за финансами и расходами, поскольку обычные компьютеры чересчур уязвимы для взлома.</desc>
 	</HumanComputer83>
 
 	<!-- Offworld_Glitterworld_Adult -->
