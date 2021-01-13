@@ -1114,7 +1114,7 @@
 		<titleShort>брошенный</titleShort>
 		<titleShortFemale>брошенная</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was born sickly. Thinking that [PAWN_pronoun] would only burden the tribe, [PAWN_possessive] parents exposed [PAWN_objective] to the elements. Somehow, [PAWN_pronoun] survived. -->
-		<desc>{PAWN_nameDef} рождается с очень слабым здоровьем. В {PAWN_possessive} диком племени решают, что {PAWN_pronoun} будет обузой, и бросают на произвол судьбы. Но {PAWN_nameDef} выживает.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} с очень слабым здоровьем, в диком племени. Старейшины решили, что {PAWN_pronoun} будет обузой, и бросили на произвол судьбы. Но {PAWN_nameDef} {PAWN_gender ? выжил : выжила}.</desc>
 	</AbandonedChild23>
 
 	<!-- Tribal_Child -->
