@@ -1144,13 +1144,13 @@
 	<!-- Tribal_Child -->
 	<Scavenger22>
 		<!-- EN: scavenger -->
-		<title>мусорщик</title>
-		<titleFemale>мусорщица</titleFemale>
+		<title>юный искатель</title>
+		<titleFemale>юная искательница</titleFemale>
 		<!-- EN: scavenger -->
-		<titleShort>мусорщик</titleShort>
-		<titleShortFemale>мусорщица</titleShortFemale>
+		<titleShort>искатель</titleShort>
+		<titleShortFemale>искательница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] spent [PAWN_possessive] childhood escaping grunt work to go digging through wrecks and ruins for treasures. [PAWN_possessive] natural curiosity got [PAWN_objective] into a lot of trouble, but it also yielded many interesting finds. -->
-		<desc>{PAWN_nameDef} проводит своё детство, избегая грубой работы ради того, чтобы иметь возможность заниматься раскопками руин и обломков кораблей. {PAWN_possessive} природное любопытство не раз приносит {PAWN_objective} кучу проблем, но вместе с тем дарит множество интересных находок.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? провёл : провела} своё детство, избегая тяжёлой работы ради того, чтобы иметь возможность заниматься исследованием руин и обломков кораблей. Неуёмное любопытство не раз приносило {PAWN_objective} кучу проблем, но вместе с тем дарило множество интересных находок.</desc>
 	</Scavenger22>
 
 	<!-- Tribal_Child -->
