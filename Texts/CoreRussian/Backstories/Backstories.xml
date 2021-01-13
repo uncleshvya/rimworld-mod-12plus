@@ -1100,9 +1100,9 @@
 		<!-- EN: loner -->
 		<title>одиночка</title>
 		<!-- EN: loner -->
-		<titleShort>бирюк</titleShort>
+		<titleShort>одиночка</titleShort>
 		<!-- EN: [PAWN_nameDef] never much liked the tribal council or the yearly festivals. [PAWN_pronoun] preferred the open plain and the whistle of wind through the rocks.\n\n[PAWN_pronoun] visited [PAWN_possessive] tribe from time to time, but mostly took care of [PAWN_objective]self using [PAWN_possessive] own survival skills. -->
-		<desc>Посещению совета племени и ежегодных фестивалей {PAWN_nameDef} предпочитает открытую равнину и одинокий свист ветра в скалах.\n\n{PAWN_pronoun} время от времени наведывается в своё племя, но в основном самостоятельно заботится о себе, пользуясь своими навыками выживания.</desc>
+		<desc>Посещению совета племени и ежегодных празднеств {PAWN_nameDef} {PAWN_gender ? предпочитал : предпочитала} открытые всем ветрам равнины и холмы.\n\n{PAWN_pronoun} время от времени {PAWN_gender ? наведывался : наведывалась} в своё племя, но в основном самостоятельно {PAWN_gender ? заботился : заботилась} о себе, развивая навыки выживания в одиночку.</desc>
 	</Loner61>
 
 	<!-- Tribal_Child -->
