@@ -1092,7 +1092,7 @@
 		<titleShort>болтун</titleShort>
 		<titleShortFemale>болтушка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] never created anything in [PAWN_possessive] life. [PAWN_pronoun] did, however, prove to be a natural at getting others to give [PAWN_objective] what they had created. -->
-		<desc>Вместо того чтобы делать хоть что-нибудь своими руками, {PAWN_nameDef} легко убеждает других отдавать {PAWN_objective} плоды их труда. Отсидев в тюрьме, {PAWN_nameDef} находит себе работу, где нужно много общаться с людьми.</desc>
+		<desc>Вместо того чтобы делать хоть что-нибудь своими руками, {PAWN_nameDef} легко {PAWN_gender ? убеждал : убеждала} других отдавать {PAWN_objective} плоды их труда.\n\nОтсидев в тюрьме, {PAWN_nameDef} {PAWN_gender ? устроился : устроилась} на работу, где нужно много общаться с людьми.</desc>
 	</ConArtist80>
 
 	<!-- Tribal_Adult -->
