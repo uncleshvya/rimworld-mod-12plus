@@ -1184,7 +1184,7 @@
 		<titleShort>мститель</titleShort>
 		<titleShortFemale>мстительница</titleShortFemale>
 		<!-- EN: As a child, [PAWN_nameDef] returned to [PAWN_possessive] village to find that it had been wiped out by bandits. [PAWN_pronoun] swore revenge on the attackers and began a violent rampage across the wilderness. -->
-		<desc>Однажды возвращаясь в родную деревню, {PAWN_nameDef} обнаруживает, что та уничтожена бандитами. {PAWN_pronoun} клянётся отомстить напавшим и начинает свой жестокий путь в пустошах.</desc>
+		<desc>Однажды, возвратившись в родное село, {PAWN_nameDef} {PAWN_gender ? обнаружил : обнаружила}, что оно уничтожено бандитами. {PAWN_pronoun} {PAWN_gender ? поклялся : поклялась} отомстить напавшим и {PAWN_gender ? начал : начала} свой жестокий путь в пустошах.</desc>
 	</VengefulChild43>
 
 	<!-- Tribal_Child -->
