@@ -1196,7 +1196,7 @@
 		<titleShort>хранитель огня</titleShort>
 		<titleShortFemale>хранительница огня</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was responsible for keeping the tribe's fire going. [PAWN_pronoun] took this responsibility very seriously. -->
-		<desc>В детстве {PAWN_nameDef} отвечает за сохранение огня в племени — тот не должен погаснуть. {PAWN_pronoun} очень серьёзно относится к своим обязанностям.</desc>
+		<desc>С детства {PAWN_nameDef} очень серьёзно {PAWN_gender ? относился : относилась} к своим обязанностям, поэтому {PAWN_possessive} назначили {PAWN_gender ? ответственным : ответственной} за сохранение огня в племенном очаге.</desc>
 	</FireKeeper44>
 
 	<!-- Tribal_Adult -->
