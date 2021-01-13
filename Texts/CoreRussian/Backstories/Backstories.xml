@@ -1208,7 +1208,7 @@
 		<titleShort>знахарь</titleShort>
 		<titleShortFemale>знахарка</titleShortFemale>
 		<!-- EN: After [PAWN_possessive] tribe’s elder healer was killed in a raid, [PAWN_nameDef] took on the role. [PAWN_pronoun] spent [PAWN_possessive] days scrounging up herbs and mineral compounds from the nearby area to use in surprisingly effective remedies. -->
-		<desc>После того, как во время очередного налёта бандиты убивают лекаря, {PAWN_nameDef} занимает его место. {PAWN_pronoun} проводит дни в поисках трав и минералов для создания на удивление эффективных лекарственных средств.</desc>
+		<desc>После того, как во время очередного налёта бандиты убили знахаря, {PAWN_nameDef} {PAWN_gender ? занял : заняла} его место. {PAWN_pronoun} {PAWN_gender ? проводил : проводила} дни, собирая травы и минералы, из которых получались на удивление эффективные снадобья.</desc>
 	</Healer0>
 
 	<!-- Tribal_Adult -->
