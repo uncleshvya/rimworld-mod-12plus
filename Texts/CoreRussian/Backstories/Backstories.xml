@@ -1138,7 +1138,7 @@
 		<titleShort>пастух</titleShort>
 		<titleShortFemale>пастушка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] tended the muffalo herds, keeping them safe from predators and treating sick animals. It was quiet work, but [PAWN_pronoun] enjoyed being away from people. -->
-		<desc>В детстве {PAWN_nameDef} пасёт стада муффало своего племени, оберегая их от хищников и выхаживая больных животных. Это была спокойная работа, и {PAWN_objective} нравилось быть подальше от других людей.</desc>
+		<desc>В детстве {PAWN_nameDef} {PAWN_gender ? пас : пасла} стада муффало своего племени, оберегая их от хищников и выхаживая больных животных. {PAWN_objective} вполне нравилась такая спокойная работа вдали от людей.</desc>
 	</Herder19>
 
 	<!-- Tribal_Child -->
