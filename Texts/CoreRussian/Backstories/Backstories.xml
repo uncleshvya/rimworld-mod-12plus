@@ -1173,7 +1173,7 @@
 		<titleShort>выживший</titleShort>
 		<titleShortFemale>выжившая</titleShortFemale>
 		<!-- EN: [PAWN_nameDef]'s entire tribe was wiped out in a raid. Though [PAWN_pronoun] was adopted by another group, [PAWN_pronoun] was emotionally scarred, and preferred to stay near home, cooking and tending crops. -->
-		<desc>{PAWN_nameDef} переживает резню, в которой погибает всё {PAWN_possessive} племя. Хотя {PAWN_possessive} принимают в другое племя, после такого потрясения {PAWN_pronoun} предпочитает оставаться возле дома, занимаясь готовкой и выращиванием урожая.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? пережил : пережила} налёт, в котором погибли все {PAWN_possessive} соплеменники. Хотя {PAWN_possessive} приняли в другое племя, после такого потрясения {PAWN_pronoun} {PAWN_gender ? предпочитал : предпочитала} оставаться возле дома, занимаясь готовкой и выращиванием урожая.</desc>
 	</SoleSurvivor21>
 
 	<!-- Tribal_Child -->
