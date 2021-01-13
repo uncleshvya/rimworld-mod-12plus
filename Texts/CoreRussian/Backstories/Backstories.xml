@@ -1059,7 +1059,7 @@
 		<!-- EN: sculptor -->
 		<titleShort>скульптор</titleShort>
 		<!-- EN: [PAWN_nameDef] started off sculpting person-sized chunks of stone, but [PAWN_pronoun] soon began to think bigger. With the help of mining robots, [PAWN_pronoun] learned how to carve huge monuments out of cliffsides. Soon the nature parks of the glitterworld where [PAWN_pronoun] lived were full of giant rock figures. -->
-		<desc>{PAWN_nameDef} начинает с обработки камней размером в человеческий рост, но вскоре {PAWN_possessive} замыслы становятся масштабнее. С помощью горнодобывающих роботов {PAWN_nameDef} учится вырезать огромные монументы из целых скал. Вскоре в природных парках {PAWN_possessive} родного мира-утопии появляется множество гигантских фигур, вырезанных прямо из гор.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? начинал : начинала} с обработки камней размером в человеческий рост, но вскоре {PAWN_possessive} замыслы стали масштабнее. {PAWN_nameDef} {PAWN_gender ? научился : научилась} вырезать огромные монументы из целых скал с помощью горнодобывающих роботов. Вскоре в природных парках {PAWN_possessive} родного мира-утопии появилось множество гигантских фигур, вырезанных прямо из гор.</desc>
 	</Sculptor63>
 
 	<!-- Offworld_Nonspecific_Adult -->
@@ -1070,7 +1070,7 @@
 		<titleShort>коллекционер</titleShort>
 		<titleShortFemale>коллекционерша</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was obsessed with old machines and arcane pieces of technology. [PAWN_pronoun] obtained them wherever [PAWN_pronoun] could, and loved taking them apart to see how they worked.\n\n[PAWN_pronoun] had a habit of talking about [PAWN_possessive] collection long after people around [PAWN_objective] had stopped listening. -->
-		<desc>{PAWN_nameDef} без ума от старых машин и загадочных технологий. {PAWN_pronoun} достаёт такие механизмы любыми способами и любит разбирать их, чтобы узнать, как они работают.\n\nУ н{PAWN_possessive} появляется привычка продолжать говорить о своей коллекции, даже когда окружающие уже {PAWN_possessive} не слушают.</desc>
+		<desc>{PAWN_nameDef} без ума от старых машин и загадочных технологий. {PAWN_pronoun} {PAWN_gender ? любил : любила} доставать такие механизмы любыми способами и разбирать их, чтобы узнать, как они работают.\n\nУ н{PAWN_possessive} появилась привычка продолжать говорить о своей коллекции, даже когда окружающие уже {PAWN_possessive} не слушают.</desc>
 	</MachineCollector55>
 
 	<!-- Offworld_Specific_Adult -->
@@ -1080,7 +1080,7 @@
 		<!-- EN: sheriff -->
 		<titleShort>шериф</titleShort>
 		<!-- EN: [PAWN_nameDef] was the law enforcer in an isolated industrial town. [PAWN_pronoun] dealt with petty crime, dispute resolution, and the occasional drunken saloon shootout. -->
-		<desc>{PAWN_nameDef} становится стражем закона в отдалённом индустриальном городе. {PAWN_pronoun} занимается тем, что раскрывает мелкие преступления, разрешает конфликты и иногда участвует в салунных перестрелках.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} стражем закона в одном из отдалённых индустриальных городов. {PAWN_pronoun} {PAWN_gender ? раскрывал : раскрывала} мелкие преступления, {PAWN_gender ? разрешал : разрешала} конфликты и иногда {PAWN_gender ? участвовал : участвовала} в салунных перестрелках.</desc>
 	</Sheriff52>
 
 	<!-- Offworld_Nonspecific_Adult -->
