@@ -1161,7 +1161,7 @@
 		<titleShort>пещерник</titleShort>
 		<titleShortFemale>пещерница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] grew up in a large and intricate cave complex that extended deep into a mountainside. [PAWN_pronoun] helped the adults maintain and improve the deep caves. -->
-		<desc>{PAWN_nameDef} вырастает в огромной и запутанной системе пещер, простиравшейся далеко вглубь гор. {PAWN_pronoun} помогает взрослым содержать и обустраивать глубинные пещеры.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} в огромной и запутанной системе пещер, простиравшейся далеко вглубь гор. Вместе с другими детьми {PAWN_pronoun} {PAWN_gender ? помогал : помогала} взрослым содержать и обустраивать глубинные пещеры.</desc>
 	</CaveChild30>
 
 	<!-- Tribal_Child -->
