@@ -1242,7 +1242,7 @@
 		<titleShort>шаман</titleShort>
 		<titleShortFemale>шаманка</titleShortFemale>
 		<!-- EN: Because of [PAWN_possessive] quiet wisdom and great strength, [PAWN_nameDef] became the spiritual guide for [PAWN_possessive] tribe. [PAWN_pronoun] had a special connection with the great spirit of the muffalo. -->
-		<desc>За тихую мудрость и огромную силу {PAWN_nameDef} избирается духовным лидером кочевого племени, следующего за стадами муффало.</desc>
+		<desc>За молчаливую мудрость и огромную силу {PAWN_nameDef} {PAWN_gender ? был избран : была избрана} духовным лидером кочевого племени, следующего за стадами муффало.</desc>
 	</MuffaloShaman95>
 
 	<!-- Tribal_Adult -->
@@ -1254,7 +1254,7 @@
 		<titleShort>сказитель</titleShort>
 		<titleShortFemale>сказительница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was one of a long line of lore keepers in [PAWN_possessive] tribe. Every night around the fire, [PAWN_pronoun] would pass on ancient knowledge and helpful wisdom through stories. -->
-		<desc>{PAWN_nameDef} продолжает древний род хранителей сказаний в своём племени. Каждую ночь, когда все собираются у огня, {PAWN_pronoun} рассказывает истории, передавая тем самым древние знания и мудрость.</desc>
+		<desc>В своём племени {PAWN_nameDef} {PAWN_gender ? был наследником : была наследницей} древнего рода хранителей сказаний. Каждый вечер, когда все собирались у огня, {PAWN_pronoun} {PAWN_gender ? рассказывал : рассказывала} истории, передавая тем самым древние знания и мудрость.</desc>
 	</LoreKeeper51>
 
 	<!-- Tribal_Adult -->
