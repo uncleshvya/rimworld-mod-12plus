@@ -1276,7 +1276,7 @@
 		<!-- EN: tender -->
 		<titleShort>сиделка</titleShort>
 		<!-- EN: While the others were out hunting and foraging, [PAWN_nameDef] would stay at home to cook and take care of the young and sick. -->
-		<desc>Пока остальные охотятся и занимаются собирательством, {PAWN_nameDef} остаётся дома, готовя еду и ухаживая за больными и детьми.</desc>
+		<desc>Пока остальные охотились и занимались собирательством, {PAWN_nameDef} {PAWN_gender ? оставался : оставалась} дома, готовя еду и ухаживая за больными и детьми.</desc>
 	</HearthTender66>
 
 	<!-- Tribal_Adult -->
@@ -1287,7 +1287,7 @@
 		<!-- EN: warrior -->
 		<titleShort>воин</titleShort>
 		<!-- EN: [PAWN_nameDef] was a fearsome warrior, proficient with many weapons. [PAWN_pronoun] participated in many battles. -->
-		<desc>{PAWN_nameDef} становится бесстрашным воином. {PAWN_pronoun} умело обращается с самыми разными видами оружия и участвует во многих сражениях.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был бесстрашным воином : была бесстрашной воительницей}. {PAWN_pronoun} умело {PAWN_gender ? обращался : обращалась} с самыми разными видами оружия и {PAWN_gender ? участвовал : участвовала} во многих сражениях.</desc>
 	</Warrior94>
 
 	<!-- Tribal_Child -->
@@ -1299,7 +1299,7 @@
 		<titleShort>абориген</titleShort>
 		<titleShortFemale>аборигенка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] grew up in a tribe, running around the village, moving with the muffalo herds, learning essential skills from [PAWN_possessive] parents.\n\n[PAWN_pronoun] never learned to read and never saw a machine that wasn't an ancient ruin. -->
-		<desc>{PAWN_nameDef} вырастает в племени, бегая по деревне да перегоняя стада муффало. Родители учили {PAWN_possessive} лишь необходимым навыкам.\n\n{PAWN_nameDef} не умеет читать и не знает никаких механизмов, кроме останков древних машин.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} в племени, бегая по деревне да перегоняя стада муффало. Родители учили {PAWN_possessive} лишь необходимым навыкам.\n\n{PAWN_nameDef} не {PAWN_gender ? был обучен : была обучена} грамоте и не {PAWN_gender ? знал : знала} никаких механизмов, кроме останков древних машин.</desc>
 	</TribeChild40>
 
 	<!-- Tribal_Adult -->
