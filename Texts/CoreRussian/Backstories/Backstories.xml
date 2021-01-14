@@ -1311,7 +1311,7 @@
 		<titleShort>лучник</titleShort>
 		<titleShortFemale>лучница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] fought for [PAWN_possessive] tribe. [PAWN_pronoun] and specialized in the use of bows, pila, and other ranged weapons. -->
-		<desc>{PAWN_nameDef} сражается за своё племя. {PAWN_pronoun} специалист в стрельбе из лука, метании пилума и другом дальнобойном оружии.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? сражался : сражалась} за своё племя. {PAWN_pronoun} специалист в стрельбе из лука, метании пилума и другом дальнобойном оружии.</desc>
 	</Archer25>
 
 	<!-- ImperialFighter_Adult -->
@@ -1324,7 +1324,7 @@
 		<titleShort>артиллерист</titleShort>
 		<titleShortFemale>артиллеристка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] loaded shells and aimed artillery to pound [PAWN_possessive] army's enemies from afar. -->
-		<desc>{PAWN_nameDef} служит в одном из артиллерийских расчётов своей армии, обрушивая снаряды на противника издалека.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? служил : служила} в имперской артиллерии, обрушивая снаряды на противника издалека.</desc>
 	</Artilleryman28>
 
 	<!-- ImperialRoyal_Adult -->
