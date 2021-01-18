@@ -1348,7 +1348,7 @@
 		<titleShort>сборщик</titleShort>
 		<titleShortFemale>сборщица</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] worked on factory assembly lines, putting together products with the help of robots. -->
-		<desc>{PAWN_nameDef} работает на сборочной линии завода, с помощью роботов собирая различные изделия.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? трудился : трудилась} на конвейере одного завода, с помощью роботов собирая различные изделия.</desc>
 	</Assembler69>
 
 	<!-- ImperialCommon_Adult -->
