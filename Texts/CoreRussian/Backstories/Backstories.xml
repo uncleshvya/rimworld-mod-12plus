@@ -1361,7 +1361,7 @@
 		<!-- EN: ballerina -->
 		<titleShortFemale>балерина</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was a dancer in a traditional ballet troupe. [PAWN_pronoun] mastered the ancient motions and entertained thousands. -->
-		<desc>{PAWN_nameDef} выступает в традиционном балете. {PAWN_pronoun} восхищает тысячи человек своими талантами в этом древнем танце.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? выступал : выступала} в традиционном балете, восхищая тысячи человек своими талантами в этом древнем танце.</desc>
 	</BalletDancer81>
 
 	<!-- Tribal_Adult -->
