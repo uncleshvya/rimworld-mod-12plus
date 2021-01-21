@@ -1407,7 +1407,7 @@
 		<titleShort>воитель</titleShort>
 		<titleShortFemale>воительница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] wielded ikwa, axes, clubs, and other close-ranged weapons in battles for [PAWN_possessive] tribe. -->
-		<desc>{PAWN_nameDef} мастерски управляется топорами, дубинами, иклва и другим холодным оружием в битвах за своё племя.</desc>
+		<desc>{PAWN_nameDef} мастерски {PAWN_gender ? управлялся : управлялась} топорами, дубинами, иклва и другим холодным оружием в битвах за своё племя.</desc>
 	</Brave88>
 
 	<!-- ImperialFighter_Adult -->
@@ -1417,7 +1417,7 @@
 		<!-- EN: soldier -->
 		<titleShort>солдат</titleShort>
 		<!-- EN: [PAWN_pronoun] was a strong soldier in a long war of succession. In [PAWN_possessive] final battle, [PAWN_possessive] unit was sacrified to cover a retreat. [PAWN_nameDef] watched [PAWN_possessive] comrades die and was the only survivor.\n\nThe experience broke [PAWN_objective] inside, leaving [PAWN_objective] without the coping strategies to moderate [PAWN_possessive] emotions.\n\n[PAWN_nameDef] learned to draw in the hospital. -->
-		<desc>{PAWN_nameDef} — способный солдат. В одной из битв долгой войны за престол {PAWN_possessive} подразделение оставляют прикрывать отступление. {PAWN_nameDef} наблюдает за тем, как гибнут {PAWN_possessive} товарищи, а {PAWN_pronoun} {PAWN_gender ? сам : сама} оказывается {PAWN_gender ? единственным выжившим : единственной выжившей}.\n\nЭти события сломили {PAWN_possessive}, оставив без какой-либо возможности контролировать свои эмоции.\n\n{PAWN_nameDef} учится рисовать, находясь в госпитале.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} способным солдатом. В одной из битв долгой войны за престол {PAWN_possessive} подразделение оставили прикрывать отступление. {PAWN_nameDef} {PAWN_gender ? видел : видела}, как {PAWN_possessive} товарищи гибли один за другим. {PAWN_gender ? Единственным выжившим оказался : Единственной выжившей оказалась} {PAWN_pronoun} {PAWN_gender ? сам : сама}.\n\nЭти события сломили {PAWN_possessive}, оставив без какой-либо возможности контролировать свои эмоции.\n\nНаходясь в госпитале, {PAWN_nameDef} {PAWN_gender ? научился : научилась} рисовать.</desc>
 	</BrokenSoldier29>
 
 	<!-- Tribal_Child -->
