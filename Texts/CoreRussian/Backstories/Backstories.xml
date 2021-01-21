@@ -1429,7 +1429,7 @@
 		<titleShort>художник</titleShort>
 		<titleShortFemale>художница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] had a knack for art. Traders and collectors from many different societies sought to buy [PAWN_possessive] creations. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? обнаружил : обнаружила} выдающиеся художественные таланты. Многие торговцы и коллекционеры стремятся приобрести {PAWN_possessive} творения.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? обнаружил : обнаружила} у себя выдающиеся художественные способности. Многие торговцы и коллекционеры стремились приобрести {PAWN_possessive} творения.</desc>
 	</BuddingArtist44>
 
 	<!-- ImperialCommon_Adult -->
