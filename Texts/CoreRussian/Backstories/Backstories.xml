@@ -1509,15 +1509,15 @@
 	<!-- ImperialRoyal_Child -->
 	<CountryLordling92>
 		<!-- EN: country lordling -->
-		<title>сын феодала</title>
+		<title>сын уездного феодала</title>
 		<!-- EN: country lady -->
-		<titleFemale>дочь феодала</titleFemale>
+		<titleFemale>дочь уездного феодала</titleFemale>
 		<!-- EN: field lord -->
-		<titleShort>сельский лорд</titleShort>
+		<titleShort>уездный лорд</titleShort>
 		<!-- EN: field lady -->
-		<titleShortFemale>сельская леди</titleShortFemale>
+		<titleShortFemale>уездная леди</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] grew up in a noble family's manor in the outer country. [PAWN_possessive] early years were full of lessons in horseback riding, politics, and religion.\n\n[PAWN_nameDef] and [PAWN_possessive] friends found many ways to break the rules and have fun in the fields and forests. -->
-		<desc>{PAWN_nameDef} воспитывается в поместье благородного рода в провинции. {PAWN_possessive} ранние годы наполнены уроками верховой езды, политики и религии.\n\nНо {PAWN_nameDef} с друзьями находят множество способов нарушать правила и наслаждаться сельской жизнью.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} в поместье благородного рода в провинции. Юность {PAWN_possessive} была наполнена уроками верховой езды, изучением политики и религии.\n\nНо {PAWN_nameDef} с друзьями находили множество способов нарушать правила и наслаждаться прелестями сельской жизни.</desc>
 	</CountryLordling92>
 
 	<!-- Tribal_Child -->
