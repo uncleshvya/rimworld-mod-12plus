@@ -1479,11 +1479,11 @@
 	<!-- ImperialCommon_Adult -->
 	<CorporateDrone10>
 		<!-- EN: corporate drone -->
-		<title>корпоративный пиджак</title>
+		<title>офисный планктон</title>
 		<!-- EN: drone -->
-		<titleShort>пиджак</titleShort>
+		<titleShort>планктон</titleShort>
 		<!-- EN: [PAWN_nameDef] worked in a very large office complex along with thousands of other suited drones.\n\nThe work itself consisted of endless organizational drudgery and pointless meetings, punctuated by the occasional performance review. -->
-		<desc>{PAWN_nameDef} работает в огромном офисном комплексе в окружении тысяч таких же непримечательных работников.\n\nСама по себе работа состоит из бесконечной организационной рутины и бессмысленных совещаний, с периодическим анализом эффективности выполненной работы.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? работал : работала} в огромном офисном комплексе в окружении тысяч таких же непримечательных работников.\n\nСама по себе работа состояла из бесконечной организационной рутины и бессмысленных совещаний, с периодическим анализом эффективности выполненной работы.</desc>
 	</CorporateDrone10>
 
 	<!-- ImperialCommon_Adult -->
@@ -1493,7 +1493,7 @@
 		<!-- EN: fixer -->
 		<titleShort>решала</titleShort>
 		<!-- EN: [PAWN_nameDef] was a fixer for an energy corporation. [PAWN_pronoun] work required knowing when to push, when to pull, when to back down and when to strike. The job fit [PAWN_possessive] natural lack of empathy.\n\nWhile violence was unusual, [PAWN_nameDef] stayed prepared for anything. -->
-		<desc>{PAWN_nameDef} работает «решалой» в энергетической компании. В такой работе нужно понимать, когда можно надавить, а когда не стоит, когда нужно отступить, а когда нанести удар. И {PAWN_nameDef} хорошо подходит для неё из-за врожденного недостатка эмпатии.\n\nДаже когда применение силы не требуется, {PAWN_pronoun} {PAWN_gender ? готов : готова} ко всему.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} «решалой» в энергетической компании. В такой работе нужно понимать, когда можно надавить, а когда не стоит, когда нужно отступить, а когда нанести удар. И круглосуточно поддерживать готовность к бою. {PAWN_nameDef} хорошо {PAWN_gender ? подходил : подходила} для этой должности из-за врождённого недостатка эмпатии.</desc>
 	</CorporateFixer36>
 
 	<!-- ImperialCommon_Adult -->
