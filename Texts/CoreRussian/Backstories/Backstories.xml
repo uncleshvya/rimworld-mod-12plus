@@ -1613,7 +1613,7 @@
 		<titleShort>садовник</titleShort>
 		<titleShortFemale>садовница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] worked at the mansion of a powerful family, tending the lavish gardens as part of a team of servants. -->
-		<desc>{PAWN_nameDef} работает прислугой в особняке одной из могущественных семей, ухаживая за их роскошными садами вместе с остальными слугами.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? работал : работала} при особняке одной могущественной семьи, ухаживая за роскошными садами вместе с остальной прислугой.</desc>
 	</Gardener99>
 
 	<!-- Tribal_Adult -->
