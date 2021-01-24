@@ -1545,11 +1545,11 @@
 	<!-- ImperialFighter_Child -->
 	<Delinquent13>
 		<!-- EN: delinquent -->
-		<title>преступник</title>
-		<titleFemale>преступница</titleFemale>
+		<title>малолетний арестант</title>
+		<titleFemale>малолетняя арестантка</titleFemale>
 		<!-- EN: delinquent -->
-		<titleShort>преступник</titleShort>
-		<titleShortFemale>преступница</titleShortFemale>
+		<titleShort>арестант</titleShort>
+		<titleShortFemale>арестантка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] spent most of [PAWN_possessive] childhood behind bars. Following an unsuccessful escape attempt, [PAWN_pronoun] was pressed into the military. -->
 		<desc>{PAWN_nameDef} {PAWN_gender ? провёл : провела} большую часть своего детства за решёткой. И, после неудачной попытки побега, {PAWN_gender ? был отправлен : была отправлена} служить в армию.</desc>
 	</Delinquent13>
@@ -1561,7 +1561,7 @@
 		<!-- EN: demolitionist -->
 		<titleShort>взрывотехник</titleShort>
 		<!-- EN: [PAWN_nameDef] manufactured and planted explosives used to breach enemy defenses. Dealing with explosives every day taught [PAWN_objective] to keep a level head and steady hand. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? занимался : занималась} изготовлением и установкой взрывчатки для прорыва обороны противника. Работа со взрывчаткой приучила {PAWN_possessive} всегда сохранять голову ясной, а руку — твёрдой.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? занимался : занималась} изготовлением и установкой взрывчатки для прорыва обороны противника. При работе со столь опасными веществами выживают лишь те, кто всегда сохраняет голову ясной, а руку — твёрдой.</desc>
 	</Demolitionist39>
 
 	<!-- ImperialFighter_Adult -->
@@ -1571,7 +1571,7 @@
 		<!-- EN: deserter -->
 		<titleShort>дезертир</titleShort>
 		<!-- EN: After countless battles for a cause [PAWN_pronoun] did not believe in, [PAWN_nameDef] threw down [PAWN_possessive] arms and deserted. [PAWN_nameDef] lived in isolation, hunted by those [PAWN_pronoun] had deserted. -->
-		<desc>После участия в бесчисленных битвах за то, во что {PAWN_pronoun} даже {PAWN_gender ? не верил : не верила}, {PAWN_nameDef} {PAWN_gender ? бросил : бросила} свое оружие и {PAWN_gender ? дезертировал : дезертировала}. С тех пор {PAWN_nameDef} {PAWN_gender ? жил : жила} в одиночестве, {PAWN_gender ? преследуемый : преследуемая} теми, кого {PAWN_gender ? оставил : оставила}.</desc>
+		<desc>После участия в бесчисленных битвах за то, во что {PAWN_pronoun} даже {PAWN_gender ? не верил : не верила}, {PAWN_nameDef} {PAWN_gender ? бросил : бросила} свое оружие и {PAWN_gender ? дезертировал : дезертировала}. С тех пор {PAWN_nameDef} {PAWN_gender ? жил : жила} в одиночестве, {PAWN_gender ? преследуемый : преследуемая} теми, кого {PAWN_gender ? предал : предала}.</desc>
 	</Deserter65>
 
 	<!-- ImperialFighter_Adult -->
