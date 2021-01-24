@@ -1780,7 +1780,7 @@
 		<!-- EN: logger -->
 		<titleShort>лесоруб</titleShort>
 		<!-- EN: [PAWN_nameDef] chopped trees and hauled their lumber back to the tribe. [PAWN_pronoun] wielded [PAWN_possessive] axe with the finesse of an artist and the force of a charging muffalo. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? валил : валила} лес и {PAWN_gender ? обеспечивал : обеспечивал} древесиной своё племя. {PAWN_pronoun} {PAWN_gender ? управлялся : управлялась} топором с изяществом художника и мощью разъярённого муффало.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? валил : валила} лес и {PAWN_gender ? обеспечивал : обеспечивал} древесиной своё племя. Мало кто в окрестностях так превосходно управлялся топором — с изяществом художника и мощью разъярённого муффало.</desc>
 	</Logger16>
 
 	<!-- ImperialFighter_Adult -->
