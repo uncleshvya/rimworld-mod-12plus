@@ -1838,7 +1838,7 @@
 		<titleShort>смотритель</titleShort>
 		<titleShortFemale>смотрительница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] managed the royal menagerie of a powerful family at their estate.\n\n[PAWN_nameDef]'s job saw [PAWN_pronoun] feeding elephants, tranquilizing lions, and training birds to display their plumage to titled visitors. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? управлял : управляла} королевским зверинцем могущественной семьи в их поместье.\n\n{PAWN_possessive} работа состояла в кормлении слонов, усмирении львов, и в обучении птиц показывать своё оперение титулованным посетителям.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? управлял : управляла} королевским зверинцем могущественной семьи в их поместье.\n\nВсех животных нужно было кормить, хищников — регулярно усмирять, а птиц — обучать, чтобы те показывали своё оперение титулованным посетителям.</desc>
 	</MenagerieKeeper1>
 
 	<!-- ImperialFighter_Child -->
