@@ -1591,7 +1591,7 @@
 		<!-- EN: firebomber -->
 		<titleShort>бомбардир</titleShort>
 		<!-- EN: [PAWN_nameDef] piloted a small fighter-bomber design specialized in spreading incendiary gel on flammable targets.\n\nConditioned to love the sight of a target lighting up, [PAWN_pronoun] grew to love fire in all its forms - war, cooking, and even for cauterizing wounds in the hospital. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? пилотировал : пилотировала} небольшой истребитель-бомбардировщик, разработанный специально для распыления зажигательной смеси.\n\nИзучая зажигательные составы, {PAWN_nameDef} {PAWN_gender ? узнал : узнала} все способы применения огня: военный, кулинарный и даже медицинский, для прижигании ран.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? пилотировал : пилотировала} небольшой истребитель-бомбардировщик, разработанный специально для распыления напалма.\n\nИзучая зажигательные смеси, {PAWN_nameDef} {PAWN_gender ? узнал : узнала} различные способы применения огня: боевой, кулинарный и даже медицинский — для прижигания ран.</desc>
 	</Firebomber51>
 
 	<!-- Tribal_Adult -->
