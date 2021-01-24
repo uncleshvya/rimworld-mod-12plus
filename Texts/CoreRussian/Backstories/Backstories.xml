@@ -1660,7 +1660,7 @@
 		<titleShort>слуга</titleShort>
 		<titleShortFemale>служанка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was a low-level servant in a royal house.\n\n[PAWN_pronoun] cleaned rooms and moved items as directed by the senior staff, while attempting to remain invisible to the lords and ladies of the house. -->
-		<desc>{PAWN_nameDef} работает в качестве младшей прислуги королевского дома.\n\n{PAWN_pronoun} убирает комнаты и переносит вещи в соответствии с указаниями старшего персонала, пытаясь остаться {PAWN_gender ? незамеченным : незамеченной} для господ и дам.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? работал : работала} при знатном семействе в качестве младшей прислуги.\n\n{PAWN_pronoun} {PAWN_gender ? убирал : убирала} комнаты и {PAWN_gender ? переносил : переносила} вещи в соответствии с указаниями старшего персонала, пытаясь оставаться {PAWN_gender ? незамеченным : незамеченной} для господ и дам.</desc>
 	</HouseServant86>
 
 	<!-- Tribal_Adult -->
