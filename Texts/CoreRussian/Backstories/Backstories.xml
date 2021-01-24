@@ -1727,7 +1727,7 @@
 		<!-- EN: officer -->
 		<titleShort>офицер</titleShort>
 		<!-- EN: [PAWN_nameDef] was an officer in an imperial battalion. [PAWN_pronoun] developed the social and combat skills to do [PAWN_possessive] job well and was respected by the men. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} офицером имперского пехотного батальона. {PAWN_pronoun} {PAWN_gender ? выработал : выработала} много боевых и социальных навыков, которые помогали {PAWN_objective} хорошо выполнять свои обязанности и быть {PAWN_gender ? уважаемым : уважаемой} среди своих подчинённых.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? служил : служила} офицером в одном из имперских пехотных батальонов. {PAWN_pronoun} {PAWN_gender ? выработал : выработала} много боевых и социальных навыков, которые помогали {PAWN_objective} хорошо выполнять свои обязанности и быть {PAWN_gender ? уважаемым : уважаемой} среди своих подчинённых.</desc>
 	</InfantryOfficer49>
 
 	<!-- ImperialFighter_Adult -->
