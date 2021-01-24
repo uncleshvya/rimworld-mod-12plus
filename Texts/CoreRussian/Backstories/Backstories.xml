@@ -1637,7 +1637,7 @@
 		<titleShort>дворецкий</titleShort>
 		<titleShortFemale>экономка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was the head servant in a royal house.\n\n[PAWN_pronoun] managed the other servants to ensure the lord's will was done, even before the lord knew what it was. -->
-		<desc>[PAWN_nameDef] работает {PAWN_gender ? старшим дворецким ? старшей экономкой} в королевском доме.\n\n{PAWN_pronoun} руководит остальной прислугой, чтобы обеспечивать выполнение воли лорда ещё до того, как он поймёт, чего хочет.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? работал старшим дворецким : работала старшей экономкой} при знатном семействе.\n\n{PAWN_pronoun} {PAWN_gender ? руководил : руководила} остальной прислугой и {PAWN_gender ? делал : делала} так, чтобы желания лорда исполнялись ещё до того, как он поймёт, чего хочет.</desc>
 	</HeadButler50>
 
 	<!-- Tribal_Child -->
