@@ -1707,7 +1707,7 @@
 		<!-- EN: engineer -->
 		<titleShort>инженер</titleShort>
 		<!-- EN: Despite being in an infantry battalion, [PAWN_nameDef] rarely fired a gun. [PAWN_possessive] specialty was the rapid construction of defenses, traps, defensive installations, and sapping tunnels. -->
-		<desc>Несмотря на службу в пехотном батальоне, {PAWN_nameDef} редко {PAWN_gender ? брал : брала} в руки оружие. В {PAWN_possessive} задачи входило быстрое сооружение оборонительных конструкций, ловушек, укреплений, создание подкопов.</desc>
+		<desc>Несмотря на службу в пехотном батальоне, {PAWN_nameDef} редко {PAWN_gender ? брал : брала} в руки оружие. {PAWN_pronoun} {PAWN_gender ? отвечал : отвечала} за быстрое сооружение оборонных линий, фортификаций, ловушек, создание подкопов.</desc>
 	</InfantryEngineer46>
 
 	<!-- ImperialFighter_Adult -->
