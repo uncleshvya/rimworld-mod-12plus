@@ -1625,7 +1625,7 @@
 		<titleShort>собиратель</titleShort>
 		<titleShortFemale>собирательница</titleShortFemale>
 		<!-- EN: Using [PAWN_possessive] knowledge of plants, roots, and berries, [PAWN_nameDef] could find food in even the most barren landscapes. [PAWN_pronoun] stayed away from animals. -->
-		<desc>Благодаря своим знаниям о растениях, съедобных корнях и ягодах, {PAWN_nameDef} может найти еду в самых бесплодных местах. Но от животных {PAWN_pronoun} предпочитает держаться подальше.</desc>
+		<desc>Благодаря своим знаниям о растениях, съедобных корнях и ягодах, {PAWN_nameDef} {PAWN_gender ? мог : могла} найти пропитание в самых бесплодных местах. Но от животных {PAWN_pronoun} {PAWN_gender ? предпочитал : предпочитала} держаться подальше.</desc>
 	</Gatherer70>
 
 	<!-- ImperialCommon_Adult -->
