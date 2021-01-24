@@ -1672,7 +1672,7 @@
 		<titleShort>охотник</titleShort>
 		<titleShortFemale>охотница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] tracked, trapped and killed animals for their meat and leather.\n\n[PAWN_nameDef] used both ranged and melee weapons. Sometimes, [PAWN_pronoun] hunted alongside animals. -->
-		<desc>{PAWN_nameDef} замечает, что у н{PAWN_possessive} хорошо получается охотиться на животных ради их шкур и мяса.\n\n{PAWN_pronoun} использует оружие как ближнего, так и дальнего боя. Иногда {PAWN_nameDef} охотится с ловчими животными.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? заметил : заметила}, что у н{PAWN_possessive} хорошо получается охотиться на животных ради их шкур и мяса.\n\n{PAWN_pronoun} {PAWN_gender ? использовал : использовала} оружие как ближнего, так и дальнего боя. Иногда {PAWN_nameDef} {PAWN_gender ? охотился : охотилась} с ловчими животными.</desc>
 	</Hunter74>
 
 	<!-- ImperialCommon_Adult -->
