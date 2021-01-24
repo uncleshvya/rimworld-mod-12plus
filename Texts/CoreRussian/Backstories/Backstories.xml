@@ -1814,7 +1814,7 @@
 		<!-- EN: mailwoman -->
 		<titleShortFemale>почтальонка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] carried mail on [PAWN_possessive] assigned routes. Sometimes [PAWN_pronoun] was even sent to deliver special packages to stylish corporate offices or mansions.\n\n[PAWN_nameDef] got pretty good at avoiding and fighting off angry dogs. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? развозил : развозила} почту. Иногда {PAWN_objective} даже поручали доставку специальных посылок в стильные корпоративные офисы и особняки.\n\n{PAWN_nameDef} неплохо {PAWN_gender ? наловчился : наловчилась} обращаться со злыми собаками: избегать их и драться с ними.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? развозил : развозила} письма и посылки. Иногда {PAWN_objective} даже поручали специальную доставку в стильные корпоративные офисы и особняки.\n\n{PAWN_nameDef} неплохо {PAWN_gender ? наловчился : наловчилась} обращаться со злыми собаками: избегать их или драться с ними.</desc>
 	</Mailman2>
 
 	<!-- Tribal_Adult -->
