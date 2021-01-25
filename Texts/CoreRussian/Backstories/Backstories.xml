@@ -2261,7 +2261,7 @@
 		<!-- EN: engineer -->
 		<titleShort>инженер</titleShort>
 		<!-- EN: [PAWN_nameDef] was a well-known civil engineer. [PAWN_possessive] job involved designing and maintaining rock fortification structures. [PAWN_pronoun] did enough statistical analysis to keep [PAWN_possessive] mind sharp. -->
-		<desc>{PAWN_nameDef} становится хорошо известным инженером-строителем. {PAWN_possessive} работа включает в себя проектирование и обеспечение укреплённых сооружений из камня. {PAWN_nameDef} проводит много статистических анализов, что позволяет {PAWN_objective} сохранить остроту ума.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} хорошо известным инженером-строителем. {PAWN_possessive} работа включала в себя проектирование и обслуживание укреплённых сооружений из камня. {PAWN_nameDef} {PAWN_gender ? проводил : проводила} много статистических анализов, что позволяло {PAWN_objective} сохранять остроту ума.</desc>
 	</CivilEngineer2>
 
 	<!-- Benjamin "Ben" Frick, Male, Childhood -->
