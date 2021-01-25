@@ -2239,7 +2239,7 @@
 		<!-- EN: scientist -->
 		<titleShort>учёный</titleShort>
 		<!-- EN: Stripped of [PAWN_possessive] life’s work and exiled after [PAWN_possessive] unethical experiments on the survivors of the Callos IX incident were published, [PAWN_nameDef] learned the skills necessary to survive in the outer rim.\n\nContinuing [PAWN_possessive] research with nothing left to lose, [PAWN_pronoun] made minions to carry out the tasks that bored him. -->
-		<desc>{PAWN_possessive} отстраняют от работы всей жизни после того, как публикуются данные по {PAWN_possessive} экспериментам, проведённым над выжившими в инциденте на Каллосе IX. В изгнании {PAWN_nameDef} осваивает все навыки, необходимые для выживания на окраинных мирах.\n\nПоскольку {PAWN_objective} нечего больше терять, {PAWN_nameDef} продолжает свои исследования, создав себе слуг для выполнения рутинной работы.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был отстранён : была отстранена} от дела всей {PAWN_possessive} жизни, когда опубликовали данные по {PAWN_possessive} экспериментам, проведённым над выжившими в инциденте на Каллосе IX.\n\nВ изгнании {PAWN_nameDef} {PAWN_gender ? освоил : освоила} все навыки, необходимые для выживания на окраинных мирах. Поскольку {PAWN_objective} было больше нечего терять, {PAWN_pronoun} {PAWN_gender ? продолжил : продолжила} исследования, создав слуг для выполнения рутинной работы.</desc>
 	</MadScientist0>
 
 	<!-- John "Blitz" Kriegsler, Male, Childhood -->
