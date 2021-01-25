@@ -2219,7 +2219,7 @@
 		<titleShort>искатель</titleShort>
 		<titleShortFemale>искательница</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was tasked with watching [PAWN_possessive] family's herds, but often shirked [PAWN_possessive] duties to go exploring the crashed warships scattered around the planet. -->
-		<desc>С юных лет {PAWN_nameDef} следит за скотом своего племени, но частенько увиливает от своей работы, чтобы исследовать обломки боевых кораблей, разбросанные по планете.</desc>
+		<desc>С юных лет {PAWN_nameDef} {PAWN_gender ? следил : следила} за скотом своего племени, но частенько {PAWN_gender ? увиливал : увиливала} от своей работы, чтобы исследовать обломки боевых кораблей, разбросанные по планете.</desc>
 	</WreckageExplorer93>
 
 	<!-- James "Doc" Grey, Male, Childhood -->
