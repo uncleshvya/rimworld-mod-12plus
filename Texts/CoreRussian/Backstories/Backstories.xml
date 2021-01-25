@@ -2251,7 +2251,7 @@
 		<titleShort>фермер</titleShort>
 		<titleShortFemale>фермерша</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] grew up on [PAWN_possessive] family's beef farm. [PAWN_pronoun] enjoyed working the fields and taking care of the animals. -->
-		<desc>{PAWN_nameDef} вырастает на семейной ферме по производству говядины. {PAWN_objective} нравится работать в поле и ухаживать за животными.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} на семейной ферме по разведению коров. С самого детства {PAWN_objective} нравилось работать в поле и ухаживать за животными.</desc>
 	</FarmKid60>
 
 	<!-- John "Blitz" Kriegsler, Male, Adulthood -->
