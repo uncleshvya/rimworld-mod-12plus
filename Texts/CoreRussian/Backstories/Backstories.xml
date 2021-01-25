@@ -2229,7 +2229,7 @@
 		<!-- EN: prodigy -->
 		<titleShort>вундеркинд</titleShort>
 		<!-- EN: [PAWN_nameDef] was born on a glitterworld falling into chaos. [PAWN_possessive] father was killed in action.\n\n[PAWN_pronoun] struggled for a scholarship at Utmaior Academy and had to prove [PAWN_possessive] right to be there. A child genius, [PAWN_pronoun] was bullied as a charity case and couldn't make friends with the other kids. -->
-		<desc>{PAWN_nameDef} рождается в утопическом мире, погружающемся в пучину хаоса. {PAWN_possessive} отца убивают в бою.\n\n{PAWN_nameDef} борется за место в академии, постоянно доказывая своё право находиться в ней. Над гениальным ребёнком регулярно издеваются, и {PAWN_objective} не удаётся подружиться с другими детьми.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} в утопическом мире, погружающемся в пучину хаоса. Отца {PAWN_possessive} убили в бою.\n\n{PAWN_nameDef} с трудом {PAWN_gender ? поступил : поступила} на бюджетное место в Академии Утмайор, где постоянно приходилось доказывать своё право на учёбу там. Над {PAWN_gender ? гениальным мальчиком : гениальной девочкой} регулярно издевались, и {PAWN_objective} не удалосьсь ни с кем подружиться.</desc>
 	</FallenProdigy40>
 
 	<!-- James "Doc" Grey, Male, Adulthood -->
