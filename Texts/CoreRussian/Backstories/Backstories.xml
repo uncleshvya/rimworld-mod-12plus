@@ -2318,7 +2318,7 @@
 		<titleShort>оптимист</titleShort>
 		<titleShortFemale>оптимистка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was blessed with loving parents and a pleasant midworld life. [PAWN_pronoun] was an  optimistic and sociable kid who loved making friends and listening to their stories. [PAWN_possessive] imagination would run wild with ideas and questions. -->
-		<desc>В окружении заботы своих родителей {PAWN_nameDef} благополучно живёт на одном из средних миров. {PAWN_pronoun} становится жизнерадостным и общительным ребёнком, обожающим заводить друзей и слушать их истории. {PAWN_possessive} богатое воображение постоянно даёт жизнь новым идеям и вопросам.</desc>
+		<desc>{PAWN_nameDef} благополучно {PAWN_gender ? жил : жила} на одном из средних миров, в окружении заботливых родственников. {PAWN_pronoun} {PAWN_gender ? рос общительным и жизнерадостным мальчиком : росла общительной и жизнерадостной девочкой}, {PAWN_gender ? обожающим : обожающей} заводить друзей и слушать их истории. {PAWN_possessive} богатое воображение постоянно давало жизнь новым вопросам и идеям.</desc>
 	</OptimisticChild30>
 
 	<!-- Kees "Kees" Van Vugt, Male, Adulthood -->
