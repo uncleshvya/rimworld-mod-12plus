@@ -2296,7 +2296,7 @@
 		<titleShort>хулиган</titleShort>
 		<titleShortFemale>хулиганка</titleShortFemale>
 		<!-- EN: Born into bad circumstance on an overpopulated urbworld, [PAWN_nameDef] turned to small-time crime as a way to avoid starvation and hypothermia.\n\nRobbery and murder were daily activities for him. [PAWN_nameDef] learned that surviving was winning. -->
-		<desc>{PAWN_nameDef} рождается в неблагополучной семье перенаселённого урбанизированного мира и рано познаёт суровые законы улиц — иначе пришлось бы страдать от голода и холода.\n\nДраки и хитрость становятся для н{PAWN_possessive} основами повседневной жизни. {PAWN_nameDef} осознаёт, что побеждает тот, кто выживает.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} в неблагополучной семье перенаселённого урбанизированного мира и рано {PAWN_gender ? изучил : изучила} суровые законы улиц — иначе пришлось бы страдать от голода и холода.\n\n{PAWN_nameDef} {PAWN_gender ? осознал : осознала}, что побеждает тот, кто выживает. Драки и хитрость были для н{PAWN_possessive} основой повседневной жизни.</desc>
 	</UrbworldCriminal80>
 
 	<!-- Vladimir "Vladimir" Black, Male, Adulthood -->
