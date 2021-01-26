@@ -2284,7 +2284,7 @@
 		<titleShort>повар</titleShort>
 		<titleShortFemale>повариха</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] joined the army as a worker and spent most of [PAWN_possessive] time cooking and repairing. While [PAWN_pronoun] was stationed on a dangerous planet, [PAWN_pronoun] underwent basic shooting and survival training. -->
-		<desc>{PAWN_nameDef} записывается рабочим в армию и большую часть времени проводит, готовя еду и занимаясь ремонтными работами. Во время пребывания на опасной планете {PAWN_possessive} обучают основам стрельбы и выживания.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? записался : записалась} рабочим в армию и большую часть времени {PAWN_gender ? проводил : проводила}, готовя еду и занимаясь ремонтными работами. Перед постройкой военной базы на опасной планете, всех рабочих обучили основам стрельбы и выживания.</desc>
 	</ArmyCook0>
 
 	<!-- Vladimir "Vladimir" Black, Male, Childhood -->
