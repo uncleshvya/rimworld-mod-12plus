@@ -2350,7 +2350,7 @@
 		<!-- EN: technician -->
 		<titleShort>техник</titleShort>
 		<!-- EN: [PAWN_nameDef] finally managed to flee [PAWN_possessive] criminal life by getting a maintenance job on a nearby space station. [PAWN_pronoun] performed multiple repairing and building operations. [PAWN_pronoun] also used to participate in basic research activities and often defused co-workers' arguments. [PAWN_pronoun] never liked doing art. -->
-		<desc>{PAWN_nameDef} наконец сбегает от преступной жизни, устроившись в штат техобслуживания космической станции, где {PAWN_pronoun} выполняет различные ремонтные и строительные работы. {PAWN_nameDef} иногда участвует в фундаментальных исследованиях и частенько разрешает споры между коллегами. Тем не менее, заниматься искусством {PAWN_pronoun} не любит.</desc>
+		<desc>{PAWN_nameDef} наконец {PAWN_gender ? сбежал : сбежала} от жизни в трущобах, устроившись в штат техобслуживания космической станции. Там {PAWN_pronoun} {PAWN_gender ? выполнял : выполняла} различные ремонтные и строительные работы. Иногда {PAWN_pronoun} {PAWN_gender ? помогал : помогала} проводить исследования и часто {PAWN_gender ? разрешал : разрешала} споры между коллегами. Единственное, чем {PAWN_pronoun} никогда не {PAWN_gender ? любил : любила} заниматься, так это искусством.</desc>
 	</SpaceTechnician29>
 
 	<!-- Victoria "Vicky" Louene, Female, Childhood -->
