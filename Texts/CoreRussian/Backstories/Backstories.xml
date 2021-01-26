@@ -2328,7 +2328,7 @@
 		<!-- EN: designer -->
 		<titleShort>дизайнер</titleShort>
 		<!-- EN: [PAWN_nameDef]' interest in artistic expression led [PAWN_objective] to become a designer. [PAWN_possessive] eye for detail made [PAWN_objective] a reasonably well-known artist on [PAWN_possessive] planet, though [PAWN_possessive] meticulousness often led [PAWN_objective] to spend too much time perfecting a single project. -->
-		<desc>Интерес к художественному самовыражению в конце концов приводит {PAWN_possessive} к профессии дизайнера. Внимание к деталям приносит {PAWN_objective} немалую известность на своей планете, однако чрезмерная дотошность зачастую приводит к тому, что {PAWN_nameDef} тратит слишком много времени на доведение каждого проекта до совершенства.</desc>
+		<desc>Реализуя своё стремление к художественному самовыражению, {PAWN_nameDef} {PAWN_gender ? стал : стала} дизайнером. Внимание к деталям принесло {PAWN_objective} немалую известность на своей планете, однако чрезмерная дотошность зачастую приводила к тому, что {PAWN_nameDef} {PAWN_gender ? тратил : тратила} слишком много времени на доведение каждого проекта до совершенства.</desc>
 	</GraphicDesigner33>
 
 	<!-- Frederic "Bennett" Bennett, Male, Childhood -->
