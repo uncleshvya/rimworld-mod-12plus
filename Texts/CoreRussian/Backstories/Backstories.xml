@@ -2340,7 +2340,7 @@
 		<titleShort>хулиган</titleShort>
 		<titleShortFemale>хулиганка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] grew up in a dangerous urbworld. [PAWN_pronoun] quickly learned how to get [PAWN_possessive] daily meal - by crime. Such means left little to no space for cooking and growing activities. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} на одном из опасных перенаселённых миров. {PAWN_pronoun} рано {PAWN_gender ? изучил : изучила} суровые законы улиц, лишь волей случая оставшись в живых.\n\nВ процессе взросления {PAWN_pronoun} {PAWN_gender ? обнаружил : обнаружила} в себе способности к манипулированию другими людьми. Нечего и говорить, что такая жизнь не способствует развитию навыков готовки и земледелия.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} на одном из опасных урбанизированных миров. {PAWN_pronoun} рано {PAWN_gender ? изучил : изучила} суровые законы улиц, лишь волей случая оставшись в живых.\n\nВ процессе взросления {PAWN_pronoun} {PAWN_gender ? обнаружил : обнаружила} в себе способности к манипулированию другими людьми. Нечего и говорить, что такая жизнь не способствует развитию навыков готовки и земледелия.</desc>
 	</UrbworldHooligan12>
 
 	<!-- Frederic "Bennett" Bennett, Male, Adulthood -->
