@@ -2356,11 +2356,18 @@
 	<!-- Victoria "Vicky" Louene, Female, Childhood -->
 	<IndworldUrchin73>
 		<!-- EN: indworld urchin -->
-		<title>городская сирота</title>
+		<title>городской сирота</title>
+		<titleFemale>городская сирота</titleFemale>
 		<!-- EN: urchin -->
 		<titleShort>сирота</titleShort>
 		<!-- EN: [PAWN_nameDef] grew up on the streets of a world in the early stages of its industrial revolution. [PAWN_pronoun] passed [PAWN_possessive] days stealing, begging and tinkering with discarded machine scraps, always on the lookout for a way to escape poverty. -->
-		<desc>{PAWN_nameDef} вырастает на улицах мира, переживающего начало индустриальной революции. {PAWN_pronoun} проводит свои дни, попрошайничая и мастеря что-то из выброшенных деталей машин. {PAWN_nameDef} постоянно ищет способы вырваться из нищеты.</desc>
+		<desc>{PAWN_nameDef} вырастает на улицах мира, переживающего начало индустриальной революции. {PAWN_pronoun} проводит свои дни, попрошайничая и мастеря что-то из выброшенных деталей машин. {PAWN_nameDef} постоянно ищет способы вырваться из нищеты.
+		
+		{PAWN_nameDef} {PAWN_gender ? рос : росла} на улицах мира, переживавшего начало промышленной революции. Там {PAWN_pronoun} {PAWN_gender ? проводил : проводила} свои дни, попрошайничая и мастеря что-то из выброшенных деталей машин. {PAWN_pronoun} постоянно {PAWN_gender ? искал : искала} способы вырваться из нищеты.
+		
+		{PAWN_nameDef} {PAWN_gender ? вырос : выросла} на улицах мира, переживавшего начало индустриальной революции. {PAWN_pronoun} {PAWN_gender ? проводил : проводила} свои дни воруя, попрошайничая и мастеря что-то из выброшенных деталей машин. {PAWN_nameDef} постоянно {PAWN_gender ? искал : искала} способы вырваться из нищеты.
+		
+		</desc>
 	</IndworldUrchin73>
 
 	<!-- Victoria "Vicky" Louene, Female, Adulthood -->
