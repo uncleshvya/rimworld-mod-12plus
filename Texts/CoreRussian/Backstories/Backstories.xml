@@ -2392,7 +2392,7 @@
 		<!-- EN: engineer -->
 		<titleShort>инженер</titleShort>
 		<!-- EN: [PAWN_nameDef] worked as an engineer for a colonial military. [PAWN_pronoun] got to play with weapons, murder-drones, and other 'fun' stuff.\n\n[PAWN_pronoun] specialized in repairing and modifying mechanoids' tools. Sometimes [PAWN_pronoun] tested them [PAWN_objective]self. -->
-		<desc>{PAWN_nameDef} становится инженером в колониальной армии. {PAWN_pronoun} занимается оружием, боевыми дронами и прочими «забавными» вещами.\n\n{PAWN_possessive} специализацией становятся ремонт и модификации вооружения механоидов. Иногда {PAWN_pronoun} тестирует его сам.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? служил : служила} инженером в колониальной армии. Там {PAWN_pronoun} {PAWN_gender ? занимался : занималась} оружием, боевыми дронами и прочими «забавными» вещами.\n\n{PAWN_pronoun} {PAWN_gender ? стал специалистом : стала специалисткой} по ремонту и модификации вооружения механоидов. Иногда {PAWN_nameDef} {PAWN_gender ? тестировал его сам : тестировала его сама}.</desc>
 	</MilitaryEngineer45>
 
 	<!-- Chad "Stonejaw" Walcenville, Male, Childhood -->
