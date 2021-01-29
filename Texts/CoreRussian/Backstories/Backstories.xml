@@ -2404,7 +2404,13 @@
 		<titleShort>уборщик</titleShort>
 		<titleShortFemale>уборщица</titleShortFemale>
 		<!-- EN: During the 'Inner Destrian War' fallout, [PAWN_possessive] parents were captured and [PAWN_pronoun] was born into a life of slavery. Forced to clean coliseums after bloody battles for money. Watching, waiting, and learning. Coliseums were the only thing [PAWN_pronoun] ever knew. One night while cleaning the coliseum, [PAWN_possessive] family was murdered. -->
-		<desc>После окончания «Демрийской войны» {PAWN_possessive} родителей захватывают в плен, и {PAWN_nameDef} рождается и растёт в рабстве. {PAWN_possessive} заставляют чистить арены колизеев после кровопролитных боёв. Арена становится всем, что {PAWN_nameDef} успевает узнать и увидеть.\n\nОднажды вернувшись с дежурства, {PAWN_pronoun} узнаёт о гибели своей семьи на арене.</desc>
+		<desc>После окончания «Демрийской войны» {PAWN_possessive} родителей захватывают в плен, и {PAWN_nameDef} рождается и растёт в рабстве. {PAWN_possessive} заставляют чистить арены колизеев после кровопролитных боёв. Арена становится всем, что {PAWN_nameDef} успевает узнать и увидеть.\n\nОднажды вернувшись с дежурства, {PAWN_pronoun} узнаёт о гибели своей семьи на арене.
+		
+		{PAWN_nameDef} {PAWN_gender ? родился и рос рабом : родилась и росла рабыней}, потому что {PAWN_possessive} родители были захвачены в плен в результате «Демрийской войны». Вместе с другими детьми {PAWN_possessive} заставляли чистить арены колизеев после кровопролитных боёв. Арена стала всем, что {PAWN_nameDef} {PAWN_gender ? успел : успела} узнать и увидеть.\n\nОднажды вернувшись с дежурства, {PAWN_pronoun} {PAWN_gender ? узнал : узнала} о гибели своей семьи на арене.
+		
+		{PAWN_nameDef} {PAWN_gender ? родился и рос : родилась и росла} в рабстве, потому что {PAWN_possessive} родители были захвачены в плен в результате «Демрийской войны». {PAWN_possessive} заставляли чистить арены колизеев после кровопролитных боёв. Арена стала всем, что {PAWN_nameDef} {PAWN_gender ? успел : успела} узнать и увидеть.\n\nОднажды ночью, во время очередной уборки, {PAWN_possessive} семью убили.
+
+		</desc>
 	</ColiseumCleaner54>
 
 	<!-- Chad "Stonejaw" Walcenville, Male, Adulthood -->
