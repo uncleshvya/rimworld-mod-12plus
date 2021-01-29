@@ -2371,7 +2371,7 @@
 		<!-- EN: pariah -->
 		<titleShort>изгой</titleShort>
 		<!-- EN: [PAWN_nameDef] managed to open a vault of otherworldly technology while scavenging a dig site. [PAWN_pronoun] unwittingly triggered a doomsday device that cleansed the planet of all life. More interested in the tech than human life, [PAWN_pronoun] boarded the vault’s spacecraft and departed to find more relics to abuse. -->
-		<desc>Во время осмотра места раскопок {PAWN_nameDef} случайно открывает вход в космический корабль, оставшийся от древней цивилизаци. По неосторожности {PAWN_pronoun} запускает устройство судного дня, которое очищает остальную планету от всего живого.\n\nПри сотрясении {PAWN_nameDef} ранится и капает кровью на приёмник ДНК. ИИ корабля признаёт {PAWN_possessive} потомком исчезнувшей расы, и {PAWN_nameDef} отправляется к другим мирам, чтобы найти ещё больше загадочных артефактов.</desc>
+		<desc>Во время осмотра места раскопок {PAWN_nameDef} случайно {PAWN_gender ? открыл : открыла} вход в космический корабль, оставшийся от древней цивилизаци. По неосторожности {PAWN_pronoun} {PAWN_gender ? запустил : запустила} устройство судного дня и {PAWN_gender ? уничтожил : уничтожила} всю жизнь на планете кроме себя.\n\nПри сотрясении {PAWN_nameDef} {PAWN_gender ? поранился и капнул : поранилась и капнула} кровью на приёмник ДНК. ИИ корабля признал, что {PAWN_nameDef} — потомок исчезнувшей расы, и {PAWN_pronoun} {PAWN_gender ? отправился : отправилась} к другим мирам, чтобы найти ещё больше загадочных артефактов.</desc>
 	</DoomsdayPariah24>
 
 	<!-- Markus "Keuneke" Keuneke, Male, Childhood -->
