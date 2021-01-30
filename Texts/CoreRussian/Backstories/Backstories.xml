@@ -2415,7 +2415,7 @@
 		<titleShort>гладиатор</titleShort>
 		<titleShortFemale>гладиаторша</titleShortFemale>
 		<!-- EN: Applying the knowledge that [PAWN_pronoun] gained from years around fighters, [PAWN_pronoun] became a successful gladiator in the coliseum that [PAWN_pronoun] once cleaned. -->
-		<desc>Применяя знания и навыки, полученные за многие годы от бойцов арены, {PAWN_nameDef} становится успешным гладиатором в когда-то убираемом колизее. Однажды, победив чемпиона соседней планеты, {PAWN_nameDef} выигрывает «билет на свободу».</desc>
+		<desc>Применяя знания и навыки, полученные за многие годы от бойцов арены, {PAWN_nameDef} {PAWN_gender ? сам стал : сама стала} успешным гладиатором в колизее, который раньше {PAWN_gender ? убирал : убирала}. Однажды, победив чемпиона соседней планеты, {PAWN_pronoun} {PAWN_gender ? выиграл : выиграла} «билет на свободу».</desc>
 	</ColiseumFighter22>
 
 	<!-- Bashkire Leystrat, Male, Childhood -->
