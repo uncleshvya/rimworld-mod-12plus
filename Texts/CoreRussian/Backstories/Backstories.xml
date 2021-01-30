@@ -2435,7 +2435,13 @@
 		<!-- EN: controller -->
 		<titleShort>оператор</titleShort>
 		<!-- EN: During the Zartha crisis, [PAWN_nameDef] fought across many worlds, providing the vital link between the ground and the air as a fighter controller. During the campaign, [PAWN_pronoun] saw friends injured and killed. This mental trauma haunts [PAWN_possessive] dreams to this day, but [PAWN_possessive] aim remains sharp. -->
-		<desc>Во время кризиса Зарты {PAWN_nameDef} сражается во многих мирах. {PAWN_pronoun} обеспечивает жизненно важную связь между землёй и воздухом в качестве оператора истребителя-беспилотника. Во время кампании {PAWN_nameDef} становится свидетелем ранений и гибели своих друзей. Эта психологическая травма преследует {PAWN_possessive} и по сей день. Тем не менее, стреляет {PAWN_nameDef} по-прежнему метко.</desc>
+		<desc>Во время кризиса Зарты {PAWN_nameDef} сражается во многих мирах. {PAWN_pronoun} обеспечивает жизненно важную связь между землёй и воздухом в качестве оператора истребителя-беспилотника. Во время кампании {PAWN_nameDef} становится свидетелем ранений и гибели своих друзей. Эта психологическая травма преследует {PAWN_possessive} и по сей день. Тем не менее, стреляет {PAWN_nameDef} по-прежнему метко.
+		
+		Во время кризиса Зарты {PAWN_nameDef} {PAWN_gender ? сражался : сражалась} во многих мирах. {PAWN_pronoun} {PAWN_gender ? обеспечивал : обеспечивала} жизненно важную связь между землёй и воздухом в качестве оператора истребителя. Во время кампании {PAWN_nameDef} {PAWN_gender ? стал : стала} свидетелем ранений и гибели своих друзей. Эта психологическая травма преследует {PAWN_possessive} и по сей день. Тем не менее, стреляет {PAWN_nameDef} по-прежнему метко.
+		
+		Во время кризиса Зарты {PAWN_nameDef} {PAWN_gender ? сражался : сражалась} во многих мирах. {PAWN_pronoun} {PAWN_gender ? обеспечивал : обеспечивала} жизненно важную связь между землёй и воздухом в качестве оператора истребителя. Во время кампании {PAWN_nameDef} {PAWN_gender ? стал : стала} свидетелем ранений и гибели своих друзей. Эта психологическая травма преследует {PAWN_possessive} и по сей день. Тем не менее, стреляет {PAWN_nameDef} по-прежнему метко.
+		
+		</desc>
 	</FighterController67>
 
 	<!-- Holly "Kit" Kettu, Female, Childhood -->
