@@ -9,8 +9,8 @@ For English, scroll below.
 - качаете репозиторий или файл "Download 7plus mod (latest).zip".
 - оттуда папку "7plus" скопировать в папку "Mods".
 - содержимое папки "texts" переместить в соответствующие папки с перезаписью файлов:
-1. "...Data\Core\Languages\Russian\"
-2. "...Data\Royalty\Languages\Russian\"
+1. "...Data\Core\Languages\Russian (Русский)\"
+2. "...Data\Royalty\Languages\Russian (Русский)\"
 3. "...Mods\HumanoidAlienRaces\Languages\Russian" (эту папку сначала полностью очистить)
 4. "...Mods\kNumbers\Languages\Russian" (эту папку сначала полностью очистить)
 - не используйте авто-обновление русского языка от официального переводчика, пока мы не напишем скрипт!
@@ -24,8 +24,8 @@ How to install:
 - download the repository or "Download 7plus mod (latest).zip" file.
 - copy "7plus" folder into "Mods" folder.
 - all from "texts" move to proper folders, overwrite files:
-1. "...Data\Core\Languages\Russian\"
-2. "...Data\Royalty\Languages\Russian\"
+1. "...Data\Core\Languages\Russian (Русский)\"
+2. "...Data\Royalty\Languages\Russian (Русский)\"
 3. "...Mods\HumanoidAlienRaces\Languages\Russian" (this folder should be cleaned before updating)
 4. "...Mods\kNumbers\Languages\Russian" (this folder should be cleaned before updating)
 - do not use auto-script from official Russian translator's site! We're working on it.
