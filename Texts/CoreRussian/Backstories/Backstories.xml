@@ -2445,13 +2445,7 @@
 		<!-- EN: prodigy -->
 		<titleShort>вундеркинд</titleShort>
 		<!-- EN: Growing up on a flourishing glitterworld afforded [PAWN_nameDef] the chance to fully devote [PAWN_objective]self to [PAWN_possessive] studies.\n\nHaving taken a keen interest in genetic modification and neural augmentation from a young age, [PAWN_pronoun] had little time (or desire) for a regular childhood. -->
-		<desc>{PAWN_nameDef} растёт в процветающем утопическом мире, что позволяет {PAWN_objective} полностью посвятить себя учёбе.\n\nС раннего возраста {PAWN_pronoun} проявляет большой интерес к генетической модификации и нейроаугментации. У н{PAWN_possessive} не хватает времени (или желания) на то, что принято называть детством.
-		
-		{PAWN_nameDef} {PAWN_gender ? рос : росла} на одном из процветающих утопических миров, что позволяло {PAWN_objective} полностью посвятить себя учёбе.\n\nС детских лет {PAWN_pronoun} {PAWN_gender ? проявлял : проявляла} большой интерес к генетической модификации и нейроаугментации. У н{PAWN_possessive} не хватало времени (или желания) на то, что принято называть детством.
-		
-		{PAWN_nameDef} {PAWN_gender ? рос : росла} в процветающем утопическом мире, что позволяло {PAWN_objective} полностью посвятить себя учёбе.\n\nС раннего возраста {PAWN_pronoun} {PAWN_gender ? проявлял : проявляла} большой интерес к генетической модификации и нейроаугментации. У н{PAWN_possessive} не хватало времени (или желания) на то, что принято называть детством.
-		
-		</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} на одном из процветающих утопических миров, что позволяло {PAWN_objective} полностью посвятить себя учёбе.\n\nС детских лет {PAWN_pronoun} {PAWN_gender ? проявлял : проявляла} большой интерес к генетической модификации и нейроаугментации. {PAWN_nameDef} не {PAWN_gender ? имел : имела} времени (или желания) на то, что принято называть детством.</desc>
 	</ReclusiveProdigy96>
 
 	<!-- Holly "Kit" Kettu, Female, Adulthood -->
