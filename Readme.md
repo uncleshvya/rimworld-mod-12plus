@@ -16,7 +16,7 @@ For English, scroll below.
 - не используйте авто-обновление русского языка от официального переводчика, пока мы не напишем скрипт!
 - если устанавливаете новую версию 7plus мода, для начала удалите старые версии из папки "Mods".
 - по желанию, из папки RimWorldUniverse возьмите адаптированный текстовый файл.
-- кто хочет расу котов, скопируйте папку "OrassanLite7plus" в папку модов.
+- кто хочет расу котов, скопируйте папку "OrassanLite7plus" в папку "Mods".
 
 Simple xml mod turns off the most hardcore aspects in order to allow 7+ aged children play Rimworld, without getting psychological trauma. Tested with game v.1.2.2753 rev.705 and official russian translation v.2021jan07.
 
