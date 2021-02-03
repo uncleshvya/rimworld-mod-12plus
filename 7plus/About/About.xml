@@ -35,7 +35,7 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 Несовместим с модами "Psychology", "Rational Romance" и другими, меняющими отношения между полами.
 Пока несовместим с модами на другие расы, животных, кухонные верстаки. Но если будут желающие, мы добавим совместимость, пишите uncleshvya@yandex.ru Ответим как будет время.
 Несовместим с авто-обновлением русского языка от официального переводчика. Мы работаем над этим.
-Не используйте машинный перевод мода HumanoidAlienRaces от Тхакиро (Tagiro) или 冷たいコーヒー (Tsumetai Kohi), т.к. они противоречат концепции "7+". В нашем моде уже интегрирован перевод на HumanoidAlienRaces.
+Не используйте машинный перевод мода HumanoidAlienRaces от Тхакиро (Tagiro) или 冷たいコーヒー (Tsumetai Kohi), т.к. они противоречат концепции "7+". В нашем моде уже интегрирован необходимый перевод для HumanoidAlienRaces.
 Если используете машинный перевод мода kNumbers со стима, замените на наш, т.к. стимовский противоречит концепции "7+".
 
 =====
@@ -48,7 +48,7 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 
 Новая игра:
 
-Желательна, но необязательна - в этом случае надо вручную удалить нежелательные трейты из файла changelog. В интернете куча видео-инструкций, поищите строку "Rimworld удалить trait". Только будьте внимательны, тщательно удалите из rws-файла все 6 нежелательных трейтов, и удалите все старые сохранения.
+Желательна, но необязательна - в этом случае надо вручную удалить нежелательные трейты из файла changelog. В интернете куча видео-инструкций, поищите строку "Rimworld удалить trait". Только будьте внимательны, тщательно удалите из .rws-файла все 6 нежелательных трейтов, и удалите все старые сохранения.
 
 =====
 
@@ -61,12 +61,12 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 
 Что нужно сделать в следующей версии:
 
-- улучшить совместимость с модом на кошек (dianawinters.OrassansLite), и перевести оный.
+- улучшить совместимость с модом на кошек dianawinters.OrassansLite, и перевести оный.
 - исправить красную ошибку.
 - исправить все тексты, даже те которые не должны появиться (на всякий случай). Ведётся поиск.
-- исправить предыстории из-за изменившихся правил перевода.
+- исправить предыстории из-за изменившихся правил перевода. Ведутся работы.
 - удалить возможность Affair, интрижки.
-- прикрутить перевод через патч, а не через перезапись файлов. Возможно, написать скрипт, аналогично как у официального переводчика, только отслеживающий несовпадение файлов перевода и наличие файла скриптов.
+- прикрутить перевод через патч, а не через перезапись файлов. Возможно, написать скрипт, аналогично как у официального переводчика, только отслеживающий несовпадение файлов перевода и наличие файла скрипта.
 
 =====
 
@@ -125,7 +125,7 @@ Ideas to realize in next version:
 - to update dianawinters.OrassansLite mod compatibility and translation.
 - to fix red error.
 - to correct all texts, even improbable, as a precaution. Searching...
-- to correct backstories according to new translation rules.
+- to correct backstories according to new translation rules. In process.
 - to eliminate Affair script.
 - to realize "Languages" folder via patching, without manually replacing. Or to modify auto-script from official Russian translator's site. And to add a watchdog script to eliminate an occasional translation mismatch and/or automation.
 	</description>
