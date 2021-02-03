@@ -11,8 +11,7 @@ For English, scroll below.
 - содержимое папки "texts" переместить в соответствующие папки с перезаписью файлов:
 1. "...Data\Core\Languages\Russian (Русский)\"
 2. "...Data\Royalty\Languages\Russian (Русский)\"
-3. "...Mods\HumanoidAlienRaces\Languages\Russian" (эту папку сначала полностью очистить)
-4. "...Mods\kNumbers\Languages\Russian" (эту папку сначала полностью очистить)
+3. "...Mods\kNumbers\Languages\Russian" (эту папку сначала полностью очистить)
 - не используйте авто-обновление русского языка от официального переводчика, пока мы не напишем скрипт!
 - если устанавливаете новую версию 7plus мода, для начала удалите старые версии из папки "Mods".
 - по желанию, из папки RimWorldUniverse возьмите адаптированный текстовый файл.
@@ -26,8 +25,7 @@ How to install:
 - all from "texts" move to proper folders, overwrite files:
 1. "...Data\Core\Languages\Russian (Русский)\"
 2. "...Data\Royalty\Languages\Russian (Русский)\"
-3. "...Mods\HumanoidAlienRaces\Languages\Russian" (this folder should be cleaned before updating)
-4. "...Mods\kNumbers\Languages\Russian" (this folder should be cleaned before updating)
+3. "...Mods\kNumbers\Languages\Russian" (this folder should be cleaned before updating)
 - do not use auto-script from official Russian translator's site! We're working on it.
 - before updating 7plus mod, delete old version.
 - if necessary, update txt file from RimWorldUniverse folder.
