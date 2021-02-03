@@ -56,13 +56,15 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 
 - Если часто переходить по ссылкам в информации о людях, иногда выходит красная ошибка. Не обращайте внимания, это особенность движка мода.
 - Если колонисты вдруг перестали сами есть, скачайте другую версию мода Alien Races.
+- Если играете за кошек, при старте игры выходит красная ошибка. Это из-за конфликта предысторий, игнорируйте.
 
 =====
 
 Что нужно сделать в следующей версии:
 
 - улучшить совместимость с модом на кошек dianawinters.OrassansLite, и перевести оный.
-- исправить красную ошибку.
+- исправить красную ошибку для 7+мода.
+- исправить красную ошибку для мода Orassan.
 - исправить все тексты, даже те которые не должны появиться (на всякий случай). Ведётся поиск.
 - исправить предыстории из-за изменившихся правил перевода. Ведутся работы.
 - удалить возможность Affair, интрижки.
@@ -118,12 +120,14 @@ Known errors:
 
 - If you open pawn's information panel, and click links too much, it may cause a red error. Just ignore, it's a rare bug.
 - If your pawns do not eat, just download another version of erdelf.HumanoidAlienRaces mod.
+- If you install Orassan mod, a red error appears after game starts. Just ignore, it's about backstories.
 
 =====
 
 Ideas to realize in next version:
 - to update dianawinters.OrassansLite mod compatibility and translation.
-- to fix red error.
+- to fix red error for UncleShvya.7plus.
+- to fix red error for dianawinters.OrassansLite7plus.
 - to correct all texts, even improbable, as a precaution. Searching...
 - to correct backstories according to new translation rules. In process.
 - to eliminate Affair script.
