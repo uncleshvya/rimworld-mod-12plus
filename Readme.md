@@ -6,7 +6,7 @@ For English, scroll below.
 
 Инструкция по установке: 
 
-- качаете репозиторий или файл "Download 7plus mod (latest).zip".
+- качаете репозиторий.
 - оттуда папку "7plus" скопировать в папку "Mods".
 - содержимое папки "texts" переместить в соответствующие папки с перезаписью файлов:
 1. "...Data\Core\Languages\Russian (Русский)\"
@@ -21,7 +21,7 @@ For English, scroll below.
 Simple xml mod turns off the most hardcore aspects in order to allow 7+ aged children play Rimworld, without getting psychological trauma. Tested with game v.1.2.2753 rev.705 and official russian translation v.2021jan07.
 
 How to install:
-- download the repository or "Download 7plus mod (latest).zip" file.
+- download the repository.
 - copy "7plus" folder into "Mods" folder.
 - all from "texts" move to proper folders, overwrite files:
 1. "...Data\Core\Languages\Russian (Русский)\"
