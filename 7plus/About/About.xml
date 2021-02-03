@@ -18,7 +18,7 @@
 
 Этот простой xml-мод отключает самые жёсткие аспекты, чтобы дети от 7 лет могли играть в Римворлд, не получая психологических травм. Подробности в файле changelog.
 
-Текущая версия 7plus мода: v0.3.1beta rev.2021.01.24.
+Текущая версия 7plus мода: v0.3.2beta rev.2021.02.03.
 
 =====
 
@@ -35,7 +35,7 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 Несовместим с модами "Psychology", "Rational Romance" и другими, меняющими отношения между полами.
 Пока несовместим с модами на другие расы, животных, кухонные верстаки. Но если будут желающие, мы добавим совместимость, пишите uncleshvya@yandex.ru Ответим как будет время.
 Несовместим с авто-обновлением русского языка от официального переводчика. Мы работаем над этим.
-Если используете машинный перевод мода HumanoidAlienRaces от Тхакиро (Tagiro) или 冷たいコーヒー (Tsumetai Kohi), замените на наш, т.к. они противоречат концепции "7+".
+Не используйте машинный перевод мода HumanoidAlienRaces от Тхакиро (Tagiro) или 冷たいコーヒー (Tsumetai Kohi), т.к. они противоречат концепции "7+". В нашем моде уже интегрирован перевод на HumanoidAlienRaces.
 Если используете машинный перевод мода kNumbers со стима, замените на наш, т.к. стимовский противоречит концепции "7+".
 
 =====
@@ -72,7 +72,7 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 
 7plus mod for Rimworld. Sorry for my English, i compiled this file for multilingual families.
 
-Dedicated to all parents playing Rimworld
+Dedicated to all parents playing Rimworld.
 
 =====
 
@@ -80,7 +80,7 @@ What The Mod Does:
 
 This simple xml mod turns off the most hardcore aspects in order to allow 7+ aged children play Rimworld, without getting psychological trauma. For details, see changelog file.
 
-Current 7plus mod version 0.3.1beta rev.2021.01.24.
+Current 7plus mod version 0.3.2beta rev.2021.02.03.
 
 =====
 
@@ -97,7 +97,7 @@ If you don't like the mod, just turn it off. Saves will be playable.
 Not compatible with "Psychology", "Rational Romance" or any other mods altering RimWorld's romance systems.
 For now, not compatible with mods for other races, animals, butchering tables and stoves. But we can do the compatibility, just mail to us mailto:uncleshvya@yandex.ru We'll answer as fast as possible.
 Not compatible with auto-script from official Russian translator's site. We're working on it.
-For erdelf.HumanoidAlienRaces mod, do not use google-translation from Тхакиро (Tagiro) or 冷たいコーヒー (Tsumetai Kohi). These translations are not compatible with 7plus concept.
+For erdelf.HumanoidAlienRaces mod, do not use google-translation from Тхакиро (Tagiro) or 冷たいコーヒー (Tsumetai Kohi). These translations are not compatible with 7plus concept. Our UncleShvya.7plus mod already containes the correct russian translation of erdelf.HumanoidAlienRaces mod.
 For Mehni.Numbers mod, do not use google-translation from Steam. It is not compatible with 7plus concept.
 
 =====
