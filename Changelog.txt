@@ -2,13 +2,15 @@ For English, scroll down.
 
 История изменений мода 7plus для Rimworld.
 
-2021-01-24 апдейт к официальному переводу от 2021-01-07. Скомпилирована версия 7+мода 0.3.1beta.
+2021-02-03 апдейт к обновлённому моду Humanoid Alien Races, заодно там пропатчена одна ошибка. Кому не лень, дайте знать разрабу. Скомпилирована версия 7+мода 0.3.2beta.
+
+2021-01-24 апдейт к официальному переводу от 2021-01-07.
 
 2020-10-31 добавлена совместимость с модом Mehni.Numbers и перевод оного. Идёт тестирование...
 
 2020-10-02 по срочному заданию игрока Roma, создан мод на расу котов, на основе dianawinters.OrassansLite, для 7+. Время поджимало, модифицировал сам код. Сделаю покрасивее, когда разберусь как патчить инопланетные расы.
 
-2020-09-29 исправлено большинство красных ошибок методом подключения мода Alien Raсes. Адаптирован русский перевод для оного, согласно концепции 7+.
+2020-09-29 исправлено большинство красных ошибок методом подключения мода Humanoid Alien Raсes. Адаптирован русский перевод для оного, согласно концепции 7+.
 
 2020-09-24 отключена возможность инцеста.
 
@@ -48,7 +50,9 @@ For English, scroll down.
 
 Changelog for Rimworld's 7plus modification.
 
-2021-jan-24 update to official Russian translation v.2021jan07. Mod v.0.3.1.beta compiled.
+2021-02-03 update to new version of erdelf.HumanoidAlienRaces mod. Additionally, one annoying mistake patched. Somebody, tell the developer... UncleShvya.7plus mod v.0.3.2.beta compiled.
+
+2021-jan-24 update to official Russian translation v.2021jan07.
 
 2020-oct-31 added compatibility with Mehni.Numbers mod and russian translation. Testing...
 
