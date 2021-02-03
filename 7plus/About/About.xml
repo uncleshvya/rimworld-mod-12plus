@@ -142,5 +142,9 @@ Ideas to realize in next version:
 		<li>erdelf.HumanoidAlienRaces</li>
 		<li>dianawinters.OrassansLite7plus</li>
 	</loadAfter>
-	<incompatibleWith />
+	<incompatibleWith>
+		<li>atsukohi.HumanoidAlienRacesRus</li>
+		<li>dianawinters.OrassansLite</li>
+		<li>dianawinters.Orassans</li>
+	</incompatibleWith>
 </ModMetaData>
