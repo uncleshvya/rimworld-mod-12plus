@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<AllowAllDesignator.description>Снимает метку запрещения с предметов на всей карте.
+Удерживать Ctrl чтобы снять запрещение также со зданий.
+Удерживать Shift чтобы снять запрещение также со скелетов и гниющих тел.</AllowAllDesignator.description>
+	<FinishOffDesignator.description>Быстро и безболезненно добить поверженных существ.
+Удерживать Shift чтобы включить поселенцев и союзников.</FinishOffDesignator.description>
+
+</LanguageData>
