@@ -18,7 +18,7 @@
 
 Этот простой xml-мод отключает самые жёсткие аспекты, чтобы дети от 7 лет могли играть в Римворлд, не получая психологических травм. Подробности в файле changelog.
 
-Текущая версия 7plus мода: v0.3.2beta rev.2021.02.03.
+Текущая версия 7plus мода: v0.3.3beta rev.2021.02.04.
 
 =====
 
@@ -40,12 +40,6 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 
 =====
 
-Порядок модов:
-
-Желательно располагать 7plus в конце списка.
-
-=====
-
 Новая игра:
 
 Желательна, но необязательна - в этом случае надо вручную удалить нежелательные трейты из файла changelog. В интернете куча видео-инструкций, поищите строку "Rimworld удалить trait". Только будьте внимательны, тщательно удалите из .rws-файла все 6 нежелательных трейтов, и удалите все старые сохранения.
@@ -56,7 +50,7 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 
 - Если часто переходить по ссылкам в информации о людях, иногда выходит красная ошибка. Не обращайте внимания, это особенность движка мода.
 - Если колонисты вдруг перестали сами есть, скачайте другую версию мода Alien Races.
-- Если играете за кошек, при старте игры выходит красная ошибка. Это из-за конфликта предысторий, игнорируйте.
+- Если играете за кошек, при старте игры выходит красная ошибка. Это из-за конфликта предысторий, не обращайте внимания.
 
 =====
 
@@ -82,7 +76,7 @@ What The Mod Does:
 
 This simple xml mod turns off the most hardcore aspects in order to allow 7+ aged children play Rimworld, without getting psychological trauma. For details, see changelog file.
 
-Current 7plus mod version 0.3.2beta rev.2021.02.03.
+Current 7plus mod version 0.3.3beta rev.2021.02.04.
 
 =====
 
@@ -101,12 +95,6 @@ For now, not compatible with mods for other races, animals, butchering tables an
 Not compatible with auto-script from official Russian translator's site. We're working on it.
 For erdelf.HumanoidAlienRaces mod, do not use google-translation from Тхакиро (Tagiro) or 冷たいコーヒー (Tsumetai Kohi). These translations are not compatible with 7plus concept. Our UncleShvya.7plus mod already containes the correct russian translation of erdelf.HumanoidAlienRaces mod.
 For Mehni.Numbers mod, do not use google-translation from Steam. It is not compatible with 7plus concept.
-
-=====
-
-Order:
-
-It's better to put 7plus mod to the end of list.
 
 =====
 
@@ -145,6 +133,7 @@ Ideas to realize in next version:
 		<li>Ludeon.RimWorld</li>
 		<li>erdelf.HumanoidAlienRaces</li>
 		<li>dianawinters.OrassansLite7plus</li>
+		<li>UnlimitedHugs.AllowTool</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>atsukohi.HumanoidAlienRacesRus</li>
