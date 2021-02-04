@@ -2,9 +2,9 @@ For English, scroll down.
 
 История изменений мода 7plus для Rimworld.
 
-2021-02-04 адаптирован перевод мода AllowTool согласно концепции 7+, заодно исправлены 3 его ошибки из отчёта о переводе и 8 неточностей.
+2021-02-04 адаптирован перевод мода AllowTool согласно концепции 7+, заодно исправлены 3 его ошибки из отчёта о переводе и 8 неточностей. Скомпилирована версия 7+мода 0.3.3beta.
 
-2021-02-03 апдейт к обновлённому моду Humanoid Alien Races, заодно там пропатчена одна ошибка. Кому не лень, дайте знать разрабу. Скомпилирована версия 7+мода 0.3.2beta.
+2021-02-03 апдейт к обновлённому моду Humanoid Alien Races, заодно там пропатчена одна ошибка. Кому не лень, дайте знать разрабу.
 
 2021-01-24 апдейт к официальному переводу от 2021-01-07.
 
@@ -52,9 +52,9 @@ For English, scroll down.
 
 Changelog for Rimworld's 7plus modification.
 
-2021-feb-04 adapted UnlimitedHugs.AllowTool mod russian translation according to 7+ concept. Also corrected its 3 errors from TranslationReport and 8 meaningful ones.
+2021-feb-04 adapted UnlimitedHugs.AllowTool mod russian translation according to 7+ concept. Also corrected its 3 errors from TranslationReport and 8 meaningful ones. UncleShvya.7plus mod v.0.3.3.beta compiled.
 
-2021-feb-03 update to new version of erdelf.HumanoidAlienRaces mod. Additionally, one annoying mistake patched. Somebody, tell the developer... UncleShvya.7plus mod v.0.3.2.beta compiled.
+2021-feb-03 update to new version of erdelf.HumanoidAlienRaces mod. Additionally, one annoying mistake patched. Somebody, tell the developer...
 
 2021-jan-24 update to official Russian translation v.2021jan07.
 
