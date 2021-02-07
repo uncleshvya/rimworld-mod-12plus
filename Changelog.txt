@@ -8,7 +8,7 @@ For English, scroll down.
 
 2021-02-04 добавлена совместимость с модом AllowTool, заодно исправлены его ошибки, см.комменты в коде. Скомпилирована версия 12+мода 0.3.3beta.
 
-2021-01-24 апдейт к официальному переводу от 2021-01-07.
+2021-01-24 апдейт к официальному переводу от 2021-01-07. Над следующим ведутся работы, но кто хочет перевод посвежее, в папке с модом лежит совместимый с концепцией "12+" более новый перевод, скачанный с официального сайта.
 
 2020-10-31 добавлена совместимость с модом Mehni.Numbers и перевод оного. Идёт тестирование...
 
@@ -60,7 +60,7 @@ Changelog for Rimworld's 12plus modification.
 
 2021-feb-04 added compatibility with UnlimitedHugs.AllowTool. Also corrected its errors, see code comments. UncleShvya.7plus mod v.0.3.3.beta compiled.
 
-2021-jan-24 update to official Russian translation v.2021jan07.
+2021-jan-24 update to official Russian translation v.2021jan07. We're working at next version. If you want a bit newer version, there is a 12+ compatible zipped translation in the mod folder. 
 
 2020-oct-31 added compatibility with Mehni.Numbers mod and russian translation. Testing...
 
