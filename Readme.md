@@ -1,12 +1,12 @@
-# rimworld-mod-7plus
+# rimworld-mod-12plus
 
 For English, scroll below.
 
-Простой xml-мод, отключает самые жёсткие аспекты, чтобы дети от 7 лет тоже могли играть в Rimworld, не получая психологических травм. Проверено на игре v.1.2.2753 rev.705, с официальным русским переводом от 07.01.2021.
+Простой xml-мод, отключает самые жёсткие аспекты, чтобы дети от 12 лет тоже могли играть в Rimworld, не получая психологических травм. Проверено на игре v.1.2.2753 rev.705, с официальным русским переводом от 07.01.2021.
 
 Инструкция по установке: 
 
-- скачать репозиторий.
+- скачать файл rimworld-mod-7plus-v0 3 3beta backup.zip.
 - оттуда папку "7plus" скопировать в папку "Mods".
 - содержимое папки "texts" переместить в соответствующие папки с перезаписью файлов:
 1. "...Data\Core\Languages\Russian (Русский)\"
@@ -16,6 +16,8 @@ For English, scroll below.
 - если устанавливаете новую версию 7plus мода, для начала удалите старые версии из папки "Mods".
 - по желанию, из папки RimWorldUniverse возьмите адаптированный текстовый файл.
 - кто хочет расу котов, скопируйте папку "OrassanLite7plus" в папку "Mods".
+
+Сейчас идут работы по апдейту до версии 0.4.0beta, поэтому пока репозиторий не работоспособен, качайте архив с версией 0.3.3beta.
 
 Simple xml mod turns off the most hardcore aspects in order to allow 7+ aged children play Rimworld, without getting psychological trauma. Tested with game v.1.2.2753 rev.705 and official russian translation v.2021jan07.
 
@@ -30,3 +32,5 @@ How to install:
 - before updating 7plus mod, delete old version.
 - if necessary, update txt file from RimWorldUniverse folder.
 - if you want cats' race, copy "OrassanLite7plus" folder into "Mods" folder.
+
+Mod is now updating to v0.4.0beta, so the repository is not for use. Just download the file "rimworld-mod-7plus-v0 3 3beta backup.zip".
