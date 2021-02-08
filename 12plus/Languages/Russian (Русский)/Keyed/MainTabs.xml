@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: Colonists killed -->
+  <ColonistsKilled>Поселенцев потеряно</ColonistsKilled>
+
+  <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
+  <QuestBetrayalOfferTip>{0} наградит вас за уничтожение всех членов фракции {1}.</QuestBetrayalOfferTip>
+
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправлена очень бесявая неточность, сообщите разработчику -->
+
+  <!-- EN: dirty cooking area -->
+  <FoodPoisonCause_FilthyKitchen>грязь на кухне или в столовой</FoodPoisonCause_FilthyKitchen>
+
+</LanguageData>
