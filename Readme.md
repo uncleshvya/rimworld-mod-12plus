@@ -6,31 +6,23 @@ For English, scroll below.
 
 Инструкция по установке: 
 
-- скачать файл rimworld-mod-7plus-v0 3 3beta backup.zip.
-- оттуда папку "7plus" скопировать в папку "Mods".
-- содержимое папки "texts" переместить в соответствующие папки с перезаписью файлов:
-1. "...Data\Core\Languages\Russian (Русский)\"
-2. "...Data\Royalty\Languages\Russian (Русский)\"
-3. "...Mods\kNumbers\Languages\Russian" (эту папку сначала полностью очистить)
-- не используйте авто-обновление русского языка от официального переводчика, пока мы не напишем скрипт!
-- если устанавливаете новую версию 7plus мода, для начала удалите старые версии из папки "Mods".
-- по желанию, из папки RimWorldUniverse возьмите адаптированный текстовый файл.
-- кто хочет расу котов, скопируйте папку "OrassanLite7plus" в папку "Mods".
+- скачать репозиторий.
+- оттуда папку "12plus" скопировать в папку "Mods".
+- играйте! Для точной настройки рекомендуется прочитать описание мода.
+- если устанавливаете новую версию 12plus мода, для начала удалите старые версии из папки "Mods".
+- по желанию, из папки RimWorldUniverse возьмите адаптированный текстовый файл c лором.
+- кто хочет расу котов, скопируйте папку "OrassanLite12plus" в папку "Mods".
 
-Сейчас идут работы по апдейту до версии 0.4.0beta, поэтому пока репозиторий не играбелен, качайте архив с версией 0.3.3beta.
+Мод обновился до версии 0.4.0beta. На случай новых глюков, сохранён архив с версией 0.3.3beta.
 
 Simple xml mod turns off the most hardcore aspects in order to allow 12+ aged children play Rimworld, without getting psychological trauma. Tested with game v.1.2.2753 rev.705 and official russian translation v.2021jan07.
 
 How to install:
 - download the repository.
-- copy "7plus" folder into "Mods" folder.
-- all from "texts" move to proper folders, overwrite files:
-1. "...Data\Core\Languages\Russian (Русский)\"
-2. "...Data\Royalty\Languages\Russian (Русский)\"
-3. "...Mods\kNumbers\Languages\Russian" (this folder should be cleaned before updating)
-- do not use auto-script from official Russian translator's site! We're working on it.
-- before updating 7plus mod, delete old version.
-- if necessary, update txt file from RimWorldUniverse folder.
-- if you want cats' race, copy "OrassanLite7plus" folder into "Mods" folder.
+- copy "12plus" folder into "Mods" folder.
+- enjoy! For best effiency read intructions from mod description.
+- before updating 12plus mod, delete old version.
+- if necessary, update lore file from RimWorldUniverse folder.
+- if you want cats' race, copy "OrassanLite12plus" folder into "Mods" folder.
 
-Mod is now updating to v0.4.0beta, so the repository is not for use. Just download the file "rimworld-mod-7plus-v0 3 3beta backup.zip".
+Mod was updated to v0.4.0beta. If you found critical error, use old version from "rimworld-mod-7plus-v0 3 3beta backup.zip".
