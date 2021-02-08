@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Orassans Lite 12plus</name>
+	<author>Diana(Kitty)</author>
+	<packageId>dianawinters.OrassansLite12plus</packageId>
+	<supportedVersions>
+		<li>1.2</li>
+	</supportedVersions>
+	<description>Lite version. Only Includes the race, cat lillies, berries, and catnip. Modified for 12plus mod. (UncleShvya: "Sorry guys, deadline is approaching!")</description>
+	<modDependencies>
+		<li>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Races 2.0</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>erdelf.HumanoidAlienRaces</li>
+	</loadAfter>
+</ModMetaData>
