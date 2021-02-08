@@ -19,7 +19,7 @@ For English, scroll below.
 
 Сейчас идут работы по апдейту до версии 0.4.0beta, поэтому пока репозиторий не играбелен, качайте архив с версией 0.3.3beta.
 
-Simple xml mod turns off the most hardcore aspects in order to allow 7+ aged children play Rimworld, without getting psychological trauma. Tested with game v.1.2.2753 rev.705 and official russian translation v.2021jan07.
+Simple xml mod turns off the most hardcore aspects in order to allow 12+ aged children play Rimworld, without getting psychological trauma. Tested with game v.1.2.2753 rev.705 and official russian translation v.2021jan07.
 
 How to install:
 - download the repository.
