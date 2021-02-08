@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-
-	<!-- EN <kNumbersOverviewTab.label>Numbers</kNumbersOverviewTab.label> -->
-	<kNumbersOverviewTab.label>Таблицы</kNumbersOverviewTab.label>
-	<!-- EN <kNumbersOverviewTab.description>See every possible stat on every colonist or prisoner in a single table.</kNumbersOverviewTab.description> -->
-	<kNumbersOverviewTab.description>Вкладка добавлена модом Numbers. Это настраиваемые таблицы со статами для поселенцев, пленников и других людей или существ. Нажмите кнопки «Поселенцы», «Характеристики» и другие. Дополнительно смотрите в меню настройки модификаций.</kNumbersOverviewTab.description>
-
-</LanguageData>
