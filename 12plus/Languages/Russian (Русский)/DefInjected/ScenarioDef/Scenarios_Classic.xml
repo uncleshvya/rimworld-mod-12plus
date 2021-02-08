@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: The gods were very angry. The blood machines came at night. They swept through your village, cutting and burning your people with their blades and devil-fire.\n\nOnly a few of you escaped.\n\nNow, after a harrowing journey, with no friends to turn to, you must build a new home in the wilderness - like your ancestors did. -->
+  <LostTribe.scenario.parts.GameStartDialog.text>Боги были разгневаны. Кровавые машины пришли ночью. Они пронеслись по вашей деревне, сжигая всё и вся дьявольским огнём.\n\nУцелели лишь немногие, и обращаться за помощью не к кому.\n\nТеперь, после мучительного путешествия, вы должны, подобно своим предкам, построить новый дом в этой глуши.</LostTribe.scenario.parts.GameStartDialog.text>
+
+  <!-- EN: You went under anesthetic for a minor surgery. Now you've awoken in a drop pod crashing into a distant planet. You're naked, alone, and totally unprepared. Can you survive?\n\nWarning: There is nothing fair about this scenario - it is extremely difficult and death can happen for any reason. -->
+  <NakedBrutality.description>Последнее, что вы помните, — это как вас вводят в наркоз перед лёгкой операцией. А теперь вы просыпаетесь в капсуле, мчащейся к поверхности далёкой планеты, в одиночестве, без снаряжения и даже без одежды. Удастся ли вам выжить?\n\nВнимание: этот сценарий имеет крайне высокую сложность, вы можете проиграть по любой причине.</NakedBrutality.description>
+  <!-- EN: You went under anesthetic for a minor surgery. Now you've awoken in a drop pod crashing into a distant planet. You're naked, alone, and totally unprepared. Can you survive?\n\nWarning: There is nothing fair about this scenario - it is extremely difficult and death can happen for any reason. -->
+  <NakedBrutality.scenario.description>Последнее, что вы помните, — это как вас вводят в наркоз перед лёгкой операцией. А теперь вы просыпаетесь в капсуле, мчащейся к поверхности далёкой планеты, в одиночестве, без снаряжения и даже без одежды. Удастся ли вам выжить?\n\nВнимание: этот сценарий имеет крайне высокую сложность, вы можете проиграть по любой причине.</NakedBrutality.scenario.description>
+
+  <!-- EN: The neurosimulations, holo-games, and free-orgies were never enough for you. You wanted more - the grit and consequence of real life, like they talk about in the history books. You wanted to know what real challenge and consequence feel like.\n\nNow, after a journey of decades in cryptosleep, you're landing on this unknown rimworld. Real consequences await you. -->
+  <TheRichExplorer.scenario.parts.GameStartDialog.text>Нейросимуляторы, голографические игры и виртуальная реальность наскучили вам. Вы хотели большего — тягот и лишений настоящей жизни, о которой читали в книгах по истории. Вы хотели на своей шкуре прочувствовать настоящие суровые испытания.\n\nНаконец, после десятилетий в криптосне, вы приземляетесь на неизвестный окраинный мир. Суровые испытания ждут вас.</TheRichExplorer.scenario.parts.GameStartDialog.text>
+
+  <!-- исправлена неточность, сообщите разработчику -->
+
+  <!-- EN: One rich explorer out to experience the universe. Extra difficult. -->
+  <TheRichExplorer.scenario.summary>Богатый исследователь, путешествующий по Галактике. Очень сложный сценарий.</TheRichExplorer.scenario.summary>
+
+</LanguageData>

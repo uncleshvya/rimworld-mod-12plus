@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: Laborer died: {SUBJECT_definite} -->
+  <Permit_CallLaborers.LetterLabelLaborerDied.slateRef>Рабочий потерян: {SUBJECT_definite}</Permit_CallLaborers.LetterLabelLaborerDied.slateRef>
+  <!-- EN: A laborer sent to you by [permitFaction_name] has died. Your goodwill with [permitFaction_name] has fallen by [goodwillPenaltyPawn]. -->
+  <Permit_CallLaborers.LetterTextLaborerDied.slateRef>Рабочий, отправленный к вам фракцией [permitFaction_name], потерян. Ваша репутация у фракции [permitFaction_name] ухудшилась на [goodwillPenaltyPawn].</Permit_CallLaborers.LetterTextLaborerDied.slateRef>
+  
+</LanguageData>

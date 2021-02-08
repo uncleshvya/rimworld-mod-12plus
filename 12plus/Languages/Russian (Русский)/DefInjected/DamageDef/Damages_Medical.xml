@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: {0} has been executed by cutting. -->
+  <ExecutionCut.deathMessage>{0} {0_gender ? проиграл : проиграла} в результате казни.</ExecutionCut.deathMessage>
+
+  <!-- EN: {0} has died during surgery. -->
+  <SurgicalCut.deathMessage>{0} {0_gender ? проиграл : проиграла} из-за фатальной операции.</SurgicalCut.deathMessage>
+
+</LanguageData>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN:
+    <li>sent->[RECIPIENT_nameDef] rejected the advance.</li>
+    <li>sent->[RECIPIENT_nameDef] ignored the advance.</li>
+    <li>sent->[RECIPIENT_nameDef] turned [RECIPIENT_possessive] back.</li>
+    <li>sent->[RECIPIENT_nameDef] turned away.</li>
+    <li>sent->[RECIPIENT_nameDef] gave a minimal response.</li>
+    <li>sent->[RECIPIENT_nameDef] did not respond.</li>
+    <li>sent->[RECIPIENT_nameDef] turned [INITIATOR_objective] down.</li>
+  -->
+  <Sentence_RomanceAttemptRejected.rulePack.rulesStrings>
+    <li>sent->[RECIPIENT_nameDef] ругается в ответ на [INITIATOR_possessive] действия.</li>
+    <li>sent->[RECIPIENT_nameDef] игнорирует [INITIATOR_possessive] действия.</li>
+    <li>sent->[RECIPIENT_nameDef] смотрит на н[INITIATOR_possessive], как на пустое место.</li>
+    <li>sent->[RECIPIENT_nameDef] демонстративно поворачивается к н[INITIATOR_objective] спиной.</li>
+    <li>sent->[RECIPIENT_nameDef] не реагирует.</li>
+    <li>sent->[RECIPIENT_nameDef] не отвечает [INITIATOR_objective] взаимностью.</li>
+    <li>sent->[RECIPIENT_nameDef] отшивает [INITIATOR_possessive].</li>
+  </Sentence_RomanceAttemptRejected.rulePack.rulesStrings>
+
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: Build a brewery and fermenting vats to transform hops into tasty, tasty beer. -->
+  <Brewing.description>Сусло, полученное из хмеля на пивоварне и подвергнутое брожению в специальных бочках, при соблюдении температурных условий преобразуется в пиво.</Brewing.description>
+
+</LanguageData>

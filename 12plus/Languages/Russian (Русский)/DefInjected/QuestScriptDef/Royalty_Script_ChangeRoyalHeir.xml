@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: Title holder died: {SUBJECT_definite} -->
+  <ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>Владелец титула потерян: {SUBJECT_definite}</ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>
+  <!-- EN: {SUBJECT_definite}, whose heir was in the process of being changed, has died. -->
+  <ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>{SUBJECT_definite}, у {SUBJECT_gender ? которого : которой} менялся наследник, {SUBJECT_gender ? проиграл : проиграла}.</ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>
+  <!-- EN: Designated heir died: {SUBJECT_definite} -->
+  <ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>Назначенный наследник потерян: {SUBJECT_definite}</ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>
+  <!-- EN: {SUBJECT_definite}, who was supposed to become heir to a title, has died. -->
+  <ChangeRoyalHeir.LetterTextDesignatedHeirDied.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? который : которая} {SUBJECT_gender ? должен : должна} {SUBJECT_gender ? был : была} стать {SUBJECT_gender ? наследником : наследницей}, {SUBJECT_gender ? проиграл : проиграла}.</ChangeRoyalHeir.LetterTextDesignatedHeirDied.slateRef>
+  
+</LanguageData>
