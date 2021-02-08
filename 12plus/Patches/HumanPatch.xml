@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "Human"]/statBases/LeatherAmount</xpath>
+				<value>
+					<LeatherAmount>0</LeatherAmount>
+					<MeatAmount>0</MeatAmount>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Human"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings</xpath>
+				<value>
+					<disallowedTraits>
+						<li> <defName>Asexual</defName> </li>
+						<li> <defName>Bisexual</defName> </li>
+						<li> <defName>Cannibal</defName> </li>
+						<li> <defName>Gay</defName> </li>
+						<li> <defName>Masochist</defName> </li>
+						<li> <defName>Pyromaniac</defName> </li>
+					</disallowedTraits>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Human"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
+				<value>
+					<li>ButcheredHumanlikeCorpse</li>
+					<li>KilledHumanlikeBloodlust</li>
+					<li>KnowButcheredHumanlikeCorpse</li>
+					<li>WitnessedDeathBloodlust</li>
+					<li>MasochistPain</li>
+					<li>PyromaniacHappy</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>
