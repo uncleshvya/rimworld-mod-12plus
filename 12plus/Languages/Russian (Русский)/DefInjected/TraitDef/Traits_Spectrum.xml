@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: [PAWN_nameDef] has a naturally powerful immune system. [PAWN_pronoun] will gain immunity much faster than a normal person would, and can survive illnesses that would kill others. -->
+  <Immunity.degreeDatas.superimmune.description>{PAWN_nameDef} от природы обладает стойкой иммунной системой. Скорость, с которой у н{PAWN_possessive} вырабатывается иммунитет к различным возбудителям, гораздо выше, чем у остальных. {PAWN_pronoun} справится с болезнью, которая обычного человека может запросто свалить с ног.</Immunity.degreeDatas.superimmune.description>
+
+</LanguageData>

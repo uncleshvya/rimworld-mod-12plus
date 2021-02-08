@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: An ancient design of shotgun that emits a tight-packed spray of pellets. Deadly, but short range. -->
+  <Gun_PumpShotgun.description>Помповый дробовик. Опасен на малых дистанциях.</Gun_PumpShotgun.description>
+
+</LanguageData>

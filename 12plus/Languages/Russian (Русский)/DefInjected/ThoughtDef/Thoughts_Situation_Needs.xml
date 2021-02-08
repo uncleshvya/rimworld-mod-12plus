@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: I can barely think about anything but food. My skin is stretching over my bones. Am I going to die? -->
+  <NeedFood.stages.starving.description>Я не могу думать ни о чем, кроме еды. Сквозь кожу уже кости видны.</NeedFood.stages.starving.description>
+
+</LanguageData>

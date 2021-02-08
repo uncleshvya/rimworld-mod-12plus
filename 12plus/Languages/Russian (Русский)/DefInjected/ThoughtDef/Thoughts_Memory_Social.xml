@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: had to rebuff {0} -->
+  <FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.label>пришлось послать {0}</FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.label>
+  <!-- EN: Someone I don't like tried to romance me. -->
+  <FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.description>Ко мне приставал кто-то, кто мне не нравится.</FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.description>
+
+  <!-- EN: killed my bonded animal -->
+  <KilledMyBondedAnimal.stages.killed_my_bonded_animal.label>{1_gender ? обидел : обидела} любимого питомца</KilledMyBondedAnimal.stages.killed_my_bonded_animal.label>
+
+  <!-- EN: killed my brother -->
+  <KilledMyBrother.stages.killed_my_brother.label>{1_gender ? обидел : обидела} моего брата</KilledMyBrother.stages.killed_my_brother.label>
+
+  <!-- EN: killed my daughter -->
+  <KilledMyDaughter.stages.killed_my_daughter.label>{1_gender ? обидел : обидела} мою дочь</KilledMyDaughter.stages.killed_my_daughter.label>
+
+  <!-- EN: killed my father -->
+  <KilledMyFather.stages.killed_my_father.label>{1_gender ? обидел : обидела} моего отца</KilledMyFather.stages.killed_my_father.label>
+
+  <!-- EN: killed my fiance -->
+  <KilledMyFiance.stages.killed_my_fiance.label>{1_gender ? обидел : обидела} мою невесту</KilledMyFiance.stages.killed_my_fiance.label>
+
+  <!-- EN: killed my friend -->
+  <KilledMyFriend.stages.killed_my_friend.label>{1_gender ? обидел : обидела} моего друга</KilledMyFriend.stages.killed_my_friend.label>
+
+  <!-- EN: killed my kin -->
+  <KilledMyKin.stages.killed_my_kin.label>{1_gender ? обидел : обидела} моего родственника</KilledMyKin.stages.killed_my_kin.label>
+
+  <!-- EN: killed my lover -->
+  <KilledMyLover.stages.killed_my_lover.label>{1_gender ? обидел : обидела} любимого человека</KilledMyLover.stages.killed_my_lover.label>
+
+  <!-- EN: killed my mother -->
+  <KilledMyMother.stages.killed_my_mother.label>{1_gender ? обидел : обидела} мою мать</KilledMyMother.stages.killed_my_mother.label>
+
+  <!-- EN: killed my rival -->
+  <KilledMyRival.stages.killed_my_rival.label>{1_gender ? обидел : обидела} моего соперника</KilledMyRival.stages.killed_my_rival.label>
+
+  <!-- EN: killed my sister -->
+  <KilledMySister.stages.killed_my_sister.label>{1_gender ? обидел : обидела} мою сестру</KilledMySister.stages.killed_my_sister.label>
+
+  <!-- EN: killed my son -->
+  <KilledMySon.stages.killed_my_son.label>{1_gender ? обидел : обидела} моего сына</KilledMySon.stages.killed_my_son.label>
+
+  <!-- EN: killed my spouse -->
+  <KilledMySpouse.stages.killed_my_spouse.label>{1_gender ? обидел : обидела} моего жениха</KilledMySpouse.stages.killed_my_spouse.label>
+
+  <!-- EN: rebuffed me -->
+  <RebuffedMyRomanceAttempt.stages.rebuffed_me.label>{1_gender ? обругал : обругала} меня</RebuffedMyRomanceAttempt.stages.rebuffed_me.label>
+
+  <!-- EN: I attempted to create a romance, but I got the cold shoulder. Feels bad man. -->
+  <RebuffedMyRomanceAttemptMood.stages.rebuffed_by.description>Моё предложение дружить было отвергнуто. Грустное чувство.</RebuffedMyRomanceAttemptMood.stages.rebuffed_by.description>
+
+</LanguageData>

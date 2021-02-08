@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
+  <ComfyTemperatureMax.description>Если температура поднимется выше этого значения, существо будет испытывать дискомфорт.\n\nЕсли значительно выше, то оно получит тепловой удар, из-за которого впоследствии может быть потеряно.</ComfyTemperatureMax.description>
+
+  <!-- исправлена неточность, сообщите разработчику -->
+
+  <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
+  <ComfyTemperatureMin.description>Если температура опустится ниже этого значения, существо будет испытывать дискомфорт. Если значительно ниже, то оно получит гипотермию и обморожение, от которых впоследствии может быть потеряно.</ComfyTemperatureMin.description>
+
+  <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
+  <ImmunityGainSpeed.description>Скорость, с которой существо вырабатывает иммунитет к болезням.\n\nЕсли это значение слишком низко, вы потеряете существо из-за болезни раньше, чем оно выработает к ней иммунитет.</ImmunityGainSpeed.description>
+
+  <!-- EN: leather amount -->
+  <LeatherAmount.label>количество шкуры</LeatherAmount.label>
+  <!-- EN: The amount of leather yielded when butchering this creature. -->
+  <LeatherAmount.description>Получаемое количество шкуры в случае забоя животного.</LeatherAmount.description>
+
+  <!-- EN: meat amount -->
+  <MeatAmount.label>источник органического ресурса</MeatAmount.label>
+  <!-- EN: The amount of meat yielded when butchering this creature. -->
+  <MeatAmount.description>Получаемое количество органических ресурсов с существа.</MeatAmount.description>
+
+</LanguageData>

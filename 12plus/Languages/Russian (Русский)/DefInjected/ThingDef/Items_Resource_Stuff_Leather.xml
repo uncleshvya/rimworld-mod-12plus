@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: The strong furry leather of a bear. Compared to most leather, it is quite a bit tougher and a bit better at all kinds of temperature regulation. -->
+  <Leather_Bear.description>Крепкая медвежья шкура с длинным мехом. В сравнении с другими видами шкур, несколько крепче и лучше подходит для любого климата.</Leather_Bear.description>
+  <Leather_Bear.stuffProps.stuffAdjective>медвежьей шкуры</Leather_Bear.stuffProps.stuffAdjective>
+
+  <!-- EN: Tanned, dried, scraped skin. A good traditional material for making clothes and bags. -->
+  <Leather_Dog.description>Дублёная, высушенная, очищенная шкура собаки. Хороший материал для изготовления одежды и сумок.</Leather_Dog.description>
+
+  <!-- EN: human leather -->
+  <Leather_Human.label>человеческие волосы</Leather_Human.label>
+  <!-- EN: Tanned, dried, scraped human skin. Most people find this material horrifying. Some find it fascinating. While a decent leather, it neither protects nor insulates particularly well. -->
+  <Leather_Human.description>Колонисты просто так не отдают свои волосы. Но изредка особо хитрый бомж, имеющий доступ к мусору из парикмахерской, может их добыть и свалять в некое подобие полотна. Мало кому понравится такой материал.</Leather_Human.description>
+  <Leather_Human.stuffProps.stuffAdjective>волосяного мусора</Leather_Human.stuffProps.stuffAdjective>
+
+  <!-- EN: patchleather -->
+  <Leather_Patch.label>лоскутное полотно</Leather_Patch.label>
+  <!-- EN: A weak textile created by cutting up and sewing together various types of leathers. Regardless of what kind of leather is used to create it, patchleather's irregular seams make it less tough and less insulating than any intact leather. -->
+  <Leather_Patch.description>Слабый материал, представляющий собой сшитые лоскуты из шкур разных видов. Вне зависимости от свойств исходных шкур, этот материал менее прочен и хуже защищает от непогоды, чем любая цельная шкура.</Leather_Patch.description>
+  <Leather_Patch.stuffProps.stuffAdjective>лоскутного полотна</Leather_Patch.stuffProps.stuffAdjective>
+
+  <!-- исправлена неточность, сообщите разработчику -->
+
+  <!-- EN: plainleather -->
+  <Leather_Plain.label>крепкая кожа</Leather_Plain.label>
+  <!-- EN: Tanned, dried, scraped skin. A good traditional material for making clothes and bags. -->
+  <Leather_Plain.description>Дублёная, высушенная, очищенная крепкая кожа. Хороший материал для изготовления одежды и сумок.</Leather_Plain.description>
+  <Leather_Plain.stuffProps.stuffAdjective>крепкой кожи</Leather_Plain.stuffProps.stuffAdjective>
+
+</LanguageData>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: The amount of meat produced when butchering flesh creatures.\n\nThe actual amount is also related to the creature's size. -->
+  <ButcheryFleshEfficiency.description>Множитель количества мяса, получаемого при разделке туш животных.\n\nФактическое количество мяса зависит также от размеров животного.</ButcheryFleshEfficiency.description>
+
+  <!-- EN: The speed at which this person butchers flesh creatures. -->
+  <ButcheryFleshSpeed.description>Скорость, с которой персонаж разделывает туши животных.</ButcheryFleshSpeed.description>
+
+  <!-- исправлена неточность, сообщите разработчику -->
+
+  <!-- EN: The amount of materials yielded when this person shreds a dead mechanoid for resources.\n\nThe actual amount is also related to the mechanoid's size. -->
+  <ButcheryMechanoidEfficiency.description>Множитель количества материалов, получаемых персонажем при переработке сломанного механоида.\n\nРезультат также зависит от размера механоида.</ButcheryMechanoidEfficiency.description>
+
+</LanguageData>

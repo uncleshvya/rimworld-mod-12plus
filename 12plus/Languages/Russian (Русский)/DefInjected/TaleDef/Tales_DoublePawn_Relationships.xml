@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN:
+    <li>tale_noun->[PURSUER_nameDef] and [ACCEPTER_nameDef] becoming lovers</li>
+    <li>image->[PURSUER_nameFull] whispering sweet nothings into [ACCEPTER_nameFull]'s ear [circumstance_group]</li>
+    <li>image->[PURSUER_nameFull] leading [ACCEPTER_nameFull] by the hand into bed [circumstance_group]</li>
+    <li>image->[PURSUER_nameFull] gambolling in bed with [ACCEPTER_nameFull] [circumstance_group]</li>
+    <li>image->[PURSUER_nameFull] deeply kissing [ACCEPTER_nameFull] [circumstance_group]</li>
+    <li>circumstance_phrase->in an unrealistically large bed</li>
+    <li>circumstance_phrase->between the sheets</li>
+    <li>circumstance_phrase->with few clothes in sight</li>
+    <li>circumstance_phrase->while both are drenched in sweat</li>
+    <li>desc_sentence->[PURSUER_nameDef] is snuggling up against [ACCEPTER_nameDef].</li>
+    <li>desc_sentence->[PURSUER_nameDef] is locking eyes with [ACCEPTER_nameDef].</li>
+    <li>desc_sentence->[PURSUER_nameDef] is blowing air at [ACCEPTER_nameDef].</li>
+    <li>desc_sentence->[PURSUER_nameDef] is stylistically bonded with [ACCEPTER_nameDef].</li>
+    <li>desc_sentence->[PURSUER_nameDef] is a near-mirror image of [ACCEPTER_nameDef].</li>
+    <li>desc_sentence->[PURSUER_nameDef] is touching [ACCEPTER_nameDef] aggressively.</li>
+  -->
+  <BecameLover.rulePack.rulesStrings>
+    <li>tale_noun->как [PURSUER_nameDef] и [ACCEPTER_nameDef] начали встречаться</li>
+    <li>image->, как [PURSUER_nameFull] шепчет сладкие пустяки в ухо [ACCEPTER_nameFull][circumstance_phrase]</li>
+    <li>image->, как [PURSUER_nameFull] ведёт [ACCEPTER_nameFull] за руку к кровати[circumstance_phrase]</li>
+    <li>image->, как [PURSUER_nameFull] резвится в кровати с [ACCEPTER_nameFull][circumstance_phrase]</li>
+    <li>image->, как [PURSUER_nameFull] горячо целует [ACCEPTER_nameFull][circumstance_phrase]</li>
+    <li>circumstance_phrase->[empty] на неправдоподобно большой кровати</li>
+    <li>circumstance_phrase->[empty] между одеял</li>
+    <li>circumstance_phrase->[empty] практически без одежды</li>
+    <li>circumstance_phrase->, оба покрыты потом</li>
+    <li>desc_sentence->[PURSUER_nameDef] прижимается к [ACCEPTER_nameDef].</li>
+    <li>desc_sentence->[PURSUER_nameDef] не отрываясь глядит на [ACCEPTER_nameDef].</li>
+    <li>desc_sentence->[PURSUER_nameDef] посылает воздушный поцелуй [ACCEPTER_nameDef].</li>
+    <li>desc_sentence->[PURSUER_nameDef] стилистически изображается неотрывно от [ACCEPTER_nameDef].</li>
+    <li>desc_sentence->[PURSUER_nameDef] словно зеркальное отражение [ACCEPTER_nameDef].</li>
+    <li>desc_sentence->[PURSUER_nameDef] настойчиво прикасается к [ACCEPTER_nameDef].</li>
+  </BecameLover.rulePack.rulesStrings>
+
+  <!-- EN:
+    <li>tale_noun->[HUMAN_nameDef]'s bonding with [ANIMAL_nameDef]</li>
+    <li>image->[HUMAN_nameFull] bonding with [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] forming a deep bond with [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] realizing [HUMAN_possessive] truly loves [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>circumstance_phrase->while other animals look on</li>
+    <li>circumstance_phrase->while looking into [ANIMAL_nameDef]'s eyes</li>
+    <li>circumstance_phrase->with a sense of satisfaction</li>
+    <li>desc_sentence->[ANIMAL_nameDef] is snuggling up against [HUMAN_nameDef].</li>
+    <li>desc_sentence->[ANIMAL_nameDef] looks sleepy and drunk with love.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] stands tall and looks noble.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] is responding positively.</li>
+  -->
+  <BondedWithAnimal.rulePack.rulesStrings>
+    <li>tale_noun->как [ANIMAL_nameDef] привязался к [HUMAN_nameDef]</li>
+    <li>image->[ANIMAL_nameFull] и [HUMAN_nameDef], между которыми возникает привязанность[circumstance_phrase]</li>
+    <li>image->[HUMAN_nameFull] и [ANIMAL_nameFull], между которыми возникает глубокая привязанность[circumstance_phrase]</li>
+    <li>image->, как [HUMAN_nameFull] осознаёт, что [PAWN_pronoun] любит [ANIMAL_nameFull][circumstance_phrase]</li>
+    <li>circumstance_phrase->, пока другие животные смотрят на них</li>
+    <li>circumstance_phrase->. [HUMAN_nameDef] глядит глубоко в [ANIMAL_possessive] глаза</li>
+    <li>circumstance_phrase->. [HUMAN_nameDef] чувствует удовлетворение</li>
+    <li>desc_sentence->[ANIMAL_nameDef] прижимается к [HUMAN_nameDef].</li>
+    <li>desc_sentence->животное, [ANIMAL_nameDef], выглядит сонным и расслабленным от любви.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] не роняет достоинства и выглядит величественно.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] отвечает взаимной любовью.</li>
+  </BondedWithAnimal.rulePack.rulesStrings>
+
+</LanguageData>
