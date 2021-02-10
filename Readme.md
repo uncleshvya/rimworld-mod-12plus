@@ -13,7 +13,7 @@ For English, scroll below.
 - по желанию, из папки RimWorldUniverse возьмите адаптированный текстовый файл c лором.
 - кто хочет расу котов, скопируйте папку "OrassanLite12plus" в папку "Mods".
 
-Мод обновился до версии 0.4.0beta. На случай новых глюков, сохранён архив с версией 0.3.3beta.
+Мод обновился до версии 0.4.0beta, идёт тестирование. На случай новых глюков, сохранён архив с версией 0.3.3beta.
 
 Simple xml mod turns off the most hardcore aspects in order to allow 12+ aged children play Rimworld, without getting psychological trauma. Tested with game v.1.2.2753 rev.705 and official russian translation v.2021jan07.
 
@@ -25,4 +25,4 @@ How to install:
 - if necessary, update lore file from RimWorldUniverse folder.
 - if you want cats' race, copy "OrassanLite12plus" folder into "Mods" folder.
 
-Mod was updated to v0.4.0beta. If you found critical error, use old version from "rimworld-mod-7plus-v0 3 3beta backup.zip".
+Mod was updated to v0.4.0beta, now testing. If you'll find critical error, use old version from "rimworld-mod-7plus-v0 3 3beta backup.zip".
