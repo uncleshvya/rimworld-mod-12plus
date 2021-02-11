@@ -2,13 +2,13 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-02-08 начата миграция на версию 0.4.0beta. 
+2021-02-11 cкомпилирована версия 12+мода 0.4.0beta. 
 
 2021-02-07 тексты xml интегрированы, идёт тестирование скрипта разговоров по употреблению слов из txt файлов.
 
 2021-02-06 найден способ интегрировать основные тексты в тело мода с целью упростить инсталляцию и выложить в стим. Пока не удалось разделить переводы для 3х используемых модов, поэтому соответствующие файлы помечены текстом "Royalty_", "HumanoidAlienRaces_" и "AllowTool_" в именах файлов, для возможности поиска. Начата работа по полной переделке кода. Концепция "12+" адаптирована к международным стандартам.
 
-2021-02-04 добавлена совместимость с модом AllowTool, заодно исправлены его ошибки, см.комменты в коде. Скомпилирована версия 12+мода 0.3.3beta.
+2021-02-04 добавлена совместимость с модом AllowTool, заодно исправлены его ошибки, см.комменты в коде.
 
 2021-01-24 апдейт к официальному переводу от 2021-01-07. Над следующим ведутся работы, но кто хочет перевод посвежее, в папке с модом лежит совместимый с концепцией "12+" более новый перевод, скачанный с официального сайта.
 
@@ -56,13 +56,13 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-feb-08 migtration to v0.4.0 started.
+2021-feb-11 UncleShvya.7plus mod v.0.4.0beta compiled.
 
 2021-feb-07 xml texts integrated. Interaction script is testing, about words from txt files.
 
 2021-feb-06 found the way to integrate all text directly into the mod. It'll be easier to install via Steam or via copy-paste. There are some unsolved problems with architecture, so the files were marked with tags "Royalty_", "HumanoidAlienRaces_" and "AllowTool_" in files' names. Full remake work started. 12+ concept was adapted to international rules.
 
-2021-feb-04 added compatibility with UnlimitedHugs.AllowTool. Also corrected its errors, see code comments. UncleShvya.7plus mod v.0.3.3.beta compiled.
+2021-feb-04 added compatibility with UnlimitedHugs.AllowTool. Also corrected its errors, see code comments.
 
 2021-jan-24 update to official Russian translation v.2021jan07. We're working at next version. If you want a bit newer version, there is a 12+ compatible zipped translation in the mod folder. 
 
