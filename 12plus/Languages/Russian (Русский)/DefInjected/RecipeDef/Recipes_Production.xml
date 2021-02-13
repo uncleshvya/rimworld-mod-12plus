@@ -10,4 +10,11 @@
   <!-- EN: Making patchleather. -->
   <Make_Patchleather.jobString>Изготавливает лоскутное полотно</Make_Patchleather.jobString>
 
+  <!-- исправлена неточность, сообщите разработчику -->
+
+  <!-- Оригинал: переплавить броню -->
+  <SmeltApparel.label>переплавить металл с одежды</SmeltApparel.label>
+  <!-- Оригинал: Переплавляет одежду -->
+  <SmeltApparel.jobString>Переплавляет металл с одежды</SmeltApparel.jobString>
+
 </LanguageData>
