@@ -9,4 +9,9 @@
   <!-- EN: Strip apparel from corpses and the wounded. -->
   <DesignatorStripDesc>Снять одежду с тел или с раненых людей</DesignatorStripDesc>
 
+  <!-- исправлена неточность, сообщите разработчику -->
+
+  <!-- Оригинал: Поселенцы уберут любые существующие здесь крыши. Толстую горную породу, находящуюся над данной областью, убрать нельзя. -->
+  <DesignatorAreaNoRoofExpandDesc>Поселенцы уберут любые существующие здесь крыши. Толщу горной породы, находящуюся над данной областью, убрать нельзя.</DesignatorAreaNoRoofExpandDesc>
+
 </LanguageData>
