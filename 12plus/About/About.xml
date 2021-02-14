@@ -116,13 +116,14 @@ Known errors:
 =====
 
 Ideas to realize in next version:
-- to update dianawinters.OrassansLite mod compatibility and translation.
-- to fix red error for UncleShvya.12plus.
-- to fix red error for dianawinters.OrassansLite12plus.
-- to correct all texts, even improbable, as a precaution. Searching...
-- to correct backstories according to new translation rules. In process.
-- to eliminate Affair script.
-- to realize "Languages" folder via patching, without manually replacing. Or to modify auto-script from official Russian translator's site. And to add a watchdog script to eliminate an occasional translation mismatch and/or automation.
+- to update dianawinters.OrassansLite mod compatibility and translation;
+- to fix red error for UncleShvya.12plus;
+- to fix red error for dianawinters.OrassansLite12plus;
+- to correct all texts, even improbable, as a precaution. Testing;
+- to correct backstories according to new translation rules. In process;
+- to eliminate Affair script;
+- to realize "Languages" folder via patching, without manually replacing. Or to modify auto-script from official Russian translator's site. And to add a watchdog script to eliminate an occasional translation mismatch and/or automation;
+- to categorize files by mod names;
 - to adapt storyteller.
 	</description>
 	<modDependencies>
