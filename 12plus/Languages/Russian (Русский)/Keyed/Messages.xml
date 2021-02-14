@@ -37,12 +37,6 @@
   <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
   <MessageSlaughteringBondedAnimal>Если вы потеряете {DESIGNATED_labelShort}, {BONDED_labelShort} расстроится из-за своей привязанности к этому животному.</MessageSlaughteringBondedAnimal>
 
-
-  <!-- исправлена неточность, сообщите разработчику -->
-
-  <!-- Оригинал глючащий: Невозможно изгнать {PAWN_labelShort}, так как {PAWN_pronoun} не может ходить. -->
-  <MessageCantBanishDownedPawn>Невозможно изгнать {1_labelShort}, так как {1_pronoun} не может ходить.</MessageCantBanishDownedPawn>
-
   <!-- EN: Warning: {0} cannot live when exposed to light. -->
   <MessageWarningCavePlantsExposedToLight>Внимание: {0} увядает на свету.</MessageWarningCavePlantsExposedToLight>
 
@@ -53,5 +47,13 @@
   <GoodwillChangeReason_CiviliansLost>потеряны гражданские</GoodwillChangeReason_CiviliansLost>
   <!-- EN: commander lost -->
   <GoodwillChangeReason_CommanderLost>потерян командир</GoodwillChangeReason_CommanderLost>
+
+  <!-- исправлена неточность, сообщите разработчику -->
+
+  <!-- Оригинал глючащий: Невозможно изгнать {PAWN_labelShort}, так как {PAWN_pronoun} не может ходить. -->
+  <MessageCantBanishDownedPawn>Невозможно изгнать {1_labelShort}, так как {1_pronoun} не может ходить.</MessageCantBanishDownedPawn>
+
+  <!-- Оригинал: Потолок в виде толстой горной породы удалить невозможно. -->
+  <MessageNothingCanRemoveThickRoofs>Толщу горной породы удалить невозможно.</MessageNothingCanRemoveThickRoofs>
 
 </LanguageData>
