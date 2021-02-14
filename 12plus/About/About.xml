@@ -19,7 +19,7 @@
 
 Этот простой xml-мод отключает самые жёсткие аспекты, чтобы дети от 12 лет могли играть в Римворлд, не получая психологических травм. Подробности в файле changelog.
 
-Текущая версия 12plus мода: v0.4.0beta rev.2021.02.13.
+Текущая версия 12plus мода: v0.4.1beta rev.2021.02.15.
 
 =====
 
@@ -79,7 +79,7 @@ What The Mod Does:
 
 This simple xml mod turns off the most hardcore aspects in order to allow 12+ aged children play Rimworld, without getting psychological trauma. For details, see changelog file.
 
-Current 12plus mod version 0.4.0beta rev.2021.02.13.
+Current 12plus mod version 0.4.1beta rev.2021.02.15.
 
 =====
 
@@ -141,6 +141,7 @@ Ideas to realize in next version:
 		<li>erdelf.HumanoidAlienRaces</li>
 		<li>dianawinters.OrassansLite12plus</li>
 		<li>UnlimitedHugs.AllowTool</li>
+		<li>Haplo.Miscellaneous.BeesNHoney</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>atsukohi.HumanoidAlienRacesRus</li>
