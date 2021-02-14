@@ -2,11 +2,11 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-02-11 cкомпилирована версия 12+мода 0.4.0beta. 
+2021-02-15 добавлена совместимость с модом Misc BeesNhoney от Haplo, заодно исправлены его ошибки, см.комменты в коде. Удалена излишняя реклама алкоголизма. Скомпилирована версия 12+мода 0.4.1beta. 
 
 2021-02-07 тексты xml интегрированы, идёт тестирование скрипта разговоров по употреблению слов из txt файлов.
 
-2021-02-06 найден способ интегрировать основные тексты в тело мода с целью упростить инсталляцию и выложить в стим. Пока не удалось разделить переводы для 3х используемых модов, поэтому соответствующие файлы помечены текстом "Royalty_", "HumanoidAlienRaces_", "BeesNhoney_" и "AllowTool_" в именах файлов, для возможности поиска. Начата работа по полной переделке кода. Концепция "12+" адаптирована к международным стандартам.
+2021-02-06 найден способ интегрировать основные тексты в тело мода с целью упростить инсталляцию и выложить в стим. Пока не удалось разделить переводы для 4х используемых модов, поэтому соответствующие файлы помечены текстом "Royalty_", "HumanoidAlienRaces_", "BeesNhoney_" и "AllowTool_" в именах файлов, для возможности поиска. Концепция "12+" адаптирована к международным стандартам.
 
 2021-02-04 добавлена совместимость с модом AllowTool, заодно исправлены его ошибки, см.комменты в коде.
 
@@ -56,11 +56,11 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-feb-11 UncleShvya.7plus mod v.0.4.0beta compiled.
+2021-feb-15 added compatibility with Haplo.Miscellaneous.BeesNHoney. Also corrected its errors, see code comments. Removed ads about alcoholism. UncleShvya.12plus mod v.0.4.1beta compiled.
 
 2021-feb-07 xml texts integrated. Interaction script is testing, about words from txt files.
 
-2021-feb-06 found the way to integrate all text directly into the mod. It'll be easier to install via Steam or via copy-paste. There are some unsolved problems with architecture, so the files were marked with tags "Royalty_", "HumanoidAlienRaces_", "BeesNhoney_" and "AllowTool_" in files' names. Full remake work started. 12+ concept was adapted to international rules.
+2021-feb-06 found the way to integrate all text directly into the mod. It'll be easier to install via Steam or via copy-paste. There are some unsolved problems with cataloging, so the files were marked with tags "Royalty_", "HumanoidAlienRaces_", "BeesNhoney_" and "AllowTool_" in files' names. "12+" concept was adapted to international rules.
 
 2021-feb-04 added compatibility with UnlimitedHugs.AllowTool. Also corrected its errors, see code comments.
 
@@ -90,11 +90,11 @@ Changelog for Rimworld's 12plus modification.
 
 2019-nov-20 red blood reсolored into semi-transparent one.
 
-2019-nov-18 texts, orienting children to sociopathy, suicide or murder, replaced with neutral ones.
+2019-nov-18 replaced texts, orienting children to sociopathy, suicide or murder, with neutral ones.
 
 2019-nov-16 human flesh and human skin removed. Humanlikes' butchery removed.
 
-2019-nov-15 texts with advertisment about sexuality, porno and cannibalism replaced with neutral ones.
+2019-nov-15 texts with ad about sexuality, porno and cannibalism replaced with neutral ones.
 
 2019-nov-14 description picture added. Thanks to the photographer milatiger. 
 
