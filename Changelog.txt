@@ -2,7 +2,9 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-02-16 добавлена совместимость с модом Misc BeesNhoney от Haplo, заодно исправлены его ошибки, см.комменты в коде. Удалена излишняя реклама алкоголизма. Скомпилирована версия 12+мода 0.4.1beta. 
+2021-02-16 начата работа по адаптации мода Misc MiscTraining от Haplo - необходимо увеличить мишени вдвое, чтобы не было иллюзии избиения детей.
+
+2021-02-15 добавлена совместимость с модом Misc BeesNhoney от Haplo, заодно исправлены его ошибки, см.комменты в коде. Удалена излишняя реклама алкоголизма. Скомпилирована версия 12+мода 0.4.1beta. 
 
 2021-02-07 тексты xml интегрированы, идёт тестирование скрипта разговоров по употреблению слов из txt файлов.
 
@@ -56,7 +58,9 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-feb-16 added compatibility with Haplo.Miscellaneous.BeesNHoney. Also corrected its errors, see code comments. Removed superfluous ads about alcoholism. UncleShvya.12plus mod v.0.4.1beta compiled.
+2021-feb-16 UncleShvya.MiscTrainingRus mod adaptation began. The aim is to 2x enlarge targets. Looks like pawns are hitting children.
+
+2021-feb-15 added compatibility with Haplo.Miscellaneous.BeesNHoney. Also corrected its errors, see code comments. Removed superfluous ads about alcoholism. UncleShvya.12plus mod v.0.4.1beta compiled.
 
 2021-feb-07 xml texts integrated. Interaction script is testing, about words from txt files.
 
