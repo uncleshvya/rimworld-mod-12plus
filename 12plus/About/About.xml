@@ -65,6 +65,7 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 - удалить возможность Affair, интрижки;
 - прикрутить перевод через патч, а не через перезапись файлов. Возможно, написать скрипт, аналогично как у официального переводчика, только отслеживающий несовпадение файлов перевода и наличие файла скрипта;
 - категоризировать файлы по модам;
+- улучшить каменты в коде;
 - адаптировать рассказчика.
 
 =====
@@ -125,6 +126,7 @@ Ideas to realize in next version:
 - to eliminate Affair script;
 - to realize "Languages" folder via patching, without manually replacing. Or to modify auto-script from official Russian translator's site. And to add a watchdog script to eliminate an occasional translation mismatch and/or automation;
 - to categorize files by mod names;
+- to make code comments better;
 - to adapt storyteller.
 	</description>
 	<modDependencies>
