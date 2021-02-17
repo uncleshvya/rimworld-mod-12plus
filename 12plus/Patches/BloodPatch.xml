@@ -6,10 +6,8 @@
 
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
-		<xpath>Defs/ThingDef[defName = "Filth_Blood"]/graphicData/color</xpath>
-		<value>
-			<color>(130, 0, 0, 30)</color>
-		</value>
+		<xpath>Defs/ThingDef[defName = "Filth_Blood"]/graphicData/color/text()</xpath>
+		<value>(130, 0, 0, 30)</value>
 	</Operation>
 
 </Patch>
