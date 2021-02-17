@@ -2,6 +2,8 @@
 
 <Patch>
 
+	<!-- исправление согласно концепции «12+» -->
+
 	<Operation MayRequire="dianawinters.OrassansLite" Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
