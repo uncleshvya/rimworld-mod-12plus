@@ -36,7 +36,7 @@ For English, scroll down.
 
 2019-11-27 заменены нейтральными тексты, прививающие детям пренебрежение жизнью и привычность смерти.
 
-2019-11-20 заменена красная кровь на полупрозрачную.
+2019-11-20 заменена красная кровь на полупрозрачную, аналогично другим загрязнениям.
 
 2019-11-18 заменены нейтральными тексты, ориентирующие детей на социопатию, суицид или убийство.
 
@@ -92,7 +92,7 @@ Changelog for Rimworld's 12plus modification.
 
 2019-nov-27 texts, where children are taught with disregard of life and ordinariness of death, replaced with neutral texts.
 
-2019-nov-20 red blood reсolored into semi-transparent one.
+2019-nov-20 red blood reсolored into semi-transparent one, like other filth types.
 
 2019-nov-18 replaced texts, orienting children to sociopathy, suicide or murder, with neutral ones.
 
