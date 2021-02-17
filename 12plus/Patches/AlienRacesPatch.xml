@@ -2,6 +2,8 @@
 
 <Patch>
 
+	<!-- исправлена неточность, сообщите разработчику -->
+
 	<Operation MayRequire="erdelf.HumanoidAlienRaces" Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
