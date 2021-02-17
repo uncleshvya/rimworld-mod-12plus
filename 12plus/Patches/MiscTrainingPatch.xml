@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<!-- исправление согласно концепции «12+», сообщите разработчику -->
+
+	<Operation MayRequire="Haplo.Miscellaneous.Training" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ShootingRangeTarget"]/graphicData</xpath>
+				<value>
+					<drawSize>1.45</drawSize>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "MartialArtsTarget"]/graphicData</xpath>
+				<value>
+					<drawSize>1.45</drawSize>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>
