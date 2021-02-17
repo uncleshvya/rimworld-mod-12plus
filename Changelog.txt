@@ -2,19 +2,19 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-02-16 начата работа по адаптации мода Misc MiscTraining от Haplo - необходимо увеличить мишени вдвое, чтобы не было иллюзии избиения детей.
+2021-02-17 добавлена адаптация для мода Misc MiscTraining от Haplo - мишени увеличены.
 
-2021-02-15 добавлена совместимость с модом Misc BeesNhoney от Haplo, заодно исправлены его ошибки, см.комменты в коде. Удалена излишняя реклама алкоголизма. Скомпилирована версия 12+мода 0.4.1beta. 
+2021-02-16 добавлена адаптация для мода Misc BeesNhoney от Haplo, заодно исправлены его ошибки, см.комменты в коде. Удалена излишняя реклама алкоголизма. Скомпилирована версия 12+мода 0.4.1beta. 
 
 2021-02-07 тексты xml интегрированы, идёт тестирование скрипта разговоров по употреблению слов из txt файлов.
 
 2021-02-06 найден способ интегрировать основные тексты в тело мода с целью упростить инсталляцию и выложить в стим. Пока не удалось разделить переводы для 4х используемых модов, поэтому соответствующие файлы помечены текстом "Royalty_", "HumanoidAlienRaces_", "BeesNhoney_" и "AllowTool_" в именах файлов, для возможности поиска. Концепция "12+" адаптирована к международным стандартам.
 
-2021-02-04 добавлена совместимость с модом AllowTool, заодно исправлены его ошибки, см.комменты в коде.
+2021-02-04 добавлена адаптация для мода AllowTool, заодно исправлены его ошибки, см.комменты в коде.
 
 2021-01-24 апдейт к официальному переводу от 2021-01-07. Над следующим ведутся работы, но кто хочет перевод посвежее, в папке с модом лежит совместимый с концепцией "12+" более новый перевод, скачанный с официального сайта.
 
-2020-10-31 добавлена совместимость с модом Mehni.Numbers и перевод оного. Идёт тестирование...
+2020-10-31 добавлена адаптация для мода Mehni.Numbers.
 
 2020-10-02 по срочному заданию игрока Roma, создан мод на расу котов, на основе dianawinters.OrassansLite, для 12+. Время поджимало, модифицировал сам код. Сделаю покрасивее, когда разберусь как патчить инопланетные расы.
 
@@ -58,19 +58,19 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-feb-16 UncleShvya.MiscTrainingRus mod adaptation began. The aim is to 2x enlarge targets. Looks like pawns are hitting children.
+2021-feb-17 Haplo.Miscellaneous.Training mod adaptation added. Targets enlarged.
 
-2021-feb-15 added compatibility with Haplo.Miscellaneous.BeesNHoney. Also corrected its errors, see code comments. Removed superfluous ads about alcoholism. UncleShvya.12plus mod v.0.4.1beta compiled.
+2021-feb-16 added compatibility with Haplo.Miscellaneous.BeesNHoney. Also corrected its errors, see code comments. Removed superfluous ads about alcoholism. UncleShvya.12plus mod v.0.4.1beta compiled.
 
 2021-feb-07 xml texts integrated. Interaction script is testing, about words from txt files.
 
 2021-feb-06 found the way to integrate all text directly into the mod. It'll be easier to install via Steam or via copy-paste. There are some unsolved problems with cataloging, so the files were marked with tags "Royalty_", "HumanoidAlienRaces_", "BeesNhoney_" and "AllowTool_" in files' names. "12+" concept was adapted to international rules.
 
-2021-feb-04 added compatibility with UnlimitedHugs.AllowTool. Also corrected its errors, see code comments.
+2021-feb-04 UnlimitedHugs.AllowTool mod adaptation added. Also corrected its errors, see code comments.
 
 2021-jan-24 update to official Russian translation v.2021jan07. We're working at next version. If you want a bit newer version, there is a 12+ compatible zipped translation in the mod folder. 
 
-2020-oct-31 added compatibility with Mehni.Numbers mod and russian translation. Testing...
+2020-oct-31 Mehni.Numbers mod adaptation added. Testing...
 
 2020-oct-02 player Roma inspirated me to create cats' mod, based on dianawinters.OrassansLite, adapted to 12+. Having no time, i changed the code directly. How can i patch alien races?
 
