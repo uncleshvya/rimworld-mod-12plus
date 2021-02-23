@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageData>
-
-  <!-- исправление согласно концепции «12+» -->
-
-  <!-- EN: pounding -->
-  <Hangover.stages.pounding.label>жесточайшее</Hangover.stages.pounding.label>
-
-</LanguageData>

@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageData>
-
-  <!-- исправление согласно концепции «12+» -->
-
-  <!-- EN: This setting is designed to be unfair. Huge threats will crash upon you without mercy until your colony dies. Only choose this setting if you are happy with the drama of struggling and dying.\n\nRecommended for:\n\n- Experienced players who want to face a brutal, unfair challenge where even great skill may not prevent death.\n- Lovers of tragedy.\n- Digital masochists. -->
-  <Extreme.description>Кошмарные угрозы будут безжалостно обрушиваться на вас одна за другой, пока вы не проиграете. Вам придётся отчаянно сражаться, строить всё заново из развалин, быть готовым ко всему и жертвовать самым дорогим. Злой рок будет вашим верным спутником на этом пути.\n\nРекомендуется для:\n\n- опытных игроков, любящих ценой пота, крови и слёз (самого игрока) выкручиваться из жесточайших ситуаций в шаткой надежде не потерять всё;\n- любителей трагедии;\n- цифровых мазохистов.</Extreme.description>
-
-</LanguageData>

@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageData>
-
-  <!-- исправление согласно концепции «12+» -->
-
-  <!-- EN: A bioluminescent pod produced by giant insects. Glows under its own light for a long time, then dies. -->
-  <GlowPod.description>Биолюминесцентный кокон, оставленный гигантскими насекомыми. Сияет в течение длительного времени, а затем погасает.</GlowPod.description>
-
-</LanguageData>

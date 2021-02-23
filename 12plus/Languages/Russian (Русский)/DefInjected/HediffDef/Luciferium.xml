@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageData>
-
-  <!-- исправление согласно концепции «12+» -->
-
-  <!-- EN: Luciferium mechanites in the body. Luciferium mechanites decohere over time; only regular doses of fresh luciferium can prevent this process.\n\nWithout luciferium, the mechanite decoherence will reach a critical state, causing the victim to go insane and die. -->
-  <LuciferiumAddiction.description>Люциферные механиты в теле. Со временем они декогерируют, и только свежая доза люциферия способна предотвратить этот процесс.\n\nБез его регулярного приёма декогерентность достигает критической стадии, что приводит к сумасшествию и потере существа.</LuciferiumAddiction.description>
-
-</LanguageData>
