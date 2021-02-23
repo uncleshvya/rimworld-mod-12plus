@@ -2,19 +2,19 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-02-23 добавлена адаптация для мода DubsBadHygiene_
+2021-02-23 добавлена адаптация для мода DubsBadHygiene. Там обнаружено много недопереведённого, начата работа по локализации. Скомпилирована версия 12+мода 0.4.5beta.
 
-2021-02-20 добавлена адаптация для мода ConcreteWalls от Poroh. Скомпилирована версия 12+мода 0.4.4beta. 
+2021-02-20 добавлена адаптация для мода ConcreteWalls от Poroh.
 
 2021-02-19 обнаружена фундаментальная ошибка во всех генераторах текста. Пока не найден параметр xpath для LanguageData, поэтому мод разделён на 2 папки.
 
-2021-02-17 добавлена адаптация для мода Misc MiscTraining от Haplo - мишени увеличены.
+2021-02-17 добавлена адаптация для мода Misc.Training от Haplo - мишени увеличены.
 
-2021-02-16 добавлена адаптация для мода Misc BeesNhoney от Haplo, заодно исправлены его ошибки, см.каменты в коде. Удалена излишняя реклама алкоголизма.
+2021-02-16 добавлена адаптация для мода Misc.BeesNhoney от Haplo, заодно исправлены его ошибки, см.каменты в коде. Удалена излишняя реклама алкоголизма.
 
 2021-02-07 тексты xml интегрированы, идёт тестирование скрипта разговоров по употреблению слов из txt файлов.
 
-2021-02-06 найден способ интегрировать основные тексты в тело мода с целью упростить инсталляцию и выложить в стим. Пока не удалось разделить переводы для 5и адаптированных модов, поэтому соответствующие файлы помечены текстом "Royalty_", "HumanoidAlienRaces_", "BeesNhoney_", "ConcreteWalls_" и "AllowTool_" в именах файлов, для возможности поиска. Концепция "12+" адаптирована к международным стандартам.
+2021-02-06 найден способ интегрировать основные тексты в тело мода с целью упростить инсталляцию и выложить в стим. Пока не удалось разделить переводы для 6 адаптированных модов, поэтому соответствующие файлы помечены текстом "Royalty_", "HumanoidAlienRaces_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_" и "AllowTool_" в именах файлов, для возможности поиска. Концепция "12+" адаптирована к международным стандартам.
 
 2021-02-04 добавлена адаптация для мода AllowTool, заодно исправлены его ошибки, см.каменты в коде.
 
@@ -64,13 +64,19 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-feb-17 Haplo.Miscellaneous.Training mod adaptation added. Targets enlarged. UncleShvya.12plus mod v.0.4.2beta compiled.
+2021-feb-23 Dubwise.DubsBadHygiene mod adaptation added. There are a lot of translations missing. Fix work started. UncleShvya.12plus mod v.0.4.5beta compiled.
 
-2021-feb-16 added compatibility with Haplo.Miscellaneous.BeesNHoney. Also corrected its errors, see code comments. Removed superfluous ads about alcoholism.
+2021-feb-20 Porohkun.ConcreteWalls mod adaptation added.
+
+2021-feb-19 general error detected for all text generators. While there's no solution with "xpath" for "LanguageData", solution is to divide 12plus mod into 2 subfolders.
+
+2021-feb-17 Haplo.Miscellaneous.Training mod adaptation added. Targets enlarged.
+
+2021-feb-16 Haplo.Miscellaneous.BeesNHoney mod adaptation added. Also corrected its errors, see code comments. Removed superfluous ads about alcoholism.
 
 2021-feb-07 xml texts integrated. Interaction script is testing, about words from txt files.
 
-2021-feb-06 found the way to integrate all text directly into the mod. It'll be easier to install via Steam or via copy-paste. There are some unsolved problems with cataloging, so the files were marked with tags "Royalty_", "HumanoidAlienRaces_", "BeesNhoney_" and "AllowTool_" in files' names. "12+" concept was adapted to international rules.
+2021-feb-06 found the way to integrate all text directly into the mod. It'll be easier to install via Steam or via copy-paste. There are some unsolved problems with cataloging, so the files were marked with tags "Royalty_", "HumanoidAlienRaces_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_" and "AllowTool_" in files' names. "12+" concept was adapted to international rules.
 
 2021-feb-04 UnlimitedHugs.AllowTool mod adaptation added. Also corrected its errors, see code comments.
 
