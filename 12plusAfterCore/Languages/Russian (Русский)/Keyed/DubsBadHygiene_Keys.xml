@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- исправлена неточность, сообщите разработчику -->
+
+	<!-- Оригинал: Только заключенные -->
+	<PrisonersOnly>Только заключённые</PrisonersOnly>
+
+	<!-- Оригинал: ...емкости...еще -->
+	<LowWaterTempDesc>Температура воды в этой ёмкости слишком низкая. Колонисты, расчитывающие на горячую воду, могут расстроиться.\n\nВключите бойлеры, увеличьте нагрев или добавьте ещё один бак с горячей водой.</LowWaterTempDesc>
+
+	<!-- Оригинал: Для назначения необходима малая нужда, у {0} ее нет -->
+	<AssigningRequiresBladderNeed>Для назначения необходима малая нужда. {0} сейчас её не испытывает.</AssigningRequiresBladderNeed>
+
+	<!-- Оригинал: Под дождем: x{0} -->
+	<InRain>Под дождём: x{0}</InRain>
+
+	<!-- Оригинал: короткое тире -->
+	<DirtyHands>Грязные руки — Риск заболевания</DirtyHands>
+	<!-- Оригинал: короткое тире -->
+	<Contaminated>Загрязнение — Риск заболевания</Contaminated>
+
+	<!-- Оригинал: Загрязненная вода -->
+	<ContaminationAlert>Загрязнённая вода</ContaminationAlert>
+	<!-- Оригинал: ...загрязнен...загрязненные... -->
+	<ContaminationAlertDesc>Источник воды сильно загрязнён. Существует риск загрязнения водохранилищ.\n\nИсточник загрязнения:\n{0} \n\nИзбавьтесь от источников загрязнения или соорудите водоочистную систему, также очищающую загрязнённые водохранилища</ContaminationAlertDesc>
+	<!-- Оригинал: Загрязненное водохранилище -->
+	<ContaminatiedTowerAlert>Загрязнённое водохранилище</ContaminatiedTowerAlert>
+	<!-- Оригинал: ...влечет...серьезные... -->
+	<ContaminatiedTowerAlertDesc>Водохранилище загрязнено, что влечёт за собой серьёзные риски для здоровья ваших колонистов! Переместите водохранилища, опустошите их или создайте водоочистную систему</ContaminatiedTowerAlertDesc>
+
+	<!-- Оригинал: У поселенца по имени {0} {1} из-за грязной воды и несоблюдения личной гигиены -->
+	<MessageHygieneDisease>{1}! {0} заболевает из-за грязной воды и несоблюдения личной гигиены</MessageHygieneDisease>
+	<!-- Оригинал: У поселенца по имени {0} {1} из-за грязной воды или немытых рук -->
+	<MessageWaterDisease>{1}! {0} заболевает из-за грязной воды или немытых рук</MessageWaterDisease>
+
+	<!-- Оригинал: Ограничить эту сантехнику только для пациентов -->
+	<CommandFixtureSetAsMedicalDesc>Назначить эту сантехнику только для пациентов</CommandFixtureSetAsMedicalDesc>
+
+	<!-- Оригинал: Привязать к кровати -->
+	<ConnectFixturesToBed>Назначить владельца</ConnectFixturesToBed>
+
+	<!-- Оригинал: Привязать сантехнику к ближайшей кровати для установки владельца -->
+	<ConnectFixturesToBedDesc>Назначить владельца для сантехники. По умолчанию, берутся настройки от ближайшей кровати</ConnectFixturesToBedDesc>
+
+	<!-- Оригинал: Убрать привязку к кроватям -->
+	<CancelConnectFixturesToBedDesc>Убрать привязку к владельцу кровати</CancelConnectFixturesToBedDesc>
+
+	<!-- Оригинал: ...перегорежены -->
+	<MustPlaceFreezerWithFreeSpaces>Вытяжные клапаны не должны быть перегорожены!</MustPlaceFreezerWithFreeSpaces>
+
+	<!-- Оригинал: ...емкости... -->
+	<HotWaterTankUseThermostatDesc>Позволить этой ёмкости с горячей водой задавать настройки термостата подключенным бойлерам</HotWaterTankUseThermostatDesc>
+
+	<!-- Оригинал: Объем... -->
+	<GroundCapacity>Объём грунтовых вод: {0} Л/день</GroundCapacity>
+
+	<!-- Оригинал: короткое тире -->
+	<UntreatedWater>Качество: Неочищено — Низкий шанс заболевания</UntreatedWater>
+	<!-- Оригинал: короткое тире -->
+	<ContaminatedWater>Качество: Загрязнено! — Высокий шанс заболевания!</ContaminatedWater>
+	<!-- Оригинал: короткое тире -->
+	<TreatedWater>Качество: Очищено — Безопасно</TreatedWater>
+	<!-- Оригинал: ...емкость -->
+	<DrainTank>Опустошить ёмкость</DrainTank>
+	<!-- Оригинал: ...емкость -->
+	<DrainTankDesc>Опустошить ёмкость и избавиться от загрязнения</DrainTankDesc>
+
+	<!-- Оригинал: ...емкость... -->
+	<DrainSepticTankAt>Опустошать ёмкость при {0}</DrainSepticTankAt>
+
+	<!-- Оригинал: ...ее -->
+	<PitFull>Яма заполнена, опустошите её!</PitFull>
+
+	<!-- Оригинал: Rimefeller подключен -->
+	<RimefellerLink>мод Rimefeller подключён</RimefellerLink>
+
+	<!-- Оригинал: Rimatomics подключен -->
+	<RimatomicsLink>мод Rimatomics подключён</RimatomicsLink>
+
+	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+
+	<!-- EN: Passive coolers use water -->
+	<PassiveWaterCoolersLink>Испарительные охладители расходуют воду</PassiveWaterCoolersLink>
+	<!-- EN: Passive coolers have their wood fueling removed and are instead filled with water, similar to water tubs. -->
+	<PassiveWaterCoolersLinkTip>Изменить игровую механику для испарительных охладителей — теперь их надо будет заправлять не древесиной, а водой, по аналогии с водными трубами.</PassiveWaterCoolersLinkTip>
+	
+	<!-- EN: SoS2 integration -->
+	<sos2int>мод SoS2 подключён</sos2int>
+	<!-- EN: Adds water and sewage processing to life support, and adds pipes to ship structures. -->
+	<sos2intTip>Добавить к системе жизнеобеспечения корабля воду и сантехнику.</sos2intTip>
+	<!-- EN: No unreserved water sources of the highest available quality. -->
+	<NoUnreservedSource></NoUnreservedSource>
+	<!-- EN: Allow modded drinks -->
+	<AllowModdedDrinks></AllowModdedDrinks>
+	<!-- EN: Pawns will also be allowed to drink and pack any modded drinks. VGP and RimCuisine drinks can be used default, others will require modding an extension to the def. -->
+	<AllowModdedDrinksTip></AllowModdedDrinksTip>
+	<!-- EN: Pack water bottles -->
+	<AllowDrinkPacking></AllowDrinkPacking>
+	<!-- EN: Pawns will automatically pack water bottles into their inventory when they can.\n\nMay not work with some mods, for CE you will need to manually manage your loadout to include water bottles else they will keep dropping them. -->
+	<AllowDrinkPackingTip></AllowDrinkPackingTip>
+	<!-- EN: Needs filter -->
+	<NeedsFilter></NeedsFilter>
+	<!-- EN: Main features -->
+	<MainFeatures></MainFeatures>
+	<!-- EN: Experimental features -->
+	<ExperimentalFeatures></ExperimentalFeatures>
+	<!-- EN: Fallout water contamination -->
+	<DBHFalloutWarning></DBHFalloutWarning>
+	<!-- EN: After 2 days of toxic fallout the buildup will contaminate any water storage tanks connected to water wells.\n\nPrepare by creating a reserve of water and then using a valve to disconnect the wells to protect the water from contaminat -->
+	<DBHFalloutWarningEx></DBHFalloutWarningEx>
+	<!-- EN: Allow modded categories -->
+	<AllowAltDes></AllowAltDes>
+	<!-- EN: Allow other mods to change the buildings architect menu designation categories. -->
+	<AllowAltDesTip></AllowAltDesTip>
+	<!-- EN: Rain irrigation -->
+	<RainIrrigation></RainIrrigation>
+	<!-- EN: Rain will give the same boost as sprinklers. Might reduce game performance. -->
+	<RainIrrigationTip></RainIrrigationTip>
+	<!-- EN: Growing zone sowing disabled -->
+	<GrowingZoneNotAllowed></GrowingZoneNotAllowed>
+	<!-- EN: No fertilizer found -->
+	<NoFertilizerFound></NoFertilizerFound>
+	<!-- EN: Fertilizer area -->
+	<AreaPlaceFertilizer></AreaPlaceFertilizer>
+	<!-- EN: Designate areas to fertilize with biosolids. -->
+	<AreaPlaceFertilizerDesc></AreaPlaceFertilizerDesc>
+	<!-- EN: Add area -->
+	<AddFertilizerArea></AddFertilizerArea>
+	<!-- EN: Remove area -->
+	<RemoveFertilizerArea></RemoveFertilizerArea>
+	<!-- EN: Stockpile water x{0} -->
+	<StockpileWater></StockpileWater>
+	<!-- EN: Bad Hygiene Wiki -->
+	<HygieneWiki></HygieneWiki>
+	<!-- EN: Go to the Bad Hygiene Wiki -->
+	<HygieneWikiDesc></HygieneWikiDesc>
+	<!-- EN: Survival mode -->
+	<SurvivalMode></SurvivalMode>
+	<!-- EN: Limits the default shallow water grid generation to very small patches. Terrain features no longer generate water, and the radius around surface water is reduced.\n\nA new game is not required; works with existing saves. -->
+	<SurvivalModeTip></SurvivalModeTip>
+	<!-- EN: Hydroponics -->
+	<HydroponicsLink></HydroponicsLink>
+	<!-- EN: Powered growing buildings like hydroponics have water tanks that require filling from pipes. Plants die from lack of water instead of power, but water tanks only fill when the building is powered. -->
+	<HydroponicsLinkTip></HydroponicsLinkTip>
+	<!-- EN: A restart is required to add and remove thirst-related items.\n\nRestart now? -->
+	<ThirstRequiresRestart></ThirstRequiresRestart>
+	<!-- EN: Missing water tower -->
+	<Alert_MissingTower></Alert_MissingTower>
+	<!-- EN: A water tower or water butt is required to store water pumped from wells. -->
+	<Alert_MissingTowerDesc></Alert_MissingTowerDesc>
+	<!-- EN: Missing well -->
+	<Alert_MissingWell></Alert_MissingWell>
+	<!-- EN: Pumps require a piped well to access ground water. -->
+	<Alert_MissingWellDesc></Alert_MissingWellDesc>
+	<!-- EN: Missing water pump -->
+	<Alert_MissingPump></Alert_MissingPump>
+	<!-- EN: A water pump is required to pump the water from a well to a water tower. -->
+	<Alert_MissingPumpDesc></Alert_MissingPumpDesc>
+	<!-- EN: Low cooling capacity. You can increase the power of outdoor units. -->
+	<LowCoolingCap></LowCoolingCap>
+	<!-- EN: Requires water storage tower -->
+	<NoWaterTowers></NoWaterTowers>
+	<!-- EN: Too cold -->
+	<SolarEfficiencyCold></SolarEfficiencyCold>
+	<!-- EN: Roofed -->
+	<SolarEfficiencyRoof></SolarEfficiencyRoof>
+	<!-- EN: Thermostat overridden by hot water tanks. Set all connected hot water tanks to thermostat mode. -->
+	<ThermostatSetupWarning></ThermostatSetupWarning>
+	<!-- EN: A restart is required to add quality and art comps back in.\n\n restart now? -->
+	<fixtureQualityRequiresRestart></fixtureQualityRequiresRestart>
+	<!-- EN: Fixture quality and art -->
+	<fixtureQuality></fixtureQuality>
+	<!-- EN: Enable quality and art comps for fixtures like toilets -->
+	<fixtureQualityTip></fixtureQualityTip>
+
+</LanguageData>

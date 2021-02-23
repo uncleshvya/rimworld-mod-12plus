@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nBuy, steal, or make some parkas, or you'll freeze when you step outside. -->
+  <FirstSummerWarning>Началось лето! Но зима всё ближе.\n\nИмейте в виду: ваши посевы не будут расти в холод, а потому убедитесь, что запасов продовольствия хватит на всю зиму. Чтобы еда не портилась, можно построить для неё помещение с охлаждением.\n\nИ постарайтесь купить, раздобыть или сделать несколько пуховиков, иначе с наступлением зимы вы замёрзнете, едва высунувшись наружу.</FirstSummerWarning>
+
+  <!-- EN: Death -->
+  <Death>Игра окончена</Death>
+
+  <!-- EN: {PAWN_nameDef} is {RELATIVE_labelShort}'s {1}. If {PAWN_nameDef} dies, {RELATIVE_labelShort} will suffer from long-lasting grief. However, if you manage to rescue {PAWN_nameDef}, {RELATIVE_labelShort} will be very happy for a long time. -->
+  <RelatedPawnInvolvedInQuest>{PAWN_nameDef} — {1} {RELATIVE_labelShort}. Если {PAWN_nameDef} будет {RELATIVE_gender ? потерян : потеряна}, {RELATIVE_labelShort} будет долго пребывать в боли и скорби. Однако если {PAWN_possessive} получится спасти, {RELATIVE_labelShort} будет очень этому {RELATIVE_gender ? рад : рада}.</RelatedPawnInvolvedInQuest>
+
+  <!-- EN: {1} died: {0} -->
+  <LetterLeadersDeathLabel>{1} фракции {0} проиграл</LetterLeadersDeathLabel>
+  <!-- EN: {OLDLEADER_nameFull}, {1} of {0}, has died. -->
+  <LetterLeadersDeath>Проиграл {1} фракции {0}, {OLDLEADER_nameFull}.</LetterLeadersDeath>
+
+  <!-- EN: This happened because of {0_definite}'s death. -->
+  <MentalStateReason_BondedHumanDeath>Это произошло из-за атаки {0_definite}.</MentalStateReason_BondedHumanDeath>
+
+  <!-- EN: The last events in {PAWN_definite}'s life -->
+  <LastEventsInLife>Последние события в игре {PAWN_definite}</LastEventsInLife>
+
+  <!-- EN: {ANIMAL_definite} was bonded to {HUMAN_labelShort}. It will affect {HUMAN_labelShort}'s mood. -->
+  <LetterPartBondedAnimalDied>Питомца {HUMAN_labelShort}, {ANIMAL_definite}, больше нет. {HUMAN_labelShort} будет переживать по этому поводу.</LetterPartBondedAnimalDied>
+
+  <!-- EN: Prisoners have staged a breakout! They've somehow defeated the door locks and are making their way out. They may seek weapons, fight, or try to escape. These prisoners are involved:\n\n{0}\n\nPrisoners are more likely to attempt breakout when they are numerous and healthy. -->
+  <LetterPrisonBreak>Пленники организовали побег! Каким-то образом они сломали замок и выбрались наружу. Они могут начать искать оружие, затеять драку или попытаться убежать. Беглецы:\n\n{0}\n\nПленники вероятнее всего будут пытаться устроить побег, если они в плохом настроении и когда их много.</LetterPrisonBreak>
+
+  <!-- EN: All members of {0} have died. -->
+  <LetterAllCaravanColonistsDied>{0} уничтожен. Никого не осталось.</LetterAllCaravanColonistsDied>
+
+</LanguageData>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: Mark rock chunks and other items to be hauled to dumping areas. Not needed for things like food or corpses, which are always haulable. -->
+  <DesignatorHaulThingsDesc>Отметить куски породы и другие объекты для переноса на свалку. Не требуется для цельных предметов вроде еды или оружия: они всегда переносимы.</DesignatorHaulThingsDesc>
+
+  <!-- EN: Strip apparel from corpses and the wounded. -->
+  <DesignatorStripDesc>Снять одежду с тел или с раненых людей</DesignatorStripDesc>
+
+  <!-- исправлена неточность, сообщите разработчику -->
+
+  <!-- Оригинал: Поселенцы уберут любые существующие здесь крыши. Толстую горную породу, находящуюся над данной областью, убрать нельзя. -->
+  <DesignatorAreaNoRoofExpandDesc>Поселенцы уберут любые существующие здесь крыши. Толщу горной породы, находящуюся над данной областью, убрать нельзя.</DesignatorAreaNoRoofExpandDesc>
+
+</LanguageData>

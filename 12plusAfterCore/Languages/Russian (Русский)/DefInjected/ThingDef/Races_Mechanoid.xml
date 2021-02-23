@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: Fast, spindly, human-sized combat mechanoids specializing in rapid approach and close-range combat. Their bodies are covered in points and blades, but their mostly use two arm blades to lop off limbs or gut their victims alive. -->
+  <Mech_Scyther.description>Быстрые веретенообразные боевые механоиды ростом с человека. Их тактика — быстрое сближение и ближний бой с противником. Их тела усеяны шипами, а манипуляторы оснащены ужасными лезвиями, идеальными для отрубания конечностей.</Mech_Scyther.description>
+
+</LanguageData>

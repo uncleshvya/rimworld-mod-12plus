@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: Raw butchered flesh. Can be cooked into meals or eaten raw, although most humans dislike the idea. -->
+  <MeatHumanDesc>Мумиё, по некоторым данным, состоит из ферментированной смеси экскрементов горных животных и пыли. Использовалось в народной медицине разных культур, но по результатам современных исследований, не имеет лечебных свойств. Однако богатая история вещества обусловила ярко выраженный эффект плацебо. Настоящее мумиё довольно редко встречается и не может удовлетворить спрос всех желающих, поэтому производители часто подделывают его, изготавливая из навоза, минералов и трав.</MeatHumanDesc>
+
+  <!-- EN: {0} corpse -->
+  <CorpseLabel>тело {0}</CorpseLabel>
+  <!-- EN: Dead body of a {0}. -->
+  <CorpseDesc>Тело {0}.</CorpseDesc>
+  <!-- EN: {1_label} (dead) -->
+  <DeadLabel>{1_label} (тело)</DeadLabel>
+
+  <!-- EN: Colonist died -->
+  <ColonistDied>Поселенец потерян</ColonistDied>
+
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: A combat-oriented hand replacement consisting of a mechanical hand with a hooked claw on each finger. It cuts deep, and it is strong enough to crush a skull like a hand crushes an egg. The claws can be retracted, making it as useful as a natural hand for non-combat tasks, however its overall ungainlyness slows down movement slightly. -->
+  <PowerClaw.description>Боевой механический протез кисти руки с загнутыми когтями на каждом из пальцев. Позволяет наносить глубокие раны и сокрушать кости, словно яичную скорлупу. Вне боя когти можно убрать, тем самым обеспечивая возможности для выполнения обычной ручной работы, сравнимые с возможностями обычной руки, однако слегка громоздкая конструкция несколько затрудняет передвижение пользователя.</PowerClaw.description>
+
+</LanguageData>

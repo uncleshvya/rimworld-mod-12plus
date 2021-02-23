@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: Must designate corpse or downed character with strippable apparel. -->
+  <MessageMustDesignateStrippable>Нужно указать тела или лежащих на земле людей, в одежде, которую можно снять.</MessageMustDesignateStrippable>
+
+  <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
+  <PawnDiedBecauseOf>{PAWN_labelShort} {PAWN_gender ? проиграл : проиграла}. Причина: {1}.</PawnDiedBecauseOf>
+  <!-- EN: {1_labelShort} has died. -->
+  <PawnDied>{PAWN_labelShort} {PAWN_gender ? проиграл : проиграла}.</PawnDied>
+
+  <!-- EN: {1_labelShort} is dead. -->
+  <MessageCantSelectDeadPawn>{1_labelShort} {1_gender ? вне игры : вне игры}.</MessageCantSelectDeadPawn>
+
+  <!-- EN: {ANIMAL} has had a mental break because of {HUMAN_labelShort}'s death. -->
+  <MessageBondedAnimalMentalBreak>{ANIMAL} {ANIMAL_gender ? получил : получила} нервный срыв из-за того, что {HUMAN_gender ? проиграл : проиграла} {HUMAN_labelShort}.</MessageBondedAnimalMentalBreak>
+  <!-- EN: {ANIMAL_kindIndef} named {ANIMAL_label} has had a mental break because of {HUMAN_labelShort}'s death. -->
+  <MessageNamedBondedAnimalMentalBreak>{ANIMAL_kindIndef} по имени {ANIMAL_label} {ANIMAL_gender ? получил : получила} нервный срыв из-за того, что {HUMAN_gender ? проиграл : проиграла} {HUMAN_labelShort}.</MessageNamedBondedAnimalMentalBreak>
+  <!-- EN: {0} animals have a mental break because of {HUMAN_labelShort}'s death. -->
+  <MessageBondedAnimalsMentalBreak>{0} животных получили нервный срыв из-за того, что {HUMAN_gender ? проиграл : проиграла} {HUMAN_labelShort}.</MessageBondedAnimalsMentalBreak>
+
+  <!-- EN: {0} has died because of cold. -->
+  <MessagePlantDiedOfCold>{0} {0_gender ? завял : завяла : завяло} от холода.</MessagePlantDiedOfCold>
+  <!-- EN: {0} has died from rotting due to being left unharvested. -->
+  <MessagePlantDiedOfRot_LeftUnharvested>{0} {0_gender ? завял : завяла : завяло} от старости.</MessagePlantDiedOfRot_LeftUnharvested>
+  <!-- EN: {0} has died due to being exposed to light. -->
+  <MessagePlantDiedOfRot_ExposedToLight>{0} {0_gender ? завял : завяла : завяло}, так как слишком много времени {0_gender ? провёл : провела : провело} на свету.</MessagePlantDiedOfRot_ExposedToLight>
+  <!-- EN: {0} has died from rotting. -->
+  <MessagePlantDiedOfRot>{0} {0_gender ? завял : завяла : завяло}.</MessagePlantDiedOfRot>
+  <!-- EN: {0} has died because of poison. -->
+  <MessagePlantDiedOfPoison>{0} {0_gender ? завял : завяла : завяло} из-за отравления.</MessagePlantDiedOfPoison>
+  <!-- EN: {1_label} has died because of blight. -->
+  <MessagePlantDiedOfBlight>{0} {0_gender ? завял : завяла : завяло} из-за болезни.</MessagePlantDiedOfBlight>
+
+  <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
+  <MessageSlaughteringBondedAnimal>Если вы потеряете {DESIGNATED_labelShort}, {BONDED_labelShort} расстроится из-за своей привязанности к этому животному.</MessageSlaughteringBondedAnimal>
+
+  <!-- EN: Warning: {0} cannot live when exposed to light. -->
+  <MessageWarningCavePlantsExposedToLight>Внимание: {0} увядает на свету.</MessageWarningCavePlantsExposedToLight>
+
+  <!-- EN: {1_labelShort} died -->
+  <GoodwillChangedReason_PawnDied>{1_labelShort} {1_gender ? потерян : потеряна}</GoodwillChangedReason_PawnDied>
+
+  <!-- EN: civilians lost -->
+  <GoodwillChangeReason_CiviliansLost>потеряны гражданские</GoodwillChangeReason_CiviliansLost>
+  <!-- EN: commander lost -->
+  <GoodwillChangeReason_CommanderLost>потерян командир</GoodwillChangeReason_CommanderLost>
+
+  <!-- исправлена неточность, сообщите разработчику -->
+
+  <!-- Оригинал глючащий: Невозможно изгнать {PAWN_labelShort}, так как {PAWN_pronoun} не может ходить. -->
+  <MessageCantBanishDownedPawn>Невозможно изгнать {1_labelShort}, так как {1_pronoun} не может ходить.</MessageCantBanishDownedPawn>
+
+  <!-- Оригинал: Потолок в виде толстой горной породы удалить невозможно. -->
+  <MessageNothingCanRemoveThickRoofs>Толщу горной породы удалить невозможно.</MessageNothingCanRemoveThickRoofs>
+
+</LanguageData>

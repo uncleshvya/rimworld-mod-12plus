@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправлена неточность, сообщите разработчику -->
+
+  <!-- EN: The wild ancestor of the domesticated goat. Ibexes live on marginal territory where most antelopes couldn't survive, eating lichens and sparse mountain plants. They're famous for dextrously hopping across bare cliff faces - and for their violent ramming attack. -->
+  <Ibex.description>Выносливый дикий предок одомашненных козлов. Обитает там, где большинство антилоп не выживут. Питается лишайниками и редкими горными растениями. Известен тем, что с удивительной ловкостью может прыгать по скалам. А также тем, что может покалечить противника ударом своих рогов.</Ibex.description>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: This heavily armored land-dwelling reptile is known for its slow moving speed and surprisingly vicious bite. Because of its natural armor, it is tough to kill and can do serious damage during drawn-out melee fights. -->
+  <Tortoise.description>Эта тяжело бронированная наземная рептилия известна своей медлительностью и неожиданно болезненными укусами. Из-за их естественной брони черепах трудно повредить, что делает затяжные драки с ними весьма опасными.</Tortoise.description>
+
+</LanguageData>

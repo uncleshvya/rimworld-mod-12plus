@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<!-- исправлена неточность, сообщите разработчику -->
+
+	<Operation MayRequire="erdelf.HumanoidAlienRaces" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingCategoryDef[defName = "alienCorpseCategory"]/parent/text()</xpath>
+				<value>Corpses</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/SpecialThingFilterDef[defName = "AllowCorpsesColonist"]/parentCategory/text()</xpath>
+				<value>alienCorpseCategory</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/SpecialThingFilterDef[defName = "AllowCorpsesStranger"]/parentCategory/text()</xpath>
+				<value>alienCorpseCategory</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

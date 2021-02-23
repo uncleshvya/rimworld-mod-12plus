@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: The ancient weapon of kings, the longsword can be used for slashing or stabbing. -->
+  <MeleeWeapon_LongSword.description>Длинный меч — древнее оружие королей, опасное в умелых руках. Подходит для колющих и рубящих ударов.</MeleeWeapon_LongSword.description>
+
+  <!-- EN: A refined club, engineered for efficient swinging and deadly impacts. -->
+  <MeleeWeapon_Mace.description>Изящная булава, подходящая для эффективного замаха и сокрушительного удара.</MeleeWeapon_Mace.description>
+
+</LanguageData>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: ate raw humanlike meat -->
+  <AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>неряха</AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>
+
+  <!-- EN: butchered humanlike corpse -->
+  <ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>плохо себя ведёт</ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>
+
+  <!-- EN: killed colonist -->
+  <KilledColonist.stages.killed_colonist.label>избил(а) поселенца</KilledColonist.stages.killed_colonist.label>
+
+  <!-- EN: killed colony animal -->
+  <KilledColonyAnimal.stages.killed_colony_animal.label>избил(а) животное поселения</KilledColonyAnimal.stages.killed_colony_animal.label>
+
+</LanguageData>

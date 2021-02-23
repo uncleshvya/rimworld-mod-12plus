@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+	<name>12plus After Core</name>
+	<author>Uncle Shvya</author>
+	<packageId>UncleShvya.12plus.AfterCore</packageId>
+	<url>https://github.com/uncleshvya/rimworld-mod-12plus</url>
+	<supportedVersions>
+		<li>1.2</li>
+	</supportedVersions>
+	<description>For English, scroll down.
+
+Мод написан для ответственных родителей-римворлдистов.
+Хитрые дети! С этим модом вы сможете играть в Римворлд при родителях, и спокойно разговаривать обо _всех_ особенностях своего поселения.
+
+=====
+
+Что делает мод:
+
+Этот простой xml-мод отключает самые жёсткие аспекты, чтобы дети от 12 лет могли играть в Римворлд, не получая психологических травм. Подробности в файле changelog.
+
+Текущая версия 12plus мода: v0.4.3beta rev.2021.02.17.
+
+=====
+
+Совместимость:
+
+Целью является сделать играбельными моды типа этих:
+Humanoid Cats — dianawinters.OrassansLite
+modpack http://lttlword.ru/rimworld-minimalism-v1-1
+modpack http://lttlword.ru/rimworld-sborka-modov-ot-lalks-i-pal
+multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
+
+Если вдруг мод не понравился, просто отключите его. Сейвы не пострадают.
+
+Несовместим с модами «Psychology», «Rational Romance» и другими, меняющими отношения между полами.
+Пока несовместим с модами на другие расы, животных, кухонные верстаки. Но если будут желающие, мы добавим совместимость, пишите uncleshvya@yandex.ru Ответим как будет время.
+Не идеально совместим с авто-обновлением русского языка от официального переводчика. Основной контент уже написан, так что больших проблем быть не должно. Но для гарантированного соответствия концепции «12+» лучше отключить авто-обновление.
+Не используйте машинный перевод мода HumanoidAlienRaces от Тхакиро (Tagiro) или 冷たいコーヒー (Tsumetai Kohi), т.к. они противоречат концепции «12+». В нашем моде уже есть необходимый перевод для HumanoidAlienRaces.
+Если используете машинный перевод мода kNumbers со стима, замените на наш, т.к. стимовский противоречит концепции «12+».
+
+=====
+
+Новая игра:
+
+Желательна, но необязательна — в этом случае надо вручную удалить нежелательные трейты из файла changelog. В интернете куча видео-инструкций, поищите строку «Rimworld удалить trait». Только будьте внимательны, тщательно удалите из .rws-файла все 6 нежелательных трейтов, и удалите все старые сохранения.
+
+=====
+
+Известные ошибки:
+
+- Если часто переходить по ссылкам в информации о людях, иногда выходит красная ошибка. Не обращайте внимания, это особенность движка мода.
+- Если колонисты вдруг перестали сами есть, скачайте другую версию мода Alien Races.
+- Если играете за кошек, при старте игры выходит красная ошибка. Это из-за конфликта предысторий, не обращайте внимания.
+
+=====
+
+Что нужно сделать в следующей версии:
+
+- улучшить совместимость с модом на кошек dianawinters.OrassansLite, и перевести оный;
+- исправить красную ошибку для 12+мода;
+- исправить красную ошибку для мода Orassan;
+- исправить все тексты, даже те которые не должны появиться (на всякий случай). Ведётся поиск;
+- исправить предыстории из-за изменившихся правил перевода. Ведутся работы;
+- удалить возможность Affair, интрижки;
+- прикрутить перевод через патч, а не через перезапись файлов. Возможно, написать скрипт, аналогично как у официального переводчика, только отслеживающий несовпадение файлов перевода и наличие файла скрипта;
+- категоризировать файлы по модам;
+- улучшить каменты в коде;
+- адаптировать рассказчика.
+
+=====
+
+12plus mod for Rimworld. Sorry for my English, I compiled this file for multilingual families.
+
+Dedicated to all parents playing Rimworld.
+Sly children! You can play RimWorld in one room with parents, and to speak about _everything_ happens in your game. For now, only in Russian version.
+
+=====
+
+What The Mod Does:
+
+This simple xml mod turns off the most hardcore aspects in order to allow 12+ aged children play Rimworld, without getting psychological trauma. For details, see changelog file.
+
+Current 12plus mod version 0.4.2beta rev.2021.02.17.
+
+=====
+
+Compatibility:
+
+The aim was to make such mods playable:
+Humanoid Cats - dianawinters.OrassansLite
+modpack http://lttlword.ru/rimworld-minimalism-v1-1
+modpack http://lttlword.ru/rimworld-sborka-modov-ot-lalks-i-pal
+multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty/
+
+If you don't like the mod, just turn it off. Saves will be playable.
+
+Not compatible with "Psychology", "Rational Romance" or any other mods altering RimWorld's romance systems.
+For now, not compatible with mods for other races, animals, butchering tables and stoves. But we can do the compatibility, just mail to us mailto:uncleshvya@yandex.ru We'll answer as fast as possible.
+Not absolutely compatible with auto-script from official Russian translator's site. Basic content is finished, but for guarantied execution of "12+" concept, it's better to turn off the auto-updating.
+For erdelf.HumanoidAlienRaces mod, do not use google-translation from Тхакиро (Tagiro) or 冷たいコーヒー (Tsumetai Kohi). These translations are not compatible with "12+" concept. UncleShvya.12plus mod already contains the correct russian translation of erdelf.HumanoidAlienRaces mod.
+For Mehni.Numbers mod, do not use google-translation from Steam. It is not compatible with "12+" concept.
+
+=====
+
+New game:
+
+It's better to start a new game. However, old games are playable too. You should manually delete unwanted traits (see changelog file). There are a lot of video lessons in www, search the string "Rimworld delete trait". Be carefull, delete all 6 unwanted traits from .rws file, and delete old saves.
+
+=====
+
+Known errors:
+
+- If you open pawn's information panel, and click links too much, it may cause a red error. Just ignore, it's a rare bug.
+- If your pawns do not eat, just download another version of erdelf.HumanoidAlienRaces mod.
+- If you install Orassan mod, a red error appears after game starts. Just ignore, it's about backstories.
+
+=====
+
+Ideas to realize in next version:
+- to update dianawinters.OrassansLite mod compatibility and translation;
+- to fix red error for UncleShvya.12plus;
+- to fix red error for dianawinters.OrassansLite12plus;
+- to correct all texts, even improbable, as a precaution. Testing;
+- to correct backstories according to new translation rules. In process;
+- to eliminate Affair script;
+- to realize "Languages" folder via patching, without manually replacing. Or to modify auto-script from official Russian translator's site. And to add a watchdog script to eliminate an occasional translation mismatch and/or automation;
+- to categorize files by mod names;
+- to make code comments better;
+- to adapt storyteller.
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Races 2.0</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>UncleShvya.12plus.BeforeCore</packageId>
+			<displayName>12plus Before Core</displayName>
+			<downloadUrl>https://github.com/uncleshvya/rimworld-mod-12plus</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadBefore>
+		<li>UncleShvya.ExpandedRoofingRusFix</li>
+	</loadBefore>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.Royalty</li>
+		<li>erdelf.HumanoidAlienRaces</li>
+		<li>dianawinters.OrassansLite12plus</li>
+		<li>UnlimitedHugs.AllowTool</li>
+		<li>Haplo.Miscellaneous.BeesNHoney</li>
+	</loadAfter>
+	<incompatibleWith>
+		<li>atsukohi.HumanoidAlienRacesRus</li>
+		<li>dianawinters.OrassansLite</li>
+		<li>dianawinters.Orassans</li>
+	</incompatibleWith>
+
+</ModMetaData>

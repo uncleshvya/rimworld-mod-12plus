@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: pounding hangover -->
+  <Hungover.stages.pounding_hangover.label>жесточайшее похмелье</Hungover.stages.pounding_hangover.label>
+
+</LanguageData>

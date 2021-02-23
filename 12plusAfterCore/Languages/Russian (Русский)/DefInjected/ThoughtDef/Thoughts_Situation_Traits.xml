@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: Ow... Heh heh heh... I could get used to this! -->
+  <MasochistPain.stages.masochist_in_minor_pain.description>Ай... Это больно.</MasochistPain.stages.masochist_in_minor_pain.description>
+
+  <!-- EN: Ughhh... It hurts, but I love it! Keep it coming! -->
+  <MasochistPain.stages.masochist_in_serious_pain.description>У-у-ух... Эти боли... Когда же это всё кончится?</MasochistPain.stages.masochist_in_serious_pain.description>
+
+  <!-- EN: Ouch... I think something's broken... But what an exquisite feeling! -->
+  <MasochistPain.stages.masochist_in_intense_pain.description>У собачки заболи... У кошечки заболи... А-ай-ай-ай, пройди же у меня скорее!</MasochistPain.stages.masochist_in_intense_pain.description>
+
+  <!-- EN: Ahhh... Am I in heaven? -->
+  <MasochistPain.stages.masochist_in_mindshattering_pain.description>А-А-А-А-А-А!</MasochistPain.stages.masochist_in_mindshattering_pain.description>
+
+  <!-- EN: It makes me think of flame and fire. I'm so happy. -->
+  <PyromaniacHappy.stages.pyromaniac_has_incendiary_weapon.description>Я несу зажигательное оружие.</PyromaniacHappy.stages.pyromaniac_has_incendiary_weapon.description>
+
+</LanguageData>

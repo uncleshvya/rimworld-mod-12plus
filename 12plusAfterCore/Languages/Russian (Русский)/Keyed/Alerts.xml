@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: These colonists need medical care, but you have no healthy colonists assigned as doctors.\n\n{0}\nAssign a healthy colonist to the Doctor work type. If left untreated, wounds may never heal properly and may become permanent. -->
+  <NeedDoctorDesc>Этим пациентам нужна медицинская помощь. У вас нет здоровых поселенцев, назначенных врачами.\n\n{0}\nВо вкладке «Работа» выберите здорового поселенца и поставьте галочку в колонке «Врач» напротив его имени. Иначе оставленные без ухода пациенты могут остаться больными на всю жизнь, или вы вообще их потеряете.</NeedDoctorDesc>
+
+  <!-- EN: These colonists need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded colonists and right-click on the medical bed to make them a patient.) -->
+  <ColonistNeedsTreatmentDesc>Эти поселенцы нуждаются в медицинской помощи. Без неё они могут слишком долго от оправляться ран, или вы вообще потеряете людей.\n\n{0}\nВылечите поселенцев, отправив их в медицинские кровати.\n\n(Сначала сделайте какую-нибудь кровать медицинской, выбрав её и переключив в медицинский режим. Затем, выберите раненых поселенцев и щёлкните правой кнопкой мыши на медицинской кровати, чтобы сделать их пациентами.)</ColonistNeedsTreatmentDesc>
+
+  <!-- EN: Medical emergency -->
+  <PawnsWithLifeThreateningDisease>Фатальные болезни</PawnsWithLifeThreateningDisease>
+  <!-- EN: People are at risk of death because of severe illness:\n\n{0}\nMake sure that they get the best medical care possible. -->
+  <PawnsWithLifeThreateningDiseaseDesc>Люди, подверженные фатальному риску из-за тяжёлых болезней:\n\n{0}\nУбедитесь, что они получают самый лучший врачебный уход.</PawnsWithLifeThreateningDiseaseDesc>
+  <!-- EN: People are at risk for death because of severe illness:\n\n{0}\nIf possible, consider amputating or replacing infected limbs in order to keep colonists alive. -->
+  <PawnsWithLifeThreateningDiseaseAmputationDesc>Люди, подверженные фатальному риску из-за серьёзных болезней:\n\n{0}\nЕсли у человека инфицирована конечность, подумайте о её ампутации или замене, чтобы не потерять поселенца.</PawnsWithLifeThreateningDiseaseAmputationDesc>
+
+  <!-- исправлена неточность, сообщите разработчику -->
+
+  <!-- Оригинал: Эти люди страдают от теплового удара:\n\n{0}\nОтведите их в прохладное место. Для охлаждения помещений применяются испарительные охладители и кондиционеры. Пространства в толще горной породы сохраняют естественную прохладу, если они отделены от улицы дверью. -->
+  <AlertHeatstrokeDesc>Эти люди страдают от теплового удара:\n\n{0}\nОтведите их в прохладное место. Для снижения температуры воздуха в помещениях применяются испарительные охладители и кондиционеры. Пространства в толще горной породы сохраняют естественную прохладу, если они отделены от улицы дверью.</AlertHeatstrokeDesc>
+
+</LanguageData>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<!-- исправление согласно концепции «12+» -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Iguana"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Bear_Grizzly"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Bear_Polar"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Cougar"]</xpath>
+				<value>
+					<race>
+						<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						</willNeverEat>
+					</race>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Panther"]</xpath>
+				<value>
+					<race>
+						<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						</willNeverEat>
+					</race>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Lynx"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Pig"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Megascarab"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Spelopede"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Megaspider"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="YorkshireTerrier"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Husky"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="LabradorRetriever"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Cat"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Boomrat"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Raccoon"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Rat"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="WildBoar"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Tortoise"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Cobra"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Monkey"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Warg"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Wolf_Timber"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Wolf_Arctic"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Fox_Fennec"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Fox_Red"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Fox_Arctic"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+					</willNeverEat>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

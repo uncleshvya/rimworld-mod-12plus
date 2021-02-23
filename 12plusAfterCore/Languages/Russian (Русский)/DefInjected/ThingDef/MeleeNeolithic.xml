@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: A shaped stick, heavy at one end, for bashing enemies to death. This weapon is so old it's part of human biology. Evolutionary biologists say that a major reason humans can tilt our wrists side-to-side (instead of just forward-and-back like other primates) is to be able to better swing a club. -->
+  <MeleeWeapon_Club.description>Древнейшее оружие человечества — увесистая, утолщённая с одного конца, палка для забивания врагов. Биологи-эволюционисты говорят, что человек способен поворачивать кисть руки из стороны в сторону (а не только вверх-вниз) благодаря тому, что это помогало нашим предкам обращаться с дубиной.</MeleeWeapon_Club.description>
+
+</LanguageData>
