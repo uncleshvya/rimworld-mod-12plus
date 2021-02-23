@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: make patchleather -->
+  <Make_Patchleather.label>изготовить лоскутную полотно</Make_Patchleather.label>
+  <!-- EN: Combine various types of leather to create weak patchleather. -->
+  <Make_Patchleather.description>Сшить лоскуты шкур любых типов в единое полотно.</Make_Patchleather.description>
+  <!-- EN: Making patchleather. -->
+  <Make_Patchleather.jobString>Изготавливает лоскутное полотно</Make_Patchleather.jobString>
+
+  <!-- исправлена неточность, сообщите разработчику -->
+
+  <!-- Оригинал: переплавить броню -->
+  <SmeltApparel.label>переплавить металл с одежды</SmeltApparel.label>
+  <!-- Оригинал: Переплавляет одежду -->
+  <SmeltApparel.jobString>Переплавляет металл с одежды</SmeltApparel.jobString>
+
+</LanguageData>

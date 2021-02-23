@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: death acidifier -->
+  <DeathAcidifier.label>растворитель снаряжения</DeathAcidifier.label>
+  <!-- EN: An installed death acidifier. -->
+  <DeathAcidifier.description>Вживлённый растворитель снаряжения</DeathAcidifier.description>
+  <!-- EN: a death acidifier -->
+  <DeathAcidifier.labelNoun>растворитель снаряжения</DeathAcidifier.labelNoun>
+
+</LanguageData>

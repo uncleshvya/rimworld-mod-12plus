@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: extreme -->
+  <Animal_Flu.stages.extreme.label>фатальный</Animal_Flu.stages.extreme.label>
+
+  <!-- EN: extreme -->
+  <Animal_Plague.stages.extreme-1.label>фатальная</Animal_Plague.stages.extreme-1.label>
+
+  <!-- EN: extreme -->
+  <Flu.stages.extreme.label>фатальный</Flu.stages.extreme.label>
+
+  <!-- EN: extreme -->
+  <Malaria.stages.extreme.label>фатальная</Malaria.stages.extreme.label>
+
+  <!-- EN: extreme -->
+  <Plague.stages.extreme-1.label>фатальная</Plague.stages.extreme-1.label>
+
+  <!-- EN: An infectious disease caused by an insect-borne parasite. Sleeping sickness is not as deadly as some other diseases, but progresses slowly. The body takes a long time to clear the infection. -->
+  <SleepingSickness.description>Паразитарное заболевание, вызванное контактом с мухой цеце. В отличие от некоторых других заболеваний, сонная болезнь не так опасна, но прогрессирует медленно. Организму потребуется много времени для иммунизации и восстановления.</SleepingSickness.description>
+
+  <!-- EN: extreme -->
+  <SleepingSickness.stages.extreme-1.label>фатальная</SleepingSickness.stages.extreme-1.label>
+
+  <!-- EN: extreme -->
+  <WoundInfection.stages.extreme-1.label>фатальное</WoundInfection.stages.extreme-1.label>
+
+</LanguageData>

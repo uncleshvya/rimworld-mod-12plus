@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- добавлена русская локализация, сообщите разработчику -->
+
+	<!-- исправление согласно концепции «12+» -->
+
+	<!-- EN alien corpses -->
+	<alienCorpseCategory.label>тела разумных существ</alienCorpseCategory.label>
+
+</LanguageData>

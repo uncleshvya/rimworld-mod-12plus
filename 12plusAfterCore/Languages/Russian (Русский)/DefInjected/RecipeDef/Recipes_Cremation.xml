@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: cremate corpse -->
+  <CremateCorpse.label>сжечь тело</CremateCorpse.label>
+  <!-- EN: Cremate a corpse to completely destroy it. -->
+  <CremateCorpse.description>Сжечь тело, чтобы навсегда от него избавиться.</CremateCorpse.description>
+  <!-- EN: Cremating. -->
+  <CremateCorpse.jobString>Сжигает тело</CremateCorpse.jobString>
+
+</LanguageData>

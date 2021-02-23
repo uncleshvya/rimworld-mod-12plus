@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: corpses -->
+  <Corpses.label>тела</Corpses.label>
+
+  <!-- EN: humanlike corpses -->
+  <CorpsesHumanlike.label>тела людей</CorpsesHumanlike.label>
+
+  <!-- EN: insect corpses -->
+  <CorpsesInsect.label>туши насекомых</CorpsesInsect.label>
+
+  <!-- EN: leathers -->
+  <Leathers.label>шкуры</Leathers.label>
+
+</LanguageData>
