@@ -7,7 +7,7 @@ For English, scroll below.
 Инструкция по установке: 
 
 - скачать репозиторий.
-- оттуда папку «12plus» скопировать в папку «Mods».
+- оттуда папки «12plusAfterCore» и «12plusBeforeCore» скопировать в папку «Mods».
 - играть! Для точной настройки рекомендуется прочитать описание мода.
 - если устанавливаете новую версию 12plus мода, для начала удалите старые версии из папки «Mods».
 - по желанию, из папки RimWorldUniverse возьмите адаптированный текстовый файл c лором.
@@ -19,9 +19,9 @@ Simple xml mod turns off the most hardcore aspects in order to allow 12+ aged ch
 
 How to install:
 - download the repository.
-- copy "12plus" folder into "Mods" folder.
+- copy "12plusAfterCore" and "12plusBeforeCore" folders into "Mods" folder.
 - enjoy! For best effiency read intructions from mod description.
-- before updating 12plus mod, delete old version.
+- before updating 12plus mod, delete old versions.
 - if necessary, update lore file from RimWorldUniverse folder.
 - if you want cats' race, copy "OrassanLite12plus" folder into "Mods" folder.
 
