@@ -4,6 +4,10 @@
 
 	<!-- исправление согласно концепции «12+», сообщите разработчику -->
 
+	<!-- CCLA-SA4.0i
+	Copyright (c) Haplo
+	-->
+
 	<Operation MayRequire="Haplo.Miscellaneous.Training" Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
