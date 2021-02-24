@@ -7,7 +7,7 @@
 	<Operation MayRequire="dianawinters.OrassansLite" Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
-			<!-- orassans: -->
+			<!-- орассане: -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="Leather_Orassan"]</xpath>
 				<value>
@@ -64,10 +64,10 @@
 				</value>
 			</li>
 
-			<!-- hybrids: -->
+			<!-- гибриды: -->
 			<!-- как отменить действие патча?
 			\Mods\OrassansLite\1.2\Patches\meals.xml
-			пришлось поставить костыль переводом -->
+			пришлось поставить костыль переводом для Meat_Alien_Orassan -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_OrassanHumanHybrid"]/race</xpath>
 				<value>
@@ -113,7 +113,7 @@
 				</value>
 			</li>
 
-			<!-- pets: -->
+			<!-- питомцы: -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="Ori"]/race</xpath>
 				<value>
@@ -138,6 +138,123 @@
 					</willNeverEat>
 				</value>
 			</li>
+
+			<!-- напиток: -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Catberryjuice"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Foods</li>
+					</thingCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "Catberryjuice"]/ingestible</xpath>
+				<value>
+					<ingestible>
+						<foodType>Fluid, Processed, Liquor</foodType>
+						<joyKind>Gluttonous</joyKind>
+						<joy>0.15</joy>
+						<nurseable>true</nurseable>
+						<ingestSound>Ingest_Beer</ingestSound>
+						<ingestHoldOffsetStanding>
+							<northDefault>
+								<offset>(0.18,0,0)</offset>
+							</northDefault>
+						</ingestHoldOffsetStanding>
+						<ingestCommandString>Drink {0}</ingestCommandString>
+						<ingestReportString>Drinking {0}.</ingestReportString>
+					</ingestible>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "Catberryjuice"]/comps</xpath>
+				<value>
+					<comps>
+						<li>
+							<compClass>CompEquippable</compClass>
+						</li>
+					</comps>
+				</value>
+			</li>
+
+			<!-- кошачьи трубочки: -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CatnipJoint"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Foods</li>
+					</thingCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "CatnipJoint"]/graphicData</xpath>
+				<value>
+					<drawSize>0.75</drawSize>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "CatnipJoint"]/stackLimit/text()</xpath>
+				<value>8</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "CatnipJoint"]/ingestible</xpath>
+				<value>
+					<ingestible>
+						<foodType>Processed</foodType>
+						<joyKind>Gluttonous</joyKind>
+						<joy>0.18</joy>
+						<nurseable>true</nurseable>
+						<ingestSound>Meal_Eat</ingestSound>
+						<ingestHoldOffsetStanding>
+							<northDefault>
+								<offset>(0.18,0,0)</offset>
+							</northDefault>
+						</ingestHoldOffsetStanding>
+						<ingestCommandString>Eat {0}</ingestCommandString>
+						<ingestReportString>Eating {0}.</ingestReportString>
+					</ingestible>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "CatnipJoint"]/recipeMaker/recipeUsers</xpath>
+				<value>
+					<recipeUsers>
+						<li>FueledStove</li>
+						<li>ElectricStove</li>
+					</recipeUsers>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "CatnipJoint"]/comps</xpath>
+				<value>
+					<comps />
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "CatnipJoint"]/costList</xpath>
+				<value>
+					<costList>
+						<CatnipLeaves>8</CatnipLeaves>
+						<Milk>8</Milk>
+					</costList>
+				</value>
+			</li>
+
+			<!-- исправлена неточность, сообщите разработчику что 2 рецепта устарели: -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "MakeCatnipJoint5"]/recipeUsers</xpath>
+				<value>
+					<recipeUsers />
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "MakeCatnipJoint15"]/recipeUsers</xpath>
+				<value>
+					<recipeUsers />
+				</value>
+			</li>
 		</operations>
 	</Operation>
+
 </Patch>
