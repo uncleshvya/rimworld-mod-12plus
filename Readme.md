@@ -11,7 +11,6 @@ For English, scroll below.
 - играть! Для точной настройки рекомендуется прочитать описание мода.
 - если устанавливаете новую версию 12plus мода, для начала удалите старые версии из папки «Mods».
 - по желанию, из папки RimWorldUniverse возьмите адаптированный текстовый файл c лором.
-- кто хочет расу котов, скопируйте папку «OrassanLite12plus» в папку «Mods».
 
 Мод обновился до новой версии, идёт тестирование. На случай новых глюков, сохранён архив с версией 0.3.3beta.
 
@@ -23,6 +22,5 @@ How to install:
 - enjoy! For best effiency read intructions from mod description.
 - before updating 12plus mod, delete old versions.
 - if necessary, update lore file from RimWorldUniverse folder.
-- if you want cats' race, copy "OrassanLite12plus" folder into "Mods" folder.
 
 Mod was updated to new version, now testing. If you'll find critical error, use old version from "rimworld-mod-7plus-v0 3 3beta backup.zip".
