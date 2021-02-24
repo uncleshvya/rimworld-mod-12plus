@@ -8,25 +8,41 @@
 	Copyright (c) Haplo
 	-->
 
-	<Operation MayRequire="Haplo.Miscellaneous.BeesNHoney" Class="PatchOperationReplace">
+	<Operation MayRequire="Haplo.Miscellaneous.BeesNHoney" Class="PatchOperationSequence">
 		<success>Always</success>
-		<xpath>Defs/ThingDef[defName = "Mead"]/ingestible</xpath>
-		<value>
-			<ingestible>
-				<foodType>Fluid, Processed, Liquor</foodType>
-				<joyKind>Gluttonous</joyKind>
-				<joy>0.18</joy>
-				<nurseable>true</nurseable>
-				<ingestSound>Ingest_Beer</ingestSound>
-				<ingestHoldOffsetStanding>
-					<northDefault>
-						<offset>(0.18,0,0)</offset>
-					</northDefault>
-				</ingestHoldOffsetStanding>
-				<ingestCommandString>Drink {0}</ingestCommandString>
-				<ingestReportString>Drinking {0}.</ingestReportString>
-			</ingestible>
-		</value>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>Defs/ThingDef[defName = "Mead"]/ingestible</xpath>
+				<value>
+					<ingestible>
+						<foodType>Fluid, Processed, Liquor</foodType>
+						<joyKind>Gluttonous</joyKind>
+						<joy>0.18</joy>
+						<nurseable>true</nurseable>
+						<ingestSound>Ingest_Beer</ingestSound>
+						<ingestHoldOffsetStanding>
+							<northDefault>
+								<offset>(0.18,0,0)</offset>
+							</northDefault>
+						</ingestHoldOffsetStanding>
+						<ingestCommandString>Drink {0}</ingestCommandString>
+						<ingestReportString>Drinking {0}.</ingestReportString>
+					</ingestible>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>Defs/ThingDef[defName = "Mead"]/comps</xpath>
+				<value>
+					<comps>
+						<li>
+							<compClass>CompEquippable</compClass>
+						</li>
+					</comps>
+				</value>
+			</li>
+		</operations>
 	</Operation>
 
 </Patch>
