@@ -19,7 +19,7 @@
   <!-- EN: cannibal -->
   <Cannibal.degreeDatas.cannibal.label>веган</Cannibal.degreeDatas.cannibal.label>
   <!-- EN: {PAWN_nameDef} was taught that eating human meat is wrong and horrible. But one time, long ago, {PAWN_pronoun} tried it... and {PAWN_pronoun} liked it. -->
-  <Cannibal.degreeDatas.cannibal.description>Несмотря на то, что {PAWN_possessive} учили, что безбелковая диета вредна для всего организма и особенно для мозга, {PAWN_nameDef} однажды её пробует... и получает удовольствие.</Cannibal.degreeDatas.cannibal.description>
+  <Cannibal.degreeDatas.cannibal.description>Несмотря на то, что {PAWN_possessive} учили, что безбелковая диета вредна для всего организма и особенно для мозга, {PAWN_nameDef} однажды её пробует... и неожиданно получает удовольствие.</Cannibal.degreeDatas.cannibal.description>
 
   <!-- EN: gay -->
   <Gay.degreeDatas.gay.label>вонь скунса</Gay.degreeDatas.gay.label>
