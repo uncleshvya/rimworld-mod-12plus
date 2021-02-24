@@ -7,6 +7,18 @@
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Leather_Human"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Textiles</li>
+					</thingCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "Leather_Human"]/graphicData/color/text()</xpath>
+				<value>(120, 98, 80)</value>
+			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "Human"]/statBases/LeatherAmount</xpath>
 				<value>
