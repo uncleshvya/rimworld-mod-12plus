@@ -4,6 +4,10 @@
 
 	<!-- исправлена неточность, сообщите разработчику -->
 
+	<!-- MIT
+	Copyright (c) 2018 Simon Latusek
+	-->
+
 	<Operation MayRequire="erdelf.HumanoidAlienRaces" Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
