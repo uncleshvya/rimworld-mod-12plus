@@ -9,6 +9,14 @@
 		<operations>
 			<!-- orassans: -->
 			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Leather_Orassan"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Textiles</li>
+					</thingCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/race</xpath>
 				<value>
 					<willNeverEat>
