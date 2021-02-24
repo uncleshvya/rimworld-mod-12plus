@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<!-- исправление согласно концепции «12+» -->
+
+	<Operation MayRequire="dianawinters.OrassansLite" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!-- orassans: -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li>Corpse_Alien_Orassan</li>
+						<li>Meat_Alien_Orassan</li>
+						<li>Corpse_Alien_OrassanHumanHybrid</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings</xpath>
+				<value>
+					<disallowedTraits>
+						<li> <defName>Asexual</defName> </li>
+						<li> <defName>Bisexual</defName> </li>
+						<li> <defName>Cannibal</defName> </li>
+						<li> <defName>Gay</defName> </li>
+						<li> <defName>Masochist</defName> </li>
+						<li> <defName>Pyromaniac</defName> </li>
+					</disallowedTraits>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
+				<value>
+					<li>ButcheredHumanlikeCorpse</li>
+					<li>KilledHumanlikeBloodlust</li>
+					<li>KnowButcheredHumanlikeCorpse</li>
+					<li>WitnessedDeathBloodlust</li>
+					<li>MasochistPain</li>
+					<li>PyromaniacHappy</li>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Orassan"]/statBases/LeatherAmount</xpath>
+				<value>
+					<LeatherAmount>0</LeatherAmount>
+					<MeatAmount>0</MeatAmount>
+				</value>
+			</li>
+
+			<!-- hybrids: -->
+			<!-- как отменить действие патча?
+			\Mods\OrassansLite\1.2\Patches\meals.xml
+			пришлось поставить костыль переводом -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_OrassanHumanHybrid"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li>Corpse_Alien_Orassan</li>
+						<li>Meat_Alien_Orassan</li>
+						<li>Corpse_Alien_OrassanHumanHybrid</li>
+					</willNeverEat>
+					<useMeatFrom>Human</useMeatFrom>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_OrassanHumanHybrid"]/alienRace/generalSettings</xpath>
+				<value>
+					<disallowedTraits>
+						<li> <defName>Asexual</defName> </li>
+						<li> <defName>Bisexual</defName> </li>
+						<li> <defName>Cannibal</defName> </li>
+						<li> <defName>Gay</defName> </li>
+						<li> <defName>Masochist</defName> </li>
+						<li> <defName>Pyromaniac</defName> </li>
+					</disallowedTraits>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_OrassanHumanHybrid"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
+				<value>
+					<li>ButcheredHumanlikeCorpse</li>
+					<li>KilledHumanlikeBloodlust</li>
+					<li>KnowButcheredHumanlikeCorpse</li>
+					<li>WitnessedDeathBloodlust</li>
+					<li>MasochistPain</li>
+					<li>PyromaniacHappy</li>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_OrassanHumanHybrid"]/statBases/LeatherAmount</xpath>
+				<value>
+					<LeatherAmount>0</LeatherAmount>
+					<MeatAmount>0</MeatAmount>
+				</value>
+			</li>
+
+			<!-- pets: -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Ori"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li>Corpse_Alien_Orassan</li>
+						<li>Meat_Alien_Orassan</li>
+						<li>Corpse_Alien_OrassanHumanHybrid</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Animal_Desiri"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+						<li>Meat_Human</li>
+						<li>Corpse_Alien_Orassan</li>
+						<li>Meat_Alien_Orassan</li>
+						<li>Corpse_Alien_OrassanHumanHybrid</li>
+					</willNeverEat>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
