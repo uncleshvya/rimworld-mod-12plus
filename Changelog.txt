@@ -2,11 +2,14 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-02-23 добавлена адаптация для мода DubsBadHygiene. Там обнаружено много недопереведённого, начата работа по локализации. Скомпилирована версия 12+мода 0.4.5beta. Пока не удалось разделить переводы для 8 адаптированных модов, поэтому соответствующие файлы помечены текстом "Royalty_", "HumanoidAlienRaces_", "Numbers_", "BeesNhoney_", "MiscTraining_", "ConcreteWalls_", "DubsBadHygiene_" и "AllowTool_" в именах файлов, для возможности поиска. Идёт тестирование скрипта разговоров по употреблению слов из txt файлов.
+2021-02-24 добавлена адаптация для мода OrassanLite. Ещё надо исправить в нём ошибку предысторий. 
+Скомпилирована версия 12+мода 0.4.6beta. Пока не удалось разделить переводы для 9 адаптированных модов, поэтому соответствующие файлы помечены текстом "Royalty_", "HumanoidAlienRaces_", "Numbers_", "BeesNhoney_", "MiscTraining_", "ConcreteWalls_", "OrassanLite_", "DubsBadHygiene_" и "AllowTool_" в именах файлов, для возможности поиска. 
+
+2021-02-23 добавлена адаптация для мода DubsBadHygiene. Там обнаружено много недопереведённого, начата работа по локализации.
 
 2021-02-20 добавлена адаптация для мода ConcreteWalls от Poroh.
 
-2021-02-19 обнаружена фундаментальная ошибка во всех генераторах текста. Пока не найден параметр xpath для LanguageData, поэтому мод разделён на 2 папки.
+2021-02-19 обнаружена фундаментальная ошибка во всех генераторах текста. Пока не найден параметр xpath для LanguageData, поэтому мод разделён на 2 папки. Идёт тестирование скрипта разговоров по употреблению слов из txt файлов.
 
 2021-02-17 добавлена адаптация для мода Misc.Training от Haplo - мишени увеличены.
 
@@ -19,8 +22,6 @@ For English, scroll down.
 2021-01-24 апдейт к официальному переводу от 2021-01-07. Над следующим ведутся работы, но кто хочет перевод посвежее, в папке с модом лежит совместимый с концепцией "12+" более новый перевод, скачанный с официального сайта.
 
 2020-10-31 добавлена адаптация для мода Numbers (c) 2018 Mehni. With acknowledgement of the original idea and first implementation of Numbers by koisama as found on https://github.com/koisama/kNumbers.
-
-2020-10-02 по срочному заданию игрока Roma, создан мод на расу котов, на основе dianawinters.OrassansLite, для 12+. Время поджимало, модифицировал сам код. Сделаю покрасивее, когда разберусь как патчить инопланетные расы.
 
 2020-09-29 исправлено большинство красных ошибок методом подключения мода Humanoid Alien Raсes (c) 2018 Simon Latusek, заодно исправлены его ошибки, см.каменты в коде.
 
@@ -62,11 +63,14 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-feb-23 Dubwise.DubsBadHygiene mod adaptation added. There are a lot of translations missing. Fix work started. UncleShvya.12plus mod v.0.4.5beta compiled. There are some unsolved problems with cataloging, so the files were marked with tags "Royalty_", "HumanoidAlienRaces_", "Numbers_", "BeesNhoney_", "MiscTraining_", "ConcreteWalls_", "DubsBadHygiene_" and "AllowTool_" in files' names. Interaction script is testing, about words from txt files.
+2021-feb-24 DianaWinters.OrassansLite mod adaptation added. Besides, it's better to fix cats' backstories error.
+UncleShvya.12plus mod v.0.4.6beta compiled. There are some unsolved problems with cataloging, so the files were marked with tags "Royalty_", "HumanoidAlienRaces_", "Numbers_", "BeesNhoney_", "MiscTraining_", "ConcreteWalls_", "OrassansLite_", "DubsBadHygiene_" and "AllowTool_" in files' names.
+
+2021-feb-23 Dubwise.DubsBadHygiene mod adaptation added. There are a lot of russian translations missing. Fix work started.
 
 2021-feb-20 Porohkun.ConcreteWalls mod adaptation added.
 
-2021-feb-19 general error detected for all text generators. While there's no solution with "xpath" for "LanguageData", solution is to divide 12plus mod into 2 subfolders.
+2021-feb-19 general error detected for all text generators. While there's no information about "xpath" for "LanguageData", solution is to divide 12plus mod into 2 subfolders. Interaction script is testing, about words from txt files.
 
 2021-feb-17 Haplo.Miscellaneous.Training mod adaptation added. Targets enlarged.
 
@@ -79,8 +83,6 @@ Changelog for Rimworld's 12plus modification.
 2021-jan-24 update to official Russian translation v.2021jan07. We're working at next version. If you want a bit newer version, there is a 12+ compatible zipped translation in the mod folder. 
 
 2020-oct-31 Mehni.Numbers mod adaptation added. (c) 2018 Mehni. With acknowledgement of the original idea and first implementation of Numbers by koisama as found on https://github.com/koisama/kNumbers.
-
-2020-oct-02 player Roma inspirated me to create cats' mod, based on dianawinters.OrassansLite, adapted to 12+. Having no time, i changed the code directly. How can i patch alien races?
 
 2020-sep-29 fixed almost all red errors via adding erdelf.HumanoidAlienRaces mod dependence (c) 2018 Simon Latusek. Also corrected its errors, see code comments.
 
