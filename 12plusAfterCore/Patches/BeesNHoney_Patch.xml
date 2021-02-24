@@ -11,6 +11,14 @@
 	<Operation MayRequire="Haplo.Miscellaneous.BeesNHoney" Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mead"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Foods</li>
+					</thingCategories>
+				</value>
+			</li>
 			<li Class="PatchOperationReplace">
 				<success>Always</success>
 				<xpath>Defs/ThingDef[defName = "Mead"]/ingestible</xpath>
