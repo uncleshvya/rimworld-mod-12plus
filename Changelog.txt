@@ -2,7 +2,7 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-02-23 добавлена адаптация для мода DubsBadHygiene. Там обнаружено много недопереведённого, начата работа по локализации. Скомпилирована версия 12+мода 0.4.5beta. Пока не удалось разделить переводы для 7 адаптированных модов, поэтому соответствующие файлы помечены текстом "Royalty_", "HumanoidAlienRaces_", "Numbers_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_" и "AllowTool_" в именах файлов, для возможности поиска. Идёт тестирование скрипта разговоров по употреблению слов из txt файлов.
+2021-02-23 добавлена адаптация для мода DubsBadHygiene. Там обнаружено много недопереведённого, начата работа по локализации. Скомпилирована версия 12+мода 0.4.5beta. Пока не удалось разделить переводы для 8 адаптированных модов, поэтому соответствующие файлы помечены текстом "Royalty_", "HumanoidAlienRaces_", "Numbers_", "BeesNhoney_", "MiscTraining_", "ConcreteWalls_", "DubsBadHygiene_" и "AllowTool_" в именах файлов, для возможности поиска. Идёт тестирование скрипта разговоров по употреблению слов из txt файлов.
 
 2021-02-20 добавлена адаптация для мода ConcreteWalls от Poroh.
 
@@ -62,7 +62,7 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-feb-23 Dubwise.DubsBadHygiene mod adaptation added. There are a lot of translations missing. Fix work started. UncleShvya.12plus mod v.0.4.5beta compiled. There are some unsolved problems with cataloging, so the files were marked with tags "Royalty_", "HumanoidAlienRaces_", "Numbers_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_" and "AllowTool_" in files' names. Interaction script is testing, about words from txt files.
+2021-feb-23 Dubwise.DubsBadHygiene mod adaptation added. There are a lot of translations missing. Fix work started. UncleShvya.12plus mod v.0.4.5beta compiled. There are some unsolved problems with cataloging, so the files were marked with tags "Royalty_", "HumanoidAlienRaces_", "Numbers_", "BeesNhoney_", "MiscTraining_", "ConcreteWalls_", "DubsBadHygiene_" and "AllowTool_" in files' names. Interaction script is testing, about words from txt files.
 
 2021-feb-20 Porohkun.ConcreteWalls mod adaptation added.
 
