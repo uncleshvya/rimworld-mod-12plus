@@ -14,6 +14,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -24,6 +26,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -34,6 +38,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -45,6 +51,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 						</willNeverEat>
 					</race>
 				</value>
@@ -57,6 +65,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 						</willNeverEat>
 					</race>
 				</value>
@@ -68,6 +78,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -78,6 +90,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -88,6 +102,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -98,6 +114,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -108,6 +126,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -118,6 +138,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -128,6 +150,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -138,6 +162,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -148,6 +174,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -158,6 +186,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -168,6 +198,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -178,6 +210,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -188,6 +222,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -198,6 +234,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -208,6 +246,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -218,6 +258,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -228,6 +270,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -238,6 +282,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -248,6 +294,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -258,6 +306,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -268,6 +318,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
@@ -278,6 +330,8 @@
 						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
+						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
