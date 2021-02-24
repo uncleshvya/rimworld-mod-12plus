@@ -16,6 +16,10 @@
 					</thingCategories>
 				</value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "Leather_Orassan"]/graphicData/color/text()</xpath>
+				<value>(147, 140, 129)</value>
+			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/race</xpath>
 				<value>
