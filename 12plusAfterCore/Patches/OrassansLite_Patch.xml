@@ -276,7 +276,66 @@
 					<layerable>true</layerable>
 				</value>
 			</li>
+
+			<!-- уменьшение хвостов в полтора раза, сообщите разработчику, вдруг ей тоже понравится: -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart = "tail"]/drawSize/text()</xpath>
+				<value>0.5</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart = "tail"]/offsets/north/bodyTypes</xpath>
+				<value>
+					<bodyTypes>
+						<Male>(-0.02,0.1)</Male>
+						<Female>(-0.02,0.1)</Female>
+						<Thin>(-0.02,0.1)</Thin>
+						<Hulk>(-0.02,0)</Hulk>
+					</bodyTypes>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart = "tail"]/offsets/east/bodyTypes</xpath>
+				<value>
+					<bodyTypes>
+						<Male>(-0.05,-0.1)</Male>
+						<Female>(-0.05,-0.05)</Female>
+						<Thin>(-0.05,-0.1)</Thin>
+						<Hulk>(0.1,-0.25)</Hulk>
+					</bodyTypes>
+				</value>
+			</li>
+
+			<!-- аналогично для гибридов: -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_OrassanHumanHybrid"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart = "tail"]/drawSize/text()</xpath>
+				<value>0.5</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_OrassanHumanHybrid"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart = "tail"]/offsets/north/bodyTypes</xpath>
+				<value>
+					<bodyTypes>
+						<Male>(-0.02,0.1)</Male>
+						<Female>(-0.02,0.1)</Female>
+						<Thin>(-0.02,0.1)</Thin>
+						<Hulk>(-0.02,-0.05)</Hulk>
+					</bodyTypes>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_OrassanHumanHybrid"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart = "tail"]/offsets/east/bodyTypes</xpath>
+				<value>
+					<bodyTypes>
+						<Male>(0,-0.15)</Male>
+						<Female>(0,-0.1)</Female>
+						<Thin>(0,-0.15)</Thin>
+						<Hulk>(0.15,-0.3)</Hulk>
+					</bodyTypes>
+				</value>
+			</li>
+
 		</operations>
 	</Operation>
+
+
 
 </Patch>
