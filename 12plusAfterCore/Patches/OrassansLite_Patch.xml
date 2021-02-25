@@ -241,7 +241,7 @@
 				</value>
 			</li>
 
-			<!-- исправлена неточность, сообщите разработчику что 2 рецепта устарели: -->
+			<!-- исправлена неточность, сообщите разработчику, что 2 рецепта устарели: -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/RecipeDef[defName = "MakeCatnipJoint5"]/recipeUsers</xpath>
 				<value>
@@ -252,6 +252,28 @@
 				<xpath>Defs/RecipeDef[defName = "MakeCatnipJoint15"]/recipeUsers</xpath>
 				<value>
 					<recipeUsers />
+				</value>
+			</li>
+
+			<!-- исправлена неточность, сообщите разработчику, что иначе рецептов в 2 раза больше нужного: -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/recipes</xpath>
+				<value>
+					<recipes />
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_OrassanHumanHybrid"]/recipes</xpath>
+				<value>
+					<recipes />
+				</value>
+			</li>
+
+			<!-- исправлена неточность, сообщите разработчику, что иначе лёд орассан не удаляется: -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "OrassanSoil"]</xpath>
+				<value>
+					<layerable>true</layerable>
 				</value>
 			</li>
 		</operations>
