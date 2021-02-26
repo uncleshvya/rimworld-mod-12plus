@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- исправлена неточность, сообщите разработчику -->
+
+	<!-- Оригинал: срочно перенести предметы -->
+	<HaulUrgently.label>срочно переносить предметы</HaulUrgently.label>
+	<!-- Оригинал: добить поверженных существ -->
+	<FinishOff.label>добивать поверженных существ</FinishOff.label>
+
+</LanguageData>

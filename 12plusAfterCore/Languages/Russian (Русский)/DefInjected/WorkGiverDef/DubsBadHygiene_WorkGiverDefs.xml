@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- исправлена неточность, сообщите разработчику -->
+
+	<!-- Оригинал: сжечь в яме -->
+	<DoBillsBurnPit.label>сжигать в яме</DoBillsBurnPit.label>
+	<!-- Оригинал: сгрести нечистоты в бочки -->
+	<RemoveSewage.label>сгребать нечистоты в бочку</RemoveSewage.label>
+	<!-- Оригинал: достать компост из компостеров -->
+	<UnloadComposter.label>доставать компост из компостеров</UnloadComposter.label>
+	<!-- Оригинал: наполнить компостер -->
+	<FillComposter.label>наполнять компостеры</FillComposter.label>
+	<!-- Оригинал: опорожнить сортир -->
+	<emptyLatrine.label>опорожнять выгребные ямы</emptyLatrine.label>
+	<!-- Оригинал: устранить засор -->
+	<ClearBlockage.label>устранять засоры</ClearBlockage.label>
+	<!-- Оригинал: устранять -->
+	<ClearBlockage.gerund>вычистить</ClearBlockage.gerund>
+	<!-- Оригинал: мыть пациента -->
+	<washPatient.label>мыть пациентов</washPatient.label>
+	<!-- Оригинал: вынести утку -->
+	<cleanBedpan.label>выносить утки</cleanBedpan.label>
+	<!-- Оригинал: выносить -->
+	<cleanBedpan.gerund>вынести</cleanBedpan.gerund>
+	<!-- Оригинал: вынести утку -->
+	<DocCleanBedpan.label>выносить утки</DocCleanBedpan.label>
+	<!-- Оригинал: выносить -->
+	<DocCleanBedpan.gerund>вынести</DocCleanBedpan.gerund>
+	<!-- Оригинал: опорожнить септик -->
+	<emptySepticTank.label>опорожнять септики</emptySepticTank.label>
+	<!-- Оригинал: опорожнять -->
+	<emptySepticTank.gerund>опорожнить</emptySepticTank.gerund>
+	<!-- Оригинал: поить пациента -->
+	<DBHAdministerFluids.label>поить пациентов</DBHAdministerFluids.label>
+	<!-- Оригинал: поить -->
+	<DBHAdministerFluids.gerund>напоить</DBHAdministerFluids.gerund>
+	<!-- Оригинал: загрузить стирку -->
+	<LoadWashing.label>загружать стирку</LoadWashing.label>
+	<!-- Оригинал: загружать -->
+	<LoadWashing.gerund>загрузить</LoadWashing.gerund>
+	<!-- Оригинал: разгрузить стирку -->
+	<UnloadWashing.label>разгружать стирку</UnloadWashing.label>
+	<!-- Оригинал: разгружать -->
+	<UnloadWashing.gerund>разгрузить</UnloadWashing.gerund>
+	<!-- Оригинал: наполнить бадью -->
+	<RefillTub.label>наполнять бадьи</RefillTub.label>
+	<!-- Оригинал: наполнять -->
+	<RefillTub.gerund>наполнить</RefillTub.gerund>
+	<!-- Оригинал: опрокинуть нечистоты -->
+	<TipSewage.label>опрокидывать бочки с нечистотами</TipSewage.label>
+	<!-- Оригинал: опрокидывать -->
+	<TipSewage.gerund>опрокинуть</TipSewage.gerund>
+
+	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+
+	<!-- EN: fertilize -->
+	<PlaceFertilizer.label>удобрять почву</PlaceFertilizer.label>
+	<!-- EN: fertilizing -->
+	<PlaceFertilizer.gerund>удобрить</PlaceFertilizer.gerund>
+	<!-- EN: fertilize -->
+	<PlaceFertilizer.verb>удобрять</PlaceFertilizer.verb>
+
+	<!-- EN: drain water -->
+	<DrainWaterTank.label>сливать воду из резервуаров</DrainWaterTank.label>
+	<!-- EN: draining -->
+	<DrainWaterTank.gerund>слить всю воду из</DrainWaterTank.gerund>
+	<!-- EN: drain -->
+	<DrainWaterTank.verb>слить воду</DrainWaterTank.verb>
+
+	<!-- EN: refill water -->
+	<RefillWater.label>доливать воду</RefillWater.label>
+	<!-- EN: refilling -->
+	<RefillWater.gerund>доливать воду</RefillWater.gerund>
+	<!-- EN: refill -->
+	<RefillWater.verb>доливать воду</RefillWater.verb>
+	
+</LanguageData>
