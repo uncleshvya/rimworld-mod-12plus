@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- исправлена неточность, сообщите разработчику -->
+
+	<!-- Оригинал: Питье мочи -->
+	<DrankUrine.stages.0.label>Питьё мочи</DrankUrine.stages.0.label>
+
+	<!-- Оригинал: без тире и запятой -->
+	<UsedPrivateBathroom.stages.9.description>Моя ванная — это самое лучшее место, которое только можно представить. Это чудесно!</UsedPrivateBathroom.stages.9.description>
+
+	<!-- Оригинал: без запятой -->
+	<HygieneLevel.stages.0.description>Пахну, будто после купания в помоях.</HygieneLevel.stages.0.description>
+	<!-- Оригинал: Пришлось испачкаться -->
+	<HygieneLevel.stages.1.label>Пора бы помыться</HygieneLevel.stages.1.label>
+	<!-- Оригинал: без запятой -->
+	<HygieneLevel.stages.3.description>Аж слышно, как чисто!</HygieneLevel.stages.3.description>
+	<!-- Оригинал: без "Ё" -->
+	<BowelLevel.stages.0.label>Меня сейчас разорвёт</BowelLevel.stages.0.label>
+	<!-- Оригинал: без "Ё" -->
+	<BowelLevel.stages.0.description>Мне срочно нужно в туалет, иначе меня разорвёт!</BowelLevel.stages.0.description>
+
+	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+
+	<!-- EN: refreshed -->
+	<DrankCleanWater.stages.refreshed.label>свежесть</DrankCleanWater.stages.refreshed.label>
+	<!-- EN: Drank refreshing clean water. -->
+	<DrankCleanWater.stages.refreshed.description>Как приятно выпить чистой свежей воды!</DrankCleanWater.stages.refreshed.description>
+	<!-- EN: drank filthy water -->
+	<DrankDirtyWater.stages.drank_filthy_water.label>тухлая вода</DrankDirtyWater.stages.drank_filthy_water.label>
+	<!-- EN: Drank a bottle of contaminated water. -->
+	<DrankDirtyWater.stages.drank_filthy_water.description>Моё питьё изрядно пованивало</DrankDirtyWater.stages.drank_filthy_water.description>
+	<!-- EN: decent bathroom -->
+	<UsedPrivateBathroom.stages.decent_bathroom.label>приличная ванная</UsedPrivateBathroom.stages.decent_bathroom.label>
+	<!-- EN: My bathroom is very interesting. I like it. -->
+	<UsedPrivateBathroom.stages.decent_bathroom.description>У меня довольно неплохая ванная. Мне нравится!</UsedPrivateBathroom.stages.decent_bathroom.description>
+
+</LanguageData>
