@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- исправлена неточность, сообщите разработчику -->
+
+	<!-- Оригинал: съел мёд -->
+	<AteHoney.stages.0.label>съеден мёд</AteHoney.stages.0.label>
+	<!-- Оригинал: Этот мед был таким сладким и вкусным. Мммм... -->
+	<AteHoney.stages.0.description>Этот мёд был таким сладким и вкусным. Ммм...</AteHoney.stages.0.description>
+
+</LanguageData>
