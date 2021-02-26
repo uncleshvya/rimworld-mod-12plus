@@ -4,7 +4,7 @@
   <!-- исправление согласно концепции «12+» -->
 
   <!-- EN: butcher creatures -->
-  <DoBillsButcherFlesh.label>разделывать животных</DoBillsButcherFlesh.label>
+  <DoBillsButcherFlesh.label>разделывать туши животных</DoBillsButcherFlesh.label>
 
   <!-- EN: do cremation bills -->
   <DoBillsCremate.label>кремировать тела</DoBillsCremate.label>
