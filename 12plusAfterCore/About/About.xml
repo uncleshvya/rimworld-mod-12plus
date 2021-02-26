@@ -19,7 +19,7 @@
 
 Этот простой xml-мод отключает самые жёсткие аспекты, чтобы дети от 12 лет могли играть в Римворлд, не получая психологических травм. Подробности в файле changelog.
 
-Текущая версия 12plus мода: v0.4.6beta rev.2021.02.24.
+Текущая версия 12plus мода: v0.4.6beta rev.2021.02.26.
 
 =====
 
@@ -51,16 +51,16 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 
 - Если часто переходить по ссылкам в информации о людях, иногда выходит красная ошибка. Не обращайте внимания, это особенность движка мода.
 - Если колонисты вдруг перестали сами есть, скачайте другую версию мода Alien Races.
-- Если играете за кошек, при генерации пешек иногда выходит красная ошибка. Это из-за конфликта предысторий, не обращайте внимания.
+- Если играете за кошек, при генерации пешек иногда выходят красные ошибки. Не обращайте внимания, надо сказать автору Diana (Kitty), что у неё плохо прописаны кошачьи предыстории и имена.
 
 =====
 
 Что нужно сделать в следующей версии:
 
 - улучшить совместимость с модом на кошек dianawinters.OrassansLite, и перевести оный;
+- исправить 2 красные ошибки для мода OrassansLite;
 - исправить красную ошибку для 12+мода;
-- исправить красную ошибку для мода OrassansLite;
-- исправить все тексты, даже те которые не должны появиться (на всякий случай). Ведётся поиск;
+- исправить все тексты, даже те, которые не должны появиться (на всякий случай). Ведётся поиск;
 - исправить предыстории из-за изменившихся правил перевода. Ведутся работы;
 - удалить возможность Affair, интрижки;
 - прикрутить перевод через патч, а не через перезапись файлов. Возможно, написать скрипт, аналогично как у официального переводчика, только отслеживающий несовпадение файлов перевода и наличие файла скрипта;
@@ -113,13 +113,13 @@ Known errors:
 
 - If you open pawn's information panel, and click links too much, it may cause a red error. Just ignore, it's a rare bug.
 - If your pawns do not eat, just download another version of erdelf.HumanoidAlienRaces mod.
-- If you install OrassansLite mod, a red error appears sometimes after pawn generating. Just ignore, it's about backstories.
+- If you install OrassansLite mod, red errors appear sometimes after pawn generating. Just ignore, and somebody tell to author Diana (Kitty) that her scripts about cats' backstories and names are unfinished.
 
 =====
 
 Ideas to realize in next version:
 - to update dianawinters.OrassansLite mod compatibility and translation;
-- to fix red error for dianawinters.OrassansLite;
+- to fix 2 red errors for dianawinters.OrassansLite;
 - to fix red error for UncleShvya.12plus;
 - to correct all texts, even improbable, as a precaution. Testing;
 - to correct backstories according to new translation rules. In process;
@@ -151,6 +151,7 @@ Ideas to realize in next version:
 		<li>dianawinters.OrassansLite</li>
 		<li>UnlimitedHugs.AllowTool</li>
 		<li>Haplo.Miscellaneous.BeesNHoney</li>
+		<li>Dubwise.DubsBadHygiene</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>atsukohi.HumanoidAlienRacesRus</li>
