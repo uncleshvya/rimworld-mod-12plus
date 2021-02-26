@@ -4,11 +4,11 @@
 	<!-- исправлена неточность, сообщите разработчику -->
 
 	<!-- Оригинал: вырастить новую пчелиную королеву -->
-	<DoBillsRaiseNewQueen.label>вырастить новую пчелиную матку</DoBillsRaiseNewQueen.label>
-	<!-- Оригинал: вырастить пчелиную королеву -->
-	<DoBillsRaiseNewQueen.verb>вырастить пчелиную матку</DoBillsRaiseNewQueen.verb>
+	<DoBillsRaiseNewQueen.label>выращивать пчелиную матку</DoBillsRaiseNewQueen.label>
 	<!-- Оригинал: выращивание пчелиной королевы -->
-	<DoBillsRaiseNewQueen.gerund>выращивание пчелиной матки</DoBillsRaiseNewQueen.gerund>
+	<DoBillsRaiseNewQueen.gerund>вырастить пчелиную матку, используя</DoBillsRaiseNewQueen.gerund>
+	<!-- Оригинал: вырастить пчелиную королеву -->
+	<DoBillsRaiseNewQueen.verb>выращивать пчелиную матку, используя</DoBillsRaiseNewQueen.verb>
 
 	<!-- Оригинал: варить пиво -->
 	<DoBillsBrew.label>готовить напитки</DoBillsBrew.label>
@@ -16,5 +16,12 @@
 	<DoBillsBrew.gerund>готовить на</DoBillsBrew.gerund>
 	<!-- Оригинал: варить пиво на -->
 	<DoBillsBrew.verb>готовить на</DoBillsBrew.verb>
+
+	<!-- Оригинал: сбор -->
+	<GetHoney.gerund>извлечь мёд из</GetHoney.gerund>
+	<!-- Оригинал: сбор мёда -->
+	<GetHoney.label>извлекать мёд</GetHoney.label>
+	<!-- Оригинал: собирать -->
+	<GetHoney.verb>извлекать мёд из</GetHoney.verb>
 
 </LanguageData>
