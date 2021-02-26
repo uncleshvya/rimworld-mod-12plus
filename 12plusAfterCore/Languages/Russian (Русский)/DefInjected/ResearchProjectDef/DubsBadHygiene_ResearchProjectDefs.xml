@@ -20,6 +20,24 @@
 	<!-- Оригинал: ...объемам... -->
 	<DeepWells.description>Бурение глубоких скважин, обеспечивающих доступ к большим объёмам артезианских вод.</DeepWells.description>
 
+	<!-- Оригинал: Установка дровяных и газовых бойлеров, баков для горячей воды и радиаторов -->
+	<CentralHeating.description>Установка продвинутых водонагревателей и теплообменников, автоматизация отопления.</CentralHeating.description>
+
+	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+
+	<!-- EN: heating -->
+	<LogBoilers.label>отопление</LogBoilers.label>
+	<!-- EN: Build log boilers which can be used to heat rooms and can be placed adjacent to baths to heat bathwater. -->
+	<LogBoilers.description>Установка простых бойлеров и баков для горячей воды.</LogBoilers.description>
+	<!-- EN: modern bathroom fixtures -->
+	<ModernFixtures.label>продвинутая сантехника</ModernFixtures.label>
+	<!-- EN: Build modern-style bathroom fixtures like toilets and showers. -->
+	<ModernFixtures.description>Установка продвинутой сантехники — такой, как душ и унитаз.</ModernFixtures.description>
+	<!-- EN: swimming pools -->
+	<SwimmingPools.label>бассейны</SwimmingPools.label>
+	<!-- EN: Build swimming pools. -->
+	<SwimmingPools.description>Постройка бассейнов для купания, расслабления и развлечения.</SwimmingPools.description>
+
 	<!-- исправление согласно концепции «12+» -->
 
 	<!-- Оригинал: Установка стиральных машин, отмывающих одежду так хорошо, что никто никогда не догадается, что в ней кто-то умер. -->
