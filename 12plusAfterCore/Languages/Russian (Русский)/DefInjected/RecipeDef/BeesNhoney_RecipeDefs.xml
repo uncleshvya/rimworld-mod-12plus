@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- исправлена неточность, сообщите разработчику -->
+
+	<!-- Оригинал: вырастить новую королеву -->
+	<GrowNewQueenBee.label>вырастить новую пчелиную матку.</GrowNewQueenBee.label>
+	<!-- Оригинал: Вырастить королеву для создания нового улья -->
+	<GrowNewQueenBee.description>Вырастить пчелиную матку для создания нового улья.</GrowNewQueenBee.description>
+	<!-- Оригинал: Выращивание новой королевы -->
+	<GrowNewQueenBee.jobString>Выращивает новую пчелиную матку.</GrowNewQueenBee.jobString>
+
 	<!-- исправление согласно концепции «12+» -->
 
 	<!-- Оригинал: сделать медовуху -->
 	<MakeMead.label>сделать медовый напиток</MakeMead.label>
 	<!-- Оригинал: Сделать медовуху из мёда. -->
-	<MakeMead.description>Сделать напиток из мёда.</MakeMead.description>
+	<MakeMead.description>Приготовить напиток из мёда.</MakeMead.description>
 	<!-- Оригинал: Создание медовухи. -->
-	<MakeMead.jobString>Создание медового напитка.</MakeMead.jobString>
+	<MakeMead.jobString>Готовит медовый напиток.</MakeMead.jobString>
 
 </LanguageData>
