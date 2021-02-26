@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- исправлена неточность, сообщите разработчику -->
+
+	<!-- Оригинал: Нечистоты на клетку -->
+	<SewageGridCapacity.label>Нечистот на клетку</SewageGridCapacity.label>
+	<!-- Оригинал: Расход горячей воды -->
+	<WaterHeatingRate.label>Горячая вода</WaterHeatingRate.label>
+	<!-- Оригинал: Шанс загрязнения -->
+	<ContaminationChance.label>Шанс заразиться</ContaminationChance.label>
+	<!-- Оригинал:  -->
+	<SewageProcRate.label>Септики</SewageProcRate.label>
+	<!-- Оригинал:  -->
+	<SewageProcRate.tip>Скорость удаления нечистот в септиках и водоочистных установках</SewageProcRate.tip>
+
+	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+
+	<!-- EN: Hygiene need rate -->
+	<HygieneRateD.label>Скорость загрязнения</HygieneRateD.label>
+	<!-- EN: How fast hygiene need decreases -->
+	<HygieneRateD.tip>Насколько быстро формируется нужда в гигиенических процедурах</HygieneRateD.tip>
+	<!-- EN: Bladder need rate -->
+	<BladderRateD.label>Туалет</BladderRateD.label>
+	<!-- EN: How fast bladder need decreases -->
+	<BladderRateD.tip>Насколько быстро формируется нужда в туалете</BladderRateD.tip>
+	<!-- EN: Thirst need rate -->
+	<ThirstRateD.label>Жажда</ThirstRateD.label>
+	<!-- EN: How fast thirst need decreases -->
+	<ThirstRateD.tip>Насколько быстро растёт жажда</ThirstRateD.tip>
+	<!-- EN: Fertilizer lifespan -->
+	<FertilizerLifespan.label>Срок службы удобрения</FertilizerLifespan.label>
+	<!-- EN: 240 days (3 years) -->
+	<FertilizerLifespan.options.1.label>240 дней (3 г.)</FertilizerLifespan.options.1.label>
+	<!-- EN: 180 days -->
+	<FertilizerLifespan.options.2.label>180 дней (2,5 г.)</FertilizerLifespan.options.2.label>
+	<!-- EN: 120 days (2 years) -->
+	<FertilizerLifespan.options.3.label>120 дней (2 г.)</FertilizerLifespan.options.3.label>
+	<!-- EN: 80 days -->
+	<FertilizerLifespan.options.4.label>80 дней (5 сез.)</FertilizerLifespan.options.4.label>
+	<!-- EN: 60 days (1 year) -->
+	<FertilizerLifespan.options.5.label>60 дней (1 год)</FertilizerLifespan.options.5.label>
+	<!-- EN: 40 days -->
+	<FertilizerLifespan.options.6.label>40 дней (3 сез.)</FertilizerLifespan.options.6.label>
+	<!-- EN: 30 days -->
+	<FertilizerLifespan.options.7.label>30 дней (2 сез.)</FertilizerLifespan.options.7.label>
+	<!-- EN: 20 days -->
+	<FertilizerLifespan.options.8.label>20 дней (1 сез.)</FertilizerLifespan.options.8.label>
+	<!-- EN: 10 days -->
+	<FertilizerLifespan.options.9.label>10 дней</FertilizerLifespan.options.9.label>
+	<!-- EN: 1 day -->
+	<FertilizerLifespan.options.10.label>1 день</FertilizerLifespan.options.10.label>
+	<!-- EN: How long terrain remains fertilized after applying fertilizer -->
+	<FertilizerLifespan.tip>Как долго почва считается удобренной после соответствующей обработки</FertilizerLifespan.tip>
+
+</LanguageData>
