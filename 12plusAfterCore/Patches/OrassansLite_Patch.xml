@@ -7,6 +7,7 @@
 	<Operation MayRequire="dianawinters.OrassansLite" Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
+
 			<!-- орассане: -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="Leather_Orassan"]</xpath>
@@ -178,13 +179,14 @@
 				</value>
 			</li>
 
-			<!-- кошачьи трубочки: -->
+			<!-- мятное пирожное: -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="CatnipJoint"]</xpath>
 				<value>
 					<thingCategories>
 						<li>Foods</li>
 					</thingCategories>
+					<tickerType>Normal</tickerType>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -196,6 +198,12 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "CatnipJoint"]/stackLimit/text()</xpath>
 				<value>8</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "CatnipJoint"]/statBases</xpath>
+				<value>
+					<Nutrition>0.45</Nutrition>
+				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "CatnipJoint"]/ingestible</xpath>
@@ -228,7 +236,12 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "CatnipJoint"]/comps</xpath>
 				<value>
-					<comps />
+					<comps>
+						<li Class="CompProperties_Rottable">
+							<daysToRotStart>14</daysToRotStart>
+							<rotDestroys>false</rotDestroys>
+						</li>
+					</comps>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
