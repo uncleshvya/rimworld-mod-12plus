@@ -180,81 +180,74 @@
 			</li>
 
 			<!-- мятное пирожное: -->
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="CatnipJoint"]</xpath>
-				<value>
-					<thingCategories>
-						<li>Foods</li>
-					</thingCategories>
-					<tickerType>Normal</tickerType>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "CatnipJoint"]/graphicData</xpath>
-				<value>
-					<drawSize>0.75</drawSize>
-				</value>
-			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "CatnipJoint"]/stackLimit/text()</xpath>
-				<value>8</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "CatnipJoint"]/statBases</xpath>
+				<xpath>Defs/ThingDef[defName = "CatnipJoint"]</xpath>
 				<value>
-					<Nutrition>0.45</Nutrition>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "CatnipJoint"]/ingestible</xpath>
-				<value>
-					<ingestible>
-						<foodType>Processed</foodType>
-						<joyKind>Gluttonous</joyKind>
-						<joy>0.18</joy>
-						<nurseable>true</nurseable>
-						<ingestSound>Meal_Eat</ingestSound>
-						<ingestHoldOffsetStanding>
-							<northDefault>
-								<offset>(0.18,0,0)</offset>
-							</northDefault>
-						</ingestHoldOffsetStanding>
-						<ingestCommandString>Eat {0}</ingestCommandString>
-						<ingestReportString>Eating {0}.</ingestReportString>
-					</ingestible>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "CatnipJoint"]/recipeMaker/recipeUsers</xpath>
-				<value>
-					<recipeUsers>
-						<li>FueledStove</li>
-						<li>ElectricStove</li>
-					</recipeUsers>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "CatnipJoint"]/comps</xpath>
-				<value>
-					<comps>
-						<li Class="CompProperties_Rottable">
-							<daysToRotStart>14</daysToRotStart>
-							<rotDestroys>false</rotDestroys>
-						</li>
-					</comps>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "CatnipJoint"]/costList</xpath>
-				<value>
-					<costList>
-						<CatnipLeaves>8</CatnipLeaves>
-						<Milk>8</Milk>
-					</costList>
+					<ThingDef ParentName="ResourceBase">
+						<defName>CatnipJoint</defName>
+						<label>catnip joint</label>
+						<description>Catnip leaves prepared in small rolls for smoking. Much like smokeleaf, the drug improves mood, but also increases appetite, reduces focus and slows movement. Catnip use can produce a dependency. Can be produced without equipment, at a crafting spot.</description>
+						<thingCategories>
+							<li>Foods</li>
+						</thingCategories>
+						<graphicData>
+							<texPath>Things/Item/Drug/CatJoint</texPath>
+							<graphicClass>Graphic_StackCount</graphicClass>
+							<drawSize>0.75</drawSize>
+						</graphicData>
+						<stackLimit>8</stackLimit>
+						<rotatable>false</rotatable>
+						<statBases>
+							<Mass>0.2</Mass>
+							<WorkToMake>500</WorkToMake>
+							<MarketValue>14</MarketValue>
+							<Nutrition>0.4</Nutrition>
+							<Flammability>1</Flammability>
+						</statBases>
+						<techLevel>Neolithic</techLevel>
+						<ingestible>
+							<preferability>DesperateOnly</preferability>
+							<foodType>Processed</foodType>
+							<joyKind>Gluttonous</joyKind>
+							<joy>0.18</joy>
+							<nurseable>true</nurseable>
+							<ingestSound>Meal_Eat</ingestSound>
+							<ingestHoldOffsetStanding>
+								<northDefault>
+									<offset>(0.35,0,0.1)</offset>
+								</northDefault>
+							</ingestHoldOffsetStanding>
+							<ingestCommandString>Eat {0}</ingestCommandString>
+							<ingestReportString>Eating {0}.</ingestReportString>
+						</ingestible>
+						<recipeMaker>
+							<recipeUsers>
+								<li>FueledStove</li>
+								<li>ElectricStove</li>
+							</recipeUsers>
+							<workSpeedStat>CookSpeed</workSpeedStat>
+							<workSkill>Cooking</workSkill>
+							<skillRequirements>
+								<Cooking>6</Cooking>
+							</skillRequirements>
+						</recipeMaker>
+						<costList>
+							<CatnipLeaves>8</CatnipLeaves>
+							<Milk>8</Milk>
+						</costList>
+						<comps>
+							<li Class="CompProperties_Rottable">
+								<daysToRotStart>14</daysToRotStart>
+								<rotDestroys>true</rotDestroys>
+							</li>
+						</comps>
+						<tickerType>Rare</tickerType>
+					</ThingDef>
 				</value>
 			</li>
 
 			<!-- исправлена неточность, сообщите разработчику, что 2 рецепта устарели: -->
+
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/RecipeDef[defName = "MakeCatnipJoint5"]/recipeUsers</xpath>
 				<value>
@@ -269,6 +262,7 @@
 			</li>
 
 			<!-- исправлена неточность, сообщите разработчику, что иначе рецептов в 2 раза больше нужного: -->
+
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/recipes</xpath>
 				<value>
@@ -283,6 +277,7 @@
 			</li>
 
 			<!-- исправлена неточность, сообщите разработчику, что иначе лёд орассан не удаляется: -->
+
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/TerrainDef[defName = "OrassanSoil"]</xpath>
 				<value>
@@ -291,6 +286,7 @@
 			</li>
 
 			<!-- уменьшение хвостов в полтора раза, сообщите разработчику, вдруг ей тоже понравится: -->
+
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart = "tail"]/drawSize/text()</xpath>
 				<value>0.5</value>
