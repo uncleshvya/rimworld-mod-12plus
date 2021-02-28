@@ -9,17 +9,17 @@
 		<operations>
 
 			<!-- орассане: -->
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="Leather_Orassan"]</xpath>
-				<value>
-					<thingCategories>
-						<li>Textiles</li>
-					</thingCategories>
-				</value>
+			<li Class="PatchOperationAttributeSet">
+				<xpath>Defs/ThingDef[defName = "Leather_Orassan"]</xpath>
+				<attribute>ParentName</attribute>
+				<value>WoolBase</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "Leather_Orassan"]/graphicData/color/text()</xpath>
-				<value>(147, 140, 129)</value>
+				<xpath>Defs/ThingDef[defName = "Leather_Orassan"]/graphicData/color</xpath>
+				<value>
+					<color>(147, 140, 129)</color>
+					<drawSize>0.5</drawSize>
+				</value>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/race</xpath>
@@ -65,10 +65,19 @@
 				</value>
 			</li>
 
-			<!-- гибриды: -->
 			<!-- как отменить действие патча?
 			\Mods\OrassansLite\1.2\Patches\meals.xml
+			возможно операцией PatchOperationFindMod
 			пришлось поставить костыль переводом для Meat_Alien_Orassan -->
+
+<!-- этот вариант снял все ограничения, даже с мяса насекомого. Попробовать активировать его и удалить мясо орассан. Проверять на новой игре!!!
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[@Name = "CookMealBase"]/defaultIngredientFilter/disallowedThingDefs[li = "Meat_Alien_Orassan"]</xpath>
+			</li>
+тут по моему ещё надо удалить квадратные скобки с содержимым
+-->
+
+			<!-- гибриды: -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_OrassanHumanHybrid"]/race</xpath>
 				<value>
@@ -141,8 +150,13 @@
 			</li>
 
 			<!-- напиток: -->
+			<li Class="PatchOperationAttributeSet">
+				<xpath>Defs/ThingDef[defName = "Catberryjuice"]</xpath>
+				<attribute>ParentName</attribute>
+				<value>ResourceBase</value>
+			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="Catberryjuice"]</xpath>
+				<xpath>Defs/ThingDef[defName = "Catberryjuice"]</xpath>
 				<value>
 					<thingCategories>
 						<li>Foods</li>
@@ -153,7 +167,8 @@
 				<xpath>Defs/ThingDef[defName = "Catberryjuice"]/ingestible</xpath>
 				<value>
 					<ingestible>
-						<foodType>Fluid, Processed, Liquor</foodType>
+						<preferability>DesperateOnly</preferability>
+						<foodType>Fluid, Processed</foodType>
 						<joyKind>Gluttonous</joyKind>
 						<joy>0.15</joy>
 						<nurseable>true</nurseable>
@@ -168,15 +183,8 @@
 					</ingestible>
 				</value>
 			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "Catberryjuice"]/comps</xpath>
-				<value>
-					<comps>
-						<li>
-							<compClass>CompEquippable</compClass>
-						</li>
-					</comps>
-				</value>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "Catberryjuice"]/comps/li[1]</xpath>
 			</li>
 
 			<!-- мятное пирожное: -->
@@ -248,32 +256,20 @@
 
 			<!-- исправлена неточность, сообщите разработчику, что 2 рецепта устарели: -->
 
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "MakeCatnipJoint5"]/recipeUsers</xpath>
-				<value>
-					<recipeUsers />
-				</value>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "MakeCatnipJoint5"]</xpath>
 			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "MakeCatnipJoint15"]/recipeUsers</xpath>
-				<value>
-					<recipeUsers />
-				</value>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "MakeCatnipJoint15"]</xpath>
 			</li>
 
 			<!-- исправлена неточность, сообщите разработчику, что иначе рецептов в 2 раза больше нужного: -->
 
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationRemove">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/recipes</xpath>
-				<value>
-					<recipes />
-				</value>
 			</li>
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationRemove">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_OrassanHumanHybrid"]/recipes</xpath>
-				<value>
-					<recipes />
-				</value>
 			</li>
 
 			<!-- исправлена неточность, сообщите разработчику, что иначе лёд орассан не удаляется: -->
@@ -288,11 +284,11 @@
 			<!-- уменьшение хвостов в полтора раза, сообщите разработчику, вдруг ей тоже понравится: -->
 
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart = "tail"]/drawSize/text()</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/drawSize/text()</xpath>
 				<value>0.5</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart = "tail"]/offsets/north/bodyTypes</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/north/bodyTypes</xpath>
 				<value>
 					<bodyTypes>
 						<Male>(-0.02,0.1)</Male>
@@ -303,7 +299,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart = "tail"]/offsets/east/bodyTypes</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/east/bodyTypes</xpath>
 				<value>
 					<bodyTypes>
 						<Male>(-0.05,-0.1)</Male>
@@ -316,11 +312,11 @@
 
 			<!-- аналогично для гибридов: -->
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_OrassanHumanHybrid"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart = "tail"]/drawSize/text()</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_OrassanHumanHybrid"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/drawSize/text()</xpath>
 				<value>0.5</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_OrassanHumanHybrid"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart = "tail"]/offsets/north/bodyTypes</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_OrassanHumanHybrid"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/north/bodyTypes</xpath>
 				<value>
 					<bodyTypes>
 						<Male>(-0.02,0.1)</Male>
@@ -331,7 +327,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_OrassanHumanHybrid"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart = "tail"]/offsets/east/bodyTypes</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_OrassanHumanHybrid"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/east/bodyTypes</xpath>
 				<value>
 					<bodyTypes>
 						<Male>(0,-0.15)</Male>
@@ -344,5 +340,4 @@
 
 		</operations>
 	</Operation>
-
 </Patch>
