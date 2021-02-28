@@ -23,6 +23,7 @@
 	<PlantCateye.label>куст ягод «кошачий глаз»</PlantCateye.label>
 	<!-- EN: A bush plant cultivated for its stimulating berries. Cat s eye berries can be brewed into a drink analagous to coffee... except it tastes much better. Can withstand even the harshest cold weather. -->
 	<PlantCateye.description>Кустистое растение родом с ледяной планеты Орассия, выращиваемое ради вкусных ягод. Название произошло из-за окраски зрелого плода, ярко-синей ягоды с продольной чёрной полоской, похожего на глаз кошки при свете дня. Растение приспособилось к вечной зиме родной планеты и может расти даже на лютом морозе.</PlantCateye.description>
+	<!-- EN: Ripe cat s eye berries. Can be consumed directly for a small buzz or refined further into a refreshing juice. -->
 	<CateyeBerries.description>Спелые ягоды «кошачий глаз». Можно съесть сырыми или приготовить вкусный свежевыжатый сок.</CateyeBerries.description>
 	<!-- EN: neko -->
 	<Alien_OrassanHumanHybrid.label>нэко</Alien_OrassanHumanHybrid.label>
@@ -58,7 +59,6 @@
 	<CatnipLeaves.description>Срезанные листья кошачьей мяты орассан. Применяются в производстве кондитерских изделий.</CatnipLeaves.description>
 	<!-- EN: cat s eye berries -->
 	<CateyeBerries.label>ягоды «кошачий глаз»</CateyeBerries.label>
-	<!-- EN: Ripe cat s eye berries. Can be consumed directly for a small buzz or refined further into a refreshing juice. -->
 	<!-- EN: orassan fur -->
 	<Leather_Orassan.label>шёрстка орассан</Leather_Orassan.label>
 	<!-- EN: A soft furry pelt harvested from an orassan. Most will find this ditestible, and it doesn t protect well from physical damage, but it will keep you warm in even the coldest enviroments. -->
@@ -84,10 +84,6 @@
 	<OBionicTail.label>бионический хвост орассан</OBionicTail.label>
 	<!-- EN: A sophisticated prehensile tail replacement. It s like having another hand! -->
 	<OBionicTail.description>Высокотехнологичный цепкий заменитель хвоста. Помогает владельцу, как третья рука!</OBionicTail.description>
-	<!-- EN: left ear -->
-	<Alien_OrassanHumanHybrid.alienRace.generalSettings.alienPartGenerator.bodyAddons.1.bodyPart>левое кошачье ухо</Alien_OrassanHumanHybrid.alienRace.generalSettings.alienPartGenerator.bodyAddons.1.bodyPart>
-	<!-- EN: right ear -->
-	<Alien_OrassanHumanHybrid.alienRace.generalSettings.alienPartGenerator.bodyAddons.2.bodyPart>правое кошачье ухо</Alien_OrassanHumanHybrid.alienRace.generalSettings.alienPartGenerator.bodyAddons.2.bodyPart>
 	<!-- EN: left fist -->
 	<Alien_OrassanHumanHybrid.tools.left_fist.label>левый кулак</Alien_OrassanHumanHybrid.tools.left_fist.label>
 	<!-- EN: right fist -->
@@ -102,10 +98,6 @@
 	<Alien_Orassan.label>орассанин</Alien_Orassan.label>
 	<!-- EN: A baseline orassan, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Orassia planets. A mammalian humanoid feline race. Evolving in cold caves and life on space ships make it so they don t mind the dark or being inside for long periods of time. -->
 	<Alien_Orassan.description>Представитель расы человекоподобных кошек с ледяной планеты Орассия. Эти прямоходящие млекопитающие эволюционировали в пещерах под поверхностью холодного мира, а затем успешно жили на кораблях поколений без анабиоза. Как результат, орассане не боятся темноты и спокойно живут в замкнутом пространстве.</Alien_Orassan.description>
-	<!-- EN: left ear -->
-	<Alien_Orassan.alienRace.generalSettings.alienPartGenerator.bodyAddons.1.bodyPart>левое кошачье ухо</Alien_Orassan.alienRace.generalSettings.alienPartGenerator.bodyAddons.1.bodyPart>
-	<!-- EN: right ear -->
-	<Alien_Orassan.alienRace.generalSettings.alienPartGenerator.bodyAddons.2.bodyPart>правое кошачье ухо</Alien_Orassan.alienRace.generalSettings.alienPartGenerator.bodyAddons.2.bodyPart>
 	<!-- EN: left fist -->
 	<Alien_Orassan.tools.left_fist.label>левый кулак</Alien_Orassan.tools.left_fist.label>
 	<!-- EN: right fist -->
