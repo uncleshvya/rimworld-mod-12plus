@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- добавлена русская локализация, сообщите разработчику -->
+
+	<!-- EN: Orassan Enclave -->
+	<Orassan.label>Поселение Анклава орассан</Orassan.label>
+	<!-- EN: A small community of Orassans.\n\nThese people have come here to expand the borders of their empire. -->
+	<Orassan.description>Небольшое сообщество орассан.\n\nОни поселились здесь с целью расширить границы своей Империи.</Orassan.description>
+	<!-- EN: orassan -->
+	<Orassan.pawnSingular>поселенец</Orassan.pawnSingular>
+	<!-- EN: orassans -->
+	<Orassan.pawnsPlural>поселенцы</Orassan.pawnsPlural>
+
+	<!-- EN: Orassan Enclave -->
+	<OrassanPlayerColony.label>Поселение Анклава орассан</OrassanPlayerColony.label>
+	<!-- EN: Your own community. -->
+	<OrassanPlayerColony.description>Ваше поселение.</OrassanPlayerColony.description>
+	<!-- EN: member -->
+	<OrassanPlayerColony.pawnSingular>поселенец</OrassanPlayerColony.pawnSingular>
+	<!-- EN: colonists -->
+	<OrassanPlayerColony.pawnsPlural>поселенцы</OrassanPlayerColony.pawnsPlural>
+
+</LanguageData>
