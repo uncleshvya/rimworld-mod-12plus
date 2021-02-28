@@ -8,9 +8,15 @@
 	Copyright (c) Haplo
 	-->
 
+	<!-- напиток -->
 	<Operation MayRequire="Haplo.Miscellaneous.BeesNHoney" Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
+			<li Class="PatchOperationAttributeSet">
+				<xpath>Defs/ThingDef[defName = "Mead"]</xpath>
+				<attribute>ParentName</attribute>
+				<value>ResourceBase</value>
+			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="Mead"]</xpath>
 				<value>
@@ -20,11 +26,11 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<success>Always</success>
 				<xpath>Defs/ThingDef[defName = "Mead"]/ingestible</xpath>
 				<value>
 					<ingestible>
-						<foodType>Fluid, Processed, Liquor</foodType>
+						<preferability>DesperateOnly</preferability>
+						<foodType>Fluid, Processed</foodType>
 						<joyKind>Gluttonous</joyKind>
 						<joy>0.18</joy>
 						<nurseable>true</nurseable>
@@ -39,18 +45,15 @@
 					</ingestible>
 				</value>
 			</li>
-			<li Class="PatchOperationReplace">
-				<success>Always</success>
-				<xpath>Defs/ThingDef[defName = "Mead"]/comps</xpath>
-				<value>
-					<comps>
-						<li>
-							<compClass>CompEquippable</compClass>
-						</li>
-					</comps>
-				</value>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "Mead"]/comps/li[1]</xpath>
+			</li>
+
+			<!-- исправлена неточность, сообщите разработчику, что лишние категории захламляют список -->
+
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[@Name = "ResourceHoneycombBase_MiscBees"]/thingCategories/li[2]</xpath>
 			</li>
 		</operations>
 	</Operation>
-
 </Patch>
