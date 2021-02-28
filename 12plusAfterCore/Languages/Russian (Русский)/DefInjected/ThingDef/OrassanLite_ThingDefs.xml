@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- исправление согласно концепции «12+» -->
@@ -7,5 +7,136 @@
 	<Meat_Alien_Orassan.label>поддельное мумиё орассан</Meat_Alien_Orassan.label>
 	<!-- EN: (как у человека) -->
 	<Meat_Alien_Orassan.description>Принципиально не отличается от такого же с Земли.\nМумиё, по некоторым данным, состоит из ферментированной смеси экскрементов горных животных и пыли. Использовалось в народной медицине разных культур, но по результатам современных исследований, не имеет лечебных свойств. Однако богатая история вещества обусловила ярко выраженный эффект плацебо. Настоящее мумиё довольно редко встречается и не может удовлетворить спрос всех желающих, поэтому производители часто подделывают его, изготавливая из навоза, минералов и трав.</Meat_Alien_Orassan.description>
+	<!-- EN: cat's eye berry juice -->
+	<Catberryjuice.label>сок ягоды «кошачий глаз»</Catberryjuice.label>
+	<!-- EN: Cat s Eye berries pressed and concentrated into a delicious and energizing juice. One of the most popular drinks on Orassia. -->
+	<Catberryjuice.description>Из ягод «кошачий глаз» выжимают сок, фильтруют и концентрируют. Получается очень вкусный напиток, один из самых популярных на планете Орассия.</Catberryjuice.description>
+	<!-- EN: catnip joint -->
+	<CatnipJoint.label>мятное пирожное</CatnipJoint.label>
+	<!-- EN: Catnip leaves prepared in small rolls for smoking. Much like smokeleaf, the drug improves mood, but also increases appetite, reduces focus and slows movement. Catnip use can produce a dependency. Can be produced without... -->
+	<CatnipJoint.description>Вкусное пирожное на основе творога, с добавлением листьев кошачьей мяты орассан. Довольно питательное, вызывает чувство удовлетворения.</CatnipJoint.description>
+	<!-- EN: catnip plant -->
+	<PlantCatnip.label>кошачья мята</PlantCatnip.label>
+	<!-- EN: A leafy plant cultivated for its psychological effects. Catnip leaves can be rolled into joints at a crafting spot. Can withstand even the harshest cold weather. -->
+	<PlantCatnip.description>Растение родом с ледяной планеты Орассия. Как и земной аналог, имеет сильный своеобразный «лимонный» запах, так любимый кошками. Листья применяются в производстве кондитерских изделий. Кошачья мята орассан приспособилась к вечной зиме родной планеты и может расти даже на лютом морозе.</PlantCatnip.description>
+		<!-- EN: cat's eye plant -->
+	<PlantCateye.label>куст ягод «кошачий глаз»</PlantCateye.label>
+	<!-- EN: A bush plant cultivated for its stimulating berries. Cat s eye berries can be brewed into a drink analagous to coffee... except it tastes much better. Can withstand even the harshest cold weather. -->
+	<PlantCateye.description>Кустистое растение родом с ледяной планеты Орассия, выращиваемое ради вкусных ягод. Название произошло из-за окраски зрелого плода, ярко-синей ягоды с продольной чёрной полоской, похожего на глаз кошки при свете дня. Растение приспособилось к вечной зиме родной планеты и может расти даже на лютом морозе.</PlantCateye.description>
+	<CateyeBerries.description>Спелые ягоды «кошачий глаз». Можно съесть сырыми или приготовить вкусный свежевыжатый сок.</CateyeBerries.description>
+	<!-- EN: neko -->
+	<Alien_OrassanHumanHybrid.label>нэко</Alien_OrassanHumanHybrid.label>
+	<!-- EN: A hybrid with DNA from a human and an orassan. Typically created through careful genetic engineering in a lab, or the "natural" way from individuals with closely regulated gene mods, these hybrids combine some of the best traits from their parent species. The particular traits and physical characteristics that are being inherited are typically chosen by the parents having the child, but they almost always have two feline ears and a feline tail, both with fur sharing the same color as the hair on their head. -->
+	<Alien_OrassanHumanHybrid.description>Гибрид, имеющий фрагменты ДНК людей и орассан. Обычно создаётся в лаборатории из одной клетки после тщательного генетического конструирования. Но бывает, что в нэко превращается взрослый человек или орассанин после комплексной генотерапии.\n\nТакие гибриды сочетают в себе лучшие стороны двух видов. Внешность нэко зависит от наследственности, но почти всегда у них есть два кошачьих уха и пушистый хвост.</Alien_OrassanHumanHybrid.description>
+
+	<!-- добавлена русская локализация, сообщите разработчику -->
+
+	<!-- EN: Drink {0} -->
+	<Catberryjuice.ingestible.ingestCommandString>Выпить {0}</Catberryjuice.ingestible.ingestCommandString>
+	<!-- EN: Drinking {0}. -->
+	<Catberryjuice.ingestible.ingestReportString>Пьёт {0}.</Catberryjuice.ingestible.ingestReportString>
+	<!-- EN: bottle -->
+	<Catberryjuice.tools.bottle.label>бутылка</Catberryjuice.tools.bottle.label>
+	<!-- EN: neck -->
+	<Catberryjuice.tools.neck.label>горлышко</Catberryjuice.tools.neck.label>
+	<!-- EN: Eat {0} -->
+	<CatnipJoint.ingestible.ingestCommandString>Съесть {0}</CatnipJoint.ingestible.ingestCommandString>
+	<!-- EN: Eating {0}. -->
+	<CatnipJoint.ingestible.ingestReportString>Ест {0}.</CatnipJoint.ingestible.ingestReportString>
+	<!-- EN: Blue Cat Lily -->
+	<Plant_CatLavender.label>кошачья лаванда</Plant_CatLavender.label>
+	<!-- EN: This fragile flowering plant was genetically engineered to produce a silk net that is both difficult to tear and soft to the touch. While the plant takes a very long time to grow, only exotic ultra-tech fabrics outperform its fibers. -->
+	<Plant_CatLavender.description>Это хрупкое цветковое растение, родом с ледяной планеты Орассия, было генетически модифицировано для получения крепкого волокна. Из него делают красивую ткань — прочную, но мягкую на ощупь. Единственный недостаток — растение очень долго созревает, поэтому его обычно выращивают на высокотехнологичных фермах. Как и другая флора орассан, кошачья лаванда приспособилась к вечной зиме родной планеты и может расти даже на лютом морозе.</Plant_CatLavender.description>
+	<!-- EN: blue cat lily -->
+	<CatLavenderCloth.label>лавандовая ткань</CatLavenderCloth.label>
+	<!-- EN: Fabric spun from microfibers extracted from blue cat lillies. It is very tough and exceptionally good at insulating. -->
+	<CatLavenderCloth.description>Текстильное полотно из синих волокон кошачьей лаванды орассан. Очень прочное, хорошо защищает от непогоды.</CatLavenderCloth.description>
+	<CatLavenderCloth.stuffProps.stuffAdjective>лавандовой ткани</CatLavenderCloth.stuffProps.stuffAdjective>
+	<!-- EN: catnip leaves -->
+	<CatnipLeaves.label>листья кошачьей мяты</CatnipLeaves.label>
+	<!-- EN: Raw cut leaves of a catnip plant. Can be rolled into smokeable joint at a crafting spot. -->
+	<CatnipLeaves.description>Срезанные листья кошачьей мяты орассан. Применяются в производстве кондитерских изделий.</CatnipLeaves.description>
+	<!-- EN: cat s eye berries -->
+	<CateyeBerries.label>ягоды «кошачий глаз»</CateyeBerries.label>
+	<!-- EN: Ripe cat s eye berries. Can be consumed directly for a small buzz or refined further into a refreshing juice. -->
+	<!-- EN: orassan fur -->
+	<Leather_Orassan.label>шёрстка орассан</Leather_Orassan.label>
+	<!-- EN: A soft furry pelt harvested from an orassan. Most will find this ditestible, and it doesn t protect well from physical damage, but it will keep you warm in even the coldest enviroments. -->
+	<Leather_Orassan.description>Поселенцы просто так не отдают свои волосы. Но изредка находятся люди, любители экзотики, которые всеми правдами и неправдами раздобывают старую шерсть полинявших орассан. Если её свалять, получается хоть и непрочное, но довольно тёплое полотно. Большинству людей не нравятся вещи из шерстяного мусора.</Leather_Orassan.description>
+	<Leather_Orassan.stuffProps.stuffAdjective>шерстяного мусора</Leather_Orassan.stuffProps.stuffAdjective>
+	<!-- EN: ori fur -->
+	<Leather_Ori.label>мех ори</Leather_Ori.label>
+	<!-- EN: A soft furry pelt harvested from an ori. It insulates moderately well. -->
+	<Leather_Ori.description>Очень мягкая и пушистая шкурка ори. Неплохо согревает.</Leather_Ori.description>
+	<!-- EN: desiri fur -->
+	<Leather_Desiri.label>мех дезири</Leather_Desiri.label>
+	<!-- EN: A soft furry pelt harvested from a desiri. It insulates moderately well. -->
+	<Leather_Desiri.description>Очень мягкая и пушистая шкура дезири. Хорошо согревает.</Leather_Desiri.description>
+	<!-- EN: orassan tail -->
+	<OTail.label>хвост орассан</OTail.label>
+	<!-- EN: An Orassan tail. -->
+	<OTail.description>Натуральный пушистый хвост орассан.</OTail.description>
+	<!-- EN: orassan claws -->
+	<OClaws.label>когти орассан</OClaws.label>
+	<!-- EN: Sharp claws capable of murdering many couches. -->
+	<OClaws.description>Острые когти, способные разодрать множество диванов.</OClaws.description>
+	<!-- EN: bionic orassan tail -->
+	<OBionicTail.label>бионический хвост орассан</OBionicTail.label>
+	<!-- EN: A sophisticated prehensile tail replacement. It s like having another hand! -->
+	<OBionicTail.description>Высокотехнологичный цепкий заменитель хвоста. Помогает владельцу, как третья рука!</OBionicTail.description>
+	<!-- EN: left ear -->
+	<Alien_OrassanHumanHybrid.alienRace.generalSettings.alienPartGenerator.bodyAddons.1.bodyPart>левое кошачье ухо</Alien_OrassanHumanHybrid.alienRace.generalSettings.alienPartGenerator.bodyAddons.1.bodyPart>
+	<!-- EN: right ear -->
+	<Alien_OrassanHumanHybrid.alienRace.generalSettings.alienPartGenerator.bodyAddons.2.bodyPart>правое кошачье ухо</Alien_OrassanHumanHybrid.alienRace.generalSettings.alienPartGenerator.bodyAddons.2.bodyPart>
+	<!-- EN: left fist -->
+	<Alien_OrassanHumanHybrid.tools.left_fist.label>левый кулак</Alien_OrassanHumanHybrid.tools.left_fist.label>
+	<!-- EN: right fist -->
+	<Alien_OrassanHumanHybrid.tools.right_fist.label>правый кулак</Alien_OrassanHumanHybrid.tools.right_fist.label>
+	<!-- EN: left claws -->
+	<Alien_OrassanHumanHybrid.tools.left_claws.label>когти левой руки</Alien_OrassanHumanHybrid.tools.left_claws.label>
+	<!-- EN: right claws -->
+	<Alien_OrassanHumanHybrid.tools.right_claws.label>когти правой руки</Alien_OrassanHumanHybrid.tools.right_claws.label>
+	<!-- EN: teeth -->
+	<Alien_OrassanHumanHybrid.tools.teeth.label>зубы</Alien_OrassanHumanHybrid.tools.teeth.label>
+	<!-- EN: orassan -->
+	<Alien_Orassan.label>орассанин</Alien_Orassan.label>
+	<!-- EN: A baseline orassan, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Orassia planets. A mammalian humanoid feline race. Evolving in cold caves and life on space ships make it so they don t mind the dark or being inside for long periods of time. -->
+	<Alien_Orassan.description>Представитель расы человекоподобных кошек с ледяной планеты Орассия. Эти прямоходящие млекопитающие эволюционировали в пещерах под поверхностью холодного мира, а затем успешно жили на кораблях поколений без анабиоза. Как результат, орассане не боятся темноты и спокойно живут в замкнутом пространстве.</Alien_Orassan.description>
+	<!-- EN: left ear -->
+	<Alien_Orassan.alienRace.generalSettings.alienPartGenerator.bodyAddons.1.bodyPart>левое кошачье ухо</Alien_Orassan.alienRace.generalSettings.alienPartGenerator.bodyAddons.1.bodyPart>
+	<!-- EN: right ear -->
+	<Alien_Orassan.alienRace.generalSettings.alienPartGenerator.bodyAddons.2.bodyPart>правое кошачье ухо</Alien_Orassan.alienRace.generalSettings.alienPartGenerator.bodyAddons.2.bodyPart>
+	<!-- EN: left fist -->
+	<Alien_Orassan.tools.left_fist.label>левый кулак</Alien_Orassan.tools.left_fist.label>
+	<!-- EN: right fist -->
+	<Alien_Orassan.tools.right_fist.label>правый кулак</Alien_Orassan.tools.right_fist.label>
+	<!-- EN: left claws -->
+	<Alien_Orassan.tools.left_claws.label>когти левой руки</Alien_Orassan.tools.left_claws.label>
+	<!-- EN: right claws -->
+	<Alien_Orassan.tools.right_claws.label>когти правой руки</Alien_Orassan.tools.right_claws.label>
+	<!-- EN: teeth -->
+	<Alien_Orassan.tools.teeth.label>зубы</Alien_Orassan.tools.teeth.label>
+	<!-- EN: ori -->
+	<Ori.label>ори</Ori.label>
+	<!-- EN: Native to Orassia, this monkey-like creature can use its curly tail to grab on to branches, leaving its hands free to do other things. Its natural habitat is in the equatorial region of the arctic planet. Due to it s curious nature, long lifespan, and friendly demeanor, it s a popular pet. Due to its popularity, Orassan colonists have brought them along on their journey, leading to many escaping on various planets across the galaxy. -->
+	<Ori.description>Эти похожие на обезьянок животные используют свой цепкий хвост, чтобы держаться за ветки, оставляя руки свободными для других занятий. Изначально этот вид обитал в экваториальной области ледяной планеты Орассия.\n\nПриродное любопытство, дружелюбное поведение и продолжительный жизненный срок сделали ори популярным домашним питомцем. Орассане всегда брали этих милых животных в новый дом, и завезли их на самые дальние планеты нашей галактики.</Ori.description>
+	<!-- EN: left fist -->
+	<Ori.tools.left_fist.label>левый кулак</Ori.tools.left_fist.label>
+	<!-- EN: right fist -->
+	<Ori.tools.right_fist.label>правый кулак</Ori.tools.right_fist.label>
+	<!-- EN: teeth -->
+	<Ori.tools.teeth.label>зубы</Ori.tools.teeth.label>
+	<!-- EN: head -->
+	<Ori.tools.head.label>голова</Ori.tools.head.label>
+	<!-- EN: desiri -->
+	<Animal_Desiri.label>дезири</Animal_Desiri.label>
+	<!-- EN: A small predator adapted for cold climates. It usually hunts small game like mice and voles, sometimes burrowing through a meter of snow to reach its prey... and the giant spiders native to Orassia. They use their strong jaws to crush their prey s exoskeleton and/or bones, and are surprisingly durable for their size. A somewhat popular pet among orassans. They typically live in pairs. -->
+	<Animal_Desiri.description>Небольшой хищник, приспособившийся к жизни в условиях вечной зимы. На родной планете Орассия дезири часто охотится на местных пауков размером с мышь, распознавая их на слух и затем раскапывая снег. Необычно сильные, для небольшого дезири, челюсти позволяют ему раскусывать хитиновые панцири или кости жертв. В дикой природе хищник обычно живёт парами. Довольно сообразителен, и некоторые из орассан приручают дезири.</Animal_Desiri.description>
+	<!-- EN: left claw -->
+	<Animal_Desiri.tools.left_claw.label>левая лапа</Animal_Desiri.tools.left_claw.label>
+	<!-- EN: right claw -->
+	<Animal_Desiri.tools.right_claw.label>правая лапа</Animal_Desiri.tools.right_claw.label>
+	<!-- EN: head -->
+	<Animal_Desiri.tools.head.label>пасть</Animal_Desiri.tools.head.label>
 
 </LanguageData>
