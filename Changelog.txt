@@ -2,8 +2,9 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-02-24 добавлена адаптация для мода OrassanLite. Ещё надо исправить в нём ошибку предысторий. 
-Скомпилирована версия 12+мода 0.4.6beta. Пока не удалось разделить переводы для 9 адаптированных модов, поэтому соответствующие файлы помечены текстом "Royalty_", "HumanoidAlienRaces_", "Numbers_", "BeesNhoney_", "MiscTraining_", "ConcreteWalls_", "OrassanLite_", "DubsBadHygiene_" и "AllowTool_" в именах файлов, для возможности поиска. 
+2021-02-28 добавлена адаптация для мода OrassanLite. Ещё надо исправить в нём ошибки предысторий и имён. 
+Скомпилирована версия 12+мода 0.4.6beta.
+Пока не удалось разделить переводы для 9 адаптированных модов, поэтому соответствующие файлы помечены текстом "Royalty_", "HumanoidAlienRaces_", "Numbers_", "BeesNhoney_", "MiscTraining_", "ConcreteWalls_", "OrassanLite_", "DubsBadHygiene_" и "AllowTool_" в именах файлов, для возможности поиска. 
 
 2021-02-23 добавлена адаптация для мода DubsBadHygiene. Там обнаружено много недопереведённого, начата работа по локализации.
 
@@ -63,7 +64,7 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-feb-24 DianaWinters.OrassansLite mod adaptation added. Besides, it's better to fix cats' backstories error.
+2021-feb-28 DianaWinters.OrassansLite mod adaptation added. Besides, it's better to fix cats' backstories and names' errors.
 UncleShvya.12plus mod v.0.4.6beta compiled. There are some unsolved problems with cataloging, so the files were marked with tags "Royalty_", "HumanoidAlienRaces_", "Numbers_", "BeesNhoney_", "MiscTraining_", "ConcreteWalls_", "OrassansLite_", "DubsBadHygiene_" and "AllowTool_" in files' names.
 
 2021-feb-23 Dubwise.DubsBadHygiene mod adaptation added. There are a lot of russian translations missing. Fix work started.
