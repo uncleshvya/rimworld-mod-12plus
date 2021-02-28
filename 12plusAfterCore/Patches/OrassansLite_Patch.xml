@@ -338,6 +338,12 @@
 				</value>
 			</li>
 
+			<!-- исправлена неточность, сообщите разработчику, что это больше соответствует лору: -->
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ScenarioDef[defName="OrassanScenario"]/scenario/parts/li[2]/method/text()</xpath>
+				<value>DropPods</value>
+			</li>
 		</operations>
 	</Operation>
 </Patch>
