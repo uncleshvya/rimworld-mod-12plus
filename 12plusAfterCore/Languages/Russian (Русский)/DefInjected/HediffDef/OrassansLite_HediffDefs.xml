@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- добавлена русская локализация, сообщите разработчику -->
+
+	<!-- EN: cloth orassan tail -->
+	<OClothTail.label>хвост орассан из ткани</OClothTail.label>
+	<!-- EN: Simple prosthesis made to replace a missing tail. It's better than nothing... -->
+	<OClothTail.description>Простой протез, заменяющий потерянный хвост. Это лучше чем ничего...</OClothTail.description>
+	<!-- EN: orassan plasteel claws -->
+	<PlasteelClaws.label>когти орассан из пластали</PlasteelClaws.label>
+	<!-- EN: Even sharper claws capable of murdering many more couches! -->
+	<PlasteelClaws.description>Ещё более острые когти, способные разодрать гораздо больше диванов!</PlasteelClaws.description>
+	<!-- EN: plasteel claws -->
+	<PlasteelClaws.comps.HediffComp_VerbGiver.tools.plasteel_claws.label>когти из пластали</PlasteelClaws.comps.HediffComp_VerbGiver.tools.plasteel_claws.label>
+	<!-- EN: bionic orassan tail -->
+	<OBionicTail.label>бионический хвост орассан</OBionicTail.label>
+	<!-- EN: Includes an integrated gyroscope to help maintain balance and imrpove manipulation. -->
+	<OBionicTail.description>Продвинутый протез хвоста для орассан или нэко. Специальные волокна выполняют функцию мышц, а биогелевое нейросоединение обеспечивает превосходный контроль. После небольшой тренировки обладатель такого хвоста может помогать себе во время работы, поддерживая предметы, как это делают слоны своим хоботом.</OBionicTail.description>
+
+</LanguageData>
