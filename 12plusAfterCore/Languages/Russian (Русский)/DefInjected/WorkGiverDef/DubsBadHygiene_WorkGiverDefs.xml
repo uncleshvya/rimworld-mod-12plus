@@ -7,16 +7,24 @@
 	<DoBillsBurnPit.label>сжигать в яме</DoBillsBurnPit.label>
 	<!-- Оригинал: сгрести нечистоты в бочки -->
 	<RemoveSewage.label>сгребать нечистоты в бочку</RemoveSewage.label>
+	<!-- Оригинал: сгребать нечистоты -->
+	<RemoveSewage.gerund>сгрести нечистоты в бочку, очистить</RemoveSewage.gerund>
 	<!-- Оригинал: достать компост из компостеров -->
 	<UnloadComposter.label>доставать компост из компостеров</UnloadComposter.label>
+	<!-- Оригинал: доставать компост из -->
+	<UnloadComposter.gerund>достать компост из</UnloadComposter.gerund>
 	<!-- Оригинал: наполнить компостер -->
 	<FillComposter.label>наполнять компостеры</FillComposter.label>
+	<!-- Оригинал: наполнять -->
+	<FillComposter.gerund>наполнить</FillComposter.gerund>
 	<!-- Оригинал: опорожнить сортир -->
 	<emptyLatrine.label>опорожнять выгребные ямы</emptyLatrine.label>
+	<!-- Оригинал: опорожнять -->
+	<emptyLatrine.gerund>опорожнить</emptyLatrine.gerund>
 	<!-- Оригинал: устранить засор -->
 	<ClearBlockage.label>устранять засоры</ClearBlockage.label>
 	<!-- Оригинал: устранять -->
-	<ClearBlockage.gerund>вычистить</ClearBlockage.gerund>
+	<ClearBlockage.gerund>устранить засор в</ClearBlockage.gerund>
 	<!-- Оригинал: мыть пациента -->
 	<washPatient.label>мыть пациентов</washPatient.label>
 	<!-- Оригинал: вынести утку -->
@@ -71,7 +79,7 @@
 	<!-- EN: refill water -->
 	<RefillWater.label>доливать воду</RefillWater.label>
 	<!-- EN: refilling -->
-	<RefillWater.gerund>доливать воду</RefillWater.gerund>
+	<RefillWater.gerund>долить воду</RefillWater.gerund>
 	<!-- EN: refill -->
 	<RefillWater.verb>доливать воду</RefillWater.verb>
 	
