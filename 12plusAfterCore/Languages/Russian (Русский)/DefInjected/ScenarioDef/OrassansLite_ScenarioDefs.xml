@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- добавлена русская локализация, сообщите разработчику -->
+
+	<!-- EN: Expansion -->
+	<OrassanScenario.label>Экспансия</OrassanScenario.label>
+	<!-- EN: The five of you arrive at a new location to set up a new outpost. -->
+	<OrassanScenario.description>Вы впятером прибыли на новое место, чтобы основать здесь базу.</OrassanScenario.description>
+	<!-- EN: The five of you arrive at a new location to set up a new outpost. -->
+	<OrassanScenario.scenario.description>Вы впятером прибыли на новое место, чтобы основать здесь базу.</OrassanScenario.scenario.description>
+	<!-- EN: Expansion -->
+	<OrassanScenario.scenario.name>Экспансия</OrassanScenario.scenario.name>
+	<!-- EN: The five of you arrive at a new location to set up a new outpost. -->
+	<OrassanScenario.scenario.summary>Вы впятером прибыли на новое место, чтобы основать здесь базу.</OrassanScenario.scenario.summary>
+
+</LanguageData>
