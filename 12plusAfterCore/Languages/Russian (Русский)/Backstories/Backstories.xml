@@ -531,8 +531,10 @@
 	<Pyromaniac18>
 		<!-- EN: pyromaniac -->
 		<title>химик</title>
+		<titleFemale>химик</titleFemale>
 		<!-- EN: pyro -->
 		<titleShort>химик</titleShort>
+		<titleShortFemale>химик</titleShortFemale>
 		<!-- EN: From an early age, [PAWN_nameDef] had an unhealthy fascination with fire. [PAWN_pronoun] would set refuse heaps ablaze and become so entranced by the flames [PAWN_pronoun] would absent-mindedly burn [PAWN_objective]self.\n\nOne day while playing with matches, [PAWN_pronoun] carelessly burned down [PAWN_possessive] home. -->
 		<desc>С раннего возраста {PAWN_nameDef} знает о своём таланте в химии. Когда {PAWN_pronoun} работает в лаборатории, то увлекаясь может забыть о сне и еде.\n\nОднажды {PAWN_nameDef} грубо нарушает технику безопасности, и {PAWN_possessive} дом сгорает.</desc>
 	</Pyromaniac18>
@@ -984,7 +986,7 @@
 		<!-- EN: recruiter -->
 		<titleShort>вербовщик</titleShort>
 		<titleShortFemale>вербовщица</titleShortFemale>
-		<!-- EN: [PAWN_nameDef] was part of an revered order of martial artists, infamous both for their skill in combat and for their practice of refusing to treat their wounded.\n\n[PAWN_pronoun] travelled [PAWN_possessive] homeworld, judging the young people [PAWN_pronoun] met to determine if they might be suitable for training. -->
+		<!-- EN: [PAWN_nameDef] was part of a revered order of martial artists, infamous both for their skill in combat and for their practice of refusing to treat their wounded.\n\n[PAWN_pronoun] travelled [PAWN_possessive] homeworld, judging the young people [PAWN_pronoun] met to determine if they might be suitable for training. -->
 		<desc>{PAWN_nameDef} — бывший член уважаемого ордена мастеров боевых искусств, печально известных как своими боевыми навыками, так и отказом от лечения собственных раненых.\n\nВ {PAWN_possessive} обязанности входило путешествовать по родному миру, отбирая молодых людей для обучения и тренировок в ордене.</desc>
 	</Recruiter14>
 
@@ -1648,7 +1650,7 @@
 		<!-- EN: hideaway -->
 		<titleShort>затворник</titleShort>
 		<titleShortFemale>затворница</titleShortFemale>
-		<!-- EN: [PAWN_nameDef]'s overprotective parents encouraged [PAWN_objective] to stay at home nearly every day. Though[PAWN_pronoun] had a lot of time to read and pursue crafting hobbies, [PAWN_pronoun] never developed normal social skills. -->
+		<!-- EN: [PAWN_nameDef]'s overprotective parents encouraged [PAWN_objective] to stay at home nearly every day. Though [PAWN_pronoun] had a lot of time to read and pursue crafting hobbies, [PAWN_pronoun] never developed normal social skills. -->
 		<desc>Всё своё детство {PAWN_nameDef} почти не {PAWN_gender ? выходил : выходила} из дома. И, хотя у н{PAWN_possessive} было много времени для чтения книг и увлечений ремёслами, {PAWN_pronoun} так и не {PAWN_gender ? смог : смогла} развить нормальных социальных навыков.</desc>
 	</Hideaway7>
 
@@ -2712,7 +2714,7 @@
 	<BanditLeader74>
 		<!-- EN: bandit leader -->
 		<title>бывший бандит</title>
-		<title>бывшая бандитка</title>
+		<titleFemale>бывшая бандитка</titleFemale>
 		<!-- EN: bandit -->
 		<titleShort>пенсионер</titleShort>
 		<titleShortFemale>пенсионерка</titleShortFemale>
@@ -3354,6 +3356,7 @@
 		<title>юный орнитолог</title>
 		<!-- EN: delinquent -->
 		<titleShort>орнитолог</titleShort>
+		<titleShortFemale>орнитолог</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was the only child of celebrity sommeliers. [PAWN_possessive] parents expected [PAWN_objective] to take up the family profession, but after [PAWN_possessive] third admission to a youth detention center, this career path became unlikely.\n\nWhile in detention, [PAWN_nameDef] became skilled at making shanks and developed an interest in ornithology. -->
 		<desc>{PAWN_nameDef} рождается единственным ребёнком в семье знаменитых сомелье. {PAWN_possessive} родители думали, что {PAWN_pronoun} продолжит фамильное дело, но {PAWN_nameDef} открывает в себе интерес к орнитологии и не интересуется ничем, кроме пташек.</desc>
 	</YouthDelinquent30>
@@ -3488,6 +3491,7 @@
 	<TestSubject39>
 		<!-- EN: test subject -->
 		<title>подопытный</title>
+		<titleFemale>подопытная</titleFemale>
 		<!-- EN: subject -->
 		<titleShort>подопытный</titleShort>
 		<titleShortFemale>подопытная</titleShortFemale>
@@ -3552,7 +3556,7 @@
 		<title>программист</title>
 		<titleFemale>программистка</titleFemale>
 		<!-- EN: programmer -->
-		<titleShort>программер</titleShort>
+		<titleShort>кодер</titleShort>
 		<!-- EN: [PAWN_nameDef] independently developed software that had a competitive edge against local urbworld corporations.\n\n[PAWN_possessive] legally questionable methods lead to a growing number in unsolved claims of intellectual property theft. -->
 		<desc>{PAWN_nameDef} самостоятельно разрабатывает программное обеспечение, имеющее конкурентное преимущество перед продуктами корпораций {PAWN_possessive} урбанизированного мира.\n\nВо время работы {PAWN_pronoun} замечает концептуальные недостатки программных инструментов, и разрабатывает удачный язык программирования, который становится известным под названием «{PAWN_nameDef}».</desc>
 	</LazyProgrammer3>
@@ -7844,6 +7848,7 @@
 		<titleFemale>юная шпионка</titleFemale>
 		<!-- EN: spy -->
 		<titleShort>проныра</titleShort>
+		<titleShortFemale>проныра</titleShortFemale>
 		<!-- EN: Children are often presumed innocent, and so make ideal spies. [PAWN_nameDef] was trained in the arts of infiltration and information-gathering when [PAWN_pronoun] was very young.\n\n[PAWN_possessive] spent years behind enemy lines, gathering intel in a brutal war. During this time, [PAWN_pronoun] had limited opportunity for education. -->
 		<desc>Дети считаются воплощением невинности, что делает их идеальными шпионами. {PAWN_nameDef} с девяти лет обучается искусству проникновения и сбора информации.\n\nГоды, проведённые в тылу противника, передача разведданных во время жестокой планетарной войны — это не то детство, о котором мечтают. {PAWN_nameDef} имеет крайне ограниченные возможности для образования.</desc>
 	</ChildSpy84>
@@ -8097,7 +8102,7 @@
 		<!-- EN: Heir -->
 		<titleShort>наследник</titleShort>
 		<titleShortFemale>наследница</titleShortFemale>
-		<!-- EN: [PAWN_nameDef] was a street urchin on a feudal steamworld.\n\n        After [PAWN_pronoun] tried to steal food from the palace, the emperor, desperate to secure an heir, took [PAWN_objective] in and groomed [PAWN_objective] to be next in line for the throne.\n       -->
+		<!-- EN: [PAWN_nameDef] was a street urchin on a feudal steamworld.\n\n After [PAWN_pronoun] tried to steal food from the palace, the emperor, desperate to secure an heir, took [PAWN_objective] in and groomed [PAWN_objective] to be next in line for the throne.\n -->
 		<desc>{PAWN_nameDef} растёт {PAWN_gender ? беспризорником : беспризорницей} на улицах одного из индустриальных миров.\n\nОднажды злые мальчишки выталкивают {PAWN_possessive} прямо под колёса императорского кортежа. Неожиданно тот останавливается, и замарашку забирают для выяснения личности. Отчаявшийся в попытках зачать наследника император берёт несостоявшуюся жертву к себе и готовит {PAWN_possessive} к восхождению на престол.</desc>
 	</CommonerHeir5>
 
@@ -8109,7 +8114,7 @@
 		<!-- EN: Lord -->
 		<titleShort>лорд</titleShort>
 		<titleShortFemale>леди</titleShortFemale>
-		<!-- EN: After years of training in martial arts and diplomacy, [PAWN_nameDef] was eventually given land and subjects of [PAWN_possessive] own to rule.\n\n        Because of [PAWN_nameDef]'s commoner heritage, the other lords disapproved. They framed [PAWN_objective] for a heinous crime, and the emperor had no choice but to exile [PAWN_objective].\n       -->
+		<!-- EN: After years of training in martial arts and diplomacy, [PAWN_nameDef] was eventually given land and subjects of [PAWN_possessive] own to rule.\n\n Because of [PAWN_nameDef]'s commoner heritage, the other lords disapproved. They framed [PAWN_objective] for a heinous crime, and the emperor had no choice but to exile [PAWN_objective].\n -->
 		<desc>После долгих лет обучения боевым искусствам и дипломатии {PAWN_nameDef} в конце концов становится {PAWN_gender ? хозяином : хозяйкой} земель с подданными.\n\nОднако из-за своего незнатного происхождения {PAWN_nameDef} не получает признания со стороны других лордов. Они обвиняют {PAWN_possessive} в гнусном преступлении, и {PAWN_gender ? новоявленному императору : новоявленной императрице} не остаётся ничего иного, кроме как бежать из страны.</desc>
 	</CommonerLord45>
 
@@ -8121,7 +8126,7 @@
 		<!-- EN: Student -->
 		<titleShort>школьник</titleShort>
 		<titleShortFemale>школьница</titleShortFemale>
-		<!-- EN: [PAWN_nameDef] had a shot at an education, but [PAWN_pronoun] rebelled against the injustices [PAWN_pronoun] saw and was expelled from three schools. This left [PAWN_objective] with a sense of integrity, but a lack of social skills.\n\n        [PAWN_nameDef] sought self-actualization. [PAWN_pronoun] spent [PAWN_possessive] days meditating and practicing katana and staff fighting techniques.\n -->
+		<!-- EN: [PAWN_nameDef] had a shot at an education, but [PAWN_pronoun] rebelled against the injustices [PAWN_pronoun] saw and was expelled from three schools. This left [PAWN_objective] with a sense of integrity, but a lack of social skills.\n\n [PAWN_nameDef] sought self-actualization. [PAWN_pronoun] spent [PAWN_possessive] days meditating and practicing katana and staff fighting techniques.\n -->
 		<desc>{PAWN_nameDef} {PAWN_gender ? хотел : хотела} получить образование, но не {PAWN_gender ? мог : могла} смириться с несправедливостями, с которыми {PAWN_gender ? сталкивался : сталкивалась} внутри образовательной системы, из-за чего {PAWN_gender ? был исключён : была исключена} из трёх школ. Это сделало {PAWN_possessive} {PAWN_gender ? независимым : независимой}, но лишило возможности получить полноценные навыки общения.\n\n{PAWN_nameDef} {PAWN_gender ? искал : искала} способы самореализации. {PAWN_pronoun} {PAWN_gender ? проводил : проводила} свои дни, медитируя и практикуя мастерство обращения с катаной и посохом.</desc>
 	</RebelliousStudent74>
 
@@ -8131,7 +8136,7 @@
 		<title>боец арены</title>
 		<!-- EN: Fighter -->
 		<titleShort>боец</titleShort>
-		<!-- EN: Motivated by the violence in [PAWN_possessive] environment, [PAWN_nameDef] studied martial arts, eventually signing up for an unarmed fighting tournament.\n\n        Unlike [PAWN_possessive] opponents, [PAWN_nameDef] looked to the ancient warriors for guidance. [PAWN_pronoun] trained from dusk till dawn, perfecting [PAWN_possessive] skills.\n       -->
+		<!-- EN: Motivated by the violence in [PAWN_possessive] environment, [PAWN_nameDef] studied martial arts, eventually signing up for an unarmed fighting tournament.\n\n Unlike [PAWN_possessive] opponents, [PAWN_nameDef] looked to the ancient warriors for guidance. [PAWN_pronoun] trained from dusk till dawn, perfecting [PAWN_possessive] skills.\n -->
 		<desc>Живя в окружении, полном насилия, {PAWN_nameDef} {PAWN_gender ? изучал : изучала} боевые искусства и, в конечном итоге, {PAWN_gender ? начал : начала} участвовать в соревнованиях по рукопашному бою.\n\nВ отличие от своих противников, {PAWN_nameDef} {PAWN_gender ? брал : брала} пример с различных воинов древности. {PAWN_pronoun} {PAWN_gender ? упражнялся : упражнялась} каждый день от рассвета до заката, оттачивая свои навыки.</desc>
 	</TournamentFighter28>
 
@@ -8161,7 +8166,7 @@
 		<title>вычислитель</title>
 		<!-- EN: computer -->
 		<titleShort>вычислитель</titleShort>
-		<!-- EN: As a child, [PAWN_nameDef] crafted complex algorithms. [PAWN_pronoun] was used as a "human computer" for most of [PAWN_possessive] childhood. This left [PAWN_objective] socially awkward and rather scrawny.\n\n        Despite the solitary confinement, [PAWN_nameDef] developed a great imagination to occupy [PAWN_possessive] idle time.\n       -->
+		<!-- EN: As a child, [PAWN_nameDef] crafted complex algorithms. [PAWN_pronoun] was used as a "human computer" for most of [PAWN_possessive] childhood. This left [PAWN_objective] socially awkward and rather scrawny.\n\n Despite the solitary confinement, [PAWN_nameDef] developed a great imagination to occupy [PAWN_possessive] idle time.\n -->
 		<desc>Будучи ребёнком, {PAWN_nameDef} {PAWN_gender ? создавал : создавала} сложные вычислительные алгоритмы. Всё детство {PAWN_possessive} использовали как «человека-компьютера». Из-за этого {PAWN_pronoun} {PAWN_gender ? вырос : выросла} {PAWN_gender ? неловким : неловкой} в общении и {PAWN_gender ? хилым : хилой}.\n\nНесмотря на постоянное одиночество, {PAWN_nameDef} {PAWN_gender ? выработал : выработала} богатое воображение, чтобы занимать себя в свободное время.</desc>
 	</Computer80>
 
@@ -8171,7 +8176,7 @@
 		<title>компьютерный инженер</title>
 		<!-- EN: engineer -->
 		<titleShort>инженер</titleShort>
-		<!-- EN: Leveraging [PAWN_possessive] childhood experience, [PAWN_nameDef] became a computer engineer. [PAWN_pronoun] also learned to craft delicate sculptures and random electronics for fun.\n\n        [PAWN_nameDef] became fond of technology and mostly gave up on talking to people. Using computers as friends has left [PAWN_nameDef] unable to care for others.\n       -->
+		<!-- EN: Leveraging [PAWN_possessive] childhood experience, [PAWN_nameDef] became a computer engineer. [PAWN_pronoun] also learned to craft delicate sculptures and random electronics for fun.\n\n        [PAWN_nameDef] became fond of technology and mostly gave up on talking to people. Using computers as friends has left [PAWN_nameDef] unable to care for others.\n -->
 		<desc>Руководствуясь своим детским опытом, {PAWN_nameDef} {PAWN_gender ? стал : стала} компьютерным инженером. {PAWN_pronoun} также {PAWN_gender ? научился : научилась} мастерить изощрённые скульптуры и различную электронику.\n\n{PAWN_nameDef} очень {PAWN_gender ? увлёкся : увлеклась} технологиями и почти {PAWN_gender ? перестал : перестала} общаться с людьми. Единственные друзья в виде компьютеров не научили {PAWN_possessive} заботиться о других.</desc>
 	</ComputerEngineer36>
 
@@ -8183,7 +8188,7 @@
 		<!-- EN: Nomad -->
 		<titleShort>кочевник</titleShort>
 		<titleShortFemale>кочевница</titleShortFemale>
-		<!-- EN: Born to a nomadic family in a feudal society, [PAWN_nameDef] was instructed in the arts of speechcraft, sleight of hand, horse riding.\n\n        [PAWN_pronoun] was always running around the camp doing odd jobs to help [PAWN_possessive] extended family.\n       -->
+		<!-- EN: Born to a nomadic family in a feudal society, [PAWN_nameDef] was instructed in the arts of speechcraft, sleight of hand, horse riding.\n\n [PAWN_pronoun] was always running around the camp doing odd jobs to help [PAWN_possessive] extended family.\n -->
 		<desc>{PAWN_gender ? Родившийся : Родившаяся} в семье кочевников в средневековом мире, {PAWN_nameDef} с самого детства {PAWN_gender ? обучался : обучалась} красноречию, ловкости рук и верховой езде.\n\nВсё своё время {PAWN_pronoun} {PAWN_gender ? хлопотал : хлопотала} в лагере, выполняя разнообразные, порой необычные, поручения на пользу своей большой семье.</desc>
 	</MedievalNomad12>
 
@@ -8195,7 +8200,7 @@
 		<!-- EN: Nomad -->
 		<titleShort>партизан</titleShort>
 		<titleShortFemale>партизанка</titleShortFemale>
-		<!-- EN: After refusing the wild demands of a tyrannical king, [PAWN_nameDef]'s nomad band was marked as an outlaw group and systematically hunted.\n\n        [PAWN_nameDef]'s family was eventually captured. Those who weren't killed were taken as slaves. Sold to the owner of a manufactory, [PAWN_nameDef] swore that one day [PAWN_pronoun] would have [PAWN_possessive] revenge.\n       -->
+		<!-- EN: After refusing the wild demands of a tyrannical king, [PAWN_nameDef]'s nomad band was marked as an outlaw group and systematically hunted.\n\n [PAWN_nameDef]'s family was eventually captured. Those who weren't killed were taken as slaves. Sold to the owner of a manufactory, [PAWN_nameDef] swore that one day [PAWN_pronoun] would have [PAWN_possessive] revenge.\n -->
 		<desc>После вторжения врага на территорию родной страны, {PAWN_nameDef} {PAWN_gender ? организовал : организовала} эффективную группу партизан. За их головы была назначена высокая награда.\n\n{PAWN_nameDef} {PAWN_gender ? сдался : сдалась} оккупантам после того, как те захватили {PAWN_possessive} семью. Работая в плену, {PAWN_gender ? бывший партизан поклялся : бывшая партизанка поклялась} отомстить врагам.</desc>
 	</VengefulNomad67>
 
@@ -8229,7 +8234,7 @@
 		<title>пилот космояхты</title>
 		<!-- EN: Pilot -->
 		<titleShort>пилот</titleShort>
-		<!-- EN: [PAWN_nameDef] ferried wealthy businessmen and politicians to and from his home world.\n\n        Witnessing the depths of hedonism these people descended to changed [PAWN_objective] in ways not even [PAWN_pronoun] understood.\n       -->
+		<!-- EN: [PAWN_nameDef] ferried wealthy businessmen and politicians to and from his home world.\n\n        Witnessing the depths of hedonism these people descended to changed [PAWN_objective] in ways not even [PAWN_pronoun] understood.\n -->
 		<desc>{PAWN_nameDef} {PAWN_gender ? перевозил : перевозила} богатых предпринимателей и политиков.\n\nПостоянно наблюдая за тем, в какие пучины гедонизма эти люди опускались, {PAWN_nameDef} сильно {PAWN_gender ? изменился : изменилась }, {PAWN_gender ? сам : сама} не осознавая, насколько.</desc>
 	</SpaceyachtPilot89>
 
@@ -8240,7 +8245,7 @@
 		<!-- EN: Cultist -->
 		<titleShort>культист</titleShort>
 		<titleShortFemale>культистка</titleShortFemale>
-		<!-- EN: Desiring to understand people, [PAWN_nameDef] learned hypnotism and discovered [PAWN_possessive] talent for the art.\n\n        [PAWN_pronoun] gathered followers and formed a cult around [PAWN_possessive] vibrant personality. The authorities discovered [PAWN_possessive] illegal operations, and [PAWN_nameDef] fled before [PAWN_pronoun] could be arrested.\n       -->
+		<!-- EN: Desiring to understand people, [PAWN_nameDef] learned hypnotism and discovered [PAWN_possessive] talent for the art.\n\n [PAWN_pronoun] gathered followers and formed a cult around [PAWN_possessive] vibrant personality. The authorities discovered [PAWN_possessive] illegal operations, and [PAWN_nameDef] fled before [PAWN_pronoun] could be arrested.\n -->
 		<desc>Желая лучше понимать людей, {PAWN_nameDef} {PAWN_gender ? обучился : обучилась} искусству гипноза, к которому позже {PAWN_gender ? обнаружил : обнаружила} у себя настоящий талант.\n\n{PAWN_nameDef} {PAWN_gender ? смог : смогла} собрать вокруг своей энергичной личности культ поклонников. Власти узнали о {PAWN_possessive} незаконной деятельности, но {PAWN_nameDef} {PAWN_gender ? успел : успела} сбежать до ареста.</desc>
 	</HypnocultLeader61>
 
@@ -8252,7 +8257,7 @@
 		<!-- EN: Acrobat -->
 		<titleShort>акробат</titleShort>
 		<titleShortFemale>акробатка</titleShortFemale>
-		<!-- EN: Born a quiet urbworld orphan, [PAWN_nameDef] was invited to join a traveling circus. [PAWN_possessive] small size and observant nature helped [PAWN_nameDef] become a noted acrobat.\n\nUnfortunately, [PAWN_possessive] violent tendencies brought [PAWN_possessive] acrobatic career to an early end.  -->
+		<!-- EN: Born a quiet urbworld orphan, [PAWN_nameDef] was invited to join a traveling circus. [PAWN_possessive] small size and observant nature helped [PAWN_nameDef] become a noted acrobat.\n\nUnfortunately, [PAWN_possessive] violent tendencies brought [PAWN_possessive] acrobatic career to an early end. -->
 		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} тихой сиротой на одном из городских миров, когда {PAWN_possessive} пригласили в странствующий цирк. Благодаря небольшому росту и наблюдательности {PAWN_nameDef} {PAWN_gender ? стал известным акробатом : стала известной акробаткой}.\n\nК несчастью, однажды {PAWN_nameDef} сильно {PAWN_gender ? травмировался : травмировалась} и больше не {PAWN_gender ? мог : могла} выступать на манеже.</desc>
 	</OrphanedAcrobat84>
 
