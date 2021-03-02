@@ -8,7 +8,7 @@
 		<success>Always</success>
 		<operations>
 
-			<!-- орассане: -->
+			<!-- шёрстка: -->
 			<li Class="PatchOperationAttributeSet">
 				<xpath>Defs/ThingDef[defName = "Leather_Orassan"]</xpath>
 				<attribute>ParentName</attribute>
@@ -21,78 +21,28 @@
 					<drawSize>0.5</drawSize>
 				</value>
 			</li>
+
+			<!-- расы: -->
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/race</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[
+				defName = "Alien_Orassan" or
+				defName = "Alien_OrassanHumanHybrid"
+				]/race</xpath>
 				<value>
 					<willNeverEat>
-						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
-						<li>Corpse_Alien_Orassan</li>
-						<li>Meat_Alien_Orassan</li>
-						<li>Corpse_Alien_OrassanHumanHybrid</li>
-					</willNeverEat>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings</xpath>
-				<value>
-					<disallowedTraits>
-						<li> <defName>Asexual</defName> </li>
-						<li> <defName>Bisexual</defName> </li>
-						<li> <defName>Cannibal</defName> </li>
-						<li> <defName>Gay</defName> </li>
-						<li> <defName>Masochist</defName> </li>
-						<li> <defName>Pyromaniac</defName> </li>
-					</disallowedTraits>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
-				<value>
-					<li>ButcheredHumanlikeCorpse</li>
-					<li>KilledHumanlikeBloodlust</li>
-					<li>KnowButcheredHumanlikeCorpse</li>
-					<li>WitnessedDeathBloodlust</li>
-					<li>MasochistPain</li>
-					<li>PyromaniacHappy</li>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Orassan"]/statBases/LeatherAmount</xpath>
-				<value>
-					<LeatherAmount>0</LeatherAmount>
-					<MeatAmount>0</MeatAmount>
-				</value>
-			</li>
-
-			<!-- как отменить действие патча?
-			\Mods\OrassansLite\1.2\Patches\meals.xml
-			возможно операцией PatchOperationFindMod
-			пришлось поставить костыль переводом для Meat_Alien_Orassan -->
-
-<!-- этот вариант снял все ограничения, даже с мяса насекомого. Попробовать активировать его и удалить мясо орассан. Проверять на новой игре!!!
-			<li Class="PatchOperationRemove">
-				<xpath>Defs/RecipeDef[@Name = "CookMealBase"]/defaultIngredientFilter/disallowedThingDefs[li = "Meat_Alien_Orassan"]</xpath>
-			</li>
-тут по моему ещё надо удалить квадратные скобки с содержимым
--->
-
-			<!-- гибриды: -->
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_OrassanHumanHybrid"]/race</xpath>
-				<value>
-					<willNeverEat>
 						<li>Corpse_Human</li>
-						<li>Meat_Human</li>
 						<li>Corpse_Alien_Orassan</li>
-						<li>Meat_Alien_Orassan</li>
 						<li>Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 					<useMeatFrom>Human</useMeatFrom>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_OrassanHumanHybrid"]/alienRace/generalSettings</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[
+				defName = "Alien_Orassan" or
+				defName = "Alien_OrassanHumanHybrid"
+				]/alienRace/generalSettings</xpath>
 				<value>
 					<disallowedTraits>
 						<li> <defName>Asexual</defName> </li>
@@ -105,45 +55,56 @@
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_OrassanHumanHybrid"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[
+				defName = "Alien_Orassan" or
+				defName = "Alien_OrassanHumanHybrid"
+				]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
 				<value>
 					<li>ButcheredHumanlikeCorpse</li>
 					<li>KilledHumanlikeBloodlust</li>
 					<li>KnowButcheredHumanlikeCorpse</li>
-					<li>WitnessedDeathBloodlust</li>
 					<li>MasochistPain</li>
 					<li>PyromaniacHappy</li>
+					<li>WitnessedDeathBloodlust</li>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_OrassanHumanHybrid"]/statBases/LeatherAmount</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[
+				defName = "Alien_Orassan" or
+				defName = "Alien_OrassanHumanHybrid"
+				]/statBases/LeatherAmount</xpath>
 				<value>
 					<LeatherAmount>0</LeatherAmount>
 					<MeatAmount>0</MeatAmount>
 				</value>
 			</li>
 
-			<!-- питомцы: -->
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="Ori"]/race</xpath>
-				<value>
-					<willNeverEat>
-						<li>Corpse_Human</li>
-						<li>Meat_Human</li>
-						<li>Corpse_Alien_Orassan</li>
-						<li>Meat_Alien_Orassan</li>
-						<li>Corpse_Alien_OrassanHumanHybrid</li>
-					</willNeverEat>
-				</value>
+			<!-- отменяю действие патча
+			\Mods\OrassansLite\1.2\Patches\meals.xml
+			удаляя а потом перезаписывая параметр: -->
+
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[@Name = "CookMealBase"]/defaultIngredientFilter/disallowedThingDefs</xpath>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="Animal_Desiri"]/race</xpath>
+				<xpath>Defs/RecipeDef[@Name = "CookMealBase"]/defaultIngredientFilter</xpath>
+				<value>
+					<disallowedThingDefs>
+						<li>Meat_Human</li>
+						<li>Meat_Megaspider</li>
+						<li>InsectJelly</li>
+					</disallowedThingDefs>
+				</value>
+			</li>
+
+			<!-- питомцы: -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Ori" or defName = "Animal_Desiri"]/race</xpath>
 				<value>
 					<willNeverEat>
-						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
+						<li>Corpse_Human</li>
 						<li>Corpse_Alien_Orassan</li>
-						<li>Meat_Alien_Orassan</li>
 						<li>Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
@@ -193,8 +154,8 @@
 				<value>
 					<ThingDef ParentName="ResourceBase">
 						<defName>CatnipJoint</defName>
-						<label>catnip joint</label>
-						<description>Catnip leaves prepared in small rolls for smoking. Much like smokeleaf, the drug improves mood, but also increases appetite, reduces focus and slows movement. Catnip use can produce a dependency. Can be produced without equipment, at a crafting spot.</description>
+						<label>mint cake</label>
+						<description>A tasty curds based cake with orassan catnip leaves added. It is rather nutritious and fulfills the need for recreation.</description>
 						<thingCategories>
 							<li>Foods</li>
 						</thingCategories>
@@ -257,19 +218,13 @@
 			<!-- исправлена неточность, сообщите разработчику, что 2 рецепта устарели: -->
 
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/RecipeDef[defName = "MakeCatnipJoint5"]</xpath>
-			</li>
-			<li Class="PatchOperationRemove">
-				<xpath>Defs/RecipeDef[defName = "MakeCatnipJoint15"]</xpath>
+				<xpath>Defs/RecipeDef[defName = "MakeCatnipJoint5" or defName = "MakeCatnipJoint15"]</xpath>
 			</li>
 
-			<!-- исправлена неточность, сообщите разработчику, что иначе рецептов в 2 раза больше нужного: -->
+			<!-- исправлена неточность, сообщите разработчику, что иначе медпроцедур в 2 раза больше нужного: -->
 
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/recipes</xpath>
-			</li>
-			<li Class="PatchOperationRemove">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_OrassanHumanHybrid"]/recipes</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Orassan" or defName = "Alien_OrassanHumanHybrid"]/recipes</xpath>
 			</li>
 
 			<!-- исправлена неточность, сообщите разработчику, что иначе лёд орассан не удаляется: -->
@@ -282,13 +237,18 @@
 			</li>
 
 			<!-- уменьшение хвостов в полтора раза, сообщите разработчику, вдруг ей тоже понравится: -->
-
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/drawSize/text()</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[
+				defName = "Alien_Orassan" or
+				defName = "Alien_OrassanHumanHybrid"
+				]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/drawSize/text()</xpath>
 				<value>0.5</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/north/bodyTypes</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[
+				defName = "Alien_Orassan" or
+				defName = "Alien_OrassanHumanHybrid"
+				]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/north/bodyTypes</xpath>
 				<value>
 					<bodyTypes>
 						<Male>(-0.02,0.1)</Male>
@@ -298,8 +258,12 @@
 					</bodyTypes>
 				</value>
 			</li>
+
+			<!-- выровнял хвосты для кошек: -->
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/east/bodyTypes</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[
+				defName = "Alien_Orassan"
+				]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/east/bodyTypes</xpath>
 				<value>
 					<bodyTypes>
 						<Male>(-0.05,-0.1)</Male>
@@ -310,24 +274,11 @@
 				</value>
 			</li>
 
-			<!-- аналогично для гибридов: -->
+			<!-- аналогично для гибридов, только чуть пододвинул хвосты: -->
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_OrassanHumanHybrid"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/drawSize/text()</xpath>
-				<value>0.5</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_OrassanHumanHybrid"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/north/bodyTypes</xpath>
-				<value>
-					<bodyTypes>
-						<Male>(-0.02,0.1)</Male>
-						<Female>(-0.02,0.1)</Female>
-						<Thin>(-0.02,0.1)</Thin>
-						<Hulk>(-0.02,-0.05)</Hulk>
-					</bodyTypes>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_OrassanHumanHybrid"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/east/bodyTypes</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[
+				defName = "Alien_OrassanHumanHybrid"
+				]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/east/bodyTypes</xpath>
 				<value>
 					<bodyTypes>
 						<Male>(0,-0.15)</Male>
@@ -335,6 +286,47 @@
 						<Thin>(0,-0.15)</Thin>
 						<Hulk>(0.15,-0.3)</Hulk>
 					</bodyTypes>
+				</value>
+			</li>
+
+			<!-- исправлена неточность, сообщите разработчику, что иначе часто вылезает красная ошибка предысторий. Решена проблема для силовиков орассан. И почему то пропала ошибка из-за имён: -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.BackstoryDef[
+				defName = "Orassan_EcumenopolisA" or
+				defName = "Orassan_PsiPolice" or
+				defName = "Orassan_PsiWarrior" or
+				defName = "Orassan_Constructor" or
+				defName = "Orassan_SEngineer" or
+				defName = "Orassan_EcumenopolisB" or
+				defName = "Orassan_Miner" or
+				defName = "Orassan_Explorer" or
+				defName = "Orassan_Mercenary" or
+				defName = "Orassan_Cultist" or
+				defName = "Orassan_Crafter" or
+				defName = "Orassan_XenoZoo" or
+				defName = "Orassan_Colinizer" or
+				defName = "Orassan_Officer" or
+				defName = "Orassan_NavyCook" or
+				defName = "Orassan_Shellshocked" or
+				defName = "Orassan_Hydro" or
+				defName = "Orassan_Stripper" or
+				defName = "Orassan_Pornstar" or
+				defName = "Orassan_CapitalChild" or
+				defName = "Orassan_GeneChild" or
+				defName = "Orassan_SpacerChild" or
+				defName = "Orassan_ColonyChild" or
+				defName = "Orassan_Kyle" or
+				defName = "Orassan_Stargazer" or
+				defName = "Orassan_MilitaryC" or
+				defName = "Orassan_GaiaChild" or
+				defName = "Orassan_Ecumenopolis" or
+				defName = "Orassan_Gravity" or
+				defName = "Orassan_Climber" or
+				defName = "Orassan_Mud"
+				]/spawnCategories</xpath>
+				<value>
+					<li>OrassanSoldier</li>
 				</value>
 			</li>
 		</operations>
