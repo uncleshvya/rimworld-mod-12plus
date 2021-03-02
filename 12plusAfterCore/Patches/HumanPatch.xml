@@ -7,17 +7,17 @@
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="Leather_Human"]</xpath>
-				<value>
-					<thingCategories>
-						<li>Textiles</li>
-					</thingCategories>
-				</value>
+			<li Class="PatchOperationAttributeSet">
+				<xpath>Defs/ThingDef[defName = "Leather_Human"]</xpath>
+				<attribute>ParentName</attribute>
+				<value>WoolBase</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "Leather_Human"]/graphicData/color/text()</xpath>
-				<value>(120, 98, 80)</value>
+				<xpath>Defs/ThingDef[defName = "Leather_Human"]/graphicData/color</xpath>
+				<value>
+					<color>(120, 98, 80)</color>
+					<drawSize>0.5</drawSize>
+				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "Human"]/statBases/LeatherAmount</xpath>
@@ -27,19 +27,18 @@
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="Human"]/race</xpath>
+				<xpath>Defs/ThingDef[defName = "Human"]/race</xpath>
 				<value>
 					<willNeverEat>
-						<li>Corpse_Human</li>
 						<li>Meat_Human</li>
+						<li>Corpse_Human</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
-						<li MayRequire="dianawinters.OrassansLite">Meat_Alien_Orassan</li>
 						<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					</willNeverEat>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings</xpath>
+				<xpath>Defs/ThingDef[defName = "Human"]/alienRace/generalSettings</xpath>
 				<value>
 					<disallowedTraits>
 						<li> <defName>Asexual</defName> </li>
@@ -52,7 +51,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="Human"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
+				<xpath>Defs/ThingDef[defName = "Human"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
 				<value>
 					<li>ButcheredHumanlikeCorpse</li>
 					<li>KilledHumanlikeBloodlust</li>
@@ -64,5 +63,4 @@
 			</li>
 		</operations>
 	</Operation>
-
 </Patch>
