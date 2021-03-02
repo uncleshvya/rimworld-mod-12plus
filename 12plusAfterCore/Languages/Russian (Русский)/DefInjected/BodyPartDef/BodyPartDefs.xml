@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- добавлена русская локализация, сообщите разработчику -->
+
+	<!-- EN: orassan tail -->
+	<OTail.label>хвост орассан</OTail.label>
+	<!-- EN: A long furry Feline Tail. -->
+	<OTail.description>Длинный пушистый кошачий хвост.</OTail.description>
+	<!-- EN: right claws -->
+	<RightHandClaws.label>когти правой руки</RightHandClaws.label>
+	<!-- EN: Sharp claws capable of murdering many couches. -->
+	<RightHandClaws.description>Острые когти, способные разодрать множество диванов.</RightHandClaws.description>
+	<!-- EN: left claws -->
+	<LeftHandClaws.label>когти левой руки</LeftHandClaws.label>
+	<!-- EN: Sharp claws capable of murdering many couches. -->
+	<LeftHandClaws.description>Острые когти, способные разодрать множество диванов.</LeftHandClaws.description>
+
+</LanguageData>

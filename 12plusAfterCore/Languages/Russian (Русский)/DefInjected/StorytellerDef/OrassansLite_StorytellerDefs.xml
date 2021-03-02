@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- добавлена русская локализация, сообщите разработчику -->
+
+	<!-- EN: Officer Winters -->
+	<Winters.label>Офицер Винтерс</Winters.label>
+	<!-- EN: Deployment Officer Winters is here to make sure things go smoothly. She ll send more traders your way, as well as various other assistance. The Empire has its enemies though, so you'll need to be on the lookout for more hostiles than you may be used to.-->
+	<Winters.description>Офицер Винтерс — специалист по оперативному развёртыванию баз. Она будеть чаще присылать торговцев и всячески помогать. У Империи есть враги, так что будьте начеку! Многие захотят атаковать орассан.</Winters.description>
+
+</LanguageData>
