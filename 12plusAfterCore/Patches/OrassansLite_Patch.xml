@@ -221,7 +221,9 @@
 			<!-- исправлена неточность, сообщите разработчику, что 2 рецепта устарели: -->
 
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/RecipeDef[defName = "MakeCatnipJoint5" or defName = "MakeCatnipJoint15"]</xpath>
+				<xpath>Defs/RecipeDef[
+				defName = "MakeCatnipJoint5" or
+				defName = "MakeCatnipJoint15"]</xpath>
 			</li>
 
 			<!-- исправлена неточность, сообщите разработчику, что иначе медпроцедур в 2 раза больше нужного: -->
