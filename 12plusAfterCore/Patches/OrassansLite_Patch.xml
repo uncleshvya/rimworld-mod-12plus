@@ -99,7 +99,10 @@
 
 			<!-- питомцы: -->
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "Ori" or defName = "Animal_Desiri"]/race</xpath>
+				<xpath>Defs/ThingDef[
+				defName = "Ori" or
+				defName = "Animal_Desiri"
+				]/race</xpath>
 				<value>
 					<willNeverEat>
 						<li>Meat_Human</li>
@@ -224,7 +227,10 @@
 			<!-- исправлена неточность, сообщите разработчику, что иначе медпроцедур в 2 раза больше нужного: -->
 
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Orassan" or defName = "Alien_OrassanHumanHybrid"]/recipes</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[
+				defName = "Alien_Orassan" or
+				defName = "Alien_OrassanHumanHybrid"
+				]/recipes</xpath>
 			</li>
 
 			<!-- исправлена неточность, сообщите разработчику, что иначе лёд орассан не удаляется: -->
