@@ -21,7 +21,7 @@
 	<!-- Оригинал: Влияние удобрения на плодородность почвы -->
 	<FertilizerGridStrength.tip>Влияние обогащения почвы перегноем на её плодородность</FertilizerGridStrength.tip>
 	<!-- EN: Fertilizer lifespan -->
-	<FertilizerLifespan.label>Срок службы перегноя</FertilizerLifespan.label>
+	<FertilizerLifespan.label>Срок для перегноя</FertilizerLifespan.label>
 	<!-- EN: How long terrain remains fertilized after applying fertilizer -->
 	<FertilizerLifespan.tip>Как долго почва считается обогащённой после добавления перегноя</FertilizerLifespan.tip>
 
