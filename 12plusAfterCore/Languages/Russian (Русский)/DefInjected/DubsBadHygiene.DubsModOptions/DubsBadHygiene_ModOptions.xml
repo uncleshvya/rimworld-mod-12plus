@@ -14,6 +14,17 @@
 	<!-- Оригинал:  -->
 	<SewageProcRate.tip>Скорость удаления нечистот в септиках и водоочистных установках</SewageProcRate.tip>
 
+	<!-- исправлен конфликт модов, сообщите разработчикам dismarzero.VGP.VGPGardenTools и Dubwise.DubsBadHygiene -->
+
+	<!-- Оригинал: Удобрение -->
+	<FertilizerGridStrength.label>Обогащение почвы</FertilizerGridStrength.label>
+	<!-- Оригинал: Влияние удобрения на плодородность почвы -->
+	<FertilizerGridStrength.tip>Влияние обогащения почвы перегноем на её плодородность</FertilizerGridStrength.tip>
+	<!-- EN: Fertilizer lifespan -->
+	<FertilizerLifespan.label>Срок службы перегноя</FertilizerLifespan.label>
+	<!-- EN: How long terrain remains fertilized after applying fertilizer -->
+	<FertilizerLifespan.tip>Как долго почва считается обогащённой после добавления перегноя</FertilizerLifespan.tip>
+
 	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
 
 	<!-- EN: Hygiene need rate -->
@@ -28,8 +39,7 @@
 	<ThirstRateD.label>Жажда</ThirstRateD.label>
 	<!-- EN: How fast thirst need decreases -->
 	<ThirstRateD.tip>Насколько быстро растёт жажда</ThirstRateD.tip>
-	<!-- EN: Fertilizer lifespan -->
-	<FertilizerLifespan.label>Срок службы удобрения</FertilizerLifespan.label>
+
 	<!-- EN: 240 days (3 years) -->
 	<FertilizerLifespan.options.1.label>240 дней (3 г.)</FertilizerLifespan.options.1.label>
 	<!-- EN: 180 days -->
@@ -50,7 +60,5 @@
 	<FertilizerLifespan.options.9.label>10 дней</FertilizerLifespan.options.9.label>
 	<!-- EN: 1 day -->
 	<FertilizerLifespan.options.10.label>1 день</FertilizerLifespan.options.10.label>
-	<!-- EN: How long terrain remains fertilized after applying fertilizer -->
-	<FertilizerLifespan.tip>Как долго почва считается удобренной после соответствующей обработки</FertilizerLifespan.tip>
 
 </LanguageData>
