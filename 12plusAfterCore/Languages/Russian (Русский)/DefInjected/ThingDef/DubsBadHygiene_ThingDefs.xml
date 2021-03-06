@@ -184,11 +184,52 @@
 	<!-- EN: Drinking {0}. -->
 	<DBH_WaterBottle.ingestible.ingestReportString>Пьёт {0}</DBH_WaterBottle.ingestible.ingestReportString>
 
+	<!-- исправлен конфликт модов, сообщите разработчикам dismarzero.VGP.VGPGardenTools и Dubwise.DubsBadHygiene -->
+
+	<!-- Оригинал: Компостер -->
+	<BiosolidsComposter.label>навозный бак</BiosolidsComposter.label>
+	<!-- Оригинал: Компостер, перерабатывающий нечистоты в удобрение, увеличивающее плодородность почвы. -->
+	<BiosolidsComposter.description>Бак, в котором нечистоты под влиянием деятельности микроорганизмов перерабатываются в сыпучий перегной, увеличивающий плодородность почвы.</BiosolidsComposter.description>
+	<!-- Оригинал: Компостер (проект) -->
+	<BiosolidsComposter_Blueprint.label>навозный бак (проект)</BiosolidsComposter_Blueprint.label>
+	<!-- Оригинал: Компост (проект) -->
+	<BiosolidsComposter_Blueprint_Install.label>навозный бак (проект)</BiosolidsComposter_Blueprint_Install.label>
+	<!-- Оригинал: Компостер (в процессе сборки) -->
+	<BiosolidsComposter_Frame.label>навозный бак (в процессе сборки)</BiosolidsComposter_Frame.label>
+	<!-- Оригинал: Компостер, перерабатывающий нечистоты в удобрение, увеличивающее плодородность почвы. -->
+	<BiosolidsComposter_Frame.description>Бак, в котором нечистоты под влиянием деятельности микроорганизмов перерабатываются в сыпучий перегной, увеличивающий плодородность почвы.</BiosolidsComposter_Frame.description>
+
+	<!-- Оригинал: Удобрение -->
+	<BiosolidFertilizer.label>перегной</BiosolidFertilizer.label>
+	<!-- Оригинал: Удобрение из твердых биологических отходов, используемое для... -->
+	<BiosolidFertilizer.description>Перегной, полученный из биологических отходов, используется для увеличения плодородности почвы на срок до года.</BiosolidFertilizer.description>
+	<!-- Оригинал: Удобрение (проект) -->
+	<BiosolidFertilizer_Blueprint.label>Удобрение (проект)</BiosolidFertilizer_Blueprint.label>
+	<!-- Оригинал: Удобрение (в процессе сборки) -->
+	<BiosolidFertilizer_Frame.label>Удобрение (в процессе сборки)</BiosolidFertilizer_Frame.label>
+	<!-- Оригинал: Удобрение из твердых биологических отходов, используемое для... -->
+	<BiosolidFertilizer_Frame.description>Перегной, полученный из биологических отходов, используется для увеличения плодородности почвы на срок до года.</BiosolidFertilizer_Frame.description>
+
+	<!-- Оригинал: Удобренная почва -->
+	<FertilizedSoil.label>обогащённая почва</FertilizedSoil.label>
+	<!-- Оригинал: Удобренная почва (проект) -->
+	<FertilizedSoil_Blueprint.label>обогащённая почва (проект)</FertilizedSoil_Blueprint.label>
+	<!-- Оригинал: Удобренная почва (проект) -->
+	<FertilizedSoil_Frame.label>обогащённая почва (проект)</FertilizedSoil_Frame.label>
+	<!-- Оригинал: Подготавливаемая почва -->
+	<FertilizedSoil_Frame.description>Почва, отмеченная для обогащения перегноем.</FertilizedSoil_Frame.description>
+
+	<!-- Оригинал: Бочка, наполненная фекалиями. Может быть опрокинута, сожжена или переработана в удобрения. -->
+	<FecalSludge.description>Бочка, наполненная фекалиями. Содержимое можно опрокинуть на пол, сжечь в яме или перелить в навозный бак.</FecalSludge.description>
+	<!-- Оригинал: Удобрение -->
+	<Biosolids.label>перегной</Biosolids.label>
+	<!-- Оригинал: Удобрение, полученное путем переработки фекалий. -->
+	<Biosolids.description>Сыпучий перегной, полученный путем переработки фекалий.</Biosolids.description>
+
 	<!-- исправление согласно концепции «12+» -->
 
 	<!-- Оригинал: Отмывает одежду так хорошо, что никто никогда не догадается, что в ней кто-то умер! -->
 	<WashingMachine.description>Позволяет отстирать одежду начисто, удаляя даже застарелые пятна крови.</WashingMachine.description>
-
 	<!-- Оригинал: Отмывает одежду так хорошо, что никто никогда не догадается, что в ней кто-то умер! -->
 	<WashingMachine_Frame.description>Позволяет отстирать одежду начисто, удаляя даже застарелые пятна крови.</WashingMachine_Frame.description>
 
