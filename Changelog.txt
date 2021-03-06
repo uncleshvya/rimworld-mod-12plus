@@ -2,9 +2,11 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-03-02 добавлена адаптация для мода OrassansLite, и русификация. Исправлены его красная ошибка предысторий. И почему то пропала его ошибка генерации имён. Идёт тестирование.
+2021-03-06 идёт работа над адаптацией для мода VGPgardenTools.
 Скомпилирована версия 12+мода 0.4.7beta.
-Пока не удалось разделить переводы для 9 адаптированных модов, поэтому соответствующие файлы помечены текстом "Royalty_", "HumanoidAlienRaces_", "Numbers_", "BeesNhoney_", "MiscTraining_", "ConcreteWalls_", "OrassansLite_", "DubsBadHygiene_" и "AllowTool_" в именах файлов, для возможности поиска. 
+Пока не удалось разделить переводы для 9 адаптированных модов, поэтому соответствующие файлы помечены текстом "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "Royalty_", "VGPgardenTools_" в именах файлов, для возможности поиска. 
+
+2021-03-02 добавлена адаптация для мода OrassansLite, и русификация. Исправлены его красная ошибка предысторий. И почему то пропала его ошибка генерации имён. Идёт тестирование.
 
 2021-02-23 добавлена адаптация для мода DubsBadHygiene. Там обнаружено много недопереведённого, начата работа по локализации.
 
@@ -65,7 +67,7 @@ For English, scroll down.
 Changelog for Rimworld's 12plus modification.
 
 2021-mar-02 DianaWinters.OrassansLite mod adaptation added and russian translation. Fix cats' backstories error. Suddenly cats' names' error disappeared. Testing.
-UncleShvya.12plus mod v.0.4.7beta compiled. There are some unsolved problems with cataloging, so the files were marked with tags "Royalty_", "HumanoidAlienRaces_", "Numbers_", "BeesNhoney_", "MiscTraining_", "ConcreteWalls_", "OrassansLite_", "DubsBadHygiene_" and "AllowTool_" in files' names.
+UncleShvya.12plus mod v.0.4.7beta compiled. There are some unsolved problems with cataloging, so the files were marked with tags "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "Royalty_", "VGPgardenTools_" in files' names.
 
 2021-feb-23 Dubwise.DubsBadHygiene mod adaptation added. There are a lot of russian translations missing. Fix work started.
 
