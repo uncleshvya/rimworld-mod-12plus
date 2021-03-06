@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- добавлена недостающая строка русской локализации, сообщите разработчику -->
+
+	<!-- EN: Toggle задания tab -->
+	<MainTab_Quests.label>показать/скрыть вкладку «Задания»</MainTab_Quests.label>
+
+</LanguageData>
