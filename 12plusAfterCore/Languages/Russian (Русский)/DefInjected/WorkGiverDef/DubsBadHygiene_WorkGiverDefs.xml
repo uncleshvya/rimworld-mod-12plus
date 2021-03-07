@@ -9,14 +9,6 @@
 	<RemoveSewage.label>сгребать нечистоты в бочку</RemoveSewage.label>
 	<!-- Оригинал: сгребать нечистоты -->
 	<RemoveSewage.gerund>сгрести нечистоты в бочку, очистить</RemoveSewage.gerund>
-	<!-- Оригинал: достать компост из компостеров -->
-	<UnloadComposter.label>доставать компост из компостеров</UnloadComposter.label>
-	<!-- Оригинал: доставать компост из -->
-	<UnloadComposter.gerund>достать компост из</UnloadComposter.gerund>
-	<!-- Оригинал: наполнить компостер -->
-	<FillComposter.label>наполнять компостеры</FillComposter.label>
-	<!-- Оригинал: наполнять -->
-	<FillComposter.gerund>наполнить</FillComposter.gerund>
 	<!-- Оригинал: опорожнить сортир -->
 	<emptyLatrine.label>опорожнять выгребные ямы</emptyLatrine.label>
 	<!-- Оригинал: опорожнять -->
@@ -60,14 +52,30 @@
 	<!-- Оригинал: опрокидывать -->
 	<TipSewage.gerund>опрокинуть</TipSewage.gerund>
 
-	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+	<!-- исправлен конфликт модов, сообщите разработчикам dismarzero.VGP.VGPGardenTools и Dubwise.DubsBadHygiene -->
+
+	<!-- Оригинал: достать компост из компостеров -->
+	<UnloadComposter.label>доставать перегной из баков</UnloadComposter.label>
+	<!-- Оригинал: доставать компост из -->
+	<UnloadComposter.gerund>достать перегной из</UnloadComposter.gerund>
+	<!-- Оригинал: достать компост -->
+	<UnloadComposter.verb>доставать перегной</UnloadComposter.verb>
+
+	<!-- Оригинал: наполнить компостер -->
+	<FillComposter.label>наполнять навозные баки</FillComposter.label>
+	<!-- Оригинал: наполнять -->
+	<FillComposter.gerund>наполнить</FillComposter.gerund>
+	<!-- Оригинал: наполнить -->
+	<FillComposter.verb>наполнять</FillComposter.verb>
 
 	<!-- EN: fertilize -->
-	<PlaceFertilizer.label>удобрять почву</PlaceFertilizer.label>
+	<PlaceFertilizer.label>обогащать почву</PlaceFertilizer.label>
 	<!-- EN: fertilizing -->
-	<PlaceFertilizer.gerund>удобрить</PlaceFertilizer.gerund>
+	<PlaceFertilizer.gerund>обогатить</PlaceFertilizer.gerund>
 	<!-- EN: fertilize -->
-	<PlaceFertilizer.verb>удобрять</PlaceFertilizer.verb>
+	<PlaceFertilizer.verb>обогащать</PlaceFertilizer.verb>
+
+	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
 
 	<!-- EN: drain water -->
 	<DrainWaterTank.label>сливать воду из резервуаров</DrainWaterTank.label>
