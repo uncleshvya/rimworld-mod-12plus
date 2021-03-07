@@ -3,7 +3,7 @@
 
 	<!-- исправлена неточность, сообщите разработчику -->
 
-	<!-- Оригинал (настройка спринклера): Создать вокруг солнечной лампы область для выращивания, соответствующую радиусу её действия. -->
+	<!-- Оригинал (настройка спринклера): Создать вокруг солнечной лампы область для выращивания, соответствующую радиусу её действия. (действует и для мода vgp Garden tools) -->
 	<CommandSunLampMakeGrowingZoneDesc>Создать рядом область для выращивания, соответствующую радиусу действия устройства.</CommandSunLampMakeGrowingZoneDesc>
 
 	<!-- EN: Connected demand/capacity: {0}/{1} U ({2}) -->
@@ -109,48 +109,64 @@
 	<DrainTankDesc>Слить всю воду из ёмкости и избавиться от загрязнения</DrainTankDesc>
 
 	<!-- Оригинал: ...превращены в биоотходы -->
-	<DrainSepticTankDesc>Установите уровень, при котором фекалии должны быть слиты в бочки, которые могут быть перемещены и опрокинуты, сожжены или превращены в удобрение/химтопливо</DrainSepticTankDesc>
+	<DrainSepticTankDesc>Установите уровень, при котором фекалии должны быть слиты в бочки, которые могут быть перемещены и опрокинуты, сожжены или превращены в перегной/химтопливо</DrainSepticTankDesc>
 	<!-- Оригинал: ...емкость... -->
 	<DrainSepticTankAt>Опустошать ёмкость при {0}</DrainSepticTankAt>
 
-	<!-- Оригинал: ...ее -->
-	<PitFull>Яма заполнена, опустошите её!</PitFull>
+	<!-- Оригинал: Яма заполнена, опустошите ее! -->
+	<PitFull>Яма заполнена, опорожните её!</PitFull>
 
 	<!-- Оригинал: Rimefeller подключен -->
 	<RimefellerLink>Мод «Rimefeller» подключён</RimefellerLink>
-
 	<!-- Оригинал: Rimatomics подключен -->
 	<RimatomicsLink>Мод «Rimatomics» подключён</RimatomicsLink>
-
 	<!-- Оригинал: Фильтры нужд -->
 	<OverrideNeedsSettings>Ручная настройка</OverrideNeedsSettings>
 	<!-- Оригинал: Отключить вручную нужды в завимости от типа тела, расы и состояния здоровья -->
 	<OverrideNeedSettingsTip>Настроить вручную нужды в завимости от типа тела, вида существ и состояния здоровья</OverrideNeedSettingsTip>
-
 	<!-- Оригинал: Перейдите в главное меню для изменения -->
 	<QuitToMenuToChange>Перейдите в главное меню для сохранения изменений</QuitToMenuToChange>
-
 	<!-- Оригинал: Нечеловеские колонисты -->
 	<AllowNonHuman>Другие существа</AllowNonHuman>
 	<!-- Оригинал: Включить нужды нечеловеческих колонистов. Вы можете отключить отдельных существ во вкладке "Фильтры нужд" -->
 	<AllowNonHumanTip>Включить нужды для других существ, кроме людей. Вы можете изменить нужды для конкретных видов в следующей вкладке</AllowNonHumanTip>
-	<!-- Оригинал: Удобрения видимы -->
-	<FertilizerVisible>Удобренные клетки видимы</FertilizerVisible>
-	<!-- Оригинал: Должна ли клетка удобрения быть видимой -->
-	<FertilizerVisibleTip>Должна ли удобренная почва отличаться по виду от обычной</FertilizerVisibleTip>
 	<!-- Оригинал: Малая нужда питомцев -->
 	<PetsGetBladder>Нечистоты от питомцев</PetsGetBladder>
 	<!-- Оригинал: Будут ли питомцы справлять малую нужду -->
 	<PetsGetBladderTip>Будут ли питомцы справлять нужду</PetsGetBladderTip>
 	<!-- Оригинал: Малая нужда диких животных -->
-	<WildAnimalsGetBladder>Нечистоты диких животных</WildAnimalsGetBladder>
+	<WildAnimalsGetBladder>Нечистоты от диких животных</WildAnimalsGetBladder>
 	<!-- Оригинал: ...малую нужду -->
 	<WildAnimalsGetBladderTip>Будут ли все дикие животные справлять нужду</WildAnimalsGetBladderTip>
 	<!-- Оригинал: Включить жажду для всех колонистов с малой нуждой -->
 	<ThirstNeedTip>Включить жажду для всех поселенцев, посещающих туалет</ThirstNeedTip>
-
-	<!-- Оригинал: ...Только заключенные -->
+	<!-- Оригинал: Только заключенные -->
 	<PrisonersOnly>Только для заключённых</PrisonersOnly>
+
+	<!-- исправлен конфликт модов, сообщите разработчикам dismarzero.VGP.VGPGardenTools и Dubwise.DubsBadHygiene -->
+
+	<!-- Оригинал: Нет компоста -->
+	<NoCompostingMaterial>Нет перегноя</NoCompostingMaterial>
+	<!-- Оригинал: Содержит компоста {0}/{1} -->
+	<ContainsCompost>Содержит перегноя {0}/{1}</ContainsCompost>
+	<!-- Оригинал: Удобрен -->
+	<Composted>Перегной готов, можно доставать</Composted>
+	<!-- Оригинал: Прогресс компостирования {0} ({1}) -->
+	<CompostingProgress>Прогресс переработки {0} ({1})</CompostingProgress>
+	<!-- Оригинал: ...для компостирования -->
+	<IdealCompostingTemperature>Идеальная температура для переработки</IdealCompostingTemperature>
+
+	<!-- Оригинал: Удобрения видимы -->
+	<FertilizerVisible>Обогащённые клетки видимы</FertilizerVisible>
+	<!-- Оригинал: Должна ли клетка удобрения быть видимой -->
+	<FertilizerVisibleTip>Должна ли обогащённая перегноем почва отличаться по виду от обычной</FertilizerVisibleTip>
+
+	<!-- EN: No fertilizer found -->
+	<NoFertilizerFound>Нет доступного перегноя</NoFertilizerFound>
+	<!-- EN: Fertilizer area -->
+	<AreaPlaceFertilizer>Область для обогащения перегноем</AreaPlaceFertilizer>
+	<!-- EN: Designate areas to fertilize with biosolids. -->
+	<AreaPlaceFertilizerDesc>Обозначить, где нужно обогащать почву перегноем.</AreaPlaceFertilizerDesc>
 
 	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
 
@@ -193,12 +209,6 @@
 	<RainIrrigationTip>Дождь будет давать такой же бонус, как спринклеры. Нагрузка на процессор</RainIrrigationTip>
 	<!-- EN: Growing zone sowing disabled -->
 	<GrowingZoneNotAllowed>Снимите запрет сеяния на посадках</GrowingZoneNotAllowed>
-	<!-- EN: No fertilizer found -->
-	<NoFertilizerFound>Нет доступного удобрения</NoFertilizerFound>
-	<!-- EN: Fertilizer area -->
-	<AreaPlaceFertilizer>Область для удобрения</AreaPlaceFertilizer>
-	<!-- EN: Designate areas to fertilize with biosolids. -->
-	<AreaPlaceFertilizerDesc>Обозначить, где нужно удобрять почву.</AreaPlaceFertilizerDesc>
 	<!-- EN: Add area -->
 	<AddFertilizerArea>Увеличить область</AddFertilizerArea>
 	<!-- EN: Remove area -->
