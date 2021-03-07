@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<!-- исправление согласно концепции «12+» -->
+
+	<Operation MayRequire="dismarzero.VGP.VGPGardenTools" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[
+				defName = "FertilizerCorpse" or
+				defName = "FertilizerCorpseCampfire"
+				]/fixedIngredientFilter/disallowedCategories</xpath>
+				<value>
+					<li>CorpsesHumanlike</li>
+				</value>
+			</li>
+
+	<!-- исправлена неточность, сообщите разработчику, что навоз и грязь перемешивают на земле, приложить фотки с википедии -->
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[
+				defName = "MakeBiosolidFertilizerHand" or
+				defName = "MakeGardenFertilizerHand" or
+				defName = "MakeFertilizer"
+				]/recipeUsers/li[1]/text()</xpath>
+				<value>CraftingSpot</value>
+			</li>
+
+	<!-- исправлена неточность, сообщите разработчику про цвет места раскопок -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "VG_DiggingSpot"]/graphicData</xpath>
+				<value>
+					<color>(0, 200, 0)</color>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
