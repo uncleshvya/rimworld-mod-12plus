@@ -2,6 +2,8 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
+2021-03-08 начата работа по адаптации мода Vanilla Expanded Framework.
+
 2021-03-07 добавлена адаптация для мода VGPgardenTools, заодно исправлены его ошибки, см.каменты в коде.
 Скомпилирована версия 12+мода 0.4.8beta.
 Пока не удалось разделить переводы для 10 адаптированных модов, поэтому соответствующие файлы помечены текстом "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "Royalty_", "VGPgardenTools_" в именах файлов, для возможности поиска. 
@@ -65,6 +67,8 @@ For English, scroll down.
 =====
 
 Changelog for Rimworld's 12plus modification.
+
+2021-mar-08 mod oskarpotocki.vanillafactionsexpanded.core adaptation work started.
 
 2021-mar-07 dismarzero.VGP.VGPGardenTools mod adaptation added. Also corrected its errors, see code comments.
 UncleShvya.12plus mod v.0.4.8beta compiled. There are some unsolved problems with cataloging, so the files were marked with tags "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "Royalty_", "VGPgardenTools_" in files' names.
