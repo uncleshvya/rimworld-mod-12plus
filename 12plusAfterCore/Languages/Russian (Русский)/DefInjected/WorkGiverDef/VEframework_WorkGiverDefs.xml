@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+
+	<!-- EN: gather animal resource -->
+	<VEF_AnimalResource.label>собирать ресурсы с животных</VEF_AnimalResource.label>
+	<!-- EN: gathering animal resource from -->
+	<VEF_AnimalResource.gerund>собирает ресурсы с</VEF_AnimalResource.gerund>
+	<!-- EN: gather animal resource from -->
+	<VEF_AnimalResource.verb>собирать ресурсы с</VEF_AnimalResource.verb>
+
+</LanguageData>
