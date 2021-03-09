@@ -4,21 +4,21 @@
 	<!-- добавлена русская локализация, сообщите разработчику -->
 
 	<!-- EN: colonist -->
-	<Orassan.label>поселенец</Orassan.label>
+	<Orassan.label>поселенец орассан</Orassan.label>
 	<!-- EN: orassan colonist -->
 	<OrassanVillager.label>житель поселения орассан</OrassanVillager.label>
 	<!-- EN: orassan slave -->
-	<OrassanSlave.label>раб из орассан</OrassanSlave.label>
+	<OrassanSlave.label>раб-орассанин</OrassanSlave.label>
 	<!-- EN: orassan refugee -->
 	<OrassanRefugee.label>беженец-орассанин</OrassanRefugee.label>
 	<!-- EN: orassan governor -->
 	<OrassanTownCouncilman.label>губернатор орассан</OrassanTownCouncilman.label>
 	<!-- EN: neko villager -->
-	<HybridVillager.label>житель-гибрид</HybridVillager.label>
+	<HybridVillager.label>житель-нэко</HybridVillager.label>
 	<!-- EN: human villager -->
 	<HumanVillager.label>житель-человек</HumanVillager.label>
 	<!-- EN: neko refugee -->
-	<HybridRefugee.label>гибрид-беглец</HybridRefugee.label>
+	<HybridRefugee.label>нэко-беглец</HybridRefugee.label>
 	<!-- EN: town trader -->
 	<OrassanTrader.label>торговец орассан</OrassanTrader.label>
 	<!-- EN: orassan soldier -->
@@ -34,9 +34,9 @@
 	<!-- EN: orassan grenadier -->
 	<OrassanGrenadier.label>гренадёр орассан</OrassanGrenadier.label>
 	<!-- EN: neko soldier -->
-	<HybridSoldier.label>гибрид-солдат</HybridSoldier.label>
+	<HybridSoldier.label>нэко-солдат</HybridSoldier.label>
 	<!-- EN: human soldier -->
-	<HumanSoldier.label>солдат</HumanSoldier.label>
+	<HumanSoldier.label>солдат-человек</HumanSoldier.label>
 	<!-- EN: orassan soldier -->
 	<OrassanSoldier.label>солдат орассан</OrassanSoldier.label>
 	<!-- EN: orassan mercenary -->
@@ -44,11 +44,11 @@
 	<!-- EN: orassan pirate -->
 	<OrassanPirate.label>пират орассан</OrassanPirate.label>
 	<!-- EN: warrior -->
-	<Tribal_Warrior_Orassan.label>воитель</Tribal_Warrior_Orassan.label>
+	<Tribal_Warrior_Orassan.label>воитель-орассанин</Tribal_Warrior_Orassan.label>
 	<!-- EN: hunter -->
-	<Tribal_Hunter_Orassan.label>охотник</Tribal_Hunter_Orassan.label>
+	<Tribal_Hunter_Orassan.label>охотник-орассанин</Tribal_Hunter_Orassan.label>
 	<!-- EN: hunter -->
-	<Tribal_Hunter_OrassanHybrid.label>охотящийся</Tribal_Hunter_OrassanHybrid.label>
+	<Tribal_Hunter_OrassanHybrid.label>нэко-охотник</Tribal_Hunter_OrassanHybrid.label>
 	<!-- EN: ori -->
 	<Ori.label>ори</Ori.label>
 	<!-- EN: ori -->
