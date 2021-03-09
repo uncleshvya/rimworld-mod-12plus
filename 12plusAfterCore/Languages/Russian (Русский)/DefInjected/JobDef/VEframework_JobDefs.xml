@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+
+	<!-- EN: gathering animal resource from TargetA. -->
+	<VEF_AnimalResource.reportString>собирает ресурсы с TargetA</VEF_AnimalResource.reportString>
+	<!-- EN: destroying an item. -->
+	<VEF_DestroyItem.reportString>уничтожает предмет</VEF_DestroyItem.reportString>
+	<!-- EN: rebuilding machine. -->
+	<VFE_Mechanoids_RepairMachine.reportString>чинит механизм</VFE_Mechanoids_RepairMachine.reportString>
+	<!-- EN: attaching turret. -->
+	<VFE_Mechanoids_AttachTurret.reportString>присоединяет орудие</VFE_Mechanoids_AttachTurret.reportString>
+	<!-- EN: recharging. -->
+	<VFE_Mechanoids_Recharge.reportString>перезаряжает</VFE_Mechanoids_Recharge.reportString>
+
+</LanguageData>
