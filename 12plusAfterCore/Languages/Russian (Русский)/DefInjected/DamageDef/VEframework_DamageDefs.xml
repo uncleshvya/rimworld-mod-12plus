@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- добавлена недостающая строка русской локализации, сообщите разработчику -->
+
+	<!-- EN: acid burn -->
+	<VEF_SecondaryAcidBurn.label>ожог кислотой</VEF_SecondaryAcidBurn.label>
+
+	<!-- исправление согласно концепции «12+» -->
+
+	<!-- EN: {0} has been corroded to death. -->
+	<VEF_SecondaryAcidBurn.deathMessage>{0} обжигается кислотой</VEF_SecondaryAcidBurn.deathMessage>
+
+</LanguageData>
