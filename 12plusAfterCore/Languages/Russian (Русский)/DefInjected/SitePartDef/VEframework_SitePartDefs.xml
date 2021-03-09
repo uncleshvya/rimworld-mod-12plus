@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+
+	<!-- EN: ennemies presence -->
+	<KCSG_EnnemiesPresence.label>присутствие врагов</KCSG_EnnemiesPresence.label>
+	<!-- EN: Ennemies are present in this place. -->
+	<KCSG_EnnemiesPresence.description>Здесь есть враги!</KCSG_EnnemiesPresence.description>
+
+</LanguageData>
