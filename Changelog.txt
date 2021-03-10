@@ -5,7 +5,7 @@ For English, scroll down.
 2021-03-09 начата работа над адаптацией мода Vanilla Cooking Expanded вместе с аддоном Stews. Теги "VEcooking_" и "VEstews_".
 Добавлена адаптация для мода Vanilla Expanded Framework, заодно исправлены его ошибки, см.каменты в коде.
 Скомпилирована версия 12+мода 0.4.9beta.
-Пока не удалось разделить переводы для 11 адаптированных модов, поэтому соответствующие файлы помечены текстом "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "Royalty_", "VEframework_", "VGPgardenTools_" в именах файлов, для возможности поиска (здесь теги в алфавитном порядке).
+Пока не удалось разделить переводы для 11 адаптированных модов, поэтому соответствующие файлы помечены текстом "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "Royalty_", "VEframework_", "VGPgardenTools_" в именах файлов, для возможности поиска (здесь теги в алфавитном порядке). В случае отделения их в виде мода, нужно будет загружать после ядра "12+".
 
 2021-03-07 добавлена адаптация для мода VGPgardenTools, заодно исправлены его ошибки, см.каменты в коде.
 
@@ -71,7 +71,7 @@ Changelog for Rimworld's 12plus modification.
 
 2021-mar-09 mods VanillaExpanded.VCookE and VanillaExpanded.VCookEStews adaptation work started. Tags "VEcooking_" and "VEstews_".
 Oskarpotocki.vanillafactionsexpanded.core mod adaptation added. Also corrected its errors, see code comments.
-UncleShvya.12plus mod v.0.4.9beta compiled. There are some unsolved problems with cataloging, so the files were marked with tags (alphabetically) "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "Royalty_", "VEframework_", "VGPgardenTools_" in files' names.
+UncleShvya.12plus mod v.0.4.9beta compiled. There are some unsolved problems with cataloging, so the files were marked with tags (alphabetically) "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "Royalty_", "VEframework_", "VGPgardenTools_" in files' names. If these files will be compiled as separate mods, they should be loaded after "12plus.core"
 
 2021-mar-07 dismarzero.VGP.VGPGardenTools mod adaptation added. Also corrected its errors, see code comments.
 
