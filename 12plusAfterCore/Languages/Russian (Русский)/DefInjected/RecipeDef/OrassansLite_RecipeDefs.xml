@@ -8,43 +8,43 @@
 	<!-- EN: Make juice from cat's eye berries. -->
 	<MakeCatJuice5.description>Отжать сок из ягоды «кошачий глаз».</MakeCatJuice5.description>
 	<!-- EN: Making berry juice. -->
-	<MakeCatJuice5.jobString>Делает ягодный сок.</MakeCatJuice5.jobString>
+	<MakeCatJuice5.jobString>делает ягодный сок</MakeCatJuice5.jobString>
 	<!-- EN: make bulk cat's eye berry juice (25) -->
 	<MakeCatJuice25.label>сделать много сока кошачьей ягоды (25 бутылок)</MakeCatJuice25.label>
 	<!-- EN: Make juice from cat s eye berries. -->
 	<MakeCatJuice25.description>Отжать сок из ягоды «кошачий глаз».</MakeCatJuice25.description>
 	<!-- EN: Making berry juice. -->
-	<MakeCatJuice25.jobString>Делает ягодный сок.</MakeCatJuice25.jobString>
+	<MakeCatJuice25.jobString>делает ягодный сок</MakeCatJuice25.jobString>
 
 	<!-- EN: install tail -->
 	<InstallOrassanTail.label>пересадка хвоста</InstallOrassanTail.label>
 	<!-- EN: Installs tail. -->
 	<InstallOrassanTail.description>Пересадить натуральный хвост орассан.</InstallOrassanTail.description>
 	<!-- EN: Installing tail. -->
-	<InstallOrassanTail.jobString>Пересаживает хвост</InstallOrassanTail.jobString>
+	<InstallOrassanTail.jobString>пересаживает хвост</InstallOrassanTail.jobString>
 	<!-- EN: install cloth tail -->
 	<InstallClothTail.label>пришить хвост из ткани</InstallClothTail.label>
 	<!-- EN: Installs cloth tail. -->
 	<InstallClothTail.description>Установить протез хвоста орассан из ткани.</InstallClothTail.description>
 	<!-- EN: Installing cloth tail. -->
-	<InstallClothTail.jobString>Устанавливает хвост из ткани</InstallClothTail.jobString>
+	<InstallClothTail.jobString>устанавливает хвост из ткани</InstallClothTail.jobString>
 	<!-- EN: install bionic tail -->
 	<InstallBionicTail.label>вживить бионический хвост</InstallBionicTail.label>
 	<!-- EN: Installs bionic tail. -->
 	<InstallBionicTail.description>Вживить бионический хвост орассан.</InstallBionicTail.description>
 	<!-- EN: Installing bionic tail. -->
-	<InstallBionicTail.jobString>Вживляет бионический хвост орассан</InstallBionicTail.jobString>
+	<InstallBionicTail.jobString>вживляет бионический хвост орассан</InstallBionicTail.jobString>
 	<!-- EN: install plasteel claws -->
 	<InstallPlasteelClaws.label>установить когти из пластали</InstallPlasteelClaws.label>
 	<!-- EN: Installs plasteel claws. -->
 	<InstallPlasteelClaws.description>Установить бритвенно-острые когти орассан из пластали.</InstallPlasteelClaws.description>
 	<!-- EN: Installing plasteel claws. -->
-	<InstallPlasteelClaws.jobString>Устанавливает когти из пластали</InstallPlasteelClaws.jobString>
+	<InstallPlasteelClaws.jobString>устанавливает когти из пластали</InstallPlasteelClaws.jobString>
 	<!-- EN: install claws -->
 	<InstallOrassanClaws.label>пересадка когтей</InstallOrassanClaws.label>
 	<!-- EN: Installs claws. -->
 	<InstallOrassanClaws.description>Пересадить натуральные когти орассан.</InstallOrassanClaws.description>
 	<!-- EN: Installing claws. -->
-	<InstallOrassanClaws.jobString>Пересаживает когти</InstallOrassanClaws.jobString>
+	<InstallOrassanClaws.jobString>пересаживает когти</InstallOrassanClaws.jobString>
 
 </LanguageData>
