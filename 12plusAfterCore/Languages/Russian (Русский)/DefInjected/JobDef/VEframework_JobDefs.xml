@@ -14,4 +14,13 @@
 	<!-- EN: recharging. -->
 	<VFE_Mechanoids_Recharge.reportString>перезаряжает</VFE_Mechanoids_Recharge.reportString>
 
+	<!-- исправлена неточность, сообщите разработчику. А также разработчику Inoshishi3.VanillaExpanded.VCookERusPatch - в его моде дублирующий перевод этих строк -->
+
+	<!-- Оригинал: вставляет первый ингредиент -->
+	<IP_InsertFirstIngredient.reportString>кладёт первый ингредиент</IP_InsertFirstIngredient.reportString>
+	<!-- Оригинал: вставляет второй ингредиент -->
+	<IP_InsertSecondIngredient.reportString>кладёт второй ингредиент</IP_InsertSecondIngredient.reportString>
+	<!-- Оригинал: вставляет третий ингредиент -->
+	<IP_InsertThirdIngredient.reportString>кладёт третий ингредиент</IP_InsertThirdIngredient.reportString>
+
 </LanguageData>
