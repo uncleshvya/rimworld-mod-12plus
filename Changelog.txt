@@ -9,7 +9,8 @@ For English, scroll down.
 - рагу можно варить и на электрической плите;
 - сырые рагу и супы сделаны съедобным, но невкусными;
 - чугунная плита сохраняет тепло 3 часа вместо 1;
-- убраны лишние категории сыра до введения новых типов молока. Кто уже их реально использует, посмотрите папку Patches либо напишите нам.
+- убраны лишние категории сыра до введения новых типов молока. Кто уже их реально использует, посмотрите папку Patches либо напишите нам;
+- фактически, после адаптации мод VCE и аддон VCES слились.
 Из-за большого объёма работы перед компиляцией новой версии запущена процедура комплексного тестирования.
 Актуальная версия 12+мода 0.4.9beta.
 Пока не удалось разделить переводы для 13 адаптированных модов, поэтому соответствующие файлы помечены текстом "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "Royalty_", "VEcooking_", "VEframework_", "VEstews_", "VGPgardenTools_" в именах файлов, для возможности поиска (здесь теги в алфавитном порядке). В случае отделения их в виде мода, нужно будет загружать после ядра "12+".
@@ -80,12 +81,13 @@ Changelog for Rimworld's 12plus modification.
 
 2021-mar-14 nephlite.orbitaltradecolumn mod adaptation work started. Tag is "UtilityColumns_".
 
-2021-mar-13 VanillaExpanded.VCookE and VanillaExpanded.VCookEStews mods' adaptation added. Also corrected their errors, see code comments. Had to change balance for our modpack:
+2021-mar-13 VanillaExpanded.VCookE and VanillaExpanded.VCookEStews mods' adaptation added. Also corrected their errors, see code comments. Had to change balance, it was awful:
 - Now soups are boiling 2 hours instead of 48, stews - 8 hours instead of 72. These are to equalize them with baking time;
 - Stews can boil on electric pot too;
 - Raw soups and stews are now edible, but have awful taste;
 - Massive stewpot now cools down 3 hours instead of 1;
-- Cheese categories removed. If anybody wants to use different cheese types, there is light solution, just see Patches folder, or tell me.
+- Cheese categories removed. If anybody wants to use different cheese types, there is light solution, just see Patches folder, or tell us;
+- In fact, VCE mod and VCES addon were merged.
 It was a huge work, so test time needed. New 12plus version will be compiled soon.
 Actual UncleShvya.12plus mod is v.0.4.9beta. There are some unsolved problems with cataloging, so the files were marked with tags (alphabetically) "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "Royalty_", "VEcooking_", "VEframework_", "VEstews_", "VGPgardenTools_" in files' names. If these files will be compiled as separate mods, they should be loaded after "12plus.core"
 
