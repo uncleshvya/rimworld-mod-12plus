@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- исправлена неточность, сообщите разработчику -->
+
+	<!-- Оригинал: Готовить -->
+	<VCE_DoBillsGrill.gerund>готовить, используя</VCE_DoBillsGrill.gerund>
+	<!-- Оригинал: Готовить -->
+	<VCE_DoBillsFryer.gerund>готовить, используя</VCE_DoBillsFryer.gerund>
+	<!-- Оригинал: Консервировать -->
+	<VCE_DoBillsCanning.gerund>закатывать еду в банки, используя</VCE_DoBillsCanning.gerund>
+
+	<!-- Оригинал: Работать на столе для приготовления приправ -->
+	<VCE_DoBillsPrep.label>готовить приправы</VCE_DoBillsPrep.label>
+	<!-- Оригинал: Готовить -->
+	<VCE_DoBillsPrep.gerund>готовить, используя</VCE_DoBillsPrep.gerund>
+
+</LanguageData>
