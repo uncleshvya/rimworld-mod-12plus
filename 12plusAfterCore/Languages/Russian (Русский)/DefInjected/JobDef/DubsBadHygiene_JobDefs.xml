@@ -13,7 +13,7 @@
 	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
 
 	<!-- EN: filling water bottle from TargetA -->
-	<DBHPackWaterBottle.reportString>Наполняет бутылку водой из TargetA</DBHPackWaterBottle.reportString>
+	<DBHPackWaterBottle.reportString>Набирает воду про запас</DBHPackWaterBottle.reportString>
 	<!-- EN: stockpiling water from TargetA -->
 	<DBHStockpileWaterBottles.reportString>Наполняет бутылки водой из TargetA</DBHStockpileWaterBottles.reportString>
 	<!-- EN: refilling water -->
