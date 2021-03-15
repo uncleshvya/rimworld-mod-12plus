@@ -137,7 +137,7 @@
 				<value>0.34</value>
 			</li>
 
-			<!-- исправлен баланс, сообщите разработчику, что на электрическом термостате теперь тоже можно приготовить рагу (добавлены 3 процесса в папке Defs и этот патч) -->
+			<!-- исправлен баланс, сообщите разработчику, что на электрическом термостате теперь тоже можно приготовить рагу (ещё добавлены 3 процесса в папке Defs) -->
 
 			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationAdd">
 				<xpath>Defs/ItemProcessor.ItemAcceptedDef[defName = "IP_ElectricPotFirstItem"]/items</xpath>
