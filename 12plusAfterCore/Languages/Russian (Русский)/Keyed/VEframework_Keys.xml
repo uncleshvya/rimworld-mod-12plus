@@ -82,4 +82,40 @@
 	<!-- EN: This building must be placed on water -->
 	<VFE_NeedsWater>Это строение должно располагаться на воде</VFE_NeedsWater>
 
+	<!-- исправлена неточность, сообщите разработчику -->
+
+	<!-- Оригинал: Вставить {0} -->
+	<IP_InsertVariable>Выбрать {0}</IP_InsertVariable>
+	<!-- Оригинал: На этой карте не найдено ({0}) -->
+	<IP_CantFindThing>Не удаётся найти «{0}» на этой карте</IP_CantFindThing>
+	<!-- Оригинал: без "Ё" -->
+	<IP_IngredientImproperlyDefined>Один из ингредиентов был неправильно определён для работы с обработчиком предметов, обратитесь к автору мода.</IP_IngredientImproperlyDefined>
+	<!-- Оригинал: Продукт закончил обработку и ожидает извлечения -->
+	<IP_GenericProductFinished>Обработка закончена. Ожидается поселенец, чтобы извлечь готовый продукт</IP_GenericProductFinished>
+	<!-- Оригинал: {0} пуст(а) -->
+	<IP_IsEmpty>Нет заданий</IP_IsEmpty>
+	<!-- Оригинал: {0} заполнен(а) {1} -->
+	<IP_FilledWith>Внутри — {1}</IP_FilledWith>
+	<!-- Оригинал: "пробел" (заполнен(а) на {0} из {1}) -->
+	<IP_IngredientPercentage>, загружено {0} из {1}</IP_IngredientPercentage>
+	<!-- Оригинал: {0} обрабатывает {1}. {2} будет готов(а) с качеством "{3}", через {4} -->
+	<IP_ProcessingInProgress>{2} подвергается автоматической обработке, приготовится с качеством «{3}», через {4}</IP_ProcessingInProgress>
+	<!-- Оригинал: {0} обрабатывает {1}. {2} будет готов(а) через {3} -->
+	<IP_ProcessingInProgressNoQuality>{2} подвергается автоматической обработке, приготовится через {3}</IP_ProcessingInProgressNoQuality>
+	<!-- Оригинал: ...будет готов на уровне качества: ({2}) -->
+	<IP_RemoveProductDesc>Извлечь {0} из {1}. Продукт будет с качеством: «{2}»</IP_RemoveProductDesc>
+	<!-- Оригинал: ...между {0} и {1} ºC -->
+	<IP_TempRangeInThisMachine>Этому ферментатору требуется температура между {0} и {1} º{2}</IP_TempRangeInThisMachine>
+
+	<!-- Оригинал: Какие части тела защищает щит. -->
+	<VanillaFactionsExpanded.Protects_Desc>Какие части тела закрывает щит.</VanillaFactionsExpanded.Protects_Desc>
+	<!-- Оригинал: с неправильными кавычками -->
+	<VanillaFactionsExpanded.ModInfo>Эта фракция была добавлена модом с названием «{ModName}», и в настоящее время не присутствует в вашей игре.</VanillaFactionsExpanded.ModInfo>
+	<!-- Оригинал: с неправильными кавычками -->
+	<VanillaFactionsExpanded.RequiredFactionInfo>Отмечено, как требуется модом «{ModName}».</VanillaFactionsExpanded.RequiredFactionInfo>
+	<!-- Оригинал: Добавлено(а) {FactionName} с {Amount} поселениями. -->
+	<VanillaFactionsExpanded.FactionMessageSuccessFull>Добавлена фракция {FactionName} с {Amount} поселениями.</VanillaFactionsExpanded.FactionMessageSuccessFull>
+	<!-- Оригинал: Добавлено(а) {FactionName}. -->
+	<VanillaFactionsExpanded.FactionMessageSuccess>Добавлена фракция {FactionName}.</VanillaFactionsExpanded.FactionMessageSuccess>
+
 </LanguageData>
