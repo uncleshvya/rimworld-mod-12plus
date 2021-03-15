@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation MayRequire="VanillaExpanded.VCookE" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<!-- исправление согласно концепции «12+» эффектов масла -->
+
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThoughtDef[defName = "VCE_SmokeleafButterHigh"]/hediff</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "VCE_SmokeleafButter"]/ingredients/li[2]/filter/thingDefs/li[1]/text()</xpath>
+				<value>VCE_RawSpices</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "VCE_SmokeleafButter"]/fixedIngredientFilter/thingDefs/li[2]/text()</xpath>
+				<value>VCE_RawSpices</value>
+			</li>
+
+			<!-- исправлен баланс, сообщите разработчику, что если поселенцы выпечку готовят за пару часов, то не может суп готовиться 48 часов, максимум 2 -->
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ItemProcessor.CombinationDef[
+				defName = "VCE_SimpleSoupRecipe" or
+				defName = "VCE_FineSoupRecipe" or
+				defName = "VCE_LavishSoupRecipe" or
+				defName = "VCE_GourmetSoupRecipe"
+				]/singleTimeIfNotQualityIncreasing/text()</xpath>
+				<value>0.08</value>
+			</li>
+
+			<!-- исправлен баланс, сообщите разработчику, что сырые рагу и супы сделаны съедобным, но невкусными -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+				defName = "VCE_UncookedStewSimple" or
+				defName = "VCE_UncookedStewFine" or
+				defName = "VCE_UncookedStewLavish"
+				]/statBases</xpath>
+				<value>
+					<Mass>4</Mass>
+				</value>
+			</li>
+			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[
+				defName = "VCE_UncookedStewSimple" or
+				defName = "VCE_UncookedStewFine" or
+				defName = "VCE_UncookedStewLavish" or
+				defName = "VCE_UncookedSoupSimple" or
+				defName = "VCE_UncookedSoupFine" or
+				defName = "VCE_UncookedSoupLavish" or
+				defName = "VCE_UncookedSoupGourmet"
+				]/ingestible/preferability</xpath>
+				<value>
+					<preferability>MealAwful</preferability>
+					<optimalityOffsetHumanlikes>-51</optimalityOffsetHumanlikes>
+					<optimalityOffsetFeedingAnimals>-51</optimalityOffsetFeedingAnimals>
+					<ingestSound>RawVegetable_Eat</ingestSound>
+					<ingestEffect>EatVegetarian</ingestEffect>
+					<tasteThought>AteAwfulMeal</tasteThought>
+				</value>
+			</li>
+			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationAttributeSet">
+				<xpath>Defs/ThingDef[
+				defName = "VCE_UncookedStewSimple" or
+				defName = "VCE_UncookedStewFine" or
+				defName = "VCE_UncookedStewLavish" or
+				defName = "VCE_UncookedSoupSimple" or
+				defName = "VCE_UncookedSoupFine" or
+				defName = "VCE_UncookedSoupLavish" or
+				defName = "VCE_UncookedSoupGourmet"
+				]</xpath>
+				<attribute>ParentName</attribute>
+				<value>MealCooked</value>
+			</li>
+			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+				defName = "VCE_UncookedStewSimple" or
+				defName = "VCE_UncookedStewFine" or
+				defName = "VCE_UncookedStewLavish" or
+				defName = "VCE_UncookedSoupSimple" or
+				defName = "VCE_UncookedSoupFine" or
+				defName = "VCE_UncookedSoupLavish" or
+				defName = "VCE_UncookedSoupGourmet"
+				]/statBases</xpath>
+				<value>
+					<Nutrition>4.5</Nutrition>
+				</value>
+			</li>
+
+			<!-- исправлена неточность, сообщите разработчику, что лишние категории засоряют список -->
+
+			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[
+				defName = "VCE_UncookedStewSimple" or
+				defName = "VCE_UncookedStewFine" or
+				defName = "VCE_UncookedStewLavish" or
+				defName = "VCE_UncookedSoupSimple" or
+				defName = "VCE_UncookedSoupFine" or
+				defName = "VCE_UncookedSoupLavish" or
+				defName = "VCE_UncookedSoupGourmet" or
+				defName = "VCE_Cheese"
+				]/thingCategories</xpath>
+			</li>
+
+			<!-- сыр оставляем в рецептах. Пришлось жёстко перезаписать, т.к. категория названа так же, как продукт. Если будем вносить всякие инопланетные сыры, убрать VCE_Cheese из "PatchOperationRemove" выше, а здесь категорию менять методом "PatchOperationReplace" -->
+			<li Class="PatchOperationAttributeSet">
+				<xpath>Defs/ThingDef[defName = "VCE_Cheese"]</xpath>
+				<attribute>ParentName</attribute>
+				<value>OrganicProductBase</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "VCE_Cheese"]/ingestible/preferability</xpath>
+				<value>
+					<preferability>DesperateOnly</preferability>
+					<foodType>Processed</foodType>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "VCE_Cheese"]</xpath>
+				<value>
+					<thingCategories>
+						<li>AnimalProductRaw</li>
+					</thingCategories>
+				</value>
+			</li>
+
+			<!-- исправлен баланс, сообщите разработчику, что если поселенцы выпечку готовят за пару часов, то не может рагу готовиться 72 часа, максимум 8 -->
+
+			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationReplace">
+				<xpath>Defs/ItemProcessor.CombinationDef[
+				defName = "VCE_SimpleStewRecipe" or
+				defName = "VCE_FineStewRecipe" or
+				defName = "VCE_LavishStewRecipe"
+				]/singleTimeIfNotQualityIncreasing/text()</xpath>
+				<value>0.34</value>
+			</li>
+
+			<!-- исправлен баланс, сообщите разработчику, что на электрическом термостате теперь тоже можно приготовить рагу (добавлены 3 процесса в папке Defs и этот патч) -->
+
+			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationAdd">
+				<xpath>Defs/ItemProcessor.ItemAcceptedDef[defName = "IP_ElectricPotFirstItem"]/items</xpath>
+				<value>
+					<li>VCE_UncookedStewSimple</li>
+					<li>VCE_UncookedStewFine</li>
+					<li>VCE_UncookedStewLavish</li>
+				</value>
+			</li>
+
+			<!-- исправлен баланс, сообщите разработчику, что для чугунной плиты увеличено время поиска дров с 10 до 30, ведь она остаётся горячей гораздо дольше -->
+
+			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "VCE_StewPot"]/comps/li[1]/rareTicksToDestroy/text()</xpath>
+				<value>30</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>
