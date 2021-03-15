@@ -202,6 +202,7 @@
 							<skillRequirements>
 								<Cooking>6</Cooking>
 							</skillRequirements>
+							<bulkRecipeCount>4</bulkRecipeCount>
 						</recipeMaker>
 						<costList>
 							<CatnipLeaves>8</CatnipLeaves>
@@ -223,7 +224,8 @@
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/RecipeDef[
 				defName = "MakeCatnipJoint5" or
-				defName = "MakeCatnipJoint15"]</xpath>
+				defName = "MakeCatnipJoint15"
+				]</xpath>
 			</li>
 
 			<!-- исправлена неточность, сообщите разработчику, что иначе медпроцедур в 2 раза больше нужного: -->
