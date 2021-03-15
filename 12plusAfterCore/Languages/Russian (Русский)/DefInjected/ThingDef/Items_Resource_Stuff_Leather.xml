@@ -13,7 +13,7 @@
   <!-- EN: human leather -->
   <Leather_Human.label>человеческие волосы</Leather_Human.label>
   <!-- EN: Tanned, dried, scraped human skin. Most people find this material horrifying. Some find it fascinating. While a decent leather, it neither protects nor insulates particularly well. -->
-  <Leather_Human.description>Колонисты просто так не отдают свои волосы. Но изредка особо хитрый бомж, имеющий доступ к мусору из парикмахерской, может их добыть и свалять в некое подобие полотна. Мало кому понравится такой материал.</Leather_Human.description>
+  <Leather_Human.description>Поселенцы просто так не отдают свои волосы. Но изредка особо хитрый бомж, имеющий доступ к мусору из парикмахерской, может их добыть и свалять в некое подобие полотна. Мало кому понравится такой материал.</Leather_Human.description>
   <Leather_Human.stuffProps.stuffAdjective>волосяного мусора</Leather_Human.stuffProps.stuffAdjective>
 
   <!-- EN: patchleather -->
