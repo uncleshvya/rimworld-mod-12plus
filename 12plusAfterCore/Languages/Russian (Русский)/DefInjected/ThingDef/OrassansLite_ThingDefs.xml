@@ -26,6 +26,14 @@
 	<!-- EN: A hybrid with DNA from a human and an orassan. Typically created through careful genetic engineering in a lab, or the "natural" way from individuals with closely regulated gene mods, these hybrids combine some of the best traits from their parent species. The particular traits and physical characteristics that are being inherited are typically chosen by the parents having the child, but they almost always have two feline ears and a feline tail, both with fur sharing the same color as the hair on their head. -->
 	<Alien_OrassanHumanHybrid.description>Гибрид, имеющий фрагменты ДНК людей и орассан. Обычно создаётся в лаборатории из одной клетки после тщательного генетического конструирования. Но бывает, что в нэко превращается взрослый человек или орассанин после комплексной генотерапии.\n\nТакие гибриды сочетают в себе лучшие стороны двух видов. Внешность нэко зависит от наследственности, но почти всегда у них есть два кошачьих уха и пушистый хвост.</Alien_OrassanHumanHybrid.description>
 
+	<!-- тела -->
+	<Corpse_Ori.label>тушка ори</Corpse_Ori.label>
+	<Corpse_Ori.description>Тушка ори.</Corpse_Ori.description>
+	<Corpse_Animal_Desiri.label>туша дезири</Corpse_Animal_Desiri.label>
+	<Corpse_Animal_Desiri.description>Туша дезири.</Corpse_Animal_Desiri.description>
+	<Corpse_Alien_Orassan.label>тело орассанина</Corpse_Alien_Orassan.label>
+	<Corpse_Alien_Orassan.description>Тело орассанина.</Corpse_Alien_Orassan.description>
+
 	<!-- добавлена русская локализация, сообщите разработчику -->
 
 	<!-- EN: Drink {0} -->
