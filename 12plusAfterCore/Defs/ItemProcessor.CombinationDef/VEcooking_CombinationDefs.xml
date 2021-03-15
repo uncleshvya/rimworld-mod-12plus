@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
+	<!-- исправлен баланс, сообщите разработчику, что на электрическом термостате теперь тоже можно приготовить рагу. Ещё изменения в файле Patches/VEcooking_VEstews_Patch.xml -->
+
 	<ItemProcessor.CombinationDef>
 		<defName>VCE_SimpleStewRecipe2</defName>
 		<building>VCE_ElectricPot</building>
@@ -48,5 +50,4 @@
 		<singleTimeIfNotQualityIncreasing>0.34</singleTimeIfNotQualityIncreasing>
 		<finishedProductMessage>VCE_FinishedLavishStew</finishedProductMessage>
 	</ItemProcessor.CombinationDef>
-
 </Defs>
