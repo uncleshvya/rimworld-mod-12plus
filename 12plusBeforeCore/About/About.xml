@@ -19,6 +19,9 @@ It's an auxiliary mod for text generators translation. Read more in UncleShvya.1
 			<downloadUrl>https://github.com/uncleshvya/rimworld-mod-12plus</downloadUrl>
 		</li>
 	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+	</loadAfter>
 	<loadBefore>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.Royalty</li>
