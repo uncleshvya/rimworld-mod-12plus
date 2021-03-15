@@ -26,35 +26,11 @@
 	<!-- EN: [PAWN_nameDef] was born on a space ship and spent most of their childhood on one ship or another. The close quarters meant that [PAWN_pronoun] had to be friendly with [PAWN_possessive] neighbors and had to know how to maintain the ship [PAWN_pronoun] was on. -->
 	<Orassan_SpacerChild.baseDescription>{PAWN_nameDef} {PAWN_gender ? родился : родилась} на космическом корабле и {PAWN_gender ? провёл : провела} большую часть детства в межпланетных перелётах. Тесные каюты жилых отсеков приучили {PAWN_possessive} дружить с соседями, а однообразные дни {PAWN_pronoun} {PAWN_gender ? скрашивал : скрашивала}, изучая устройство корабля.</Orassan_SpacerChild.baseDescription>
 
-	<!-- EN: Soldier -->
-	<Orassan_Soldier.title>Солдат Империи</Orassan_Soldier.title>
-	<!-- EN: Soldier -->
-	<Orassan_Soldier.titleShort>Солдат</Orassan_Soldier.titleShort>
-	<!-- EN: [PAWN_nameDef] is a soldier for the Orassan Empire.\n -->
-	<Orassan_Soldier.baseDescription>{PAWN_nameDef} {PAWN_gender ? служил : служила} солдатом Империи Орассан.</Orassan_Soldier.baseDescription>
-
-	<!-- EN: Survivor -->
-	<Orassan_Shellshocked.title>Выживший в резне</Orassan_Shellshocked.title>
-	<Orassan_Shellshocked.titleShort>Выживший</Orassan_Shellshocked.titleShort>
-	<!-- EN: Survivor -->
-	<Orassan_Shellshocked.titleFemale>Выжившая в резне</Orassan_Shellshocked.titleFemale>
-	<Orassan_Shellshocked.titleShortFemale>Выжившая</Orassan_Shellshocked.titleShortFemale>
-	<!-- EN: [PAWN_nameDef] served in the Orassan army. After serving on an invasion force against a rival army, [PAWN_pronoun] was the only survivor in their squad in a failed invasion attempt.\n -->
-	<Orassan_Shellshocked.baseDescription>{PAWN_nameDef} {PAWN_gender ? служил : служила} в войсках орассан. После массированного вторжения на вражескую территорию, {PAWN_pronoun} {PAWN_gender ? остался единственным выжившим : осталась единственной выжившей} из всего подразделения и {PAWN_gender ? стал : стала} свидетелем полного поражения своей армии.</Orassan_Shellshocked.baseDescription>
-
 	<!-- EN: Scientist -->
 	<Orassan_Scientist.title>Имперский учёный</Orassan_Scientist.title>
 	<Orassan_Scientist.titleShort>Учёный</Orassan_Scientist.titleShort>
 	<!-- EN: [PAWN_nameDef] is a researcher for the Orassan Empire. [PAWN_pronoun] has dedicated [PAWN_possessive] life to discovering the unknown.\n -->
 	<Orassan_Scientist.baseDescription>{PAWN_nameDef} {PAWN_gender ? был : была} имперским учёным. {PAWN_pronoun} {PAWN_gender ? посвятил : посвятила} свою жизнь изучению неизведанного.</Orassan_Scientist.baseDescription>
-
-	<!-- EN: Xeno zookeeper -->
-	<Orassan_XenoZoo.title>Смотритель зоопарка</Orassan_XenoZoo.title>
-	<!-- EN: Zookeeper -->
-	<Orassan_XenoZoo.titleShort>Смотритель</Orassan_XenoZoo.titleShort>
-	<Orassan_XenoZoo.titleShortFemale>Смотрительница</Orassan_XenoZoo.titleShortFemale>
-	<!-- EN: [PAWN_nameDef] works at one of the many Xeno Zoos in the Orassan Empire and is very fond of animals.\n -->
-	<Orassan_XenoZoo.baseDescription>{PAWN_nameDef} {PAWN_gender ? работал : работала} в одном из многих ксено-зоопарков Империи орассан, и очень {PAWN_gender ? любил : любила} своих животных.</Orassan_XenoZoo.baseDescription>
 
 	<!-- EN: Frontline soldier -->
 	<Orassan_Slasher.title>Солдат на передовой</Orassan_Slasher.title>
@@ -78,22 +54,6 @@
 	<Orassan_Rbully.titleShortFemale>Раскаявшаяся</Orassan_Rbully.titleShortFemale>
 	<!-- EN: [PAWN_nameDef] used to be a bully, but then [PAWN_pronoun] messed with someone who fought back. The experience left [PAWN_objective] scarred, and [PAWN_pronoun] prefers to avoid fighting at all. -->
 	<Orassan_Rbully.baseDescription>{PAWN_nameDef} сначала {PAWN_gender ? был хулиганом: была хулиганкой}, но как-то раз {PAWN_gender ? получил : получила} неожиданный отпор. Полученный отрицательный опыт испугал {PAWN_possessive}, и {PAWN_pronoun} {PAWN_gender ? стал : стала} любым способом избегать драк.</Orassan_Rbully.baseDescription>
-
-	<!-- EN: Psionic warrior -->
-	<Orassan_PsiWarrior.title>Воин-псионик</Orassan_PsiWarrior.title>
-	<!-- EN: Psionic -->
-	<Orassan_PsiWarrior.titleShort>Псионик</Orassan_PsiWarrior.titleShort>
-	<!-- EN: Few orassans display latent psionic abilities. [PAWN_nameDef] is one of them. Once the empire discovered, [PAWN_pronoun] was recuited to be a psionic warrior. -->
-	<Orassan_PsiWarrior.baseDescription>Изредка орассане имеют латентные пси-способности. {PAWN_nameDef} — {PAWN_gender ? один : одна} из таких уникумов. {PAWN_possessive} сразу призвали в центр подготовки воинов-псиоников, как только Империи стало известно о юном таланте.</Orassan_PsiWarrior.baseDescription>
-
-	<!-- EN: Specialist -->
-	<Orassan_PsiPolice.title>Работник спецслужб</Orassan_PsiPolice.title>
-	<Orassan_PsiPolice.titleFemale>Работница спецслужб</Orassan_PsiPolice.titleFemale>
-	<!-- EN: Specialist -->
-	<Orassan_PsiPolice.titleShort>Специалист</Orassan_PsiPolice.titleShort>
-	<Orassan_PsiPolice.titleShortFemale>Специалистка</Orassan_PsiPolice.titleShortFemale>
-	<!-- EN: Dispite the Orassan's individualistic tendancies, there are limits to just how much one can express themselves without crossing the line. [PAWN_nameDef] was one of a specialised few who took care of incidents that required a more gentle approach then the general police force, to restrain others without inhibiting individuality. -->
-	<Orassan_PsiPolice.baseDescription>Несмотря на толерантные тенденции общества орассан, есть пределы, насколько индивидуум может выражать себя, не преступая черту. {PAWN_nameDef} {PAWN_gender ? был одним : была одной} из специалистов, кто упреждал беспорядки, используя более тонкий подход, чем полицейские силовики. Таким образом сдерживалось население, без угнетения индивидуальности.</Orassan_PsiPolice.baseDescription>
 
 	<!-- EN: Officer -->
 	<Orassan_Officer.title>Боевой офицер</Orassan_Officer.title>
@@ -148,15 +108,6 @@
 	<!-- EN: The Orassan Navy always facinated [PAWN_nameDef]. [PAWN_pronoun] often visited military bases and watched weapon tests. -->
 	<Orassan_MilitaryC.baseDescription>{PAWN_nameDef} всегда {PAWN_gender ? восхищался : восхищалась} деятельностью военных. {PAWN_pronoun} часто {PAWN_gender ? крутился : крутилась} около военных баз космофлота и {PAWN_gender ? любил : любила} наблюдать за испытаниями вооружения.</Orassan_MilitaryC.baseDescription>
 
-	<!-- EN: Mercenary -->
-	<Orassan_Mercenary.title>Наёмник</Orassan_Mercenary.title>
-	<Orassan_Mercenary.titleFemale>Наёмница</Orassan_Mercenary.titleFemale>
-	<!-- EN: Mercenary -->
-	<Orassan_Mercenary.titleShort>Наёмник</Orassan_Mercenary.titleShort>
-	<Orassan_Mercenary.titleShortFemale>Наёмница</Orassan_Mercenary.titleShortFemale>
-	<!-- EN: While not a popular profession in the Orassan Empire, there are still those willing to do any job if the pay is right. -->
-	<Orassan_Mercenary.baseDescription>Хоть эта профессия и не популярна в Империи орассан, всегда есть те, кто возьмётся за любую работу, если она хорошо оплачивается.</Orassan_Mercenary.baseDescription>
-
 	<!-- EN: Hydroponics worker -->
 	<Orassan_Hydro.title>Подземный фермер</Orassan_Hydro.title>
 	<!-- EN: Grower -->
@@ -172,13 +123,6 @@
 	<Orassan_Gravity.titleShortFemale>Силачка</Orassan_Gravity.titleShortFemale>
 	<!-- EN: [PAWN_nameDef] was from a high-gravity planet. As such, [PAWN_pronoun] is stronger then most. -->
 	<Orassan_Gravity.baseDescription>{PAWN_nameDef} {PAWN_gender ? родился : родилась} на планете с высокой гравитацией, поэтому {PAWN_gender ? был : была} сильнее большинства обычных поселенцев.</Orassan_Gravity.baseDescription>
-
-	<!-- EN: Gene warrior -->
-	<Orassan_GeneWarrior.title>Выращенный воин</Orassan_GeneWarrior.title>
-	<!-- EN: Warrior -->
-	<Orassan_GeneWarrior.titleShort>Воин</Orassan_GeneWarrior.titleShort>
-	<!-- EN: [PAWN_nameDef] is a genetically engineered supersoldier for the Orassan Empire. -->
-	<Orassan_GeneWarrior.baseDescription>{PAWN_nameDef} — генетически модифицированный суперсолдат Империи орассан.</Orassan_GeneWarrior.baseDescription>
 
 	<!-- EN: Designer baby -->
 	<Orassan_GeneChild.title>Идеальный ребёнок</Orassan_GeneChild.title>
@@ -245,15 +189,6 @@
 	<!-- EN: [PAWN_nameDef] has dedicated [PAWN_possessive] life to healing others. -->
 	<Orassan_Doctor.baseDescription>{PAWN_nameDef} полностью {PAWN_gender ? посвятил : посвятила} себя делу врачевания.</Orassan_Doctor.baseDescription>
 
-	<!-- EN: Cultist -->
-	<Orassan_Cultist.title>Служитель культа</Orassan_Cultist.title>
-	<Orassan_Cultist.titleFemale>Служительница культа</Orassan_Cultist.titleFemale>
-	<!-- EN: Cultist -->
-	<Orassan_Cultist.titleShort>Культист</Orassan_Cultist.titleShort>
-	<Orassan_Cultist.titleShortFemale>Культистка</Orassan_Cultist.titleShortFemale>
-	<!-- EN: [PAWN_nameDef] was part of Dawn's Light, a religous cult that rebelled against the Orassan government near the begining of the Empire's space age with the help of newfound enemies of the Empire. The leader has since been killed, but the embers of the cult still flicker... awaiting to reignite. -->
-	<Orassan_Cultist.baseDescription>{PAWN_nameDef} {PAWN_gender ? был : была} членом «Рассветного Луча», религиозного антиправительственного культа, который зародился в начале космической эры орассан, подогреваемый врагами Империи. Лидер секты вскоре был устранён, но души последователей всё ещё тлеют... И ждут искры, чтобы воспылать.</Orassan_Cultist.baseDescription>
-
 	<!-- EN: Construction worker -->
 	<Orassan_Constructor.title>Строитель</Orassan_Constructor.title>
 	<!-- EN: Constructor -->
@@ -270,15 +205,6 @@
 	<!-- EN: [PAWN_nameDef] grew up in a fledgling colony. They had to help the community grow and thrive. -->
 	<Orassan_ColonyChild.baseDescription>{PAWN_nameDef} {PAWN_gender ? рос : росла} в молодом поселении, где все ресурсы были направлены на расширение и развитие.</Orassan_ColonyChild.baseDescription>
 
-	<!-- EN: Colonizer -->
-	<Orassan_Colinizer.title>Житель поселения</Orassan_Colinizer.title>
-	<Orassan_Colinizer.titleFemale>Жительница поселения</Orassan_Colinizer.titleFemale>
-	<!-- EN: Colonizer -->
-	<Orassan_Colinizer.titleShort>Поселенец</Orassan_Colinizer.titleShort>
-	<Orassan_Colinizer.titleShortFemale>Поселенка</Orassan_Colinizer.titleShortFemale>
-	<!-- EN: [PAWN_nameDef] is part of the effort to expand the Orassan Empire.\n -->
-	<Orassan_Colinizer.baseDescription>{PAWN_nameDef} лично {PAWN_gender ? участвовал : участвовала} в расширении Империи орассан.</Orassan_Colinizer.baseDescription>
-
 	<!-- EN: Climber -->
 	<Orassan_Climber.title>Юный альпинист</Orassan_Climber.title>
 	<Orassan_Climber.titleFemale>Юная альпинистка</Orassan_Climber.titleFemale>
@@ -287,21 +213,99 @@
 	<!-- EN: [PAWN_nameDef] was a climber as a kid, building strength by finding [PAWN_possessive] ways to tops of trees. -->
 	<Orassan_Climber.baseDescription>{PAWN_nameDef} с детства не {PAWN_gender ? боялся : боялась} высоты, и очень {PAWN_gender ? любил : любила} залезать на вершины деревьев.</Orassan_Climber.baseDescription>
 
-	<!-- EN: Orassia born -->
-	<Orassan_CapitalChild.title>Рождённый на Орассии</Orassan_CapitalChild.title>
-	<Orassan_CapitalChild.titleFemale>Рождённая на Орассии</Orassan_CapitalChild.titleFemale>
-	<!-- EN: Orassan -->
-	<Orassan_CapitalChild.titleShort>Орассанин</Orassan_CapitalChild.titleShort>
-	<Orassan_CapitalChild.titleShortFemale>Орассанка</Orassan_CapitalChild.titleShortFemale>
-	<!-- EN: [PAWN_nameDef] was born on the capital planet of Orassia. [PAWN_pronoun] was born to a wealthy family that lived in a mountain side estate. -->
-	<Orassan_CapitalChild.baseDescription>{PAWN_nameDef} {PAWN_gender ? родился : родилась} на столичной планете, Орассии, в богатой семье, владевшей поместьем в горах.</Orassan_CapitalChild.baseDescription>
+	<!-- исправлена неточность, сообщите разработчику, что из-за неправильной структуры файла:
+	\Mods\OrassansLite\1.2\Defs\PawnKindDefs\PawnKinds_Orassan.xml
+	иногда генерируются люди с предысторией кошек, например Orassan_PsiWarrior. В связи с этим нижеследующие предыстории адаптированы под все расы: -->
 
 	<!-- EN: Ambassador -->
-	<Orassan_Ambassador.title>Посол Орассии</Orassan_Ambassador.title>
+	<Orassan_Ambassador.title>Работник посольства</Orassan_Ambassador.title>
+	<Orassan_Ambassador.titleFemale>Работница посольства</Orassan_Ambassador.titleFemale>
 	<!-- EN: Ambassador -->
 	<Orassan_Ambassador.titleShort>Посол</Orassan_Ambassador.titleShort>
 	<!-- EN: With the largely acceptive opinion Orassans have with aliens, [PAWN_nameDef] took pride in [PAWN_possessive] work as a foreign ambassador. [PAWN_pronoun] regularly met, and kept goodwill with many xeno species.\n -->
 	<Orassan_Ambassador.baseDescription>Орассане весьма лояльно относятся к инопланетянам, так что {PAWN_nameDef} очень {PAWN_gender ? гордился : гордилась} своей работой посла в межпланетной организации. По долгу службы {PAWN_pronoun} постоянно {PAWN_gender ? встречался : встречалась} с представителями многих экзотических рас, стараясь поддерживать добрые отношения между ними и Империей.</Orassan_Ambassador.baseDescription>
+
+	<!-- EN: Orassia born -->
+	<Orassan_CapitalChild.title>Дитя столицы</Orassan_CapitalChild.title>
+	<!-- EN: Orassan -->
+	<Orassan_CapitalChild.titleShort>Городской</Orassan_CapitalChild.titleShort>
+	<Orassan_CapitalChild.titleShortFemale>Городская</Orassan_CapitalChild.titleShortFemale>
+	<!-- EN: [PAWN_nameDef] was born on the capital planet of Orassia. [PAWN_pronoun] was born to a wealthy family that lived in a mountain side estate. -->
+	<Orassan_CapitalChild.baseDescription>{PAWN_nameDef} {PAWN_gender ? родился : родилась} на столичной планете в богатой семье, владевшей поместьем в горах.</Orassan_CapitalChild.baseDescription>
+
+	<!-- EN: Colonizer -->
+	<Orassan_Colinizer.title>Житель поселения</Orassan_Colinizer.title>
+	<Orassan_Colinizer.titleFemale>Жительница поселения</Orassan_Colinizer.titleFemale>
+	<!-- EN: Colonizer -->
+	<Orassan_Colinizer.titleShort>Поселенец</Orassan_Colinizer.titleShort>
+	<Orassan_Colinizer.titleShortFemale>Поселенка</Orassan_Colinizer.titleShortFemale>
+	<!-- EN: [PAWN_nameDef] is part of the effort to expand the Orassan Empire.\n -->
+	<Orassan_Colinizer.baseDescription>{PAWN_nameDef} лично {PAWN_gender ? участвовал : участвовала} в расширении Империи.</Orassan_Colinizer.baseDescription>
+
+	<!-- EN: Cultist -->
+	<Orassan_Cultist.title>Служитель культа</Orassan_Cultist.title>
+	<Orassan_Cultist.titleFemale>Служительница культа</Orassan_Cultist.titleFemale>
+	<!-- EN: Cultist -->
+	<Orassan_Cultist.titleShort>Культист</Orassan_Cultist.titleShort>
+	<Orassan_Cultist.titleShortFemale>Культистка</Orassan_Cultist.titleShortFemale>
+	<!-- EN: [PAWN_nameDef] was part of Dawn's Light, a religous cult that rebelled against the Orassan government near the begining of the Empire's space age with the help of newfound enemies of the Empire. The leader has since been killed, but the embers of the cult still flicker... awaiting to reignite. -->
+	<Orassan_Cultist.baseDescription>{PAWN_nameDef} {PAWN_gender ? был : была} членом «Рассветного Луча», религиозного антиправительственного культа, зародившегося в начале космической эры, и подогреваемого врагами Империи. Лидер секты вскоре был устранён, но души последователей всё ещё тлеют... И ждут искры, чтобы воспылать.</Orassan_Cultist.baseDescription>
+
+	<!-- EN: Gene warrior -->
+	<Orassan_GeneWarrior.title>Выращенный воин</Orassan_GeneWarrior.title>
+	<!-- EN: Warrior -->
+	<Orassan_GeneWarrior.titleShort>Воин</Orassan_GeneWarrior.titleShort>
+	<!-- EN: [PAWN_nameDef] is a genetically engineered supersoldier for the Orassan Empire. -->
+	<Orassan_GeneWarrior.baseDescription>{PAWN_nameDef} — генетически модифицированный суперсолдат Империи.</Orassan_GeneWarrior.baseDescription>
+
+	<!-- EN: Mercenary -->
+	<Orassan_Mercenary.title>Наёмник</Orassan_Mercenary.title>
+	<Orassan_Mercenary.titleFemale>Наёмница</Orassan_Mercenary.titleFemale>
+	<!-- EN: Mercenary -->
+	<Orassan_Mercenary.titleShort>Наёмник</Orassan_Mercenary.titleShort>
+	<Orassan_Mercenary.titleShortFemale>Наёмница</Orassan_Mercenary.titleShortFemale>
+	<!-- EN: While not a popular profession in the Orassan Empire, there are still those willing to do any job if the pay is right. -->
+	<Orassan_Mercenary.baseDescription>Хоть эта профессия и не популярна в Империи, всегда есть те, кто возьмётся за любую работу, если она хорошо оплачивается.</Orassan_Mercenary.baseDescription>
+
+	<!-- EN: Specialist -->
+	<Orassan_PsiPolice.title>Работник спецслужб</Orassan_PsiPolice.title>
+	<Orassan_PsiPolice.titleFemale>Работница спецслужб</Orassan_PsiPolice.titleFemale>
+	<!-- EN: Specialist -->
+	<Orassan_PsiPolice.titleShort>Специалист</Orassan_PsiPolice.titleShort>
+	<Orassan_PsiPolice.titleShortFemale>Специалистка</Orassan_PsiPolice.titleShortFemale>
+	<!-- EN: Dispite the Orassan's individualistic tendancies, there are limits to just how much one can express themselves without crossing the line. [PAWN_nameDef] was one of a specialised few who took care of incidents that required a more gentle approach then the general police force, to restrain others without inhibiting individuality. -->
+	<Orassan_PsiPolice.baseDescription>Несмотря на толерантные тенденции современного общества, есть пределы, насколько индивидуум может выражать себя, не преступая черту. {PAWN_nameDef} {PAWN_gender ? был одним : была одной} из специалистов, кто упреждал беспорядки, используя более тонкий подход, чем полицейские силовики. Таким образом сдерживалось население, без угнетения индивидуальности.</Orassan_PsiPolice.baseDescription>
+
+	<!-- EN: Psionic warrior -->
+	<Orassan_PsiWarrior.title>Воин-псионик</Orassan_PsiWarrior.title>
+	<!-- EN: Psionic -->
+	<Orassan_PsiWarrior.titleShort>Псионик</Orassan_PsiWarrior.titleShort>
+	<!-- EN: Few orassans display latent psionic abilities. [PAWN_nameDef] is one of them. Once the empire discovered, [PAWN_pronoun] was recuited to be a psionic warrior. -->
+	<Orassan_PsiWarrior.baseDescription>Некоторые с рождения имеют латентные пси-способности. {PAWN_nameDef} — {PAWN_gender ? один : одна} из таких уникумов. {PAWN_possessive} сразу призвали в центр подготовки воинов-псиоников, как только Империи стало известно о юном таланте.</Orassan_PsiWarrior.baseDescription>
+
+	<!-- EN: Xeno zookeeper -->
+	<Orassan_XenoZoo.title>Смотритель зоопарка</Orassan_XenoZoo.title>
+	<!-- EN: Zookeeper -->
+	<Orassan_XenoZoo.titleShort>Смотритель</Orassan_XenoZoo.titleShort>
+	<Orassan_XenoZoo.titleShortFemale>Смотрительница</Orassan_XenoZoo.titleShortFemale>
+	<!-- EN: [PAWN_nameDef] works at one of the many Xeno Zoos in the Orassan Empire and is very fond of animals.\n -->
+	<Orassan_XenoZoo.baseDescription>{PAWN_nameDef} {PAWN_gender ? работал : работала} в одном из многих ксено-зоопарков Империи, и очень {PAWN_gender ? любил : любила} своих животных.</Orassan_XenoZoo.baseDescription>
+
+	<!-- EN: Survivor -->
+	<Orassan_Shellshocked.title>Выживший в резне</Orassan_Shellshocked.title>
+	<Orassan_Shellshocked.titleShort>Выживший</Orassan_Shellshocked.titleShort>
+	<!-- EN: Survivor -->
+	<Orassan_Shellshocked.titleFemale>Выжившая в резне</Orassan_Shellshocked.titleFemale>
+	<Orassan_Shellshocked.titleShortFemale>Выжившая</Orassan_Shellshocked.titleShortFemale>
+	<!-- EN: [PAWN_nameDef] served in the Orassan army. After serving on an invasion force against a rival army, [PAWN_pronoun] was the only survivor in their squad in a failed invasion attempt.\n -->
+	<Orassan_Shellshocked.baseDescription>{PAWN_nameDef} {PAWN_gender ? служил : служила} в десантных войсках. После массированного вторжения на вражескую территорию, {PAWN_pronoun} {PAWN_gender ? остался единственным выжившим : осталась единственной выжившей} из всего подразделения и {PAWN_gender ? стал свидетелем: стала свидетельницей} полного поражения своей армии.</Orassan_Shellshocked.baseDescription>
+
+	<!-- EN: Soldier -->
+	<Orassan_Soldier.title>Солдат Империи</Orassan_Soldier.title>
+	<!-- EN: Soldier -->
+	<Orassan_Soldier.titleShort>Солдат</Orassan_Soldier.titleShort>
+	<!-- EN: [PAWN_nameDef] is a soldier for the Orassan Empire.\n -->
+	<Orassan_Soldier.baseDescription>{PAWN_nameDef} {PAWN_gender ? служил : служила} простым солдатом Империи.</Orassan_Soldier.baseDescription>
 
 	<!-- исправление согласно концепции «12+» -->
 
