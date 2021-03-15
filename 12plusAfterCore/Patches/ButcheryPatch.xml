@@ -5,7 +5,7 @@
 	<!-- исправление согласно концепции «12+» -->
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/RecipeDef[defName="ButcherCorpseFlesh"]/fixedIngredientFilter/disallowedCategories</xpath>
+		<xpath>Defs/RecipeDef[defName="ButcherCorpseFlesh"]/fixedIngredientFilter/disallowedCategories</xpath>
 		<value>
 			<li>CorpsesHumanlike</li>
 		</value>
