@@ -2,6 +2,8 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
+2021-03-16 начата работа по адаптации мода Bones. Тег "RimOfMadnessBones_".
+
 2021-03-15 добавлена адаптация для мода Utility Columns и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 Скомпилирована версия 12+мода 0.5.1beta.
 Пока не удалось разделить переводы для 14 адаптированных модов, поэтому соответствующие файлы помечены текстом "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "Royalty_", "UtilityColumns_", "VEcooking_", "VEframework_", "VEstews_", "VGPgardenTools_" в именах файлов, для возможности поиска (здесь теги в алфавитном порядке). В случае отделения их в виде мода, нужно будет загружать после ядра "12+".
@@ -77,6 +79,8 @@ For English, scroll down.
 =====
 
 Changelog for Rimworld's 12plus modification.
+
+2021-mar-16 mode sihv.rombones adaptation work started. Tag "RimOfMadnessBones_".
 
 2021-mar-15 nephlite.orbitaltradecolumn mod adaptation added. Also corrected its errors, see code comments.
 UncleShvya.12plus mod v.0.5.1beta compiled.
