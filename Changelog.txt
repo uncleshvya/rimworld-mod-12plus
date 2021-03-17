@@ -46,7 +46,7 @@ For English, scroll down.
 
 2020-09-23 отключена возможность подкормки животных человечиной.
 
-2020-09-21 отключена возможность человеческого каннибализма.
+2020-09-21 отключена возможность человеческого каннибализма, аналогично и для других разумных рас, поддерживаемых модом.
 
 2020-09-05 закончен апдейт до Римворлда 1.2 с Роялти. Поддержка версии 1.0 заморожена до востребования.
 
@@ -124,7 +124,7 @@ There are some unsolved problems with cataloging, so the files were marked with 
 
 2020-sep-23 removed the ability to feed predators with human meat and corpses.
 
-2020-sep-21 removed humans' cannibalism for everyone.
+2020-sep-21 removed humanlikes' cannibalism for every supported race.
 
 2020-sep-05 update to RW v.1.2 with Royalty finished. Support for RimWorld v.1.0 was paused until asked.
 
