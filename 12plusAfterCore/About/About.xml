@@ -65,7 +65,8 @@ Humanoid Cats — dianawinters.OrassansLite
 - категоризировать файлы по модам;
 - улучшить каменты в коде, в т.ч. по адаптации;
 - адаптировать рассказчика;
-- сделать механику порчи костей, чтобы костный мозг можно было достать только из свежих.
+- сделать механику порчи костей, чтобы костный мозг можно было достать только из свежих;
+- заменить графику для полимера кальция, чтобы он больше ассоциировался с металлическими изделиями.
 
 =====
 
@@ -124,7 +125,8 @@ Ideas to realize in next version:
 - to categorize files by mod names;
 - to make code comments better;
 - to adapt storyteller;
-- to make the bones' rotting, in order to prohibit the extraction of bone marrow from ancient bones.
+- to make the bones' rotting, in order to prohibit the extraction of bone marrow from ancient bones;
+- to change boneplastic graphics, it should look like metal ore, according to the lore.
 	</description>
 	<modDependencies>
 		<li>
