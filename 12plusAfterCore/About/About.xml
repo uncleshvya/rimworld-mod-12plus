@@ -64,7 +64,8 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 - прикрутить перевод через патч, а не через перезапись файлов. Возможно, написать скрипт, аналогично как у официального переводчика, только отслеживающий несовпадение файлов перевода и наличие файла скрипта;
 - категоризировать файлы по модам;
 - улучшить каменты в коде, в т.ч. по адаптации;
-- адаптировать рассказчика.
+- адаптировать рассказчика;
+- сделать механику порчи костей, чтобы костный мозг можно было достать только из свежих.
 
 =====
 
@@ -122,7 +123,8 @@ Ideas to realize in next version:
 - to realize "Languages" folder via patching, without manually replacing. Or to modify auto-script from official Russian translator's site. And to add a watchdog script to eliminate an occasional translation mismatch and/or automation;
 - to categorize files by mod names;
 - to make code comments better;
-- to adapt storyteller.
+- to adapt storyteller;
+- to make the bones' rotting, in order to prohibit the extraction of bone marrow from ancient bones.
 	</description>
 	<modDependencies>
 		<li>
