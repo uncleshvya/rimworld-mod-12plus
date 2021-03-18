@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- добавлена русская локализация, сообщите разработчику -->
+
+	<!-- EN: bone refining -->
+	<BoneRefine.label>очистка костного вещества</BoneRefine.label>
+	<!-- EN: Allows the creation of bonecrete and calcium polymer at refineries. -->
+	<BoneRefine.description>Любая кость состоит из различных органических и минеральных веществ. Их можно выделить вывариванием и перегонкой.</BoneRefine.description>
+
+	<!-- EN: advanced bone refining -->
+	<BoneRefineII.label>легирование кальциевым полимером</BoneRefineII.label>
+	<!-- EN: Allows the use of nanopolymer refinement to make Plasteel out of steel and calcium polymer. -->
+	<BoneRefineII.description>При определённой температуре и наличии катализаторов в обычной стали можно растворить кальциевый полимер. Если соблюдать технологию кристаллизации, то образуются молекулы совершенно нового вещества — пластали.</BoneRefineII.description>
+
+</LanguageData>
