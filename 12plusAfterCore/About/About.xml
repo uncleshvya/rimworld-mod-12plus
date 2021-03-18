@@ -19,18 +19,18 @@
 
 Этот простой xml-мод отключает самые жёсткие аспекты, чтобы дети от 12 лет могли играть в Римворлд, не получая психологических травм. Подробности в файле changelog.
 
-Текущая версия 12plus мода: v0.5.1beta rev.2021.03.15.
+Текущая версия 12plus мода: v0.5.2beta rev.2021.03.18.
 
 =====
 
 Совместимость:
 
 Целью является сделать играбельными моды типа этих:
-Humanoid Cats — dianawinters.OrassansLite
 modpack http://lttlword.ru/rimworld-minimalism-v1-2
 modpack http://lttlword.ru/rimworld-sborka-modov-ot-lalks-i-pal
 multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
-
+Humanoid Cats — dianawinters.OrassansLite
+		
 Если вдруг мод не понравился, просто отключите его. Сейвы не пострадают.
 
 Несовместим с модами «Psychology», «Rational Romance» и другими, меняющими отношения между полами.
@@ -87,10 +87,10 @@ Current 12plus mod version 0.5.1beta rev.2021.03.15.
 Compatibility:
 
 The aim was to make such mods playable:
-Humanoid Cats — dianawinters.OrassansLite
 modpack http://lttlword.ru/rimworld-minimalism-v1-2
 modpack http://lttlword.ru/rimworld-sborka-modov-ot-lalks-i-pal
 multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty/
+Humanoid Cats — dianawinters.OrassansLite
 
 If you don't like the mod, just turn it off. Saves will be playable.
 
