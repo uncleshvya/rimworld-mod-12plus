@@ -24,6 +24,7 @@
 				<value>
 					<LeatherAmount>0</LeatherAmount>
 					<MeatAmount>0</MeatAmount>
+					<BoneAmount MayRequire="sihv.rombones">0</BoneAmount>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
