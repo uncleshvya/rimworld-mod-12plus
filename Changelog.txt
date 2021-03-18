@@ -2,11 +2,16 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-03-16 начата работа по адаптации мода Bones. Тег "RimOfMadnessBones_".
+2021-03-18 добавлена адаптация для мода Rim of Madness Bones и русская локализация. Пришлось подправить кривоватый баланс:
+- убраны кости из механоидов (код устарел);
+- исправлена графика дубины-вентилятора (попробуйте взять кость как оружие);
+- убраны древние костяные строения (из которых можно было добыть съедобный костный мозг);
+- рецепт выплавления пластали перемещён из перегонного аппарата в электроплавильню (там по лору температура подходящая);
+- добавлен срок годности для костного мозга 2 игровых суток (соответствует реальному сроку в 4 дня).
+Скомпилирована версия 12+мода 0.5.2beta.
+Пока не удалось разделить переводы для 14 адаптированных модов, поэтому соответствующие файлы помечены текстом "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "RimOfMadnessBones_", "Royalty_", "UtilityColumns_", "VEcooking_", "VEframework_", "VEstews_", "VGPgardenTools_" в именах файлов, для возможности поиска (здесь теги в алфавитном порядке). В случае отделения их в виде мода, нужно будет загружать после ядра "12+".
 
 2021-03-15 добавлена адаптация для мода Utility Columns и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
-Скомпилирована версия 12+мода 0.5.1beta.
-Пока не удалось разделить переводы для 14 адаптированных модов, поэтому соответствующие файлы помечены текстом "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "Royalty_", "UtilityColumns_", "VEcooking_", "VEframework_", "VEstews_", "VGPgardenTools_" в именах файлов, для возможности поиска (здесь теги в алфавитном порядке). В случае отделения их в виде мода, нужно будет загружать после ядра "12+".
 
 2021-03-13 добавлена адаптация для мода Vanilla Cooking Expanded с аддоном Stews и русификатором, заодно исправлены их ошибки, см.каменты в коде. Пришлось перебалансировать эти моды для сглаживания шероховатостей:
 - теперь суп варится 2 часа вместо 48, а рагу 8 часов вместо 72 - это чтобы выровнять время относительно выпечки;
@@ -80,11 +85,16 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-mar-16 mode sihv.rombones adaptation work started. Tag "RimOfMadnessBones_".
+2021-mar-18 mode sihv.rombones adaptation added and Russian translation. Had to change balance, it was awful:
+- removed bones from mechanoids (obsole code);
+- corrected graphics' bug of bone as club (try to arm someone with bone);
+- removed ancient bone structures (they could be deconstructed and processed into edible marrow);
+- plasteel smelt receipe moved from biofuel refinery into elecric smelter (looks like more real);
+- added marrow rotting period of 2 days (looks like more real).
+UncleShvya.12plus mod v.0.5.2beta compiled.
+There are some unsolved problems with cataloging, so the files were marked with tags (alphabetically) "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "RimOfMadnessBones_", "Royalty_", "UtilityColumns_", "VEcooking_", "VEframework_", "VEstews_", "VGPgardenTools_" in files' names. If these files will be compiled as separate mods, they should be loaded after "12plus.core"
 
 2021-mar-15 nephlite.orbitaltradecolumn mod adaptation added. Also corrected its errors, see code comments.
-UncleShvya.12plus mod v.0.5.1beta compiled.
-There are some unsolved problems with cataloging, so the files were marked with tags (alphabetically) "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "Royalty_", "UtilityColumns_", "VEcooking_", "VEframework_", "VEstews_", "VGPgardenTools_" in files' names. If these files will be compiled as separate mods, they should be loaded after "12plus.core"
 
 2021-mar-13 VanillaExpanded.VCookE and VanillaExpanded.VCookEStews mods' adaptation added. Also corrected their errors, see code comments. Had to change balance, it was awful:
 - Now soups are boiling 2 hours instead of 48, stews - 8 hours instead of 72. These are to equalize them with baking time;
