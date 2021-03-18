@@ -156,6 +156,7 @@ Ideas to realize in next version:
 		<li>Inoshishi3.VanillaExpanded.VCookERusPatch</li>
 		<li>nephlite.orbitaltradecolumn</li>
 		<li>gaster.orbitaltradecolumn</li>
+		<li>sihv.rombones</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>atsukohi.HumanoidAlienRacesRus</li>
