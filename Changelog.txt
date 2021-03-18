@@ -86,7 +86,7 @@ For English, scroll down.
 Changelog for Rimworld's 12plus modification.
 
 2021-mar-18 mode sihv.rombones adaptation added and Russian translation. Had to change balance, it was awful:
-- removed bones from mechanoids (obsole code);
+- removed bones from mechanoids (obsolete code);
 - corrected graphics' bug of bone as club (try to arm someone with bone);
 - removed ancient bone structures (they could be deconstructed and processed into edible marrow);
 - plasteel smelt receipe moved from biofuel refinery into elecric smelter (looks like more real);
