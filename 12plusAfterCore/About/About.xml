@@ -10,14 +10,12 @@
 	</supportedVersions>
 	<description>For English, scroll down.
 
-Мод написан для ответственных родителей-римворлдистов. Теперь нет необходимости отвечать на неудобные вопросы детей, наблюдающих за игрой.
-Хитрые дети! С этим модом вы сможете играть в Римворлд при родителях, и спокойно разговаривать обо _всех_ особенностях своего поселения.
-
-=====
-
 Что делает мод:
 
 Этот простой xml-мод отключает самые жёсткие аспекты, чтобы дети от 12 лет могли играть в Римворлд, не получая психологических травм. Подробности в файле changelog.
+
+Родители! Теперь вам нет необходимости отвечать на неудобные вопросы детей, наблюдающих за игрой.
+Дети! С этим модом вы сможете играть в Римворлд при родителях, и спокойно разговаривать обо _всех_ особенностях своего поселения.
 
 Текущая версия 12plus мода: v0.5.2beta rev.2021.03.18.
 
@@ -37,7 +35,6 @@ Humanoid Cats — dianawinters.OrassansLite
 Пока несовместим с модами на другие расы, животных, кухонные верстаки. Но если будут желающие, мы добавим совместимость, пишите uncleshvya@yandex.ru Ответим как будет время.
 Не идеально совместим с авто-обновлением русского языка от официального переводчика. Основной контент уже написан, так что больших проблем быть не должно. Но для гарантированного соответствия концепции «12+» лучше отключить авто-обновление.
 Не используйте машинный перевод мода HumanoidAlienRaces от Тхакиро (Tagiro) или 冷たいコーヒー (Tsumetai Kohi), т.к. они противоречат концепции «12+». В нашем моде уже есть адаптированный перевод для HumanoidAlienRaces.
-Если используете машинный перевод мода Numbers от Mehni со стима, замените на наш, т.к. стимовский противоречит концепции «12+».
 
 =====
 
@@ -70,16 +67,14 @@ Humanoid Cats — dianawinters.OrassansLite
 
 =====
 
-12plus mod for Rimworld. Sorry for my English, I compiled this file for multilingual families.
-
-Parents! Now you shouldn't answer kids' ticklish questions during playing.
-Sly kids! Now you can play RimWorld in one room with parents, and to speak about _everything_ happens in your game. For this version, only Russian language is supported.
-
-=====
+12plus mod for Rimworld. Sorry for my English, I compiled this description for multilingual families.
 
 What The Mod Does:
 
 This simple xml mod turns off the most hardcore aspects in order to allow 12+ aged children play Rimworld, without getting psychological trauma. For details, see changelog file.
+
+Parents! Now you shouldn't answer kids' ticklish questions during playing.
+Sly kids! Now you can play RimWorld in one room with parents, and to speak about _everything_ happens in your game. For now, only in Russian version.
 
 Current 12plus mod version 0.5.2beta rev.2021.03.18.
 
@@ -99,7 +94,6 @@ Not compatible with "Psychology", "Rational Romance" or any other mods altering 
 For now, not compatible with mods for other races, animals, butchering tables and stoves. But we can do the compatibility, just mail to us mailto:uncleshvya@yandex.ru We'll answer as fast as possible.
 Not absolutely compatible with auto-script from official Russian translator's site. Basic content is finished, but for guarantied match to "12+" concept, it's better to turn off the auto-updating.
 For erdelf.HumanoidAlienRaces mod, do not use google-translation from Тхакиро (Tagiro) or 冷たいコーヒー (Tsumetai Kohi). These translations are not compatible with "12+" concept. UncleShvya.12plus mod already contains the correct russian translation of erdelf.HumanoidAlienRaces mod.
-For Mehni.Numbers mod, do not use google-translation from Steam. It is not compatible with "12+" concept.
 
 =====
 
