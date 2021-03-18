@@ -1,43 +1,48 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- исправлена неточность, сообщите разработчику, что появление тронов обуславливает нейтральное описание -->
 
-  <!-- EN: Died on the {0} -->
-  <DiedOn>Дата окончания игры: {0}</DiedOn>
+	<!-- Оригинал: Ничья -->
+	<Unowned>Общее</Unowned>
 
-  <!-- EN: Dead for {0} -->
-  <DeadTime>Тело ({0})</DeadTime>
+	<!-- исправление согласно концепции «12+» -->
 
-  <!-- EN: dying -->
-  <DyingLower>увядает</DyingLower>
+	<!-- Оригинал: Дата смерти: {0} -->
+	<DiedOn>Дата окончания игры: {0}</DiedOn>
 
-  <!-- EN: Tainted from being worn by a corpse. -->
-  <WasWornByCorpse>В крови.</WasWornByCorpse>
-  <!-- EN: T -->
-  <WornByCorpseChar>К</WornByCorpseChar>
+	<!-- Оригинал: Труп ({0}) -->
+	<DeadTime>Тело ({0})</DeadTime>
 
-  <!-- EN: {0} killed -->
-  <PawnsKilled>{0} побеждено</PawnsKilled>
+	<!-- Оригинал: умирает -->
+	<DyingLower>увядает</DyingLower>
 
-  <!-- EN: digging up corpse. -->
-  <ReportDiggingUpCorpse>выкапывает тело</ReportDiggingUpCorpse>
+	<!-- Оригинал: Снято с трупа. -->
+	<WasWornByCorpse>В крови.</WasWornByCorpse>
+	<!-- Оригинал: Т -->
+	<WornByCorpseChar>К</WornByCorpseChar>
 
-  <!-- EN: Dead -->
-  <Dead>Проиграл(а)</Dead>
+	<!-- Оригинал: {0} убито -->
+	<PawnsKilled>{0} побеждено</PawnsKilled>
 
-  <!-- EN: Dying because exposed to light -->
-  <DyingBecauseExposedToLight>Увядает на свету</DyingBecauseExposedToLight>
+	<!-- Оригинал: выкапывает труп -->
+	<ReportDiggingUpCorpse>выкапывает тело</ReportDiggingUpCorpse>
 
-  <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
-  <GameOverEveryoneDead>Все поселенцы либо проиграли, либо ушли. Конец истории.\n\nВозможно, кто-то другой сможет найти применение руинам этого места.</GameOverEveryoneDead>
-  <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
-  <GameOverPlanetkillerImpact>Со скоростью, близкой к световой, разрушитель планет врезался в поверхность с силой триллиона водородных бомб. Подобно наполненному водой воздушному шарику, простреленному из ружья, этот мир расплавился от столкновения и разбрызгал свои внутренности по космосу.\n\nЧасти {0} теперь составляют пояс астероидов. Всё остальное составляет расплавленный радиоактивный адский пейзаж, весь покрытый волнами землетрясений, на километры вздымающих и бросающих вниз породу.\n\nВы проиграли.</GameOverPlanetkillerImpact>
+	<!-- Оригинал: Мертв(а) -->
+	<Dead>Проиграл(а)</Dead>
 
-  <!-- EN: you can loot everything from the camp -->
-  <Reward_CampLoot>вы можете полностью разобрать лагерь на ресурсы</Reward_CampLoot>
+	<!-- Оригинал: Погибает на свету -->
+	<DyingBecauseExposedToLight>Увядает на свету</DyingBecauseExposedToLight>
 
-  <!-- EN: you can deconstruct and loot the shuttle -->
-  <Reward_ShuttleLoot>Вы можете разобрать и челнок и присвоить груз</Reward_ShuttleLoot>
+	<!-- Оригинал: Все поселенцы либо мертвы, либо ушли. Конец истории.\n\nВозможно, кто-то другой сможет найти применение руинам этого места. -->
+	<GameOverEveryoneDead>Все поселенцы либо проиграли, либо ушли. Конец истории.\n\nВозможно, кто-то другой сможет найти применение руинам этого места.</GameOverEveryoneDead>
+	<!-- Оригинал: ...столкновения и разбрызгал свои внутренности по космосу.\n\nЧасти {0} теперь составляют пояс астероидов. Всё остальное составляет расплавленный радиоактивный адский пейзаж, весь покрытый волнами землетрясений, на километры вздымающих и бросающих вниз породу.\n\nВы не выжили. -->
+	<GameOverPlanetkillerImpact>Со скоростью, близкой к световой, разрушитель планет врезался в поверхность с силой триллиона водородных бомб. Подобно наполненному водой воздушному шарику, простреленному из ружья, этот мир расплавился от столкновения и был разбрызган по космосу.\n\nОтлетевшие части планеты теперь составляют пояс астероидов. Всё, что осталось, составляет расплавленный радиоактивный адский пейзаж, покрытый волнами землетрясений, на километры вздымающих и бросающих вниз породу.\n\nВы проиграли.</GameOverPlanetkillerImpact>
+
+	<!-- Оригинал: вы можете полностью разграбить лагерь -->
+	<Reward_CampLoot>Вы можете полностью разобрать лагерь на ресурсы</Reward_CampLoot>
+
+	<!-- Оригинал: Вы можете разобрать и разграбить челнок -->
+	<Reward_ShuttleLoot>Вы можете разобрать челнок и присвоить груз</Reward_ShuttleLoot>
 
 </LanguageData>
