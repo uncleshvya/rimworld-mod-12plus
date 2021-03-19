@@ -2,6 +2,8 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
+2021-03-19 начата работа по адаптации мода Vanilla Factions Expanded - Insectoids. Тег "VFEinsectoids_".
+
 2021-03-18 добавлена адаптация для мода Rim of Madness Bones и русская локализация. Пришлось подправить кривоватый баланс:
 - убраны кости из механоидов (код устарел);
 - исправлена графика дубины-вентилятора (попробуйте взять кость как оружие);
@@ -85,7 +87,9 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-mar-18 mode sihv.rombones adaptation added and Russian translation. Had to change balance, it was awful:
+2021-mar-19 OskarPotocki.VFE.Insectoid mod adaptation work started. Tag "VFEinsectoids_".
+
+2021-mar-18 sihv.rombones mod adaptation added and Russian translation. Had to change balance, it was awful:
 - removed bones from mechanoids (obsolete code);
 - corrected graphics' bug of bone as club (try to arm someone with bone);
 - removed ancient bone structures (they could be deconstructed and processed into edible marrow);
