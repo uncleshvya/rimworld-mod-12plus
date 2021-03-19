@@ -144,15 +144,15 @@ There are some unsolved problems with cataloging, so the files were marked with 
 
 2019-nov-28 test a compatibility with Zetrith's Multiplayer mod, LAN game. Thanks to player Ame for the link.
 
-2019-nov-27 texts, where children are taught with disregard of life and ordinariness of death, replaced with neutral texts.
+2019-nov-27 replaced texts, where children are taught with disregard of life and ordinariness of death.
 
 2019-nov-20 red blood reсolored into semi-transparent one, like other filth types.
 
-2019-nov-18 replaced texts, orienting children to sociopathy, suicide or murder, with neutral ones.
+2019-nov-18 replaced texts, orienting children to sociopathy, suicide or murder.
 
 2019-nov-16 human flesh and human skin removed. Humanlikes' butchery removed.
 
-2019-nov-15 texts with ad about sexuality, porno and cannibalism replaced with neutral ones.
+2019-nov-15 removed superfluous ads about sexuality, porno and cannibalism.
 
 2019-nov-14 description picture added. Thanks to the photographer milatiger. 
 
