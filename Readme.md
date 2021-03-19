@@ -23,6 +23,6 @@ How to install:
 - before updating 12plus mod, delete old versions.
 - if necessary, update lore file from RimWorldUniverse folder.
 
-Mod was updated to new version, now testing. If you'll find a critical error, use old version from "OldVersionBackup.zip", we tested it for a year.
+Mod was updated to new version, now testing. If you'll find a critical error, use old version from "OldVersionBackup.zip", we've tested it for a year.
 
 Attention! This version is supported only for Russian language. If you want to help with English or another language, tell us to collaborate.
