@@ -12,7 +12,7 @@ For English, scroll below.
 - если устанавливаете новую версию 12plus мода, для начала удалите старые версии из папки «Mods».
 - по желанию, из папки RimWorldUniverse возьмите адаптированный текстовый файл c лором.
 
-Мод обновился до новой версии, идёт тестирование. На случай новых глюков, сохранён архив с версией 0.3.3beta.
+Мод обновился до новой версии, идёт тестирование. На случай новых глюков, сохранён архив с версией, тестировавшейся целый год - OldVersionBackup.zip.
 
 Simple xml mod turns off the most hardcore aspects in order to allow 12+ aged children play Rimworld, without getting psychological trauma. Tested with game v.1.2.2753 rev.705 and official russian translation v.2021jan07. Note: for now, only russian version is supported.
 
@@ -23,4 +23,4 @@ How to install:
 - before updating 12plus mod, delete old versions.
 - if necessary, update lore file from RimWorldUniverse folder.
 
-Mod was updated to new version, now testing. If you'll find critical error, use old version from "rimworld-mod-7plus-v0 3 3beta backup.zip".
+Mod was updated to new version, now testing. If you'll find a critical error, use old version from "OldVersionBackup.zip", we tested it for a year.
