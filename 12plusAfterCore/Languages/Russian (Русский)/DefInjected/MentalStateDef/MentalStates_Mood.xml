@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- исправление согласно концепции «12+» -->
 
-  <!-- Оригинал: глумление над трупами -->
-  <CorpseObsession.label>осквернение могил</CorpseObsession.label>
-  <!-- Оригинал: Душевное состояние: глумление над трупами -->
-  <CorpseObsession.baseInspectLine>Душевное состояние: осквернение могил</CorpseObsession.baseInspectLine>
-  <!-- Оригинал: ...и выставить труп на всеобщее обозрение. -->
-  <CorpseObsession.beginLetter>{0} явно не в себе.\n\nПохоже, {PAWN_pronoun} собирается разорить могилу и выставить содержимое на всеобщее обозрение.</CorpseObsession.beginLetter>
-  <!-- Оригинал: глумление над трупами -->
-  <CorpseObsession.beginLetterLabel>осквернение могил</CorpseObsession.beginLetterLabel>
+	<!-- Оригинал: глумление над трупами -->
+	<CorpseObsession.label>осквернение могил</CorpseObsession.label>
+	<!-- Оригинал: Душевное состояние: глумление над трупами -->
+	<CorpseObsession.baseInspectLine>Душевное состояние: осквернение могил</CorpseObsession.baseInspectLine>
+	<!-- Оригинал: ...и выставить труп на всеобщее обозрение. -->
+	<CorpseObsession.beginLetter>{0} явно не в себе.\n\nПохоже, {PAWN_pronoun} собирается разорить могилу и выставить содержимое на всеобщее обозрение.</CorpseObsession.beginLetter>
+	<!-- Оригинал: глумление над трупами -->
+	<CorpseObsession.beginLetterLabel>осквернение могил</CorpseObsession.beginLetterLabel>
 
-  <!-- Оригинал: {0} испытывает неистовый гнев!\n\n{PAWN_pronoun} хочет убить {1}. -->
-  <MurderousRage.beginLetter>{0} испытывает неистовый гнев и хочет избить {1}!</MurderousRage.beginLetter>
+	<!-- Оригинал: {0} испытывает неистовый гнев!\n\n{PAWN_pronoun} хочет убить {1}. -->
+	<MurderousRage.beginLetter>{0} испытывает неистовый гнев и хочет избить {1}!</MurderousRage.beginLetter>
 
-  <!-- исправлена тавтология, сообщите разработчику -->
+	<!-- исправлена тавтология, сообщите разработчику -->
 
-  <!-- EN: {0} has had a mental breakdown and is going to vent [PAWN_possessive] anger on your animals. -->
-  <Slaughterer.beginLetter>Нервный срыв! {0} сходит с ума и собирается мучать животных.</Slaughterer.beginLetter>
+	<!-- Оригинал: У {0} случился нервный срыв, и {PAWN_pronoun} срывает свою злость на животных. -->
+	<Slaughterer.beginLetter>Нервный срыв! {0} сходит с ума и собирается мучать животных.</Slaughterer.beginLetter>
 
-  <!-- EN: {0} is no longer slaughtering random animals. -->
-  <Slaughterer.recoveryMessage>{0} больше не мучает животных.</Slaughterer.recoveryMessage>
+	<!-- Оригинал: {0} больше не убивает животных. -->
+	<Slaughterer.recoveryMessage>{0} больше не мучает животных.</Slaughterer.recoveryMessage>
 
 </LanguageData>
