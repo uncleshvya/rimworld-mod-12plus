@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- исправление согласно концепции «12+» -->
 
-  <!-- EN: characters explode on death -->
-  <OnPawnDeathExplode.label>персонажи взрываются при сильном травмировании</OnPawnDeathExplode.label>
+	<!-- Оригинал: персонажи взрываются при смерти -->
+	<OnPawnDeathExplode.label>персонажи взрываются при сильном травмировании</OnPawnDeathExplode.label>
 
 </LanguageData>
