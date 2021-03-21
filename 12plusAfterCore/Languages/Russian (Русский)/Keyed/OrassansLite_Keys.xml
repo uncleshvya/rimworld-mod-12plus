@@ -15,15 +15,4 @@
 	<!-- EN: The betharian borer machine has finished. Deconstruct it and build a power plant over the bore hole. -->
 	<BetharianBorerFinishedText>Бетарианская установка закончила бурение. Разберите её и постройте электростанцию над скважиной.</BetharianBorerFinishedText>
 
-	<!-- исправлена неточность, сообщите разработчику -->
-
-	<!-- Оригинал: Выбрать {0} людей из {1} -->
-	<ScenPart_StartWithPawns>Выбрать {0} поселенцев из {1}</ScenPart_StartWithPawns>
-	<!-- Оригинал: Вашим людям... -->
-	<ScenPart_StartingPawnAgeMin>Вашим поселенцам будет как минимум ^Number( {0} | '# год' | '# года' | '# лет')^.</ScenPart_StartingPawnAgeMin>
-	<!-- Оригинал: Вашим людям... -->
-	<ScenPart_StartingPawnAgeMax>Вашим поселенцам будет не более ^Number( {0} | '# года' | '# лет' | '# лет')^.</ScenPart_StartingPawnAgeMax>
-	<!-- Оригинал: Вашим людям... -->
-	<ScenPart_StartingPawnAgeRange>Вашим поселенцам будет от {0} до ^Number( {1} | '# года' | '# лет' | '# лет')^.</ScenPart_StartingPawnAgeRange>
-
 </LanguageData>
