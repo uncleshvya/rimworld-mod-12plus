@@ -9,6 +9,6 @@
 	<!-- исправление согласно концепции «12+» -->
 
 	<!-- EN: {0} has been corroded to death. -->
-	<VEF_SecondaryAcidBurn.deathMessage>{0} обжигается кислотой</VEF_SecondaryAcidBurn.deathMessage>
+	<VEF_SecondaryAcidBurn.deathMessage>{0} {0_gender ? обжёгся : обожглась} кислотой</VEF_SecondaryAcidBurn.deathMessage>
 
 </LanguageData>
