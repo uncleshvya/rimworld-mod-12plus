@@ -27,21 +27,6 @@
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[
 				defName = "Alien_Orassan" or
 				defName = "Alien_OrassanHumanHybrid"
-				]/race</xpath>
-				<value>
-					<willNeverEat>
-						<li>Meat_Human</li>
-						<li>Corpse_Human</li>
-						<li>Corpse_Alien_Orassan</li>
-						<li>Corpse_Alien_OrassanHumanHybrid</li>
-					</willNeverEat>
-					<useMeatFrom>Human</useMeatFrom>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[
-				defName = "Alien_Orassan" or
-				defName = "Alien_OrassanHumanHybrid"
 				]/alienRace/generalSettings</xpath>
 				<value>
 					<disallowedTraits>
@@ -80,9 +65,8 @@
 				</value>
 			</li>
 
-			<!-- отменяю действие патча
-			\Mods\OrassansLite\1.2\Patches\meals.xml
-			удаляя а потом перезаписывая параметр: -->
+			<!-- отменяю действие патча, удаляя а потом перезаписывая параметр
+			\Mods\OrassansLite\1.2\Patches\meals.xml -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/RecipeDef[@Name = "CookMealBase"]/defaultIngredientFilter/disallowedThingDefs</xpath>
 			</li>
@@ -94,22 +78,6 @@
 						<li>Meat_Megaspider</li>
 						<li>InsectJelly</li>
 					</disallowedThingDefs>
-				</value>
-			</li>
-
-			<!-- питомцы: -->
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[
-				defName = "Ori" or
-				defName = "Animal_Desiri"
-				]/race</xpath>
-				<value>
-					<willNeverEat>
-						<li>Meat_Human</li>
-						<li>Corpse_Human</li>
-						<li>Corpse_Alien_Orassan</li>
-						<li>Corpse_Alien_OrassanHumanHybrid</li>
-					</willNeverEat>
 				</value>
 			</li>
 
