@@ -32,7 +32,7 @@
 	<!-- Оригинал: съел(а) соль -->
 	<VCE_ConsumedSalt.stages.0.label>подсоленная еда</VCE_ConsumedSalt.stages.0.label>
 	<!-- Оригинал: Щепотка соли неплохо усиливает вкус еды -->
-	<VCE_ConsumedSalt.stages.0.description>Всего одна щепотка соли полность меняет вкус еды!</VCE_ConsumedSalt.stages.0.description>
+	<VCE_ConsumedSalt.stages.0.description>Всего одна щепотка соли полностью меняет вкус еды!</VCE_ConsumedSalt.stages.0.description>
 	<!-- Оригинал: съел(а) майонез -->
 	<VCE_ConsumedMayo.stages.0.label>съеден майонез</VCE_ConsumedMayo.stages.0.label>
 	<!-- Оригинал: Я съел(а) немного вкусного майонеза. Очень сытно! -->
