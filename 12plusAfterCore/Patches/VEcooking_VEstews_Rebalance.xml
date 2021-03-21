@@ -4,20 +4,6 @@
 		<success>Always</success>
 		<operations>
 
-			<!-- исправление согласно концепции «12+» эффектов масла -->
-
-			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThoughtDef[defName = "VCE_SmokeleafButterHigh"]/hediff</xpath>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "VCE_SmokeleafButter"]/ingredients/li[2]/filter/thingDefs/li[1]/text()</xpath>
-				<value>VCE_RawSpices</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "VCE_SmokeleafButter"]/fixedIngredientFilter/thingDefs/li[2]/text()</xpath>
-				<value>VCE_RawSpices</value>
-			</li>
-
 			<!-- исправлен баланс, сообщите разработчику, что если поселенцы выпечку готовят за пару часов, то не может суп готовиться 48 часов, максимум 2 -->
 
 			<li Class="PatchOperationReplace">
@@ -89,7 +75,7 @@
 				</value>
 			</li>
 
-			<!-- исправлена неточность, сообщите разработчику, что лишние категории засоряют список -->
+			<!-- исправлен баланс, сообщите разработчику, что лишние категории засоряют список -->
 
 			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[
@@ -99,12 +85,11 @@
 				defName = "VCE_UncookedSoupSimple" or
 				defName = "VCE_UncookedSoupFine" or
 				defName = "VCE_UncookedSoupLavish" or
-				defName = "VCE_UncookedSoupGourmet" or
-				defName = "VCE_Cheese"
+				defName = "VCE_UncookedSoupGourmet"
 				]/thingCategories</xpath>
 			</li>
 
-			<!-- сыр оставляем в рецептах. Пришлось жёстко перезаписать, т.к. категория названа так же, как продукт. Если будем вносить всякие инопланетные сыры, убрать VCE_Cheese из "PatchOperationRemove" выше, а здесь категорию менять методом "PatchOperationReplace" -->
+			<!-- для сыра, он ведь есть в рецептах, пришлось подшаманить: -->
 			<li Class="PatchOperationAttributeSet">
 				<xpath>Defs/ThingDef[defName = "VCE_Cheese"]</xpath>
 				<attribute>ParentName</attribute>
@@ -115,14 +100,6 @@
 				<value>
 					<preferability>DesperateOnly</preferability>
 					<foodType>Processed</foodType>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "VCE_Cheese"]</xpath>
-				<value>
-					<thingCategories>
-						<li>AnimalProductRaw</li>
-					</thingCategories>
 				</value>
 			</li>
 
