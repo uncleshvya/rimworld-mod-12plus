@@ -17,7 +17,7 @@
 Родители! Теперь вам нет необходимости отвечать на неудобные вопросы детей, наблюдающих за игрой.
 Дети! С этим модом вы сможете играть в Римворлд при родителях, и спокойно разговаривать обо _всех_ особенностях своего поселения.
 
-Текущая версия 12plus мода: v0.5.2beta rev.2021.03.18.
+Текущая версия 12plus мода: v0.5.3beta rev.2021.03.21.
 
 =====
 
@@ -34,7 +34,6 @@ Humanoid Cats — dianawinters.OrassansLite
 Несовместим с модами «Psychology», «Rational Romance» и другими, меняющими отношения между полами.
 Пока несовместим с модами на другие расы, животных, кухонные верстаки. Но если будут желающие, мы добавим совместимость, пишите uncleshvya@yandex.ru Ответим как будет время.
 Не идеально совместим с авто-обновлением русского языка от официального переводчика. Основной контент уже написан, так что больших проблем быть не должно. Но для гарантированного соответствия концепции «12+» лучше отключить авто-обновление.
-Не используйте машинный перевод мода HumanoidAlienRaces от Тхакиро (Tagiro) или 冷たいコーヒー (Tsumetai Kohi), т.к. они противоречат концепции «12+». В нашем моде уже есть адаптированный перевод для HumanoidAlienRaces.
 
 =====
 
@@ -44,10 +43,11 @@ Humanoid Cats — dianawinters.OrassansLite
 
 =====
 
-Известные ошибки:
+Известные проблемы:
 
-- Если часто переходить по ссылкам в информации о людях, иногда выходит красная ошибка. Не обращайте внимания, это особенность движка мода.
-- Если колонисты вдруг перестали сами есть, скачайте другую версию мода Alien Races.
+- Если часто переходить по ссылкам в информации о людях, иногда выходит красная ошибка. Не обращайте внимания, это особенность движка мода;
+- Если колонисты вдруг перестали сами есть, скачайте другую версию мода Alien Races;
+- Во время адаптации был подправлен баланс модов «Rim of Madness — Bones» и «Vanilla Cooking Expanded» с аддоном «Stews», см.ченджлог. Кого такая правка не устраивает, просто удалите соответствующий файл «RimOfMadnessBones_Rebalance.xml» или «VEcooking_VEstews_Rebalance.xml». Концепция и сейвы не пострадают.
 
 =====
 
@@ -76,7 +76,7 @@ This simple xml mod turns off the most hardcore aspects in order to allow 12+ ag
 Parents! Now you shouldn't answer kids' ticklish questions during playing.
 Sly kids! Now you can play RimWorld in one room with parents, and to speak about _everything_ happens in your game. For now, only in Russian version.
 
-Current 12plus mod version 0.5.2beta rev.2021.03.18.
+Current 12plus mod version 0.5.3beta rev.2021.03.21.
 
 =====
 
@@ -93,7 +93,6 @@ If you don't like the mod, just turn it off. Saves will be playable.
 Not compatible with "Psychology", "Rational Romance" or any other mods altering RimWorld's romance systems.
 For now, not compatible with mods for other races, animals, butchering tables and stoves. But we can do the compatibility, just mail to us mailto:uncleshvya@yandex.ru We'll answer as fast as possible.
 Not absolutely compatible with auto-script from official Russian translator's site. Basic content is finished, but for guarantied match to "12+" concept, it's better to turn off the auto-updating.
-For erdelf.HumanoidAlienRaces mod, do not use google-translation from Тхакиро (Tagiro) or 冷たいコーヒー (Tsumetai Kohi). These translations are not compatible with "12+" concept. UncleShvya.12plus mod already contains the correct russian translation of erdelf.HumanoidAlienRaces mod.
 
 =====
 
@@ -103,10 +102,11 @@ It's better to start a new game. However, old games are playable too. You should
 
 =====
 
-Known errors:
+Known issues:
 
-- If you open pawn's information panel, and click links too much, it may cause a red error. Just ignore, it's a rare bug.
-- If your pawns do not eat, just download another version of erdelf.HumanoidAlienRaces mod.
+- if you open pawn's information panel, and click links too much, it may cause a red error. Just ignore, it's a rare bug;
+- if your pawns do not eat, just download another version of erdelf.HumanoidAlienRaces mod;
+- sihv.rombones, VanillaExpanded.VCookE and VanillaExpanded.VCookEStews mods were rebalanced during adaptation, see changelog. If you don't like it, just delete "RimOfMadnessBones_Rebalance.xml" or "VEcooking_VEstews_Rebalance.xml" file. Saves will be playable, concept — workable.
 
 =====
 
@@ -141,19 +141,23 @@ Ideas to realize in next version:
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.Royalty</li>
 		<li>erdelf.HumanoidAlienRaces</li>
+		<li>atsukohi.HumanoidAlienRacesRus</li>
 		<li>dianawinters.OrassansLite</li>
 		<li>UnlimitedHugs.AllowTool</li>
 		<li>Haplo.Miscellaneous.BeesNHoney</li>
 		<li>Dubwise.DubsBadHygiene</li>
 		<li>dismarzero.VGP.VGPGardenTools</li>
 		<li>Unknown.Perevod.dismarzero.VGP.VGPGardenTools</li>
+		<li>VanillaExpanded.VCookE</li>
+		<li>VanillaExpanded.VCookEStews</li>
 		<li>Inoshishi3.VanillaExpanded.VCookERusPatch</li>
 		<li>nephlite.orbitaltradecolumn</li>
 		<li>gaster.orbitaltradecolumn</li>
 		<li>sihv.rombones</li>
+		<li>OskarPotocki.VFE.Insectoid</li>
+		<li>RU.VFE.Insectoid</li>
 	</loadAfter>
 	<incompatibleWith>
-		<li>atsukohi.HumanoidAlienRacesRus</li>
 		<li>dianawinters.Orassans</li>
 	</incompatibleWith>
 </ModMetaData>
