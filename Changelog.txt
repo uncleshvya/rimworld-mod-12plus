@@ -2,7 +2,9 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-03-19 начата работа по адаптации мода Vanilla Factions Expanded - Insectoids. Тег "VFEinsectoids_".
+2021-03-21 добавлена адаптация для мода Vanilla Factions Expanded - Insectoids и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
+Скомпилирована версия 12+мода 0.5.3beta.
+Пока не удалось разделить переводы для 15 адаптированных модов, поэтому соответствующие файлы помечены текстом "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "RimOfMadnessBones_", "Royalty_", "UtilityColumns_", "VEcooking_", "VEframework_", "VEstews_", "VFEinsectoids_", "VGPgardenTools_" в именах файлов, для возможности поиска (здесь теги в алфавитном порядке). В случае отделения их в виде мода, нужно будет загружать после ядра "12+".
 
 2021-03-18 добавлена адаптация для мода Rim of Madness Bones и русская локализация. Пришлось подправить кривоватый баланс:
 - убраны кости из механоидов (код устарел);
@@ -10,8 +12,6 @@ For English, scroll down.
 - убраны древние костяные строения (из которых можно было добыть съедобный костный мозг);
 - рецепт выплавления пластали перемещён из перегонного аппарата в электроплавильню (там по лору температура подходящая);
 - добавлен срок годности для костного мозга 2 игровых суток (соответствует реальному сроку в 4 дня).
-Скомпилирована версия 12+мода 0.5.2beta.
-Пока не удалось разделить переводы для 14 адаптированных модов, поэтому соответствующие файлы помечены текстом "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "RimOfMadnessBones_", "Royalty_", "UtilityColumns_", "VEcooking_", "VEframework_", "VEstews_", "VGPgardenTools_" в именах файлов, для возможности поиска (здесь теги в алфавитном порядке). В случае отделения их в виде мода, нужно будет загружать после ядра "12+".
 
 2021-03-15 добавлена адаптация для мода Utility Columns и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 
@@ -87,20 +87,20 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-mar-19 OskarPotocki.VFE.Insectoid mod adaptation work started. Tag "VFEinsectoids_".
+2021-mar-21 OskarPotocki.VFE.Insectoid and RU.VFE.Insectoid mods' adaptation added. Also corrected their errors, see code comments.
+UncleShvya.12plus mod v.0.5.3beta compiled.
+There are some unsolved problems with cataloging, so the files were marked with tags (alphabetically) "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "RimOfMadnessBones_", "Royalty_", "UtilityColumns_", "VEcooking_", "VEframework_", "VEstews_", "VFEinsectoids_", "VGPgardenTools_" in files' names. If these files will be compiled as separate mods, they should be loaded after "12plus.core"
 
-2021-mar-18 sihv.rombones mod adaptation added and Russian translation. Had to change balance, it was awful:
+2021-mar-18 sihv.rombones mod adaptation added and also Russian translation. Had to change balance, it was awful:
 - removed bones from mechanoids (obsolete code);
 - corrected graphics' bug of bone as club (try to arm someone with bone);
 - removed ancient bone structures (they could be deconstructed and processed into edible marrow);
 - plasteel smelt receipe moved from biofuel refinery into elecric smelter (looks like more real);
 - added marrow rotting period of 2 days (looks like more real).
-UncleShvya.12plus mod v.0.5.2beta compiled.
-There are some unsolved problems with cataloging, so the files were marked with tags (alphabetically) "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "RimOfMadnessBones_", "Royalty_", "UtilityColumns_", "VEcooking_", "VEframework_", "VEstews_", "VGPgardenTools_" in files' names. If these files will be compiled as separate mods, they should be loaded after "12plus.core"
 
-2021-mar-15 nephlite.orbitaltradecolumn mod adaptation added. Also corrected its errors, see code comments.
+2021-mar-15 nephlite.orbitaltradecolumn and gaster.orbitaltradecolumn mods' adaptation added. Also corrected their errors, see code comments.
 
-2021-mar-13 VanillaExpanded.VCookE and VanillaExpanded.VCookEStews mods' adaptation added. Also corrected their errors, see code comments. Had to change balance, it was awful:
+2021-mar-13 VanillaExpanded.VCookE, VanillaExpanded.VCookEStews and Inoshishi3.VanillaExpanded.VCookERusPatch mods' adaptation added. Also corrected their errors, see code comments. Had to change balance, it was awful:
 - Now soups are boiling 2 hours instead of 48, stews - 8 hours instead of 72. These are to equalize them with baking time;
 - Stews now can boil on electric pot too;
 - Raw soups and stews are now edible, but have awful taste;
@@ -108,9 +108,9 @@ There are some unsolved problems with cataloging, so the files were marked with 
 - Cheese categories removed. If anybody already uses different cheese types, see Patches folder, or tell us;
 - In fact, VCE mod and VCES addon were merged.
 
-2021-mar-09 oskarpotocki.vanillafactionsexpanded.core mod adaptation added. Also corrected its errors, see code comments.
+2021-mar-09 oskarpotocki.vanillafactionsexpanded.core and Inoshishi3.VanillaFactionsExpanded.CoreRusPatch mods' adaptation added. Also corrected their errors, see code comments.
 
-2021-mar-07 dismarzero.VGP.VGPGardenTools mod adaptation added. Also corrected its errors, see code comments.
+2021-mar-07 dismarzero.VGP.VGPGardenTools and Unknown.Perevod.dismarzero.VGP.VGPGardenTools mods' adaptation added. Also corrected their errors, see code comments.
 
 2021-mar-02 DianaWinters.OrassansLite mod adaptation added and russian translation. Fixed cats' backstories error. Suddenly cats' names' error disappeared. Removed superfluous ads about drug use.
 
