@@ -49,11 +49,9 @@ For English, scroll down.
 
 2020-09-29 исправлено большинство красных ошибок методом подключения мода Humanoid Alien Raсes (c) 2018 Simon Latusek, заодно исправлены его ошибки, см.каменты в коде.
 
-2020-09-24 отключена возможность инцеста.
+2020-09-24 отключен инцест.
 
-2020-09-23 отключена возможность подкормки животных человечиной, в т.ч. для новых стандартных животных.
-
-2020-09-21 отключена возможность человеческого каннибализма, аналогично и для других разумных рас, поддерживаемых модом.
+2020-09-23 отключено людоедство, в т.ч. для новых стандартных животных. Аналогично и для других разумных рас, поддерживаемых модом.
 
 2020-09-05 закончен апдейт до Римворлда 1.2 с Роялти. Поддержка версии 1.0 заморожена до востребования.
 
@@ -71,13 +69,14 @@ For English, scroll down.
 
 2019-11-16 убраны человечина и человеческая кожа. Отключена разделка разумных существ.
 
-2019-11-15 тексты с рекламой секса и каннибализма заменены на нейтральные.
+2019-11-15 тексты с рекламой секса и людоедства заменены на нейтральные.
 
 2019-11-14 добавлена картинка в описание. Спасибо фотографу milatiger.
 
 2019-11-13 отключены бафы Bloodlust при убийстве и при наблюдении оного.
 
-2019-11-12 отключены трейты Cannibal, Gay, Masochist, Pyromaniac.
+2019-11-12 отключены трейты 
+al, Gay, Masochist, Pyromaniac.
 
 2019-11-11 доработана концепция. Спасибо модпакеру ecxel.
 
@@ -136,9 +135,7 @@ There are some unsolved problems with cataloging, so the files were marked with 
 
 2020-sep-24 removed incestous ability.
 
-2020-sep-23 removed the ability to feed predators with human meat and corpses, also for new standart animals.
-
-2020-sep-21 removed humanlikes' cannibalism for every supported race.
+2020-sep-23 removed man-eating, also for new standart animals. And for every supported race.
 
 2020-sep-05 update to RW v.1.2 with Royalty finished. Support for RimWorld v.1.0 was paused until asked.
 
@@ -156,7 +153,7 @@ There are some unsolved problems with cataloging, so the files were marked with 
 
 2019-nov-16 human flesh and human skin removed. Humanlikes' butchery removed.
 
-2019-nov-15 removed superfluous ads about sexuality, porno and cannibalism.
+2019-nov-15 removed superfluous ads about sexuality, porno and man-eating.
 
 2019-nov-14 description picture added. Thanks to the photographer milatiger. 
 
