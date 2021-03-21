@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
 	<!-- исправлена неточность, сообщите разработчику -->
@@ -9,6 +9,6 @@
 	<!-- исправление согласно концепции «12+» -->
 
 	<!-- Оригинал: {0} умер из за взрыва. -->
-	<ClaymoreBomb.deathMessage>{0} проигрывает из за взрыва.</ClaymoreBomb.deathMessage>
+	<ClaymoreBomb.deathMessage>{0} {0_gender ? проиграл : проиграла} из-за взрыва.</ClaymoreBomb.deathMessage>
 
 </LanguageData>
