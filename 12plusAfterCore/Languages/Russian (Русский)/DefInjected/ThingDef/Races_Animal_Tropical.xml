@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- исправление согласно концепции «12+» -->
 
-  <!-- EN: Engineered for chemicals production, the boomalope grows a large sac of volatile chemicals on its back. Though it is weak and fragile for its size, other animals have learned to avoid it because of the huge explosion it produces when it dies. It can be milked to produce chemfuel - very carefully. -->
-  <Boomalope.description>Разработанная для химического производства, бумалопа отращивает на спине большой мешок с нестабильными химикатами. Несмотря на её слабость и уязвимость, другие животные научились обходить бумалопу стороной, из-за огромного взрыва, происходящего при атаке на неё. Бумалоп можно доить, получая химтопливо, но будьте очень аккуратны!</Boomalope.description>
+	<!-- Оригинал: ...уязвимость, другие животные научились...происходящего после её смерти. Бумалоп... -->
+	<Boomalope.description>Разработанная для химического производства, бумалопа отращивает на спине большой мешок с нестабильными химикатами. Несмотря на её слабость и уязвимость, хищники научились обходить бумалопу стороной, из-за огромного взрыва, происходящего при сильном травмировании животного. Бумалоп можно доить, получая химтопливо, но будьте очень аккуратны!</Boomalope.description>
 
 </LanguageData>
