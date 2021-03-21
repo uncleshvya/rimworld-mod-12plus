@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation MayRequire="OskarPotocki.VFE.Insectoid" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<!-- исправлен баланс, сообщите разработчику, что лишние категории засоряют список -->
+
+			<!-- для сыра инсектоидов, он ведь есть в рецептах, пришлось подшаманить: -->
+			<li Class="PatchOperationAttributeSet">
+				<xpath>Defs/ThingDef[defName = "VCE_InsectCheese"]</xpath>
+				<attribute>ParentName</attribute>
+				<value>OrganicProductBase</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "VCE_InsectCheese"]/ingestible/preferability</xpath>
+				<value>
+					<preferability>DesperateOnly</preferability>
+					<foodType>Processed</foodType>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>
