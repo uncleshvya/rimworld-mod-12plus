@@ -6,7 +6,7 @@
 	<!-- EN: Spider spawn rate multiplier -->
 	<ROM_SettingsBoneMultiplier>Сколько спавнится пауков</ROM_SettingsBoneMultiplier>
 	<!-- EN: Bone multiplier ({0}x) -->
-	<ROM_SettingsBoneMultiplier_Num>Двигайте ползунок, количество костей в существах умножается на {0}</ROM_SettingsBoneMultiplier_Num>
+	<ROM_SettingsBoneMultiplier_Num>Двигайте ползунок. Количество костей в существах умножается на {0}</ROM_SettingsBoneMultiplier_Num>
 	<!-- EN: Bone multiplier (None) -->
 	<ROM_SettingsBoneMultiplier_None>Сбросить до 1</ROM_SettingsBoneMultiplier_None>
 
