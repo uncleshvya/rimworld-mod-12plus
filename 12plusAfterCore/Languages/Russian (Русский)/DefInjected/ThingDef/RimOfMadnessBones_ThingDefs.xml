@@ -56,7 +56,7 @@
 	<!-- EN: ash made from bones burned at extremely high temperatures. Can be used to make art pieces out of bone china. -->
 	<BoneChina.description>Также известны под названием «фарфоровый бисквит». Керамика на основе костного пепла, белая и твёрдая как камень.</BoneChina.description>
 	<!-- EN: bone china -->
-	<BoneChina.stuffProps.stuffAdjective>костяного фарфора</BoneChina.stuffProps.stuffAdjective>
+	<BoneChina.stuffProps.stuffAdjective>фарфора</BoneChina.stuffProps.stuffAdjective>
 	<!-- EN: bone marrow -->
 	<ROMB_Marrow.label>костный мозг</ROMB_Marrow.label>
 	<!-- EN: A semi-solid meaty tissue extracted from bones. Tastes bland, but not offensive. It lasts a very long time without refrigeration. -->
