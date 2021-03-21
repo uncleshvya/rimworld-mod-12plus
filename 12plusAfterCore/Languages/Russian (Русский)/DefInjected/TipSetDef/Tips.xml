@@ -1,14 +1,22 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- исправлена неточность, сообщите разработчику -->
 
-  <!-- EN: Some animals explode upon death. You can use transport pods to drop animals on enemies. Think about it. -->
-  <GameplayTips.AnimalDeathExplosion>Некоторые животные взрываются при атаке на них. С помощью транспортных капсул их можно сбросить на врагов. Подумайте об этом!</GameplayTips.AnimalDeathExplosion>
+	<!-- Оригинал: Караваны с быстрыми животными передвигаются быстрее. -->
+	<GameplayTips.CaravanFasterAnimals>Караваны с быстрыми животными соответственно и передвигаются быстрее.
+	<!-- Оригинал: ...чтобы рабочие могли удобно сидеть во время работы -->
+	<GameplayTips.ChairsWorkbench>Поставьте стулья перед верстаками, чтобы поселенцам было удобно сидеть во время работы.</GameplayTips.ChairsWorkbench>
 
-  <!-- EN: If you hunt boomrats and boomalopes when it's raining, their deaths won't cause forest fires. -->
-  <GameplayTips.AnimalDeathExplosionRain>Если вы охотитесь на бумкрыс и бумалоп во время дождя, то атака на них не вызовет лесных пожаров.</GameplayTips.AnimalDeathExplosionRain>
-  <!-- EN: Carefully-slaughtered animals yield more meat and leather than those who were killed violently. -->
-  <GameplayTips.GreaterSlaughterYield>Вы получите больше мяса и шкур при разделке забитых животных, чем при разделке добытых на охоте.</GameplayTips.GreaterSlaughterYield>
+	<!-- исправление согласно концепции «12+» -->
+
+	<!-- Оригинал: ...взрываются после смерти. С помощью... -->
+	<GameplayTips.AnimalDeathExplosion>Некоторые животные взрываются после серьёзных травм. С помощью транспортных капсул их можно сбросить на врагов. Подумайте об этом!</GameplayTips.AnimalDeathExplosion>
+	<!-- Оригинал: ...дождя, то их смерть не вызовет... -->
+	<GameplayTips.AnimalDeathExplosionRain>Если вы охотитесь на бумкрыс и бумалоп во время дождя, то удачный выстрел не вызовет лесных пожаров.</GameplayTips.AnimalDeathExplosionRain>
+	<!-- Оригинал: ...разделке убитых на охоте. -->
+	<GameplayTips.GreaterSlaughterYield>Вы получите больше мяса и шкур при разделке забитых животных, чем при разделке добытых на охоте.</GameplayTips.GreaterSlaughterYield>
+	<!-- Оригинал: Вы можете использовать политику назначения препаратов, чтобы ваши бойцы могли носить с собой боевые наркотики, такие как Go-сок. Приём препаратов прямо перед боем может решить исход сражения. -->
+	<GameplayTips.CombatDrugsFromInventory>Хотя бы накормите бойцов перед боем. Нервный срыв во время сражения часто приводит не только к потере бойца — он может открыть стратегически важную дверь... Иногда после такого остаётся только бежать, покинув нажитое годами.</GameplayTips.CombatDrugsFromInventory>
 
 </LanguageData>
