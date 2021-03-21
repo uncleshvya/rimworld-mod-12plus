@@ -1,8 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- исправление согласно концепции «12+» -->
 
-  <ScenPart_OnPawnDeathExplode>Персонажи и существа взрываются при атаке на них ({0}, радиус взрыва {1}).</ScenPart_OnPawnDeathExplode>
+	<!-- Оригинал: ...при смерти ({0}, радиус взрыва {1}). -->
+	<ScenPart_OnPawnDeathExplode>Персонажи и существа взрываются при сильных травмах ({0}, радиус взрыва {1}).</ScenPart_OnPawnDeathExplode>
 
 </LanguageData>
