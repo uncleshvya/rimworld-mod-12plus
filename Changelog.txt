@@ -51,7 +51,7 @@ For English, scroll down.
 
 2020-09-24 отключена возможность инцеста.
 
-2020-09-23 отключена возможность подкормки животных человечиной.
+2020-09-23 отключена возможность подкормки животных человечиной, в т.ч. для новых стандартных животных.
 
 2020-09-21 отключена возможность человеческого каннибализма, аналогично и для других разумных рас, поддерживаемых модом.
 
@@ -136,7 +136,7 @@ There are some unsolved problems with cataloging, so the files were marked with 
 
 2020-sep-24 removed incestous ability.
 
-2020-sep-23 removed the ability to feed predators with human meat and corpses.
+2020-sep-23 removed the ability to feed predators with human meat and corpses, also for new standart animals.
 
 2020-sep-21 removed humanlikes' cannibalism for every supported race.
 
