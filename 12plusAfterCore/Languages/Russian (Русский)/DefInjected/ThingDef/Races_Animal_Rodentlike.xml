@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- исправление согласно концепции «12+» -->
 
-  <!-- EN: Either by deliberate genetic weaponization, or as an unusual defense mechanism, these rodent-like creatures create a powerful fire-starting explosion when killed. -->
-  <Boomrat.description>Эти животные, похожие на грызунов, то ли были умышленно генетически модифицированы как оружие, то ли выработали такой необычный защитный механизм — взрываться при атаке на них, вызывая пожар.</Boomrat.description>
+	<!-- Оригинал: ...взрываться при смерти, вызывая... -->
+	<Boomrat.description>Эти животные, похожие на грызунов, то ли были умышленно генетически модифицированы как оружие, то ли выработали такой необычный защитный механизм — взрываться при сильном травмировании, вызывая пожар.</Boomrat.description>
 
 </LanguageData>
