@@ -32,7 +32,7 @@ Humanoid Cats — dianawinters.OrassansLite
 Если вдруг мод не понравился, просто отключите его. Сейвы не пострадают.
 
 Несовместим с модами «Psychology», «Rational Romance» и другими, меняющими отношения между полами.
-Пока несовместим с модами на другие расы, животных, кухонные верстаки. Но если будут желающие, мы добавим совместимость, пишите uncleshvya@yandex.ru Ответим как будет время.
+Пока несовместим с модами на другие расы и кухонные верстаки. Но если будут желающие, мы добавим совместимость, пишите uncleshvya@yandex.ru Ответим как будет время.
 Не идеально совместим с авто-обновлением русского языка от официального переводчика. Основной контент уже написан, так что больших проблем быть не должно. Но для гарантированного соответствия концепции «12+» лучше отключить авто-обновление.
 
 =====
@@ -45,6 +45,7 @@ Humanoid Cats — dianawinters.OrassansLite
 
 Известные проблемы:
 
+- Если перевод категории «12+» не обновился, заново выберите русский язык в главном меню;
 - Если часто переходить по ссылкам в информации о людях, иногда выходит красная ошибка. Не обращайте внимания, это особенность движка мода;
 - Если колонисты вдруг перестали сами есть, скачайте другую версию мода Alien Races;
 - Во время адаптации был подправлен баланс модов «Rim of Madness — Bones» и «Vanilla Cooking Expanded» с аддоном «Stews», см.ченджлог. Кого такая правка не устраивает, просто удалите соответствующий файл «RimOfMadnessBones_Rebalance.xml» или «VEcooking_VEstews_Rebalance.xml». Концепция и сейвы не пострадают.
@@ -91,7 +92,7 @@ Humanoid Cats — dianawinters.OrassansLite
 If you don't like the mod, just turn it off. Saves will be playable.
 
 Not compatible with "Psychology", "Rational Romance" or any other mods altering RimWorld's romance systems.
-For now, not compatible with mods for other races, animals, butchering tables and stoves. But we can do the compatibility, just mail to us mailto:uncleshvya@yandex.ru We'll answer as fast as possible.
+For now, not compatible with mods for other races or butchering tables and stoves. But we can do the compatibility, just mail to us mailto:uncleshvya@yandex.ru We'll answer as fast as possible.
 Not absolutely compatible with auto-script from official Russian translator's site. Basic content is finished, but for guarantied match to "12+" concept, it's better to turn off the auto-updating.
 
 =====
@@ -104,6 +105,7 @@ It's better to start a new game. However, old games are playable too. You should
 
 Known issues:
 
+- if russian "12plus" translation didn't refresh automatically, re-choose russian language in main menu;
 - if you open pawn's information panel, and click links too much, it may cause a red error. Just ignore, it's a rare bug;
 - if your pawns do not eat, just download another version of erdelf.HumanoidAlienRaces mod;
 - sihv.rombones, VanillaExpanded.VCookE and VanillaExpanded.VCookEStews mods were rebalanced during adaptation, see changelog. If you don't like it, just delete "RimOfMadnessBones_Rebalance.xml" or "VEcooking_VEstews_Rebalance.xml" file. Saves will be playable, concept — workable.
