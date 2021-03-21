@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- исправлена неточность, сообщите разработчику -->
+
+	<!-- Оригинал: увидел королеву инсектоидов -->
+	<VFEI_SeenInsectoidQueen.stages.0.label>{PAWN_gender ? Увидел : Увидела} королеву инсектоидов</VFEI_SeenInsectoidQueen.stages.0.label>
+	<!-- Оригинал: увидел милосеницу -->
+	<VFEI_SeenCuterpillar.stages.0.label>{PAWN_gender ? Увидел : Увидела} золотинку</VFEI_SeenCuterpillar.stages.0.label>
+	<!-- Оригинал: отведал королевского желе -->
+	<VFEI_AteRoyalJelly.stages.0.label>{PAWN_gender ? Отведал : Отведала} королевского желе</VFEI_AteRoyalJelly.stages.0.label>
+
+</LanguageData>
