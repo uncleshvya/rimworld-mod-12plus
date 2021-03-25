@@ -20,6 +20,21 @@
 				</value>
 			</li>
 
+			<!-- исправлен баланс, сообщите разработчику, что и у ванильных инсектоидов должен быть хитин -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+				defName = "Megascarab" or
+				defName = "Spelopede" or
+				defName = "Megaspider"
+				]</xpath>
+				<value>
+					<butcherProducts>
+						<VFEI_Chitin>7</VFEI_Chitin>
+					</butcherProducts>
+				</value>
+			</li>
+
 		</operations>
 	</Operation>
 </Patch>
