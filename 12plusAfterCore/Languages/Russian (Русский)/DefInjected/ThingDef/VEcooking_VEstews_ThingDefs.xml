@@ -99,11 +99,11 @@
 	<VCE_WasabiPaste.description>Паста, приготовленная из перемолотых корневищ васаби, используется в качестве острой приправы для суши и других пищевых продуктов. По вкусу она больше похожа на острую горчицу, чем на перец чили, так как стимулирует нос сильнее, чем язык. Васаби очищает дыхание и на некоторое время заставляет чувствовать себя теплее.</VCE_WasabiPaste.description>
 
 	<!-- Оригинал: прожареное мясо (во фритюре) -->
-	<VCE_DeepFriedBigMeat.label>жаренное во фритюре мясо</VCE_DeepFriedBigMeat.label>
+	<VCE_DeepFriedBigMeat.label>прожаренное мясо</VCE_DeepFriedBigMeat.label>
 	<!-- Оригинал: прожареные овощи (во фритюре) -->
-	<VCE_DeepFriedVegetables.label>жаренные во фритюре овощи</VCE_DeepFriedVegetables.label>
+	<VCE_DeepFriedVegetables.label>прожаренные овощи</VCE_DeepFriedVegetables.label>
 	<!-- Оригинал: прожареная рыба (во фритюре) -->
-	<VCE_DeepFriedFish.label>жаренная во фритюре рыба</VCE_DeepFriedFish.label>
+	<VCE_DeepFriedFish.label>прожаренная рыба</VCE_DeepFriedFish.label>
 
 	<!-- Оригинал: прожареные сущи (во фритюре) -->
 	<VCE_DeepFriedSushi.label>суши темпура</VCE_DeepFriedSushi.label>
