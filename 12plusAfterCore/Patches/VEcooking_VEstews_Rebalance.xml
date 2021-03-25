@@ -77,6 +77,7 @@
 
 			<!-- исправлен баланс, сообщите разработчику, что лишние категории засоряют список -->
 
+			<!-- для рагу, супов и фритюра -->
 			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[
 				defName = "VCE_UncookedStewSimple" or
@@ -85,7 +86,10 @@
 				defName = "VCE_UncookedSoupSimple" or
 				defName = "VCE_UncookedSoupFine" or
 				defName = "VCE_UncookedSoupLavish" or
-				defName = "VCE_UncookedSoupGourmet"
+				defName = "VCE_UncookedSoupGourmet" or
+				defName = "VCE_DeepFriedBigMeat" or
+				defName = "VCE_DeepFriedVegetables" or
+				defName = "VCE_DeepFriedFish"
 				]/thingCategories</xpath>
 			</li>
 
