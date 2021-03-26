@@ -161,5 +161,6 @@ Ideas to realize in next version:
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
+		<li>am.rus.rimfridge</li>
 	</incompatibleWith>
 </ModMetaData>
