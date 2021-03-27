@@ -4,7 +4,7 @@
 		<success>Always</success>
 		<operations>
 
-			<!-- исправлен баланс, сообщите разработчику, что если поселенцы выпечку готовят за пару часов, то не может суп готовиться 48 часов, максимум 2 -->
+			<!-- исправлен баланс, сообщите разработчику, что если поселенцы готовят выпечку за пару часов, то не может суп готовиться 48 часов, максимум 2 -->
 
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ItemProcessor.CombinationDef[
@@ -107,7 +107,7 @@
 				</value>
 			</li>
 
-			<!-- исправлен баланс, сообщите разработчику, что если поселенцы выпечку готовят за пару часов, то не может рагу готовиться 72 часа, максимум 8 -->
+			<!-- исправлен баланс, сообщите разработчику, что если поселенцы готовят выпечку за пару часов, то не может рагу готовиться 72 часа, максимум 8 -->
 
 			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationReplace">
 				<xpath>Defs/ItemProcessor.CombinationDef[
@@ -126,6 +126,56 @@
 					<li>VCE_UncookedStewSimple</li>
 					<li>VCE_UncookedStewFine</li>
 					<li>VCE_UncookedStewLavish</li>
+				</value>
+			</li>
+			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationAdd">
+				<xpath>Defs</xpath>
+				<value>
+					<ItemProcessor.CombinationDef>
+						<defName>VCE_SimpleStewRecipe2</defName>
+						<building>VCE_ElectricPot</building>
+						<items>
+							<li>VCE_UncookedStewSimple</li>
+						</items>
+						<amount>
+							<li>1</li>
+						</amount>
+						<result>VCE_CookedStewSimple</result>
+						<yield>10</yield>
+						<useQualityIncreasing>false</useQualityIncreasing>
+						<singleTimeIfNotQualityIncreasing>0.34</singleTimeIfNotQualityIncreasing>
+						<finishedProductMessage>VCE_FinishedSimpleStew</finishedProductMessage>
+					</ItemProcessor.CombinationDef>
+					<ItemProcessor.CombinationDef>
+						<defName>VCE_FineStewRecipe2</defName>
+						<building>VCE_ElectricPot</building>
+						<items>
+							<li>VCE_UncookedStewFine</li>
+						</items>
+						<amount>
+							<li>1</li>
+						</amount>
+						<result>VCE_CookedStewFine</result>	
+						<yield>10</yield>
+						<useQualityIncreasing>false</useQualityIncreasing>
+						<singleTimeIfNotQualityIncreasing>0.34</singleTimeIfNotQualityIncreasing>
+						<finishedProductMessage>VCE_FinishedFineStew</finishedProductMessage>
+					</ItemProcessor.CombinationDef>
+					<ItemProcessor.CombinationDef>
+						<defName>VCE_LavishStewRecipe2</defName>
+						<building>VCE_ElectricPot</building>
+						<items>
+							<li>VCE_UncookedStewLavish</li>
+						</items>
+						<amount>
+							<li>1</li>
+						</amount>
+						<result>VCE_CookedStewLavish</result>
+						<yield>10</yield>
+						<useQualityIncreasing>false</useQualityIncreasing>
+						<singleTimeIfNotQualityIncreasing>0.34</singleTimeIfNotQualityIncreasing>
+						<finishedProductMessage>VCE_FinishedLavishStew</finishedProductMessage>
+					</ItemProcessor.CombinationDef>
 				</value>
 			</li>
 
