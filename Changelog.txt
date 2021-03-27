@@ -2,7 +2,7 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-03-27 начата работа по адаптации мода Vanilla Furniture Expanded - Security. Тег "VEfurnitureSecurity".
+2021-03-27 начата работа по адаптации мода Vanilla Furniture Expanded - Security. Тег "VEfurnitureSecurity_".
 
 2021-03-26 добавлена адаптация для мода RimFridge.
 Скомпилирована версия 12+мода 0.5.4beta.
@@ -89,7 +89,7 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-mar-27 VanillaExpanded.VFESecurity mod adaptation work started. Tag "VEfurnitureSecurity".
+2021-mar-27 VanillaExpanded.VFESecurity mod adaptation work started. Tag "VEfurnitureSecurity_".
 
 2021-mar-26 rimfridge.kv.rw mod adaptation added.
 UncleShvya.12plus mod v.0.5.4beta compiled.
