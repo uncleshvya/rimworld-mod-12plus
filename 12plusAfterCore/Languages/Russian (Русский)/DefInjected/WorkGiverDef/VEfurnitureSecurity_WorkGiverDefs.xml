@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- исправлена неточность, сообщите разработчику -->
+
+	<!-- нужны разные названия, иначе в списках носильщика и строителя одинаковые работы.
+	Оригинал: перезарядить ловушки -->
+	<VFES_ConstructRearmTrap.label>восстанавливать ловушки</VFES_ConstructRearmTrap.label>
+	<!-- Оригинал: перезаряжать -->
+	<VFES_ConstructRearmTrap.verb>восстанавливать</VFES_ConstructRearmTrap.verb>
+	<!-- Оригинал: перезаряжает -->
+	<VFES_ConstructRearmTrap.gerund>восстановить</VFES_ConstructRearmTrap.gerund>
+
+	<!-- Оригинал: перезарядить ловушки -->
+	<VFES_RearmTrap.label>перезаряжать ловушки</VFES_RearmTrap.label>
+	<!-- Оригинал: перезаряжает -->
+	<VFES_RearmTrap.gerund>перезарядить</VFES_RearmTrap.gerund>
+
+</LanguageData>
