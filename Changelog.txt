@@ -75,8 +75,6 @@ For English, scroll down.
 
 2019-11-15 тексты с рекламой секса и людоедства заменены на нейтральные.
 
-2019-11-14 добавлена картинка в описание. Спасибо фотографу milatiger.
-
 2019-11-13 отключены бафы Bloodlust при убийстве и при наблюдении оного.
 
 2019-11-12 отключены трейты Cannibal, Gay, Masochist, Pyromaniac.
@@ -161,8 +159,6 @@ There are some unsolved problems with cataloging, so the files were marked with 
 2019-nov-16 human flesh and human skin removed. Humanlikes' butchery removed.
 
 2019-nov-15 removed superfluous ads about sexuality, porno and man-eating.
-
-2019-nov-14 description picture added. Thanks to the photographer milatiger. 
 
 2019-nov-13 "Bloodlust" buffs removed: after murders and after supervision ones.
 
