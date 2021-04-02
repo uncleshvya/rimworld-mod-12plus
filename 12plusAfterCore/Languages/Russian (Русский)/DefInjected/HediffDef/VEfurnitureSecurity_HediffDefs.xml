@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+
+	<!-- шрам переведён на основании раны VFES_Stab. Если будут исправления - не забыть про VFES_Turret_Ballista.description и VFES_SplinterArrow.label
+	EN: splinter scar -->
+	<VFES_Stab.comps.HediffComp_GetsPermanent.permanentLabel>шрам от пореза</VFES_Stab.comps.HediffComp_GetsPermanent.permanentLabel>
+	<!-- EN: {0} in the {1} -->
+	<VFES_Stab.labelNounPretty>{0} на {1}</VFES_Stab.labelNounPretty>
+
+	<!-- исправлена неточность, сообщите разработчику -->
+
+	<!-- Оригинал: без "Ё" -->
+	<VFES_Dazzled.label>ослеплён</VFES_Dazzled.label>
+	<VFES_Dazzled.labelNoun>ослеплён</VFES_Dazzled.labelNoun>
+
+</LanguageData>
