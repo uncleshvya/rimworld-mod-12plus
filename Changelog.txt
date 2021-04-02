@@ -2,11 +2,13 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-03-27 начата работа по адаптации мода Vanilla Furniture Expanded - Security. Тег "VEfurnitureSecurity_".
+2021-04-02 начата работа по адаптации мода Vanilla Expanded Furniture Production. Тег "VEfurnitureProduction_".
+
+2021-04-01 добавлена адаптация для мода Vanilla Expanded Furniture Security и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
+Скомпилирована версия 12+мода 0.5.5beta.
+Пока не удалось разделить переводы для 17 адаптированных модов, поэтому соответствующие файлы помечены текстом "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "RimOfMadnessBones_", "Royalty_", "UtilityColumns_", "VEcooking_", "VEframework_", "VEfurnitureSecurity_", "VEstews_", "VEfactionInsectoids_", "VGPgardenTools_" в именах файлов, для возможности поиска (здесь теги в алфавитном порядке). В случае отделения их в виде мода, нужно будет загружать после ядра "12+".
 
 2021-03-26 добавлена адаптация для мода RimFridge.
-Скомпилирована версия 12+мода 0.5.4beta.
-Пока не удалось разделить переводы для 15 адаптированных модов, поэтому соответствующие файлы помечены текстом "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "RimOfMadnessBones_", "Royalty_", "UtilityColumns_", "VEcooking_", "VEframework_", "VEstews_", "VEfactionInsectoids_", "VGPgardenTools_" в именах файлов, для возможности поиска (здесь теги в алфавитном порядке). В случае отделения их в виде мода, нужно будет загружать после ядра "12+".
 
 2021-03-21 добавлена адаптация для мода Vanilla Expanded Faction Insectoids и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 
@@ -87,11 +89,13 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-mar-27 VanillaExpanded.VFESecurity mod adaptation work started. Tag "VEfurnitureSecurity_".
+2021-apr-02 VanillaExpanded.VFEProduction mod adaptation work started. Tag "VEfurnitureProduction_".
+
+2021-apr-01 VanillaExpanded.VFESecurity and Am.Rus.VFESecurity mods' adaptation added. Also corrected their errors, see code comments.
+UncleShvya.12plus mod v.0.5.5beta compiled.
+There are some unsolved problems with cataloging, so the files were marked with tags (alphabetically) "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "RimOfMadnessBones_", "Royalty_", "UtilityColumns_", "VEcooking_", "VEframework_", "VEstews_", "VEfactionInsectoids_", "VGPgardenTools_" in files' names. If these files will be compiled as separate mods, they should be loaded after "12plus.core"
 
 2021-mar-26 rimfridge.kv.rw mod adaptation added.
-UncleShvya.12plus mod v.0.5.4beta compiled.
-There are some unsolved problems with cataloging, so the files were marked with tags (alphabetically) "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "RimOfMadnessBones_", "Royalty_", "UtilityColumns_", "VEcooking_", "VEframework_", "VEstews_", "VEfactionInsectoids_", "VGPgardenTools_" in files' names. If these files will be compiled as separate mods, they should be loaded after "12plus.core"
 
 2021-mar-21 OskarPotocki.VFE.Insectoid and RU.VFE.Insectoid mods' adaptation added. Also corrected their errors, see code comments.
 
