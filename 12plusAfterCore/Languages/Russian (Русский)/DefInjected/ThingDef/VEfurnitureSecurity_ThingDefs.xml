@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+
+	<!-- EN: Mote -->
+	<VFES_Mote_SpotLight.label>частица</VFES_Mote_SpotLight.label>
+	<!-- EN: Mote -->
+	<Mote_Firetrail.label>частица</Mote_Firetrail.label>
+	<!-- EN: Mote -->
+	<Mote_FTSmoketrail.label>частица</Mote_FTSmoketrail.label>
+	<!-- EN: Barrel durability -->
+	<VFES_Turret_FloorTurret.comps.CompRefuelable.fuelGizmoLabel>Прочность ствола</VFES_Turret_FloorTurret.comps.CompRefuelable.fuelGizmoLabel>
+	<!-- EN: Shots until barrel change -->
+	<VFES_Turret_FloorTurret.comps.CompRefuelable.fuelLabel>Выстрелов до замены ствола</VFES_Turret_FloorTurret.comps.CompRefuelable.fuelLabel>
+	<!-- даже с одним стволом (неполной перезарядкой) турель будет стрелять
+	EN: Cannot shoot: Needs new barrels -->
+	<VFES_Turret_FloorTurret.comps.CompRefuelable.outOfFuelMessage>Стрельба невозможна: требуется замена ствола</VFES_Turret_FloorTurret.comps.CompRefuelable.outOfFuelMessage>
+	<!-- EN: submersible military turret doublegun -->
+	<VFES_Gun_FloorTurret.verbs.Verb_Shoot.label>выдвижная двуствольная турель</VFES_Gun_FloorTurret.verbs.Verb_Shoot.label>
+	<!-- EN: mounted HMG -->
+	<VFES_Gun_HMGComplex.verbs.Verb_Shoot.label>крупнокалиберный пулемёт</VFES_Gun_HMGComplex.verbs.Verb_Shoot.label>
+	<!-- EN: decoy gun -->
+	<VFES_Gun_None.verbs.Verb_Shoot.label>деревянный автомат</VFES_Gun_None.verbs.Verb_Shoot.label>
+	<!-- EN: double autocannon -->
+	<VFES_TurretDoubleAutocannon_Top.verbs.Verb_Shoot.label>сдвоенная автопушка</VFES_TurretDoubleAutocannon_Top.verbs.Verb_Shoot.label>
+	<!-- EN: salvo turret launcher -->
+	<VFES_TurretTriRocket_Top.verbs.Verb_Shoot.label>ракетная установка</VFES_TurretTriRocket_Top.verbs.Verb_Shoot.label>
+	<!-- в игре есть и другие виды артиллерии.
+	EN: artillery -->
+	<VFES_Artillery_Weapon.verbs.Verb_Shoot.label>ствол гаубицы</VFES_Artillery_Weapon.verbs.Verb_Shoot.label>
+	<!-- EN: military turret doublegun -->
+	<VFES_Gun_MilitaryTurret.verbs.Verb_Shoot.label>военная двуствольная турель</VFES_Gun_MilitaryTurret.verbs.Verb_Shoot.label>
+	<!-- EN: searchlight -->
+	<VFES_Gun_Searchlight.verbs.Verb_Dazzle.label>прожектор</VFES_Gun_Searchlight.verbs.Verb_Dazzle.label>
+	<!-- EN: flame turret gun -->
+	<VFES_Gun_FlameTurret.verbs.Verb_Shoot.label>огнемётная установка</VFES_Gun_FlameTurret.verbs.Verb_Shoot.label>
+	<!-- EN: sentry turret gun -->
+	<VFES_Gun_SentryTurret.verbs.Verb_Shoot.label>пулемёт Гатлинга</VFES_Gun_SentryTurret.verbs.Verb_Shoot.label>
+	<!-- EN: ballista -->
+	<VFES_Gun_BallistaTurret.verbs.Verb_Shoot.label>баллиста</VFES_Gun_BallistaTurret.verbs.Verb_Shoot.label>
+	<!-- EN: catapult -->
+	<VFES_Artillery_Catapult.verbs.Verb_Shoot.label>катапульта</VFES_Artillery_Catapult.verbs.Verb_Shoot.label>
+	<!-- EN: charge gun emplacement -->
+	<VFES_Gun_ChargeComplex.verbs.Verb_Shoot.label>тяжёлая энергетическая пушка</VFES_Gun_ChargeComplex.verbs.Verb_Shoot.label>
+	<!-- EN: charged turret gun -->
+	<VFES_Gun_ChargeTurret.verbs.Verb_Shoot.label>энергетическая пушка</VFES_Gun_ChargeTurret.verbs.Verb_Shoot.label>
+	<!-- EN: charge railgun -->
+	<VFES_Gun_RailgunTurret.verbs.Verb_Shoot.label>энергетический рельсотрон</VFES_Gun_RailgunTurret.verbs.Verb_Shoot.label>
+	<!-- EN: EMP cannon -->
+	<VFES_Gun_EMPTurret.verbs.Verb_Shoot.label>электромагнитная пушка</VFES_Gun_EMPTurret.verbs.Verb_Shoot.label>
+
+	<!-- исправлена неточность, сообщите разработчику -->
+
+	<!-- описание ИИ взято с ванили.
+	Оригинал: Выдвижная двухствольная автоматическая...плитка в отключенном состоянии. В сложенном состоянии получает...взорваться. Управляется тупым искуственным интеллектом, поэтому остерегайтесь дружественного огня. -->
+	<VFES_Turret_FloorTurret.description>Выдвижная двуствольная автоматическая боевая турель, которая выглядит как обычная напольная плитка в сложенном состоянии. Когда спрятана, получает вдвое меньше урона. Требуется сталь для восстановления стволов после интенсивного использования. При повреждении может взорваться. ИИ турели не особо продвинут и не поддерживает прямого управления, так что берегитесь огня по своим.</VFES_Turret_FloorTurret.description>
+	<!-- Оригиналы: все без "ё" -->
+	<VFES_Turret_HMGComplex.label>крупнокалиберный пулемёт</VFES_Turret_HMGComplex.label>
+	<VFES_Turret_HMGComplex.description>Стационарный крупнокалиберный пулемёт, установленный на мешки с песком для укрытия.</VFES_Turret_HMGComplex.description>
+	<VFES_Gun_HMGComplex.label>крупнокалиберный пулемёт</VFES_Gun_HMGComplex.label>
+	<VFES_Gun_HMGComplex.description>Крупнокалиберный пулемёт, предназначенный для установки на мешки.</VFES_Gun_HMGComplex.description>
+	<VFES_Bullet_HMGComplex.label>крупнокалиберная пулемётная пуля</VFES_Bullet_HMGComplex.label>
+
+	<!-- путаница с налётами, когда противник нападает немедленно.
+	Оригинал: Противотанковый контейнер с взрывчатым материалом, предназначенный для вывода...противника. Взрывается немедленно. -->
+	<VFES_Landmine.description>Мощное взрывное устройство, предназначенное для вывода из строя бронетехники и живой силы противника. Взрывается сразу после срабатывания.</VFES_Landmine.description>
+	<!-- на изображении - не винтовка.
+	Оригинал: ...манекен с деревянной винтовкой. Привлекает... -->
+	<VFES_Turret_Decoy.description>Тканевый манекен с деревянным автоматом. Привлекает внимание врага.</VFES_Turret_Decoy.description>
+	<!-- Оригинал: орудие-приманка -->
+	<VFES_Gun_None.label>деревянный автомат</VFES_Gun_None.label>
+	<!-- Оригинал: Копия орудия, сделанная из дерева. -->
+	<VFES_Gun_None.description>Поддельный автомат, сделанный из дерева.</VFES_Gun_None.description>
+
+	<!-- Оригинал: ...крупнокалиберные снаряда наносят... и без "ё" -->
+	<VFES_Turret_AutocannonDouble.description>Тяжёлая автоматическая турель с двумя стволами. Её крупнокалиберные снаряды наносят тяжёлые повреждения на значительных дистанциях, но стволы необходимо ремонтировать после интенсивного использования. Она не может стрелять по близким целям и взрывается при повреждениях.</VFES_Turret_AutocannonDouble.description>
+	<!-- Оригинал: "английские" кавычки -->
+	<VFES_Turret_TriRocket.description>Ракетная установка, способная давать залп ракетами класса «земля-земля». Она не может стрелять по близким целям и взрывается при повреждениях.</VFES_Turret_TriRocket.description>
+
+	<!-- в игре есть и другие виды артиллерии.
+	Оригинал: артиллерия -->
+	<VFES_Turret_Artillery.label>гаубица</VFES_Turret_Artillery.label>
+	<!-- Часть описания взято у миномётов. Неопределённое описание "среднего" радиуса.
+	Оригинал: Управляемая вручную артиллерия, которая может стрелять любыми видами снарядов. Эта установка способа нанести сокрушительный урон как живой силе, так и строениям противника. Отлично справляется с поддержкой солдат в полевых условиях.\n\nМожет наводиться на цель в другом локации, расположенной в среднем радиусе. -->
+	<VFES_Turret_Artillery.description>Артиллерийское орудие, запускающее снаряды всех видов. Для стрельбы требуется наводчик. Эта установка способна нанести сокрушительный урон как живой силе, так и строениям противника. Отлично справляется с поддержкой солдат в полевых условиях.\n\nМожет стрелять по очень далёким целям, до которых пехотинец бы дошёл за несколько дней.</VFES_Turret_Artillery.description>
+	<!-- лучше бы "гаубица", но тогда надо как-то по нормальному назвать гаубицу на турели
+	Оригинал: артиллерия -->
+	<VFES_Artillery_Weapon.label>ствол гаубицы</VFES_Artillery_Weapon.label>
+	<!-- Оригинал: Артиллерийское орудие, способное вести бомбардировку на большом расстоянии. -->
+	<VFES_Artillery_Weapon.description>Артиллерийское орудие, способное стрелять по очень далёким целям.</VFES_Artillery_Weapon.description>
+
+	<!-- изготавливается волочением, т.е. вытягиванием. Это не тип, а изделие.
+	Оригинал: колючая проволка -->
+	<VFES_BarbedWire.label>колючая проволока</VFES_BarbedWire.label>
+	<!-- Оригинал: Тип стальной проволки для ограждений, состоящий из острых краев и шипов, расположенных через определенные промежутки. Не только замедляет передвижение, но и наносит противнику порезы и колотые раны. -->
+	<VFES_BarbedWire.description>Ограждение из стальной проволоки с острыми шипами и лезвиями, расположенными через определённые промежутки. Не только замедляет передвижение, но и наносит порезы и колотые раны.</VFES_BarbedWire.description>
+	<!-- обычно стрелки' окапываются.
+	Оригинал: траншея -->
+	<VFES_Trench.label>окоп</VFES_Trench.label>
+	<!-- ров от слова рыть.
+	Оригинал: Длинный и узкий ров, вырытый в земле...стрельбы, но также получают значительное укрытие. -->
+	<VFES_Trench.description>Длинное и узкое углубление в земле. Переход по нему требует лазить вниз и вверх, поэтому оно значительно снижает скорость передвижения. Солдаты внутри окопа получают штраф к дальности стрельбы, но зато хорошо укрыты от вражеских выстрелов.</VFES_Trench.description>
+	<!-- не совсем лорно прописан параметр fixedIngredientFilter. Скорость прицеливания не меняется.
+	Оригинал: Ящий с боеприпасами, пригодный для хранения патронов. Повышает скорость стрельбы окружающих его солдат. -->
+	<VFES_AmmoCrate.description>Ящик с различными боеприпасами, чаще всего — артиллерийскими снарядами. Уменьшает время перезарядки для окружающих солдат. Взрывается при повреждении.</VFES_AmmoCrate.description>
+
+	<!-- описание ИИ трёх турелей ниже взято с ванили.
+	Оригинал: Двухствольная автоматическая...взорваться. Управляется тупым искуственным интеллектом, поэтому остерегайтесь дружественного огня. -->
+	<VFES_Turret_MilitaryTurret.description>Двухствольная автоматическая боевая турель. Требуется сталь для восстановления стволов после интенсивного использования. При повреждении может взорваться. ИИ турели не особо продвинут и не поддерживает прямого управления, так что берегитесь огня по своим.</VFES_Turret_MilitaryTurret.description>
+	<!-- Оригинал: ...Достаточно легкая, чтобы переносить ее с места...взорваться. Управляется тупым искуственным интеллектом, поэтому остерегайтесь дружественного огня. -->
+	<VFES_Turret_SentryGun.description>Турель с автономным питанием и небольшой пушкой Гатлинга. Достаточно лёгкая, чтобы переносить её с места на место и использовать где угодно. При повреждении может взорваться. ИИ турели не особо продвинут и не поддерживает прямого управления, так что берегитесь огня по своим.</VFES_Turret_SentryGun.description>
+	<!-- Оригинал: Портативная огнеметная турель...взорваться. Управляется тупым искуственным интеллектом, поэтому остерегайтесь дружественного огня. -->
+	<VFES_Turret_Flame.description>Портативная огнемётная турель. При повреждении может взорваться. ИИ турели не особо продвинут и не поддерживает прямого управления, так что берегитесь огня по своим.</VFES_Turret_Flame.description>
+	<!-- Оригиналы: все без "ё" -->
+	<VFES_Turret_Flame.label>огнемётная турель</VFES_Turret_Flame.label>
+	<VFES_Turret_Flame.comps.CompRefuelable.fuelGizmoLabel>Огнемётное топливо</VFES_Turret_Flame.comps.CompRefuelable.fuelGizmoLabel>
+	<VFES_Turret_Flame.comps.CompRefuelable.outOfFuelMessage>Стрельба невозможна: закончилось огнемётное топливо</VFES_Turret_Flame.comps.CompRefuelable.outOfFuelMessage>
+	<VFES_Gun_FlameTurret.label>огнемётная установка</VFES_Gun_FlameTurret.label>
+	<VFES_Gun_FlameTurret.description>Огнемётная установка, предназначенная для установки на турель.</VFES_Gun_FlameTurret.description>
+	<VFES_Bullet_FlameTurret.label>огнемётное топливо</VFES_Bullet_FlameTurret.label>
+	<VFES_Gun_SentryTurret.label>пулемёт Гатлинга</VFES_Gun_SentryTurret.label>
+
+	<!-- некорректное описание. Часть взято из ванили.
+	Оригинал: Стальные "челюсти", развернутые под напряжением и связанные со спусковым крючком. Когда жертва наступает на него, то челюсти смыкаются и ударяют жертву по ногами или ступням. Капкан...небольших и легких существ, а слишком большие существа просто раздавят его. Капкан нельзя поставить рядом с другими ловушками, т.к. он спрятан в окружающем ландшафте -->
+	<VFES_BearTrap.description>Стальные дуги-«челюсти», соединённые с мощной пружиной, и спусковой механизм нажимного действия. Когда жертва задевает механизм, дуги смыкаются и повреждают ей ногу или ступню. Капкан не среагирует на небольших и лёгких существ, а большие животные просто раздавят его. Поскольку капканы предназначены для скрытой установки, их нельзя ставить рядом с другими подобными устройствами. Животные в спокойном состоянии обходят капканы стороной.</VFES_BearTrap.description>
+
+	<!-- надо хоть немного развеять путаницу в названиях древних камнемётов.
+	Оригинал: Старинная военная осадная машина в виде арбалета, установленного она деревянной конструкции. Болты, выпущенные из этой машины, при ударе разлетаются на осколки. -->
+	<VFES_Turret_Ballista.description>Также известная под названиями «аркбалиста» и «стреломёт», старинная военная машина в виде большого арбалета, установленного на прочном основании. Стреляет «болтом» — огромной деревянной стрелой. Такой снаряд часто раскалывается при попадании, но даже осколки обладают достаточной скоростью для нанесения ощутимого урона.</VFES_Turret_Ballista.description>
+	<!-- этот объект ещё не установлен.
+	Оригинал: Старинная военная осадная машина в виде арбалета, установленного она деревянной конструкции. -->
+	<VFES_Gun_BallistaTurret.description>Также известная под названиями «аркбалиста» и «стреломёт», старинная военная машина в виде большого арбалета.</VFES_Gun_BallistaTurret.description>
+	<!-- Оригинал: Катапульта - это баллистическое устройство, используемое для запуска снаряда на большое расстояние без помощи пороха или других веществ. Катапульта, используемая с древних времен, зарекомендовала себя как один из наиболее эффективных механизмов на войне. -->
+	<VFES_Turret_Catapult.description>Также известная под названиями «требушет» и «камнемёт», старинная осадная машина. Используется для запуска камней на большое расстояние без всякого пороха, только с помощью рычагов и канатов.</VFES_Turret_Catapult.description>
+	<!-- Оригинал: Катапульта - это баллистическое устройство, используемое для запуска снаряда на большое расстояние без помощи пороха или других веществ. Катапульта, используемая с древних времен, зарекомендовала себя как один из наиболее эффективных механизмов на войне. -->
+	<VFES_Artillery_Catapult.description>Также известная под названиями «требушет» и «камнемёт», старинная осадная машина. Используется для запуска камней на большое расстояние без всякого пороха, только с помощью рычагов и канатов.</VFES_Artillery_Catapult.description>
+
+	<!-- Оригиналы: оба без "ё" -->
+	<VFES_Turret_ChargeComplex.label>тяжёлая энергетическая пушка</VFES_Turret_ChargeComplex.label>
+	<VFES_Gun_ChargeComplex.label>тяжёлая энергетическая пушка</VFES_Gun_ChargeComplex.label>
+
+	<!-- Оригинал: Небольшая, в грудь... -->
+	<VFES_ShortWall.description>Небольшая, по грудь высотой, стена, через которую можно перелезть. Не может поддерживать крышу.</VFES_ShortWall.description>
+
+</LanguageData>
