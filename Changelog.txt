@@ -2,7 +2,7 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-04-03 начата работа над адаптацией мода Rimsenal Federation Faction, тег "RimsenalFederationFaction_".
+2021-04-03 начата работа над адаптацией мода Rimsenal Federation Faction, тег "RimsenalFederationFaction_". Проанализирован перевод от kr33man, для дальнейшего перевода нужны испытания в игре.
 
 2021-04-02 добавлена адаптация для мода Vanilla Expanded Furniture Production и его русификатора, заодно исправлены ошибки, см.каменты в коде.
 Скомпилирована версия 12+мода 0.5.6beta.
@@ -91,7 +91,7 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-apr-03 rimsenal.federation mod adaptation work started. Tag "RimsenalFederationFaction_".
+2021-apr-03 rimsenal.federation mod adaptation work started. Tag "RimsenalFederationFaction_". Russian translation from kr33man analyzed. For further translation, game test needed.
 
 2021-apr-02 VanillaExpanded.VFEProduction and Inoshishi3.VanillaExpanded.VFEProductionRusPatch mods' adaptation added. Also corrected errors, see code comments.
 UncleShvya.12plus mod v.0.5.6beta compiled.
