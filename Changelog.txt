@@ -2,11 +2,11 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-04-03 начата работа над адаптацией мода Rimsenal Federation Faction, тег "RimsenalFederationFaction_". Проанализирован перевод от kr33man, для дальнейшего перевода нужны испытания в игре.
+2021-04-04 добавлена адаптация для мода Rimsenal Federation Faction и перевода от kr33man, заодно исправлена часть их ошибок, см.каменты в коде. Для дальнейшего перевода нужны испытания в игре.
+Скомпилирована версия 12+мода 0.5.7beta.
+Пока не удалось разделить переводы для 19 адаптированных модов, поэтому соответствующие файлы помечены текстом "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "RimOfMadnessBones_", "RimsenalFederationFaction_", "Royalty_", "UtilityColumns_", "VEcooking_", "VEframework_", "VEfurnitureProduction_", "VEfurnitureSecurity_", "VEstews_", "VEfactionInsectoids_", "VGPgardenTools_" в именах файлов, для возможности поиска (здесь теги в алфавитном порядке). В случае отделения их в виде мода, нужно будет загружать после ядра "12+".
 
 2021-04-02 добавлена адаптация для мода Vanilla Expanded Furniture Production и его русификатора, заодно исправлены ошибки, см.каменты в коде.
-Скомпилирована версия 12+мода 0.5.6beta.
-Пока не удалось разделить переводы для 18 адаптированных модов, поэтому соответствующие файлы помечены текстом "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "RimOfMadnessBones_", "Royalty_", "UtilityColumns_", "VEcooking_", "VEframework_", "VEfurnitureProduction_", "VEfurnitureSecurity_", "VEstews_", "VEfactionInsectoids_", "VGPgardenTools_" в именах файлов, для возможности поиска (здесь теги в алфавитном порядке). В случае отделения их в виде мода, нужно будет загружать после ядра "12+".
 
 2021-04-01 добавлена адаптация для мода Vanilla Expanded Furniture Security и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 
@@ -91,11 +91,11 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-apr-03 rimsenal.federation mod adaptation work started. Tag "RimsenalFederationFaction_". Russian translation from kr33man analyzed. For further translation, game test needed.
+2021-apr-04 rimsenal.federation mod adaptation added, with Russian translation from kr33man. Also corrected their errors, see code comments. For further translation, game test needed.
+UncleShvya.12plus mod v.0.5.7beta compiled.
+There are some unsolved problems with cataloging, so the files were marked with tags (alphabetically) "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "RimOfMadnessBones_", "RimsenalFederationFaction_", "Royalty_", "UtilityColumns_", "VEcooking_", "VEframework_", "VEfurnitureProduction_", "VEfurnitureSecurity_", "VEstews_", "VEfactionInsectoids_", "VGPgardenTools_" in files' names. If these files will be compiled as separate mods, they should be loaded after "12plus.core"
 
 2021-apr-02 VanillaExpanded.VFEProduction and Inoshishi3.VanillaExpanded.VFEProductionRusPatch mods' adaptation added. Also corrected errors, see code comments.
-UncleShvya.12plus mod v.0.5.6beta compiled.
-There are some unsolved problems with cataloging, so the files were marked with tags (alphabetically) "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "RimOfMadnessBones_", "Royalty_", "UtilityColumns_", "VEcooking_", "VEframework_", "VEfurnitureProduction_", "VEfurnitureSecurity_", "VEstews_", "VEfactionInsectoids_", "VGPgardenTools_" in files' names. If these files will be compiled as separate mods, they should be loaded after "12plus.core"
 
 2021-apr-01 VanillaExpanded.VFESecurity and Am.Rus.VFESecurity mods' adaptation added. Also corrected their errors, see code comments.
 
