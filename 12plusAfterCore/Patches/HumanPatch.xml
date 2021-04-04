@@ -51,6 +51,12 @@
 					<li>WitnessedDeathBloodlust</li>
 				</value>
 			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Human"]/race</xpath>
+				<value>
+					<meatColor>(125,125,0)</meatColor>
+				</value>
+			</li>
 		</operations>
 	</Operation>
 </Patch>
