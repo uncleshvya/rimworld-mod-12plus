@@ -17,7 +17,7 @@
 Родители! Теперь вам нет необходимости отвечать на неудобные вопросы детей, наблюдающих за игрой.
 Дети! С этим модом вы сможете играть в Римворлд при родителях, и спокойно разговаривать обо _всех_ особенностях своего поселения.
 
-Текущая версия 12plus мода: v0.5.6beta rev.2021.04.02.
+Текущая версия 12plus мода: v0.5.7beta rev.2021.04.04.
 
 =====
 
@@ -48,7 +48,7 @@ Humanoid Cats — dianawinters.OrassansLite
 - Если перевод категории «12+» не обновился, заново выберите русский язык в главном меню;
 - Если часто переходить по ссылкам в информации о людях, иногда выходит красная ошибка. Не обращайте внимания, это особенность движка мода;
 - Если колонисты вдруг перестали сами есть, скачайте другую версию мода Alien Races;
-- Во время адаптации был подправлен баланс некоторых модов, см.ченджлог. Кого такая правка не устраивает, просто удалите соответствующий файл «RimOfMadnessBones_Rebalance.xml», «VEfactionInsectoids_Rebalance.xml» или «VEcooking_VEstews_Rebalance.xml». Концепция и сейвы не пострадают.
+- Во время адаптации был подправлен баланс некоторых модов, см.ченджлог. Кого такая правка не устраивает, просто удалите соответствующий файл «RimOfMadnessBones_Rebalance.xml», «VEcooking_VEstews_Rebalance.xml» или «VEfactionInsectoids_Rebalance.xml». Концепция и сейвы не пострадают.
 
 =====
 
@@ -76,7 +76,7 @@ This simple xml mod turns off the most hardcore aspects in order to allow 12+ ag
 Parents! Now you shouldn't answer kids' ticklish questions during playing.
 Kids! Now you can play RimWorld in one room with parents, and to speak about _everything_ happens in your game. For now, only in Russian version.
 
-Current 12plus mod version 0.5.6beta rev.2021.04.02.
+Current 12plus mod version 0.5.7beta rev.2021.04.04.
 
 =====
 
@@ -107,7 +107,7 @@ Known issues:
 - if russian "12plus" translation didn't refresh automatically, re-choose russian language from main menu;
 - if you open pawn's information panel, and click links too much, it may cause a red error. Just ignore, it's a rare bug;
 - if your pawns do not eat, just download another version of erdelf.HumanoidAlienRaces mod;
-- some mods were rebalanced during adaptation, see changelog. If you don't like it, just delete "RimOfMadnessBones_Rebalance.xml", "VEfactionInsectoids_Rebalance.xml" or "VEcooking_VEstews_Rebalance.xml" file. Saves will be playable, concept — workable.
+- some mods were rebalanced during adaptation, see changelog. If you don't like it, just delete "RimOfMadnessBones_Rebalance.xml", "VEcooking_VEstews_Rebalance.xml" or "VEfactionInsectoids_Rebalance.xml" file. Saves will be playable, concept — workable.
 
 =====
 
@@ -159,6 +159,7 @@ Ideas to realize in next version:
 		<li>RU.VFE.Insectoid</li>
 		<li>VanillaExpanded.VFECore</li>
 		<li>Am.Rus.VFECore</li>
+		<li>rimsenal.federation</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
