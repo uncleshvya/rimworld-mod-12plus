@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
 	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
@@ -139,6 +139,18 @@
 	<!-- Оригиналы: оба без "ё" -->
 	<VFES_Turret_ChargeComplex.label>тяжёлая энергетическая пушка</VFES_Turret_ChargeComplex.label>
 	<VFES_Gun_ChargeComplex.label>тяжёлая энергетическая пушка</VFES_Gun_ChargeComplex.label>
+	<!-- в ванили было всего три энерго-оружия, а в этом моде помимо энерговинтовки добавляются ещё 2 вида энерговыстрела. Разделим их, чтобы не было путаницы. Для начала переименуем ваниль.
+	Оригинал: энергетический выстрел -->
+	<Bullet_ChargeRifle.label>винтовочный энергетический выстрел</Bullet_ChargeRifle.label>
+	<!-- Оригинал: энергетический выстрел -->
+	<VFES_Bullet_ChargeComplex.label>тяжёлый энергетический выстрел</VFES_Bullet_ChargeComplex.label>
+
+	<!-- эта турель стреляет винтовочными энерговыстрелами.
+	при переименовании не забыть VFES_Gun_ChargeTurret.verbs.Verb_Shoot выше в этом файле
+	Оригинал: энергетическая пушка -->
+	<VFES_Gun_ChargeTurret.label>стационарная энерговинтовка</VFES_Gun_ChargeTurret.label>
+	<!-- Оригинал: Энергетическая пушка, предназначенная... -->
+	<VFES_Gun_ChargeTurret.description>Энергетическая винтовка, предназначенная для установки на турель.</VFES_Gun_ChargeTurret.description>
 
 	<!-- Оригинал: Небольшая, в грудь... -->
 	<VFES_ShortWall.description>Небольшая, по грудь высотой, стена, через которую можно перелезть. Не может поддерживать крышу.</VFES_ShortWall.description>
