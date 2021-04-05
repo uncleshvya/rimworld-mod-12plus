@@ -50,16 +50,16 @@
 
 	<!-- Оригинал: Спринклер -->
 	<IrrigationSprinkler.label>спринклер</IrrigationSprinkler.label>
-	<!-- Оригинал: ...объемов... -->
-	<IrrigationSprinkler.description>Поливает окружающую зону каждое утро увеличивая плодородность почву в течение дня. Требует больших объёмов воды для орошения.</IrrigationSprinkler.description>
+	<!-- Оригинал: ...утро увеличивая плодородность почву в течение...объемов... -->
+	<IrrigationSprinkler.description>Поливает окружающую зону каждое утро, увеличивая плодородность почвы в течение дня. Требует больших объёмов воды для орошения.</IrrigationSprinkler.description>
 	<!-- Оригинал: Спринклер -->
 	<IrrigationSprinkler_Blueprint.label>спринклер</IrrigationSprinkler_Blueprint.label>
 	<!-- Оригинал: Спринклер... -->
 	<IrrigationSprinkler_Blueprint_Install.label>спринклер (проект)</IrrigationSprinkler_Blueprint_Install.label>
 	<!-- Оригинал: Спринклер... -->
 	<IrrigationSprinkler_Frame.label>спринклер (в процессе сборки)</IrrigationSprinkler_Frame.label>
-	<!-- Оригинал: ...объемов... -->
-	<IrrigationSprinkler_Frame.description>Поливает окружающую зону каждое утро увеличивая плодородность почву в течение дня. Требует больших объёмов воды для орошения.</IrrigationSprinkler_Frame.description>
+	<!-- Оригинал: ...утро увеличивая плодородность почву в течение...объемов... -->
+	<IrrigationSprinkler_Frame.description>Поливает окружающую зону каждое утро, увеличивая плодородность почвы в течение дня. Требует больших объёмов воды для орошения.</IrrigationSprinkler_Frame.description>
 
 	<!-- Оригинал: Пожарный... -->
 	<FireSprinkler.label>пожарный спринклер</FireSprinkler.label>
