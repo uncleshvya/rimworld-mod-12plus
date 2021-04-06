@@ -2,6 +2,8 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
+2021-04-06 начата работа над адаптацией мода Vanilla Expanded Weapons (основной) с дополнениями Laser и Quickdraw. В планах адаптировать весь перевод Am.Rus.VWE, включающий дополнения Grenades, Heavy Weapons, Makeshift, Laser, Coilguns. И на всякий случай адаптировать перевод RU.VanillaExpanded.VWE. Тег "VEweapons_".
+
 2021-04-05 добавлена адаптация для мода Vanilla Expanded Furniture Farming и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 Скомпилирована версия 12+мода 0.5.8beta.
 Пока не удалось разделить переводы для 20 адаптированных модов, поэтому соответствующие файлы помечены текстом "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "RimOfMadnessBones_", "RimsenalFederationFaction_", "Royalty_", "UtilityColumns_", "VEcooking_", "VEframework_", "VEfurnitureProduction_", "VEfurnitureFarming_", "VEfurnitureSecurity_", "VEstews_", "VEfactionInsectoids_", "VGPgardenTools_" в именах файлов, для возможности поиска (здесь теги в алфавитном порядке). В случае отделения их в виде мода, нужно будет загружать после ядра "12+".
@@ -92,6 +94,8 @@ For English, scroll down.
 =====
 
 Changelog for Rimworld's 12plus modification.
+
+2021-apr-06 VanillaExpanded.VWE mod adaptation started. Work will include add-ons VanillaExpanded.VWEQ, VanillaExpanded.VWEL, VanillaExpanded.VWEG, VanillaExpanded.VWEHW, VanillaExpanded.VWEC, VanillaExpanded.VWEMS and translations Am.Rus.VWE, RU.VanillaExpanded.VWE. Tag "VEweapons_".
 
 2021-apr-05 VanillaExpanded.VFEFarming and inoshishi3.vanillaexpanded.vfefarmingruspatch mods' adaptation added. Also corrected their errors, see code comments.
 UncleShvya.12plus mod v.0.5.8beta compiled.
