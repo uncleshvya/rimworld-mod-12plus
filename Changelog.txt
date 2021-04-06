@@ -2,7 +2,8 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-04-06 начата работа над адаптацией мода Vanilla Expanded Weapons (основной) с дополнениями Laser и Quickdraw. В планах адаптировать весь перевод Am.Rus.VWE, включающий дополнения Grenades, Heavy Weapons, Makeshift, Laser, Coilguns. И на всякий случай адаптировать перевод RU.VanillaExpanded.VWE. Тег "VEweapons_".
+2021-04-06 начата работа над адаптацией мода Vanilla Expanded Weapons (основной) с дополнениями Laser и Quickdraw. В планах адаптировать весь перевод Am.Rus.VWE, включающий дополнения Grenades, Heavy Weapons, Makeshift, Laser, Coilguns. И на всякий случай адаптировать перевод RU.VanillaExpanded.VWE.
+Тег "VEweapons_".
 
 2021-04-05 добавлена адаптация для мода Vanilla Expanded Furniture Farming и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 Скомпилирована версия 12+мода 0.5.8beta.
