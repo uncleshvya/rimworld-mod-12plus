@@ -33,7 +33,7 @@ For English, scroll down.
 - рагу можно варить и на электрической плите;
 - сырые рагу и супы сделаны съедобным, но невкусными;
 - чугунная плита сохраняет тепло 3 часа вместо 1;
-- убраны лишние категории сыра до введения новых типов молока. Кто уже их реально использует, посмотрите папку Patches либо напишите нам;
+- убраны дублирующие категории блюд;
 - фактически, после адаптации мод VCE и аддон VCES слились.
 
 2021-03-09 добавлена адаптация для мода Vanilla Expanded Framework и русификатора, заодно исправлены их ошибки, см.каменты в коде.
@@ -126,7 +126,7 @@ There are some unsolved problems with cataloging, so the files were marked with 
 - Stews now can boil on electric pot too;
 - Raw soups and stews are now edible, but have awful taste;
 - Massive stewpot now cools down 3 hours instead of 1;
-- Cheese categories removed. If anybody already uses different cheese types, see Patches folder, or tell us;
+- Removed double categories of meals;
 - In fact, VEC mod and VES addon were merged.
 
 2021-mar-09 oskarpotocki.vanillafactionsexpanded.core and Inoshishi3.VanillaFactionsExpanded.CoreRusPatch mods' adaptation added. Also corrected their errors, see code comments.
