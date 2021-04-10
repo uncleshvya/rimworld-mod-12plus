@@ -17,7 +17,7 @@ For English, scroll down.
 
 2021-03-26 добавлена адаптация для мода RimFridge.
 
-2021-03-21 добавлена адаптация для мода Vanilla Expanded Faction Insectoids и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
+2021-03-21 добавлена адаптация для мода Vanilla Expanded Faction Insectoids и его русификатора, заодно исправлены их ошибки, см.каменты в коде. Пропатчен плазменный меч из роялти, чтобы огнеплазменное оружие было унифицировано. Теперь меч тоже светится в темноте.
 
 2021-03-18 добавлена адаптация для мода Rim of Madness Bones и русская локализация. Пришлось подправить кривоватый баланс:
 - убраны кости из механоидов (код устарел);
@@ -110,7 +110,7 @@ There are some unsolved problems with cataloging, so the files were marked with 
 
 2021-mar-26 rimfridge.kv.rw mod adaptation added.
 
-2021-mar-21 OskarPotocki.VFE.Insectoid and RU.VFE.Insectoid mods' adaptation added. Also corrected their errors, see code comments.
+2021-mar-21 OskarPotocki.VFE.Insectoid and RU.VFE.Insectoid mods' adaptation added. Also corrected their errors, see code comments. Plasma sword from DLC Royalty was patched in order to unify igniting plasma weapons. Now the sword glows in the dark.
 
 2021-mar-18 sihv.rombones mod adaptation added and also Russian translation. Had to change balance, it was awful:
 - removed bones from mechanoids (obsolete code);
