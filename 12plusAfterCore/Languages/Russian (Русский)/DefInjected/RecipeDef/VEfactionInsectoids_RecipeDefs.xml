@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- исправлена неточность, сообщите разработчику, что при описании работ не нужны точки и заглавные буквы -->
+	<!-- исправлена неточность, сообщите разработчику -->
 
 	<!-- Оригиналы: все начинаются с заглавной буквы и с точкой в конце -->
 	<VFEI_InstallDroneGenome.jobString>вводит геном трутня</VFEI_InstallDroneGenome.jobString>
@@ -19,4 +19,5 @@
 	<VFEI_InstallPheromoneSecretor.jobString>устанавливает феромоновую железу</VFEI_InstallPheromoneSecretor.jobString>
 	<VFEI_InstallVentricularSleeve.jobString>устанавливает желудочковый рукав</VFEI_InstallVentricularSleeve.jobString>
 	<VFEI_InstallSynapticCerebellum.jobString>устанавливает синаптический мозжечок</VFEI_InstallSynapticCerebellum.jobString>
+
 </LanguageData>
