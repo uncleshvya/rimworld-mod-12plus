@@ -8,14 +8,14 @@
 	<!-- EN: Make biosolids fertilizer from fecal sludge and soil. -->
 	<MakeBiosolidFertilizerHand.description>Сделать удобрение из фекалий и почвы. Это быстрый рецепт, но часто небезопасный, так как для уничтожения болезнетворных микробов и яиц глистов, фекалии следует переработать в навозном баке.</MakeBiosolidFertilizerHand.description>
 	<!-- EN: Making fertilizer. -->
-	<MakeBiosolidFertilizerHand.jobString>Делает перегной.</MakeBiosolidFertilizerHand.jobString>
+	<MakeBiosolidFertilizerHand.jobString>делает перегной</MakeBiosolidFertilizerHand.jobString>
 
 	<!-- EN: make fertilizer from fecal sludge -->
 	<MakeGardenFertilizerHand.label>сделать удобрение из фекалий</MakeGardenFertilizerHand.label>
 	<!-- EN: Make garden fertilizer from fecal sludge and soil. -->
 	<MakeGardenFertilizerHand.description>Сделать удобрение из фекалий и почвы. Это быстрый рецепт, но часто небезопасный, так как для уничтожения болезнетворных микробов и яиц глистов, фекалии следует переработать в навозном баке.</MakeGardenFertilizerHand.description>
 	<!-- EN: Making fertilizer. -->
-	<MakeGardenFertilizerHand.jobString>Делает удобрение.</MakeGardenFertilizerHand.jobString>
+	<MakeGardenFertilizerHand.jobString>делает удобрение</MakeGardenFertilizerHand.jobString>
 
 	<!-- исправлена неточность, сообщите разработчику -->
 
@@ -25,8 +25,8 @@
 	<!-- Оригинал: Сделать удобрение -->
 	<MakeFertilizer.label>Сделать удобрение из органики</MakeFertilizer.label>
 
-	<!-- Оригинал: ...компостнуя... -->
-	<MakeBulkCompostStarter.jobString>Делает компостную заготовку</MakeBulkCompostStarter.jobString>
+	<!-- Оригинал: Делает компостнуя заготовку -->
+	<MakeBulkCompostStarter.jobString>делает компостную заготовку</MakeBulkCompostStarter.jobString>
 
 	<!-- исправление согласно концепции «12+» -->
 
