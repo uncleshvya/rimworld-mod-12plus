@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- использование программного кода, предоставленного jecrell. Копия лицензии - в файле JecsTools_licenseMIT.txt  -->
+
+	<!-- MIT
+	Copyright (c) 2017 jecrell
+	-->
+
+	<Operation MayRequire="jecrell.jecstools" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<!-- исправлен баланс, сообщите разработчику, что плазменный меч из DLC Royalty должен светиться во время ночных схваток. Идея взята из мода OskarPotocki.VFE.Insectoid -->
+
+			<li MayRequire="Ludeon.RimWorld.Royalty" Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "MeleeWeapon_PlasmaSword"]/graphicData</xpath>
+				<value>
+					<shaderType>TransparentPostLight</shaderType>
+				</value>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty" Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "MeleeWeapon_PlasmaSword"]</xpath>
+				<value>
+					<comps>
+						<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+							<groundGraphic>
+								<texPath>Things/Item/Equipment/WeaponMelee/PlasmaSword</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+							</groundGraphic>
+						</li>
+					</comps>
+				</value>
+			</li>
+
+			<!-- исправлен баланс, сообщите разработчику, что выключенное огнеплазменное оружие не должно светиться во тьме -->
+
+			<!-- резак -->
+			<li MayRequire="OskarPotocki.VFE.Insectoid" Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "VFE_Gun_Plasmacutter"]/comps</xpath>
+				<value>
+					<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+						<groundGraphic>
+							<texPath>Things/Item/Weapons/Plasmacutter</texPath>
+							<graphicClass>Graphic_Single</graphicClass>
+						</groundGraphic>
+					</li>
+				</value>
+			</li>
+
+			<!-- винтовка -->
+			<li MayRequire="OskarPotocki.VFE.Insectoid" Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "VFE_Gun_Plasmapiercer"]/comps</xpath>
+				<value>
+					<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+						<groundGraphic>
+							<texPath>Things/Item/Weapons/Plasmapiercer</texPath>
+							<graphicClass>Graphic_Single</graphicClass>
+						</groundGraphic>
+					</li>
+				</value>
+			</li>
+
+			<!-- пулемёт -->
+			<li MayRequire="OskarPotocki.VFE.Insectoid" Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "VFE_Gun_PlasmabeamRifle"]/comps</xpath>
+				<value>
+					<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+						<groundGraphic>
+							<texPath>Things/Item/Weapons/PlasmabeamRifle</texPath>
+							<graphicClass>Graphic_Single</graphicClass>
+						</groundGraphic>
+					</li>
+				</value>
+			</li>
+
+			<!-- дробовик -->
+			<li MayRequire="OskarPotocki.VFE.Insectoid" Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "VFE_Gun_PlasmaScattergun"]/comps</xpath>
+				<value>
+					<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+						<groundGraphic>
+							<texPath>Things/Item/Weapons/PlasmaScattergun</texPath>
+							<graphicClass>Graphic_Single</graphicClass>
+						</groundGraphic>
+					</li>
+				</value>
+			</li>
+
+			<!-- пила -->
+			<li MayRequire="OskarPotocki.VFE.Insectoid" Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "VFE_Plasmasaw"]</xpath>
+				<value>
+					<comps>
+						<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+							<groundGraphic>
+								<texPath>Things/Item/Weapons/Plasmasaw</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+							</groundGraphic>
+						</li>
+					</comps>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+
+	<Operation MayRequire="OskarPotocki.VFE.Insectoid" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<!-- исправлен баланс, сообщите разработчику, что лишние категории засоряют список -->
+
+			<!-- для сыра инсектоидов, он ведь есть в рецептах, пришлось подшаманить: -->
+			<li Class="PatchOperationAttributeSet">
+				<xpath>Defs/ThingDef[defName = "VCE_InsectCheese"]</xpath>
+				<attribute>ParentName</attribute>
+				<value>OrganicProductBase</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "VCE_InsectCheese"]/ingestible/preferability</xpath>
+				<value>
+					<preferability>DesperateOnly</preferability>
+					<foodType>Processed</foodType>
+				</value>
+			</li>
+
+			<!-- исправлен баланс, сообщите разработчику, что и у ванильных инсектоидов должен быть хитин -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+				defName = "Megascarab" or
+				defName = "Spelopede" or
+				defName = "Megaspider"
+				]</xpath>
+				<value>
+					<butcherProducts>
+						<VFEI_Chitin>7</VFEI_Chitin>
+					</butcherProducts>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>
