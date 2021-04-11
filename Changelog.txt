@@ -4,7 +4,28 @@ For English, scroll down.
 
 2021-04-11 добавлена адаптация для мода Vanilla Expanded Weapons с дополнениями Laser, Quickdraw и их переводом Am.Rus.VWE. На всякий случай адаптирован перевод RU.VanillaExpanded.VWE.
 Скомпилирована версия 12+мода 0.5.9beta.
-Пока не удалось разделить переводы для 21 адаптированного мода, поэтому соответствующие файлы помечены текстом "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "RimOfMadnessBones_", "RimsenalFederationFaction_", "Royalty_", "UtilityColumns_", "VEcooking_", "VEframework_", "VEfurnitureProduction_", "VEfurnitureFarming_", "VEfurnitureSecurity_", "VEstews_", "VEfactionInsectoids_", "VEweapons_", "VGPgardenTools_" в именах файлов, для возможности поиска (здесь теги в алфавитном порядке). В случае отделения их в виде мода, нужно будет загружать после ядра "12+".
+Пока не удалось разделить переводы для 21 адаптированного мода, поэтому соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
+"AllowTool_";
+"BeesNhoney_";
+"ConcreteWalls_";
+"DubsBadHygiene_";
+"HumanoidAlienRaces_";
+"MiscTraining_";
+"Numbers_";
+"OrassansLite_";
+"RimOfMadnessBones_";
+"RimsenalFederationFaction_";
+"Royalty_";
+"UtilityColumns_";
+"VEcooking_";
+"VEframework_";
+"VEfurnitureProduction_";
+"VEfurnitureFarming_";
+"VEfurnitureSecurity_";
+"VEstews_";
+"VEfactionInsectoids_";
+"VEweapons_";
+"VGPgardenTools_".
 
 2021-04-10 добавлена адаптация для мода Vanilla Expanded Faction Insectoids и его русификатора, заодно исправлены их ошибки, см.каменты в коде. Сделаны косметические исправления методом подключения зависимости от мода JecsTools (c) 2017 jecrell:
 - убрана дублирующая категория сыров;
@@ -94,18 +115,37 @@ For English, scroll down.
 
 2019-11-06 придумана основная концепция. Спасибо игроку Roma за вдохновение.
 
-=====
-
 Changelog for Rimworld's 12plus modification.
 
 2021-apr-11 VanillaExpanded.VWE mod adaptation added, with add-ons VanillaExpanded.VWEQ, VanillaExpanded.VWEL and translations Am.Rus.VWE (basic), RU.VanillaExpanded.VWE (alternative, less accuracy). Also corrected their errors, see code comments.
 UncleShvya.12plus mod v.0.5.9beta compiled.
-There are some unsolved problems with cataloging, so the files were marked with tags (alphabetically) "AllowTool_", "BeesNhoney_", "ConcreteWalls_", "DubsBadHygiene_", "HumanoidAlienRaces_", "MiscTraining_", "Numbers_", "OrassansLite_", "RimOfMadnessBones_", "RimsenalFederationFaction_", "Royalty_", "UtilityColumns_", "VEcooking_", "VEframework_", "VEfurnitureProduction_", "VEfurnitureFarming_", "VEfurnitureSecurity_", "VEstews_", "VEfactionInsectoids_", "VEweapons_", "VGPgardenTools_" in files' names. If these files will be compiled as separate mods, they should be loaded after "12plus.core"
+There are some unsolved problems with cataloging, so the files were marked with tags in their names (alphabetically):
+"AllowTool_";
+"BeesNhoney_";
+"ConcreteWalls_";
+"DubsBadHygiene_";
+"HumanoidAlienRaces_";
+"MiscTraining_";
+"Numbers_";
+"OrassansLite_";
+"RimOfMadnessBones_";
+"RimsenalFederationFaction_";
+"Royalty_";
+"UtilityColumns_";
+"VEcooking_";
+"VEframework_";
+"VEfurnitureProduction_";
+"VEfurnitureFarming_";
+"VEfurnitureSecurity_";
+"VEstews_";
+"VEfactionInsectoids_";
+"VEweapons_";
+"VGPgardenTools_".
 
 2021-apr-10 OskarPotocki.VFE.Insectoid and RU.VFE.Insectoid mods' adaptation added. Also corrected their errors, see code comments. Made some cosmetic fixes via adding jecrell.jecstools mod dependence (c) 2017 jecrell:
 - removed double category of cheese;
 - igniting plasma weapons now glow in the dark when armed, and go out when dropped and forgotten;
-- Royalty's plasma sword also patched in order to unify this relative technology;
+- Royalty's plasma sword also patched in order to unify this relative technologies;
 
 2021-apr-05 VanillaExpanded.VFEFarming and inoshishi3.vanillaexpanded.vfefarmingruspatch mods' adaptation added. Also corrected their errors, see code comments.
 
