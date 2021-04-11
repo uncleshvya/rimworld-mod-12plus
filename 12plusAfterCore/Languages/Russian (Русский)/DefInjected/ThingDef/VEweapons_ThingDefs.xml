@@ -178,9 +178,9 @@
 	<!-- хорошо бы убрать путаницу с ванильным.
 	Оригинал: огнемет -->
 	<VWE_Gun_Flamethrower.label>струйный огнемёт</VWE_Gun_Flamethrower.label>
-	<!-- это уже горящая порция огнесмеси, а не запас топлива.
+	<!-- это уже горящая порция огнесмеси, а не запас топлива. Скорректировано относительно турели из мода "Am.Rus.VFESecurity".
 	Оригинал: горючее огнемета -->
-	<VWE_Bullet_Flamethrower.label>горящая огнесмесь</VWE_Bullet_Flamethrower.label>
+	<VWE_Bullet_Flamethrower.label>выстрел из струйного огнемёта</VWE_Bullet_Flamethrower.label>
 	<!-- а в квартире он бесполезен?
 	Оригинал: ...пожара, встречающегося в полевых условиях. -->
 	<VWE_Gun_FireExtinguisher.description>Заполненный универсальной пламегасящей смесью, этот предмет может быть использован для тушения любого вида пожара.</VWE_Gun_FireExtinguisher.description>
