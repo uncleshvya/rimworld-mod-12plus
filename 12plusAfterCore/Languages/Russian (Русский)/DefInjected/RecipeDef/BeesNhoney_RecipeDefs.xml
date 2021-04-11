@@ -8,7 +8,7 @@
 	<!-- Оригинал: Вырастить королеву для создания нового улья -->
 	<GrowNewQueenBee.description>Вырастить пчелиную матку для создания нового улья.</GrowNewQueenBee.description>
 	<!-- Оригинал: Выращивание новой королевы -->
-	<GrowNewQueenBee.jobString>Выращивает новую пчелиную матку.</GrowNewQueenBee.jobString>
+	<GrowNewQueenBee.jobString>выращивает новую пчелиную матку</GrowNewQueenBee.jobString>
 
 	<!-- исправление согласно концепции «12+» -->
 
@@ -17,6 +17,6 @@
 	<!-- Оригинал: Сделать медовуху из мёда. -->
 	<MakeMead.description>Приготовить напиток из мёда.</MakeMead.description>
 	<!-- Оригинал: Создание медовухи. -->
-	<MakeMead.jobString>Готовит медовый напиток.</MakeMead.jobString>
+	<MakeMead.jobString>готовит медовый напиток</MakeMead.jobString>
 
 </LanguageData>
