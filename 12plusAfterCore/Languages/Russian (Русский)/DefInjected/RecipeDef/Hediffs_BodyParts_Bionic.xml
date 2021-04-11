@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- исправление согласно концепции «12+» -->
 
-  <!-- EN: install death acidifier -->
-  <InstallDeathAcidifier.label>вживить растворитель снаряжения</InstallDeathAcidifier.label>
-  <!-- EN: Install a death acidifier. -->
-  <InstallDeathAcidifier.description>Вживить растворитель снаряжения.</InstallDeathAcidifier.description>
-  <!-- EN: Installing death acidifier. -->
-  <InstallDeathAcidifier.jobString>Вживляет растворитель снаряжения</InstallDeathAcidifier.jobString>
+	<!-- Оригинал: вживить посмертный растворитель -->
+	<InstallDeathAcidifier.label>вживить растворитель снаряжения</InstallDeathAcidifier.label>
+	<!-- Оригинал: Вживить посмертный растворитель. -->
+	<InstallDeathAcidifier.description>Вживить растворитель снаряжения.</InstallDeathAcidifier.description>
+	<!-- Оригинал: Вживляет посмертный растворитель -->
+	<InstallDeathAcidifier.jobString>вживляет растворитель снаряжения</InstallDeathAcidifier.jobString>
 
 </LanguageData>
