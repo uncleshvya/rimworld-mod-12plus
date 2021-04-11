@@ -118,8 +118,10 @@
 	<VFES_Turret_Flame.comps.CompRefuelable.outOfFuelMessage>Стрельба невозможна: закончилось огнемётное топливо</VFES_Turret_Flame.comps.CompRefuelable.outOfFuelMessage>
 	<VFES_Gun_FlameTurret.label>огнемётная установка</VFES_Gun_FlameTurret.label>
 	<VFES_Gun_FlameTurret.description>Огнемётная установка, предназначенная для установки на турель.</VFES_Gun_FlameTurret.description>
-	<VFES_Bullet_FlameTurret.label>огнемётное топливо</VFES_Bullet_FlameTurret.label>
 	<VFES_Gun_SentryTurret.label>пулемёт Гатлинга</VFES_Gun_SentryTurret.label>
+	<!-- огнесмесь уже горит.
+	Оригинал: огнеметное топливо -->
+	<VFES_Bullet_FlameTurret.label>выстрел из огнемётной турели</VFES_Bullet_FlameTurret.label>
 
 	<!-- некорректное описание. Часть взято из ванили.
 	Оригинал: Стальные "челюсти", развернутые под напряжением и связанные со спусковым крючком. Когда жертва наступает на него, то челюсти смыкаются и ударяют жертву по ногами или ступням. Капкан...небольших и легких существ, а слишком большие существа просто раздавят его. Капкан нельзя поставить рядом с другими ловушками, т.к. он спрятан в окружающем ландшафте -->
@@ -139,11 +141,12 @@
 	<!-- Оригиналы: оба без "ё" -->
 	<VFES_Turret_ChargeComplex.label>тяжёлая энергетическая пушка</VFES_Turret_ChargeComplex.label>
 	<VFES_Gun_ChargeComplex.label>тяжёлая энергетическая пушка</VFES_Gun_ChargeComplex.label>
-	<!-- в ванили было всего три энерго-оружия, а в этом моде помимо энерговинтовки добавляются ещё 2 вида энерговыстрела. Разделим их, чтобы не было путаницы. Для начала переименуем ваниль.
+	<!-- в ванили было всего 3 вида энергетических пуль (пушка из роялти юзает старую), а в этом моде добавляются ещё 1 вид. Разделим их все, чтобы не было путаницы. Для начала переименуем ваниль.
 	Оригинал: энергетический выстрел -->
-	<Bullet_ChargeRifle.label>винтовочный энергетический выстрел</Bullet_ChargeRifle.label>
-	<!-- Оригинал: энергетический выстрел -->
-	<VFES_Bullet_ChargeComplex.label>тяжёлый энергетический выстрел</VFES_Bullet_ChargeComplex.label>
+	<Bullet_ChargeRifle.label>выстрел из энерговинтовки</Bullet_ChargeRifle.label>
+	<!-- а этот для новой турели.
+	Оригинал: энергетический выстрел -->
+	<VFES_Bullet_ChargeComplex.label>выстрел из тяжёлой энергопушки</VFES_Bullet_ChargeComplex.label>
 
 	<!-- эта турель стреляет винтовочными энерговыстрелами.
 	при переименовании не забыть VFES_Gun_ChargeTurret.verbs.Verb_Shoot выше в этом файле
