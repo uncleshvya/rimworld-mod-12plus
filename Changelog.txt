@@ -23,11 +23,11 @@ For English, scroll down.
 "VEfurnitureFarming_";
 "VEfurnitureSecurity_";
 "VEstews_";
-"VEfactionInsectoids_";
+"VEfactionsInsectoids_";
 "VEweapons_";
 "VGPgardenTools_".
 
-2021-04-10 добавлена адаптация для мода Vanilla Expanded Faction Insectoids и его русификатора, заодно исправлены их ошибки, см.каменты в коде. Сделаны косметические исправления методом подключения зависимости от мода JecsTools (c) 2017 jecrell:
+2021-04-10 добавлена адаптация для мода Vanilla Expanded Factions Insectoids и его русификатора, заодно исправлены их ошибки, см.каменты в коде. Сделаны косметические исправления методом подключения зависимости от мода JecsTools (c) 2017 jecrell:
 - убрана дублирующая категория сыров;
 - огнеплазменное оружие теперь при включении светится в темноте, при отключении — потухает со временем;
 - по аналогии пропатчен плазменный меч из Royalty.
@@ -138,7 +138,7 @@ There are some unsolved problems with cataloging, so the files were marked with 
 "VEfurnitureFarming_";
 "VEfurnitureSecurity_";
 "VEstews_";
-"VEfactionInsectoids_";
+"VEfactionsInsectoids_";
 "VEweapons_";
 "VGPgardenTools_".
 
