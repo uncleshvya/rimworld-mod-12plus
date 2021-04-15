@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- добавлена русская локализация, сообщите разработчику -->
+	<!-- Добавлена русская локализация, сообщите разработчику -->
 
 	<!-- EN: make cat's eye berry juice (5) -->
-	<MakeCatJuice5.label>сделать сок кошачьей ягоды (5 бутылок)</MakeCatJuice5.label>
+	<MakeCatJuice5.label>сделать сок кошачьей ягоды</MakeCatJuice5.label>
 	<!-- EN: Make juice from cat's eye berries. -->
 	<MakeCatJuice5.description>Отжать сок из ягоды «кошачий глаз».</MakeCatJuice5.description>
 	<!-- EN: Making berry juice. -->
 	<MakeCatJuice5.jobString>делает ягодный сок</MakeCatJuice5.jobString>
-	<!-- EN: make bulk cat's eye berry juice (25) -->
-	<MakeCatJuice25.label>сделать много сока кошачьей ягоды (25 бутылок)</MakeCatJuice25.label>
-	<!-- EN: Make juice from cat s eye berries. -->
-	<MakeCatJuice25.description>Отжать сок из ягоды «кошачий глаз».</MakeCatJuice25.description>
-	<!-- EN: Making berry juice. -->
-	<MakeCatJuice25.jobString>делает ягодный сок</MakeCatJuice25.jobString>
 
 	<!-- EN: install tail -->
 	<InstallOrassanTail.label>пересадка хвоста</InstallOrassanTail.label>
