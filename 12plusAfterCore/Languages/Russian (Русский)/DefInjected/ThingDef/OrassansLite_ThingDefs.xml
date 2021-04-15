@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+» -->
 
 	<!-- EN: cat's eye berry juice -->
 	<Catberryjuice.label>сок ягоды «кошачий глаз»</Catberryjuice.label>
@@ -15,7 +15,7 @@
 	<PlantCatnip.label>кошачья мята</PlantCatnip.label>
 	<!-- EN: A leafy plant cultivated for its psychological effects. Catnip leaves can be rolled into joints at a crafting spot. Can withstand even the harshest cold weather. -->
 	<PlantCatnip.description>Растение родом с ледяной планеты Орассия. Как и земной аналог, имеет сильный своеобразный «лимонный» запах, так любимый кошками. Листья применяются в производстве кондитерских изделий. Кошачья мята орассан приспособилась к вечной зиме родной планеты и может расти даже на лютом морозе.</PlantCatnip.description>
-		<!-- EN: cat's eye plant -->
+	<!-- EN: cat's eye plant -->
 	<PlantCateye.label>куст ягод «кошачий глаз»</PlantCateye.label>
 	<!-- EN: A bush plant cultivated for its stimulating berries. Cat s eye berries can be brewed into a drink analagous to coffee... except it tastes much better. Can withstand even the harshest cold weather. -->
 	<PlantCateye.description>Кустистое растение родом с ледяной планеты Орассия, выращиваемое ради вкусных ягод. Название произошло из-за окраски зрелого плода, ярко-синей ягоды с продольной чёрной полоской, похожего на глаз кошки при свете дня. Растение приспособилось к вечной зиме родной планеты и может расти даже на лютом морозе.</PlantCateye.description>
@@ -26,7 +26,7 @@
 	<!-- EN: A hybrid with DNA from a human and an orassan. Typically created through careful genetic engineering in a lab, or the "natural" way from individuals with closely regulated gene mods, these hybrids combine some of the best traits from their parent species. The particular traits and physical characteristics that are being inherited are typically chosen by the parents having the child, but they almost always have two feline ears and a feline tail, both with fur sharing the same color as the hair on their head. -->
 	<Alien_OrassanHumanHybrid.description>Гибрид, имеющий фрагменты ДНК людей и орассан. Обычно создаётся в лаборатории из одной клетки после тщательного генетического конструирования. Но бывает, что в нэко превращается взрослый человек или орассанин после комплексной генотерапии.\n\nТакие гибриды сочетают в себе лучшие стороны двух видов. Внешность нэко зависит от наследственности, но почти всегда у них есть два кошачьих уха и пушистый хвост.</Alien_OrassanHumanHybrid.description>
 
-	<!-- тела -->
+	<!-- Тела -->
 	<Corpse_Ori.label>тушка ори</Corpse_Ori.label>
 	<Corpse_Ori.description>Тушка ори.</Corpse_Ori.description>
 	<Corpse_Animal_Desiri.label>туша дезири</Corpse_Animal_Desiri.label>
@@ -34,12 +34,12 @@
 	<Corpse_Alien_Orassan.label>тело орассанина</Corpse_Alien_Orassan.label>
 	<Corpse_Alien_Orassan.description>Тело орассанина.</Corpse_Alien_Orassan.description>
 
-	<!-- добавлена русская локализация, сообщите разработчику -->
+	<!-- Добавлена русская локализация, сообщите разработчику -->
 
 	<!-- EN: Drink {0} -->
 	<Catberryjuice.ingestible.ingestCommandString>Выпить {0}</Catberryjuice.ingestible.ingestCommandString>
 	<!-- EN: Drinking {0}. -->
-	<Catberryjuice.ingestible.ingestReportString>Пьёт {0}.</Catberryjuice.ingestible.ingestReportString>
+	<Catberryjuice.ingestible.ingestReportString>пьёт {0}</Catberryjuice.ingestible.ingestReportString>
 	<!-- EN: bottle -->
 	<Catberryjuice.tools.bottle.label>бутылка</Catberryjuice.tools.bottle.label>
 	<!-- EN: neck -->
@@ -47,7 +47,7 @@
 	<!-- EN: Eat {0} -->
 	<CatnipJoint.ingestible.ingestCommandString>Съесть {0}</CatnipJoint.ingestible.ingestCommandString>
 	<!-- EN: Eating {0}. -->
-	<CatnipJoint.ingestible.ingestReportString>Ест {0}.</CatnipJoint.ingestible.ingestReportString>
+	<CatnipJoint.ingestible.ingestReportString>ест {0}</CatnipJoint.ingestible.ingestReportString>
 	<!-- EN: Blue Cat Lily -->
 	<Plant_CatLavender.label>кошачья лаванда</Plant_CatLavender.label>
 	<!-- EN: This fragile flowering plant was genetically engineered to produce a silk net that is both difficult to tear and soft to the touch. While the plant takes a very long time to grow, only exotic ultra-tech fabrics outperform its fibers. -->
@@ -72,10 +72,14 @@
 	<Leather_Ori.label>мех ори</Leather_Ori.label>
 	<!-- EN: A soft furry pelt harvested from an ori. It insulates moderately well. -->
 	<Leather_Ori.description>Очень мягкая и пушистая шкурка ори. Неплохо согревает.</Leather_Ori.description>
+	<!-- EN: ori fur -->
+	<Leather_Ori.stuffProps.stuffAdjective>меха ори</Leather_Ori.stuffProps.stuffAdjective>
 	<!-- EN: desiri fur -->
 	<Leather_Desiri.label>мех дезири</Leather_Desiri.label>
 	<!-- EN: A soft furry pelt harvested from a desiri. It insulates moderately well. -->
 	<Leather_Desiri.description>Очень мягкая и пушистая шкура дезири. Хорошо согревает.</Leather_Desiri.description>
+	<!-- EN: desiri fur -->
+	<Leather_Desiri.stuffProps.stuffAdjective>меха дезири</Leather_Desiri.stuffProps.stuffAdjective>
 	<!-- EN: orassan tail -->
 	<OTail.label>хвост орассан</OTail.label>
 	<!-- EN: An Orassan tail. -->
