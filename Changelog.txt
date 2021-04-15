@@ -2,11 +2,9 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-04-12 начата работа над адаптацией мода Vanilla Expanded Factions Medieval. Тег "VEfactionsMedieval_".
-
-2021-04-11 добавлена адаптация для мода Vanilla Expanded Weapons с дополнениями Laser, Quickdraw и их переводом Am.Rus.VWE. На всякий случай адаптирован перевод RU.VanillaExpanded.VWE.
-Скомпилирована версия 12+мода 0.5.9beta.
-Пока не удалось разделить переводы для 21 адаптированного мода, поэтому соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
+2021-04-15 добавлена адаптация для мода Vanilla Expanded Factions Medieval и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
+Скомпилирована версия 12+мода 0.6.0beta.
+Пока не удалось разделить переводы для 22 адаптированных модов, поэтому соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowTool_";
 "BeesNhoney_";
 "ConcreteWalls_";
@@ -20,14 +18,17 @@ For English, scroll down.
 "Royalty_";
 "UtilityColumns_";
 "VEcooking_";
+"VEfactionsInsectoids_";
+"VEfactionsMedieval_";
 "VEframework_";
 "VEfurnitureProduction_";
 "VEfurnitureFarming_";
 "VEfurnitureSecurity_";
 "VEstews_";
-"VEfactionsInsectoids_";
 "VEweapons_";
 "VGPgardenTools_".
+
+2021-04-11 добавлена адаптация для мода Vanilla Expanded Weapons с дополнениями Laser, Quickdraw и их переводом Am.Rus.VWE. На всякий случай адаптирован перевод RU.VanillaExpanded.VWE.
 
 2021-04-10 добавлена адаптация для мода Vanilla Expanded Factions Insectoids и его русификатора, заодно исправлены их ошибки, см.каменты в коде. Сделаны косметические исправления методом подключения зависимости от мода JecsTools (c) 2017 jecrell:
 - убрана дублирующая категория сыров;
@@ -119,10 +120,8 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-apr-12 OskarPotocki.VanillaFactionsExpanded.MedievalModule and Inoshishi3.VanillaFactionsExpanded.MedievalModuleRusPatch mods' adaptation work started. Tag "VEfactionsMedieval_".
-
-2021-apr-11 VanillaExpanded.VWE mod adaptation added, with add-ons VanillaExpanded.VWEQ, VanillaExpanded.VWEL and translations Am.Rus.VWE (basic), RU.VanillaExpanded.VWE (alternative, less accuracy). Also corrected their errors, see code comments.
-UncleShvya.12plus mod v.0.5.9beta compiled.
+2021-apr-15 OskarPotocki.VanillaFactionsExpanded.MedievalModule and Inoshishi3.VanillaFactionsExpanded.MedievalModuleRusPatch mods' adaptation added. Also corrected their errors, see code comments.
+UncleShvya.12plus mod v.0.6.0beta compiled.
 There are some unsolved problems with cataloging, so the files were marked with tags in their names (alphabetically):
 "AllowTool_";
 "BeesNhoney_";
@@ -137,14 +136,17 @@ There are some unsolved problems with cataloging, so the files were marked with 
 "Royalty_";
 "UtilityColumns_";
 "VEcooking_";
+"VEfactionsInsectoids_";
+"VEfactionsMedieval_";
 "VEframework_";
 "VEfurnitureProduction_";
 "VEfurnitureFarming_";
 "VEfurnitureSecurity_";
 "VEstews_";
-"VEfactionsInsectoids_";
 "VEweapons_";
 "VGPgardenTools_".
+
+2021-apr-11 VanillaExpanded.VWE mod adaptation added, with add-ons VanillaExpanded.VWEQ, VanillaExpanded.VWEL and translations Am.Rus.VWE (basic), RU.VanillaExpanded.VWE (alternative, less accuracy). Also corrected their errors, see code comments.
 
 2021-apr-10 OskarPotocki.VFE.Insectoid and RU.VFE.Insectoid mods' adaptation added. Also corrected their errors, see code comments. Made some cosmetic fixes via adding jecrell.jecstools mod dependence (c) 2017 jecrell:
 - removed double category of cheese;
