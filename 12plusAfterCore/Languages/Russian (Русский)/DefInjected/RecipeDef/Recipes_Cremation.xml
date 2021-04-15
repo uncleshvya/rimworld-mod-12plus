@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+» -->
 
 	<!-- Оригинал: сжечь труп -->
 	<CremateCorpse.label>сжечь тело</CremateCorpse.label>
