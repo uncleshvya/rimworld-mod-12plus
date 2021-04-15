@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
 <Patch>
-
-	<!-- исправление согласно концепции «12+» -->
-
 	<Operation MayRequire="dianawinters.OrassansLite" Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
 
-			<!-- шёрстка: -->
+			<!-- Исправление согласно концепции «12+» -->
+
+			<!-- Шёрстка: -->
 			<li Class="PatchOperationAttributeSet">
 				<xpath>Defs/ThingDef[defName = "Leather_Orassan"]</xpath>
 				<attribute>ParentName</attribute>
@@ -74,7 +72,7 @@
 				</value>
 			</li>
 
-			<!-- отменяю действие патча, удаляя а потом перезаписывая параметр
+			<!-- Отменяем действие патча, удаляя а потом перезаписывая параметр
 			\Mods\OrassansLite\1.2\Patches\meals.xml -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/RecipeDef[@Name = "CookMealBase"]/defaultIngredientFilter/disallowedThingDefs</xpath>
@@ -90,7 +88,7 @@
 				</value>
 			</li>
 
-			<!-- напиток: -->
+			<!-- Сок из кошачьих ягод: -->
 			<li Class="PatchOperationAttributeSet">
 				<xpath>Defs/ThingDef[defName = "Catberryjuice"]</xpath>
 				<attribute>ParentName</attribute>
@@ -121,6 +119,7 @@
 						</ingestHoldOffsetStanding>
 						<ingestCommandString>Drink {0}</ingestCommandString>
 						<ingestReportString>Drinking {0}.</ingestReportString>
+						<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
 					</ingestible>
 				</value>
 			</li>
@@ -128,7 +127,7 @@
 				<xpath>Defs/ThingDef[defName = "Catberryjuice"]/comps/li[1]</xpath>
 			</li>
 
-			<!-- мятное пирожное: -->
+			<!-- Мятное пирожное: -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "CatnipJoint"]</xpath>
 				<value>
@@ -196,7 +195,7 @@
 				</value>
 			</li>
 
-			<!-- исправлена неточность, сообщите разработчику, что 2 рецепта устарели: -->
+			<!-- Исправлена неточность, сообщите разработчику, что 2 рецепта устарели -->
 
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/RecipeDef[
@@ -205,8 +204,7 @@
 				]</xpath>
 			</li>
 
-			<!-- исправлена неточность, сообщите разработчику, что иначе медпроцедур в 2 раза больше нужного: -->
-
+			<!-- иначе медпроцедур в 2 раза больше нужного -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[
 				defName = "Alien_Orassan" or
@@ -214,8 +212,7 @@
 				]/recipes</xpath>
 			</li>
 
-			<!-- исправлена неточность, сообщите разработчику, что иначе лёд орассан не удаляется: -->
-
+			<!-- иначе лёд орассан не удаляется -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/TerrainDef[defName = "OrassanSoil"]</xpath>
 				<value>
@@ -223,60 +220,8 @@
 				</value>
 			</li>
 
-			<!-- уменьшение хвостов в полтора раза, сообщите разработчику, вдруг ей тоже понравится: -->
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[
-				defName = "Alien_Orassan" or
-				defName = "Alien_OrassanHumanHybrid"
-				]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/drawSize/text()</xpath>
-				<value>0.5</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[
-				defName = "Alien_Orassan" or
-				defName = "Alien_OrassanHumanHybrid"
-				]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/north/bodyTypes</xpath>
-				<value>
-					<bodyTypes>
-						<Male>(-0.02,0.1)</Male>
-						<Female>(-0.02,0.1)</Female>
-						<Thin>(-0.02,0.1)</Thin>
-						<Hulk>(-0.02,0)</Hulk>
-					</bodyTypes>
-				</value>
-			</li>
-
-			<!-- выровнял хвосты для кошек: -->
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[
-				defName = "Alien_Orassan"
-				]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/east/bodyTypes</xpath>
-				<value>
-					<bodyTypes>
-						<Male>(-0.05,-0.1)</Male>
-						<Female>(-0.05,-0.05)</Female>
-						<Thin>(-0.05,-0.1)</Thin>
-						<Hulk>(0.1,-0.25)</Hulk>
-					</bodyTypes>
-				</value>
-			</li>
-
-			<!-- аналогично для гибридов, только чуть пододвинул хвосты: -->
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[
-				defName = "Alien_OrassanHumanHybrid"
-				]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/east/bodyTypes</xpath>
-				<value>
-					<bodyTypes>
-						<Male>(0,-0.15)</Male>
-						<Female>(0,-0.1)</Female>
-						<Thin>(0,-0.15)</Thin>
-						<Hulk>(0.15,-0.3)</Hulk>
-					</bodyTypes>
-				</value>
-			</li>
-
-			<!-- исправлена неточность, сообщите разработчику, что иначе часто вылезает красная ошибка предысторий. Решена проблема для силовиков орассан. И почему то пропала ошибка из-за имён: -->
+			<!-- Исправлена неточность, сообщите разработчику, что иначе часто вылезает красная ошибка предысторий. Решена проблема для силовиков орассан.
+			И почему то пропала красная ошибка из-за имён -->
 
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.BackstoryDef[
@@ -316,6 +261,7 @@
 					<li>OrassanSoldier</li>
 				</value>
 			</li>
+
 		</operations>
 	</Operation>
 </Patch>
