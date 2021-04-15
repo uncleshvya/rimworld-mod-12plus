@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику -->
 
 	<!-- EN: gather animal resource -->
 	<VEF_AnimalResource.label>собирать ресурсы с животных</VEF_AnimalResource.label>
