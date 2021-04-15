@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- исправлена неточность, сообщите разработчику -->
+	<!-- Исправлена неточность, сообщите разработчику -->
 
 	<!-- Оригинал: увидел королеву инсектоидов -->
 	<VFEI_SeenInsectoidQueen.stages.0.label>{PAWN_gender ? Увидел : Увидела} королеву инсектоидов</VFEI_SeenInsectoidQueen.stages.0.label>
