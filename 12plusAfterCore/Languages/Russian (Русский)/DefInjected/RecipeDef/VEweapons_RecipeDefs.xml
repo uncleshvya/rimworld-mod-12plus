@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- исправлена неточность, сообщите разработчику -->
+	<!-- Исправлена неточность, сообщите разработчику -->
 
-	<!-- Оригиналы: все начинаются с заглавной буквы и с точкой в конце. Также вообще нет букв "ё" и кавычек-«ёлочек» -->
+	<!-- Оригиналы: все начинаются с заглавной буквы и с точкой в конце. Также отсутствуют буквы "ё" и кавычки-«ёлочки» -->
 	<Make_VWE_OPOrbBombGrenade.jobString>изготавливает маяк орбитальной бомбардировки</Make_VWE_OPOrbBombGrenade.jobString>
 	<Make_VWE_SmokeGrenade.jobString>изготавливает дымовые гранаты</Make_VWE_SmokeGrenade.jobString>
 	<Make_VWE_ToxicGrenade.jobString>изготавливает токсичные гранаты</Make_VWE_ToxicGrenade.jobString>
@@ -43,17 +43,17 @@
 	<Make_VWE_Gun_ChargeShotgun.jobString>изготавливает энергодробовик</Make_VWE_Gun_ChargeShotgun.jobString>
 	<Make_VWE_Gun_ChargeSniperRifle.jobString>изготавливает снайперскую энерговинтовку</Make_VWE_Gun_ChargeSniperRifle.jobString>
 	<Make_VWE_Gun_ChargeRocketLauncher.jobString>изготавливает энергоракетницу</Make_VWE_Gun_ChargeRocketLauncher.jobString>
-	<!-- эти гранаты не лишают слуха или зрения.
+	<!-- Эти гранаты не лишают слуха или зрения.
 	Оригиналы: все про "свето-шумовые" -->
 	<Make_VWE_FlashGrenade.label>изготовить парализующие гранаты</Make_VWE_FlashGrenade.label>
 	<Make_VWE_FlashGrenade.description>Изготовить парализующие гранаты.</Make_VWE_FlashGrenade.description>
 	<Make_VWE_FlashGrenade.jobString>изготавливает парализующие гранаты</Make_VWE_FlashGrenade.jobString>
-	<!-- хорошо бы убрать путаницу с ванильным.
+	<!-- Хорошо бы убрать путаницу с ванильным.
 	Оригиналы: все про "огнемет" -->
 	<Make_VWE_Gun_Flamethrower.label>изготовить струйный огнемёт</Make_VWE_Gun_Flamethrower.label>
 	<Make_VWE_Gun_Flamethrower.description>Изготовить струйный огнемёт.</Make_VWE_Gun_Flamethrower.description>
 	<Make_VWE_Gun_Flamethrower.jobString>изготавливает струйный огнемёт</Make_VWE_Gun_Flamethrower.jobString>
-	<!-- а остальные что, игрушечные? Переработана вся линейка "боевых" пушек в сторону универсальности.
+	<!-- А остальные что, игрушечные? Переработана вся линейка "боевых" пушек в сторону универсальности.
 	Оригиналы: все "боевые" -->
 	<Make_VWE_CombatHandgun.label>изготовить универсальный пистолет</Make_VWE_CombatHandgun.label>
 	<Make_VWE_CombatHandgun.description>Изготовить универсальный пистолет.</Make_VWE_CombatHandgun.description>
@@ -64,7 +64,7 @@
 	<Make_VWE_Gun_BattleRifle.label>изготовить универсальную винтовку</Make_VWE_Gun_BattleRifle.label>
 	<Make_VWE_Gun_BattleRifle.description>Изготовить универсальную винтовку.</Make_VWE_Gun_BattleRifle.description>
 	<Make_VWE_Gun_BattleRifle.jobString>изготавливает универсальную винтовку</Make_VWE_Gun_BattleRifle.jobString>
-	<!-- надо бы конкретизировать эту ракетницу.
+	<!-- Надо бы конкретизировать эту ракетницу.
 	Оригиналы: все про "ракетницу" -->
 	<Make_VWE_Gun_RocketLauncher.label>изготовить лёгкую ракетницу</Make_VWE_Gun_RocketLauncher.label>
 	<Make_VWE_Gun_RocketLauncher.description>Изготовить лёгкую ракетницу.</Make_VWE_Gun_RocketLauncher.description>
@@ -82,55 +82,55 @@
 	<Make_Gun_TripleRocket.description>Изготовить ракетницу «Тройка».</Make_Gun_TripleRocket.description>
 	<Make_VWE_Gun_GrenadeLauncher.label>изготовить гранатомёт</Make_VWE_Gun_GrenadeLauncher.label>
 	<Make_VWE_Gun_GrenadeLauncher.description>Изготовить гранатомёт.</Make_VWE_Gun_GrenadeLauncher.description>
-	<!-- для подчёркивания старины лучше использовать вариант архаизма женского рода.
+	<!-- Для подчёркивания старины лучше использовать вариант архаизма женского рода.
 	Оригиналы: все про "кремневый" -->
 	<Make_VWE_Gun_Flintlock.label>изготовить кремнёвую пистоль</Make_VWE_Gun_Flintlock.label>
 	<Make_VWE_Gun_Flintlock.description>Изготовить кремнёвую пистоль.</Make_VWE_Gun_Flintlock.description>
 	<Make_VWE_Gun_Flintlock.jobString>изготавливает кремнёвую пистоль</Make_VWE_Gun_Flintlock.jobString>
-	<!-- судя по изображению и звуку, это кнут.
+	<!-- Судя по изображению и звуку, это кнут.
 	Оригиналы: все про "плеть" -->
 	<Make_VWE_Tool_Whip.label>сделать кнут</Make_VWE_Tool_Whip.label>
 	<Make_VWE_Tool_Whip.description>Сделать кнут.</Make_VWE_Tool_Whip.description>
 	<Make_VWE_Tool_Whip.jobString>делает кнут</Make_VWE_Tool_Whip.jobString>
-	<!-- тогда уж энергопистолет-энергопулемёт.
+	<!-- Тогда уж энергопистолет-энергопулемёт.
 	Оригиналы: все про "энергопистолет-пулемет" -->
 	<Make_VWE_Gun_ChargeSMG.label>изготовить энергетический пистолет-пулемёт</Make_VWE_Gun_ChargeSMG.label>
 	<Make_VWE_Gun_ChargeSMG.description>Изготовить энергетический пистолет-пулемёт.</Make_VWE_Gun_ChargeSMG.description>
 	<Make_VWE_Gun_ChargeSMG.jobString>изготавливает энергетический пистолет-пулемёт</Make_VWE_Gun_ChargeSMG.jobString>
-	<!-- пуль как таковых в нём нет.
+	<!-- Пуль как таковых в нём нет.
 	Оригиналы: все про "энергопулемет" -->
 	<Make_VWE_Gun_ChargeLMG.label>изготовить энергоавтомат</Make_VWE_Gun_ChargeLMG.label>
 	<Make_VWE_Gun_ChargeLMG.description>Изготовить энергоавтомат.</Make_VWE_Gun_ChargeLMG.description>
 	<Make_VWE_Gun_ChargeLMG.jobString>изготавливает энергоавтомат</Make_VWE_Gun_ChargeLMG.jobString>
-	<!-- пуль как таковых в нём нет.
+	<!-- Пуль как таковых в нём нет.
 	Оригиналы: все про "многоствольный энергопулемет -->
 	<Make_VWE_Gun_ChargeMinigun.label>изготовить многоствольный бластер</Make_VWE_Gun_ChargeMinigun.label>
 	<Make_VWE_Gun_ChargeMinigun.description>Изготовить многоствольный бластер.</Make_VWE_Gun_ChargeMinigun.description>
 	<Make_VWE_Gun_ChargeMinigun.jobString>изготавливает многоствольный бластер</Make_VWE_Gun_ChargeMinigun.jobString>
 
-	<!-- путаница с нормальным лазерным оружием.
+	<!-- Путаница с нормальным лазерным оружием.
 	Оригиналы: оба про неконкретное "лазерное оружие" -->
 	<Salvage_LaserWeapon.label>собрать случайное лазерное оружие</Salvage_LaserWeapon.label>
 	<Salvage_LaserWeapon.jobString>собирает случайное лазерное оружие</Salvage_LaserWeapon.jobString>
-	<!-- Оригиналы: все начинаются с заглавной буквы. Также вообще нет букв "ё" -->
+	<!-- Оригиналы: все начинаются с заглавной буквы -->
 	<Make_VWEL_LaserSword.jobString>изготавливает лазерный меч</Make_VWEL_LaserSword.jobString>
 	<Make_VWEL_Gun_LaserPistol.jobString>изготавливает лазерный пистолет</Make_VWEL_Gun_LaserPistol.jobString>
 	<Make_VWEL_Gun_LaserRifle.jobString>изготавливает лазерную винтовку</Make_VWEL_Gun_LaserRifle.jobString>
 	<Make_VWEL_Gun_LaserShotgun.jobString>изготавливает лазерный дробовик</Make_VWEL_Gun_LaserShotgun.jobString>
 	<Make_VWEL_Gun_LaserSniperRifle.jobString>изготавливает лазерную снайперскую винтовку</Make_VWEL_Gun_LaserSniperRifle.jobString>
 	<Make_VWEL_Gun_TeslaGun.jobString>изготавливает тесла-пушку</Make_VWEL_Gun_TeslaGun.jobString>
-	<!-- пуль как таковых в нём нет.
+	<!-- Пуль как таковых в нём нет.
 	Оригиналы: все про "лазерный пистолет-пулемёт" -->
 	<Make_VWEL_Gun_LaserSMG.label>изготовить лазерный автомат</Make_VWEL_Gun_LaserSMG.label>
 	<Make_VWEL_Gun_LaserSMG.description>Изготовить лазерный автомат.</Make_VWEL_Gun_LaserSMG.description>
 	<Make_VWEL_Gun_LaserSMG.jobString>изготавливает лазерный автомат</Make_VWEL_Gun_LaserSMG.jobString>
-	<!-- пуль как таковых в нём нет.
+	<!-- Пуль как таковых в нём нет.
 	Оригиналы: все про "лазерный многоствольный пулемет" -->
 	<Make_VWEL_Gun_LaserMinigun.label>изготовить многоствольный лазер</Make_VWEL_Gun_LaserMinigun.label>
 	<Make_VWEL_Gun_LaserMinigun.description>Изготовить многоствольный лазер.</Make_VWEL_Gun_LaserMinigun.description>
 	<Make_VWEL_Gun_LaserMinigun.jobString>изготавливает многоствольный лазер</Make_VWEL_Gun_LaserMinigun.jobString>
 
-	<!-- Оригиналы: все начинаются с заглавной буквы, заканчиваются точками -->
+	<!-- Оригиналы: все начинаются с заглавной буквы, а заканчиваются точками -->
 	<Make_VWE_Gun_AutomaticPistol.jobString>изготавливает штурмовой пистолет</Make_VWE_Gun_AutomaticPistol.jobString>
 	<Make_VWE_Gun_BullpupRifle.jobString>изготавливает штурмовой автомат</Make_VWE_Gun_BullpupRifle.jobString>
 	<Make_VWE_Gun_BullpupDMR.jobString>изготавливает штурмовую винтовку</Make_VWE_Gun_BullpupDMR.jobString>
