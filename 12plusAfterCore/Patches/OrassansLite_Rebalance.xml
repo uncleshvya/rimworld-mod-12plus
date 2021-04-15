@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation MayRequire="dianawinters.OrassansLite" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<!-- Исправлен баланс, сообщите разработчику, что делать напитки пачками - не лорно. Вероятно, это связано с большим объёмом жидкой пищи по сравнению с сухой. -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "MakeCatJuice25"]</xpath>
+			</li>
+
+			<!-- Уменьшение хвостов в полтора раза -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[
+				defName = "Alien_Orassan" or
+				defName = "Alien_OrassanHumanHybrid"
+				]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/drawSize/text()</xpath>
+				<value>0.5</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[
+				defName = "Alien_Orassan" or
+				defName = "Alien_OrassanHumanHybrid"
+				]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/north/bodyTypes</xpath>
+				<value>
+					<bodyTypes>
+						<Male>(-0.02,0.1)</Male>
+						<Female>(-0.02,0.1)</Female>
+						<Thin>(-0.02,0.1)</Thin>
+						<Hulk>(-0.02,0)</Hulk>
+					</bodyTypes>
+				</value>
+			</li>
+
+			<!-- Выравнивание хвостов для кошек: -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[
+				defName = "Alien_Orassan"
+				]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/east/bodyTypes</xpath>
+				<value>
+					<bodyTypes>
+						<Male>(-0.05,-0.1)</Male>
+						<Female>(-0.05,-0.05)</Female>
+						<Thin>(-0.05,-0.1)</Thin>
+						<Hulk>(0.1,-0.25)</Hulk>
+					</bodyTypes>
+				</value>
+			</li>
+
+			<!-- Аналогично для гибридов, только чуть пододвинуты хвосты: -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[
+				defName = "Alien_OrassanHumanHybrid"
+				]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/east/bodyTypes</xpath>
+				<value>
+					<bodyTypes>
+						<Male>(0,-0.15)</Male>
+						<Female>(0,-0.1)</Female>
+						<Thin>(0,-0.15)</Thin>
+						<Hulk>(0.15,-0.3)</Hulk>
+					</bodyTypes>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>
