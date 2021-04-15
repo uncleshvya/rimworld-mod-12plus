@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
 <Patch>
-
-	<!-- исправление согласно концепции «12+» -->
 
 	<!-- CC BY-SA 4.0
 	Copyright (c) Haplo
 	-->
 
-	<!-- напиток -->
 	<Operation MayRequire="Haplo.Miscellaneous.BeesNHoney" Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
+
+			<!-- Исправление согласно концепции «12+» -->
+
+			<!-- Медовый напиток -->
 			<li Class="PatchOperationAttributeSet">
 				<xpath>Defs/ThingDef[defName = "Mead"]</xpath>
 				<attribute>ParentName</attribute>
@@ -42,6 +42,7 @@
 						</ingestHoldOffsetStanding>
 						<ingestCommandString>Drink {0}</ingestCommandString>
 						<ingestReportString>Drinking {0}.</ingestReportString>
+						<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
 					</ingestible>
 				</value>
 			</li>
@@ -49,7 +50,7 @@
 				<xpath>Defs/ThingDef[defName = "Mead"]/comps/li[1]</xpath>
 			</li>
 
-			<!-- исправлена неточность, сообщите разработчику, что лишние категории захламляют список -->
+			<!-- Исправлена неточность, сообщите разработчику, что лишние категории захламляют список -->
 
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[@Name = "ResourceHoneycombBase_MiscBees"]/thingCategories/li[2]</xpath>
