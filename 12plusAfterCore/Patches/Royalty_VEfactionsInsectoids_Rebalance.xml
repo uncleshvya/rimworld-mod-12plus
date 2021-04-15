@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<!-- использование программного кода, предоставленного jecrell. Копия лицензии - в файле JecsTools_licenseMIT.txt  -->
+	<!-- Использование программного кода, предоставленного jecrell. Копия лицензии - в файле JecsTools_licenseMIT.txt  -->
 
 	<!-- MIT
 	Copyright (c) 2017 jecrell
@@ -11,7 +11,7 @@
 		<success>Always</success>
 		<operations>
 
-			<!-- исправлен баланс, сообщите разработчику, что плазменный меч из DLC Royalty должен светиться во время ночных схваток. Идея взята из мода OskarPotocki.VFE.Insectoid -->
+			<!-- Исправлен баланс, сообщите разработчику, что плазменный меч из DLC Royalty должен светиться во время ночных схваток. Идея взята из мода OskarPotocki.VFE.Insectoid -->
 
 			<li MayRequire="Ludeon.RimWorld.Royalty" Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "MeleeWeapon_PlasmaSword"]/graphicData</xpath>
@@ -33,9 +33,9 @@
 				</value>
 			</li>
 
-			<!-- исправлен баланс, сообщите разработчику, что выключенное огнеплазменное оружие не должно светиться во тьме -->
+			<!-- Исправлен баланс, сообщите разработчику, что выключенное огнеплазменное оружие не должно светиться во тьме -->
 
-			<!-- резак -->
+			<!-- Резак -->
 			<li MayRequire="OskarPotocki.VFE.Insectoid" Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "VFE_Gun_Plasmacutter"]/comps</xpath>
 				<value>
@@ -48,7 +48,7 @@
 				</value>
 			</li>
 
-			<!-- винтовка -->
+			<!-- Винтовка -->
 			<li MayRequire="OskarPotocki.VFE.Insectoid" Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "VFE_Gun_Plasmapiercer"]/comps</xpath>
 				<value>
@@ -61,7 +61,7 @@
 				</value>
 			</li>
 
-			<!-- пулемёт -->
+			<!-- Пулемёт -->
 			<li MayRequire="OskarPotocki.VFE.Insectoid" Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "VFE_Gun_PlasmabeamRifle"]/comps</xpath>
 				<value>
@@ -74,7 +74,7 @@
 				</value>
 			</li>
 
-			<!-- дробовик -->
+			<!-- Дробовик -->
 			<li MayRequire="OskarPotocki.VFE.Insectoid" Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "VFE_Gun_PlasmaScattergun"]/comps</xpath>
 				<value>
@@ -87,7 +87,7 @@
 				</value>
 			</li>
 
-			<!-- пила -->
+			<!-- Пила -->
 			<li MayRequire="OskarPotocki.VFE.Insectoid" Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "VFE_Plasmasaw"]</xpath>
 				<value>
@@ -109,9 +109,9 @@
 		<success>Always</success>
 		<operations>
 
-			<!-- исправлен баланс, сообщите разработчику, что лишние категории засоряют список -->
+			<!-- Исправлен баланс, сообщите разработчику, что лишние категории засоряют список -->
 
-			<!-- для сыра инсектоидов, он ведь есть в рецептах, пришлось подшаманить: -->
+			<!-- Для сыра инсектоидов, он ведь есть в рецептах, пришлось подшаманить: -->
 			<li Class="PatchOperationAttributeSet">
 				<xpath>Defs/ThingDef[defName = "VCE_InsectCheese"]</xpath>
 				<attribute>ParentName</attribute>
@@ -125,7 +125,7 @@
 				</value>
 			</li>
 
-			<!-- исправлен баланс, сообщите разработчику, что и у ванильных инсектоидов должен быть хитин -->
+			<!-- Исправлен баланс, сообщите разработчику, что и у ванильных инсектоидов должен быть хитин -->
 
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[
