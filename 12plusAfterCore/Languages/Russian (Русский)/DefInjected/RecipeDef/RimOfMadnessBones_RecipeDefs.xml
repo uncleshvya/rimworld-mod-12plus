@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- добавлена русская локализация, сообщите разработчику, что у этих рецептов не прописан перевод: -->
+	<!-- Добавлена русская локализация, сообщите разработчику -->
 
-	<!-- EN: make skull mask -->
+	<!-- У рецептов масок и брони не прописан перевод:
+	EN: make skull mask -->
 	<Make_ROMB_Apparel_SkullMask.label>вырезать маску-череп</Make_ROMB_Apparel_SkullMask.label>
 	<!-- EN: Make skull mask -->
 	<Make_ROMB_Apparel_SkullMask.description>Вырезать из кости страшную маску, превращающую лицо человека в череп. </Make_ROMB_Apparel_SkullMask.description>
@@ -23,8 +24,6 @@
 	<Make_Sihv_Apparel_BoneArmor.description>Соединить крупные кости в пластины и сделать из них грубый жилет, прикрывающий торс.</Make_Sihv_Apparel_BoneArmor.description>
 	<!-- EN: making bone armor -->
 	<Make_Sihv_Apparel_BoneArmor.jobString>изготавливает костяную броню</Make_Sihv_Apparel_BoneArmor.jobString>
-
-	<!-- добавлена русская локализация, сообщите разработчику -->
 
 	<!-- EN: make bone ash -->
 	<MakeBoneChina.label>сделать костяной фарфор</MakeBoneChina.label>
