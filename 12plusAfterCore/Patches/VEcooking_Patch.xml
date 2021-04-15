@@ -4,7 +4,7 @@
 		<success>Always</success>
 		<operations>
 
-			<!-- исправление согласно концепции «12+» эффектов масла -->
+			<!-- Исправление согласно концепции «12+» эффектов масла -->
 
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThoughtDef[defName = "VCE_SmokeleafButterHigh"]/hediff</xpath>
