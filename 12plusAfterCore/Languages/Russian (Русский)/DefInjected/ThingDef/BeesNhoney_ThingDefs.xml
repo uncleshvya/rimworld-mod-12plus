@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- исправлена неточность, сообщите разработчику -->
+	<!-- Исправлена неточность, сообщите разработчику -->
 
 	<!-- Оригинал: Соты w. Королевы -->
 	<HoneycombWithQueen.label>соты с пчелиной маткой</HoneycombWithQueen.label>
@@ -16,9 +16,9 @@
 	<!-- Оригинал: Drink {0} -->
 	<Mead.ingestible.ingestCommandString>Выпить {0}</Mead.ingestible.ingestCommandString>
 	<!-- Оригинал: Drinking {0}. -->
-	<Mead.ingestible.ingestReportString>Пьёт {0}</Mead.ingestible.ingestReportString>
+	<Mead.ingestible.ingestReportString>пьёт {0}</Mead.ingestible.ingestReportString>
 
-	<!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+» -->
 
 	<!-- Оригинал: медовуха -->
 	<Mead.label>медовый напиток</Mead.label>
