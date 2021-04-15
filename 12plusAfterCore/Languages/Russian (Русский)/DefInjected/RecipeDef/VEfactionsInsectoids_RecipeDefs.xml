@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- исправлена неточность, сообщите разработчику -->
+	<!-- Исправлена неточность, сообщите разработчику -->
 
 	<!-- Оригиналы: все начинаются с заглавной буквы и с точкой в конце -->
 	<VFEI_InstallDroneGenome.jobString>вводит геном трутня</VFEI_InstallDroneGenome.jobString>
