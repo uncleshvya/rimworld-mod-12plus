@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- исправлена неточность, сообщите разработчику -->
+	<!-- Исправлена неточность, сообщите разработчику -->
 
 	<!-- Оригинал: ... топлива. Может... -->
 	<BurnPit.description>Уничтожает фекальные массы, сжигая их в качестве топлива (как кизяк). Может быть использована использована для избавления от тел и других отходов. Колонисты могут заболеть, если проведут много времени поблизости.</BurnPit.description>
@@ -158,7 +158,7 @@
 	<!-- Оригинал: ...переработана в удобрения. -->
 	<FecalSludge.description>Бочка, наполненная фекалиями. Может быть опрокинута, сожжена или переработана в удобрения/химтопливо.</FecalSludge.description>
 
-	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику -->
 
 	<!-- EN: swimming pool -->
 	<DBHSwimmingPool.label>бассейн</DBHSwimmingPool.label>
@@ -182,9 +182,9 @@
 	<!-- EN: Drink {0} -->
 	<DBH_WaterBottle.ingestible.ingestCommandString>Выпить {0}</DBH_WaterBottle.ingestible.ingestCommandString>
 	<!-- EN: Drinking {0}. -->
-	<DBH_WaterBottle.ingestible.ingestReportString>Пьёт {0}</DBH_WaterBottle.ingestible.ingestReportString>
+	<DBH_WaterBottle.ingestible.ingestReportString>пьёт {0}</DBH_WaterBottle.ingestible.ingestReportString>
 
-	<!-- исправлен конфликт модов, сообщите разработчикам dismarzero.VGP.VGPGardenTools и Dubwise.DubsBadHygiene -->
+	<!-- Исправлен конфликт модов, сообщите разработчикам dismarzero.VGP.VGPGardenTools и Dubwise.DubsBadHygiene -->
 
 	<!-- Оригинал: Компостер -->
 	<BiosolidsComposter.label>навозный бак</BiosolidsComposter.label>
@@ -226,7 +226,7 @@
 	<!-- Оригинал: Удобрение, полученное путем переработки фекалий. -->
 	<Biosolids.description>Сыпучий перегной, полученный путем переработки фекалий.</Biosolids.description>
 
-	<!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+» -->
 
 	<!-- Оригинал: Отмывает одежду так хорошо, что никто никогда не догадается, что в ней кто-то умер! -->
 	<WashingMachine.description>Позволяет отстирать одежду начисто, удаляя даже застарелые пятна крови.</WashingMachine.description>
