@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику -->
 
 	<!-- EN: make biosolids fertilizer -->
 	<MakeBiosolidFertilizerHand.label>сделать перегной</MakeBiosolidFertilizerHand.label>
@@ -17,7 +17,7 @@
 	<!-- EN: Making fertilizer. -->
 	<MakeGardenFertilizerHand.jobString>делает удобрение</MakeGardenFertilizerHand.jobString>
 
-	<!-- исправлена неточность, сообщите разработчику -->
+	<!-- Исправлена неточность, сообщите разработчику -->
 
 	<!-- Оригинал: копать землю 4 раза -->
 	<VG_DigSoil_Bulk.label>копать землю вчетверо дольше</VG_DigSoil_Bulk.label>
@@ -28,7 +28,7 @@
 	<!-- Оригинал: Делает компостнуя заготовку -->
 	<MakeBulkCompostStarter.jobString>делает компостную заготовку</MakeBulkCompostStarter.jobString>
 
-	<!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+» -->
 
 	<!-- Оригинал: Кремировать труп в удобрения. По умолчанию все отключено. -->
 	<FertilizerCorpse.description>Кремировать туши животных в удобрение. По умолчанию все запрещены.</FertilizerCorpse.description>
