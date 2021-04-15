@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+» -->
+
+	<!-- Оригинал: Содержит {0} / {1} вина -->
+	<VanillaFactionsExpanded.ContainsWine>Содержит {0} / {1} виноградного напитка</VanillaFactionsExpanded.ContainsWine>
+	<!-- Игра рассчитана на одно поселение.
+	Оригинал: Ваши колонисты достанут вино из этой бочки, когда оно достигнет... -->
+	<VanillaFactionsExpanded.TargetWineQuality_Description>Ваши поселенцы достанут виноградный напиток из этой бочки, когда он достигнет заданного качества.</VanillaFactionsExpanded.TargetWineQuality_Description>
+
+	<!-- Исправлена неточность, сообщите разработчику -->
+
+	<!-- Оригинал: ...категория: {2}. В турнире участвуют ещё {3} других участников, и все они хотят иметь шанс выиграть... -->
+	<VanillaFactionsExpanded.MedievalTournamentInitial>Этот турнир проводится {0} из {1}, категория: {2}. В состязании участвуют ещё {3} воинов, и все они хотят выиграть следующие призы:\n\n{4}</VanillaFactionsExpanded.MedievalTournamentInitial>
+	<!-- Оригинал: Вы приняли участие... -->
+	<VanillaFactionsExpanded.ParticipateInitial>Вы решили принять участие в этом турнире. Выберите своего будущего чемпиона:</VanillaFactionsExpanded.ParticipateInitial>
+	<!-- Оригинал: ...{PAWN_labelShort} завершил(а) турнир... -->
+	<VanillaFactionsExpanded.TournamentWinLetter_Text>Поздравляем, {PAWN_labelShort} {PAWN_gender ? завершил : завершила} турнир, будучи на {0} месте из {1}! Вы приобрели дополнительную репутацию с {2} и выиграли следующие призы:\n\n{3}</VanillaFactionsExpanded.TournamentWinLetter_Text>
+	<!-- Оригинал: ...{PAWN_labelShort} не смог(ла) выиграть турнир. {PAWN_pronoun} завершил(а) турнир... -->
+	<VanillaFactionsExpanded.TournamentLossLetter_Text>К сожалению, на этот раз {PAWN_labelShort} не {PAWN_gender ? смог : смогла} выиграть турнир. {PAWN_pronoun} {PAWN_gender ? завершил : завершила} турнир, будучи на {0} месте из {1}.</VanillaFactionsExpanded.TournamentLossLetter_Text>
+	<!-- Переменную "{0}" не помешало бы разделить для более точного перевода.
+	Оригинал: {PAWN_labelShort} получил(а) {0} опыта. -->
+	<VanillaFactionsExpanded.TournamentExpGains>{PAWN_labelShort} {PAWN_gender ? увеличил : увеличила} прогресс навыка на {0}.</VanillaFactionsExpanded.TournamentExpGains>
+
+</LanguageData>
