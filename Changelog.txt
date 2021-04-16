@@ -2,6 +2,8 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
+2021-04-16 начата работа над адаптацией мода Vanilla Expanded Factions Settlers. Тег "VEfactionsSettlers_".
+
 2021-04-15 добавлена адаптация для мода Vanilla Expanded Factions Medieval и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 Скомпилирована версия 12+мода 0.6.0beta.
 Пока не удалось разделить переводы для 22 адаптированных модов, поэтому соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
@@ -119,6 +121,8 @@ For English, scroll down.
 2019-11-06 придумана основная концепция. Спасибо игроку Roma за вдохновение.
 
 Changelog for Rimworld's 12plus modification.
+
+2021-apr-16 OskarPotocki.VanillaFactionsExpanded.SettlersModule and Inoshishi3.VanillaFactionsExpanded.SettlersModuleRusPatch mods' adaptation work started. Tag "VEfactionsSettlers_".
 
 2021-apr-15 OskarPotocki.VanillaFactionsExpanded.MedievalModule and Inoshishi3.VanillaFactionsExpanded.MedievalModuleRusPatch mods' adaptation added. Also corrected their errors, see code comments.
 UncleShvya.12plus mod v.0.6.0beta compiled.
