@@ -2,11 +2,10 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-04-16 начата работа над адаптацией мода Vanilla Expanded Factions Settlers. Тег "VEfactionsSettlers_".
-
-2021-04-15 добавлена адаптация для мода Vanilla Expanded Factions Medieval и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
-Скомпилирована версия 12+мода 0.6.0beta.
-Пока не удалось разделить переводы для 22 адаптированных модов, поэтому соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
+2021-04-19 добавлена адаптация для мода Vanilla Expanded Furniture Security и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
+Перебалансирована самая явная имба - автономный пулемёт теперь заправляется химтопливом, а стволы не изнашиваются.
+Скомпилирована версия 12+мода 0.6.1beta.
+Пока не удалось разделить переводы для адаптированных модов, поэтому соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowTool_";
 "BeesNhoney_";
 "ConcreteWalls_";
@@ -22,6 +21,7 @@ For English, scroll down.
 "VEcooking_";
 "VEfactionsInsectoids_";
 "VEfactionsMedieval_";
+"VEfactionsSettlers_";
 "VEframework_";
 "VEfurnitureProduction_";
 "VEfurnitureFarming_";
@@ -29,6 +29,10 @@ For English, scroll down.
 "VEstews_";
 "VEweapons_";
 "VGPgardenTools_".
+
+2021-04-18 добавлена адаптация для мода Vanilla Expanded Factions Settlers и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
+
+2021-04-15 добавлена адаптация для мода Vanilla Expanded Factions Medieval и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 
 2021-04-11 добавлена адаптация для мода Vanilla Expanded Weapons с дополнениями Laser, Quickdraw и их переводом Am.Rus.VWE. На всякий случай адаптирован перевод RU.VanillaExpanded.VWE.
 
@@ -42,8 +46,6 @@ For English, scroll down.
 2021-04-04 добавлена адаптация для мода Rimsenal Federation Faction и перевода от kr33man, заодно исправлена часть их ошибок, см.каменты в коде. Для дальнейшего перевода нужны испытания в игре.
 
 2021-04-02 добавлена адаптация для мода Vanilla Expanded Furniture Production и его русификатора, заодно исправлены ошибки, см.каменты в коде.
-
-2021-04-01 добавлена адаптация для мода Vanilla Expanded Furniture Security и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 
 2021-03-26 добавлена адаптация для мода RimFridge.
 
@@ -122,11 +124,12 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-apr-16 OskarPotocki.VanillaFactionsExpanded.SettlersModule and Inoshishi3.VanillaFactionsExpanded.SettlersModuleRusPatch mods' adaptation work started. Tag "VEfactionsSettlers_".
+2021-apr-19 VanillaExpanded.VFESecurity and Am.Rus.VFESecurity mods' adaptation added. Also corrected their errors, see code comments.
+Had to rebalance the most rebarbative developers' mistake - now sentry gun needs chemfuel to work, but doesn't need barrel change.
 
-2021-apr-15 OskarPotocki.VanillaFactionsExpanded.MedievalModule and Inoshishi3.VanillaFactionsExpanded.MedievalModuleRusPatch mods' adaptation added. Also corrected their errors, see code comments.
-UncleShvya.12plus mod v.0.6.0beta compiled.
-There are some unsolved problems with cataloging, so the files were marked with tags in their names (alphabetically):
+2021-apr-18 OskarPotocki.VanillaFactionsExpanded.SettlersModule and Inoshishi3.VanillaFactionsExpanded.SettlersModuleRusPatch mods' adaptation added. Also corrected their errors, see code comments.
+UncleShvya.12plus mod v.0.6.1beta compiled.
+There are some unsolved problems with cataloging, so the files were marked with searchable tags in their names (alphabetically):
 "AllowTool_";
 "BeesNhoney_";
 "ConcreteWalls_";
@@ -142,6 +145,7 @@ There are some unsolved problems with cataloging, so the files were marked with 
 "VEcooking_";
 "VEfactionsInsectoids_";
 "VEfactionsMedieval_";
+"VEfactionsSettlers_";
 "VEframework_";
 "VEfurnitureProduction_";
 "VEfurnitureFarming_";
@@ -149,6 +153,8 @@ There are some unsolved problems with cataloging, so the files were marked with 
 "VEstews_";
 "VEweapons_";
 "VGPgardenTools_".
+
+2021-apr-15 OskarPotocki.VanillaFactionsExpanded.MedievalModule and Inoshishi3.VanillaFactionsExpanded.MedievalModuleRusPatch mods' adaptation added. Also corrected their errors, see code comments.
 
 2021-apr-11 VanillaExpanded.VWE mod adaptation added, with add-ons VanillaExpanded.VWEQ, VanillaExpanded.VWEL and translations Am.Rus.VWE (basic), RU.VanillaExpanded.VWE (alternative, less accuracy). Also corrected their errors, see code comments.
 
@@ -162,8 +168,6 @@ There are some unsolved problems with cataloging, so the files were marked with 
 2021-apr-04 rimsenal.federation mod adaptation added, with Russian translation from kr33man. Also corrected their errors, see code comments. For further translation, game test needed.
 
 2021-apr-02 VanillaExpanded.VFEProduction and Inoshishi3.VanillaExpanded.VFEProductionRusPatch mods' adaptation added. Also corrected errors, see code comments.
-
-2021-apr-01 VanillaExpanded.VFESecurity and Am.Rus.VFESecurity mods' adaptation added. Also corrected their errors, see code comments.
 
 2021-mar-26 rimfridge.kv.rw mod adaptation added.
 
