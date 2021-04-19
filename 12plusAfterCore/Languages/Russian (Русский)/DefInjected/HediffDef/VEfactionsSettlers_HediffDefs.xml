@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлена недостающая строка русской локализации, сообщите разработчику.
+
+	EN: chemshined -->
+	<Chemshined.labelNoun>опьянение химблеском</Chemshined.labelNoun>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Оригинал: ...химблеском (эктримальное) -->
+	<Chemshined.stages.3.label>опьянение химблеском (экстремальное)</Chemshined.stages.3.label>
+
+</LanguageData>
