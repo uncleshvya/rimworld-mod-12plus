@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: ...Разыскивается живым или мертвым: [nickname] -->
+	<Settlers_Wanted.questDescriptionAndNameRules.rulesStrings.1>questName->Разыскивается преступник: [nickname]</Settlers_Wanted.questDescriptionAndNameRules.rulesStrings.1>
+	<!-- Ошибка в лицах, исправлена неточность, сообщите разработчику.
+	Оригинал: ...приветствует нас. Видимо, пресловутый [criminal_nameFull]...окрестностях.\n\n[asker_nameDef] просит нас принести [nickname] в одно из их поселений за награду в [bounty] серебра, и удвоенную сумму, если [nickname] будет в живых. Они прячутся в безопасном схроне, и он, скорее...Если мы очистим их лагерь... -->
+	<Settlers_Wanted.questDescriptionAndNameRules.rulesStrings.3>questDescription->[asker_nameFull], [asker_faction_leaderTitle] из [asker_faction_name] приветствует нас. По их информации, преступник [criminal_nameFull] из [siteFaction_name] прячется в наших окрестностях.\n\nНам заплатят [bounty] серебра, если принесём тело [nickname] в одно из поселений [asker_faction_name], и удвоенную сумму, если приведём [nickname] в кандалах. Преступник прячется в своём убежище, и, скорее всего, охраняется.\n\nЕсли мы захватим этот лагерь, [allRewardsDescriptions]</Settlers_Wanted.questDescriptionAndNameRules.rulesStrings.3>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Ошибка переменной.
+	Оригинал: Settlers_Wanted.root.nodes.0.label
+	И подкорректирован перевод:
+	Оригинал: Квест провален: [resolvedQuestName] -->
+	<Settlers_Wanted.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Квест упущен: [resolvedQuestName]</Settlers_Wanted.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+	<!-- Ошибка переменной.
+	Оригинал: Settlers_Wanted.root.nodes.0.text
+	Для правильного перевода полов нужно задействовать оператор "criminal_gender". Пока он не прописан, глаголы изменены на настоящее информирующее время, как в ванили до 2020 года.
+	Оригинал: [criminal_nameFull] услышал(а) об их скомпрометированной позиции, поэтому решил(а) покинуть... -->
+	<Settlers_Wanted.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>[criminal_nameFull] откуда-то узнаёт о рассекречивании убежища и решает покинуть этот район. Срок действия [resolvedQuestName] истёк.</Settlers_Wanted.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+	<!-- Ошибка переменной.
+	Оригинал: Settlers_Wanted.root.nodes.1.label -->
+	<Settlers_Wanted.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>Квест провален: [resolvedQuestName]</Settlers_Wanted.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+	<!-- Ошибка переменной.
+	Оригинал: Settlers_Wanted.root.nodes.1.text -->
+	<Settlers_Wanted.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>Разбойники собрали вещи и пошли дальше.</Settlers_Wanted.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+	<!-- Ошибка переменной.
+	Оригинал: Settlers_Wanted.root.nodes.2.customLetterLabel -->
+	<Settlers_Wanted.root.nodes.siteAllEnemiesDefeated.node.customLetterLabel.slateRef>Вознаграждение прибыло</Settlers_Wanted.root.nodes.siteAllEnemiesDefeated.node.customLetterLabel.slateRef>
+	<!-- Ошибка переменной.
+	Оригинал: Settlers_Wanted.root.nodes.2.customLetterText -->
+	<Settlers_Wanted.root.nodes.siteAllEnemiesDefeated.node.customLetterText.slateRef>Вы победили [criminal_nameFull] и ликвидировали лагерь!\n\nПолучено вознаграждение от [asker_faction_name].</Settlers_Wanted.root.nodes.siteAllEnemiesDefeated.node.customLetterText.slateRef>
+
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	EN: questDescription->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, [siteFaction_pawnsPlural] are resting with their beasts before continuing their journey.\n            \n[asker_nameDef] gave us their location, if we want to, we can go attack them. -->
+	<VFES_CaravanRaid.questDescriptionRules.rulesStrings.0>questDescription->[asker_nameFull], [asker_faction_leaderTitle] фракции [asker_faction_name], отправляет нам сообщение. Cудя по всему, [siteFaction_pawnsPlural] устроили привал и дали отдых животным перед продолжением пути.\n\n[asker_nameDef] даёт нам координаты стоянки, так что при желании мы можем атаковать караван.</VFES_CaravanRaid.questDescriptionRules.rulesStrings.0>
+	<!-- EN: questName->Caravan [raid] -->
+	<VFES_CaravanRaid.questNameRules.rulesStrings.0>questName->[raid] на караван</VFES_CaravanRaid.questNameRules.rulesStrings.0>
+	<!-- EN: questName->[asker_nameDef] and the Caravan [raid] -->
+	<VFES_CaravanRaid.questNameRules.rulesStrings.1>questName->[asker_nameDef] и [raid] на караван</VFES_CaravanRaid.questNameRules.rulesStrings.1>
+	<!-- EN: raid->Raid -->
+	<VFES_CaravanRaid.questNameRules.rulesStrings.2>raid->Нападение</VFES_CaravanRaid.questNameRules.rulesStrings.2>
+	<!-- EN: raid->Attack -->
+	<VFES_CaravanRaid.questNameRules.rulesStrings.3>raid->Атака</VFES_CaravanRaid.questNameRules.rulesStrings.3>
+	<!-- EN: raid->Ambush -->
+	<VFES_CaravanRaid.questNameRules.rulesStrings.4>raid->Засада</VFES_CaravanRaid.questNameRules.rulesStrings.4>
+	<!-- EN: Quest expired: [resolvedQuestName] -->
+	<VFES_CaravanRaid.LetterLabelQuestExpired.slateRef>Квест упущен: [resolvedQuestName]</VFES_CaravanRaid.LetterLabelQuestExpired.slateRef>
+	<!-- EN: The [siteFaction_pawnsPlural] packed up their stuff and moved on. The quest [resolvedQuestName] has expired. -->
+	<VFES_CaravanRaid.LetterTextQuestExpired.slateRef>[siteFaction_pawnsPlural] навьючили груз и продолжили путь. Квест [resolvedQuestName] упущен.</VFES_CaravanRaid.LetterTextQuestExpired.slateRef>
+	<!-- EN: Quest failed: [resolvedQuestName] -->
+	<VFES_CaravanRaid.LetterLabelQuestFailed.slateRef>Квест провален: [resolvedQuestName]</VFES_CaravanRaid.LetterLabelQuestFailed.slateRef>
+	<!-- EN: After being discovered, the [siteFaction_pawnsPlural] left. The quest [resolvedQuestName] has ended. -->
+	<VFES_CaravanRaid.LetterTextQuestFailed.slateRef>После обнаружения, [siteFaction_pawnsPlural] ушли. Квест [resolvedQuestName] провален.</VFES_CaravanRaid.LetterTextQuestFailed.slateRef>
+
+</LanguageData>
