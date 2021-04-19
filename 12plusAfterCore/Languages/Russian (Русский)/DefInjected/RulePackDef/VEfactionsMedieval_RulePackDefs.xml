@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- Исправлена неточность, сообщите разработчику -->
+	<!-- Исправлена неточность, сообщите разработчику.
 
-	<!-- Для правильного перевода полов нужно задействовать оператор INITIATOR_gender. Пока он не прописан, все глаголы изменены на настоящее информирующее время, как в ванили до 2020 года.
+	Для правильного перевода полов нужно задействовать оператор "INITIATOR_gender". Пока он не прописан, все глаголы изменены на настоящее информирующее время, как в ванили до 2020 года.
 	Оригинал: без запятой -->
 	<VFEM_Event_MeleeRound.rulePack.rulesStrings.1>r_logentry->[INITIATOR_definite] [skillfully] [surpassed] фехтование [SUBJECT_definite], [skill].</VFEM_Event_MeleeRound.rulePack.rulesStrings.1>
 	<!-- Оригинал: превзошёл(шла) -->
@@ -170,7 +170,6 @@
 	<VFEM_Event_ArcheryDisasterAudience.rulePack.rulesStrings.3>flew->усвистывает</VFEM_Event_ArcheryDisasterAudience.rulePack.rulesStrings.3>
 	<!-- Оригинал: flew->отдалилась -->
 	<VFEM_Event_ArcheryDisasterAudience.rulePack.rulesStrings.4>flew->устремляется</VFEM_Event_ArcheryDisasterAudience.rulePack.rulesStrings.4>
-  <VFEM_Event_ArcheryDisasterAudience.rulePack.rulesStrings.5>far->далеко</VFEM_Event_ArcheryDisasterAudience.rulePack.rulesStrings.5>
 	<!-- Оригинал: far->далеко -->
 	<VFEM_Event_ArcheryDisasterAudience.rulePack.rulesStrings.6>far->в сторону</VFEM_Event_ArcheryDisasterAudience.rulePack.rulesStrings.6>
 	<!-- Оригинал: far->далеко -->
