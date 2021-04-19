@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- Исправлена неточность, сообщите разработчику -->
+	<!-- Исправлена неточность, сообщите разработчику.
 
-	<!-- Оригиналы: все начинаются с заглавной буквы и с точкой в конце. Также отсутствуют буквы "ё" и кавычки-«ёлочки» -->
+	Оригиналы: все начинаются с заглавной буквы и с точкой в конце. Также отсутствуют буквы "ё" и кавычки-«ёлочки» -->
 	<Make_VWE_OPOrbBombGrenade.jobString>изготавливает маяк орбитальной бомбардировки</Make_VWE_OPOrbBombGrenade.jobString>
 	<Make_VWE_SmokeGrenade.jobString>изготавливает дымовые гранаты</Make_VWE_SmokeGrenade.jobString>
 	<Make_VWE_ToxicGrenade.jobString>изготавливает токсичные гранаты</Make_VWE_ToxicGrenade.jobString>
@@ -43,6 +43,7 @@
 	<Make_VWE_Gun_ChargeShotgun.jobString>изготавливает энергодробовик</Make_VWE_Gun_ChargeShotgun.jobString>
 	<Make_VWE_Gun_ChargeSniperRifle.jobString>изготавливает снайперскую энерговинтовку</Make_VWE_Gun_ChargeSniperRifle.jobString>
 	<Make_VWE_Gun_ChargeRocketLauncher.jobString>изготавливает энергоракетницу</Make_VWE_Gun_ChargeRocketLauncher.jobString>
+	<Make_VWE_Apparel_DynamiteBelt.jobString>изготавливает пояс с динамитными шашками</Make_VWE_Apparel_DynamiteBelt.jobString>
 	<!-- Эти гранаты не лишают слуха или зрения.
 	Оригиналы: все про "свето-шумовые" -->
 	<Make_VWE_FlashGrenade.label>изготовить парализующие гранаты</Make_VWE_FlashGrenade.label>
@@ -64,7 +65,7 @@
 	<Make_VWE_Gun_BattleRifle.label>изготовить универсальную винтовку</Make_VWE_Gun_BattleRifle.label>
 	<Make_VWE_Gun_BattleRifle.description>Изготовить универсальную винтовку.</Make_VWE_Gun_BattleRifle.description>
 	<Make_VWE_Gun_BattleRifle.jobString>изготавливает универсальную винтовку</Make_VWE_Gun_BattleRifle.jobString>
-	<!-- Надо бы конкретизировать эту ракетницу.
+	<!-- Ракетниц стало много, и надо бы конкретизировать эту модель.
 	Оригиналы: все про "ракетницу" -->
 	<Make_VWE_Gun_RocketLauncher.label>изготовить лёгкую ракетницу</Make_VWE_Gun_RocketLauncher.label>
 	<Make_VWE_Gun_RocketLauncher.description>Изготовить лёгкую ракетницу.</Make_VWE_Gun_RocketLauncher.description>
