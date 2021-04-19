@@ -1,37 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- исправлена неточность, сообщите разработчику -->
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
 
-	<!-- Оригинал: ...объемы... -->
-	<SewageTreatment.description>Сооружение масштабных водоочистных систем, накапливающих и перерабатывающих большие объёмы сточных вод.</SewageTreatment.description>
-
-	<!-- Оригинал: без кавычек -->
-	<AdvancedToilets.label>«Умные» унитазы</AdvancedToilets.label>
-	<!-- Оригинал: без кавычек... -->
-	<AdvancedToilets.description>Установка «умных» унитазов, комфортных и в два раза более водоэффективных в сравнении с обычными.</AdvancedToilets.description>
-
-	<!-- Оригинал: без кавычек -->
-	<AdvancedShowers.label>«Умный» душ</AdvancedShowers.label>
-
-	<!-- Оригинал: ...объемам... -->
-	<DeepWells.description>Бурение глубоких скважин, обеспечивающих доступ к большим объёмам артезианских вод.</DeepWells.description>
-
-	<!-- Оригинал: Установка дровяных и газовых бойлеров, баков для горячей воды и радиаторов -->
-	<CentralHeating.description>Установка продвинутых водонагревателей и теплообменников, автоматизация отопления.</CentralHeating.description>
-
-	<!-- исправлен конфликт модов, сообщите разработчикам dismarzero.VGP.VGPGardenTools и Dubwise.DubsBadHygiene -->
-
-	<!-- Оригинал: Компостирование -->
-	<SewageSludgeComposting.label>Переработка нечистот</SewageSludgeComposting.label>
-	<!-- Оригинал: Правильно переработанные нечистоты становятся твердыми биоотходами, питательными для почвы и пригодными для использования в качестве удобрения. -->
-	<SewageSludgeComposting.description>Правильно переработанные нечистоты становятся сыпучим перегноем, питательным для растений, и безопасным для грунтовых вод.</SewageSludgeComposting.description>
-
-	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
-
-	<!-- EN: heating -->
+	EN: heating -->
 	<LogBoilers.label>отопление</LogBoilers.label>
-	<!-- EN: Build log boilers which can be used to heat rooms and can be placed adjacent to baths to heat bathwater. -->
+	<!-- Описания бойлеров приведены к одному стилю.
+	EN: Build log boilers which can be used to heat rooms and can be placed adjacent to baths to heat bathwater. -->
 	<LogBoilers.description>Установка простых бойлеров и баков для горячей воды.</LogBoilers.description>
 	<!-- EN: modern bathroom fixtures -->
 	<ModernFixtures.label>продвинутая сантехника</ModernFixtures.label>
@@ -42,9 +17,31 @@
 	<!-- EN: Build swimming pools. -->
 	<SwimmingPools.description>Постройка бассейнов для купания, расслабления и развлечения.</SwimmingPools.description>
 
-	<!-- исправление согласно концепции «12+» -->
+	<!-- Исправлена неточность, сообщите разработчику.
 
-	<!-- Оригинал: Установка стиральных машин, отмывающих одежду так хорошо, что никто никогда не догадается, что в ней кто-то умер. -->
+	Оригинал: оба без "ё" -->
+	<SewageTreatment.description>Сооружение масштабных водоочистных систем, накапливающих и перерабатывающих большие объёмы сточных вод.</SewageTreatment.description>
+	<DeepWells.description>Бурение глубоких скважин, обеспечивающих доступ к большим объёмам артезианских вод.</DeepWells.description>
+
+	<!-- Оригиналы: все 3 без кавычек -->
+	<AdvancedToilets.label>«Умные» унитазы</AdvancedToilets.label>
+	<AdvancedToilets.description>Установка «умных» унитазов, комфортных и в два раза более водоэффективных в сравнении с обычными.</AdvancedToilets.description>
+	<AdvancedShowers.label>«Умный» душ</AdvancedShowers.label>
+
+	<!-- Устаревшее описание.
+	Оригинал: Установка дровяных и газовых бойлеров, баков для горячей воды и радиаторов -->
+	<CentralHeating.description>Установка продвинутых водонагревателей и теплообменников, автоматизация отопления.</CentralHeating.description>
+
+	<!-- Исправлен конфликт модов, сообщите разработчикам dismarzero.VGP.VGPGardenTools и Dubwise.DubsBadHygiene
+
+	Оригинал: Компостирование -->
+	<SewageSludgeComposting.label>Переработка нечистот</SewageSludgeComposting.label>
+	<!-- Оригинал: Правильно переработанные нечистоты становятся твердыми биоотходами, питательными для почвы и пригодными для использования в качестве удобрения. -->
+	<SewageSludgeComposting.description>Правильно переработанные нечистоты становятся сыпучим перегноем, питательным для растений, и безопасным для грунтовых вод.</SewageSludgeComposting.description>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: Установка стиральных машин, отмывающих одежду так хорошо, что никто никогда не догадается, что в ней кто-то умер. -->
 	<WashingMachines.description>Изготовление стиральных машин для одежды, отмывающих даже застарелые пятна крови.</WashingMachines.description>
 
 </LanguageData>
