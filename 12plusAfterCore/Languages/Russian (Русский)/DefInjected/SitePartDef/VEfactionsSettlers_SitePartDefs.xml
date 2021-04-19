@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	EN: Attacking {0} -->
+	<WantedHideout.approachingReportString>Нападает на {0}</WantedHideout.approachingReportString>
+	<!-- EN: Attack {0} -->
+	<WantedHideout.approachOrderString>Напасть на {0}</WantedHideout.approachOrderString>
+	<!-- EN: There is an enemy outpost in this area. -->
+	<WantedHideout.arrivedLetter>Поблизости обнаружен вражеский лагерь.</WantedHideout.arrivedLetter>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	В квесте Settlers_Wanted есть описание укрытия.
+	Нужна заглавная буква для ссылки из квеста.
+	Оригинал: безопасное укрытие -->
+	<WantedHideout.label>Местонахождение преступника</WantedHideout.label>
+	<!-- Оригинал: Безопасный дом для разыскиваемого криминального элемента. -->
+	<WantedHideout.description>Безопасное убежище для преступника, чтобы спрятаться, пока его ищут.</WantedHideout.description>
+
+</LanguageData>
