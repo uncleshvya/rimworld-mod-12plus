@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	EN: bandit leaders -->
+	<BanditLeader.labelPlural>главари бандитов</BanditLeader.labelPlural>
+	<!-- EN: mayors -->
+	<Mayor.labelPlural>мэры</Mayor.labelPlural>
+
+</LanguageData>
