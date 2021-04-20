@@ -9,9 +9,9 @@
 		<success>Always</success>
 		<operations>
 
-			<!-- Исправление согласно концепции «12+» -->
+			<!-- Исправление согласно концепции «12+»
 
-			<!-- Виноградный напиток -->
+			Виноградный напиток -->
 			<li Class="PatchOperationAttributeSet">
 				<xpath>Defs/ThingDef[defName = "VFEM_Wine"]</xpath>
 				<attribute>ParentName</attribute>
