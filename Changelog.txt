@@ -2,7 +2,8 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-04-20 добавлена адаптация для мода Vanilla Expanded Furniture Security и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
+2021-04-20 Начата работа по адаптации мода Vanilla Expanded Furniture Power. Тег "VEfurniturePower_".
+Добавлена адаптация для мода Vanilla Expanded Furniture Security и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 Перебалансирована самая явная имба - автономный пулемёт теперь заправляется химтопливом, а стволы не изнашиваются.
 Скомпилирована версия 12+мода 0.6.1beta.
 Пока не удалось разделить переводы для адаптированных модов, поэтому соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
@@ -124,7 +125,8 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-apr-20 VanillaExpanded.VFESecurity and Am.Rus.VFESecurity mods' adaptation added. Also corrected their errors, see code comments.
+2021-apr-20 VanillaExpanded.VFEPower and Inoshishi3.VanillaExpanded.VFEPowerRusPatch mods' adaptation work started. Tag "VEfurniturePower_".
+VanillaExpanded.VFESecurity and Am.Rus.VFESecurity mods' adaptation added. Also corrected their errors, see code comments.
 Had to rebalance the most rebarbative developers' mistake - now sentry gun needs chemfuel to work, but doesn't need barrel change.
 
 2021-apr-19 OskarPotocki.VanillaFactionsExpanded.SettlersModule and Inoshishi3.VanillaFactionsExpanded.SettlersModuleRusPatch mods' adaptation added. Also corrected their errors, see code comments.
