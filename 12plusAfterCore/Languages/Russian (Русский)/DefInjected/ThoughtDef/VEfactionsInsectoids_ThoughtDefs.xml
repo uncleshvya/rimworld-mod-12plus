@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- Исправлена неточность, сообщите разработчику -->
+	<!-- Исправлена неточность, сообщите разработчику.
 
-	<!-- Оригинал: увидел королеву инсектоидов -->
+	Оригинал: увидел королеву инсектоидов -->
 	<VFEI_SeenInsectoidQueen.stages.0.label>{PAWN_gender ? Увидел : Увидела} королеву инсектоидов</VFEI_SeenInsectoidQueen.stages.0.label>
 	<!-- Оригинал: увидел милосеницу -->
 	<VFEI_SeenCuterpillar.stages.0.label>{PAWN_gender ? Увидел : Увидела} золотинку</VFEI_SeenCuterpillar.stages.0.label>
