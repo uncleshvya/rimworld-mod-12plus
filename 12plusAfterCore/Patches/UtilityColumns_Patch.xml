@@ -4,14 +4,14 @@
 		<success>Always</success>
 		<operations>
 
-			<!-- исправлен конфликт модов, сообщите разработчикам nephlite.orbitaltradecolumn и dismarzero.VGP.VGPGardenTools -->
+			<!-- Исправлен конфликт модов, сообщите разработчикам nephlite.orbitaltradecolumn и dismarzero.VGP.VGPGardenTools -->
 
 			<li MayRequire="dismarzero.VGP.VGPGardenTools" Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "SunColumnMod"]/designationCategory/text()</xpath>
 				<value>GardenTools</value>
 			</li>
 
-			<!-- исправлен баланс, сообщите разработчику, что теперь колонна заряжается химтопливом по аналогии со взрывчаткой из ванили -->
+			<!-- Исправлен баланс, сообщите разработчику, что теперь колонна заряжается химтопливом по аналогии со взрывчаткой из ванили -->
 
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "DetColumnMod"]/comps/li[5]/fuelFilter/thingDefs/li[1]/text()</xpath>
