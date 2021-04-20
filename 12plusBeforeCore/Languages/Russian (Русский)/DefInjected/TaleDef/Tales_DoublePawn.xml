@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+  <!-- Исправление согласно концепции «12+».
 
-  <!-- Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core. -->
+  Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. И через ноды "rulesStrings.1" тоже. Пришлось создать суб мод перед Core.
 
-  <!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает: -->
+  Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN: person captured -->
+  EN: person captured -->
   <Captured.label>человек захвачен</Captured.label>
   <!-- EN:
     <li>tale_noun->[CAPTURER_nameDef] capturing [PRISONER_nameDef]</li>
@@ -58,14 +58,12 @@
     <li>desc_sentence->[CAPTURER_nameDef] пинает пленника без видимых на то причин.</li>
   </Captured.rulePack.rulesStrings>
 
-  <!-- исправление согласно концепции «12+» -->
-
   <!-- Оригинал: убит лидер вражеской фракции -->
   <DefeatedHostileFactionLeader.label>уничтожен лидер вражеской фракции</DefeatedHostileFactionLeader.label>
 
-  <!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает: -->
+  <!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN: surgery performed -->
+  EN: surgery performed -->
   <DidSurgery.label>операция проведена</DidSurgery.label>
   <!-- EN:
     <li>tale_noun->[SURGEON_nameDef] operating on [PATIENT_nameDef]</li>
@@ -100,8 +98,6 @@
   
   <!-- EN: prisoner executed -->
   <ExecutedPrisoner.label>пленник казнён</ExecutedPrisoner.label>
-
-  <!-- исправление согласно концепции «12+» -->
 
   <!-- Оригинал:
     ...
@@ -138,9 +134,9 @@
     <li>desc_sentence->[PRISONER_nameDef] выглядит демонстративно непокорно.</li>
   </ExecutedPrisoner.rulePack.rulesStrings>
 
-  <!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает: -->
+  <!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN: animal hunted -->
+  EN: animal hunted -->
   <Hunted.label>животное поймано</Hunted.label>
   <!-- EN:
     <li>tale_noun->[HUNTER_nameDef] hunting [PREY_nameDef]</li>
@@ -212,8 +208,6 @@
     <li>desc_sentence->[VICTIM_nameDef], похоже, страдает от серьёзных ран.</li>
   </KidnappedColonist.rulePack.rulesStrings>
 
-  <!-- исправление согласно концепции «12+» -->
-
   <!-- Оригинал: убийство -->
   <KilledBy.label>победа</KilledBy.label>
   <!-- Оригинал:
@@ -264,9 +258,9 @@
   <!-- Оригинал: убито животное поселения -->
   <KilledColonyAnimal.label>потеряно животное поселения</KilledColonyAnimal.label>
 
-  <!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает: -->
+  <!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN: person recruited -->
+  EN: person recruited -->
   <Recruited.label>человек завербован</Recruited.label>
   <!-- EN:
     <li>tale_noun->[RECRUITER_nameDef] recruiting [JOINER_nameDef]</li>
@@ -349,8 +343,6 @@
   <!-- EN: animal tamed -->
   <TamedAnimal.label>животное приручено</TamedAnimal.label>
 
-  <!-- исправление согласно концепции «12+» -->
-
   <!-- Оригинал:
     ...
     <li>desc_sentence->[ANIMAL_nameDef] агрессивно рычит.</li>
@@ -375,9 +367,9 @@
     <li>desc_sentence->видно, как [TAMER_nameDef], словно создаёт невидимую, но сильную волну любви в сторону [ANIMAL_nameDef].</li>
   </TamedAnimal.rulePack.rulesStrings>
 
-  <!-- Всё что ниже - без изменений, но необходимо оставить, иначе грамматика страдает: -->
+  <!-- Всё что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN: traded with someone -->
+  EN: traded with someone -->
   <TradedWith.label>проведена сделка</TradedWith.label>
   <!-- EN:
     <li>tale_noun->a trade between [SELLER_nameFull] and [BUYER_nameFull]</li>
