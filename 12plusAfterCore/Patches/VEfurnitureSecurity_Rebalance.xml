@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Исправлен баланс, сообщите разработчику, что теперь автономный пулемёт заправляется химтопливом по аналогии с электрогенератором на химтопливе из ванили.
+	Ну никак не могут 3 электродвигателя работать от аккумулятора, когда рядом стоит обычная турель с двумя электродвигателями, подключенная к розетке.
+	А технологический уровень турели не подразумевает ванометрическое ядро.
+	Использована реальная особенность охлаждения системы с вращающимся блоком стволов, см.описание переменной VFES_Turret_SentryGun и пушки -->
+
+	<Operation MayRequire="VanillaExpanded.VFESecurity" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "VFES_Turret_SentryGun"]/comps/li[4]/fuelFilter/thingDefs/li[1]/text()</xpath>
+				<value>Chemfuel</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "VFES_Turret_SentryGun"]/comps/li[1]</xpath>
+				<value>
+					<!-- Двойной взрыв - сначала боекомплект, потом остатки топлива -->
+					<li Class="CompProperties_Explosive">
+						<explosiveRadius>3.9</explosiveRadius>
+						<explosiveDamageType>Flame</explosiveDamageType>
+						<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+						<preExplosionSpawnChance>1</preExplosionSpawnChance>
+						<chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+					</li>
+				</value>
+			</li>
+			<!-- Обойма пропорциональна затратам металла, относительно ванильной турели -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "VFES_Turret_SentryGun"]/comps/li[4]/fuelCapacity/text()</xpath>
+				<value>120</value> <!-- 20 очередей -->
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "VFES_Turret_SentryGun"]/comps/li[4]/fuelMultiplier/text()</xpath>
+				<value>4</value> <!-- 30 химтоплива за обойму, согласно описанию -->
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "VFES_Turret_SentryGun"]/comps/li[4]/fuelIconPath/text()</xpath>
+				<value>Things/Item/Resource/Chemfuel</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "VFES_Turret_SentryGun"]/costList</xpath>
+				<value>
+					<costList>
+						<Chemfuel>30</Chemfuel> <!-- в оригинале 0. Заливаем полный бак -->
+						<Steel>100</Steel> <!-- в оригинале 130 -->
+						<ComponentIndustrial>6</ComponentIndustrial> <!-- в оригинале 6 -->
+					</costList>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>
