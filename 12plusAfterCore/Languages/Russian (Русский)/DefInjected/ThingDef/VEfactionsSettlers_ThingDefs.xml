@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	Перевод взят с ванили.
+	EN: Mote -->
+	<Mote_HoldingKnife.label>частица</Mote_HoldingKnife.label>
+	<!-- EN: grip -->
+	<VFES_Gun_DoubleActionRevolver.tools.grip.label>рукоять</VFES_Gun_DoubleActionRevolver.tools.grip.label>
+	<!-- EN: barrel -->
+	<VFES_Gun_DoubleActionRevolver.tools.barrel.label>ствол</VFES_Gun_DoubleActionRevolver.tools.barrel.label>
+	<!-- EN: double-action revolver -->
+	<VFES_Gun_DoubleActionRevolver.verbs.Verb_Shoot.label>ковбойский револьвер</VFES_Gun_DoubleActionRevolver.verbs.Verb_Shoot.label>
+	<!-- EN: stock -->
+	<VFES_Gun_HuntingRifle.tools.stock.label>приклад</VFES_Gun_HuntingRifle.tools.stock.label>
+	<!-- EN: barrel -->
+	<VFES_Gun_HuntingRifle.tools.barrel.label>ствол</VFES_Gun_HuntingRifle.tools.barrel.label>
+	<!-- EN: hunting rifle -->
+	<VFES_Gun_HuntingRifle.verbs.Verb_Shoot.label>винтовка с оптикой</VFES_Gun_HuntingRifle.verbs.Verb_Shoot.label>
+	<!-- EN: throw dynamite -->
+	<VFES_Weapon_GrenadeDynamite.verbs.throw_dynamite.label>бросить динамит</VFES_Weapon_GrenadeDynamite.verbs.throw_dynamite.label>
+	<!-- EN: frag grenade -->
+	<VFES_Proj_Dynamite.label>подожжённый динамит</VFES_Proj_Dynamite.label>
+	<!-- EN: handle -->
+	<VFES_Tomahawk.tools.handle.label>рукоять</VFES_Tomahawk.tools.handle.label>
+	<!-- EN: blade -->
+	<VFES_Tomahawk.tools.blade.label>лезвие</VFES_Tomahawk.tools.blade.label>
+	<!-- EN: tomahawk -->
+	<VFES_Tomahawk.verbs.Verb_Shoot.label>томагавк</VFES_Tomahawk.verbs.Verb_Shoot.label>
+	<!-- EN: throwing tomahawk -->
+	<VFES_Tomahawk_Thrown.label>летящий томагавк</VFES_Tomahawk_Thrown.label>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: Опасный алкоголь, как правило, потребляется исследователями и жителями промышленных поселений. В то время как химблеск снимает грусть и боль, "химия" наполняет тело пьющего, что приводит к мощному взрыву после его смерти. -->
+	<Chemshine.description>Опасный напиток, продукт переработки химтоплива в алкоголь. Молекулы спирта расслабляют потребителя, но организм наполняется продуктами распада химтоплива, и при серьёзных травмах происходит мощный взрыв, разрушающий всё и вся.\n\nГлотни химблеска и почувствуй себя бумалопой!</Chemshine.description>
+
+	<!-- Исправлен конфликт модов, сообщите разработчикам Inoshishi3.VanillaFactionsExpanded.SettlersModuleRusPatch и Dubwise.DubsBadHygiene.
+
+	Оригинал: химбойлер -->
+	<ChemBoiler.label>печь на химтопливе</ChemBoiler.label>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Лучше избегать слова "которое".
+	Оригинал: Устройство, которое превращает химическое...тепло. Его простое устройство не позволяет регулировать... -->
+	<ChemBoiler.description>Устройство для превращения химического топлива в тепло. Примитивная конструкция не даёт возможности регулировать температуру.</ChemBoiler.description>
+
+	<!-- Оригинал: двухствольное ружьё -->
+	<VFES_Gun_DoubleBarreledShotgun.label>двуствольное ружьё</VFES_Gun_DoubleBarreledShotgun.label>
+	<!-- EN: double-barreled shotgun -->
+	<VFES_Gun_DoubleBarreledShotgun.verbs.Verb_Shoot.label>двуствольное ружьё</VFES_Gun_DoubleBarreledShotgun.verbs.Verb_Shoot.label>
+	<!-- EN: stock -->
+	<VFES_Gun_DoubleBarreledShotgun.tools.stock.label>приклад</VFES_Gun_DoubleBarreledShotgun.tools.stock.label>
+	<!-- EN: barrel -->
+	<VFES_Gun_DoubleBarreledShotgun.tools.barrel.label>стволы</VFES_Gun_DoubleBarreledShotgun.tools.barrel.label>
+
+	<!-- Оригинал: ...поверхностью для иргы в фаро. Игра для двух игроков. -->
+	<TableFaro.description>Двухместный стол с мягкой поверхностью для игры в фаро.</TableFaro.description>
+
+	<!-- Оригинал: ...игры "Филе пять пальцев" -->
+	<TableFiveFingerFilet.label>стол для игры «Филе пять пальцев»</TableFiveFingerFilet.label>
+	<!-- Оригинал: ...игры "Филе пять пальцев". Можно...она также медленно... -->
+	<TableFiveFingerFilet.description>Деревянный стол для игры «Филе пять пальцев». Можно потерять палец или два.\n\nХотя эта игра в тыканье ножа между пальцами рук приводит к порезам на пальцах игрока, она медленно тренирует навык ближнего боя.</TableFiveFingerFilet.description>
+
+	<!-- Большой вопрос - почему в ванили несоответствие предлогов: "Стрела короткого лука" и "Пуля ИЗ пистолета"? Надо проанализировать всю историю группы переводчиков в ВК, и историю пулл реквестов с обсуждениями на гитхабе. Это довольно долго, но есть в планах. В принципе, можно наличие предлогов объяснить исторической особенностью снарядов. Стрелы часто использовались повторно, практически без обработки, а использованные пули годятся только на переплавку, за исключением попавших в воду. Да и те скорее утонут в иле водоёма, чем будут использованы повторно. Не забываем про деформацию пули во время прохода по стволу. То есть "стрела короткого лука" означает "короткая стрела, пригодная для данного типа лука", а "пуля из пистолета" означает "пуля, вылетевшая из этого оружия, и ей осталось существовать только миг до попадания, затем конкретно эта пуля будет безвозвратно потеряна для использования". Вероятно, это следствие использования унитарных патронов, когда пригодной к повторному использованию остаётся только гильза.
+	Оригинал: пуля пулемета Гатлинга -->
+	<Bullet_GatlingGun.label>пуля из многоствольного пулемёта с ручным приводом</Bullet_GatlingGun.label>
+	<!-- Исправлен конфликт модов, сообщите разработчикам Am.Rus.VFESecurity и Inoshishi3.VanillaFactionsExpanded.SettlersModuleRusPatch.
+	Оригинал: турель пулемета Гатлинга -->
+	<Turret_GatlingGun.label>пулемёт с ручным приводом</Turret_GatlingGun.label>
+	<!-- В ванили "автоматический", используется в значении "без человека". Вероятно, это сделано с целью избежать путаницы со словом "автоматизированный".
+	Там же "турель" - в значении "орудие на турельной установке с системой самонаведения".
+	Оригинал: Простой автоматический пулемёт в лице управляемой турели. Чем дольше стреляет эта турель, тем больше скорость стрельбы. Может взорваться при повреждении. -->
+	<Turret_GatlingGun.description>Небольшой переносимый многоствольный пулемёт на простой опоре. Блок стволов вращается от ручного привода, так что первые несколько выстрелов будут с низким темпом, но после разгона пулемёт способен прямо-таки косить врага сплошным градом пуль.\n\nДля ремонта изношенных стволов требуется сталь. Может взорваться при повреждении.</Turret_GatlingGun.description>
+	<!-- EN: Barrel durability -->
+	<Turret_GatlingGun.comps.CompRefuelable.fuelGizmoLabel>Прочность стволов</Turret_GatlingGun.comps.CompRefuelable.fuelGizmoLabel>
+	<!-- EN: Shots until barrel change -->
+	<Turret_GatlingGun.comps.CompRefuelable.fuelLabel>Выстрелов до замены стволов</Turret_GatlingGun.comps.CompRefuelable.fuelLabel>
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_GatlingGun.comps.CompRefuelable.outOfFuelMessage>Стрельба невозможна: нужны новые стволы</Turret_GatlingGun.comps.CompRefuelable.outOfFuelMessage>
+	<!-- Оригинал: пулемёт Гатлинга -->
+	<Gun_GatlingGun.label>станковый многоствольный пулемёт</Gun_GatlingGun.label>
+	<!-- EN: gatling gun -->
+	<Gun_GatlingGun.verbs.Verb_Shoot.label>станковый многоствольный пулемёт</Gun_GatlingGun.verbs.Verb_Shoot.label>
+	<!-- Оригинал: Простой автоматический пулемёт. -->
+	<Gun_GatlingGun.description>Многоствольный пулемёт с ручным приводом, предназначенная для крепления к простой опоре — станку.</Gun_GatlingGun.description>
+
+</LanguageData>
