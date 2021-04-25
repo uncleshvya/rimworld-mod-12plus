@@ -29,7 +29,7 @@ For English, scroll down.
 "VEfurnitureSecurity_";
 "VEstews_";
 "VEweapons_";
-"VGPgardenTools_".
+"VGPtools_".
 
 2021-04-19 добавлена адаптация для мода Vanilla Expanded Factions Settlers и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 
@@ -154,7 +154,7 @@ There are some unsolved problems with cataloging, so the files were marked with 
 "VEfurnitureSecurity_";
 "VEstews_";
 "VEweapons_";
-"VGPgardenTools_".
+"VGPtools_".
 
 2021-apr-15 OskarPotocki.VanillaFactionsExpanded.MedievalModule and Inoshishi3.VanillaFactionsExpanded.MedievalModuleRusPatch mods' adaptation added. Also corrected their errors, see code comments.
 
