@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<!-- Использование программного кода, предоставленного jecrell. Копия лицензии - в файле JecsTools_licenseMIT.txt  -->
+	<!-- Использование программного кода, предоставленного jecrell. Копия лицензии - в файле JecsTools_licenseMIT.txt
 
-	<!-- MIT
+	MIT
 	Copyright (c) 2017 jecrell
 	-->
 
@@ -33,9 +33,9 @@
 				</value>
 			</li>
 
-			<!-- Исправлен баланс, сообщите разработчику, что выключенное огнеплазменное оружие не должно светиться во тьме -->
+			<!-- Исправлен баланс, сообщите разработчику, что выключенное огнеплазменное оружие не должно светиться во тьме
 
-			<!-- Резак -->
+			Резак -->
 			<li MayRequire="OskarPotocki.VFE.Insectoid" Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "VFE_Gun_Plasmacutter"]/comps</xpath>
 				<value>
@@ -109,9 +109,9 @@
 		<success>Always</success>
 		<operations>
 
-			<!-- Исправлен баланс, сообщите разработчику, что лишние категории засоряют список -->
+			<!-- Исправлен баланс, сообщите разработчику, что лишние категории засоряют список.
 
-			<!-- Для сыра инсектоидов, он ведь есть в рецептах, пришлось подшаманить: -->
+			Для сыра инсектоидов, он ведь есть в рецептах, пришлось подшаманить: -->
 			<li Class="PatchOperationAttributeSet">
 				<xpath>Defs/ThingDef[defName = "VCE_InsectCheese"]</xpath>
 				<attribute>ParentName</attribute>
