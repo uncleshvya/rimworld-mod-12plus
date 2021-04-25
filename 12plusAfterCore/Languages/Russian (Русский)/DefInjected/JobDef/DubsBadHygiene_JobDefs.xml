@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- исправлена неточность, сообщите разработчику -->
+	<!-- Исправлена неточность, сообщите разработчику.
 
-	<!-- Оригинал: наблюдает за циклом отжима -->
+	Оригинал: наблюдает за циклом отжима -->
 	<WatchWashingMachine.reportString>смотрит, как стирается бельё</WatchWashingMachine.reportString>
-	<!-- Оригинал: пьет... -->
+	<!-- Оригинал: пьет дождевую... -->
 	<DBHDrinkFromGround.reportString>пьёт дождевую воду</DBHDrinkFromGround.reportString>
-	<!-- Оригинал: пьет... -->
+	<!-- Оригинал: пьет воду... -->
 	<DBHDrinkFromBasin.reportString>пьёт воду из TargetA</DBHDrinkFromBasin.reportString>
+	<!-- Оригинал: поит TargetA -->
+	<DBHAdministerFluids.reportString>поит TargetB из TargetA</DBHAdministerFluids.reportString>
 
-	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
 
-	<!-- EN: filling water bottle from TargetA -->
+	EN: filling water bottle from TargetA -->
 	<DBHPackWaterBottle.reportString>Набирает воду про запас</DBHPackWaterBottle.reportString>
 	<!-- EN: stockpiling water from TargetA -->
 	<DBHStockpileWaterBottles.reportString>Наполняет бутылки водой из TargetA</DBHStockpileWaterBottles.reportString>
