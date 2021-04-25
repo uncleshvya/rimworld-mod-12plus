@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
 <Patch>
 
-	<!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+» -->
 
 	<Operation MayRequire="dismarzero.VGP.VGPGardenTools" Class="PatchOperationSequence">
 		<success>Always</success>
@@ -17,7 +16,7 @@
 				</value>
 			</li>
 
-	<!-- исправлена неточность, сообщите разработчику, что навоз и грязь перемешивают на земле, приложить фотки с википедии -->
+	<!-- Исправлена неточность, сообщите разработчику, что навоз и грязь перемешивают на земле, приложить фотки с википедии -->
 
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/RecipeDef[
@@ -28,7 +27,7 @@
 				<value>CraftingSpot</value>
 			</li>
 
-	<!-- исправлена неточность, сообщите разработчику про цвет места раскопок -->
+	<!-- Исправлена неточность, сообщите разработчику, что коричневое место раскопок сливается с рабочим местом. Изменён на зелёный -->
 
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "VG_DiggingSpot"]/graphicData</xpath>
@@ -36,6 +35,7 @@
 					<color>(0, 200, 0)</color>
 				</value>
 			</li>
+
 		</operations>
 	</Operation>
 </Patch>
