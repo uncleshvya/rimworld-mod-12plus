@@ -29,30 +29,23 @@
 	<WaterTreatment.description>Отфильтровывает 99,99% микроорганизмов! Очищает воду, накопленную в резервуарах, и используемую в сантехнике, устраняя риск заболеваний.</WaterTreatment.description>
 	<WaterTreatment_Frame.description>Отфильтровывает 99,99% микроорганизмов! Очищает воду, накопленную в резервуарах, и используемую в сантехнике, устраняя риск заболеваний.</WaterTreatment_Frame.description>
 
-	<!-- Оригинал: Спринклер -->
+	<!-- Оригиналы: все 4 начинаются с заглавной буквы -->
 	<IrrigationSprinkler.label>спринклер</IrrigationSprinkler.label>
-	<!-- Оригинал: ...утро увеличивая плодородность почву в течение...объемов... -->
-	<IrrigationSprinkler.description>Поливает окружающую зону каждое утро, увеличивая плодородность почвы в течение дня. Требует больших объёмов воды для орошения.</IrrigationSprinkler.description>
-	<!-- Оригинал: Спринклер -->
 	<IrrigationSprinkler_Blueprint.label>спринклер</IrrigationSprinkler_Blueprint.label>
-	<!-- Оригинал: Спринклер... -->
 	<IrrigationSprinkler_Blueprint_Install.label>спринклер (проект)</IrrigationSprinkler_Blueprint_Install.label>
-	<!-- Оригинал: Спринклер... -->
 	<IrrigationSprinkler_Frame.label>спринклер (в процессе сборки)</IrrigationSprinkler_Frame.label>
-	<!-- Оригинал: ...утро увеличивая плодородность почву в течение...объемов... -->
+	<!-- Оригиналы: ...утро увеличивая плодородность почву в течение...объемов... -->
+	<IrrigationSprinkler.description>Поливает окружающую зону каждое утро, увеличивая плодородность почвы в течение дня. Требует больших объёмов воды для орошения.</IrrigationSprinkler.description>
 	<IrrigationSprinkler_Frame.description>Поливает окружающую зону каждое утро, увеличивая плодородность почвы в течение дня. Требует больших объёмов воды для орошения.</IrrigationSprinkler_Frame.description>
 
-	<!-- Оригинал: Пожарный... -->
+	<!-- Оригиналы: все 4 начинаются с заглавной буквы -->
 	<FireSprinkler.label>пожарный спринклер</FireSprinkler.label>
-	<!-- Оригиналы: Активируется при возгорании или высокой температуре и подавляет пламя струями воды. -->
+	<FireSprinkler_Blueprint.label>пожарный спринклер (проект)</FireSprinkler_Blueprint.label>
+	<FireSprinkler_Blueprint_Install.label>пожарный спринклер (проект)</FireSprinkler_Blueprint_Install.label>
+	<FireSprinkler_Frame.label>пожарный спринклер (в процессе сборки)</FireSprinkler_Frame.label>
+	<!-- Оригиналы: Активируется при возгорании...воды. -->
 	<FireSprinkler.description>Активируется автоматически при возгорании или высокой температуре и подавляет пламя струями воды. Есть режим ручной проверки спринклера.</FireSprinkler.description>
 	<FireSprinkler_Frame.description>Активируется автоматически при возгорании или высокой температуре и подавляет пламя струями воды. Есть режим ручной проверки спринклера.</FireSprinkler_Frame.description>
-	<!-- Оригинал: Пожарный... -->
-	<FireSprinkler_Blueprint.label>пожарный спринклер (проект)</FireSprinkler_Blueprint.label>
-	<!-- Оригинал: Пожарный... -->
-	<FireSprinkler_Blueprint_Install.label>пожарный спринклер (проект)</FireSprinkler_Blueprint_Install.label>
-	<!-- Оригинал: Пожарный... -->
-	<FireSprinkler_Frame.label>пожарный спринклер (в процессе сборки)</FireSprinkler_Frame.label>
 
 	<!-- Оригиналы: оба без "ё" -->
 	<ToiletStallDoor.description>Тонкая дверца, создающая уединённое пространство для пользования сантехникой. Не разделяет пространство на комнаты и не препятствует передаче тепла.</ToiletStallDoor.description>
@@ -141,7 +134,7 @@
 
 	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
 
-	Перегонный завод теперь нужен не только для химтоплива. Да и другие моды добавляют разные рецепты.
+	Перегонный завод теперь перегоняет химтопливо не только из ванильных материалов. Да и другие моды добавляют разные рецепты.
 	Оригинал: Используется для получения химического топлива из древесины или растительного сырья. -->
 	<BiofuelRefinery.description>Используется для получения экстрактов из растительного или животного сырья.</BiofuelRefinery.description>
 	<!-- EN: swimming pool -->
