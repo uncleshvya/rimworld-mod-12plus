@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- исправлена неточность, сообщите разработчику -->
+	<!-- Исправлена неточность, сообщите разработчику.
 
-	<!-- Оригинал (настройка спринклера): Создать вокруг солнечной лампы область для выращивания, соответствующую радиусу её действия. (действует и для мода vgp Garden tools) -->
-	<CommandSunLampMakeGrowingZoneDesc>Создать рядом область для выращивания, соответствующую радиусу действия устройства.</CommandSunLampMakeGrowingZoneDesc>
-
-	<!-- EN: Connected demand/capacity: {0}/{1} U ({2}) -->
+	EN: Connected demand/capacity: {0}/{1} U ({2}) -->
 	<!-- Оригинал: Предоставляемый нагрев: {0} U ({1}) -->
 	<ConnectedHeatingCapacity>Потребление тепла в контуре: {0} единиц. Производство тепла в контуре: {1} единиц (удовлетворяет на {2})</ConnectedHeatingCapacity>
 	<!-- Оригинал: Температура радиатора: {0} -->
@@ -143,9 +140,12 @@
 	<!-- Оригинал: Только заключенные -->
 	<PrisonersOnly>Только для заключённых</PrisonersOnly>
 
-	<!-- исправлен конфликт модов, сообщите разработчикам dismarzero.VGP.VGPGardenTools и Dubwise.DubsBadHygiene -->
+	<!-- Исправлен конфликт модов, сообщите разработчикам:
+	dismarzero.VGP.VGPGardenTools
+	Unknown.Perevod.dismarzero.VGP.VGPGardenTools
+	Dubwise.DubsBadHygiene
 
-	<!-- Оригинал: Нет компоста -->
+	Оригинал: Нет компоста -->
 	<NoCompostingMaterial>Нет перегноя</NoCompostingMaterial>
 	<!-- Оригинал: Содержит компоста {0}/{1} -->
 	<ContainsCompost>Содержит перегноя {0}/{1}</ContainsCompost>
@@ -168,8 +168,11 @@
 	<!-- EN: Designate areas to fertilize with biosolids. -->
 	<AreaPlaceFertilizerDesc>Обозначить, где нужно обогащать почву перегноем.</AreaPlaceFertilizerDesc>
 
-	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
 
+	Из-за спринклеров подправляем ваниль.
+	Оригинал: Создать вокруг солнечной лампы область для выращивания, соответствующую радиусу её действия. -->
+	<CommandSunLampMakeGrowingZoneDesc>Создать рядом область для выращивания, соответствующую радиусу действия устройства.</CommandSunLampMakeGrowingZoneDesc>
 	<!-- EN: Passive coolers use water -->
 	<PassiveWaterCoolersLink>Вода в простых охладителях</PassiveWaterCoolersLink>
 	<!-- EN: Passive coolers have their wood fueling removed and are instead filled with water, similar to water tubs. -->
