@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- исправлена неточность, сообщите разработчику -->
+	<!-- Исправлена неточность, сообщите разработчику.
 
-	<!-- Оригинал: сжечь в яме -->
+	Оригинал: сжечь в яме -->
 	<DoBillsBurnPit.label>сжигать в яме</DoBillsBurnPit.label>
 	<!-- Оригинал: сгрести нечистоты в бочки -->
 	<RemoveSewage.label>сгребать нечистоты в бочку</RemoveSewage.label>
@@ -52,9 +52,9 @@
 	<!-- Оригинал: опрокидывать -->
 	<TipSewage.gerund>опрокинуть</TipSewage.gerund>
 
-	<!-- исправлен конфликт модов, сообщите разработчикам dismarzero.VGP.VGPGardenTools и Dubwise.DubsBadHygiene -->
+	<!-- Исправлен конфликт модов, сообщите разработчикам dismarzero.VGP.VGPGardenTools и Dubwise.DubsBadHygiene.
 
-	<!-- Оригинал: достать компост из компостеров -->
+	Оригинал: достать компост из компостеров -->
 	<UnloadComposter.label>доставать перегной из баков</UnloadComposter.label>
 	<!-- Оригинал: доставать компост из -->
 	<UnloadComposter.gerund>достать перегной из</UnloadComposter.gerund>
@@ -75,9 +75,9 @@
 	<!-- EN: fertilize -->
 	<PlaceFertilizer.verb>обогащать</PlaceFertilizer.verb>
 
-	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
 
-	<!-- EN: drain water -->
+	EN: drain water -->
 	<DrainWaterTank.label>сливать воду из резервуаров</DrainWaterTank.label>
 	<!-- EN: draining -->
 	<DrainWaterTank.gerund>слить всю воду из</DrainWaterTank.gerund>
