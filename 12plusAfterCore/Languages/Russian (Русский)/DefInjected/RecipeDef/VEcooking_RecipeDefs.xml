@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+».
 
-	<!-- Оригинал: приготовить масло из дымолиста -->
+	Оригинал: приготовить масло из дымолиста -->
 	<VCE_SmokeleafButter.label>приготовить зелёное масло</VCE_SmokeleafButter.label>
 	<!-- Оригинал: Приготовить масло из дымолиста. -->
 	<VCE_SmokeleafButter.description>Приготовить зелёное масло из молочных сливок и специй. Получается нежная масса зеленоватого цвета с отличным вкусом. Хорошо подойдёт тем, кто не любит много пряностей, но ценит изысканный вкус.</VCE_SmokeleafButter.description>
 	<!-- Оригинал: готовит масло из дымолиста -->
 	<VCE_SmokeleafButter.jobString>готовит зелёное масло</VCE_SmokeleafButter.jobString>
 
-	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
 
-	<!-- EN: can fruit x20 -->
+	EN: can fruit x20 -->
 	<VCE_CanFruit.label>законсервировать ягоды х20</VCE_CanFruit.label>
 	<!-- EN: Safely store fruit in a steel can. Canning food extends its shelf life almost indefinitely.\n\nPreserved fruit can be used in the production of desserts. -->
 	<VCE_CanFruit.description>Сделать ягодные консервы. Это продлит срок годности еды практически до бесконечности.\n\nКонсервированные ягоды можно будет так же использовать для приготовления десертов, как и свежие.</VCE_CanFruit.description>
@@ -36,10 +36,8 @@
 	<VCE_MakeSaltfromBlocks.description>Раздробить каменные блоки в поисках каменной соли. Полученные крупицы очистить и перемолоть для использования в кулинарии.</VCE_MakeSaltfromBlocks.description>
 	<!-- EN: Making salt from blocks. -->
 	<VCE_MakeSaltfromBlocks.jobString>добывает соль</VCE_MakeSaltfromBlocks.jobString>
-
-	<!-- исправлена неточность, сообщите разработчику, что ваниль нужно подправлять -->
-
-	<!-- Оригинал: приготовить вкусное блюдо -->
+	<!-- Градация блюд расширилась. Подправляем ваниль.
+	Оригинал: приготовить вкусное блюдо -->
 	<CookMealFine.label>приготовить отличное блюдо</CookMealFine.label>
 	<!-- Оригинал: Приготовить вкусное сбалансированное... -->
 	<CookMealFine.description>Приготовить сбалансированное блюдо из ингредиентов растительного и животного происхождения.</CookMealFine.description>
@@ -52,9 +50,9 @@
 	<!-- Оригинал: Готовит 4 вкусных блюда -->
 	<CookMealFineBulk.jobString>готовит 4 отличных блюда</CookMealFineBulk.jobString>
 
-	<!-- исправлена неточность, сообщите разработчику -->
+	<!-- Исправлена неточность, сообщите разработчику.
 
-	<!-- Оригинал: Приготовить простую выпечку. -->
+	Оригинал: Приготовить простую выпечку. -->
 	<VCE_CookBakeSimple.description>Приготовить простую выпечку из муки.</VCE_CookBakeSimple.description>
 	<!-- Оригинал: Приготовить простую выпечку. -->
 	<VCE_CookBakeSimpleBulk.description>Приготовить простую выпечку из муки.</VCE_CookBakeSimpleBulk.description>
