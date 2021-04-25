@@ -26,7 +26,7 @@
 - «VEfurnitureSecurity_Rebalance.xml»;
 - концепция и сейвы не пострадают.
 
-Текущая версия 12plus мода: v0.6.1beta rev.2021.04.20.
+Текущая версия 12plus мода: v0.6.2beta rev.2021.04.25.
 
 =====
 
@@ -93,7 +93,7 @@ Had to rebalance some mods, see changelog file. But if you don't like these chan
 - "VEfurnitureSecurity_Rebalance.xml";
 - saves will be playable, concept — workable.
 
-Current 12plus mod version 0.6.1beta rev.2021.04.20.
+Current 12plus mod version 0.6.2beta rev.2021.04.25.
 
 =====
 
@@ -198,6 +198,8 @@ Ideas to realize in next version:
 		<li>Inoshishi3.VanillaFactionsExpanded.MedievalModuleRusPatch</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.SettlersModule</li>
 		<li>Inoshishi3.VanillaFactionsExpanded.SettlersModuleRusPatch</li>
+		<li>VanillaExpanded.VFEPower</li>
+		<li>Inoshishi3.VanillaExpanded.VFEPowerRusPatch</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
