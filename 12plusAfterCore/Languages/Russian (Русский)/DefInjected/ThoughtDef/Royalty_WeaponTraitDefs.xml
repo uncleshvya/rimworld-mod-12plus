@@ -1,14 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+».
 
-  <!-- EN: My bonded weapon {WEAPON} is angry it has gone so long without killing. I can feel its rage. -->
-  <KillThirst.stages.s_kill_thirst.description>Моё оружие, {WEAPON}, злится из-за того, что долго никого не ранило. Я чувствую его ярость.</KillThirst.stages.s_kill_thirst.description>
-  
-  <!-- EN: {WEAPON}'s kill sorrow -->
-  <OnKill_BadThought.stages.s_kill_sorrow.label>{WEAPON} скорбит по жертвам</OnKill_BadThought.stages.s_kill_sorrow.label>
-  <!-- EN: {WEAPON}'s sorrow over its kill is affecting my mind as well. -->
-  <OnKill_BadThought.stages.s_kill_sorrow.description>Моё оружие, {WEAPON}, скорбит по побеждённым противникам, и его скорбь захватывает мой разум.</OnKill_BadThought.stages.s_kill_sorrow.description>
+	Оригинал: ...никого не убивал. Я чувствую... -->
+	<KillThirst.stages.s_kill_thirst.description>Моё оружие, {WEAPON}, злится из-за того, что долго никого не ранило. Я чувствую его ярость.</KillThirst.stages.s_kill_thirst.description>
+	<!-- Оригинал: ...скорбит по убитым -->
+	<OnKill_BadThought.stages.s_kill_sorrow.label>{WEAPON} скорбит по жертвам</OnKill_BadThought.stages.s_kill_sorrow.label>
+	<!-- Оригинал: ...скорбит по убитым противникам... -->
+	<OnKill_BadThought.stages.s_kill_sorrow.description>Моё оружие, {WEAPON}, скорбит по побеждённым противникам, и его скорбь захватывает мой разум.</OnKill_BadThought.stages.s_kill_sorrow.description>
 
 </LanguageData>
