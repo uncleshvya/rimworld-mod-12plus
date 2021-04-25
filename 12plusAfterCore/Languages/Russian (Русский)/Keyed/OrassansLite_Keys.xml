@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- добавлена русская локализация, сообщите разработчику -->
+	<!-- Добавлена русская локализация, сообщите разработчику.
 
-	<!-- EN: Immune to cold -->
+	EN: Immune to cold -->
 	<OrassansColdImmunePlants>Может расти даже на морозе</OrassansColdImmunePlants>
 
-	<!-- EN: Drilling is finished. Deconstruct the drill. -->
+	<!-- Перевод не проверен, т.к. в моде используется часть кода из полной версии.
+	EN: Drilling is finished. Deconstruct the drill. -->
 	<BetharianBorerFinished>Бурение завершено. Разберите установку.</BetharianBorerFinished>
 	<!-- EN: Boring progress: {0} -->
 	<BetharianBorerDrilling>Прогресс бурения: {0}</BetharianBorerDrilling>
