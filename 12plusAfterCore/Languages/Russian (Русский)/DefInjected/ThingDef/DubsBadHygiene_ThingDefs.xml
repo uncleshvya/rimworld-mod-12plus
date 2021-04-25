@@ -141,7 +141,10 @@
 
 	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
 
-	EN: swimming pool -->
+	Перегонный завод теперь нужен не только для химтоплива. Да и другие моды добавляют разные рецепты.
+	Оригинал: Используется для получения химического топлива из древесины или растительного сырья. -->
+	<BiofuelRefinery.description>Используется для получения экстрактов из растительного или животного сырья.</BiofuelRefinery.description>
+	<!-- EN: swimming pool -->
 	<DBHSwimmingPool.label>бассейн</DBHSwimmingPool.label>
 	<!-- EN: Swimming pool used for hydrotherapy, relaxation, or pleasure. Must be filled with water from water towers first. -->
 	<DBHSwimmingPool.description>Бассейны используются для купания, расслабления и развлечения. Перед использованием следует наполнить водой из труб.</DBHSwimmingPool.description>
