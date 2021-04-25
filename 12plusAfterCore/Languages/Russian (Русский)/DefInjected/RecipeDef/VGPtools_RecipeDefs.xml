@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику -->
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
 
-	<!-- EN: make biosolids fertilizer -->
+	EN: make biosolids fertilizer -->
 	<MakeBiosolidFertilizerHand.label>сделать перегной</MakeBiosolidFertilizerHand.label>
 	<!-- EN: Make biosolids fertilizer from fecal sludge and soil. -->
 	<MakeBiosolidFertilizerHand.description>Сделать удобрение из фекалий и почвы. Это быстрый рецепт, но часто небезопасный, так как для уничтожения болезнетворных микробов и яиц глистов, фекалии следует переработать в навозном баке.</MakeBiosolidFertilizerHand.description>
@@ -17,9 +17,9 @@
 	<!-- EN: Making fertilizer. -->
 	<MakeGardenFertilizerHand.jobString>делает удобрение</MakeGardenFertilizerHand.jobString>
 
-	<!-- Исправлена неточность, сообщите разработчику -->
+	<!-- Исправлена неточность, сообщите разработчику.
 
-	<!-- Оригинал: копать землю 4 раза -->
+	Оригинал: копать землю 4 раза -->
 	<VG_DigSoil_Bulk.label>копать землю вчетверо дольше</VG_DigSoil_Bulk.label>
 
 	<!-- Оригинал: Сделать удобрение -->
@@ -28,9 +28,9 @@
 	<!-- Оригинал: Делает компостнуя заготовку -->
 	<MakeBulkCompostStarter.jobString>делает компостную заготовку</MakeBulkCompostStarter.jobString>
 
-	<!-- Исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+».
 
-	<!-- Оригинал: Кремировать труп в удобрения. По умолчанию все отключено. -->
+	Оригинал: Кремировать труп в удобрения. По умолчанию все отключено. -->
 	<FertilizerCorpse.description>Кремировать туши животных в удобрение. По умолчанию все запрещены.</FertilizerCorpse.description>
 
 	<!-- Оригинал: Кремировать труп в удобрение на костре. Гораздо менее эффективнее крематория. По умолчанию все отключено. -->
