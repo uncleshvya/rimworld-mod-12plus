@@ -10,12 +10,16 @@
 	<!-- EN: Cannot detonate: Needs ammo -->
 	<DetColumnMod.comps.CompRefuelable.outOfFuelMessage>Не защищает — нужно перезарядить</DetColumnMod.comps.CompRefuelable.outOfFuelMessage>
 
-	<!-- Исправлен конфликт модов, сообщите разработчикам nephlite.orbitaltradecolumn и dismarzero.VGP.VGPGardenTools
+	<!-- Исправлен конфликт модов, сообщите разработчикам:
+	nephlite.orbitaltradecolumn
+	gaster.orbitaltradecolumn
+	dismarzero.VGP.VGPGardenTools
+	Unknown.Perevod.dismarzero.VGP.VGPGardenTools
 
 	Оригинал: Колонна с солнечной лампой -->
-	<SunColumnMod.label>колонна с большой солнечной лампой</SunColumnMod.label>
+	<SunColumnMod.label>колонна с большой солнечной лампой и подогревом</SunColumnMod.label>
 	<!-- Оригинал: Полезная колонна, действует как солнечная лампа и сохраняет тепло в комнате, идеально подходит для теплиц. Автоматически выключается ночью. -->
-	<SunColumnMod.description>Большая промышленная лампа, светит достаточно ярко для роста посевов, но потребляет огромное количество энергии. Автоматически отключается ночью. Поддерживает крышу.</SunColumnMod.description>
+	<SunColumnMod.description>Мощная производственная лампа, встроенная в колонну. Освещает местность достаточно ярко для роста посевов, но требует огромного количества энергии. Автоматически отключается по ночам. Поддерживает крышу.\n\nВстроен большой обогреватель, полезный для закрытых теплиц.</SunColumnMod.description>
 	<!-- Многие растения из модов не спят ночью, к тому же грибы - не растения.
 	Оригинал: Выключается когда растения отдыхают -->
 	<SunColumnMod.comps.4.offMessage>Отключена на ночь</SunColumnMod.comps.4.offMessage>
@@ -25,7 +29,7 @@
 	Оригинал: Простая колонна, просто освещает территорию. -->
 	<LightColumnMod.description>Колонна со встроенным светильником, просто разгоняет тьму и поддерживает крышу.</LightColumnMod.description>
 	<!-- Оригинал: Полезная колонна, действует как орбитальный торговый маяк, и освещает территорию, идеально подходит для складов. -->
-	<OrbitalTradeColumnMod.description>Колонна со встроенным орбитальным торговым маяком. Освещает область и поддерживает крышу.</OrbitalTradeColumnMod.description>
+	<OrbitalTradeColumnMod.description>Колонна со встроенным орбитальным торговым маяком. Освещает местность и поддерживает крышу.</OrbitalTradeColumnMod.description>
 	<!-- Оригинал: ...кондицианером -->
 	<IceColumnMod.label>Колонна с кондиционером</IceColumnMod.label>
 	<!-- Оригинал: Полезная колонна, работающая как холодильник, поддерживает температуру в помещении на уровне -15°C и излучает синий свет, что идеально подходит для холодильников. -->
