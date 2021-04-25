@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+».
 
-	<!-- EN: Bones from a once living thing. Useful for building structures or weapons. A bone can be used as a weapon in a pinch. -->
+	EN: Bones from a once living thing. Useful for building structures or weapons. A bone can be used as a weapon in a pinch. -->
 	<BoneItem.description>Кости животных. Твёрдый строительный материал. Крупная кость — это готовая дубина. Большие кости содержат внутри питательный костный мозг, а за счёт своей герметичности являются самыми первыми мясными консервами — древние люди запасали неповреждённые кости впрок и могли почти месяц жить после окончания охоты, питаясь костным мозгом.</BoneItem.description>
 
-	<!-- добавлена русская локализация, сообщите разработчику, что у этих вещей не прописан перевод: -->
+	<!-- Добавлена русская локализация, сообщите разработчику.
 
-	<!-- EN: bone -->
+	Перегонный завод теперь нужен не только для химтоплива. Да и другие моды добавляют разные рецепты.
+	Оригинал: Используется для получения химического топлива из древесины или растительного сырья. -->
+	<BiofuelRefinery.description>Используется для получения экстрактов из растительного или животного сырья.</BiofuelRefinery.description>
+	<!-- У нижеследующих 3 материалов не прописан перевод:
+	EN: bone -->
 	<BoneItem.stuffProps.stuffAdjective>кости</BoneItem.stuffProps.stuffAdjective>
 	<!-- EN: bonecrete -->
 	<Bonecrete.stuffProps.stuffAdjective>костяного бетона</Bonecrete.stuffProps.stuffAdjective>
 	<!-- EN: calcium polymer -->
 	<BonePlastic.stuffProps.stuffAdjective>кальциевого полимера</BonePlastic.stuffProps.stuffAdjective>
-
-	<!-- добавлена русская локализация, сообщите разработчику -->
 
 	<!-- EN: bone chair -->
 	<BoneChair.label>костяной трон</BoneChair.label>
@@ -66,9 +68,8 @@
 	<!-- EN: Basically Jello. It is smooth, rich, and brings joy to those who consume it. Because of its unique biological properties, it can nourish almost any creature and never rots. -->
 	<ROMB_Gelatin.description>Органический компонент кости, в основном используется для приготовления желе — прохладного студенистого лакомства. Желатин легко усваивается любым видом существ и имеет большой срок годности.</ROMB_Gelatin.description>
 
-	<!-- на всякий случай сохранено описание светильника -->
-
-	<!-- EN: skull candles -->
+	<!-- На случай развития мода сохранено описание светильника:
+	EN: skull candles -->
 	<Jecrell_Bone_Candelabra.label>череп-канделябр</Jecrell_Bone_Candelabra.label>
 	<!-- EN: A pile of bones topped with wax candles to illuminate the area. Can be automatically refilled with wax. Produces a small amount of heat. -->
 	<Jecrell_Bone_Candelabra.description>Светильник в виде черепа на куче костей, увенчанных восковыми свечами. Освещает ближайшую область и немного нагревает воздух. По мере сгорания свечей можно ставить новые из воска.</Jecrell_Bone_Candelabra.description>
