@@ -1,18 +1,30 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправлена неточность, сообщите разработчику.
 
-  <!-- EN: butcher creatures -->
-  <DoBillsButcherFlesh.label>разделывать туши животных</DoBillsButcherFlesh.label>
+	Появились рецепты шлема, арфы и др.
+	Конкретизированы ванильные кузни - для модов на новые верстаки.
+	Оригинал: изготавливать оружие -->
+	<DoBillsMakeWeapons.label>ковать на кузне</DoBillsMakeWeapons.label>
+	<!-- Оригинал: изготовить оружие на -->
+	<DoBillsMakeWeapons.gerund>ковать на</DoBillsMakeWeapons.gerund>
+	<!-- Оригинал: изготовить оружие на -->
+	<DoBillsMakeWeapons.verb>ковать на</DoBillsMakeWeapons.verb>
 
-  <!-- EN: do cremation bills -->
-  <DoBillsCremate.label>кремировать тела</DoBillsCremate.label>
+	<!-- Исправление согласно концепции «12+».
 
-  <!-- EN: haul corpses -->
-  <HaulCorpses.label>переносить тела</HaulCorpses.label>
+	Оригинал: разделывать существ -->
+	<DoBillsButcherFlesh.label>разделывать туши животных</DoBillsButcherFlesh.label>
 
-  <!-- EN: strip corpses -->
-  <Strip.label>раздевать тела</Strip.label>
+	<!-- Сглажена ссылка на трупы - для модов, добавляющих рецепты в крематорий.
+	Оригинал: кремировать трупы -->
+	<DoBillsCremate.label>сжигать в крематории</DoBillsCremate.label>
+
+	<!-- Оригинал: переносить трупы -->
+	<HaulCorpses.label>переносить тела</HaulCorpses.label>
+
+	<!-- Оригинал: раздевать трупы -->
+	<Strip.label>раздевать тела</Strip.label>
 
 </LanguageData>
