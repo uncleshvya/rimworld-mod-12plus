@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- исправлена неточность, сообщите разработчику -->
+	<!-- Исправлена неточность, сообщите разработчику.
 
-	<!-- Оригинал: Добывать на месте раскопок -->
+	Оригинал: Добывать на месте раскопок -->
 	<DoBillsUseDiggingSpot.label>выкапывать почву</DoBillsUseDiggingSpot.label>
 	<!-- Оригинал: Копать -->
 	<DoBillsUseDiggingSpot.verb>добывать почву</DoBillsUseDiggingSpot.verb>
