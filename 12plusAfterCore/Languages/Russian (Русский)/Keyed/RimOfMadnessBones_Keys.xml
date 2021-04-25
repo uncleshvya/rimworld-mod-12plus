@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
 
-	<!-- EN: Spider spawn rate multiplier -->
+	EN: Spider spawn rate multiplier -->
 	<ROM_SettingsBoneMultiplier>Сколько спавнится пауков</ROM_SettingsBoneMultiplier>
 	<!-- EN: Bone multiplier ({0}x) -->
 	<ROM_SettingsBoneMultiplier_Num>Двигайте ползунок. Количество костей в существах умножается на {0}</ROM_SettingsBoneMultiplier_Num>
