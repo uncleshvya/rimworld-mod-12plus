@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	Сглажена ссылка на трупы - для модов, добавляющих рецепты в крематорий.
+	EN: burn at gas powered crematorium -->
+	<VPE_BurnGasCrematorium.label>сжигать в газовом крематории</VPE_BurnGasCrematorium.label>
+	<!-- EN: burn at -->
+	<VPE_BurnGasCrematorium.verb>сжигать, используя</VPE_BurnGasCrematorium.verb>
+	<!-- EN: burning at -->
+	<VPE_BurnGasCrematorium.gerund>сжигать, используя</VPE_BurnGasCrematorium.gerund>
+
+	<!-- На кузне можно изготавливать не только оружие.
+	EN: make weapons -->
+	<VPE_DoBillsGasSmithy.label>ковать на газовой кузне</VPE_DoBillsGasSmithy.label>
+	<!-- EN: smith -->
+	<VPE_DoBillsGasSmithy.verb>ковать на</VPE_DoBillsGasSmithy.verb>
+	<!-- EN: smithing at -->
+	<VPE_DoBillsGasSmithy.gerund>ковать на</VPE_DoBillsGasSmithy.gerund>
+
+	<!-- EN: work at refinery -->
+	<VPE_DoBillsGasRefinery.label>работать с газовым перегонным аппаратом</VPE_DoBillsGasRefinery.label>
+	<!-- EN: refine chemicals -->
+	<VPE_DoBillsGasRefinery.verb>работать, используя</VPE_DoBillsGasRefinery.verb>
+	<!-- EN: refining chemicals at -->
+	<VPE_DoBillsGasRefinery.gerund>работать, используя</VPE_DoBillsGasRefinery.gerund>
+
+	<!-- Симметрично подправляем ваниль.
+	Кстати, корректнее будет всё же работать С устройством.
+	Оригинал: работать за перегонным аппаратом -->
+	<DoBillsRefinery.label>работать с электрическим перегонным аппаратом</DoBillsRefinery.label>
+
+</LanguageData>
