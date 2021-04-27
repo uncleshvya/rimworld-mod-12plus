@@ -2,6 +2,8 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
+2021-04-27 начата работа над адаптацией для мода Android Tiers и его русификатора. Тег "AndroidTiers_".
+
 2021-04-25 добавлена адаптация для мода Vanilla Expanded Furniture Power и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 Скомпилирована версия 12+мода 0.6.2beta.
 Пока не удалось разделить переводы для адаптированных модов, поэтому соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
@@ -126,6 +128,8 @@ For English, scroll down.
 2019-11-06 придумана основная концепция. Спасибо игроку Roma за вдохновение.
 
 Changelog for Rimworld's 12plus modification.
+
+2021-apr-27 Atlas.AndroidTiers and Android.Tiers.RUS mods' adaptation work started. Tag "AndroidTiers_".
 
 2021-apr-25 VanillaExpanded.VFEPower and Inoshishi3.VanillaExpanded.VFEPowerRusPatch mods' adaptation added. Also corrected their errors, see code comments.
 UncleShvya.12plus mod v.0.6.2beta compiled.
