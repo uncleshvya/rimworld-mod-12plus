@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- добавлена русская локализация, сообщите разработчику -->
+	<!-- Добавлена русская локализация, сообщите разработчику.
 
-	<!-- EN: orassan tail -->
+	EN: orassan tail -->
 	<OTail.label>хвост орассан</OTail.label>
 	<!-- EN: A long furry Feline Tail. -->
 	<OTail.description>Длинный пушистый кошачий хвост.</OTail.description>
