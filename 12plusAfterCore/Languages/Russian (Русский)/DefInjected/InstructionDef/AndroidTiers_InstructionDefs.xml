@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	Оригинал: ...место для животных\nвнутри... -->
+	<BuildAnimalSleepingSpot.onMapInstruction>Постройте спальное место для питомцев\nвнутри помещения</BuildAnimalSleepingSpot.onMapInstruction>
+	<!-- Оригинал: ...место для животных внутри... -->
+	<BuildAnimalSleepingSpot.rejectInputMessage>Пожалуйста, разместите спальное место для питомцев внутри этого помещения.</BuildAnimalSleepingSpot.rejectInputMessage>
+	<!-- Оригинал: ...лежанки для животных. -->
+	<BuildAnimalSleepingSpot.text>Чтобы питомец спал рядом с хозяевами, разместите спальное место внутри помещения.\n\nСпальные места — метки, обозначающие лежанки для прирученных существ.</BuildAnimalSleepingSpot.text>
+
+</LanguageData>
