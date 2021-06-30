@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	EN: left ear -->
+	<Alien_OrassanHumanHybrid.alienRace.generalSettings.alienPartGenerator.bodyAddons.1.bodyPart>левое ухо</Alien_OrassanHumanHybrid.alienRace.generalSettings.alienPartGenerator.bodyAddons.1.bodyPart>
+	<!-- EN: right ear -->
+	<Alien_OrassanHumanHybrid.alienRace.generalSettings.alienPartGenerator.bodyAddons.2.bodyPart>правое ухо</Alien_OrassanHumanHybrid.alienRace.generalSettings.alienPartGenerator.bodyAddons.2.bodyPart>
+	<!-- EN: left ear -->
+	<Alien_Orassan.alienRace.generalSettings.alienPartGenerator.bodyAddons.1.bodyPart>левое ухо</Alien_Orassan.alienRace.generalSettings.alienPartGenerator.bodyAddons.1.bodyPart>
+	<!-- EN: right ear -->
+	<Alien_Orassan.alienRace.generalSettings.alienPartGenerator.bodyAddons.2.bodyPart>правое ухо</Alien_Orassan.alienRace.generalSettings.alienPartGenerator.bodyAddons.2.bodyPart>
+
+</LanguageData>
