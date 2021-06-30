@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageData>
-
-  <!-- исправлена неточность, сообщите разработчику -->
-
-  <!-- EN: Warning: The person you are trying to arrest may not go quietly.\n\nIf you arrest a non-colonist or a colonist from another faction, their entire faction may become your enemy. \n\nThis arrest has a {0} chance of succeeding, based on the social skill of the arrester. -->
-  <ArrestingCreatesEnemies.helpText>Внимание: Человек, которого вы попытаетесь арестовать, может начать сопротивляться.\n\nЕсли вы арестуете колониста или не-колониста из другой фракции, вся эта фракция станет вашим врагом. \n\nС учётом социальных навыков поселенца, проводящего арест, шанс успеха составляет {0}.</ArrestingCreatesEnemies.helpText>
-
-</LanguageData>
