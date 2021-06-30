@@ -1,40 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- исправлена неточность, сообщите разработчику -->
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику
 
-	<!-- Оригинал: Нечистоты на клетку -->
-	<SewageGridCapacity.label>Нечистот на клетку</SewageGridCapacity.label>
-	<!-- Оригинал: Расход горячей воды -->
-	<WaterHeatingRate.label>Горячая вода</WaterHeatingRate.label>
-	<!-- Оригинал: Шанс загрязнения -->
-	<ContaminationChance.label>Шанс заразиться</ContaminationChance.label>
-	<!-- Оригинал:  -->
-	<SewageProcRate.label>Септики</SewageProcRate.label>
-	<!-- Оригинал:  -->
-	<SewageProcRate.tip>Скорость удаления нечистот в септиках и водоочистных установках</SewageProcRate.tip>
-
-	<!-- исправлен конфликт модов, сообщите разработчикам dismarzero.VGP.VGPGardenTools и Dubwise.DubsBadHygiene -->
-
-	<!-- Оригинал: Удобрение -->
-	<FertilizerGridStrength.label>Обогащение почвы</FertilizerGridStrength.label>
-	<!-- Оригинал: Влияние удобрения на плодородность почвы -->
-	<FertilizerGridStrength.tip>Влияние обогащения почвы перегноем на её плодородность</FertilizerGridStrength.tip>
-	<!-- EN: Fertilizer lifespan -->
-	<FertilizerLifespan.label>Срок для перегноя</FertilizerLifespan.label>
-	<!-- EN: How long terrain remains fertilized after applying fertilizer -->
-	<FertilizerLifespan.tip>Как долго почва считается обогащённой после добавления перегноя</FertilizerLifespan.tip>
-
-	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
-
-	<!-- EN: Hygiene need rate -->
-	<HygieneRateD.label>Скорость загрязнения</HygieneRateD.label>
-	<!-- EN: How fast hygiene need decreases -->
-	<HygieneRateD.tip>Насколько быстро формируется нужда в гигиенических процедурах</HygieneRateD.tip>
+	EN: Hygiene need rate -->
+	<HygieneRateD.label>Частота мытья</HygieneRateD.label>
+	<!-- Во всех подсказках при настройке мода исправлены неясности.
+	EN: How fast hygiene need decreases -->
+	<HygieneRateD.tip>Насколько быстро формируется нужда в гигиенических процедурах (значение можно изменить только в главном меню игры)</HygieneRateD.tip>
 	<!-- EN: Bladder need rate -->
 	<BladderRateD.label>Туалет</BladderRateD.label>
 	<!-- EN: How fast bladder need decreases -->
-	<BladderRateD.tip>Насколько быстро формируется нужда в туалете</BladderRateD.tip>
+	<BladderRateD.tip>Насколько быстро формируется нужда в туалете (значение можно изменить только в главном меню игры)</BladderRateD.tip>
 	<!-- EN: Thirst need rate -->
 	<ThirstRateD.label>Жажда</ThirstRateD.label>
 	<!-- EN: How fast thirst need decreases -->
@@ -60,5 +37,48 @@
 	<FertilizerLifespan.options.9.label>10 дней</FertilizerLifespan.options.9.label>
 	<!-- EN: 1 day -->
 	<FertilizerLifespan.options.10.label>1 день</FertilizerLifespan.options.10.label>
+
+	<!-- Исправлен конфликт модов, сообщите разработчикам dismarzero.VGP.VGPGardenTools и Dubwise.DubsBadHygiene
+
+	Оригинал: Удобрение -->
+	<FertilizerGridStrength.label>Обогащение почвы</FertilizerGridStrength.label>
+	<!-- Оригинал: Влияние удобрения на плодородность почвы -->
+	<FertilizerGridStrength.tip>Влияние обогащения почвы перегноем на её плодородность (значение можно изменить только в главном меню игры)</FertilizerGridStrength.tip>
+	<!-- EN: Fertilizer lifespan -->
+	<FertilizerLifespan.label>Срок для перегноя</FertilizerLifespan.label>
+	<!-- EN: How long terrain remains fertilized after applying fertilizer -->
+	<FertilizerLifespan.tip>Как долго почва считается обогащённой после добавления перегноя</FertilizerLifespan.tip>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Оригинал: Множитель подачи воды насосами -->
+	<WaterPumpCapacity.tip>Множитель подачи воды насосами (значение можно изменить только в главном меню игры)</WaterPumpCapacity.tip>
+	<!-- Оригинал: Количество нечистот, образующихся при каждом смыве -->
+	<FlushSize.tip>Количество нечистот, образующихся при каждом смыве (значение можно изменить только в главном меню игры)</FlushSize.tip>
+	<!-- Оригинал: Нечистоты на клетку -->
+	<SewageGridCapacity.label>Нечистот на клетку</SewageGridCapacity.label>
+	<!-- Оригинал: Лимит нечистот, помещающихся на одну клетку поверхности -->
+	<SewageGridCapacity.tip>Лимит нечистот, помещающихся на одну клетку поверхности (значение можно изменить только в главном меню игры)</SewageGridCapacity.tip>
+	<!-- Оригинал: Исчезновение нечистот -->
+	<SewageCleanupRateB.label>Самоочищение</SewageCleanupRateB.label>
+	<!-- Оригинал: Скорость исчезновения нечистот с поверхности со временем -->
+	<SewageCleanupRateB.tip>Скорость исчезновения нечистот с поверхности со временем (значение можно изменить только в главном меню игры)</SewageCleanupRateB.tip>
+	<!-- Оригинал: Расход горячей воды -->
+	<WaterHeatingRate.label>Горячая вода</WaterHeatingRate.label>
+	<!-- Оригинал: Расход горячей воды во время водных процедур -->
+	<WaterHeatingRate.tip>Расход горячей воды во время водных процедур (значение можно изменить только в главном меню игры)</WaterHeatingRate.tip>
+	<!-- Оригинал: Шанс загрязнения -->
+	<ContaminationChance.label>Шанс заразиться</ContaminationChance.label>
+	<!-- Игра рассчитана на одно поселение.
+	Оригинал: Шанс для колониста заразиться из-за неочищенной воды -->
+	<ContaminationChance.tip>Шанс для поселенца заразиться из-за неочищенной воды (значение можно изменить только в главном меню игры)</ContaminationChance.tip>
+	<!-- Оригинал: Очистка нечистот -->
+	<SewageProcRate.label>Септики</SewageProcRate.label>
+	<!-- Оригинал: Скорость очистки нечистот... -->
+	<SewageProcRate.tip>Скорость удаления нечистот в септиках и водоочистных установках (значение можно изменить только в главном меню игры)</SewageProcRate.tip>
+	<!-- Оригинал: Влияние орошения на плодородность почвы -->
+	<IrrigationGridStrength.tip>Влияние орошения на плодородность почвы (значение можно изменить только в главном меню игры)</IrrigationGridStrength.tip>
+	<!-- Оригинал: Базовое значение плодородности почвы -->
+	<TerrainFertilityFactor.tip>Базовое значение плодородности почвы (значение можно изменить только в главном меню игры)</TerrainFertilityFactor.tip>
 
 </LanguageData>
