@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <BackstoryTranslations>
 
 	<!-- Offworld_Specific_Adult -->
@@ -3568,7 +3568,7 @@
 		<!-- EN: ganger -->
 		<titleShort>шпана</titleShort>
 		<!-- EN: [PAWN_nameDef] grew up homeless on an urbworld. [PAWN_pronoun] was forced to fight and struggle for everything, making [PAWN_objective] hard and ruthless long before adulthood.\n\n[PAWN_nameDef] would have stayed in those streets, had [PAWN_pronoun] not been injured in a shootout and had [PAWN_possessive] body confiscated for use by one of the worldwide city's ruling corporations. -->
-		<desc>{PAWN_nameDef} растёт сиротой в урбанизированном мире, и {PAWN_objective} приходится биться и сражаться буквально за всё. Такие качества, как жестокость и безжалостность, {PAWN_nameDef} вырабатывает задолго до взросления.\n\n{PAWN_objective} так и пришлось бы остаться на улицах, если бы {PAWN_possessive} не ранили в перестрелке, а тело бы не забрала одна из крупнейших правящих корпораций.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? рос : росла} сиротой на перенаселённом мире, и {PAWN_gender ? был вынужден : была вынуждена} биться и сражаться буквально за всё. Такие качества, как жестокость и безжалостность, {PAWN_nameDef} {PAWN_gender ? выработал : выработала} задолго до взросления.\n\n{PAWN_pronoun} так бы и {PAWN_gender ? сгинул : сгинула} на грязных улицах, если бы {PAWN_possessive} не подстрелили в результате стычки банд. В больнице раненого подростка заметила сотрудница одной из крупнейших правящих корпораций, оценила потенциал личности и взяла под свою опеку.</desc>
 	</GangMember83>
 
 	<!-- Darius Coffey, Male, Adulthood -->
