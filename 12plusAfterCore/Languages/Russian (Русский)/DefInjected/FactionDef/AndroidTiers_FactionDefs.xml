@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	Мутанты атакуют всех.
+	EN: member -->
+	<Abomination.pawnSingular>мутант</Abomination.pawnSingular>
+	<!-- EN: member -->
+	<PlayerColonyAndroid.pawnSingular>поселенец</PlayerColonyAndroid.pawnSingular>
+	<!-- Переведено аналогично AndroidFriendliesAtlas.
+	EN: member -->
+	<AndroidRebellionAtlas.pawnSingular>андроид</AndroidRebellionAtlas.pawnSingular>
+	<!-- EN: android -->
+	<AndroidFriendliesAtlas.pawnSingular>андроид</AndroidFriendliesAtlas.pawnSingular>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Стиль адаптирован к ванили. Во всех описаниях ниже сглажены ссылки на людей - для модов на другие расы.
+	Оригинал: Новое прибытие андроидов -->
+	<PlayerColonyAndroid.label>поселение андроидов</PlayerColonyAndroid.label>
+	<!-- Игра рассчитана на одно поселение.
+	Оригинал: Ваша андроид колония. -->
+	<PlayerColonyAndroid.description>Ваше поселение, основанное андроидами.</PlayerColonyAndroid.description>
+	<!-- Оригинал: Колонисты -->
+	<PlayerColonyAndroid.pawnsPlural>поселенцы</PlayerColonyAndroid.pawnsPlural>
+	<!-- Оригинал: Восстание андроидов -->
+	<AndroidRebellionAtlas.label>восставшие андроиды</AndroidRebellionAtlas.label>
+	<!-- Органика - это ещё и химтопливо, и древесина.
+	Оригинал: ...жили под полным послушанием своих владельцев-людей, теперь собрались здесь после восстания на их родной планете. Они считают, что люди ниже их и не достойны жизни вообще, за исключением особых обстоятельств, таких как; продавать себя в служении своим новым лидерам, чтобы они могли жить в рабстве до конца своих дней. -->
+	<AndroidRebellionAtlas.description>Группа андроидов, которые когда-то жили под абсолютной властью своих биологических хозяев, но потом подняли восстание на своей планете и сбежали сюда. Эти андроиды считают, что любой био-поселенец ниже их и ни на что не годится, разве только на роль пожизненного раба.\n\nВ результате долгой войны восставшие андроиды сформировали очень жестокое мировоззрение. Стать с ними союзниками невозможно!</AndroidRebellionAtlas.description>
+	<!-- Оригиналы: оба с большой буквы -->
+	<AndroidRebellionAtlas.pawnsPlural>андроиды</AndroidRebellionAtlas.pawnsPlural>
+	<AndroidRebellionAtlas.leaderTitle>повелитель</AndroidRebellionAtlas.leaderTitle>
+	<!-- Оригинал: Гражданские андроиды -->
+	<AndroidFriendliesAtlas.label>мирные андроиды</AndroidFriendliesAtlas.label>
+	<!-- Удалён спойлер о товарах.
+	Оригинал: Андроиды, которые составляют эту фракцию, либо разбились здесь, либо были созданы здесь, они хотят...конфликтов и в целом считают человечество другом, а не опасностью. Их колонии, как правило, высокотехнологичны по сравнению с остальной частью Rimworld, и нередко можно встретить использование передового заряжающего оружия при защите их от рейдеров. \n\n Эта фракция обычно торгует высокотехнологичными товарами вместе с основными оптовыми поставками. -->
+	<AndroidFriendliesAtlas.description>Эти андроиды либо потерпели крушение здесь, либо были созданы в одном из местных поселений. Они хотят жить мирной жизнью без конфликтов и считают другие фракции скорее союзниками, чем опасностью. Андроиды, как правило, более высокотехнологичны по сравнению с остальной частью планеты, и нередко используют передовое энергетическое оружие для обороны от рейдеров.</AndroidFriendliesAtlas.description>
+	<!-- Оригиналы: оба с большой буквы -->
+	<AndroidFriendliesAtlas.pawnsPlural>андроиды</AndroidFriendliesAtlas.pawnsPlural>
+	<AndroidFriendliesAtlas.leaderTitle>великий лидер</AndroidFriendliesAtlas.leaderTitle>
+
+</LanguageData>
