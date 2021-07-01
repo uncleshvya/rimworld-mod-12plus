@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<!-- исправлена неточность, сообщите разработчику -->
+	<!-- Исправлена неточность, сообщите разработчику.
 
-	<!-- Оригинал: Сбор мёда с TargetA. -->
-	<HarvestHoney.reportString>Извлекает мёда из TargetA.</HarvestHoney.reportString>
+	Оригинал: Сбор мёда с TargetA. -->
+	<HarvestHoney.reportString>Извлекает мёд из TargetA</HarvestHoney.reportString>
 
 </LanguageData>
