@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	Стиль приведён к ванили.
+	EN: do mechanical crafting bills -->
+	<DoBillsRobotics.label>работать за робоверстаком</DoBillsRobotics.label>
+
+	<!-- Мод АТ добавил домашних роботов.
+	Пришлось использовать менее точную формулировку, в случае лечения диких животных. Примем уточнение к понятию "питомец" - не только приручённые, но и все окружённые заботой животные. Как у егерей.
+	Оригинал: ...медпроцедуры животным -->
+	<DoBillsMedicalAnimalOperation.label>проводить медпроцедуры питомцам</DoBillsMedicalAnimalOperation.label>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	У этих двух работ разные исполнители - врач и животновод. Добавлены намёки на это.
+	Оригинал: кормить животных -->
+	<DoctorFeedAnimals.label>кормить питомцев-пациентов</DoctorFeedAnimals.label>
+	<!-- Оригинал: кормить животных -->
+	<HandlingFeedPatientAnimals.label>кормить питомцев в хлеву</HandlingFeedPatientAnimals.label>
+	<!-- Оригинал: лечить животных -->
+	<DoctorTendToAnimals.label>лечить питомцев</DoctorTendToAnimals.label>
+	<!-- Оригинал: доить животных -->
+	<Milk.label>доить питомцев</Milk.label>
+	<!-- Оригинал: стричь животных -->
+	<Shear.label>стричь питомцев</Shear.label>
+	<!-- Оригинал: забивать животных -->
+	<Slaughter.label>забивать питомцев</Slaughter.label>
+	<!-- Оригинал: тренировать животных -->
+	<Train.label>тренировать питомцев</Train.label>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Оригинал: работать -->
+	<DoBillsRobotics.verb>работать, используя</DoBillsRobotics.verb>
+	<!-- Оригинал: работать в -->
+	<DoBillsRobotics.gerund>работать, используя</DoBillsRobotics.gerund>
+
+</LanguageData>
