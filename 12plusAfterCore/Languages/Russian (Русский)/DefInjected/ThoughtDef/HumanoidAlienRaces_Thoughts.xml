@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- добавлена русская локализация, сообщите разработчику -->
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
 
-	<!-- EN: xenophobe vs xenophile -->
+	EN: xenophobe vs xenophile -->
 	<XenophobeVsXenophile.stages.0.label>ксенофоб и ксенофил</XenophobeVsXenophile.stages.0.label>
 
 	<!-- EN: xenophile loves aliens -->
@@ -20,5 +20,14 @@
 	<AlienVsXenophobia.stages.0.label>одобряю ксенофилию</AlienVsXenophobia.stages.0.label>
 	<!-- EN: alien hated by xenophobe -->
 	<AlienVsXenophobia.stages.1.label>не одобряю ксенофобию</AlienVsXenophobia.stages.1.label>
+
+	<!-- Оригинал: ...эмоции другого человека, как будто... -->
+	<PsychicHarmonization.stages.psychic_harmony.description>Пси-гармонайзер заставляет меня испытывать эмоции другого индивидуума, как будто бы мы очень близки друг к другу.</PsychicHarmonization.stages.psychic_harmony.description>
+
+	<!-- Оригинал: Такое едят простолюдины. Я требую... -->
+	<AteFoodInappropriateForTitle.stages.ate_lowclass_food.description>Такое ест всякая деревенщина. Я требую к себе отношения, соответствующего моему титулу.</AteFoodInappropriateForTitle.stages.ate_lowclass_food.description>
+
+	<!-- Оригинал: ...зале. Простолюдины будут... -->
+	<ReignedInThroneroom.stages.unbelievably_impressive_throneroom.description>Я {PAWN_gender ? восседал : восседала} в восхитительном тронном зале. Поселенцы будут поражены моим величием.</ReignedInThroneroom.stages.unbelievably_impressive_throneroom.description>
 
 </LanguageData>
