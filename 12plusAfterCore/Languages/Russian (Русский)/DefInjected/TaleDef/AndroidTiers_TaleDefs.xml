@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Переработаны все структуры - в русском языке предложения строятся не так, как в английском.
+	Оригинал: Перегрев андроида -->
+	<AndroidOverheating.label>перегрев андроида</AndroidOverheating.label>
+	<!-- Оригинал: без "ё" -->
+	<AndroidOverheating.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef] становится всё более горячим</AndroidOverheating.rulePack.rulesStrings.0>
+	<!-- Оригинал: tale_noun->[pawn_nameShortDef] перегрев -->
+	<AndroidOverheating.rulePack.rulesStrings.1>tale_noun->[pawn_nameShortDef] перегревается</AndroidOverheating.rulePack.rulesStrings.1>
+	<!-- Оригинал: image->[pawn_nameFull] пробираясь сквозь песок [circumstance_group] -->
+	<AndroidOverheating.rulePack.rulesStrings.2>image->[pawn_nameFull], увязая в песке, [circumstance_group]</AndroidOverheating.rulePack.rulesStrings.2>
+	<!-- Оригинал: image->[pawn_nameFull] запиханный в тень [terrainfeature] [circumstance_group] -->
+	<AndroidOverheating.rulePack.rulesStrings.3>image->[pawn_nameFull], мечтая спрятаться в тень, которую отбрасывает [terrainfeature], [circumstance_group]</AndroidOverheating.rulePack.rulesStrings.3>
+	<!-- Оригинал: image->[pawn_nameFull] ползет по испеченной солнцем грязи [circumstance_group] -->
+	<AndroidOverheating.rulePack.rulesStrings.6>image->[pawn_nameFull], шагая по обожжённой солнцем глине, [circumstance_group]</AndroidOverheating.rulePack.rulesStrings.6>
+	<!-- Оригинал: circumstance_phrase->с их металлическим каркасом, раскалённым и горячим -->
+	<AndroidOverheating.rulePack.rulesStrings.7>circumstance_phrase->и металлическое тело всё больше раскаляется</AndroidOverheating.rulePack.rulesStrings.7>
+	<!-- Оригинал: circumstance_phrase->и все больше и больше их разумы жарятся по секунде. -->
+	<AndroidOverheating.rulePack.rulesStrings.8>circumstance_phrase->и мыслительные процессы начинают сбоить от высокой температуры</AndroidOverheating.rulePack.rulesStrings.8>
+	<!-- Оригинал: circumstance_phrase->с обожжённой схемой -->
+	<AndroidOverheating.rulePack.rulesStrings.9>circumstance_phrase->и некоторые микросхемы начинают перегорать</AndroidOverheating.rulePack.rulesStrings.9>
+	<!-- Оригинал: circumstance_phrase->при неисправности -->
+	<AndroidOverheating.rulePack.rulesStrings.10>circumstance_phrase->и детали выходят из строя</AndroidOverheating.rulePack.rulesStrings.10>
+	<!-- Исправление согласно концепции «12+».
+	Для удобства отладки, нижеследующие строки сгруппированы не по категории «12+», а по переменным AndroidOverheating и AndroidFreezing.
+	Оригинал: desc_sentence->[quantity_adjphrase] сгоревщие [animal] трупы окружают окрестности. -->
+	<AndroidOverheating.rulePack.rulesStrings.11>desc_sentence->[quantity_adjphrase] животных, выглядящих как [animal], лежат с тепловым ударом.</AndroidOverheating.rulePack.rulesStrings.11>
+	<!-- Оригинал: desc_sentence->[pawn_nameShortDef] одежда разорвана и порвана. -->
+	<AndroidOverheating.rulePack.rulesStrings.12>desc_sentence->[pawn_nameShortDef] едва прикрыт порванной одеждой.</AndroidOverheating.rulePack.rulesStrings.12>
+	<!-- Оригинал: desc_sentence->Похоже, что сцена происходит внутри, рядом с печью.. -->
+	<AndroidOverheating.rulePack.rulesStrings.15>desc_sentence->Похоже, что сцена происходит в помещении, рядом с печью.</AndroidOverheating.rulePack.rulesStrings.15>
+	<!-- Оригинал: desc_sentence->[quantity_adjphrase] разворачивают  [animal] вокруг сцены. -->
+	<AndroidOverheating.rulePack.rulesStrings.16>desc_sentence->Рядом со сценой крутятся [quantity_adjphrase] животных, выглядящих как [animal].</AndroidOverheating.rulePack.rulesStrings.16>
+	<!-- Исправление согласно концепции «12+».
+	Оригинал: desc_sentence->[quantity_adjphrase] умирающие [animal] засоряют землю. -->
+	<AndroidOverheating.rulePack.rulesStrings.17>desc_sentence->[quantity_adjphrase] тощих животных, выглядящих как [animal], портят весь пейзаж.</AndroidOverheating.rulePack.rulesStrings.17>
+
+	<!-- Оригинал: Замерзание андроида -->
+	<AndroidFreezing.label>замерзание андроида</AndroidFreezing.label>
+	<!-- Оригинал: tale_noun->[pawn_nameShortDef] замерзает до остановки -->
+	<AndroidFreezing.rulePack.rulesStrings.1>tale_noun->[pawn_nameShortDef] заледеневает</AndroidFreezing.rulePack.rulesStrings.1>
+	<!-- Оригинал: image->[pawn_nameFull] бегая по снегу [circumstance_group] -->
+	<AndroidFreezing.rulePack.rulesStrings.2>image->[pawn_nameFull], бегая по снегу, [circumstance_group]</AndroidFreezing.rulePack.rulesStrings.2>
+	<!-- Оригинал: image->[pawn_nameFull] запиханный рядом с [terrainfeature] [circumstance_group] -->
+	<AndroidFreezing.rulePack.rulesStrings.3>image->[pawn_nameFull], спотыкаясь о [terrainfeature], [circumstance_group]</AndroidFreezing.rulePack.rulesStrings.3>
+	<!-- Оригинал: image->[pawn_nameFull] в поисках тепла [apparel] [circumstance_group] -->
+	<AndroidFreezing.rulePack.rulesStrings.4>image->[pawn_nameFull], мечтая надеть [apparel], [circumstance_group]</AndroidFreezing.rulePack.rulesStrings.4>
+	<!-- Оригинал: image->[pawn_nameFull] приседая рядом с огнем [circumstance_group] -->
+	<AndroidFreezing.rulePack.rulesStrings.5>image->[pawn_nameFull], приседая рядом с огнём, [circumstance_group]</AndroidFreezing.rulePack.rulesStrings.5>
+	<!-- Оригинал: circumstance_phrase->пока их механизмы медленно осаждаются -->
+	<AndroidFreezing.rulePack.rulesStrings.7>circumstance_phrase->пока его механизмы медленно остывают</AndroidFreezing.rulePack.rulesStrings.7>
+	<!-- Исправление согласно концепции «12+».
+	Оригинал: desc_sentence->[quantity_adjphrase] замороженные [animal] трупы окружают эту область. -->
+	<AndroidFreezing.rulePack.rulesStrings.11>desc_sentence->[quantity_adjphrase] покрытых сосульками животных, выглядящих как [animal], не замечают ничего вокруг.</AndroidFreezing.rulePack.rulesStrings.11>
+	<!-- Оригинал: desc_sentence->[pawn_nameShortDef] одежда разорвана и изношена.. -->
+	<AndroidFreezing.rulePack.rulesStrings.12>desc_sentence->[pawn_nameShortDef] кутается в лохмотья.</AndroidFreezing.rulePack.rulesStrings.12>
+	<!-- Оригинал: desc_sentence->Сцена происходит внутри заснеженного [tree] леса. -->
+	<AndroidFreezing.rulePack.rulesStrings.14>desc_sentence->Сцена происходит в заснеженном лесу, где [tree] трещит от мороза.</AndroidFreezing.rulePack.rulesStrings.14>
+	<!-- Оригинал: без "ё" -->
+	<AndroidFreezing.rulePack.rulesStrings.15>desc_sentence->Похоже, что сцена происходит в таёжном биоме.</AndroidFreezing.rulePack.rulesStrings.15>
+	<!-- Оригинал: desc_sentence->[quantity_adjphrase] дрожь  [animal] окружает сцену. -->
+	<AndroidFreezing.rulePack.rulesStrings.16>desc_sentence->[quantity_adjphrase] дрожащих от холода животных, выглядящих как [animal], окружают сцену.</AndroidFreezing.rulePack.rulesStrings.16>
+	<!-- Исправление согласно концепции «12+».
+	Оригинал: desc_sentence->[quantity_adjphrase] умирающие  [animal] засоряют землю. -->
+	<AndroidFreezing.rulePack.rulesStrings.17>desc_sentence->[quantity_adjphrase] животных, выглядящих как [animal], переминаются с ноги на ногу.</AndroidFreezing.rulePack.rulesStrings.17>
+
+</LanguageData>
