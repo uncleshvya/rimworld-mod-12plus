@@ -1,9 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправлена неточность, сообщите разработчику.
 
 	Оригинал: с точкой в конце -->
 	<CommandSunLampMakeGrowingZoneLabel>Создать область выращивания</CommandSunLampMakeGrowingZoneLabel>
+	<!-- Пленников тоже можно брать.
+	Оригинал: ...путешествие. Поселенцы соберут...собой животных, а затем... -->
+	<CommandFormCaravanDesc>Отправить группу поселенцев в путешествие. Они соберут все подготовленные для пути вещи и возьмут с собой указанных существ, а затем покинут это место и будут ждать ваших указаний.</CommandFormCaravanDesc>
 
 </LanguageData>
