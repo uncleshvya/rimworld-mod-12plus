@@ -1,27 +1,35 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправлена неточность, сообщите разработчику.
 
-  <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
-  <ComfyTemperatureMax.description>Если температура поднимется выше этого значения, существо будет испытывать дискомфорт.\n\nЕсли значительно выше, то оно получит тепловой удар, из-за которого впоследствии может быть потеряно.</ComfyTemperatureMax.description>
+	Приручать можно и одичавших людей.
+	Оригинал: Животное не может быть приручено, если навык... -->
+	<MinimumHandlingSkill.description>Существо не может быть приручено или обучено командам, если навык обращения поселенца с животными ниже этого уровня.</MinimumHandlingSkill.description>
 
-  <!-- исправлена неточность, сообщите разработчику -->
+	<!-- Звучит, как будто речь о передвижении по планете, кнопка "Мир".
+	Оригинал: ...перемещается по миру, в клетках... -->
+	<MoveSpeed.description>Скорость, с которой существо перемещается по местности, в клетках в секунду.</MoveSpeed.description>
 
-  <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
-  <ComfyTemperatureMin.description>Если температура опустится ниже этого значения, существо будет испытывать дискомфорт. Если значительно ниже, то оно получит гипотермию и обморожение, от которых впоследствии может быть потеряно.</ComfyTemperatureMin.description>
+	<!-- Исправление согласно концепции «12+».
 
-  <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
-  <ImmunityGainSpeed.description>Скорость, с которой существо вырабатывает иммунитет к болезням.\n\nЕсли это значение слишком низко, вы потеряете существо из-за болезни раньше, чем оно выработает к ней иммунитет.</ImmunityGainSpeed.description>
+	Заодно исправлена неточность, сообщите разработчику.
+	Параметры температуры и иммунитета применимы не только к персонажам.
+	Оригинал: ...значения, персонаж будет недоволен.\n\nЕсли...выше, то он получит...удар, от которого...может погибнуть. -->
+	<ComfyTemperatureMax.description>Если температура поднимется выше этого значения, существо будет испытывать дискомфорт.\n\nЕсли значительно выше, то оно получит тепловой удар, из-за которого впоследствии может быть потеряно.</ComfyTemperatureMax.description>
+	<!-- Оригинал: ...значения, персонаж будет недоволен.\n\nЕсли...ниже, то он получит...обморожение, от которых...может погибнуть. -->
+	<ComfyTemperatureMin.description>Если температура опустится ниже этого значения, существо будет испытывать дискомфорт.\n\nЕсли значительно ниже, то оно получит гипотермию и обморожение, из-за которых впоследствии может быть потеряно.</ComfyTemperatureMin.description>
+	<!-- Оригинал: ...низко, персонаж умрёт от болезни раньше, чем выработает... -->
+	<ImmunityGainSpeed.description>Скорость, с которой существо вырабатывает иммунитет к болезням.\n\nЕсли это значение слишком низко, вы потеряете существо из-за болезни раньше, чем оно выработает к ней иммунитет.</ImmunityGainSpeed.description>
 
-  <!-- EN: leather amount -->
-  <LeatherAmount.label>количество шкуры</LeatherAmount.label>
-  <!-- EN: The amount of leather yielded when butchering this creature. -->
-  <LeatherAmount.description>Получаемое количество шкуры в случае забоя животного.</LeatherAmount.description>
+	<!-- Оригинал: количество кожи -->
+	<LeatherAmount.label>размер шкуры</LeatherAmount.label>
+	<!-- Оригинал: Получаемое количество кожи в случае забоя существа. -->
+	<LeatherAmount.description>Сколько шкуры можно получить при забое животного.</LeatherAmount.description>
 
-  <!-- EN: meat amount -->
-  <MeatAmount.label>источник органического ресурса</MeatAmount.label>
-  <!-- EN: The amount of meat yielded when butchering this creature. -->
-  <MeatAmount.description>Получаемое количество органических ресурсов с существа.</MeatAmount.description>
+	<!-- Оригинал: количество мяса -->
+	<MeatAmount.label>источник органического ресурса</MeatAmount.label>
+	<!-- Оригинал: ...количество мяса в случае забоя существа. -->
+	<MeatAmount.description>Получаемое количество органических ресурсов с существа.</MeatAmount.description>
 
 </LanguageData>
