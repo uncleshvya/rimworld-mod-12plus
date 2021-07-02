@@ -1,8 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
 	<!-- Добавлена недостающая строка русской локализации, сообщите разработчику.
 
+	Название лучше синхронизировать с папкой ResearchTabDef.
 	Во время адаптации к концепции "12+", заодно были сглажены все противоречия, так что теперь эту вкладку можно так назвать.
 	EN: Android Tiers -->
 	<ATPP_DesignationAndroidTiers.label>Роботы</ATPP_DesignationAndroidTiers.label>
