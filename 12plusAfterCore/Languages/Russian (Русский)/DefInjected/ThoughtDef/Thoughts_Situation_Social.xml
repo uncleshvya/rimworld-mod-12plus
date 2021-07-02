@@ -1,18 +1,16 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+».
 
-  <!-- EN: ate raw humanlike meat -->
-  <AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>неряха</AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>
-
-  <!-- EN: butchered humanlike corpse -->
-  <ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>плохо себя ведёт</ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>
-
-  <!-- EN: killed colonist -->
-  <KilledColonist.stages.killed_colonist.label>избил(а) поселенца</KilledColonist.stages.killed_colonist.label>
-
-  <!-- EN: killed colony animal -->
-  <KilledColonyAnimal.stages.killed_colony_animal.label>избил(а) животное поселения</KilledColonyAnimal.stages.killed_colony_animal.label>
+	Оригинал: каннибал -->
+	<AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>неряха</AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>
+	<!-- Оригинал: разделал(а) человека -->
+	<ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>плохо себя ведёт</ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>
+	<!-- Оригинал: убил(а) поселенца -->
+	<KilledColonist.stages.killed_colonist.label>избил(а) поселенца</KilledColonist.stages.killed_colonist.label>
+	<!-- Заодно сглажена ссылка на животных - для модов на неявно живых существ.
+	Оригинал: убил(а) животное поселения -->
+	<KilledColonyAnimal.stages.killed_colony_animal.label>избил(а) нашего питомца</KilledColonyAnimal.stages.killed_colony_animal.label>
 
 </LanguageData>
