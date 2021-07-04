@@ -6,7 +6,7 @@
 	EN: Immune to cold -->
 	<OrassansColdImmunePlants>Может расти даже на морозе</OrassansColdImmunePlants>
 
-	<!-- Перевод не проверен, т.к. в моде используется часть кода из полной версии.
+	<!-- Перевод нижеследующего не проверен, т.к. в моде используется часть кода из полной версии.
 	EN: Drilling is finished. Deconstruct the drill. -->
 	<BetharianBorerFinished>Бурение завершено. Разберите установку.</BetharianBorerFinished>
 	<!-- EN: Boring progress: {0} -->
