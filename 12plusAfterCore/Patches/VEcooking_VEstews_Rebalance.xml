@@ -4,7 +4,7 @@
 		<success>Always</success>
 		<operations>
 
-			<!-- исправлен баланс, сообщите разработчику, что если поселенцы готовят выпечку за пару часов, то не может суп готовиться 48 часов, максимум 2 -->
+			<!-- Исправлен баланс, сообщите разработчику, что если поселенцы готовят выпечку за пару часов, то не может суп готовиться 48 часов, максимум 2 -->
 
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ItemProcessor.CombinationDef[
@@ -16,8 +16,7 @@
 				<value>0.08</value>
 			</li>
 
-			<!-- исправлен баланс, сообщите разработчику, что сырые рагу и супы сделаны съедобным, но невкусными -->
-
+			<!-- Сырые рагу и супы сделаны съедобным, но невкусными -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[
 				defName = "VCE_UncookedStewSimple" or
@@ -75,9 +74,8 @@
 				</value>
 			</li>
 
-			<!-- исправлен баланс, сообщите разработчику, что лишние категории засоряют список -->
-
-			<!-- для рагу, супов и фритюра -->
+			<!-- Лишние категории засоряют список.
+			Рагу, супы и фритюр: -->
 			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[
 				defName = "VCE_UncookedStewSimple" or
@@ -93,7 +91,7 @@
 				]/thingCategories</xpath>
 			</li>
 
-			<!-- для сыра, он ведь есть в рецептах, пришлось подшаманить: -->
+			<!-- Для сыра, он ведь есть в рецептах, пришлось подшаманить: -->
 			<li Class="PatchOperationAttributeSet">
 				<xpath>Defs/ThingDef[defName = "VCE_Cheese"]</xpath>
 				<attribute>ParentName</attribute>
@@ -107,8 +105,7 @@
 				</value>
 			</li>
 
-			<!-- исправлен баланс, сообщите разработчику, что если поселенцы готовят выпечку за пару часов, то не может рагу готовиться 72 часа, максимум 8 -->
-
+			<!-- Время приготовления рагу исправлено с 72 часов на 8 -->
 			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationReplace">
 				<xpath>Defs/ItemProcessor.CombinationDef[
 				defName = "VCE_SimpleStewRecipe" or
@@ -118,8 +115,7 @@
 				<value>0.34</value>
 			</li>
 
-			<!-- исправлен баланс, сообщите разработчику, что на электрическом термостате теперь тоже можно приготовить рагу (ещё добавлены 3 процесса в папке Defs) -->
-
+			<!-- На электрическом термостате теперь тоже можно приготовить рагу -->
 			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationAdd">
 				<xpath>Defs/ItemProcessor.ItemAcceptedDef[defName = "IP_ElectricPotFirstItem"]/items</xpath>
 				<value>
@@ -179,8 +175,7 @@
 				</value>
 			</li>
 
-			<!-- исправлен баланс, сообщите разработчику, что для чугунной плиты увеличено время поиска дров с 10 до 30, ведь она остаётся горячей гораздо дольше -->
-
+			<!-- Для чугунной плиты увеличено время поиска дров с 10 до 30, ведь она дольше остаётся горячей -->
 			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "VCE_StewPot"]/comps/li[1]/rareTicksToDestroy/text()</xpath>
 				<value>30</value>
