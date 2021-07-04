@@ -1,9 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+».
 
-  <!-- EN: A tropical tree that produces chocolate, genetically engineered to sweeten its own product, and survive in slightly less-warm climates. -->
-  <Plant_TreeCocoa.description>Тропическое дерево, дающее какао-бобы, из которых получают шоколад. Генетически изменено для большей сладости плодов и лучшей урожайности в менее тёплых условиях.</Plant_TreeCocoa.description>
+	Заодно исправлена неточность, сообщите разработчику об ударении.
+	Оригинал: ...изменено для большей сладости...лучшей выживаемости в менее... -->
+	<Plant_TreeCocoa.description>Тропическое дерево, дающее какао-бобы, из которых получают шоколад. Генетически изменено для бо́льшей сладости плодов и лучшей урожайности в менее тёплых условиях.</Plant_TreeCocoa.description>
 
 </LanguageData>
