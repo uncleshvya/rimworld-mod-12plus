@@ -2,9 +2,9 @@
 
 <Patch>
 
-	<!-- исправлена неточность, сообщите разработчику -->
+	<!-- Исправлена неточность, сообщите разработчику.
 
-	<!-- MIT
+	MIT
 	Copyright (c) 2018 Simon Latusek
 	-->
 
@@ -16,13 +16,13 @@
 				<value>Corpses</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/SpecialThingFilterDef[defName = "AllowCorpsesColonist"]/parentCategory/text()</xpath>
+				<xpath>Defs/SpecialThingFilterDef[
+				defName = "AllowCorpsesColonist" or
+				defName = "AllowCorpsesStranger"
+				]/parentCategory/text()</xpath>
 				<value>alienCorpseCategory</value>
 			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/SpecialThingFilterDef[defName = "AllowCorpsesStranger"]/parentCategory/text()</xpath>
-				<value>alienCorpseCategory</value>
-			</li>
+
 		</operations>
 	</Operation>
 
