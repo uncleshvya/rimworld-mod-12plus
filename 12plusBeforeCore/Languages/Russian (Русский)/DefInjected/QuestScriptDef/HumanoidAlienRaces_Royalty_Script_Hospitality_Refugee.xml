@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+  <!-- Исправление согласно концепции «12+».
 
-  <!-- Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core. -->
+  Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
 
-  <!-- Оригинал:
+  Заодно сглажена ссылка на людей - для модов на другие расы.
+  Оригинал:
     ...
     <li>questOver->Задание «[resolvedQuestName]» завершено.</li>
-    <li>lodgerDiedMemoryThoughtLetterLabel->[lodgerSingle] погиб: злость</li>
+    <li>...[lodgerSingle] погиб: злость</li>
     <li>lodgerDiedMemoryThoughtLetterText->[letterIntroDeath]\n\n[appalledButNoAction]</li>
-    <li>lodgerDiedAttackPlayerLetterLabel->[lodgerSingle] погиб: месть</li>
+    <li>...[lodgerSingle] погиб: месть</li>
     <li>lodgerDiedAttackPlayerLetterText->[letterIntroDeath]\n\n[turnedViolent]</li>
-    <li>lodgerDiedLeaveMapLetterLabel->[lodgerSingle] погиб: уход</li>
+    <li>...[lodgerSingle] погиб: уход</li>
     <li>lodgerDiedLeaveMapLetterText->[letterIntroDeath]\n\n[decidedToLeave]</li>
     <li>lodgersAllDiedLetterLabel->задание провалено</li>
     <li>lodgersAllDiedLetterText->{SUBJECT_definite}, [lastOfTheDesperateLodgers], {SUBJECT_gender ? погиб : погибла}.\n\n[questOver]</li>
@@ -25,7 +26,7 @@
     <li>betrayalOfferFailedLetterLabel->Награда за предательство отменена</li>
     <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] [hasLearned], что один из членов фракции [faction_name] больше не находится в [map_definite]. [factionOpponent_nameDef] [wanted], чтобы умерли все члены фракции [faction_name], а потому отзывает своё предложение.</li>
     <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] [leaving]</li>
-    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} благодарит вас за разрешение остаться в [map_definite] в течение этих [questDurationTicks_duration]. Теперь {FACTION_leaderPronoun} отправится со своими людьми дальше в путь.\n\n{FACTION_leaderNameDef} говорит, что не забудет то, что вы для них сделали.</li>
+    <li>...отправится со своими людьми дальше...</li>
     <li>letterIntroViolated->{SUBJECT_definite}, [oneOfTheDesperateLodgers], {SUBJECT_gender ? был подвергнут : была подвергнута} несогласованному, надругательскому хирургическому вмешательству.</li>
     <li>letterIntroDeath->{SUBJECT_definite}, [oneOfTheDesperateLodgers], {SUBJECT_gender ? погиб : погибла}.</li>
     <li>letterIntroArrested->{SUBJECT_definite}, [oneOfTheDesperateLodgers], {SUBJECT_gender ? арестован : арестована}.</li>
@@ -71,7 +72,7 @@
     <li>betrayalOfferFailedLetterLabel->Награда за предательство отменена</li>
     <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] [hasLearned], что один из членов фракции [faction_name] больше не находится в [map_definite]. [factionOpponent_nameDef] [wanted], чтобы пострадали все члены фракции [faction_name], а потому отзывает своё предложение.</li>
     <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] [leaving]</li>
-    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} благодарит вас за разрешение остаться в [map_definite] в течение этих [questDurationTicks_duration]. Теперь {FACTION_leaderPronoun} отправится со своими людьми дальше в путь.\n\n{FACTION_leaderNameDef} говорит, что не забудет то, что вы для них сделали.</li>
+    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} благодарит вас за разрешение остаться в [map_definite] в течение этих [questDurationTicks_duration]. Теперь {FACTION_leaderPronoun} отправится со своей группой дальше в путь.\n\n{FACTION_leaderNameDef} говорит, что не забудет то, что вы для них сделали.</li>
     <li>letterIntroViolated->{SUBJECT_definite}, [oneOfTheDesperateLodgers], {SUBJECT_gender ? был подвергнут : была подвергнута} несогласованному, надругательскому хирургическому вмешательству.</li>
     <li>letterIntroDeath->{SUBJECT_definite}, [oneOfTheDesperateLodgers], {SUBJECT_gender ? потерян : потеряна}.</li>
     <li>letterIntroArrested->{SUBJECT_definite}, [oneOfTheDesperateLodgers], {SUBJECT_gender ? арестован : арестована}.</li>
@@ -125,9 +126,9 @@
     <li>wanted(factionOpponent_gender==Female)->хотела</li>
   </Hospitality_Refugee.questContentRules.rulesStrings>
 
-  <!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает: -->
+  <!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN:
+  EN:
     <li>lodgersLabel->refugee</li>
     <li>lodgersLabelPlural->refugees</li>
   -->
@@ -144,13 +145,18 @@
     <li>lodgersLabelPluralAcc->беженцев</li>
   </Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>
 
-  <!-- исправление согласно концепции «12+» -->
+  <!-- Исправление согласно концепции «12+».
 
-  <!-- Оригинал:
+  Заодно сглажена ссылка на людей - для модов на другие расы.
+  Оригинал:
     ...
     <li>lodgersSingularOrPluralDef(lodgerCount>=2)->[lodgersLabelPlural]</li>
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] умоляет вас разрешить [lodgersObjective] остаться в [map_definite] на [questDurationTicks_duration], чтобы [lodgersPronoun] [could] отдохнуть и собраться в дальнейший путь.\n\nВзамен [lodgersPronoun] [offer] помогать вашим поселенцам и сражаться на вашей стороне.\n\n[joinInfo] [lodgersPronoun] так же [can] вознаградить вас за помощь в будущем, но никто не знает, какие у н[lodgersPossessive] истинные намерения.\n\n[travelerInfo] к какой-либо фракции. Если вы хотите, вы можете убить, арестовать, продать в рабство или пустить [lodgersPossessive] на органы без каких-либо дипломатических последствий.</li>
+    <li>...можете убить, арестовать, продать в рабство или пустить [lodgersPossessive] на органы без каких...</li>
     <li>could(lodgerCount==1,lodgers0_gender==Male)->мог</li>
+    ...
+    <li>approachInfo(lodgerCount==2)->Приближаются [asker_nameDef] и ещё один отчаянный [faction_pawnSingular].</li>
+    <li>...количестве [lodgerCount] человек. Их ведёт...</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] утверждает, что [hasLost] своего дома после недавнего нападения.</li>
     ...
   -->
   <Hospitality_Refugee.questDescriptionRules.rulesStrings>
@@ -174,7 +180,7 @@
     <li>can(lodgerCount>=2)->могут</li>
     <li>approachInfo(lodgerCount==1)->Приближается отчаянный [faction_pawnSingular] по имени [asker_nameDef].</li>
     <li>approachInfo(lodgerCount==2)->Приближаются [asker_nameDef] и ещё один отчаянный [faction_pawnSingular].</li>
-    <li>approachInfo(lodgerCount>=3)->Приближаются отчаянные [faction_pawnsPlural] в количестве [lodgerCount] человек. Их ведёт [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3)->Приближаются отчаянные [faction_pawnsPlural] в количестве [lodgerCount] бойцов. Их ведёт [asker_nameDef].</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] утверждает, что [hasLost] своего дома после недавнего нападения.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] говорит, что проснувшись от криптосна, [appearedAlone].</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] говорит, что бежит из дома от [exLover].</li>
@@ -200,9 +206,9 @@
     <li>appearedAlone(lodgers0_gender==Female)->поняла, что осталась совершенно одинока</li>
   </Hospitality_Refugee.questDescriptionRules.rulesStrings>
 
-  <!-- Всё что ниже - без изменений, но необходимо оставить, иначе грамматика страдает: -->
+  <!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN:
+  EN:
     <li>questName(lodgerCount==1)->[asker_nameDef] the [lodgerAdj]</li>
     <li>questName(lodgerCount==1)->[athe] [lodgerAdj] [lodgerSingle]</li>
     <li>questName(p=2,lodgerCount>=2)->[lodgerAdj] [lodgerPlural]</li>
