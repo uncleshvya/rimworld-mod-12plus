@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<!-- Исправление согласно концепции «12+».
-
-	Оригинал: кайф от масла из дымолиста -->
-	<VCE_SmokeleafButterHigh.stages.0.label>лёгкая тошнота</VCE_SmokeleafButterHigh.stages.0.label>
-	<!-- Оригинал: Чувак... я как камень, чувак. -->
-	<VCE_SmokeleafButterHigh.stages.0.description>Ой, не надо было есть столько жирного...</VCE_SmokeleafButterHigh.stages.0.description>
-	<!-- Оригинал: Мои вкусовые рецепторы никогда не испытывали такого взрыва оргазмических вкусов! Это была чистая порно-пища. Мне нужно больше! -->
-	<VCE_AteGourmetDessert.stages.0.description>Мои вкусовые рецепторы никогда не испытывали такого взрыва вкусов! Это был просто волшебный десерт!</VCE_AteGourmetDessert.stages.0.description>
-
 	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
 
 	Подправляем ваниль в связи с расширившейся градацией блюд.
@@ -82,5 +73,14 @@
 	<VCE_ConsumedCannedGoods.stages.0.label>съедены консервы</VCE_ConsumedCannedGoods.stages.0.label>
 	<!-- Оригинал: Еда прямо из банки - это как еда без стола. -->
 	<VCE_ConsumedCannedGoods.stages.0.description>Пища прямо из банки — это как обед без стола.</VCE_ConsumedCannedGoods.stages.0.description>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: кайф от масла из дымолиста -->
+	<VCE_SmokeleafButterHigh.stages.0.label>лёгкая тошнота</VCE_SmokeleafButterHigh.stages.0.label>
+	<!-- Оригинал: Чувак... я как камень, чувак. -->
+	<VCE_SmokeleafButterHigh.stages.0.description>Ой, не надо было есть столько жирного...</VCE_SmokeleafButterHigh.stages.0.description>
+	<!-- Оригинал: Мои вкусовые рецепторы никогда не испытывали такого взрыва оргазмических вкусов! Это была чистая порно-пища. Мне нужно больше! -->
+	<VCE_AteGourmetDessert.stages.0.description>Мои вкусовые рецепторы никогда не испытывали такого взрыва вкусов! Это был просто волшебный десерт!</VCE_AteGourmetDessert.stages.0.description>
 
 </LanguageData>
