@@ -1,6 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	Перегонный завод теперь перегоняет химтопливо не только из ванильных материалов. Да и другие моды добавляют разные рецепты.
+	Оригинал: Используется для получения химического топлива из древесины или растительного сырья. -->
+	<BiofuelRefinery.description>Используется для получения экстрактов из растительного или животного сырья.</BiofuelRefinery.description>
+	<!-- EN: swimming pool -->
+	<DBHSwimmingPool.label>бассейн</DBHSwimmingPool.label>
+	<!-- EN: Swimming pool used for hydrotherapy, relaxation, or pleasure. Must be filled with water from water towers first. -->
+	<DBHSwimmingPool.description>Бассейны используются для купания, расслабления и развлечения. Перед использованием следует наполнить водой из труб.</DBHSwimmingPool.description>
+	<!-- EN: Power Mode -->
+	<LogBoiler.comps.CompBoiler.GizmoLabel>Регулятор мощности</LogBoiler.comps.CompBoiler.GizmoLabel>
+	<!-- EN: Power Mode -->
+	<GasBoiler.comps.CompBoiler.GizmoLabel>Регулятор мощности</GasBoiler.comps.CompBoiler.GizmoLabel>
+	<!-- EN: Power Mode -->
+	<ElectricBoiler.comps.CompBoiler.GizmoLabel>Регулятор мощности</ElectricBoiler.comps.CompBoiler.GizmoLabel>
+	<!-- EN: Power Mode -->
+	<SolarHeater.comps.CompBoilerSolar.GizmoLabel>Регулятор мощности</SolarHeater.comps.CompBoilerSolar.GizmoLabel>
+	<!-- EN: Trigger fire sprinkler -->
+	<FireSprinkler.comps.CompUsable.useLabel>Испытать пожарный спринклер</FireSprinkler.comps.CompUsable.useLabel>
+
+	<!-- EN: water -->
+	<DBH_WaterBottle.label>бутылка воды</DBH_WaterBottle.label>
+	<!-- EN: A bottle of water. -->
+	<DBH_WaterBottle.description>Полная бутылка воды.</DBH_WaterBottle.description>
+	<!-- EN: Drink {0} -->
+	<DBH_WaterBottle.ingestible.ingestCommandString>Выпить {0}</DBH_WaterBottle.ingestible.ingestCommandString>
+	<!-- EN: Drinking {0}. -->
+	<DBH_WaterBottle.ingestible.ingestReportString>пьёт {0}</DBH_WaterBottle.ingestible.ingestReportString>
+
+	<!-- Исправлен конфликт модов, сообщите разработчикам dismarzero.VGP.VGPGardenTools и Dubwise.DubsBadHygiene
+
+	Оригинал: Компостер -->
+	<BiosolidsComposter.label>навозный бак</BiosolidsComposter.label>
+	<!-- Оригинал: Компостер, перерабатывающий нечистоты в удобрение, увеличивающее плодородность почвы. -->
+	<BiosolidsComposter.description>Бак, в котором нечистоты под влиянием деятельности микроорганизмов перерабатываются в сыпучий перегной, увеличивающий плодородность почвы.</BiosolidsComposter.description>
+	<!-- Оригинал: Компостер (проект) -->
+	<BiosolidsComposter_Blueprint.label>навозный бак (проект)</BiosolidsComposter_Blueprint.label>
+	<!-- Оригинал: Компост (проект) -->
+	<BiosolidsComposter_Blueprint_Install.label>навозный бак (проект)</BiosolidsComposter_Blueprint_Install.label>
+	<!-- Оригинал: Компостер (в процессе сборки) -->
+	<BiosolidsComposter_Frame.label>навозный бак (в процессе сборки)</BiosolidsComposter_Frame.label>
+	<!-- Оригинал: Компостер, перерабатывающий нечистоты в удобрение, увеличивающее плодородность почвы. -->
+	<BiosolidsComposter_Frame.description>Бак, в котором нечистоты под влиянием деятельности микроорганизмов перерабатываются в сыпучий перегной, увеличивающий плодородность почвы.</BiosolidsComposter_Frame.description>
+
+	<!-- Оригинал: Удобрение -->
+	<BiosolidFertilizer.label>перегной</BiosolidFertilizer.label>
+	<!-- Оригинал: Удобрение из твердых биологических отходов, используемое для... -->
+	<BiosolidFertilizer.description>Перегной, полученный из биологических отходов, используется для увеличения плодородности почвы на срок до года.</BiosolidFertilizer.description>
+	<!-- Оригинал: Удобрение (проект) -->
+	<BiosolidFertilizer_Blueprint.label>Удобрение (проект)</BiosolidFertilizer_Blueprint.label>
+	<!-- Оригинал: Удобрение (в процессе сборки) -->
+	<BiosolidFertilizer_Frame.label>Удобрение (в процессе сборки)</BiosolidFertilizer_Frame.label>
+	<!-- Оригинал: Удобрение из твердых биологических отходов, используемое для... -->
+	<BiosolidFertilizer_Frame.description>Перегной, полученный из биологических отходов, используется для увеличения плодородности почвы на срок до года.</BiosolidFertilizer_Frame.description>
+
+	<!-- Оригинал: Удобренная почва -->
+	<FertilizedSoil.label>обогащённая почва</FertilizedSoil.label>
+	<!-- Оригинал: Удобренная почва (проект) -->
+	<FertilizedSoil_Blueprint.label>обогащённая почва (проект)</FertilizedSoil_Blueprint.label>
+	<!-- Оригинал: Удобренная почва (проект) -->
+	<FertilizedSoil_Frame.label>обогащённая почва (проект)</FertilizedSoil_Frame.label>
+	<!-- Оригинал: Подготавливаемая почва -->
+	<FertilizedSoil_Frame.description>Почва, отмеченная для обогащения перегноем.</FertilizedSoil_Frame.description>
+
+	<!-- Оригинал: Бочка, наполненная фекалиями. Может быть опрокинута, сожжена или переработана в удобрения. -->
+	<FecalSludge.description>Бочка, наполненная фекалиями. Содержимое можно опрокинуть на пол, сжечь в яме или перелить в навозный бак.</FecalSludge.description>
+	<!-- Оригинал: Удобрение -->
+	<Biosolids.label>перегной</Biosolids.label>
+	<!-- Оригинал: Удобрение, полученное путем переработки фекалий. -->
+	<Biosolids.description>Сыпучий перегной, полученный путем переработки фекалий.</Biosolids.description>
+
 	<!-- Исправлена неточность, сообщите разработчику.
 
 	Игра рассчитана на одно поселение.
@@ -8,7 +79,7 @@
 	<BurnPit.description>Уничтожает фекальные массы, сжигая их в качестве топлива (как кизяк). Может быть использована для избавления от тел и других отходов. Поселенцы могут заболеть, если проведут много времени поблизости.</BurnPit.description>
 	<BurnPit_Frame.description>Уничтожает фекальные массы, сжигая их в качестве топлива (как кизяк). Может быть использована для избавления от тел и других отходов. Поселенцы могут заболеть, если проведут много времени поблизости.</BurnPit_Frame.description>
 
-	<!-- Оригиналы: нет запятой ...плодородность почву в течение...объемов... -->
+	<!-- Оригиналы: ...утро увеличивая...плодородность почву в течение...объемов... -->
 	<IrrigationSprinkler.description>Поливает окружающую зону каждое утро, увеличивая плодородность почвы в течение дня. Требует больших объёмов воды для орошения.</IrrigationSprinkler.description>
 	<IrrigationSprinkler_Frame.description>Поливает окружающую зону каждое утро, увеличивая плодородность почвы в течение дня. Требует больших объёмов воды для орошения.</IrrigationSprinkler_Frame.description>
 
@@ -128,77 +199,6 @@
 
 	<!-- Оригинал: ...переработана в удобрения. -->
 	<FecalSludge.description>Бочка, наполненная фекалиями. Может быть опрокинута, сожжена или переработана в удобрения/химтопливо.</FecalSludge.description>
-
-	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
-
-	Перегонный завод теперь перегоняет химтопливо не только из ванильных материалов. Да и другие моды добавляют разные рецепты.
-	Оригинал: Используется для получения химического топлива из древесины или растительного сырья. -->
-	<BiofuelRefinery.description>Используется для получения экстрактов из растительного или животного сырья.</BiofuelRefinery.description>
-	<!-- EN: swimming pool -->
-	<DBHSwimmingPool.label>бассейн</DBHSwimmingPool.label>
-	<!-- EN: Swimming pool used for hydrotherapy, relaxation, or pleasure. Must be filled with water from water towers first. -->
-	<DBHSwimmingPool.description>Бассейны используются для купания, расслабления и развлечения. Перед использованием следует наполнить водой из труб.</DBHSwimmingPool.description>
-	<!-- EN: Power Mode -->
-	<LogBoiler.comps.CompBoiler.GizmoLabel>Регулятор мощности</LogBoiler.comps.CompBoiler.GizmoLabel>
-	<!-- EN: Power Mode -->
-	<GasBoiler.comps.CompBoiler.GizmoLabel>Регулятор мощности</GasBoiler.comps.CompBoiler.GizmoLabel>
-	<!-- EN: Power Mode -->
-	<ElectricBoiler.comps.CompBoiler.GizmoLabel>Регулятор мощности</ElectricBoiler.comps.CompBoiler.GizmoLabel>
-	<!-- EN: Power Mode -->
-	<SolarHeater.comps.CompBoilerSolar.GizmoLabel>Регулятор мощности</SolarHeater.comps.CompBoilerSolar.GizmoLabel>
-	<!-- EN: Trigger fire sprinkler -->
-	<FireSprinkler.comps.CompUsable.useLabel>Испытать пожарный спринклер</FireSprinkler.comps.CompUsable.useLabel>
-
-	<!-- EN: water -->
-	<DBH_WaterBottle.label>бутылка воды</DBH_WaterBottle.label>
-	<!-- EN: A bottle of water. -->
-	<DBH_WaterBottle.description>Полная бутылка воды.</DBH_WaterBottle.description>
-	<!-- EN: Drink {0} -->
-	<DBH_WaterBottle.ingestible.ingestCommandString>Выпить {0}</DBH_WaterBottle.ingestible.ingestCommandString>
-	<!-- EN: Drinking {0}. -->
-	<DBH_WaterBottle.ingestible.ingestReportString>пьёт {0}</DBH_WaterBottle.ingestible.ingestReportString>
-
-	<!-- Исправлен конфликт модов, сообщите разработчикам dismarzero.VGP.VGPGardenTools и Dubwise.DubsBadHygiene
-
-	Оригинал: Компостер -->
-	<BiosolidsComposter.label>навозный бак</BiosolidsComposter.label>
-	<!-- Оригинал: Компостер, перерабатывающий нечистоты в удобрение, увеличивающее плодородность почвы. -->
-	<BiosolidsComposter.description>Бак, в котором нечистоты под влиянием деятельности микроорганизмов перерабатываются в сыпучий перегной, увеличивающий плодородность почвы.</BiosolidsComposter.description>
-	<!-- Оригинал: Компостер (проект) -->
-	<BiosolidsComposter_Blueprint.label>навозный бак (проект)</BiosolidsComposter_Blueprint.label>
-	<!-- Оригинал: Компост (проект) -->
-	<BiosolidsComposter_Blueprint_Install.label>навозный бак (проект)</BiosolidsComposter_Blueprint_Install.label>
-	<!-- Оригинал: Компостер (в процессе сборки) -->
-	<BiosolidsComposter_Frame.label>навозный бак (в процессе сборки)</BiosolidsComposter_Frame.label>
-	<!-- Оригинал: Компостер, перерабатывающий нечистоты в удобрение, увеличивающее плодородность почвы. -->
-	<BiosolidsComposter_Frame.description>Бак, в котором нечистоты под влиянием деятельности микроорганизмов перерабатываются в сыпучий перегной, увеличивающий плодородность почвы.</BiosolidsComposter_Frame.description>
-
-	<!-- Оригинал: Удобрение -->
-	<BiosolidFertilizer.label>перегной</BiosolidFertilizer.label>
-	<!-- Оригинал: Удобрение из твердых биологических отходов, используемое для... -->
-	<BiosolidFertilizer.description>Перегной, полученный из биологических отходов, используется для увеличения плодородности почвы на срок до года.</BiosolidFertilizer.description>
-	<!-- Оригинал: Удобрение (проект) -->
-	<BiosolidFertilizer_Blueprint.label>Удобрение (проект)</BiosolidFertilizer_Blueprint.label>
-	<!-- Оригинал: Удобрение (в процессе сборки) -->
-	<BiosolidFertilizer_Frame.label>Удобрение (в процессе сборки)</BiosolidFertilizer_Frame.label>
-	<!-- Оригинал: Удобрение из твердых биологических отходов, используемое для... -->
-	<BiosolidFertilizer_Frame.description>Перегной, полученный из биологических отходов, используется для увеличения плодородности почвы на срок до года.</BiosolidFertilizer_Frame.description>
-
-	<!-- Оригинал: Удобренная почва -->
-	<FertilizedSoil.label>обогащённая почва</FertilizedSoil.label>
-	<!-- Оригинал: Удобренная почва (проект) -->
-	<FertilizedSoil_Blueprint.label>обогащённая почва (проект)</FertilizedSoil_Blueprint.label>
-	<!-- Оригинал: Удобренная почва (проект) -->
-	<FertilizedSoil_Frame.label>обогащённая почва (проект)</FertilizedSoil_Frame.label>
-	<!-- Оригинал: Подготавливаемая почва -->
-	<FertilizedSoil_Frame.description>Почва, отмеченная для обогащения перегноем.</FertilizedSoil_Frame.description>
-
-	<!-- Оригинал: Бочка, наполненная фекалиями. Может быть опрокинута, сожжена или переработана в удобрения. -->
-	<FecalSludge.description>Бочка, наполненная фекалиями. Содержимое можно опрокинуть на пол, сжечь в яме или перелить в навозный бак.</FecalSludge.description>
-	<!-- Оригинал: Удобрение -->
-	<Biosolids.label>перегной</Biosolids.label>
-	<!-- Оригинал: Удобрение, полученное путем переработки фекалий. -->
-	<Biosolids.description>Сыпучий перегной, полученный путем переработки фекалий.</Biosolids.description>
 
 	<!-- Исправление согласно концепции «12+».
 
