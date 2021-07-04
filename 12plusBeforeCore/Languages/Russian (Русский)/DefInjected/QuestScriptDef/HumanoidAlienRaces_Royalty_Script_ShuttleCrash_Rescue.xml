@@ -1,14 +1,19 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+  <!-- Исправление согласно концепции «12+».
 
-  <!-- Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core. -->
+  Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
 
-  <!-- Оригинал:
+  Заодно сглажена ссылка на людей - для модов на другие расы.
+  Оригинал:
+    ...
+    <li>rescueShuttleArrivedLetterLabel->спасательный челнок прибыл</li>
+    <li>...будут эти люди:\n\n[civilians]</li>
+    <li>questCompletedSuccessLetterLabel->Задание выполнено: «[resolvedQuestName]»</li>
     ...
     <li>askerDiedLetterLabel->Задание провалено: «[resolvedQuestName]»</li>
-    <li>askerDiedLetterText->[commanderLandingDesc], погиб.\n\n[failLetterEndingCommon]</li>
+    <li>...[commanderLandingDesc], погиб.\n\n[failLetterEndingCommon]</li>
     <li>shuttleDestroyedLetterLabel->Задание провалено: «[resolvedQuestName]»</li>
     ...
   -->
@@ -23,7 +28,7 @@
     <li>raidArrivedLetterLabel->Налёт: [enemyFaction_name]</li>
     <li>raidArrivedLetterText->Прибыли [enemyFaction_pawnsPlural] из фракции [enemyFaction_name]. Они нападут на [asker_faction_pawnsPlural], совершивших аварийную посадку в [map_definite].\n\nЗащищайте [asker_faction_pawnsPlural], пока через [rescueShuttleAfterRaidDelay_duration] не прибудет спасательный челнок.</li>
     <li>rescueShuttleArrivedLetterLabel->спасательный челнок прибыл</li>
-    <li>rescueShuttleArrivedLetterText->Прибыл спасательный челнок, посланный, чтобы забрать [pawnLabelSingleOrPlural]. Убедитесь, что в челноке на момент его отправления через [rescueDelay_duration] будут эти люди:\n\n[civilians]</li>
+    <li>rescueShuttleArrivedLetterText->Прибыл спасательный челнок, посланный, чтобы забрать [pawnLabelSingleOrPlural]. Убедитесь, что в челноке на момент его отправления через [rescueDelay_duration] будут эти пассажиры:\n\n[civilians]</li>
     <li>questCompletedSuccessLetterLabel->Задание выполнено: «[resolvedQuestName]»</li>
     <li>questCompletedSuccessLetterText->У [commanderLandingDescAcc], получается спастись. [asker_pronoun] благодарит вас за помощь в [map_definite].\n\n[successLetterEndingCommon]</li>
     <li>questCompletedCiviliansLostSuccessLetterLabel->Задание выполнено: «[resolvedQuestName]»</li>
@@ -51,12 +56,12 @@
     <li>pawnLabelAcc->гражданского</li>
   </ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
 
-  <!-- исправление согласно концепции «12+» -->
+  <!-- Исправление согласно концепции «12+».
 
-  <!-- Оригинал:
+  Оригинал:
     ...
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>questDescription->Челноку фракции [asker_faction_name] требуется аварийная посадка. Командир челнока, [asker_nameDef], хочет приземлиться в [map_definite].\n\nНа челнок будут нападать [enemyFaction_pawnsPlural] из фракции [enemyFaction_name] с целью убить всех пассажиров. Защитите его.\n\nВ челноке находятся: [asker_nameDef][andOtherCivilians] и [soldiers_count] [soldiers0_kind]. Командир [andCivilians] [shouldBeSaved], но жизнями [soldiers0_kind] можно пожертвовать.\n\nЧерез [rescueDelay_duration] за выжившими прибудет спасательный челнок. Вы должны будете погрузить их всех на борт в течение [leaveDelay_duration].</li>
+    <li>...фракции [enemyFaction_name] с целью убить всех пассажиров. Защитите его.\n\nВ челноке...[soldiers0_kind]. Командир [andCivilians] [shouldBeSaved], но жизнями [soldiers0_kind] можно пожертвовать.\n\nЧерез [rescueDelay_duration] за выжившими прибудет...</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
     ...
   -->
@@ -74,9 +79,9 @@
     <li>shouldBeSaved(civilians_count>=2)->должны быть спасены</li>
   </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
 
-  <!-- Всё что ниже - без изменений, но необходимо оставить, иначе грамматика страдает: -->
+  <!-- Всё что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN:
+  EN:
     <li>questName->[shuttle] [crash]</li>
     <li>questName->[asker_faction_pawnSingular] [shuttle] [crash]</li>
     <li>questName->[damaged] [shuttle]</li>
