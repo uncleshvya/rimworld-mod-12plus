@@ -1,12 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+».
 
-  <!-- EN: death in {0} -->
-  <TimeToDeath>потеряем через {0}</TimeToDeath>
+	На время работ по моду Android Tiers, установлено множественное число.
+	Оригинал: смерть через {0} -->
+	<TimeToDeath>вытекут через {0}</TimeToDeath>
 
-  <!-- EN: I'm dead -->
-  <IAmDead>Игра окончена</IAmDead>
+	<!-- Оригинал: Я мёртв -->
+	<IAmDead>Игра окончена</IAmDead>
 
 </LanguageData>
