@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- Исправление согласно концепции «12+».
-
-	EN: Bones from a once living thing. Useful for building structures or weapons. A bone can be used as a weapon in a pinch. -->
-	<BoneItem.description>Кости животных. Твёрдый строительный материал. Крупная кость — это готовая дубина. Большие кости содержат внутри питательный костный мозг, а за счёт своей герметичности являются самыми первыми мясными консервами — древние люди запасали неповреждённые кости впрок и могли почти месяц жить после окончания охоты, питаясь костным мозгом.</BoneItem.description>
-
 	<!-- Добавлена русская локализация, сообщите разработчику.
 
 	Перегонный завод теперь нужен не только для химтоплива. Да и другие моды добавляют разные рецепты.
@@ -52,7 +47,7 @@
 	<!-- EN: calcium polymer -->
 	<BonePlastic.label>кальциевый полимер</BonePlastic.label>
 	<!-- EN: An extremely light-weight plastic formed from hydroxyapatite and calcium stearate extracted from bone. Can be used to build metal stuff, but is weaker than metals. -->
-	<BonePlastic.description>Чрезвычайно лёгкий пластик, изготовленный из гидроксиапатита и стеарата кальция, извлечённых из кости. Его можно использовать в качестве строительного материала вместо металла, правда, он не такой прочный, как большинство металлов.</BonePlastic.description>
+	<BonePlastic.description>Чрезвычайно лёгкий пластик, изготовленный из гидроксиапатита и стеарата кальция, извлечённых из кости. Его можно использовать в производстве вместо металлов, правда, он не такой прочный, как большинство из них.</BonePlastic.description>
 	<!-- EN: bone ash -->
 	<BoneChina.label>блоки костяного фарфора</BoneChina.label>
 	<!-- EN: ash made from bones burned at extremely high temperatures. Can be used to make art pieces out of bone china. -->
@@ -73,5 +68,10 @@
 	<Jecrell_Bone_Candelabra.label>череп-канделябр</Jecrell_Bone_Candelabra.label>
 	<!-- EN: A pile of bones topped with wax candles to illuminate the area. Can be automatically refilled with wax. Produces a small amount of heat. -->
 	<Jecrell_Bone_Candelabra.description>Светильник в виде черепа на куче костей, увенчанных восковыми свечами. Освещает ближайшую область и немного нагревает воздух. По мере сгорания свечей можно ставить новые из воска.</Jecrell_Bone_Candelabra.description>
+
+	<!-- Исправление согласно концепции «12+».
+
+	EN: Bones from a once living thing. Useful for building structures or weapons. A bone can be used as a weapon in a pinch. -->
+	<BoneItem.description>Кости животных. Твёрдый строительный материал. Крупная кость — это готовая дубина. Большие кости содержат внутри питательный костный мозг, а за счёт своей герметичности являются самыми первыми мясными консервами — древние люди запасали неповреждённые кости впрок и могли почти месяц жить после окончания охоты, питаясь костным мозгом.</BoneItem.description>
 
 </LanguageData>
