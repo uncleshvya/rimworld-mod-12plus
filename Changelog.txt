@@ -2,7 +2,8 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-07-04 добавлена адаптация для мода Android Tiers и его русификатора, заодно исправлены их ошибки, см.каменты в коде. Пришлось подправить кривоватый баланс:
+2021-07-04 начата работа над адаптацией мода RimAtomics, тег "RimAtomics_"
+Добавлена адаптация для мода Android Tiers и его русификатора, заодно исправлены их ошибки, см.каменты в коде. Пришлось подправить кривоватый баланс:
 - питательный раствор больше не считается животным продуктом;
 - добавлен рецепт изготовления ножа для М7;
 - добавлен рецепт разбивания андроидов;
@@ -134,7 +135,8 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-jul-07 Atlas.AndroidTiers and Android.Tiers.RUS mods' adaptation added. Also corrected their errors, see code comments. Had to change balance, it was awful:
+2021-jul-07 Dubwise.Rimatomics mod adaptation started. Tag "RimAtomics_".
+Atlas.AndroidTiers and Android.Tiers.RUS mods' adaptation added. Also corrected their errors, see code comments. Had to change balance, it was awful:
 - blue milk is no more animal product;
 - added M7 knife receipe;
 - added android smash receipe;
