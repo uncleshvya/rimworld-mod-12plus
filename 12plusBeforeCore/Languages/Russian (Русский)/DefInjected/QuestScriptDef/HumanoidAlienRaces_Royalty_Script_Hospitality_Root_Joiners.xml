@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+  <!-- Исправление согласно концепции «12+».
 
-  <!-- Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core. -->
+  Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
 
-  <!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает: -->
+  Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN:
+  EN:
     <li>lodgersLabel->guest</li>
     <li>lodgersLabelPlural->[asker_faction_pawnsPlural]</li>
   -->
@@ -23,15 +23,21 @@
     <li>lodgersLabelPluralAcc->гостей</li>
   </Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>
 
-  <!-- исправление согласно концепции «12+» -->
+  <!-- Исправление согласно концепции «12+».
 
-  <!-- Оригинал:
+  Заодно сглажена ссылка на людей - для модов на другие расы.
+  Оригинал:
     ...
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name] и ещё ^Number( [lodgersCountMinusOne] | '# человек' | '# человека' | '# людей')^ из [asker_possessive] двора хотят [shuttleDelayTicks_duration] погостить в [map_definite]. [threatsInfo6][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>threatsInfo5(generateThreats==false)-></li>
+    <li>...( [lodgersCountMinusOne] | '# человек' | '# человека' | '# людей')^ из [asker_possessive] двора хотят... [threatsInfo6][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[asker_nameDef] и [asker_possessive] [allyAllies] стали целью смертельного заговора и ищут безопасное место на время проведения чисток среди своих придворных. К сожалению, враги [asker_nameDef] наняли фракцию [enemyFaction_name], чтобы охотиться за [asker_him].\n\n[enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef] и [asker_possessive] [allyAllies] стали целью смертельного заговора и ищут безопасное место на время проведения чисток среди своих придворных. К сожалению, враги [asker_nameDef] натравили на н[asker_possessive] механоидов.\n\n[enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[asker_nameDef] и [asker_possessive] [allyAllies] стали целью смертельного заговора и ищут безопасное место на время проведения чисток среди своих придворных. К сожалению, враги [asker_nameDef] каким-то образом натравили на н[asker_possessive] механоидов.\n\n[enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==false)-></li>
+    ...
+    <li>asker_him(asker_gender==Female)->ней</li>
+    <li>allyAllies(lodgersCountMinusOne==1)->человек</li>
+    <li>allyAllies(lodgersCountMinusOne>=2)->люди</li>
     ...
   -->
   <Hospitality_Joiners.questDescriptionRules.rulesStrings>
@@ -98,48 +104,35 @@
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nВраги [asker_nameDef] натравили на н[asker_possessive] механоидов. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\nВраги [asker_nameDef] каким-то образом натравили на н[asker_possessive] механоидов. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name] и ещё ^Number( [lodgersCountMinusOne] | '# человек' | '# человека' | '# людей')^ из [asker_possessive] двора хотят [shuttleDelayTicks_duration] погостить в [map_definite]. [threatsInfo6][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name] и ещё ^Number( [lodgersCountMinusOne] | '# придворных' | '# придворного' | '# придворных')^ из [asker_possessive] окружения хотят [shuttleDelayTicks_duration] погостить в [map_definite]. [threatsInfo6][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[asker_nameDef] и [asker_possessive] [allyAllies] стали целью заговора и ищут безопасное место на время проведения чисток среди своих придворных. К сожалению, враги [asker_nameDef] наняли фракцию [enemyFaction_name], чтобы охотиться за [asker_him].\n\n[enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef] и [asker_possessive] [allyAllies] стали целью заговора и ищут безопасное место на время проведения чисток среди своих придворных. К сожалению, враги [asker_nameDef] натравили на н[asker_possessive] механоидов.\n\n[enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[asker_nameDef] и [asker_possessive] [allyAllies] стали целью заговора и ищут безопасное место на время проведения чисток среди своих придворных. К сожалению, враги [asker_nameDef] каким-то образом натравили на н[asker_possessive] механоидов.\n\n[enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==false)-></li>
     <li>asker_him(asker_gender==Male)->ним</li>
     <li>asker_him(asker_gender==Female)->ней</li>
-    <li>allyAllies(lodgersCountMinusOne==1)->человек</li>
-    <li>allyAllies(lodgersCountMinusOne>=2)->люди</li>
+    <li>allyAllies(lodgersCountMinusOne==1)->товарищ</li>
+    <li>allyAllies(lodgersCountMinusOne>=2)->товарищи</li>
   </Hospitality_Joiners.questDescriptionRules.rulesStrings>
 
-  <!-- Всё что ниже - без изменений, но необходимо оставить, иначе грамматика страдает: -->
+  <!-- Сглажена ссылки на людей - для модов на другие расы.
 
-  <!-- EN:
-    <li>questName->shelter for [lodgerIndef]</li>
-    <li>questName->hospitality for [lodgerIndef]</li>
-    <li>questName->hosting [lodgerIndef]</li>
-    <li>questName->[lodgerIndef] needing help</li>
-    <li>questName(generateThreats==true,priority=1)->protecting [lodgerIndef]</li>
-    <li>questName(generateThreats==true,priority=1)->safeguarding [lodgerIndef]</li>
-    <li>questName(generateThreats==true,priority=1)->security for [lodgerIndef]</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] under threat</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] in danger</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] with enemies</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] in the crosshairs</li>
-    <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->[lodgers0_label]</li>
-    <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->a [lodgers0_title]</li>
-    <li>lodgerIndef(askerIsNull==true,lodgersCount>=2)->travelers</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->[lodgers0_label]</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->a [lodgers0_title]</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->a friend</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->an ally</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->friends</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->allies</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1,p=3)->a [asker_royalTitleInCurrentFaction]</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_label]</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->a royal</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->a noble</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->an aristocrat</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->royals</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->nobles</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->aristocrats</li>
+  Оригинал:
+    ...
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->дворянин</li>
+    <li>...lodgersCount==1)->знатный человек</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->аристократ</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->дворяне</li>
+    <li>...знатные люди</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->аристократы</li>
+    ...
+    <li>lodgerIndef_gen(asker_royalInCurrentFaction==True,lodgersCount==1)->дворянина</li>
+    <li>...lodgersCount==1)->знатного человека</li>
+    <li>lodgerIndef_gen(asker_royalInCurrentFaction==True,lodgersCount==1)->аристократа</li>
+    <li>lodgerIndef_gen(asker_royalInCurrentFaction==True,lodgersCount>=2)->дворян</li>
+    <li>...знатных людей</li>
+    <li>lodgerIndef_gen(asker_royalInCurrentFaction==True,lodgersCount>=2)->аристократов</li>
+    ...
   -->
   <Hospitality_Joiners.questNameRules.rulesStrings>
     <li>questName->убежище для [lodgerIndef_gen]</li>
@@ -164,10 +157,10 @@
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1,p=3)->[asker_royalTitleInCurrentFaction]</li>
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_label]</li>
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->дворянин</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->знатный человек</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->знатная персона</li>
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->аристократ</li>
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->дворяне</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->знатные люди</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->знатные персоны</li>
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->аристократы</li>
     <li>lodgerIndef_gen(askerIsNull==true,lodgersCount==1)->[lodgers0_label]</li>
     <li>lodgerIndef_gen(askerIsNull==true,lodgersCount>=2)->путешественников</li>
@@ -178,11 +171,11 @@
     <li>lodgerIndef_gen(asker_factionLeader==True,lodgersCount>=2)->союзников</li>
     <li>lodgerIndef_gen(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_label]</li>
     <li>lodgerIndef_gen(asker_royalInCurrentFaction==True,lodgersCount==1)->дворянина</li>
-    <li>lodgerIndef_gen(asker_royalInCurrentFaction==True,lodgersCount==1)->знатного человека</li>
+    <li>lodgerIndef_gen(asker_royalInCurrentFaction==True,lodgersCount==1)->знатной персоны</li>
     <li>lodgerIndef_gen(asker_royalInCurrentFaction==True,lodgersCount==1)->аристократа</li>
     <li>lodgerIndef_gen(asker_royalInCurrentFaction==True,lodgersCount>=2)->дворян</li>
-    <li>lodgerIndef_gen(asker_royalInCurrentFaction==True,lodgersCount>=2)->знатных людей</li>
+    <li>lodgerIndef_gen(asker_royalInCurrentFaction==True,lodgersCount>=2)->знатных персон</li>
     <li>lodgerIndef_gen(asker_royalInCurrentFaction==True,lodgersCount>=2)->аристократов</li>
   </Hospitality_Joiners.questNameRules.rulesStrings>
-  
+
 </LanguageData>
