@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+  <!-- Исправление согласно концепции «12+».
 
-  <!-- Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core. -->
+  Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
 
-  <!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает: -->
+  Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN:
+  EN:
     <li>lodgersLabel->prisoner</li>
     <li>lodgersLabelPlural->prisoners</li>
   -->
@@ -23,9 +23,10 @@
     <li>lodgersLabelPluralAcc->заключённых</li>
   </Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
 
-  <!-- исправление согласно концепции «12+» -->
+  <!-- Исправление согласно концепции «12+».
 
-  <!-- Оригинал:
+  Заодно сглажена ссылка на людей - для модов на другие расы.
+  Оригинал:
     ...
     <li>questDescription(askerIsNull==true,lodgersCount>=2)->Капитан корабля, находящегося на орбите, хочет, чтобы вы разместили заключённых в [map_definite] на срок [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
     <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nЗаключённые недавно совершили серию убийств [enemyFaction_pawnsPlural] из фракции [enemyFaction_name], и семьи погибших будут организовывать налёты, пока они находятся у вас. [enemyGroupsParagraph]</li>
@@ -66,7 +67,7 @@
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nВраги [asker_nameDef] натравили на заключённых рой механоидов, поэтому они будут на вас регулярно нападать. [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name] [asker_wasCaught] в дружбе с человеком из вражеской фракции. В знак публичного отвержения [asker_pronoun] [asker_imprisoned] [lodgers0_lover_gen], [lodgers0_nameFull], под стражу. Теперь [asker_pronoun] хочет, чтобы вы приютили жертву интриг на [shuttleDelayTicks_duration], пока скандал не уляжется. [allLodgerInfo][threatsInfo5][commonDescEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name] [asker_wasCaught] в дружбе с персоной из вражеской фракции. В знак публичного отвержения [asker_pronoun] [asker_imprisoned] [lodgers0_lover_gen], [lodgers0_nameFull], под стражу. Теперь [asker_pronoun] хочет, чтобы вы приютили жертву интриг на [shuttleDelayTicks_duration], пока скандал не уляжется. [allLodgerInfo][threatsInfo5][commonDescEnding]</li>
     <li>asker_wasCaught(asker_gender==Male)->был замечен</li>
     <li>asker_wasCaught(asker_gender==Female)->была замечена</li>
     <li>asker_imprisoned(asker_gender==Male)->заключил</li>
@@ -88,9 +89,9 @@
     <li>lodgers0_prisoner_gen(lodgers0_gender==Female)->заключённую</li>
   </Hospitality_Prisoners.questDescriptionRules.rulesStrings>
 
-  <!-- Всё что ниже - без изменений, но необходимо оставить, иначе грамматика страдает: -->
+  <!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN:
+  EN:
     <li>questName->Guarding for [asker_nameDef]</li>
     <li>questName(lodgersCount==1)->guarding [lodgers0_nameDef]</li>
     <li>questName(lodgersCount==1)->prisoner [lodgers0_nameDef]</li>
