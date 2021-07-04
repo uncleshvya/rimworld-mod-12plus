@@ -2,7 +2,7 @@
 
 <Patch>
 
-	<!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+» -->
 
 	<Operation Class="PatchOperationAdd">
 		<success>Always</success>
@@ -14,6 +14,10 @@
 					<li>Corpse_Human</li>
 					<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
 					<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
+					<li MayRequire="Atlas.AndroidTiers">Corpse_Abomination</li>
+					<!-- Заодно убираем съедобность сломанного дрона, почему-то отдельным патчем она не отключается, вероятно из-за алфавитного порядка файлов патчей -->
+					<li MayRequire="Atlas.AndroidTiers">Corpse_MicroScyther</li>
+
 				</willNeverEat>
 			</race>
 		</value>
