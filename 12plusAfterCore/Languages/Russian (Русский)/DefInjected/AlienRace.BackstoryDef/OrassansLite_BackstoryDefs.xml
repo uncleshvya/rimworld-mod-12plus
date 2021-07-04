@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- добавлена русская локализация, сообщите разработчику -->
+	<!-- Добавлена русская локализация, сообщите разработчику.
 
-	<!-- исправлена неточность, сообщите разработчику, что у всех предысторий отсутствует языковая метка заголовков ".title*" -->
+	Исправлена неточность, сообщите разработчику, что у всех предысторий отсутствует языковая метка заголовков ".title*".
 
-	<!-- EN: Stylist -->
+	EN: Stylist -->
 	<Orassan_Stylist.title>Стилист в салоне</Orassan_Stylist.title>
 	<!-- EN: Stylist -->
 	<Orassan_Stylist.titleShort>Стилист</Orassan_Stylist.titleShort>
@@ -24,7 +24,7 @@
 	<!-- EN: Spacer -->
 	<Orassan_SpacerChild.titleShort>Космонавт</Orassan_SpacerChild.titleShort>
 	<!-- EN: [PAWN_nameDef] was born on a space ship and spent most of their childhood on one ship or another. The close quarters meant that [PAWN_pronoun] had to be friendly with [PAWN_possessive] neighbors and had to know how to maintain the ship [PAWN_pronoun] was on. -->
-	<Orassan_SpacerChild.baseDescription>{PAWN_nameDef} {PAWN_gender ? родился : родилась} на космическом корабле и {PAWN_gender ? провёл : провела} большую часть детства в межпланетных перелётах. Тесные каюты жилых отсеков приучили {PAWN_possessive} дружить с соседями, а однообразные дни {PAWN_pronoun} {PAWN_gender ? скрашивал : скрашивала}, изучая устройство корабля.</Orassan_SpacerChild.baseDescription>
+	<Orassan_SpacerChild.baseDescription>{PAWN_nameDef} {PAWN_gender ? родился : родилась} на космическом корабле и {PAWN_gender ? провёл : провела} бо́льшую часть детства в межпланетных перелётах. Тесные каюты жилых отсеков приучили {PAWN_possessive} дружить с соседями, а однообразные дни {PAWN_pronoun} {PAWN_gender ? скрашивал : скрашивала}, изучая устройство корабля.</Orassan_SpacerChild.baseDescription>
 
 	<!-- EN: Scientist -->
 	<Orassan_Scientist.title>Имперский учёный</Orassan_Scientist.title>
@@ -307,9 +307,9 @@
 	<!-- EN: [PAWN_nameDef] is a soldier for the Orassan Empire.\n -->
 	<Orassan_Soldier.baseDescription>{PAWN_nameDef} {PAWN_gender ? служил : служила} простым солдатом Империи.</Orassan_Soldier.baseDescription>
 
-	<!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+».
 
-	<!-- EN: Terrorist -->
+	EN: Terrorist -->
 	<Orassan_Terrorist.title>Экстрим-спортсмен</Orassan_Terrorist.title>
 	<Orassan_Terrorist.titleFemale>Экстрим-спортсменка</Orassan_Terrorist.titleFemale>
 	<!-- EN: Terrorist -->
@@ -355,4 +355,5 @@
 	<Orassan_Crafter.titleShort>Гуманитарий</Orassan_Crafter.titleShort>
 	<!-- EN: Any civilization finds themselves eventuially in war, either with themselves, or others. [PAWN_nameDef] was a designer of weapons of war, and [PAWN_pronoun], along with others of [PAWN_possessive] design team, made and improved weapons that have killed many, many people.\n -->
 	<Orassan_Crafter.baseDescription>Каждая цивилизация сталкивается с угрозой войны, как внешней, так и внутренней. {PAWN_nameDef} {PAWN_gender ? трудился : трудилась} в исследовательском центре, специализировавшемся на гуманитарных дисциплинах, где совместно с коллегами {PAWN_gender ? искал : искала} варианты выхода из такого кризиса.\n\nЭта работа была очень востребована — по всей планете уже началась подготовка к мировой войне, и даже в их институте проводилась начальная военная подготовка.</Orassan_Crafter.baseDescription>
+
 </LanguageData>
