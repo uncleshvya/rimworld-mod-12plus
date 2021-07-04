@@ -4,30 +4,20 @@
 		<success>Always</success>
 		<operations>
 
-			<!-- Исправление согласно концепции «12+» -->
+			<!-- Исправление согласно концепции «12+».
 
-			<!-- Шёрстка: -->
-			<li Class="PatchOperationAttributeSet">
+			Расы: -->
+			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName = "Leather_Orassan"]</xpath>
-				<attribute>ParentName</attribute>
-				<value>WoolBase</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "Leather_Orassan"]/graphicData/color</xpath>
-				<value>
-					<color>(147, 140, 129)</color>
-					<drawSize>0.5</drawSize>
-				</value>
-			</li>
-
-			<!-- расы: -->
-			<li Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[
 				defName = "Alien_Orassan" or
 				defName = "Alien_OrassanHumanHybrid"
-				]/race</xpath>
+				]/race/leatherDef</xpath>
 				<value>
 					<useMeatFrom>Human</useMeatFrom>
+					<useLeatherFrom>Human</useLeatherFrom>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -72,7 +62,7 @@
 				</value>
 			</li>
 
-			<!-- Отменяем действие патча, удаляя а потом перезаписывая параметр
+			<!-- Отменяем действие патча, удаляя а потом перезаписывая параметр:
 			\Mods\OrassansLite\1.2\Patches\meals.xml -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/RecipeDef[@Name = "CookMealBase"]/defaultIngredientFilter/disallowedThingDefs</xpath>
@@ -85,6 +75,15 @@
 						<li>Meat_Megaspider</li>
 						<li>InsectJelly</li>
 					</disallowedThingDefs>
+				</value>
+			</li>
+
+			<!-- Адаптация к моду AndroidTiers -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName = "ATPP_SmashAndroid"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+				<value>
+					<li>Corpse_Alien_Orassan</li>
+					<li>Corpse_Alien_OrassanHumanHybrid</li>
 				</value>
 			</li>
 
@@ -195,8 +194,9 @@
 				</value>
 			</li>
 
-			<!-- Исправлена неточность, сообщите разработчику, что 2 рецепта устарели -->
+			<!-- Исправлена неточность, сообщите разработчику.
 
+			Эти 2 рецепта устарели -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/RecipeDef[
 				defName = "MakeCatnipJoint5" or
@@ -204,7 +204,7 @@
 				]</xpath>
 			</li>
 
-			<!-- иначе медпроцедур в 2 раза больше нужного -->
+			<!-- Иначе медпроцедур в 2 раза больше нужного -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[
 				defName = "Alien_Orassan" or
@@ -212,7 +212,7 @@
 				]/recipes</xpath>
 			</li>
 
-			<!-- иначе лёд орассан не удаляется -->
+			<!-- Иначе лёд орассан не удаляется -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/TerrainDef[defName = "OrassanSoil"]</xpath>
 				<value>
@@ -220,9 +220,8 @@
 				</value>
 			</li>
 
-			<!-- Исправлена неточность, сообщите разработчику, что иначе часто вылезает красная ошибка предысторий. Решена проблема для силовиков орассан.
+			<!-- Иначе часто вылезает красная ошибка предысторий. Решена проблема для силовиков орассан.
 			И почему то пропала красная ошибка из-за имён -->
-
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.BackstoryDef[
 				defName = "Orassan_EcumenopolisA" or
