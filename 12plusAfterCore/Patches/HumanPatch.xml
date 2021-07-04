@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
 <Patch>
-
-	<!-- исправление согласно концепции «12+» -->
-
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
+
+			<!-- Исправление согласно концепции «12+».
+
+			Можно было бы совсем отключить текстильный ресурс с людей, но пусть вспомнится подвиг древнеримских женщин из г.Аквилея, отдавших свои волосы для ремонта катапульт -->
 			<li Class="PatchOperationAttributeSet">
 				<xpath>Defs/ThingDef[defName = "Leather_Human"]</xpath>
 				<attribute>ParentName</attribute>
@@ -25,6 +25,12 @@
 					<LeatherAmount>0</LeatherAmount>
 					<MeatAmount>0</MeatAmount>
 					<BoneAmount MayRequire="sihv.rombones">0</BoneAmount>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Human"]/race</xpath>
+				<value>
+					<meatColor>(125,125,0)</meatColor>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -51,12 +57,7 @@
 					<li>WitnessedDeathBloodlust</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "Human"]/race</xpath>
-				<value>
-					<meatColor>(125,125,0)</meatColor>
-				</value>
-			</li>
+
 		</operations>
 	</Operation>
 </Patch>
