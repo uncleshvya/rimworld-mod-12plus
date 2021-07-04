@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Оригинал: без "ё" -->
+	<FactionGreetingWary>{0} приветствует {NEGOTIATOR_labelShort} и спрашивает у н{NEGOTIATOR_possessive}, в чём дело.</FactionGreetingWary>
+
+</LanguageData>
