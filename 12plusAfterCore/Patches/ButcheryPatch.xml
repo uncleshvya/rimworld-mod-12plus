@@ -2,7 +2,7 @@
 
 <Patch>
 
-	<!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+» -->
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/RecipeDef[defName="ButcherCorpseFlesh"]/fixedIngredientFilter/disallowedCategories</xpath>
