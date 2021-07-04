@@ -1,26 +1,32 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+  <!-- Исправление согласно концепции «12+».
 
-  <!-- Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core. -->
+  Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
 
-  <!-- Оригинал:
+  Заодно сглажена ссылка на людей - для модов на другие расы.
+  Оригинал:
+    ...
+    <li>lodgers_pronoun(lodgersCount>=2)->они</li>
+    <li>...(lodgersCount==1)->этот человек будет</li>
+    <li>...(lodgersCount>=2)->эти люди будут</li>
+    <li>lodgers_will_leave(lodgersCount==1)->покинет</li>
     ...
     <li>paralyzedInfo->[lodgersLabelSingOrPlural] [lodgers_suffer] от паралитической абазии и [lodgers_should] находиться в кровати.</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPlural] [lodgers_sick] гнилокровием и [lodgers_will] нуждаться в ежедневном лечении. Хороший уход и качественные лекарства помогут замедлить болезнь, но её невозможно вылечить сразу. Гнилокровие в запущенной стадии приводит к смерти. Убедитесь, что у вас есть запас необходимых медикаментов.</li>
+    <li>...приводит к смерти. Убедитесь...</li>
     <li>minMoodInfo-></li>
     ...
     <li>lodgers0_mechViolation(lodgers0_gender==Male)->осквернил древний терминал суперкомпьютера</li>
-    <li>lodgers0_mechViolation(lodgers0_gender==Male)->убил человеческого ребёнка, обожаемого ИИ-архотеком</li>
+    <li>...(lodgers0_gender==Male)->убил человеческого ребёнка...</li>
     <li>lodgers0_mechViolation(lodgers0_gender==Male)->попытался взломать управляющий узел механоидов</li>
     ...
     <li>lodgers0_mechViolation(lodgers0_gender==Female)->осквернила древний терминал суперкомпьютера</li>
-    <li>lodgers0_mechViolation(lodgers0_gender==Female)->убила человеческого ребёнка, обожаемого ИИ-архотеком</li>
+    <li>...(lodgers0_gender==Female)->убила человеческого ребёнка...</li>
     <li>lodgers0_mechViolation(lodgers0_gender==Female)->попыталась взломать управляющий узел механоидов</li>
     ...
     <li>mechViolation_plural->осквернили древний терминал суперкомпьютера</li>
-    <li>mechViolation_plural->убили человеческого ребёнка, обожаемого ИИ-архотеком</li>
+    <li>mechViolation_plural->убили человеческого ребёнка...</li>
     <li>mechViolation_plural->попытались взломать управляющий узел механоидов</li>
     ...
   -->
@@ -39,8 +45,8 @@
     <li>lodgers_possessive(lodgersCount>=2)->их</li>
     <li>lodgers_pronoun(lodgersCount==1)->[lodgers0_pronoun]</li>
     <li>lodgers_pronoun(lodgersCount>=2)->они</li>
-    <li>lodgers_these_people_will_be(lodgersCount==1)->этот человек будет</li>
-    <li>lodgers_these_people_will_be(lodgersCount>=2)->эти люди будут</li>
+    <li>lodgers_these_people_will_be(lodgersCount==1)->эта персона будет</li>
+    <li>lodgers_these_people_will_be(lodgersCount>=2)->эти персоны будут</li>
     <li>lodgers_will_leave(lodgersCount==1)->покинет</li>
     <li>lodgers_will_leave(lodgersCount>=2)->покинут</li>
     <li>lodgers_should(lodgersCount==1,lodgers0_gender==Male)->должен</li>
@@ -80,17 +86,17 @@
     <li>threatsInfoMechRaidsMultiHuman->Они недавно [mechViolation_plural], и преследуются роем механоидов.</li>
     <li>lodgers0_mechViolation(lodgers0_gender==Male)->каким-то образом разозлил ИИ-архотека</li>
     <li>lodgers0_mechViolation(lodgers0_gender==Male)->осквернил древний терминал суперкомпьютера</li>
-    <li>lodgers0_mechViolation(lodgers0_gender==Male)->обидел человеческого ребёнка, обожаемого ИИ-архотеком</li>
+    <li>lodgers0_mechViolation(lodgers0_gender==Male)->обидел маленького ребёнка, обожаемого ИИ-архотеком</li>
     <li>lodgers0_mechViolation(lodgers0_gender==Male)->попытался взломать управляющий узел механоидов</li>
     <li>lodgers0_mechViolation(lodgers0_gender==Male)->попытался совершить кражу из древнего хранилища</li>
     <li>lodgers0_mechViolation(lodgers0_gender==Female)->каким-то образом разозлила ИИ-архотека</li>
     <li>lodgers0_mechViolation(lodgers0_gender==Female)->осквернила древний терминал суперкомпьютера</li>
-    <li>lodgers0_mechViolation(lodgers0_gender==Female)->обидела человеческого ребёнка, обожаемого ИИ-архотеком</li>
+    <li>lodgers0_mechViolation(lodgers0_gender==Female)->обидела маленького ребёнка, обожаемого ИИ-архотеком</li>
     <li>lodgers0_mechViolation(lodgers0_gender==Female)->попыталась взломать управляющий узел механоидов</li>
     <li>lodgers0_mechViolation(lodgers0_gender==Female)->попыталась совершить кражу из древнего хранилища</li>
     <li>mechViolation_plural->каким-то образом разозлили ИИ-архотека</li>
     <li>mechViolation_plural->осквернили древний терминал суперкомпьютера</li>
-    <li>mechViolation_plural->обидели человеческого ребёнка, обожаемого ИИ-архотеком</li>
+    <li>mechViolation_plural->обидели маленького ребёнка, обожаемого ИИ-архотеком</li>
     <li>mechViolation_plural->попытались взломать управляющий узел механоидов</li>
     <li>mechViolation_plural->попытались совершить кражу из древнего хранилища</li>
     <li>letterSubject->{SUBJECT_definite}</li>
