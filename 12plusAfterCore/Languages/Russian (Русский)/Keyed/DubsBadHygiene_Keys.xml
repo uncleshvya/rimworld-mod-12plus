@@ -113,8 +113,12 @@
 
 	<!-- Оригинал: Rimefeller подключен -->
 	<RimefellerLink>Мод «Rimefeller» подключён</RimefellerLink>
+	<!-- Оригинал: ...нефтепереработчиков в Rimefeller -->
+	<RimefellerLinkTip>Разрешить использование воды для расщепителей и нефтепереработчиков, добавляемых модом «Rimefeller»</RimefellerLinkTip>
 	<!-- Оригинал: Rimatomics подключен -->
 	<RimatomicsLink>Мод «Rimatomics» подключён</RimatomicsLink>
+	<!-- Оригинал: ...установках в Rimatomics -->
+	<RimatomicsLinkTip>Разрешить использование воды в охладительных установках, добавляемых модом «Rimatomics»</RimatomicsLinkTip>
 	<!-- Оригинал: Фильтры нужд -->
 	<OverrideNeedsSettings>Ручная настройка</OverrideNeedsSettings>
 	<!-- Оригинал: Отключить вручную нужды в завимости от типа тела, расы и состояния здоровья -->
