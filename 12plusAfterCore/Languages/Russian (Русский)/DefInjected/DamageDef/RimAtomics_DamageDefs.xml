@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: {0} умер во время взрыва. -->
+	<CoreBlast.deathMessage>{0} проигрывает из-за взрыва.</CoreBlast.deathMessage>
+	<!-- EN: {0} has burned to a crisp. -->
+	<ArcDischarge.deathMessage>{0} проигрывает из-за разряда.</ArcDischarge.deathMessage>
+	<!-- EN: {0} has burned to a crisp. -->
+	<LaserDischarge.deathMessage>{0} проигрывает из-за лазера.</LaserDischarge.deathMessage>
+	<!-- EN: {0} has died in an explosion. -->
+	<Bomb_PlasmaToroid.deathMessage>{0} проигрывает из-за взрыва.</Bomb_PlasmaToroid.deathMessage>
+	<!-- EN: {0} has died in an explosion. -->
+	<Bomb_Sabot.deathMessage>{0} проигрывает из-за взрыва.</Bomb_Sabot.deathMessage>
+	<!-- EN: {0} has died in an explosion. -->
+	<Bomb_DUSabot.deathMessage>{0} проигрывает из-за взрыва.</Bomb_DUSabot.deathMessage>
+
+</LanguageData>
