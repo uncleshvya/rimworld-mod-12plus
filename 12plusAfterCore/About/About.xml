@@ -18,6 +18,7 @@
 Дети! С этим модом вы сможете играть в Римворлд при родителях, и спокойно разговаривать обо _всех_ особенностях своего поселения.
 
 Кое-где пришлось подправить баланс, см.файл changelog. Кого эти исправления не устраивают, просто удалите соответствующий файл:
+- «AndroidTiers_Rebalance.xml»;
 - «OrassansLite_Rebalance.xml»;
 - «RimOfMadnessBones_Rebalance.xml»;
 - «Royalty_VEfactionsInsectoids_Rebalance.xml»;
@@ -26,7 +27,7 @@
 - «VEfurnitureSecurity_Rebalance.xml»;
 - концепция и сейвы не пострадают.
 
-Текущая версия 12plus мода: v0.6.3beta rev.2021.07.04.
+Текущая версия 12plus мода: v0.6.5beta rev.2021.07.06.
 
 =====
 
@@ -86,6 +87,7 @@ Parents! Now you shouldn't answer kids' ticklish questions during playing.
 Kids! Now you can play RimWorld in one room with parents, and to speak about _everything_ happens in your game. For now, only in Russian version.
 
 Had to rebalance some mods, see changelog file. But if you don't like these changes, just delete unwanted file:
+- "AndroidTiers_Rebalance.xml";
 - "OrassansLite_Rebalance.xml";
 - "RimOfMadnessBones_Rebalance.xml";
 - "Royalty_VEfactionsInsectoids_Rebalance.xml";
@@ -94,7 +96,7 @@ Had to rebalance some mods, see changelog file. But if you don't like these chan
 - "VEfurnitureSecurity_Rebalance.xml";
 - saves will be playable, concept — workable.
 
-Current 12plus mod version 0.6.3beta rev.2021.07.04.
+Current 12plus mod version 0.6.5beta rev.2021.07.06.
 
 =====
 
