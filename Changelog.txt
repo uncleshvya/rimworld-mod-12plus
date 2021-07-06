@@ -2,7 +2,7 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-07-06 начата рaбота по адаптации мода Vegetable Garden Project (основного), тег "VegetableGardenProjectCore_"
+2021-07-06 начата рaбота по адаптации мода Vegetable Garden Project (основного), тег "VegetableGardenProjectCore_".
 Добавлена адаптация для мода LWM's Deep Storage.
 Скомпилирована версия 12+мода 0.6.5beta.
 Чтобы не плодить кучу субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
@@ -36,7 +36,7 @@ For English, scroll down.
 
 2021-07-05 добавлена адаптация для мода RimAtomics.
 
-2021-07-04 добавлена адаптация для мода Android Tiers и его русификатора, заодно исправлены их ошибки, см.каменты в коде. Пришлось подправить кривоватый баланс:
+2021-07-04 добавлена адаптация для мода Android Tiers и его русификатора, заодно исправлены их ошибки, см.каменты в коде. По желанию, доступно исправление кривоватого баланса:
 - питательный раствор больше не считается животным продуктом;
 - добавлен рецепт изготовления ножа для М7;
 - добавлен рецепт разбивания андроидов;
@@ -45,7 +45,7 @@ For English, scroll down.
 2021-04-25 добавлена адаптация для мода Vanilla Expanded Furniture Power и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 
 2021-04-20 добавлена адаптация для мода Vanilla Expanded Furniture Security и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
-Перебалансирована самая явная имба - автономный пулемёт теперь заправляется химтопливом, а стволы не изнашиваются.
+По желанию, доступно перебалансирование самой явной имбы - автономный пулемёт теперь заправляется химтопливом, а стволы не изнашиваются.
 
 2021-04-19 добавлена адаптация для мода Vanilla Expanded Factions Settlers и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 
@@ -53,7 +53,7 @@ For English, scroll down.
 
 2021-04-11 добавлена адаптация для мода Vanilla Expanded Weapons с дополнениями Laser, Quickdraw и их переводом Am.Rus.VWE. На всякий случай адаптирован перевод RU.VanillaExpanded.VWE.
 
-2021-04-10 добавлена адаптация для мода Vanilla Expanded Factions Insectoids и его русификатора, заодно исправлены их ошибки, см.каменты в коде. Сделаны косметические исправления методом подключения зависимости от мода JecsTools (c) 2017 jecrell:
+2021-04-10 добавлена адаптация для мода Vanilla Expanded Factions Insectoids и его русификатора, заодно исправлены их ошибки, см.каменты в коде. По желанию, доступны косметические исправления (подключена зависимость от мода JecsTools):
 - убрана дублирующая категория сыров;
 - огнеплазменное оружие теперь при включении светится в темноте, при отключении — потухает со временем;
 - по аналогии пропатчен плазменный меч из Royalty.
@@ -66,7 +66,7 @@ For English, scroll down.
 
 2021-03-26 добавлена адаптация для мода RimFridge.
 
-2021-03-18 добавлена адаптация для мода Rim of Madness Bones и русская локализация. Пришлось подправить кривоватый баланс:
+2021-03-18 добавлена адаптация для мода Rim of Madness Bones и русская локализация. По желанию, доступно исправление кривоватого баланса:
 - убраны кости из механоидов (код устарел);
 - исправлена графика дубины-вентилятора (попробуйте взять кость как оружие);
 - убраны древние костяные строения (из которых можно было добыть съедобный костный мозг);
@@ -75,13 +75,13 @@ For English, scroll down.
 
 2021-03-15 добавлена адаптация для мода Utility Columns и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 
-2021-03-13 добавлена адаптация для мода Vanilla Expanded Cooking с аддоном Vanilla Expanded Stews и русификатором, заодно исправлены их ошибки, см.каменты в коде. Пришлось перебалансировать эти моды для сглаживания шероховатостей:
+2021-03-13 добавлена адаптация для мода Vanilla Expanded Cooking с аддоном Vanilla Expanded Stews и русификатором, заодно исправлены их ошибки, см.каменты в коде. По желанию, доступно исправление кривоватого баланса:
 - теперь суп варится 2 часа вместо 48, а рагу 8 часов вместо 72 - это чтобы выровнять время относительно выпечки;
 - рагу можно варить и на электрической плите;
 - сырые рагу и супы сделаны съедобными, но невкусными;
 - чугунная плита сохраняет тепло 3 часа вместо 1;
 - убраны дублирующие категории блюд;
-- фактически, после адаптации мод VCE и аддон VCES слились.
+- фактически, после перебалансирования мод VCE и аддон VCES слились.
 
 2021-03-09 добавлена адаптация для мода Vanilla Expanded Framework и русификатора, заодно исправлены их ошибки, см.каменты в коде.
 
@@ -177,7 +177,7 @@ To avoid a croud of small mods, the files were marked with searchable tags in th
 
 2021-jul-05 Dubwise.Rimatomics mod adaptation added.
 
-2021-jul-04 Atlas.AndroidTiers and Android.Tiers.RUS mods' adaptation added. Also corrected their errors, see code comments. Had to change balance, it was awful:
+2021-jul-04 Atlas.AndroidTiers and Android.Tiers.RUS mods' adaptation added. Also corrected their errors, see code comments. Optional balance change available:
 - blue milk is no more animal product;
 - added M7 knife receipe;
 - added android smash receipe;
@@ -194,7 +194,7 @@ Had to rebalance the most rebarbative developers' mistake - now sentry gun needs
 
 2021-apr-11 VanillaExpanded.VWE mod adaptation added, with add-ons VanillaExpanded.VWEQ, VanillaExpanded.VWEL and translations Am.Rus.VWE (basic), RU.VanillaExpanded.VWE (alternative, less accuracy). Also corrected their errors, see code comments.
 
-2021-apr-10 OskarPotocki.VFE.Insectoid and RU.VFE.Insectoid mods' adaptation added. Also corrected their errors, see code comments. Made some cosmetic fixes via adding jecrell.jecstools mod dependence (c) 2017 jecrell:
+2021-apr-10 OskarPotocki.VFE.Insectoid and RU.VFE.Insectoid mods' adaptation added. Also corrected their errors, see code comments. Optional cosmetic fixes available (jecrell.jecstools mod dependence added):
 - removed double category of cheese;
 - igniting plasma weapons now glow in the dark when armed, and go out when dropped and forgotten;
 - Royalty's plasma sword also patched in order to unify this relative technologies;
@@ -207,7 +207,7 @@ Had to rebalance the most rebarbative developers' mistake - now sentry gun needs
 
 2021-mar-26 rimfridge.kv.rw mod adaptation added.
 
-2021-mar-18 sihv.rombones mod adaptation added and also Russian translation. Had to change balance, it was awful:
+2021-mar-18 sihv.rombones mod adaptation added and also Russian translation. Optional balance change available:
 - removed bones from mechanoids (obsolete code);
 - corrected graphics' bug of bone as club (try to arm someone with bone);
 - removed ancient bone structures (they could be deconstructed and processed into edible marrow);
@@ -216,7 +216,7 @@ Had to rebalance the most rebarbative developers' mistake - now sentry gun needs
 
 2021-mar-15 nephlite.orbitaltradecolumn and gaster.orbitaltradecolumn mods' adaptation added. Also corrected their errors, see code comments.
 
-2021-mar-13 VanillaExpanded.VCookE, VanillaExpanded.VCookEStews and Inoshishi3.VanillaExpanded.VCookERusPatch mods' adaptation added. Also corrected their errors, see code comments. Had to change balance, it was awful:
+2021-mar-13 VanillaExpanded.VCookE, VanillaExpanded.VCookEStews and Inoshishi3.VanillaExpanded.VCookERusPatch mods' adaptation added. Also corrected their errors, see code comments. Optional balance change available:
 - now soups are boiling 2 hours instead of 48, stews - 8 hours instead of 72. These are to equalize them with baking time;
 - stews now can boil on electric pot too;
 - raw soups and stews are now edible, but have awful taste;
