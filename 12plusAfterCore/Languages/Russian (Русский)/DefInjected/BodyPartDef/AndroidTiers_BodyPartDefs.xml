@@ -1,17 +1,83 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+
+	<!-- Добавлена недостающая строка русской локализации, сообщите разработчику.
+
+	Теперь есть разные реакторы, подправляем ваниль.
+	Оригинал: реактор -->
+	<Reactor.label>термоядерный реактор</Reactor.label>
 
 	<!-- Исправлена неточность, сообщите разработчику.
 
-	На данном этапе развития мода АТ, это машины.
-	Оригинал: Кибернетическое животное -->
-	<AndroidAnimalBird.label>малый кибернетический питомец</AndroidAnimalBird.label>
-	<!-- Оригинал: Кибернетическое животное -->
-	<AndroidAnimalDoggo.label>средний кибернетический питомец</AndroidAnimalDoggo.label>
-	<!-- Оригинал: Кибернетическое животное -->
-	<AndroidAnimalMuff.label>большой кибернетический питомец</AndroidAnimalMuff.label>
-	<!-- Описание надо синхронизировать с файлом AndroidTiers_ThingDefs.xml.
-	Оригинал: Мех -->
-	<AndroidM7Mech.label>гигантский андроид</AndroidM7Mech.label>
+	Оригиналы: все начинаются с большой буквы -->
+	<Framework.label>каркас</Framework.label>
+	<MechanicalThorax.label>грудная клетка</MechanicalThorax.label>
+	<LeftHand.label>левая рука</LeftHand.label>
+	<RightHand.label>правая рука</RightHand.label>
+	<MechanicalNeck.label>шея</MechanicalNeck.label>
+	<MechanicalHead.label>голова</MechanicalHead.label>
+	<LeftSightSensor.label>левый глаз</LeftSightSensor.label>
+	<RightSightSensor.label>правый глаз</RightSightSensor.label>
+	<LeftHearingSensor.label>левое ухо</LeftHearingSensor.label>
+	<RightHearingSensor.label>правое ухо</RightHearingSensor.label>
+	<SmellSensor.label>датчик запаха</SmellSensor.label>
+	<LeftMechanicalShoulder.label>левое плечо</LeftMechanicalShoulder.label>
+	<LeftMechanicalArm.label>левая рука</LeftMechanicalArm.label>
+	<LeftMechanicalHand.label>левая кисть</LeftMechanicalHand.label>
+	<LeftHandMechanicalPinky.label>левый мизинец</LeftHandMechanicalPinky.label>
+	<LeftHandMechanicalMiddleFinger.label>левый средний палец</LeftHandMechanicalMiddleFinger.label>
+	<LeftHandMechanicalIndexFinger.label>левый указательный палец</LeftHandMechanicalIndexFinger.label>
+	<RightMechanicalShoulder.label>правое плечо</RightMechanicalShoulder.label>
+	<RightMechanicalArm.label>правая рука</RightMechanicalArm.label>
+	<RightMechanicalHand.label>правая кисть</RightMechanicalHand.label>
+	<RightHandMechanicalPinky.label>правый мизинец</RightHandMechanicalPinky.label>
+	<RightHandMechanicalMiddleFinger.label>правый средний палец</RightHandMechanicalMiddleFinger.label>
+	<RightHandMechanicalIndexFinger.label>правый указательный палец</RightHandMechanicalIndexFinger.label>
+	<RightHandMechanicalThumb.label>правый большой палец</RightHandMechanicalThumb.label>
+	<LeftMechanicalLeg.label>левая нога</LeftMechanicalLeg.label>
+	<LeftMechanicalFoot.label>левая ступня</LeftMechanicalFoot.label>
+	<RightMechanicalLeg.label>правая нога</RightMechanicalLeg.label>
+	<RightMechanicalFoot.label>правая ступня</RightMechanicalFoot.label>
+	<ArtificialBrain.label>искусственный мозг</ArtificialBrain.label>
+	<FrontLeftMechanicalLeg.label>передняя левая нога</FrontLeftMechanicalLeg.label>
+	<FrontLeftMechanicalPaw.label>передняя левая лапа</FrontLeftMechanicalPaw.label>
+	<FrontRightMechanicalLeg.label>передняя правая нога</FrontRightMechanicalLeg.label>
+	<FrontRightMechanicalPaw.label>передняя правая лапа</FrontRightMechanicalPaw.label>
+	<RearRightMechanicalLeg.label>задняя правая нога</RearRightMechanicalLeg.label>
+	<RearRightMechanicalPaw.label>задняя правая лапа</RearRightMechanicalPaw.label>
+	<RearLeftMechanicalLeg.label>задняя левая нога</RearLeftMechanicalLeg.label>
+	<RearLeftMechanicalPaw.label>задняя левая лапа</RearLeftMechanicalPaw.label>
+	<CounterWeightTail.label>задний противовес</CounterWeightTail.label>
+	<CyberneticAnimalJaw.label>гидравлическая челюсть</CyberneticAnimalJaw.label>
+	<MechanicalChassis.label>шасси</MechanicalChassis.label>
+	<PropellerBladeMicro.label>лопасть пропеллера</PropellerBladeMicro.label>
+	<CounterWeightTop.label>небольшой противовес</CounterWeightTop.label>
+	<MLeftLung.label>левый радиатор</MLeftLung.label>
+	<MRightLung.label>правый радиатор</MRightLung.label>
+	<MRightKidney.label>хранилище механитов</MRightKidney.label>
+	<MRightServo.label>сервоприводы движения</MRightServo.label>
+	<!-- Палец переименован единообразно с остальными, так как у андроидов нет пальцев на ступнях.
+	Оригинал: Большой палец левой руки -->
+	<LeftHandMechanicalThumb.label>левый большой палец</LeftHandMechanicalThumb.label>
+	<!-- Система теплообмена и охлаждает, и нагревает.
+	Оригинал: Насос охлаждающей жидкости -->
+	<MHeart.label>насос теплоносителя</MHeart.label>
+
+	<!-- Все названия надо синхронизировать с файлом AndroidTiers_ThingDefs.xml
+	Оригинал: Левое крыло -->
+	<LeftWingBlade.label>левое лезвие</LeftWingBlade.label>
+	<!-- Оригинал: Правое крыло -->
+	<RightWingBlade.label>правое лезвие</RightWingBlade.label>
+
+	<!-- Оригинал: Батарея -->
+	<MLeftKidney.label>аккумулятор</MLeftKidney.label>
+	<!-- Оригинал: Адаптер напряжения -->
+	<MLiver.label>преобразователь энергии</MLiver.label>
+	<!-- Оригинал: Биопроцессор -->
+	<MStomach.label>биореактор</MStomach.label>
+	<!-- С ядерным реактором не было бы необходимости в зарядке.
+	Этот орган отвечает за передвижение жидкостей, есть только у М7 и дрона.
+	Оригинал: Термоядерное ядро -->
+	<MGenerator.label>вспомогательный насос</MGenerator.label>
 
 </LanguageData>
