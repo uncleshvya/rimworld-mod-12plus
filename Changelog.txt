@@ -2,9 +2,10 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-07-06 добавлена адаптация для мода LWM's Deep Storage.
+2021-07-06 начата рaбота по адаптации мода Vegetable Garden Project (основного), тег "VegetableGardenProjectCore_"
+Добавлена адаптация для мода LWM's Deep Storage.
 Скомпилирована версия 12+мода 0.6.5beta.
-Пока не удалось разделить переводы для адаптированных модов, поэтому соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
+Чтобы не плодить кучу субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowTool_";
 "AndroidTiers_";
 "BeesNhoney_";
@@ -142,9 +143,10 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-jul-06 LWM.DeepStorage mod adaptation added.
+2021-jul-06 dismarzero.VGP.VGPVegetableGarden mod adaptation work started, tag "VegetableGardenProjectCore_".
+LWM.DeepStorage mod adaptation added.
 UncleShvya.12plus mod v.0.6.5beta compiled.
-There are some unsolved problems with cataloging, so the files were marked with searchable tags in their names (alphabetically):
+To avoid a croud of small mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowTool_";
 "AndroidTiers_";
 "BeesNhoney_";
