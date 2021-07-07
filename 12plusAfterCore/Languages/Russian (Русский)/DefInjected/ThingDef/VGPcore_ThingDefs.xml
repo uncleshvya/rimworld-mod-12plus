@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправлен конфликт модов, сообщите разработчикам:
+	Haplo.Miscellaneous.BeesNHoney
+	dismarzero.VGP.VGPVegetableGarden
+
+	EN: bee hive -->
+	<ST_WildHoneyTree.label>шмелиный улей</ST_WildHoneyTree.label>
+	<!-- EN: A hive of bees. Harvest them for honey. -->
+	<ST_WildHoneyTree.description>Улей шмелей. Они собирают не так много мёда, как пчёлы, поэтому не используются на пасеках. Зато мохнатые трудяги более самостоятельны и не требуют какого-либо ухода.</ST_WildHoneyTree.description>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Оригиналы: лишние пробелы приводили к красным ошибкам -->
+	<Rawcloudberry.description>Ягода, которая произрастает в холодных регионах.</Rawcloudberry.description>
+	<PlantPlumeria.description>Цветки плюмерии имеют 5 лепестков. Большинство цветков имеют приятный запах, который наиболее интенсивен в утренние часы.</PlantPlumeria.description>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: Простые, очень питательные растения. Хорошо растет даже на бедной почве. Не умирает в холодную погоду. -->
+	<Plant_Snowbeet.description>Очень питательное растение. Хорошо растёт даже на бедной почве, морозоустойчивое.</Plant_Snowbeet.description>
+
+	<!-- Правим ваниль, чтобы различать грибы - у них схожие изображения.
+	Оригинал: пластосвет -->
+	<Agarilux.label>дикий пластосвет</Agarilux.label>
+	<!-- Оригинал: ...взгляд. Гибнет на свету. -->
+	<Agarilux.description>Огромный пурпурный гриб. Его внушительный размер и светящиеся наросты притягивают взгляд. Увядает на свету.</Agarilux.description>
+	<!-- Оригинал: агарилюкс -->
+	<VGP_Agarilux.label>пластосвет</VGP_Agarilux.label>
+	<!-- Оригинал: Фиолетовый гриб. Его размер и светящиеся выступы делают этот гриб привлекательным на вид. Умирает при воздействии света. -->
+	<VGP_Agarilux.description>Большой пурпурный гриб. Его внушительный размер и светящиеся наросты притягивают взгляд. Увядает на свету.</VGP_Agarilux.description>
+
+	<!-- Перевод скопирован с ванили.
+	EN: chokevine -->
+	<Plant_VGChokevine.label>лозокуст</Plant_VGChokevine.label>
+	<!-- EN: Tangled masses of cord-like, spiky vines which coil in great masses along the ground. Chokevine greatky slows down anyone who moves over it. Multiple tribes have independently generated stories of chokevine strangling children to death in the night, as a way to scare kids into coming home before dark. -->
+	<Plant_VGChokevine.description>Спутанные массы жёсткой шипастой лозы, застилающие землю сплошным ковром и очень сильно затрудняющие передвижение. Во многих племенах, чтобы заставить детей возвращаться домой засветло, сочиняют небылицы о том, что лозокуст душит по ночам детей, попавших в него</Plant_VGChokevine.description>
+
+</LanguageData>
