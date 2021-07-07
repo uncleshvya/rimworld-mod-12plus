@@ -27,7 +27,7 @@
 - «VEfurnitureSecurity_Rebalance.xml»;
 - концепция и сейвы не пострадают.
 
-Текущая версия 12plus мода: v0.6.6beta rev.2021.07.06.
+Текущая версия 12plus мода: v0.6.6beta rev.2021.07.07.
 
 =====
 
@@ -96,7 +96,7 @@ Had to rebalance some mods, see changelog file. But if you don't like these chan
 - "VEfurnitureSecurity_Rebalance.xml";
 - saves will be playable, concept — workable.
 
-Current 12plus mod version 0.6.6beta rev.2021.07.06.
+Current 12plus mod version 0.6.6beta rev.2021.07.07.
 
 =====
 
@@ -204,8 +204,11 @@ Ideas to realize in next version:
 		<li>Inoshishi3.VanillaFactionsExpanded.SettlersModuleRusPatch</li>
 		<li>VanillaExpanded.VFEPower</li>
 		<li>Inoshishi3.VanillaExpanded.VFEPowerRusPatch</li>
-		<li>atlas.androidtiers</li>
-		<li>android.tiers.rus</li>
+		<li>Atlas.AndroidTiers</li>
+		<li>Android.Tiers.RUS</li>
+		<li>Dubwise.Rimatomics</li>
+		<li>LWM.DeepStorage</li>
+		<li>dismarzero.VGP.VGPVegetableGarden</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
