@@ -3,7 +3,7 @@ For English, scroll down.
 История изменений мода 12plus для Rimworld.
 
 2021-07-07 начата работа по адаптации мода VGP Medicine, тег "VGPmedicine_".
-Добавлена адаптация для мода Vegetable Garden Project (основного).
+Добавлена адаптация для мода Vegetable Garden Project (основного), заодно исправлены красные ошибки, см.каменты в коде.
 
 2021-07-06 добавлена адаптация для мода LWM's Deep Storage.
 Скомпилирована версия 12+мода 0.6.6beta.
@@ -147,7 +147,7 @@ For English, scroll down.
 Changelog for Rimworld's 12plus modification.
 
 2021-jul-07 dismarzero.VGP.VGPGardenMedicine mod adaptation work started, tag "VGPmedicine_".
-dismarzero.VGP.VGPVegetableGarden mod adaptation added.
+dismarzero.VGP.VGPVegetableGarden mod adaptation added, also corrected red errors, see code comments.
 
 2021-jul-06 LWM.DeepStorage mod adaptation added.
 UncleShvya.12plus mod v.0.6.6beta compiled.
