@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+  <!-- Исправление согласно концепции «12+».
 
-  <!-- Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core. -->
+  Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
 
-  <!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает: -->
+  Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN: [lodgersLabelSingOrPlural] arrived -->
+  EN: [lodgersLabelSingOrPlural] arrived -->
   <Hospitality_Util_Worker.LetterLabelLodgersArrived.value.slateRef>[lodgersLabelSingOrPlural] [lodgers_arrived]</Hospitality_Util_Worker.LetterLabelLodgersArrived.value.slateRef>
   <!-- EN: [lodgersLabelSingOrPluralDef] [lodgersHasHave] arrived. Protect [lodgersObjective] until the shuttle arrives in [shuttleDelayTicks_duration].[helpersArrivalLetterEnd] -->
   <Hospitality_Util_Worker.LetterTextLodgersArrived.value.slateRef>[lodgersLabelSingOrPlural] [lodgers_arrived]. Защищайте [lodgers_possessive], пока через [shuttleDelayTicks_duration] не прибудет челнок.[helpersArrivalLetterEnd]</Hospitality_Util_Worker.LetterTextLodgersArrived.value.slateRef>
@@ -19,17 +19,17 @@
   <Hospitality_Util_Worker.LetterLabelShuttleArrived.slateRef>Челнок прибыл</Hospitality_Util_Worker.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect [lodgersLabelSingOrPluralDef]. Be sure to have these people on the shuttle before it leaves in [shuttleLeaveDelayTicks_duration]:\n\n[lodgers] -->
   <Hospitality_Util_Worker.LetterTextShuttleArrived.slateRef>Челнок прибыл, чтобы забрать [lodgersLabelSingOrPlural_acc]. Убедитесь, что [lodgers_these_people_will_be] на челноке к моменту его взлёта. Челнок отбывает через [shuttleLeaveDelayTicks_duration]:\n\n[lodgers]</Hospitality_Util_Worker.LetterTextShuttleArrived.slateRef>
-  <!-- EN: Guest died: {SUBJECT_definite} -->
-  <Hospitality_Util_Worker.LetterLabelGuestDied.slateRef>Гость погиб: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestDied.slateRef>
 
-  <!-- исправление согласно концепции «12+» -->
+  <!-- Исправление согласно концепции «12+».
 
+  Оригинал: Гость погиб: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.LetterLabelGuestDied.slateRef>Гость потерян: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestDied.slateRef>
   <!-- Оригинал: [letterSubject], гость, которого вы должны были защищать, погиб. [remainingWillNowLeave][failLetterEndingCommon] -->
   <Hospitality_Util_Worker.LetterTextGuestDied.slateRef>[letterSubject], гость, которого вы должны были защищать, потерян. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestDied.slateRef>
 
-  <!-- Всё что ниже - без изменений, но необходимо оставить, иначе грамматика страдает: -->
+  <!-- Всё что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN: Guest captured: {SUBJECT_definite} -->
+  EN: Guest captured: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelGuestCapture.slateRef>Гость захвачен в плен: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestCapture.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has been arrested. [remainingWillNowLeave][failLetterEndingQuest] -->
   <Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>[letterSubject], гость, которого вы должны были защищать, был захвачен в плен. [remainingWillNowLeave][failLetterEndingQuest]</Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>
