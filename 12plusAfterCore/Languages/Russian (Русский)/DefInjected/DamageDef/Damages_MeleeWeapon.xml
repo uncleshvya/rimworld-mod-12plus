@@ -1,21 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+».
 
-  <!-- EN: {0} has been beaten to death. -->
-  <Blunt.deathMessage>{0} {0_gender ? проиграл : проиграла} из-за мощного удара.</Blunt.deathMessage>
-
-  <!-- EN: {0} has been cut to death. -->
-  <Cut.deathMessage>{0} {0_gender ? проиграл : проиграла} из-за резаной раны.</Cut.deathMessage>
-
-  <!-- EN: {0} has been beaten to death. -->
-  <Poke.deathMessage>{0} {0_gender ? проиграл : проиграла} из-за неслабого тычка.</Poke.deathMessage>
-
-  <!-- EN: {0} has been torn to death. -->
-  <ScratchToxic.deathMessage>{0} {0_gender ? проиграл : проиграла} из-за раны с ядом.</ScratchToxic.deathMessage>
-
-  <!-- EN: {0} has been bitten to death. -->
-  <ToxicBite.deathMessage>{0} {0_gender ? проиграл : проиграла} из-за ядовитого укуса.</ToxicBite.deathMessage>
+	Оригинал: ...{0_gender ? забит : забита} до смерти. -->
+	<Blunt.deathMessage>{0} {0_gender ? проиграл : проиграла} из-за мощного удара.</Blunt.deathMessage>
+	<!-- Оригинал: ...{0_gender ? зарезан : зарезана}. -->
+	<Cut.deathMessage>{0} {0_gender ? проиграл : проиграла} из-за резаной раны.</Cut.deathMessage>
+	<!-- Оригинал: ...{0_gender ? забит : забита} до смерти. -->
+	<Poke.deathMessage>{0} {0_gender ? проиграл : проиграла} из-за неслабого тычка.</Poke.deathMessage>
+	<!-- Оригинал: ...{0_gender ? погиб : погибла} от ядовитого... -->
+	<ToxicBite.deathMessage>{0} {0_gender ? проиграл : проиграла} из-за ядовитого укуса.</ToxicBite.deathMessage>
 
 </LanguageData>
