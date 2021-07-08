@@ -8,26 +8,111 @@
 	Оригинал: изготавливать оружие -->
 	<DoBillsMakeWeapons.label>ковать на кузне</DoBillsMakeWeapons.label>
 	<!-- Оригинал: изготовить оружие на -->
-	<DoBillsMakeWeapons.gerund>ковать на</DoBillsMakeWeapons.gerund>
+	<DoBillsMakeWeapons.gerund>Ковать на</DoBillsMakeWeapons.gerund>
 	<!-- Оригинал: изготовить оружие на -->
 	<DoBillsMakeWeapons.verb>ковать на</DoBillsMakeWeapons.verb>
 	<!-- Убрана путаница с DoctorTendToSelf.label, иначе 2 одинаковых задания выглядят как баг.
 	Оригинал: лечить себя -->
-	<DoctorTendToSelfEmergency.label>срочно лечить себя</DoctorTendToSelfEmergency.label>
+	<DoctorTendToSelfEmergency.label>проводить неотложное самолечение</DoctorTendToSelfEmergency.label>
 	<!-- Не забываем про дикарей.
 	Оригинал: приручать животных -->
 	<Tame.label>приручать существ</Tame.label>
+	<!-- Все герундии, начинающиеся с маленькой буквы, выглядели некрасиво в контекстном меню. Это конечно классика, но нужно подправить движок gerund аналогично с движком label, который выставляет большую букву.
+	Пока это не сделано, все герундии переименованы.
+	Оригиналы: все с маленькой буквы -->
+	<BasicReleasePrisoner.gerund>Отпустить</BasicReleasePrisoner.gerund>
+	<BuildRoofs.gerund>Соорудить крышу</BuildRoofs.gerund>
+	<ChatWithPrisoner.gerund>Разговаривать с</ChatWithPrisoner.gerund>
+	<CleanClearSnow.gerund>Убрать снег</CleanClearSnow.gerund>
+	<CleanFilth.gerund>Убрать</CleanFilth.gerund>
+	<ConstructDeliverResourcesToBlueprints.gerund>Работать над</ConstructDeliverResourcesToBlueprints.gerund>
+	<ConstructDeliverResourcesToFrames.gerund>Работать над</ConstructDeliverResourcesToFrames.gerund>
+	<ConstructFinishFrames.gerund>Строить</ConstructFinishFrames.gerund>
+	<ConstructRemoveFloors.gerund>Снимать полы</ConstructRemoveFloors.gerund>
+	<ConstructSmoothFloors.gerund>Выравнивать</ConstructSmoothFloors.gerund>
+	<ConstructSmoothWalls.gerund>Выравнивать</ConstructSmoothWalls.gerund>
+	<CookFillHopper.gerund>Наполнить</CookFillHopper.gerund>
+	<Deconstruct.gerund>Разобрать</Deconstruct.gerund>
+	<DeliverFoodToPrisoner.gerund>Отнести еду</DeliverFoodToPrisoner.gerund>
+	<DeliverResourcesToBlueprints.gerund>Нести материалы к</DeliverResourcesToBlueprints.gerund>
+	<DeliverResourcesToFrames.gerund>Нести материалы к</DeliverResourcesToFrames.gerund>
+	<DoBillsButcherFlesh.gerund>Разделывать на</DoBillsButcherFlesh.gerund>
+	<DoBillsCook.gerund>Готовить на</DoBillsCook.gerund>
+	<DoBillsCookCampfire.gerund>Готовить, используя</DoBillsCookCampfire.gerund>
+	<DoBillsFabricationBench.gerund>Производить высокоточные изделия, используя</DoBillsFabricationBench.gerund>
+	<DoBillsHaulCampfire.gerund>Сжигать, используя</DoBillsHaulCampfire.gerund>
+	<DoBillsMachiningTable.gerund>Работать, используя</DoBillsMachiningTable.gerund>
+	<DoBillsMakeApparel.gerund>Шить одежду, используя</DoBillsMakeApparel.gerund>
+	<DoBillsMakeWeapons.gerund>Изготовить оружие на</DoBillsMakeWeapons.gerund>
+	<DoBillsMedicalAnimalOperation.gerund>Провести медпроцедуру</DoBillsMedicalAnimalOperation.gerund>
+	<DoBillsMedicalHumanOperation.gerund>Провести медпроцедуру</DoBillsMedicalHumanOperation.gerund>
+	<DoBillsProduceDrugs.gerund>Изготавливать препараты, используя</DoBillsProduceDrugs.gerund>
+	<DoBillsRefinery.gerund>Работать, используя</DoBillsRefinery.gerund>
+	<DoBillsSculpt.gerund>Творить, используя</DoBillsSculpt.gerund>
+	<DoBillsSmelter.gerund>Плавить в</DoBillsSmelter.gerund>
+	<DoBillsStonecut.gerund>Тесать камень, используя</DoBillsStonecut.gerund>
+	<DoBillsUseCraftingSpot.gerund>Работать на</DoBillsUseCraftingSpot.gerund>
+	<DoctorFeedAnimals.gerund>Кормить</DoctorFeedAnimals.gerund>
+	<DoctorFeedHumanlikes.gerund>Кормить</DoctorFeedHumanlikes.gerund>
+	<DoctorRescue.gerund>Спасти</DoctorRescue.gerund>
+	<DoctorTendEmergency.gerund>Лечить</DoctorTendEmergency.gerund>
+	<DoctorTendToAnimals.gerund>Лечить</DoctorTendToAnimals.gerund>
+	<DoctorTendToHumanlikes.gerund>Лечить</DoctorTendToHumanlikes.gerund>
+	<DoctorTendToSelf.gerund>Лечить себя</DoctorTendToSelf.gerund>
+	<DoctorTendToSelfEmergency.gerund>Лечить себя</DoctorTendToSelfEmergency.gerund>
+	<DoExecution.gerund>Казнить</DoExecution.gerund>
+	<Drill.gerund>Бурить, используя</Drill.gerund>
+	<FeedPrisoner.gerund>Кормить</FeedPrisoner.gerund>
+	<FightFires.gerund>Тушить</FightFires.gerund>
+	<FillFermentingBarrel.gerund>Наполнить</FillFermentingBarrel.gerund>
+	<FixBrokenDownBuilding.gerund>Заменить сломанные компоненты в</FixBrokenDownBuilding.gerund>
+	<Flick.gerund>Переключить</Flick.gerund>
+	<GroundPenetratingScan.gerund>Сканировать, используя</GroundPenetratingScan.gerund>
+	<GrowerHarvest.gerund>Собрать</GrowerHarvest.gerund>
+	<GrowerSow.gerund>Засеивать</GrowerSow.gerund>
+	<HandlingFeedPatientAnimals.gerund>Кормить</HandlingFeedPatientAnimals.gerund>
+	<HaulCorpses.gerund>Перенести</HaulCorpses.gerund>
+	<HaulGeneral.gerund>Перенести</HaulGeneral.gerund>
+	<HaulMerge.gerund>Объединить</HaulMerge.gerund>
+	<HelpGatheringItemsForCaravan.gerund>Нагружать</HelpGatheringItemsForCaravan.gerund>
+	<HunterHunt.gerund>Охотиться на</HunterHunt.gerund>
+	<LoadTransporters.gerund>Загружать</LoadTransporters.gerund>
+	<LongRangeScan.gerund>Сканировать, используя</LongRangeScan.gerund>
+	<Milk.gerund>Доить</Milk.gerund>
+	<Mine.gerund>Добывать</Mine.gerund>
+	<Open.gerund>Открыть</Open.gerund>
+	<PatientGoToBedEmergencyTreatment.gerund>Лечиться в</PatientGoToBedEmergencyTreatment.gerund>
+	<PatientGoToBedRecuperate.gerund>Отдохнуть в</PatientGoToBedRecuperate.gerund>
+	<PatientGoToBedTreatment.gerund>Лечиться в</PatientGoToBedTreatment.gerund>
+	<PlantsCut.gerund>Срубить</PlantsCut.gerund>
+	<RearmTurrets.gerund>Перезарядить</RearmTurrets.gerund>
+	<Refuel.gerund>Заправить</Refuel.gerund>
+	<ReleasePrisoner.gerund>Отпустить</ReleasePrisoner.gerund>
+	<RemoveRoofs.gerund>Разобрать крышу</RemoveRoofs.gerund>
+	<Repair.gerund>Починить</Repair.gerund>
+	<Research.gerund>Исследовать</Research.gerund>
+	<Shear.gerund>Стричь</Shear.gerund>
+	<Slaughter.gerund>Забить</Slaughter.gerund>
+	<Strip.gerund>Раздеть</Strip.gerund>
+	<TakeBeerOutOfFermentingBarrel.gerund>Слить пиво из</TakeBeerOutOfFermentingBarrel.gerund>
+	<TakePrisonerToBed.gerund>Отнести в кровать</TakePrisonerToBed.gerund>
+	<TakeToBedToOperate.gerund>Отнести на операцию</TakeToBedToOperate.gerund>
+	<Tame.gerund>Попытаться приручить</Tame.gerund>
+	<Train.gerund>Тренировать</Train.gerund>
+	<Uninstall.gerund>Демонтировать</Uninstall.gerund>
+	<UnloadCarriers.gerund>Разгружать</UnloadCarriers.gerund>
+	<VisitSickPawn.gerund>Навестить</VisitSickPawn.gerund>
 
 	<!-- Исправление согласно концепции «12+».
 
 	Оригинал: разделывать существ -->
 	<DoBillsButcherFlesh.label>разделывать туши животных</DoBillsButcherFlesh.label>
-	<!-- Сглажена ссылка на трупы - для модов, добавляющих рецепты в крематорий.
+	<!-- Сглажена ссылка на трупы - в т.ч. для модов, добавляющих рецепты в крематорий.
 	Оригинал: кремировать трупы -->
 	<DoBillsCremate.label>сжигать в крематории</DoBillsCremate.label>
 	<!-- Оригинал: переносить трупы -->
 	<HaulCorpses.label>переносить тела</HaulCorpses.label>
-	<!-- Надо проверить с модом на разделение работ, если этот параметр влияет на раздевание людей без сознания, то предложить наш вариант в ваниль. А если параметр влияет на раздевание пленников, то вообще переименовать его в "раздевать".
+	<!-- Проверено, этот параметр не влияет на раздевание людей без сознания и на раздевание пленников.
 	Оригинал: раздевать трупы -->
 	<Strip.label>раздевать тела</Strip.label>
 
