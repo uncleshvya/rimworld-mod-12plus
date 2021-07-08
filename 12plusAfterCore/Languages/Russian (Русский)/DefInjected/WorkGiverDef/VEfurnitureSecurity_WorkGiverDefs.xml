@@ -9,11 +9,11 @@
 	<!-- Оригинал: перезаряжать -->
 	<VFES_ConstructRearmTrap.verb>восстанавливать</VFES_ConstructRearmTrap.verb>
 	<!-- Оригинал: перезаряжает -->
-	<VFES_ConstructRearmTrap.gerund>восстановить</VFES_ConstructRearmTrap.gerund>
+	<VFES_ConstructRearmTrap.gerund>Восстановить</VFES_ConstructRearmTrap.gerund>
 
 	<!-- Оригинал: перезарядить ловушки -->
 	<VFES_RearmTrap.label>перезаряжать ловушки</VFES_RearmTrap.label>
 	<!-- Оригинал: перезаряжает -->
-	<VFES_RearmTrap.gerund>перезарядить</VFES_RearmTrap.gerund>
+	<VFES_RearmTrap.gerund>Перезарядить</VFES_RearmTrap.gerund>
 
 </LanguageData>
