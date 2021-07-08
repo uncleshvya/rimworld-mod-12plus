@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: табак -->
+	<Tobacco.label>?</Tobacco.label>
+	<!-- EN: Tobacco is grown for drying and smoking. It is also used for trade. -->
+	<Tobacco.description>?</Tobacco.description>
+	<!-- Оригинал: легкое онемение -->
+	<Tobacco.stages.0.label>?</Tobacco.stages.0.label>
+	<!-- Оригинал: нарушенное восприятие -->
+	<Tobacco.stages.1.label>?</Tobacco.stages.1.label>
+	<!-- Оригинал: потеря сознания -->
+	<Tobacco.stages.2.label>?</Tobacco.stages.2.label>
+	<!-- Оригинал: невосприимчивость к табаку -->
+	<TobaccoTolerance.label>?</TobaccoTolerance.label>
+	<!-- EN: Because of an tobacco addiction, this person needs to regularly consume more the drug to get that fix. -->
+	<TobaccoTolerance.description>?</TobaccoTolerance.description>
+	<!-- Оригинал: незначительная -->
+	<TobaccoTolerance.stages.0.label>?</TobaccoTolerance.stages.0.label>
+	<!-- Оригинал: малая -->
+	<TobaccoTolerance.stages.1.label>?</TobaccoTolerance.stages.1.label>
+	<!-- Оригинал: сильная -->
+	<TobaccoTolerance.stages.2.label>?</TobaccoTolerance.stages.2.label>
+	<!-- Оригинал: тотальная -->
+	<TobaccoTolerance.stages.3.label>?</TobaccoTolerance.stages.3.label>
+	<!-- Оригинал: табачная зависимость -->
+	<TobaccoAddiction.label>?</TobaccoAddiction.label>
+	<!-- EN: Due to prolonged use of tobacco, this person needs to regularly consume the drug to get that fix. -->
+	<TobaccoAddiction.description>?</TobaccoAddiction.description>
+	<!-- Оригинал: тяга -->
+	<TobaccoAddiction.stages.1.label>?</TobaccoAddiction.stages.1.label>
+
+</LanguageData>
