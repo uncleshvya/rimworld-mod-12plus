@@ -1,15 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- Исправлена неточность, сообщите разработчику, что иначе в списке работ носильщика - 3 одинаковые работы -->
+	<!-- Исправлена неточность, сообщите разработчику.
 
-	<!-- Оригинал: загрузить геном в инкубатор -->
+	В списке работ носильщика 3 одинаковые работы выглядели как баг.
+	Оригиналы: загрузить геном в инкубатор -->
 	<VFEI_InsertFirstGenome.label>загружать первый геном в инкубатор</VFEI_InsertFirstGenome.label>
-
-	<!-- Оригинал: загрузить геном в инкубатор -->
 	<VFEI_InsertSecondGenome.label>загружать второй геном в инкубатор</VFEI_InsertSecondGenome.label>
-
-	<!-- Оригинал: загрузить геном в инкубатор -->
 	<VFEI_InsertThirdGenome.label>загружать третий геном в инкубатор</VFEI_InsertThirdGenome.label>
+	<!-- Оригиналы: загрузить геном в инкубатор -->
+	<VFEI_InsertFirstGenome.gerund>Загрузить первый геном в инкубатор</VFEI_InsertFirstGenome.gerund>
+	<VFEI_InsertSecondGenome.gerund>Загрузить второй геном в инкубатор</VFEI_InsertSecondGenome.gerund>
+	<VFEI_InsertThirdGenome.gerund>Загрузить третий геном в инкубатор</VFEI_InsertThirdGenome.gerund>
 
 </LanguageData>
