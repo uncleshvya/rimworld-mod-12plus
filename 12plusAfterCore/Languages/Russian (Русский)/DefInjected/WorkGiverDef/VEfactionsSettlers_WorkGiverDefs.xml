@@ -8,13 +8,13 @@
 	<!-- Оригинал: Извлечь -->
 	<TakeChemshineOutOfChemshineBarrel.verb>извлекать</TakeChemshineOutOfChemshineBarrel.verb>
 	<!-- Оригинал: Извлечь -->
-	<TakeChemshineOutOfChemshineBarrel.gerund>извлечь химблеск из</TakeChemshineOutOfChemshineBarrel.gerund>
+	<TakeChemshineOutOfChemshineBarrel.gerund>Извлечь химблеск из</TakeChemshineOutOfChemshineBarrel.gerund>
 
 	<!-- Оригинал: Заполнить бочку для химблеска -->
 	<FillChemshineBarrel.label>заполнять бочку для химблеска</FillChemshineBarrel.label>
 	<!-- Оригинал: Заполнить -->
 	<FillChemshineBarrel.verb>заполнять</FillChemshineBarrel.verb>
 	<!-- Оригинал: Заполнить -->
-	<FillChemshineBarrel.gerund>заполнить химтопливом</FillChemshineBarrel.gerund>
+	<FillChemshineBarrel.gerund>Заполнить химтопливом</FillChemshineBarrel.gerund>
 
 </LanguageData>
