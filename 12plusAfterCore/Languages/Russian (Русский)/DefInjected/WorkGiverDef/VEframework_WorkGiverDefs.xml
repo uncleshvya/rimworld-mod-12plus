@@ -3,11 +3,12 @@
 
 	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
 
+	Заодно сглажена ссылка на животных - для модов на неявно живых существ.
 	EN: gather animal resource -->
-	<VEF_AnimalResource.label>собирать ресурсы с животных</VEF_AnimalResource.label>
+	<VEF_AnimalResource.label>собирать ресурсы с питомцев</VEF_AnimalResource.label>
 	<!-- EN: gather animal resource from -->
 	<VEF_AnimalResource.verb>собирать ресурсы</VEF_AnimalResource.verb>
 	<!-- EN: gathering animal resource from -->
-	<VEF_AnimalResource.gerund>собрать ресурсы с</VEF_AnimalResource.gerund>
+	<VEF_AnimalResource.gerund>Собрать ресурсы с</VEF_AnimalResource.gerund>
 
 </LanguageData>
