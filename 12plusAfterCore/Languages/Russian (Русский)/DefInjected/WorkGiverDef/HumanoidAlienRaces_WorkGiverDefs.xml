@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- исправлена неточность, сообщите разработчику -->
+	<!-- Добавлена недостающая строка русской локализации, сообщите разработчику.
 
-	<!-- Оригинал: ...людям -->
+	Оригинал: ...медпроцедуры людям -->
 	<DoBillsMedicalHumanOperation.label>проводить медпроцедуры разумным существам</DoBillsMedicalHumanOperation.label>
 
 </LanguageData>
