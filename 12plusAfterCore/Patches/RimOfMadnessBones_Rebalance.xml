@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
+			<!-- MIT
+			Copyright (c) 2018 Rim of Madness Team -->
+
 <Patch>
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
 
-			<!-- Исправлена неточность, сообщите разработчику, что его патч механоидов устарел -->
+			<!-- Исправлена неточность, сообщите разработчику.
 
+			Оригинальный патч на механоидов устарел -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[@Name = "BaseMechanoid"]/statBases</xpath>
 				<value>
 					<BoneAmount>0</BoneAmount>
 				</value>
 			</li>
-
-			<!-- Исправлена неточность, сообщите разработчику, что иначе человек с костью в руках держит вентилятор -->
-
+			<!-- Иначе человек с костью в руках держит вентилятор -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "BoneItem"]/graphicData/texPath/text()</xpath>
 				<value>Things/Item/Resource/OldBone</value>
@@ -23,16 +26,12 @@
 				<xpath>Defs/ThingDef[defName = "BoneItem"]/graphicData/graphicClass/text()</xpath>
 				<value>Graphic_StackCount</value>
 			</li>
-
-			<!-- Исправлена неточность, сообщите разработчику, что это убирает древние строения из кости, отключая возможность добывать из них съедобный костный мозг. Нужно решение поизящнее, как древесина интегрирована в генератор, но пока что найдено такое: -->
-
+			<!-- Убираем древние строения из кости, отключая возможность добывать из них съедобный костный мозг. Нужно решение поизящнее, как древесина интегрирована в генератор, но пока что найдено такое: -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "BoneItem"]/stuffProps/commonality/text()</xpath>
 				<value>0</value>
 			</li>
-
-			<!-- Исправлена неточность, сообщите разработчику, что рецепт пластали больше подходит плавильне. И побыстрее, а то эта строка патча мешает делать модпак -->
-
+			<!-- Рецепт пластали больше подходит плавильне. Приоритетное исправление, а то эта строка патча мешает делать модпак -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName = "BiofuelRefinery"]/recipes/li[5]</xpath>
 			</li>
