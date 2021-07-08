@@ -61,7 +61,6 @@
 					<BoneAmount MayRequire="sihv.rombones">0</BoneAmount>
 				</value>
 			</li>
-
 			<!-- Отменяем действие патча, удаляя а потом перезаписывая параметр:
 			\Mods\OrassansLite\1.2\Patches\meals.xml -->
 			<li Class="PatchOperationRemove">
@@ -77,7 +76,6 @@
 					</disallowedThingDefs>
 				</value>
 			</li>
-
 			<!-- Адаптация к моду AndroidTiers -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/RecipeDef[defName = "ATPP_SmashAndroid"]/fixedIngredientFilter/disallowedThingDefs</xpath>
@@ -86,7 +84,6 @@
 					<li>Corpse_Alien_OrassanHumanHybrid</li>
 				</value>
 			</li>
-
 			<!-- Сок из кошачьих ягод: -->
 			<li Class="PatchOperationAttributeSet">
 				<xpath>Defs/ThingDef[defName = "Catberryjuice"]</xpath>
@@ -125,7 +122,6 @@
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName = "Catberryjuice"]/comps/li[1]</xpath>
 			</li>
-
 			<!-- Мятное пирожное: -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "CatnipJoint"]</xpath>
@@ -193,6 +189,36 @@
 					</ThingDef>
 				</value>
 			</li>
+			<!-- Удаляем лишние нарко-эффекты: -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/HediffDef[
+				defName = "Catberries" or
+				defName = "CatberryTolerance" or
+				defName = "CateyeTolerance" or
+				defName = "CateyeAddiction" or
+				defName = "CatnipHigh" or
+				defName = "CatnipTolerance" or
+				defName = "CatnipAddiction"
+				]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ChemicalDef[
+				defName = "Catberry" or
+				defName = "Catnip"
+				]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThoughtDef[
+				defName = "JuicinessThought" or
+				defName = "CateyeWithdrawal" or
+				defName = "CatnipHigh" or
+				defName = "CatnipWithdrawal" or
+				defName = "OrassanFoodOnHuman"
+				]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "CateyeBerries"]/ingestible/outcomeDoers</xpath>
+			</li>
 
 			<!-- Исправлена неточность, сообщите разработчику.
 
@@ -203,7 +229,6 @@
 				defName = "MakeCatnipJoint15"
 				]</xpath>
 			</li>
-
 			<!-- Иначе медпроцедур в 2 раза больше нужного -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[
@@ -211,7 +236,6 @@
 				defName = "Alien_OrassanHumanHybrid"
 				]/recipes</xpath>
 			</li>
-
 			<!-- Иначе лёд орассан не удаляется -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/TerrainDef[defName = "OrassanSoil"]</xpath>
@@ -219,7 +243,6 @@
 					<layerable>true</layerable>
 				</value>
 			</li>
-
 			<!-- Иначе часто вылезает красная ошибка предысторий. Решена проблема для силовиков орассан.
 			И почему то пропала красная ошибка из-за имён -->
 			<li Class="PatchOperationAdd">
