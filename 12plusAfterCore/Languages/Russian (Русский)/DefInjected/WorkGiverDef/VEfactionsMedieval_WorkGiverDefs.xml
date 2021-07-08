@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- Исправлена неточность, сообщите разработчику -->
+	<!-- Исправление согласно концепции «12+».
 
-	<!-- Оригинал: Извлечь -->
-	<VFEM_TakeBeerOutOfWineBarrel.verb>извлечь</VFEM_TakeBeerOutOfWineBarrel.verb>
-	<!-- Оригинал: Извлечь -->
-	<VFEM_TakeBeerOutOfWineBarrel.gerund>извлечь</VFEM_TakeBeerOutOfWineBarrel.gerund>
-
-	<!-- Оригинал: Заполнить -->
-	<VFEM_FillWineBarrel.verb>заполнить</VFEM_FillWineBarrel.verb>
-	<!-- Оригинал: Заполнить -->
-	<VFEM_FillWineBarrel.gerund>заполнить</VFEM_FillWineBarrel.gerund>
-
-	<!-- Исправление согласно концепции «12+» -->
-
-	<!-- Заодно исправлена неточность, сообщите разработчику.
-	Название работ должно отвечать на вопрос "что делать?"
+	Заодно исправлена неточность, сообщите разработчику.
+	Стиль приведён к ванили.
 	Оригинал: Извлечь вино из бочки для вина -->
 	<VFEM_TakeBeerOutOfWineBarrel.label>сливать напитки из деревянной бочки</VFEM_TakeBeerOutOfWineBarrel.label>
 	<!-- Оригинал: Заполнить бочку для вина -->
