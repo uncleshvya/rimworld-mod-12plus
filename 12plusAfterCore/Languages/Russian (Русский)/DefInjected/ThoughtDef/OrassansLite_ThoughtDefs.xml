@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	EN: buzzed-hidden -->
+	<JuicinessThought.stages.buzzedhidden.label>?</JuicinessThought.stages.buzzedhidden.label>
+	<!-- EN: Should not appear. -->
+	<JuicinessThought.stages.buzzedhidden.description>?</JuicinessThought.stages.buzzedhidden.description>
+	<!-- EN: Juiced (buzzed) -->
+	<JuicinessThought.stages.Juiced_buzzed.label>?</JuicinessThought.stages.Juiced_buzzed.label>
+	<!-- EN: I just feel a bit more awake after that drink. That s good. -->
+	<JuicinessThought.stages.Juiced_buzzed.description>?</JuicinessThought.stages.Juiced_buzzed.description>
+	<!-- EN: Juiced (awake) -->
+	<JuicinessThought.stages.Juiced_awake.label>?</JuicinessThought.stages.Juiced_awake.label>
+	<!-- EN: I m ready to go! -->
+	<JuicinessThought.stages.Juiced_awake.description>?</JuicinessThought.stages.Juiced_awake.description>
+	<!-- EN: Juiced -->
+	<JuicinessThought.stages.Juiced.label>?</JuicinessThought.stages.Juiced.label>
+	<!-- EN: I feel like I can do anything! -->
+	<JuicinessThought.stages.Juiced.description>?</JuicinessThought.stages.Juiced.description>
+	<!-- EN: Headache -->
+	<CateyeWithdrawal.stages.Headache.label>?</CateyeWithdrawal.stages.Headache.label>
+	<!-- EN: I really could use some berries. -->
+	<CateyeWithdrawal.stages.Headache.description>?</CateyeWithdrawal.stages.Headache.description>
+	<!-- EN: high on catnip -->
+	<CatnipHigh.stages.high_on_catnip.label>?</CatnipHigh.stages.high_on_catnip.label>
+	<!-- EN: This cat stuff is great... -->
+	<CatnipHigh.stages.high_on_catnip.description>?</CatnipHigh.stages.high_on_catnip.description>
+	<!-- EN: Catnip withdrawal -->
+	<CatnipWithdrawal.stages.Catnip_withdrawal.label>?</CatnipWithdrawal.stages.Catnip_withdrawal.label>
+	<!-- EN: I really wish I could have some catnip... -->
+	<CatnipWithdrawal.stages.Catnip_withdrawal.description>?</CatnipWithdrawal.stages.Catnip_withdrawal.description>
+	<!-- EN: Furry food -->
+	<OrassanFoodOnHuman.stages.Furry_food.label>?</OrassanFoodOnHuman.stages.Furry_food.label>
+	<!-- EN: There s fur in my food... -->
+	<OrassanFoodOnHuman.stages.Furry_food.description>?</OrassanFoodOnHuman.stages.Furry_food.description>
+
+</LanguageData>
