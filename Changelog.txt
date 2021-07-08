@@ -2,9 +2,10 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-07-08 начата работа по адаптации мода More Vanilla Turrets 1.1+, тег "MoreVanillaTurrets_".
-Добавлена адаптация для мода VGP Medicine
-Скомпилирована версия 12+мода 0.6.7beta.
+2021-07-08 начата работа по адаптации мода Genetic Rim, тег "GeneticRim_".
+Добавлена адаптация для мода More Vanilla Turrets 1.1+.
+Добавлена адаптация для мода VGP Medicine.
+Скомпилирована версия 12+мода 0.6.8beta.
 Чтобы не плодить кучу субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowTool_";
 "AndroidTiers_";
@@ -14,6 +15,7 @@ For English, scroll down.
 "HumanoidAlienRaces_";
 "LWMsDeepStorage_";
 "MiscTraining_";
+"MoreVanillaTurrets_";
 "Numbers_";
 "OrassansLite_";
 "RimAtomics_";
@@ -149,9 +151,10 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-jul-08 paradox.morevanillaturrets mod adaptation work started, tag "MoreVanillaTurrets_".
+2021-jul-08 sarg.geneticrim mod adaptation work started, tag "GeneticRim_".
+paradox.morevanillaturrets mod adaptation added, see code comments.
 dismarzero.VGP.VGPGardenMedicine mod adaptation added, see code comments.
-UncleShvya.12plus mod v.0.6.7beta compiled.
+UncleShvya.12plus mod v.0.6.8beta compiled.
 To avoid a croud of small mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowTool_";
 "AndroidTiers_";
@@ -161,6 +164,7 @@ To avoid a croud of small mods, the files were marked with searchable tags in th
 "HumanoidAlienRaces_";
 "LWMsDeepStorage_";
 "MiscTraining_";
+"MoreVanillaTurrets_";
 "Numbers_";
 "OrassansLite_";
 "RimAtomics_";
