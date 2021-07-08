@@ -19,4 +19,67 @@
 	EN: Includes an integrated gyroscope to help maintain balance and imrpove manipulation. -->
 	<OBionicTail.description>Продвинутый протез хвоста для орассан или нэко. Специальные волокна выполняют функцию мышц, а биогелевое нейросоединение обеспечивает превосходный контроль. После небольшой тренировки обладатель такого хвоста может помогать себе во время работы, поддерживая предметы, как это делают слоны своим хоботом.</OBionicTail.description>
 
+	<!-- Исправление согласно концепции «12+».
+
+	EN: cat's eye berry -->
+	<Catberries.label>?</Catberries.label>
+	<!-- EN: Cat Eye berries, when injested, act as a stimulant. -->
+	<Catberries.description>?</Catberries.description>
+	<!-- EN: juiciness -->
+	<Catberries.labelNoun>?</Catberries.labelNoun>
+	<!-- EN: buzzed -->
+	<Catberries.stages.buzzed-0.label>?</Catberries.stages.buzzed-0.label>
+	<!-- EN: buzzed -->
+	<Catberries.stages.buzzed-1.label>?</Catberries.stages.buzzed-1.label>
+	<!-- EN: awake -->
+	<Catberries.stages.awake.label>?</Catberries.stages.awake.label>
+	<!-- EN: juiced -->
+	<Catberries.stages.juiced.label>?</Catberries.stages.juiced.label>
+	<!-- EN: Cat's eye berry tolerance -->
+	<CatberryTolerance.label>?</CatberryTolerance.label>
+	<!-- EN: The more cat eye berries consumed, the less of an effect the same amount will have in the future. -->
+	<CatberryTolerance.description>?</CatberryTolerance.description>
+	<!-- EN: small -->
+	<CatberryTolerance.stages.small.label>?</CatberryTolerance.stages.small.label>
+	<!-- EN: large -->
+	<CatberryTolerance.stages.large.label>?</CatberryTolerance.stages.large.label>
+	<!-- EN: massive -->
+	<CatberryTolerance.stages.massive.label>?</CatberryTolerance.stages.massive.label>
+	<!-- EN: Cat's Eye berry tolerance -->
+	<CateyeTolerance.label>?</CateyeTolerance.label>
+	<!-- EN: The more cat eye berries consumed, the less of an effect the same amount will have in the future. -->
+	<CateyeTolerance.description>?</CateyeTolerance.description>
+	<!-- EN: small -->
+	<CateyeTolerance.stages.small.label>?</CateyeTolerance.stages.small.label>
+	<!-- EN: large -->
+	<CateyeTolerance.stages.large.label>?</CateyeTolerance.stages.large.label>
+	<!-- EN: massive -->
+	<CateyeTolerance.stages.massive.label>?</CateyeTolerance.stages.massive.label>
+	<!-- EN: Cat's Eye berry dependence -->
+	<CateyeAddiction.label>?</CateyeAddiction.label>
+	<!-- EN: Continued consumption of cat eye can lead to addiction. -->
+	<CateyeAddiction.description>?</CateyeAddiction.description>
+	<!-- EN: withdrawal -->
+	<CateyeAddiction.stages.withdrawal.label>?</CateyeAddiction.stages.withdrawal.label>
+	<!-- EN: stoned on catnip -->
+	<CatnipHigh.label>?</CatnipHigh.label>
+	<!-- EN: When smoked, the chemical nepetalactone acts as a potent sedative. -->
+	<CatnipHigh.description>?</CatnipHigh.description>
+	<!-- EN: Catnip tolerance -->
+	<CatnipTolerance.label>?</CatnipTolerance.label>
+	<!-- EN: The more catnip is smoked, the less effect tehe same amount will have. -->
+	<CatnipTolerance.description>?</CatnipTolerance.description>
+	<!-- EN: small -->
+	<CatnipTolerance.stages.small.label>?</CatnipTolerance.stages.small.label>
+	<!-- EN: large -->
+	<CatnipTolerance.stages.large.label>?</CatnipTolerance.stages.large.label>
+	<!-- EN: massive -->
+	<CatnipTolerance.stages.massive.label>?</CatnipTolerance.stages.massive.label>
+	<!-- EN: Catnip dependence -->
+	<CatnipAddiction.label>?</CatnipAddiction.label>
+	<!-- EN: A psychological dependance can be developed due to continued use of catnip. -->
+	<CatnipAddiction.description>?</CatnipAddiction.description>
+	<!-- EN: withdrawal -->
+	<CatnipAddiction.stages.withdrawal.label>?</CatnipAddiction.stages.withdrawal.label>
+
 </LanguageData>
