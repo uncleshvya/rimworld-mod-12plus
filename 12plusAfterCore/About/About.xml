@@ -27,7 +27,7 @@
 - «VEfurnitureSecurity_Rebalance.xml»;
 - концепция и сейвы не пострадают.
 
-Текущая версия 12plus мода: v0.6.6beta rev.2021.07.07.
+Текущая версия 12plus мода: v0.6.7beta rev.2021.07.07.
 
 =====
 
@@ -96,7 +96,7 @@ Had to rebalance some mods, see changelog file. But if you don't like these chan
 - "VEfurnitureSecurity_Rebalance.xml";
 - saves will be playable, concept — workable.
 
-Current 12plus mod version 0.6.6beta rev.2021.07.07.
+Current 12plus mod version 0.6.7beta rev.2021.07.07.
 
 =====
 
@@ -209,6 +209,7 @@ Ideas to realize in next version:
 		<li>Dubwise.Rimatomics</li>
 		<li>LWM.DeepStorage</li>
 		<li>dismarzero.VGP.VGPVegetableGarden</li>
+		<li>dismarzero.VGP.VGPGardenMedicine</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
