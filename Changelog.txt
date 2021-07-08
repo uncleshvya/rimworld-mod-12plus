@@ -61,7 +61,7 @@ For English, scroll down.
 
 2021-04-11 добавлена адаптация для мода Vanilla Expanded Weapons с дополнениями Laser, Quickdraw и их переводом Am.Rus.VWE. На всякий случай адаптирован перевод RU.VanillaExpanded.VWE.
 
-2021-04-10 добавлена адаптация для мода Vanilla Expanded Factions Insectoids и его русификатора, заодно исправлены их ошибки, см.каменты в коде. По желанию, доступны косметические исправления (подключена зависимость от мода JecsTools):
+2021-04-10 добавлена адаптация для мода Vanilla Expanded Factions Insectoids и его русификатора, заодно исправлены их ошибки, см.каменты в коде. По желанию, доступны косметические исправления (подключена зависимость от мода harmony):
 - убрана дублирующая категория сыров;
 - огнеплазменное оружие теперь при включении светится в темноте, при отключении — потухает со временем;
 - по аналогии пропатчен плазменный меч из Royalty.
@@ -210,7 +210,7 @@ Had to rebalance the most rebarbative developers' mistake - now sentry gun needs
 
 2021-apr-11 VanillaExpanded.VWE mod adaptation added, with add-ons VanillaExpanded.VWEQ, VanillaExpanded.VWEL and translations Am.Rus.VWE (basic), RU.VanillaExpanded.VWE (alternative, less accuracy). Also corrected their errors, see code comments.
 
-2021-apr-10 OskarPotocki.VFE.Insectoid and RU.VFE.Insectoid mods' adaptation added. Also corrected their errors, see code comments. Optional cosmetic fixes available (jecrell.jecstools mod dependence added):
+2021-apr-10 OskarPotocki.VFE.Insectoid and RU.VFE.Insectoid mods' adaptation added. Also corrected their errors, see code comments. Optional cosmetic fixes available (brrainz.harmony mod dependence added):
 - removed double category of cheese;
 - igniting plasma weapons now glow in the dark when armed, and go out when dropped and forgotten;
 - Royalty's plasma sword also patched in order to unify this relative technologies;
