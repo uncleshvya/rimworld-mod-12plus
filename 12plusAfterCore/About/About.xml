@@ -207,6 +207,7 @@ Ideas to realize in next version:
 		<li>dismarzero.VGP.VGPVegetableGarden</li>
 		<li>dismarzero.VGP.VGPGardenMedicine</li>
 		<li>paradox.morevanillaturrets</li>
+		<li>sarg.geneticrim</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
