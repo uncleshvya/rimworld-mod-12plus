@@ -11,8 +11,9 @@
 				<value>GardenTools</value>
 			</li>
 
-			<!-- Исправлен баланс, сообщите разработчику, что теперь колонна заряжается химтопливом по аналогии со взрывчаткой из ванили -->
+			<!-- Исправлен баланс, сообщите разработчику.
 
+			Теперь колонна заряжается химтопливом по аналогии со взрывчаткой из ванили -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "DetColumnMod"]/comps/li[5]/fuelFilter/thingDefs/li[1]/text()</xpath>
 				<value>Chemfuel</value>
