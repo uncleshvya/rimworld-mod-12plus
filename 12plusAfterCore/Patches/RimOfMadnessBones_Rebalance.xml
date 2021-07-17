@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-			<!-- MIT
-			Copyright (c) 2018 Rim of Madness Team -->
+<!-- MIT
+Copyright (c) 2018 Rim of Madness Team
+-->
 
 <Patch>
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
 
-			<!-- Исправлена неточность, сообщите разработчику.
+			<!-- Исправлен баланс, сообщите разработчику.
 
 			Оригинальный патч на механоидов устарел -->
 			<li Class="PatchOperationAdd">
@@ -43,9 +44,7 @@
 					</recipeUsers>
 				</value>
 			</li>
-
-			<!-- Исправлен баланс, сообщите разработчику, что в реале вытащенный костный мозг хранится дня 4, это игровых дня 2. А то выставленные 80 дней - это ни в какие ворота -->
-
+			<!-- В реале вытащенный костный мозг хранится дня 4, это игровых дня 2. А то выставленные 80 дней - это ни в какие ворота -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "ROMB_Marrow"]/comps/li[1]/daysToRotStart/text()</xpath>
 				<value>2</value>
