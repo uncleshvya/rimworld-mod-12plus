@@ -5,14 +5,14 @@
 
 	Не забываем про дикарей.
 	Оригинал: любовь к животным -->
-	<Inspired_Taming.label>приручение</Inspired_Taming.label>
-	<!-- Оригинал: Воодушевление: любовь к животным -->
-	<Inspired_Taming.baseInspectLine>Воодушевление: приручение</Inspired_Taming.baseInspectLine>
+	<Inspired_Taming.label>любовь к природе</Inspired_Taming.label>
+	<!-- Оригинал: ...любовь к животным -->
+	<Inspired_Taming.baseInspectLine>Воодушевление: любовь к природе</Inspired_Taming.baseInspectLine>
 	<!-- Оригинал: ...любое животное, вне зависимости... -->
 	<Inspired_Taming.beginLetter>{PAWN_pronoun} чувствует, что сможет приручить любое существо, вне зависимости от его дикости.\n\nЭто чувство исчезнет через 8 дней или после первого приручения.</Inspired_Taming.beginLetter>
-	<!-- Оригинал: Воодушевление (любовь к животным) -->
-	<Inspired_Taming.beginLetterLabel>Воодушевление (приручение)</Inspired_Taming.beginLetterLabel>
-	<!-- Оригинал: ...воодушевление (любовь к животным). -->
-	<Inspired_Taming.endMessage>{PAWN_nameIndef} теряет воодушевление (приручение).</Inspired_Taming.endMessage>
+	<!-- Оригинал: ...(любовь к животным) -->
+	<Inspired_Taming.beginLetterLabel>Воодушевление (любовь к природе)</Inspired_Taming.beginLetterLabel>
+	<!-- Оригинал: ...(любовь к животным). -->
+	<Inspired_Taming.endMessage>{PAWN_nameIndef} теряет воодушевление (любовь к природе).</Inspired_Taming.endMessage>
 
 </LanguageData>
