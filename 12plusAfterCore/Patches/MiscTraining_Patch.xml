@@ -1,29 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
+<!-- CC_BY_SA_4_0
+Copyright (c) Haplo
+
+Исправление согласно концепции «12+», сообщите разработчику -->
+
 <Patch>
-
-	<!-- CC_BY_SA_4_0
-	Copyright (c) Haplo
-	-->
-
-	<Operation MayRequire="Haplo.Miscellaneous.Training" Class="PatchOperationSequence">
+	<Operation MayRequire="Haplo.Miscellaneous.Training" Class="PatchOperationAdd">
 		<success>Always</success>
-		<operations>
-
-			<!-- Исправление согласно концепции «12+», сообщите разработчику -->
-
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "ShootingRangeTarget"]/graphicData</xpath>
-				<value>
-					<drawSize>1.45</drawSize>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "MartialArtsTarget"]/graphicData</xpath>
-				<value>
-					<drawSize>1.45</drawSize>
-				</value>
-			</li>
-
-		</operations>
+		<xpath>Defs/ThingDef[
+		defName = "ShootingRangeTarget" or
+		defName = "MartialArtsTarget"
+		]/graphicData</xpath>
+		<value>
+			<drawSize>1.45</drawSize>
+		</value>
 	</Operation>
 </Patch>
