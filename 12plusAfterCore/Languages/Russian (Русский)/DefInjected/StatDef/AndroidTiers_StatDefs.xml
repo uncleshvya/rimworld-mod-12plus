@@ -15,15 +15,15 @@
 	<!-- Оригинал: ...работы с животными -->
 	<AnimalGatherSpeed.label>скорость работы с питомцами</AnimalGatherSpeed.label>
 	<!-- Оригинал: ...ресурсы с животных. -->
-	<AnimalGatherSpeed.description>Скорость, с которой персонаж доит, стрижёт шерсть, или иным способом получает ресурсы с животных.</AnimalGatherSpeed.description>
+	<AnimalGatherSpeed.description>Скорость, с которой персонаж доит, стрижёт шерсть, или иным способом получает ресурсы с питомцев.</AnimalGatherSpeed.description>
 	<!-- Оригинал: ...работы с животными -->
 	<AnimalGatherYield.label>эффект-ть работы с питомцами</AnimalGatherYield.label>
 	<!-- Оригинал: ...получить с животного.\n\nВысокий... -->
 	<AnimalGatherYield.description>Процент ресурсов, которые персонаж сможет надоить, состричь, или иным способом получить с питомца.\n\nВысокий процент уменьшает вероятность утери ресурсов.</AnimalGatherYield.description>
 
-	<!-- Параметр влияет на обработку всех роботов.
+	<!-- Параметр влияет на переработку всех роботов.
 	Оригинал: эффект-ть переработки механоидов -->
-	<ButcheryMechanoidEfficiency.label>эффек-ть переработки роботов</ButcheryMechanoidEfficiency.label>
+	<ButcheryMechanoidEfficiency.label>эффект-ть утилизации роботов</ButcheryMechanoidEfficiency.label>
 	<!-- На время работы над модом AT, задан приоритет для исправления по его лору, отключено исправление в категории "12+" из файла Stats_Pawns_WorkRecipes.xml.
 	Оригинал: ...переработке мёртвого механоида.\n\nРезультат...размера механоида. -->
 	<ButcheryMechanoidEfficiency.description>Множитель количества материалов, получаемых персонажем при переработке сломанного робота.\n\nРезультат также зависит от размера робота.</ButcheryMechanoidEfficiency.description>
