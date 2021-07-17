@@ -3,8 +3,7 @@
 
 	<!-- Добавлена русская локализация, сообщите разработчику.
 
-	Исправлена неточность, сообщите разработчику, что у всех предысторий отсутствует языковая метка заголовков ".title*".
-
+	Заодно справлена неточность, сообщите разработчику, что у всех предысторий отсутствует языковая метка заголовков ".title*".
 	EN: Stylist -->
 	<Orassan_Stylist.title>Стилист в салоне</Orassan_Stylist.title>
 	<!-- EN: Stylist -->
@@ -213,11 +212,11 @@
 	<!-- EN: [PAWN_nameDef] was a climber as a kid, building strength by finding [PAWN_possessive] ways to tops of trees. -->
 	<Orassan_Climber.baseDescription>{PAWN_nameDef} с детства не {PAWN_gender ? боялся : боялась} высоты, и очень {PAWN_gender ? любил : любила} залезать на вершины деревьев.</Orassan_Climber.baseDescription>
 
-	<!-- исправлена неточность, сообщите разработчику, что из-за неправильной структуры файла:
+	<!-- Заодно исправлена неточность, сообщите разработчику, что из-за неправильной структуры файла:
 	\Mods\OrassansLite\1.2\Defs\PawnKindDefs\PawnKinds_Orassan.xml
-	иногда генерируются люди с предысторией кошек, например Orassan_PsiWarrior. В связи с этим нижеследующие предыстории адаптированы под все расы: -->
+	иногда генерируются люди с предысторией кошек, например Orassan_PsiWarrior. В связи с этим, нижеследующие предыстории адаптированы под любую расу.
 
-	<!-- EN: Ambassador -->
+	EN: Ambassador -->
 	<Orassan_Ambassador.title>Работник посольства</Orassan_Ambassador.title>
 	<Orassan_Ambassador.titleFemale>Работница посольства</Orassan_Ambassador.titleFemale>
 	<!-- EN: Ambassador -->
