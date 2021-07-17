@@ -21,7 +21,7 @@
 	<!-- Оригинал: ...место животных (обустраивается) -->
 	<Frame_AnimalSleepingSpot.label>спальное место питомцев (обустраивается)</Frame_AnimalSleepingSpot.label>
 
-	<!-- Дикие животные не генерируют эту грязь.
+	<!-- Дикие животные не генерируют эту грязь. Подробности - в папке Keyed.
 	Оригинал: грязь от животных -->
 	<Filth_AnimalFilth.label>грязь от питомцев</Filth_AnimalFilth.label>
 
@@ -104,7 +104,7 @@
 	Оригинал: ручка -->
 	<MeleeWeapon_MechKnife.tools.0.label>рукоять</MeleeWeapon_MechKnife.tools.0.label>
 
-	<!-- Трупы. Название генерировалось автоматически из тегов по формуле "Corpse пробел label", выглядело в игре как "Труп андроид Т1". А описание такое же, только в конце точка. -->
+	<!-- Трупы. Название генерировалось автоматически из тегов по формуле "Corpse пробел label", выглядело в игре как "Труп андроид Т1". А описание, аналогично, "Мёртвое тело андроид Т1." -->
 	<Corpse_Android1Tier.label>сломанный андроид Т1</Corpse_Android1Tier.label>
 	<Corpse_Android1Tier.description>Непригодное к ремонту тело андроида модели Т1.</Corpse_Android1Tier.description>
 	<Corpse_Android2Tier.label>сломанный андроид Т2</Corpse_Android2Tier.label>
