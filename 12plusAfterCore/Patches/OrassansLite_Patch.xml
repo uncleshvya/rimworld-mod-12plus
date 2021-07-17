@@ -191,6 +191,18 @@
 			</li>
 			<!-- Удаляем лишние нарко-эффекты: -->
 			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "CateyeBerries"]/ingestible/outcomeDoers</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThoughtDef[
+				defName = "JuicinessThought" or
+				defName = "CateyeWithdrawal" or
+				defName = "CatnipHigh" or
+				defName = "CatnipWithdrawal" or
+				defName = "OrassanFoodOnHuman"
+				]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
 				<xpath>Defs/HediffDef[
 				defName = "Catberries" or
 				defName = "CatberryTolerance" or
@@ -207,18 +219,14 @@
 				defName = "Catnip"
 				]</xpath>
 			</li>
+			<!-- Отлавливаем баг "Need". -->
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThoughtDef[
-				defName = "JuicinessThought" or
-				defName = "CateyeWithdrawal" or
-				defName = "CatnipHigh" or
-				defName = "CatnipWithdrawal" or
-				defName = "OrassanFoodOnHuman"
+				<xpath>Defs/NeedDef[
+				defName = "Chemical_Cateye" or
+				defName = "Chemical_Catnip"
 				]</xpath>
 			</li>
-			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "CateyeBerries"]/ingestible/outcomeDoers</xpath>
-			</li>
+			
 
 			<!-- Исправлена неточность, сообщите разработчику.
 
