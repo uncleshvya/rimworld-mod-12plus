@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-
-	<!-- Исправление согласно концепции «12+» -->
-
 	<Operation MayRequire="dismarzero.VGP.VGPGardenTools" Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
+
+			<!-- Исправление согласно концепции «12+» -->
+
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/RecipeDef[
 				defName = "FertilizerCorpse" or
@@ -16,8 +16,9 @@
 				</value>
 			</li>
 
-	<!-- Исправлена неточность, сообщите разработчику, что навоз и грязь перемешивают на земле, приложить фотки с википедии -->
+			<!-- Исправлена неточность, сообщите разработчику
 
+			Навоз и грязь теперь перемешивают на земле -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/RecipeDef[
 				defName = "MakeBiosolidFertilizerHand" or
@@ -26,9 +27,7 @@
 				]/recipeUsers/li[1]/text()</xpath>
 				<value>CraftingSpot</value>
 			</li>
-
-	<!-- Исправлена неточность, сообщите разработчику, что коричневое место раскопок сливается с рабочим местом. Изменён на зелёный -->
-
+			<!-- Коричневое место раскопок сливалось с рабочим местом. Цвет изменён на зелёный -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "VG_DiggingSpot"]/graphicData</xpath>
 				<value>
