@@ -32,6 +32,10 @@
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ChemicalDef[defName = "Tobacco"]</xpath>
 			</li>
+			<!-- Отлавливаем баг "Need". -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/NeedDef[defName = "Chemical_Tobacco"]</xpath>
+			</li>
 
 		</operations>
 	</Operation>
