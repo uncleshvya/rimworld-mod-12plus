@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
+<!-- CC BY-SA 4.0
+Copyright (c) Oskar Potocki
+Копия лицензии - в файле VEstews_License_CC_BY_SA_4_0.txt
+
+CC BY-SA 4.0
+Copyright (c) Sarg Bjornson
+Копия лицензии - в файле VEcooking_License_CC_BY_SA_4_0.txt -->
+
 <Patch>
 	<Operation MayRequire="VanillaExpanded.VCookE" Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
 
-			<!-- Исправлен баланс, сообщите разработчику, что если поселенцы готовят выпечку за пару часов, то не может суп готовиться 48 часов, максимум 2 -->
+			<!-- Исправлен баланс, сообщите разработчику.
 
+			Если поселенцы готовят выпечку за пару часов, то не может суп готовиться 48 часов, максимум 2 -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ItemProcessor.CombinationDef[
 				defName = "VCE_SimpleSoupRecipe" or
@@ -15,7 +25,6 @@
 				]/singleTimeIfNotQualityIncreasing/text()</xpath>
 				<value>0.08</value>
 			</li>
-
 			<!-- Сырые рагу и супы сделаны съедобным, но невкусными -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[
@@ -73,9 +82,8 @@
 					<Nutrition>4.5</Nutrition>
 				</value>
 			</li>
-
 			<!-- Лишние категории засоряют список.
-			Рагу, супы и фритюр: -->
+			Рагу, супы и прожаренная еда: -->
 			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[
 				defName = "VCE_UncookedStewSimple" or
@@ -90,7 +98,6 @@
 				defName = "VCE_DeepFriedFish"
 				]/thingCategories</xpath>
 			</li>
-
 			<!-- Для сыра, он ведь есть в рецептах, пришлось подшаманить: -->
 			<li Class="PatchOperationAttributeSet">
 				<xpath>Defs/ThingDef[defName = "VCE_Cheese"]</xpath>
@@ -104,7 +111,6 @@
 					<foodType>Processed</foodType>
 				</value>
 			</li>
-
 			<!-- Время приготовления рагу исправлено с 72 часов на 8 -->
 			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationReplace">
 				<xpath>Defs/ItemProcessor.CombinationDef[
@@ -114,8 +120,7 @@
 				]/singleTimeIfNotQualityIncreasing/text()</xpath>
 				<value>0.34</value>
 			</li>
-
-			<!-- На электрическом термостате теперь тоже можно приготовить рагу -->
+			<!-- На индукционной плите теперь тоже можно приготовить рагу -->
 			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationAdd">
 				<xpath>Defs/ItemProcessor.ItemAcceptedDef[defName = "IP_ElectricPotFirstItem"]/items</xpath>
 				<value>
@@ -174,7 +179,6 @@
 					</ItemProcessor.CombinationDef>
 				</value>
 			</li>
-
 			<!-- Для чугунной плиты увеличено время поиска дров с 10 до 30, ведь она дольше остаётся горячей -->
 			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "VCE_StewPot"]/comps/li[1]/rareTicksToDestroy/text()</xpath>
