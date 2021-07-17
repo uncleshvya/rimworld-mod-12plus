@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
+<!-- CC BY-SA 4.0
+Copyright (c) Oskar Potocki
+
+MIT
+Copyright (c) 2019 XeoNovaDan
+-->
+
 <Patch>
-
-	<!-- MIT
-	Copyright (c) 2019 XeoNovaDan
-	-->
-
 	<Operation MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule" Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
