@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation MayRequire="sarg.geneticrim" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<!-- Исправление согласно концепции «12+».
+
+			Переработчик -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName = "GR_PulpCorpse"]/fixedIngredientFilter/disallowedCategories</xpath>
+				<value>
+					<li>CorpsesHumanlike</li>
+				</value>
+			</li>
+			<!-- Наркотики -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[
+				defName = "GR_ElectroEgg" or
+				defName = "GR_FeatherdustJoint" or
+				defName = "GR_RoyalJelly"
+				]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "GR_Mechachicken"]/comps/li[2]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "GR_Bearscarab"]/comps/li[1]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThoughtDef[
+				defName = "GR_ElectroEggHigh" or
+				defName = "GR_ElectroEggWithdrawal" or
+				defName = "GR_FeatherdustHigh" or
+				defName = "GR_FeatherdustWithdrawal" or
+				defName = "GR_RoyalJellyHigh" or
+				defName = "GR_RoyalJellyWithdrawal"
+				]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/HediffDef[
+				defName = "GR_ElectroEggHigh" or
+				defName = "GR_ElectroEggTolerance" or
+				defName = "GR_ElectroEggAddiction" or
+				defName = "GR_FeatherdustHigh" or
+				defName = "GR_FeatherdustTolerance" or
+				defName = "GR_FeatherdustAddiction" or
+				defName = "GR_RoyalJellyHigh" or
+				defName = "GR_RoyalJellyTolerance" or
+				defName = "GR_RoyalJellyAddiction"
+				]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ChemicalDef[
+				defName = "GR_ElectroEgg" or
+				defName = "GR_Featherdust" or
+				defName = "GR_RoyalJelly"
+				]</xpath>
+			</li>
+			<!-- Отлавливаем баг "Need". -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/NeedDef[
+				defName = "GR_ElectroEgg" or
+				defName = "GR_Chemical_Featherdust" or
+				defName = "GR_Chemical_RoyalJelly"
+				]</xpath>
+			</li>
+			<!-- Гены кожи -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/HediffDef[defName = "GR_MuffaloHybridGenes"]/stages/li[1]/statOffsets/LeatherAmount</xpath>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>
