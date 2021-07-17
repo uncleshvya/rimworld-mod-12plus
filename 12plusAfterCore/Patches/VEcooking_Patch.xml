@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
+<!-- CC BY-SA 4.0
+Copyright (c) Sarg Bjornson
+
+Исправление согласно концепции «12+» -->
+
 <Patch>
 	<Operation MayRequire="VanillaExpanded.VCookE" Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
-
-			<!-- Исправление согласно концепции «12+» эффектов масла -->
-
+			<!-- Эффекты масла -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThoughtDef[defName = "VCE_SmokeleafButterHigh"]/hediff</xpath>
 			</li>
