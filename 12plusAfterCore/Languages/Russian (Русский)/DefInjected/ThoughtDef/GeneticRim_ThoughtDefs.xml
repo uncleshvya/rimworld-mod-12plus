@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: активные механиты -->
+	<GR_ElectroEggHigh.stages.0.label>?</GR_ElectroEggHigh.stages.0.label>
+	<!-- Оригинал: Проглатывание этого яйца механоида заставило меня почувствовать себя великолепно. Я практически чувствую механитов в желудке! -->
+	<GR_ElectroEggHigh.stages.0.description>?</GR_ElectroEggHigh.stages.0.description>
+	<!-- Оригинал: зависимость от активных механитов -->
+	<GR_ElectroEggWithdrawal.stages.1.label>?</GR_ElectroEggWithdrawal.stages.1.label>
+	<!-- Оригинал: Все мое тело чешется... Как будто механиты обернулись против меня. -->
+	<GR_ElectroEggWithdrawal.stages.1.description>?</GR_ElectroEggWithdrawal.stages.1.description>
+
+	<!-- Оригинал: под кайфом от пыль-перьев -->
+	<GR_FeatherdustHigh.stages.0.label>?</GR_FeatherdustHigh.stages.0.label>
+	<!-- Оригинал: Я просто курил перья от наземной научной мерзости и... Я чувствую себя хорошо. -->
+	<GR_FeatherdustHigh.stages.0.description>?</GR_FeatherdustHigh.stages.0.description>
+	<!-- Оригинал: ломка от пыль-перьев -->
+	<GR_FeatherdustWithdrawal.stages.1.label>?</GR_FeatherdustWithdrawal.stages.1.label>
+	<!-- Оригинал: Я действительно хочу курить это. -->
+	<GR_FeatherdustWithdrawal.stages.1.description>?</GR_FeatherdustWithdrawal.stages.1.description>
+
+	<!-- Оригинал: королевское желе - тепло -->
+	<GR_RoyalJellyHigh.stages.0.label>?</GR_RoyalJellyHigh.stages.0.label>
+	<!-- Оригинал: Королевское желе вкусное... Я хочу съесть его еще больше! -->
+	<GR_RoyalJellyHigh.stages.0.description>?</GR_RoyalJellyHigh.stages.0.description>
+	<!-- Оригинал: зависимость от королевского желе -->
+	<GR_RoyalJellyWithdrawal.stages.1.label>?</GR_RoyalJellyWithdrawal.stages.1.label>
+	<!-- Оригинал: Я действительно хотел бы съесть немного королевского желе прямо сейчас. -->
+	<GR_RoyalJellyWithdrawal.stages.1.description>?</GR_RoyalJellyWithdrawal.stages.1.description>
+
+</LanguageData>
