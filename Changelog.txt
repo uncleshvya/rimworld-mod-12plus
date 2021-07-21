@@ -2,7 +2,7 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-07-16 добавлена адаптация для мода Genetic Rim.
+2021-07-21 добавлена адаптация для мода Genetic Rim.
 Скомпилирована версия 12+мода 0.6.9beta.
 Чтобы не плодить кучу субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowTool_";
@@ -37,6 +37,12 @@ For English, scroll down.
 "VGPmedicine_";
 "VGPtools_".
 
+2021-07-19 добавлена адаптация для мода Vanilla Expanded Factions Insectoids и его русификатора, заодно исправлены их ошибки, см.каменты в коде. По желанию, доступны косметические исправления (подключена зависимость от мода Harmony):
+- убрана дублирующая категория сыров;
+- золотое желе, как и зелёное, убрано из ингредиентов по умолчанию;
+- огнеплазменное оружие теперь при включении светится в темноте, при отключении — потухает со временем;
+- по аналогии пропатчен плазменный меч из Royalty.
+
 2021-07-08 добавлена адаптация для модов More Vanilla Turrets 1.1+ и VGP Medicine.
 
 2021-07-07 добавлена адаптация для мода Vegetable Garden Project (основного), заодно исправлены красные ошибки, см.каменты в коде.
@@ -61,11 +67,6 @@ For English, scroll down.
 2021-04-15 добавлена адаптация для мода Vanilla Expanded Factions Medieval и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 
 2021-04-11 добавлена адаптация для мода Vanilla Expanded Weapons с дополнениями Laser, Quickdraw и их переводом Am.Rus.VWE. На всякий случай адаптирован перевод RU.VanillaExpanded.VWE.
-
-2021-04-10 добавлена адаптация для мода Vanilla Expanded Factions Insectoids и его русификатора, заодно исправлены их ошибки, см.каменты в коде. По желанию, доступны косметические исправления (подключена зависимость от мода harmony):
-- убрана дублирующая категория сыров;
-- огнеплазменное оружие теперь при включении светится в темноте, при отключении — потухает со временем;
-- по аналогии пропатчен плазменный меч из Royalty.
 
 2021-04-05 добавлена адаптация для мода Vanilla Expanded Furniture Farming и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 
@@ -152,7 +153,7 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-jul-16 sarg.geneticrim mod adaptation added.
+2021-jul-21 sarg.geneticrim mod adaptation added.
 UncleShvya.12plus mod v.0.6.9beta compiled.
 To avoid a croud of small mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowTool_";
@@ -187,6 +188,12 @@ To avoid a croud of small mods, the files were marked with searchable tags in th
 "VGPmedicine_";
 "VGPtools_".
 
+2021-jul-19 OskarPotocki.VFE.Insectoid and RU.VFE.Insectoid mods' adaptation added. Also corrected their errors, see code comments. Optional cosmetic fixes available (brrainz.harmony mod dependence added):
+- removed double category of cheese;
+- by default, golden jelly disallowed to cook, like green one;
+- igniting plasma weapons now glow in the dark when armed, and go out when dropped and forgotten;
+- Royalty's plasma sword also patched in order to unify this relative technologies;
+
 2021-jul-08 paradox.morevanillaturrets and dismarzero.VGP.VGPGardenMedicine mods' adaptation added.
 
 2021-jul-07 dismarzero.VGP.VGPVegetableGarden mod adaptation added, also corrected red errors, see code comments.
@@ -211,11 +218,6 @@ Had to rebalance the most rebarbative developers' mistake - now sentry gun needs
 2021-apr-15 OskarPotocki.VanillaFactionsExpanded.MedievalModule and Inoshishi3.VanillaFactionsExpanded.MedievalModuleRusPatch mods' adaptation added. Also corrected their errors, see code comments.
 
 2021-apr-11 VanillaExpanded.VWE mod adaptation added, with add-ons VanillaExpanded.VWEQ, VanillaExpanded.VWEL and translations Am.Rus.VWE (basic), RU.VanillaExpanded.VWE (alternative, less accuracy). Also corrected their errors, see code comments.
-
-2021-apr-10 OskarPotocki.VFE.Insectoid and RU.VFE.Insectoid mods' adaptation added. Also corrected their errors, see code comments. Optional cosmetic fixes available (brrainz.harmony mod dependence added):
-- removed double category of cheese;
-- igniting plasma weapons now glow in the dark when armed, and go out when dropped and forgotten;
-- Royalty's plasma sword also patched in order to unify this relative technologies;
 
 2021-apr-05 VanillaExpanded.VFEFarming and inoshishi3.vanillaexpanded.vfefarmingruspatch mods' adaptation added. Also corrected their errors, see code comments.
 
