@@ -116,6 +116,14 @@ Copyright (c) Oskar Potocki
 					<foodType>Processed</foodType>
 				</value>
 			</li>
+			<!-- Убираем золотое желе из ингредиентов по умолчанию, по аналогии с зелёным желе.
+			При отладке обращать внимание на подобную ссылку в OrassansLite_Patch.xml, возможен конфликт патчей -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[@Name = "CookMealBase"]/defaultIngredientFilter/disallowedThingDefs</xpath>
+				<value>
+					<li>VFEI_RoyalInsectJelly</li>
+				</value>
+			</li>
 			<!-- У ванильных инсектоидов тоже должен быть хитин -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[
