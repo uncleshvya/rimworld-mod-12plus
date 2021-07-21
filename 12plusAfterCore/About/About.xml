@@ -151,9 +151,9 @@ Ideas to realize in next version:
 			<downloadUrl>https://github.com/uncleshvya/rimworld-mod-12plus</downloadUrl>
 		</li>
 		<li>
-			<packageId>jecrell.jecstools</packageId>
-			<displayName>JecsTools (Unofficial)</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2195729899</steamWorkshopUrl>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
 		</li>
 		<li>
 			<packageId>VanillaExpanded.VCookE</packageId>
@@ -193,7 +193,7 @@ Ideas to realize in next version:
 		<li>VanillaExpanded.VWEL</li>
 		<li>Am.Rus.VWE</li>
 		<li>RU.VanillaExpanded.VWE</li>
-		<li>jecrell.jecstools</li>
+		<li>brrainz.harmony</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.MedievalModule</li>
 		<li>Inoshishi3.VanillaFactionsExpanded.MedievalModuleRusPatch</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.SettlersModule</li>
