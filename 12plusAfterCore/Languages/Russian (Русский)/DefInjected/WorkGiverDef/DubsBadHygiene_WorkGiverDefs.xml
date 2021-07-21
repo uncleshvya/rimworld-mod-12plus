@@ -44,6 +44,8 @@
 
 	Оригинал: сжечь в яме -->
 	<DoBillsBurnPit.label>сжигать в яме</DoBillsBurnPit.label>
+	<!-- Оригинал: с маленькой буквы -->
+	<DoBillsBurnPit.gerund>Сжигать, используя</DoBillsBurnPit.gerund>
 	<!-- Оригинал: сгрести нечистоты в бочки -->
 	<RemoveSewage.label>сгребать нечистоты в бочку</RemoveSewage.label>
 	<!-- Оригинал: сгребать нечистоты -->
@@ -58,6 +60,8 @@
 	<ClearBlockage.gerund>Устранить засор в</ClearBlockage.gerund>
 	<!-- Оригинал: мыть пациента -->
 	<washPatient.label>мыть пациентов</washPatient.label>
+	<!-- Оригинал: с маленькой буквы -->
+	<washPatient.gerund>Мыть</washPatient.gerund>
 	<!-- Разделяем работы доктора и уборщика.
 	Оригинал: вынести утку -->
 	<cleanBedpan.label>выносить заполненные утки</cleanBedpan.label>
@@ -73,8 +77,8 @@
 	<emptySepticTank.gerund>Опорожнить</emptySepticTank.gerund>
 	<!-- Оригинал: поить пациента -->
 	<DBHAdministerFluids.label>поить пациентов</DBHAdministerFluids.label>
-	<!-- Оригинал: поить -->
-	<DBHAdministerFluids.gerund>Напоить</DBHAdministerFluids.gerund>
+	<!-- Оригинал: с маленькой буквы -->
+	<DBHAdministerFluids.gerund>Поить</DBHAdministerFluids.gerund>
 	<!-- Оригинал: загрузить стирку -->
 	<LoadWashing.label>загружать стирку</LoadWashing.label>
 	<!-- Оригинал: загружать -->
