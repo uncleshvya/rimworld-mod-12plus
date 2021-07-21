@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: перерабатывать трупы -->
+	<GR_DoBillsRecycler.verb>перерабатывать туши</GR_DoBillsRecycler.verb>
+	<!-- Оригинал: перерабатывать трупы на -->
+	<GR_DoBillsRecycler.gerund>перерабатывать туши, используя</GR_DoBillsRecycler.gerund>
+
+</LanguageData>
