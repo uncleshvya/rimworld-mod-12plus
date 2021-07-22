@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+	<!-- Исправлена неточность, сообщите разработчику.
 
-	<!-- EN: gathering animal resource from TargetA. -->
+	Оригинал: собирает ресурсы из TargetA. -->
 	<VEF_AnimalResource.reportString>собирает ресурсы с TargetA</VEF_AnimalResource.reportString>
-	<!-- EN: destroying an item. -->
-	<VEF_DestroyItem.reportString>уничтожает предмет</VEF_DestroyItem.reportString>
-	<!-- EN: rebuilding machine. -->
-	<VFE_Mechanoids_RepairMachine.reportString>чинит механизм</VFE_Mechanoids_RepairMachine.reportString>
-	<!-- EN: attaching turret. -->
-	<VFE_Mechanoids_AttachTurret.reportString>присоединяет орудие</VFE_Mechanoids_AttachTurret.reportString>
-	<!-- EN: recharging. -->
-	<VFE_Mechanoids_Recharge.reportString>перезаряжает</VFE_Mechanoids_Recharge.reportString>
+	<!-- Оригинал: несёт яйцо. -->
+	<VEF_LayExplodingEgg.reportString>откладывает яйцо</VEF_LayExplodingEgg.reportString>
+	<!-- Оригиналы: все нижеследующие с точкой в конце -->
+	<VEF_DestroyItem.reportString>ломает</VEF_DestroyItem.reportString>
+	<VEF_IngestWeird.reportString>поглощает TargetA</VEF_IngestWeird.reportString>
+	<VEF_AutoNutrition.reportString>ест</VEF_AutoNutrition.reportString>
 
-	<!-- исправлена неточность, сообщите разработчику. А также разработчику Inoshishi3.VanillaExpanded.VCookERusPatch - в его моде дублирующий перевод этих строк -->
+	<IP_InsertFirstIngredient.reportString>добавляет ингредиент</IP_InsertFirstIngredient.reportString>
+	<IP_InsertSecondIngredient.reportString>добавляет ингредиент</IP_InsertSecondIngredient.reportString>
+	<IP_InsertThirdIngredient.reportString>добавляет ингредиент</IP_InsertThirdIngredient.reportString>
+	<IP_RemoveProduct.reportString>забирает готовый продукт</IP_RemoveProduct.reportString>
 
-	<!-- Оригинал: вставляет первый ингредиент -->
-	<IP_InsertFirstIngredient.reportString>кладёт первый ингредиент</IP_InsertFirstIngredient.reportString>
-	<!-- Оригинал: вставляет второй ингредиент -->
-	<IP_InsertSecondIngredient.reportString>кладёт второй ингредиент</IP_InsertSecondIngredient.reportString>
-	<!-- Оригинал: вставляет третий ингредиент -->
-	<IP_InsertThirdIngredient.reportString>кладёт третий ингредиент</IP_InsertThirdIngredient.reportString>
+	<VFE_Mechanoids_RepairMachine.reportString>чинит машину</VFE_Mechanoids_RepairMachine.reportString>
+	<VFE_Mechanoids_AttachTurret.reportString>прикрепляет турель</VFE_Mechanoids_AttachTurret.reportString>
+	<VFE_Mechanoids_Recharge.reportString>перезаряжается</VFE_Mechanoids_Recharge.reportString>
+
+	<VFEC_EquipShield.reportString>берёт щит: TargetA</VFEC_EquipShield.reportString>
 
 </LanguageData>
