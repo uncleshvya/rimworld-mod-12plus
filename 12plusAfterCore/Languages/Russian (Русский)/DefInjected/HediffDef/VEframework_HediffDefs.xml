@@ -1,27 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+	<!-- Исправление согласно концепции «12+».
 
-	<!-- EN: acid burn -->
-	<VEF_AcidBuildup.label>ожог кислотой</VEF_AcidBuildup.label>
-	<!-- EN: A splash of acid that continues to cause burn wounds for quite some time after the initial attack. -->
-	<VEF_AcidBuildup.description>Кислота, попавшая на тело, вызывает новые ожоги в течение некоторого времени после первоначального поражения.</VEF_AcidBuildup.description>
-	<!-- EN: minor, receiving burns -->
-	<VEF_AcidBuildup.stages.minor_receiving_burns.label>слабый, вызывает ожоги</VEF_AcidBuildup.stages.minor_receiving_burns.label>
-	<!-- EN: moderate, receiving burns -->
-	<VEF_AcidBuildup.stages.moderate_receiving_burns.label>сильный, вызывает ожоги</VEF_AcidBuildup.stages.moderate_receiving_burns.label>
-	<!-- EN: serious, receiving burns -->
-	<VEF_AcidBuildup.stages.serious_receiving_burns.label>серьёзный, вызывает ожоги</VEF_AcidBuildup.stages.serious_receiving_burns.label>
-	<!-- EN: acid burn -->
-	<VEF_AcidBurn.label>ожог кислотой</VEF_AcidBurn.label>
-	<!-- EN: An acid burn. -->
-	<VEF_AcidBurn.description>Ожог едкой кислотой.</VEF_AcidBurn.description>
-	<!-- EN: acid burn scar -->
-	<VEF_AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>шрам от ожога кислотой</VEF_AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>
-	<!-- EN: an acid burn -->
-	<VEF_AcidBurn.labelNoun>ожог кислотой</VEF_AcidBurn.labelNoun>
-	<!-- EN: {0} in the {1} -->
-	<VEF_AcidBurn.labelNounPretty>{0} на {1}</VEF_AcidBurn.labelNounPretty>
+	Оригинал: Этому существу требуется солнечный свет. Недостаточная освещённость убьёт его. -->
+	<VEF_LightSustenance.description>Этому существу жизненно важен солнечный свет.</VEF_LightSustenance.description>
 
 </LanguageData>
