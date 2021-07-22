@@ -208,6 +208,8 @@ Ideas to realize in next version:
 		<li>dismarzero.VGP.VGPGardenMedicine</li>
 		<li>paradox.morevanillaturrets</li>
 		<li>sarg.geneticrim</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>RU.VanillaFactionsExpanded.Core</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
