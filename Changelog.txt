@@ -2,7 +2,8 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-07-22 добавлена адаптация для мода Genetic Rim.
+2021-07-22 добавлена адаптация для мода Genetic Rim, заодно исправлены его ошибки, см.каменты в коде.
+Добавлена адаптация для мода Vanilla Expanded Framework и его русификаторов, заодно исправлены их ошибки, см.каменты в коде.
 Скомпилирована версия 12+мода 0.6.9beta.
 Чтобы не плодить кучу субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowTool_";
@@ -93,8 +94,6 @@ For English, scroll down.
 - убраны дублирующие категории блюд;
 - фактически, после перебалансирования мод VCE и аддон VCES слились.
 
-2021-03-09 добавлена адаптация для мода Vanilla Expanded Framework и русификатора, заодно исправлены их ошибки, см.каменты в коде.
-
 2021-03-07 добавлена адаптация для мода VGPgardenTools и русификатора, заодно исправлены их ошибки, см.каменты в коде.
 
 2021-03-02 добавлена адаптация и локализация для мода OrassansLite. Исправлена его красная ошибка предысторий, см.каменты в коде. И почему то пропала его ошибка генерации имён. Удалена излишняя реклама наркомании.
@@ -154,6 +153,7 @@ For English, scroll down.
 Changelog for Rimworld's 12plus modification.
 
 2021-jul-22 sarg.geneticrim mod adaptation added.
+OskarPotocki.VanillaFactionsExpanded.Core and RU.VanillaFactionsExpanded.Core mods' adaptation added. Also corrected their errors, see code comments.
 UncleShvya.12plus mod v.0.6.9beta compiled.
 To avoid a croud of small mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowTool_";
@@ -243,8 +243,6 @@ Had to rebalance the most rebarbative developers' mistake - now sentry gun needs
 - massive stewpot now cools down 3 hours instead of 1;
 - removed double categories of meals;
 - in fact, VEC mod and VES addon were merged.
-
-2021-mar-09 oskarpotocki.vanillafactionsexpanded.core and Inoshishi3.VanillaFactionsExpanded.CoreRusPatch mods' adaptation added. Also corrected their errors, see code comments.
 
 2021-mar-07 dismarzero.VGP.VGPGardenTools and Unknown.Perevod.dismarzero.VGP.VGPGardenTools mods' adaptation added. Also corrected their errors, see code comments.
 
