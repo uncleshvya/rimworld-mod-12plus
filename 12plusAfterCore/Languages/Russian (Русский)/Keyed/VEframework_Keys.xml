@@ -3,126 +3,104 @@
 
 	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
 
-	EN: {0} has reproduced asexually. -->
-	<VEF_AsexualHatched>{0} размножается почкованием</VEF_AsexualHatched>
-	<!-- EN: {0} has cloned itself. -->
-	<VEF_AsexualCloning>{0} размножается делением</VEF_AsexualCloning>
-	<!-- EN: {0} has sporulated. -->
-	<VEF_AsexualHatchedEgg>{0} откладывает яйца</VEF_AsexualHatchedEgg>
-	<!-- EN: This creature is untameable -->
-	<VEF_NotTameable>Это существо нельзя приручить</VEF_NotTameable>
-	<!-- EN: Time to metamorphosis: {0} -->
-	<VEF_TimeToMetamorphosis>Время до превращения: {0}</VEF_TimeToMetamorphosis>
-	<!-- EN: Insert -->
-	<IP_InsertFourthItemDesc>Добавить</IP_InsertFourthItemDesc>
-	<!-- EN: Output {0} -->
-	<IP_Output>Выход: {0}</IP_Output>
-	<!-- EN: Output {0} from {1} -->
-	<IP_OutputVariable>Выход: {0} из {1}</IP_OutputVariable>
-	<!-- EN: Processor will output {0}. It needs to be fed {1} -->
-	<IP_OutputDesc>Выход продукта: {0}. Нужно загрузить {1}</IP_OutputDesc>
-	<!-- EN: Choose Output -->
-	<IP_ChooseOutput>Выберите искомый результат</IP_ChooseOutput>
-	<!-- EN: Choose Fourth Ingredient -->
-	<IP_ChooseIngredientFourth>Выберите четвёртый ингредиент</IP_ChooseIngredientFourth>
-	<!-- EN: {0} needs to have an adequate temperature ({1} - {2}) to start working -->
-	<IP_TemperatureDestroysWarning>{0} требует температуру от {1} до {2} для начала процесса</IP_TemperatureDestroysWarning>
-	<!-- EN: {0} -->
-	<IP_FilledWithFourth>{0}</IP_FilledWithFourth>
-	<!-- EN: {0} is paused: -->
-	<IP_ProcessorPaused>{0} — процесс на паузе:</IP_ProcessorPaused>
-	<!-- EN: Reset Machine -->
-	<IP_ResetFullAuto>Перезапустить устройство</IP_ResetFullAuto>
-	<!-- EN: Fully resets the machine and makes it stop. Warning, it will destroy the process and the input items -->
-	<IP_ResetFullAutoDesc>Отключить, вычистить а затем включить устройство. Внимание, загруженные ингредиенты будут безнадёжно испорчены!</IP_ResetFullAutoDesc>
-	<!-- EN: Pause / Restart -->
-	<IP_TogglePause>Пауза</IP_TogglePause>
-	<!-- EN: Pause / Restart this machine -->
-	<IP_TogglePauseDesc>Приостановить устройство / опять запустить его</IP_TogglePauseDesc>
-	<!-- EN: Waiting for output to clear. Output limit is {0} -->
-	<IP_OverThreshold>Ожидает разгрузки продукта. Достигнут предел хранения {0}</IP_OverThreshold>
-	<!-- EN: No modded recipes found for this factory -->
-	<IP_NoRecipesHere>Не найдены рецепты для этого верстака</IP_NoRecipesHere>
-	<!-- EN: Reinforcements -->
-	<VSE.Reinforcements>Подкрепление</VSE.Reinforcements>
-	<!-- EN: Seeing that your forces suffered losses, {FACTION_name} has decided to reinforce their raiding force -->
-	<VSE.ReinforcementsDesc>Видя, что вы понесли потери, фракция {FACTION_name} присылает подкрепление своим бойцам.</VSE.ReinforcementsDesc>
-	<!-- EN: cost: {0} goodwill -->
-	<VSE.CostGoodwill>цена: {0} репутации</VSE.CostGoodwill>
-	<!-- EN: Toggle {0} -->
-	<MVCF.Toggle>Переключить {0}</MVCF.Toggle>
-	<!-- EN: Toggle using {0} automatically -->
-	<MVCF.ToggleUsing>Переключить, используя {0} автоматически</MVCF.ToggleUsing>
-	<!-- EN: Toggle automatic usage -->
-	<MVCF.ToggleAuto>Переключить автоматический режим</MVCF.ToggleAuto>
-	<!-- EN: Custom structure generation: -->
-	<CSGTitle>Появление определённого строения:</CSGTitle>
-	<!-- EN: Enable structure generation debugging log: -->
-	<CSGLog>Включить лог отладки для появления строения:</CSGLog>
-	<!-- EN: Toggable patches: -->
-	<TPTitle>Подключаемые патчи:</TPTitle>
-	<!-- EN: <b><color=red>All settings need a restart to be applied</color></b> (конфиг цвета выдаёт ошибку) -->
-	<NeedRestart>Эти настройки будут приняты только после перезапуска игры</NeedRestart>
-	<!-- EN: Allow chronic health conditions in food (Diabetes, Cholesterol and High Blood Pressure) -->
-	<VCE_AllowConditions>Переедание и несбалансированное питание будет вредить здоровью (диабет, холестерин, гипертония)</VCE_AllowConditions>
-	<!-- EN: Vanilla Cooking Expanded must be installed for these options to have any effect -->
-	<VCE_MustBeInstalled>Для работы этих настроек необходимо, чтобы был установлен мод Vanilla Cooking Expanded</VCE_MustBeInstalled>
-	<!-- EN: Drill for {0} -->
-	<VFE_ChunkToMine>Бурить для {0}</VFE_ChunkToMine>
-	<!-- EN: Drill for Random Chunks -->
-	<VFE_ChunkRandomMine>Бурить случайную клетку</VFE_ChunkRandomMine>
-	<!-- EN: Choose chunk type to drill -->
-	<VFE_ChooseMine>Выберите тип породы для бурения</VFE_ChooseMine>
-	<!-- EN: Choose chunk type to drill. You can choose any of the map -->
-	<VFE_ChooseMineDesc>Выберите, что бурить. Можно указать любое место на карте</VFE_ChooseMineDesc>
-	<!-- EN: Random chunk -->
-	<VFE_RandomRock>Случайная клетка</VFE_RandomRock>
-	<!-- EN: Select machine output -->
-	<VFE_PleaseSelectOutput>Выберите цель</VFE_PleaseSelectOutput>
-	<!-- EN: This building must be placed on water -->
-	<VFE_NeedsWater>Это строение должно располагаться на воде</VFE_NeedsWater>
+	EN: Faction relation modifiers -->
+	<VanillaFactionsExpanded.ScenPart_ForcedFactionRelations>Модификаторы отношений с фракцией</VanillaFactionsExpanded.ScenPart_ForcedFactionRelations>
+
+	<!-- EN: {0} patches found -->
+	<XPatchFound>Найдено {0} патчей</XPatchFound>
+	<!-- EN: Faction Discovery -->
+	<FDTitle>Добавление фракций</FDTitle>
+	<!-- EN: You first need to load a save -->
+	<NeedToBeInGame>Сначала загрузите сохранённую игру</NeedToBeInGame>
+	<!-- EN: Add faction(s) -->
+	<AskForPopUp>Уведомления</AskForPopUp>
+	<!-- EN: Click this to be asked for each faction if you want it to be added to your game -->
+	<AskForPopUpExplained>Когда включено, будут выходить уведомления для каждой фракции, которую можно добавить в сохранённую игру</AskForPopUpExplained>
+	<!-- EN: {0} faction(s) can be added to your current save -->
+	<CanAddXFaction>В текущее сохранение можно добавить фракций: {0}</CanAddXFaction>
 
 	<!-- Исправлена неточность, сообщите разработчику.
 
-	Оригинал: Вставить {0} -->
-	<IP_InsertVariable>Выбрать {0}</IP_InsertVariable>
-	<!-- Оригинал: На этой карте не найдено ({0}) -->
+	Оригиналы: Ввести -->
+	<IP_InsertFirstItemDesc>Добавить</IP_InsertFirstItemDesc>
+	<IP_InsertSecondItemDesc>Добавить</IP_InsertSecondItemDesc>
+	<IP_InsertThirdItemDesc>Добавить</IP_InsertThirdItemDesc>
+	<IP_InsertFourthItemDesc>Добавить</IP_InsertFourthItemDesc>
+	<!-- Оригинал: Ввести {0} -->
+	<IP_InsertVariable>Добавить {0}</IP_InsertVariable>
+	<!-- Оригинал: {0} получится после обработки. Для этого необходимо дать {1} -->
+	<IP_OutputDesc>После обработки получится {0}. Для этого необходимо загрузить {1}</IP_OutputDesc>
+	<!-- Оригинал: На карте нет предметов требуемого типа ({0}) -->
 	<IP_CantFindThing>Не удаётся найти «{0}» на этой карте</IP_CantFindThing>
-	<!-- Оригинал: без "Ё" -->
-	<IP_IngredientImproperlyDefined>Один из ингредиентов был неправильно определён для работы с обработчиком предметов, обратитесь к автору мода.</IP_IngredientImproperlyDefined>
-	<!-- Оригинал: Продукт закончил обработку и ожидает извлечения -->
+	<!-- Оригиналы: {0} требуется энергия для работы -->
+	<IP_NoPowerDestroysWarning>{0} — требуется электроэнергия для работы</IP_NoPowerDestroysWarning>
+	<!-- Оригиналы: все 3 без тире -->
+	<IP_NoFuelDestroysWarning>{0} — требуется топливо для работы</IP_NoFuelDestroysWarning>
+	<IP_LightDestroysWarning>{0} — требуется достаточный уровень освещённости для работы</IP_LightDestroysWarning>
+	<IP_RainDestroysWarning>{0} — требуется отсутствие дождя для работы</IP_RainDestroysWarning>
+	<!-- Оригинал: {0} достаточного уровня тепла ({1} - {2}) для работы -->
+	<IP_TemperatureDestroysWarning>{0} — требуется температура от {1} до {2} для работы</IP_TemperatureDestroysWarning>
+	<!-- Оригинал: Продукт закончил обрабатываться и ждёт, когда его заберут -->
 	<IP_GenericProductFinished>Обработка закончена. Ожидается поселенец, чтобы извлечь готовый продукт</IP_GenericProductFinished>
-	<!-- Оригинал: {0} пуст(а) -->
+	<!-- Оригинал: {0} простаивает -->
 	<IP_IsEmpty>Нет заданий</IP_IsEmpty>
-	<!-- Оригинал: {0} заполнен(а) {1} -->
+	<!-- Оригинал: {0} хранит {1} -->
 	<IP_FilledWith>Внутри — {1}</IP_FilledWith>
-	<!-- Оригинал: "пробел" (заполнен(а) на {0} из {1}) -->
+	<!-- Оригинал: "пробел" (заполнен на {0} из {1}) -->
 	<IP_IngredientPercentage>, загружено {0} из {1}</IP_IngredientPercentage>
-	<!-- Оригинал: {0} обрабатывает {1}. {2} будет готов(а) с качеством "{3}", через {4} -->
+	<!-- Оригинал: {0} обрабатывает {1}. {2} будет готов через {3} {4} качества -->
 	<IP_ProcessingInProgress>{2} подвергается автоматической обработке, приготовится с качеством «{3}», через {4}</IP_ProcessingInProgress>
-	<!-- Оригинал: {0} обрабатывает {1}. {2} будет готов(а) через {3} -->
+	<!-- Оригинал: {0} обрабатывает {1}. {2} будет готов через {3} -->
 	<IP_ProcessingInProgressNoQuality>{2} подвергается автоматической обработке, приготовится через {3}</IP_ProcessingInProgressNoQuality>
-	<!-- Оригинал: ...будет готов на уровне качества: ({2}) -->
+	<!-- Оригинал: Удалить {0} ({1}) -->
+	<IP_RemoveProduct>Извлечь {0} ({1})</IP_RemoveProduct>
+	<!-- Оригинал: Удалить {0} из {1}. Продукт будет выпущен с текущим уровнем качества ({2}) -->
 	<IP_RemoveProductDesc>Извлечь {0} из {1}. Продукт будет с качеством: «{2}»</IP_RemoveProductDesc>
-	<!-- Игра рассчитана на одно поселение.
-	Оригинал: ...Когда продукт достигает этого качества, поселенец автоматически извлекает его и переносит на склад... -->
-	<IP_SetAutoQuality>Установить качество для извлечения продукта. Когда он достигнет этого качества, поселенцы автоматически извлекут его и перенесут на склад, если таковой имеется. Если не установлено, продукты будут извлечены вручную или с легендарным качеством.</IP_SetAutoQuality>
-	<!-- Оригинал: Авто-качество, продукт будет производиться на качественном уровне: {0} -->
+	<!-- Оригинал: Не найден комбинаций... -->
+	<IP_NoCombination>Не найдено комбинаций для этих ингредиентов</IP_NoCombination>
+	<!-- Оригинал: Установить уровень качества для извлечения...Когда продукт достигнет нужного качества, поселенец автоматически заберёт его и отнесёт на склад. Если...вручную или когда он достигнет легендарного качества. -->
+	<IP_SetAutoQuality>Установить целевое качество для извлечения продукта. Когда он достигнет этого качества, поселенцы автоматически извлекут его и перенесут на склад, если таковой имеется. Если ничего не выбрано, продукт можно забрать вручную или по достижении легендарного качества.</IP_SetAutoQuality>
+	<!-- Оригинал: Автоматическое качество позволит выпустить продукт с {0} уровнем качества -->
 	<IP_QualityAutoEstablished>Продукт будет производиться автоматически с качеством «{0}»</IP_QualityAutoEstablished>
-	<!-- Оригинал: ...автоматически начнет работать...Если нет, колонисты доставят... -->
-	<IP_ToggleAutoDesc>Если активно, это устройство будет автоматически собирать ингредиенты и автоматически начнёт работать после удаления продукта. Если нет, поселенцы доставят ингредиенты в устройство, и его нужно будет активировать вручную после заправки.</IP_ToggleAutoDesc>
+	<!-- Оригинал: Если включено, здание будет...ингредиенты из ближайших воронок...после сбора итогового продукта...будут носить ингредиенты в здание, а после его нужно... -->
+	<IP_ToggleAutoDesc>Если включено, обработчик будет автоматически собирать ингредиенты из воронок и перезапускать работу после удаления итогового продукта. Иначе поселенцы будут доставлять ингредиенты в устройство, и его нужно будет запустить вручную</IP_ToggleAutoDesc>
+	<!-- Оригинал: Сбросить машину -->
+	<IP_ResetFullAuto>Перезапустить устройство</IP_ResetFullAuto>
+	<!-- Оригинал: Полностью сбрасывает и останавливает машину. Осторожно. Это уничтожит предметы внутри и прогресс обработки -->
+	<IP_ResetFullAutoDesc>Отключить, вычистить а затем включить устройство. Внимание, загруженные ингредиенты будут безвозвратно утрачены!</IP_ResetFullAutoDesc>
+	<!-- Оригинал: Ожидание сбора -->
+	<IP_ProductWaiting>Ожидает доставки</IP_ProductWaiting>
 	<!-- Оригинал: ...между {0} и {1} ºC -->
-	<IP_TempRangeInThisMachine>Этому ферментатору требуется температура между {0} и {1} º{2}</IP_TempRangeInThisMachine>
+	<IP_TempRangeInThisMachine>. Для брожения требуется температура между {0} и {1} º{2}</IP_TempRangeInThisMachine>
+	<!-- Оригинал: Pause / Restart -->
+	<IP_TogglePause>Пауза</IP_TogglePause>
+	<!-- Оригинал: Остановите и перезапустите работу... -->
+	<IP_TogglePauseDesc>Остановить или запустить работу этой машины</IP_TogglePauseDesc>
+	<!-- Оригинал: (пробел) Ожидание вывода для очистки. Лимит вывода {0} -->
+	<IP_OverThreshold>Ожидает разгрузки продукта. Достигнут предел хранения: {0}</IP_OverThreshold>
+	<!-- Оригинал: Для этого завода не найдено модифицированных рецептов -->
+	<IP_NoRecipesHere>Не найдены модифицированные рецепты для этого устройства</IP_NoRecipesHere>
 
-	<!-- Оригинал: Какие части тела защищает щит. -->
-	<VanillaFactionsExpanded.Protects_Desc>Какие части тела закрывает щит.</VanillaFactionsExpanded.Protects_Desc>
-	<!-- Оригинал: с неправильными кавычками -->
-	<VanillaFactionsExpanded.ModInfo>Эта фракция была добавлена модом с названием «{ModName}», и в настоящее время не присутствует в вашей игре.</VanillaFactionsExpanded.ModInfo>
-	<!-- Оригинал: с неправильными кавычками -->
-	<VanillaFactionsExpanded.RequiredFactionInfo>Отмечено, как требуется модом «{ModName}».</VanillaFactionsExpanded.RequiredFactionInfo>
-	<!-- Оригинал: Добавлено(а) {FactionName} с {Amount} поселениями. -->
-	<VanillaFactionsExpanded.FactionMessageSuccessFull>Добавлена фракция {FactionName} с {Amount} поселениями.</VanillaFactionsExpanded.FactionMessageSuccessFull>
-	<!-- Оригинал: Добавлено(а) {FactionName}. -->
-	<VanillaFactionsExpanded.FactionMessageSuccess>Добавлена фракция {FactionName}.</VanillaFactionsExpanded.FactionMessageSuccess>
+	<!-- Оригинал: Закрыто -->
+	<VanillaFactionsExpanded.Protects>Защищает</VanillaFactionsExpanded.Protects>
+	<!-- Оригинал: без неразрывного пробела -->
+	<VanillaFactionsExpanded.FactionTitle>Новая фракция — {FactionName}</VanillaFactionsExpanded.FactionTitle>
+	<!-- Оригинал: Подкрепления -->
+	<VSE.Reinforcements>Подкрепление</VSE.Reinforcements>
+
+	<!-- Оригинал: ...Это действие потребует столько... -->
+	<VFEMechAttachTurretDesc>Установить турель на этой передвижной платформе. Потребуется столько же ресурсов, сколько и постройка обычной турели.</VFEMechAttachTurretDesc>
+	<!-- Оригинал: >Нужно... -->
+	<VFEMechReconstruct>Нужно построить заново:</VFEMechReconstruct>
+	<!-- Оригинал: ...доступных плиток для машины. -->
+	<VFEMechLowerRangeDesc>Уменьшить число доступных клеток для машины.</VFEMechLowerRangeDesc>
+	<!-- Оригинал: ...доступных плиток для машины. -->
+	<VFEMechRaiseRangeDesc>Увеличить число доступных клеток для машины.</VFEMechRaiseRangeDesc>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Заодно сглажена ссылка на животных - для модов на неявно живых существ.
+	Оригинал: Животное умрёт через {0} -->
+	<VEF_TimeToDie>Существо будет потеряно через {0}</VEF_TimeToDie>
 
 </LanguageData>
