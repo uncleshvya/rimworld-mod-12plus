@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+	<!-- Исправлена неточность, сообщите разработчику.
 
-	<!-- EN: xenophobic rage -->
+	Оригинал: ксенофобная ярость -->
 	<VEF_XenophobicRage.label>приступ ксенофобии</VEF_XenophobicRage.label>
-	<!-- EN: Mental state: Xenophobic rage -->
-	<VEF_XenophobicRage.baseInspectLine>Душевное состояние: приступ ксенофобии</VEF_XenophobicRage.baseInspectLine>
-	<!-- EN: {0} is no longer in a xenophobic rage. -->
+	<!-- Оригинал: {0} больше не испытывает ксенофобию. -->
 	<VEF_XenophobicRage.recoveryMessage>{0} больше не срывается на инопланетянах</VEF_XenophobicRage.recoveryMessage>
+	<!-- Оригинал: Душевное состояние: ксенофобия -->
+	<VEF_XenophobicRage.baseInspectLine>Душевное состояние: приступ ксенофобии</VEF_XenophobicRage.baseInspectLine>
 
-	<!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+».
 
-	<!-- EN: {0} has flown into a xenophobic rage.\n\n[PAWN_pronoun] has decided to kill {1}. -->
-	<VEF_XenophobicRage.beginLetter>{0} испытывает жгучую ненависть к инопланетянам и собирается избить их. {1} в опасности!</VEF_XenophobicRage.beginLetter>
+	Оригинал: {0} испытывает ксенофобную ярость.\n\n{PAWN_pronoun} хочет убить {1}. -->
+	<VEF_XenophobicRage.beginLetter>{0} испытывает жгучую ненависть к инопланетянам и собирается избить кого-нибудь из них. {1} в опасности!</VEF_XenophobicRage.beginLetter>
 
 </LanguageData>
