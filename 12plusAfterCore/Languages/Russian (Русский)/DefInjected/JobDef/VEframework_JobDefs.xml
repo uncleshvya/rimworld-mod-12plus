@@ -3,7 +3,7 @@
 
 	<!-- Исправлена неточность, сообщите разработчику.
 
-	Оригинал: собирает ресурсы из TargetA. -->
+	Оригинал: ...ресурсы из TargetA. -->
 	<VEF_AnimalResource.reportString>собирает ресурсы с TargetA</VEF_AnimalResource.reportString>
 	<!-- Оригинал: несёт яйцо. -->
 	<VEF_LayExplodingEgg.reportString>откладывает яйцо</VEF_LayExplodingEgg.reportString>
