@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
+<!-- CC BY-SA 4.0
+Copyright (c) Haplo
+-->
+
 <Patch>
-
-	<!-- CC BY-SA 4.0
-	Copyright (c) Haplo
-	-->
-
 	<Operation MayRequire="Haplo.Miscellaneous.BeesNHoney" Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
@@ -50,8 +50,9 @@
 				<xpath>Defs/ThingDef[defName = "Mead"]/comps/li[1]</xpath>
 			</li>
 
-			<!-- Исправлена неточность, сообщите разработчику, что лишние категории захламляют список -->
+			<!-- Исправлена неточность, сообщите разработчику.
 
+			Лишние категории захламляли список -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[@Name = "ResourceHoneycombBase_MiscBees"]/thingCategories/li[2]</xpath>
 			</li>
