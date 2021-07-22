@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
+<!-- MIT
+Copyright (c) 2018 Simon Latusek
+-->
+
 <Patch>
-
-	<!-- Исправлена неточность, сообщите разработчику.
-
-	MIT
-	Copyright (c) 2018 Simon Latusek
-	-->
-
 	<Operation MayRequire="erdelf.HumanoidAlienRaces" Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
+
+			<!-- Исправлена неточность, сообщите разработчику -->
+
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingCategoryDef[defName = "alienCorpseCategory"]/parent/text()</xpath>
 				<value>Corpses</value>
@@ -25,5 +25,4 @@
 
 		</operations>
 	</Operation>
-
 </Patch>
