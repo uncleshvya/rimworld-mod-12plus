@@ -2,12 +2,11 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-07-22 начата работа над адаптацией мода Alpha Animals, тег "AlphaAnimals_".
-Добавлена адаптация для мода Genetic Rim, заодно исправлены его ошибки, см.каменты в коде.
-Добавлена адаптация для мода Vanilla Expanded Framework и его русификаторов, заодно исправлены их ошибки, см.каменты в коде.
-Скомпилирована версия 12+мода 0.6.9beta.
-Чтобы не плодить кучу субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
+2021-07-27 добавлена адаптация для мода Alpha Animals и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
+Скомпилирована версия 12+мода 0.7.0beta.
+Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowTool_";
+"AlphaAnimals_";
 "AndroidTiers_";
 "BeesNhoney_";
 "ConcreteWalls_";
@@ -38,6 +37,9 @@ For English, scroll down.
 "VGPcore_";
 "VGPmedicine_";
 "VGPtools_".
+
+2021-07-22 добавлена адаптация для мода Genetic Rim, заодно исправлены его ошибки, см.каменты в коде.
+Добавлена адаптация для мода Vanilla Expanded Framework и его русификаторов, заодно исправлены их ошибки, см.каменты в коде.
 
 2021-07-19 добавлена адаптация для мода Vanilla Expanded Factions Insectoids и его русификатора, заодно исправлены их ошибки, см.каменты в коде. По желанию, доступны косметические исправления (подключена зависимость от мода Harmony):
 - убрана дублирующая категория сыров;
@@ -153,12 +155,14 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-jul-22 sarg.alphaanimals mod adaptation work started, tag "AlphaAnimals_".
-sarg.geneticrim mod adaptation added.
+2021-jul-27 sarg.alphaanimals and PiaRex.AlphaAnimalsTranslationRus mods' adaptation work added. Also corrected their errors, see code comments.
+
+2021-jul-22 sarg.geneticrim mod adaptation added.
 OskarPotocki.VanillaFactionsExpanded.Core and RU.VanillaFactionsExpanded.Core mods' adaptation added. Also corrected their errors, see code comments.
-UncleShvya.12plus mod v.0.6.9beta compiled.
-To avoid a croud of small mods, the files were marked with searchable tags in their names (alphabetically):
+UncleShvya.12plus mod v.0.7.0beta compiled.
+To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowTool_";
+"AlphaAnimals_";
 "AndroidTiers_";
 "BeesNhoney_";
 "ConcreteWalls_";
