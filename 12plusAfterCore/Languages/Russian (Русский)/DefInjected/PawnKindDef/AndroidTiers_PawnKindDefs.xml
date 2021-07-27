@@ -19,9 +19,9 @@
 	<M7MechPawn.labelFemalePlural>женщины-андроиды М7</M7MechPawn.labelFemalePlural>
 
 	<!-- Оригинал: МикроСкайтер -->
-	<MicroScyther.label>дрон «Шершень»</MicroScyther.label>
+	<MicroScyther.label>дрон «Стилет»</MicroScyther.label>
 	<!-- Оригинал: МикроСкайтеры -->
-	<MicroScyther.labelPlural>дроны модели «Шершень»</MicroScyther.labelPlural>
+	<MicroScyther.labelPlural>дроны модели «Стилет»</MicroScyther.labelPlural>
 
 	<!-- Оригинал: Мутант -->
 	<AbominationAtlas.label>мутант</AbominationAtlas.label>
