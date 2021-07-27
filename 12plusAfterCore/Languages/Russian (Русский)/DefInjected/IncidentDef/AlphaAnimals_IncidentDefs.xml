@@ -7,6 +7,6 @@
 	Оригинал: ...просто убить. Хотя... -->
 	<AA_MimeWandererJoin.letterText>{PAWN_title} по имени {PAWN_nameDef} присоединяется к вашему поселению.\n\n{PAWN_pronoun} говорит, что будет с радостью оказывать вам посильную помощь и, кажется, не собирается никуда уходить. Если вы не желаете видеть {PAWN_possessive} в своём поселении, вы можете {PAWN_possessive} изгнать, продать в рабство или просто избавиться. Хотя другие поселенцы вряд ли будут этим довольны.</AA_MimeWandererJoin.letterText>
 	<!-- Оригинал: грибковые оболочки -->
-	<AA_IncidentFungalHusk.label>грибные зомби</AA_IncidentFungalHusk.label>
+	<AA_IncidentFungalHusk.label>грибные големы</AA_IncidentFungalHusk.label>
 
 </LanguageData>
