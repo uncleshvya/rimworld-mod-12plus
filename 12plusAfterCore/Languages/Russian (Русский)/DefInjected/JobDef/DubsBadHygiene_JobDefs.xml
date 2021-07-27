@@ -5,8 +5,8 @@
 
 	Оригинал: наблюдает за циклом отжима -->
 	<WatchWashingMachine.reportString>смотрит, как стирается бельё</WatchWashingMachine.reportString>
-	<!-- Оригинал: пьет дождевую... -->
-	<DBHDrinkFromGround.reportString>пьёт дождевую воду</DBHDrinkFromGround.reportString>
+	<!-- Оригинал: пьет дождевую воду -->
+	<DBHDrinkFromGround.reportString>пьёт из водоёма</DBHDrinkFromGround.reportString>
 	<!-- Оригинал: пьет воду... -->
 	<DBHDrinkFromBasin.reportString>пьёт воду из TargetA</DBHDrinkFromBasin.reportString>
 	<!-- Оригинал: поит TargetA -->
