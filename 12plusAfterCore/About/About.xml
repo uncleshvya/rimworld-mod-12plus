@@ -211,6 +211,8 @@ Ideas to realize in next version:
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>RU.VanillaFactionsExpanded.Core</li>
 		<li>Am.Rus.VEFCore</li>
+		<li>sarg.alphaanimals</li>
+		<li>PiaRex.AlphaAnimalsTranslationRus</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
