@@ -2,7 +2,7 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-07-27 добавлена адаптация для мода Alpha Animals и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
+2021-08-01 добавлена адаптация для мода Alpha Animals и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 Скомпилирована версия 12+мода 0.7.0beta.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowTool_";
@@ -155,7 +155,7 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-jul-27 sarg.alphaanimals and PiaRex.AlphaAnimalsTranslationRus mods' adaptation work added. Also corrected their errors, see code comments.
+2021-aug-01 sarg.alphaanimals and PiaRex.AlphaAnimalsTranslationRus mods' adaptation work added. Also corrected their errors, see code comments.
 
 2021-jul-22 sarg.geneticrim mod adaptation added.
 OskarPotocki.VanillaFactionsExpanded.Core and RU.VanillaFactionsExpanded.Core mods' adaptation added. Also corrected their errors, see code comments.
