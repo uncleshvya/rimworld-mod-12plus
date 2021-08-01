@@ -2,9 +2,8 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-08-01 добавлена адаптация для мода GeneticRim Alpha Animals Patch и русификатора от gigaveter, заодно исправлены ошибки, см.каменты в коде.
-Добавлена адаптация для мода Alpha Animals и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
-Скомпилирована версия 12+мода 0.7.0beta.
+2021-08-02 добавлена адаптация для мода GeneticRim Alpha Animals Patch и русификатора от gigaveter, заодно исправлены их ошибки, см.каменты в коде.
+Скомпилирована версия 12+мода 0.7.1beta.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowTool_";
 "AlphaAnimals_";
@@ -39,6 +38,8 @@ For English, scroll down.
 "VGPcore_";
 "VGPmedicine_";
 "VGPtools_".
+
+2021-08-01 добавлена адаптация для мода Alpha Animals и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 
 2021-07-22 добавлена адаптация для мода Genetic Rim, заодно исправлены его ошибки, см.каменты в коде.
 Добавлена адаптация для мода Vanilla Expanded Framework и его русификаторов, заодно исправлены их ошибки, см.каменты в коде.
@@ -157,9 +158,8 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-aug-01 sarg.geneticrimalphaanimals mod adaptation added. Also corrected russian translator gigaveter's errors, see code comments.
-sarg.alphaanimals and PiaRex.AlphaAnimalsTranslationRus mods' adaptation added. Also corrected their errors, see code comments.
-UncleShvya.12plus mod v.0.7.0beta compiled.
+2021-aug-02 sarg.geneticrimalphaanimals mod adaptation added. Used russian translation by gigaveter. Also corrected their errors, see code comments.
+UncleShvya.12plus mod v.0.7.1beta compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowTool_";
 "AlphaAnimals_";
@@ -194,6 +194,8 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "VGPcore_";
 "VGPmedicine_";
 "VGPtools_".
+
+2021-aug-01 sarg.alphaanimals and PiaRex.AlphaAnimalsTranslationRus mods' adaptation added. Also corrected their errors, see code comments.
 
 2021-jul-22 sarg.geneticrim mod adaptation added.
 OskarPotocki.VanillaFactionsExpanded.Core and RU.VanillaFactionsExpanded.Core mods' adaptation added. Also corrected their errors, see code comments.
