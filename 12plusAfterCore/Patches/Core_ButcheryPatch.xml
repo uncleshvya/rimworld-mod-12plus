@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
+<!-- Исправление согласно концепции «12+» -->
+
 <Patch>
-
-	<!-- Исправление согласно концепции «12+» -->
-
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/RecipeDef[defName="ButcherCorpseFlesh"]/fixedIngredientFilter/disallowedCategories</xpath>
+		<xpath>Defs/RecipeDef[defName = "ButcherCorpseFlesh"]/fixedIngredientFilter/disallowedCategories</xpath>
 		<value>
 			<li>CorpsesHumanlike</li>
 		</value>
 	</Operation>
-
 </Patch>
