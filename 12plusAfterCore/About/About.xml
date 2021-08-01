@@ -213,6 +213,7 @@ Ideas to realize in next version:
 		<li>Am.Rus.VEFCore</li>
 		<li>sarg.alphaanimals</li>
 		<li>PiaRex.AlphaAnimalsTranslationRus</li>
+		<li>sarg.geneticrimalphaanimals</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
