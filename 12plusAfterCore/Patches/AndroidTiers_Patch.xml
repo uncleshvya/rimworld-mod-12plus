@@ -8,11 +8,10 @@
 
 			Убираем разделку бывших людей -->
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/RecipeDef[defName = "ButcherCorpseFlesh"]/fixedIngredientFilter</xpath>
+				<!-- Внимание! При добавлении нового параметра важен алфавитный порядок файлов патчей! disallowedThingDefs создан в первом файле, а здесь можно использовать только ссылку -->
+				<xpath>Defs/RecipeDef[defName = "ButcherCorpseFlesh"]/fixedIngredientFilter/disallowedThingDefs</xpath>
 				<value>
-					<disallowedThingDefs>
-						<li>Corpse_Abomination</li>
-					</disallowedThingDefs>
+					<li>Corpse_Abomination</li>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -45,7 +44,7 @@
 					<li> <defName>Pyromaniac</defName> </li>
 				</value>
 			</li>
-			<!-- У Т5 по умолчанию не был отключена черта Pyromaniac -->
+			<!-- У Т5 по умолчанию не была отключена черта Pyromaniac -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Android5Tier"]/alienRace/generalSettings/disallowedTraits</xpath>
 				<value>
@@ -97,7 +96,7 @@
 					<BoneAmount MayRequire="sihv.rombones">0</BoneAmount>
 				</value>
 			</li>
-			<!-- Аналогично для М7, дрона и 5и механических питомцев -->
+			<!-- Аналогично для М7, дрона и 5-и механических питомцев -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[
 				@Name = "AnimalAndroidThingBase" or
@@ -125,7 +124,7 @@
 				]/race/useMeatFrom/text()</xpath>
 				<value>Mech_Centipede</value>
 			</li>
-			<!-- Аналогично дрона и 4-х механических питомцев -->
+			<!-- Аналогично для дрона и 4-х механических питомцев -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[
 				defName = "MicroScyther" or
@@ -163,7 +162,7 @@
 					<useLeatherFrom>Mech_Centipede</useLeatherFrom>
 				</value>
 			</li>
-			<!-- Аналогично для 5 механических животных.
+			<!-- Аналогично для 5-и механических питомцев.
 			Кроме того, на данном этапе развития мода АТ, все робо-животные - металлические машины, поэтому не могут быть целью хищников -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[
@@ -200,10 +199,11 @@
 				</value>
 			</li>
 
-			<!-- Убираем съедобность мёртвого дрона. Почему-то из этого файла она не отключается, вероятно из-за алфавитного порядка файлов патчей. Решено методом переноса нужной строки в файл "ManEatingPatch.xml".
+			<!-- Убираем съедобность мёртвого мутанта и дрона. Почему-то из этого файла она не отключается, вероятно из-за алфавитного порядка файлов патчей. Решено методом переноса нужных строк в файл "ManEatingPatch.xml".
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[@Name = "BasePawn"]/race/willNeverEat</xpath>
 				<value>
+					<li>Corpse_Abomination</li>
 					<li>Corpse_MicroScyther</li>
 				</value>
 			</li>
