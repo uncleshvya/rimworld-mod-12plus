@@ -116,7 +116,7 @@ Copyright (c) Oskar Potocki
 					<foodType>Processed</foodType>
 				</value>
 			</li>
-			<!-- Убираем золотое желе из ингредиентов по умолчанию, по аналогии с зелёным желе.
+			<!-- Убираем золотое желе из ингредиентов по умолчанию, по аналогии с зелёным.
 			При отладке обращать внимание на подобную ссылку в OrassansLite_Patch.xml, возможен конфликт патчей -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/RecipeDef[@Name = "CookMealBase"]/defaultIngredientFilter/disallowedThingDefs</xpath>
@@ -126,14 +126,26 @@ Copyright (c) Oskar Potocki
 			</li>
 			<!-- У ванильных инсектоидов тоже должен быть хитин -->
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[
-				defName = "Megascarab" or
-				defName = "Spelopede" or
-				defName = "Megaspider"
-				]</xpath>
+				<xpath>Defs/ThingDef[defName = "Megascarab"]</xpath>
+				<value>
+					<butcherProducts>
+						<VFEI_Chitin>5</VFEI_Chitin>
+					</butcherProducts>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Spelopede"]</xpath>
 				<value>
 					<butcherProducts>
 						<VFEI_Chitin>7</VFEI_Chitin>
+					</butcherProducts>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Megaspider"]</xpath>
+				<value>
+					<butcherProducts>
+						<VFEI_Chitin>10</VFEI_Chitin>
 					</butcherProducts>
 				</value>
 			</li>
