@@ -98,13 +98,13 @@
 							<categories>
 								<li>Corpses</li>
 							</categories>
-							<disallowedThingDefs>
-								<li>Corpse_Human</li>
-								<!-- Трупы других рас следует добавлять сюда своими патчами, например как в файле OrassansLite_Patch.xml, причём обязательными, а не по желанию -->
-							</disallowedThingDefs>
 							<specialFiltersToDisallow>
 								<li>AllowRotten</li>
 							</specialFiltersToDisallow>
+							<disallowedThingDefs>
+								<!-- Трупы других рас следует добавлять сюда своими патчами, например как в файле OrassansLite_Patch.xml, причём обязательными, а не по желанию -->
+								<li>Corpse_Human</li>
+							</disallowedThingDefs>
 							<!-- Эти строки почему-то убирают видимость списка, хотя кнопки "разрешить всё" и "запретить всё" по прежнему управляют невидимыми галочками -->
 							<disallowedCategories>
 								<li>CorpsesMechanoid</li>
