@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation MayRequire="sarg.alphaanimals" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<!-- Исправление согласно концепции «12+».
+
+			Весь функционал следует синхронизировать с соответствующими описаниями
+			Алкоголь -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "AA_RottingMoundItem"]/ingestible/outcomeDoers</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "AA_DecayDrake"]/comps/li[2]</xpath>
+			</li>
+
+			<!-- Грибной голем и мим -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[
+				defName = "AA_FungalHusk" or
+				defName = "AA_Mime"
+				]/statBases/LeatherAmount</xpath>
+				<value>
+					<LeatherAmount>0</LeatherAmount>
+					<MeatAmount>0</MeatAmount>
+					<BoneAmount MayRequire="sihv.rombones">0</BoneAmount>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[
+				defName = "AA_FungalHusk" or
+				defName = "AA_Mime"
+				]/race/leatherDef</xpath>
+			</li>
+			<!-- Тела сделаны похожими на земляного голема -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/FleshTypeDef[defName = "AA_HumanMeat"]</xpath>
+				<value>
+					<FleshTypeDef>
+						<defName>AA_HumanMeat</defName>
+						<damageEffecter>Damage_HitFlesh</damageEffecter>
+						<corpseCategory>CorpsesAnimal</corpseCategory>
+						<wounds>
+							<li>
+								<texture>Things/Pawn/Wounds/WoundMechA</texture>
+							</li>
+							<li>
+								<texture>Things/Pawn/Wounds/WoundMechB</texture>
+							</li>
+							<li>
+								<texture>Things/Pawn/Wounds/WoundMechC</texture>
+							</li>
+						</wounds>
+					</FleshTypeDef>
+				</value>
+			</li>
+			<!-- Внимание! При добавлении нового параметра важен алфавитный порядок файлов патчей! В следущих за этим файлах не надо создавать disallowedThingDefs, только ссылаться на него. -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName = "ButcherCorpseFlesh"]/fixedIngredientFilter</xpath>
+				<value>
+					<disallowedThingDefs>
+						<li>Corpse_AA_FungalHusk</li>
+						<li>Corpse_AA_Mime</li>
+					</disallowedThingDefs>
+				</value>
+			</li>
+			<!-- Убираем съедобность трупов. Почему-то из этого файла она не отключается, вероятно из-за алфавитного порядка файлов патчей. Решено методом переноса нужных строк в файл "ManEatingPatch.xml".
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name = "BasePawn"]/race/willNeverEat</xpath>
+				<value>
+					<race>
+						<willNeverEat>
+							<li>Corpse_AA_FungalHusk</li>
+							<li>Corpse_AA_Mime</li>
+						</willNeverEat>
+					</race>
+				</value>
+			</li>
+			-->
+
+			<!-- Спиральный слизень, убираем трупоедство.
+			Надо сообщить разработчикам, что механика слизня конфликтует с модом Android Tiers, пусть добавят исключение как для механоидов -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "AA_Helixien"]/comps/li[1]</xpath>
+			</li>
+
+			<!-- Морозный клещ, убираем могилокопательство -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "AA_Frostmite"]/comps</xpath>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>
