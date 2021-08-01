@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
 <Patch>
 
 	<!-- Исправление согласно концепции «12+» -->
@@ -12,11 +11,13 @@
 				<willNeverEat>
 					<li>Meat_Human</li>
 					<li>Corpse_Human</li>
+					<!-- Заодно убираем съедобность ключевых трупов из других модов, почему-то отдельным патчем она не отключается, вероятно из-за алфавитного порядка файлов патчей -->
 					<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_Orassan</li>
 					<li MayRequire="dianawinters.OrassansLite">Corpse_Alien_OrassanHumanHybrid</li>
 					<li MayRequire="Atlas.AndroidTiers">Corpse_Abomination</li>
-					<!-- Заодно убираем съедобность сломанного дрона, почему-то отдельным патчем она не отключается, вероятно из-за алфавитного порядка файлов патчей -->
 					<li MayRequire="Atlas.AndroidTiers">Corpse_MicroScyther</li>
+					<li MayRequire="sarg.alphaanimals">Corpse_AA_FungalHusk</li>
+					<li MayRequire="sarg.alphaanimals">Corpse_AA_Mime</li>
 
 				</willNeverEat>
 			</race>
