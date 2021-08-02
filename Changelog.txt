@@ -2,7 +2,8 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-08-02 добавлена адаптация для мода GeneticRim Alpha Animals Patch и русификатора от gigaveter, заодно исправлены их ошибки, см.каменты в коде.
+2021-08-02 начата работа над адаптацией мода Vanilla Traits Expanded и его русификатора. Тег "VEtraits_".
+Добавлена адаптация для мода GeneticRim Alpha Animals Patch и русификатора от gigaveter, заодно исправлены их ошибки, см.каменты в коде.
 Скомпилирована версия 12+мода 0.7.1beta.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowTool_";
@@ -158,7 +159,8 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-aug-02 sarg.geneticrimalphaanimals mod adaptation added. Used russian translation by gigaveter. Also corrected their errors, see code comments.
+2021-aug-02 VanillaExpanded.VanillaTraitsExpanded and RU.VanillaExpanded.VanillaTraitsExpanded mods' adaptation work started. Tag "VEtraits_".
+sarg.geneticrimalphaanimals mod adaptation added. Used russian translation by gigaveter. Also corrected their errors, see code comments.
 UncleShvya.12plus mod v.0.7.1beta compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowTool_";
