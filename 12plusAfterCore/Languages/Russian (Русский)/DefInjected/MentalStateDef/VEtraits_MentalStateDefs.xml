@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Все описания следует синхронизировать с папкой ThingDef.
+	Оригинал: клептомания -->
+	<VTE_Kleptomaniac.label>мизантропия</VTE_Kleptomaniac.label>
+	<!-- Оригинал: ...состояние: клептомания -->
+	<VTE_Kleptomaniac.baseInspectLine>Душевное состояние: мизантропия</VTE_Kleptomaniac.baseInspectLine>
+	<!-- Оригинал: ...пытаться обокрасть гостей. -->
+	<VTE_Kleptomaniac.beginLetter>{0} будет пытаться любым способом прогнать гостей.</VTE_Kleptomaniac.beginLetter>
+	<!-- Оригинал: клептомания -->
+	<VTE_Kleptomaniac.beginLetterLabel>мизантропия</VTE_Kleptomaniac.beginLetterLabel>
+	<!-- Оригинал: ...не будет пытаться обокрасть гостей. -->
+	<VTE_Kleptomaniac.recoveryMessage>{0} больше не пытается прогнать гостей.</VTE_Kleptomaniac.recoveryMessage>
+
+</LanguageData>
