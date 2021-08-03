@@ -76,8 +76,8 @@
 					</disallowedThingDefs>
 				</value>
 			</li>
-			<!-- Адаптация к моду AndroidTiers -->
-			<li Class="PatchOperationAdd">
+			<!-- Адаптация к моду Android Tiers -->
+			<li MayRequire="Atlas.AndroidTiers" Class="PatchOperationAdd">
 				<xpath>Defs/RecipeDef[defName = "ATPP_SmashAndroid"]/fixedIngredientFilter/disallowedThingDefs</xpath>
 				<value>
 					<li>Corpse_Alien_Orassan</li>
