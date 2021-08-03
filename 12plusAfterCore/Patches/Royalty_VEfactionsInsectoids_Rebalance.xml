@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<!-- CC BY-SA 4.0
+<!-- CC BY-NC-SA 4.0
 Copyright (c) Oskar Potocki
-Копия лицензии - в файле VEfactionsInsectoids_License_CC_BY_SA_4_0.txt -->
+Копия лицензии - в файле VEfactionsInsectoids_License_CC_BY_NC_SA_4_0.txt -->
 
 <Patch>
 	<Operation MayRequire="brrainz.harmony" Class="PatchOperationSequence">
