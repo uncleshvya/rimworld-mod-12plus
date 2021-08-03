@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<!-- CC BY-SA 4.0
-Copyright (c) Oskar Potocki
-Копия лицензии - в файле VEstews_License_CC_BY_SA_4_0.txt
-
-CC BY-SA 4.0
+<!-- CC BY-NC-ND 4.0
 Copyright (c) Sarg Bjornson
-Копия лицензии - в файле VEcooking_License_CC_BY_SA_4_0.txt -->
+Копия лицензии - в файле VEcooking_License_CC_BY_NC_ND_4_0.txt.
+
+CC BY-NC-ND 4.0
+Copyright (c) Oskar Potocki
+Копия лицензии - в файле VEstews_License_CC_BY_NC_ND_4_0.txt -->
 
 <Patch>
 	<Operation MayRequire="VanillaExpanded.VCookE" Class="PatchOperationSequence">
