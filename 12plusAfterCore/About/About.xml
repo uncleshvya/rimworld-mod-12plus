@@ -214,6 +214,8 @@ Ideas to realize in next version:
 		<li>sarg.alphaanimals</li>
 		<li>PiaRex.AlphaAnimalsTranslationRus</li>
 		<li>sarg.geneticrimalphaanimals</li>
+		<li>vanillaexpanded.vanillatraitsexpanded</li>
+		<li>ru.vanillaexpanded.vanillatraitsexpanded</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
