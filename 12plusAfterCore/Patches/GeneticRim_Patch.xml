@@ -68,8 +68,8 @@
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/HediffDef[defName = "GR_MuffaloHybridGenes"]/stages/li[1]/statOffsets/LeatherAmount</xpath>
 			</li>
-			<!-- Адаптация к моду AndroidTiers -->
-			<li Class="PatchOperationAdd">
+			<!-- Адаптация к моду Android Tiers -->
+			<li MayRequire="Atlas.AndroidTiers" Class="PatchOperationAdd">
 				<xpath>Defs/RecipeDef[defName = "ATPP_SmashAndroid"]/fixedIngredientFilter/disallowedCategories</xpath>
 				<value>
 					<li>GR_Corpses</li>
