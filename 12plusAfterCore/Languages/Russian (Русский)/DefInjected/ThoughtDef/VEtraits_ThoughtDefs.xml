@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: смерть питомца -->
+	<VTE_BondedAnimalDiedHater.stages.0.label>потеря питомца</VTE_BondedAnimalDiedHater.stages.0.label>
+	<!-- Заодно сглажены ссылки на животных - для модов на неявно живых существ.
+	Оригинал: Такое надоедливое и глупое животное. Наконец-то оно умерло! -->
+	<VTE_BondedAnimalDiedHater.stages.0.description>Это существо было таким тупым и надоедливым. Как хорошо, что оно больше не будет мне досаждать!</VTE_BondedAnimalDiedHater.stages.0.description>
+	<!-- Оригинал: {PAWN_gender ? убил : убила} моего... -->
+	<VTE_KilledMyBondedAnimalHater.stages.0.label>{PAWN_gender ? избил : избила} моего питомца</VTE_KilledMyBondedAnimalHater.stages.0.label>
+	<!-- Оригинал: {PAWN_gender ? убил : убила} животное поселения -->
+	<VTE_KilledColonyAnimalHater.stages.0.label>{PAWN_gender ? избил : избила} нашего питомца</VTE_KilledColonyAnimalHater.stages.0.label>
+	<!-- Оригиналы: Находясь рядом с этой мерзкой тварью, я ненавижу саму жизнь -->
+	<VTE_BondedAnimalMasterHater.stages.0.description>Рядом с этой мерзкой тварью у меня сразу портится настроение.</VTE_BondedAnimalMasterHater.stages.0.description>
+	<VTE_BondedAnimalMasterHater.stages.1.description>Рядом с этой мерзкой тварью у меня сразу портится настроение.</VTE_BondedAnimalMasterHater.stages.1.description>
+
+	<!-- Описания следует синхронизировать с папкой TraitDefs.
+	Оригинал: враги живы -->
+	<VTE_MyRivalsAreAlive.stages.0.label>не все меня любят</VTE_MyRivalsAreAlive.stages.0.label>
+	<!-- Оригинал: Ненавижу их. Почему они продолжают жить? -->
+	<VTE_MyRivalsAreAlive.stages.0.description>В этом поселении не все хотят со мной дружить. Хочу уйти отсюда навсегда.</VTE_MyRivalsAreAlive.stages.0.description>
+	<!-- Оригинал: органы не собраны -->
+	<VTE_HaventHarvestedOrgansForLongTime.stages.0.label>хочу уйти</VTE_HaventHarvestedOrgansForLongTime.stages.0.label>
+	<!-- Оригинал: Становится скучно и я теряю терпение. Мне нужны пациенты. -->
+	<VTE_HaventHarvestedOrgansForLongTime.stages.0.description>Мне не подходит это поселение. Хочу уйти отсюда навсегда.</VTE_HaventHarvestedOrgansForLongTime.stages.0.description>
+	<!-- Оригинал: органы собраны -->
+	<VTE_HarvestedOrgans.stages.0.label>мы можем спасти жизнь</VTE_HarvestedOrgans.stages.0.label>
+	<!-- Оригинал: Операция прошла по плану, моя коллекция расширилась. -->
+	<VTE_HarvestedOrgans.stages.0.description>Теперь у нас больше шансов спасти неизлечимо больного поселенца.</VTE_HarvestedOrgans.stages.0.description>
+
+</LanguageData>
