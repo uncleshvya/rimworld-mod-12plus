@@ -1,9 +1,16 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправлена неточность, сообщите разработчику.
 
-  <!-- EN: [PAWN_nameDef] has a naturally powerful immune system. [PAWN_pronoun] will gain immunity much faster than a normal person would, and can survive illnesses that would kill others. -->
-  <Immunity.degreeDatas.superimmune.description>{PAWN_nameDef} от природы обладает стойкой иммунной системой. Это позволяет {PAWN_objective} легко справляться с болезнями, которые обычных людей могут запросто свалить с ног. Скорость, с которой у н{PAWN_possessive} вырабатывается иммунитет к различным возбудителям, гораздо выше, чем у остальных.</Immunity.degreeDatas.superimmune.description>
+	Оригинал: без неразрывного пробела -->
+	<DrugDesire.degreeDatas.chemical_interest.description>{PAWN_nameDef} любит выпить и имеет слабость к другим химическим источникам удовольствия. Употребление лёгких наркотиков поднимает {PAWN_objective} настроение, а воздержание — наоборот, повергает в нарастающее уныние и приводит к наркотическим срывам. {PAWN_pronoun} не обращает внимания на запреты лёгких наркотиков и потребляет их больше других.</DrugDesire.degreeDatas.chemical_interest.description>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Заодно сглажена ссылка на людей - для модов на другие расы.
+	И исправлена неточность, сообщите разработчику ванили о размытой ссылке слова "н{PAWN_possessive}". Пока не удалось полностью исправить, но сохранён смысл обоих вариантов прочтения.
+	Оригинал: ...системой. Скорость, с которой у н{PAWN_possessive} вырабатывается иммунитет к различным возбудителям, гораздо выше, чем у остальных. {PAWN_pronoun} справится с болезнью, которая обычного человека может просто убить. -->
+	<Immunity.degreeDatas.superimmune.description>{PAWN_nameDef} от природы обладает стойкой иммунной системой. Это позволяет {PAWN_objective} легко справляться с болезнями, которые обычных поселенцев могут запросто свалить с ног. Скорость, с которой {PAWN_pronoun} вырабатывает иммунитет к различным возбудителям, гораздо выше, чем у остальных индивидуумов.</Immunity.degreeDatas.superimmune.description>
 
 </LanguageData>
