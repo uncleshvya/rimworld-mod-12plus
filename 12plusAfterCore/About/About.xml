@@ -216,6 +216,7 @@ Ideas to realize in next version:
 		<li>sarg.geneticrimalphaanimals</li>
 		<li>vanillaexpanded.vanillatraitsexpanded</li>
 		<li>ru.vanillaexpanded.vanillatraitsexpanded</li>
+		<li>AndrewRaphaelLukasik.AllowDeadAnimals</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
