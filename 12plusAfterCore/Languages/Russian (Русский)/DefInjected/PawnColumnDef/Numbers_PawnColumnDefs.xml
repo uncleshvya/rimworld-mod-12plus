@@ -7,14 +7,15 @@
 	<Numbers_Psyfocus.label>Пси-концентрация</Numbers_Psyfocus.label>
 	<!-- EN: Heat -->
 	<Numbers_Entropy.label>Нейроперегрев</Numbers_Entropy.label>
-	<!-- EN: Psylevel -->
-	<Numbers_PsylinkLevel.label>Уровень пси-связи</Numbers_PsylinkLevel.label>
+	<!-- Ограничение по ширине.
+	EN: Psylevel -->
+	<Numbers_PsylinkLevel.label>Пси-уровень</Numbers_PsylinkLevel.label>
 	<!-- EN: Drop all inventory -->
-	<Numbers_InventoryDropAll.label>Сбросить весь инвентарь</Numbers_InventoryDropAll.label>
+	<Numbers_InventoryDropAll.label>Выкинуть всё из инвентаря</Numbers_InventoryDropAll.label>
 	<!-- EN: Filth rate -->
 	<Numbers_AnimalFilthRate.label>Скорость загрязнения поверхности</Numbers_AnimalFilthRate.label>
 	<!-- EN: Focus -->
-	<Numbers_Meditation.headerTip>Виды медитации</Numbers_Meditation.headerTip>
+	<Numbers_Meditation.label>Виды медитации</Numbers_Meditation.label>
 	<!-- EN: allowed area -->
 	<Numbers_Areas.label>Разрешённая область</Numbers_Areas.label>
 
