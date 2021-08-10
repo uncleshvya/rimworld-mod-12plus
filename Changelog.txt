@@ -2,7 +2,8 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-08-10 добавлена адаптация для мода Vanilla Furniture Expanded Props and Decor и его русификатора.
+2021-08-10 добавлена адаптация для мода Numbers, заодно исправлены его ошибки, см.каменты в коде.
+Добавлена адаптация для мода Vanilla Furniture Expanded Props and Decor и его русификатора.
 Добавлена адаптация для мода Vanilla Plants Expanded и его русификатора.
 Скомпилирована версия 12+мода 0.7.6beta.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
@@ -134,8 +135,6 @@ For English, scroll down.
 
 2021-01-24 апдейт к официальному переводу от 2021-01-07. Над следующим ведутся работы, но кто хочет перевод посвежее, в папке с модом лежит совместимый с концепцией "12+" более новый перевод, скачанный с официального сайта.
 
-2020-10-31 добавлена адаптация для мода Numbers (c) 2018 Mehni. With acknowledgement of the original idea and first implementation of Numbers by koisama as found on https://github.com/koisama/kNumbers.
-
 2020-09-29 исправлено большинство красных ошибок методом подключения мода Humanoid Alien Raсes (c) 2018 Simon Latusek, заодно исправлены его ошибки, см.каменты в коде.
 
 2020-09-24 отключен инцест.
@@ -172,7 +171,8 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-aug-10 VanillaExpanded.VFEPropsandDecor and Farxmai2.VFEPropsandDecorRU mods' adaptation added.
+2021-aug-10 Mehni.Numbers mod adaptation added. Also corrected its errors, see code comments.
+VanillaExpanded.VFEPropsandDecor and Farxmai2.VFEPropsandDecorRU mods' adaptation added.
 VanillaExpanded.VPlantsE and RU.VanillaExpanded.VPlantsE mods' adaptation added.
 UncleShvya.12plus mod v.0.7.6beta compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
@@ -303,8 +303,6 @@ Had to rebalance the most rebarbative developers' mistake - now sentry gun needs
 2021-feb-04 UnlimitedHugs.AllowTool mod adaptation added. Also corrected its errors, see code comments.
 
 2021-jan-24 update to official Russian translation v.2021jan07. We're working at next version. If you want a bit newer version, there is a 12+ compatible zipped translation in the mod folder. 
-
-2020-oct-31 Mehni.Numbers mod adaptation added. (c) 2018 Mehni. With acknowledgement of the original idea and first implementation of Numbers by koisama as found on https://github.com/koisama/kNumbers.
 
 2020-sep-29 fixed almost all red errors via adding erdelf.HumanoidAlienRaces mod dependence (c) 2018 Simon Latusek. Also corrected its errors, see code comments.
 
