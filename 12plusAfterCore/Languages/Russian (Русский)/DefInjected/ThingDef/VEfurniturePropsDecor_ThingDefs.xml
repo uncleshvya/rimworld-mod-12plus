@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Оригиналы: наклейка 'НПЗ' -->
+	<VFEPD_DecalWordRefinery.label>наклейка 'нефтепереработка'</VFEPD_DecalWordRefinery.label>
+	<VFEPD_LargeDecalWordRefinery.label>наклейка 'нефтепереработка'</VFEPD_LargeDecalWordRefinery.label>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригиналы: наклейка 'убить' -->
+	<VFEPD_DecalWordKill.label>наклейка 'уничтожить'</VFEPD_DecalWordKill.label>
+	<VFEPD_LargeDecalWordKill.label>наклейка 'уничтожить'</VFEPD_LargeDecalWordKill.label>
+
+	<!-- Оригинал: трупная желчь -->
+	<VFEPD_FilthCorpseBile.label>непонятная жидкость</VFEPD_FilthCorpseBile.label>
+	<!-- Оригинал: Небольшие брызги трупной желчи. -->
+	<VFEPD_FilthCorpseBile.description>Небольшие брызги какой-то тёмной жидкости.</VFEPD_FilthCorpseBile.description>
+
+	<!-- Оригинал: пивная бочка -->
+	<VFEPD_BrewingBarrel.label>деревянная бочка</VFEPD_BrewingBarrel.label>
+	<!-- Оригинал: Большая пустая бочка для варки. -->
+	<VFEPD_BrewingBarrel.description>Большая пустая бочка.</VFEPD_BrewingBarrel.description>
+	<!-- Оригинал: винный шкаф -->
+	<VFEPD_WineRack.label>бутылочница</VFEPD_WineRack.label>
+	<!-- Оригинал: Цивилизованный стеллаж для хранения вина. -->
+	<VFEPD_WineRack.description>Цивилизованный стеллаж для хранения бутылок.</VFEPD_WineRack.description>
+
+</LanguageData>
