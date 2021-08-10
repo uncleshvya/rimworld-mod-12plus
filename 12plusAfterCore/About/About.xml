@@ -221,6 +221,8 @@ Ideas to realize in next version:
 		<li>RU.VanillaExpanded.VBooksE</li>
 		<li>VanillaExpanded.VPlantsE</li>
 		<li>RU.VanillaExpanded.VPlantsE</li>
+		<li>VanillaExpanded.VFEPropsandDecor</li>
+		<li>Farxmai2.VFEPropsandDecorRU</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
