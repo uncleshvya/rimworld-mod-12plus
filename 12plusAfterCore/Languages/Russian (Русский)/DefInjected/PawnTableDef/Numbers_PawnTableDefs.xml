@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+	<!-- Добавлена недостающая строка русской локализации, сообщите разработчику.
+
+	EN: colonist needs -->
+	<Numbers_ColonistNeedsPreset.label>Таблица нужд</Numbers_ColonistNeedsPreset.label>
+
 	<!-- Исправлена неточность, сообщите разработчику.
 
 	Игра рассчитана на одно поселение
 	Оригинал: Колонисты -->
 	<Numbers_MainTable.label>Поселенцы</Numbers_MainTable.label>
-	<!-- Оригинал: Заключенные -->
+	<!-- Название следует синхронизировать с ванилью.
+	Оригинал: Заключенные -->
 	<Numbers_Prisoners.label>Пленники</Numbers_Prisoners.label>
 	<!-- Оригинал: Животные -->
 	<Numbers_Animals.label>Питомцы</Numbers_Animals.label>
