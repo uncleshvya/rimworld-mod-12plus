@@ -217,6 +217,10 @@ Ideas to realize in next version:
 		<li>vanillaexpanded.vanillatraitsexpanded</li>
 		<li>ru.vanillaexpanded.vanillatraitsexpanded</li>
 		<li>AndrewRaphaelLukasik.AllowDeadAnimals</li>
+		<li>VanillaExpanded.VBooksE</li>
+		<li>RU.VanillaExpanded.VBooksE</li>
+		<li>VanillaExpanded.VPlantsE</li>
+		<li>RU.VanillaExpanded.VPlantsE</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
