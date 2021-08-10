@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Игра рассчитана на одно поселение
+	Оригинал: Колонисты -->
+	<Numbers_MainTable.label>Поселенцы</Numbers_MainTable.label>
+	<!-- Оригинал: Заключенные -->
+	<Numbers_Prisoners.label>Пленники</Numbers_Prisoners.label>
+	<!-- Оригинал: Животные -->
+	<Numbers_Animals.label>Питомцы</Numbers_Animals.label>
+	<!-- Оригинал: Дикие животные -->
+	<Numbers_WildAnimals.label>Фауна</Numbers_WildAnimals.label>
+	<!-- Оригинал: Наборы снаряжения -->
+	<Numbers_CombatPreset.label>Таблица боя</Numbers_CombatPreset.label>
+	<!-- Оригинал: Работа + -->
+	<Numbers_WorkTabPlusPreset.label>Таблица умений</Numbers_WorkTabPlusPreset.label>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: Трупы -->
+	<Numbers_Corpses.label>Тела</Numbers_Corpses.label>
+	<!-- Заодно сглажена ссылка на животных - для модов на неявно живых существ.
+	Оригинал: Трупы животных -->
+	<Numbers_AnimalCorpses.label>Туши</Numbers_AnimalCorpses.label>
+
+</LanguageData>
