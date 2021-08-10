@@ -2,7 +2,8 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-08-10 добавлена адаптация для мода Numbers, заодно исправлены его ошибки, см.каменты в коде.
+2021-08-10 Надо сообщить разработчикам avius.locks и Star.Translation.Locks о неточностях в описаниях. Пока это не сделано, исправления внесены здесь, см.каменты в коде.
+Добавлена адаптация для мода Numbers, заодно исправлены его ошибки, см.каменты в коде.
 Добавлена адаптация для мода Vanilla Furniture Expanded Props and Decor и его русификатора.
 Добавлена адаптация для мода Vanilla Plants Expanded и его русификатора.
 Скомпилирована версия 12+мода 0.7.6beta.
@@ -17,6 +18,7 @@ For English, scroll down.
 "GeneticRim_";
 "GeneticRimAlphaAnimalsPatch_";
 "HumanoidAlienRaces_";
+"Locks_";
 "LWMsDeepStorage_";
 "MiscTraining_";
 "MoreVanillaTurrets_";
@@ -171,7 +173,8 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-aug-10 Mehni.Numbers mod adaptation added. Also corrected its errors, see code comments.
+2021-aug-10 It's better to tell the developers of avius.locks и Star.Translation.Locks about their mistakes. Until it done, the correcting file is placed here, see code comments.
+Mehni.Numbers mod adaptation added. Also corrected its mistakes, see code comments.
 VanillaExpanded.VFEPropsandDecor and Farxmai2.VFEPropsandDecorRU mods' adaptation added.
 VanillaExpanded.VPlantsE and RU.VanillaExpanded.VPlantsE mods' adaptation added.
 UncleShvya.12plus mod v.0.7.6beta compiled.
@@ -186,6 +189,7 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "GeneticRim_";
 "GeneticRimAlphaAnimalsPatch_";
 "HumanoidAlienRaces_";
+"Locks_";
 "LWMsDeepStorage_";
 "MiscTraining_";
 "MoreVanillaTurrets_";
@@ -219,16 +223,16 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 
 2021-aug-08 AndrewRaphaelLukasik.AllowDeadAnimals mod adaptation added.
 
-2021-aug-03 VanillaExpanded.VanillaTraitsExpanded and RU.VanillaExpanded.VanillaTraitsExpanded mods' adaptation added. Also corrected their errors, see code comments.
+2021-aug-03 VanillaExpanded.VanillaTraitsExpanded and RU.VanillaExpanded.VanillaTraitsExpanded mods' adaptation added. Also corrected their mistakes, see code comments.
 
-2021-aug-02 sarg.geneticrimalphaanimals mod adaptation added. Used russian translation by gigaveter. Also corrected their errors, see code comments.
+2021-aug-02 sarg.geneticrimalphaanimals mod adaptation added. Used russian translation by gigaveter. Also corrected their mistakes, see code comments.
 
-2021-aug-01 sarg.alphaanimals and PiaRex.AlphaAnimalsTranslationRus mods' adaptation added. Also corrected their errors, see code comments.
+2021-aug-01 sarg.alphaanimals and PiaRex.AlphaAnimalsTranslationRus mods' adaptation added. Also corrected their mistakes, see code comments.
 
 2021-jul-22 sarg.geneticrim mod adaptation added.
-OskarPotocki.VanillaFactionsExpanded.Core and RU.VanillaFactionsExpanded.Core mods' adaptation added. Also corrected their errors, see code comments.
+OskarPotocki.VanillaFactionsExpanded.Core and RU.VanillaFactionsExpanded.Core mods' adaptation added. Also corrected their mistakes, see code comments.
 
-2021-jul-19 OskarPotocki.VFE.Insectoid and RU.VFE.Insectoid mods' adaptation added. Also corrected their errors, see code comments. Optional cosmetic fixes available (brrainz.harmony mod dependence added):
+2021-jul-19 OskarPotocki.VFE.Insectoid and RU.VFE.Insectoid mods' adaptation added. Also corrected their mistakes, see code comments. Optional cosmetic fixes available (brrainz.harmony mod dependence added):
 - removed double category of cheese;
 - by default, golden jelly disallowed to cook, like green one;
 - igniting plasma weapons now glow in the dark when armed, and go out when dropped and forgotten;
@@ -242,28 +246,28 @@ OskarPotocki.VanillaFactionsExpanded.Core and RU.VanillaFactionsExpanded.Core mo
 
 2021-jul-05 Dubwise.Rimatomics mod adaptation added.
 
-2021-jul-04 Atlas.AndroidTiers and Android.Tiers.RUS mods' adaptation added. Also corrected their errors, see code comments. Optional balance change available:
+2021-jul-04 Atlas.AndroidTiers and Android.Tiers.RUS mods' adaptation added. Also corrected their mistakes, see code comments. Optional balance change available:
 - blue milk is no more animal product;
 - added M7 knife receipe;
 - added android smash receipe;
 - M7 now can't trade or lead peace talks.
 
-2021-apr-25 VanillaExpanded.VFEPower and Inoshishi3.VanillaExpanded.VFEPowerRusPatch mods' adaptation added. Also corrected their errors, see code comments.
+2021-apr-25 VanillaExpanded.VFEPower and Inoshishi3.VanillaExpanded.VFEPowerRusPatch mods' adaptation added. Also corrected their mistakes, see code comments.
 
-2021-apr-20 VanillaExpanded.VFESecurity and Am.Rus.VFESecurity mods' adaptation added. Also corrected their errors, see code comments.
+2021-apr-20 VanillaExpanded.VFESecurity and Am.Rus.VFESecurity mods' adaptation added. Also corrected their mistakes, see code comments.
 Had to rebalance the most rebarbative developers' mistake - now sentry gun needs chemfuel to work, but doesn't need barrel change.
 
-2021-apr-19 OskarPotocki.VanillaFactionsExpanded.SettlersModule and Inoshishi3.VanillaFactionsExpanded.SettlersModuleRusPatch mods' adaptation added. Also corrected their errors, see code comments.
+2021-apr-19 OskarPotocki.VanillaFactionsExpanded.SettlersModule and Inoshishi3.VanillaFactionsExpanded.SettlersModuleRusPatch mods' adaptation added. Also corrected their mistakes, see code comments.
 
-2021-apr-15 OskarPotocki.VanillaFactionsExpanded.MedievalModule and Inoshishi3.VanillaFactionsExpanded.MedievalModuleRusPatch mods' adaptation added. Also corrected their errors, see code comments.
+2021-apr-15 OskarPotocki.VanillaFactionsExpanded.MedievalModule and Inoshishi3.VanillaFactionsExpanded.MedievalModuleRusPatch mods' adaptation added. Also corrected their mistakes, see code comments.
 
-2021-apr-11 VanillaExpanded.VWE mod adaptation added, with add-ons VanillaExpanded.VWEQ, VanillaExpanded.VWEL and translations Am.Rus.VWE (basic), RU.VanillaExpanded.VWE (alternative, less accuracy). Also corrected their errors, see code comments.
+2021-apr-11 VanillaExpanded.VWE mod adaptation added, with add-ons VanillaExpanded.VWEQ, VanillaExpanded.VWEL and translations Am.Rus.VWE (basic), RU.VanillaExpanded.VWE (alternative, less accuracy). Also corrected their mistakes, see code comments.
 
-2021-apr-05 VanillaExpanded.VFEFarming and inoshishi3.vanillaexpanded.vfefarmingruspatch mods' adaptation added. Also corrected their errors, see code comments.
+2021-apr-05 VanillaExpanded.VFEFarming and inoshishi3.vanillaexpanded.vfefarmingruspatch mods' adaptation added. Also corrected their mistakes, see code comments.
 
-2021-apr-04 rimsenal.federation mod adaptation added, with Russian translation from kr33man. Also corrected their errors, see code comments. For further translation, game test needed.
+2021-apr-04 rimsenal.federation mod adaptation added, with Russian translation from kr33man. Also corrected their mistakes, see code comments. For further translation, game test needed.
 
-2021-apr-02 VanillaExpanded.VFEProduction and Inoshishi3.VanillaExpanded.VFEProductionRusPatch mods' adaptation added. Also corrected errors, see code comments.
+2021-apr-02 VanillaExpanded.VFEProduction and Inoshishi3.VanillaExpanded.VFEProductionRusPatch mods' adaptation added. Also corrected mistakes, see code comments.
 
 2021-mar-26 rimfridge.kv.rw mod adaptation added.
 
@@ -274,9 +278,9 @@ Had to rebalance the most rebarbative developers' mistake - now sentry gun needs
 - plasteel smelt receipe moved from biofuel refinery into elecric smelter (looks like more real conditions);
 - added marrow rotting period of 2 days (looks like more real one).
 
-2021-mar-15 nephlite.orbitaltradecolumn and gaster.orbitaltradecolumn mods' adaptation added. Also corrected their errors, see code comments.
+2021-mar-15 nephlite.orbitaltradecolumn and gaster.orbitaltradecolumn mods' adaptation added. Also corrected their mistakes, see code comments.
 
-2021-mar-13 VanillaExpanded.VCookE, VanillaExpanded.VCookEStews and Inoshishi3.VanillaExpanded.VCookERusPatch mods' adaptation added. Also corrected their errors, see code comments. Optional balance change available:
+2021-mar-13 VanillaExpanded.VCookE, VanillaExpanded.VCookEStews and Inoshishi3.VanillaExpanded.VCookERusPatch mods' adaptation added. Also corrected their mistakes, see code comments. Optional balance change available:
 - now soups are boiling 2 hours instead of 48, stews - 8 hours instead of 72. These are to equalize them with baking time;
 - stews now can boil on electric pot too;
 - raw soups and stews are now edible, but have awful taste;
@@ -284,11 +288,11 @@ Had to rebalance the most rebarbative developers' mistake - now sentry gun needs
 - removed double categories of meals;
 - in fact, VEC mod and VES addon were merged.
 
-2021-mar-07 dismarzero.VGP.VGPGardenTools and Unknown.Perevod.dismarzero.VGP.VGPGardenTools mods' adaptation added. Also corrected their errors, see code comments.
+2021-mar-07 dismarzero.VGP.VGPGardenTools and Unknown.Perevod.dismarzero.VGP.VGPGardenTools mods' adaptation added. Also corrected their mistakes, see code comments.
 
-2021-mar-02 DianaWinters.OrassansLite mod adaptation added and russian translation. Fixed cats' backstories error. Suddenly cats' names' error disappeared. Removed superfluous ads about drug use.
+2021-mar-02 DianaWinters.OrassansLite mod adaptation added and russian translation. Fixed cats' backstories red error. Suddenly cats' names' red error disappeared. Removed superfluous ads about drug use.
 
-2021-feb-23 Dubwise.DubsBadHygiene mod adaptation added. Also corrected its errors, see code comments.
+2021-feb-23 Dubwise.DubsBadHygiene mod adaptation added. Also corrected its mistakes, see code comments.
 
 2021-feb-20 Porohkun.ConcreteWalls mod adaptation added.
 
@@ -296,15 +300,15 @@ Had to rebalance the most rebarbative developers' mistake - now sentry gun needs
 
 2021-feb-17 Haplo.Miscellaneous.Training mod adaptation added. Targets enlarged.
 
-2021-feb-16 Haplo.Miscellaneous.BeesNHoney mod adaptation added. Also corrected its errors, see code comments. Removed superfluous ads about alcoholism.
+2021-feb-16 Haplo.Miscellaneous.BeesNHoney mod adaptation added. Also corrected its mistakes, see code comments. Removed superfluous ads about alcoholism.
 
 2021-feb-06 "12+" concept was adapted to international rules.
 
-2021-feb-04 UnlimitedHugs.AllowTool mod adaptation added. Also corrected its errors, see code comments.
+2021-feb-04 UnlimitedHugs.AllowTool mod adaptation added. Also corrected its mistakes, see code comments.
 
 2021-jan-24 update to official Russian translation v.2021jan07. We're working at next version. If you want a bit newer version, there is a 12+ compatible zipped translation in the mod folder. 
 
-2020-sep-29 fixed almost all red errors via adding erdelf.HumanoidAlienRaces mod dependence (c) 2018 Simon Latusek. Also corrected its errors, see code comments.
+2020-sep-29 fixed almost all red errors via adding erdelf.HumanoidAlienRaces mod dependence. Also corrected its mistakes, see code comments.
 
 2020-sep-24 removed incestous ability.
 
