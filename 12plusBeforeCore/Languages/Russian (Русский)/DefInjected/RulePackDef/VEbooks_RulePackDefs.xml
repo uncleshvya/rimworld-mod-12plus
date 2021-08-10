@@ -27,6 +27,7 @@
 	<VBE_BookUtility.rulePack.rulesFiles.2>ShootingSkill->Words/BookWords/VEbooks_ShootingSkill</VBE_BookUtility.rulePack.rulesFiles.2>
 	<!-- Заодно исправлена неточность, сообщите разработчику -->
 	<VBE_BookUtility.rulePack.rulesFiles.9>IntellectualSkill->Words/BookWords/VEbooks_IntellectualSkill</VBE_BookUtility.rulePack.rulesFiles.9>
+	<!-- Заодно исправлена неточность, сообщите разработчику -->
 	<VBE_BookUtility.rulePack.rulesFiles.10>MedicalSkill->Words/BookWords/VEbooks_MedicalSkill</VBE_BookUtility.rulePack.rulesFiles.10>
 	<!-- Заодно исправлена неточность, сообщите разработчику -->
 	<VBE_BookUtility.rulePack.rulesFiles.11>MeleeSkill->Words/BookWords/VEbooks_MeleeSkill</VBE_BookUtility.rulePack.rulesFiles.11>
