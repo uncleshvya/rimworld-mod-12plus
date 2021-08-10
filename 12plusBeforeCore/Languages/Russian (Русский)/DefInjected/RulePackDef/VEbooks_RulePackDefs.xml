@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Исправление переменных "ArtDescription_" в этом файле приводило к ошибкам в генераторах. Вероятно, строки следует переместить в субмод "12plusAfterCore" по аналогии с файлом VEfactionsMedieval_RulePackDefs.xml.
+	Оригиналы: все со словом "увелится" вместо "увеличится" 
+	<ArtDescription_BookShootingDesc.rulePack.rulesStrings.4>r_art_name->[book_general] [ShootingSkill] и [ShootingSkill][maybe_cont], но также углубляется в тему [ShootingSkill]. Тут присутствует [book_context][maybe_writingstyles]. После прочтения этой книги увеличится навык стрельбы.</ArtDescription_BookShootingDesc.rulePack.rulesStrings.4>
+	<ArtDescription_BookAnimalsDesc.rulePack.rulesStrings.4>r_art_name->[book_general] [AnimalsSkill] и [AnimalsSkill][maybe_cont], но также углубляется в тему [AnimalsSkill]. Тут присутствует [book_context][maybe_writingstyles]. После прочтения этой книги увеличится навык животноводства.</ArtDescription_BookAnimalsDesc.rulePack.rulesStrings.4>
+	<ArtDescription_BookArtDesc.rulePack.rulesStrings.4>r_art_name->[book_general] [ArtSkill] и [ArtSkill][maybe_cont], но также углубляется в тему [ArtSkill]. Тут присутствует [book_context][maybe_writingstyles]. После прочтения этой книги увеличится навык искусства.</ArtDescription_BookArtDesc.rulePack.rulesStrings.4>
+	<ArtDescription_BookConstructionDesc.rulePack.rulesStrings.4>r_art_name->[book_general] [ConstructionSkill] и [ConstructionSkill][maybe_cont], но также углубляется в тему [ConstructionSkill]. Тут присутствует [book_context][maybe_writingstyles]. После прочтения этой книги увеличится навык строительства.</ArtDescription_BookConstructionDesc.rulePack.rulesStrings.4>
+	<ArtDescription_BookCookingDesc.rulePack.rulesStrings.4>r_art_name->[book_general] [CookingSkill] и [CookingSkill][maybe_cont], но также углубляется в тему [CookingSkill]. Тут присутствует [book_context][maybe_writingstyles]. После прочтения этой книги увеличится навык кулинарии.</ArtDescription_BookCookingDesc.rulePack.rulesStrings.4>
+	<ArtDescription_BookCraftingDesc.rulePack.rulesStrings.4>r_art_name->[book_general] [CraftingSkill] и [CraftingSkill][maybe_cont], но также углубляется в тему [CraftingSkill]. Тут присутствует [book_context][maybe_writingstyles]. После прочтения этой книги увеличится ремесленный навык.</ArtDescription_BookCraftingDesc.rulePack.rulesStrings.4>
+	<ArtDescription_BookGrowingDesc.rulePack.rulesStrings.4>r_art_name->[book_general] [GrowingSkill] и [GrowingSkill][maybe_cont], но также углубляется в тему [GrowingSkill]. Тут присутствует [book_context][maybe_writingstyles]. После прочтения этой книги увеличится навык растениеводства.</ArtDescription_BookGrowingDesc.rulePack.rulesStrings.4>
+	<ArtDescription_BookIntellectualDesc.rulePack.rulesStrings.4>r_art_name->[book_general] [IntellectualSkill] и [IntellectualSkill][maybe_cont], но также углубляется в тему [IntellectualSkill]. Тут присутствует [book_context][maybe_writingstyles]. После прочтения этой книги увеличится навык умственного труда.</ArtDescription_BookIntellectualDesc.rulePack.rulesStrings.4>
+	<ArtDescription_BookMedicalDesc.rulePack.rulesStrings.4>r_art_name->[book_general] [MedicalSkill] и [MedicalSkill][maybe_cont], но также углубляется в тему [MedicalSkill]. Тут присутствует [book_context][maybe_writingstyles]. После прочтения этой книги увеличится навык медицины.</ArtDescription_BookMedicalDesc.rulePack.rulesStrings.4>
+	<ArtDescription_BookMeleeDesc.rulePack.rulesStrings.4>r_art_name->[book_general] [MeleeSkill] и [MeleeSkill][maybe_cont], но также углубляется в тему [MeleeSkill]. Тут присутствует [book_context][maybe_writingstyles]. После прочтения этой книги увеличится навык ближнего боя.</ArtDescription_BookMeleeDesc.rulePack.rulesStrings.4>
+	<ArtDescription_BookMiningDesc.rulePack.rulesStrings.4>r_art_name->[book_general] [MiningSkill] и [MiningSkill][maybe_cont], но также углубляется в тему [MiningSkill]. Тут присутствует [book_context][maybe_writingstyles]. После прочтения этой книги увеличится навык горного дела.</ArtDescription_BookMiningDesc.rulePack.rulesStrings.4>
+	<ArtDescription_BookSocialDesc.rulePack.rulesStrings.4>r_art_name->[book_general] [SocialSkill] и [SocialSkill][maybe_cont], но также углубляется в тему [SocialSkill]. Тут присутствует [book_context][maybe_writingstyles]. После прочтения этой книги увеличится навык общения.</ArtDescription_BookSocialDesc.rulePack.rulesStrings.4>
+	-->
+
+	<!-- Исправление согласно концепции «12+».
+
+	Пробовал делать в субмоде "12plusAfterCore" - не сработало.
+	Тегом "VEbooks_" помечены изменённые файлы.
+	Оригиналы: все без тегов, пример: ShootingSkill->Words/BookWords/ShootingSkill -->
+	<VBE_BookUtility.rulePack.rulesFiles.2>ShootingSkill->Words/BookWords/VEbooks_ShootingSkill</VBE_BookUtility.rulePack.rulesFiles.2>
+	<VBE_BookUtility.rulePack.rulesFiles.9>IntellectualSkill->Words/BookWords/VEbooks_IntellectualSkill</VBE_BookUtility.rulePack.rulesFiles.9>
+	<VBE_BookUtility.rulePack.rulesFiles.10>MedicalSkill->Words/BookWords/VEbooks_MedicalSkill</VBE_BookUtility.rulePack.rulesFiles.10>
+	<!-- Заодно исправлена неточность, сообщите разработчику -->
+	<VBE_BookUtility.rulePack.rulesFiles.11>MeleeSkill->Words/BookWords/VEbooks_MeleeSkill</VBE_BookUtility.rulePack.rulesFiles.11>
+	<!-- Заодно исправлена неточность, сообщите разработчику.
+	Скорректированы названия миров на основании исследования, см.папку RimWorldUniverse -->
+	<VBE_BookUtility.rulePack.rulesFiles.13>SocialSkill->Words/BookWords/VEbooks_SocialSkill</VBE_BookUtility.rulePack.rulesFiles.13>
+	<!-- Для нижеследующих строк автор мода-перевода дублировал файлы из ванили. Поэтому просто меняем путь файлов.
+	Оригинал: AdjectiveBadass->Words/Badass_Female -->
+	<VBE_BookUtility.rulePack.rulesFiles.17>AdjectiveBadass->Words/Adjectives/Badass_Female</VBE_BookUtility.rulePack.rulesFiles.17>
+	<!-- Оригинал: AdjectiveAngsty->Words/Angsty_Female -->
+	<VBE_BookUtility.rulePack.rulesFiles.18>AdjectiveAngsty->Words/Adjectives/Angsty_Female</VBE_BookUtility.rulePack.rulesFiles.18>
+	<!-- Оригинал: AdjectiveBadassP->Words/Badass_Plural -->
+	<VBE_BookUtility.rulePack.rulesFiles.20>AdjectiveBadassP->Words/Adjectives/Badass_Plural</VBE_BookUtility.rulePack.rulesFiles.20>
+	<!-- Оригинал: AdjectiveAngstyP->Words/Angsty_Plural -->
+	<VBE_BookUtility.rulePack.rulesFiles.21>AdjectiveAngstyP->Words/Adjectives/Angsty_Plural</VBE_BookUtility.rulePack.rulesFiles.21>
+	<!-- Оригинал: of_badasspeople->Words/People_Enemies_Genitive_Plural -->
+	<VBE_BookUtility.rulePack.rulesFiles.24>of_badasspeople->Words/Nouns/People_Enemies_Genitive_Plural</VBE_BookUtility.rulePack.rulesFiles.24>
+
+</LanguageData>
