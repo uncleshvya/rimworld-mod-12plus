@@ -227,6 +227,8 @@ Ideas to realize in next version:
 		<li>leafzxg.MasterOfCooking</li>
 		<li>avius.locks</li>
 		<li>Star.Translation.Locks</li>
+		<li>fluffy.pharmacist</li>
+		<li>fluffy.thebirdsandthebees</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
