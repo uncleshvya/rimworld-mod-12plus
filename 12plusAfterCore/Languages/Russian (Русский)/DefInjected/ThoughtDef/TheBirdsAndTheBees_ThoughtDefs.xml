@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлена русская локализация, сообщите разработчику.
+
+	EN: hot flash -->
+	<HotFlash.stages.hot_flash.label>прилив</HotFlash.stages.hot_flash.label>
+	<!-- Добавлено пояснение.
+	EN: I'm feeling very hot right now. -->
+	<HotFlash.stages.hot_flash.description>Я вся горю! И вообще, ужасно себя чувствую!</HotFlash.stages.hot_flash.description>
+	<!-- EN: neutered -->
+	<Neutered.stages.neutered.label>{PAWN_gender ? Стерилизован : Стерилизована}</Neutered.stages.neutered.label>
+	<!-- EN: I feel incomplete. -->
+	<Neutered.stages.neutered.description>Я чувствую себя {PAWN_gender ? неполноценным : неполноценной}</Neutered.stages.neutered.description>
+	<!-- EN: castrated -->
+	<Neutered.stages.castrated.label>{PAWN_gender ? Кастрирован : Кастрирована}</Neutered.stages.castrated.label>
+	<!-- EN: criminal neutered -->
+	<SomeoneNeutered.stages.criminal_neutered.label>преступник стерилизован</SomeoneNeutered.stages.criminal_neutered.label>
+	<!-- EN: HE probably had it coming -->
+	<SomeoneNeutered.stages.criminal_neutered.description>Вероятно, попав в эту тюрьму, можно ожидать такого исхода</SomeoneNeutered.stages.criminal_neutered.description>
+	<!-- EN: prisoner neutered -->
+	<SomeoneNeutered.stages.prisoner_neutered.label>пленник стерилизован</SomeoneNeutered.stages.prisoner_neutered.label>
+	<!-- EN: A prisoner was neutered. Should we be treating our prisoners this way? -->
+	<SomeoneNeutered.stages.prisoner_neutered.description>Пленника подвергли принудительной стерилизации. Это ужасно, разве кто-то заслуживает такого?</SomeoneNeutered.stages.prisoner_neutered.description>
+	<!-- EN: guest neutered -->
+	<SomeoneNeutered.stages.guest_neutered.label>гость стерилизован</SomeoneNeutered.stages.guest_neutered.label>
+	<!-- EN: A guest was neutered. What did HE do to deserve this? -->
+	<SomeoneNeutered.stages.guest_neutered.description>Гостя в поселении подвергли принудительной стерилизации. Это ужасно, разве кто-то из наших друзей заслуживает такого?</SomeoneNeutered.stages.guest_neutered.description>
+	<!-- EN: colonist neutered -->
+	<SomeoneNeutered.stages.colonist_neutered.label>поселенец стерилизован</SomeoneNeutered.stages.colonist_neutered.label>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Одновременно могут присутствовать мысли о стерилизации себя и кого-то. Подправляем описание.
+	EN: A colonist was neutered. I'm afraid I'm next... -->
+	<SomeoneNeutered.stages.colonist_neutered.description>Наше поселение — жуткое место. Здесь могут запросто стерилизовать даже своих</SomeoneNeutered.stages.colonist_neutered.description>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Не отключается простым патчем. Скорректированы описания.
+	EN: had terribly lovin' -->
+	<LovinPerformance.stages.had_terribly_lovin.label>ссора</LovinPerformance.stages.had_terribly_lovin.label>
+	<!-- EN: That was... terrible. -->
+	<LovinPerformance.stages.had_terribly_lovin.description>Ох и любит же {PAWN_gender ? моя : мой} иногда повыносить мозги! Аж бесит!</LovinPerformance.stages.had_terribly_lovin.description>
+	<!-- EN: had bad lovin' -->
+	<LovinPerformance.stages.had_bad_lovin.label>непонимание</LovinPerformance.stages.had_bad_lovin.label>
+	<!-- EN: Hmmph. I may have to look for a better lover. -->
+	<LovinPerformance.stages.had_bad_lovin.description>Да уж... Моя половина явно {PAWN_gender ? была : был} не в духе. Я кажется знаю, из-за чего {PAWN_gender ? она : он} так переживает...</LovinPerformance.stages.had_bad_lovin.description>
+	<!-- EN: had lovin -->
+	<LovinPerformance.stages.had_lovin.label>близость</LovinPerformance.stages.had_lovin.label>
+	<!-- EN: That was... ok, I guess?. -->
+	<LovinPerformance.stages.had_lovin.description>Как хорошо, когда моя половинка со мной!</LovinPerformance.stages.had_lovin.description>
+	<!-- EN: had amazing lovin' -->
+	<LovinPerformance.stages.had_amazing_lovin.label>гармония</LovinPerformance.stages.had_amazing_lovin.label>
+	<!-- EN: Wow. That was amazing! -->
+	<LovinPerformance.stages.had_amazing_lovin.description>У нас с моей половинкой полная гармония в отношениях!</LovinPerformance.stages.had_amazing_lovin.description>
+	<!-- Заодно исправлена неточность, сообщите разработчику.
+	Эта мысль возникает не только после пытки, но и когда репродуктивные органы потеряны в бою или из-за травмы.
+	EN: I was castrated without my consent. Is there no justice in this world? -->
+	<Neutered.stages.castrated.description>Теперь теперь мне почти невозможно заиметь детей. Что может быть ужаснее?</Neutered.stages.castrated.description>
+
+</LanguageData>
