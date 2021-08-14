@@ -13,6 +13,8 @@
 	<FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.label>пришлось послать {0}</FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.label>
 	<!-- Оригинал: За мной попытался ухаживать кто-то, кто мне... -->
 	<FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.description>Ко мне приставал кто-то, кто мне не нравится.</FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.description>
+	<!-- Оригинал: Нет ничего лучше, чем покувыркаться под одеялом в своё удовольствие. -->
+	<GotSomeLovin.stages.got_some_lovin.description>У нас с моей половинкой полная гармония в отношениях.</GotSomeLovin.stages.got_some_lovin.description>
 	<!-- Оригинал: {1_gender ? убил : убила} любимого... -->
 	<KilledMyBondedAnimal.stages.killed_my_bonded_animal.label>{1_gender ? обидел : обидела} любимого питомца</KilledMyBondedAnimal.stages.killed_my_bonded_animal.label>
 	<!-- Оригинал: {1_gender ? убил : убила} моего... -->
