@@ -18,7 +18,7 @@ Copyright (c) Haplo
 				<value>ResourceBase</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="Mead"]</xpath>
+				<xpath>Defs/ThingDef[defName = "Mead"]</xpath>
 				<value>
 					<thingCategories>
 						<li>Foods</li>
