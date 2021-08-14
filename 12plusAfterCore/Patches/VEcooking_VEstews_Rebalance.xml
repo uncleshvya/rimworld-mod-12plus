@@ -25,7 +25,7 @@ Copyright (c) Oskar Potocki
 				]/singleTimeIfNotQualityIncreasing/text()</xpath>
 				<value>0.08</value>
 			</li>
-			<!-- Сырые рагу и супы сделаны съедобным, но невкусными -->
+			<!-- Сырые рагу и супы сделаны съедобными, но невкусными -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[
 				defName = "VCE_UncookedStewSimple" or
