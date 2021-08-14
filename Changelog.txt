@@ -2,11 +2,8 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-08-10 Надо сообщить разработчикам avius.locks и Star.Translation.Locks о неточностях в описаниях. Пока это не сделано, исправления внесены здесь, см.каменты в коде.
-Добавлена адаптация для мода Numbers, заодно исправлены его ошибки, см.каменты в коде.
-Добавлена адаптация для мода Vanilla Furniture Expanded Props and Decor и его русификатора.
-Добавлена адаптация для мода Vanilla Plants Expanded и его русификатора.
-Скомпилирована версия 12+мода 0.7.6beta.
+2021-08-14 добавлена адаптация для мода The Birds And The Bees, заодно исправлены его ошибки, см.каменты в коде. Добавлена русская локализация.
+Скомпилирована версия 12+мода 0.7.7beta.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -28,6 +25,7 @@ For English, scroll down.
 "RimOfMadnessBones_";
 "RimsenalFederationFaction_";
 "Royalty_";
+"TheBirdsAndTheBees_";
 "UtilityColumns_";
 "VEbooks_";
 "VEcooking_";
@@ -47,6 +45,11 @@ For English, scroll down.
 "VGPcore_";
 "VGPmedicine_";
 "VGPtools_".
+
+2021-08-10 Надо сообщить разработчикам avius.locks и Star.Translation.Locks о неточностях в описаниях. Пока это не сделано, исправления внесены здесь, см.каменты в коде.
+Добавлена адаптация для мода Numbers, заодно исправлены его ошибки, см.каменты в коде.
+Добавлена адаптация для мода Vanilla Furniture Expanded Props and Decor и его русификатора.
+Добавлена адаптация для мода Vanilla Plants Expanded и его русификатора.
 
 2021-08-09 добавлена адаптация для мода Vanilla Books Expanded и его русификатора.
 
@@ -173,11 +176,8 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-aug-10 It's better to tell the developers of avius.locks и Star.Translation.Locks about their mistakes. Until it done, the correcting file is placed here, see code comments.
-Mehni.Numbers mod adaptation added. Also corrected its mistakes, see code comments.
-VanillaExpanded.VFEPropsandDecor and Farxmai2.VFEPropsandDecorRU mods' adaptation added.
-VanillaExpanded.VPlantsE and RU.VanillaExpanded.VPlantsE mods' adaptation added.
-UncleShvya.12plus mod v.0.7.6beta compiled.
+2021-aug-14 fluffy.thebirdsandthebees mod adaptation added. Also corrected its mistakes, see code comments. Russian translation added.
+UncleShvya.12plus mod v.0.7.7beta compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -199,6 +199,7 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "RimOfMadnessBones_";
 "RimsenalFederationFaction_";
 "Royalty_";
+"TheBirdsAndTheBees_";
 "UtilityColumns_";
 "VEbooks_";
 "VEcooking_";
@@ -218,6 +219,11 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "VGPcore_";
 "VGPmedicine_";
 "VGPtools_".
+
+2021-aug-10 It's better to tell the developers of avius.locks и Star.Translation.Locks about their mistakes. Until it done, the correcting file is placed here, see code comments.
+Mehni.Numbers mod adaptation added. Also corrected its mistakes, see code comments.
+VanillaExpanded.VFEPropsandDecor and Farxmai2.VFEPropsandDecorRU mods' adaptation added.
+VanillaExpanded.VPlantsE and RU.VanillaExpanded.VPlantsE mods' adaptation added.
 
 2021-aug-09 VanillaExpanded.VBooksE and RU.VanillaExpanded.VBooksE mods' adaptation added.
 
@@ -271,9 +277,9 @@ Had to rebalance the most rebarbative developers' mistake - now sentry gun needs
 
 2021-mar-26 rimfridge.kv.rw mod adaptation added.
 
-2021-mar-18 sihv.rombones mod adaptation added and also Russian translation. Optional balance change available:
+2021-mar-18 sihv.rombones mod adaptation added and its Russian translation. Optional balance change available:
 - removed bones from mechanoids (obsolete code);
-- corrected graphics' bug of bone as club (try to arm someone with a bone);
+- corrected graphics' bug if bone is armed as club (try to arm someone with a bone);
 - removed ancient bone structures (they could be deconstructed and processed into edible marrow);
 - plasteel smelt receipe moved from biofuel refinery into elecric smelter (looks like more real conditions);
 - added marrow rotting period of 2 days (looks like more real one).
