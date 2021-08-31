@@ -93,7 +93,6 @@
 	<Research.gerund>Исследовать</Research.gerund>
 	<Shear.gerund>Стричь</Shear.gerund>
 	<Slaughter.gerund>Забить</Slaughter.gerund>
-	<Strip.gerund>Раздеть</Strip.gerund>
 	<TakeBeerOutOfFermentingBarrel.gerund>Слить пиво из</TakeBeerOutOfFermentingBarrel.gerund>
 	<TakePrisonerToBed.gerund>Отнести в кровать</TakePrisonerToBed.gerund>
 	<TakeToBedToOperate.gerund>Отнести на операцию</TakeToBedToOperate.gerund>
@@ -115,5 +114,8 @@
 	<!-- Проверено, этот параметр не влияет на раздевание людей без сознания и на раздевание пленников.
 	Оригинал: раздевать трупы -->
 	<Strip.label>раздевать тела</Strip.label>
+	<!-- Конфликт со <Strip> из файла FloatMenu.xml иногда приводил к багу, когда для снятия одежды с трупа отображались 2 одинаковых задания "Раздеть" в контекстном меню.
+	Оригинал: Раздеть -->
+	<Strip.gerund>Раздеть тело</Strip.gerund>
 
 </LanguageData>
