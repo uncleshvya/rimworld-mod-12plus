@@ -2,8 +2,8 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-08-14 добавлена адаптация для мода The Birds And The Bees, заодно исправлены его ошибки, см.каменты в коде. Добавлена русская локализация.
-Скомпилирована версия 12+мода 0.7.8beta.
+2021-08-31 добавлена адаптация для мода Mechalit Core, заодно исправлены его ошибки, см.каменты в коде.
+Скомпилирована версия 12+мода 0.7.9beta.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -17,6 +17,7 @@ For English, scroll down.
 "HumanoidAlienRaces_";
 "Locks_";
 "LWMsDeepStorage_";
+"MechalitCore_";
 "MiscTraining_";
 "MoreVanillaTurrets_";
 "Numbers_";
@@ -46,6 +47,8 @@ For English, scroll down.
 "VGPcore_";
 "VGPmedicine_";
 "VGPtools_".
+
+2021-08-14 добавлена адаптация для мода The Birds And The Bees, заодно исправлены его ошибки, см.каменты в коде. Добавлена русская локализация.
 
 2021-08-11 добавлена адаптация для мода Pharmacist, заодно исправлены его ошибки, см.каменты в коде. 
 
@@ -179,8 +182,8 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-aug-14 fluffy.thebirdsandthebees mod adaptation added. Also corrected its mistakes, see code comments. Russian translation added.
-UncleShvya.12plus mod v.0.7.8beta compiled.
+2021-aug-31 Mlie.MechalitCore mod adaptation added. Also corrected its mistakes, see code comments
+UncleShvya.12plus mod v.0.7.9beta compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -194,6 +197,7 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "HumanoidAlienRaces_";
 "Locks_";
 "LWMsDeepStorage_";
+"MechalitCore_";
 "MiscTraining_";
 "MoreVanillaTurrets_";
 "Numbers_";
@@ -223,6 +227,8 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "VGPcore_";
 "VGPmedicine_";
 "VGPtools_".
+
+2021-aug-14 fluffy.thebirdsandthebees mod adaptation added. Also corrected its mistakes, see code comments. Russian translation added.
 
 2021-aug-11 fluffy.pharmacist mod adaptation added. Also corrected its mistakes, see code comments.
 
