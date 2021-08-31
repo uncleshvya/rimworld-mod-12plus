@@ -2,8 +2,9 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-08-31 добавлена адаптация для мода Mechalit Core, заодно исправлены его ошибки, см.каменты в коде.
-Скомпилирована версия 12+мода 0.7.9beta.
+2021-08-31 Добавлена адаптация для мода Mechalit Equipment + Faction, заодно исправлены его ошибки, см.каменты в коде.
+Добавлена адаптация для мода Mechalit Core, заодно исправлены его ошибки, см.каменты в коде.
+Скомпилирована версия 12+мода 0.8.0beta.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -18,6 +19,7 @@ For English, scroll down.
 "Locks_";
 "LWMsDeepStorage_";
 "MechalitCore_";
+"MechalitEquipmentFaction_";
 "MiscTraining_";
 "MoreVanillaTurrets_";
 "Numbers_";
@@ -182,8 +184,9 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-aug-31 Mlie.MechalitCore mod adaptation added. Also corrected its mistakes, see code comments
-UncleShvya.12plus mod v.0.7.9beta compiled.
+2021-aug-31 Mlie.MechalitEquipmentFaction mod adaptation added. Also corrected its mistakes, see code comments.
+Mlie.MechalitCore mod adaptation added. Also corrected its mistakes, see code comments.
+UncleShvya.12plus mod v.0.8.0beta compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -198,6 +201,7 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "Locks_";
 "LWMsDeepStorage_";
 "MechalitCore_";
+"MechalitEquipmentFaction_";
 "MiscTraining_";
 "MoreVanillaTurrets_";
 "Numbers_";
