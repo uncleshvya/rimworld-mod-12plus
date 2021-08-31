@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлена русская локализация, сообщите разработчику.
+
+	В оригинальном коде не прописана переменная для перевода -->
+	<Locks_Flick.reportString>перенастраивает замо́к на TargetA</Locks_Flick.reportString>
+
+</LanguageData>
