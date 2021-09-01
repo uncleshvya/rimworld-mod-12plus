@@ -11,10 +11,10 @@
 	<DetColumnMod.comps.CompRefuelable.outOfFuelMessage>Не защищает — нужно перезарядить</DetColumnMod.comps.CompRefuelable.outOfFuelMessage>
 
 	<!-- Исправлен конфликт модов, сообщите разработчикам:
-	nephlite.orbitaltradecolumn
-	gaster.orbitaltradecolumn
-	dismarzero.VGP.VGPGardenTools
-	Unknown.Perevod.dismarzero.VGP.VGPGardenTools
+	nephlite.orbitaltradecolumn;
+	gaster.orbitaltradecolumn;
+	dismarzero.VGP.VGPGardenTools;
+	Unknown.Perevod.dismarzero.VGP.VGPGardenTools.
 
 	Оригинал: Колонна с солнечной лампой -->
 	<SunColumnMod.label>колонна с большой солнечной лампой и подогревом</SunColumnMod.label>
