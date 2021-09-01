@@ -4,11 +4,14 @@
 		<success>Always</success>
 		<operations>
 
-			<!-- Исправлен конфликт модов, сообщите разработчикам nephlite.orbitaltradecolumn и dismarzero.VGP.VGPGardenTools -->
+			<!-- Исправлен конфликт модов, сообщите разработчикам:
+			nephlite.orbitaltradecolumn;
+			dismarzero.VGP.VGPGardenTools;
+			jamaicancastle.rf.fertilefields это кстати ребаланс -->
 
-			<li MayRequire="dismarzero.VGP.VGPGardenTools" Class="PatchOperationReplace">
+			<li MayRequire="jamaicancastle.RF.fertilefields" Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "SunColumnMod"]/designationCategory/text()</xpath>
-				<value>GardenTools</value>
+				<value>RFF_Farm</value>
 			</li>
 
 			<!-- Исправлен баланс, сообщите разработчику.
