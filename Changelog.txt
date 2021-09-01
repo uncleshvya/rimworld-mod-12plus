@@ -120,7 +120,7 @@ For English, scroll down.
 2021-03-26 добавлена адаптация для мода RimFridge.
 
 2021-03-18 добавлена адаптация для мода Rim of Madness Bones и русская локализация. По желанию, доступно исправление кривоватого баланса:
-- убраны кости из механоидов (код устарел);
+- убраны кости из механоидов (код мода устарел);
 - исправлена графика дубины-вентилятора (попробуйте взять кость как оружие);
 - убраны древние костяные строения (из которых можно было добыть съедобный костный мозг);
 - рецепт выплавления пластали перемещён из перегонного аппарата в электроплавильню (там температура более подходящая);
@@ -308,8 +308,8 @@ Had to rebalance the most rebarbative developers' mistake - now sentry gun needs
 2021-mar-26 rimfridge.kv.rw mod adaptation added.
 
 2021-mar-18 sihv.rombones mod adaptation added and its Russian translation. Optional balance change available:
-- removed bones from mechanoids (obsolete code);
-- corrected graphics' bug if bone is armed as club (try to arm someone with a bone);
+- removed bones from mechanoids (obsolete mod code);
+- corrected graphics' bug if bone is armed as club;
 - removed ancient bone structures (they could be deconstructed and processed into edible marrow);
 - plasteel smelt receipe moved from biofuel refinery into elecric smelter (looks like more real conditions);
 - added marrow rotting period of 2 days (looks like more real one).
