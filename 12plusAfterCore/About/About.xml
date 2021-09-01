@@ -229,6 +229,10 @@ Ideas to realize in next version:
 		<li>Star.Translation.Locks</li>
 		<li>fluffy.pharmacist</li>
 		<li>fluffy.thebirdsandthebees</li>
+		<li>Mlie.MechalitCore</li>
+		<li>Mlie.MechalitEquipmentFaction</li>
+		<li>jamaicancastle.RF.fertilefields</li>
+		<li>VSK.Fertile.Fields.Rus</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
