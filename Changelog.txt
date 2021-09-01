@@ -2,10 +2,11 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-09-01 добавлена адаптация для мода Utility Columns и его русификатора, заодно исправлены их ошибки, см.каменты в коде. По желанию, доступно исправление кривоватого баланса:
+2021-09-01 добавлена адаптация для мода Fertile Fields и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
+Добавлена адаптация для мода Utility Columns и его русификатора, заодно исправлены их ошибки, см.каменты в коде. По желанию, доступно исправление кривоватого баланса:
 - теперь защитная колонна заряжается химтопливом по аналогии со взрывчаткой из ванили;
 - колонна с большой солнечной лампой и подогревом перемещена во вкладку "Ферма" мода Fertile Fields.
-Скомпилирована версия 12+мода 0.8.0beta.
+Скомпилирована версия 12+мода 0.8.1beta.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -14,6 +15,7 @@ For English, scroll down.
 "BeesNhoney_";
 "ConcreteWalls_";
 "DubsBadHygiene_";
+"FertileFields_";
 "GeneticRim_";
 "GeneticRimAlphaAnimalsPatch_";
 "HumanoidAlienRaces_";
@@ -51,7 +53,7 @@ For English, scroll down.
 "VGPmedicine_";
 "VGPtools_".
 
-2021-08-31 Добавлена адаптация для мода Mechalit Equipment + Faction, заодно исправлены его ошибки, см.каменты в коде.
+2021-08-31 добавлена адаптация для мода Mechalit Equipment + Faction, заодно исправлены его ошибки, см.каменты в коде.
 Добавлена адаптация для мода Mechalit Core, заодно исправлены его ошибки, см.каменты в коде.
 
 2021-08-14 добавлена адаптация для мода The Birds And The Bees, заодно исправлены его ошибки, см.каменты в коде. Добавлена русская локализация.
@@ -186,10 +188,11 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-sep-01 nephlite.orbitaltradecolumn and gaster.orbitaltradecolumn mods' adaptation added. Also corrected their mistakes, see code comments. Optional balance change available:
+2021-sep-01 jamaicancastle.RF.fertilefields and VSK.Fertile.Fields.Rus mods' adaptation added. Also corrected their mistakes, see code comments.
+nephlite.orbitaltradecolumn and gaster.orbitaltradecolumn mods' adaptation added. Also corrected their mistakes, see code comments. Optional balance change available:
 - cluster column is now reloading with chemfuel, like vanilla explosives;
 - sun column moved to Farming tab added by jamaicancastle.RF.fertilefields mod;
-UncleShvya.12plus mod v.0.8.0beta compiled.
+UncleShvya.12plus mod v.0.8.1beta compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -198,6 +201,7 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "BeesNhoney_";
 "ConcreteWalls_";
 "DubsBadHygiene_";
+"FertileFields_";
 "GeneticRim_";
 "GeneticRimAlphaAnimalsPatch_";
 "HumanoidAlienRaces_";
