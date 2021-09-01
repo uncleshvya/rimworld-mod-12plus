@@ -233,6 +233,7 @@ Ideas to realize in next version:
 		<li>Mlie.MechalitEquipmentFaction</li>
 		<li>jamaicancastle.RF.fertilefields</li>
 		<li>VSK.Fertile.Fields.Rus</li>
+		<li>notfood.MendAndRecycle</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
