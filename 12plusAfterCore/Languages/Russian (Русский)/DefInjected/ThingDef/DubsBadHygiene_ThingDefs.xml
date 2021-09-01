@@ -47,30 +47,31 @@
 
 	<!-- Оригинал: Удобрение -->
 	<BiosolidFertilizer.label>перегной</BiosolidFertilizer.label>
-	<!-- Оригинал: Удобрение из твердых биологических отходов, используемое для... -->
-	<BiosolidFertilizer.description>Перегной, полученный из биологических отходов, используется для увеличения плодородности почвы на срок до года.</BiosolidFertilizer.description>
+	<!-- Время можно изменить в настройках мода.
+	Перегной можно делать не из одних только фекалий.
+	Оригинал: Удобрение из твердых биологических отходов, используемое для...на срок до года. -->
+	<BiosolidFertilizer.description>Сыпучее вещество, полученное в основном из биологических отходов. Используется для увеличения плодородности почвы на длительный срок.</BiosolidFertilizer.description>
 	<!-- Оригинал: Удобрение (проект) -->
-	<BiosolidFertilizer_Blueprint.label>Удобрение (проект)</BiosolidFertilizer_Blueprint.label>
+	<BiosolidFertilizer_Blueprint.label>перегной (проект)</BiosolidFertilizer_Blueprint.label>
 	<!-- Оригинал: Удобрение (в процессе сборки) -->
-	<BiosolidFertilizer_Frame.label>Удобрение (в процессе сборки)</BiosolidFertilizer_Frame.label>
-	<!-- Оригинал: Удобрение из твердых биологических отходов, используемое для... -->
-	<BiosolidFertilizer_Frame.description>Перегной, полученный из биологических отходов, используется для увеличения плодородности почвы на срок до года.</BiosolidFertilizer_Frame.description>
+	<BiosolidFertilizer_Frame.label>перегной (обрабатывается)</BiosolidFertilizer_Frame.label>
+	<!-- Оригинал: Удобрение из твердых биологических отходов, используемое для...на срок до года. -->
+	<BiosolidFertilizer_Frame.description>Сыпучее вещество, полученное в основном из биологических отходов. Используется для увеличения плодородности почвы на длительный срок.</BiosolidFertilizer_Frame.description>
 
 	<!-- Оригинал: Удобренная почва -->
 	<FertilizedSoil.label>обогащённая почва</FertilizedSoil.label>
-	<!-- Оригинал: Удобренная почва (проект) -->
+	<!-- Оригиналы: Удобренная почва (проект) -->
 	<FertilizedSoil_Blueprint.label>обогащённая почва (проект)</FertilizedSoil_Blueprint.label>
-	<!-- Оригинал: Удобренная почва (проект) -->
-	<FertilizedSoil_Frame.label>обогащённая почва (проект)</FertilizedSoil_Frame.label>
+	<FertilizedSoil_Frame.label>обогащённая почва (обрабатывается)</FertilizedSoil_Frame.label>
 	<!-- Оригинал: Подготавливаемая почва -->
 	<FertilizedSoil_Frame.description>Почва, отмеченная для обогащения перегноем.</FertilizedSoil_Frame.description>
 
-	<!-- Оригинал: Бочка, наполненная фекалиями. Может быть опрокинута, сожжена или переработана в удобрения. -->
-	<FecalSludge.description>Бочка, наполненная фекалиями. Содержимое можно опрокинуть на пол, сжечь в яме или перелить в навозный бак.</FecalSludge.description>
+	<!-- Оригинал: ...фекалиями. Может быть опрокинута, сожжена или переработана в удобрения. -->
+	<FecalSludge.description>Бочка, наполненная фекалиями. Содержимое можно опрокинуть на пол, сжечь в яме или перелить в навозный бак для преобразования в плодородный перегной.</FecalSludge.description>
 	<!-- Оригинал: Удобрение -->
 	<Biosolids.label>перегной</Biosolids.label>
 	<!-- Оригинал: Удобрение, полученное путем переработки фекалий. -->
-	<Biosolids.description>Сыпучий перегной, полученный путем переработки фекалий.</Biosolids.description>
+	<Biosolids.description>Сыпучий перегной, полученный путём переработки фекалий.</Biosolids.description>
 
 	<!-- Исправлена неточность, сообщите разработчику.
 
