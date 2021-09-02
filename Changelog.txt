@@ -2,8 +2,9 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-09-02 добавлена адаптация для мода PsiTech и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
-Скомпилирована версия 12+мода 0.8.3beta.
+2021-09-02 добавлена адаптация для мода Outfitted.
+Добавлена адаптация для мода PsiTech и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
+Скомпилирована версия 12+мода 0.8.4beta.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -25,6 +26,7 @@ For English, scroll down.
 "MoreVanillaTurrets_";
 "Numbers_";
 "OrassansLite_";
+"Outfitted_";
 "Pharmacist_";
 "PsiTech_";
 "RimAtomics_";
@@ -193,8 +195,9 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-sep-02 K.PsiTech and RU.K.PsiTech mods' adaptation added. Also corrected their mistakes, see code comments.
-UncleShvya.12plus mod v.0.8.3beta compiled.
+2021-sep-02 notfood.Outfitted mod adaptation added.
+K.PsiTech and RU.K.PsiTech mods' adaptation added. Also corrected their mistakes, see code comments.
+UncleShvya.12plus mod v.0.8.4beta compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -216,6 +219,7 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "MoreVanillaTurrets_";
 "Numbers_";
 "OrassansLite_";
+"Outfitted_";
 "Pharmacist_";
 "PsiTech_";
 "RimAtomics_";
