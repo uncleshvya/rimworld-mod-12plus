@@ -236,6 +236,7 @@ Ideas to realize in next version:
 		<li>notfood.MendAndRecycle</li>
 		<li>K.PsiTech</li>
 		<li>RU.K.PsiTech</li>
+		<li>notfood.Outfitted</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
