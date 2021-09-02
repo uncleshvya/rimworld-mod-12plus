@@ -2,12 +2,8 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-09-01 добавлена адаптация для мода MendAndRecycle, заодно исправлены его ошибки, см.каменты в коде.
-Добавлена адаптация для мода Fertile Fields и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
-Добавлена адаптация для мода Utility Columns и его русификатора, заодно исправлены их ошибки, см.каменты в коде. По желанию, доступно исправление кривоватого баланса:
-- теперь защитная колонна заряжается химтопливом по аналогии со взрывчаткой из ванили;
-- колонна с большой солнечной лампой и подогревом перемещена во вкладку "Ферма" мода Fertile Fields.
-Скомпилирована версия 12+мода 0.8.2beta.
+2021-09-02 добавлена адаптация для мода PsiTech и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
+Скомпилирована версия 12+мода 0.8.3beta.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -30,6 +26,7 @@ For English, scroll down.
 "Numbers_";
 "OrassansLite_";
 "Pharmacist_";
+"PsiTech_";
 "RimAtomics_";
 "RimOfMadnessBones_";
 "RimsenalFederationFaction_";
@@ -54,6 +51,12 @@ For English, scroll down.
 "VGPcore_";
 "VGPmedicine_";
 "VGPtools_".
+
+2021-09-01 добавлена адаптация для мода MendAndRecycle, заодно исправлены его ошибки, см.каменты в коде.
+Добавлена адаптация для мода Fertile Fields и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
+Добавлена адаптация для мода Utility Columns и его русификатора, заодно исправлены их ошибки, см.каменты в коде. По желанию, доступно исправление кривоватого баланса:
+- теперь защитная колонна заряжается химтопливом по аналогии со взрывчаткой из ванили;
+- колонна с большой солнечной лампой и подогревом перемещена во вкладку "Ферма" мода Fertile Fields.
 
 2021-08-31 добавлена адаптация для мода Mechalit Equipment + Faction, заодно исправлены его ошибки, см.каменты в коде.
 Добавлена адаптация для мода Mechalit Core, заодно исправлены его ошибки, см.каменты в коде.
@@ -190,12 +193,8 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-sep-01 notfood.MendAndRecycle mod adaptation added. Also corrected its mistakes, see code comments.
-jamaicancastle.RF.fertilefields and VSK.Fertile.Fields.Rus mods' adaptation added. Also corrected their mistakes, see code comments.
-nephlite.orbitaltradecolumn and gaster.orbitaltradecolumn mods' adaptation added. Also corrected their mistakes, see code comments. Optional balance change available:
-- cluster column is now reloading with chemfuel, like vanilla explosives;
-- sun column moved to Farming tab added by jamaicancastle.RF.fertilefields mod;
-UncleShvya.12plus mod v.0.8.2beta compiled.
+2021-sep-02 K.PsiTech and RU.K.PsiTech mods' adaptation added. Also corrected their mistakes, see code comments.
+UncleShvya.12plus mod v.0.8.3beta compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -218,6 +217,7 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "Numbers_";
 "OrassansLite_";
 "Pharmacist_";
+"PsiTech_";
 "RimAtomics_";
 "RimOfMadnessBones_";
 "RimsenalFederationFaction_";
@@ -242,6 +242,12 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "VGPcore_";
 "VGPmedicine_";
 "VGPtools_".
+
+2021-sep-01 notfood.MendAndRecycle mod adaptation added. Also corrected its mistakes, see code comments.
+jamaicancastle.RF.fertilefields and VSK.Fertile.Fields.Rus mods' adaptation added. Also corrected their mistakes, see code comments.
+nephlite.orbitaltradecolumn and gaster.orbitaltradecolumn mods' adaptation added. Also corrected their mistakes, see code comments. Optional balance change available:
+- cluster column is now reloading with chemfuel, like vanilla explosives;
+- sun column moved to Farming tab added by jamaicancastle.RF.fertilefields mod;
 
 2021-aug-31 Mlie.MechalitEquipmentFaction mod adaptation added. Also corrected its mistakes, see code comments.
 Mlie.MechalitCore mod adaptation added. Also corrected its mistakes, see code comments.
