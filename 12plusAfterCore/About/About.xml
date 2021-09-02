@@ -234,6 +234,8 @@ Ideas to realize in next version:
 		<li>jamaicancastle.RF.fertilefields</li>
 		<li>VSK.Fertile.Fields.Rus</li>
 		<li>notfood.MendAndRecycle</li>
+		<li>K.PsiTech</li>
+		<li>RU.K.PsiTech</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
