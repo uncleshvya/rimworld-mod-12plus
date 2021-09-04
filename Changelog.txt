@@ -2,10 +2,7 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-09-03 добавлена адаптация для мода Rimsenal Augmented Vanilla Pack и русификатора от Unknown, заодно исправлены их ошибки, см.каменты в коде.
-Добавлена адаптация для мода Rimsenal Feral Faction Pack и перевода от Doc, заодно исправлены их ошибки, см.каменты в коде.
-Добавлена адаптация для мода Rimsenal Security Pack, русификатора от Unknown и перевода от Nubasik, заодно исправлены их ошибки, см.каменты в коде.
-Добавлена адаптация для мода Rimsenal Core Murder Diversified, русификатора от Unknown и перевода от kr33man, заодно исправлены их ошибки, см.каменты в коде.
+2021-09-04 добавлена адаптация для мода Rimsenal Feral Faction Pack и перевода от Doc, заодно исправлены их ошибки, см.каменты в коде.
 Скомпилирована версия 12+мода 0.8.8beta.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowDeadAnimals_";
@@ -59,6 +56,10 @@ For English, scroll down.
 "VGPcore_";
 "VGPmedicine_";
 "VGPtools_".
+
+2021-09-03 добавлена адаптация для мода Rimsenal Augmented Vanilla Pack и русификатора от Unknown, заодно исправлены их ошибки, см.каменты в коде.
+Добавлена адаптация для мода Rimsenal Security Pack, русификатора от Unknown и перевода от Nubasik, заодно исправлены их ошибки, см.каменты в коде.
+Добавлена адаптация для мода Rimsenal Core Murder Diversified, русификатора от Unknown и перевода от kr33man, заодно исправлены их ошибки, см.каменты в коде.
 
 2021-09-02 добавлена адаптация для мода Outfitted.
 Добавлена адаптация для мода PsiTech и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
@@ -204,9 +205,7 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-sep-03 rimsenal.feral mod adaptation added. Also corrected its mistakes, see code comments.
-rimsenal.security and Unknown.Perevod.rimsenal.security mods' adaptation added. Also corrected their mistakes, see code comments.
-rimsenal.core and Unknown.Perevod.rimsenal.core mods' adaptation added. Also corrected their mistakes, see code comments.
+2021-sep-04 rimsenal.feral mod adaptation added. Also corrected its mistakes, see code comments.
 UncleShvya.12plus mod v.0.8.8beta compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowDeadAnimals_";
@@ -260,6 +259,10 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "VGPcore_";
 "VGPmedicine_";
 "VGPtools_".
+
+2021-sep-03 rimsenal.EVP and Unknown.Perevod.rimsenal.EVP mods' adaptation added. Also corrected their mistakes, see code comments.
+rimsenal.security and Unknown.Perevod.rimsenal.security mods' adaptation added. Also corrected their mistakes, see code comments.
+rimsenal.core and Unknown.Perevod.rimsenal.core mods' adaptation added. Also corrected their mistakes, see code comments.
 
 2021-sep-02 notfood.Outfitted mod adaptation added.
 K.PsiTech and RU.K.PsiTech mods' adaptation added. Also corrected their mistakes, see code comments.
