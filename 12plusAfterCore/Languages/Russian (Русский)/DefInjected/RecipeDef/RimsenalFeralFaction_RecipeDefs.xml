@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Названия следует синхронизировать с папкой ThingDef.
+	Оригинал: сделать убиватель -->
+	<Make_Gun_Deathdealer.label>изготовить пистолеты-пулемёты Одичалых</Make_Gun_Deathdealer.label>
+	<!-- Оригинал: Сделать убиватель. -->
+	<Make_Gun_Deathdealer.description>Сделать пару пистолетов-пулемётов с острыми штыками на стволах.</Make_Gun_Deathdealer.description>
+	<!-- Оригинал: Делает убиватель. -->
+	<Make_Gun_Deathdealer.jobString>изготавливает пистолеты-пулемёты Одичалых</Make_Gun_Deathdealer.jobString>
+
+</LanguageData>
