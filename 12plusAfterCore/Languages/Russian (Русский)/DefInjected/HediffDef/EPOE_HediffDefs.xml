@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	EN: An installed painkiller rib. -->
+	<PainkillerRib.description>Вживлённое обезболивающее ребро.</PainkillerRib.description>
+	<!-- EN: a painkiller rib -->
+	<PainkillerRib.labelNoun>обезболивающее ребро</PainkillerRib.labelNoun>
+
+</LanguageData>
