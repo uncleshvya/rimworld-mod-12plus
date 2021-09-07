@@ -2,10 +2,8 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-09-06 анализ необходимости добавения мода Androids в список совместимости. Аналогично насчёт его расширения Androids Expanded.
-
-2021-09-04 добавлена адаптация для мода Rimsenal Feral Faction Pack и перевода от Doc, заодно исправлены их ошибки, см.каменты в коде.
-Скомпилирована версия 12+мода 0.8.8beta.
+2021-09-07 добавлена адаптация для мода Expanded Prosthetics and Organ Engineering, заодно исправлены ошибки перевода, см.каменты в коде.
+Скомпилирована версия 12+мода 0.8.9beta.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -14,6 +12,7 @@ For English, scroll down.
 "BeesNhoney_";
 "ConcreteWalls_";
 "DubsBadHygiene_";
+"EPOE_";
 "FertileFields_";
 "GeneticRim_";
 "GeneticRimAlphaAnimalsPatch_";
@@ -58,6 +57,8 @@ For English, scroll down.
 "VGPcore_";
 "VGPmedicine_";
 "VGPtools_".
+
+2021-09-04 добавлена адаптация для мода Rimsenal Feral Faction Pack и перевода от Doc, заодно исправлены их ошибки, см.каменты в коде.
 
 2021-09-03 добавлена адаптация для мода Rimsenal Augmented Vanilla Pack и русификатора от Unknown, заодно исправлены их ошибки, см.каменты в коде.
 Добавлена адаптация для мода Rimsenal Security Pack, русификатора от Unknown и перевода от Nubasik, заодно исправлены их ошибки, см.каменты в коде.
@@ -207,8 +208,8 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-sep-04 rimsenal.feral mod adaptation added. Also corrected its mistakes, see code comments.
-UncleShvya.12plus mod v.0.8.8beta compiled.
+2021-sep-07 Ykara.EPOE mod adaptation added. Also corrected translation mistakes, see code comments.
+UncleShvya.12plus mod v.0.8.9beta compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -217,6 +218,7 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "BeesNhoney_";
 "ConcreteWalls_";
 "DubsBadHygiene_";
+"EPOE_";
 "FertileFields_";
 "GeneticRim_";
 "GeneticRimAlphaAnimalsPatch_";
@@ -261,6 +263,8 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "VGPcore_";
 "VGPmedicine_";
 "VGPtools_".
+
+2021-sep-04 rimsenal.feral mod adaptation added. Also corrected its mistakes, see code comments.
 
 2021-sep-03 rimsenal.EVP and Unknown.Perevod.rimsenal.EVP mods' adaptation added. Also corrected their mistakes, see code comments.
 rimsenal.security and Unknown.Perevod.rimsenal.security mods' adaptation added. Also corrected their mistakes, see code comments.
