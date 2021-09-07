@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлена недостающая строка русской локализации, сообщите разработчику.
+
+	EN: Drugged rib -->
+	<DruggedRibThought.stages.Drugged_rib.label>стимулирующее ребро</DruggedRibThought.stages.Drugged_rib.label>
+
+</LanguageData>
