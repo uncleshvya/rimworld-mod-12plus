@@ -6,7 +6,7 @@
 
 			<!-- Исправление согласно концепции «12+».
 
-			Весь функционал следует синхронизировать с соответствующими описаниями
+			Весь функционал следует синхронизировать с соответствующими описаниями.
 			Алкоголь -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName = "AA_RottingMoundItem"]/ingestible/outcomeDoers</xpath>
@@ -14,7 +14,6 @@
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName = "AA_DecayDrake"]/comps/li[2]</xpath>
 			</li>
-
 			<!-- Грибной голем и мим -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[
@@ -84,7 +83,6 @@
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName = "AA_Helixien"]/comps/li[1]</xpath>
 			</li>
-
 			<!-- Морозный клещ, убираем могилокопательство -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName = "AA_Frostmite"]/comps</xpath>
