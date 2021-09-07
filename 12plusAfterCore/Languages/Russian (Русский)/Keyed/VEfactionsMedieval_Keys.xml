@@ -17,10 +17,21 @@
 
 	<!-- Исправление согласно концепции «12+».
 
+	Перевод версии RimWorld 1.2.
 	Оригинал: Содержит {0} / {1} вина -->
 	<VanillaFactionsExpanded.ContainsWine>Содержит {0} / {1} виноградного напитка</VanillaFactionsExpanded.ContainsWine>
 	<!-- Игра рассчитана на одно поселение.
 	Оригинал: Ваши колонисты достанут вино из этой бочки, когда оно достигнет... -->
 	<VanillaFactionsExpanded.TargetWineQuality_Description>Ваши поселенцы достанут виноградный напиток из этой бочки, когда он достигнет заданного качества.</VanillaFactionsExpanded.TargetWineQuality_Description>
+
+	<!-- Перевод версии RimWorld 1.3.
+	Оригинал: ...к винной бочке...процесс брожения. -->
+	<VanillaFactionsExpanded.Wine.bringIngredientsDesc>Принести сусло к деревянной бочке, чтобы начать процесс настаивания.</VanillaFactionsExpanded.Wine.bringIngredientsDesc>
+	<!-- Оригинал: ...к винной бочке. -->
+	<VanillaFactionsExpanded.Wine.cancelIngredientsDesc>Отмена доставки сусла к деревянной бочке.</VanillaFactionsExpanded.Wine.cancelIngredientsDesc>
+	<!-- Оригинал: Извлечь вино ({0}) -->
+	<VanillaFactionsExpanded.Wine.removeProductText>Извлечь напиток ({0})</VanillaFactionsExpanded.Wine.removeProductText>
+	<!-- Оригинал: Извлечь вино из бочки. Вино этой бочки будет готово на...качества: ({0}) -->
+	<VanillaFactionsExpanded.Wine.removeProductDesc>Извлечь напиток из бочки. Продукт будет готов на уровне качества: {0}</VanillaFactionsExpanded.Wine.removeProductDesc>
 
 </LanguageData>
