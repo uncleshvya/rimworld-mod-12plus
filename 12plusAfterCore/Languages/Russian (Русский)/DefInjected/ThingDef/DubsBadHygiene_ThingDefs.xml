@@ -208,4 +208,7 @@
 	<!-- Оригинал: Отмывает одежду так хорошо, что никто никогда не догадается, что в ней кто-то умер! -->
 	<WashingMachine_Frame.description>Позволяет отстирать одежду начисто, удаляя даже застарелые пятна крови.</WashingMachine_Frame.description>
 
+	<!-- EN: Releases mechanites that break down dead skin cells and other detritus on the skin and hair releasing it harmlessly into the air -->
+	<HygieneEnhancer.description>Высвобождает механиты, которые отшелушивают старые клетки кожи и удаляют грязь с тела и волос, превращая эти отходы в безопасную пыль.</HygieneEnhancer.description>
+
 </LanguageData>
