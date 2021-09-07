@@ -178,6 +178,7 @@ Ideas to realize in next version:
 		<li>VanillaExpanded.VCookE</li>
 		<li>VanillaExpanded.VCookEStews</li>
 		<li>Inoshishi3.VanillaExpanded.VCookERusPatch</li>
+		<li>Am.Rus.VCookE</li>
 		<li>nephlite.orbitaltradecolumn</li>
 		<li>gaster.orbitaltradecolumn</li>
 		<li>sihv.rombones</li>
@@ -245,9 +246,17 @@ Ideas to realize in next version:
 		<li>rimsenal.EVP</li>
 		<li>Unknown.Perevod.rimsenal.EVP</li>
 		<li>Ykara.EPOE</li>
+		<li>SirKota.InventoryTab</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
 		<li>am.rus.rimfridge</li>
+		<li>VanillaExpanded.VWEG</li>
+		<li>VanillaExpanded.VWEHW</li>
+		<li>VanillaExpanded.VWEC</li>
+		<li>VanillaExpanded.VWEMS</li>
+		<li>VanillaExpanded.VWENL</li>
+		<li>VanillaExpanded.VWEFT</li>
+		<li>VanillaExpanded.VWETB</li>
 	</incompatibleWith>
 </ModMetaData>
