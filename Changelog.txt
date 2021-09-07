@@ -127,7 +127,7 @@ For English, scroll down.
 
 2021-04-15 добавлена адаптация для мода Vanilla Expanded Factions Medieval и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 
-2021-04-11 добавлена адаптация для мода Vanilla Expanded Weapons с дополнениями Laser, Quickdraw и их переводом Am.Rus.VWE. На всякий случай адаптирован перевод RU.VanillaExpanded.VWE.
+2021-04-11 добавлена адаптация для мода Vanilla Expanded Weapons с дополнениями Laser, Quickdraw и их переводом Am.Rus.VWE. На всякий случай адаптирован перевод RU.VanillaExpanded.VWE. Остальные дополнения мода будут адаптироваться по требованию.
 
 2021-04-05 добавлена адаптация для мода Vanilla Expanded Furniture Farming и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 
@@ -333,7 +333,7 @@ Had to rebalance the most rebarbative developers' mistake - now sentry gun needs
 
 2021-apr-15 OskarPotocki.VanillaFactionsExpanded.MedievalModule and Inoshishi3.VanillaFactionsExpanded.MedievalModuleRusPatch mods' adaptation added. Also corrected their mistakes, see code comments.
 
-2021-apr-11 VanillaExpanded.VWE mod adaptation added, with add-ons VanillaExpanded.VWEQ, VanillaExpanded.VWEL and translations Am.Rus.VWE (basic), RU.VanillaExpanded.VWE (alternative, less accuracy). Also corrected their mistakes, see code comments.
+2021-apr-11 VanillaExpanded.VWE mod adaptation added, with add-ons VanillaExpanded.VWEQ, VanillaExpanded.VWEL and translations Am.Rus.VWE (basic), RU.VanillaExpanded.VWE (alternative, less accuracy). Also corrected their mistakes, see code comments. Other addons will be adapted if asked.
 
 2021-apr-05 VanillaExpanded.VFEFarming and inoshishi3.vanillaexpanded.vfefarmingruspatch mods' adaptation added. Also corrected their mistakes, see code comments.
 
