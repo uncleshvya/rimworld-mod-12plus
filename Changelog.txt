@@ -2,8 +2,9 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-09-07 добавлена адаптация для мода Expanded Prosthetics and Organ Engineering, заодно исправлены ошибки перевода, см.каменты в коде.
-Скомпилирована версия 12+мода 0.8.9beta.
+2021-09-07 добавлена адаптация для мода InventoryTab.
+Добавлена адаптация для мода Expanded Prosthetics and Organ Engineering, заодно исправлены ошибки перевода, см.каменты в коде.
+Скомпилирована версия 12+мода 0.9.0pre-release.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -17,6 +18,7 @@ For English, scroll down.
 "GeneticRim_";
 "GeneticRimAlphaAnimalsPatch_";
 "HumanoidAlienRaces_";
+"InventoryTab_";
 "Locks_";
 "LWMsDeepStorage_";
 "MechalitCore_";
@@ -208,8 +210,9 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-sep-07 Ykara.EPOE mod adaptation added. Also corrected translation mistakes, see code comments.
-UncleShvya.12plus mod v.0.8.9beta compiled.
+2021-sep-07 SirKota.InventoryTab mod adaptation added.
+Ykara.EPOE mod adaptation added. Also corrected translation mistakes, see code comments.
+UncleShvya.12plus mod v.0.9.0pre-release compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -223,6 +226,7 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "GeneticRim_";
 "GeneticRimAlphaAnimalsPatch_";
 "HumanoidAlienRaces_";
+"InventoryTab_";
 "Locks_";
 "LWMsDeepStorage_";
 "MechalitCore_";
