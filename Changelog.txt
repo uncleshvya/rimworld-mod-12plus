@@ -2,6 +2,8 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
+2021-09-08 апдейт к официальному переводу версии 1.2. от 2021-03-09.
+
 2021-09-07 добавлена адаптация для мода InventoryTab.
 Добавлена адаптация для мода Expanded Prosthetics and Organ Engineering, заодно исправлены ошибки перевода, см.каменты в коде.
 Скомпилирована версия 12+мода 0.9.0pre-release.
@@ -172,8 +174,6 @@ For English, scroll down.
 
 2021-02-04 добавлена адаптация для мода AllowTool, заодно исправлены его ошибки, см.каменты в коде.
 
-2021-01-24 апдейт к официальному переводу от 2021-01-07. Над следующим ведутся работы, но кто хочет перевод посвежее, в папке с модом лежит совместимый с концепцией "12+" более новый перевод, скачанный с официального сайта.
-
 2020-09-29 исправлено большинство красных ошибок методом подключения мода Humanoid Alien Raсes, заодно исправлены его ошибки, см.каменты в коде.
 
 2020-09-24 отключен инцест.
@@ -209,6 +209,8 @@ For English, scroll down.
 =====
 
 Changelog for Rimworld's 12plus modification.
+
+2021-sep-08 update to official Russian translation for v.1.2. rev.2021mar09.
 
 2021-sep-07 SirKota.InventoryTab mod adaptation added.
 Ykara.EPOE mod adaptation added. Also corrected translation mistakes, see code comments.
@@ -379,8 +381,6 @@ Had to rebalance the most rebarbative developers' mistake - now sentry gun needs
 2021-feb-06 "12+" concept was adapted to international rules.
 
 2021-feb-04 UnlimitedHugs.AllowTool mod adaptation added. Also corrected its mistakes, see code comments.
-
-2021-jan-24 update to official Russian translation v.2021jan07. We're working at next version. If you want a bit newer version, there is a 12+ compatible zipped translation in the mod folder. 
 
 2020-sep-29 fixed almost all red errors via adding erdelf.HumanoidAlienRaces mod dependence. Also corrected its mistakes, see code comments.
 
