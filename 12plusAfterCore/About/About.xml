@@ -171,8 +171,15 @@ Ideas to realize in next version:
 		<li>atsukohi.HumanoidAlienRacesRus</li>
 		<li>dianawinters.OrassansLite</li>
 		<li>UnlimitedHugs.AllowTool</li>
+		<li>Haplo.Miscellaneous.Core</li>
+		<li>UncleShvya.MiscCoreRus</li>
 		<li>Haplo.Miscellaneous.BeesNHoney</li>
+		<li>Haplo.Miscellaneous.Training</li>
+		<li>UncleShvya.MiscTrainingRus</li>
+		<li>Porohkun.ConcreteWalls</li>
+		<li>Am.Rus.ConcreteWalls</li>
 		<li>Dubwise.DubsBadHygiene</li>
+		<li>Am.Rus.DubsBadHygiene</li>
 		<li>dismarzero.VGP.VGPGardenTools</li>
 		<li>Unknown.Perevod.dismarzero.VGP.VGPGardenTools</li>
 		<li>VanillaExpanded.VCookE</li>
@@ -199,6 +206,13 @@ Ideas to realize in next version:
 		<li>Inoshishi3.VanillaFactionsExpanded.MedievalModuleRusPatch</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.SettlersModule</li>
 		<li>Inoshishi3.VanillaFactionsExpanded.SettlersModuleRusPatch</li>
+		<li>VanillaExpanded.VFESecurity</li>
+		<li>Am.Rus.VFESecurity</li>
+		<li>Inoshishi3.VanillaExpanded.VFESecurityRusPatch</li>
+		<li>VanillaExpanded.VFEProduction</li>
+		<li>Inoshishi3.VanillaExpanded.VFEProductionRusPatch</li>
+		<li>VanillaExpanded.VFEFarming</li>
+		<li>Inoshishi3.VanillaExpanded.VFEFarmingRusPatch</li>
 		<li>VanillaExpanded.VFEPower</li>
 		<li>Inoshishi3.VanillaExpanded.VFEPowerRusPatch</li>
 		<li>Atlas.AndroidTiers</li>
@@ -250,6 +264,8 @@ Ideas to realize in next version:
 		<li>Unknown.Perevod.rimsenal.EVP</li>
 		<li>Ykara.EPOE</li>
 		<li>SirKota.InventoryTab</li>
+		<li>Xavior.GliterTech</li>
+		<li>maxzicode.zitools</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
@@ -261,5 +277,6 @@ Ideas to realize in next version:
 		<li>VanillaExpanded.VWENL</li>
 		<li>VanillaExpanded.VWEFT</li>
 		<li>VanillaExpanded.VWETB</li>
+		<li>VanillaExpanded.VAEAccessories</li>
 	</incompatibleWith>
 </ModMetaData>
