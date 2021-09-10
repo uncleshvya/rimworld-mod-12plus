@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	EN: stab -->
+	<PacifierStab.label>тычок</PacifierStab.label>
+	<!-- Заодно исправлена неточность, сообщите разработчику.
+	EN: {0} has been pacified to death. -->
+	<PacifierStab.deathMessage>{0} {0_gender ? пострадал : пострадала} от тычка.</PacifierStab.deathMessage>
+
+</LanguageData>
