@@ -2,8 +2,9 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-09-10 добавлена адаптация для мода GlitterTech и переводов от KappaKan и kr33man.
-Скомпилирована версия 12+мода 0.9.1pre-release.
+2021-09-10 добавлена адаптация для мода ZiTools objects seeker.
+Добавлена адаптация для мода GlitterTech и переводов от KappaKan и kr33man.
+Скомпилирована версия 12+мода 0.9.2pre-release.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -58,7 +59,8 @@ For English, scroll down.
 "VEweapons_";
 "VGPcore_";
 "VGPmedicine_";
-"VGPtools_".
+"VGPtools_";
+"ZiTools".
 
 2021-09-08 апдейт к официальному переводу версии 1.2. от 2021-03-09.
 
@@ -213,8 +215,9 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-sep-10 Xavior.GliterTech mod adaptation added, with Russian translations by KappaKan and kr33man.
-UncleShvya.12plus mod v.0.9.1pre-release compiled.
+2021-sep-10 maxzicode.zitools mod adaptation added.
+Xavior.GliterTech mod adaptation added, with Russian translations by KappaKan and kr33man.
+UncleShvya.12plus mod v.0.9.2pre-release compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -269,7 +272,8 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "VEweapons_";
 "VGPcore_";
 "VGPmedicine_";
-"VGPtools_".
+"VGPtools_";
+"ZiTools".
 
 2021-sep-08 update to official Russian translation for v.1.2. rev.2021mar09.
 
