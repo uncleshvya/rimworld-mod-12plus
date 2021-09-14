@@ -1,9 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправлена неточность, сообщите разработчику.
 
-	Не забываем про дикарей.
+	Оригинал: ...продажи наркотиков -->
+	<DrugSellPriceImprovement.label>улучшение цены продажи препаратов</DrugSellPriceImprovement.label>
+	<!-- Оригинал: ...продаёт наркотики, цены... -->
+	<DrugSellPriceImprovement.description>Когда персонаж продаёт препараты, цены улучшаются на этот процент.</DrugSellPriceImprovement.description>
+	<!-- Не забываем про дикарей.
 	Заодно сглажена необязательная тавтология.
 	Оригинал: ...приручения животных -->
 	<TameAnimalChance.label>шанс приручения существ</TameAnimalChance.label>
