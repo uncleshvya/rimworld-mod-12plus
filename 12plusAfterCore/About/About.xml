@@ -6,9 +6,11 @@
 	<packageId>UncleShvya.12plus.AfterCore</packageId>
 	<url>https://github.com/uncleshvya/rimworld-mod-12plus</url>
 	<supportedVersions>
-		<li>1.2</li>
+		<li>1.3</li>
 	</supportedVersions>
 	<description>For English, scroll down.
+
+В списке должен быть ниже всех поддерживаемых модов.
 
 Что делает мод:
 
@@ -64,9 +66,7 @@ Humanoid Cats — dianawinters.OrassansLite
 - исправить красную ошибку;
 - исправить все тексты, даже те, которые не должны появиться (на всякий случай). Ведётся поиск;
 - исправить предыстории из-за изменившихся правил перевода. Ведутся работы;
-- удалить возможность Affair, интрижки;
-- прикрутить перевод через патч, а не через перезапись файлов. Возможно, написать скрипт, аналогично как у официального переводчика, только отслеживающий несовпадение файлов перевода и наличие файла скрипта;
-- категоризировать файлы по модам;
+- решить проблему авто-обновления перевода. Возможно, написать скрипт, аналогично как у официального переводчика, только отслеживающий несовпадение файлов перевода и наличие файла скрипта;
 - улучшить каменты в коде, в т.ч. по адаптации;
 - адаптировать рассказчика;
 - для rombones сделать механику порчи костей, чтобы костный мозг можно было достать только из свежих;
@@ -76,6 +76,8 @@ Humanoid Cats — dianawinters.OrassansLite
 =====
 
 12plus mod for Rimworld. Sorry for my English, I compiled this description for multilingual families.
+
+Should be below all compatible mods in the list.
 
 What The Mod Does:
 
@@ -130,9 +132,7 @@ Ideas to realize in next version:
 - to fix red error;
 - to correct all texts, even improbable, as a precaution. Testing;
 - to correct backstories according to new translation rules. In process;
-- to eliminate Affair script;
-- to realize "Languages" folder via patching, without manually replacing. Or to modify auto-script from official Russian translator's site. And to add a watchdog script to eliminate an occasional translation mismatch and/or automation;
-- to categorize files by mod names;
+- to solve auto-update problem. Maybe modify auto-script from official Russian translator's site. And to add a watchdog script to eliminate an occasional translation mismatch and/or automation;
 - to make code comments better;
 - to adapt storyteller;
 - rombones: to make the bones' rotting, in order to prohibit the extraction of bone marrow from ancient bones;
@@ -201,7 +201,6 @@ Ideas to realize in next version:
 		<li>VanillaExpanded.VWEL</li>
 		<li>Am.Rus.VWE</li>
 		<li>RU.VanillaExpanded.VWE</li>
-		<li>brrainz.harmony</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.MedievalModule</li>
 		<li>Inoshishi3.VanillaFactionsExpanded.MedievalModuleRusPatch</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.SettlersModule</li>
