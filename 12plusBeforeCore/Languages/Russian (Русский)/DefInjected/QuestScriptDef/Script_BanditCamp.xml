@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+».
 
-  <!-- Оригинал:
+  Оригинал:
     questDescription->[asker_nameFull], [asker_faction_leaderTitle] фракции [asker_faction_name], передаёт нам сообщение.\n\nПо всей видимости, [siteFaction_pawnsPlural] из фракции [siteFaction_name] устроили неподалёку лагерь и грабят их караваны.\n\n[asker_nameDef] просит стереть лагерь с лица земли: ликвидировать всех противников и уничтожить их турели. [asker_label] говорит, что [sitePart0_description]
   -->
   <OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
     <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] фракции [asker_faction_name], передаёт нам сообщение.\n\nПо всей видимости, [siteFaction_pawnsPlural] из фракции [siteFaction_name] устроили неподалёку лагерь и грабят их караваны.\n\n[asker_nameDef] просит стереть лагерь с лица земли: нейтрализовать всех противников и уничтожить их турели. [asker_label] говорит, что [sitePart0_description].</li>
   </OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
 
-  <!-- Всё что ниже - без изменений, но необходимо оставить, иначе грамматика страдает: -->
-
-  <!-- EN:
+  <!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
+  EN:
     <li>questName->The [bandit] [camp]</li>
     <li>questName->[bandit] [camp]</li>
     <li>questName->[asker_nameDef] and the [camp]</li>
@@ -59,6 +58,6 @@
   <!-- EN: [asker_faction_royalFavorLabel] -->
   <OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>
   <!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] for this service. -->
-  <OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>Эти поселенцы приняли участие в успешном завершении задания [resolvedQuestName]. [asker_definite] спрашивает, кому из них за свою службу причитается [royalFavorReward_amount] ед. ^Replace( [asker_faction_royalFavorLabel] | 'милость короны'-'милости короны')^.</OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>
+  <OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>Эти поселенцы приняли участие в успешном завершении задания [resolvedQuestName]. [asker_definite] спрашивает, кому из них за свою службу причитается [royalFavorReward_amount] ед. {replace: [asker_faction_royalFavorLabel]; "милость короны"-"милости короны"}.</OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>
 
 </LanguageData>
