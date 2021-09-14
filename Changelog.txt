@@ -2,12 +2,9 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2021-09-11 закончен апдейт до Римворлда 1.3 с Роялти. Поддержка версии 1.2 заморожена до востребования. Архив с последней подходящей версией 12+мода сохранён в корневой папке этого репозитория.
+2021-09-14 закончен апдейт до Римворлда 1.3 с Роялти. Поддержка версии 1.2 заморожена до востребования. Архив с последней подходящей версией 12+мода сохранён в корневой папке этого репозитория.
 Отключён баф Bloodlust при вырезании органа.
-
-2021-09-10 добавлена адаптация для мода ZiTools objects seeker.
-Добавлена адаптация для мода GlitterTech и переводов от KappaKan и kr33man.
-Скомпилирована версия 12+мода 0.9.3pre-release.
+Скомпилирована версия 12+мода 0.9.4pre-release.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -64,6 +61,9 @@ For English, scroll down.
 "VGPmedicine_";
 "VGPtools_";
 "ZiTools".
+
+2021-09-10 добавлена адаптация для мода ZiTools objects seeker.
+Добавлена адаптация для мода GlitterTech и переводов от KappaKan и kr33man.
 
 2021-09-08 апдейт к официальному переводу версии 1.2. от 2021-03-09.
 
@@ -218,12 +218,9 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2021-sep-11 update to RW v.1.3 with Royalty finished. Support for RimWorld v.1.2 was paused until asked. Zip file with last compatible version is saved in the root of this repository.
+2021-sep-14 update to RW v.1.3 with Royalty finished. Support for RimWorld v.1.2 was paused until asked. Zip file with last compatible version is saved in the root of this repository.
 removed "Bloodlust" buff: after organ harvesting.
-
-2021-sep-10 maxzicode.zitools mod adaptation added.
-Xavior.GliterTech mod adaptation added, with Russian translations by KappaKan and kr33man.
-UncleShvya.12plus mod v.0.9.3pre-release compiled.
+UncleShvya.12plus mod v.0.9.4pre-release compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -280,6 +277,9 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "VGPmedicine_";
 "VGPtools_";
 "ZiTools".
+
+2021-sep-10 maxzicode.zitools mod adaptation added.
+Xavior.GliterTech mod adaptation added, with Russian translations by KappaKan and kr33man.
 
 2021-sep-08 update to official Russian translation for v.1.2. rev.2021mar09.
 
