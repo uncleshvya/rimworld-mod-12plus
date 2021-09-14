@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+  <!-- Исправление согласно концепции «12+».
 
-  <!-- Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core. -->
-
-  <!-- Первые полфайла без изменений, но необходимо оставить, иначе грамматика страдает: -->
-
-  <!-- EN:
+  Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
+  Первые полфайла без изменений, но необходимо оставить, иначе грамматика страдает:
+  EN:
     <li>questDescription->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] is calling from nearby. [asker_possessive] guards were killed in an ambush. [asker_pronoun] escaped, but is now being followed by (*Threat)a manhunting [animalKindDef_label](/Threat).\n\n[asker_nameDef] wants you to keep [asker_objective] safe at [map_definite] for a few hours until [asker_possessive] shuttle can come pick [asker_objective] up.\n\n[asker_pronoun] will bestow [royalFavorReward] [asker_faction_royalFavorLabel] on whoever accepts this quest. This is enough [asker_faction_royalFavorLabel] to receive the royal title of Yeoman, and all benefits that come with it - including the first level of psychic powers.</li>
   -->
   <Intro_Wimp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name] бежит и зовёт на помощь. [asker_pronoun] [asker_got_caught] в засаду, и всю [asker_possessive] охрану перебили. [asker_objective] удалось бежать, но теперь [asker_possessive] преследует (*Threat)[animalKindDef_label](/Threat).\n\n[asker_nameDef] хочет, чтобы вы укрыли [asker_possessive] в [map_definite] на несколько часов, пока не прибудет челнок, чтобы забрать [asker_possessive].\n\n[asker_pronoun] ниспошлёт [royalFavorReward] ед. ^Replace( [asker_faction_royalFavorLabel] | 'милость короны'-'милости короны')^ тому, кто примет это задание. Выполнения этого задания хватит, чтобы получить титул Йомена и все сопутствующие этому регалии, включая начальный уровень пси-способностей.</li>
+    <li>questDescription->[asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name] бежит и зовёт на помощь. [asker_pronoun] [asker_got_caught] в засаду, и всю [asker_possessive] охрану перебили. [asker_objective] удалось бежать, но теперь [asker_possessive] преследует (*Threat)[animalKindDef_label](/Threat).\n\n[asker_nameDef] хочет, чтобы вы укрыли [asker_possessive] в [map_definite] на несколько часов, пока не прибудет челнок, чтобы забрать [asker_possessive].\n\n[asker_pronoun] ниспошлёт [royalFavorReward] ед. {replace: [asker_faction_royalFavorLabel]; "милость короны"-"милости короны"} тому, кто примет это задание. Выполнения этого задания хватит, чтобы получить титул Йомена и все сопутствующие этому регалии, включая начальный уровень пси-способностей.</li>
     <li>asker_got_caught(asker_gender==Male)->попал</li>
     <li>asker_got_caught(asker_gender==Female)->попала</li>
     <li>asker_was_fleeing(asker_gender==Male)->бежал</li>
@@ -52,16 +50,14 @@
   <!-- EN: The shuttle has arrived to collect [asker_nameDef]. -->
   <Intro_Wimp.LetterTextShuttleArrived.slateRef>Челнок прибыл, чтобы забрать [asker_nameDef].</Intro_Wimp.LetterTextShuttleArrived.slateRef>
 
-  <!-- исправление согласно концепции «12+» -->
-
   <!-- Оригинал: Гость погиб: {SUBJECT_definite} -->
   <Intro_Wimp.LetterLabelGuestDied.slateRef>Гость потерян: {SUBJECT_definite}</Intro_Wimp.LetterLabelGuestDied.slateRef>
   <!-- Оригинал: {SUBJECT_definite}, гость, которого вы должны были защищать, погиб. [failLetterEndingCommon] -->
   <Intro_Wimp.LetterTextGuestDied.slateRef>{SUBJECT_definite}, гость, которого вы должны были защищать, потерян. [failLetterEndingCommon]</Intro_Wimp.LetterTextGuestDied.slateRef>
 
-  <!-- Всё что ниже - без изменений, но необходимо оставить, иначе грамматика страдает: -->
+  <!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
+  EN: Unauthorized surgery: {SUBJECT_definite} -->
   <Intro_Wimp.LetterLabelUnauthorizedSurgery.slateRef>Недопустимая операция: {SUBJECT_definite}</Intro_Wimp.LetterLabelUnauthorizedSurgery.slateRef>
   <!-- EN: Unauthorized, violating surgery has been performed on {SUBJECT_definite}, who you were charged to protect. Because of this violation, [asker_pronoun] will now attempt to leave. [failLetterEndingCommon] -->
   <Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>Несогласованное, надругательское хирургическое вмешательство было проведено на {SUBJECT_definite}, госте, которого вы должны были защищать. По причине этого надругательства [asker_pronoun] попытается покинуть ваше поселение. [failLetterEndingCommon]</Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>
