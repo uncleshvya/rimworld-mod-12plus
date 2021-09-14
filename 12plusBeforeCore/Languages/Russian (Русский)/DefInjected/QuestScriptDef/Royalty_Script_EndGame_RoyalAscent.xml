@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+».
 
-  <!-- Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core. -->
+    Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
 
-  <!-- Оригинал:
+    Заодно исправлена неточность, сообщите разработчику.
+    Оригинал:
     ...
-    <li>questDescription->[intro][asker_nameFull], [asker_faction_leaderTitle] фракции [asker_faction_name], может по просьбе нанести традиционный визит во владения любого графа или графини. Пригласите [asker_possessive] к себе на [shuttleDelayTicks_duration], будьте к н[asker_objective] гостеприимны — и все ваши поселенцы смогут отправится на челноке прямиком к имперской флотилии. Там вы сможете присоединиться к императорскому двору или сбежать, чтобы начать новую жизнь среди звёзд.\n\nЧтобы принять титул графа, потребуется выполнить все задания на получение ^Replace( [asker_faction_royalFavorLabel] | 'милость короны'-'милости короны')^ от фракции [asker_faction_name]. На это могут уйти годы.\n\nВам будет необходимо поддерживать настроение знатной особы выше [lodgersMoodThreshold_percent]. Для этого ей нужно будет предоставить все условия, например, роскошную спальню.[threatsInfo]\n\n[asker_faction_leaderTitle] привезёт в собой свою личную охрану, которую передаст под ваше командование. Вы будете должны расквартировать охранников, но [asker_faction_leaderTitle] не будет жаловаться, если кто-то из них будет недоволен или погибнет.\n\nВам нужно разместить посетителей в [map_definite] и не отправлять их куда-либо ещё. Если вы провалите задание или переедете в другое место, в будущем вам предоставится другая возможность принять у себя знатного гостя.</li>
-    <li>intro(sameQuestsCount==0)->Вы нашли способ покинуть эту планету!\n\n</li>
-    <li>intro(sameQuestsCount>=1)->Вам предоставилась ещё одна возможность провести торжественный приём.\n\n</li>
-    <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nНедоброжелатели попытаются воспользоваться случаем и убить [asker_faction_leaderTitle], и будут нападать с большим упорством. Будьте готовы защищаться.</li>
-    <li>threatsInfo-></li>
+    <li>questDescription...смогут отправится на челноке...звёзд.\n\nЧтобы принять титул графа, потребуется...недоволен или погибнет.\n\nВам нужно разместить...</li>
+    ...
+    <li>threatsInfo...случаем и убить [asker_faction_leaderTitle], и будут нападать с большим...</li>
     ...
   -->
   <EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
-    <li>questDescription->[intro][asker_nameFull], [asker_faction_leaderTitle] фракции [asker_faction_name], может по просьбе нанести традиционный визит во владения любого графа или графини. Пригласите [asker_possessive] к себе на [shuttleDelayTicks_duration], будьте к н[asker_objective] гостеприимны — и все ваши поселенцы смогут отправиться на челноке прямиком к имперской флотилии. Там вы сможете присоединиться к императорскому двору или сбежать, чтобы начать новую жизнь среди звёзд.\n\nДля получения графского титула потребуется выполнить все задания на получение ^Replace( [asker_faction_royalFavorLabel] | 'милость короны'-'милости короны')^ от фракции [asker_faction_name]. На это могут уйти годы.\n\nВам будет необходимо поддерживать настроение знатной особы выше [lodgersMoodThreshold_percent]. Для этого ей нужно будет предоставить все условия, например, роскошную спальню.[threatsInfo]\n\n[asker_faction_leaderTitle] привезёт в собой свою личную охрану, которую передаст под ваше командование. Вы должны расквартировать охранников, но [asker_faction_leaderTitle] не расстроится, если кто-то из них будет недоволен или пострадает.\n\nВам нужно разместить посетителей в [map_definite] и не отправлять их куда-либо ещё. Если вы провалите задание или переедете в другое место, в будущем вам предоставится другая возможность принять у себя знатного гостя.</li>
+    <li>questDescription->[intro][asker_nameFull], [asker_faction_leaderTitle] фракции [asker_faction_name], может по просьбе нанести традиционный визит во владения любого графа или графини. Пригласите [asker_possessive] к себе на [shuttleDelayTicks_duration], будьте к н[asker_objective] гостеприимны — и все ваши поселенцы смогут отправиться на челноке прямиком к имперской флотилии. Там вы сможете присоединиться к императорскому двору или сбежать, чтобы начать новую жизнь среди звёзд.\n\nДля получения графского титула потребуется выполнить все задания на получение {replace: [asker_faction_royalFavorLabel]; "милость короны"-"милости короны"} от фракции [asker_faction_name]. На это могут уйти годы.\n\nВам будет необходимо поддерживать настроение знатной особы выше [lodgersMoodThreshold_percent]. Для этого ей нужно будет предоставить все условия, например, роскошную спальню.[threatsInfo]\n\n[asker_faction_leaderTitle] привезёт в собой свою личную охрану, которую передаст под ваше командование. Вы должны расквартировать охранников, но [asker_faction_leaderTitle] не расстроится, если кто-то из них будет недоволен или пострадает.\n\nВам нужно разместить посетителей в [map_definite] и не отправлять их куда-либо ещё. Если вы провалите задание или переедете в другое место, в будущем вам предоставится другая возможность принять у себя знатного гостя.</li>
     <li>intro(sameQuestsCount==0)->Вы нашли способ покинуть эту планету!\n\n</li>
     <li>intro(sameQuestsCount>=1)->Вам предоставилась ещё одна возможность провести торжественный приём.\n\n</li>
     <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nНедоброжелатели попытаются воспользоваться случаем и напасть на [asker_faction_leaderTitle], и будут делать это с большим упорством. Будьте готовы защищаться.</li>
@@ -27,9 +26,9 @@
     <li>who_you_were_charged_to_protect->{SUBJECT_gender ? которого : которую} вы должны были защищать и опекать</li>
   </EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
 
-  <!-- Первая половина без изменений, но необходимо оставить, иначе грамматика страдает: -->
+  <!-- Первая половина без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN:
+  EN:
     <li>questName(sameQuestsCount==0)->Royal Ascent</li>
     <li>questName(sameQuestsCount>=1)->Royal [titleEnd]</li>
     <li>titleEnd->Ascension</li>
@@ -74,16 +73,14 @@
   <!-- EN: {SUBJECT_definite}, who you were charged to protect and keep happy, has been below the minimum mood of [lodgersMoodThreshold] too long. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.LetterTextSubjectUnhappy.slateRef>{SUBJECT_bestRoyalTitle}, [who_you_were_charged_to_protect], {SUBJECT_gender ? пробыл : пробыла} в настроении ниже минимальных [lodgersMoodThreshold_percent] слишком долго. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextSubjectUnhappy.slateRef>
 
-  <!-- исправление согласно концепции «12+» -->
-
   <!-- Оригинал: Гость погиб: {SUBJECT_bestRoyalTitle} -->
   <EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>Гость потерян: {SUBJECT_bestRoyalTitle}</EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>
   <!-- Оригинал: {SUBJECT_bestRoyalTitle}, [who_you_were_charged_to_protect], {SUBJECT_gender ? погиб : погибла}. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.LetterTextGuestDied.slateRef>{SUBJECT_bestRoyalTitle}, [who_you_were_charged_to_protect], {SUBJECT_gender ? пострадал : пострадала}. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestDied.slateRef>
 
-  <!-- Всё что ниже - без изменений, но необходимо оставить, иначе грамматика страдает: -->
+  <!-- Всё что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN: Guest captured: {SUBJECT_definite} -->
+  EN: Guest captured: {SUBJECT_definite} -->
   <EndGame_RoyalAscent.LetterLabelGuestCaptured.slateRef>Гость захвачен в плен: {SUBJECT_bestRoyalTitle}</EndGame_RoyalAscent.LetterLabelGuestCaptured.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has been arrested. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.LetterTextGuestCaptured.slateRef>{SUBJECT_bestRoyalTitle}, [who_you_were_charged_to_protect], {SUBJECT_gender ? был арестован : была арестована}. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestCaptured.slateRef>
