@@ -17,6 +17,8 @@
 	<TimeToDeath>вытекут через {0}</TimeToDeath>
 	<!-- Оригинал: неопасное -->
 	<WontBleedOutSoon>неопасная</WontBleedOutSoon>
+	<!-- Оригинал: смерть через {0} -->
+	<DeathIn>потеряем через {0}</DeathIn>
 	<!-- Оригинал: Я мёртв -->
 	<IAmDead>Игра окончена</IAmDead>
 
