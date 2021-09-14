@@ -5,7 +5,6 @@
 
 	Оригинал: Стоя -->
 	<PlayerPawnsArriveMethod_Standing>Пешком</PlayerPawnsArriveMethod_Standing>
-
 	<!-- Оригинал: ...кухне -->
 	<FoodPoisonCause_FilthyKitchen>грязь на кухне или в столовой</FoodPoisonCause_FilthyKitchen>
 
@@ -13,5 +12,9 @@
 
 	Оригинал: тела -->
 	<FoodTypeFlags_Corpse>туши</FoodTypeFlags_Corpse>
+	<!-- Оригинал: категория препарата -->
+	<DrugCategory>категория лекарства</DrugCategory>
+	<!-- Оригинал: тяжёлый наркотик -->
+	<DrugCategory_Hard>препарат</DrugCategory_Hard>
 
 </LanguageData>
