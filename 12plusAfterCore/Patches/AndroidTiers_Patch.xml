@@ -62,6 +62,7 @@
 				defName = "Android5Tier"
 				]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
 				<value>
+					<li>HarvestedOrgan_Bloodlust</li>
 					<li>KilledHumanlikeBloodlust</li>
 					<li>MasochistPain</li>
 					<li>PyromaniacHappy</li>
@@ -76,6 +77,7 @@
 				]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
 				<value>
 					<li>ButcheredHumanlikeCorpse</li>
+					<li>HarvestedOrgan_Bloodlust</li>
 					<li>KilledHumanlikeBloodlust</li>
 					<li>KnowButcheredHumanlikeCorpse</li>
 					<li>MasochistPain</li>
