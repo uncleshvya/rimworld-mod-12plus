@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: погиб виновный... -->
+	<GuiltyPrisonerDied.label>потерян виновный заключённый</GuiltyPrisonerDied.label>
+	<!-- Оригинал: погиб невинный... -->
+	<InnocentPrisonerDied.label>потерян невинный заключённый</InnocentPrisonerDied.label>
+	<!-- Оригинал: убит член... -->
+	<MemberKilled.label>атакован и потерян член фракции</MemberKilled.label>
+	<!-- Оригинал: погиб член... -->
+	<MemberNeutrallyDied.label>потерян член фракции</MemberNeutrallyDied.label>
+	<!-- Оригинал: заключённый погиб -->
+	<PrisonerDied.label>заключённый потерян</PrisonerDied.label>
+
+</LanguageData>
