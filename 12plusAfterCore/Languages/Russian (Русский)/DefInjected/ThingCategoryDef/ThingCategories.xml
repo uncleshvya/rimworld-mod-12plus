@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+».
 
-	<!-- Оригинал: трупы -->
+	Оригинал: трупы -->
 	<Corpses.label>тела</Corpses.label>
-
-	<!-- Оригинал: трупы людей -->
-	<CorpsesHumanlike.label>тела людей</CorpsesHumanlike.label>
-
 	<!-- Оригинал: трупы насекомых -->
 	<CorpsesInsect.label>туши насекомых</CorpsesInsect.label>
-
 	<!-- Оригинал: наркотики -->
 	<Drugs.label>препараты</Drugs.label>
-
 	<!-- Оригинал: кожа -->
 	<Leathers.label>шкуры</Leathers.label>
 
