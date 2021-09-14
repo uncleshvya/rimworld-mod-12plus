@@ -43,6 +43,7 @@
 				]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
 				<value>
 					<li>ButcheredHumanlikeCorpse</li>
+					<li>HarvestedOrgan_Bloodlust</li>
 					<li>KilledHumanlikeBloodlust</li>
 					<li>KnowButcheredHumanlikeCorpse</li>
 					<li>MasochistPain</li>
