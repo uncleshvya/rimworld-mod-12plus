@@ -62,6 +62,9 @@
 	<DoctorTendToSelfEmergency.gerund>Лечить себя</DoctorTendToSelfEmergency.gerund>
 	<DoExecution.gerund>Казнить</DoExecution.gerund>
 	<Drill.gerund>Бурить, используя</Drill.gerund>
+	<EmptyEggBox.gerund>Опустошить</EmptyEggBox.gerund>
+	<ExecuteGuiltyColonist.gerund>Казнить</ExecuteGuiltyColonist.gerund>
+	<ExtractTree.gerund>Извлечь</ExtractTree.gerund>
 	<FeedPrisoner.gerund>Кормить</FeedPrisoner.gerund>
 	<FightFires.gerund>Тушить</FightFires.gerund>
 	<FillFermentingBarrel.gerund>Наполнить</FillFermentingBarrel.gerund>
@@ -86,16 +89,22 @@
 	<PatientGoToBedTreatment.gerund>Лечиться в</PatientGoToBedTreatment.gerund>
 	<PlantsCut.gerund>Срубить</PlantsCut.gerund>
 	<RearmTurrets.gerund>Перезарядить</RearmTurrets.gerund>
+	<RebalanceAnimalsInPens.gerund>Вести</RebalanceAnimalsInPens.gerund>
 	<Refuel.gerund>Заправить</Refuel.gerund>
 	<ReleasePrisoner.gerund>Отпустить</ReleasePrisoner.gerund>
+	<ReleaseToWild.gerund>Отпустить</ReleaseToWild.gerund>
 	<RemoveRoofs.gerund>Разобрать крышу</RemoveRoofs.gerund>
 	<Repair.gerund>Починить</Repair.gerund>
+	<Replant.gerund>Посадить</Replant.gerund>
 	<Research.gerund>Исследовать</Research.gerund>
 	<Shear.gerund>Стричь</Shear.gerund>
 	<Slaughter.gerund>Забить</Slaughter.gerund>
+	<StudyThing.gerund>Изучить</StudyThing.gerund>
 	<TakeBeerOutOfFermentingBarrel.gerund>Слить пиво из</TakeBeerOutOfFermentingBarrel.gerund>
 	<TakePrisonerToBed.gerund>Отнести в кровать</TakePrisonerToBed.gerund>
+	<TakeRoamingAnimalsToPen.gerund>Вести</TakeRoamingAnimalsToPen.gerund>
 	<TakeToBedToOperate.gerund>Отнести на операцию</TakeToBedToOperate.gerund>
+	<TakeToPen.gerund>вести</TakeToPen.gerund>
 	<Tame.gerund>Попытаться приручить</Tame.gerund>
 	<Train.gerund>Тренировать</Train.gerund>
 	<Uninstall.gerund>Демонтировать</Uninstall.gerund>
