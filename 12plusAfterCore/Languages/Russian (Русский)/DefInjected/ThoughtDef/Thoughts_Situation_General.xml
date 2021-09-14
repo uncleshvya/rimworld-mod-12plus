@@ -44,19 +44,19 @@
 
 	<!-- Оригинал: {0} из человеческой кожи -->
 	<HumanLeatherApparelSad.stages.human_leather.label>{0} из волосяного мусора</HumanLeatherApparelSad.stages.human_leather.label>
-	<!-- Оригинал: Одеваться в вещи из человеческий кожи — ужасно! Зачем так делать? -->
-	<HumanLeatherApparelSad.stages.human_leather.description>Одеваться в вещи из мусора — противно!</HumanLeatherApparelSad.stages.human_leather.description>
+	<!-- Оригинал: Я ношу кожу другого человека... Мне... -->
+	<HumanLeatherApparelSad.stages.human_leather.description>Я ношу одежду, сделанную из мусора... Мне от этого не по себе.</HumanLeatherApparelSad.stages.human_leather.description>
 	<!-- Оригинал: {0} из человеческой кожи (+1) -->
 	<HumanLeatherApparelSad.stages.human_leather_1.label>2 вещи из волосяного мусора</HumanLeatherApparelSad.stages.human_leather_1.label>
-	<!-- Оригинал: Я выгляжу как безумец в этих вещах! -->
+	<!-- Оригинал: ...как безумец в этих вещах! -->
 	<HumanLeatherApparelSad.stages.human_leather_1.description>Я выгляжу как бомж в этих вещах!</HumanLeatherApparelSad.stages.human_leather_1.description>
 	<!-- Оригинал: {0} из человеческой кожи (+2) -->
 	<HumanLeatherApparelSad.stages.human_leather_2.label>3 вещи из волосяного мусора</HumanLeatherApparelSad.stages.human_leather_2.label>
-	<!-- Оригинал: Я боюсь, на моей одежде может быть чьё-то лицо. О Боже, моя одежда И ЕСТЬ лицо! -->
+	<!-- Оригинал: ...одежде может быть чьё-то лицо. О Боже, моя одежда И ЕСТЬ лицо! -->
 	<HumanLeatherApparelSad.stages.human_leather_2.description>Я боюсь, на моей одежде могут завестись вши. О Боже, там что-то ползёт!</HumanLeatherApparelSad.stages.human_leather_2.description>
-	<!-- Оригинал: {0} из человеческой кожи etc -->
-	<HumanLeatherApparelSad.stages.human_leather_etc.label>одежда из волосяного мусора</HumanLeatherApparelSad.stages.human_leather_etc.label>
-	<!-- Оригинал: Я выгляжу как урод из фильма ужасов, и ощущаю себя соответственно. -->
+	<!-- Оригинал: {0} из человеческой кожи (+X) -->
+	<HumanLeatherApparelSad.stages.human_leather_etc.label>костюм из волосяного мусора</HumanLeatherApparelSad.stages.human_leather_etc.label>
+	<!-- Оригинал: ...как урод из... -->
 	<HumanLeatherApparelSad.stages.human_leather_etc.description>Я выгляжу как зомби из фильма ужасов, и ощущаю себя соответственно.</HumanLeatherApparelSad.stages.human_leather_etc.description>
 
 </LanguageData>
