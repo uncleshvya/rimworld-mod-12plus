@@ -52,7 +52,7 @@ Copyright (c) Oskar Potocki
 					<optimalityOffsetFeedingAnimals>-51</optimalityOffsetFeedingAnimals>
 					<ingestSound>RawVegetable_Eat</ingestSound>
 					<ingestEffect>EatVegetarian</ingestEffect>
-					<tasteThought>AteAwfulMeal</tasteThought>
+					<tasteThought>AteRawFood</tasteThought>
 				</value>
 			</li>
 			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationAttributeSet">
