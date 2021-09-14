@@ -5,12 +5,10 @@
 
 	Оригинал: каннибал -->
 	<AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>неряха</AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>
-	<!-- Оригинал: разделал(а) человека -->
-	<ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>плохо себя ведёт</ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>
 	<!-- Оригинал: убил(а) поселенца -->
-	<KilledColonist.stages.killed_colonist.label>избил(а) поселенца</KilledColonist.stages.killed_colonist.label>
+	<KilledColonist.stages.killed_colonist.label>бьёт поселенцев</KilledColonist.stages.killed_colonist.label>
 	<!-- Заодно сглажена ссылка на животных - для модов на неявно живых существ.
 	Оригинал: убил(а) животное поселения -->
-	<KilledColonyAnimal.stages.killed_colony_animal.label>избил(а) нашего питомца</KilledColonyAnimal.stages.killed_colony_animal.label>
+	<KilledColonyAnimal.stages.killed_colony_animal.label>бьёт наших питомцев</KilledColonyAnimal.stages.killed_colony_animal.label>
 
 </LanguageData>
