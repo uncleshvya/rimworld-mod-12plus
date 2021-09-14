@@ -20,9 +20,7 @@
   <!-- EN: The shuttle has arrived to collect [lodgersLabelSingOrPluralDef]. Be sure to have these people on the shuttle before it leaves in [shuttleLeaveDelayTicks_duration]:\n\n[lodgers] -->
   <Hospitality_Util_Worker.LetterTextShuttleArrived.slateRef>Челнок прибыл, чтобы забрать [lodgersLabelSingOrPlural_acc]. Убедитесь, что [lodgers_these_people_will_be] на челноке к моменту его взлёта. Челнок отбывает через [shuttleLeaveDelayTicks_duration]:\n\n[lodgers]</Hospitality_Util_Worker.LetterTextShuttleArrived.slateRef>
 
-  <!-- Исправление согласно концепции «12+».
-
-  Оригинал: Гость погиб: {SUBJECT_definite} -->
+  <!-- Оригинал: Гость погиб: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelGuestDied.slateRef>Гость потерян: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestDied.slateRef>
   <!-- Оригинал: [letterSubject], гость, которого вы должны были защищать, погиб. [remainingWillNowLeave][failLetterEndingCommon] -->
   <Hospitality_Util_Worker.LetterTextGuestDied.slateRef>[letterSubject], гость, которого вы должны были защищать, потерян. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestDied.slateRef>
@@ -37,6 +35,10 @@
   <Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>Пленник завербован: {SUBJECT_definite}</Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>
   <!-- EN: You have recruited {SUBJECT_definite}, who you were charged to guard. [remainingWillNowLeave][failLetterEndingCommon] -->
   <Hospitality_Util_Worker.LabelTextPrisonerRecruited.slateRef>Вы завербовали {SUBJECT_definite}, пленника, которого должны были охранять. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LabelTextPrisonerRecruited.slateRef>
+  <!-- EN: Prisoner enslaved: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.root.nodes.lodgersEnslaved.node.nodes.Letter.label.slateRef>Пленник обращён в рабство: {SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersEnslaved.node.nodes.Letter.label.slateRef>
+  <!-- EN: You have enslaved {SUBJECT_definite}, who you were charged to guard. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.root.nodes.lodgersEnslaved.node.nodes.Letter.text.slateRef>Вы обратили в рабство {SUBJECT_definite}, пленника, которого должны были охранять. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersEnslaved.node.nodes.Letter.text.slateRef>
   <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelUnauthorizedSurgery.slateRef>Недопустимая операция: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelUnauthorizedSurgery.slateRef>
   <!-- EN: Unauthorized, violating surgery has been performed on [letterSubject]. [remainingWillNowLeave][failLetterEndingCommon] -->
