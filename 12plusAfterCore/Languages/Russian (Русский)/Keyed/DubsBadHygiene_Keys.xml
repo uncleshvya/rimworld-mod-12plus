@@ -3,8 +3,8 @@
 
 	<!-- Исправлена неточность, сообщите разработчику.
 
-	EN: Connected demand/capacity: {0}/{1} U ({2}) -->
-	<!-- Оригинал: Предоставляемый нагрев: {0} U ({1}) -->
+	EN: Connected demand/capacity: {0}/{1} U ({2})
+	Оригинал: Предоставляемый нагрев: {0} U ({1}) -->
 	<ConnectedHeatingCapacity>Потребление тепла в контуре: {0} единиц. Производство тепла в контуре: {1} единиц (удовлетворяет на {2})</ConnectedHeatingCapacity>
 	<!-- Оригинал: Температура радиатора: {0} -->
 	<RadCurrentCap>Радиатор нагрет на {0}</RadCurrentCap>
@@ -22,8 +22,8 @@
 	<!-- EN: Too cold -->
 	<SolarEfficiencyCold>Слишком холодно</SolarEfficiencyCold>
 
-	<!-- EN: Connected demand/capacity: {0}/{1} U ({2}) -->
-	<!-- Оригинал: Предоставляемое охлаждение: {0} U ({1}) -->
+	<!-- EN: Connected demand/capacity: {0}/{1} U ({2})
+	Оригинал: Предоставляемое охлаждение: {0} U ({1}) -->
 	<ConnectedCoolingCapacity>Хладагент в контуре нужно остужать на {0} единиц. Внешние элементы остужают на {1} ед. ({2})</ConnectedCoolingCapacity>
 	<!-- Оригинал: Использование охлаждения: {0} U -->
 	<CoolingUnits>Хладагент в этом устройстве нужно остужать на {0} ед.</CoolingUnits>
@@ -251,7 +251,7 @@
 	<!-- EN: A water tower or water butt is required to store water pumped from wells. -->
 	<Alert_MissingTowerDesc>Нужна бочка для воды или водонапорная башня, чтобы запасать воду из колодцев.</Alert_MissingTowerDesc>
 	<!-- EN: Missing well -->
-	<Alert_MissingWell>Нет колодца</Alert_MissingWell>
+	<Alert_MissingWell>Нет скважины</Alert_MissingWell>
 	<!-- EN: Pumps require a piped well to access ground water. -->
 	<Alert_MissingWellDesc>Для работы насосов нужна труба, идущая из колодца с водой.</Alert_MissingWellDesc>
 	<!-- EN: Missing water pump -->
