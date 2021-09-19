@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
 
 	Оригинал: съедена человечина -->
-	<AteHumanMeat.label>съедена неприемлемая пища</AteHumanMeat.label>
+	<AteHumanMeat.label>съедено мумиё</AteHumanMeat.label>
 	<!-- Оригинал: погибло дерево -->
 	<MinifiedTreeDied.label>загублено дерево</MinifiedTreeDied.label>
 
