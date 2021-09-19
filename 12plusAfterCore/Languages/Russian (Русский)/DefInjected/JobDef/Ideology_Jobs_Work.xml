@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Патчем заменена механика на ванильный поджог.
+	Оригинал: извлекает череп TargetA -->
+	<ExtractSkull.reportString>предаёт очищающему огню TargetA</ExtractSkull.reportString>
+
+</LanguageData>
