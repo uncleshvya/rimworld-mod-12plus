@@ -1,31 +1,29 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправлена неточность, сообщите разработчику.
 
-  <!-- EN: Multiplier for worn by corpse -->
-  <StatsReport_WornByCorpse>Коэффициент для вещей, снятых с повреждённых тел</StatsReport_WornByCorpse>
+	Оригинал: ...исчезнет как... -->
+	<Stat_Thing_ReloadDestroyOnEmpty_Desc>Этот предмет исчезнет, как только закончатся доступные {CHARGENOUN}.</Stat_Thing_ReloadDestroyOnEmpty_Desc>
 
-  <!-- EN: Contains a human corpse -->
-  <StatsReport_GraveFullAbstract>Содержит тело человека</StatsReport_GraveFullAbstract>
-  <!-- EN: Meditator is related to the corpse inside -->
-  <StatsReport_GraveCorpseRelatedAbstract>Медитирующий знал покойного внутри</StatsReport_GraveCorpseRelatedAbstract>
+	<!-- Исправление согласно концепции «12+».
 
-  <!-- EN: Source species -->
-  <Stat_SourceSpecies_Name>С каких существ можно получить</Stat_SourceSpecies_Name>
-
-  <!-- EN: The lifespan of the plant.\n\nPlants naturally die after they reach a certain age, even if not harvested. -->
-  <Stat_Thing_Plant_LifeSpan_Desc>Продолжительность жизни этого растения.\n\nРастения увядают по достижении определённого возраста, вне зависимости от того, собран ли с них урожай.</Stat_Thing_Plant_LifeSpan_Desc>
-
-  <!-- EN: The type of leather this creature will yield when butchered. -->
-  <Stat_Race_LeatherType_Desc>Какой текстиль можно получить с этого существа.</Stat_Race_LeatherType_Desc>
-
-  <!-- EN: The chance the patient will die upon failure of this surgery. -->
-  <Stat_Thing_Surgery_DeathOnFailChance_Desc>Вероятность потерять пациента при неудачной операции.</Stat_Thing_Surgery_DeathOnFailChance_Desc>
-
-  <!-- исправлена неточность, сообщите разработчику -->
-
-  <!-- EN: This item will vanish when its last {CHARGENOUN} is used. -->
-  <Stat_Thing_ReloadDestroyOnEmpty_Desc>Этот предмет исчезнет, как только закончатся доступные {CHARGENOUN}.</Stat_Thing_ReloadDestroyOnEmpty_Desc>
+	Оригинал: ...вещей, снятых с мёртвых -->
+	<StatsReport_WornByCorpse>Коэффициент для вещей, испачканных в чужой крови</StatsReport_WornByCorpse>
+	<!-- Заодно сглажена ссылка на людей - для модов на другие расы.
+	Оригинал: Содержит труп человека -->
+	<StatsReport_GraveFullAbstract>Содержит тело</StatsReport_GraveFullAbstract>
+	<!-- Оригинал: Медитирующий знает мертвеца внутри -->
+	<StatsReport_GraveCorpseRelatedAbstract>Медитирующий знал покойного внутри</StatsReport_GraveCorpseRelatedAbstract>
+	<!-- Оригинал: Промысловые виды -->
+	<Stat_SourceSpecies_Name>С каких существ можно получить</Stat_SourceSpecies_Name>
+	<!-- Оригинал: ...Растения погибают по... -->
+	<Stat_Thing_Plant_LifeSpan_Desc>Продолжительность жизни этого растения.\n\nРастения увядают по достижении определённого возраста, вне зависимости от того, собран ли с них урожай.</Stat_Thing_Plant_LifeSpan_Desc>
+	<!-- Оригинал: Тип кожи, который можно...существа при разделке. -->
+	<Stat_Race_LeatherType_Desc>Какой текстиль можно получить с этого существа.</Stat_Race_LeatherType_Desc>
+	<!-- Оригинал: Вероятность, с которой пациент может умереть при... -->
+	<Stat_Thing_Surgery_DeathOnFailChance_Desc>Вероятность потерять пациента при неудачной операции.</Stat_Thing_Surgery_DeathOnFailChance_Desc>
+	<!-- Оригинал: ...принадлежит этот препарат -->
+	<Stat_Thing_Drug_Category_Desc>Категория, к которой принадлежит активное вещество этого продукта</Stat_Thing_Drug_Category_Desc>
 
 </LanguageData>
