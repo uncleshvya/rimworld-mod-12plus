@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- исправлена неточность, сообщите разработчику -->
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
 
-	<!-- Оригинал: Питье мочи -->
+	EN: refreshed -->
+	<DrankCleanWater.stages.refreshed.label>свежесть</DrankCleanWater.stages.refreshed.label>
+	<!-- EN: Drank refreshing clean water. -->
+	<DrankCleanWater.stages.refreshed.description>Как приятно выпить чистой свежей воды!</DrankCleanWater.stages.refreshed.description>
+	<!-- EN: drank filthy water -->
+	<DrankDirtyWater.stages.drank_filthy_water.label>тухлая вода</DrankDirtyWater.stages.drank_filthy_water.label>
+	<!-- EN: Drank a bottle of contaminated water. -->
+	<DrankDirtyWater.stages.drank_filthy_water.description>Моё питьё изрядно пованивало</DrankDirtyWater.stages.drank_filthy_water.description>
+	<!-- EN: decent bathroom -->
+	<UsedPrivateBathroom.stages.decent_bathroom.label>приличная ванная</UsedPrivateBathroom.stages.decent_bathroom.label>
+	<!-- EN: My bathroom is very interesting. I like it. -->
+	<UsedPrivateBathroom.stages.decent_bathroom.description>У меня довольно неплохая ванная. Мне нравится!</UsedPrivateBathroom.stages.decent_bathroom.description>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Оригинал: без "ё" -->
 	<DrankUrine.stages.0.label>Питьё мочи</DrankUrine.stages.0.label>
-
+	<!-- Могло привести к появлению 2 одинаковых мыслей, это бы выглядело как баг.
+	Оригинал: Смущение -->
+	<WashPrivacy.stages.0.label>Смущение при мытье</WashPrivacy.stages.0.label>
+	<!-- Оригинал: Кто-то видел как я моюсь и я переживаю из-за этого. -->
+	<WashPrivacy.stages.0.description>Кто-то видел как я моюсь. Стыд-то какой!</WashPrivacy.stages.0.description>
+	<!-- Оригинал: Смущение -->
+	<ToiletPrivacy.stages.0.label>Смущение из-за туалета</ToiletPrivacy.stages.0.label>
+	<!-- Мысль возникает и при справлении нужды на улице.
+	Оригинал: Кто-то застал меня на унитазе! -->
+	<ToiletPrivacy.stages.0.description>Кто-то застал меня за справлением нужды!</ToiletPrivacy.stages.0.description>
 	<!-- Оригинал: без тире и запятой -->
 	<UsedPrivateBathroom.stages.9.description>Моя ванная — это самое лучшее место, которое только можно представить. Это чудесно!</UsedPrivateBathroom.stages.9.description>
 
@@ -19,20 +43,5 @@
 	<BowelLevel.stages.0.label>Меня сейчас разорвёт</BowelLevel.stages.0.label>
 	<!-- Оригинал: без "Ё" -->
 	<BowelLevel.stages.0.description>Мне срочно нужно в туалет, иначе меня разорвёт!</BowelLevel.stages.0.description>
-
-	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
-
-	<!-- EN: refreshed -->
-	<DrankCleanWater.stages.refreshed.label>свежесть</DrankCleanWater.stages.refreshed.label>
-	<!-- EN: Drank refreshing clean water. -->
-	<DrankCleanWater.stages.refreshed.description>Как приятно выпить чистой свежей воды!</DrankCleanWater.stages.refreshed.description>
-	<!-- EN: drank filthy water -->
-	<DrankDirtyWater.stages.drank_filthy_water.label>тухлая вода</DrankDirtyWater.stages.drank_filthy_water.label>
-	<!-- EN: Drank a bottle of contaminated water. -->
-	<DrankDirtyWater.stages.drank_filthy_water.description>Моё питьё изрядно пованивало</DrankDirtyWater.stages.drank_filthy_water.description>
-	<!-- EN: decent bathroom -->
-	<UsedPrivateBathroom.stages.decent_bathroom.label>приличная ванная</UsedPrivateBathroom.stages.decent_bathroom.label>
-	<!-- EN: My bathroom is very interesting. I like it. -->
-	<UsedPrivateBathroom.stages.decent_bathroom.description>У меня довольно неплохая ванная. Мне нравится!</UsedPrivateBathroom.stages.decent_bathroom.description>
 
 </LanguageData>
