@@ -13,7 +13,7 @@
 	Оригинал: тела -->
 	<FoodTypeFlags_Corpse>туши</FoodTypeFlags_Corpse>
 	<!-- Оригинал: категория препарата -->
-	<DrugCategory>категория лекарства</DrugCategory>
+	<DrugCategory>категория вещества</DrugCategory>
 	<!-- Оригинал: тяжёлый наркотик -->
 	<DrugCategory_Hard>препарат</DrugCategory_Hard>
 
