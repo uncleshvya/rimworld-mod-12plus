@@ -8,7 +8,16 @@
 
 	<!-- Исправлена неточность, сообщите разработчику.
 
-	Оригинал: ...химблеском (эктримальное) -->
-	<Chemshined.stages.3.label>опьянение химблеском (экстремальное)</Chemshined.stages.3.label>
+	В описании получается много скобок. Перефразировано согласно особенностям кода.
+	Оригинал: химблеск -->
+	<Chemshined.label>опьянение химблеском</Chemshined.label>
+	<!-- Оригинал: опьянение химблеском (слабое) -->
+	<Chemshined.stages.0.label>слабое</Chemshined.stages.0.label>
+	<!-- Оригинал: опьянение химблеском (среднее) -->
+	<Chemshined.stages.1.label>среднее</Chemshined.stages.1.label>
+	<!-- Оригинал: опьянение химблеском (сильное) -->
+	<Chemshined.stages.2.label>сильное</Chemshined.stages.2.label>
+	<!-- Оригинал: опьянение химблеском (эктримальное) -->
+	<Chemshined.stages.3.label>экстремальное</Chemshined.stages.3.label>
 
 </LanguageData>
