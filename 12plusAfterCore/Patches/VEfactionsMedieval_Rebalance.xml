@@ -24,14 +24,14 @@ Copyright (c) 2019 XeoNovaDan
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="VFEM_Must"]/statBases</xpath>
+				<xpath>Defs/ThingDef[defName = "VFEM_Must"]/statBases</xpath>
 				<value>
 					<!-- Установлена в четверть от сырого, примерно как в реале после удаления жмыха -->
 					<Nutrition>0.3</Nutrition>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="VFEM_Must"]</xpath>
+				<xpath>Defs/ThingDef[defName = "VFEM_Must"]</xpath>
 				<value>
 					<ingestible>
 						<preferability>DesperateOnly</preferability>
