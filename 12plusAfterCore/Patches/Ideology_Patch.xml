@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation MayRequire="Ludeon.RimWorld.Ideology" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<!-- Исправление согласно концепции «12+»
+
+			Заодно решена проблема утилизации тел. И зависти к налётчикам-поджигателям -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/JobDef[defName = "ExtractSkull"]</xpath>
+				<value>
+					<JobDef>
+						<defName>ExtractSkull</defName>
+						<driverClass>JobDriver_Ignite</driverClass>
+						<reportString>igniting TargetA</reportString>
+					</JobDef>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/DesignationDef[defName = "ExtractSkull"]/texturePath/text()</xpath>
+				<value>Things/Building/Misc/Campfire</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>

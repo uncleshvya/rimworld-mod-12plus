@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Исправлен баланс, сообщите разработчику.
+
+	Возвращено отображение радиуса загрязнения колодца. Зачем автор убрал это? -->
+	<Operation MayRequire="Dubwise.DubsBadHygiene" Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName = "PrimitiveWell"]</xpath>
+		<value>
+			<specialDisplayRadius>7.9</specialDisplayRadius>
+		</value>
+	</Operation>
+</Patch>
