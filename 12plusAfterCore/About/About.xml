@@ -265,6 +265,8 @@ Ideas to realize in next version:
 		<li>SirKota.InventoryTab</li>
 		<li>Xavior.GliterTech</li>
 		<li>maxzicode.zitools</li>
+		<li>Russifier.Ideology</li>
+		<li>RU.Ideology</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
