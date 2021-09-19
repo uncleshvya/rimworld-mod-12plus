@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: Содержит труп -->
+	<StatsReport_OccupiedCorpseCasket>Содержит тело</StatsReport_OccupiedCorpseCasket>
+
+</LanguageData>
