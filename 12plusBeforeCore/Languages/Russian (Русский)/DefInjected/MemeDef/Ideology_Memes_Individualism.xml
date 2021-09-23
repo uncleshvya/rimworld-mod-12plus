@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Исправление неофициальных переводов от LeveFUN и Sestrenka, в стиле ванили. На момент проведения работ ваниль не была переведена.
+	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. И через ноды "rulesStrings.1" тоже. Пришлось создать суб мод перед Core.
+
+	Первые полфайла без изменений, но необходимо оставить, иначе грамматика страдает: -->
+
+  <Collectivist.label>коллективисты</Collectivist.label>
+  <Collectivist.description>Роль человека состоит в том, чтобы служить обществу.</Collectivist.description>
+  <!-- EN: individualist -->
+  <Individualist.label>независимые личности</Individualist.label>
+  <!-- EN: A community's role is to serve each individual. -->
+  <Individualist.description>Роль сообщества состоит в том, чтобы ценить и защищать жизнь каждого человека.</Individualist.description>
+  <Collectivist.generalRules.rulesStrings>
+    <li>memeAdjective->единый</li>
+    <li>memeAdjective->гармоничный</li>
+    <li>memeAdjective->солидарный</li>
+    <li>memeAdjective->унифицированный</li>
+    <li>memeAdjective->безраздельный</li>
+    <li>memeAdjective->коллективный</li>
+    <li>memeCreed->община</li>
+    <li>memeCreed->кооператив</li>
+    <li>memeCreed->коммуна</li>
+    <li>memeCreed->семья</li>
+    <li>memeConcept->семья</li>
+    <li>memeLeaderNoun->председатель</li>
+    <li>memeLeaderNoun->секретарь</li>
+    <li>memeMoralist->комиссар</li>
+  </Collectivist.generalRules.rulesStrings>
+  <!-- EN: solidaritist -->
+  <Collectivist.symbolPacks.0.adjective>солидаристский</Collectivist.symbolPacks.0.adjective>
+  <!-- EN: unitary -->
+  <Collectivist.symbolPacks.1.adjective>унитаристский</Collectivist.symbolPacks.1.adjective>
+  <!-- EN: harmonist -->
+  <Collectivist.symbolPacks.2.adjective>коллективистский</Collectivist.symbolPacks.2.adjective>
+  <!-- EN: oneist -->
+  <Collectivist.symbolPacks.3.adjective>солидаристский</Collectivist.symbolPacks.3.adjective>
+  <!-- EN: solidaritor -->
+  <Collectivist.symbolPacks.0.member>солидарист</Collectivist.symbolPacks.0.member>
+  <!-- EN: unitist -->
+  <Collectivist.symbolPacks.1.member>уницист</Collectivist.symbolPacks.1.member>
+  <!-- EN: harmonist -->
+  <Collectivist.symbolPacks.2.member>коллективист</Collectivist.symbolPacks.2.member>
+  <!-- EN: oneist -->
+  <Collectivist.symbolPacks.3.member>онеист</Collectivist.symbolPacks.3.member>
+  <!-- EN: solidarity -->
+  <Collectivist.symbolPacks.0.theme>солидарность</Collectivist.symbolPacks.0.theme>
+  <!-- EN: unity -->
+  <Collectivist.symbolPacks.1.theme>унитарность</Collectivist.symbolPacks.1.theme>
+  <!-- EN: harmony -->
+  <Collectivist.symbolPacks.2.theme>гармония</Collectivist.symbolPacks.2.theme>
+  <!-- EN: oneness -->
+  <Collectivist.symbolPacks.3.theme>коллектив</Collectivist.symbolPacks.3.theme>
+  <Individualist.generalRules.rulesStrings>
+    <li>memeAdjective->свободный</li>
+    <li>memeAdjective->открытый</li>
+    <li>memeAdjective->вольный</li>
+    <li>memeConcept->личность</li>
+    <li>memeConcept->индивидуальность</li>
+    <li>memeConcept->свобода</li>
+    <li>memeMoralist->вольный</li>
+  </Individualist.generalRules.rulesStrings>
+  <!-- EN: freedomist -->
+  <Individualist.symbolPacks.0.adjective>свободоистский</Individualist.symbolPacks.0.adjective>
+  <!-- EN: libertine -->
+  <Individualist.symbolPacks.1.adjective>либералистский</Individualist.symbolPacks.1.adjective>
+  <!-- EN: independent -->
+  <Individualist.symbolPacks.2.adjective>независимистский</Individualist.symbolPacks.2.adjective>
+  <!-- EN: autonomist -->
+  <Individualist.symbolPacks.3.adjective>автономистский</Individualist.symbolPacks.3.adjective>
+  <!-- EN: freeist -->
+  <Individualist.symbolPacks.0.member>свободист</Individualist.symbolPacks.0.member>
+  <!-- EN: libertor -->
+  <Individualist.symbolPacks.1.member>либералист</Individualist.symbolPacks.1.member>
+  <!-- EN: independent -->
+  <Individualist.symbolPacks.2.member>либералист</Individualist.symbolPacks.2.member>
+  <!-- EN: autonomor -->
+  <Individualist.symbolPacks.3.member>автономист</Individualist.symbolPacks.3.member>
+  <!-- EN: freedom -->
+  <Individualist.symbolPacks.0.theme>свобода</Individualist.symbolPacks.0.theme>
+  <!-- EN: liberty -->
+  <Individualist.symbolPacks.1.theme>либральность</Individualist.symbolPacks.1.theme>
+  <!-- EN: independence -->
+  <Individualist.symbolPacks.2.theme>независимость</Individualist.symbolPacks.2.theme>
+  <!-- EN: autonomy -->
+  <Individualist.symbolPacks.3.theme>автономия</Individualist.symbolPacks.3.theme>
+  <!-- EN: Libertism -->
+  <Individualist.symbolPacks.1.ideoName>либерализм</Individualist.symbolPacks.1.ideoName>
+  <!-- EN: Independency -->
+  <Individualist.symbolPacks.2.ideoName>свободоизм</Individualist.symbolPacks.2.ideoName>
+  <!-- EN: Autonomism -->
+  <Individualist.symbolPacks.3.ideoName>автономизм</Individualist.symbolPacks.3.ideoName>
+
+	<!-- Оригинал:
+	...
+    <li>...всем: "Никто...Работайте вместе или погибните вместе."</li>
+	...
+    <li>...вражеским [foeSoldiers] убить себя, но всех их нельзя...</li>
+	...
+    <li>...запаса. Я убил его с помощью [place_personalWeapon]...</li>
+	...
+    <li>lessonReinforcement(tag=meme_Collectivist)->Если я умру, чтобы научить вселенную этому, это будет моим...</li>
+	...
+    <li>...ум-это всего...аспект всех остальных, и те, кто пытается...быстро погибнет.</li>
+	...
+	-->
+  <Collectivist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Collectivist)->[deity0_name] создал всех мужчин и женщин из большой литой формы, а тех, кто отвернулся, бросил в огонь, чтобы верующие могли жить в гармонии.</li>
+    <li>episode(uses=1,tag=meme_Collectivist)->[deity0_name] сказал всем: «Никто из вас не стоит выше целого. Работайте вместе и отдыхайте вместе.»</li>
+    <li>intro(tag=meme_Collectivist)->Люди [place_name] работали вместе в гармонии и построили великий [altarName] в честь [deity0_name], которое научило их истинной ценности [memeConcept].</li>
+    <li>conflict(tag=meme_Collectivist)->[foeLeader] не мог терпеть семью [memberNamePlural], и отправил [foeLeader_possessive] [foeSoldiers] в [place_community] чтобы разделить их друг от друга.</li>
+    <li>founderJoin(tag=meme_Collectivist)->В [place_job] человек по имени [founderName] бросился в огонь, чтобы протестовать против [foeLeader], но последователи [memberNamePlural] вытащили [founder_objective]  и сделали [founder_objective] своим лидером из-за [founder_possessive] преданности группе.</li>
+    <li>victory(tag=meme_Collectivist)->Действия [founderName] объединили людей. Они строевым шагом направились к дому [foeLeader]. Те, кто был впереди, позволили вражеским [foeSoldiers] победить себя, но всех их нельзя было остановить, и они захватили в плен [foeLeader].</li>
+    <li>setup(tag=meme_Collectivist)->В мире, где каждый сам за себя, [founderName] основал новую семью незнакомцев и собрал так много разных людей.</li>
+    <li>story(uses=1,tag=meme_Collectivist)->Некоторые из инакомыслящих пытались нарушить правила и выбрать свой собственный путь. [founderName] наказал их самым суровым образом.</li>
+    <li>lessonIntro(tag=meme_Collectivist)->[place_job] перестал вносить свою лепту, но продолжал есть из общего запаса. Я избил его и пригрозил использовать [place_personalWeapon]. Люди были шокированы, но я объяснил им, что</li>
+    <li>lesson(tag=meme_Collectivist)->если я или ты выбудем из рядов, это ничего не будет значить, пока наши люди продолжают</li>
+    <li>lessonReinforcement(tag=meme_Collectivist)->Если я потрачу всю свою жизнь, но научу вселенную этому, результат будет моим самым большим триумфом.</li>
+    <li>archistBasis(tag=meme_Collectivist)->Архотеки-это аспекты одного сверхразума.</li>
+    <li>archistFact(tag=meme_Collectivist)->Архотеки не заинтересованы в том, чтобы судить нас поодиночке. Они ждут единственного народа, который сможет продемонстрировать наше достоинство, действуя морально как одно целое.</li>
+    <li>archistProphecy(tag=meme_Collectivist)->[inTheEnd], архотеки уйдут, когда найдут людей, которые представятся достойными партнерами машинному богосознанию.</li>
+    <li>animistFact(tag=meme_Collectivist)->Каждый ум — это всего лишь один аспект коллектива, и те, кто пытается быть одиноким, быстро скатится до уровня одичавшего человека.</li>
+  </Collectivist.descriptionMaker.rules.rulesStrings>
+
+	<!-- Заодно сглажена ссылка на людей - для модов на другие расы.
+	Оригинал:
+	...
+    <li>archistFact(tag=meme_Individualist)->После смерти Архотеки изучат уникальные нравственности каждого отдельного человека.</li>
+    <li>archistFact(tag=meme_Individualist)->Архотеки обращают внимание на тех, кто носит свои реликвии, такие как [relic1_name].</li>
+	...
+	-->
+
+  <Individualist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Individualist)->[deity0_name] сформировал каждого мужчину и женщину лично. Каждый из них является уникальным и драгоценным произведением искусства, созданным божественной рукой [deity0_possessive].</li>
+    <li>episode(uses=1,tag=meme_Individualist)->[deity0_name] сказал всем: "Каждый из вас-уникальное и священное существо, сформированное по моему образу."</li>
+    <li>intro(tag=meme_Individualist)->[deity0_name] поговорил с [memberNamePlural] [revelationAdverb], , направляя каждого в путешествие к [place_name] где будут сиять их уникальные дары.</li>
+    <li>conflict(tag=meme_Individualist)->[foeLeader] заставил последователей [memberNamePlural] носить униформу и работать в [place_community].</li>
+    <li>founderJoin(tag=meme_Individualist)->В [place_job] человек по имени [founderName] был благословлен [deity0_name] и чудесным образом получил представление об уникальной силе каждого последователя [memberName]. [founder_pronoun] сказал каждому, что им нужно, чтобы стать лучше.</li>
+    <li>victory(tag=meme_Individualist)->Последователи [memberNamePlural] собрались на секретной конференции со многими из [foeSoldiers]. Они научились ценить ценность друг друга и решили отказаться от [foeLeader].</li>
+    <li>setup(tag=meme_Individualist)->Подавленный далекими правителями, требовавшими от народа безусловного повиновения, [founderName] основал повстанческое движение, которое полностью разгромило государство и на его месте построило новую свободную страну.</li>
+    <li>story(uses=1,tag=meme_Individualist)->[founderName] нарушил любое мыслимое правило, которое угнетатели пытались обеспечить, чтобы показать, что может [founder_pronoun].</li>
+    <li>lessonIntro(tag=meme_Individualist)->Моя семья, мой клан, моя команда - все они пытались посыпать мне песок в глаза, чтобы не дать мне осознать один простой факт: что</li>
+    <li>lesson(tag=meme_Individualist)->каждый человек уникален и ценен и должен идти своим собственным путем</li>
+    <li>lessonReinforcement(tag=meme_Individualist) ->Но это был только мой путь - Какой будет твоим?</li>
+    <li>archistBasis(tag=meme_Individualist)->Архотеки обладают суверенным сознанием и распознают и оценивают каждого из нас индивидуально.</li>
+    <li>archistFact(tag=meme_Individualist)->Архотеки изучают уникальные поступки каждой отдельной личности.</li>
+    <li>archistFact(tag=meme_Individualist)->Архотеки обращают внимание на тех, кто носит свои реликвии, такие как [relic1_name].</li>
+    <li>archistProphecy(tag=meme_Individualist)->[inTheEnd], Архотеки уйдут. Они заберут всех, кто их заметил, и оставят остальных позади, чтобы они растворились в вечной пустоте Вселенной..</li>
+    <li>animistBasis(tag=meme_Individualist)->До всего этого существовал пантеон духов, каждый из которых был уникален. Они собрались вместе, чтобы создать мир.</li>
+    <li>animistFact(tag=meme_Individualist)->Каждый дух придает нашему миру свою уникальную природу, и они ожидают, что мы сделаем то же самое.</li>
+  </Individualist.descriptionMaker.rules.rulesStrings>
+
+</LanguageData>
