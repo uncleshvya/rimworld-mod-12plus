@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Исправление неофициальных переводов от LeveFUN и Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
+	Оригинал: ввел кому-то препарат -->
+	<AdministeredDrug_Horrible.stages.administered_drug.label>использован медикамент на пациенте</AdministeredDrug_Horrible.stages.administered_drug.label>
+	<AdministeredDrug_Know_Horrible.stages.administered_drug.label>использован медикамент на пациенте</AdministeredDrug_Know_Horrible.stages.administered_drug.label>
+	<!-- Оригинал: Я ввел кому-то лекарство. Это было ужасное оскорбление моих убеждений. -->
+	<AdministeredDrug_Horrible.stages.administered_drug.description>Я {PAWN_gender ? ввёл : ввела} лекарство пациенту, нарушив натуральный обмен веществ в организме. Я ужасно {PAWN_gender ? поступил : поступила} — это действие ослабит его естественный иммунитет, и если вдруг кончатся лекарства, то он не справится с болезнью, которую раньше мог с лёгкостью преодолеть.</AdministeredDrug_Horrible.stages.administered_drug.description>
+	<!-- Оригинал: ввел кому-то тяжелый наркотик -->
+	<AdministeredHardDrug_Horrible.stages.administered_hard_drug.label>использован сильнодействующий препарат на пациенте</AdministeredHardDrug_Horrible.stages.administered_hard_drug.label>
+	<!-- Оригинал: ввел кому-то наркотик -->
+	<AdministeredHardDrug_Know_Horrible.stages.administered_hard_drug.label>использован сильнодействующий препарат на пациенте</AdministeredHardDrug_Know_Horrible.stages.administered_hard_drug.label>
+	<!-- Оригинал: Я ввел кому-то сильный наркотик - не медицинский и даже не социальный. Это было ужасное оскорбление моих убеждений. -->
+	<AdministeredHardDrug_Horrible.stages.administered_hard_drug.description>Я {PAWN_gender ? ввёл : ввела} пациенту жутко сильную «химию». Повезло, что сразу не было передозировки, как с тем несчастным... Но и без того повысился риск химического повреждения органов и, не дай бог, мозга. Нет мне прощения!</AdministeredHardDrug_Horrible.stages.administered_hard_drug.description>
+	<!-- Оригинал: ввел кому-то легкий наркотик -->
+	<AdministeredRecreationalDrug_Horrible.stages.administered_recreational_drug.label>использован препарат на пациенте</AdministeredRecreationalDrug_Horrible.stages.administered_recreational_drug.label>
+	<AdministeredRecreationalDrug_Know_Horrible.stages.administered_recreational_drug.label>использован препарат на пациенте</AdministeredRecreationalDrug_Know_Horrible.stages.administered_recreational_drug.label>
+	<!-- Оригинал: Я ввел кому-то легкий наркотик. Это было ужасное оскорбление моих убеждений. -->
+	<AdministeredRecreationalDrug_Horrible.stages.administered_recreational_drug.description>Я {PAWN_gender ? ввёл : ввела} пациенту мерзкую «химию», повысив тем самым риск химического повреждения органов. Ужасный, оскорбительный поступок!</AdministeredRecreationalDrug_Horrible.stages.administered_recreational_drug.description>
+	<!-- Оригинал: использовал наркотик -->
+	<IngestedDrug_Horrible.stages.used_drug.label>использован медикамент</IngestedDrug_Horrible.stages.used_drug.label>
+	<IngestedDrug_Know_Horrible.stages.used_drug.label>использован медикамент
+	</IngestedDrug_Know_Horrible.stages.used_drug.label>
+	<!-- Оригинал: Я употребил наркотик. Такие химические вещества в организме являются ужасным преступлением против моих убеждений. -->
+	<IngestedDrug_Horrible.stages.used_drug.description>Я {PAWN_gender ? употребил : употребила} чужерожное вещество, и оно нанесло серьёзный удар по моей естественной способности исцеляться. Если вдруг кончатся лекарства, то мой организм не справится с болезнью, которую раньше мог с лёгкостью преодолеть.</IngestedDrug_Horrible.stages.used_drug.description>
+	<!-- Оригинал: использовал тяжелый наркотик -->
+	<IngestedHardDrug_Horrible.stages.used_hard_drug.label>использован сильнодействующий препарат</IngestedHardDrug_Horrible.stages.used_hard_drug.label>
+	<IngestedHardDrug_Know_Horrible.stages.used_hard_drug.label>использован сильнодействующий препарат</IngestedHardDrug_Know_Horrible.stages.used_hard_drug.label>
+	<!-- Оригинал: Я употреблял тяжелые наркотики - ни медицинские, ни даже социальные. Это было ужасное преступление против моих убеждений. -->
+	<IngestedHardDrug_Horrible.stages.used_hard_drug.description>Я {PAWN_gender ? употребил : употребила} отвратительную «химию»! Повезло, что я до сих пор {PAWN_gender ? жив : жива}! Эта жуткая дрянь разносит в пух и прах весь мой иммунитет, прикрываясь краткими мгновениями эффектов, кажущихся положительными!</IngestedHardDrug_Horrible.stages.used_hard_drug.description>
+	<!-- Оригинал: использовал легкий наркотик -->
+	<IngestedRecreationalDrug_Horrible.stages.used_recreational_drug.label>использован препарат</IngestedRecreationalDrug_Horrible.stages.used_recreational_drug.label>
+	<IngestedRecreationalDrug_Know_Horrible.stages.used_recreational_drug.label>использован препарат</IngestedRecreationalDrug_Know_Horrible.stages.used_recreational_drug.label>
+	<!-- Оригинал: Я употреблял наркотик для развлечения. Это было преступлением против моих убеждений. -->
+	<IngestedRecreationalDrug_Horrible.stages.used_recreational_drug.description>Я {PAWN_gender ? употребил : употребила} мерзкую «химию», повысив тем самым риск химического повреждения органов! Ужасный, непростительный поступок!</IngestedRecreationalDrug_Horrible.stages.used_recreational_drug.description>
+
+</LanguageData>
