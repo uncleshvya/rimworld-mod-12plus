@@ -50,6 +50,10 @@ Copyright (c) 2018 Rim of Madness Team
 				<xpath>Defs/ThingDef[defName = "ROMB_Marrow"]/comps/li[1]/daysToRotStart/text()</xpath>
 				<value>2</value>
 			</li>
+			<!-- Исправляем баг версии 1.3 с отображением маски -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "ROMB_Apparel_SkullMask"]/apparel/wornGraphicPaths/li[2]</xpath>
+			</li>
 
 <!-- Далее - наработки кода, попытка приблизить кости к реальности. Нормальное решение пока не найдено -->
 			<!-- Исправлен баланс, сообщите разработчику, что добавлено гниение костей, в реале 3 недели, то есть 11 игровых дней -->
