@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Оригинал: ...супруг или супруга. -->
-	<SpouseCount_Female_MaxOne.description>У женщины может быть только один супруг.</SpouseCount_Female_MaxOne.description>
-	<!-- Оригинал: ...супруга или супруг. -->
-	<SpouseCount_Male_MaxOne.description>У мужчины может быть только одна супруга.</SpouseCount_Male_MaxOne.description>
+	Оригинал: ...один супруг или супруга. -->
+	<SpouseCount_Female_MaxOne.description>У женщины может быть только один муж.</SpouseCount_Female_MaxOne.description>
+	<!-- Оригинал: ...одна супруга или супруг. -->
+	<SpouseCount_Male_MaxOne.description>У мужчины может быть только одна жена.</SpouseCount_Male_MaxOne.description>
 
 </LanguageData>
