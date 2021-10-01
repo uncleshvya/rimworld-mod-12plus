@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
 
 	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. И через ноды "rulesStrings.1" тоже. Пришлось создать суб мод перед Core.
 
-	Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
+	Эта группа без изменений, но необходимо оставить, иначе грамматика страдает:
 
   EN:
     <li>animistBasis   ->The universe is an endless cycle of creation and destruction managed by spirits in aspects of the world around us.</li>
@@ -33,13 +33,12 @@
     <li>itIsSaid->Наши мудрецы говорят</li>
     <li>itIsSaid->Мы знаем</li>
   </AnimistDescription.rules.rulesStrings>
-  <!-- Оригинал:
-    ...
-    <li>archistBasis->Архотеки — это боги, которых мы всё время ждали.</li>
-    <li>archistFact->После смерти сознание...</li>
-    <li>archistFact->Архотеки всемогущи. Они незаметно управляют нашими жизнями.</li>
-    ...
-  -->
+
+	<!-- Оригинал:
+	...
+    <li>archistFact->После смерти сознание каждого...</li>
+	...
+	-->
   <ArchistDescription.rules.rulesStrings>
     <li>archistBasis->Наш мир — это сон внутри вселенского сознания. Общаться с этим вселенским сознанием могут только архотеки.</li>
     <li>archistBasis->Наша вселенная — это симуляция, созданная великим Чужим. Только архотеки могут общаться с этим Чужим.</li>
@@ -60,8 +59,7 @@
     <li>inTheEnd->Однажды</li>
   </ArchistDescription.rules.rulesStrings>
 
-  <!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
-
+	<!-- Эта группа без изменений, но необходимо оставить, иначе грамматика страдает:
   EN:
     <li>story(priority=-999)-></li>
     <li>setup->In a broken world, [founderName] saw all that was wrong and created our movement.</li>
@@ -107,14 +105,14 @@
     <li>founder_carried(founder_gender==Female)->носила</li>
   </IdeologicalFounder.rules.rulesStrings>
 
-  <!-- Оригинал:
-    ...
+	<!-- Оригинал:
+	...
     <li>lessonAttribution->[founder_nameFull], из материалов [memeConference_titleCase]</li>
     <li>lessonAttribution->[founder_nameFull] на своём смертном одре</li>
     <li>lessonAttribution->[founder_nameFull] прямо перед своей казнью</li>
     <li>lessonAttribution->[speech] [founder_nameFull] на [TerrainFeature]</li>
-    ...
-  -->
+	...
+	-->
   <IdeologicalLesson.rules.rulesStrings>
     <li>lesson(priority=-1)->всякое случается</li>
     <li>r_pattern->"[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n - [lessonAttribution]</li>
@@ -188,27 +186,18 @@
     <li>founder_showed(founder_gender==Male)->показал</li>
     <li>founder_showed(founder_gender==Female)->показала</li>
   </IdeologicalLesson.rules.rulesStrings>
-  <!-- Оригинал:
-   ...
-    <li>conflict->Зловещий [foeLeader] и [foeLeader_possessive] [foeSoldiers] поработили последователей [deity0_name].</li>
-    <li>...[place_personalWeapon], убили многих...</li>
-    <li>conflict->Пришли [foeSoldiers] по руководством [foeLeader]. Они поймали всех [memberNamePlural] в [place_community].</li>
-    ...
-    <li>conflict->И был мир, пока [foeLeader] и [foeLeader_possessive] [foeSoldiers] не восстали против [deity0_name]. The [memberNamePlural] были вынуждены бежать в секретное место — [place_community].</li>
-    <li>...[founder_tried] убить [foeLeader]...</li>
-    <li>founderJoin->[deity0_name] [deity_came] к [place_job] [founderName] [revelationAdverb], пока [founder_they_was] на работе, и [deity_spoke] с [founder_to_them] про [memeConcept].</li>
-    <li>founderJoin->[founderName] [founder_found] на [revelationObject], воплощение [deity0_name], говорившее с ним про [memeConcept].</li>
-    ...
-    <li>victory->[founderName] [founder_brought] [memberNamePlural] в [place_community] и [founder_taught] их мудрости [deity0_name].</li>
-    <li>...чтобы лично убить [foeLeader].</li>
-    <li>deity_showed(deity0_gender==None)->явило</li>
-    ...
-    <li>founder_stood_up(founder_gender==Female)->восстала</li>
+	<!-- Оригинал:
+	...
+    <li>...руках [place_personalWeapon], убили многих...</li>
+	...
+    <li>...[founder_tried] убить [foeLeader]. Покушение...</li>
+	...
+    <li>...собой чтобы лично убить [foeLeader].</li>
+	...
     <li>founder_killed(founder_gender==Male)->убил</li>
     <li>founder_killed(founder_gender==Female)->убила</li>
-    <li>founder_taught(founder_gender==Male)->научил</li>
-    ...
-  -->
+	...
+	-->
   <TheistFounder.rules.rulesStrings>
     <li>intro->Население на [place_summary] [place_name] жило в [memeAdjective] порядке, организованном [deity0_name].</li>
     <li>intro->На [place_summary] [place_name] и [memberNamePlural], и все другие многие года жили в мире и гармонии под пристальным взором [deity0_name].</li>
@@ -298,8 +287,7 @@
     <li>revelationObject->древний [Weapon]</li>
   </TheistFounder.rules.rulesStrings>
 
-  <!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
-
+	<!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
   EN:
     <li>episode(priority=-1)-></li>
     <li>creation->For an eternity, there was a world of [Color] [materialOrigin], until [deity0_name] created the planets and stars.</li>
@@ -353,4 +341,5 @@
     <li>bodilyOrigin->камня</li>
     <li>bodilyOrigin->пота</li>
   </TheistMyth.rules.rulesStrings>
+
 </LanguageData>
