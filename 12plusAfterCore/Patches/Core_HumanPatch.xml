@@ -27,10 +27,19 @@
 					<BoneAmount MayRequire="sihv.rombones">0</BoneAmount>
 				</value>
 			</li>
+			<!-- Не получается подобрать код для замены картинки плоти:
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "Meat_Human"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Things/Item/Resource/Kibble</texPath>
+					<color>(120, 80, 0)</color>
+				</value>
+			</li>
+			Вместо этого подкрашиваем ванильную текстуру: -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "Human"]/race</xpath>
 				<value>
-					<meatColor>(125,125,0)</meatColor>
+					<meatColor>(110, 110, 0)</meatColor>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
