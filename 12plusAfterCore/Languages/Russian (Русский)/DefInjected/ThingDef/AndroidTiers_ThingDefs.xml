@@ -20,10 +20,8 @@
 	<AnimalSleepingSpot.description>Обозначает место отдыха питомцев.</AnimalSleepingSpot.description>
 	<!-- Оригинал: ...место животных (обустраивается) -->
 	<Frame_AnimalSleepingSpot.label>спальное место питомцев (обустраивается)</Frame_AnimalSleepingSpot.label>
-
-	<!-- Дикие животные не генерируют эту грязь. Подробности - в папке Keyed.
-	Оригинал: грязь от животных -->
-	<Filth_AnimalFilth.label>грязь от питомцев</Filth_AnimalFilth.label>
+	<!-- Оригинал: грязь от животных -->
+	<Filth_AnimalFilth.label>отходы жизнедеятельности</Filth_AnimalFilth.label>
 
 	<!-- Переведено как в ванили.
 	EN: Mote -->
