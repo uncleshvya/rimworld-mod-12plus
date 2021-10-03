@@ -1,10 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
 
 	Оригинал: Текущий суммарный размер тел животных на поселенца -->
 	<CurrentTotalAnimalBodySizePerColonist>Текущее количество животных на поселенца, в пересчёте на размеры тел</CurrentTotalAnimalBodySizePerColonist>
+	<!-- Оригинал: ...размер тел на поселенца -->
+	<AnimalsBodySizePerColonist>суммарный размер животных на поселенца</AnimalsBodySizePerColonist>
 	<!-- Оригинал: суммарный размер тел животных на поселенца поблизости -->
 	<VeneratedAnimalsBodySizePerColonist>суммарное количество животных на поселенца поблизости, в пересчёте на размеры тел</VeneratedAnimalsBodySizePerColonist>
 	<!-- Оригинал: Необходимо хотя бы {0} ед. суммарного размера тел животных на поселенца. -->
