@@ -266,7 +266,6 @@ Ideas to realize in next version:
 		<li>Xavior.GliterTech</li>
 		<li>maxzicode.zitools</li>
 		<li>Russifier.Ideology</li>
-		<li>RU.Ideology</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
@@ -279,5 +278,6 @@ Ideas to realize in next version:
 		<li>VanillaExpanded.VWEFT</li>
 		<li>VanillaExpanded.VWETB</li>
 		<li>VanillaExpanded.VAEAccessories</li>
+		<li>RU.Ideology</li>
 	</incompatibleWith>
 </ModMetaData>
