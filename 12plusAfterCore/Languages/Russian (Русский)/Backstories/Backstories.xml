@@ -8354,4 +8354,100 @@
 		<desc>[PAWN_nameDef] traveled the world, always looking for old and forgotten things to repair for the good of others, working to see the true beauty in all things.</desc>
 	</Restorer70>
 
+	<!-- ? -->
+	<CardCounter25>
+		<!-- EN: card counter -->
+		<title>подручный в казино</title>
+		<titleFemale>подручная в казино</titleFemale>
+		<!-- EN: card counter -->
+		<titleShort>подручный</titleShort>
+		<titleShortFemale>подручная</titleShortFemale>
+		<!-- EN: In the urbworld underlevels, the strong kids learn to fight, the smart kids learn to cheat, and the other kids die. [PAWN_nameDef] was one of a smart kids. -->
+		<desc>{PAWN_nameDef} {PAWN_gender ? вырос : выросла} в тёмных трущобах перенаселённого мира. В отличие от большинства детей, {PAWN_gender ? малышу : малышке} повезло — вербовщик отметил склонность ребёнка к математике и устроил на трудную, но тёплую работу — считать фишки в казино каждый вечер.</desc>
+	</CardCounter25>
+
+	<!-- ? -->
+	<CaesicMarshal72>
+		<!-- EN: caesic marshal -->
+		<title>спец-солдат</title>
+		<titleFemale>спец-солдат</titleFemale>
+		<!-- EN: marshal -->
+		<titleShort>солдат</titleShort>
+		<titleShortFemale>солдат</titleShortFemale>
+		<!-- EN: They say that the Caesic soldiers are recruited from the dead. Rising through such ranks, most return whence the came. [PAWN_nameDef] dominated because of [PAWN_possessive] strategic genius, machine-like focus, and tolerance for suffering - both [PAWN_objective] own and that of others. -->
+		<desc>Говорят, что солдаты подразделения «Цезий» — это нелюди. Проходя этапы жестокого обучения, большинство кандидатов возвращается туда, откуда пришли. {PAWN_nameDef} {PAWN_gender ? выдержал : выдержала} мясорубку отбора из-за врождённого стратегического гения, целеустремлённости как у торпеды и стойкости к страданиям — как своим, так и чужим. </desc>
+	</CaesicMarshal72>
+
+	<!-- ? -->
+	<GrownMate56>
+		<!-- EN: grown mate -->
+		<title>выращенный танцор</title>
+		<titleFemale>выращенная балерина</titleFemale>
+		<!-- EN: mate -->
+		<titleShort>танцор</titleShort>
+		<titleShortFemale>балерина</titleShortFemale>
+		<!-- EN: [PAWN_nameDef] was vatgrown in a hyper-expensive clinic to serve the tastes of a specific client.\n\nEngineered, raised and trained as a perfect pleasure-giving mate, [PAWN_pronoun] learned skills that would baffle even the most seductive baseline human lovers. -->
+		<desc>{PAWN_possessive} вырастили в элитной клинике по заказу главного балетмейстера мира-утопии.\n\n{PAWN_gender ? Спроектированный, воспитанный и натренированный : Спроектированная, воспитанная и натренированная}, чтобы стать {PAWN_gender ? идеальным балеруном : идеальной балериной}, {PAWN_nameDef} {PAWN_gender ? научился : научилась} двигаться так, чтобы удовлетворять вкусы даже самого утончённого ценителя танцев.</desc>
+	</GrownMate56>
+
+	<!-- ? -->
+	<ArmyCommander14>
+		<!-- EN: army commander -->
+		<title>генерал армии</title>
+		<titleFemale>генерал армии</titleFemale>
+		<!-- EN: commander -->
+		<titleShort>стратег</titleShort>
+		<titleShortFemale>стратег</titleShortFemale>
+		<!-- EN: Uncuenchable ambition propelled [PAWN_nameDef] to the highest levels of military command.\n\n[PAWN_pronoun] satisfied [PAWN_objective]self with the power to order death and pain upon [PAWN_possessive] enemies - and upon [PAWN_possessive] own soldiers. -->
+		<desc>{PAWN_nameDef}, {PAWN_gender ? движимый : движимая} неутолимыми амбициями, {PAWN_gender ? дослужился : дослужилась} до высших чинов военного командования.\n\nТам {PAWN_pronoun} наконец {PAWN_gender ? нашёл : нашла} себя, реализовав свой потенциал стратегического планирования.</desc>
+	</ArmyCommander14>
+
+	<!-- ? -->
+	<PetTorturer60>
+		<!-- EN: pet torturer -->
+		<title>юный ветеринар</title>
+		<titleFemale>юный ветеринар</titleFemale>
+		<!-- EN: pet torturer -->
+		<titleShort>юннат</titleShort>
+		<titleShortFemale>юннатка</titleShortFemale>
+		<!-- EN: [PAWN_nameDef]'s affluent family helped conceal {PAWN_possessive} habit of torturing animals.\n\nDespite years of therapy, [PAWN_pronoun] could never bring {PAWN_objective}self to interact with the little beasts in any normal way. [PAWN_pronoun] did learn a few things about how bodies live and die. -->
+		<desc>С раннего детства {PAWN_nameDef} не {PAWN_gender ? мог : могла} пройти мимо любой раненой зверушки. Родители, смирившись с напором юного айболита, выделили старый сарай для «ветклиники», где окрестной живности оказывалась пусть и неквалифицированная, но своевременная помощь.\n\nВсё изменилось с наступлением атомной войны. Правила срочной эвакуации с планеты крайне строги по отношению к домашним животным — брать с собой кого-либо из них категорически запрещено. Читая сквозь слёзы сводку о ядерной атаке на свой город, {PAWN_nameDef} {PAWN_gender ? поклялся : поклялась} никогда больше не привязываться к животным.</desc>
+	</PetTorturer60>
+
+	<!-- ? -->
+	<PoliticalClimber28>
+		<!-- EN: political climber -->
+		<title>юный политик</title>
+		<titleFemale>юный политик</titleFemale>
+		<!-- EN: political climber -->
+		<titleShort>политик</titleShort>
+		<titleShortFemale>политик</titleShortFemale>
+		<!-- EN: [PAWN_nameDef] was a smart kid, so everyone encouraged [PAWN_possessive] ambition to become a politican.\n\n[PAWN_pronoun] would use any tactic to win, including direct psychological attacks.\n\nDuring one school election, the other candidate hung himself. [PAWN_nameDef] won by default. -->
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} настолько сообразительным ребёнком, что все вокруг поощряли {PAWN_possessive} стремление влиться в политическое движение.\n\n{PAWN_pronoun} {PAWN_gender ? использовал : использовала} все средства для достижения победы, включая жёсткое психологическое давление.\n\nОднажды, во время школьных выборов, другой политический кандидат слёг с депрессией. {PAWN_nameDef} {PAWN_gender ? победил : победила} в связи с отсутствием других достойных противников.</desc>
+	</PoliticalClimber28>
+
+	<!-- ? -->
+	<UrbworldUrchin6>
+		<!-- EN: urbworld urchin -->
+		<title>городской сирота</title>
+		<titleFemale>городская сирота</titleFemale>
+		<!-- EN: urchin -->
+		<titleShort>сирота</titleShort>
+		<titleShortFemale>сирота</titleShortFemale>
+		<!-- EN: [PAWN_nameDef] was born in the darkest slums of [PAWN_possessive] urban homeworld. Neglected by [PAWN_possessive] mother, [PAWN_pronoun] learned how to survive on [PAWN_possessive] own, battling for every scrap of food [PAWN_pronoun] saw.\n\nEventually, as [PAWN_possessive] talents exceeded [PAWN_possessive] peers, [PAWN_pronoun] ascended from the depth to the surface streets and left [PAWN_possessive] mother behind. -->
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} в самых тёмных трущобах перенаселённого мира. Рано потеряв родителей, {PAWN_pronoun} {PAWN_gender ? научился : научилась} выживать в одиночку, сражаясь за каждый найденный кусочек пищи. В конце концов, превзойдя сверстников во всём, {PAWN_nameDef} {PAWN_gender ? поднялся : поднялась} со дна общества, оставив прошлую жизнь позади.</desc>
+	</UrbworldUrchin6>
+
+	<!-- ? -->
+	<StreetUrchin74>
+		<!-- EN: street urchin -->
+		<title>городской сирота</title>
+		<titleFemale>городская сирота</titleFemale>
+		<!-- EN: grifter -->
+		<titleShort>сирота</titleShort>
+		<titleShortFemale>сирота</titleShortFemale>
+		<!-- EN: After running away from home, [PAWN_nameDef] had to live on the streets.\n\n[PAWN_pronoun] grew up fast, and learned early that [PAWN_pronoun] had to figure out how to fool people into connecting with [PAWN_objective]. -->
+		<desc>Рано потеряв родителей, {PAWN_nameDef} {PAWN_gender ? был вынужден : была вынуждена} в одиночку выживать на улицах.\n\n{PAWN_pronoun} быстро {PAWN_gender ? повзрослел : повзрослела} и быстро {PAWN_gender ? понял : поняла}, насколько это тяжёлое занятие — самостоятельная жизнь.</desc>
+	</StreetUrchin74>
+
 </BackstoryTranslations>
