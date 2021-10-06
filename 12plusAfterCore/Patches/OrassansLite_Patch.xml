@@ -4,6 +4,78 @@
 		<success>Always</success>
 		<operations>
 
+			<!-- Исправлена неточность, сообщите разработчику.
+
+			Эти 2 рецепта устарели -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[
+				defName = "MakeCatnipJoint5" or
+				defName = "MakeCatnipJoint15"
+				]</xpath>
+			</li>
+			<!-- Иначе медпроцедур в 2 раза больше нужного -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[
+				defName = "Alien_Orassan" or
+				defName = "Alien_OrassanHumanHybrid"
+				]/recipes</xpath>
+			</li>
+			<!-- Иначе белые почвы орассан не удаляются -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[
+				defName = "OrassanSoil" or
+				defName = "OrassanSoilRich"
+				]</xpath>
+				<value>
+					<layerable>true</layerable>
+				</value>
+			</li>
+			<!-- Устраняем красную ошибку недоделанных текстур в версии 1.3 -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/TerrainDef[defName = "OrassanSoilRich"]/texturePath/text()</xpath>
+				<value>Terrain/OrassanSoil</value>
+			</li>
+			<!-- Иначе часто вылезает красная ошибка предысторий. Решена проблема для силовиков орассан.
+			И почему то пропала красная ошибка из-за имён -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.BackstoryDef[
+				defName = "Orassan_EcumenopolisA" or
+				defName = "Orassan_PsiPolice" or
+				defName = "Orassan_PsiWarrior" or
+				defName = "Orassan_Constructor" or
+				defName = "Orassan_SEngineer" or
+				defName = "Orassan_EcumenopolisB" or
+				defName = "Orassan_Miner" or
+				defName = "Orassan_Explorer" or
+				defName = "Orassan_Mercenary" or
+				defName = "Orassan_Cultist" or
+				defName = "Orassan_Crafter" or
+				defName = "Orassan_XenoZoo" or
+				defName = "Orassan_Colinizer" or
+				defName = "Orassan_Officer" or
+				defName = "Orassan_NavyCook" or
+				defName = "Orassan_Shellshocked" or
+				defName = "Orassan_Hydro" or
+				defName = "Orassan_Stripper" or
+				defName = "Orassan_Pornstar" or
+				defName = "Orassan_CapitalChild" or
+				defName = "Orassan_GeneChild" or
+				defName = "Orassan_SpacerChild" or
+				defName = "Orassan_ColonyChild" or
+				defName = "Orassan_Kyle" or
+				defName = "Orassan_Stargazer" or
+				defName = "Orassan_MilitaryC" or
+				defName = "Orassan_GaiaChild" or
+				defName = "Orassan_Ecumenopolis" or
+				defName = "Orassan_Gravity" or
+				defName = "Orassan_Climber" or
+				defName = "Orassan_Mud"
+				]/spawnCategories</xpath>
+				<value>
+					<li>OrassanSoldier</li>
+				</value>
+			</li>
+
 			<!-- Исправление согласно концепции «12+».
 
 			Расы: -->
@@ -228,70 +300,6 @@
 				]</xpath>
 			</li>
 			
-
-			<!-- Исправлена неточность, сообщите разработчику.
-
-			Эти 2 рецепта устарели -->
-			<li Class="PatchOperationRemove">
-				<xpath>Defs/RecipeDef[
-				defName = "MakeCatnipJoint5" or
-				defName = "MakeCatnipJoint15"
-				]</xpath>
-			</li>
-			<!-- Иначе медпроцедур в 2 раза больше нужного -->
-			<li Class="PatchOperationRemove">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[
-				defName = "Alien_Orassan" or
-				defName = "Alien_OrassanHumanHybrid"
-				]/recipes</xpath>
-			</li>
-			<!-- Иначе лёд орассан не удаляется -->
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/TerrainDef[defName = "OrassanSoil"]</xpath>
-				<value>
-					<layerable>true</layerable>
-				</value>
-			</li>
-			<!-- Иначе часто вылезает красная ошибка предысторий. Решена проблема для силовиков орассан.
-			И почему то пропала красная ошибка из-за имён -->
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/AlienRace.BackstoryDef[
-				defName = "Orassan_EcumenopolisA" or
-				defName = "Orassan_PsiPolice" or
-				defName = "Orassan_PsiWarrior" or
-				defName = "Orassan_Constructor" or
-				defName = "Orassan_SEngineer" or
-				defName = "Orassan_EcumenopolisB" or
-				defName = "Orassan_Miner" or
-				defName = "Orassan_Explorer" or
-				defName = "Orassan_Mercenary" or
-				defName = "Orassan_Cultist" or
-				defName = "Orassan_Crafter" or
-				defName = "Orassan_XenoZoo" or
-				defName = "Orassan_Colinizer" or
-				defName = "Orassan_Officer" or
-				defName = "Orassan_NavyCook" or
-				defName = "Orassan_Shellshocked" or
-				defName = "Orassan_Hydro" or
-				defName = "Orassan_Stripper" or
-				defName = "Orassan_Pornstar" or
-				defName = "Orassan_CapitalChild" or
-				defName = "Orassan_GeneChild" or
-				defName = "Orassan_SpacerChild" or
-				defName = "Orassan_ColonyChild" or
-				defName = "Orassan_Kyle" or
-				defName = "Orassan_Stargazer" or
-				defName = "Orassan_MilitaryC" or
-				defName = "Orassan_GaiaChild" or
-				defName = "Orassan_Ecumenopolis" or
-				defName = "Orassan_Gravity" or
-				defName = "Orassan_Climber" or
-				defName = "Orassan_Mud"
-				]/spawnCategories</xpath>
-				<value>
-					<li>OrassanSoldier</li>
-				</value>
-			</li>
 
 		</operations>
 	</Operation>
