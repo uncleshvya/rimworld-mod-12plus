@@ -4193,16 +4193,16 @@
 	</Gnomebiologist96>
 
 	<!-- Phillip "Vector" Vector, Male, Childhood -->
-	<CircusPerformer93>
+	<CircusPerformer37>
 		<!-- EN: circus performer -->
 		<title>цирковой артист</title>
 		<titleFemale>цирковая артистка</titleFemale>
 		<!-- EN: performer -->
 		<titleShort>циркач</titleShort>
 		<titleShortFemale>циркачка</titleShortFemale>
-		<!-- EN: Growing up in the circus, [PAWN_nameDef] learned a lot of interesting things. More interesting then the balls [PAWN_pronoun] juggled were the pockets [PAWN_pronoun] picked between shows.\n\nA mistake with some firesticks made [PAWN_objective] develop a deathly fear of fire. -->
+		<!-- EN: Growing up in the circus, [PAWN_nameDef] learned a lot of interesting things. More interesting than the balls [PAWN_pronoun] juggled were the pockets [PAWN_pronoun] picked between shows.\n\nA mistake with some firesticks made [PAWN_objective] develop a deathly fear of fire. -->
 		<desc>{PAWN_nameDef} вырастает в цирке и обучается много чему интересному. В частности, жонглировать шарами кажется {PAWN_objective} более интересным, чем балансировать на канате под куполом.\n\nИз-за одного неудачного трюка с факелами {PAWN_nameDef} до дрожи в коленях боится огня.</desc>
-	</CircusPerformer93>
+	</CircusPerformer37>
 
 	<!-- Phillip "Vector" Vector, Male, Adulthood -->
 	<CriminalKingpin36>
@@ -4215,16 +4215,16 @@
 	</CriminalKingpin36>
 
 	<!-- Emily "Emmie" Young, Female, Childhood -->
-	<VatgrownSlavegirl67>
+	<VatgrownSlavegirl8>
 		<!-- EN: vatgrown slavegirl -->
 		<title>выращенный раб</title>
 		<titleFemale>выращенная рабыня</titleFemale>
 		<!-- EN: slave girl -->
 		<titleShort>раб</titleShort>
 		<titleShortFemale>рабыня</titleShortFemale>
-		<!-- EN: [PAWN_nameDef] was vat-grown as a slave in an illegal urbworld laboratory. As a yound child, [PAWN_pronoun] was taught only to cook, clean and serve [PAWN_possessive] masters. For most of [PAWN_possessive] childhood, [PAWN_pronoun] knew nothing else. -->
+		<!-- EN: [PAWN_nameDef] was vat-grown as a slave in an illegal urbworld laboratory. As a young child, [PAWN_pronoun] was taught only to cook, clean and serve [PAWN_possessive] masters. For most of [PAWN_possessive] childhood, [PAWN_pronoun] knew nothing else. -->
 		<desc>{PAWN_nameDef} искусственно выращивается рабом в подпольной лаборатории городского мира. Ребёнком {PAWN_possessive} учат только готовить, убирать и служить своим хозяевам. Бо́льшую часть своего детства {PAWN_pronoun} не знает ничего другого.</desc>
-	</VatgrownSlavegirl67>
+	</VatgrownSlavegirl8>
 
 	<!-- Emily "Emmie" Young, Female, Adulthood -->
 	<UrbworldSexSlave25>
@@ -4552,14 +4552,14 @@
 	</Engineer40>
 
 	<!-- Samantha "Samantha" von Aachen, Female, Childhood -->
-	<DisplacedNoble83>
+	<DisplacedNoble67>
 		<!-- EN: displaced noble -->
 		<title>смещённая знать</title>
 		<!-- EN: noble -->
 		<titleShort>аристократка</titleShort>
-		<!-- EN: Born on an urbworld to the ruler of three megacities, [PAWN_nameDef]’s prospects looked good - until a violent insurrection overthrew [PAWN_possessive] family. Exile introduced [PAWN_nameDef] to hard work and combat, but some high-born squeamishness remains. -->
+		<!-- EN: Born on an urbworld to the ruler of three megacities, [PAWN_nameDef]'s prospects looked good - until a violent insurrection overthrew [PAWN_possessive] family. Exile introduced [PAWN_nameDef] to hard work and combat, but some high-born squeamishness remains. -->
 		<desc>{PAWN_nameDef} рождается в семье правителя трёх мегаполисов урбанизированного мира. {PAWN_possessive} будущее кажется безоблачным до тех пор, пока их семью не свергают в результате жестокого переворота. В изгнании {PAWN_nameDef} сталкивается с необходимостью заниматься тяжёлым трудом и защищать себя, хотя кое-какие аристократические замашки у н{PAWN_possessive} всё же остаются.</desc>
-	</DisplacedNoble83>
+	</DisplacedNoble67>
 
 	<!-- Samantha "Samantha" von Aachen, Female, Adulthood -->
 	<Minister88>
@@ -4624,14 +4624,14 @@
 	</Straggler71>
 
 	<!-- Benn "Ben" Tannen, Male, Adulthood -->
-	<Spiceminer9>
+	<Spiceminer81>
 		<!-- EN: spiceminer -->
 		<title>добытчик пряности</title>
 		<!-- EN: spiceminer -->
 		<titleShort>меланжёр</titleShort>
-		<!-- EN: [PAWN_nameDef] made [PAWN_possessive] mark on the universe as a spice miner assigned to the lucrative mining colony of Rural Pen’The.\n\nLittle did [PAWN_pronoun] know, [PAWN_nameDef] was about to embark on a career path that would change [PAWN_possessive] life. -->
+		<!-- EN: [PAWN_nameDef] made [PAWN_possessive] mark on the universe as a spice miner assigned to the lucrative mining colony of Rural Pen'The.\n\nLittle did [PAWN_pronoun] know, [PAWN_nameDef] was about to embark on a career path that would change [PAWN_possessive] life. -->
 		<desc>{PAWN_nameDef} оставляет свой след в истории вселенной, работая добытчиком пряности в шахтёрской колонии Пен'Те, приносящей огромные доходы.\n\nЕдва ли {PAWN_objective} тогда было известно, что карьера, которая могла бы изменить всю {PAWN_possessive} жизнь, находилась в шаге от н{PAWN_possessive}.</desc>
-	</Spiceminer9>
+	</Spiceminer81>
 
 	<!-- Cain "Wicked" Thompson, Male, Childhood -->
 	<BrutalThief59>
@@ -4965,14 +4965,14 @@
 	</AspergersRebel13>
 
 	<!-- Jason "Agent" Roland, Male, Adulthood -->
-	<GovernmentAgent47>
+	<GovernmentAgent61>
 		<!-- EN: government agent -->
 		<title>агент правительства</title>
 		<!-- EN: agent -->
 		<titleShort>агент</titleShort>
-		<!-- EN: [PAWN_nameDef] worked for the government against rebel groups and excelled in this capacity. During [PAWN_possessive] training [PAWN_pronoun] was taught firearms, melee combat and medical skills.\n\nHaving grown up in a war-ravaged city, dirt, blood and dead bodies don’t bother [PAWN_objective] and [PAWN_pronoun] sees no reason to clean them up. -->
+		<!-- EN: [PAWN_nameDef] worked for the government against rebel groups and excelled in this capacity. During [PAWN_possessive] training [PAWN_pronoun] was taught firearms, melee combat and medical skills.\n\nHaving grown up in a war-ravaged city, dirt, blood and dead bodies don't bother [PAWN_objective] and [PAWN_pronoun] sees no reason to clean them up. -->
 		<desc>{PAWN_nameDef} начинает работать на правительство против повстанческих групп и преуспевает в этом деле. {PAWN_pronoun} проходит курсы по стрельбе, рукопашному бою и оказанию первой помощи.\n\nПосле детства в разрушенном войной городе {PAWN_possessive} больше не беспокоят грязь и кровь, {PAWN_pronoun} не видит причин убирать их.</desc>
-	</GovernmentAgent47>
+	</GovernmentAgent61>
 
 	<!-- Nebulys Strike, Male, Childhood -->
 	<ShootingComa59>
@@ -5356,14 +5356,14 @@
 	</StarshipDoctor37>
 
 	<!-- Lumine "Lumi" LeBlanc, Female, Childhood -->
-	<CaravanChild29>
+	<CaravanChild53>
 		<!-- EN: caravan child -->
 		<title>аутсайдер</title>
 		<!-- EN: child -->
 		<titleShort>изгой</titleShort>
-		<!-- EN: [PAWN_nameDef] was born on a urbworld merchant ship to an entrepreneurial mother and an absent father. Born male, [PAWN_pronoun] disliked boy stuff, and got into [PAWN_possessive] mother’s things all the time.\n\nEventually, [PAWN_pronoun] traveled with [PAWN_possessive] mother to a glitterworld and spent [PAWN_possessive] savings on a body [PAWN_pronoun] was happy with. -->
+		<!-- EN: [PAWN_nameDef] was born on a urbworld merchant ship to an entrepreneurial mother and an absent father. Born male, [PAWN_pronoun] disliked boy stuff, and got into [PAWN_possessive] mother's things all the time.\n\nEventually, [PAWN_pronoun] traveled with [PAWN_possessive] mother to a glitterworld and spent [PAWN_possessive] savings on a body [PAWN_pronoun] was happy with. -->
 		<desc>{PAWN_nameDef} рождается на свет на борту торгового корабля с городского мира, в семье предпринимателей. Хоть и имея привлекательную внешность, {PAWN_nameDef} чувствует равнодушие к тем играм, что обычно любят дети. {PAWN_objective} больше нравилось считать различные одинаковые предметы.\n\nВ конце концов семья посещает мир-утопию, где {PAWN_nameDef} тратит все свои сбережения на рискованные сделки и становится теневым лидером.</desc>
-	</CaravanChild29>
+	</CaravanChild53>
 
 	<!-- Lumine "Lumi" LeBlanc, Female, Adulthood -->
 	<BountyHunter41>
@@ -5858,14 +5858,14 @@
 	</SpaceExplorer53>
 
 	<!-- Meredith  "Latch" Abernathy, Female, Childhood -->
-	<UrbworldUrchin87>
+	<UrbworldUrchin6>
 		<!-- EN: urbworld urchin -->
 		<title>городская сирота</title>
 		<!-- EN: urchin -->
 		<titleShort>сирота</titleShort>
-		<!-- EN: Meredith was born in the darkest slums of [PAWN_possessive] urban homeworld. Neglected by [PAWN_possessive] mother, [PAWN_pronoun] learned to survive on [PAWN_possessive] own, battling for every scrap of food [PAWN_pronoun] saw.\n\nEventually, as [PAWN_possessive] talents exceeded [PAWN_possessive] peers, [PAWN_pronoun] ascended from the depths to the surface streets and left [PAWN_possessive] mother behind. -->
-		<desc>{PAWN_nameDef} рождается в самых мрачных трущобах {PAWN_possessive} родного городского мира. {PAWN_pronoun} учится самостоятельно выживать без заботы родителей, сражаясь за каждый замеченный кусочек еды.\n\nВ конце концов, когда {PAWN_possessive} таланты превосходят умения сверстников, {PAWN_pronoun} поднимается с глубины трущоб до уровня нормальной жизни.</desc>
-	</UrbworldUrchin87>
+		<!-- EN: [PAWN_nameDef] was born in the darkest slums of [PAWN_possessive] urban homeworld. Neglected by [PAWN_possessive] mother, [PAWN_pronoun] learned to survive on [PAWN_possessive] own, battling for every scrap of food [PAWN_pronoun] saw.\n\nEventually, as [PAWN_possessive] talents exceeded [PAWN_possessive] peers, [PAWN_pronoun] ascended from the depths to the surface streets and left [PAWN_possessive] mother behind. -->
+		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} в самых мрачных трущобах перенаселённого мира. Рано потеряв родителей, {PAWN_pronoun} {PAWN_gender ? научился : научилась} выживать в одиночку, сражаясь за каждый замеченный кусочек еды. В конце концов, превзойдя сверстников во всём, {PAWN_nameDef} {PAWN_gender ? поднялся : поднялась} со дна общества, оставив прошлую жизнь позади.</desc>
+	</UrbworldUrchin6>
 
 	<!-- Meredith  "Latch" Abernathy, Female, Adulthood -->
 	<Smuggler23>
