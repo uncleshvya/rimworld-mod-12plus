@@ -2241,7 +2241,7 @@
 		<!-- EN: Commander -->
 		<titleShort>генерал</titleShort>
 		<!-- EN: Unquenchable ambition propelled [PAWN_nameDef] to the highest levels of military command.\n\n[PAWN_pronoun] satisfied [PAWN_objective]self with the power to order death and pain upon [PAWN_possessive] enemies - and upon [PAWN_possessive] own soldiers. -->
-		<desc>Неутолимые амбиции помогли {PAWN_nameDef} добиться высокого звания в армии.\n\n{PAWN_pronoun} {PAWN_gender ? упивался : упивалась} своей властью, несущей смерть и страдания противнику... и {PAWN_possessive} собственным солдатам.</desc>
+		<desc>{PAWN_nameDef}, {PAWN_gender ? движимый : движимая} неутолимыми амбициями, {PAWN_gender ? добился : добилась} высокого звания в армии.\n\nТам {PAWN_pronoun} наконец {PAWN_gender ? нашёл : нашла} себя, реализовав свой потенциал стратегического планирования.</desc>
 	</ArmyCommander14>
 
 	<!-- Tribal_Adult -->
@@ -2269,11 +2269,13 @@
 	<!-- Gambler_Child -->
 	<CardCounter25>
 		<!-- EN: card counter -->
-		<title>card counter</title>
+		<title>подручный в казино</title>
+		<titleFemale>подручная в казино</titleFemale>
 		<!-- EN: card counter -->
-		<titleShort>card counter</titleShort>
-		<!-- EN: In the urbworld underlevels, the strong kids learn to fight, the smart kids learn to cheat, and the other kids die. [PAWN_nameDef] was one of the smart kids. -->
-		<desc>In the urbworld underlevels, the strong kids learn to fight, the smart kids learn to cheat, and the other kids die. [PAWN_nameDef] was one of the smart kids.</desc>
+		<titleShort>подручный</titleShort>
+		<titleShortFemale>подручная</titleShortFemale>
+		<!-- EN: In the urbworld underlevels, the strong kids learn to fight, the smart kids learn to cheat, and the other kids die. [PAWN_nameDef] was one of a smart kids. -->
+		<desc>{PAWN_nameDef} {PAWN_gender ? вырос : выросла} в тёмных трущобах перенаселённого мира. В отличие от большинства детей, {PAWN_gender ? малышу : малышке} повезло — вербовщик отметил склонность ребёнка к математике и устроил на трудную, но тёплую работу — считать фишки в казино каждый вечер.</desc>
 	</CardCounter25>
 
 	<!-- Tribal_Adult -->
@@ -8665,30 +8667,6 @@
 		<!-- EN: [PAWN_nameDef] traveled the world, always looking for old and forgotten things to repair for the good of others, working to see the true beauty in all things. -->
 		<desc>[PAWN_nameDef] traveled the world, always looking for old and forgotten things to repair for the good of others, working to see the true beauty in all things.</desc>
 	</Restorer70>
-
-	<!-- ? -->
-	<CardCounter25>
-		<!-- EN: card counter -->
-		<title>подручный в казино</title>
-		<titleFemale>подручная в казино</titleFemale>
-		<!-- EN: card counter -->
-		<titleShort>подручный</titleShort>
-		<titleShortFemale>подручная</titleShortFemale>
-		<!-- EN: In the urbworld underlevels, the strong kids learn to fight, the smart kids learn to cheat, and the other kids die. [PAWN_nameDef] was one of a smart kids. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? вырос : выросла} в тёмных трущобах перенаселённого мира. В отличие от большинства детей, {PAWN_gender ? малышу : малышке} повезло — вербовщик отметил склонность ребёнка к математике и устроил на трудную, но тёплую работу — считать фишки в казино каждый вечер.</desc>
-	</CardCounter25>
-
-	<!-- ? -->
-	<ArmyCommander14>
-		<!-- EN: army commander -->
-		<title>генерал армии</title>
-		<titleFemale>генерал армии</titleFemale>
-		<!-- EN: commander -->
-		<titleShort>стратег</titleShort>
-		<titleShortFemale>стратег</titleShortFemale>
-		<!-- EN: Uncuenchable ambition propelled [PAWN_nameDef] to the highest levels of military command.\n\n[PAWN_pronoun] satisfied [PAWN_objective]self with the power to order death and pain upon [PAWN_possessive] enemies - and upon [PAWN_possessive] own soldiers. -->
-		<desc>{PAWN_nameDef}, {PAWN_gender ? движимый : движимая} неутолимыми амбициями, {PAWN_gender ? дослужился : дослужилась} до высших чинов военного командования.\n\nТам {PAWN_pronoun} наконец {PAWN_gender ? нашёл : нашла} себя, реализовав свой потенциал стратегического планирования.</desc>
-	</ArmyCommander14>
 
 	<!-- ? -->
 	<UrbworldUrchin6>
