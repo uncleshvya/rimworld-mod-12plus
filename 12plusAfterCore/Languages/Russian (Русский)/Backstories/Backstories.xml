@@ -2549,14 +2549,14 @@
 	</FallenProdigy40>
 
 	<!-- James "Doc" Grey, Male, Adulthood -->
-	<MadScientist0>
+	<MadScientist22>
 		<!-- EN: mad scientist -->
 		<title>безумный учёный</title>
 		<!-- EN: scientist -->
 		<titleShort>учёный</titleShort>
-		<!-- EN: Stripped of [PAWN_possessive] life’s work and exiled after [PAWN_possessive] unethical experiments on the survivors of the Callos IX incident were published, [PAWN_nameDef] learned the skills necessary to survive in the outer rim.\n\nContinuing [PAWN_possessive] research with nothing left to lose, [PAWN_pronoun] made minions to carry out the tasks that bored him. -->
+		<!-- EN: Stripped of [PAWN_possessive] life's work and exiled after [PAWN_possessive] unethical experiments on the survivors of the Callos IX incident were published, [PAWN_nameDef] learned the skills necessary to survive in the outer rim.\n\nContinuing [PAWN_possessive] research with nothing left to lose, [PAWN_pronoun] made minions to carry out the tasks that bored him. -->
 		<desc>{PAWN_nameDef} {PAWN_gender ? был отстранён : была отстранена} от дела всей {PAWN_possessive} жизни, когда опубликовали данные по {PAWN_possessive} экспериментам, проведённым над выжившими в инциденте на Каллосе IX.\n\nВ изгнании {PAWN_nameDef} {PAWN_gender ? освоил : освоила} все навыки, необходимые для выживания на окраинных мирах. Поскольку {PAWN_objective} было больше нечего терять, {PAWN_pronoun} {PAWN_gender ? продолжил : продолжила} исследования, создав слуг для выполнения рутинной работы.</desc>
-	</MadScientist0>
+	</MadScientist22>
 
 	<!-- John "Blitz" Kriegsler, Male, Childhood -->
 	<FarmKid60>
@@ -2604,16 +2604,16 @@
 	</ArmyCook0>
 
 	<!-- Vladimir "Vladimir" Black, Male, Childhood -->
-	<UrbworldCriminal80>
+	<UrbworldCriminal6>
 		<!-- EN: urbworld criminal -->
 		<title>городской хулиган</title>
 		<titleFemale>городская хулиганка</titleFemale>
 		<!-- EN: criminal -->
 		<titleShort>хулиган</titleShort>
 		<titleShortFemale>хулиганка</titleShortFemale>
-		<!-- EN: Born into bad circumstance on an overpopulated urbworld, [PAWN_nameDef] turned to small-time crime as a way to avoid starvation and hypothermia.\n\nRobbery and murder were daily activities for him. [PAWN_nameDef] learned that surviving was winning. -->
+		<!-- EN: Born into bad circumstance on an overpopulated urbworld, [PAWN_nameDef] turned to small-time crime as a way to avoid starvation and hypothermia.\n\nRobbery and murder were daily activities for [PAWN_objective]. [PAWN_nameDef] learned that surviving was winning. -->
 		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} в неблагополучной семье перенаселённого урбанизированного мира и рано {PAWN_gender ? изучил : изучила} суровые законы улиц — иначе пришлось бы страдать от голода и холода.\n\n{PAWN_nameDef} {PAWN_gender ? осознал : осознала}, что побеждает тот, кто выживает. Драки и хитрость были для н{PAWN_possessive} основой повседневной жизни.</desc>
-	</UrbworldCriminal80>
+	</UrbworldCriminal6>
 
 	<!-- Vladimir "Vladimir" Black, Male, Adulthood -->
 	<UrbworldPolitican92>
@@ -2681,14 +2681,14 @@
 	</IndworldUrchin73>
 
 	<!-- Victoria "Vicky" Louene, Female, Adulthood -->
-	<DoomsdayPariah24>
+	<DoomsdayPariah18>
 		<!-- EN: doomsday pariah -->
 		<title>изгой конца света</title>
 		<!-- EN: pariah -->
 		<titleShort>изгой</titleShort>
-		<!-- EN: [PAWN_nameDef] managed to open a vault of otherworldly technology while scavenging a dig site. [PAWN_pronoun] unwittingly triggered a doomsday device that cleansed the planet of all life. More interested in the tech than human life, [PAWN_pronoun] boarded the vault’s spacecraft and departed to find more relics to abuse. -->
+		<!-- EN: [PAWN_nameDef] managed to open a vault of otherworldly technology while scavenging a dig site. [PAWN_pronoun] unwittingly triggered a doomsday device that cleansed the planet of all life. More interested in the tech than human life, [PAWN_pronoun] boarded the vault's spacecraft and departed to find more relics to abuse. -->
 		<desc>Во время осмотра места раскопок {PAWN_nameDef} случайно {PAWN_gender ? открыл : открыла} вход в космический корабль, оставшийся от древней цивилизаци. По неосторожности {PAWN_pronoun} {PAWN_gender ? запустил : запустила} устройство судного дня и {PAWN_gender ? уничтожил : уничтожила} всю жизнь на планете кроме себя.\n\nПри сотрясении {PAWN_nameDef} {PAWN_gender ? поранился и капнул : поранилась и капнула} кровью на приёмник ДНК. ИИ корабля признал, что {PAWN_nameDef} — потомок исчезнувшей расы, и {PAWN_pronoun} {PAWN_gender ? отправился : отправилась} к другим мирам, чтобы найти ещё больше загадочных артефактов.</desc>
-	</DoomsdayPariah24>
+	</DoomsdayPariah18>
 
 	<!-- Markus "Keuneke" Keuneke, Male, Childhood -->
 	<MechanoidNerd10>
@@ -2961,7 +2961,7 @@
 	</StationWhelp94>
 
 	<!-- Benjamin Stainforth, Male, Adulthood -->
-	<PirateKing81>
+	<PirateKing69>
 		<!-- EN: pirate king -->
 		<title>король пиратов</title>
 		<titleFemale>королева пиратов</titleFemale>
@@ -2970,7 +2970,7 @@
 		<titleShortFemale>атаманша</titleShortFemale>
 		<!-- EN: With no real care for other people, [PAWN_nameDef] fit in perfectly with the pirate crew that had once held [PAWN_objective] captive. Shortly after joining the crew, [PAWN_nameDef] began to kill anyone or anything that got in [PAWN_possessive] way—including [PAWN_possessive] crewmates. -->
 		<desc>{PAWN_nameDef} прекрасно вписывается в пиратскую команду, когда-то захватившую {PAWN_possessive} в плен, — ведь {PAWN_objective} так же плевать на людей. Заняв своё место в экипаже, {PAWN_pronoun} начинает устранять любого, кто встанет на пути, — в том числе и членов команды. Однако достигнув вершины пирамиды этого социума, {PAWN_nameDef} полностью в нём разочаровывается.</desc>
-	</PirateKing81>
+	</PirateKing69>
 
 	<!-- Jackson "Big Red" Hightower, Male, Childhood -->
 	<ConstructionGrunt84>
@@ -3057,14 +3057,14 @@
 	</ColonialGovernor78>
 
 	<!-- Ernest "Chef" Szoka, Male, Childhood -->
-	<MercenaryRecruit64>
+	<MercenaryRecruit36>
 		<!-- EN: mercenary recruit -->
 		<title>наёмник-новобранец</title>
 		<!-- EN: mercenary -->
 		<titleShort>наёмник</titleShort>
-		<!-- EN: Descended from a long line of mercenaries, [PAWN_nameDef] grew up in a busy trading hub.\n\n[PAWN_possessive]'s interest in the foreign goods at the market often distracted [PAWN_objective] from [PAWN_possessive] chores and training. -->
+		<!-- EN: Descended from a long line of mercenaries, [PAWN_nameDef] grew up in a busy trading hub.\n\n[PAWN_possessive] interest in the foreign goods at the market often distracted [PAWN_objective] from [PAWN_possessive] chores and training. -->
 		<desc>{PAWN_nameDef}, потомок многих поколений путешествующих между мирами наёмников, вырастает в месте с оживлённой торговлей.\n\nИнтерес к привезённым товарам часто отвлекал {PAWN_possessive} от рутинной работы и обучения.</desc>
-	</MercenaryRecruit64>
+	</MercenaryRecruit36>
 
 	<!-- Ernest "Chef" Szoka, Male, Adulthood -->
 	<MercenaryChef44>
@@ -3506,15 +3506,15 @@
 	</ParamilitaryAgent11>
 
 	<!-- Ryusho "Ryu" Yosei, Male, Childhood -->
-	<HistoryStudent78>
+	<HistoryStudent12>
 		<!-- EN: history student -->
 		<title>студент-историк</title>
 		<!-- EN: student -->
 		<titleShort>студент</titleShort>
 		<titleShortFemale>студентка</titleShortFemale>
-		<!-- EN: As a child, [PAWN_nameDef] spent learned many artistic forms including music and novel writing. As [PAWN_pronoun] grew older, [PAWN_pronoun] began to study legends from [PAWN_possessive] home world - legends of the lizard-like beings at the center of [PAWN_possessive] culture's folklore. -->
+		<!-- EN: As a child, [PAWN_nameDef] learned many artistic forms including music and novel writing. As [PAWN_pronoun] grew older, [PAWN_pronoun] began to study legends from [PAWN_possessive] home world - legends of the lizard-like beings at the center of [PAWN_possessive] culture's folklore. -->
 		<desc>Ещё ребёнком {PAWN_nameDef} запоминает множество художественных образов, в том числе в музыке и романах. Когда {PAWN_pronoun} подрастает, то начинает изучать легенды своего родного мира и, в частности, легенды о похожих на ящеров существах, на которых был основан весь местный фольклор.</desc>
-	</HistoryStudent78>
+	</HistoryStudent12>
 
 	<!-- Ryusho "Ryu" Yosei, Male, Adulthood -->
 	<Storyteller63>
@@ -3690,16 +3690,16 @@
 	</YouthDelinquent30>
 
 	<!-- Riesling Bacchus, Female, Adulthood -->
-	<InvoluntaryHermit24>
+	<InvoluntaryHermit38>
 		<!-- EN: involuntary hermit -->
 		<title>невольный отшельник</title>
 		<titleFemale>невольная отшельница</titleFemale>
 		<!-- EN: hermit -->
 		<titleShort>отшельник</titleShort>
 		<titleShortFemale>отшельница</titleShortFemale>
-		<!-- EN: [PAWN_nameDef]’s escape pod was jettisoned onto an unexplored region of a frontier world. [PAWN_pronoun] eked out a lonely existence with only a herd of muffalo for company.\n \nLater, [PAWN_pronoun] was spotted clad in pygmy wombat furs, discussing the importance of hoof hygiene with a group of elderly muffalo. -->
+		<!-- EN: [PAWN_nameDef]'s escape pod was jettisoned onto an unexplored region of a frontier world. [PAWN_pronoun] eked out a lonely existence with only a herd of muffalo for company.\n \nLater, [PAWN_pronoun] was spotted clad in pygmy wombat furs, discussing the importance of hoof hygiene with a group of elderly muffalo. -->
 		<desc>{PAWN_nameDef} в спасательной капсуле совершает посадку в неисследованном регионе одного из приграничных миров. {PAWN_pronoun} долго влачит жалкое существование, а единственными {PAWN_possessive} соседями становятся стада муффало.\n\nВ конце концов люди {PAWN_possessive} находят в одежде из шкурок карликовых вомбатов во время обсуждения важности своевременной гигиены копыт с несколькими старыми муффало.</desc>
-	</InvoluntaryHermit24>
+	</InvoluntaryHermit38>
 
 	<!-- Benjamin "Svejgaard" Svejgaard, Male, Childhood -->
 	<HillbillyProdigy60>
