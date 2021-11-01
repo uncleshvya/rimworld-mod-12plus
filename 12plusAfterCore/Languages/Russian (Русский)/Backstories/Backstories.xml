@@ -2231,7 +2231,7 @@
 		<!-- EN: animal farmer -->
 		<titleShort>животновод</titleShort>
 		<!-- EN: [PAWN_nameDef] raised a variety of animals to provide meat, milk, eggs, and leather. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? выращивал : выращивала} различных животных для производства мяса, молока, яиц и кожи.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? выращивал : выращивала} различных животных для производства молока, яиц, мяса и шкур.</desc>
 	</AnimalFarmer21>
 
 	<!-- Sadist_Adult -->
