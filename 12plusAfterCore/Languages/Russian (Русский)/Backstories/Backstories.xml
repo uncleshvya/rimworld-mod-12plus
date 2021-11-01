@@ -2521,11 +2521,13 @@
 	<!-- Gambler_Child -->
 	<StreetUrchin22>
 		<!-- EN: street urchin -->
-		<title>street urchin</title>
+		<title>уличный сирота</title>
+		<titleFemale>уличная сирота</titleFemale>
 		<!-- EN: urchin -->
-		<titleShort>urchin</titleShort>
+		<titleShort>сирота</titleShort>
+		<titleShortFemale>сирота</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was raised by two drug-addicted gamblers who didn't provide a decent standard of living. [PAWN_nameDef] learned to survive by pursuing dangerous and often poorly-planned schemes and swindles that sometimes resulted in food. -->
-		<desc>[PAWN_nameDef] was raised by two drug-addicted gamblers who didn't provide a decent standard of living. [PAWN_nameDef] learned to survive by pursuing dangerous and often poorly-planned schemes and swindles that sometimes resulted in food.</desc>
+		<desc>{PAWN_nameDef} рано {PAWN_gender ? потерял : потеряла} родителей, поэтому {PAWN_gender ? был вынужден : была вынуждена} жить в далеко не комфортных условиях. {PAWN_pronoun} {PAWN_gender ? обнаружил : обнаружила} в себе талант планировать и выполнять сложные интриги и схемы, которые иногда позволяли раздобыть еду.</desc>
 	</StreetUrchin22>
 
 	<!-- Tribal_Adult -->
