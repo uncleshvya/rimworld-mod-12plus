@@ -396,14 +396,14 @@
 	</Bartender62>
 
 	<!-- Offworld_Specific_Child -->
-	<CaveworldTender20>
+	<CaveworldTender26>
 		<!-- EN: caveworld tender -->
 		<title>пещерный фермер</title>
 		<!-- EN: cave kid -->
 		<titleShort>дитя пещер</titleShort>
-		<!-- EN: [PAWN_nameDef] grew up in cave complex deep beneath the surface of an inhospitable world. [PAWN_pronoun] worked with the other children tending the tribe’s fungus crops. -->
+		<!-- EN: [PAWN_nameDef] grew up in cave complex deep beneath the surface of an inhospitable world. [PAWN_pronoun] worked with the other children tending the tribe's fungus crops. -->
 		<desc>{PAWN_nameDef} вырастает в пещерном комплексе глубоко под поверхностью неприветливой планеты. Там, вместе с другими детьми племени, {PAWN_pronoun} работает на грибной ферме.</desc>
-	</CaveworldTender20>
+	</CaveworldTender26>
 
 	<!-- Offworld_Specific_Child -->
 	<CaveworldTunneler48>
@@ -436,16 +436,16 @@
 	</Evangelist39>
 
 	<!-- Offworld_Specific_Adult -->
-	<CaveworldIlluminator23>
+	<CaveworldIlluminator95>
 		<!-- EN: caveworld illuminator -->
 		<title>зрящий мира пещер</title>
 		<titleFemale>зрящая мира пещер</titleFemale>
 		<!-- EN: illuminator -->
 		<titleShort>проводник</titleShort>
 		<titleShortFemale>проводница</titleShortFemale>
-		<!-- EN: Among tunnel-dwellers, those with vision as strong as [PAWN_nameDef]’s are revered as sages. [PAWN_pronoun] would lead the way, marking spots to dig with bioluminescent fungus and warning others of impending danger. -->
+		<!-- EN: Among tunnel-dwellers, those with vision as strong as [PAWN_nameDef]'s are revered as sages. [PAWN_pronoun] would lead the way, marking spots to dig with bioluminescent fungus and warning others of impending danger. -->
 		<desc>Среди обитателей пещер обладатели острого зрения пользуются большим почтением. {PAWN_nameDef} указывает остальным путь, отмечая места для копания биолюминесцентными грибами, а также предупреждает о подстерегающих опасностях.</desc>
-	</CaveworldIlluminator23>
+	</CaveworldIlluminator95>
 
 	<!-- Offworld_Medieval_Adult -->
 	<Herbalist54>
@@ -460,16 +460,16 @@
 	</Herbalist54>
 
 	<!-- Offworld_Nonspecific_Child -->
-	<ComaChild57>
+	<ComaChild93>
 		<!-- EN: coma child -->
 		<title>коматозник</title>
 		<titleFemale>коматозница</titleFemale>
 		<!-- EN: coma child -->
 		<titleShort>коматозник</titleShort>
 		<titleShortFemale>коматозница</titleShortFemale>
-		<!-- EN: A childhood accident put [PAWN_nameDef] into a coma. [PAWN_pronoun] didn’t wake up until [PAWN_pronoun] was in [PAWN_possessive] late teens. [PAWN_possessive] body never recovered from the years of inactivity, but people tend to take pity on [PAWN_objective] when they hear [PAWN_possessive] story. -->
+		<!-- EN: A childhood accident put [PAWN_nameDef] into a coma. [PAWN_pronoun] didn't wake up until [PAWN_pronoun] was in [PAWN_possessive] late teens. [PAWN_possessive] body never recovered from the years of inactivity, but people tend to take pity on [PAWN_objective] when they hear [PAWN_possessive] story. -->
 		<desc>В результате несчастного случая, произошедшего в детстве, {PAWN_nameDef} впадает в кому. {PAWN_possessive} тело так и не оправляется от долгих лет без движения. Впрочем, услышав эту историю, большинство людей жалеют {PAWN_possessive}.</desc>
-	</ComaChild57>
+	</ComaChild93>
 
 	<!-- Offworld_Nonspecific_Adult -->
 	<CivilServant2>
@@ -1202,16 +1202,16 @@
 	</FireKeeper44>
 
 	<!-- Tribal_Adult -->
-	<Healer0>
+	<Healer46>
 		<!-- EN: healer -->
 		<title>знахарь</title>
 		<titleFemale>знахарка</titleFemale>
 		<!-- EN: healer -->
 		<titleShort>знахарь</titleShort>
 		<titleShortFemale>знахарка</titleShortFemale>
-		<!-- EN: After [PAWN_possessive] tribe’s elder healer was killed in a raid, [PAWN_nameDef] took on the role. [PAWN_pronoun] spent [PAWN_possessive] days scrounging up herbs and mineral compounds from the nearby area to use in surprisingly effective remedies. -->
+		<!-- EN: After [PAWN_possessive] tribe's elder healer was killed in a raid, [PAWN_nameDef] took on the role. [PAWN_pronoun] spent [PAWN_possessive] days scrounging up herbs and mineral compounds from the nearby area to use in surprisingly effective remedies. -->
 		<desc>После того, как во время очередного налёта бандиты убили знахаря, {PAWN_nameDef} {PAWN_gender ? занял : заняла} его место. {PAWN_pronoun} {PAWN_gender ? проводил : проводила} дни, собирая травы и минералы, из которых получались на удивление эффективные снадобья.</desc>
-	</Healer0>
+	</Healer46>
 
 	<!-- Tribal_Adult -->
 	<Scout59>
@@ -1986,14 +1986,14 @@
 	</RichKid61>
 
 	<!-- ImperialCommon_Child -->
-	<RoyalBastard3>
+	<RoyalBastard64>
 		<!-- EN: royal bastard -->
 		<title>бастард лорда</title>
 		<!-- EN: bastard -->
 		<titleShort>бастард</titleShort>
-		<!-- EN: [PAWN_nameDef] the child of a lord and a prostitute.\n\n[PAWN_possessive] father's line was secure and his holdings strong. Nobody ever came to [PAWN_nameDef] to endorse a bid for the title. [PAWN_pronoun] earned [PAWN_possessive] bread cleaning the brothel, but always felt [PAWN_pronoun] deserved much more. -->
+		<!-- EN: [PAWN_nameDef] was the child of a lord and a prostitute.\n\n[PAWN_possessive] father's line was secure and his holdings strong. Nobody ever came to [PAWN_nameDef] to endorse a bid for the title. [PAWN_pronoun] earned [PAWN_possessive] bread cleaning the brothel, but always felt [PAWN_pronoun] deserved much more. -->
 		<desc>{PAWN_nameDef} — {PAWN_gender ? сын : дочь} лорда и простолюдинки.\n\nУ отца была сильная власть и уже взрослый принц, поэтому никто так и не пришёл рассказать забытому бастарду о {PAWN_possessive} правах на престол. {PAWN_nameDef} {PAWN_gender ? зарабатывал : зарабатывала} на жизнь, убираясь в таверне, но всегда {PAWN_gender ? чувствовал : чувствовала}, что заслуживает большего.</desc>
-	</RoyalBastard3>
+	</RoyalBastard64>
 
 	<!-- ImperialCommon_Adult -->
 	<RoyalCook18>
@@ -2223,6 +2223,318 @@
 		<!-- EN: [PAWN_nameDef] was tasked with watching [PAWN_possessive] family's herds, but often shirked [PAWN_possessive] duties to go exploring the crashed warships scattered around the planet. -->
 		<desc>С юных лет {PAWN_nameDef} {PAWN_gender ? следил : следила} за скотом своего племени, но частенько {PAWN_gender ? увиливал : увиливала} от своей работы, чтобы исследовать обломки боевых кораблей, разбросанные по планете.</desc>
 	</WreckageExplorer93>
+
+	<!-- Offworld_Nonspecific_Adult -->
+	<AnimalFarmer21>
+		<!-- EN: animal farmer -->
+		<title>фермер-животновод</title>
+		<!-- EN: animal farmer -->
+		<titleShort>животновод</titleShort>
+		<!-- EN: [PAWN_nameDef] raised a variety of animals to provide meat, milk, eggs, and leather. -->
+		<desc>{PAWN_nameDef} {PAWN_gender ? выращивал : выращивала} различных животных для производства мяса, молока, яиц и кожи.</desc>
+	</AnimalFarmer21>
+
+	<!-- Sadist_Adult -->
+	<ArmyCommander14>
+		<!-- EN: Army commander -->
+		<title>командующий армией</title>
+		<!-- EN: Commander -->
+		<titleShort>генерал</titleShort>
+		<!-- EN: Unquenchable ambition propelled [PAWN_nameDef] to the highest levels of military command.\n\n[PAWN_pronoun] satisfied [PAWN_objective]self with the power to order death and pain upon [PAWN_possessive] enemies - and upon [PAWN_possessive] own soldiers. -->
+		<desc>Неутолимые амбиции помогли {PAWN_nameDef} добиться высокого звания в армии.\n\n{PAWN_pronoun} {PAWN_gender ? упивался : упивалась} своей властью, несущей смерть и страдания противнику... и {PAWN_possessive} собственным солдатам.</desc>
+	</ArmyCommander14>
+
+	<!-- Tribal_Adult -->
+	<Butcher40>
+		<!-- EN: butcher -->
+		<title>мясник</title>
+		<!-- EN: butcher -->
+		<titleShort>мясник</titleShort>
+		<!-- EN: [PAWN_nameDef]'s main job in the hunting party was the butchering of animals. [PAWN_pronoun] became a master with the knife, able to extract every bit of value from a carcass in a short time. -->
+		<desc>В своём охотничьем отряде {PAWN_nameDef} в основном {PAWN_gender ? занимался : занималась} разделкой животных. {PAWN_pronoun} {PAWN_gender ? стал : стала} мастером в обращении с ножом и {PAWN_gender ? способен : способна} за короткое время извлечь из туши каждый ценный кусочек.</desc>
+	</Butcher40>
+
+	<!-- Marshal_Adult -->
+	<CaesicMarshal72>
+		<!-- EN: caesic marshal -->
+		<title>спец-солдат</title>
+		<titleFemale>спец-солдат</titleFemale>
+		<!-- EN: marshal -->
+		<titleShort>солдат</titleShort>
+		<titleShortFemale>солдат</titleShortFemale>
+		<!-- EN: They say that the Caesic soldiers are recruited from the dead. Rising through such ranks, most return whence the came. [PAWN_nameDef] dominated because of [PAWN_possessive] strategic genius, machine-like focus, and tolerance for suffering - both [PAWN_objective] own and that of others. -->
+		<desc>Говорят, что солдаты подразделения «Цезий» — это нелюди. Проходя этапы жестокого обучения, большинство кандидатов возвращается туда, откуда пришли. {PAWN_nameDef} {PAWN_gender ? выдержал : выдержала} мясорубку отбора из-за врождённого стратегического гения, целеустремлённости как у торпеды и стойкости к страданиям — как своим, так и чужим. </desc>
+	</CaesicMarshal72>
+
+	<!-- Gambler_Child -->
+	<CardCounter25>
+		<!-- EN: card counter -->
+		<title>card counter</title>
+		<!-- EN: card counter -->
+		<titleShort>card counter</titleShort>
+		<!-- EN: In the urbworld underlevels, the strong kids learn to fight, the smart kids learn to cheat, and the other kids die. [PAWN_nameDef] was one of the smart kids. -->
+		<desc>In the urbworld underlevels, the strong kids learn to fight, the smart kids learn to cheat, and the other kids die. [PAWN_nameDef] was one of the smart kids.</desc>
+	</CardCounter25>
+
+	<!-- Tribal_Adult -->
+	<CaveBuilder81>
+		<!-- EN: cave builder -->
+		<title>строитель пещер</title>
+		<!-- EN: cave builder -->
+		<titleShort>шахтёр</titleShort>
+		<!-- EN: [PAWN_nameDef] specialized in cave complex excavation and construction. -->
+		<desc>[PAWN_nameDef] {PAWN_gender ? специализировался : специализировалась} на раскопках и создании пещерных комплексов.</desc>
+	</CaveBuilder81>
+
+	<!-- Offworld_Nonspecific_Adult -->
+	<CaveExplorer45>
+		<!-- EN: cave explorer -->
+		<title>спелеолог</title>
+		<!-- EN: cave explorer -->
+		<titleShort>спелеолог</titleShort>
+		<!-- EN: [PAWN_nameDef] made a living mapping out dark tunnels and near-inaccessible crevices in search of valuable minerals. [PAWN_possessive] work was very dangerous, but the pay was good. -->
+		<desc>{PAWN_nameDef} {PAWN_gender ? зарабатывал : зарабатывала} на жизнь созданием карт тёмных туннелей и малодоступных расщелин для поиска ценных минералов. {PAWN_possessive} работа была опасной, но хорошо оплачивалась.</desc>
+	</CaveExplorer45>
+
+	<!-- Offworld_Nonspecific_Adult -->
+	<ContractMiner86>
+		<!-- EN: contract miner -->
+		<title>contract miner</title>
+		<!-- EN: contract miner -->
+		<titleShort>contract miner</titleShort>
+		<!-- EN: [PAWN_nameDef] moved from job to job, extracting minerals and ancient valuables in tunnels and strip-mines. The work was tough and dirty, but [PAWN_pronoun] found it rewarding. -->
+		<desc>[PAWN_nameDef] moved from job to job, extracting minerals and ancient valuables in tunnels and strip-mines. The work was tough and dirty, but [PAWN_pronoun] found it rewarding.</desc>
+	</ContractMiner86>
+
+	<!-- Sadist_Adult -->
+	<DepartmentHead61>
+		<!-- EN: Department head -->
+		<title>Department head</title>
+		<!-- EN: Boss -->
+		<titleShort>Boss</titleShort>
+		<!-- EN: Seeking to satiate an unconscious thirst for power, [PAWN_nameDef] entered government. [PAWN_pronoun] rose through the ranks by ruining the careers of those around [PAWN_objective].\n\nOnce established, [PAWN_possessive] bureaucratic fief allowed him to get away with severe moral transgressions. -->
+		<desc>Seeking to satiate an unconscious thirst for power, [PAWN_nameDef] entered government. [PAWN_pronoun] rose through the ranks by ruining the careers of those around [PAWN_objective].\n\nOnce established, [PAWN_possessive] bureaucratic fief allowed him to get away with severe moral transgressions.</desc>
+	</DepartmentHead61>
+
+	<!-- Tribal_Adult -->
+	<Digger31>
+		<!-- EN: digger -->
+		<title>digger</title>
+		<!-- EN: digger -->
+		<titleShort>digger</titleShort>
+		<!-- EN: [PAWN_nameDef] labored in mines and caves, digging out spaces for storing items and hiding from threats. [PAWN_possessive] work provided hiding spots for [PAWN_possessive] friends on many occasions. -->
+		<desc>[PAWN_nameDef] labored in mines and caves, digging out spaces for storing items and hiding from threats. [PAWN_possessive] work provided hiding spots for [PAWN_possessive] friends on many occasions.</desc>
+	</Digger31>
+
+	<!-- Sadist_Child -->
+	<DivorceKid95>
+		<!-- EN: divorce kid -->
+		<title>divorce kid</title>
+		<!-- EN: divorce -->
+		<titleShort>divorce</titleShort>
+		<!-- EN: [PAWN_nameDef] was fortunate enough to attend one of the best private schools on [PAWN_possessive] homeworld.\n\n[PAWN_nameDef] was also unfortuante enough to see [PAWN_possessive] parents separate at a young age. -->
+		<desc>[PAWN_nameDef] was fortunate enough to attend one of the best private schools on [PAWN_possessive] homeworld.\n\n[PAWN_nameDef] was also unfortuante enough to see [PAWN_possessive] parents separate at a young age.</desc>
+	</DivorceKid95>
+
+	<!-- Tribal_Adult -->
+	<Excavator55>
+		<!-- EN: excavator -->
+		<title>excavator</title>
+		<!-- EN: excavator -->
+		<titleShort>excavator</titleShort>
+		<!-- EN: [PAWN_nameDef] worked at dig sites, extracting valuable items and materials from ancient compacted ruins. [PAWN_pronoun] learned how to spot valuables in the ground and use a variety of excavating tools. -->
+		<desc>[PAWN_nameDef] worked at dig sites, extracting valuable items and materials from ancient compacted ruins. [PAWN_pronoun] learned how to spot valuables in the ground and use a variety of excavating tools.</desc>
+	</Excavator55>
+
+	<!-- Gambler_Adult -->
+	<ExMilitary9>
+		<!-- EN: ex-military -->
+		<title>ex-military</title>
+		<!-- EN: ex-military -->
+		<titleShort>ex-military</titleShort>
+		<!-- EN: [PAWN_nameDef] always had an appetite for risk. Military life satisfied that need for a while, but eventually it wasn't enough.\n\nSeeking greater gambles, [PAWN_nameDef] took an offer from a mysterious machine persona and traveled to an unknown rimworld with a mysterious implant in [PAWN_possessive] head. -->
+		<desc>[PAWN_nameDef] always had an appetite for risk. Military life satisfied that need for a while, but eventually it wasn't enough.\n\nSeeking greater gambles, [PAWN_nameDef] took an offer from a mysterious machine persona and traveled to an unknown rimworld with a mysterious implant in [PAWN_possessive] head.</desc>
+	</ExMilitary9>
+
+	<!-- Offworld_Nonspecific_Adult -->
+	<Forester96>
+		<!-- EN: forester -->
+		<title>forester</title>
+		<!-- EN: forester -->
+		<titleShort>forester</titleShort>
+		<!-- EN: [PAWN_nameDef] grew and harvested forests. [PAWN_pronoun] understood both the practical challenges of soil types, wind, and rain, as well as the long-term planning of forest growth. -->
+		<desc>[PAWN_nameDef] grew and harvested forests. [PAWN_pronoun] understood both the practical challenges of soil types, wind, and rain, as well as the long-term planning of forest growth.</desc>
+	</Forester96>
+
+	<!-- Offworld_Nonspecific_Adult -->
+	<FurnitureBuilder83>
+		<!-- EN: furniture builder -->
+		<title>furniture builder</title>
+		<!-- EN: builder -->
+		<titleShort>builder</titleShort>
+		<!-- EN: [PAWN_nameDef] grew up near forests. [PAWN_pronoun] spent [PAWN_possessive] time building beautiful furniture for wealthy glitterworld clients. -->
+		<desc>[PAWN_nameDef] grew up near forests. [PAWN_pronoun] spent [PAWN_possessive] time building beautiful furniture for wealthy glitterworld clients.</desc>
+	</FurnitureBuilder83>
+
+	<!-- Mate_Child -->
+	<GrownMate56>
+		<!-- EN: grown mate -->
+		<title>выращенный танцор</title>
+		<titleFemale>выращенная балерина</titleFemale>
+		<!-- EN: mate -->
+		<titleShort>танцор</titleShort>
+		<titleShortFemale>балерина</titleShortFemale>
+		<!-- EN: [PAWN_nameDef] was vatgrown in a hyper-expensive clinic to serve the tastes of a specific client.\n\nEngineered, raised and trained as a perfect pleasure-giving mate, [PAWN_pronoun] learned skills that would baffle even the most seductive baseline human lovers. -->
+		<desc>{PAWN_possessive} вырастили в элитной клинике по заказу главного балетмейстера мира-утопии.\n\n{PAWN_gender ? Спроектированный, воспитанный и натренированный : Спроектированная, воспитанная и натренированная}, чтобы стать {PAWN_gender ? идеальным балеруном : идеальной балериной}, {PAWN_nameDef} {PAWN_gender ? научился : научилась} двигаться так, чтобы удовлетворять вкусы даже самого утончённого ценителя танцев.</desc>
+	</GrownMate56>
+
+	<!-- Tribal_Adult -->
+	<Herder33>
+		<!-- EN: herder -->
+		<title>herder</title>
+		<!-- EN: herder -->
+		<titleShort>herder</titleShort>
+		<!-- EN: [PAWN_nameDef] herded a variety of animals to help feed and clothe [PAWN_possessive] tribe while on the move. [PAWN_nameDef] learned how to calm and direct the beasts, and how to hunt [PAWN_possessive] own meals on the trail. -->
+		<desc>[PAWN_nameDef] herded a variety of animals to help feed and clothe [PAWN_possessive] tribe while on the move. [PAWN_nameDef] learned how to calm and direct the beasts, and how to hunt [PAWN_possessive] own meals on the trail.</desc>
+	</Herder33>
+
+	<!-- Offworld_Nonspecific_Adult -->
+	<Hunter89>
+		<!-- EN: hunter -->
+		<title>hunter</title>
+		<!-- EN: hunter -->
+		<titleShort>hunter</titleShort>
+		<!-- EN: [PAWN_nameDef] hunted wild animals to help feed [PAWN_possessive] community. When times became tough, others looked to [PAWN_objective] as the one to help people through a tough season. -->
+		<desc>[PAWN_nameDef] hunted wild animals to help feed [PAWN_possessive] community. When times became tough, others looked to [PAWN_objective] as the one to help people through a tough season.</desc>
+	</Hunter89>
+
+	<!-- Gambler_Adult -->
+	<InsuranceBroker9>
+		<!-- EN: insurance broker -->
+		<title>insurance broker</title>
+		<!-- EN: broker -->
+		<titleShort>broker</titleShort>
+		<!-- EN: A life of insurance dealing consumed [PAWN_nameDef]'s hopes and dreams. When a mysterious machine persona offered the gambler implant, it seemed like a way to add color to a gray existence.\n\n[PAWN_nameDef] did not, however, plan on being captured by pirates and sent across the galaxy to a distant rimworld. -->
+		<desc>A life of insurance dealing consumed [PAWN_nameDef]'s hopes and dreams. When a mysterious machine persona offered the gambler implant, it seemed like a way to add color to a gray existence.\n\n[PAWN_nameDef] did not, however, plan on being captured by pirates and sent across the galaxy to a distant rimworld.</desc>
+	</InsuranceBroker9>
+
+	<!-- Gambler_Adult -->
+	<LazyWorker78>
+		<!-- EN: lazy worker -->
+		<title>lazy worker</title>
+		<!-- EN: lazy worker -->
+		<titleShort>lazy worker</titleShort>
+		<!-- EN: When [PAWN_nameDef] was offered [PAWN_possessive] yearly salary in order to test a new implant, [PAWN_pronoun] jumped at the chance. Ever since then, [PAWN_nameDef] has been looking for a way to get it removed. -->
+		<desc>When [PAWN_nameDef] was offered [PAWN_possessive] yearly salary in order to test a new implant, [PAWN_pronoun] jumped at the chance. Ever since then, [PAWN_nameDef] has been looking for a way to get it removed.</desc>
+	</LazyWorker78>
+
+	<!-- Offworld_Nonspecific_Adult -->
+	<Logger95>
+		<!-- EN: logger -->
+		<title>logger</title>
+		<!-- EN: logger -->
+		<titleShort>logger</titleShort>
+		<!-- EN: [PAWN_nameDef] took down trees and collected wood in hilly passes and ravines. [PAWN_pronoun] learned both how to fell the trees safely, and how to manage the forest to keep it healthy. -->
+		<desc>[PAWN_nameDef] took down trees and collected wood in hilly passes and ravines. [PAWN_pronoun] learned both how to fell the trees safely, and how to manage the forest to keep it healthy.</desc>
+	</Logger95>
+
+	<!-- Sadist_Child -->
+	<PetTorturer60>
+		<!-- EN: pet torturer -->
+		<title>юный ветеринар</title>
+		<titleFemale>юный ветеринар</titleFemale>
+		<!-- EN: pet torturer -->
+		<titleShort>юннат</titleShort>
+		<titleShortFemale>юннатка</titleShortFemale>
+		<!-- EN: [PAWN_nameDef]'s affluent family helped conceal {PAWN_possessive} habit of torturing animals.\n\nDespite years of therapy, [PAWN_pronoun] could never bring {PAWN_objective}self to interact with the little beasts in any normal way. [PAWN_pronoun] did learn a few things about how bodies live and die. -->
+		<desc>С раннего детства {PAWN_nameDef} не {PAWN_gender ? мог : могла} пройти мимо любой раненой зверушки. Родители, смирившись с напором юного айболита, выделили старый сарай для «ветклиники», где окрестной живности оказывалась пусть и неквалифицированная, но своевременная помощь.\n\nВсё изменилось с наступлением атомной войны. Правила срочной эвакуации с планеты крайне строги по отношению к домашним животным — брать с собой кого-либо из них категорически запрещено. Читая сквозь слёзы сводку о ядерной атаке на свой город, {PAWN_nameDef} {PAWN_gender ? поклялся : поклялась} никогда больше не привязываться к животным.</desc>
+	</PetTorturer60>
+
+	<!-- Tribal_Adult -->
+	<PlankCutter72>
+		<!-- EN: plank cutter -->
+		<title>plank cutter</title>
+		<!-- EN: plank cutter -->
+		<titleShort>plank cutter</titleShort>
+		<!-- EN: [PAWN_nameDef] helped [PAWN_possessive] tribe build huge wooden structures by cutting trees into sturdy planks. [PAWN_nameDef] developed a fine understanding of how wood grows and splits. -->
+		<desc>[PAWN_nameDef] helped [PAWN_possessive] tribe build huge wooden structures by cutting trees into sturdy planks. [PAWN_nameDef] developed a fine understanding of how wood grows and splits.</desc>
+	</PlankCutter72>
+
+	<!-- Sadist_Child -->
+	<PoliticalClimber28>
+		<!-- EN: political climber -->
+		<title>юный политик</title>
+		<titleFemale>юный политик</titleFemale>
+		<!-- EN: political climber -->
+		<titleShort>политик</titleShort>
+		<titleShortFemale>политик</titleShortFemale>
+		<!-- EN: [PAWN_nameDef] was a smart kid, so everyone encouraged [PAWN_possessive] ambition to become a politican.\n\n[PAWN_pronoun] would use any tactic to win, including direct psychological attacks.\n\nDuring one school election, the other candidate hung himself. [PAWN_nameDef] won by default. -->
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} настолько сообразительным ребёнком, что все вокруг поощряли {PAWN_possessive} стремление влиться в политическое движение.\n\n{PAWN_pronoun} {PAWN_gender ? использовал : использовала} все средства для достижения победы, включая жёсткое психологическое давление.\n\nОднажды, во время школьных выборов, другой политический кандидат слёг с депрессией. {PAWN_nameDef} {PAWN_gender ? победил : победила} в связи с отсутствием других достойных противников.</desc>
+	</PoliticalClimber28>
+
+	<!-- Offworld_Nonspecific_Adult -->
+	<QuarryWorker29>
+		<!-- EN: quarry worker -->
+		<title>quarry worker</title>
+		<!-- EN: quarry worker -->
+		<titleShort>quarry worker</titleShort>
+		<!-- EN: [PAWN_nameDef] worked in a quarry helping to extract valuable stone from the hillside. [PAWN_pronoun] learned to sense opportunities and dangers in the stone by sight, touch, and intuition. -->
+		<desc>[PAWN_nameDef] worked in a quarry helping to extract valuable stone from the hillside. [PAWN_pronoun] learned to sense opportunities and dangers in the stone by sight, touch, and intuition.</desc>
+	</QuarryWorker29>
+
+	<!-- Offworld_Nonspecific_Adult -->
+	<Ranger96>
+		<!-- EN: ranger -->
+		<title>ranger</title>
+		<!-- EN: ranger -->
+		<titleShort>ranger</titleShort>
+		<!-- EN: [PAWN_nameDef] tracked animals and people for a wide range of clients. [PAWN_pronoun] became adept at reading spoor, finding food in the wild, and stalking prey. -->
+		<desc>[PAWN_nameDef] tracked animals and people for a wide range of clients. [PAWN_pronoun] became adept at reading spoor, finding food in the wild, and stalking prey.</desc>
+	</Ranger96>
+
+	<!-- InsectsRelated_Child -->
+	<SewerKid57>
+		<!-- EN: sewer kid -->
+		<title>sewer kid</title>
+		<!-- EN: sewer girl -->
+		<titleFemale>sewer girl</titleFemale>
+		<!-- EN: sewer boy -->
+		<titleShort>sewer boy</titleShort>
+		<!-- EN: sewer girl -->
+		<titleShortFemale>sewer girl</titleShortFemale>
+		<!-- EN: [PAWN_nameDef] grew up in the sludge-smeared sewers of a polluted industrial world.\n\n[PAWN_pronoun] befriended the strange insects in the darkness, and learned to love them. -->
+		<desc>[PAWN_nameDef] grew up in the sludge-smeared sewers of a polluted industrial world.\n\n[PAWN_pronoun] befriended the strange insects in the darkness, and learned to love them.</desc>
+	</SewerKid57>
+
+	<!-- Offworld_Nonspecific_Adult -->
+	<Slaughterer58>
+		<!-- EN: slaughterer -->
+		<title>slaughterer</title>
+		<!-- EN: slaughterer -->
+		<titleShort>slaughterer</titleShort>
+		<!-- EN: [PAWN_nameDef] slaughtered animals for a living. Others looked down on this work as filthy, but the skills required to manage and cleanly slaughter large numbers of animals were never simple. -->
+		<desc>[PAWN_nameDef] slaughtered animals for a living. Others looked down on this work as filthy, but the skills required to manage and cleanly slaughter large numbers of animals were never simple.</desc>
+	</Slaughterer58>
+
+	<!-- Gambler_Child -->
+	<StreetUrchin22>
+		<!-- EN: street urchin -->
+		<title>street urchin</title>
+		<!-- EN: urchin -->
+		<titleShort>urchin</titleShort>
+		<!-- EN: [PAWN_nameDef] was raised by two drug-addicted gamblers who didn't provide a decent standard of living. [PAWN_nameDef] learned to survive by pursuing dangerous and often poorly-planned schemes and swindles that sometimes resulted in food. -->
+		<desc>[PAWN_nameDef] was raised by two drug-addicted gamblers who didn't provide a decent standard of living. [PAWN_nameDef] learned to survive by pursuing dangerous and often poorly-planned schemes and swindles that sometimes resulted in food.</desc>
+	</StreetUrchin22>
+
+	<!-- Tribal_Adult -->
+	<TreehouseBuilder86>
+		<!-- EN: treehouse builder -->
+		<title>treehouse builder</title>
+		<!-- EN: treehouse builder -->
+		<titleShort>treehouse builder</titleShort>
+		<!-- EN: [PAWN_nameDef] built houses among, and sometimes suspended in, the trees for [PAWN_possessive] people to use while traveling or foraging. [PAWN_nameDef] learned how to best find and use wild plants, and how to fight off wild animals. -->
+		<desc>[PAWN_nameDef] built houses among, and sometimes suspended in, the trees for [PAWN_possessive] people to use while traveling or foraging. [PAWN_nameDef] learned how to best find and use wild plants, and how to fight off wild animals.</desc>
+	</TreehouseBuilder86>
 
 	<!-- James "Doc" Grey, Male, Childhood -->
 	<FallenProdigy40>
@@ -8367,30 +8679,6 @@
 	</CardCounter25>
 
 	<!-- ? -->
-	<CaesicMarshal72>
-		<!-- EN: caesic marshal -->
-		<title>спец-солдат</title>
-		<titleFemale>спец-солдат</titleFemale>
-		<!-- EN: marshal -->
-		<titleShort>солдат</titleShort>
-		<titleShortFemale>солдат</titleShortFemale>
-		<!-- EN: They say that the Caesic soldiers are recruited from the dead. Rising through such ranks, most return whence the came. [PAWN_nameDef] dominated because of [PAWN_possessive] strategic genius, machine-like focus, and tolerance for suffering - both [PAWN_objective] own and that of others. -->
-		<desc>Говорят, что солдаты подразделения «Цезий» — это нелюди. Проходя этапы жестокого обучения, большинство кандидатов возвращается туда, откуда пришли. {PAWN_nameDef} {PAWN_gender ? выдержал : выдержала} мясорубку отбора из-за врождённого стратегического гения, целеустремлённости как у торпеды и стойкости к страданиям — как своим, так и чужим. </desc>
-	</CaesicMarshal72>
-
-	<!-- ? -->
-	<GrownMate56>
-		<!-- EN: grown mate -->
-		<title>выращенный танцор</title>
-		<titleFemale>выращенная балерина</titleFemale>
-		<!-- EN: mate -->
-		<titleShort>танцор</titleShort>
-		<titleShortFemale>балерина</titleShortFemale>
-		<!-- EN: [PAWN_nameDef] was vatgrown in a hyper-expensive clinic to serve the tastes of a specific client.\n\nEngineered, raised and trained as a perfect pleasure-giving mate, [PAWN_pronoun] learned skills that would baffle even the most seductive baseline human lovers. -->
-		<desc>{PAWN_possessive} вырастили в элитной клинике по заказу главного балетмейстера мира-утопии.\n\n{PAWN_gender ? Спроектированный, воспитанный и натренированный : Спроектированная, воспитанная и натренированная}, чтобы стать {PAWN_gender ? идеальным балеруном : идеальной балериной}, {PAWN_nameDef} {PAWN_gender ? научился : научилась} двигаться так, чтобы удовлетворять вкусы даже самого утончённого ценителя танцев.</desc>
-	</GrownMate56>
-
-	<!-- ? -->
 	<ArmyCommander14>
 		<!-- EN: army commander -->
 		<title>генерал армии</title>
@@ -8401,30 +8689,6 @@
 		<!-- EN: Uncuenchable ambition propelled [PAWN_nameDef] to the highest levels of military command.\n\n[PAWN_pronoun] satisfied [PAWN_objective]self with the power to order death and pain upon [PAWN_possessive] enemies - and upon [PAWN_possessive] own soldiers. -->
 		<desc>{PAWN_nameDef}, {PAWN_gender ? движимый : движимая} неутолимыми амбициями, {PAWN_gender ? дослужился : дослужилась} до высших чинов военного командования.\n\nТам {PAWN_pronoun} наконец {PAWN_gender ? нашёл : нашла} себя, реализовав свой потенциал стратегического планирования.</desc>
 	</ArmyCommander14>
-
-	<!-- ? -->
-	<PetTorturer60>
-		<!-- EN: pet torturer -->
-		<title>юный ветеринар</title>
-		<titleFemale>юный ветеринар</titleFemale>
-		<!-- EN: pet torturer -->
-		<titleShort>юннат</titleShort>
-		<titleShortFemale>юннатка</titleShortFemale>
-		<!-- EN: [PAWN_nameDef]'s affluent family helped conceal {PAWN_possessive} habit of torturing animals.\n\nDespite years of therapy, [PAWN_pronoun] could never bring {PAWN_objective}self to interact with the little beasts in any normal way. [PAWN_pronoun] did learn a few things about how bodies live and die. -->
-		<desc>С раннего детства {PAWN_nameDef} не {PAWN_gender ? мог : могла} пройти мимо любой раненой зверушки. Родители, смирившись с напором юного айболита, выделили старый сарай для «ветклиники», где окрестной живности оказывалась пусть и неквалифицированная, но своевременная помощь.\n\nВсё изменилось с наступлением атомной войны. Правила срочной эвакуации с планеты крайне строги по отношению к домашним животным — брать с собой кого-либо из них категорически запрещено. Читая сквозь слёзы сводку о ядерной атаке на свой город, {PAWN_nameDef} {PAWN_gender ? поклялся : поклялась} никогда больше не привязываться к животным.</desc>
-	</PetTorturer60>
-
-	<!-- ? -->
-	<PoliticalClimber28>
-		<!-- EN: political climber -->
-		<title>юный политик</title>
-		<titleFemale>юный политик</titleFemale>
-		<!-- EN: political climber -->
-		<titleShort>политик</titleShort>
-		<titleShortFemale>политик</titleShortFemale>
-		<!-- EN: [PAWN_nameDef] was a smart kid, so everyone encouraged [PAWN_possessive] ambition to become a politican.\n\n[PAWN_pronoun] would use any tactic to win, including direct psychological attacks.\n\nDuring one school election, the other candidate hung himself. [PAWN_nameDef] won by default. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} настолько сообразительным ребёнком, что все вокруг поощряли {PAWN_possessive} стремление влиться в политическое движение.\n\n{PAWN_pronoun} {PAWN_gender ? использовал : использовала} все средства для достижения победы, включая жёсткое психологическое давление.\n\nОднажды, во время школьных выборов, другой политический кандидат слёг с депрессией. {PAWN_nameDef} {PAWN_gender ? победил : победила} в связи с отсутствием других достойных противников.</desc>
-	</PoliticalClimber28>
 
 	<!-- ? -->
 	<UrbworldUrchin6>
