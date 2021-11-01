@@ -2,6 +2,15 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
+2021-11-01 добавлена адаптация для мода Vanilla Traits Expanded и его русификатора, заодно исправлены их ошибки, см.каменты в коде. Чтобы не было красных ошибок, добавлена зависимость от этого мода.
+Добавлена адаптация для мода Rim of Madness Bones и русская локализация. По желанию, доступно исправление кривоватого баланса:
+- убраны кости из механоидов (код мода устарел);
+- исправлена графика дубины-вентилятора (попробуйте взять кость как оружие);
+- убраны древние костяные строения (из которых можно было добыть съедобный костный мозг);
+- рецепт выплавления пластали перемещён из перегонного аппарата в электроплавильню (там температура более подходящая);
+- добавлен срок годности для костного мозга 2 игровых суток (соответствует реальному сроку в 4 дня).
+Чтобы не было красных ошибок, добавлена зависимость от этого мода.
+
 2021-10-06 добавлена адаптация и локализация для мода OrassansLite. Исправлена его красные ошибки: текстур (для RW 1.3), предысторий, см.каменты в коде, и почему-то пропала красная ошибка генерации кошачьих имён.
 Скомпилирована версия 12+мода 0.9.6pre-release.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
@@ -110,8 +119,6 @@ For English, scroll down.
 
 2021-08-08 добавлена адаптация для мода Allow Dead Animals.
 
-2021-08-03 добавлена адаптация для мода Vanilla Traits Expanded и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
-
 2021-08-02 добавлена адаптация для мода GeneticRim Alpha Animals Patch и русификатора от gigaveter, заодно исправлены их ошибки, см.каменты в коде.
 
 2021-08-01 добавлена адаптация для мода Alpha Animals и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
@@ -157,13 +164,6 @@ For English, scroll down.
 2021-04-02 добавлена адаптация для мода Vanilla Expanded Furniture Production и его русификатора, заодно исправлены ошибки, см.каменты в коде.
 
 2021-03-26 добавлена адаптация для мода RimFridge.
-
-2021-03-18 добавлена адаптация для мода Rim of Madness Bones и русская локализация. По желанию, доступно исправление кривоватого баланса:
-- убраны кости из механоидов (код мода устарел);
-- исправлена графика дубины-вентилятора (попробуйте взять кость как оружие);
-- убраны древние костяные строения (из которых можно было добыть съедобный костный мозг);
-- рецепт выплавления пластали перемещён из перегонного аппарата в электроплавильню (там температура более подходящая);
-- добавлен срок годности для костного мозга 2 игровых суток (соответствует реальному сроку в 4 дня).
 
 2021-03-13 добавлена адаптация для мода Vanilla Expanded Cooking с дополнением Vanilla Expanded Stews и русификатором, заодно исправлены их ошибки, см.каменты в коде. По желанию, доступно исправление кривоватого баланса:
 - теперь суп варится 2 часа вместо 48, а рагу 8 часов вместо 72 - это чтобы выровнять время относительно выпечки;
@@ -224,6 +224,15 @@ For English, scroll down.
 =====
 
 Changelog for Rimworld's 12plus modification.
+
+2021-nov-01 VanillaExpanded.VanillaTraitsExpanded and RU.VanillaExpanded.VanillaTraitsExpanded mods' adaptation added. Also corrected their mistakes, see code comments. To avoid red errors, mod dependence added.
+sihv.rombones mod adaptation added and its Russian translation. Optional balance change available:
+- removed bones from mechanoids (obsolete code);
+- corrected graphics' bug if bone is armed as club;
+- removed ancient bone structures (they could be deconstructed and processed into edible marrow);
+- plasteel smelt receipe moved from biofuel refinery into elecric smelter (looks like more real conditions);
+- added marrow rotting period of 2 days (more real).
+To avoid red errors, mod dependence added.
 
 2021-oct-10 DianaWinters.OrassansLite mod adaptation added and russian translation. Fixed cats' backstories red error. Suddenly cats' names' red error disappeared. For RW 1.3 fixed textures' red error.
 UncleShvya.12plus mod v.0.9.6pre-release compiled.
@@ -333,8 +342,6 @@ VanillaExpanded.VPlantsE and RU.VanillaExpanded.VPlantsE mods' adaptation added.
 
 2021-aug-08 AndrewRaphaelLukasik.AllowDeadAnimals mod adaptation added.
 
-2021-aug-03 VanillaExpanded.VanillaTraitsExpanded and RU.VanillaExpanded.VanillaTraitsExpanded mods' adaptation added. Also corrected their mistakes, see code comments.
-
 2021-aug-02 sarg.geneticrimalphaanimals mod adaptation added. Used russian translation by gigaveter. Also corrected their mistakes, see code comments.
 
 2021-aug-01 sarg.alphaanimals and PiaRex.AlphaAnimalsTranslationRus mods' adaptation added. Also corrected their mistakes, see code comments.
@@ -380,13 +387,6 @@ Had to rebalance the most rebarbative developers' mistake - now sentry gun needs
 2021-apr-02 VanillaExpanded.VFEProduction and Inoshishi3.VanillaExpanded.VFEProductionRusPatch mods' adaptation added. Also corrected mistakes, see code comments.
 
 2021-mar-26 rimfridge.kv.rw mod adaptation added.
-
-2021-mar-18 sihv.rombones mod adaptation added and its Russian translation. Optional balance change available:
-- removed bones from mechanoids (obsolete mod code);
-- corrected graphics' bug if bone is armed as club;
-- removed ancient bone structures (they could be deconstructed and processed into edible marrow);
-- plasteel smelt receipe moved from biofuel refinery into elecric smelter (looks like more real conditions);
-- added marrow rotting period of 2 days (looks like more real one).
 
 2021-mar-13 VanillaExpanded.VCookE, VanillaExpanded.VCookEStews and Inoshishi3.VanillaExpanded.VCookERusPatch mods' adaptation added. Also corrected their mistakes, see code comments. Optional balance change available:
 - now soups are boiling 2 hours instead of 48, stews - 8 hours instead of 72. These are to equalize them with baking time;
