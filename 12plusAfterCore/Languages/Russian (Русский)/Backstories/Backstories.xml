@@ -8668,28 +8668,4 @@
 		<desc>[PAWN_nameDef] traveled the world, always looking for old and forgotten things to repair for the good of others, working to see the true beauty in all things.</desc>
 	</Restorer70>
 
-	<!-- ? -->
-	<UrbworldUrchin6>
-		<!-- EN: urbworld urchin -->
-		<title>городской сирота</title>
-		<titleFemale>городская сирота</titleFemale>
-		<!-- EN: urchin -->
-		<titleShort>сирота</titleShort>
-		<titleShortFemale>сирота</titleShortFemale>
-		<!-- EN: [PAWN_nameDef] was born in the darkest slums of [PAWN_possessive] urban homeworld. Neglected by [PAWN_possessive] mother, [PAWN_pronoun] learned how to survive on [PAWN_possessive] own, battling for every scrap of food [PAWN_pronoun] saw.\n\nEventually, as [PAWN_possessive] talents exceeded [PAWN_possessive] peers, [PAWN_pronoun] ascended from the depth to the surface streets and left [PAWN_possessive] mother behind. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} в самых тёмных трущобах перенаселённого мира. Рано потеряв родителей, {PAWN_pronoun} {PAWN_gender ? научился : научилась} выживать в одиночку, сражаясь за каждый найденный кусочек пищи. В конце концов, превзойдя сверстников во всём, {PAWN_nameDef} {PAWN_gender ? поднялся : поднялась} со дна общества, оставив прошлую жизнь позади.</desc>
-	</UrbworldUrchin6>
-
-	<!-- ? -->
-	<StreetUrchin74>
-		<!-- EN: street urchin -->
-		<title>городской сирота</title>
-		<titleFemale>городская сирота</titleFemale>
-		<!-- EN: grifter -->
-		<titleShort>сирота</titleShort>
-		<titleShortFemale>сирота</titleShortFemale>
-		<!-- EN: After running away from home, [PAWN_nameDef] had to live on the streets.\n\n[PAWN_pronoun] grew up fast, and learned early that [PAWN_pronoun] had to figure out how to fool people into connecting with [PAWN_objective]. -->
-		<desc>Рано потеряв родителей, {PAWN_nameDef} {PAWN_gender ? был вынужден : была вынуждена} в одиночку выживать на улицах.\n\n{PAWN_pronoun} быстро {PAWN_gender ? повзрослел : повзрослела} и быстро {PAWN_gender ? понял : поняла}, насколько это тяжёлое занятие — самостоятельная жизнь.</desc>
-	</StreetUrchin74>
-
 </BackstoryTranslations>
