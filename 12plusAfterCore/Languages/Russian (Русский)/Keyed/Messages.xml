@@ -43,8 +43,8 @@
 	<!-- Оригинал: {0} {0_gender ? погиб : погибла : погибло} из-за болезни. -->
 	<MessagePlantDiedOfBlight>{0} {0_gender ? завял : завяла : завяло} из-за болезни.</MessagePlantDiedOfBlight>
 	<!-- Заодно сглажена ссылка на животных - для модов на неявно живые существа.
-	Оригинал: Если вы убьёте {DESIGNATED_labelShort}...к этому животному. -->
-	<MessageSlaughteringBondedAnimal>Если вы потеряете {DESIGNATED_labelShort}, {BONDED_labelShort} расстроится из-за своей привязанности к этому питомцу.</MessageSlaughteringBondedAnimal>
+	Оригинал: ...вы убьёте {DESIGNATED_labelShort}...этому животному. -->
+	<MessageSlaughteringBondedAnimal>Если вы потеряете {DESIGNATED_labelShort}, {BONDED_labelShort} расстроится, поскольку {BONDED_gender ? привязан : привязана} к этому питомцу.</MessageSlaughteringBondedAnimal>
 	<!-- Оригинал: Внимание: {0} не выживет на свету. -->
 	<MessageWarningCavePlantsExposedToLight>Внимание: {0} увядает на свету.</MessageWarningCavePlantsExposedToLight>
 	<!-- Оригинал: ...{1_gender ? погиб : погибла} -->
@@ -53,5 +53,7 @@
 	<GoodwillChangeReason_CiviliansLost>потеряны гражданские</GoodwillChangeReason_CiviliansLost>
 	<!-- Оригинал: погиб командир -->
 	<GoodwillChangeReason_CommanderLost>потерян командир</GoodwillChangeReason_CommanderLost>
+	<!-- Оригинал: Извлечённое дерево погибло. -->
+	<MessageMinifiedTreeDied>Извлечённое дерево засохло.</MessageMinifiedTreeDied>
 
 </LanguageData>
