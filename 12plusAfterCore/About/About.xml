@@ -160,6 +160,16 @@ Ideas to realize in next version:
 			<displayName>Vanilla Cooking Expanded</displayName>
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2134308519</steamWorkshopUrl>
 		</li>
+		<li>
+			<packageId>vanillaexpanded.vanillatraitsexpanded</packageId>
+			<displayName>Vanilla Traits Expanded</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2296404655</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>sihv.rombones</packageId>
+			<displayName>Rim of Madness - Bones</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/1180573408</steamWorkshopUrl>
+		</li>
 	</modDependencies>
 	<loadBefore>
 		<li>UncleShvya.ExpandedRoofingRusFix</li>
