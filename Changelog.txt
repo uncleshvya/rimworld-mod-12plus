@@ -2,16 +2,16 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
+2021-11-02 апдейт к свежему официальному переводу. Обработаны 2 неофициальных перевода, приоритет смещён на оный от автора Sestrenka, как более качественный. Поддержка перевода от LeveFUN заморожена до востребования.
+
 2021-11-01 добавлена адаптация для мода Vanilla Traits Expanded и его русификатора, заодно исправлены их ошибки, см.каменты в коде. Чтобы не было красных ошибок, добавлена зависимость от этого мода.
 Добавлена адаптация для мода Rim of Madness Bones и русская локализация. По желанию, доступно исправление кривоватого баланса:
-- убраны кости из механоидов (код мода устарел);
+- убраны кости из механоидов (код устарел);
 - исправлена графика дубины-вентилятора (попробуйте взять кость как оружие);
 - убраны древние костяные строения (из которых можно было добыть съедобный костный мозг);
 - рецепт выплавления пластали перемещён из перегонного аппарата в электроплавильню (там температура более подходящая);
 - добавлен срок годности для костного мозга 2 игровых суток (соответствует реальному сроку в 4 дня).
 Чтобы не было красных ошибок, добавлена зависимость от этого мода.
-
-2021-10-06 добавлена адаптация и локализация для мода OrassansLite. Исправлена его красные ошибки: текстур (для RW 1.3), предысторий, см.каменты в коде, и почему-то пропала красная ошибка генерации кошачьих имён.
 Скомпилирована версия 12+мода 0.9.6pre-release.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowDeadAnimals_";
@@ -71,8 +71,9 @@ For English, scroll down.
 "VGPtools_";
 "ZiTools".
 
-2021-10-03 добавлена адаптация для Ideology, обработаны официальный и 2 неофициальных перевода. В процессе работы смещён приоритет на перевод от Sestrenka, как более качественный. Поддержка перевода от LeveFUN заморожена до востребования.
-Адаптирован рассказчик.
+2021-10-06 добавлена адаптация и локализация для мода OrassansLite. Исправлена его красные ошибки: текстур (для RW 1.3), предысторий, см.каменты в коде, и почему-то пропала красная ошибка генерации кошачьих имён.
+
+2021-10-03 добавлена адаптация для Ideology и рассказчика.
 
 2021-09-15 добавлена адаптация для мода DubsBadHygiene, заодно исправлены его ошибки, см.каменты в коде. По желанию, доступно исправление кривоватого баланса:
 - возвращено отображение радиуса загрязнения колодца, зачем автор убрал это?
@@ -82,8 +83,6 @@ For English, scroll down.
 
 2021-09-10 добавлена адаптация для мода ZiTools objects seeker.
 Добавлена адаптация для мода GlitterTech и переводов от KappaKan и kr33man.
-
-2021-09-08 апдейт к официальному переводу версии 1.2. от 2021-03-09.
 
 2021-09-07 добавлена адаптация для мода InventoryTab.
 Добавлена адаптация для мода Expanded Prosthetics and Organ Engineering, заодно исправлены ошибки перевода, см.каменты в коде.
@@ -225,6 +224,8 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
+2021-nov-02 Russifier.Ideology mod adaptation added. Support for RU.Ideology mod was paused until asked, because it's a bit worse.
+
 2021-nov-01 VanillaExpanded.VanillaTraitsExpanded and RU.VanillaExpanded.VanillaTraitsExpanded mods' adaptation added. Also corrected their mistakes, see code comments. To avoid red errors, mod dependence added.
 sihv.rombones mod adaptation added and its Russian translation. Optional balance change available:
 - removed bones from mechanoids (obsolete code);
@@ -233,8 +234,6 @@ sihv.rombones mod adaptation added and its Russian translation. Optional balance
 - plasteel smelt receipe moved from biofuel refinery into elecric smelter (looks like more real conditions);
 - added marrow rotting period of 2 days (more real).
 To avoid red errors, mod dependence added.
-
-2021-oct-10 DianaWinters.OrassansLite mod adaptation added and russian translation. Fixed cats' backstories red error. Suddenly cats' names' red error disappeared. For RW 1.3 fixed textures' red error.
 UncleShvya.12plus mod v.0.9.6pre-release compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowDeadAnimals_";
@@ -294,8 +293,9 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "VGPtools_";
 "ZiTools".
 
-2021-oct-03 DLC Ideology and Russifier.Ideology mod adaptation added. Support for RU.Ideology mod was paused until asked, because it's a bit worse.
-Storyteller adaptation added.
+2021-oct-10 DianaWinters.OrassansLite mod adaptation added and russian translation. Fixed cats' backstories red error. Suddenly cats' names' red error disappeared. For RW 1.3 fixed textures' red error.
+
+2021-oct-03 DLC Ideology and storyteller adaptation added.
 
 2021-sep-15 Dubwise.DubsBadHygiene mod adaptation added. Also corrected its mistakes, see code comments. Optional balance change available:
 - restored well contamination radius. Why did Dubwise removed it?
@@ -305,8 +305,6 @@ removed "Bloodlust" buff: after organ harvesting.
 
 2021-sep-10 maxzicode.zitools mod adaptation added.
 Xavior.GliterTech mod adaptation added, with Russian translations by KappaKan and kr33man.
-
-2021-sep-08 update to official Russian translation for v.1.2. rev.2021mar09.
 
 2021-sep-07 SirKota.InventoryTab mod adaptation added.
 Ykara.EPOE mod adaptation added. Also corrected translation mistakes, see code comments.
