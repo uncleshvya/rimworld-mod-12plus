@@ -53,7 +53,5 @@
 	<GoodwillChangeReason_CiviliansLost>потеряны гражданские</GoodwillChangeReason_CiviliansLost>
 	<!-- Оригинал: погиб командир -->
 	<GoodwillChangeReason_CommanderLost>потерян командир</GoodwillChangeReason_CommanderLost>
-	<!-- Оригинал: Извлечённое дерево погибло. -->
-	<MessageMinifiedTreeDied>Извлечённое дерево засохло.</MessageMinifiedTreeDied>
 
 </LanguageData>
