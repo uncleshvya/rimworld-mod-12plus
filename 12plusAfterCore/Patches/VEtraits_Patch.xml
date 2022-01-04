@@ -12,7 +12,7 @@ Copyright (c) Oskar Potocki
 			<!-- Исправление согласно концепции «12+».
 
 			Пока трейты не исправлены, отключаем их.
-			Следить за алфавитным порядком файлов с патчами -->
+			Следить за алфавитным порядком файлов с патчами, тег disallowedTraits -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "Human"]/alienRace/generalSettings/disallowedTraits</xpath>
 				<value>
