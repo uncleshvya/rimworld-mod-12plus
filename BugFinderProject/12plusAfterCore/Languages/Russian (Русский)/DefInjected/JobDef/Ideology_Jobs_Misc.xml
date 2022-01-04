@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Работа относится и к животным, и к человеческим жертвоприношениям.
+	Оригинал: приносит в жертву TargetA -->
+	<Sacrifice.reportString>проводит жуткий ритуал над TargetA</Sacrifice.reportString>
+
+</LanguageData>

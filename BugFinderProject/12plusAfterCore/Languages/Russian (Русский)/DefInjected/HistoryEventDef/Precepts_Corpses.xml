@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: вид трупа -->
+	<ObservedLayingCorpse.label>вид тела</ObservedLayingCorpse.label>
+	<!-- Оригинал: ...гниющего трупа -->
+	<ObservedLayingRottingCorpse.label>вид гниющего тела</ObservedLayingRottingCorpse.label>
+
+</LanguageData>

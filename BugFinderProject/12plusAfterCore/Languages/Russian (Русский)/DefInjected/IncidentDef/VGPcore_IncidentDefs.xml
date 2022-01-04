@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Заодно исправлен конфликт модов, сообщите разработчикам:
+	Haplo.Miscellaneous.BeesNHoney
+	dismarzero.VGP.VGPVegetableGarden
+	Использован другой вид медоносных насекомых.
+	EN: beehive formed -->
+	<BeeHiveSprout.label>шмелиные ульи</BeeHiveSprout.label>
+	<!-- EN: BeeHives Formed -->
+	<BeeHiveSprout.letterLabel>Шмелиные ульи</BeeHiveSprout.letterLabel>
+	<!-- EN: A group of bee's have formed some hives. Let them grow and steal their honey! -->
+	<BeeHiveSprout.letterText>Шмели построили свои ульи неподалёку. Подождите, пока соты наполнятся, и соберите свежий мёд.</BeeHiveSprout.letterText>
+
+</LanguageData>

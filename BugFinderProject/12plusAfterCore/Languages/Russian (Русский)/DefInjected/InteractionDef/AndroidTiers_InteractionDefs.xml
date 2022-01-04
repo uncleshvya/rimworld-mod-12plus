@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Оригинал: Говорили о робототехнике -->
+	<RoboticsChat.label>разговор о робототехнике</RoboticsChat.label>
+	<!-- Структура разговоров исправлена. Ведь взаимодействие записывается в журналы обоих поселенцев.
+	Оригинал: r_logentry->[talkedabout] с [RECIPIENT_nameDef] о робототехнике. -->
+	<RoboticsChat.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef] [talkedabout] с [RECIPIENT_nameDef] о робототехнике.</RoboticsChat.logRulesInitiator.rulesStrings.0>
+	<!-- Оригинал: talkedabout->общих мыслях -->
+	<RoboticsChat.logRulesInitiator.rulesStrings.1>talkedabout->обменивается информацией</RoboticsChat.logRulesInitiator.rulesStrings.1>
+	<!-- Оригинал: talkedabout->своих мыслях -->
+	<RoboticsChat.logRulesInitiator.rulesStrings.2>talkedabout->делится своими мыслями</RoboticsChat.logRulesInitiator.rulesStrings.2>
+	<!-- Оригинал: talkedabout->об своих идеях -->
+	<RoboticsChat.logRulesInitiator.rulesStrings.3>talkedabout->делится своими идеями</RoboticsChat.logRulesInitiator.rulesStrings.3>
+	<!-- Оригинал: talkedabout->общих взглядах -->
+	<RoboticsChat.logRulesInitiator.rulesStrings.4>talkedabout->говорит</RoboticsChat.logRulesInitiator.rulesStrings.4>
+	<!-- Оригинал: talkedabout->общих убеждениях -->
+	<RoboticsChat.logRulesInitiator.rulesStrings.5>talkedabout->делится своими убеждениями</RoboticsChat.logRulesInitiator.rulesStrings.5>
+	<!-- Оригинал: talkedabout->дискусировали -->
+	<RoboticsChat.logRulesInitiator.rulesStrings.6>talkedabout->дискутирует</RoboticsChat.logRulesInitiator.rulesStrings.6>
+	<!-- Оригинал: talkedabout->душевно поговорили -->
+	<RoboticsChat.logRulesInitiator.rulesStrings.7>talkedabout->душевно говорит</RoboticsChat.logRulesInitiator.rulesStrings.7>
+	<!-- Оригинал: talkedabout->разговаривали -->
+	<RoboticsChat.logRulesInitiator.rulesStrings.8>talkedabout->разговаривает</RoboticsChat.logRulesInitiator.rulesStrings.8>
+	<!-- Оригинал: talkedabout->глубоко поговорили -->
+	<RoboticsChat.logRulesInitiator.rulesStrings.9>talkedabout->заводит глубокий разговор</RoboticsChat.logRulesInitiator.rulesStrings.9>
+	<!-- Оригинал: talkedabout->заговорил -->
+	<RoboticsChat.logRulesInitiator.rulesStrings.10>talkedabout->заговаривает</RoboticsChat.logRulesInitiator.rulesStrings.10>
+
+	<!-- Оригинал: Говорили об андроидах -->
+	<RoboticsChat2.label>разговор об андроидах</RoboticsChat2.label>
+	<!-- Оригинал: r_logentry->[talkedabout] с [RECIPIENT_nameDef] о будущем андроидов. -->
+	<RoboticsChat2.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef] [talkedabout] с [RECIPIENT_nameDef] о будущем андроидов.</RoboticsChat2.logRulesInitiator.rulesStrings.0>
+	<!-- Оригинал: talkedabout->общих мыслях -->
+	<RoboticsChat2.logRulesInitiator.rulesStrings.1>talkedabout->обменивается информацией</RoboticsChat2.logRulesInitiator.rulesStrings.1>
+	<!-- Оригинал: talkedabout->своих мыслях -->
+	<RoboticsChat2.logRulesInitiator.rulesStrings.2>talkedabout->делится своими мыслями</RoboticsChat2.logRulesInitiator.rulesStrings.2>
+	<!-- Оригинал: talkedabout->об своих идеях -->
+	<RoboticsChat2.logRulesInitiator.rulesStrings.3>talkedabout->делится своими идеями</RoboticsChat2.logRulesInitiator.rulesStrings.3>
+	<!-- Оригинал: talkedabout->общих взглядах -->
+	<RoboticsChat2.logRulesInitiator.rulesStrings.4>talkedabout->говорит</RoboticsChat2.logRulesInitiator.rulesStrings.4>
+	<!-- Оригинал: talkedabout->общих убеждениях -->
+	<RoboticsChat2.logRulesInitiator.rulesStrings.5>talkedabout->делится своими убеждениями</RoboticsChat2.logRulesInitiator.rulesStrings.5>
+	<!-- Оригинал: talkedabout->дискусии -->
+	<RoboticsChat2.logRulesInitiator.rulesStrings.6>talkedabout->дискутирует</RoboticsChat2.logRulesInitiator.rulesStrings.6>
+	<!-- Оригинал: talkedabout->душевно поговорили -->
+	<RoboticsChat2.logRulesInitiator.rulesStrings.7>talkedabout->душевно говорит</RoboticsChat2.logRulesInitiator.rulesStrings.7>
+	<!-- Оригинал: talkedabout->разговаривали -->
+	<RoboticsChat2.logRulesInitiator.rulesStrings.8>talkedabout->разговаривает</RoboticsChat2.logRulesInitiator.rulesStrings.8>
+	<!-- Оригинал: talkedabout->глубоко поговорили -->
+	<RoboticsChat2.logRulesInitiator.rulesStrings.9>talkedabout->заводит глубокий разговор</RoboticsChat2.logRulesInitiator.rulesStrings.9>
+	<!-- Оригинал: talkedabout->заговорил -->
+	<RoboticsChat2.logRulesInitiator.rulesStrings.10>talkedabout->заговаривает</RoboticsChat2.logRulesInitiator.rulesStrings.10>
+
+	<!-- Оригинал: Поговорили о SkyMind -->
+	<ATPP_SkyMindChat.label>разговор о SkyMind</ATPP_SkyMindChat.label>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Заодно исправлена неточность, сообщите разработчику.
+	Бессмертие обретается в ядре SkyCloud с помощью сети SkyMind. Сокращено для упрощения.
+	Оригинал: r_logentry->[talkedabout] с [RECIPIENT_nameDef] о бессмертии через ядра SkyMind и SkyClouds.. -->
+	<ATPP_SkyMindChat.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef] [talkedabout] с [RECIPIENT_nameDef] о жизни личностей в ядрах SkyCloud.</ATPP_SkyMindChat.logRulesInitiator.rulesStrings.0>
+	<!-- Оригинал: talkedabout->общих мыслях -->
+	<ATPP_SkyMindChat.logRulesInitiator.rulesStrings.1>talkedabout->обменивается информацией</ATPP_SkyMindChat.logRulesInitiator.rulesStrings.1>
+	<!-- Оригинал: talkedabout->своих мыслях -->
+	<ATPP_SkyMindChat.logRulesInitiator.rulesStrings.2>talkedabout->делится своими мыслями</ATPP_SkyMindChat.logRulesInitiator.rulesStrings.2>
+	<!-- Оригинал: talkedabout->об своих идеях -->
+	<ATPP_SkyMindChat.logRulesInitiator.rulesStrings.3>talkedabout->делится своими идеями</ATPP_SkyMindChat.logRulesInitiator.rulesStrings.3>
+	<!-- Оригинал: talkedabout->общих взглядах -->
+	<ATPP_SkyMindChat.logRulesInitiator.rulesStrings.4>talkedabout->говорит</ATPP_SkyMindChat.logRulesInitiator.rulesStrings.4>
+	<!-- Оригинал: talkedabout->общих убеждениях -->
+	<ATPP_SkyMindChat.logRulesInitiator.rulesStrings.5>talkedabout->делится своими убеждениями</ATPP_SkyMindChat.logRulesInitiator.rulesStrings.5>
+	<!-- Оригинал: talkedabout->дискусии -->
+	<ATPP_SkyMindChat.logRulesInitiator.rulesStrings.6>talkedabout->дискутирует</ATPP_SkyMindChat.logRulesInitiator.rulesStrings.6>
+	<!-- Оригинал: talkedabout->душевно поговорили -->
+	<ATPP_SkyMindChat.logRulesInitiator.rulesStrings.7>talkedabout->душевно говорит</ATPP_SkyMindChat.logRulesInitiator.rulesStrings.7>
+	<!-- Оригинал: talkedabout->разговаривали -->
+	<ATPP_SkyMindChat.logRulesInitiator.rulesStrings.8>talkedabout->разговаривает</ATPP_SkyMindChat.logRulesInitiator.rulesStrings.8>
+	<!-- Оригинал: talkedabout->глубоко поговорили -->
+	<ATPP_SkyMindChat.logRulesInitiator.rulesStrings.9>talkedabout->заводит глубокий разговор</ATPP_SkyMindChat.logRulesInitiator.rulesStrings.9>
+	<!-- Оригинал: talkedabout->заговорил -->
+	<ATPP_SkyMindChat.logRulesInitiator.rulesStrings.10>talkedabout->заговаривает</ATPP_SkyMindChat.logRulesInitiator.rulesStrings.10>
+
+</LanguageData>

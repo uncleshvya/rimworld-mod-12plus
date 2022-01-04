@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправлен конфликт модов, сообщите разработчикам:
+	rimsenal.feral;
+	Atlas.AndroidTiers;
+	Android.Tiers.RUS;
+
+	Названия следует синхронизировать с папкой ThingDef.
+	Оригинал: искажённый -->
+	<FeralTwisted.label>искажение</FeralTwisted.label>
+	<!-- Оригинал: искажённые -->
+	<FeralTwisted.labelPlural>искажения</FeralTwisted.labelPlural>
+
+</LanguageData>

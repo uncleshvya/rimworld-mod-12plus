@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	EN: taking wine out of TargetA. -->
+	<VFEM_TakeWineOutOfWineBarrel.reportString>достаёт продукт из TargetA</VFEM_TakeWineOutOfWineBarrel.reportString>
+
+</LanguageData>

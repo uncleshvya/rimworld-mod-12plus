@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: табак -->
+	<Chemical_Tobacco.label>?</Chemical_Tobacco.label>
+	<!-- Оригинал: Из-за табачной зависимости, этот человек должен регулярно потреблять табак, чтобы избежать симптомов ломки. -->
+	<Chemical_Tobacco.description>?</Chemical_Tobacco.description>
+
+</LanguageData>
