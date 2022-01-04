@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Переименовано аналогично названию из файла Interactions_Social.xml. Больше подходит по стилю к остальным причинам бафа в отношениях.
+	Оригинал: глубокий разговор -->
+	<DeepTalk.stages.deep_talk.label>серьёзно поговорили</DeepTalk.stages.deep_talk.label>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: пришлось отвергнуть {0} -->
+	<FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.label>пришлось послать {0}</FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.label>
+	<!-- Оригинал: За мной попытался ухаживать кто-то, кто мне... -->
+	<FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.description>Ко мне приставал кто-то, кто мне не нравится.</FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.description>
+	<!-- Оригинал: Нет ничего лучше, чем покувыркаться под одеялом в своё удовольствие. -->
+	<GotSomeLovin.stages.got_some_lovin.description>У нас с моей половинкой полная гармония в отношениях.</GotSomeLovin.stages.got_some_lovin.description>
+	<!-- Оригинал: {1_gender ? убил : убила} любимого... -->
+	<KilledMyBondedAnimal.stages.killed_my_bonded_animal.label>{1_gender ? обидел : обидела} любимого питомца</KilledMyBondedAnimal.stages.killed_my_bonded_animal.label>
+	<!-- Оригинал: {1_gender ? убил : убила} моего... -->
+	<KilledMyBrother.stages.killed_my_brother.label>{1_gender ? обидел : обидела} моего брата</KilledMyBrother.stages.killed_my_brother.label>
+	<!-- Оригинал: {1_gender ? убил : убила} мою... -->
+	<KilledMyDaughter.stages.killed_my_daughter.label>{1_gender ? обидел : обидела} мою дочь</KilledMyDaughter.stages.killed_my_daughter.label>
+	<!-- Оригинал: {1_gender ? убил : убила} моего... -->
+	<KilledMyFather.stages.killed_my_father.label>{1_gender ? обидел : обидела} моего отца</KilledMyFather.stages.killed_my_father.label>
+	<!-- Оригинал: {1_gender ? убил : убила} мою... -->
+	<KilledMyFiance.stages.killed_my_fiance.label>{1_gender ? обидел : обидела} мою невесту</KilledMyFiance.stages.killed_my_fiance.label>
+	<!-- Оригинал: {1_gender ? убил : убила} моего... -->
+	<KilledMyFriend.stages.killed_my_friend.label>{1_gender ? обидел : обидела} моего друга</KilledMyFriend.stages.killed_my_friend.label>
+	<!-- Оригинал: {1_gender ? убил : убила} моего... -->
+	<KilledMyKin.stages.killed_my_kin.label>{1_gender ? обидел : обидела} моего родственника</KilledMyKin.stages.killed_my_kin.label>
+	<!-- Оригинал: {1_gender ? убил : убила} любимого человека -->
+	<KilledMyLover.stages.killed_my_lover.label>{1_gender ? обидел : обидела} любимого человека</KilledMyLover.stages.killed_my_lover.label>
+	<!-- Оригинал: {1_gender ? убил : убила} мою... -->
+	<KilledMyMother.stages.killed_my_mother.label>{1_gender ? обидел : обидела} мою мать</KilledMyMother.stages.killed_my_mother.label>
+	<!-- Оригинал: {1_gender ? убил : убила} моего... -->
+	<KilledMyRival.stages.killed_my_rival.label>{1_gender ? обидел : обидела} моего соперника</KilledMyRival.stages.killed_my_rival.label>
+	<!-- Оригинал: {1_gender ? убил : убила} мою... -->
+	<KilledMySister.stages.killed_my_sister.label>{1_gender ? обидел : обидела} мою сестру</KilledMySister.stages.killed_my_sister.label>
+	<!-- Оригинал: {1_gender ? убил : убила} моего... -->
+	<KilledMySon.stages.killed_my_son.label>{1_gender ? обидел : обидела} моего сына</KilledMySon.stages.killed_my_son.label>
+	<!-- Оригинал: {1_gender ? убил : убила} моего... -->
+	<KilledMySpouse.stages.killed_my_spouse.label>{1_gender ? обидел : обидела} моего жениха</KilledMySpouse.stages.killed_my_spouse.label>
+	<!-- Оригинал: {1_gender ? отверг : отвергла} меня -->
+	<RebuffedMyRomanceAttempt.stages.rebuffed_me.label>{1_gender ? обругал : обругала} меня</RebuffedMyRomanceAttempt.stages.rebuffed_me.label>
+	<!-- Оригинал: Моя попытка ухаживать была отвергнута. Грустное... -->
+	<RebuffedMyRomanceAttemptMood.stages.rebuffed_by.description>Моё предложение дружить было отвергнуто. Грустное чувство.</RebuffedMyRomanceAttemptMood.stages.rebuffed_by.description>
+
+</LanguageData>

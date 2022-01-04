@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- добавлена русская локализация, сообщите разработчику -->
+
+	<!-- EN: trader -->
+	<Visitor_Orassan_Standard.label>торговец</Visitor_Orassan_Standard.label>
+
+</LanguageData>

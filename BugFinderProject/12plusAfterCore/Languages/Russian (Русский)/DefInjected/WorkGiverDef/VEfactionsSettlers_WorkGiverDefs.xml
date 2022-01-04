@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Оригинал: Извлечь химблеск из бочки для химблеска -->
+	<TakeChemshineOutOfChemshineBarrel.label>извлекать химблеск из бочки</TakeChemshineOutOfChemshineBarrel.label>
+	<!-- Оригинал: Извлечь -->
+	<TakeChemshineOutOfChemshineBarrel.verb>извлекать</TakeChemshineOutOfChemshineBarrel.verb>
+	<!-- Оригинал: Извлечь -->
+	<TakeChemshineOutOfChemshineBarrel.gerund>Извлечь химблеск из</TakeChemshineOutOfChemshineBarrel.gerund>
+
+	<!-- Оригинал: Заполнить бочку для химблеска -->
+	<FillChemshineBarrel.label>заполнять бочку для химблеска</FillChemshineBarrel.label>
+	<!-- Оригинал: Заполнить -->
+	<FillChemshineBarrel.verb>заполнять</FillChemshineBarrel.verb>
+	<!-- Оригинал: Заполнить -->
+	<FillChemshineBarrel.gerund>Заполнить химтопливом</FillChemshineBarrel.gerund>
+
+</LanguageData>

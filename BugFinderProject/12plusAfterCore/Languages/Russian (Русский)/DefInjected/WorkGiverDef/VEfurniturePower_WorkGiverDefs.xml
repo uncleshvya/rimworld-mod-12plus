@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	Сглажена ссылка на трупы - для модов, добавляющих рецепты в крематорий.
+	EN: burn at gas powered crematorium -->
+	<VPE_BurnGasCrematorium.label>сжигать в газовом крематории</VPE_BurnGasCrematorium.label>
+	<!-- EN: burn at -->
+	<VPE_BurnGasCrematorium.verb>сжигать, используя</VPE_BurnGasCrematorium.verb>
+	<!-- EN: burning at -->
+	<VPE_BurnGasCrematorium.gerund>Сжигать, используя</VPE_BurnGasCrematorium.gerund>
+
+	<!-- На кузне можно изготавливать не только оружие.
+	EN: make weapons -->
+	<VPE_DoBillsGasSmithy.label>ковать на газовой кузне</VPE_DoBillsGasSmithy.label>
+	<!-- EN: smith -->
+	<VPE_DoBillsGasSmithy.verb>ковать на</VPE_DoBillsGasSmithy.verb>
+	<!-- EN: smithing at -->
+	<VPE_DoBillsGasSmithy.gerund>Ковать на</VPE_DoBillsGasSmithy.gerund>
+
+	<!-- EN: work at refinery -->
+	<VPE_DoBillsGasRefinery.label>работать с газовым перегонным аппаратом</VPE_DoBillsGasRefinery.label>
+	<!-- EN: refine chemicals -->
+	<VPE_DoBillsGasRefinery.verb>работать, используя</VPE_DoBillsGasRefinery.verb>
+	<!-- EN: refining chemicals at -->
+	<VPE_DoBillsGasRefinery.gerund>Работать, используя</VPE_DoBillsGasRefinery.gerund>
+
+	<!-- Симметрично подправляем ваниль.
+	Кстати, корректнее будет всё же работать С устройством.
+	Оригинал: работать за перегонным аппаратом -->
+	<DoBillsRefinery.label>работать с электрическим перегонным аппаратом</DoBillsRefinery.label>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Оригинал: с большой буквы -->
+	<VPE_DoBillsGasCrematorium.label>работать на газовом крематории</VPE_DoBillsGasCrematorium.label>
+	<!-- Оригиналы: Работать -->
+	<VPE_DoBillsGasCrematorium.verb>работать, используя</VPE_DoBillsGasCrematorium.verb>
+	<VPE_DoBillsGasCrematorium.gerund>Работать, используя</VPE_DoBillsGasCrematorium.gerund>
+
+	<!-- Оригинал: с большой буквы -->
+	<VPE_DoBillsGasSmelter.label>работать на газовой плавильне</VPE_DoBillsGasSmelter.label>
+	<!-- Оригиналы: Работать -->
+	<VPE_DoBillsGasSmelter.verb>работать, используя</VPE_DoBillsGasSmelter.verb>
+	<VPE_DoBillsGasSmelter.gerund>Работать, используя</VPE_DoBillsGasSmelter.gerund>
+
+	<!-- Оригинал: с большой буквы -->
+	<VPE_DoBillsGasStove.label>Готовить на газовой плите</VPE_DoBillsGasStove.label>
+	<!-- Оригиналы: Готовить -->
+	<VPE_DoBillsGasStove.verb>готовить, используя</VPE_DoBillsGasStove.verb>
+	<VPE_DoBillsGasStove.gerund>Готовить, используя</VPE_DoBillsGasStove.gerund>
+
+	<!-- Оригинал: с большой буквы -->
+	<VPE_WorkAtGasExcavator.label>бурить на газовой буровой установке</VPE_WorkAtGasExcavator.label>
+	<!-- Оригиналы: Бурить -->
+	<VPE_WorkAtGasExcavator.verb>бурить, используя</VPE_WorkAtGasExcavator.verb>
+	<VPE_WorkAtGasExcavator.gerund>Бурить, используя</VPE_WorkAtGasExcavator.gerund>
+
+	<!-- Две одинаковых работы рядом выглядели как баг.
+	Оригиналы: Уничтожить скважину -->
+	<VPE_WorkGiverPluggingHole.label>уничтожать месторождения газа</VPE_WorkGiverPluggingHole.label>
+	<VPE_WorkGiverPluggingPond.label>уничтожать месторождения химтоплива</VPE_WorkGiverPluggingPond.label>
+
+</LanguageData>

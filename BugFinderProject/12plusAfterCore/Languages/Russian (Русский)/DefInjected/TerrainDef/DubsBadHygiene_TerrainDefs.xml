@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+
+	<!-- EN: pool water -->
+	<PoolWater.label>бассейн (только для купающихся)</PoolWater.label>
+	<!-- EN: water -->
+	<PoolWater.tools.water.label>вода</PoolWater.tools.water.label>
+
+</LanguageData>

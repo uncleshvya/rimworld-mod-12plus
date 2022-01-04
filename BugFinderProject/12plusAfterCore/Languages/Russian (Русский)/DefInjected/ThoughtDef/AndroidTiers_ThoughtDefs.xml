@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Название следует синхронизировать с переменными из папки Keys - ATPP_SettingsRemoveSimpleMindedTraitOnUpload и ATPP_SettingsNotRemoveAllTraitsOfBasicAndroids.
+	Оригинал: Простой разум -->
+	<MoodOffsetSimpleMindedAndroid.stages.0.label>ограничение эмоций</MoodOffsetSimpleMindedAndroid.stages.0.label>
+	<!-- Доделываем все описания на основании функционала.
+	Оригинал: Я не могу полностью чувствовать эмоции. -->
+	<MoodOffsetSimpleMindedAndroid.stages.0.description>Простой мозг этого тела не даёт мне возможности испытывать полноценные эмоции.</MoodOffsetSimpleMindedAndroid.stages.0.description>
+
+	<!-- Мысли у людей от стадий моно-мази. Названия лучше синхронизировать с папкой HediffDef.
+	Оригинал: моно-мазь скрытая -->
+	<RegenHumanoid_Thought.stages.0.label>моно-мазь (незначительный эффект)</RegenHumanoid_Thought.stages.0.label>
+	<!-- Больше красок!
+	Оригинал: Не должно появиться. -->
+	<RegenHumanoid_Thought.stages.0.description>Моя голова прояснилась, сосуды очистились.</RegenHumanoid_Thought.stages.0.description>
+	<!-- Оригинал: Моно-Мазь (Слабая) -->
+	<RegenHumanoid_Thought.stages.1.label>моно-мазь (остаточный эффект)</RegenHumanoid_Thought.stages.1.label>
+	<!-- Добавлена экспрессия от наблюдения новичком процедуры иглоукалывания.
+	Оригинал: У меня повсюду булавки и иголки. Это просто ошеломляет. -->
+	<RegenHumanoid_Thought.stages.1.description>У меня по всему телу покалывания, будто от китайских иголок. Это ошеломляет.</RegenHumanoid_Thought.stages.1.description>
+	<!-- Оригинал: Моно-Мазь (Средняя) -->
+	<RegenHumanoid_Thought.stages.2.label>моно-мазь (заметный эффект)</RegenHumanoid_Thought.stages.2.label>
+	<!-- В описаниях ниже убраны отсылки к боли, так как за это отвечает другая мысль.
+	Оригинал: Мое тело кажется медленным, и небольшая боль пробегает по моим конечностям. -->
+	<RegenHumanoid_Thought.stages.2.description>Моё тело кажется чужим. Руки и ноги слегка подёргиваются.</RegenHumanoid_Thought.stages.2.description>
+	<!-- Оригинал: Моно-Мазь (Сильная) -->
+	<RegenHumanoid_Thought.stages.3.label>моно-мазь (сильный эффект)</RegenHumanoid_Thought.stages.3.label>
+	<!-- Движение тоже страдает.
+	Оригинал: Мои руки кажутся тяжелыми и вялыми, как будто что-то высасывает всю мою энергию. -->
+	<RegenHumanoid_Thought.stages.3.description>Моё тело кажется тяжёлым и вялым, будто что-то высасывает всю мою энергию.</RegenHumanoid_Thought.stages.3.description>
+	<!-- Оригинал: Моно-Мазь (Пиковая) -->
+	<RegenHumanoid_Thought.stages.4.label>моно-мазь (максимальный эффект)</RegenHumanoid_Thought.stages.4.label>
+	<!-- Оригинал: У меня болят вены и кружится голова. Это очень больно. -->
+	<RegenHumanoid_Thought.stages.4.description>У меня горят вены и кружится голова. Ужасные ощущения.</RegenHumanoid_Thought.stages.4.description>
+
+	<!-- В помощь бывает назначена всего одна личность.
+	Оригинал: Помощь разумов SkyCloud -->
+	<ATPP_AssistingMindBoost.stages.0.label>помощь оцифрованной личности</ATPP_AssistingMindBoost.stages.0.label>
+	<!-- Оригинал: Мне помогает разум SkyCloud, я чувствую руководство -->
+	<ATPP_AssistingMindBoost.stages.0.description>Мне помогает личность, обитающая в ядре SkyCloud. Неусыпная поддержка, подсказки в нужный момент... Как будто духи предков витают вокруг меня.</ATPP_AssistingMindBoost.stages.0.description>
+
+	<!-- На данном этапе развития мода АТ, эту мысль нельзя увидеть. Скопировано описание NoSelfWillAT.
+	Оригинал: Бесчувственный -->
+	<MoodOffsetMech.stages.0.label>без эмоций</MoodOffsetMech.stages.0.label>
+	<!-- Стиль приведён к описаниям других эмоций.
+	Оригинал: это механизированная пехота без чувств и без эмоций. -->
+	<MoodOffsetMech.stages.0.description>В моём банке данных нет информации об эмоциях. Введите определение.</MoodOffsetMech.stages.0.description>
+
+	<!-- Оригинал: бесчувственный -->
+	<NoSelfWillAT.stages.0.label>без эмоций</NoSelfWillAT.stages.0.label>
+	<!-- Добавлена отсылка к серии Чёрного плаща "Мелодрама в электронном исполнении".
+	Оригинал: ... -->
+	<NoSelfWillAT.stages.0.description>В моём банке данных нет информации об эмоциях. Введите определение.</NoSelfWillAT.stages.0.description>
+	<!-- Оригинал: Нетерпимый -->
+	<MoodOffsetT5.stages.0.label>нетерпимый</MoodOffsetT5.stages.0.label>
+	<!-- Оригинал: Мне приходится обходить эти низшие формы стороной. Это просто кошмар. -->
+	<MoodOffsetT5.stages.0.description>Мне приходится находиться среди этих низших форм жизни. Это просто кошмар.</MoodOffsetT5.stages.0.description>
+	<!-- Оригинал: металлическая шерсть {0} -->
+	<UncomfortableApparelSadAT.stages.0.label>{0} из металлической пряжи</UncomfortableApparelSadAT.stages.0.label>
+	<!-- Добавлена экспрессия и пример.
+	Оригинал: Эта одежда так чешется, что лучше бы ее не носить -->
+	<UncomfortableApparelSadAT.stages.0.description>Эта одежда колется сильнее, чем шерстяной свитер на голое тело!</UncomfortableApparelSadAT.stages.0.description>
+	<!-- Оригинал: металлическая шерсть {0} (+1) -->
+	<UncomfortableApparelSadAT.stages.1.label>2 вещи из металлической пряжи</UncomfortableApparelSadAT.stages.1.label>
+	<!-- Оригинал: Я начинаю получать сыпь от ношения такой лдежды. -->
+	<UncomfortableApparelSadAT.stages.1.description>Половина моего тела покрыта сыпью из-за этой одежды.</UncomfortableApparelSadAT.stages.1.description>
+	<!-- Оригинал: металлическая шерсть {0} (+2) -->
+	<UncomfortableApparelSadAT.stages.2.label>3 вещи из металлической пряжи</UncomfortableApparelSadAT.stages.2.label>
+	<!-- Оригинал: Это так невыносимо зудит и больно, что я чувствую каждое движение, которое делаю. -->
+	<UncomfortableApparelSadAT.stages.2.description>Вся моя кожа зудит, а каждое движение отдаётся болью.</UncomfortableApparelSadAT.stages.2.description>
+	<!-- Оригинал: металлическая шерсть {0} и т.д. -->
+	<UncomfortableApparelSadAT.stages.3.label>одежда из металлической пряжи</UncomfortableApparelSadAT.stages.3.label>
+	<!-- Экспрессия выровнена относительно стадий мысли.
+	Оригинал: Я истекаю кровью из нескольких небольших порезов, покрытых сыпью. Это так неприятно. -->
+	<UncomfortableApparelSadAT.stages.3.description>Вся моя кожа покрыта сыпью, а из множества мелких порезов сочится кровь. Это ужасно.</UncomfortableApparelSadAT.stages.3.description>
+	<!-- Сглажена ссылка на людей - для модов на другие расы.
+	Оригинал: любит людей -->
+	<FeelingsTowardHumanityAT.stages.0.label>люблю биологических поселенцев, они такие милые</FeelingsTowardHumanityAT.stages.0.label>
+	<!-- Оригинал: грязный мешок с мясом -->
+	<FeelingsTowardHumanityAT.stages.1.label>терпеть не могу эти грязные мешки с мясом</FeelingsTowardHumanityAT.stages.1.label>
+
+	<!-- Оригинал: кого-то превратили в марионетку -->
+	<ATPP_VX0PuppetThought.stages.0.label>превращение в марионетку</ATPP_VX0PuppetThought.stages.0.label>
+	<!-- Это необратимая операция, личность умирает.
+	Оригинал: Кто - то был превращен колонией в технологическую марионетку с нейронным чипом VX0, он заперт в своем теле, это ужасно -->
+	<ATPP_VX0PuppetThought.stages.0.description>Наш поселенец просто взял и навсегда стёр самостоятельную личность этим ужасным чипом VX0. Новый суррогат — это бездушная марионетка с пустой башкой! А внешнее сходство с бывшим хозяином только добавляет жути.</ATPP_VX0PuppetThought.stages.0.description>
+
+	<!-- Лучше разделять, а то 2 одинаковых пункта рядом выглядят в игре как баг.
+	Стиль приведён к ванили.
+	Оригиналы: говорили о робототехнике -->
+	<RoboticsChat.stages.0.label>беседовали о робототехнике</RoboticsChat.stages.0.label>
+	<AndroidsChat.stages.0.label>анализировали робототехнику</AndroidsChat.stages.0.label>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Названия следует синхронизировать с папкой InteractionDef.
+	Сглажена массивность.
+	Оригиналы: говорили о бессмертии в SkyMind и SkyCloud -->
+	<ATPP_SkyMindChat.stages.0.label>беседовали об уязвимостях SkyMind</ATPP_SkyMindChat.stages.0.label>
+	<ATPP_SkyMindChatThought.stages.0.label>беседовали о сети SkyMind</ATPP_SkyMindChatThought.stages.0.label>
+
+</LanguageData>

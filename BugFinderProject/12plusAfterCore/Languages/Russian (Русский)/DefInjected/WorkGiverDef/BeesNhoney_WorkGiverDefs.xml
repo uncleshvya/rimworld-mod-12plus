@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	<Оригинал: вырастить новую пчелиную королеву -->
+	<DoBillsRaiseNewQueen.label>выращивать пчелиную матку</DoBillsRaiseNewQueen.label>
+	<!-- Оригинал: выращивание пчелиной королевы -->
+	<DoBillsRaiseNewQueen.gerund>Вырастить пчелиную матку, используя</DoBillsRaiseNewQueen.gerund>
+	<!-- Оригинал: вырастить пчелиную королеву -->
+	<DoBillsRaiseNewQueen.verb>выращивать пчелиную матку, используя</DoBillsRaiseNewQueen.verb>
+
+	<!-- Оригинал: сбор мёда -->
+	<GetHoney.label>извлекать мёд</GetHoney.label>
+	<!-- Оригинал: сбор -->
+	<GetHoney.gerund>Извлечь мёд из</GetHoney.gerund>
+	<!-- Оригинал: собирать -->
+	<GetHoney.verb>извлекать мёд из</GetHoney.verb>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: варить пиво -->
+	<DoBillsBrew.label>готовить напитки</DoBillsBrew.label>
+	<!-- Оригинал: варить пиво на -->
+	<DoBillsBrew.gerund>Готовить на</DoBillsBrew.gerund>
+	<!-- Оригинал: варить пиво на -->
+	<DoBillsBrew.verb>готовить на</DoBillsBrew.verb>
+
+</LanguageData>

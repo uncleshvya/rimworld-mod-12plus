@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Оригинал: выполнять заказы на столе федерации -->
+	<DoBillsFedTable.label>работать за тигельным столом</DoBillsFedTable.label>
+	<!-- Оригинал: работать на -->
+	<DoBillsFedTable.gerund>Работать, используя</DoBillsFedTable.gerund>
+
+</LanguageData>

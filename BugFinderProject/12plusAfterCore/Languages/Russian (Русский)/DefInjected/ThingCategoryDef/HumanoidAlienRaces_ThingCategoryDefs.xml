@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	EN: alien corpses -->
+	<alienCorpseCategory.label>тела инопланетян</alienCorpseCategory.label>
+	<!-- Правим ваниль, т.к. теперь это общая категория и для людей, и для инопланетян. Слово "гуманоидов" не подойдёт, т.к. есть моды на негуманоидных разумных существ.
+	Оригинал: трупы людей -->
+	<CorpsesHumanlike.label>тела разумных существ</CorpsesHumanlike.label>
+
+</LanguageData>
