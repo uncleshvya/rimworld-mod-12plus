@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageData>
-
-	<!-- Исправлена неточность, сообщите разработчику.
-
-	Оригинал: женится на TargetA -->
-	<MarryAdjacentPawn.reportString>вступает в брак с TargetA</MarryAdjacentPawn.reportString>
-
-</LanguageData>

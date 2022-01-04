@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageData>
-
-  <!-- исправлена неточность, сообщите разработчику -->
-
-  <!-- EN: Heavily-muscled wolf-like creatures with vicious unnatural claws and an absurdly powerful bite. They will only eat meat or corpses. If disturbed in the wild, they are very likely to attack.\n\nScientists say wargs are the descendants of weaponized military animals created for population suppression. The superstitious see them as the tools of an angry god. -->
-  <Warg.description>Мускулистые волкоподобные животные с неестественно острыми когтями и невероятно мощной пастью. Питаются исключительно мясом или падалью. При встрече в дикой природе велик риск нападения.\n\nПо мнению авторитетных учёных, варги — потомки боевых животных, созданных для усмирения населения. Суеверные же люди считают их орудием божьего гнева.</Warg.description>
-
-</LanguageData>

@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageData>
-
-	<!-- исправлена неточность, сообщите разработчику -->
-
-	<!-- Оригинал: людей в начале -->
-	<ConfigPage_ConfigureStartingPawns.label>поселенцев в начале</ConfigPage_ConfigureStartingPawns.label>
-
-</LanguageData>

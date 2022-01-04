@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageData>
-
-  <!-- исправление согласно концепции «12+» -->
-
-  <!-- EN: One of us died and we're just leaving them lying in the open. Nobody should be left like that. People deserve a decent burial. -->
-  <ColonistLeftUnburied.stages.colonist_left_unburied.description>Мы потеряли одного из нас и бросили его останки под открытым небом. Так нельзя. Люди заслуживают достойных похорон.</ColonistLeftUnburied.stages.colonist_left_unburied.description>
-
-</LanguageData>

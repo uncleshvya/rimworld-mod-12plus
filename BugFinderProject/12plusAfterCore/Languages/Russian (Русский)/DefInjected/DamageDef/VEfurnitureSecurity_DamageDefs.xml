@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-
-	<!-- исправление согласно концепции «12+» -->
-
-	<!-- Оригинал: {0} {0_gender ? убит : убита : убито}. -->
-	<VFES_NoDMG.deathMessage>{0} {0_gender ? уничтожен : уничтожена : уничтожено}.</VFES_NoDMG.deathMessage>
-
-</LanguageData>

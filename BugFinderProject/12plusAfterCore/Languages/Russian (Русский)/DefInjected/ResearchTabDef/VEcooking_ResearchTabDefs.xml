@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-
-	<!-- добавлена недостающая строка русской локализации, сообщите разработчику -->
-
-	<!-- EN: Vanilla Cooking Expanded -->
-	<VCE_Cooking.label>Еда</VCE_Cooking.label>
-
-</LanguageData>

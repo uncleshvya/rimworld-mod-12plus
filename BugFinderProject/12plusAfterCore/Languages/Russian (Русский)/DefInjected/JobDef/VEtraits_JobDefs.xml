@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-
-	<!-- Исправление согласно концепции «12+».
-
-	Оригинал: крадёт вещи у TargetA -->
-	<VTE_StealItems.reportString>хочет обидеть TargetA</VTE_StealItems.reportString>
-
-</LanguageData>

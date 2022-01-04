@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
-
-	<!-- Исправление согласно концепции «12+».
-
-	Оригинал: Мертвое животное: {0} -->
-	<FreshCarrionSpotted>Свежая добыча: {0}</FreshCarrionSpotted>
-
-</LanguageData>

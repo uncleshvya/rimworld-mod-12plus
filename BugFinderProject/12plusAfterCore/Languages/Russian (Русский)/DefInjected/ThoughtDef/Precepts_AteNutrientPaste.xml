@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageData>
-
-	<!-- Исправление согласно концепции «12+».
-
-	Оригинал: ...оно позволит мне не умереть от голода, но кто же захочет глотать... -->
-	<AteNutrientPasteMeal.stages.ate_nutrient_paste_meal.description>Мне пришлось съесть отвратительное безвкусное блюдо. Я знаю, что оно утолило мне голод, но кому понравится глотать эту жижу?</AteNutrientPasteMeal.stages.ate_nutrient_paste_meal.description>
-
-</LanguageData>

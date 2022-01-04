@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-
-	<!-- Исправление согласно концепции «12+».
-
-	Оригинал: {0} был зарезан до смерти. -->
-	<Dart.deathMessage>{0} {0_gender ? был проткнут: была проткнута} дротиком.</Dart.deathMessage>
-
-</LanguageData>

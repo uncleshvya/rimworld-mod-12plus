@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-
-	<!-- Исправление согласно концепции «12+».
-
-	Оригинал: ...существу требуется солнечный свет. Недостаточная освещённость убьёт его. -->
-	<VEF_LightSustenance.description>Этому существу жизненно важен солнечный свет.</VEF_LightSustenance.description>
-
-</LanguageData>
