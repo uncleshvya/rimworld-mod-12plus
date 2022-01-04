@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлена русская локализация, сообщите разработчику -->
+
+	<!-- У рецептов масок и брони не прописан перевод:
+	EN: make skull mask -->
+	<Make_ROMB_Apparel_SkullMask.label>вырезать маску-череп</Make_ROMB_Apparel_SkullMask.label>
+	<!-- EN: Make skull mask -->
+	<Make_ROMB_Apparel_SkullMask.description>Вырезать из кости страшную маску, превращающую лицо человека в череп. </Make_ROMB_Apparel_SkullMask.description>
+	<!-- EN: making skull mask -->
+	<Make_ROMB_Apparel_SkullMask.jobString>вырезает маску-череп</Make_ROMB_Apparel_SkullMask.jobString>
+
+	<!-- EN: make deer skull mask -->
+	<Make_ROMB_Apparel_DeerSkullMask.label>вырезать рогатую маску-череп</Make_ROMB_Apparel_DeerSkullMask.label>
+	<!-- EN: Make deer skull mask -->
+	<Make_ROMB_Apparel_DeerSkullMask.description>Вырезать из кости страшную маску с рогами, превращающую лицо человека в символ ужаса.</Make_ROMB_Apparel_DeerSkullMask.description>
+	<!-- EN: making deer skull mask -->
+	<Make_ROMB_Apparel_DeerSkullMask.jobString>вырезает рогатую маску-череп</Make_ROMB_Apparel_DeerSkullMask.jobString>
+
+	<!-- EN: make bone armor -->
+	<Make_Sihv_Apparel_BoneArmor.label>изготовить костяную броню</Make_Sihv_Apparel_BoneArmor.label>
+	<!-- EN: Make bone armor -->
+	<Make_Sihv_Apparel_BoneArmor.description>Соединить крупные кости в пластины и сделать из них грубый жилет, прикрывающий торс.</Make_Sihv_Apparel_BoneArmor.description>
+	<!-- EN: making bone armor -->
+	<Make_Sihv_Apparel_BoneArmor.jobString>изготавливает костяную броню</Make_Sihv_Apparel_BoneArmor.jobString>
+
+	<!-- EN: make bone ash -->
+	<MakeBoneChina.label>сделать костяной фарфор</MakeBoneChina.label>
+	<!-- EN: Make a batch of bone ash by burning bones at high temperatures. -->
+	<MakeBoneChina.description>При нагревании кость сначала чернеет из-за превращения органики в сажу. Затем кость белеет и рассыпается в белый порошок. Если смешать его с глиной, песком и обжечь, получается очень твёрдый белый фарфор.</MakeBoneChina.description>
+	<!-- EN: Making bone ash. -->
+	<MakeBoneChina.jobString>делает костяной фарфор</MakeBoneChina.jobString>
+
+	<!-- EN: make bonecrete -->
+	<MakeBonecrete.label>сделать костяной бетон</MakeBonecrete.label>
+	<!-- EN: Make a batch of bonecrete by extracting and refining hydroxyapatite from bone. -->
+	<MakeBonecrete.description>Растворить кость, выделить гидроксиапатит и очистить его, чтобы сделать костяной бетон.</MakeBonecrete.description>
+	<!-- EN: Refining bonecrete. -->
+	<MakeBonecrete.jobString>делает костяной бетон</MakeBonecrete.jobString>
+
+	<!-- EN: make calcium polymer -->
+	<MakeBonePlastic.label>сделать кальциевый полимер</MakeBonePlastic.label>
+	<!-- EN: Make a batch of calcium polymer by extracting and refining hydroxyapatite and calcium stearate from bone. -->
+	<MakeBonePlastic.description>Растворить кость, извлечь гидроксиапатит и стеарат кальция, затем очистить их для получения полимера кальция.</MakeBonePlastic.description>
+	<!-- EN: making calcium polymer. -->
+	<MakeBonePlastic.jobString>делает кальциевый полимер</MakeBonePlastic.jobString>
+
+	<!-- EN: make plasteel from calcium -->
+	<MakeBonePlasteel.label>сделать пласталь</MakeBonePlasteel.label>
+	<!-- EN: Make a plasteel by refining and alloying steel with calcium polymer. -->
+	<MakeBonePlasteel.description>Выплавить пласталь, легируя обычную сталь полимером кальция.</MakeBonePlasteel.description>
+	<!-- EN: making plasteel. -->
+	<MakeBonePlasteel.jobString>делает пласталь</MakeBonePlasteel.jobString>
+
+	<!-- EN: extract bone marrow -->
+	<MakeMarrowFromBone.label>извлечь костный мозг</MakeMarrowFromBone.label>
+	<!-- EN: Crack open bones to get to the marrow inside. -->
+	<MakeMarrowFromBone.description>Раздробить кости, чтобы достать мягкий костный мозг.</MakeMarrowFromBone.description>
+	<!-- EN: Extracting marrow from bones. -->
+	<MakeMarrowFromBone.jobString>извлекает костный мозг</MakeMarrowFromBone.jobString>
+
+	<!-- EN: make gelatin -->
+	<MakeGelatinFromMarrow.label>сделать желатин</MakeGelatinFromMarrow.label>
+	<!-- EN: Boil marrow to produce delicious gelatin -->
+	<MakeGelatinFromMarrow.description>Отварить костный мозг, чтобы получить вкусный желатин.</MakeGelatinFromMarrow.description>
+	<!-- EN: Making gelatin. -->
+	<MakeGelatinFromMarrow.jobString>делает желатин</MakeGelatinFromMarrow.jobString>
+
+	<!-- EN: make chemfuel from bone -->
+	<Make_ChemfuelFromBone.label>получить химтопливо из костей</Make_ChemfuelFromBone.label>
+	<!-- EN: Make a batch of chemfuel by turning bones into fossil fuels. -->
+	<Make_ChemfuelFromBone.description>Растворить кость, выделить органические вещества, и конденсировать их в химтопливо.</Make_ChemfuelFromBone.description>
+	<!-- EN: Refining chemfuel from bone. -->
+	<Make_ChemfuelFromBone.jobString>производит химтопливо из костей</Make_ChemfuelFromBone.jobString>
+
+</LanguageData>

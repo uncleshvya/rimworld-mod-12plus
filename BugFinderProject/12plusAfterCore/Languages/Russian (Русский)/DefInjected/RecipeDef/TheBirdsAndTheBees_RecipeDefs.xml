@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлена русская локализация, сообщите разработчику.
+
+	В ванили с версии 1.3 уж есть процедура стерилизации. Надо почистить код.
+	EN: neuter -->
+	<Neuter.label>стерилизовать</Neuter.label>
+	<!-- EN: Prevents reproduction. -->
+	<Neuter.description>Хирургически лишить существо способности размножаться естественным путём.</Neuter.description>
+	<!-- EN: Neutering. -->
+	<Neuter.jobString>проводит стерилизацию</Neuter.jobString>
+	<!-- Описания следует синхронизировать с папкой ThingDef.
+	EN: install bionic reproductive organs -->
+	<InstallBionicReproductiveOrgans.label>установить архо-органы репродукции</InstallBionicReproductiveOrgans.label>
+	<!-- EN: Installs bionic reproductive organs. -->
+	<InstallBionicReproductiveOrgans.description>Инициировать у персоны процедуру выращивания сверхвысокотехнологичной замены репродуктивных органов с помощью архо-механитов.</InstallBionicReproductiveOrgans.description>
+	<!-- EN: Installing bionic reproductive organs. -->
+	<InstallBionicReproductiveOrgans.jobString>устанавливает архо-органы репродукции</InstallBionicReproductiveOrgans.jobString>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Не отключается простым патчем. Скорректировано описание.
+	EN: install basic reproductive organs -->
+	<InstallBasicReproductiveOrgans.label>установить имитацию репродуктивных органов</InstallBasicReproductiveOrgans.label>
+	<!-- EN: Installs basic reproductive organs. -->
+	<InstallBasicReproductiveOrgans.description>Установить протез, внешне похожий на репродуктивные органы. Он уберёт ощущение пустоты, но не возвратит утраченную фертильность.</InstallBasicReproductiveOrgans.description>
+	<!-- EN: Installing basic reproductive organs. -->
+	<InstallBasicReproductiveOrgans.jobString>устанавливает имитацию репродуктивных органов</InstallBasicReproductiveOrgans.jobString>
+
+</LanguageData>

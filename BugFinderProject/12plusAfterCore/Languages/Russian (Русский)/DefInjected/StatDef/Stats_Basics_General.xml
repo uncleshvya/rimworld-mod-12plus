@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: The chance this food will cause food poisoning. -->
+  <FoodPoisonChanceFixedHuman.description>Вероятность, с которой употребление этого продукта вызовет пищевое отравление.</FoodPoisonChanceFixedHuman.description>
+
+  <!-- EN: nutrition -->
+  <Nutrition.label>энергоёмкость</Nutrition.label>
+  <!-- EN: How nutritious this food is. -->
+  <Nutrition.description>Запас энергии в объекте, как правило, изначально полученной от солнца. Может быть превращена в тепловую, электрическую, механическую и в другие виды энергии.</Nutrition.description>
+
+</LanguageData>

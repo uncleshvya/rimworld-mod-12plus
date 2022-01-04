@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	EN: desc_sentence->[PAWN_possessive] teeth are bared in a deadly snarl. -->
+	<CoreTakeover.rulePack.rulesStrings.11>desc_sentence->[PAWN_possessive] зубы обнажены в ужасающем оскале.</CoreTakeover.rulePack.rulesStrings.11>
+	<!-- EN: desc_sentence->[PAWN_pronoun] has a murderous glint in [PAWN_possessive] eye. -->
+	<CoreTakeover.rulePack.rulesStrings.19>desc_sentence->в [PAWN_possessive] глазах виден яростный блеск.</CoreTakeover.rulePack.rulesStrings.19>
+
+</LanguageData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: вживить посмертный растворитель -->
+	<InstallDeathAcidifier.label>вживить растворитель снаряжения</InstallDeathAcidifier.label>
+	<!-- Оригинал: Вживить посмертный растворитель. -->
+	<InstallDeathAcidifier.description>Вживить растворитель снаряжения.</InstallDeathAcidifier.description>
+	<!-- Оригинал: Вживляет посмертный растворитель -->
+	<InstallDeathAcidifier.jobString>вживляет растворитель снаряжения</InstallDeathAcidifier.jobString>
+
+</LanguageData>

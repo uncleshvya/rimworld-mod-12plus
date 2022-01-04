@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Название фракции мирных андроидов.
+	Переделана структура для соблюдения родов.
+	Оригинал: r_name->The [connecting_verb] [political_union_collective] -->
+	<NamerFactionCollectiveAndroid.rulePack.rulesStrings.0>r_name->[political_union_collective] [connecting_verb]</NamerFactionCollectiveAndroid.rulePack.rulesStrings.0>
+	<!-- Убран дубль.
+	Оригинал: political_union_collective->конфедерация -->
+	<NamerFactionCollectiveAndroid.rulePack.rulesStrings.8>political_union_collective->республика</NamerFactionCollectiveAndroid.rulePack.rulesStrings.8>
+	<!-- Оригинал: connecting_verb->единый -->
+	<NamerFactionCollectiveAndroid.rulePack.rulesStrings.11>connecting_verb->нейтральных</NamerFactionCollectiveAndroid.rulePack.rulesStrings.11>
+	<!-- Оригинал: connecting_verb->большой -->
+	<NamerFactionCollectiveAndroid.rulePack.rulesStrings.12>connecting_verb->мира</NamerFactionCollectiveAndroid.rulePack.rulesStrings.12>
+	<!-- Оригинал: connecting_verb->механический -->
+	<NamerFactionCollectiveAndroid.rulePack.rulesStrings.13>connecting_verb->терпимости</NamerFactionCollectiveAndroid.rulePack.rulesStrings.13>
+	<!-- Оригинал: connecting_verb->андроид -->
+	<NamerFactionCollectiveAndroid.rulePack.rulesStrings.14>connecting_verb->спокойствия</NamerFactionCollectiveAndroid.rulePack.rulesStrings.14>
+	<!-- Оригинал: connecting_verb->единый -->
+	<NamerFactionCollectiveAndroid.rulePack.rulesStrings.15>connecting_verb->непоколебимости</NamerFactionCollectiveAndroid.rulePack.rulesStrings.15>
+	<!-- Оригинал: connecting_verb->связаные -->
+	<NamerFactionCollectiveAndroid.rulePack.rulesStrings.16>connecting_verb->посредников</NamerFactionCollectiveAndroid.rulePack.rulesStrings.16>
+
+	<!-- Поселение мирных андроидов.
+	Оригинал: r_name->[place_type] of [place_name] -->
+	<NamerSettlementCollectiveAndroid.rulePack.rulesStrings.2>r_name->[place_type] [place_name]</NamerSettlementCollectiveAndroid.rulePack.rulesStrings.2>
+
+	<!-- Название фракции восставших андроидов.
+	Переделана структура для соблюдения родов.
+	Оригинал: r_name->The [connecting_verb] [political_raider_androids] -->
+	<NamerFactionRaiderAndroid.rulePack.rulesStrings.0>r_name->[connecting_verb] [political_raider_androids]</NamerFactionRaiderAndroid.rulePack.rulesStrings.0>
+	<!-- Оригинал: political_raider_androids->восстание -->
+	<NamerFactionRaiderAndroid.rulePack.rulesStrings.3>political_raider_androids->конклав</NamerFactionRaiderAndroid.rulePack.rulesStrings.3>
+	<!-- Оригинал: political_raider_androids->народное ополчение -->
+	<NamerFactionRaiderAndroid.rulePack.rulesStrings.4>political_raider_androids->строй</NamerFactionRaiderAndroid.rulePack.rulesStrings.4>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: connecting_verb->земля мертвых -->
+	<NamerFactionRaiderAndroid.rulePack.rulesStrings.8>connecting_verb->металлический</NamerFactionRaiderAndroid.rulePack.rulesStrings.8>
+
+</LanguageData>

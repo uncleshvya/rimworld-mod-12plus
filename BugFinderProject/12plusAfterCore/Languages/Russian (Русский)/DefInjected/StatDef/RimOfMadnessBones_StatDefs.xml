@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- добавлена русская локализация, сообщите разработчику -->
+
+	<!-- EN: bone amount -->
+	<BoneAmount.label>количество костей</BoneAmount.label>
+
+	<!-- исправление согласно концепции «12+» -->
+
+	<!-- EN: The amount of bones you will get from butchering this creature. -->
+	<BoneAmount.description>Сколько всего костей в организме этого существа.</BoneAmount.description>
+
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправлена неточность, сообщите разработчику либо пометьте как исправление согласно концепции «12+» -->
+
+  <!-- EN: Build machining tables to craft guns, grenades, flak armor, and to shred dead mechanoids for resources. -->
+  <Machining.description>Позволяет создавать верстаки, на которых можно собирать оружие и оборудование, а также разбирать сломанных механоидов.</Machining.description>
+
+</LanguageData>

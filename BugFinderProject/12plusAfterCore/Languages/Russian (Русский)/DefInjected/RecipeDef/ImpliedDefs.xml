@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	EN: сделать Go-сок х4 -->
+	<Make_GoJuiceBulk.label>синтезировать Go-сок х4</Make_GoJuiceBulk.label>
+	<!-- EN: Сделать Go-сок х4 -->
+	<Make_GoJuiceBulk.description>Синтезировать 4 дозы Go-сока.</Make_GoJuiceBulk.description>
+	<!-- EN: Делает Go-сок х4 -->
+	<Make_GoJuiceBulk.jobString>синтезирует Go-сок х4</Make_GoJuiceBulk.jobString>
+	<!-- EN: сделать пеноксицилин х4 -->
+	<Make_PenoxycylineBulk.label>синтезировать пеноксицилин х4</Make_PenoxycylineBulk.label>
+	<!-- EN: Сделать пеноксицилин х4 -->
+	<Make_PenoxycylineBulk.description>Синтезировать 4 порции пеноксицилина.</Make_PenoxycylineBulk.description>
+	<!-- EN: Делает пеноксицилин х4 -->
+	<Make_PenoxycylineBulk.jobString>синтезирует пеноксицилин х4</Make_PenoxycylineBulk.jobString>
+	<!-- EN: сделать хлопья психина х4 -->
+	<Make_FlakeBulk.label>получить хлопья психина х4</Make_FlakeBulk.label>
+	<!-- EN: Сделать хлопья психина х4 -->
+	<Make_FlakeBulk.description>Получить 4 дозы хлопьев психина.</Make_FlakeBulk.description>
+	<!-- EN: Делает хлопья психина х4 -->
+	<Make_FlakeBulk.jobString>получает хлопья психина х4</Make_FlakeBulk.jobString>
+	<!-- EN: сделать порошок психина х4 -->
+	<Make_YayoBulk.label>получить порошок психина х4</Make_YayoBulk.label>
+	<!-- EN: Сделать порошок психина х4 -->
+	<Make_YayoBulk.description>Получить 4 дозы порошка психина.</Make_YayoBulk.description>
+	<!-- EN: Делает порошок психина х4 -->
+	<Make_YayoBulk.jobString>получает порошок психина х4</Make_YayoBulk.jobString>
+	<!-- EN: сделать косяк дымолиста х4 -->
+	<Make_SmokeleafJointBulk.label>скрутить косяк х4</Make_SmokeleafJointBulk.label>
+	<!-- EN: Сделать косяк дымолиста х4 -->
+	<Make_SmokeleafJointBulk.description>Скрутить 4 косяка.</Make_SmokeleafJointBulk.description>
+	<!-- EN: Делает косяк дымолиста х4 -->
+	<Make_SmokeleafJointBulk.jobString>крутит косяк х4</Make_SmokeleafJointBulk.jobString>
+	<!-- EN: сделать бодрин х4 -->
+	<Make_WakeUpBulk.label>синтезировать бодрин х4</Make_WakeUpBulk.label>
+	<!-- EN: Сделать бодрин х4 -->
+	<Make_WakeUpBulk.description>Синтезировать 4 дозы бодрина.</Make_WakeUpBulk.description>
+	<!-- EN: Делает бодрин х4 -->
+	<Make_WakeUpBulk.jobString>синтезирует бодрин х4</Make_WakeUpBulk.jobString>
+	<!-- EN: сделать психиновый чай х4 -->
+	<Make_PsychiteTeaBulk.label>заварить психиновый чай х4</Make_PsychiteTeaBulk.label>
+	<!-- EN: Сделать психиновый чай х4 -->
+	<Make_PsychiteTeaBulk.description>Заварить 4 дозы психинового чая.</Make_PsychiteTeaBulk.description>
+	<!-- EN: Делает психиновый чай х4 -->
+	<Make_PsychiteTeaBulk.jobString>заваривает психиновый чай х4</Make_PsychiteTeaBulk.jobString>
+
+</LanguageData>

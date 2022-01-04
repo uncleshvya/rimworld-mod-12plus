@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	Названия следует синхронизировать с папкой ThingDef.
+	Оригинал: изготовить миниган -->
+	<Make_Gun_Minigun.label>изготовить многоствольный пулемёт</Make_Gun_Minigun.label>
+	<!-- Оригинал: Изготовить миниган. -->
+	<Make_Gun_Minigun.description>Изготовить многоствольный пулемёт.</Make_Gun_Minigun.description>
+	<!-- Оригинал: Изготавливает миниган -->
+	<Make_Gun_Minigun.jobString>изготавливает многоствольный пулемёт</Make_Gun_Minigun.jobString>
+
+</LanguageData>

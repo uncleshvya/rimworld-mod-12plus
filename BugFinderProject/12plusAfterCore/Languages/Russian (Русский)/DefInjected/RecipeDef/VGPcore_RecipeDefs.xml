@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Переведено аналогично адаптированному моду Haplo.Miscellaneous.BeesNHoney.
+	EN: make five honey mead drinks -->
+	<Makemead.label>сделать медовый напиток х5</Makemead.label>
+	<!-- EN: Press honey into mead by hand. -->
+	<Makemead.description>Приготовить пять бутылок напитка из мёда.</Makemead.description>
+	<!-- EN: brew mead -->
+	<Makemead.jobString>готовит медовый напиток</Makemead.jobString>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Лишние пробелы приводили к красным ошибкам.
+	Оригинал: (пробел) Сделайте партию...топлива путем газификации... -->
+	<MakeChemfuelFromBamboo.description>Получить партию химического топлива путём газификации бамбука.</MakeChemfuelFromBamboo.description>
+	<!-- Оригинал: (пробел) Очистка химического топлива из древесины. -->
+	<MakeChemfuelFromBamboo.jobString>производит химтопливо из бамбука</MakeChemfuelFromBamboo.jobString>
+	<!-- Оригинал: (пробел) Заварите 12 чашек кофе. -->
+	<BulkBrewCoffee.description>Заварить полный кофейник.</BulkBrewCoffee.description>
+
+</LanguageData>

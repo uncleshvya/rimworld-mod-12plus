@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику -->
+
+	<!-- Оригиналы: все начинаются с заглавной буквы и с точкой в конце -->
+	<VFEI_InstallDroneGenome.jobString>вводит геном трутня</VFEI_InstallDroneGenome.jobString>
+	<VFEI_InstallInsectoidLeg.jobString>устанавливает ногу инсектоида</VFEI_InstallInsectoidLeg.jobString>
+	<VFEI_InstallInsectoidArm.jobString>устанавливает руку инсектоида</VFEI_InstallInsectoidArm.jobString>
+	<VFEI_InstallCompoundEye.jobString>устанавливает фасеточный глаз</VFEI_InstallCompoundEye.jobString>
+	<VFEI_InstallMandibles.jobString>устанавливает жвалы</VFEI_InstallMandibles.jobString>
+	<VFEI_InstallJellySac.jobString>устанавливает желейный мешочек</VFEI_InstallJellySac.jobString>
+	<VFEI_InstallWarriorGenome.jobString>вводит геном воина</VFEI_InstallWarriorGenome.jobString>
+	<VFEI_InstallVenomGland.jobString>устанавливает ядовитую железу</VFEI_InstallVenomGland.jobString>
+	<VFEI_InstallPneumaticClaw.jobString>устанавливает пневмоклешню</VFEI_InstallPneumaticClaw.jobString>
+	<VFEI_InstallAntenna.jobString>устанавливает усик</VFEI_InstallAntenna.jobString>
+	<VFEI_InstallPredatorStomach.jobString>устанавливает желудок хищника</VFEI_InstallPredatorStomach.jobString>
+	<VFEI_InstallRoyalGenome.jobString>вводит геном монарха</VFEI_InstallRoyalGenome.jobString>
+	<VFEI_InstallPheromoneSecretor.jobString>устанавливает феромоновую железу</VFEI_InstallPheromoneSecretor.jobString>
+	<VFEI_InstallVentricularSleeve.jobString>устанавливает желудочковый рукав</VFEI_InstallVentricularSleeve.jobString>
+	<VFEI_InstallSynapticCerebellum.jobString>устанавливает синаптический мозжечок</VFEI_InstallSynapticCerebellum.jobString>
+
+</LanguageData>

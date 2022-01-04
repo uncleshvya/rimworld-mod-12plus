@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Оригинал: Перезарядить ловушки -->
+	<VFES_TrapsRearmed.label>перезаряженные ловушки</VFES_TrapsRearmed.label>
+	<!-- По аналогии с ванилью.
+	Оригинал: Количество ловушек, которые необходимо перезарядить. -->
+	<VFES_TrapsRearmed.description>Число ловушек, перезаряженных мной.</VFES_TrapsRearmed.description>
+
+</LanguageData>

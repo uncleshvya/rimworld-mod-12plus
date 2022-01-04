@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- добавлена недостающая строка русской локализации, сообщите разработчику -->
+	<!-- EN: Dubs Bad Hygiene -->
+	<DubsBadHygiene.label>Гигиена</DubsBadHygiene.label>
+
+</LanguageData>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Лишний пробел приводил к красной ошибке.
+	Оригинал: Создание бионической челюсти из...пластали. (пробел) -->
+	<CreateBionicJaw.description>Изготовить бионическую челюсть из стали и пластали.</CreateBionicJaw.description>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Заодно исправлена неточность, сообщите разработчику.
+	С версии EPOE 1.91 пиво заменено на психин.
+	Оригинал: Создание стимулирующего ребра из пластали и пива -->
+	<CreateDruggedRib.description>Создать стимулирующее ребро, повышающее настроение, но затуманивающее разум.</CreateDruggedRib.description>
+	<!-- EN: remove drugged rib -->
+	<RemoveDruggedRib.label>удалить стимулирующее ребро</RemoveDruggedRib.label>
+	<!-- EN: Removes drugged rib. -->
+	<RemoveDruggedRib.description>Удалить стимулирующее ребро.</RemoveDruggedRib.description>
+	<!-- EN: removing drugged rib. -->
+	<RemoveDruggedRib.jobString>удаляет стимулирующее ребро</RemoveDruggedRib.jobString>
+	<!-- Надо протестить gender-оператор и переименовать соответствующие сообщения. Пока это не сделано, установлено настоящее информирующее время, как в ванили до 2020 года.
+	EN: {0} has successfully removed {1}'s drugged rib. -->
+	<RemoveDruggedRib.successfullyRemovedHediffMessage>{0} успешно удаляет стимулирующее ребро у {1}</RemoveDruggedRib.successfullyRemovedHediffMessage>
+	<!-- Сглажена реклама наркотиков.
+	Оригинал: Создание адреналинового ребра из пластали и психина(порошок) -->
+	<CreateAdrenalineRib.description>Создать адреналиновое ребро, обладающее лёгким борящим действием, но иногда создающее проблемы со сном.</CreateAdrenalineRib.description>
+	<!-- Оригинал: Создание обезболивающего ребра из пластали и Go-сока. -->
+	<CreatePainkillerRib.description>Создать обезболивающее ребро, приглушающее боль, но повышающее риск лёгочных заболеваний.</CreatePainkillerRib.description>
+	<!-- EN: remove painkiller rib -->
+	<RemovePainkillerRib.label>удалить обезболивающее ребро</RemovePainkillerRib.label>
+	<!-- EN: Removes painkiller rib. -->
+	<RemovePainkillerRib.description>Удалить обезболивающее ребро.</RemovePainkillerRib.description>
+	<!-- EN: removing painkiller rib. -->
+	<RemovePainkillerRib.jobString>удаляет обезболивающее ребро</RemovePainkillerRib.jobString>
+	<!-- EN: {0} has successfully removed {1}'s painkiller rib. -->
+	<RemovePainkillerRib.successfullyRemovedHediffMessage>{0} успешно удаляет обезболивающее ребро у {1}</RemovePainkillerRib.successfullyRemovedHediffMessage>
+
+	<!-- Отключено патчем.
+	Оригинал: перемолоть органы -->
+	<MinceOrgans.label>?</MinceOrgans.label>
+	<!-- Оригинал: Пропустить через мясорубку человеческие органы, чтобы получить съедобное мясо. Отличная еда для заключённых. -->
+	<MinceOrgans.description>?</MinceOrgans.description>
+	<!-- Оригинал: Перемалывает органы. -->
+	<MinceOrgans.jobstring>?</MinceOrgans.jobstring>
+	<!-- Оригинал: перемолоть конечности -->
+	<MinceLimbs.label>?</MinceLimbs.label>
+	<!-- Оригинал: Пропустить через мясорубку человеческие конечности, чтобы получить съедобное мясо. Остерегайтесь ногтей. -->
+	<MinceLimbs.description>?</MinceLimbs.description>
+	<!-- Оригинал: Перемалывает конечности. -->
+	<MinceLimbs.jobstring>?</MinceLimbs.jobstring>
+
+	<!-- Оригинал: Создание синтетической кожи из гиперткани и человеческой кожи. -->
+	<CreateSyntheticSkin.description>Создать синтетическую кожу, растворив кератин из волос и укрепив его волокнами гиперткани.</CreateSyntheticSkin.description>
+
+</LanguageData>

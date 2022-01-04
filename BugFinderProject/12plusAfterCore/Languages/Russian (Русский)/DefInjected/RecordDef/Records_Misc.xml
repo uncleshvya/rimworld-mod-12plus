@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: ...похороненных мной трупов. -->
+	<CorpsesBuried.description>Число похороненных мной разумных существ.</CorpsesBuried.description>
+	<!-- Оригинал: убито -->
+	<Kills.label>побеждено</Kills.label>
+	<!-- Оригинал: Число убитых мной... -->
+	<Kills.description>Общее число побеждённых мной существ.</Kills.description>
+	<!-- Заодно сглажены ссылки на животных - для модов на неявно живых питомцев.
+	Оригинал: убито животных -->
+	<KillsAnimals.label>побеждено животных</KillsAnimals.label>
+	<!-- Оригинал: Число убитых мной животных. -->
+	<KillsAnimals.description>Число побеждённых мной животных и других «неразумных» существ.</KillsAnimals.description>
+	<!-- Заодно сглажена ссылка на людей - для модов на другие расы.
+	Оригинал: убито человек -->
+	<KillsHumanlikes.label>побеждено разумных существ</KillsHumanlikes.label>
+	<!-- Оригинал: Число убитых мной людей. -->
+	<KillsHumanlikes.description>Число побеждённых мной разумных существ.</KillsHumanlikes.description>
+	<!-- Оригинал: убито механоидов -->
+	<KillsMechanoids.label>побеждено механоидов</KillsMechanoids.label>
+	<!-- Оригинал: Число убитых мной... -->
+	<KillsMechanoids.description>Число побеждённых мной механоидов.</KillsMechanoids.description>
+
+</LanguageData>
