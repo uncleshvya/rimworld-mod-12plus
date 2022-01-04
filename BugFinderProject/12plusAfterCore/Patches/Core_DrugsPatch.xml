@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<!-- Исправление согласно концепции «12+».
+
+			Удалены разрешающие наркополитики -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/DrugPolicyDef[
+				defName = "OneDrinkPerDay" or
+				defName = "SocialDrugs" or
+				defName = "Unrestricted"
+				]</xpath>
+			</li>
+			<!-- Добавлен регулярный приём лекарств против болезней -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/DrugPolicyDef[defName = "NoDrugs"]</xpath>
+				<value>
+					<entries>
+						<li>
+							<drug>Penoxycyline</drug>
+							<allowScheduled>true</allowScheduled>
+							<daysFrequency>5</daysFrequency>
+						</li>
+						<!-- Запрещён приём для удовлетворения зависимости, чтобы она быстрее прошла -->
+						<li>
+							<drug>Beer</drug>
+							<allowedForAddiction>false</allowedForAddiction>
+						</li>
+						<li>
+							<drug>Ambrosia</drug>
+							<allowedForAddiction>false</allowedForAddiction>
+						</li>
+						<li>
+							<drug>GoJuice</drug>
+							<allowedForAddiction>false</allowedForAddiction>
+						</li>
+						<li>
+							<drug>Flake</drug>
+							<allowedForAddiction>false</allowedForAddiction>
+						</li>
+						<li>
+							<drug>PsychiteTea</drug>
+							<allowedForAddiction>false</allowedForAddiction>
+						</li>
+						<li>
+							<drug>Yayo</drug>
+							<allowedForAddiction>false</allowedForAddiction>
+						</li>
+						<li>
+							<drug>SmokeleafJoint</drug>
+							<allowedForAddiction>false</allowedForAddiction>
+						</li>
+						<li>
+							<drug>WakeUp</drug>
+							<allowedForAddiction>false</allowedForAddiction>
+						</li>
+						<!-- А чего тянуть-то? Лучше использовать мод на перепрограммирование механитов -->
+						<li>
+							<drug>Luciferium</drug>
+							<allowedForAddiction>false</allowedForAddiction>
+						</li>
+					</entries>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>

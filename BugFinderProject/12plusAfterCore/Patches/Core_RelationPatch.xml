@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<!-- исправление согласно концепции «12+» -->
+
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/PawnRelationDef[
+		defName = "Parent" or
+		defName = "Child" or
+		defName = "Sibling" or
+		defName = "HalfSibling" or
+		defName = "Grandparent" or
+		defName = "Grandchild" or
+		defName = "NephewOrNiece" or
+		defName = "UncleOrAunt" or
+		defName = "Cousin" or
+		defName = "GreatGrandparent" or
+		defName = "GreatGrandchild" or
+		defName = "GranduncleOrGrandaunt" or
+		defName = "GrandnephewOrGrandniece" or
+		defName = "CousinOnceRemoved" or
+		defName = "SecondCousin" or
+		defName = "Kin"
+		]/romanceChanceFactor/text()</xpath>
+		<value>0</value>
+	</Operation>
+</Patch>

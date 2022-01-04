@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- CC BY-NC-ND 4.0
+Copyright (c) Oskar Potocki
+
+MIT
+Copyright (c) 2019 XeoNovaDan
+-->
+
+<Patch>
+	<Operation MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<!-- Исправление согласно концепции «12+»
+
+			Виноградный напиток -->
+			<li Class="PatchOperationAttributeSet">
+				<xpath>Defs/ThingDef[defName = "VFEM_Wine"]</xpath>
+				<attribute>ParentName</attribute>
+				<value>ResourceBase</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="VFEM_Wine"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Foods</li>
+					</thingCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "VFEM_Wine"]/ingestible/joyKind/text()</xpath>
+				<!-- Обходим ошибку из-за Patch_DrugPolicyDatabase.cs методом подключения мода VE cooking -->
+				<value>VCE_Confectionery</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "VFEM_Wine"]/ingestible/outcomeDoers</xpath>
+				<value>
+					<preferability>DesperateOnly</preferability>
+					<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "VFEM_Wine"]/comps/li[1]</xpath>
+				<value>
+					<li Class="CompProperties_Forbiddable" />
+					<li Class="CompProperties_Drug">
+						<listOrder>1000</listOrder>
+					</li>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>

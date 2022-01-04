@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- CC BY-SA 4.0 With Exeption.
+Copyright (c) Haplo
+-->
+
+<Patch>
+	<Operation MayRequire="Haplo.Miscellaneous.BeesNHoney" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<!-- Исправление согласно концепции «12+».
+
+			Медовый напиток -->
+			<li Class="PatchOperationAttributeSet">
+				<xpath>Defs/ThingDef[defName = "Mead"]</xpath>
+				<attribute>ParentName</attribute>
+				<value>ResourceBase</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Mead"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Foods</li>
+					</thingCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "Mead"]/ingestible</xpath>
+				<value>
+					<ingestible>
+						<preferability>DesperateOnly</preferability>
+						<foodType>Fluid, Processed</foodType>
+						<joyKind>Gluttonous</joyKind>
+						<joy>0.18</joy>
+						<nurseable>true</nurseable>
+						<ingestSound>Ingest_Beer</ingestSound>
+						<ingestHoldOffsetStanding>
+							<northDefault>
+								<offset>(0.18,0,0)</offset>
+							</northDefault>
+						</ingestHoldOffsetStanding>
+						<ingestCommandString>Drink {0}</ingestCommandString>
+						<ingestReportString>Drinking {0}.</ingestReportString>
+						<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+					</ingestible>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "Mead"]/comps/li[1]</xpath>
+			</li>
+
+			<!-- Исправлена неточность, сообщите разработчику.
+
+			Лишние категории захламляли список -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[@Name = "ResourceHoneycombBase_MiscBees"]/thingCategories/li[2]</xpath>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- CC BY-NC-ND 4.0
+Copyright (c) Oskar Potocki
+
+MIT
+Copyright (c) 2019 XeoNovaDan
+-->
+
+<Patch>
+	<Operation MayRequire="OskarPotocki.VanillaFactionsExpanded.MedievalModule" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<!-- Исправлен баланс, сообщите разработчику.
+
+			Теперь виноградный сок можно пить без обработки. И даже перемолотый виноград съедобен, в отличие от хмеля -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "VFEM_Must"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Foods</li>
+					</thingCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "VFEM_Must"]/statBases</xpath>
+				<value>
+					<!-- Установлена в четверть от сырого, примерно как в реале после удаления жмыха -->
+					<Nutrition>0.3</Nutrition>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "VFEM_Must"]</xpath>
+				<value>
+					<ingestible>
+						<preferability>DesperateOnly</preferability>
+						<foodType>Fluid, Processed</foodType>
+						<ingestSound>Ingest_Beer</ingestSound>
+						<ingestHoldOffsetStanding>
+							<northDefault>
+								<offset>(0.35,0,0.1)</offset>
+							</northDefault>
+						</ingestHoldOffsetStanding>
+						<ingestCommandString>Drink {0}</ingestCommandString>
+						<ingestReportString>Drinking {0}.</ingestReportString>
+					</ingestible>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>

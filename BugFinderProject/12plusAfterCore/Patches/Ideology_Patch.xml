@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation MayRequire="Ludeon.RimWorld.Ideology" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<!-- Исправление согласно концепции «12+»
+
+			Заменена механика на ванильное поджигание. Заодно решена проблема утилизации тел для некоторых идеолигий. И зависти к налётчикам-поджигателям -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/JobDef[defName = "ExtractSkull"]</xpath>
+				<value>
+					<JobDef>
+						<defName>ExtractSkull</defName>
+						<driverClass>JobDriver_Ignite</driverClass>
+						<reportString>igniting TargetA</reportString>
+					</JobDef>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/DesignationDef[defName = "ExtractSkull"]/texturePath/text()</xpath>
+				<value>Things/Building/Misc/Campfire</value>
+			</li>
+			<!-- Убран череп из рецепта -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "Skullspike"]/costList</xpath>
+			</li>
+			<!-- Замена картинки каннибальского блюда -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "CannibalPlatter"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<texPath>Things/Item/Resource/Kibble</texPath>
+						<color>(120, 90, 0)</color>
+						<drawSize>(2, 3)</drawSize>
+						<shadowData>
+							<volume>(0.8, 1, 0.8)</volume>
+						</shadowData>
+					</graphicData>
+					<rotatable>false</rotatable>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "CannibalPlatter"]/defaultPlacingRot</xpath>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>
