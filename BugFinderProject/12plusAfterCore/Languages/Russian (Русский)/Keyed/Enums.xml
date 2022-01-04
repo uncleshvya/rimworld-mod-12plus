@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Оригинал: Стоя -->
+	<PlayerPawnsArriveMethod_Standing>Пешком</PlayerPawnsArriveMethod_Standing>
+	<!-- Оригинал: ...кухне -->
+	<FoodPoisonCause_FilthyKitchen>грязь на кухне или в столовой</FoodPoisonCause_FilthyKitchen>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: тела -->
+	<FoodTypeFlags_Corpse>туши</FoodTypeFlags_Corpse>
+	<!-- Оригинал: категория препарата -->
+	<DrugCategory>категория вещества</DrugCategory>
+	<!-- Оригинал: тяжёлый наркотик -->
+	<DrugCategory_Hard>препарат</DrugCategory_Hard>
+
+</LanguageData>

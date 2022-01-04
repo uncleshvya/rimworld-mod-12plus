@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	EN: Penalty Worn by Corpse -->
+	<PenaltyWornByCorpse>Штраф для вещей в крови</PenaltyWornByCorpse>
+	<!-- EN: Should Worn by Corpse matter in calculations? -->
+	<PenaltyWornByCorpseTooltip>Должна ли метка «В крови» влиять на расчёты?</PenaltyWornByCorpseTooltip>
+
+</LanguageData>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Не забываем про дикарей.
+	Оригинал: ...указать животных, на которых... -->
+	<MessageMustDesignateHuntable>Нужно указать существ, на которых можно охотиться.</MessageMustDesignateHuntable>
+	<!-- Оригинал: ...приручаемых животных. -->
+	<MessageMustDesignateTameable>Нужно указать приручаемых существ.</MessageMustDesignateTameable>
+	<!-- Оригинал: Потолок в виде толстой горной породы удалить невозможно. -->
+	<MessageNothingCanRemoveThickRoofs>Толщу горной породы удалить невозможно.</MessageNothingCanRemoveThickRoofs>
+	<!-- Оригинал глючащий: Невозможно изгнать {PAWN_labelShort}, так как {PAWN_pronoun} не может ходить. -->
+	<MessageCantBanishDownedPawn>Невозможно изгнать {1_labelShort}, так как {1_pronoun} не может ходить.</MessageCantBanishDownedPawn>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Заодно сглажены ссылки на людей - для модов на другие расы.
+	Оригинал: Нужно указать мёртвых или лежащих на земле людей, в одежде, которую можно снять. -->
+	<MessageMustDesignateStrippable>Нужно указать тела или обездвиженных существ, в одежде, которую можно снять.</MessageMustDesignateStrippable>
+	<!-- Оригинал: ...{PAWN_gender ? умер : умерла}. Причина... -->
+	<PawnDiedBecauseOf>{PAWN_labelShort} {PAWN_gender ? проиграл : проиграла}. Причина: {1}.</PawnDiedBecauseOf>
+	<!-- Оригинал: ...{PAWN_gender ? умер : умерла}. -->
+	<PawnDied>{PAWN_labelShort} {PAWN_gender ? проиграл : проиграла}.</PawnDied>
+	<!-- Оригинал: ...{1_gender ? мёртв : мертва}. -->
+	<MessageCantSelectDeadPawn>{1_labelShort} {1_gender ? вне игры : вне игры}.</MessageCantSelectDeadPawn>
+	<!-- Оригинал: ...{HUMAN_gender ? умер : умерла} {HUMAN_labelShort}. -->
+	<MessageBondedAnimalMentalBreak>{ANIMAL} {ANIMAL_gender ? получил : получила} нервный срыв из-за того, что {HUMAN_gender ? проиграл : проиграла} {HUMAN_labelShort}.</MessageBondedAnimalMentalBreak>
+	<!-- Оригинал: ...{HUMAN_gender ? умер : умерла} {HUMAN_labelShort}. -->
+	<MessageNamedBondedAnimalMentalBreak>{ANIMAL_kindIndef} по имени {ANIMAL_label} {ANIMAL_gender ? получил : получила} нервный срыв из-за того, что {HUMAN_gender ? проиграл : проиграла} {HUMAN_labelShort}.</MessageNamedBondedAnimalMentalBreak>
+	<!-- Оригинал: ...{HUMAN_gender ? умер : умерла} {HUMAN_labelShort}. -->
+	<MessageBondedAnimalsMentalBreak>{0} животных получили нервный срыв из-за того, что {HUMAN_gender ? проиграл : проиграла} {HUMAN_labelShort}.</MessageBondedAnimalsMentalBreak>
+	<!-- Оригинал: ...{0_gender ? погиб : погибла : погибло} от холода. -->
+	<MessagePlantDiedOfCold>{0} {0_gender ? завял : завяла : завяло} от холода.</MessagePlantDiedOfCold>
+	<!-- Оригинал: ...{0_gender ? погиб : погибла : погибло} от старости. -->
+	<MessagePlantDiedOfRot_LeftUnharvested>{0} {0_gender ? завял : завяла : завяло} от старости.</MessagePlantDiedOfRot_LeftUnharvested>
+	<!-- Оригинал: {0} {0_gender ? погиб : погибла : погибло}, так как... -->
+	<MessagePlantDiedOfRot_ExposedToLight>{0} {0_gender ? завял : завяла : завяло}, так как слишком много времени {0_gender ? провёл : провела : провело} на свету.</MessagePlantDiedOfRot_ExposedToLight>
+	<!-- Оригинал: {0} {0_gender ? погиб : погибла : погибло}. -->
+	<MessagePlantDiedOfRot>{0} {0_gender ? завял : завяла : завяло}.</MessagePlantDiedOfRot>
+	<!-- Оригинал: {0} {0_gender ? погиб : погибла : погибло} из-за отравления. -->
+	<MessagePlantDiedOfPoison>{0} {0_gender ? завял : завяла : завяло} из-за отравления.</MessagePlantDiedOfPoison>
+	<!-- Оригинал: {0} {0_gender ? погиб : погибла : погибло} из-за болезни. -->
+	<MessagePlantDiedOfBlight>{0} {0_gender ? завял : завяла : завяло} из-за болезни.</MessagePlantDiedOfBlight>
+	<!-- Заодно сглажена ссылка на животных - для модов на неявно живые существа.
+	Оригинал: Если вы убьёте {DESIGNATED_labelShort}...к этому животному. -->
+	<MessageSlaughteringBondedAnimal>Если вы потеряете {DESIGNATED_labelShort}, {BONDED_labelShort} расстроится из-за своей привязанности к этому питомцу.</MessageSlaughteringBondedAnimal>
+	<!-- Оригинал: Внимание: {0} не выживет на свету. -->
+	<MessageWarningCavePlantsExposedToLight>Внимание: {0} увядает на свету.</MessageWarningCavePlantsExposedToLight>
+	<!-- Оригинал: ...{1_gender ? погиб : погибла} -->
+	<GoodwillChangedReason_PawnDied>{1_labelShort} {1_gender ? потерян : потеряна}</GoodwillChangedReason_PawnDied>
+	<!-- Оригинал: погибли гражданские -->
+	<GoodwillChangeReason_CiviliansLost>потеряны гражданские</GoodwillChangeReason_CiviliansLost>
+	<!-- Оригинал: погиб командир -->
+	<GoodwillChangeReason_CommanderLost>потерян командир</GoodwillChangeReason_CommanderLost>
+
+</LanguageData>

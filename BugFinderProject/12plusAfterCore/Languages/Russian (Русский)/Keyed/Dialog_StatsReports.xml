@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Параметр отображается и на людях.
+	Оригинал: ...питание. Голодающее животное будет расти медленнее, чем упитанное. -->
+	<Stat_Race_Growth_Desc>Насколько близко это существо к тому, чтобы стать взрослым.\n\nДля роста требуется хорошее питание. Голодающий организм растёт медленнее, чем сытый.</Stat_Race_Growth_Desc>
+	<!-- Оригинал: без запятой -->
+	<Stat_Thing_ReloadDestroyOnEmpty_Desc>Этот предмет исчезнет, как только закончатся доступные {CHARGENOUN}.</Stat_Thing_ReloadDestroyOnEmpty_Desc>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: ...вещей, снятых с мёртвых -->
+	<StatsReport_WornByCorpse>Коэффициент для вещей, испачканных в чужой крови</StatsReport_WornByCorpse>
+	<!-- Заодно сглажена ссылка на людей - для модов на другие расы.
+	Оригинал: Содержит труп человека -->
+	<StatsReport_GraveFullAbstract>Содержит тело</StatsReport_GraveFullAbstract>
+	<!-- Оригинал: Медитирующий знает мертвеца внутри -->
+	<StatsReport_GraveCorpseRelatedAbstract>Медитирующий знал покойного внутри</StatsReport_GraveCorpseRelatedAbstract>
+	<!-- Оригинал: Промысловые виды -->
+	<Stat_SourceSpecies_Name>С каких существ можно получить</Stat_SourceSpecies_Name>
+	<!-- Оригинал: ...Растения погибают по... -->
+	<Stat_Thing_Plant_LifeSpan_Desc>Продолжительность жизни этого растения.\n\nРастения увядают по достижении определённого возраста, вне зависимости от того, собран ли с них урожай.</Stat_Thing_Plant_LifeSpan_Desc>
+	<!-- Оригинал: Тип кожи, который можно...существа при разделке. -->
+	<Stat_Race_LeatherType_Desc>Какой текстиль можно получить с этого существа.</Stat_Race_LeatherType_Desc>
+	<!-- Оригинал: Вероятность, с которой пациент может умереть при... -->
+	<Stat_Thing_Surgery_DeathOnFailChance_Desc>Вероятность потерять пациента при неудачной операции.</Stat_Thing_Surgery_DeathOnFailChance_Desc>
+	<!-- Оригинал: ...принадлежит этот препарат -->
+	<Stat_Thing_Drug_Category_Desc>Категория, к которой принадлежит активное вещество этого продукта</Stat_Thing_Drug_Category_Desc>
+
+</LanguageData>
