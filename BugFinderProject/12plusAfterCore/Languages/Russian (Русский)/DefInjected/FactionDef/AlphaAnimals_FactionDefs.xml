@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Оригиналы: без "ё" -->
+	<AA_BlackHive.label>чёрный улей</AA_BlackHive.label>
+	<AA_BlackHive.fixedName>чёрный улей</AA_BlackHive.fixedName>
+	<AA_BlackHive.pawnSingular>насекомое Чёрного улья</AA_BlackHive.pawnSingular>
+	<AA_BlackHive.pawnsPlural>насекомые Чёрного улья</AA_BlackHive.pawnsPlural>
+
+</LanguageData>

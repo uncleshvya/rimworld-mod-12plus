@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- исправлена неточность с буквой Ё, сообщите разработчику -->
+	<!-- Оригинал: серьезное -->
+	<BadHygiene.stages.1.label>серьёзное</BadHygiene.stages.1.label>
+	<!-- Оригинал: легкое -->
+	<DBHDehydration.stages.1.label>лёгкое</DBHDehydration.stages.1.label>
+	<!-- Оригинал: серьезное -->
+	<DBHDehydration.stages.3.label>серьёзное</DBHDehydration.stages.3.label>
+
+	<!-- добавлены недостающие строки русской локализации, сообщите разработчику -->
+
+	<!-- EN: washing -->
+	<Washing.description>Моется</Washing.description>
+	<!-- EN: Bad hygiene will increase risk of disease and impact social interaction. -->
+	<BadHygiene.description>Несоблюдение гигиены увеличивает риск заболевания и уменьшает социальное влияние.</BadHygiene.description>
+	<!-- EN: Diarrhea is loose, watery stools. Also known as bowel movements. -->
+	<Diarrhea.description>Диарея — это жидкий, водянистый стул.</Diarrhea.description>
+	<!-- EN: Dysentery is a type of gastroenteritis that results in diarrhea with blood. -->
+	<Dysentery.description>Дизентерия — это инфекционное заболевание, заражение происходит через желудочно-кишечный тракт. Болезнь характеризуется рвотой и жидким стулом с кровью.</Dysentery.description>
+	<!-- EN: major -->
+	<Dysentery.stages.major.label>сильная</Dysentery.stages.major.label>
+	<!-- EN: extreme -->
+	<Dysentery.stages.extreme.label>острая</Dysentery.stages.extreme.label>
+	<!-- EN: Cholera is an infectious disease that causes severe watery diarrhea, which can lead to dehydration and even death if untreated. -->
+	<Cholera.description>Холера — это опасное инфекционное заболевание, заражение происходит через желудочно-кишечный тракт. Болезнь характеризуется рвотой и жидким водянистым стулом. При отсутствии должного лечения, приводит к сильному обезвоживанию или даже потере заболевшего.</Cholera.description>
+	<!-- EN: major -->
+	<Cholera.stages.major.label>сильная</Cholera.stages.major.label>
+	<!-- EN: extreme -->
+	<Cholera.stages.extreme-0.label>острая</Cholera.stages.extreme-0.label>
+	<!-- EN: extreme -->
+	<Cholera.stages.extreme-1.label>фатальная</Cholera.stages.extreme-1.label>
+	<!-- EN: Dehydration is a condition that can occur when the loss of body fluids, mostly water, exceeds the amount that is taken in. -->
+	<DBHDehydration.description>Обезвоживание — это болезненное состояние организма, которое возникает, когда количество воды, потерянное с физиологическими жидкостями, превышает количество поступившей в организм.</DBHDehydration.description>
+
+</LanguageData>

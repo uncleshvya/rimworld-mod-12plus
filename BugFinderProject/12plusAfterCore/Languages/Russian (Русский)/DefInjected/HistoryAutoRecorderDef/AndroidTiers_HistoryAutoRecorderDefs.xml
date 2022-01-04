@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Добавлена недостающая строка русской локализации, сообщите разработчику.
+
+	Оригинал: животные -->
+	<Wealth_Pawns.label>питомцы</Wealth_Pawns.label>
+
+</LanguageData>

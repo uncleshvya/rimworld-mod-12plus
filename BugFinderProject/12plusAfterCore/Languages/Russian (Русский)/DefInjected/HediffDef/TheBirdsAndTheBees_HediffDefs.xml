@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлена русская локализация, сообщите разработчику.
+
+	EN: neutered -->
+	<Neutered.label>стерилизованы</Neutered.label>
+	<!-- Описание следует синхронизировать с папкой ThingDef.
+	EN: bionic reproductive organs -->
+	<BionicReproductiveOrgans.label>архо-органы репродукции</BionicReproductiveOrgans.label>
+	<!-- EN: impotent -->
+	<Impotence.label>импотенция</Impotence.label>
+	<!-- EN: onset -->
+	<Impotence.stages.onset.label>начальная</Impotence.stages.onset.label>
+	<!-- EN: minor -->
+	<Impotence.stages.minor.label>слабая</Impotence.stages.minor.label>
+	<!-- EN: major -->
+	<Impotence.stages.major.label>сильная</Impotence.stages.major.label>
+	<!-- EN: menopausal -->
+	<Menopause.label>менопауза</Menopause.label>
+	<!-- EN: onset -->
+	<Menopause.stages.onset.label>начальная</Menopause.stages.onset.label>
+	<!-- EN: hormonal -->
+	<Menopause.stages.hormonal.label>гормональная</Menopause.stages.hormonal.label>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Не отключается простым патчем. Скорректировано описание.
+	EN: improvised reproductive organs -->
+	<SimpleProstheticReproductiveOrgans.label>имитация репродуктивных органов</SimpleProstheticReproductiveOrgans.label>
+	<!-- EN: a very crude reproductive organ, improvised from materials at hand -->
+	<SimpleProstheticReproductiveOrgans.description>Протез, внешне похожий на репродуктивные органы. Убирает ощущение пустоты, но не возвращает утраченную фертильность.</SimpleProstheticReproductiveOrgans.description>
+	<!-- Заодно исправлена неточность, сообщите разработчику.
+	Органы не удалены, и могут быть повреждены.
+	EN: for one reason or another, their privates have been removed. -->
+	<Neutered.description>Существо больше не имеет способности к естественному размножению.</Neutered.description>
+	<!-- Описание следует синхронизировать с папкой ThingDef.
+	EN: high-tech reproductive organs, increasing both fertility and prowess -->
+	<BionicReproductiveOrgans.description>Полноценная замена репродуктивных органов, спроектированная дружественным архотеком.</BionicReproductiveOrgans.description>
+	<!-- EN: slowly progressing inability to perform in men, related to old age -->
+	<Impotence.description>Возрастное ослабление мужских репродуктивных органов, очень медленно прогрессирует.</Impotence.description>
+	<!-- EN: slowly progressing infertility in women, related to age. May cause hot flashes. -->
+	<Menopause.description>Возрастное ослабление женских репродуктивных органов, медленно прогрессирует. Может вызывать «приливы» — кратковременные приступы жара и плохого самочувствия.</Menopause.description>
+
+</LanguageData>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Заодно исправлена неточность, сообщите разработчику.
+	Оригинал: микроволновая печь -->
+	<Microwave.label>микроволны</Microwave.label>
+	<!-- Оригинал: {0} сгорел заживо. -->
+	<Microwave.deathMessage>{0} {0_gender ? сгорел : сгорела}.</Microwave.deathMessage>
+	<!-- Оригинал: {0} был раздавлен насмерть. -->
+	<KineticImpact.deathMessage>{0} {0_gender ? был раздавлен : была раздавлена}.</KineticImpact.deathMessage>
+	<!-- Оригинал: крошить -->
+	<Shredder.label>обширная рана</Shredder.label>
+	<!-- Оригинал: {0} был застрелен. -->
+	<Shredder.deathMessage>{0} {0_gender ? был застрелен : была застрелена}.</Shredder.deathMessage>
+	<!-- Оригинал: {0} был зарезан. -->
+	<MFlame.deathMessage>{0} {0_gender ? обгорел : обгорела}.</MFlame.deathMessage>
+
+</LanguageData>

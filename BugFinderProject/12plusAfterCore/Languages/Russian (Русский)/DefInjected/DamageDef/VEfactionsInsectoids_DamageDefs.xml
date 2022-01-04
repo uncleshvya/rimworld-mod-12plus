@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: {0} {0_gender ? умер : умерла}. -->
+	<VFEI_PsychicNoDamage.deathMessage>{0} {0_gender ? проиграл : проиграла} из-за пси-удара.</VFEI_PsychicNoDamage.deathMessage>
+	Оригинал: {0} зажалили до смерти. -->
+	<VFEI_ToxicSting.deathMessage>{0} {0_gender ? проиграл : проиграла} из-за удара жалом.</VFEI_ToxicSting.deathMessage>
+
+</LanguageData>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+» -->
+
+	<!-- Заодно добавлены недостающие строки русской локализации, сообщите разработчику.
+	EN: cut -->
+	<VFEM_CutBlackKnight.label>порез</VFEM_CutBlackKnight.label>
+	<!-- EN: {0} has been cut to death. -->
+	<VFEM_CutBlackKnight.deathMessage>{0} {0_gender ? был поранен : была поранена}.</VFEM_CutBlackKnight.deathMessage>
+
+</LanguageData>

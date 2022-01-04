@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- добавлена недостающая строка русской локализации, сообщите разработчику -->
+
+	<!-- EN: energy -->
+	<Crucible.label>всплеск энергии</Crucible.label>
+
+	<!-- исправление согласно концепции «12+» -->
+
+	<!-- EN: {0} has been shot to death. -->
+	<Crucible.deathMessage>{0} {0_gender ? был застрелен : была застрелена}.</Crucible.deathMessage>
+
+</LanguageData>
