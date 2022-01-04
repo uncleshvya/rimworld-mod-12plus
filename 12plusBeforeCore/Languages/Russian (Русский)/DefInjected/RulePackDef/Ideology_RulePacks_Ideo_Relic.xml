@@ -7,68 +7,50 @@
 
 	Оригинал:
 	...
-    <li>first->далёко</li>
-    <li>first->мёртво</li>
-    <li>first->живо</li>
+    <li>first->дально</li>
+    <li>first->мертво</li>
+    <li>first->жизне</li>
 	...
 	-->
   <NamerIdeoRelic.rulePack.rulesStrings>
-    <li>r_ideoRelicName(p=2)->[first][second]</li>
-    <li>r_ideoRelicName->[thingLabel] [memeConcept]</li>
-    <li>r_ideoRelicName->[memeAdjective] [thingLabel]</li>
-    <li>r_ideoRelicName->[memeHyphenPrefix]-[thingLabel]</li>
-    <li>r_ideoRelicName->[memeAdjective] [relic]</li>
-    <li>r_ideoRelicName->[relic] [memeConcept]</li>
-    <li>r_ideoRelicName->[memeHyphenPrefix]-[relic]</li>
-    <li>relic->реликвия</li>
+    <li>r_ideoRelicName->[first][second]</li>
+    <li>r_ideoRelicName(p=2)->[thingLabel] и [memeConcept]</li>
+    <li>r_ideoRelicName(p=2)->[memeAdjective] [thingLabel]</li>
+    <li>r_ideoRelicName(p=2)->[memeHyphenPrefix]-[thingLabel]</li>
+    <li>r_ideoRelicName(p=2)->[memeAdjective] [relic]</li>
+    <li>r_ideoRelicName(p=2)->[relic] и [memeConcept]</li>
+    <li>r_ideoRelicName(p=2)->[memeHyphenPrefix]-[relic]</li>
     <li>relic->артефакт</li>
-    <li>relic->памятник</li>
-    <li>relic->наследие</li>
+    <li>relic->сувенир</li>
+    <li>relic->фамильный артефакт</li>
+    <li>relic->семейный подарок</li>
+    <li>relic->фамильный сувенир</li>
+    <li>relic->подарок</li>
     <li>first(p=5)->[memeHyphenPrefix]</li>
     <li>first->длинно</li>
     <li>first->небо</li>
-    <li>first->звёздо</li>
-    <li>first->глубоко</li>
-    <li>first->далёко</li>
-    <li>first->мёртво</li>
-    <li>first->живо</li>
+    <li>first->звездо</li>
+    <li>first->дально</li>
+    <li>first->долго</li>
+    <li>first->жизне</li>
     <li>first->свето</li>
-    <li>first->тёмно</li>
-    <li>first->конце</li>
-    <li>first->хор</li>
-    <li>first->ан</li>
-    <li>first->экс</li>
-    <li>first->тон</li>
-    <li>first->доу</li>
-    <li>first->бор</li>
-    <li>first->вен</li>
-    <li>first->ксан</li>
-    <li>first->арль</li>
-    <li>first->гекс</li>
-    <li>first->бакс</li>
-    <li>first->цел</li>
-    <li>first->лок</li>
-    <li>first->поул</li>
-    <li>first->лод</li>
-    <li>second->зов</li>
+    <li>first->темно</li>
+    <li>first->хоро</li>
+    <li>second->звон</li>
     <li>second->нос</li>
-    <li>second->вестник</li>
-    <li>second->лжец</li>
-    <li>second->звено</li>
-    <li>second->связь</li>
-    <li>second->петля</li>
-    <li>second->нексус</li>
-    <li>second->ядро</li>
-    <li>second->загадка</li>
-    <li>second->масса</li>
-    <li>second->корпус</li>
-    <li>second->фокус</li>
-    <li>second->линза</li>
+    <li>second->льнер</li>
+    <li>second->линк</li>
+    <li>second->сос</li>
+    <li>second->луп</li>
+    <li>second->кор</li>
+    <li>second->масс</li>
+    <li>second->линз</li>
+    <li>second->корп</li>
+    <li>second->лиз</li>
+    <li>second->форм</li>
     <li>second->свет</li>
     <li>second->тень</li>
-    <li>second->локус</li>
-    <li>second->плеть</li>
-    <li>second->кром</li>
+    <li>second->фокус</li>
   </NamerIdeoRelic.rulePack.rulesStrings>
 
 </LanguageData>
