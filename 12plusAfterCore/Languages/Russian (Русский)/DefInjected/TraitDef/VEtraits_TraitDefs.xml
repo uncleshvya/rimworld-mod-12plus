@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
 	<!-- Исправлена неточность, сообщите разработчику.
@@ -75,14 +75,14 @@
 	<VTE_Kleptomaniac.degreeDatas.0.description>{PAWN_nameDef} с трудом сходится с другими поселенцами, а уж к чужакам относится с необоримым отвращением. {PAWN_pronoun} будет пытаться прогнать всех гостей из поселения любым способом, даже если это приведёт к нехорошим последствиям.</VTE_Kleptomaniac.degreeDatas.0.description>
 	<!-- Описания частично взяты из ванили.
 	Оригинал: торчок -->
-	<VTE_Stoner.degreeDatas.0.label>интерес к «химии»</VTE_Stoner.degreeDatas.0.label>
+	<VTE_Stoner.degreeDatas.0.label>интерес к тяжёлой «химии»</VTE_Stoner.degreeDatas.0.label>
 	<!-- Оригинал: Курение дымолиста — важная часть образа жизни {PAWN_nameDef}. {PAWN_pronoun} скорее умрёт, чем откажется выкурить косяк дымолиста. -->
 	<VTE_Stoner.degreeDatas.0.description>{PAWN_nameDef} имеет слабость к химическим источникам удовольствия. Употребление лёгких наркотиков поднимает {PAWN_objective} настроение, а воздержание — наоборот, повергает в нарастающее уныние и приводит к наркотическим срывам. {PAWN_pronoun} не обращает внимания на запреты лёгких наркотиков и потребляет их больше других.</VTE_Stoner.degreeDatas.0.description>
 	<!-- Оригинал: синяк -->
-	<VTE_Lush.degreeDatas.0.label>интерес к «химии»</VTE_Lush.degreeDatas.0.label>
+	<VTE_Lush.degreeDatas.0.label>интерес к лёгкой «химии»</VTE_Lush.degreeDatas.0.label>
 	<!-- Оригинал: Алкоголь — важная часть образа жизни {PAWN_nameDef}. {PAWN_pronoun} скорее умрёт, чем откажется от выпивки. -->
 	<VTE_Lush.degreeDatas.0.description>{PAWN_nameDef} имеет слабость к химическим источникам удовольствия. Употребление лёгких наркотиков поднимает {PAWN_objective} настроение, а воздержание — наоборот, повергает в нарастающее уныние и приводит к наркотическим срывам. {PAWN_pronoun} не обращает внимания на запреты лёгких наркотиков и потребляет их больше других.</VTE_Lush.degreeDatas.0.description>
-	<!-- Оригинал: {PAWN_nameDef} ценит важность флоры и фауны. {PAWN_pronoun} ценить дары Геи и не тратит понапрасну части растений и животных. -->
+	<!-- Оригинал: ...{PAWN_pronoun} ценить дары Геи и не... -->
 	<VTE_Ecologist.degreeDatas.0.description>{PAWN_nameDef} ценит важность флоры и фауны. {PAWN_pronoun} никогда не тратит понапрасну части растений и животных.</VTE_Ecologist.degreeDatas.0.description>
 
 </LanguageData>
