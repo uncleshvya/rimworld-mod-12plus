@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: The largest unmodified land animal. Elephants has a long trunk they use to manipulate objects, and sharp tusks they use to gore attackers. A dead elephant's valuable tusks can be recovered by butchering it.\n\nIntelligent creatures with complex social relationships, elephants can be used as pack animals or trained to carry out the most complex of tasks. They live a long time, and are known to remember events and relationships from many decades before. -->
+  <Elephant.description>Крупнейшее из нетронутых генной модификацией животных. Слоны имеют длинный хобот для передвижения предметов и острые бивни в качестве оружия ближнего боя. Бивни весьма ценны, получить их можно при разделке туши животного.\n\nСлоны очень умны и способны к сложным социальным отношениям. С древних лет их использовали в качестве вьючных и рабочих животных. Они могут выполнять сложную работу и помнить события, произошедшие десятки лет назад в их долгой жизни.</Elephant.description>
+
+  <!-- EN: A gigantic, graceful creature of unknown origin. The thrumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage. Its razor-sharp horn fetches a huge price.\n\nLegends say that an old thrumbo is the wisest creature in the universe - it simply chooses not to speak. -->
+  <Thrumbo.description>Гигантское животное неизвестного происхождения. Трумбо мирные по своей природе, но чрезвычайно опасные, если их разозлить. Длинный мех трумбо исключительно красив и ценен, шкура плотна и устойчива к повреждениям, а бритвенно-острые рога и вовсе не имеют цены на большинстве рынков. Легенды гласят, что старые трумбо — самые мудрые существа во Вселенной, просто они предпочитают не разговаривать.</Thrumbo.description>
+
+</LanguageData>

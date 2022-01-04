@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- исправление согласно концепции «12+» -->
+
+  <!-- EN: Мёртвое тело альпака. -->
+  <Corpse_Alpaca.description>Туша альпака.</Corpse_Alpaca.description>
+
+  <!-- EN: Мёртвое тело альфабобёр. -->
+  <Corpse_Alphabeaver.description>Туша альфабобра.</Corpse_Alphabeaver.description>
+
+  <!-- EN: Мёртвое тело медведь. -->
+  <Corpse_Bear_Grizzly.description>Туша бурого медведя.</Corpse_Bear_Grizzly.description>
+
+  <!-- EN: Мёртвое тело белый медведь. -->
+  <Corpse_Bear_Polar.description>Туша белого медведя.</Corpse_Bear_Polar.description>
+
+  <!-- EN: Мёртвое тело зубр. -->
+  <Corpse_Bison.description>Туша зубра.</Corpse_Bison.description>
+
+  <!-- EN: Мёртвое тело бумалопа. -->
+  <Corpse_Boomalope.description>Туша бумалопы.</Corpse_Boomalope.description>
+
+  <!-- EN: Мёртвое тело бумкрыса. -->
+  <Corpse_Boomrat.description>Тушка бумкрысы.</Corpse_Boomrat.description>
+
+  <!-- EN: Мёртвое тело капибара. -->
+  <Corpse_Capybara.description>Туша капибары.</Corpse_Capybara.description>
+
+  <!-- EN: Мёртвое тело северный олень. -->
+  <Corpse_Caribou.description>Туша северного оленя.</Corpse_Caribou.description>
+
+  <!-- EN: Мёртвое тело казуар. -->
+  <Corpse_Cassowary.description>Туша казуара.</Corpse_Cassowary.description>
+
+  <!-- EN: Мёртвое тело кошка. -->
+  <Corpse_Cat.description>Тушка кошки.</Corpse_Cat.description>
+
+  <!-- EN: Мёртвое тело курица. -->
+  <Corpse_Chicken.description>Тушка курицы.</Corpse_Chicken.description>
+
+  <!-- EN: Мёртвое тело шиншилла. -->
+  <Corpse_Chinchilla.description>Тушка шиншиллы.</Corpse_Chinchilla.description>
+
+  <!-- EN: Мёртвое тело кобра. -->
+  <Corpse_Cobra.description>Тушка кобры.</Corpse_Cobra.description>
+
+  <!-- EN: Мёртвое тело пума. -->
+  <Corpse_Cougar.description>Туша пумы.</Corpse_Cougar.description>
+
+  <!-- EN: Мёртвое тело корова. -->
+  <Corpse_Cow.description>Туша коровы.</Corpse_Cow.description>
+
+  <!-- EN: Мёртвое тело олень. -->
+  <Corpse_Deer.description>Туша оленя.</Corpse_Deer.description>
+
+  <!-- EN: Мёртвое тело осёл. -->
+  <Corpse_Donkey.description>Туша осла.</Corpse_Donkey.description>
+
+  <!-- EN: Мёртвое тело верблюд. -->
+  <Corpse_Dromedary.description>Туша верблюда.</Corpse_Dromedary.description>
+
+  <!-- EN: Мёртвое тело утка. -->
+  <Corpse_Duck.description>Тушка утки.</Corpse_Duck.description>
+
+  <!-- EN: Мёртвое тело слон. -->
+  <Corpse_Elephant.description>Туша слона.</Corpse_Elephant.description>
+
+  <!-- EN: Мёртвое тело марал. -->
+  <Corpse_Elk.description>Туша марала.</Corpse_Elk.description>
+
+  <!-- EN: Мёртвое тело эму. -->
+  <Corpse_Emu.description>Туша эму.</Corpse_Emu.description>
+
+  <!-- EN: Мёртвое тело песец. -->
+  <Corpse_Fox_Arctic.description>Туша песца.</Corpse_Fox_Arctic.description>
+
+  <!-- EN: Мёртвое тело фенек. -->
+  <Corpse_Fox_Fennec.description>Тушка фенека.</Corpse_Fox_Fennec.description>
+
+  <!-- EN: Мёртвое тело лисица. -->
+  <Corpse_Fox_Red.description>Туша лисицы.</Corpse_Fox_Red.description>
+
+  <!-- EN: Мёртвое тело газель. -->
+  <Corpse_Gazelle.description>Туша газели.</Corpse_Gazelle.description>
+
+  <!-- EN: Мёртвое тело коза. -->
+  <Corpse_Goat.description>Туша козы.</Corpse_Goat.description>
+
+  <!-- EN: Мёртвое тело гусь. -->
+  <Corpse_Goose.description>Туша гуся.</Corpse_Goose.description>
+
+  <!-- EN: Мёртвое тело морская свинка. -->
+  <Corpse_GuineaPig.description>Тушка морской свинки.</Corpse_GuineaPig.description>
+
+  <!-- EN: Мёртвое тело заяц. -->
+  <Corpse_Hare.description>Тушка зайца.</Corpse_Hare.description>
+
+  <!-- EN: Мёртвое тело лошадь. -->
+  <Corpse_Horse.description>Туша лошади.</Corpse_Horse.description>
+
+  <!-- EN: труп человек -->
+  <Corpse_Human.label>тело человека</Corpse_Human.label>
+  <!-- EN: Мёртвое тело человек. -->
+  <Corpse_Human.description>Тело человека.</Corpse_Human.description>
+
+  <!-- EN: Мёртвое тело хаски. -->
+  <Corpse_Husky.description>Туша хаски.</Corpse_Husky.description>
+
+  <!-- EN: Мёртвое тело горный козёл. -->
+  <Corpse_Ibex.description>Туша горного козла.</Corpse_Ibex.description>
+
+  <!-- EN: Мёртвое тело игуана. -->
+  <Corpse_Iguana.description>Тушка игуаны.</Corpse_Iguana.description>
+
+  <!-- EN: Мёртвое тело лабрадор-ретривер. -->
+  <Corpse_LabradorRetriever.description>Туша лабрадора-ретривера.</Corpse_LabradorRetriever.description>
+
+  <!-- EN: Мёртвое тело рысь. -->
+  <Corpse_Lynx.description>Туша рыси.</Corpse_Lynx.description>
+
+  <!-- EN: труп сентипеда -->
+  <Corpse_Mech_Centipede.label>сломанная сентипеда</Corpse_Mech_Centipede.label>
+  <!-- EN: Мёртвое тело сентипеда. -->
+  <Corpse_Mech_Centipede.description>Сломанная сентипеда.</Corpse_Mech_Centipede.description>
+
+  <!-- EN: труп улан -->
+  <Corpse_Mech_Lancer.label>сломанный улан</Corpse_Mech_Lancer.label>
+  <!-- EN: Мёртвое тело улан. -->
+  <Corpse_Mech_Lancer.description>Сломанный улан.</Corpse_Mech_Lancer.description>
+
+  <!-- EN: труп жнец -->
+  <Corpse_Mech_Scyther.label>сломанный жнец</Corpse_Mech_Scyther.label>
+  <!-- EN: Мёртвое тело жнец. -->
+  <Corpse_Mech_Scyther.description>Сломанный жнец.</Corpse_Mech_Scyther.description>
+
+  <!-- добавлена недостающая строка русской локализации, сообщите разработчику -->
+  <!-- исправлена неточность, сообщите разработчику -->
+
+  <!-- EN: труп жнец -->
+  <Corpse_Mech_Pikeman.label>сломанный драгун</Corpse_Mech_Pikeman.label>
+  <!-- EN: Мёртвое тело жнец. -->
+  <Corpse_Mech_Pikeman.description>Сломанный драгун.</Corpse_Mech_Pikeman.description>
+
+  <!-- EN: Мёртвое тело мегаскарабей. -->
+  <Corpse_Megascarab.description>Тушка мегаскарабея.</Corpse_Megascarab.description>
+
+  <!-- EN: Мёртвое тело гигантский ленивец. -->
+  <Corpse_Megasloth.description>Туша гигантский ленивца.</Corpse_Megasloth.description>
+
+  <!-- EN: Мёртвое тело мегапаук. -->
+  <Corpse_Megaspider.description>Туша мегапаука.</Corpse_Megaspider.description>
+
+  <!-- EN: Мёртвое тело обезьяна. -->
+  <Corpse_Monkey.description>Тушка обезьяны.</Corpse_Monkey.description>
+
+  <!-- EN: Мёртвое тело муффало. -->
+  <Corpse_Muffalo.description>Туша муффало.</Corpse_Muffalo.description>
+
+  <!-- EN: Мёртвое тело страус. -->
+  <Corpse_Ostrich.description>Туша страуса.</Corpse_Ostrich.description>
+
+  <!-- EN: Мёртвое тело пантера. -->
+  <Corpse_Panther.description>Туша пантеры.</Corpse_Panther.description>
+
+  <!-- EN: Мёртвое тело свинья. -->
+  <Corpse_Pig.description>Туша свиньи.</Corpse_Pig.description>
+
+  <!-- EN: Мёртвое тело енот. -->
+  <Corpse_Raccoon.description>Тушка енота.</Corpse_Raccoon.description>
+
+  <!-- EN: Мёртвое тело крыса. -->
+  <Corpse_Rat.description>Тушка крысы.</Corpse_Rat.description>
+
+  <!-- EN: Мёртвое тело носорог. -->
+  <Corpse_Rhinoceros.description>Туша носорога.</Corpse_Rhinoceros.description>
+
+  <!-- EN: Мёртвое тело овца. -->
+  <Corpse_Sheep.description>Туша овцы.</Corpse_Sheep.description>
+
+  <!-- EN: Мёртвое тело беляк. -->
+  <Corpse_Snowhare.description>Тушка беляка.</Corpse_Snowhare.description>
+
+  <!-- EN: Мёртвое тело пещерный жук. -->
+  <Corpse_Spelopede.description>Туша пещерного жука.</Corpse_Spelopede.description>
+
+  <!-- EN: Мёртвое тело белка. -->
+  <Corpse_Squirrel.description>Тушка белки.</Corpse_Squirrel.description>
+
+  <!-- EN: Мёртвое тело трумбо. -->
+  <Corpse_Thrumbo.description>Туша трумбо.</Corpse_Thrumbo.description>
+
+  <!-- EN: Мёртвое тело черепаха. -->
+  <Corpse_Tortoise.description>Тушка черепахи.</Corpse_Tortoise.description>
+
+  <!-- EN: Мёртвое тело индейка. -->
+  <Corpse_Turkey.description>Туша индейки.</Corpse_Turkey.description>
+
+  <!-- EN: Мёртвое тело варг. -->
+  <Corpse_Warg.description>Туша варга.</Corpse_Warg.description>
+
+  <!-- EN: Мёртвое тело кабан. -->
+  <Corpse_WildBoar.description>Туша кабана.</Corpse_WildBoar.description>
+
+  <!-- EN: Мёртвое тело полярный волк. -->
+  <Corpse_Wolf_Arctic.description>Туша полярного волка.</Corpse_Wolf_Arctic.description>
+
+  <!-- EN: Мёртвое тело волк. -->
+  <Corpse_Wolf_Timber.description>Туша волка.</Corpse_Wolf_Timber.description>
+
+  <!-- EN: Мёртвое тело як. -->
+  <Corpse_Yak.description>Туша яка.</Corpse_Yak.description>
+
+  <!-- EN: Мёртвое тело йоркширский терьер. -->
+  <Corpse_YorkshireTerrier.description>Тушка йоркширского терьера.</Corpse_YorkshireTerrier.description>
+
+  <!-- EN: мясо человек -->
+  <Meat_Human.label>поддельное мумиё</Meat_Human.label>
+
+</LanguageData>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	EN: An impassable wall. Capable of holding up a roof. -->
+	<VFEM_CobblestoneWall.description>Непроходимая стена. Достаточно крепка, чтобы поддерживать крышу.</VFEM_CobblestoneWall.description>
+	<!-- EN: base -->
+	<VFEM_Shield_Kite.tools.base.label>основа</VFEM_Shield_Kite.tools.base.label>
+	<!-- EN: centre -->
+	<VFEM_Shield_Kite.tools.centre.label>центр</VFEM_Shield_Kite.tools.centre.label>
+	<!-- EN: base -->
+	<VFEM_Shield_Heater.tools.base.label>основа</VFEM_Shield_Heater.tools.base.label>
+	<!-- EN: centre -->
+	<VFEM_Shield_Heater.tools.centre.label>центр</VFEM_Shield_Heater.tools.centre.label>
+	<!-- EN: handle -->
+	<VFEM_MeleeWeapon_Claymore.tools.handle.label>рукоять</VFEM_MeleeWeapon_Claymore.tools.handle.label>
+	<!-- EN: point -->
+	<VFEM_MeleeWeapon_Claymore.tools.point.label>остриё</VFEM_MeleeWeapon_Claymore.tools.point.label>
+	<!-- EN: edge -->
+	<VFEM_MeleeWeapon_Claymore.tools.edge.label>лезвие</VFEM_MeleeWeapon_Claymore.tools.edge.label>
+	<!-- EN: handle -->
+	<VFEM_MeleeWeapon_HeavyMace.tools.handle.label>рукоять</VFEM_MeleeWeapon_HeavyMace.tools.handle.label>
+	<!-- EN: head -->
+	<VFEM_MeleeWeapon_HeavyMace.tools.head.label>навершие</VFEM_MeleeWeapon_HeavyMace.tools.head.label>
+	<!-- EN: limb -->
+	<VFEM_Bow_HeavyCrossbow.tools.limb.label>приклад</VFEM_Bow_HeavyCrossbow.tools.limb.label>
+	<!-- EN: heavy crossbow -->
+	<VFEM_Bow_HeavyCrossbow.verbs.Verb_Shoot.label>тяжёлый арбалет</VFEM_Bow_HeavyCrossbow.verbs.Verb_Shoot.label>
+	<!-- Подправлена ваниль, т.к. сусло теперь бывает разное.
+	Оригинал: сусло -->
+	<Wort.label>хмельное сусло</Wort.label>
+	<!-- Виноградное сусло сделано съедобным, см.патч.
+	EN: Drink {0} -->
+	<VFEM_Must.ingestible.ingestCommandString>Выпить {0}</VFEM_Must.ingestible.ingestCommandString>
+	<!-- EN: Drinking {0}. -->
+	<VFEM_Must.ingestible.ingestReportString>пьёт {0}</VFEM_Must.ingestible.ingestReportString>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: вино -->
+	<VFEM_Wine.label>виноградный напиток</VFEM_Wine.label>
+	<!-- Оригинал: ...бутылка крепкого алкогольного напитка из перебродившего винограда. Чрезмерное употребление алкоголя может привести к потере сознания из-за переизбытка алкоголя и, со временем, к зависимости. -->
+	<VFEM_Wine.description>Большая бутылка напитка из сока винограда, настоянного в деревянной бочке. Очень вкусно!</VFEM_Wine.description>
+	<!-- "Ведро" добавлено для подчёркивания нежелательности употребления в необработанном виде.
+	Оригинал: Неферментированное вино. Это вещество необходимо забродить в винной бочке, прежде чем оно станет пригодным для питья вином. -->
+	<VFEM_Must.description>Ведро свежевыжатого виноградного сока. Можно просто выпить, но лучше настоять в деревянной бочке, тогда получится очень вкусный напиток.</VFEM_Must.description>
+
+	<!-- Оригинал: Примитивная свеча из мяса и жира. Может гореть долго, но не ярко. -->
+	<VFEM_Candle.description>Примитивная свеча из животного жира. Может гореть долго, но не ярко.</VFEM_Candle.description>
+
+	<!-- Оригинал: винная бочка -->
+	<VFEM_WineBarrel.label>деревянная бочка</VFEM_WineBarrel.label>
+	<!-- Оригинал: Бочка для брожения винного сусла в вино. -->
+	<VFEM_WineBarrel.description>Бочка для настаивания напитков.</VFEM_WineBarrel.description>
+	<!-- Оригинал: Сырой виноград, его приятно потреблять и в сыром виде. Ещё из винограда можно делать сусло, которое затем можно использовать для изготовления вина. -->
+	<VFEM_RawGrapes.description>Спелые ягоды виноградной лозы. Их потребляют в сыром виде или выжимают сок и настаивают его в бочке для получения вкусного напитка.</VFEM_RawGrapes.description>
+	<!-- Оригинал: Лоза среднего размера, которая даёт ягоды винограда - важного ингредиента в производстве вина. Для начального роста требуется много времени, но ягоды можно собирать повторно за один жизненный цикл растения. -->
+	<VFEM_Plant_Grape.description>Виноградная лоза, плодоносящая тёмными сладкими ягодами. Многолетнее растение, при правильном уходе может приносить урожай каждый год.</VFEM_Plant_Grape.description>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Оригинал: Легкий средневековый...против тупого оружия. -->
+	<VFEM_Apparel_PlateHelmetLight.description>Лёгкий средневековый шлем, обеспечивающий умеренную защиту от колющих атак, не эффективен против дробящего оружия.</VFEM_Apparel_PlateHelmetLight.description>
+	<!-- Описание частично взято из ванили.
+	Оригинал: Перекрывающиеся сплошные пластины брони, покрывающие все тело...до ног. Пластины...защиту за счёт мобильности. -->
+	<VFEM_Apparel_PlateArmorHeavy.description>Доспех из расположенных внахлёст прочных пластин, покрывающий всё тело от шеи до пят. Пластины были усилены, что обеспечило значительно бо́льшую защиту в ущерб мобильности.</VFEM_Apparel_PlateArmorHeavy.description>
+
+	<!-- Гербовый табард - это одеяние регулярных служб, а не временного ополчения.
+	После исправления кода VEframework добавить "Надевается поверх брони".
+	Оригинал: Одежда, которую носила поверх доспехов средневековая милиция, на которой изображён герб её королевства. -->
+	<VFEM_Apparel_Tabard.description>Накидка без рукавов, открытая с боков. Табарды с гербами королевства носили средневековые придворные.</VFEM_Apparel_Tabard.description>
+
+	<!-- В игре выглядит "стена из булыжника из гранита". К тому же булыжник - это камень меньше бута. "Грубая" конечно так себе звучит, но другие варианты ещё хуже - природно-каменная, валунная, дикая, бутовая, неровная. Ладно, пусть будет по примеру ванильного пола из камня.
+	Оригинал: стена из булыжника -->
+	<VFEM_CobblestoneWall.label>грубая стена</VFEM_CobblestoneWall.label>
+
+	<!-- Древковое оружие - это длинные копья, шесты, алебарды.
+	Зачем копировать название?
+	Оригинал: Тяжёлая булава, состоящая из древка и тяжелого шара, увешенного шипами. Это оружие очень эффективно пробивает латную броню. -->
+	<VFEM_MeleeWeapon_HeavyMace.description>Массивный шар с шипами, насаженный на рукоять. Очень эффективно пробивает латную броню.</VFEM_MeleeWeapon_HeavyMace.description>
+
+	<!-- Описание сделано по примеру обычного арбалета.
+	Оригинал: Арбалет имеет тот же принцип работы, что и лук, но более он более убойный за счёт большего натяжения и механического удержания тетивы. -->
+	<VFEM_Bow_HeavyCrossbow.description>Усиленное сталью старинное оружия дальнего боя, состоит из лука, укреплённого на деревянном ложе с прикладом. В отличие от простого лука, здесь есть зацеп для тетивы, так что больше не нужно её удерживать в натянутом состоянии во время прицеливания. Спусковой механизм действует по принципу ружья.\n\nАрбалет сложнее перезаряжать, зато он способен пробить даже броню из прочного металла.</VFEM_Bow_HeavyCrossbow.description>
+
+</LanguageData>

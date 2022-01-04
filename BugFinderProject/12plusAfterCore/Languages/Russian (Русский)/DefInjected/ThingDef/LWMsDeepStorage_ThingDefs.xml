@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: ...стульев до трупов. \n\nХранимые... -->
+	<LWM_BigShelf.description>Большой стеллаж для хранения разных предметов, от артиллерийских снарядов до произведений искусства, от бионических рук до кирпичей, от стульев до туш.\n\nХранимые предметы не будут ветшать, даже если стеллаж расположить вне помещения.</LWM_BigShelf.description>
+	<!-- Оригинал: ...стульев до трупов. \n\nЛежащие в нём вещи не портятся, даже если они на улице. -->
+	<LWM_BigShelf_Frame.description>Большой стеллаж для хранения разных предметов, от артиллерийских снарядов до произведений искусства, от бионических рук до кирпичей, от стульев до туш.\n\nХранимые предметы не будут ветшать, даже если стеллаж расположить вне помещения.</LWM_BigShelf_Frame.description>
+	<!-- Оригинал: Крюки для мяса -->
+	<LWM_Meat_Hook.label>Крюки для туш</LWM_Meat_Hook.label>
+	<!-- Оригинал: Крюки для мяса (проект) -->
+	<LWM_Meat_Hook_Blueprint.label>Крюки для туш (проект)</LWM_Meat_Hook_Blueprint.label>
+	<!-- Оригинал: Крюки для мяса (проект) -->
+	<LWM_Meat_Hook_Blueprint_Install.label>Крюки для туш (проект)</LWM_Meat_Hook_Blueprint_Install.label>
+	<!-- Оригинал: Крюки для мяса (строительство) -->
+	<LWM_Meat_Hook_Frame.label>Крюки для туш (строительство)</LWM_Meat_Hook_Frame.label>
+	<!-- Стиль приведён к ванили.
+	Оригиналы: Высокий металлический каркас с несколькими крючками, висящими на цепях. Простая рукоятка позволяет поднимать несколько подвесных тушь в воздух. Хороший способ хранения трупов животных, которых вы убили, перед тем, как резать и употреблять их мясо. Вы монстр. -->
+	<LWM_Meat_Hook.description>Высокая металлическая рама с несколькими крюками, висящими на цепях. Хорошее место для хранения туш в ожидании разделки. Для подъёма их над полом установлен простой механизм с рукоятью.</LWM_Meat_Hook.description>
+	<LWM_Meat_Hook_Frame.description>Высокая металлическая рама с несколькими крюками, висящими на цепях. Хорошее место для хранения туш в ожидании разделки. Для подъёма их над полом установлен простой механизм с рукоятью.</LWM_Meat_Hook_Frame.description>
+	<!-- EN: A set of tall covered shelves for storing miscellaneous items, from artillery shells to artwork, from bionic arms to bricks, from chairs to corpses.  It doesn't ask questions, it just stores things.\n\nPawns access the top shelves using a small rolling ladder (currently not pitured), so while many things can be stored here, it can take a while if you're putting a lot of tiny bottles on the top shelf.  Items stored in this will not deteriorate, even if outside.\n\nNote:  Use your own judgement about what you put here.  Grand Sculptures?  Probably don't ACTUALLY fit.  But if that's what you want here, you play you! -->
+	<LWM_VeryBigShelf.description>Высокий шкаф с полками для хранения различных предметов, от артиллерийских снарядов до произведений искусства, от бионических рук до кирпичей, от стульев до туш.\n\nПоселенцы будут добираться до верхних полок с помощью небольших выдвижных ступенек, так что чем сильнее загружен шкаф, тем больше времени требуется, чтобы достать вещи.\n\nХранимые предметы не будут ветшать, даже если стеллаж расположить вне помещения.</LWM_VeryBigShelf.description>
+
+</LanguageData>
