@@ -42,6 +42,7 @@
 					<meatColor>(110, 110, 0)</meatColor>
 				</value>
 			</li>
+			<!-- Следить за алфавитным порядком файлов с патчами, тег disallowedTraits -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "Human"]/alienRace/generalSettings</xpath>
 				<value>
