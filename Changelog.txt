@@ -2,7 +2,7 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2022-01-04 начата работа по исправлению трудноуловимого бага, когда не загружается карта квестов с сайтами, типа "лагерь лесорубов" или "деревня сектантов". Достигнутый прогресс сохранён в файле "backup poisk buga karti.zip" в корне репозитория.
+2022-01-04 начата работа по исправлению трудноуловимого бага, когда не загружается карта квестов с сайтами, типа "лагерь лесорубов" или "деревня сектантов". Достигнутый прогресс сохранён в файле "BugFinderProject.zip" в корне репозитория.
 
 2021-11-02 апдейт к свежему официальному переводу. Обработаны 2 неофициальных перевода, приоритет смещён на оный от автора Sestrenka, как более качественный. Поддержка перевода от LeveFUN заморожена до востребования.
 
@@ -226,7 +226,7 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2022-01-04 bugfix work started, there is a problem with site quests - the game can't load map. Progress is saved in "backup poisk buga karti.zip" file in the root of repository.
+2022-01-04 bugfix work started, there is a problem with site quests - the game can't load map. Progress is saved in "BugFinderProject.zip" file in the root of repository.
 
 2021-nov-02 Russifier.Ideology mod adaptation added. Support for RU.Ideology mod was paused until asked, because it's a bit worse.
 
