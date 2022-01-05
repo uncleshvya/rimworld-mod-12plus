@@ -4,17 +4,8 @@ For English, scroll down.
 
 2022-01-05 идёт работа по исправлению трудноуловимого бага - не загружается карта квестов с сайтами, типа "лагерь лесорубов" или "деревня сектантов". Ведётся отсев модов; список уже проверенных - в файле ModsConfig.xml в корне репозитория.
 Для тех, кто не хочет ждать и не использует внешние квесты, сохранена версия 12+мода с поддержкой бОльшего количества модов в файле Bugged096prDomosed.zip.
-
-2021-11-02 апдейт к свежему официальному переводу. Обработаны 2 неофициальных перевода, приоритет смещён на оный от автора Sestrenka, как более качественный. Поддержка перевода от LeveFUN заморожена до востребования.
-
-2021-11-01 добавлена адаптация для мода Vanilla Traits Expanded и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
-Добавлена адаптация для мода Rim of Madness Bones и русская локализация. Чтобы не было красных ошибок, добавлена зависимость от этих двух модов. По желанию, доступно исправление кривоватого баланса:
-- убраны кости из механоидов (код устарел);
-- исправлена графика дубины-вентилятора (попробуйте взять кость как оружие);
-- убраны древние костяные строения (из которых можно было добыть съедобный костный мозг);
-- рецепт выплавления пластали перемещён из перегонного аппарата в электроплавильню (там температура более подходящая);
-- добавлен срок годности для костного мозга 2 игровых суток (соответствует реальному сроку в 4 дня).
-Скомпилирована версия 12+мода 0.9.6pre-release.
+Добавлена адаптация для мода EdB Prepare Carefully и его русификатора.
+Скомпилирована версия 12+мода 0.9.7pre-release.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -23,6 +14,7 @@ For English, scroll down.
 "BeesNhoney_";
 "ConcreteWalls_";
 "DubsBadHygiene_";
+"EdbPrepareCarefully_";
 "EPOE_";
 "FertileFields_";
 "GeneticRim_";
@@ -71,7 +63,17 @@ For English, scroll down.
 "VGPcore_";
 "VGPmedicine_";
 "VGPtools_";
-"ZiTools".
+"ZiTools_".
+
+2021-11-02 апдейт к свежему официальному переводу. Обработаны 2 неофициальных перевода, приоритет смещён на оный от автора Sestrenka, как более качественный. Поддержка перевода от LeveFUN заморожена до востребования.
+
+2021-11-01 добавлена адаптация для мода Vanilla Traits Expanded и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
+Добавлена адаптация для мода Rim of Madness Bones и русская локализация. Чтобы не было красных ошибок, добавлена зависимость от этих двух модов. По желанию, доступно исправление кривоватого баланса:
+- убраны кости из механоидов (код устарел);
+- исправлена графика дубины-вентилятора (попробуйте взять кость как оружие);
+- убраны древние костяные строения (из которых можно было добыть съедобный костный мозг);
+- рецепт выплавления пластали перемещён из перегонного аппарата в электроплавильню (там температура более подходящая);
+- добавлен срок годности для костного мозга 2 игровых суток (соответствует реальному сроку в 4 дня).
 
 2021-10-06 добавлена адаптация и локализация для мода OrassansLite. Исправлена его красные ошибки: текстур (для RW 1.3), предысторий, см.каменты в коде, и почему-то пропала красная ошибка генерации кошачьих имён.
 
@@ -228,17 +230,8 @@ Changelog for Rimworld's 12plus modification.
 
 2022-jan-05 bugfix work is in process: there is a problem with site quests - the game can't load map. Adapted mods are testing one by one; the whitelist is in "ModsConfig.xml" file.
 For those who can't wait and doesn't like external quests, there is a backup file Bugged096prDomosed.zip in the repository.
-
-2021-nov-02 Russifier.Ideology mod adaptation added. Support for RU.Ideology mod was paused until asked, because it's a bit worse.
-
-2021-nov-01 VanillaExpanded.VanillaTraitsExpanded and RU.VanillaExpanded.VanillaTraitsExpanded mods' adaptation added. Also corrected their mistakes, see code comments. To avoid red errors, mod dependence added.
-sihv.rombones mod adaptation added and its Russian translation. To avoid red errors, mod dependence added. Optional balance change available:
-- removed bones from mechanoids (obsolete code);
-- corrected graphics' bug if bone is armed as club;
-- removed ancient bone structures (they could be deconstructed and processed into edible marrow);
-- plasteel smelt receipe moved from biofuel refinery into elecric smelter (looks like more real conditions);
-- added marrow rotting period of 2 days (more real).
-UncleShvya.12plus mod v.0.9.6pre-release compiled.
+EdB.PrepareCarefully mod adaptation added.
+UncleShvya.12plus mod v.0.9.7pre-release compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -247,6 +240,7 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "BeesNhoney_";
 "ConcreteWalls_";
 "DubsBadHygiene_";
+"EdbPrepareCarefully_";
 "EPOE_";
 "FertileFields_";
 "GeneticRim_";
@@ -295,7 +289,17 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "VGPcore_";
 "VGPmedicine_";
 "VGPtools_";
-"ZiTools".
+"ZiTools_".
+
+2021-nov-02 Russifier.Ideology mod adaptation added. Support for RU.Ideology mod was paused until asked, because it's a bit worse.
+
+2021-nov-01 VanillaExpanded.VanillaTraitsExpanded and RU.VanillaExpanded.VanillaTraitsExpanded mods' adaptation added. Also corrected their mistakes, see code comments. To avoid red errors, mod dependence added.
+sihv.rombones mod adaptation added and its Russian translation. To avoid red errors, mod dependence added. Optional balance change available:
+- removed bones from mechanoids (obsolete code);
+- corrected graphics' bug if bone is armed as club;
+- removed ancient bone structures (they could be deconstructed and processed into edible marrow);
+- plasteel smelt receipe moved from biofuel refinery into elecric smelter (looks like more real conditions);
+- added marrow rotting period of 2 days (more real).
 
 2021-oct-10 DianaWinters.OrassansLite mod adaptation added and russian translation. Fixed cats' backstories red error. Suddenly cats' names' red error disappeared. For RW 1.3 fixed textures' red error.
 
