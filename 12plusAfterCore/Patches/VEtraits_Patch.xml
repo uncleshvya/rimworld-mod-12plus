@@ -16,18 +16,18 @@ Copyright (c) Oskar Potocki
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "Human"]/alienRace/generalSettings/disallowedTraits</xpath>
 				<value>
-					<li> <defName>VTE_MadSurgeon</defName> </li>
+					<!-- <li> <defName>VTE_MadSurgeon</defName> </li> мысли отключены, идёт тестирование -->
 					<li> <defName>VTE_DrunkenMaster</defName> </li>
 					<li> <defName>VTE_Kleptomaniac</defName> </li>
-					<li> <defName>VTE_Stoner</defName> </li>
-					<li> <defName>VTE_Lush</defName> </li> <!-- Кстати, у этого трейта ошибка в коде -->
+					<!-- <li> <defName>VTE_Stoner</defName> </li> подведён под обычную химию, идёт тестирование -->
+					<!-- <li> <defName>VTE_Lush</defName> </li> подведён под обычную химию, идёт тестирование. Кстати, у этого трейта ошибка в коде -->
 				</value>
 			</li>
 			<!-- Аналогично с мыслями -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "Human"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
 				<value>
-					<li>VTE_MyRivalsAreAlive</li>
+					<!-- <li>VTE_MyRivalsAreAlive</li> мысль переименована, идёт тестирование -->
 					<li>VTE_HaventHarvestedOrgansForLongTime</li>
 					<li>VTE_HarvestedOrgans</li>
 				</value>
@@ -39,11 +39,11 @@ Copyright (c) Oskar Potocki
 				defName = "Alien_OrassanHumanHybrid"
 				]/alienRace/generalSettings/disallowedTraits</xpath>
 				<value>
-					<li> <defName>VTE_MadSurgeon</defName> </li>
+					<!-- <li> <defName>VTE_MadSurgeon</defName> </li> мысли отключены, идёт тестирование -->
 					<li> <defName>VTE_DrunkenMaster</defName> </li>
 					<li> <defName>VTE_Kleptomaniac</defName> </li>
-					<li> <defName>VTE_Stoner</defName> </li>
-					<li> <defName>VTE_Lush</defName> </li>
+					<!-- <li> <defName>VTE_Stoner</defName> </li> подведён под обычную химию, идёт тестирование -->
+					<!-- <li> <defName>VTE_Lush</defName> </li> подведён под обычную химию, идёт тестирование -->
 				</value>
 			</li>
 			<li MayRequire="dianawinters.OrassansLite" Class="PatchOperationAdd">
@@ -52,7 +52,7 @@ Copyright (c) Oskar Potocki
 				defName = "Alien_OrassanHumanHybrid"
 				]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
 				<value>
-					<li>VTE_MyRivalsAreAlive</li>
+					<!-- <li>VTE_MyRivalsAreAlive</li> мысль переименована, идёт тестирование -->
 					<li>VTE_HaventHarvestedOrgansForLongTime</li>
 					<li>VTE_HarvestedOrgans</li>
 				</value>
@@ -68,11 +68,11 @@ Copyright (c) Oskar Potocki
 				defName = "M7Mech"
 				]/alienRace/generalSettings/disallowedTraits</xpath>
 				<value>
-					<li> <defName>VTE_MadSurgeon</defName> </li>
+					<!-- <li> <defName>VTE_MadSurgeon</defName> </li> мысли отключены, идёт тестирование -->
 					<li> <defName>VTE_DrunkenMaster</defName> </li>
 					<li> <defName>VTE_Kleptomaniac</defName> </li>
-					<li> <defName>VTE_Stoner</defName> </li>
-					<li> <defName>VTE_Lush</defName> </li>
+					<!-- <li> <defName>VTE_Stoner</defName> </li> подведён под обычную химию, идёт тестирование -->
+					<!-- <li> <defName>VTE_Lush</defName> </li> подведён под обычную химию, идёт тестирование -->
 				</value>
 			</li>
 			<!-- У М7 уже отключены все мысли -->
@@ -85,7 +85,7 @@ Copyright (c) Oskar Potocki
 				defName = "Android5Tier"
 				]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
 				<value>
-					<li>VTE_MyRivalsAreAlive</li>
+					<!-- <li>VTE_MyRivalsAreAlive</li> мысль переименована, идёт тестирование -->
 					<li>VTE_HaventHarvestedOrgansForLongTime</li>
 					<li>VTE_HarvestedOrgans</li>
 				</value>
