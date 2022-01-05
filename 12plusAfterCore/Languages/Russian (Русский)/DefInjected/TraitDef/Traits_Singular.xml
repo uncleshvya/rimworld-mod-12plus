@@ -1,45 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+»
 
-  <!-- EN: asexual -->
-  <Asexual.degreeDatas.asexual.label>бирюк</Asexual.degreeDatas.asexual.label>
-  <!-- EN: {PAWN_nameDef} has no sexual attraction to anyone at all. -->
-  <Asexual.degreeDatas.asexual.description>{PAWN_nameDef} — одиночка по природе, и никогда не будет заботиться о других.</Asexual.degreeDatas.asexual.description>
-
-  <!-- EN: bisexual -->
-  <Bisexual.degreeDatas.bisexual.label>подлость</Bisexual.degreeDatas.bisexual.label>
-  <!-- EN: {PAWN_nameDef} is romantically attracted to both men and women. -->
-  <Bisexual.degreeDatas.bisexual.description>{PAWN_nameDef} — подлый и двуличный человек. Ох и не повезло тем людям, в чьё поселение {PAWN_possessive} примут!</Bisexual.degreeDatas.bisexual.description>
-
-  <!-- EN: {PAWN_nameDef} gets a rush from hurting people, and never minds the sight of blood or death. {PAWN_pronoun} is four times as likely to start a social fight as others. -->
-  <Bloodlust.degreeDatas.bloodlust.description>{PAWN_nameDef} входит в раж, причиняя людям боль. {PAWN_objective} нравится вид ран и крови. {PAWN_pronoun} гораздо чаще других начинает бытовые драки.</Bloodlust.degreeDatas.bloodlust.description>
-
-  <!-- EN: cannibal -->
-  <Cannibal.degreeDatas.cannibal.label>веган</Cannibal.degreeDatas.cannibal.label>
-  <!-- EN: {PAWN_nameDef} was taught that eating human meat is wrong and horrible. But one time, long ago, {PAWN_pronoun} tried it... and {PAWN_pronoun} liked it. -->
-  <Cannibal.degreeDatas.cannibal.description>Несмотря на то, что {PAWN_possessive} учили, что безбелковая диета вредна для всего организма и особенно для мозга, {PAWN_nameDef} однажды её пробует... и неожиданно получает удовольствие.</Cannibal.degreeDatas.cannibal.description>
-
-  <!-- EN: gay -->
-  <Gay.degreeDatas.gay.label>вонь скунса</Gay.degreeDatas.gay.label>
-  <!-- EN: {PAWN_nameDef} is romantically attracted to people of {PAWN_possessive} own gender. -->
-  <Gay.degreeDatas.gay.description>{PAWN_nameDef} так отвратительно воняет, что {PAWN_possessive} никто не берёт в поселения.</Gay.degreeDatas.gay.description>
-
-  <!-- EN: masochist -->
-  <Masochist.degreeDatas.masochist.label>недоразвитость</Masochist.degreeDatas.masochist.label>
-  <!-- EN: For {PAWN_nameDef}, there's something exciting about getting hurt. {PAWN_pronoun} doesn't know why, {PAWN_pronoun}'s just wired differently. -->
-  <Masochist.degreeDatas.masochist.description>{PAWN_nameDef} — недоразвитое создание. Обычно {PAWN_pronoun} только вредит колонии. Избавьтесь от н{PAWN_possessive} как можно скорее.</Masochist.degreeDatas.masochist.description>
-
-  <!-- EN: {PAWN_nameDef} has no empathy. The suffering of others doesn't bother {PAWN_objective} at all. {PAWN_pronoun} doesn't mind if others are butchered, left unburied, imprisoned, or sold to slavery - unless it affects {PAWN_objective}. {PAWN_pronoun} also feels no mood boost from socializing. -->
-  <Psychopath.degreeDatas.psychopath.description>{PAWN_nameDef} не знает, что такое сопереживание. Страдания других совсем не волнуют {PAWN_possessive}. {PAWN_objective} безразлично, если кого-то другого оставят непохороненным, посадят в тюрьму или продадут в рабство. {PAWN_pronoun} также не получает удовольствия от общения с другими.</Psychopath.degreeDatas.psychopath.description>
-
-  <!-- EN: pyromaniac -->
-  <Pyromaniac.degreeDatas.pyromaniac.label>вредитель</Pyromaniac.degreeDatas.pyromaniac.label>
-  <!-- EN: {PAWN_nameDef} loves fire. {PAWN_pronoun} will never extinguish fires. To relieve stress, {PAWN_pronoun} will occasionally go on random fire starting sprees. This happens more often if {PAWN_possessive} mood is low. -->
-  <Pyromaniac.degreeDatas.pyromaniac.description>{PAWN_nameDef} любит только разрушать, {PAWN_pronoun} абсолютно {PAWN_gender ? непригоден : непригодна} для жизни в колонии, лучше отошлите {PAWN_possessive} врагу.</Pyromaniac.degreeDatas.pyromaniac.description>
-
-  <!-- EN: {PAWN_nameDef} has thick skin, dense flesh, and durable bones. {PAWN_pronoun} takes much less damage than other people from the same blows. {PAWN_pronoun} is extremely hard to kill. -->
-  <Tough.degreeDatas.tough.description>{PAWN_nameDef} обладает толстой кожей, крепкими мышцами и прочными костями. По сравнению с обычным человеком {PAWN_pronoun} получает гораздо меньше урона от тех же атак. {PAWN_possessive} очень трудно победить.</Tough.degreeDatas.tough.description>
+	Оригинал: асексуальность -->
+	<Asexual.degreeDatas.asexual.label>бирюк</Asexual.degreeDatas.asexual.label>
+	<!-- Оригинал: {PAWN_nameDef} не испытывает влечение к кому-либо. -->
+	<Asexual.degreeDatas.asexual.description>{PAWN_nameDef} — одиночка по природе, и никогда не будет заботиться о других. Такому не место в поселении.</Asexual.degreeDatas.asexual.description>
+	<!-- Оригинал: бисексуальность -->
+	<Bisexual.degreeDatas.bisexual.label>подлость</Bisexual.degreeDatas.bisexual.label>
+	<!-- Оригинал: {PAWN_nameDef} испытывает влечение к людям обоих полов. -->
+	<Bisexual.degreeDatas.bisexual.description>{PAWN_nameDef} — подлое и двуличное создание. Ох и настрадаются же те, кто примет {PAWN_possessive} в своё поселение!</Bisexual.degreeDatas.bisexual.description>
+	<!-- Оригинал: ...вид крови и смерти. {PAWN_pronoun}... -->
+	<Bloodlust.degreeDatas.bloodlust.description>{PAWN_nameDef} входит в раж, причиняя людям боль. {PAWN_objective} нравится вид ран и крови. {PAWN_pronoun} гораздо чаще других начинает бытовые драки.</Bloodlust.degreeDatas.bloodlust.description>
+	<!-- Оригинал: каннибализм -->
+	<Cannibal.degreeDatas.cannibal.label>веган</Cannibal.degreeDatas.cannibal.label>
+	<!-- Оригинал: ...учили, что есть человеческое мясо неправильно и ужасно, {PAWN_nameDef} однажды его пробует... и {PAWN_objective} нравится. -->
+	<Cannibal.degreeDatas.cannibal.description>Несмотря на то, что {PAWN_possessive} учили, что безбелковая диета вредна для всего организма и особенно для мозга, {PAWN_nameDef} однажды её пробует... и неожиданно получает удовольствие.</Cannibal.degreeDatas.cannibal.description>
+	<!-- Оригинал: гомосексуальность -->
+	<Gay.degreeDatas.gay.label>вонь скунса</Gay.degreeDatas.gay.label>
+	<!-- Оригинал: {PAWN_nameDef} испытывает влечение к людям своего пола. -->
+	<Gay.degreeDatas.gay.description>{PAWN_nameDef} так отвратительно воняет, что {PAWN_possessive} никто не принимает в поселение.</Gay.degreeDatas.gay.description>
+	<!-- Оригинал: мазохизм -->
+	<Masochist.degreeDatas.masochist.label>недоразвитость</Masochist.degreeDatas.masochist.label>
+	<!-- Оригинал: Для {PAWN_nameDef} боль — это что-то возбуждающее. {PAWN_pronoun} не знает почему, просто {PAWN_possessive} голова работает по-другому. -->
+	<Masochist.degreeDatas.masochist.description>{PAWN_nameDef} — недоразвитое создание. Обычно {PAWN_pronoun} только вредит колонии. Избавьтесь от н{PAWN_possessive} как можно скорее.</Masochist.degreeDatas.masochist.description>
+	<!-- Заодно исправлена размытая ссылка в словосочетании "рабство, если {PAWN_possessive}", сообщите разработчику ванили. Также сглажена необязательная тавтология.
+	Оригинал: ...кого-то пустят на мясо, оставят...рабство, если {PAWN_possessive} лично это... -->
+	<Psychopath.degreeDatas.psychopath.description>{PAWN_nameDef} не знает, что такое сопереживание. Страдания других совсем не волнуют {PAWN_possessive}. {PAWN_objective} безразлично, если кого-то оставят не похороненным, посадят в тюрьму или продадут в рабство, когда лично {PAWN_possessive} это не касается. {PAWN_pronoun} также не получает удовольствия от общения с другими.</Psychopath.degreeDatas.psychopath.description>
+	<!-- Код ванили "Pyromaniac.degreeDatas.pyromaniac.label" заменён на более адаптированный для международной локализации 12+мода.
+	Оригинал: пиромания -->
+	<Pyromaniac.degreeDatas.0.label>вредитель</Pyromaniac.degreeDatas.0.label>
+	<!-- Оригинал: {PAWN_nameDef} обожает огонь и никогда не тушит пожары. Иногда, чтобы снять напряжение, {PAWN_pronoun} начинает поджигать всё, до чего дотянется. Чем хуже {PAWN_possessive} настроение, тем чаще {PAWN_pronoun} будет это делать. -->
+	<Pyromaniac.degreeDatas.0.description>{PAWN_nameDef} любит только разрушать, {PAWN_pronoun} абсолютно {PAWN_gender ? непригоден : непригодна} для жизни в поселении, лучше пусть {PAWN_pronoun} присоединится к врагам и вредит им, а не вам.</Pyromaniac.degreeDatas.0.description>
+	<!-- Заодно исправлена размытая ссылка в словосочетании "урона...{PAWN_possessive}", сообщите разработчику ванили.
+	Оригинал: ...меньше урона от...атак. {PAWN_possessive} очень трудно убить. -->
+	<Tough.degreeDatas.tough.description>{PAWN_nameDef} обладает толстой кожей, крепкими мышцами и прочными костями. По сравнению с обычным человеком {PAWN_pronoun} получает гораздо меньше повреждений от тех же атак. Врагам будет очень трудно победить {PAWN_possessive}.</Tough.degreeDatas.tough.description>
 
 </LanguageData>
