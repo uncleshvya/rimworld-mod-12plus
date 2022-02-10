@@ -2,10 +2,10 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2022-01-05 идёт работа по исправлению трудноуловимого бага - не загружается карта квестов с сайтами, типа "лагерь лесорубов" или "деревня сектантов". Ведётся отсев модов; список уже проверенных - в файле ModsConfig.xml в корне репозитория.
+2022-02-10 мягко отключено обучение торговле органами и наркотиками.
+Идёт работа по исправлению трудноуловимого бага - иногда не загружается карта квестов с сайтами, типа "лагерь лесорубов" или "деревня сектантов". Ведётся отсев модов; список уже проверенных - в файле ModsConfig.xml в корне репозитория.
 Для тех, кто не хочет ждать и не использует внешние квесты, сохранена версия 12+мода с поддержкой бОльшего количества модов в файле Bugged096prDomosed.zip.
-Добавлена адаптация для мода EdB Prepare Carefully и его русификатора.
-Скомпилирована версия 12+мода 0.9.7pre-release.
+Скомпилирована версия 12+мода 0.9.8pre-release.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -65,6 +65,8 @@ For English, scroll down.
 "VGPtools_";
 "ZiTools_".
 
+2022-01-05 добавлена адаптация для мода EdB Prepare Carefully и его русификатора.
+
 2021-11-02 апдейт к свежему официальному переводу. Обработаны 2 неофициальных перевода, приоритет смещён на оный от автора Sestrenka, как более качественный. Поддержка перевода от LeveFUN заморожена до востребования.
 
 2021-11-01 добавлена адаптация для мода Vanilla Traits Expanded и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
@@ -82,7 +84,7 @@ For English, scroll down.
 2021-09-15 добавлена адаптация для мода DubsBadHygiene, заодно исправлены его ошибки, см.каменты в коде. По желанию, доступно исправление кривоватого баланса:
 - возвращено отображение радиуса загрязнения колодца, зачем автор убрал это?
 
-2021-09-11 закончен апдейт до Римворлда 1.3 с Роялти. Поддержка версии 1.2 заморожена до востребования. Архив с последней подходящей версией 12+мода сохранён в корневой папке этого репозитория.
+2021-09-11 закончен апдейт до Римворлда 1.3 с Роялти. Поддержка версии 1.2 заморожена до востребования.
 Отключён баф Bloodlust при вырезании органа.
 
 2021-09-10 добавлена адаптация для мода ZiTools objects seeker.
@@ -228,10 +230,10 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2022-jan-05 bugfix work is in process: there is a problem with site quests - the game can't load map. Adapted mods are testing one by one; the whitelist is in "ModsConfig.xml" file.
+2022-feb-10 gently removed organs' and drugs' trade learning.
+Bugfix work is in process: there is a problem with site quests - sometimes the game can't load map. Adapted mods are testing one by one; the whitelist is in "ModsConfig.xml" file.
 For those who can't wait and doesn't like external quests, there is a backup file Bugged096prDomosed.zip in the repository.
-EdB.PrepareCarefully mod adaptation added.
-UncleShvya.12plus mod v.0.9.7pre-release compiled.
+UncleShvya.12plus mod v.0.9.8pre-release compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -291,6 +293,8 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "VGPtools_";
 "ZiTools_".
 
+2022-jan-05 EdB.PrepareCarefully mod adaptation added.
+
 2021-nov-02 Russifier.Ideology mod adaptation added. Support for RU.Ideology mod was paused until asked, because it's a bit worse.
 
 2021-nov-01 VanillaExpanded.VanillaTraitsExpanded and RU.VanillaExpanded.VanillaTraitsExpanded mods' adaptation added. Also corrected their mistakes, see code comments. To avoid red errors, mod dependence added.
@@ -308,7 +312,7 @@ sihv.rombones mod adaptation added and its Russian translation. To avoid red err
 2021-sep-15 Dubwise.DubsBadHygiene mod adaptation added. Also corrected its mistakes, see code comments. Optional balance change available:
 - restored well contamination radius. Why did Dubwise removed it?
 
-2021-sep-11 update to RW v.1.3 with Royalty finished. Support for RimWorld v.1.2 was paused until asked. Zip file with last compatible version is saved in the root of this repository.
+2021-sep-11 update to RW v.1.3 with Royalty finished. Support for RimWorld v.1.2 was paused until asked.
 removed "Bloodlust" buff: after organ harvesting.
 
 2021-sep-10 maxzicode.zitools mod adaptation added.
