@@ -3,10 +3,23 @@
 <!-- Исправление согласно концепции «12+» -->
 
 <Patch>
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/RecipeDef[defName = "ButcherCorpseFlesh"]/fixedIngredientFilter/disallowedCategories</xpath>
-		<value>
-			<li>CorpsesHumanlike</li>
-		</value>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!-- Отключаем разделку разумных существ -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName = "ButcherCorpseFlesh"]/fixedIngredientFilter/disallowedCategories</xpath>
+				<value>
+					<li>CorpsesHumanlike</li>
+				</value>
+			</li>
+			<!-- Мягко убираем обучение торговле органами из пленников -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name = "BodyPartNaturalBase"]</xpath>
+				<value>
+					<tradeability>Buyable</tradeability>
+				</value>
+			</li>
+		</operations>
 	</Operation>
 </Patch>
