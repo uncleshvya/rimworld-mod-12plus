@@ -14,16 +14,17 @@
 				defName = "Unrestricted"
 				]</xpath>
 			</li>
-			<!-- Добавлен регулярный приём лекарств против болезней -->
+			<!-- Мягко убираем обучение наркоторговле -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name = "DrugBase"]</xpath>
+				<value>
+					<tradeability>Buyable</tradeability>
+				</value>
+			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/DrugPolicyDef[defName = "NoDrugs"]</xpath>
 				<value>
 					<entries>
-						<li>
-							<drug>Penoxycyline</drug>
-							<allowScheduled>true</allowScheduled>
-							<daysFrequency>5</daysFrequency>
-						</li>
 						<!-- Запрещён приём для удовлетворения зависимости, чтобы она быстрее прошла -->
 						<li>
 							<drug>Beer</drug>
@@ -57,10 +58,16 @@
 							<drug>WakeUp</drug>
 							<allowedForAddiction>false</allowedForAddiction>
 						</li>
-						<!-- А чего тянуть-то? Лучше использовать мод на перепрограммирование механитов -->
+						<!-- А чего с люциферием тянуть-то? Лучше использовать мод на перепрограммирование механитов -->
 						<li>
 							<drug>Luciferium</drug>
 							<allowedForAddiction>false</allowedForAddiction>
+						</li>
+						<!-- Добавляем профилактический приём лекарств -->
+						<li>
+							<drug>Penoxycyline</drug>
+							<allowScheduled>true</allowScheduled>
+							<daysFrequency>5</daysFrequency>
 						</li>
 					</entries>
 				</value>
