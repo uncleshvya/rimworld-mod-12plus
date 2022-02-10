@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModsConfigData>
   <version>1.3.3102 rev821</version>
   <activeMods>
@@ -52,8 +52,10 @@
     <li>maxzicode.zitools</li>
     <li>uuugggg.sharetheload</li>
     <li>edb.preparecarefully</li>
-    <li>uncleshvya.12plus.aftercore</li>
     <li>wit.expandedroofing</li>
+    <li>lostrd.wildanimalalert</li>
+    <li>andrewraphaellukasik.allowdeadanimals</li>
+    <li>uncleshvya.12plus.aftercore</li>
     <li>uncleshvya.expandedroofingrusfix</li>
   </activeMods>
   <knownExpansions>
