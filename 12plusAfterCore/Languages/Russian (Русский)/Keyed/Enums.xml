@@ -14,7 +14,9 @@
 	<FoodTypeFlags_Corpse>туши</FoodTypeFlags_Corpse>
 	<!-- Оригинал: категория препарата -->
 	<DrugCategory>категория вещества</DrugCategory>
+	<!-- Оригинал: рекреационный -->
+	<DrugCategory_Social>препарат-релаксант</DrugCategory_Social>
 	<!-- Оригинал: тяжёлый наркотик -->
-	<DrugCategory_Hard>препарат</DrugCategory_Hard>
+	<DrugCategory_Hard>сильнодействующий препарат</DrugCategory_Hard>
 
 </LanguageData>
