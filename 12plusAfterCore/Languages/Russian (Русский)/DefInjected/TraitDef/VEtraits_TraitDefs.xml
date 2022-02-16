@@ -8,12 +8,16 @@
 	<VTE_Perfectionist.degreeDatas.0.label>перфекционизм</VTE_Perfectionist.degreeDatas.0.label>
 	<!-- Оригинал: неуклюжий -->
 	<VTE_Clumsy.degreeDatas.0.label>неуклюжесть</VTE_Clumsy.degreeDatas.0.label>
-	<!-- У этих двух не любовь, а стойкость.
+	<!-- Этих двое не любят температуру, а устойчивы к ней.
 	Заодно повышена экпрессия.
 	Оригинал: теплолюбивый -->
 	<VTE_HeatInclined.degreeDatas.0.label>жаростойкость</VTE_HeatInclined.degreeDatas.0.label>
 	<!-- Оригинал: холодолюбивый -->
 	<VTE_ColdInclined.degreeDatas.0.label>морозоустойчивость</VTE_ColdInclined.degreeDatas.0.label>
+	<!-- EN: [PAWN_nameDef] has never felt nausea in [PAWN_possessive] life. Throwing up or food poisoning is foreign to [PAWN_objective].
+	Исправлены ошибки падежных окончаний и размытая ссылка для "{PAWN_objective}".
+	Оригинал: Тошнота это не про {PAWN_nameDef}. Рвота и пищевые отравления чужды {PAWN_objective}. -->
+	<VTE_IronStomach.degreeDatas.0.description>Сколько {PAWN_nameDef} себя помнит, {PAWN_pronoun} никогда не {PAWN_gender ? травился : травилась}, какие бы странные блюда ни {PAWN_gender ? ел : ела}. {PAWN_objective} чужды тошнота и рвота, вызванные стряпнёй неумелой кухарки.</VTE_IronStomach.degreeDatas.0.description>
 	<!-- Оригинал: отсталый -->
 	<VTE_Dunce.degreeDatas.0.label>умственная отсталость</VTE_Dunce.degreeDatas.0.label>
 	<!-- Название конфликтовало с ванильным "снобизм".
@@ -28,7 +32,8 @@
 	Идея взята из описания.
 	Оригинал: нервный -->
 	<VTE_Anxious.degreeDatas.0.label>асоциальность</VTE_Anxious.degreeDatas.0.label>
-	<!-- Оригинал: ненасытный -->
+	<!-- Название конфликтовало с ванильным "обжора".
+	Оригинал: ненасытный -->
 	<VTE_Insatiable.degreeDatas.0.label>безответственность</VTE_Insatiable.degreeDatas.0.label>
 	<!-- Оригинал: непорочный -->
 	<VTE_Prude.degreeDatas.0.label>непорочность</VTE_Prude.degreeDatas.0.label>
