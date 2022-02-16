@@ -54,10 +54,29 @@ Copyright (c) 2018 Rim of Madness Team
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName = "ROMB_Apparel_SkullMask"]/apparel/wornGraphicPaths/li[2]</xpath>
 			</li>
+			<!-- Исправляем чит - фарфоровая плитка была доступна до исследования остальных. Заодно слегка перебалансируем её по аналогии с ванильными плиткой и бетоном -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/TerrainDef[defName = "BoneChinaFloor"]/designationCategory</xpath>
+				<value>
+					<designatorDropdown>Floor_Tile</designatorDropdown>
+					<researchPrerequisites>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+					<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+				</value>
+			</li>
+			<!-- Аналогично категоризируем блоки фарфора и костяного бетона, у них даже описания подходят -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[
+				defName = "Bonecrete" or
+				defName = "BoneChina"
+				]/thingCategories/li[1]/text()</xpath>
+				<value>StoneBlocks</value>
+			</li>
 
 <!-- Далее - наработки кода, попытка приблизить кости к реальности. Нормальное решение пока не найдено -->
 			<!-- Исправлен баланс, сообщите разработчику, что добавлено гниение костей, в реале 3 недели, то есть 11 игровых дней -->
-<!-- Пока не получается стандартным способом, просто добавлю маркер, если швя одобрит идею. Только надо решить проблему быстрого гниения, вероятно по примеру древесины 0.5, но не факт
+<!-- Пока не получается стандартным способом, просто добавлю маркер, если балансеры одобрят. Только надо решить проблему быстрого гниения, вероятно по примеру древесины 0.5, но не факт
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "BoneItem"]</xpath>
 				<value>
@@ -96,7 +115,7 @@ Copyright (c) 2018 Rim of Madness Team
 					</specialFiltersToDisallow>
 				</value>
 			</li>
-Возможно, есть путь раздвоения типов костей на сухие и съедобные. С односторонним превращением как в VE F Insectoids при ломки по королевскому желе. Или в Android Tiers при съедении фрактальных таблеток.
+Возможно, есть путь раздвоения типов костей на сухие и съедобные. С односторонним превращением как в VE F Insectoids при ломке по королевскому желе. Или в Android Tiers при съедении фрактальных таблеток.
 -->
 		</operations>
 	</Operation>
