@@ -3,8 +3,16 @@
 
 	<!-- Исправление согласно концепции «12+».
 
-	Оригинал: съедена человечина -->
+	Оригинал: назначен тяжёлый наркотик -->
+	<AdministeredHardDrug.label>назначен сильнодействующий препарат</AdministeredHardDrug.label>
+	<!-- Оригинал: назначен рекреационный наркотик -->
+	<AdministeredRecreationalDrug.label>назначен препарат-релаксант</AdministeredRecreationalDrug.label>
+	<!-- Оригинал: съедена человечина -->
 	<AteHumanMeat.label>съедено мумиё</AteHumanMeat.label>
+	<!-- Оригинал: принят тяжёлый наркотик -->
+	<IngestedHardDrug.label>принят сильнодействующий препарат</IngestedHardDrug.label>
+	<!-- Оригинал: принят рекреационный наркотик -->
+	<IngestedRecreationalDrug.label>принят препарат-релаксант</IngestedRecreationalDrug.label>
 	<!-- Оригинал: погибло дерево -->
 	<MinifiedTreeDied.label>загублено дерево</MinifiedTreeDied.label>
 
