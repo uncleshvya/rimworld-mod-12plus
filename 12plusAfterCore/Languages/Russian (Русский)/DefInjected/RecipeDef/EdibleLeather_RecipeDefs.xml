@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: приготовить блюдо из кожи -->
+	<CookMealEdibleLeather.label>приготовить блюдо из шкур</CookMealEdibleLeather.label>
+	<!-- Оригинал: Приготовить съедобное блюдо из обрезков кожи. Ужасное на вкус, но питательное. -->
+	<CookMealEdibleLeather.description>Приготовить съедобное блюдо из обрезков шкуры животного. Ужасное на вкус, но питательное.</CookMealEdibleLeather.description>
+	<!-- Оригинал: готовит блюдо из кожи -->
+	<CookMealEdibleLeather.jobString>готовит блюдо из шкур</CookMealEdibleLeather.jobString>
+
+	<!-- Оригинал: приготовить блюдо из кожи х4 -->
+	<CookMealEdibleLeatherBulk.label>приготовить блюдо из шкур х4</CookMealEdibleLeatherBulk.label>
+	<!-- Оригинал: Приготовить 4 съедобных блюда из обрезков кожи. Ужасно на вкус, но питательно. -->
+	<CookMealEdibleLeatherBulk.description>Приготовить 4 съедобных блюда из обрезков шкуры животного. Ужасно на вкус, но питательно.</CookMealEdibleLeatherBulk.description>
+	<!-- Оригинал: готовит блюдо из кожи х4 -->
+	<CookMealEdibleLeatherBulk.jobString>готовит блюдо из шкур х4</CookMealEdibleLeatherBulk.jobString>
+
+</LanguageData>
