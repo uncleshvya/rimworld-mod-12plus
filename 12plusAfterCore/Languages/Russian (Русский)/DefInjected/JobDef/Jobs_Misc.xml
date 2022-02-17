@@ -1,9 +1,16 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправлена неточность, сообщите разработчику.
 
-  <!-- EN: lovin'. -->
-  <Lovin.reportString>признаётся в любви</Lovin.reportString>
+	Нужен межполый перевод.
+	Это текущее действие, к тому же в игре располагается рядом с названием фракции.
+	Оригинал: сражён -->
+	<Wait_Downed.reportString>бессильно лежит на полу</Wait_Downed.reportString>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: занимается любовью -->
+	<Lovin.reportString>признаётся в любви</Lovin.reportString>
 
 </LanguageData>
