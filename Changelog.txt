@@ -2,9 +2,13 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2022-02-15 добавлена адаптация для мода Edible Leather.
-
-2022-02-10 мягко отключено обучение торговле органами и наркотиками.
+2022-02-17 Добавлена адаптация для мода Rim of Madness Bones и русская локализация. Чтобы не было красных ошибок, добавлена зависимость от этого мода. По желанию, доступно исправление кривоватого баланса:
+- убраны кости из механоидов (код устарел);
+- исправлена графика дубины-вентилятора (попробуйте взять кость как оружие);
+- убраны древние костяные строения, из которых можно было добыть съедобный костный мозг;
+- рецепт выплавления пластали перемещён из перегонного аппарата в электроплавильню - там температура более подходящая;
+- добавлен срок годности для костного мозга 2 игровых суток, что соответствует реальному сроку в 4 дня;
+- костяные блоки и фарфоровая плитка перемещены в соответствующие категории.
 Идёт работа по исправлению трудноуловимого бага - иногда не загружается карта квестов с сайтами, типа "лагерь лесорубов" или "деревня сектантов". Ведётся отсев модов; список уже проверенных - в файле ModsConfig.xml в корне репозитория.
 Для тех, кто не хочет ждать и не использует внешние квесты, сохранена версия 12+мода с поддержкой бОльшего количества модов в файле Bugged096prDomosed.zip.
 Скомпилирована версия 12+мода 0.9.9pre-release.
@@ -68,17 +72,15 @@ For English, scroll down.
 "VGPtools_";
 "ZiTools_".
 
+2022-02-15 добавлена адаптация для мода Edible Leather.
+
+2022-02-10 мягко отключено обучение торговле органами и наркотиками.
+
 2022-01-05 добавлена адаптация для мода EdB Prepare Carefully и его русификатора.
 
 2021-11-02 апдейт к свежему официальному переводу. Обработаны 2 неофициальных перевода, приоритет смещён на оный от автора Sestrenka, как более качественный. Поддержка перевода от LeveFUN заморожена до востребования.
 
-2021-11-01 добавлена адаптация для мода Vanilla Traits Expanded и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
-Добавлена адаптация для мода Rim of Madness Bones и русская локализация. Чтобы не было красных ошибок, добавлена зависимость от этих двух модов. По желанию, доступно исправление кривоватого баланса:
-- убраны кости из механоидов (код устарел);
-- исправлена графика дубины-вентилятора (попробуйте взять кость как оружие);
-- убраны древние костяные строения (из которых можно было добыть съедобный костный мозг);
-- рецепт выплавления пластали перемещён из перегонного аппарата в электроплавильню (там температура более подходящая);
-- добавлен срок годности для костного мозга 2 игровых суток (соответствует реальному сроку в 4 дня).
+2021-11-01 добавлена адаптация для мода Vanilla Traits Expanded и его русификатора, заодно исправлены их ошибки, см.каменты в коде. Чтобы не было красных ошибок, добавлена зависимость от этого мода.
 
 2021-10-06 добавлена адаптация и локализация для мода OrassansLite. Исправлена его красные ошибки: текстур (для RW 1.3), предысторий, см.каменты в коде, и почему-то пропала красная ошибка генерации кошачьих имён.
 
@@ -233,9 +235,13 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2022-feb-15 UncleShvya.EdibleLeather mod adaptation added.
-
-2022-feb-10 gently removed organs' and drugs' trade learning.
+2022-feb-17 sihv.rombones mod adaptation added and its Russian translation. To avoid red errors, mod dependence added. Optional balance change available:
+- removed bones from mechanoids (obsolete code);
+- corrected graphics' bug if bone is armed as club;
+- removed ancient bone structures (they could be deconstructed and processed into edible marrow);
+- plasteel smelt receipe moved from biofuel refinery into elecric smelter (looks like more real conditions);
+- added marrow rotting period of 2 days (more real);
+- bonecrete, bone ash moved to stone blocks category, and bone china floor - to stone tile group.
 Bugfix work is in process: there is a problem with site quests - sometimes the game can't load map. Adapted mods are testing one by one; the whitelist is in "ModsConfig.xml" file.
 For those who can't wait and doesn't like external quests, there is a backup file Bugged096prDomosed.zip in the repository.
 UncleShvya.12plus mod v.0.9.9pre-release compiled.
@@ -299,17 +305,15 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "VGPtools_";
 "ZiTools_".
 
+2022-feb-15 UncleShvya.EdibleLeather mod adaptation added.
+
+2022-feb-10 gently removed organs' and drugs' trade learning.
+
 2022-jan-05 EdB.PrepareCarefully mod adaptation added.
 
 2021-nov-02 Russifier.Ideology mod adaptation added. Support for RU.Ideology mod was paused until asked, because it's a bit worse.
 
 2021-nov-01 VanillaExpanded.VanillaTraitsExpanded and RU.VanillaExpanded.VanillaTraitsExpanded mods' adaptation added. Also corrected their mistakes, see code comments. To avoid red errors, mod dependence added.
-sihv.rombones mod adaptation added and its Russian translation. To avoid red errors, mod dependence added. Optional balance change available:
-- removed bones from mechanoids (obsolete code);
-- corrected graphics' bug if bone is armed as club;
-- removed ancient bone structures (they could be deconstructed and processed into edible marrow);
-- plasteel smelt receipe moved from biofuel refinery into elecric smelter (looks like more real conditions);
-- added marrow rotting period of 2 days (more real).
 
 2021-oct-10 DianaWinters.OrassansLite mod adaptation added and russian translation. Fixed cats' backstories red error. Suddenly cats' names' red error disappeared. For RW 1.3 fixed textures' red error.
 
