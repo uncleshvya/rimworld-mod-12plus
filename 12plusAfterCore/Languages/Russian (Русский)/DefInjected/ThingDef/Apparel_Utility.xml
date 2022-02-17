@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Оригинал: ...на любом расстоянии... -->
+	<Apparel_PsychicInsanityLance.description>Устройство с ограниченным числом применений. Вызывает у цели пугающие галлюцинации и прочие расстройства восприятия, провоцируя приступ ярости. При этом высока вероятность повреждения головного мозга. Цель может находиться на большом расстоянии в прямой видимости.</Apparel_PsychicInsanityLance.description>
+	<!-- Оригинал: копьё безумия -->
+	<Apparel_PsychicInsanityLance.verbs.psychic_insanity_lance.label>активировать копьё безумия</Apparel_PsychicInsanityLance.verbs.psychic_insanity_lance.label>
+	<!-- Оригинал: ...на любом расстоянии... -->
+	<Apparel_PsychicShockLance.description>Устройство с ограниченным числом применений. Вызывает у цели беспорядочные галлюцинации, нарушает целостность восприятия и повергает её в состояние психического шока. При этом высока вероятность повреждения головного мозга. Цель может находиться на большом расстоянии в прямой видимости.</Apparel_PsychicShockLance.description>
+	<!-- Оригинал: копьё потрясения -->
+	<Apparel_PsychicShockLance.verbs.psychic_shock_lance.label>активировать копьё потрясения</Apparel_PsychicShockLance.verbs.psychic_shock_lance.label>
+
+</LanguageData>
