@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- добавлена русская локализация, сообщите разработчику -->
+	<!-- Добавлена русская локализация, сообщите разработчику.
 
-	<!-- EN: bone floor -->
+	EN: bone floor -->
 	<BoneFloor.label>костяной пол</BoneFloor.label>
 	<!-- EN: Bone floors. Fast to walk on and very quick to build, but neutral in terms of looks. -->
-	<BoneFloor.description>Покрытие из костей для быстрого передвижения. Легко укладывается, нейтрально на вид.</BoneFloor.description>
+	<BoneFloor.description>Покрытие из костей. Прочное, легко укладывается, нейтрально на вид.</BoneFloor.description>
 
 	<!-- EN: bone floor (blackened) -->
 	<BoneFloor_Blackened.label>пол из чернёной кости</BoneFloor_Blackened.label>
@@ -14,9 +14,9 @@
 	<BoneFloor_Blackened.description>Кости нагревают до черноты и используют, чтобы мостить тропинки. Такое покрытие легко укладывается, нейтрально на вид.</BoneFloor_Blackened.description>
 
 	<!-- EN: bone china floor -->
-	<BoneChinaFloor.label>плитка из костяного фарфора</BoneChinaFloor.label>
+	<BoneChinaFloor.label>фарфоровая плитка</BoneChinaFloor.label>
 	<!-- EN: Hardened bone china tiles. Pretty, but labor and material-intensive. -->
-	<BoneChinaFloor.description>Аккуратно вырезанные и подогнанные друг к другу фарфоровые плитки, как в средневековом замке. Приятны на вид, но трудо- и материалозатратны.</BoneChinaFloor.description>
+	<BoneChinaFloor.description>Аккуратно вырезанные и подогнанные друг к другу керамические плитки, как в средневековом замке. Приятны на вид, но трудо- и материалозатратны.</BoneChinaFloor.description>
 
 	<!-- EN: bone floor (ash) -->
 	<BoneFloor_Ashen.label>пол из костей и фарфора</BoneFloor_Ashen.label>
