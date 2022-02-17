@@ -12,8 +12,6 @@
 
 В списке должен быть ниже всех поддерживаемых модов.
 
-Что делает мод:
-
 Этот простой xml-мод отключает самые жёсткие аспекты, чтобы дети от 12 лет могли играть в Римворлд, не получая психологических травм. Подробности в файле changelog.
 
 Родители! Теперь вам нет необходимости отвечать на неудобные вопросы детей, наблюдающих за игрой.
@@ -78,8 +76,6 @@ Humanoid Cats — dianawinters.OrassansLite
 12plus mod for Rimworld. Sorry for my English, I compiled this description for multilingual families.
 
 Should be below all compatible mods in the list.
-
-What The Mod Does:
 
 This simple xml mod turns off the most hardcore aspects in order to allow 12+ aged children play Rimworld, without getting psychological trauma. For details, see changelog file.
 
@@ -277,6 +273,7 @@ Ideas to realize in next version:
 		<li>Xavior.GliterTech</li>
 		<li>maxzicode.zitools</li>
 		<li>Russifier.Ideology</li>
+		<li>UncleShvya.EdibleLeather</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
