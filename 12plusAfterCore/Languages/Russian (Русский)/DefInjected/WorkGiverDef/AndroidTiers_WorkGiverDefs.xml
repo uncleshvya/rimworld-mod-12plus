@@ -37,99 +37,97 @@
 	<!-- EN: лечить -->
 	<ATPP_CrafterHealerDoctorTendEmergency.gerund>Ремонтировать</ATPP_CrafterHealerDoctorTendEmergency.gerund>
 	<!-- EN: лечить -->
-	<ATPP_CrafterHealerDoctorTendEmergency.verb>ремонтировать</ATPP_CrafterHealerDoctorTendEmergency.verb>
+	<ATPP_CrafterHealerDoctorTendEmergency.verb>отремонтировать</ATPP_CrafterHealerDoctorTendEmergency.verb>
 	<!-- EN: лечить пациентов -->
 	<ATPP_CrafterHealerDoctorTendToHumanlikes.label>ремонтировать андроидов</ATPP_CrafterHealerDoctorTendToHumanlikes.label>
 	<!-- EN: лечить -->
 	<ATPP_CrafterHealerDoctorTendToHumanlikes.gerund>Ремонтировать</ATPP_CrafterHealerDoctorTendToHumanlikes.gerund>
 	<!-- EN: лечить -->
-	<ATPP_CrafterHealerDoctorTendToHumanlikes.verb>ремонтировать</ATPP_CrafterHealerDoctorTendToHumanlikes.verb>
+	<ATPP_CrafterHealerDoctorTendToHumanlikes.verb>отремонтировать</ATPP_CrafterHealerDoctorTendToHumanlikes.verb>
 	<!-- EN: лечить себя -->
 	<ATPP_CrafterHealerDoctorTendToSelf.label>ремонтировать себя</ATPP_CrafterHealerDoctorTendToSelf.label>
 	<!-- EN: лечить себя -->
 	<ATPP_CrafterHealerDoctorTendToSelf.gerund>Ремонтировать себя</ATPP_CrafterHealerDoctorTendToSelf.gerund>
 	<!-- EN: лечить себя -->
-	<ATPP_CrafterHealerDoctorTendToSelf.verb>ремонтировать себя</ATPP_CrafterHealerDoctorTendToSelf.verb>
+	<ATPP_CrafterHealerDoctorTendToSelf.verb>отремонтировать себя</ATPP_CrafterHealerDoctorTendToSelf.verb>
 	<!-- EN: проводить неотложное самолечение -->
 	<ATPP_CrafterHealerDoctorTendToSelfEmergency.label>проводить неотложный саморемонт</ATPP_CrafterHealerDoctorTendToSelfEmergency.label>
 	<!-- EN: лечить себя -->
 	<ATPP_CrafterHealerDoctorTendToSelfEmergency.gerund>Ремонтировать себя</ATPP_CrafterHealerDoctorTendToSelfEmergency.gerund>
 	<!-- EN: лечить себя -->
-	<ATPP_CrafterHealerDoctorTendToSelfEmergency.verb>ремонтировать себя</ATPP_CrafterHealerDoctorTendToSelfEmergency.verb>
+	<ATPP_CrafterHealerDoctorTendToSelfEmergency.verb>отремонтировать себя</ATPP_CrafterHealerDoctorTendToSelfEmergency.verb>
 	<!-- EN: кормить пациентов -->
 	<ATPP_CrafterHealerDoctorFeedHumanlikes.label>заправлять биореакторы андроидов</ATPP_CrafterHealerDoctorFeedHumanlikes.label>
 	<!-- EN: кормить -->
 	<ATPP_CrafterHealerDoctorFeedHumanlikes.gerund>Заправить биореактор у</ATPP_CrafterHealerDoctorFeedHumanlikes.gerund>
 	<!-- EN: кормить -->
-	<ATPP_CrafterHealerDoctorFeedHumanlikes.verb>заправлять биореактор</ATPP_CrafterHealerDoctorFeedHumanlikes.verb>
+	<ATPP_CrafterHealerDoctorFeedHumanlikes.verb>заправить биореактор</ATPP_CrafterHealerDoctorFeedHumanlikes.verb>
 	<!-- Нужды "Жажда" и "Туалет" не работают для андроидов, нужно пропатчить. У робо-животных только "Туалет" есть.
 	EN: поить пациентов -->
 	<ATPP_CrafterHealerDBHAdministerFluids.label>снабжать водой андроидов</ATPP_CrafterHealerDBHAdministerFluids.label>
 	<!-- EN: напоить -->
 	<ATPP_CrafterHealerDBHAdministerFluids.gerund>Снабдить водой</ATPP_CrafterHealerDBHAdministerFluids.gerund>
 	<!-- EN: поить -->
-	<ATPP_CrafterHealerDBHAdministerFluids.verb>снабжать водой</ATPP_CrafterHealerDBHAdministerFluids.verb>
+	<ATPP_CrafterHealerDBHAdministerFluids.verb>снабдить водой</ATPP_CrafterHealerDBHAdministerFluids.verb>
 	<!-- EN: проводить медпроцедуры разумным существам -->
 	<ATPP_CrafterHealerDoBillsMedicalHumanOperation.label>выполнять обновление андроидов</ATPP_CrafterHealerDoBillsMedicalHumanOperation.label>
 	<!-- EN: провести медпроцедуру -->
 	<ATPP_CrafterHealerDoBillsMedicalHumanOperation.gerund>Выполнить обновление для</ATPP_CrafterHealerDoBillsMedicalHumanOperation.gerund>
 	<!-- EN: проводить медпроцедуру -->
-	<ATPP_CrafterHealerDoBillsMedicalHumanOperation.verb>выполнять обновление</ATPP_CrafterHealerDoBillsMedicalHumanOperation.verb>
+	<ATPP_CrafterHealerDoBillsMedicalHumanOperation.verb>выполнить обновление</ATPP_CrafterHealerDoBillsMedicalHumanOperation.verb>
 	<!-- EN: спасать сражённых союзников -->
 	<ATPP_CrafterHealerDoctorRescue.label>спасать сражённых андроидов</ATPP_CrafterHealerDoctorRescue.label>
 	<!-- EN: спасти -->
 	<ATPP_CrafterHealerDoctorRescue.gerund>Спасти андроида</ATPP_CrafterHealerDoctorRescue.gerund>
 	<!-- EN: спасать -->
-	<ATPP_CrafterHealerDoctorRescue.verb>спасать</ATPP_CrafterHealerDoctorRescue.verb>
+	<ATPP_CrafterHealerDoctorRescue.verb>спасти</ATPP_CrafterHealerDoctorRescue.verb>
 	<!-- Пока что этот вид работ нелогичен. Но на будущее внесём.
 	EN: мыть пациентов -->
 	<ATPP_CrafterHealerwashPatient.label>протирать ремонтируемых андроидов</ATPP_CrafterHealerwashPatient.label>
 	<!-- EN: мыть -->
 	<ATPP_CrafterHealerwashPatient.gerund>Протереть</ATPP_CrafterHealerwashPatient.gerund>
 	<!-- EN: мыть -->
-	<ATPP_CrafterHealerwashPatient.verb>протирать</ATPP_CrafterHealerwashPatient.verb>
+	<ATPP_CrafterHealerwashPatient.verb>протереть</ATPP_CrafterHealerwashPatient.verb>
 	<!-- EN: выносить утки -->
 	<ATPP_CrafterHealerDocCleanBedpan.label>убирать отходы</ATPP_CrafterHealerDocCleanBedpan.label>
 	<!-- EN: вынести -->
 	<ATPP_CrafterHealerDocCleanBedpan.gerund>Убрать</ATPP_CrafterHealerDocCleanBedpan.gerund>
 	<!-- EN: вынести -->
-	<ATPP_CrafterHealerDocCleanBedpan.verb>убирать</ATPP_CrafterHealerDocCleanBedpan.verb>
+	<ATPP_CrafterHealerDocCleanBedpan.verb>убрать</ATPP_CrafterHealerDocCleanBedpan.verb>
 	<!-- EN: лечить питомцев -->
 	<ATPP_CrafterHealerDoctorTendToAnimals.label>ремонтировать механических питомцев</ATPP_CrafterHealerDoctorTendToAnimals.label>
 	<!-- EN: лечить -->
 	<ATPP_CrafterHealerDoctorTendToAnimals.gerund>Отремонтировать</ATPP_CrafterHealerDoctorTendToAnimals.gerund>
 	<!-- EN: лечить -->
-	<ATPP_CrafterHealerDoctorTendToAnimals.verb>ремонтировать</ATPP_CrafterHealerDoctorTendToAnimals.verb>
+	<ATPP_CrafterHealerDoctorTendToAnimals.verb>отремонтировать</ATPP_CrafterHealerDoctorTendToAnimals.verb>
 	<!-- EN: кормить питомцев-пациентов -->
 	<ATPP_CrafterHealerDoctorFeedAnimals.label>заправлять биореакторы механических питомцев</ATPP_CrafterHealerDoctorFeedAnimals.label>
 	<!-- EN: кормить -->
 	<ATPP_CrafterHealerDoctorFeedAnimals.gerund>Заправить биореактор у</ATPP_CrafterHealerDoctorFeedAnimals.gerund>
 	<!-- EN: кормить -->
-	<ATPP_CrafterHealerDoctorFeedAnimals.verb>заправлять биореактор</ATPP_CrafterHealerDoctorFeedAnimals.verb>
+	<ATPP_CrafterHealerDoctorFeedAnimals.verb>заправить биореактор</ATPP_CrafterHealerDoctorFeedAnimals.verb>
 	<!-- EN: проводить медпроцедуры питомцам -->
 	<ATPP_CrafterHealerDoBillsMedicalAnimalOperation.label>выполнять обновление механических питомцев</ATPP_CrafterHealerDoBillsMedicalAnimalOperation.label>
 	<!-- EN: провести медпроцедуру -->
 	<ATPP_CrafterHealerDoBillsMedicalAnimalOperation.gerund>Выполнить обновление для</ATPP_CrafterHealerDoBillsMedicalAnimalOperation.gerund>
 	<!-- EN: проводить медпроцедуру -->
-	<ATPP_CrafterHealerDoBillsMedicalAnimalOperation.verb>выполнять обновление</ATPP_CrafterHealerDoBillsMedicalAnimalOperation.verb>
+	<ATPP_CrafterHealerDoBillsMedicalAnimalOperation.verb>выполнить обновление</ATPP_CrafterHealerDoBillsMedicalAnimalOperation.verb>
 	<!-- EN: относить пациентов на кровать для проведения операции -->
 	<ATPP_CrafterHealerTakeToBedToOperate.label>относить андроидов на ложе для проведения обновлений</ATPP_CrafterHealerTakeToBedToOperate.label>
 	<!-- EN: отнести на операцию -->
 	<ATPP_CrafterHealerTakeToBedToOperate.gerund>Отнести на обновление</ATPP_CrafterHealerTakeToBedToOperate.gerund>
 	<!-- EN: нести на операцию -->
-	<ATPP_CrafterHealerTakeToBedToOperate.verb>нести на обновление</ATPP_CrafterHealerTakeToBedToOperate.verb>
+	<ATPP_CrafterHealerTakeToBedToOperate.verb>отнести на обновление</ATPP_CrafterHealerTakeToBedToOperate.verb>
 	<!-- EN: навещать больных -->
 	<ATPP_CrafterHealerVisitSickPawn.label>навещать недееспособных андроидов</ATPP_CrafterHealerVisitSickPawn.label>
 	<!-- EN: навестить -->
 	<ATPP_CrafterHealerVisitSickPawn.gerund>Навестить</ATPP_CrafterHealerVisitSickPawn.gerund>
 	<!-- EN: навещать -->
-	<ATPP_CrafterHealerVisitSickPawn.verb>навещать</ATPP_CrafterHealerVisitSickPawn.verb>
+	<ATPP_CrafterHealerVisitSickPawn.verb>навестить</ATPP_CrafterHealerVisitSickPawn.verb>
 
 	<!-- Исправлена неточность, сообщите разработчику.
 
-	Оригинал: работать -->
-	<DoBillsRobotics.verb>работать, используя</DoBillsRobotics.verb>
-	<!-- Оригинал: работать в -->
+	Оригинал: работать в -->
 	<DoBillsRobotics.gerund>Работать, используя</DoBillsRobotics.gerund>
 
 </LanguageData>
