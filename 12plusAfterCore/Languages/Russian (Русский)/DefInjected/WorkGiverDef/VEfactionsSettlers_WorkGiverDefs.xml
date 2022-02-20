@@ -6,14 +6,14 @@
 	Оригинал: Извлечь химблеск из бочки для химблеска -->
 	<TakeChemshineOutOfChemshineBarrel.label>извлекать химблеск из бочки</TakeChemshineOutOfChemshineBarrel.label>
 	<!-- Оригинал: Извлечь -->
-	<TakeChemshineOutOfChemshineBarrel.verb>извлекать</TakeChemshineOutOfChemshineBarrel.verb>
+	<TakeChemshineOutOfChemshineBarrel.verb>извлечь</TakeChemshineOutOfChemshineBarrel.verb>
 	<!-- Оригинал: Извлечь -->
 	<TakeChemshineOutOfChemshineBarrel.gerund>Извлечь химблеск из</TakeChemshineOutOfChemshineBarrel.gerund>
 
 	<!-- Оригинал: Заполнить бочку для химблеска -->
 	<FillChemshineBarrel.label>заполнять бочку для химблеска</FillChemshineBarrel.label>
 	<!-- Оригинал: Заполнить -->
-	<FillChemshineBarrel.verb>заполнять</FillChemshineBarrel.verb>
+	<FillChemshineBarrel.verb>заполнить</FillChemshineBarrel.verb>
 	<!-- Оригинал: Заполнить -->
 	<FillChemshineBarrel.gerund>Заполнить химтопливом</FillChemshineBarrel.gerund>
 
