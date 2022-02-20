@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлена русская локализация, сообщите разработчику.
+
+	EN: meditrain(tm) table -->
+	<IF_MeditrainTable.label>стол для тренировки медицины</IF_MeditrainTable.label>
+
+
+	<!-- Исправление согласно концепции «12+».
+
+	EN: Doctors hone their skills by testing their techniques on corpses. -->
+	<IF_MeditrainTable.description>Врачи узнают, как правильно лечить живых пациентов, изучая внутреннее устройство тел.</IF_MeditrainTable.description>
+
+</LanguageData>
