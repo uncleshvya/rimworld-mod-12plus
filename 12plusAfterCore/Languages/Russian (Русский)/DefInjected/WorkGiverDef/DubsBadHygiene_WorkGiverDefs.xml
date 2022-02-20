@@ -15,7 +15,7 @@
 	<!-- EN: refilling -->
 	<RefillWater.gerund>Долить воду в</RefillWater.gerund>
 	<!-- EN: refill -->
-	<RefillWater.verb>доливать воду</RefillWater.verb>
+	<RefillWater.verb>долить воду</RefillWater.verb>
 
 	<!-- Исправлен конфликт модов, сообщите разработчикам dismarzero.VGP.VGPGardenTools и Dubwise.DubsBadHygiene.
 
@@ -24,21 +24,21 @@
 	<!-- Оригинал: доставать компост из -->
 	<UnloadComposter.gerund>Достать перегной из</UnloadComposter.gerund>
 	<!-- Оригинал: достать компост -->
-	<UnloadComposter.verb>доставать перегной</UnloadComposter.verb>
+	<UnloadComposter.verb>достать перегной</UnloadComposter.verb>
 
 	<!-- Оригинал: наполнить компостер -->
 	<FillComposter.label>наполнять навозные баки</FillComposter.label>
 	<!-- Оригинал: наполнять -->
 	<FillComposter.gerund>Наполнить</FillComposter.gerund>
 	<!-- Оригинал: наполнить -->
-	<FillComposter.verb>наполнять</FillComposter.verb>
+	<FillComposter.verb>наполнить</FillComposter.verb>
 
 	<!-- EN: fertilize -->
 	<PlaceFertilizer.label>обогащать почву</PlaceFertilizer.label>
 	<!-- EN: fertilizing -->
 	<PlaceFertilizer.gerund>Обогатить</PlaceFertilizer.gerund>
 	<!-- EN: fertilize -->
-	<PlaceFertilizer.verb>обогащать</PlaceFertilizer.verb>
+	<PlaceFertilizer.verb>обогатить</PlaceFertilizer.verb>
 
 	<!-- Исправлена неточность, сообщите разработчику.
 
