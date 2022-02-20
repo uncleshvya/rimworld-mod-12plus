@@ -7,7 +7,7 @@
 	Оригинал: перезарядить ловушки -->
 	<VFES_ConstructRearmTrap.label>восстанавливать ловушки</VFES_ConstructRearmTrap.label>
 	<!-- Оригинал: перезаряжать -->
-	<VFES_ConstructRearmTrap.verb>восстанавливать</VFES_ConstructRearmTrap.verb>
+	<VFES_ConstructRearmTrap.verb>восстановить</VFES_ConstructRearmTrap.verb>
 	<!-- Оригинал: перезаряжает -->
 	<VFES_ConstructRearmTrap.gerund>Восстановить</VFES_ConstructRearmTrap.gerund>
 
