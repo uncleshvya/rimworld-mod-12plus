@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлена русская локализация, сообщите разработчику.
+
+	EN: medicine training -->
+	<IF_TrainingMedicine.label>обучаться медицине</IF_TrainingMedicine.label>
+	<!-- EN: training -->
+	<IF_TrainingMedicine.gerund>Обучаться медицине, используя</IF_TrainingMedicine.gerund>
+	<!-- EN: train -->
+	<IF_TrainingMedicine.verb>обучаться медицине здесь</IF_TrainingMedicine.verb>
+
+</LanguageData>
