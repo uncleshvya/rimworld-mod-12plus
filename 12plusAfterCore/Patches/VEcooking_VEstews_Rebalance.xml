@@ -82,8 +82,33 @@ Copyright (c) Oskar Potocki
 					<Nutrition>4.5</Nutrition>
 				</value>
 			</li>
-			<!-- Лишние категории засоряют список.
-			Рагу, супы и прожаренная еда: -->
+			<!-- Лишние категории консервов и сыра засоряют список -->
+			<li Class="PatchOperationAttributeSet">
+				<xpath>Defs/ThingDef[
+				defName = "VCE_CannedMeat" or
+				defName = "VCE_CannedProduce" or
+				defName = "VCE_CannedAP" or
+				defName = "VCE_CannedFish" or
+				defName = "VCE_Cheese"
+				]</xpath>
+				<attribute>ParentName</attribute>
+				<value>OrganicProductBase</value>
+			</li>
+			<!-- При этом возникает ошибка кормления заключённых. Исправляем, заодно смещаем приоритеты по выбору еды - это позволит экономить ценный сыр и непортящуюся еду, а также пригодится для режима, когда консервы вызывают повышение давления -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[
+				defName = "VCE_CannedMeat" or
+				defName = "VCE_CannedProduce" or
+				defName = "VCE_CannedAP" or
+				defName = "VCE_CannedFish" or
+				defName = "VCE_Cheese"
+				]/ingestible/preferability</xpath>
+				<value>
+					<preferability>DesperateOnly</preferability>
+					<foodType>Processed</foodType>
+				</value>
+			</li>
+			<!-- Категории для рагу, супов и прожаренной еды: -->
 			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[
 				defName = "VCE_UncookedStewSimple" or
@@ -97,19 +122,6 @@ Copyright (c) Oskar Potocki
 				defName = "VCE_DeepFriedVegetables" or
 				defName = "VCE_DeepFriedFish"
 				]/thingCategories</xpath>
-			</li>
-			<!-- Для сыра, он ведь есть в рецептах, пришлось подшаманить: -->
-			<li Class="PatchOperationAttributeSet">
-				<xpath>Defs/ThingDef[defName = "VCE_Cheese"]</xpath>
-				<attribute>ParentName</attribute>
-				<value>OrganicProductBase</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "VCE_Cheese"]/ingestible/preferability</xpath>
-				<value>
-					<preferability>DesperateOnly</preferability>
-					<foodType>Processed</foodType>
-				</value>
 			</li>
 			<!-- Время приготовления рагу исправлено с 72 часов на 8 -->
 			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationReplace">
