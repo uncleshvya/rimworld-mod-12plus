@@ -8,14 +8,14 @@
 	<!-- Оригинал: выращивание пчелиной королевы -->
 	<DoBillsRaiseNewQueen.gerund>Вырастить пчелиную матку, используя</DoBillsRaiseNewQueen.gerund>
 	<!-- Оригинал: вырастить пчелиную королеву -->
-	<DoBillsRaiseNewQueen.verb>выращивать пчелиную матку, используя</DoBillsRaiseNewQueen.verb>
+	<DoBillsRaiseNewQueen.verb>вырастить пчелиную матку</DoBillsRaiseNewQueen.verb>
 
 	<!-- Оригинал: сбор мёда -->
 	<GetHoney.label>извлекать мёд</GetHoney.label>
 	<!-- Оригинал: сбор -->
 	<GetHoney.gerund>Извлечь мёд из</GetHoney.gerund>
 	<!-- Оригинал: собирать -->
-	<GetHoney.verb>извлекать мёд из</GetHoney.verb>
+	<GetHoney.verb>извлечь мёд</GetHoney.verb>
 
 	<!-- Исправление согласно концепции «12+».
 
@@ -24,6 +24,6 @@
 	<!-- Оригинал: варить пиво на -->
 	<DoBillsBrew.gerund>Готовить на</DoBillsBrew.gerund>
 	<!-- Оригинал: варить пиво на -->
-	<DoBillsBrew.verb>готовить на</DoBillsBrew.verb>
+	<DoBillsBrew.verb>приготовить</DoBillsBrew.verb>
 
 </LanguageData>
