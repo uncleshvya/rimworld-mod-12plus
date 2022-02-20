@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation MayRequire="itchyflea.medicaltraining" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<!-- Исправление согласно концепции «12+».
+
+			Отключена разделка гниющих трупов -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName = "IF_MedTable"]/fixedIngredientFilter</xpath>
+				<value>
+					<specialFiltersToDisallow>
+						<li>AllowRotten</li>
+					</specialFiltersToDisallow>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>

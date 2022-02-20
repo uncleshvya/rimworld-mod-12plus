@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation MayRequire="itchyflea.medicaltraining" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<!-- Исправлен баланс, сообщите разработчику.
+
+			Звук изменяем на такой же, как при ванильной операции -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "IF_MedTable"]/soundWorking/text()</xpath>
+				<value>Recipe_Surgery</value>
+			</li>
+			<!-- Скорость обучения выставляем как за 3 ванильных операции -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "IF_MedTable"]/workSkillLearnFactor/text()</xpath>
+				<value>48</value>
+			</li>
+			<!-- Добавляем необходимость исследования мебели -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "IF_MeditrainTable"]</xpath>
+				<value>
+					<researchPrerequisites>
+						<li>ComplexFurniture</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>
