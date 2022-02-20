@@ -10,7 +10,7 @@
 	<!-- Оригинал: изготовить оружие на -->
 	<DoBillsMakeWeapons.gerund>Ковать на</DoBillsMakeWeapons.gerund>
 	<!-- Оригинал: изготовить оружие на -->
-	<DoBillsMakeWeapons.verb>ковать на</DoBillsMakeWeapons.verb>
+	<DoBillsMakeWeapons.verb>ковать</DoBillsMakeWeapons.verb>
 	<!-- Убрана путаница с DoctorTendToSelf.label, иначе 2 одинаковых задания выглядят как баг.
 	Оригинал: лечить себя -->
 	<DoctorTendToSelfEmergency.label>проводить неотложное самолечение</DoctorTendToSelfEmergency.label>
