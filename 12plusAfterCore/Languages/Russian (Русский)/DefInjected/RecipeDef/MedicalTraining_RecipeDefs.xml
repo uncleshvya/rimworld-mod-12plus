@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлена русская локализация, сообщите разработчику.
+
+	EN: train medicine -->
+	<IF_MedTable.label>обучаться медицине</IF_MedTable.label>
+	<!-- EN: Training. -->
+	<IF_MedTable.jobString>обучается медицине</IF_MedTable.jobString>
+
+	<!-- Исправление согласно концепции «12+».
+
+	EN: Doctors hone their skills by testing their techniques on corpses. -->
+	<IF_MedTable.description>Тренировать навыки врача, изучая внутреннее устройство тел.</IF_MedTable.description>
+
+</LanguageData>
