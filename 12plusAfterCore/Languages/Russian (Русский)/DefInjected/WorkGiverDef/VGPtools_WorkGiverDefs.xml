@@ -6,21 +6,21 @@
 	Оригинал: Добывать на месте раскопок -->
 	<DoBillsUseDiggingSpot.label>выкапывать почву</DoBillsUseDiggingSpot.label>
 	<!-- Оригинал: Копать -->
-	<DoBillsUseDiggingSpot.verb>добывать почву</DoBillsUseDiggingSpot.verb>
+	<DoBillsUseDiggingSpot.verb>выкопать почву</DoBillsUseDiggingSpot.verb>
 	<!-- Оригинал: Копает -->
 	<DoBillsUseDiggingSpot.gerund>Добывать почву из</DoBillsUseDiggingSpot.gerund>
 
 	<!-- Оригинал: брать продукт из компостера -->
 	<GT_WorkGiver_TakeProductOutOfUniversalFermenter.label>доставать удобрение из компостеров</GT_WorkGiver_TakeProductOutOfUniversalFermenter.label>
 	<!-- Оригинал: взять продукт -->
-	<GT_WorkGiver_TakeProductOutOfUniversalFermenter.verb>доставать удобрение</GT_WorkGiver_TakeProductOutOfUniversalFermenter.verb>
+	<GT_WorkGiver_TakeProductOutOfUniversalFermenter.verb>достать удобрение</GT_WorkGiver_TakeProductOutOfUniversalFermenter.verb>
 	<!-- Оригинал: берёт продукт из -->
 	<GT_WorkGiver_TakeProductOutOfUniversalFermenter.gerund>Достать удобрение из</GT_WorkGiver_TakeProductOutOfUniversalFermenter.gerund>
 
 	<!-- Оригинал: заполнение компостера -->
 	<GT_WorkGiver_FillUniversalFermenter.label>наполнять компостеры</GT_WorkGiver_FillUniversalFermenter.label>
 	<!-- Оригинал: заполнить -->
-	<GT_WorkGiver_FillUniversalFermenter.verb>наполнять</GT_WorkGiver_FillUniversalFermenter.verb>
+	<GT_WorkGiver_FillUniversalFermenter.verb>наполнить</GT_WorkGiver_FillUniversalFermenter.verb>
 	<!-- Оригинал: заполняет -->
 	<GT_WorkGiver_FillUniversalFermenter.gerund>Наполнить</GT_WorkGiver_FillUniversalFermenter.gerund>
 
