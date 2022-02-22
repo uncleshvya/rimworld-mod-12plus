@@ -2,12 +2,9 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2022-02-20 Добавлена адаптация и русская локализация для мода Medical Training. Убрана разделка гниющих трупов. По желанию, доступно исправление кривоватого баланса:
-- звук изменён на такой же, как при ванильной операции;
-- скорость обучения выставлена как за 3 ванильных операции;
-- добавлена необходимость исследования мебели.
+2022-02-22 ведутся работы по адаптации и русской локализации для мода Fishing ReWork. Поддержка устаревших версий от Rainbeau и Mlie остановлена до востребования.
 Идёт работа по исправлению трудноуловимого бага - иногда не загружается карта квестов с сайтами, типа "лагерь лесорубов" или "деревня сектантов". Ведётся отсев модов; список уже проверенных - в файле ModsConfig.xml в корне репозитория.
-Для тех, кто не хочет ждать и не использует внешние квесты, сохранена версия 12+мода с поддержкой бОльшего количества модов в файле Bugged096prDomosed.zip.
+Для тех, кто не хочет ждать и не использует внешние квесты, сохранена версия 12+мода с поддержкой большего количества модов в файле Bugged096prDomosed.zip.
 Скомпилирована версия 12+мода 0.9.91pre-release.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowDeadAnimals_";
@@ -70,7 +67,12 @@ For English, scroll down.
 "VGPtools_";
 "ZiTools_".
 
-2022-02-17 Добавлена адаптация и русская локализация для мода Rim of Madness Bones. Чтобы не было красных ошибок, добавлена зависимость от этого мода. По желанию, доступно исправление кривоватого баланса:
+2022-02-20 добавлена адаптация и русская локализация для мода Medical Training. Убрана разделка гниющих трупов. По желанию, доступно исправление кривоватого баланса:
+- звук изменён на такой же, как при ванильной операции;
+- скорость обучения выставлена как за 3 ванильных операции;
+- добавлена необходимость исследования мебели.
+
+2022-02-17 добавлена адаптация и русская локализация для мода Rim of Madness Bones. Чтобы не было красных ошибок, добавлена зависимость от этого мода. По желанию, доступно исправление кривоватого баланса:
 - убраны кости из механоидов (код устарел);
 - исправлена графика дубины-вентилятора (попробуйте взять кость как оружие);
 - убраны древние костяные строения, из которых можно было добыть съедобный костный мозг;
@@ -84,7 +86,7 @@ For English, scroll down.
 
 2022-01-05 добавлена адаптация для мода EdB Prepare Carefully и его русификатора.
 
-2021-11-02 апдейт к свежему официальному переводу. Обработаны 2 неофициальных перевода, приоритет смещён на оный от автора Sestrenka, как более качественный. Поддержка перевода от LeveFUN заморожена до востребования.
+2021-11-02 апдейт к свежему официальному переводу. Обработаны 2 неофициальных перевода, приоритет смещён на оный от автора Sestrenka, как более качественный. Поддержка перевода от LeveFUN остановлена до востребования.
 
 2021-11-01 добавлена адаптация для мода Vanilla Traits Expanded и его русификатора, заодно исправлены их ошибки, см.каменты в коде. Чтобы не было красных ошибок, добавлена зависимость от этого мода.
 
@@ -95,7 +97,7 @@ For English, scroll down.
 2021-09-15 добавлена адаптация для мода DubsBadHygiene, заодно исправлены его ошибки, см.каменты в коде. По желанию, доступно исправление кривоватого баланса:
 - возвращено отображение радиуса загрязнения колодца, зачем автор убрал это?
 
-2021-09-11 закончен апдейт до Римворлда 1.3 с Роялти. Поддержка версии 1.2 заморожена до востребования.
+2021-09-11 закончен апдейт до Римворлда 1.3 с Роялти. Поддержка версии 1.2 остановлена до востребования.
 Отключён баф Bloodlust при вырезании органа.
 
 2021-09-10 добавлена адаптация для мода ZiTools objects seeker.
@@ -211,7 +213,7 @@ For English, scroll down.
 
 2020-09-23 отключено людоедство, в т.ч. для новых стандартных животных. Аналогично и для других разумных рас, поддерживаемых модом.
 
-2020-09-05 закончен апдейт до Римворлда 1.2 с Роялти. Поддержка версии 1.0 заморожена до востребования.
+2020-09-05 закончен апдейт до Римворлда 1.2 с Роялти. Поддержка версии 1.0 остановлена до востребования.
 
 2020-08-17 отключены трейты Asexual и Bisexual.
 
@@ -241,10 +243,7 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2022-feb-20 itchyflea.medicaltraining mod adaptation and Russian translation added. Removed rotten corpses' autopsy. Optional balance change available:
-- autopsy action sound changed into vanilla surgery one;
-- learn factor enlarged, now the amount is like 3 vanilla medical operations;
-- research requirements added - complex furniture.
+2022-feb-22 RainbeausFishing.ReworkMod mod adaptation and Russian translation work started. Support for obsolete firefoxpdm.RainbeausFishing stopped until asked.
 Bugfix work is in process: there is a problem with site quests - sometimes the game can't load map. Adapted mods are testing one by one; the whitelist is in "ModsConfig.xml" file.
 For those who can't wait and doesn't like external quests, there is a backup file Bugged096prDomosed.zip in the repository.
 UncleShvya.12plus mod v.0.9.91pre-release compiled.
@@ -308,6 +307,11 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "VGPmedicine_";
 "VGPtools_";
 "ZiTools_".
+
+2022-feb-20 itchyflea.medicaltraining mod adaptation and Russian translation added. Removed rotten corpses' autopsy. Optional balance change available:
+- autopsy action sound changed into vanilla surgery one;
+- learn factor enlarged, now the amount is like 3 vanilla medical operations;
+- research requirements added - complex furniture.
 
 2022-feb-17 sihv.rombones mod adaptation and Russian translation added. To avoid red errors, mod dependence added. Optional balance change available:
 - removed bones from mechanoids (obsolete code);
