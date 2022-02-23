@@ -2,7 +2,7 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2022-02-22 ведутся работы по адаптации и русской локализации для мода Fishing ReWork. Поддержка устаревших версий от Rainbeau, Mlie и kr33man остановлена до востребования.
+2022-02-23 добавлена адаптация для серии модов Fishing. Поддержка устаревших версий от Rainbeau, Mlie и kr33man остановлена до востребования. Как компенсация, сделана русская локализация самой свежей версии - Fishing ReWork.
 Идёт работа по исправлению трудноуловимого бага - иногда не загружается карта квестов с сайтами, типа "лагерь лесорубов" или "деревня сектантов". Ведётся отсев модов; список уже проверенных - в файле ModsConfig.xml в корне репозитория.
 Для тех, кто не хочет ждать и не использует внешние квесты, сохранена версия 12+мода с поддержкой большего количества модов в файле Bugged096prDomosed.zip.
 Скомпилирована версия 12+мода 0.9.91pre-release.
@@ -243,7 +243,7 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2022-feb-22 RainbeausFishing.ReworkMod mod adaptation and Russian translation work started. Support for obsolete firefoxpdm.RainbeausFishing stopped until asked.
+2022-feb-23 RainbeausFishing.ReworkMod mod adaptation and Russian translation added. Support for obsolete firefoxpdm.RainbeausFishing is stopped until asked.
 Bugfix work is in process: there is a problem with site quests - sometimes the game can't load map. Adapted mods are testing one by one; the whitelist is in "ModsConfig.xml" file.
 For those who can't wait and doesn't like external quests, there is a backup file Bugged096prDomosed.zip in the repository.
 UncleShvya.12plus mod v.0.9.91pre-release compiled.
