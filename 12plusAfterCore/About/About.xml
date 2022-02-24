@@ -275,6 +275,7 @@ Ideas to realize in next version:
 		<li>Russifier.Ideology</li>
 		<li>UncleShvya.EdibleLeather</li>
 		<li>itchyflea.medicaltraining</li>
+		<li>RainbeausFishing.ReworkMod</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
@@ -288,5 +289,6 @@ Ideas to realize in next version:
 		<li>VanillaExpanded.VWETB</li>
 		<li>VanillaExpanded.VAEAccessories</li>
 		<li>RU.Ideology</li>
+		<li>firefoxpdm.RainbeausFishing</li>
 	</incompatibleWith>
 </ModMetaData>
