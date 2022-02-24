@@ -2,10 +2,13 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2022-02-23 добавлена адаптация для серии модов Fishing. Поддержка устаревших версий от Rainbeau, Mlie и kr33man остановлена до востребования. Как компенсация, сделана русская локализация самой свежей версии - Fishing ReWork.
+2022-02-24 добавлена адаптация и русская локализация для серии модов Fishing. Поддержка устаревших версий от Rainbeau, Mlie и kr33man остановлена до востребования, в пользу самой свежей версии - Fishing ReWork. По желанию, доступно исправление кривоватого баланса:
+- убран баф от улитки, чтобы соответствовала описанию;
+- возвращено влияние изношенности на цену рыбы. Зачем автор убрал это?;
+- исправлен рецепт для морского огурца, т.к. голотурин содержится не в мясе, а в несъедобных органах.
 Идёт работа по исправлению трудноуловимого бага - иногда не загружается карта квестов с сайтами, типа "лагерь лесорубов" или "деревня сектантов". Ведётся отсев модов; список уже проверенных - в файле ModsConfig.xml в корне репозитория.
 Для тех, кто не хочет ждать и не использует внешние квесты, сохранена версия 12+мода с поддержкой большего количества модов в файле Bugged096prDomosed.zip.
-Скомпилирована версия 12+мода 0.9.91pre-release.
+Скомпилирована версия 12+мода 0.9.92pre-release.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -18,6 +21,7 @@ For English, scroll down.
 "EdibleLeather_";
 "EPOE_";
 "FertileFields_";
+"Fishing_";
 "GeneticRim_";
 "GeneticRimAlphaAnimalsPatch_";
 "GlitterTech_";
@@ -243,10 +247,13 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2022-feb-23 RainbeausFishing.ReworkMod mod adaptation and Russian translation added. Support for obsolete firefoxpdm.RainbeausFishing is stopped until asked.
+2022-feb-24 RainbeausFishing.ReworkMod mod adaptation and Russian translation added. Support for obsolete firefoxpdm.RainbeausFishing is stopped until asked. Optional balance change available:
+- removed seafood for snails, the tip is in their description;
+- restored deterioration influence for fish price. Why did Si-Cafe removed it?;
+- corrected sea cucumber recipe. The useful toxine is not in the meat but in inedible organs.
 Bugfix work is in process: there is a problem with site quests - sometimes the game can't load map. Adapted mods are testing one by one; the whitelist is in "ModsConfig.xml" file.
 For those who can't wait and doesn't like external quests, there is a backup file Bugged096prDomosed.zip in the repository.
-UncleShvya.12plus mod v.0.9.91pre-release compiled.
+UncleShvya.12plus mod v.0.9.92pre-release compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -259,6 +266,7 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "EdibleLeather_";
 "EPOE_";
 "FertileFields_";
+"Fishing_";
 "GeneticRim_";
 "GeneticRimAlphaAnimalsPatch_";
 "GlitterTech_";
