@@ -3,7 +3,6 @@ For English, scroll down.
 История изменений мода 12plus для Rimworld.
 
 2022-02-24 добавлена адаптация и русская локализация для серии модов Fishing. Поддержка устаревших версий от Rainbeau, Mlie и kr33man остановлена до востребования, в пользу самой свежей версии - Fishing ReWork. По желанию, доступно исправление кривоватого баланса:
-- убран баф от улитки, чтобы соответствовала описанию;
 - возвращено влияние изношенности на цену рыбы. Зачем автор убрал это?;
 - исправлен рецепт для морского огурца, т.к. голотурин содержится не в мясе, а в несъедобных органах.
 Идёт работа по исправлению трудноуловимого бага - иногда не загружается карта квестов с сайтами, типа "лагерь лесорубов" или "деревня сектантов". Ведётся отсев модов; список уже проверенных - в файле ModsConfig.xml в корне репозитория.
@@ -248,7 +247,6 @@ For English, scroll down.
 Changelog for Rimworld's 12plus modification.
 
 2022-feb-24 RainbeausFishing.ReworkMod mod adaptation and Russian translation added. Support for obsolete firefoxpdm.RainbeausFishing is stopped until asked. Optional balance change available:
-- removed seafood for snails, the tip is in their description;
 - restored deterioration influence for fish price. Why did Si-Cafe removed it?;
 - corrected sea cucumber recipe. The useful toxine is not in the meat but in inedible organs.
 Bugfix work is in process: there is a problem with site quests - sometimes the game can't load map. Adapted mods are testing one by one; the whitelist is in "ModsConfig.xml" file.
