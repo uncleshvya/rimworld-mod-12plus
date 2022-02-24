@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлена русская локализация, сообщите разработчику.
+
+	EN: Fishing. -->
+	<JobDef_CatchFish.reportString>рыбачит</JobDef_CatchFish.reportString>
+
+</LanguageData>
