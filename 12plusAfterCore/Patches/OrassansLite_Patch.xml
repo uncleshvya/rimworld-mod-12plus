@@ -134,8 +134,9 @@
 					<BoneAmount MayRequire="sihv.rombones">0</BoneAmount>
 				</value>
 			</li>
-			<!-- Отменяем действие патча, удаляя а потом перезаписывая параметр:
-			\Mods\OrassansLite\1.2\Patches\meals.xml -->
+			<!-- Отменяем действие патча:
+			\Mods\OrassansLite\1.2\Patches\meals.xml
+			удаляя а потом перезаписывая параметр -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/RecipeDef[@Name = "CookMealBase"]/defaultIngredientFilter/disallowedThingDefs</xpath>
 			</li>
@@ -299,7 +300,6 @@
 				defName = "Chemical_Catnip"
 				]</xpath>
 			</li>
-			
 
 		</operations>
 	</Operation>
