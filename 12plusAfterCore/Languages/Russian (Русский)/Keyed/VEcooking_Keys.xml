@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- Добавлена недостающая строка русской локализации, сообщите разработчику.
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
 
 	EN: The soup is spoiling fast due to a lack of fuel in the electric pot -->
 	<VCE_SoupFailurePowerWarning>Плита отключена, скоро конфорка остынет, и еда в кастрюле испортится</VCE_SoupFailurePowerWarning>
@@ -17,14 +17,17 @@
 	<VCE_InsertSoupDesc>Выбрать, что готовить.</VCE_InsertSoupDesc>
 	<!-- Оригинал: На этой карте не найдено таких супов -->
 	<VCE_NoSoupsFound>На карте не найдено таких продуктов</VCE_NoSoupsFound>
+	<!-- Все описания следует синхронизировать с папкой ThingDef.
+	Оригинал: превосходный суп -->
+	<VCE_UncookedSoupGourmet>эксклюзивный суп</VCE_UncookedSoupGourmet>	
 	<!-- Оригинал: Вставить простой... -->
 	<VCE_UncookedSoupSimple_InsertSoup>Выбрать простой суп</VCE_UncookedSoupSimple_InsertSoup>
 	<!-- Оригинал: Вставить отличный... -->
 	<VCE_UncookedSoupFine_InsertSoup>Выбрать отличный суп</VCE_UncookedSoupFine_InsertSoup>
 	<!-- Оригинал: Вставить шикарый суп -->
 	<VCE_UncookedSoupLavish_InsertSoup>Выбрать шикарный суп</VCE_UncookedSoupLavish_InsertSoup>
-	<!-- Оригинал: Вставить превосходный... -->
-	<VCE_UncookedSoupGourmet_InsertSoup>Выбрать превосходный суп</VCE_UncookedSoupGourmet_InsertSoup>
+	<!-- Оригинал: Вставить превосходный суп -->
+	<VCE_UncookedSoupGourmet_InsertSoup>Выбрать эксклюзивный суп</VCE_UncookedSoupGourmet_InsertSoup>
 	<!-- Оригинал: Выберите тип супа для приготовления -->
 	<VCE_SelectSoup>Выберите, что готовить</VCE_SelectSoup>
 	<!-- Оригинал: Принести суп -->
