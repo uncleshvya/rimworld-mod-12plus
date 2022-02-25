@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлена русская локализация, сообщите разработчику.
+
+	Переведено как в ванили.
+	EN: Mote -->
+	<Mote_FishingRodNorth.label>частица</Mote_FishingRodNorth.label>
+	<!-- EN: Fishing rod. -->
+	<Mote_FishingRodNorth.description>удочка</Mote_FishingRodNorth.description>
+	<!-- EN: Mote -->
+	<Mote_FishingRodEast.label>частица</Mote_FishingRodEast.label>
+	<!-- EN: Fishing rod. -->
+	<Mote_FishingRodEast.description>удочка</Mote_FishingRodEast.description>
+	<!-- EN: Mote -->
+	<Mote_FishingRodSouth.label>частица</Mote_FishingRodSouth.label>
+	<!-- EN: Fishing rod. -->
+	<Mote_FishingRodSouth.description>удочка</Mote_FishingRodSouth.description>
+	<!-- EN: Mote -->
+	<Mote_FishingRodWest.label>частица</Mote_FishingRodWest.label>
+	<!-- EN: Fishing rod. -->
+	<Mote_FishingRodWest.description>удочка</Mote_FishingRodWest.description>
+	<!-- EN: fishing spot -->
+	<RBB_FishingSpot.label>место рыбалки</RBB_FishingSpot.label>
+	<!-- Уже довольно давно отключен движок расслабления на месте рыбалки.
+	EN: A spot from which pawns can relax and catch fish. -->
+	<RBB_FishingSpot.description>Место, где поселенцы могут удить рыбу.</RBB_FishingSpot.description>
+	<!-- EN: shellfish trap -->
+	<ShellfishTrap.label>рачевня</ShellfishTrap.label>
+	<!-- EN: A trap designed to catch shellfish (lobsters, crabs, crayfish and the like). It'll also sometimes catch snails, shrimp and small fish. -->
+	<ShellfishTrap.description>Устройство, сконструированное для ловли раков. Но частенько в него попадаются и прочие обитатели водоёма.</ShellfishTrap.description>
+	<!-- EN: fish -->
+	<RF_Fish.label>рыба</RF_Fish.label>
+	<!-- Неразделанную рыбу тоже можно есть.
+	EN: Raw fish. Needs to be prepare before it can be eaten. -->
+	<RF_Fish.description>Сырая рыба. Можно отгрызть от неё кусок, но лучше всё-таки её почистить, разделать и приготовить.</RF_Fish.description>
+	<!-- EN: sea bream -->
+	<RF_FishB.label>морской лещ</RF_FishB.label>
+	<!-- EN: A raw sea bream. Needs to be prepare before it can be eaten. -->
+	<RF_FishB.description>Сырая рыба. Можно отгрызть от неё кусок, но лучше всё-таки её почистить, разделать и приготовить.</RF_FishB.description>
+	<!-- Следует разделять эту рыбу и другую мелочь типа анчоуса или сардин.
+	EN: tiny fish -->
+	<RF_FishTiny.label>малёк</RF_FishTiny.label>
+	<!-- Добавлена конкретика о питательности.
+	EN: Small raw fish. It's just the right size to grill and eat. You'll get more nutrition without waste if you grilled it as it is rather than fill it. -->
+	<RF_FishTiny.description>Сырая маленькая рыба. На противень влезут несколько штук сразу. Но если почистить её и разделать, можно будет приготовить и более питательное блюдо.</RF_FishTiny.description>
+	<!-- EN: arapaima -->
+	<RF_Arapaima.label>арапайма</RF_Arapaima.label>
+	<!-- EN: Arapaima are large freshwater fish native to tropical regions. Needs to be prepare before it can be eaten. -->
+	<RF_Arapaima.description>Огромная хищная рыба родом из тропических рек. Можно в отместку отгрызть от неё кусок, но лучше всё-таки её почистить, разделать и приготовить.</RF_Arapaima.description>
+	<!-- EN: piranha -->
+	<RF_Piranha.label>пиранья</RF_Piranha.label>
+	<!-- EN: Piranha are tropical fish known for their sharp teeth and powerful jaws. Needs to be prepare before it can be eaten. -->
+	<RF_Piranha.description>Тропическая рыба, известная за свои острые зубы и сильные челюсти. Можно в отместку отгрызть от неё кусок, но лучше всё-таки её почистить, разделать и приготовить.</RF_Piranha.description>
+	<!-- EN: salmon -->
+	<RF_Salmon.label>лосось</RF_Salmon.label>
+	<!-- Адаптировано для русского языка.
+	EN: Raw salmon. You can get salmon meat and salmon roe. You need to prepare it before eating. -->
+	<RF_Salmon.description>Сырой лосось, известный как «красная» рыба. Можно отгрызть от него кусок, но лучше всё-таки почистить, разделать и приготовить. Обычно из лосося добывают характерно розовое филе и красную икру.</RF_Salmon.description>
+	<!-- EN: tuna -->
+	<RF_Tuna.label>тунец</RF_Tuna.label>
+	<!-- Подкорректировано биологическое описание, с оглядкой на лор.
+	EN: Raw tuna. Tuna is a large carnivorous fish that is warm-sea, open-sea, and migratory. -->
+	<RF_Tuna.description>Огромная хищная рыба родом из тропических океанов. Стаи тунцов преодолевают в поисках пищи большие расстояния.</RF_Tuna.description>
+	<!-- EN: sturgeon -->
+	<RF_Sturgeon.label>осётр</RF_Sturgeon.label>
+	<!-- Ослаблен акцент на мясо.
+	EN: Sturgeon are large freshwater fish native to subtropical, temperate and sub-Arctic regions. Though not an exceptional source of meat, some sturgeon can be harvested for their roe (eggs), which can be made into caviar. -->
+	<RF_Sturgeon.description>Огромная пресноводная рыба, предпочитающая обитать на дне прохладных водоёмов. Ценится не только за размер и питательность — в осётрах иногда встречается очень вкусная чёрная икра.</RF_Sturgeon.description>
+	<!-- EN: sturgeon -->
+	<RF_SturgeonCaviar.label>осётр</RF_SturgeonCaviar.label>
+	<!-- EN: Sturgeon are large freshwater fish native to subtropical, temperate and sub-Arctic regions. Though not an exceptional source of meat, some sturgeon can be harvested for their roe (eggs), which can be made into caviar. -->
+	<RF_SturgeonCaviar.description>Огромная пресноводная рыба, предпочитающая обитать на дне прохладных водоёмов. Ценится не только за размер и питательность — в осётрах иногда встречается очень вкусная чёрная икра.</RF_SturgeonCaviar.description>
+	<!-- EN: bass -->
+	<RF_Bass.label>окунь</RF_Bass.label>
+	<!-- EN: "Bass" is a name shared by many species of fish, including both freshwater and marine species. Needs to be prepare before it can be eaten. -->
+	<RF_Bass.description>Окуневые — семейство из нескольких видов рыб, обитающих в пресных и солоноватых водоёмах. От конкретно этой рыбины можно отгрызть кусок, но лучше всё-таки её почистить, разделать и приготовить.</RF_Bass.description>
+	<!-- EN: catfish -->
+	<RF_Catfish.label>сом</RF_Catfish.label>
+	<!-- Тавтология заменена на отсылку к пословице.
+	EN: Catfish are large carnivorous freshwater fish that lives in rivers and lakes. Needs to be prepare before it can be eaten. -->
+	<RF_Catfish.description>Огромная хищная пресноводная рыба, часто водится в омутах. Можно отгрызть от неё кусок, но лучше всё-таки её почистить, разделать и приготовить.</RF_Catfish.description>
+	<!-- EN: eel -->
+	<RF_Eel.label>угорь</RF_Eel.label>
+	<!-- Подкрашено сухое описание.
+	EN: A raw eel. Needs to be prepare before it can be eaten. It seems that the skin caught from eel can also be used for something. -->
+	<RF_Eel.description>Неприхотливая рыба со змеевидным телом. Можно отгрызть от неё кусок, но лучше всё-таки её почистить, разделать и приготовить. Кожа угря — неплохой материал для одежды.</RF_Eel.description>
+	<!-- EN: jellyfish -->
+	<RF_Jellyfish.label>медуза</RF_Jellyfish.label>
+	<!-- Сглажено занудство.
+	EN: Jellyfish are cnidarians that live floating in water. Unexpected contact can cause injuries. Needs to be prepare before it can be eaten. -->
+	<RF_Jellyfish.description>Удивительное животное с куполообразным телом, обитает в толще морской воды. Неосторожное прикосновение к щупальцам может вызвать ожог. Есть медузу целиком крайне не рекомендуется, лучше её очистить и приготовить.</RF_Jellyfish.description>
+	<!-- EN: pufferfish -->
+	<RF_Pufferfish.label>рыба фугу</RF_Pufferfish.label>
+	<!-- Добавлена почему-то упущенная экспрессия.
+	EN: A pufferfish. It is very dangerous to eat raw. Needs to be prepare before it can be eaten. -->
+	<RF_Pufferfish.description>Рыба, способная накапливать яд в коже и некоторых органах. Крайне не рекомендуется есть фугу целиком. Если её правильно разделать и приготовить, получится довольно питательное блюдо.</RF_Pufferfish.description>
+	<!-- EN: sea cucumber -->
+	<RF_SeaCucumber.label>морской огурец</RF_SeaCucumber.label>
+	<!-- Требует более подробного описания из-за уникальности рецепта.
+	EN: A sea cucumber. Needs to be prepare before it can be eaten. Sea cucumber meat is a raw material for medicine. -->
+	<RF_SeaCucumber.description>Странное животное, родственник морских звёзд. Его мясо необычно на вкус, а защитные органы содержат уникальные вещества, используемые в приготовлении лекарств.</RF_SeaCucumber.description>
+	<!-- EN: squid -->
+	<RF_Squid.label>кальмар</RF_Squid.label>
+	<!-- EN: A squid. Needs to be prepare before it can be eaten. It seems that the skin caught from squid can also be used for something. -->
+	<RF_Squid.description>Сырой кальмар. Можно отгрызть от него кусок, но лучше всё-таки разделать и приготовить. Кожа кальмара — хороший материал для одежды.</RF_Squid.description>
+	<!-- EN: octopus -->
+	<RF_Octopus.label>осьминог</RF_Octopus.label>
+	<!-- Удалён спойлер.
+	EN: A raw octopus. Octopus are mollusk that mainly inhabits reefs and sands, sometimes in shellfush trap. Needs to be prepare before it can be eaten. -->
+	<RF_Octopus.description>Головоногий моллюск, обычно обитающий на морском дне. Можно съесть сырым, но лучше всё-таки разделать и приготовить.</RF_Octopus.description>
+	<!-- EN: lobster -->
+	<RF_Lobster.label>омар</RF_Lobster.label>
+	<!-- На картинке изображён не похожий на креветку лангуст, а омар с клешнями.
+	Вроде согласно коду должен быть баф, но это возможно реализовано в другом моде от Si-Cafe. Любители суши пусть подскажут.
+	EN: A raw lobster. It looks like a giant shrimp, but it's actually a big shrimp. Needs to be prepare before it can be eaten. -->
+	<RF_Lobster.description>Большой морской рак. Можно разбить ему панцирь и съесть сырое мясо, но лучше всё-таки разделать и приготовить. Деликатес.</RF_Lobster.description>
+	<!-- EN: crabs -->
+	<RF_Crab.label>крабы</RF_Crab.label>
+	<!-- EN: Raw small edible crabs. Needs to be prepare before it can be eaten. -->
+	<RF_Crab.description>Мелкие крабы. Можно разбить им панцири и съесть сырое мясо, но лучше всё-таки разделать и приготовить. Деликатес.</RF_Crab.description>
+	<!-- Технически это ракообразное, но не будем занудствовать. Оценим работу художника и привяжем описания к внешнему виду.
+	EN: king crab -->
+	<RF_Kingcrab.label>королевский краб</RF_Kingcrab.label>
+	<!-- EN: Raw big edible crabs. Needs to be prepare before it can be eaten. -->
+	<RF_Kingcrab.description>Гигантский обитатель морского дна. Можно разбить ему панцирь и съесть сырое мясо, но лучше всё-таки разделать и приготовить. Деликатес.</RF_Kingcrab.description>
+	<!-- EN: crayfish -->
+	<RF_Crayfish.label>рак</RF_Crayfish.label>
+	<!-- EN: A crayfish. Needs to be prepare before it can be eaten. Dismantling the crayfish will catch the shrimp meat. -->
+	<RF_Crayfish.description>Донный обитатель рек. Можно съесть сырым, просто разломав панцирь, но лучше всё-таки разделать и приготовить.</RF_Crayfish.description>
+	<!-- EN: snails -->
+	<RF_Snail.label>улитки</RF_Snail.label>
+	<!-- Добавлен намёк, что дебафа нет.
+	EN: Raw snails. Needs to be prepare before it can be eaten. After all, it would still be a snail. -->
+	<RF_Snail.description>Брюхоногие моллюски. Можно разбить им панцири и съесть сырое мясо, но лучше всё-таки разделать и приготовить. Хотя всё равно на вкус это будет та же улитка — ни рыба ни мясо.</RF_Snail.description>
+	<!-- EN: shrimps -->
+	<RF_Shrimp.label>креветки</RF_Shrimp.label>
+	<!-- EN: Raw shrimps. Needs to be prepare before it can be eaten. -->
+	<RF_Shrimp.description>Морские ракообразные. Можно съесть их сырыми, просто разломав панцири, но лучше всё-таки разделать и приготовить.</RF_Shrimp.description>
+	<!-- EN: mussels -->
+	<RF_Mussel.label>мидии</RF_Mussel.label>
+	<!-- EN: Raw mussels. Needs to be prepare before it can be eaten. -->
+	<RF_Mussel.description>Двустворчатые моллюски. Можно съесть их сырыми, просто разломав, но лучше всё-таки разделать и приготовить.</RF_Mussel.description>
+	<!-- EN: scallops -->
+	<RF_Scallops.label>морские гребешки</RF_Scallops.label>
+	<!-- EN: Raw scallops. Needs to be prepare before it can be eaten. -->
+	<RF_Scallops.description>Морские моллюски, умеющие плавать, резко смыкая створки. Можно съесть сырыми, просто разломав, но лучше всё-таки разделать и приготовить.</RF_Scallops.description>
+	<!-- EN: clownfish -->
+	<RF_Clownfish.label>рыба-клоун</RF_Clownfish.label>
+	<!-- EN: A raw clownfish. Needs to be prepare before it can be eaten. -->
+	<RF_Clownfish.description>Сырая рыба. Можно отгрызть от неё кусок, но лучше всё-таки её почистить, разделать и приготовить.</RF_Clownfish.description>
+	<!-- EN: anchovies -->
+	<RF_Anchovies.label>анчоусы</RF_Anchovies.label>
+	<!-- EN: Raw anchovies. Small fish generically called anchovies. Needs to be prepare before it can be eaten. -->
+	<RF_Anchovies.description>Мелкая сырая рыба. Можно отгрызть от неё кусок, но лучше всё-таки её почистить, разделать и приготовить.</RF_Anchovies.description>
+	<!-- EN: sardines -->
+	<RF_Sardines.label>сардины</RF_Sardines.label>
+	<!-- EN: Raw sardines. Sardines are saltwater fish that act in groups. The total length of adult fish is about 10-30cm. Needs to be prepare before it can be eaten. -->
+	<RF_Sardines.description>Мелкая морская рыба. Можно отгрызть от неё кусок, но лучше всё-таки её почистить, разделать и приготовить.</RF_Sardines.description>
+	<!-- EN: grilled fish -->
+	<GrilledTinyFish.label>жареная рыбёшка</GrilledTinyFish.label>
+	<!-- EN: A simple grilled from tiny fish. Tastes bland, but not offensive. It lasts a little time without refrigeration. Great for traveling or suvival. -->
+	<GrilledTinyFish.description>Рыбий малёк, зажаренный целиком. Вкус пресный, но не противный. Относительно долго хранится без охлаждения, хорошо подходит для путешествий.</GrilledTinyFish.description>
+	<!-- Чтобы не путаться во многозначных понятиях рыбы и мяса, все очищенные водные обитатели названы единообразно.
+	EN: fish meat -->
+	<RawFishMeat.label>рыбное филе</RawFishMeat.label>
+	<!-- EN: Raw fish meat. Could be eaten "as is," but would probably be better cooked. -->
+	<RawFishMeat.description>Очищенное филе рыбы. Может быть приготовлено или съедено в сыром виде.</RawFishMeat.description>
+	<!-- EN: salmon meat -->
+	<RawSalmonMeat.label>филе лосося</RawSalmonMeat.label>
+	<!-- EN: Raw salmon meat. Could be eaten "as is," but would probably be better cooked. -->
+	<RawSalmonMeat.description>Очищенное филе красной рыбы. Может быть приготовлено или съедено в сыром виде.</RawSalmonMeat.description>
+	<!-- EN: tuna meat -->
+	<RawTunaMeat.label>филе тунца</RawTunaMeat.label>
+	<!-- EN: Raw tuna meat. Could be eaten "as is," but would probably be better cooked. -->
+	<RawTunaMeat.description>Очищенное филе тунца. Может быть приготовлено или съедено в сыром виде.</RawTunaMeat.description>
+	<!-- EN: squid meat -->
+	<RawSquidMeat.label>очищенный кальмар</RawSquidMeat.label>
+	<!-- EN: Raw squid meat. Could be eaten "as is," but would probably be better cooked. -->
+	<RawSquidMeat.description>Очищенное филе кальмара. Может быть приготовлено или съедено в сыром виде.</RawSquidMeat.description>
+	<!-- EN: octopus meat -->
+	<RawOctopusMeat.label>щупальца осьминога</RawOctopusMeat.label>
+	<!-- EN: Raw octopus meat. Could be eaten "as is," but would probably be better cooked. -->
+	<RawOctopusMeat.description>Очищенные щупальца осьминога. Могут быть приготовлены или съедены в сыром виде.</RawOctopusMeat.description>
+	<!-- EN: eel meat -->
+	<RawEelMeat.label>филе угря</RawEelMeat.label>
+	<!-- EN: Raw eel meat. Could be eaten "as is," but would probably be better cooked. -->
+	<RawEelMeat.description>Очищенное филе угря. Может быть приготовлено или съедено в сыром виде.</RawEelMeat.description>
+	<!-- EN: jellyfish meat -->
+	<JellyfishMeat.label>филе медузы</JellyfishMeat.label>
+	<!-- EN: Raw jellyfish meat. Could be eaten "as is," but would probably be better cooked. -->
+	<JellyfishMeat.description>Очищенное филе медузы. Может быть приготовлено или съедено в сыром виде.</JellyfishMeat.description>
+	<!-- EN: pufferfish meat -->
+	<PufferfishMeat.label>филе фугу</PufferfishMeat.label>
+	<!-- Описание устарело.
+	EN: Raw pufferfish meat. Could be eaten "as is," but that's not recommended, as it can be toxic without proper preparation. -->
+	<PufferfishMeat.description>Очищенное филе рыбы фугу. Повар удалил кожу и органы, содержащие яд, и теперь оно может быть приготовлено или даже без особого риска съедено в сыром виде.</PufferfishMeat.description>
+	<!-- EN: sea cucumber meat -->
+	<SeaCucumberMeat.label>филе морского огурца</SeaCucumberMeat.label>
+	<!-- Рецепт исправлен, см.патч.
+	EN: Raw sea cucumber meat. Could be eaten, but would probably be better utilized to produce medicine. -->
+	<SeaCucumberMeat.description>Очищенное филе морского огурца. Может быть приготовлено или съедено в сыром виде.</SeaCucumberMeat.description>
+	<!-- EN: crab meat -->
+	<RawCrabMeat.label>филе краба</RawCrabMeat.label>
+	<!-- Даёт баф.
+	EN: Raw crab meat. Can eat it raw or use for cook. -->
+	<RawCrabMeat.description>Очищенное филе крабов. Деликатес, может быть приготовлено или съедено в сыром виде.</RawCrabMeat.description>
+	<!-- EN: shellfish meat -->
+	<RawShellfishMeat.label>филе моллюска</RawShellfishMeat.label>
+	<!-- EN: Raw shellfish meat. Could be eaten "as is," but would probably be better cooked. -->
+	<RawShellfishMeat.description>Очищенное филе моллюска. Может быть приготовлено или съедено в сыром виде.</RawShellfishMeat.description>
+	<!-- EN: shrimp meat -->
+	<RawShrimpMeat.label>филе ракообразных</RawShrimpMeat.label>
+	<!-- EN: Raw shrimp meat. Could be eaten "as is," but would probably be better cooked. -->
+	<RawShrimpMeat.description>Очищенное филе ракообразных. Может быть приготовлено или съедено в сыром виде.</RawShrimpMeat.description>
+	<!-- EN: caviar -->
+	<Caviar.label>чёрная икра</Caviar.label>
+	<!-- Заодно исправлена неточность, сообщите разработчику.
+	EN: A delicacy consisting of salt-cured fish eggs. -->
+	<Caviar.description>Деликатес, сделанный из засоленной икры осетровых. Может быть съеден в этом виде или использован в качестве ингредиента для праздничных блюд.</Caviar.description>
+	<!-- EN: salmon roe -->
+	<SalmonRoe.label>красная икра</SalmonRoe.label>
+	<!-- Сглажена ссылка на необязательный суши-мод.
+	EN: Salmon roe caught from salmon. It can be used as an ingredient in cooking, and it is delicious to eat as it is, but it's best made into sushi. -->
+	<SalmonRoe.description>Деликатес, изготовленный из засоленной икры лососевых. Может быть съеден в этом виде или использован в качестве ингредиента для праздничных блюд.</SalmonRoe.description>
+	<!-- EN: squid leather -->
+	<SquidLeather.label>кожа кальмара</SquidLeather.label>
+	<!-- Переведено в стиле ванили.
+	EN: Leather, of sorts, made from the hide of a squid. -->
+	<SquidLeather.description>Дублёная, высушенная, очищенная кожа кальмара. Прочный и красивый материал для одежды.</SquidLeather.description>
+	<!-- EN: eel leather -->
+	<EelLeather.label>кожа угря</EelLeather.label>
+	<!-- Переведено в стиле ванили.
+	EN: Leather, of sorts, made from the skin of an eel. -->
+	<EelLeather.description>Дублёная, высушенная, очищенная кожа угря. Относительно прочный материал для одежды и мебели. Ценится за привлекательный внешний вид.</EelLeather.description>
+	<!-- EN: canned seafood -->
+	<RF_CannedSeafood.label>рыбные консервы</RF_CannedSeafood.label>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Не надо приучать детей есть просроченные консервы.
+	Переведено в стиле мода VEcooking.
+	EN: Fish vacuum sealed and secured in a steel can effectively extending shelf life indefinitely. While edible cold right out of the can it's far more nourishing mixed into a meal and heated. Consuming too many canned goods might cause an increase in blood pressure. -->
+	<RF_CannedSeafood.description>Консервирование в банки продлевает срок годности еды на много лет. Продукт можно съесть, даже не разогревая, либо использовать в качестве ингредиента для других блюд. Потребление слишком большого количества консервов может вызвать повышение кровяного давления</RF_CannedSeafood.description>
+
+</LanguageData>
