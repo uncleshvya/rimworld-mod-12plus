@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлена русская локализация, сообщите разработчику.
+
+	Здесь не только рыба.
+	EN: raw fish -->
+	<CorpsesFish.label>живность из водоёмов</CorpsesFish.label>
+	<!-- Это не морепродукты. Нужно объединить мышцы рыбы, беспозвоночных и икру.
+	EN: seafood -->
+	<RF_RawSeafood.label>живность из водоёмов</RF_RawSeafood.label>
+
+</LanguageData>
