@@ -3,6 +3,7 @@
 
 	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
 
+	Все описания следует синхронизировать с папкой ThingDef.
 	Подправляем ваниль в связи с расширившейся градацией блюд.
 	Оригинал: съедено хорошее блюдо -->
 	<AteFineMeal.stages.ate_fine_meal.label>съедено отличное блюдо</AteFineMeal.stages.ate_fine_meal.label>
@@ -41,8 +42,8 @@
 	<VCE_ConsumedDigestibleResurrectorNanites.stages.0.label>потреблены воскрешающие механиты</VCE_ConsumedDigestibleResurrectorNanites.stages.0.label>
 	<!-- Оригинал: Неплохо. -->
 	<VCE_ConsumedDigestibleResurrectorNanites.stages.0.description>Во мне — ключ к вечной жизни! Держитесь, враги!</VCE_ConsumedDigestibleResurrectorNanites.stages.0.description>
-	<!-- Оригинал: съел(а) превосходное... -->
-	<VCE_AteGourmetMeal.stages.0.label>съедено превосходное блюдо</VCE_AteGourmetMeal.stages.0.label>
+	<!-- Оригинал: съел(а) превосходное блюдо -->
+	<VCE_AteGourmetMeal.stages.0.label>съедено эксклюзивное блюдо</VCE_AteGourmetMeal.stages.0.label>
 	<!-- Оригинал: съел(а) простой... -->
 	<VCE_AteSimpleDessert.stages.0.label>съеден простой десерт</VCE_AteSimpleDessert.stages.0.label>
 	<!-- Оригинал: съел(а) отличный... -->
@@ -50,7 +51,7 @@
 	<!-- Оригинал: съел(а) шикарный... -->
 	<VCE_AteLavishDessert.stages.0.label>съеден шикарный десерт</VCE_AteLavishDessert.stages.0.label>
 	<!-- Оригинал: съел(а) превосходный... -->
-	<VCE_AteGourmetDessert.stages.0.label>съеден превосходный десерт</VCE_AteGourmetDessert.stages.0.label>
+	<VCE_AteGourmetDessert.stages.0.label>съеден эксклюзивный десерт</VCE_AteGourmetDessert.stages.0.label>
 	<!-- Оригинал: съел(а) простой... -->
 	<VCE_AteSimpleGrill.stages.0.label>съеден простой гриль</VCE_AteSimpleGrill.stages.0.label>
 	<!-- Оригинал: Простой гриль. Ну такое... -->
@@ -63,8 +64,8 @@
 	<VCE_AteLavishGrill.stages.0.label>съеден шикарный гриль</VCE_AteLavishGrill.stages.0.label>
 	<!-- Оригинал: Я съел(а) невероятное блюдо с искусно приготовленным жареным мясом и овощами. Вкусно! -->
 	<VCE_AteLavishGrill.stages.0.description>Какое шикарное мясо-гриль! А овощи с ним! Просто блеск!</VCE_AteLavishGrill.stages.0.description>
-	<!-- Оригинал: съел(а) превосходный... -->
-	<VCE_AteGourmetGrill.stages.0.label>съеден превосходный гриль</VCE_AteGourmetGrill.stages.0.label>
+	<!-- Оригинал: съел(а) превосходный гриль -->
+	<VCE_AteGourmetGrill.stages.0.label>съеден эксклюзивный гриль</VCE_AteGourmetGrill.stages.0.label>
 	<!-- Оригинал: съел(а) прожаренную пищу -->
 	<VCE_AteFriedGoods.stages.0.label>съедена прожаренная пища</VCE_AteFriedGoods.stages.0.label>
 	<!-- Оригинал: Пища с корочкой. Очень... -->
