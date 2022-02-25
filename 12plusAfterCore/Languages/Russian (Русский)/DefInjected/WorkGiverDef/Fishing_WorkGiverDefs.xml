@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	EN: catch fish -->
+	<WorkGiver_CatchFish.label>удить рыбу</WorkGiver_CatchFish.label>
+	<!-- EN: fishing -->
+	<WorkGiver_CatchFish.gerund>Удить рыбу, выбрав это</WorkGiver_CatchFish.gerund>
+	<!-- EN: fish -->
+	<WorkGiver_CatchFish.verb>удить рыбу</WorkGiver_CatchFish.verb>
+
+</LanguageData>
