@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлена русская локализация, сообщите разработчику.
+
+	EN: Rainbeau's Fishing -->
+	<RBB.Fishing>Rainbeau's Fishing (обновлённый)</RBB.Fishing>
+	<!-- EN: Cannot be placed over a fishing spot -->
+	<RBB.NotOnFS>Не может быть построено над местом рыбалки</RBB.NotOnFS>
+	<!-- EN: Another fishing spot is too close (within 9 tiles) -->
+	<RBB.FSTooClose>Слишком близко к другому месту рыбалки (в радиусе менее 9 клеток)</RBB.FSTooClose>
+	<!-- EN: Must be placed with the fishing spot over water or marsh -->
+	<RBB.FishingSpot1>Располагать следует на клетке воды или болота</RBB.FishingSpot1>
+	<!-- EN: Must be placed with the fishing spot (mouse cursor) over water and the interaction spot (white circle) on land or a bridge -->
+	<RBB.FishingSpot2>Восьмиугольник следует располагать на воде или болоте, а круг — на мосту или суше</RBB.FishingSpot2>
+	<!-- EN: Must be placed on water or marsh adjacent to land or a bridge -->
+	<RBB.ShellfishTrap>Должна быть расположена на клетке воды или болота рядом с клеткой суши или моста</RBB.ShellfishTrap>
+	<!-- EN: Another shellfish trap is too close (within 6 tiles) -->
+	<RBB.TrapTooClose>Слишком близко к другой рачевне (в радиусе менее 6 клеток)</RBB.TrapTooClose>
+	<!-- EN: Fishing Tragedy! -->
+	<RBB.TragedyTitle>Опасная рыбалка!</RBB.TragedyTitle>
+	<!-- EN: (пробел) was bitten by an oddly aggressive fish. (Or perhaps it was an eel. It all happened so fast!) Medical attention may be required! -->
+	<RBB.TragedyText> страдает от укуса необычно агрессивной рыбы. Или кто это был? Всё произошло так быстро!\nМожет, позвать врача?</RBB.TragedyText>
+	<!-- EN: (пробел) was attacked by a school of piranhas! Medical attention may be required! -->
+	<RBB.TragedyPiranhaText> страдает от укусов стаи пираний!\nМожет, позвать врача?</RBB.TragedyPiranhaText>
+	<!-- EN: (пробел) was badly stung by a jellyfish! Medical attention may be required! -->
+	<RBB.TragedyJellyfishText> страдает от жгучей медузы!\nМожет, позвать врача?</RBB.TragedyJellyfishText>
+	<!-- EN: Fishing Failure -->
+	<RBB.CaughtNothingTitle>Неудачная рыбалка</RBB.CaughtNothingTitle>
+	<!-- EN: (пробел) failed to catch anything while fishing. -->
+	<RBB.CaughtNothing> ничего не ловит за целый час</RBB.CaughtNothing>
+	<!-- EN: Fishing "Success" -->
+	<RBB.SnaggedJunkTitle>«Богатый» улов</RBB.SnaggedJunkTitle>
+	<!-- EN: (пробел) snagged some trash while fishing: (пробел) -->
+	<RBB.SnaggedJunk> цепляет какой-то мусор. О, да это же </RBB.SnaggedJunk>
+	<!-- EN: Fishing Success -->
+	<RBB.FishingSuccessTitle>Удачная рыбалка</RBB.FishingSuccessTitle>
+	<!-- EN: Trapped Shellfish -->
+	<RBB.TrapSuccessTitle>Улов в рачевне</RBB.TrapSuccessTitle>
+	<!-- EN: Sunken Treasure -->
+	<RBB.SunkenTreasureTitle>Затонувшее сокровище</RBB.SunkenTreasureTitle>
+	<!-- EN: (пробел) found treasure while fishing: (пробел) -->
+	<RBB.SunkenTreasureText> находит клад под водой: </RBB.SunkenTreasureText>
+	<!-- EN: (пробел) caught an arapaima! It's huge! -->
+	<RBB.Arapaima> ловит арапайму! Такую огромную!</RBB.Arapaima>
+	<!-- EN: (пробел) caught an eel. -->
+	<RBB.Eel> ловит угря</RBB.Eel>
+	<!-- EN: (пробел) caught a fish. -->
+	<RBB.Fish> ловит какую-то рыбину</RBB.Fish>
+	<!-- EN: (пробел) caught a jellyfish, fortunately without being stung! -->
+	<RBB.Jellyfish> аккуратно ловит скользкую медузу, и даже не ужалившись о щупальца!</RBB.Jellyfish>
+	<!-- EN: (пробел) caught a piranha. -->
+	<RBB.Piranha> ловит пиранью</RBB.Piranha>
+	<!-- EN: (пробел) caught a pufferfish! -->
+	<RBB.Pufferfish> ловит рыбу фугу!</RBB.Pufferfish>
+	<!-- EN: (пробел) caught a salmon. -->
+	<RBB.Salmon> ловит лосося</RBB.Salmon>
+	<!-- EN: (пробел) caught a sea cucumber.... -->
+	<RBB.SeaCucumber> ловит морского огурца...</RBB.SeaCucumber>
+	<!-- Потерянная экспрессия заменена на отсылку к прочности кожи кальмара.
+	EN: (пробел) managed to catch a squid! -->
+	<RBB.Squid> ловит крупного кальмара!</RBB.Squid>
+	<!-- Добавлено противопоставление мальку.
+	EN: (пробел) caught a sturgeon! Maybe you'll be eating caviar soon? -->
+	<RBB.Sturgeon> ловит взрослого осетра! Может, сегодня на ужин будет чёрная икра?</RBB.Sturgeon>
+	<!-- EN: (пробел) caught a tiny fish. Better than nothing.... -->
+	<RBB.TinyFish> ловит малька́. Это лучше, чем ничего...</RBB.TinyFish>
+	<!-- EN: (пробел) caught a bass. -->
+	<RBB.Bass> ловит окуня</RBB.Bass>
+	<!-- EN: (пробел) caught a catfish. -->
+	<RBB.Catfish> ловит сома</RBB.Catfish>
+	<!-- Добавлена отсылку к м/ф "Ловись рыбка".
+	EN: (пробел) caught a tuna, Big! -->
+	<RBB.Tuna> ловит тунца. Большая рыбка!</RBB.Tuna>
+	<!-- EN: (пробел) caught an octopus. -->
+	<RBB.Octopus> ловит осьминога</RBB.Octopus>
+	<!-- EN: (пробел) caught a clownfish. -->
+	<RBB.Clownfish> ловит рыбу-клоуна</RBB.Clownfish>
+	<!-- EN: (пробел) caught anchovies. -->
+	<RBB.Anchovies> ловит несколько анчоусов</RBB.Anchovies>
+	<!-- EN: (пробел) caught sardines. -->
+	<RBB.Sardines> ловит несколько сардин</RBB.Sardines>
+	<!-- EN: (пробел) caught a king crab. -->
+	<RBB.Kingcrab> ловит гигантского краба</RBB.Kingcrab>
+	<!-- EN: (пробел) caught a crayfish. -->
+	<RBB.Crayfish> ловит рака</RBB.Crayfish>
+	<!-- Для рачевен выставлены восклицательные знаки только той еде, которая приносит баф.
+	EN: A shellfish trap caught an octopus! -->
+	<RBB.TrapOctopus>В рачевню заполз осьминог</RBB.TrapOctopus>
+	<!-- EN: A shellfish trap caught mussels! -->
+	<RBB.TrapMussel>В рачевню занесло несколько мидий!</RBB.TrapMussel>
+	<!-- EN: A shellfish trap caught a clownfish! -->
+	<RBB.TrapClownfish>В рачевню заплыла рыба-клоун!</RBB.TrapClownfish>
+	<!-- EN: A shellfish trap caught scallops! -->
+	<RBB.TrapScallops>В рачевню заплыли морские гребешки!</RBB.TrapScallops>
+	<!-- EN: A shellfish trap caught anchovies! -->
+	<RBB.TrapAnchovies>В рачевню заплыли анчоусы!</RBB.TrapAnchovies>
+	<!-- EN: A shellfish trap caught a lobster! -->
+	<RBB.TrapLobster>В рачевню заполз омар!</RBB.TrapLobster>
+	<!-- EN: A shellfish trap caught crabs. -->
+	<RBB.TrapCrab>В рачевню заползли крабы!</RBB.TrapCrab>
+	<!-- EN: A shellfish trap caught shrimps. -->
+	<RBB.TrapShrimp>В рачевню заползли креветки!</RBB.TrapShrimp>
+	<!-- EN: A shellfish trap caught a tiny fish. -->
+	<RBB.TrapFish>В рачевню заплыла рыбья мелочь</RBB.TrapFish>
+	<!-- Тавтология закрашена экспрессией.
+	EN: A shellfish trap caught a crayfish. -->
+	<RBB.TrapCrayfish>В рачевню неожиданно заполз рак!</RBB.TrapCrayfish>
+	<!-- EN: A shellfish trap caught snails. -->
+	<RBB.TrapSnail>В рачевню заползли улитки!</RBB.TrapSnail>
+	<!-- EN: A shellfish trap has been damaged beyond repair. -->
+	<RBB.TrapDestroyed>Рачевня нуждается в ремонте</RBB.TrapDestroyed>
+	<!-- EN: Fishing Efficiency -->
+	<RBB.Efficiency>		Нижеследующие настройки влияют на баланс игры</RBB.Efficiency>
+	<!-- EN: Pawn Fishing Efficiency: -->
+	<RBB.FishingEfficiency>Продуктивность рыбалки:</RBB.FishingEfficiency>
+	<!-- EN: Lower this setting if you feel your pawns are providing too many fish; increase it if you feel they -->
+	<RBB.FishingEfficiencyTip>Измените значение, если рыбалка приносит чересчур большой улов или, наоборот, невероятно малый</RBB.FishingEfficiencyTip>
+	<!-- EN: Shellfish Trap Efficiency: -->
+	<RBB.TrapEfficiency>Эффективность ловушек:</RBB.TrapEfficiency>
+	<!-- EN: Lower this setting if you feel your traps are yielding too much; increase it if you feel they -->
+	<RBB.TrapEfficiencyTip>Измените значение, если в рачевни приносят чересчур большой улов или, наоборот, невероятно малый</RBB.TrapEfficiencyTip>
+	<!-- EN: Notification Type -->
+	<RBB.NotificationType>Тип уведомлений</RBB.NotificationType>
+	<!-- EN: Fishing Failures: -->
+	<RBB.failureLevel>Происшествия на рыбалке:</RBB.failureLevel>
+	<!-- EN: "Junk" Catches: -->
+	<RBB.junkLevel>Попавшийся мусор:</RBB.junkLevel>
+	<!-- EN: Fishing Successes: -->
+	<RBB.successLevel>Удачная рыбалка:</RBB.successLevel>
+	<!-- EN: Shellfish Trap Successes: -->
+	<RBB.trapsuccessLevel>Улов в рачевне:</RBB.trapsuccessLevel>
+	<!-- EN: Sunken Treasure: -->
+	<RBB.treasureLevel>Затонувшее сокровище:</RBB.treasureLevel>
+	<!-- EN: No notification. -->
+	<RBB.NoticeNone>Без уведомлений</RBB.NoticeNone>
+	<!-- EN: Simple text notification; no sound. -->
+	<RBB.NoticeSilent>Простое текстовое уведомление без звука</RBB.NoticeSilent>
+	<!-- EN: Simple text notification with an alert "ding." -->
+	<RBB.NoticeDing>Текст и звук</RBB.NoticeDing>
+	<!-- EN: An event box which must be dismissed. -->
+	<RBB.NoticeBox>Письмо</RBB.NoticeBox>
+	<!-- EN: Fishing Pawns Haul Their Own Catches to Storage. -->
+	<RBB.FishersHaul>Рыбаки сами относят улов</RBB.FishersHaul>
+	<!-- EN: If this is checked, fishing pawns will stop every time they catch something and haul it to a nearby storage area. This will make fishing less efficient, but will prevent other pawns from being interrupted from their own tasks to haul fish instead. -->
+	<RBB.FishersHaulTip>Должны ли рыбаки сразу нести пойманную рыбу на подходящий склад?</RBB.FishersHaulTip>
+
+</LanguageData>
