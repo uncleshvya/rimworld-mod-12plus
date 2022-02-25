@@ -16,7 +16,8 @@
 				<xpath>Defs/RecipeDef[defName = "IF_MedTable"]/workSkillLearnFactor/text()</xpath>
 				<value>48</value>
 			</li>
-			<!-- Добавляем необходимость исследования мебели -->
+			<!-- Добавляем необходимость исследования мебели.
+			Ко всему прочему, увеличивается ценность этого исследования на начальном этапе игры за племя -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "IF_MeditrainTable"]</xpath>
 				<value>
