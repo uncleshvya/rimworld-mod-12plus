@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлена русская локализация, сообщите разработчику.
+
+	EN: ate caviar -->
+	<RF_AteCaviar.stages.ate_caviar.label>съедена чёрная икра</RF_AteCaviar.stages.ate_caviar.label>
+	<!-- EN: I ate some caviar. Hmm, luxury! -->
+	<RF_AteCaviar.stages.ate_caviar.description>Я {PAWN_gender ? отведал : отведал} чёрной икры. Королевская еда!</RF_AteCaviar.stages.ate_caviar.description>
+	<!-- EN: ate crab meat -->
+	<RF_AteRawCrabMeat.stages.ate_crab_meat.label>съедено крабовое мясо</RF_AteRawCrabMeat.stages.ate_crab_meat.label>
+	<!-- EN: I ate raw crab meat. Decent deliciousness. -->
+	<RF_AteRawCrabMeat.stages.ate_crab_meat.description>Я {PAWN_gender ? поел : поел} настоящего крабового мяса. Изысканная нежность!</RF_AteRawCrabMeat.stages.ate_crab_meat.description>
+	<!-- EN: ate salmon roe -->
+	<RF_AteSalmonRoe.stages.ate_salmon_roe.label>съедена красная икра</RF_AteSalmonRoe.stages.ate_salmon_roe.label>
+	<!-- EN: I ate salmon roe. Surprisingly delicious! -->
+	<RF_AteSalmonRoe.stages.ate_salmon_roe.description>Я {PAWN_gender ? отведал : отведал} красной икры. Восхитительный вкус!</RF_AteSalmonRoe.stages.ate_salmon_roe.description>
+	<!-- EN: tasted the taste of the sea -->
+	<RF_AteRawSeaFood.stages.tasted_the_taste_of_the_sea.label>вкус моря</RF_AteRawSeaFood.stages.tasted_the_taste_of_the_sea.label>
+	<!-- Техническая некорректность закрашена экспрессией.
+	EN: I tasted fresh seafood. I feel the smell of the sea! -->
+	<RF_AteRawSeaFood.stages.tasted_the_taste_of_the_sea.description>Вот это была еда! Я как будто {PAWN_gender ? плыл : плыла} на корабле и {PAWN_gender ? ел : ела} свежевыловленные морепродукты!</RF_AteRawSeaFood.stages.tasted_the_taste_of_the_sea.description>
+
+</LanguageData>
