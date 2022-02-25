@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлена русская локализация, сообщите разработчику.
+
+	EN: angler -->
+	<RF_Visitor_Fishmonger.label>рыбак</RF_Visitor_Fishmonger.label>
+	<!-- EN: fishmonger -->
+	<RF_Caravan_Fishmonger.label>рыбник</RF_Caravan_Fishmonger.label>
+
+</LanguageData>	
