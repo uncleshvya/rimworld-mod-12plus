@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлена русская локализация, сообщите разработчику.
+
+	EN: cook grilled fish -->
+	<CookMealGrilledFish.label>поджарить рыбёшку</CookMealGrilledFish.label>
+	<!-- Добавлено обоснование рецепта.
+	EN: Grilled small fish. -->
+	<CookMealGrilledFish.description>Зажарить малька́. Целиком, что там чистить-то?</CookMealGrilledFish.description>
+	<!-- EN: Grilled fish. -->
+	<CookMealGrilledFish.jobString>жарит рыбёшку</CookMealGrilledFish.jobString>
+	<!-- EN: cook grilled fish x4 -->
+	<CookMealGrilledFishBulk.label>поджарить 4 рыбёшки</CookMealGrilledFishBulk.label>
+	<!-- EN: Grilled 4 small fish. -->
+	<CookMealGrilledFishBulk.description>Зажарить четверых мальков за раз. Целиком, что там чистить-то?</CookMealGrilledFishBulk.description>
+	<!-- EN: Grilled 4 fish. -->
+	<CookMealGrilledFishBulk.jobString>жарит 4 рыбёшки</CookMealGrilledFishBulk.jobString>
+	<!-- Адаптировано к русскому языку.
+	EN: make herbal medicine from cucumber meats -->
+	<MakeCucumberMed.label>сделать лекарства из морского огурца</MakeCucumberMed.label>
+	<!-- Следует учитывать, на каких верстаках выполняется рецепт.
+	EN: Make herbal medicine from sea cucumber meats. -->
+	<MakeCucumberMed.description>Пропитать простую траву и водоросли токсинами голотурий, чтобы использовать для перевязки и в качестве обезболивающего, противомикробного средства.</MakeCucumberMed.description>
+	<!-- Рецепт исправлен, см.патч.
+	EN: Making sea cucumber meat herbal medicine. -->
+	<MakeCucumberMed.jobString>делает лекарства из морского огурца</MakeCucumberMed.jobString>
+	<!-- EN: deep fry fish x40 -->
+	<RF_DeepFryFish.label>приготовить рыбу во фритюре x40</RF_DeepFryFish.label>
+	<!-- Описание следует синхронизировать с подобным из мода VE cooking.
+	EN: Deep fry fish. Deep fried food is very tasty, but not very good for your health. It is just right to fry a fish of normal size. When frying other fish, nutrition may be wasted. -->
+	<RF_DeepFryFish.description>Зажарить рыбу, целиком погрузив её в сильно разогретое масло. Получится хрустящее, нездоровое, но зато очень вкусное блюдо. Использование слишком крупных рыб может привести к перерасходу продуктов.</RF_DeepFryFish.description>
+	<!-- EN: Deep frying fish. -->
+	<RF_DeepFryFish.jobString>готовит рыбу во фритюре x40</RF_DeepFryFish.jobString>
+	<!-- Следует учитывать возможные ингредиенты.
+	EN: can fish x20 -->
+	<RF_CanSeafood.label>приготовить рыбные консервы x20</RF_CanSeafood.label>
+	<!-- EN: Canning fish. -->
+	<RF_CanSeafood.jobString>готовит рыбные консервы</RF_CanSeafood.jobString>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Не надо приучать детей есть просроченные консервы.
+	EN: Safely store seafood in a steel can. Canning food extends its shelf life almost indefinitely. -->
+	<RF_CanSeafood.description>Законсервировать филе рыбы, икру или беспозвоночных в жестяные банки. Это продлит срок годности еды на много лет.</RF_CanSeafood.description>
+
+</LanguageData>
