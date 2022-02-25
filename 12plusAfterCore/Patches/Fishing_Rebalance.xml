@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation MayRequire="RainbeausFishing.ReworkMod" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<!-- Исправлен баланс, сообщите разработчику.
+
+			Возвращено влияние изношенности на цену рыбы. Зачем автор убрал это? -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name = "RBB_FishBase"]/healthAffectsPrice/text()</xpath>
+				<value>true</value>
+			</li>
+			<!-- Исправляем рецепт, т.к. голотурин содержится не в мясе, а в несъедобных органах.
+			В случае отмены патча, в описании мяса добавить фразу "Но лучше использовать его как сырьё для лекарств". -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "MakeCucumberMed"]/ingredients/li[1]/filter/thingDefs/li[1]/text()</xpath>
+				<value>RF_SeaCucumber</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "MakeCucumberMed"]/ingredients/li[1]/count/text()</xpath>
+				<value>1</value>
+			</li>
+			<!-- Один же ингредиент. Лишняя переменная, вместо неё добавляем картинку -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "MakeCucumberMed"]/fixedIngredientFilter</xpath>
+				<value>
+					<uiIconThing>MedicineHerbal</uiIconThing>
+					<!-- Как добавить значок "i" в уже активный рецепт? В ванили это сделано в обход xml -->
+				</value>
+			</li>
+			<!-- Не по-хозяйски это - мясо выбрасывать.
+			После этого патча повышается мотивация прокачаться до этого рецепта.
+			Также добавляется намёк, почему нет рецепта на пачку лекарств -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName = "MakeCucumberMed"]/products</xpath>
+				<value>
+					<SeaCucumberMeat>20</SeaCucumberMeat>
+				</value>
+			</li>
+			<!-- Далее - наработки кода для аддона "Суши и морепродукты". Вероятно, именно в нём реализованы бафы на съеденный морепродукт.
+			Пробовал я улитку - ничего особенного. Надо убрать баф, тогда функционал будет соответствовать описанию животного.
+			Иначе, сделать для аддона отдельный перевод, и там заменить фразу "Хотя всё равно на вкус это будет та же улитка" на слово "Деликатес". Аналогично добавить пометку для остальных морепродуктов с бафом. -->
+			<!--
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "RF_Snail"]/ingestible</xpath>
+			</li>
+			-->
+
+		</operations>
+	</Operation>
+</Patch>
