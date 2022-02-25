@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлена русская локализация, сообщите разработчику.
+
+	Адаптировано под контекст.
+	EN: fishable -->
+	<Fishable.label>можно рыбачить</Fishable.label>
+	<!-- EN: icefishable -->
+	<IceFishable.label>можно рыбачить зимой</IceFishable.label>
+
+</LanguageData>
