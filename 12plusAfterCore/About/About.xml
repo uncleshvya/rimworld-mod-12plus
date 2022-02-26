@@ -166,6 +166,11 @@ Ideas to realize in next version:
 			<displayName>Rim of Madness - Bones</displayName>
 			<steamWorkshopUrl>steam://url/CommunityFilePage/1180573408</steamWorkshopUrl>
 		</li>
+		<li>
+			<packageId>JGH.training</packageId>
+			<displayName>Misc. Training retexture</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2727678248</steamWorkshopUrl>
+		</li>
 	</modDependencies>
 	<loadBefore>
 		<li>UncleShvya.ExpandedRoofingRusFix</li>
@@ -180,8 +185,6 @@ Ideas to realize in next version:
 		<li>Haplo.Miscellaneous.Core</li>
 		<li>UncleShvya.MiscCoreRus</li>
 		<li>Haplo.Miscellaneous.BeesNHoney</li>
-		<li>Haplo.Miscellaneous.Training</li>
-		<li>UncleShvya.MiscTrainingRus</li>
 		<li>Porohkun.ConcreteWalls</li>
 		<li>Am.Rus.ConcreteWalls</li>
 		<li>Dubwise.DubsBadHygiene</li>
