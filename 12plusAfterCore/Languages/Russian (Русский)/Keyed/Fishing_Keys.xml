@@ -26,7 +26,7 @@
 	<!-- EN: (пробел) was badly stung by a jellyfish! Medical attention may be required! -->
 	<RBB.TragedyJellyfishText> страдает от жгучей медузы!\nМожет, позвать врача?</RBB.TragedyJellyfishText>
 	<!-- EN: Fishing Failure -->
-	<RBB.CaughtNothingTitle>Неудачная рыбалка</RBB.CaughtNothingTitle>
+	<RBB.CaughtNothingTitle>Ничего не поймано</RBB.CaughtNothingTitle>
 	<!-- EN: (пробел) failed to catch anything while fishing. -->
 	<RBB.CaughtNothing> ничего не ловит за целый час</RBB.CaughtNothing>
 	<!-- EN: Fishing "Success" -->
