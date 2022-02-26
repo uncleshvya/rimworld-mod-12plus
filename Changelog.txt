@@ -2,9 +2,7 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2022-02-24 добавлена адаптация и русская локализация для серии модов Fishing. Поддержка устаревших версий от Rainbeau, Mlie и kr33man остановлена до востребования, в пользу самой свежей версии - Fishing ReWork. По желанию, доступно исправление кривоватого баланса:
-- возвращено влияние изношенности на цену рыбы. Зачем автор убрал это?;
-- исправлен рецепт для морского огурца, т.к. голотурин содержится не в мясе, а в несъедобных органах.
+2022-02-26 начата работа над адаптацией мода Misc.Training от Haplo - мишени нужно увеличить. Но был обнаружен гораздо более красивый мод текстур Misc. Training retexture [JGH]. Сделана зависимость от него.
 Идёт работа по исправлению трудноуловимого бага - иногда не загружается карта квестов с сайтами, типа "лагерь лесорубов" или "деревня сектантов". Ведётся отсев модов; список уже проверенных - в файле ModsConfig.xml в корне репозитория.
 Для тех, кто не хочет ждать и не использует внешние квесты, сохранена версия 12+мода с поддержкой большего количества модов в файле Bugged096prDomosed.zip.
 Скомпилирована версия 12+мода 0.9.92pre-release.
@@ -33,7 +31,6 @@ For English, scroll down.
 "MechalitEquipmentFaction_";
 "MedicalTraining_";
 "MendAndRecycle_";
-"MiscTraining_";
 "MoreVanillaTurrets_";
 "Numbers_";
 "OrassansLite_";
@@ -69,6 +66,10 @@ For English, scroll down.
 "VGPmedicine_";
 "VGPtools_";
 "ZiTools_".
+
+2022-02-24 добавлена адаптация и русская локализация для серии модов Fishing. Поддержка устаревших версий от Rainbeau, Mlie и kr33man остановлена до востребования, в пользу самой свежей версии - Fishing ReWork. По желанию, доступно исправление кривоватого баланса:
+- возвращено влияние изношенности на цену рыбы. Зачем автор убрал это?;
+- исправлен рецепт для морского огурца, т.к. голотурин содержится не в мясе, а в несъедобных органах.
 
 2022-02-20 добавлена адаптация и русская локализация для мода Medical Training. Убрана разделка гниющих трупов. По желанию, доступно исправление кривоватого баланса:
 - звук изменён на такой же, как при ванильной операции;
@@ -202,8 +203,6 @@ For English, scroll down.
 
 2021-02-19 обнаружена фундаментальная ошибка во всех генераторах текста. Пока не найден параметр xpath для LanguageData, поэтому мод разделён на 2 папки. Идёт тестирование скрипта разговоров по употреблению слов из txt файлов.
 
-2021-02-17 добавлена адаптация для мода Misc.Training от Haplo - мишени увеличены.
-
 2021-02-16 добавлена адаптация для мода Misc.BeesNhoney от Haplo, заодно исправлены его ошибки, см.каменты в коде. Удалена излишняя реклама алкоголизма.
 
 2021-02-06 концепция "12+" адаптирована к международным стандартам.
@@ -246,9 +245,7 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2022-feb-24 RainbeausFishing.ReworkMod mod adaptation and Russian translation added. Support for obsolete firefoxpdm.RainbeausFishing is stopped until asked. Optional balance change available:
-- restored deterioration influence for fish price. Why did Si-Cafe removed it?;
-- corrected sea cucumber recipe. The useful toxine is not in the meat but in inedible organs.
+2022-feb-26 Haplo.Miscellaneous.Training mod adaptation work started - targets should be enlarged. But suddenly JGH.training mod detected, with much more pretty textures. Just added mod dependence.
 Bugfix work is in process: there is a problem with site quests - sometimes the game can't load map. Adapted mods are testing one by one; the whitelist is in "ModsConfig.xml" file.
 For those who can't wait and doesn't like external quests, there is a backup file Bugged096prDomosed.zip in the repository.
 UncleShvya.12plus mod v.0.9.92pre-release compiled.
@@ -277,7 +274,6 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "MechalitEquipmentFaction_";
 "MedicalTraining_";
 "MendAndRecycle_";
-"MiscTraining_";
 "MoreVanillaTurrets_";
 "Numbers_";
 "OrassansLite_";
@@ -313,6 +309,10 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "VGPmedicine_";
 "VGPtools_";
 "ZiTools_".
+
+2022-feb-24 RainbeausFishing.ReworkMod mod adaptation and Russian translation added. Support for obsolete firefoxpdm.RainbeausFishing is stopped until asked. Optional balance change available:
+- restored deterioration influence for fish price. Why did Si-Cafe removed it?;
+- corrected sea cucumber recipe. The useful toxine is not in the meat but in inedible organs.
 
 2022-feb-20 itchyflea.medicaltraining mod adaptation and Russian translation added. Removed rotten corpses' autopsy. Optional balance change available:
 - autopsy action sound changed into vanilla surgery one;
@@ -445,8 +445,6 @@ Had to rebalance the most rebarbative developers' mistake - now sentry gun needs
 2021-feb-20 Porohkun.ConcreteWalls mod adaptation added.
 
 2021-feb-19 general error detected for all text generators. While there's no information about "xpath" for "LanguageData", solution is to divide 12plus mod into 2 submods. Interaction script is testing, about words from txt files.
-
-2021-feb-17 Haplo.Miscellaneous.Training mod adaptation added. Targets enlarged.
 
 2021-feb-16 Haplo.Miscellaneous.BeesNHoney mod adaptation added. Also corrected its mistakes, see code comments. Removed superfluous ads about alcoholism.
 
