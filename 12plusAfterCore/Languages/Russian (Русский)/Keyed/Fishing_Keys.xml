@@ -5,6 +5,66 @@
 
 	EN: Rainbeau's Fishing -->
 	<RBB.Fishing>Rainbeau's Fishing (обновлённый)</RBB.Fishing>
+	<!-- EN: Fishing Efficiency -->
+	<RBB.Efficiency>	   Нижеследующие настройки влияют на баланс игры\n</RBB.Efficiency>
+	<!-- EN: Pawn Fishing Efficiency: -->
+	<RBB.FishingEfficiency>Продуктивность рыбалки:</RBB.FishingEfficiency>
+	<!-- EN: Lower this setting if you feel your pawns are providing too many fish; increase it if you feel they -->
+	<RBB.FishingEfficiencyTip>Измените значение, если рыбалка приносит чересчур большой улов или, наоборот, невероятно малый</RBB.FishingEfficiencyTip>
+	<!-- EN: Shellfish Trap Efficiency: -->
+	<RBB.TrapEfficiency>Эффективность ловушек:</RBB.TrapEfficiency>
+	<!-- EN: Lower this setting if you feel your traps are yielding too much; increase it if you feel they -->
+	<RBB.TrapEfficiencyTip>Измените значение, если в рачевни приносят чересчур большой улов или, наоборот, невероятно малый</RBB.TrapEfficiencyTip>
+	<!-- EN: Notification Type -->
+	<RBB.NotificationType>Тип уведомлений</RBB.NotificationType>
+	<!-- EN: No notification. -->
+	<RBB.NoticeNone>Без уведомлений</RBB.NoticeNone>
+	<!-- EN: Simple text notification; no sound. -->
+	<RBB.NoticeSilent>Простое текстовое уведомление без звука</RBB.NoticeSilent>
+	<!-- EN: Simple text notification with an alert "ding." -->
+	<RBB.NoticeDing>Текст и звук</RBB.NoticeDing>
+	<!-- EN: An event box which must be dismissed. -->
+	<RBB.NoticeBox>Письмо</RBB.NoticeBox>
+
+	<!-- Level - меню.
+	EN: Fishing Failures: -->
+	<RBB.failureLevel>Когда ничего не поймано:</RBB.failureLevel>
+	<!-- Title - заголовок письма.
+	EN: Fishing Failure -->
+	<RBB.CaughtNothingTitle>Ничего не поймано</RBB.CaughtNothingTitle>
+	<!-- Без метки - текст в уведомлении вверху экрана.
+	EN: (пробел) failed to catch anything while fishing. -->
+	<RBB.CaughtNothing> ничего не ловит за целый час</RBB.CaughtNothing>
+
+	<!-- EN: "Junk" Catches: -->
+	<RBB.junkLevel>Когда попался мусор:</RBB.junkLevel>
+	<!-- EN: Fishing "Success" -->
+	<RBB.SnaggedJunkTitle>«Богатый» улов</RBB.SnaggedJunkTitle>
+	<!-- EN: (пробел) snagged some trash while fishing: (пробел) -->
+	<RBB.SnaggedJunk> цепляет какой-то мусор. О, да это же </RBB.SnaggedJunk>
+
+	<!-- EN: Fishing Successes: -->
+	<RBB.successLevel>Когда на удочку поймана живность:</RBB.successLevel>
+	<!-- EN: Fishing Success -->
+	<RBB.FishingSuccessTitle>Успешная рыбалка</RBB.FishingSuccessTitle>
+
+	<!-- EN: Shellfish Trap Successes: -->
+	<RBB.trapsuccessLevel>Когда в рачевню попалась живность:</RBB.trapsuccessLevel>
+	<!-- EN: Trapped Shellfish -->
+	<RBB.TrapSuccessTitle>Улов в рачевне</RBB.TrapSuccessTitle>
+
+	<!-- EN: Sunken Treasure: -->
+	<RBB.treasureLevel>Когда найдено затонувшее сокровище:</RBB.treasureLevel>
+	<!-- EN: Sunken Treasure -->
+	<RBB.SunkenTreasureTitle>Затонувшее сокровище</RBB.SunkenTreasureTitle>
+	<!-- EN: (пробел) found treasure while fishing: (пробел) -->
+	<RBB.SunkenTreasureText> находит клад под водой: </RBB.SunkenTreasureText>
+
+	<!-- EN: Fishing Pawns Haul Their Own Catches to Storage. -->
+	<RBB.FishersHaul>Рыбаки сами относят улов</RBB.FishersHaul>
+	<!-- EN: If this is checked, fishing pawns will stop every time they catch something and haul it to a nearby storage area. This will make fishing less efficient, but will prevent other pawns from being interrupted from their own tasks to haul fish instead. -->
+	<RBB.FishersHaulTip>Должны ли рыбаки сразу нести пойманный улов на подходящий склад? Это не будет считаться работой носильщика.</RBB.FishersHaulTip>
+
 	<!-- EN: Cannot be placed over a fishing spot -->
 	<RBB.NotOnFS>Не может быть построено над местом рыбалки</RBB.NotOnFS>
 	<!-- EN: Another fishing spot is too close (within 9 tiles) -->
@@ -19,28 +79,13 @@
 	<RBB.TrapTooClose>Слишком близко к другой рачевне (в радиусе менее 6 клеток)</RBB.TrapTooClose>
 	<!-- EN: Fishing Tragedy! -->
 	<RBB.TragedyTitle>Опасная рыбалка!</RBB.TragedyTitle>
-	<!-- EN: (пробел) was bitten by an oddly aggressive fish. (Or perhaps it was an eel. It all happened so fast!) Medical attention may be required! -->
-	<RBB.TragedyText> страдает от укуса необычно агрессивной рыбы. Или кто это был? Всё произошло так быстро!\nМожет, позвать врача?</RBB.TragedyText>
+	<!-- Убрана авто-подсветка при цифрах в имени.
+	EN: (пробел) was bitten by an oddly aggressive fish. (Or perhaps it was an eel. It all happened so fast!) Medical attention may be required! -->
+	<RBB.TragedyText> cтрадает от укуса необычно агрессивной рыбы. Или кто это был? Всё произошло так быстро!\nМожет, позвать врача?</RBB.TragedyText>
 	<!-- EN: (пробел) was attacked by a school of piranhas! Medical attention may be required! -->
-	<RBB.TragedyPiranhaText> страдает от укусов стаи пираний!\nМожет, позвать врача?</RBB.TragedyPiranhaText>
+	<RBB.TragedyPiranhaText> cтрадает от укусов стаи пираний!\nМожет, позвать врача?</RBB.TragedyPiranhaText>
 	<!-- EN: (пробел) was badly stung by a jellyfish! Medical attention may be required! -->
-	<RBB.TragedyJellyfishText> страдает от жгучей медузы!\nМожет, позвать врача?</RBB.TragedyJellyfishText>
-	<!-- EN: Fishing Failure -->
-	<RBB.CaughtNothingTitle>Ничего не поймано</RBB.CaughtNothingTitle>
-	<!-- EN: (пробел) failed to catch anything while fishing. -->
-	<RBB.CaughtNothing> ничего не ловит за целый час</RBB.CaughtNothing>
-	<!-- EN: Fishing "Success" -->
-	<RBB.SnaggedJunkTitle>«Богатый» улов</RBB.SnaggedJunkTitle>
-	<!-- EN: (пробел) snagged some trash while fishing: (пробел) -->
-	<RBB.SnaggedJunk> цепляет какой-то мусор. О, да это же </RBB.SnaggedJunk>
-	<!-- EN: Fishing Success -->
-	<RBB.FishingSuccessTitle>Удачная рыбалка</RBB.FishingSuccessTitle>
-	<!-- EN: Trapped Shellfish -->
-	<RBB.TrapSuccessTitle>Улов в рачевне</RBB.TrapSuccessTitle>
-	<!-- EN: Sunken Treasure -->
-	<RBB.SunkenTreasureTitle>Затонувшее сокровище</RBB.SunkenTreasureTitle>
-	<!-- EN: (пробел) found treasure while fishing: (пробел) -->
-	<RBB.SunkenTreasureText> находит клад под водой: </RBB.SunkenTreasureText>
+	<RBB.TragedyJellyfishText> cтрадает от жгучей медузы!\nМожет, позвать врача?</RBB.TragedyJellyfishText>
 	<!-- EN: (пробел) caught an arapaima! It's huge! -->
 	<RBB.Arapaima> ловит арапайму! Такую огромную!</RBB.Arapaima>
 	<!-- EN: (пробел) caught an eel. -->
@@ -48,7 +93,7 @@
 	<!-- EN: (пробел) caught a fish. -->
 	<RBB.Fish> ловит какую-то рыбину</RBB.Fish>
 	<!-- EN: (пробел) caught a jellyfish, fortunately without being stung! -->
-	<RBB.Jellyfish> аккуратно ловит скользкую медузу, и даже не ужалившись о щупальца!</RBB.Jellyfish>
+	<RBB.Jellyfish> аккуратно ловит скользкую медузу, лишь чудом не ужалившись о щупальца!</RBB.Jellyfish>
 	<!-- EN: (пробел) caught a piranha. -->
 	<RBB.Piranha> ловит пиранью</RBB.Piranha>
 	<!-- EN: (пробел) caught a pufferfish! -->
@@ -110,39 +155,5 @@
 	<RBB.TrapSnail>В рачевню заползли улитки!</RBB.TrapSnail>
 	<!-- EN: A shellfish trap has been damaged beyond repair. -->
 	<RBB.TrapDestroyed>Рачевня нуждается в ремонте</RBB.TrapDestroyed>
-	<!-- EN: Fishing Efficiency -->
-	<RBB.Efficiency>		Нижеследующие настройки влияют на баланс игры</RBB.Efficiency>
-	<!-- EN: Pawn Fishing Efficiency: -->
-	<RBB.FishingEfficiency>Продуктивность рыбалки:</RBB.FishingEfficiency>
-	<!-- EN: Lower this setting if you feel your pawns are providing too many fish; increase it if you feel they -->
-	<RBB.FishingEfficiencyTip>Измените значение, если рыбалка приносит чересчур большой улов или, наоборот, невероятно малый</RBB.FishingEfficiencyTip>
-	<!-- EN: Shellfish Trap Efficiency: -->
-	<RBB.TrapEfficiency>Эффективность ловушек:</RBB.TrapEfficiency>
-	<!-- EN: Lower this setting if you feel your traps are yielding too much; increase it if you feel they -->
-	<RBB.TrapEfficiencyTip>Измените значение, если в рачевни приносят чересчур большой улов или, наоборот, невероятно малый</RBB.TrapEfficiencyTip>
-	<!-- EN: Notification Type -->
-	<RBB.NotificationType>Тип уведомлений</RBB.NotificationType>
-	<!-- EN: Fishing Failures: -->
-	<RBB.failureLevel>Происшествия на рыбалке:</RBB.failureLevel>
-	<!-- EN: "Junk" Catches: -->
-	<RBB.junkLevel>Попавшийся мусор:</RBB.junkLevel>
-	<!-- EN: Fishing Successes: -->
-	<RBB.successLevel>Удачная рыбалка:</RBB.successLevel>
-	<!-- EN: Shellfish Trap Successes: -->
-	<RBB.trapsuccessLevel>Улов в рачевне:</RBB.trapsuccessLevel>
-	<!-- EN: Sunken Treasure: -->
-	<RBB.treasureLevel>Затонувшее сокровище:</RBB.treasureLevel>
-	<!-- EN: No notification. -->
-	<RBB.NoticeNone>Без уведомлений</RBB.NoticeNone>
-	<!-- EN: Simple text notification; no sound. -->
-	<RBB.NoticeSilent>Простое текстовое уведомление без звука</RBB.NoticeSilent>
-	<!-- EN: Simple text notification with an alert "ding." -->
-	<RBB.NoticeDing>Текст и звук</RBB.NoticeDing>
-	<!-- EN: An event box which must be dismissed. -->
-	<RBB.NoticeBox>Письмо</RBB.NoticeBox>
-	<!-- EN: Fishing Pawns Haul Their Own Catches to Storage. -->
-	<RBB.FishersHaul>Рыбаки сами относят улов</RBB.FishersHaul>
-	<!-- EN: If this is checked, fishing pawns will stop every time they catch something and haul it to a nearby storage area. This will make fishing less efficient, but will prevent other pawns from being interrupted from their own tasks to haul fish instead. -->
-	<RBB.FishersHaulTip>Должны ли рыбаки сразу нести пойманную рыбу на подходящий склад?</RBB.FishersHaulTip>
 
 </LanguageData>
