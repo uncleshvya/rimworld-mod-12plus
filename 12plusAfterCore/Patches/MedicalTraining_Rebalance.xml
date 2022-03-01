@@ -11,11 +11,6 @@
 				<xpath>Defs/RecipeDef[defName = "IF_MedTable"]/soundWorking/text()</xpath>
 				<value>Recipe_Surgery</value>
 			</li>
-			<!-- Скорость обучения выставляем как за 3 ванильных операции -->
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "IF_MedTable"]/workSkillLearnFactor/text()</xpath>
-				<value>48</value>
-			</li>
 			<!-- Добавляем необходимость исследования мебели.
 			Ко всему прочему, увеличивается ценность этого исследования на начальном этапе игры за племя -->
 			<li Class="PatchOperationAdd">
