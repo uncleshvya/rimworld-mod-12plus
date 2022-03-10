@@ -36,8 +36,7 @@ Copyright (c) Sarg Bjornson
 				<xpath>Defs/ThingDef[defName = "BoneItem"]/stuffProps/commonality/text()</xpath>
 				<value>0</value>
 			</li>
-			<!-- Рецепт пластали больше подходит плавильне, т.к. сплавы обычно требуют высоких температур.
-			Приоритетное исправление, а то эта строка патча мешает делать модпак -->
+			<!-- Рецепт пластали больше подходит плавильне, т.к. сплавы обычно требуют высоких температур -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName = "BiofuelRefinery"]/recipes/li[5]</xpath>
 			</li>
