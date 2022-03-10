@@ -93,7 +93,7 @@
 	<!-- EN: (пробел) caught a fish. -->
 	<RBB.Fish> ловит какую-то рыбину</RBB.Fish>
 	<!-- EN: (пробел) caught a jellyfish, fortunately without being stung! -->
-	<RBB.Jellyfish> аккуратно ловит скользкую медузу, лишь чудом не ужалившись о щупальца!</RBB.Jellyfish>
+	<RBB.Jellyfish> ловит скользкую медузу, лишь чудом не ужалившись о щупальца!</RBB.Jellyfish>
 	<!-- EN: (пробел) caught a piranha. -->
 	<RBB.Piranha> ловит пиранью</RBB.Piranha>
 	<!-- EN: (пробел) caught a pufferfish! -->
@@ -110,8 +110,9 @@
 	<RBB.Sturgeon> ловит взрослого осетра! Может, сегодня на ужин будет чёрная икра?</RBB.Sturgeon>
 	<!-- EN: (пробел) caught a tiny fish. Better than nothing.... -->
 	<RBB.TinyFish> ловит малька́. Это лучше, чем ничего...</RBB.TinyFish>
-	<!-- EN: (пробел) caught a bass. -->
-	<RBB.Bass> ловит окуня</RBB.Bass>
+	<!-- Названия следует синхронизировать с папкой ThingDef.
+	EN: (пробел) caught a bass. -->
+	<RBB.Bass> ловит колючего ерша</RBB.Bass>
 	<!-- EN: (пробел) caught a catfish. -->
 	<RBB.Catfish> ловит сома</RBB.Catfish>
 	<!-- Добавлена отсылку к м/ф "Ловись рыбка".
@@ -126,7 +127,7 @@
 	<!-- EN: (пробел) caught sardines. -->
 	<RBB.Sardines> ловит несколько сардин</RBB.Sardines>
 	<!-- EN: (пробел) caught a king crab. -->
-	<RBB.Kingcrab> ловит гигантского краба</RBB.Kingcrab>
+	<RBB.Kingcrab> ловит королевского краба</RBB.Kingcrab>
 	<!-- EN: (пробел) caught a crayfish. -->
 	<RBB.Crayfish> ловит рака</RBB.Crayfish>
 	<!-- Для рачевен выставлены восклицательные знаки только той еде, которая приносит баф.
