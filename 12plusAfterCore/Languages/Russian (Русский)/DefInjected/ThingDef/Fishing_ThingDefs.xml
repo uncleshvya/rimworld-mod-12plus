@@ -22,41 +22,43 @@
 	<Mote_FishingRodWest.description>удочка</Mote_FishingRodWest.description>
 	<!-- EN: fishing spot -->
 	<RBB_FishingSpot.label>место рыбалки</RBB_FishingSpot.label>
-	<!-- Уже довольно давно отключен движок расслабления на месте рыбалки.
+	<!-- Уже довольно давно отключён движок расслабления на месте рыбалки.
 	EN: A spot from which pawns can relax and catch fish. -->
 	<RBB_FishingSpot.description>Место, где поселенцы могут удить рыбу.</RBB_FishingSpot.description>
 	<!-- EN: shellfish trap -->
 	<ShellfishTrap.label>рачевня</ShellfishTrap.label>
 	<!-- EN: A trap designed to catch shellfish (lobsters, crabs, crayfish and the like). It'll also sometimes catch snails, shrimp and small fish. -->
 	<ShellfishTrap.description>Устройство, сконструированное для ловли раков. Но частенько в него попадаются и прочие обитатели водоёма.</ShellfishTrap.description>
-	<!-- EN: fish -->
-	<RF_Fish.label>рыба</RF_Fish.label>
+	<!-- Переработан лор, иначе название чересчур выбивалось из общего ряда рыб. Использован основной лор игры.
+	EN: fish -->
+	<RF_Fish.label>неизвестная рыба</RF_Fish.label>
+	<!-- EN: Raw fish. Needs to be prepare before it can be eaten. -->
+	<RF_Fish.description>Сырая рыба, похожая на гибрид тунца и окуня. Либо коренной обитатель вод этой планеты, либо специально выведена первыми поселенцами — ответ утерян в веках. От конкретно этой рыбины можно сразу отгрызть кусок, но лучше всё-таки очистить от чешуи, разделать и приготовить.</RF_Fish.description>
+	<!-- Переработано название для большего соответствия внешнему виду.
+	EN: sea bream -->
+	<RF_FishB.label>морской окунь</RF_FishB.label>
 	<!-- Неразделанную рыбу тоже можно есть.
-	EN: Raw fish. Needs to be prepare before it can be eaten. -->
-	<RF_Fish.description>Сырая рыба. Можно отгрызть от неё кусок, но лучше всё-таки её почистить, разделать и приготовить.</RF_Fish.description>
-	<!-- EN: sea bream -->
-	<RF_FishB.label>морской лещ</RF_FishB.label>
-	<!-- EN: A raw sea bream. Needs to be prepare before it can be eaten. -->
-	<RF_FishB.description>Сырая рыба. Можно отгрызть от неё кусок, но лучше всё-таки её почистить, разделать и приготовить.</RF_FishB.description>
+	EN: A raw sea bream. Needs to be prepare before it can be eaten. -->
+	<RF_FishB.description>Сырая рыба. Можно сразу отгрызть от неё кусок, но лучше всё-таки очистить от чешуи, разделать и приготовить.</RF_FishB.description>
 	<!-- Следует разделять эту рыбу и другую мелочь типа анчоуса или сардин.
 	EN: tiny fish -->
 	<RF_FishTiny.label>малёк</RF_FishTiny.label>
 	<!-- Добавлена конкретика о питательности.
 	EN: Small raw fish. It's just the right size to grill and eat. You'll get more nutrition without waste if you grilled it as it is rather than fill it. -->
-	<RF_FishTiny.description>Сырая маленькая рыба. На противень влезут несколько штук сразу. Но если почистить её и разделать, можно будет приготовить и более питательное блюдо.</RF_FishTiny.description>
+	<RF_FishTiny.description>Сырая мелкая рыбёшка. На сковороду влезут несколько штук сразу. Но если очистить от чешуи и разделать, можно будет приготовить и более питательное блюдо.</RF_FishTiny.description>
 	<!-- EN: arapaima -->
 	<RF_Arapaima.label>арапайма</RF_Arapaima.label>
 	<!-- EN: Arapaima are large freshwater fish native to tropical regions. Needs to be prepare before it can be eaten. -->
-	<RF_Arapaima.description>Огромная хищная рыба родом из тропических рек. Можно в отместку отгрызть от неё кусок, но лучше всё-таки её почистить, разделать и приготовить.</RF_Arapaima.description>
+	<RF_Arapaima.description>Огромная хищная рыба родом из тропических рек. Можно в отместку отгрызть от неё кусок, но лучше всё-таки очистить от чешуи, разделать и приготовить.</RF_Arapaima.description>
 	<!-- EN: piranha -->
 	<RF_Piranha.label>пиранья</RF_Piranha.label>
 	<!-- EN: Piranha are tropical fish known for their sharp teeth and powerful jaws. Needs to be prepare before it can be eaten. -->
-	<RF_Piranha.description>Тропическая рыба, известная за свои острые зубы и сильные челюсти. Можно в отместку отгрызть от неё кусок, но лучше всё-таки её почистить, разделать и приготовить.</RF_Piranha.description>
+	<RF_Piranha.description>Тропическая рыба, известная за свои острые зубы и сильные челюсти. Можно в отместку отгрызть от неё кусок, но лучше всё-таки очистить от чешуи, разделать и приготовить.</RF_Piranha.description>
 	<!-- EN: salmon -->
 	<RF_Salmon.label>лосось</RF_Salmon.label>
 	<!-- Адаптировано для русского языка.
 	EN: Raw salmon. You can get salmon meat and salmon roe. You need to prepare it before eating. -->
-	<RF_Salmon.description>Сырой лосось, известный как «красная» рыба. Можно отгрызть от него кусок, но лучше всё-таки почистить, разделать и приготовить. Обычно из лосося добывают характерно розовое филе и красную икру.</RF_Salmon.description>
+	<RF_Salmon.description>Сырой лосось, известный как «красная» рыба. Можно сразу отгрызть от него кусок, но лучше всё-таки очистить от чешуи, разделать и приготовить. Обычно из лосося добывают характерное розоватое филе и деликатесную красную икру.</RF_Salmon.description>
 	<!-- EN: tuna -->
 	<RF_Tuna.label>тунец</RF_Tuna.label>
 	<!-- Подкорректировано биологическое описание, с оглядкой на лор.
@@ -64,27 +66,28 @@
 	<RF_Tuna.description>Огромная хищная рыба родом из тропических океанов. Стаи тунцов преодолевают в поисках пищи большие расстояния.</RF_Tuna.description>
 	<!-- EN: sturgeon -->
 	<RF_Sturgeon.label>осётр</RF_Sturgeon.label>
-	<!-- Ослаблен акцент на мясо.
+	<!-- При переводе ослаблен акцент на мясо.
 	EN: Sturgeon are large freshwater fish native to subtropical, temperate and sub-Arctic regions. Though not an exceptional source of meat, some sturgeon can be harvested for their roe (eggs), which can be made into caviar. -->
-	<RF_Sturgeon.description>Огромная пресноводная рыба, предпочитающая обитать на дне прохладных водоёмов. Ценится не только за размер и питательность — в осётрах иногда встречается очень вкусная чёрная икра.</RF_Sturgeon.description>
+	<RF_Sturgeon.description>Крупная пресноводная рыба, предпочитающая обитать на дне прохладных водоёмов. Ценится не только за размер и питательность — в осётрах иногда встречается очень вкусная чёрная икра.</RF_Sturgeon.description>
 	<!-- EN: sturgeon -->
 	<RF_SturgeonCaviar.label>осётр</RF_SturgeonCaviar.label>
 	<!-- EN: Sturgeon are large freshwater fish native to subtropical, temperate and sub-Arctic regions. Though not an exceptional source of meat, some sturgeon can be harvested for their roe (eggs), which can be made into caviar. -->
-	<RF_SturgeonCaviar.description>Огромная пресноводная рыба, предпочитающая обитать на дне прохладных водоёмов. Ценится не только за размер и питательность — в осётрах иногда встречается очень вкусная чёрная икра.</RF_SturgeonCaviar.description>
-	<!-- EN: bass -->
-	<RF_Bass.label>окунь</RF_Bass.label>
+	<RF_SturgeonCaviar.description>Крупная пресноводная рыба, предпочитающая обитать на дне прохладных водоёмов. Ценится не только за размер и питательность — в осётрах иногда встречается очень вкусная чёрная икра.</RF_SturgeonCaviar.description>
+	<!-- Описание переработано для исправления конфликта с RF_FishB. Название выбрано за "ершистость" изображения.
+	EN: bass -->
+	<RF_Bass.label>ёрш</RF_Bass.label>
 	<!-- EN: "Bass" is a name shared by many species of fish, including both freshwater and marine species. Needs to be prepare before it can be eaten. -->
-	<RF_Bass.description>Окуневые — семейство из нескольких видов рыб, обитающих в пресных и солоноватых водоёмах. От конкретно этой рыбины можно отгрызть кусок, но лучше всё-таки её почистить, разделать и приготовить.</RF_Bass.description>
+	<RF_Bass.description>Рыба семейства Окуневые, обитает в пресных и солоноватых водоёмах. От конкретно этого экземпляра можно сразу отгрызть кусок, но лучше всё-таки очистить от чешуи, разделать и приготовить.</RF_Bass.description>
 	<!-- EN: catfish -->
 	<RF_Catfish.label>сом</RF_Catfish.label>
 	<!-- Тавтология заменена на отсылку к пословице.
 	EN: Catfish are large carnivorous freshwater fish that lives in rivers and lakes. Needs to be prepare before it can be eaten. -->
-	<RF_Catfish.description>Огромная хищная пресноводная рыба, часто водится в омутах. Можно отгрызть от неё кусок, но лучше всё-таки её почистить, разделать и приготовить.</RF_Catfish.description>
+	<RF_Catfish.description>Крупная хищная пресноводная рыба, часто водится в омутах. Можно сразу отгрызть от неё кусок, но лучше всё-таки очистить, разделать и приготовить.</RF_Catfish.description>
 	<!-- EN: eel -->
 	<RF_Eel.label>угорь</RF_Eel.label>
 	<!-- Подкрашено сухое описание.
 	EN: A raw eel. Needs to be prepare before it can be eaten. It seems that the skin caught from eel can also be used for something. -->
-	<RF_Eel.description>Неприхотливая рыба со змеевидным телом. Можно отгрызть от неё кусок, но лучше всё-таки её почистить, разделать и приготовить. Кожа угря — неплохой материал для одежды.</RF_Eel.description>
+	<RF_Eel.description>Неприхотливая рыба со змеевидным телом. Можно сразу отгрызть от неё кусок, но лучше всё-таки очистить от чешуи, разделать и приготовить. Кожа угря — неплохой материал для одежды.</RF_Eel.description>
 	<!-- EN: jellyfish -->
 	<RF_Jellyfish.label>медуза</RF_Jellyfish.label>
 	<!-- Сглажено занудство.
@@ -103,7 +106,7 @@
 	<!-- EN: squid -->
 	<RF_Squid.label>кальмар</RF_Squid.label>
 	<!-- EN: A squid. Needs to be prepare before it can be eaten. It seems that the skin caught from squid can also be used for something. -->
-	<RF_Squid.description>Сырой кальмар. Можно отгрызть от него кусок, но лучше всё-таки разделать и приготовить. Кожа кальмара — хороший материал для одежды.</RF_Squid.description>
+	<RF_Squid.description>Сырой кальмар. Можно сразу отгрызть от него кусок, но лучше всё-таки разделать и приготовить. Кожа кальмара — хороший материал для одежды.</RF_Squid.description>
 	<!-- EN: octopus -->
 	<RF_Octopus.label>осьминог</RF_Octopus.label>
 	<!-- Удалён спойлер.
@@ -148,15 +151,15 @@
 	<!-- EN: clownfish -->
 	<RF_Clownfish.label>рыба-клоун</RF_Clownfish.label>
 	<!-- EN: A raw clownfish. Needs to be prepare before it can be eaten. -->
-	<RF_Clownfish.description>Сырая рыба. Можно отгрызть от неё кусок, но лучше всё-таки её почистить, разделать и приготовить.</RF_Clownfish.description>
+	<RF_Clownfish.description>Сырая мелкая рыба. Можно сразу отгрызть от неё кусок, но лучше всё-таки очистить от чешуи, разделать и приготовить.</RF_Clownfish.description>
 	<!-- EN: anchovies -->
 	<RF_Anchovies.label>анчоусы</RF_Anchovies.label>
 	<!-- EN: Raw anchovies. Small fish generically called anchovies. Needs to be prepare before it can be eaten. -->
-	<RF_Anchovies.description>Мелкая сырая рыба. Можно отгрызть от неё кусок, но лучше всё-таки её почистить, разделать и приготовить.</RF_Anchovies.description>
+	<RF_Anchovies.description>Сырая мелкая рыба. Можно сразу отгрызть от неё кусок, но лучше всё-таки очистить от чешуи, разделать и приготовить.</RF_Anchovies.description>
 	<!-- EN: sardines -->
 	<RF_Sardines.label>сардины</RF_Sardines.label>
 	<!-- EN: Raw sardines. Sardines are saltwater fish that act in groups. The total length of adult fish is about 10-30cm. Needs to be prepare before it can be eaten. -->
-	<RF_Sardines.description>Мелкая морская рыба. Можно отгрызть от неё кусок, но лучше всё-таки её почистить, разделать и приготовить.</RF_Sardines.description>
+	<RF_Sardines.description>Мелкая морская рыба. Можно сразу отгрызть от неё кусок, но лучше всё-таки очистить от чешуи, разделать и приготовить.</RF_Sardines.description>
 	<!-- EN: grilled fish -->
 	<GrilledTinyFish.label>жареная рыбёшка</GrilledTinyFish.label>
 	<!-- EN: A simple grilled from tiny fish. Tastes bland, but not offensive. It lasts a little time without refrigeration. Great for traveling or suvival. -->
