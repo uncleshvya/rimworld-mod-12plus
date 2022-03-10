@@ -17,7 +17,7 @@
 	<!-- Оригинал: ...брошен умирать -->
 	<ColonistBanishedToDie.stages.colonist_banished_to_death.label>поселенец изгнан и брошен</ColonistBanishedToDie.stages.colonist_banished_to_death.label>
 	<!-- Оригинал: убийство лидера вражеской фракции -->
-	<DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>я {PAWN_gender ? устранил : устранила} вражеского лидера</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>
+	<DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>устранение вражеского лидера</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>
 	<!-- Исправлено вынужденное размытие смысла в заголовке. Заодно сглажена необязательная тавтология, сообщите разработчику ванили.
 	Оригинал: Они пытались...что им придётся...мной! -->
 	<DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>Враги пытались уничтожить нас, но они не знали, что придётся иметь дело со мной! Лидер этой фракции дорого заплатил за свою ошибку!</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>
