@@ -3,18 +3,18 @@
 
 	<!-- Добавлена русская локализация, сообщите разработчику.
 
-	EN: cook grilled fish -->
+	EN: grill fish -->
 	<CookMealGrilledFish.label>поджарить рыбёшку</CookMealGrilledFish.label>
 	<!-- Добавлено обоснование рецепта.
-	EN: Grilled small fish. -->
+	EN: Grill tiny fish. -->
 	<CookMealGrilledFish.description>Зажарить малька́. Целиком, что там чистить-то?</CookMealGrilledFish.description>
-	<!-- EN: Grilled fish. -->
+	<!-- EN: Grilling fish. -->
 	<CookMealGrilledFish.jobString>жарит рыбёшку</CookMealGrilledFish.jobString>
 	<!-- EN: cook grilled fish x4 -->
 	<CookMealGrilledFishBulk.label>поджарить 4 рыбёшки</CookMealGrilledFishBulk.label>
-	<!-- EN: Grilled 4 small fish. -->
+	<!-- EN: Grill 4 tiny fish. -->
 	<CookMealGrilledFishBulk.description>Зажарить четверых мальков за раз. Целиком, что там чистить-то?</CookMealGrilledFishBulk.description>
-	<!-- EN: Grilled 4 fish. -->
+	<!-- EN: Grilling 4 fish. -->
 	<CookMealGrilledFishBulk.jobString>жарит 4 рыбёшки</CookMealGrilledFishBulk.jobString>
 	<!-- Адаптировано к русскому языку.
 	EN: make herbal medicine from cucumber meats -->
@@ -23,7 +23,7 @@
 	EN: Make herbal medicine from sea cucumber meats. -->
 	<MakeCucumberMed.description>Пропитать простую траву и водоросли токсинами голотурий, чтобы использовать для перевязки и в качестве обезболивающего, противомикробного средства.</MakeCucumberMed.description>
 	<!-- Рецепт исправлен, см.патч.
-	EN: Making sea cucumber meat herbal medicine. -->
+	EN: Making herbal medicine from cucumber meat. -->
 	<MakeCucumberMed.jobString>делает лекарства из морского огурца</MakeCucumberMed.jobString>
 	<!-- EN: deep fry fish x40 -->
 	<RF_DeepFryFish.label>приготовить рыбу во фритюре x40</RF_DeepFryFish.label>
