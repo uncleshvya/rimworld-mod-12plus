@@ -6,7 +6,7 @@ Copyright 2020 Fluffy
 
 CC BY-NC-ND 4.0
 Copyright (c) Oskar Potocki
-Копия лицензии - в файле VEframework_License_CC_BY_NC_ND_4_0_With_Exeption.txt -->
+Копия лицензии - в файле VEfactionsFramework_License_CC_BY_NC_ND_4_0_With_Exeption.txt -->
 
 <Patch>
 	<Operation MayRequire="fluffy.thebirdsandthebees" Class="PatchOperationSequence">
