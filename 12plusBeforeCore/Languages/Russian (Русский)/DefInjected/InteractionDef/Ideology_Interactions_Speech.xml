@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
@@ -106,21 +106,19 @@
   <!-- EN: duel speech -->
   <Speech_Duel.label>речь перед дуэлью</Speech_Duel.label>
 
-  <!-- Заодно исправлена неточность, сообщите разработчику.
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили о треугольной скобке.
 	Оригинал:
-    ...
-    <li>r_logentry->[INITIATOR_nameDef] [praised] [praisetopic].</li>
-    <li>praisetopic->смерти от оружия</li>
-    <li>praisetopic->болезненной смерти</li>
-    <li>praisetopic->почётной смерти</li>
-    <li>praisetopic-почётном бою</li>
-    <li>praisetopic->стойкости и борьбе</li>
-    ...
-    <li>praisetopic->чистоте физического столкновения</li>
-    <li>praisetopic->любви через смерть</li>
-    <li>praisetopic->силе над другими</li>
-    ...
-  -->
+	...
+	<li>r_logentry...</li>
+	<li>praisetopic->смерти от оружия</li>
+	<li>praisetopic->болезненной смерти</li>
+	<li>praisetopic->почётной смерти</li>
+	<li>praisetopic-почётном бою</li>
+	<li>praisetopic->стойкости и борьбе</li>
+	...
+	<li>...любви через смерть</li>
+	...
+	-->
   <Speech_Duel.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [praised] [praisetopic].</li>
     <li>praisetopic->доблести в сражении</li>
@@ -140,19 +138,19 @@
   </Speech_Duel.logRulesInitiator.rulesStrings>
   <!-- EN: exceution speech -->
   <Speech_Execution.label>речь перед казнью</Speech_Execution.label>
-  <!-- Оригинал:
-    ...
-    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
-    <li>speechtopic->жизни и смерти</li>
-    <li>speechtopic->необходимости правосудия</li>
-    <li>speechtopic->методах казни</li>
-    <li>speechtopic->смерти и жестокости</li>
-    <li>speechtopic->убийстве из милосердия</li>
-    <li>speechtopic->милосердии безболезненного убийства</li>
-    <li>speechtopic->символизме смерти</li>
-    <li>speechtopic->истории высшей меры наказания</li>
-    ...
-  -->
+	<!-- Оригинал:
+	...
+	<li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+	<li>speechtopic->жизни и смерти</li>
+	<li>speechtopic->необходимости правосудия</li>
+	<li>speechtopic->методах казни</li>
+	<li>speechtopic->смерти и жестокости</li>
+	<li>speechtopic->убийстве из милосердия</li>
+	<li>speechtopic->милосердии безболезненного убийства</li>
+	<li>speechtopic->символизме смерти</li>
+	<li>speechtopic->истории высшей меры наказания</li>
+	...
+	-->
   <Speech_Execution.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->преступлении и наказании</li>
@@ -167,19 +165,19 @@
   </Speech_Execution.logRulesInitiator.rulesStrings>
   <!-- EN: funeral speech -->
   <Speech_Funeral.label>похоронная речь</Speech_Funeral.label>
-  <!-- Оригинал:
-    ...
-    <li>speechtopic->благородстве самопожертвования</li>
-    <li>speechtopic->смерти</li>
-    <li>speechtopic->жизни после смерти</li>
-    <li>speechtopic->смерти и семье</li>
-    <li>speechtopic->понятии хорошей жизни</li>
-    <li>speechtopic->смерти как пути достоинству</li>
-    <li>speechtopic->начале и конце</li>
-    <li>speechtopic->том, что происходит после смерти</li>
-    <li>speechtopic->радостном принятии будущего</li>
-    ...
-  -->
+	<!-- Оригинал:
+	...
+	<li>speechtopic->благородстве самопожертвования</li>
+	<li>speechtopic->смерти</li>
+	<li>speechtopic->жизни после смерти</li>
+	<li>speechtopic->смерти и семье</li>
+	<li>speechtopic->понятии хорошей жизни</li>
+	<li>speechtopic->смерти как пути достоинству</li>
+	<li>speechtopic->начале и конце</li>
+	<li>speechtopic->том, что происходит после смерти</li>
+	<li>speechtopic->радостном принятии будущего</li>
+	...
+	-->
   <Speech_Funeral.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->благородстве самопожертвования</li>
@@ -197,17 +195,15 @@
   </Speech_Funeral.logRulesInitiator.rulesStrings>
   <!-- EN: leader speech -->
   <Speech_Leader.label>речь лидера</Speech_Leader.label>
-  <!-- Оригинал:
-    ...
-    <li>speechtopic->том, что вся наша жизнь — [Game]</li>
-    <li>speechtopic->мышлении, смертоносном, словно [Weapon]</li>
-    <li>speechtopic->путешествиях через [TerrainFeature] и [TerrainFeature]</li>
-    ...
-    <li>speechtopic(p=0.25)->счастье, несмотря на трудности</li>
-    <li>speechtopic(p=0.25)->смерти, как о мотивации</li>
-    <li>speechtopic(p=0.25)->стойких сердцах и умах</li>
-    ...
-  -->
+	<!-- Оригинал:
+	...
+	<li>...мышлении, смертоносном, словно...</li>
+	...
+	<li>speechtopic(p=0.25)->счастье, несмотря на трудности</li>
+	<li>speechtopic(p=0.25)->смерти, как о мотивации</li>
+	<li>speechtopic(p=0.25)->стойких сердцах и умах</li>
+	...
+	-->
   <Speech_Leader.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->поисках [Vegetable]</li>
@@ -245,26 +241,25 @@
     <li>initiator_saw(INITIATOR_gender==Male)->видел</li>
     <li>initiator_saw(INITIATOR_gender==Female)->видела</li>
   </Speech_Leader.logRulesInitiator.rulesStrings>
-  <!-- EN: sacrifice speech -->
-  <Speech_Sacrifice.label>речь перед жертвоприношением</Speech_Sacrifice.label>
-  <!-- Оригинал:
-    ...
-    <li>r_logentry(p=0.2)->[INITIATOR_nameDef] [crazy].</li>
-    <li>speechtopic->том, какую на самом деле ценность имеет смерть</li>
-    <li>speechtopic->боли</li>
-    <li>speechtopic->необходимости насилия</li>
-    <li>speechtopic->том, какая кровь тёплая</li>
-    <li>speechtopic->значении смерти</li>
-    <li>speechtopic->любви и смерти</li>
-    <li>speechtopic->символичности боли</li>
-    <li>speechtopic->клинках и плоти</li>
-    <li>speechtopic->искусстве делать разрезы</li>
-    <li>speechtopic->соблазнительной силе крови</li>
-    <li>speechtopic->музыке криков</li>
-    <li>speechtopic->кишках на полу</li>
-    <li>crazy->[initiator_screamed]</li>
-    ...
-  -->
+	<!-- Оригинал: ...перед жертвоприношением -->
+	<Speech_Sacrifice.label>речь перед жертвоприношением</Speech_Sacrifice.label>
+	<!-- Оригинал:
+	...
+	<li>...имеет смерть</li>
+	<li>speechtopic->боли</li>
+	<li>speechtopic->необходимости насилия</li>
+	<li>speechtopic->том, какая кровь тёплая</li>
+	<li>speechtopic->значении смерти</li>
+	<li>speechtopic->любви и смерти</li>
+	<li>speechtopic->символичности боли</li>
+	<li>speechtopic->клинках и плоти</li>
+	<li>speechtopic->искусстве делать разрезы</li>
+	<li>speechtopic->соблазнительной силе крови</li>
+	<li>speechtopic->музыке криков</li>
+	<li>speechtopic->кишках на полу</li>
+	<li>crazy->[initiator_screamed]</li>
+	...
+	-->
   <Speech_Sacrifice.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_nameDef] [crazy].</li>
@@ -298,21 +293,21 @@
   </Speech_Sacrifice.logRulesInitiator.rulesStrings>
   <!-- EN: scarification speech -->
   <Speech_Scarification.label>речь перед ритуалом шрамирования</Speech_Scarification.label>
-  <!-- Оригинал:
-    ...
-    <li>speechtopic->боли</li>
-    <li>speechtopic->необходимости насилия</li>
-    <li>speechtopic->том, какая кровь тёплая</li>
-    <li>speechtopic->значении шрамов</li>
-    <li>speechtopic->любви и смерти</li>
-    <li>speechtopic->символичности боли</li>
-    <li>speechtopic->клинках и плоти</li>
-    <li>speechtopic->искусстве делать разрезы</li>
-    <li>speechtopic->соблазнительной силе крови</li>
-    <li>speechtopic->музыке криков</li>
-    <li>crazy->[initiator_screamed], как сумасшедший</li>
-    ...
-  -->
+	<!-- Оригинал:
+	...
+	<li>speechtopic->боли</li>
+	<li>speechtopic->необходимости насилия</li>
+	<li>speechtopic->том, какая кровь тёплая</li>
+	<li>speechtopic->значении шрамов</li>
+	<li>speechtopic->любви и смерти</li>
+	<li>speechtopic->символичности боли</li>
+	<li>speechtopic->клинках и плоти</li>
+	<li>speechtopic->искусстве делать разрезы</li>
+	<li>speechtopic->соблазнительной силе крови</li>
+	<li>speechtopic->музыке криков</li>
+	<li>crazy->[initiator_screamed], как сумасшедший</li>
+	...
+	-->
   <Speech_Scarification.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_nameDef] [crazy].</li>
