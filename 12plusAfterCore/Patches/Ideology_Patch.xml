@@ -44,6 +44,44 @@
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName = "CannibalPlatter"]/defaultPlacingRot</xpath>
 			</li>
+			<!-- Добавление надписей о вреде курения -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+				defName = "Autobong" or
+				defName = "Burnbong"
+				]</xpath>
+				<value>
+					<descriptionHyperlinks>
+						<HediffDef>SmokeleafAddiction</HediffDef>
+						<HediffDef>SmokeleafTolerance</HediffDef>
+						<HediffDef>SmokeleafHigh</HediffDef>
+						<HediffDef>Carcinoma</HediffDef>
+						<HediffDef>Asthma</HediffDef>
+					</descriptionHyperlinks>
+				</value>
+			</li>
+			<!-- Добавление роста толерантности от бонгов -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Autobong"]/comps</xpath>
+				<value>
+					<li Class="CompProperties_GiveHediffSeverity">
+						<hediff>SmokeleafTolerance</hediff>
+						<range>4.9</range>
+						<severityPerSecond>0.0003</severityPerSecond>
+						<allowMechs>false</allowMechs>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Burnbong"]/comps</xpath>
+				<value>
+					<li Class="CompProperties_RitualHediffGiverInRoom">
+						<hediff>SmokeleafTolerance</hediff>
+						<minRadius>10</minRadius>
+						<severity>0.0006</severity>
+					</li>
+				</value>
+			</li>
 
 		</operations>
 	</Operation>
