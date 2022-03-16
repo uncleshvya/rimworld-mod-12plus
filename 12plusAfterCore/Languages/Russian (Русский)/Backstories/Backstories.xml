@@ -8670,4 +8670,29 @@
 		<desc>[PAWN_nameDef] traveled the world, always looking for old and forgotten things to repair for the good of others, working to see the true beauty in all things.</desc>
 	</Restorer70>
 
+	<!-- Adulthood -->
+	<RimworldExile32>
+		<!-- EN: Rimworld Exile -->
+		<title>сосланный шпион</title>
+		<titleFemale>сосланная шпионка</titleFemale>
+		<!-- EN: Exile -->
+		<titleShort>ссыльный</titleShort>
+		<titleShortFemale>ссыльная</titleShortFemale>
+		<!-- EN: After [PAWN_possessive] planet was technologically uplifted by a benevolent glitterworld charity, [PAWN_nameDef] saw an opportunity to make some money by defrauding the wealthy glitterworld visitors.\n\nAfter [PAWN_pronoun] was caught, [PAWN_pronoun] was exiled to the rim, where [PAWN_pronoun] targeted rich trading companies to continue [PAWN_possessive] life of crime. -->
+		<desc>{PAWN_nameDef} {PAWN_gender ? служил : служила} в разведывательном управлении своей страны, достигнув некоторых высот в шпионаже. К сожалению, противник получил доступ к инопланетным технологиям слежения, и раскрыл многих разведчиков.\n\nБудучи {PAWN_gender ? сосланным : сосланной} на окраинную планету, {PAWN_nameDef} быстро {PAWN_gender ? нашёл : нашла} нишу применения своим профессиональным навыкам — свежая информация нужна всем и всегда.</desc>
+	</RimworldExile32>
+
+	<!-- Childhood -->
+	<MonkeyChild67>
+		<!-- EN: Monkey child -->
+		<title>обезьяний выкормыш</title>
+		<titleFemale>обезьяний выкормыш</titleFemale>
+		<!-- EN: Monkey kid -->
+		<titleShort>маугли</titleShort>
+		<titleShortFemale>маугли</titleShortFemale>
+		<!-- Предыстория даёт бонус +4 горное дело.
+		EN: When he was a baby, [PAWN_nameDef]'s parents traded their son to a troop of monkeys. Little is knowm of his life among the primates. -->
+		<desc>{PAWN_nameDef} {PAWN_gender ? осиротел : осиротела} в двухлетнем возрасте, когда механоиды напали на {PAWN_possessive} деревню. Голодного, исхудавшего малыша приняла к себе стая горных обезьян.\n\nДаже через много лет бывший детёныш дикой природы не любит общаться с помощью речи.</desc>
+	</MonkeyChild67>
+
 </BackstoryTranslations>
