@@ -1,33 +1,31 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициальных переводов от LeveFUN и Sestrenka, в стиле ванили. На момент проведения работ, этот файл в ванили не был переведён.
-	Оригиналы: два или... -->
-	<SpouseCount_Male_MaxTwo.label>двух или меньше</SpouseCount_Male_MaxTwo.label>
-	<SpouseCount_Female_MaxTwo.label>двоих или меньше</SpouseCount_Female_MaxTwo.label>
-	<!-- Оригинал: Мужчины могут иметь до двух супругов. -->
-	<SpouseCount_Male_MaxTwo.description>У мужчины может быть до двух жён.</SpouseCount_Male_MaxTwo.description>
-	<!-- Оригинал: Женщины могут иметь до двух супругов. -->
-	<SpouseCount_Female_MaxTwo.description>У женщины может быть до двух мужей.</SpouseCount_Female_MaxTwo.description>
-	<!-- Оригиналы: три или... -->
-	<SpouseCount_Male_MaxThree.label>трёх или меньше</SpouseCount_Male_MaxThree.label>
-	<SpouseCount_Female_MaxThree.label>троих или меньше</SpouseCount_Female_MaxThree.label>
-	<!-- Оригинал: Мужчины могут иметь до трех супругов -->
-	<SpouseCount_Male_MaxThree.description>У мужчины может быть до трёх жён.</SpouseCount_Male_MaxThree.description>
-	<!-- Оригинал: Женщины могут иметь до трех супругов. -->
-	<SpouseCount_Female_MaxThree.description>У женщины может быть до трёх мужей.</SpouseCount_Female_MaxThree.description>
-	<!-- Оригиналы: четыре или... -->
-	<SpouseCount_Male_MaxFour.label>четырёх или меньше</SpouseCount_Male_MaxFour.label>
-	<SpouseCount_Female_MaxFour.label>четверых или меньше</SpouseCount_Female_MaxFour.label>
-	<!-- Оригинал: Мужчины могут иметь до четырех супругов. -->
-	<SpouseCount_Male_MaxFour.description>У мужчины может быть до четырёх жён.</SpouseCount_Male_MaxFour.description>
-	<!-- Оригинал: Женщины могут иметь до четырех супругов. -->
-	<SpouseCount_Female_MaxFour.description>У женщины может быть до четырёх мужей.</SpouseCount_Female_MaxFour.description>
-	<!-- Оригинал: Мужчины могут иметь столько супругов, сколько захотят. -->
-	<SpouseCount_Male_Unlimited.description>У мужчины может быть столько жён, сколько ему заблагорассудится.</SpouseCount_Male_Unlimited.description>
-	<!-- Оригинал: Женщины могут иметь столько супругов, сколько захотят. -->
-	<SpouseCount_Female_Unlimited.description>У женщины может быть столько мужей, сколько ей заблагорассудится.</SpouseCount_Female_Unlimited.description>
+	Все описания следует синхронизировать с папкой IssueDef.
+	Исправление неофициального перевода от Sestrenka. На момент проведения работ, официальный перевод ещё не был полностью закончен. Перезаписываем значение переменной.
+	Оригинал: четыре или меньше -->
+	<SpouseCount_Female_MaxFour.label>четыре супруга или меньше</SpouseCount_Female_MaxFour.label>
+	<!-- Исправление неофициального перевода от Sestrenka.
+	Оригинал: три или меньше -->
+	<SpouseCount_Female_MaxThree.label>три супруга или меньше</SpouseCount_Female_MaxThree.label>
+	<!-- Исправление неофициального перевода от Sestrenka.
+	Оригинал: два или меньше -->
+	<SpouseCount_Female_MaxTwo.label>два супруга или меньше</SpouseCount_Female_MaxTwo.label>
+	<!-- Оригинал: четыре супруга или... -->
+	<SpouseCount_Male_MaxFour.label>четыре супруги или меньше</SpouseCount_Male_MaxFour.label>
+	<!-- Оригинал: ...четырёх супругов. -->
+	<SpouseCount_Male_MaxFour.description>У мужчины может быть до четырёх супруг.</SpouseCount_Male_MaxFour.description>
+	<!-- Оригинал: три супруга или... -->
+	<SpouseCount_Male_MaxThree.label>три супруги или меньше</SpouseCount_Male_MaxThree.label>
+	<!-- Оригинал: ...трёх супругов. -->
+	<SpouseCount_Male_MaxThree.description>У мужчины может быть до трёх супруг.</SpouseCount_Male_MaxThree.description>
+	<!-- Оригинал: два супруга или... -->
+	<SpouseCount_Male_MaxTwo.label>две супруги или меньше</SpouseCount_Male_MaxTwo.label>
+	<!-- Оригинал: ...двух супругов. -->
+	<SpouseCount_Male_MaxTwo.description>У мужчины может быть до двух супруг.</SpouseCount_Male_MaxTwo.description>
+	<!-- Оригинал: ...угодно супругов. -->
+	<SpouseCount_Male_Unlimited.description>У мужчины может быть сколько угодно супруг.</SpouseCount_Male_Unlimited.description>
 
 </LanguageData>
