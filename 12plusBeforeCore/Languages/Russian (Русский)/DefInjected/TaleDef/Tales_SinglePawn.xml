@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+  <!-- Исправление согласно концепции «12+».
 
-  <!-- Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core. -->
+  Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
 
-  <!-- Оригинал: съедено сырое человеческое мясо -->
+  Оригинал: съедено сырое человеческое мясо -->
   <AteRawHumanlikeMeat.label>съедено мумиё</AteRawHumanlikeMeat.label>
   <!-- Оригинал:
   <AteRawHumanlikeMeat.rulePack.rulesStrings>
@@ -60,9 +60,9 @@
   <!-- Оригинал: разделано человеческое тело -->
   <ButcheredHumanlikeCorpse.label>бардак вокруг</ButcheredHumanlikeCorpse.label>
 
-  <!-- Эти полфайла без изменений, но необходимо оставить, иначе грамматика страдает: -->
+  <!-- Эти полфайла без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN: art crafted -->
+  EN: art crafted -->
   <CraftedArt.label>создан предмет искусства</CraftedArt.label>
   <!-- EN:
     <li>tale_noun->the time [PAWN_nameDef] crafted [THING_indefinite]</li>
@@ -186,7 +186,7 @@
   </Drunk.rulePack.rulesStrings>
   
   <!-- EN: research project finished -->
-  <FinishedResearchProject.label>завершено исследование</FinishedResearchProject.label>
+  <FinishedResearchProject.label>завершение исследования</FinishedResearchProject.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] finishing research on [PROJECT_label]</li>
     <li>image->[PAWN_nameFull] working on [PROJECT_label] research project [circumstance_group]</li>
@@ -202,10 +202,10 @@
     <li>desc_sentence->[PAWN_nameDef] is staring at [PAWN_possessive] discovery with a sense of wonder.</li>
   -->
   <FinishedResearchProject.rulePack.rulesStrings>
-    <li>tale_noun->как [PAWN_nameDef] завершает исследование «[PROJECT_label]»</li>
+    <li>tale_noun->как [PAWN_nameDef] завершает исследование технологии «[PROJECT_label]»</li>
     <li>image->, как [PAWN_nameFull] [circumstance_phrase] работает над исследовательским проектом «[PROJECT_label]»</li>
-    <li>image->, как [PAWN_nameFull] [circumstance_phrase] изучает секреты проекта «[PROJECT_label]»</li>
-    <li>image->, как [PAWN_nameFull] [circumstance_phrase] исследует проект «[PROJECT_label]»</li>
+    <li>image->, как [PAWN_nameFull] [circumstance_phrase] изучает секреты технологии «[PROJECT_label]»</li>
+    <li>image->, как [PAWN_nameFull] [circumstance_phrase] исследует технологию «[PROJECT_label]»</li>
     <li>circumstance_phrase->с большой интенсивностью</li>
     <li>circumstance_phrase->в одиночестве за своим верстаком</li>
     <li>circumstance_phrase->с бумагами в [PAWN_possessive] руках</li>
@@ -268,9 +268,9 @@
   <!-- EN: berserk rage -->
   <MentalStateBerserk.label>потеря рассудка</MentalStateBerserk.label>
 
-  <!-- исправление согласно концепции «12+» -->
+  <!-- Исправление согласно концепции «12+».
 
-  <!-- Оригинал:
+  Оригинал:
     ...
     <li>desc_sentence->[PAWN_pronoun] дрожит от неконтролируемой ярости.</li>
     <li>desc_sentence->[PAWN_possessive] зубы обнажаются в смертоносном оскале.</li>
@@ -307,9 +307,9 @@
     <li>desc_sentence->Одинокая слеза скатывается по [PAWN_possessive] лицу.</li>
   </MentalStateBerserk.rulePack.rulesStrings>
 
-  <!-- Эта треть файла без изменений, но необходимо оставить, иначе грамматика страдает: -->
+  <!-- Эта треть файла без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN: gave up -->
+  EN: gave up -->
   <MentalStateGaveUp.label>отчаяние</MentalStateGaveUp.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] giving up in despair</li>
@@ -486,9 +486,9 @@
   <!-- EN: on fire -->
   <WasOnFire.label>огонь</WasOnFire.label>
 
-  <!-- исправление согласно концепции «12+» -->
+  <!-- Исправление согласно концепции «12+».
 
-  <!-- Оригинал:
+  Оригинал:
     ...
     <li>desc_sentence->Над [PAWN_nameDef] поднимается струйка дыма.</li>
     <li>desc_sentence->Художник мастерски изображает [PAWN_possessive] с выражением лица, характерным для мёртвого человека.</li>
