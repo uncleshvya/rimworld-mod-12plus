@@ -105,7 +105,9 @@
     <li>founder_carried(founder_gender==Female)->носила</li>
   </IdeologicalFounder.rules.rulesStrings>
 
-	<!-- Оригинал:
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Синтаксис "(*i)(/i)" не работает, возвращена предыдущая версия, "<i></i>".
+	Оригинал:
 	...
     <li>lessonAttribution->[founder_nameFull], из материалов [memeConference_titleCase]</li>
     <li>lessonAttribution->[founder_nameFull] на своём смертном одре</li>
