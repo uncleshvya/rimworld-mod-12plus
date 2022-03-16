@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
@@ -6,8 +6,9 @@
 	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. И через ноды "rulesStrings.1" тоже. Пришлось создать суб мод перед Core.
 
 	Первые полфайла без изменений, но необходимо оставить, иначе грамматика страдает:
+
   EN: Buddhist origin -->
-  <Structure_OriginBuddhist.label>буддисткого происхождения</Structure_OriginBuddhist.label>
+  <Structure_OriginBuddhist.label>буддистское течение</Structure_OriginBuddhist.label>
   <!-- EN: This ideoligion is a descendant of ancient Buddhism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
   <Structure_OriginBuddhist.description>Эта идеолигия происходит от буддизма, древнего религиозного течения. В её центре могут быть совсем другие принципы, нежели тысячи лет назад, однако символика осталась похожей.</Structure_OriginBuddhist.description>
   <!-- EN:
@@ -108,9 +109,9 @@
   <Structure_OriginBuddhist.symbolPacks.9.member>гелугпа-буддист</Structure_OriginBuddhist.symbolPacks.9.member>
   <!-- EN: pagoda -->
   <Structure_OriginBuddhist.worshipRoomLabel>пагода</Structure_OriginBuddhist.worshipRoomLabel>
-  
+
   <!-- EN: Christian origin -->
-  <Structure_OriginChristian.label>христианского проихождения</Structure_OriginChristian.label>
+  <Structure_OriginChristian.label>христианское течение</Structure_OriginChristian.label>
   <!-- EN: This is a variant of the abstract theist structure. This ideoligion is a descendant of ancient Christianity. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
   <Structure_OriginChristian.description>Эта идеолигия — разновидность абстрактного теизма, произошедшая от христианства, древнего религиозного течения. В её центре могут быть совсем другие принципы, нежели тысячи лет назад, однако символика осталась похожей.</Structure_OriginChristian.description>
   <!-- EN:
@@ -246,9 +247,9 @@
   <Structure_OriginChristian.symbolPacks.13.member>теономист</Structure_OriginChristian.symbolPacks.13.member>
   <!-- EN: church -->
   <Structure_OriginChristian.worshipRoomLabel>церковь</Structure_OriginChristian.worshipRoomLabel>
-  
+
   <!-- EN: Hindu origin -->
-  <Structure_OriginHindu.label>индуистского происхождения</Structure_OriginHindu.label>
+  <Structure_OriginHindu.label>индуистское течение</Structure_OriginHindu.label>
   <!-- EN: This is a variant of the embodied theist structure. This ideoligion is a descendant of ancient Hinduism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
   <Structure_OriginHindu.description>Эта идеолигия — разновидность имманентного теизма, произошедшая от индуизма, древнего религиозного течения. В её центре могут быть совсем другие принципы, нежели тысячи лет назад, однако символика осталась похожей.</Structure_OriginHindu.description>
   <!-- EN: God of Creation -->
@@ -304,9 +305,7 @@
   <!-- EN: God of Earth -->
   <Structure_OriginHindu.fixedDeityNameTypes.25.type>Божество земли</Structure_OriginHindu.fixedDeityNameTypes.25.type>
 
-	<!-- Протестить, может надо и в ванили поправить.
-	EN: God of Morality
-	Оригинал: Божество смерти -->
+	<!-- Оригинал: Божество смерти -->
 	<Structure_OriginHindu.fixedDeityNameTypes.26.type>Божество морали</Structure_OriginHindu.fixedDeityNameTypes.26.type>
 
 	<!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
@@ -446,9 +445,9 @@
   <Structure_OriginHindu.symbolPacks.13.member>веданта-индуизм</Structure_OriginHindu.symbolPacks.13.member>
   <!-- EN: shrine -->
   <Structure_OriginHindu.worshipRoomLabel>святилище</Structure_OriginHindu.worshipRoomLabel>
-  
+
   <!-- EN: Islamic origin -->
-  <Structure_OriginIslamic.label>исламского происхождения</Structure_OriginIslamic.label>
+  <Structure_OriginIslamic.label>исламское течение</Structure_OriginIslamic.label>
   <!-- EN: This is a variant of the abstract theist structure. This ideoligion is a descendant of ancient Islam. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
   <Structure_OriginIslamic.description>Эта идеолигия — разновидность абстрактного теизма, произошедшая от ислама, древнего религиозного течения. В её центре могут быть совсем другие принципы, нежели тысячи лет назад, однако символика осталась похожей.</Structure_OriginIslamic.description>
   <!-- EN:
@@ -585,5 +584,5 @@
   <Structure_OriginIslamic.symbolPacks.14.member>халифист</Structure_OriginIslamic.symbolPacks.14.member>
   <!-- EN: mosque -->
   <Structure_OriginIslamic.worshipRoomLabel>мечеть</Structure_OriginIslamic.worshipRoomLabel>
-  
+
 </LanguageData>
