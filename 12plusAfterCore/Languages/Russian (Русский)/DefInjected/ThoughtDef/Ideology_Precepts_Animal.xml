@@ -1,12 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициальных переводов от LeveFUN и Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
-	Оригинал: почитаемый {ANIMALKIND} умер -->
-	<TameVeneratedAnimalDied.stages.venerated_died.label>больше нет {ANIMALKIND}</TameVeneratedAnimalDied.stages.venerated_died.label>
-	<!-- Оригинал: Умер прирученный {ANIMALKIND}. Смерть такого благородного зверя - повод для печали. -->
-	<TameVeneratedAnimalDied.stages.venerated_died.description>Мы потеряли приручённое священное животное {ANIMALKIND}. Больше нет такого благородного создания... Это печально.</TameVeneratedAnimalDied.stages.venerated_died.description>
+	Оригинал: священное животное погибло -->
+	<TameVeneratedAnimalDied.stages.venerated_died.label>потеряно священное животное</TameVeneratedAnimalDied.stages.venerated_died.label>
+	<!-- Оригинал: ...{ANIMALKIND}. Смерть такого... -->
+	<TameVeneratedAnimalDied.stages.venerated_died.description>Отошло в мир иной священное животное, {ANIMALKIND}. Потеря такого благородного создания — всегда повод для грусти.</TameVeneratedAnimalDied.stages.venerated_died.description>
 
 </LanguageData>
