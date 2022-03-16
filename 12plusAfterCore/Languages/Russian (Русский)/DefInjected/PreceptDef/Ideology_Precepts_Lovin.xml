@@ -1,36 +1,36 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициальных переводов от LeveFUN и Sestrenka, в стиле ванили. На момент проведения работ, этот файл в ванили не был переведён.
 	Описания следует синхронизировать с папкой HistoryEventDef.
-	Оригинал: Заниматься любовью это благородное дело, независимо от того, кто с кем это делает. -->
+	Заодно исправлена неточность, сообщите разработчику ванили о неразрывных пробелах и недостающих запятых в этом файле.
+	Оригинал: свободна и одобряется -->
+	<Lovin_FreeApproved.label>свободны и одобряются</Lovin_FreeApproved.label>
+	<!-- Оригинал: Заниматься любовью — здорово, независимо от того, кто и с кем это делает. -->
 	<Lovin_FreeApproved.description>Любовь должна быть доступна всем и каждому, вне зависимости от брака. А ревность и боль утраты — лишь придуманные понятия.</Lovin_FreeApproved.description>
-	<!-- Оригинал: Физический акт вожделения отвратителен, хотя в браке это необходимо. -->
-	<Lovin_Horrible.description>Любовь — это всего лишь химические реакции в мозгу, наследие наших диких предков. Но в браке это необходимо.</Lovin_Horrible.description>
-	<!-- Оригиналы: Любовный акт с не-супругом -->
-	<Lovin_Horrible.comps.1.description>Заведены отношения вне брака</Lovin_Horrible.comps.1.description>
-	<Lovin_SpouseOnly_Mild.comps.1.description>Заведены отношения вне брака</Lovin_SpouseOnly_Mild.comps.1.description>
-	<Lovin_SpouseOnly_Moderate.comps.1.description>Заведены отношения вне брака</Lovin_SpouseOnly_Moderate.comps.1.description>
-	<Lovin_SpouseOnly_Strict.comps.1.description>Заведены отношения вне брака</Lovin_SpouseOnly_Strict.comps.1.description>
-	<!-- Оригинал: Любовный акт с супругом -->
-	<Lovin_Horrible.comps.3.description>Проведено время с супругом</Lovin_Horrible.comps.3.description>
-	<!-- Оригинал: Физический акт вожделения всегда мерзок, отвратителен и неправильен. -->
-	<Lovin_Prohibited.description>Любовь — это всего лишь химические реакции в мозгу, наследие наших диких предков. Кто её испытывает — уподобляется зверям, и таким образом разрушает цивилизацию.</Lovin_Prohibited.description>
-	<!-- Оригинал: Любовный акт -->
+	<!-- Оригинал: ужасна -->
+	<Lovin_Horrible.label>ужасны</Lovin_Horrible.label>
+	<!-- Оригинал: Физическая близость всегда омерзительна, но необходима в браке. -->
+	<Lovin_Horrible.description>Любовь — это всего лишь химические реакции в мозгу, наследие наших диких предков. Но она необходима для заключения брака.</Lovin_Horrible.description>
+	<!-- Оригиналы: Похотливое действо -->
+	<Lovin_Horrible.comps.3.description>Заведены отношения</Lovin_Horrible.comps.3.description>
 	<Lovin_Prohibited.comps.1.description>Заведены отношения</Lovin_Prohibited.comps.1.description>
-	<!-- Оригинал: с супругом -->
-	<Lovin_SpouseOnly_Mild.label>после свадьбы</Lovin_SpouseOnly_Mild.label>
-	<!-- Оригинал: Хотя заниматься любовью вне брака можно, это все еще не хорошо. -->
-	<Lovin_SpouseOnly_Mild.description>Любовь должна быть доступна всем и каждому, вне зависимости от брака. А ревность и боль утраты — лишь придуманные понятия. Ну, почти.</Lovin_SpouseOnly_Mild.description>
-	<!-- Оригинал: только с супругом -->
-	<Lovin_SpouseOnly_Moderate.label>только после свадьбы</Lovin_SpouseOnly_Moderate.label>
-	<!-- Оригинал: Заниматься любовью с другим человеком вне брака неправильно. -->
+	<!-- Оригинал: запрещена -->
+	<Lovin_Prohibited.label>запрещены</Lovin_Prohibited.label>
+	<!-- Оригинал: Физическая близость всегда мерзка, гнусна и отвратительна. -->
+	<Lovin_Prohibited.description>Любовь — это всего лишь химические реакции в мозгу, наследие наших диких предков. Кто её испытывает — уподобляется зверям, и таким образом разрушает цивилизацию.</Lovin_Prohibited.description>
+	<!-- Оригинал: Хотя заниматься любовью вне брака можно, это всё ещё неправильно. -->
+	<Lovin_SpouseOnly_Mild.description>Любовь должна быть доступна всем и каждому, вне зависимости от брака. А ревность и боль утраты — лишь придуманные понятия. Ну, почти всегда.</Lovin_SpouseOnly_Mild.description>
+	<!-- Оригинал: Заниматься любовью вне... -->
 	<Lovin_SpouseOnly_Moderate.description>Заводить отношения вне брака — неправильно.</Lovin_SpouseOnly_Moderate.description>
-	<!-- Оригинал: исключительно с супругом -->
-	<Lovin_SpouseOnly_Strict.label>исключительно после свадьбы</Lovin_SpouseOnly_Strict.label>
-	<!-- Оригинал: Заниматься любовью с другим человеком вне брака глубоко аморально. -->
-	<Lovin_SpouseOnly_Strict.description>Заводить отношения вне брака — глубоко аморально.</Lovin_SpouseOnly_Strict.description>
+	<!-- Оригинал: Заниматься любовью с кем-то вне брака — верх... -->
+	<Lovin_SpouseOnly_Strict.description>Заводить отношения вне брака — верх безнравственности.</Lovin_SpouseOnly_Strict.description>
+	<!-- Исправление неофициального перевода от Sestrenka. На момент проведения работ, официальный перевод ещё не был полностью закончен. Перезаписываем значение переменной.
+	Оригиналы: Любовный акт с не-супругом -->
+	<Lovin_Horrible.comps.1.description>Прелюбодеяние</Lovin_Horrible.comps.1.description>
+	<Lovin_SpouseOnly_Mild.comps.1.description>Прелюбодеяние</Lovin_SpouseOnly_Mild.comps.1.description>
+	<Lovin_SpouseOnly_Moderate.comps.1.description>Прелюбодеяние</Lovin_SpouseOnly_Moderate.comps.1.description>
+	<Lovin_SpouseOnly_Strict.comps.1.description>Прелюбодеяние</Lovin_SpouseOnly_Strict.comps.1.description>
 
 </LanguageData>
