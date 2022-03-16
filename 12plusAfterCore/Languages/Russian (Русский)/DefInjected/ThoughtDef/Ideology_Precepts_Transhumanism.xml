@@ -1,12 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициальных переводов от LeveFUN и Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
-	Заодно сглажена ссылка на людей - для модов на другие расы.
+	Оригинал: смертельное старение -->
+	<AgeReversalDemanded.stages.horrific_aging.label>фатальное старение</AgeReversalDemanded.stages.horrific_aging.label>
+	<!-- Заодно сглажена ссылка на людей - для модов на другие расы.
 	Так то смерть бывает не только от старости.
-	Оригинал: Старение и смерть не имеют надо...Я вечен, как и должен быть усовершенствованный человек. -->
-	<AgeReversalReceived.stages.received_age_reversal.description>Время больше не имеет надо мной власти. Я {PAWN_gender ? вечен : вечна}, как и подобает настоящему трансгуманисту.</AgeReversalReceived.stages.received_age_reversal.description>
+	Оригинал: Старение и смерть не волнуют меня. Я могу...подобает сверхчеловеку. -->
+	<AgeReversalReceived.stages.received_age_reversal.description>Время больше не имеет надо мной власти. Я могу жить вечно, как и подобает венцу творения.</AgeReversalReceived.stages.received_age_reversal.description>
 
 </LanguageData>
