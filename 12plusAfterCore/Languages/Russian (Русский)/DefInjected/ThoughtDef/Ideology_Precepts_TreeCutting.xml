@@ -1,18 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику.
+
+	Оригиналы: срубил(а) дерево -->
+	<CutTree_Know_Disapproved.stages.cut_tree.label>срублено дерево</CutTree_Know_Disapproved.stages.cut_tree.label>
+	<CutTree_Know_Horrible.stages.cut_tree.label>срублено дерево</CutTree_Know_Horrible.stages.cut_tree.label>
+	<CutTree_Know_Prohibited.stages.cut_tree.label>срублено дерево</CutTree_Know_Prohibited.stages.cut_tree.label>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициальных переводов от LeveFUN и Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
 	Оригиналы: ...дерево погибло -->
-	<MinifiedTreeDied_Know_Disapproved_Mood.stages.extracted_tree_died.label>выкопанное дерево засохло</MinifiedTreeDied_Know_Disapproved_Mood.stages.extracted_tree_died.label>
-	<MinifiedTreeDied_Know_Horrible_Mood.stages.extracted_tree_died.label>выкопанное дерево засохло</MinifiedTreeDied_Know_Horrible_Mood.stages.extracted_tree_died.label>
-	<MinifiedTreeDied_Know_Prohibited_Mood.stages.extracted_tree_died.label>выкопанное дерево засохло</MinifiedTreeDied_Know_Prohibited_Mood.stages.extracted_tree_died.label>
-	<!-- Оригинал: ...земли и дали ему умереть. Плохо было так... -->
-	<MinifiedTreeDied_Know_Disapproved_Mood.stages.extracted_tree_died.description>Мы выкопали дерево из земли, но так и не успели посадить. Нехорошо так вредить природе.</MinifiedTreeDied_Know_Disapproved_Mood.stages.extracted_tree_died.description>
-	<!-- Оригинал: ...земли и дали ему умереть. Неправильно... -->
-	<MinifiedTreeDied_Know_Horrible_Mood.stages.extracted_tree_died.description>Мы выкопали дерево из земли, но так и не успели посадить. Неправильно так ранить природу.</MinifiedTreeDied_Know_Horrible_Mood.stages.extracted_tree_died.description>
-	<!-- Оригинал: ...земли, а затем дали ему умереть. Такие вещи, разрушающие... -->
-	<MinifiedTreeDied_Know_Prohibited_Mood.stages.extracted_tree_died.description>Мы выкопали дерево из земли, но так и не успели посадить. Такие поступки, разрушающие природу, никогда не должны совершаться.</MinifiedTreeDied_Know_Prohibited_Mood.stages.extracted_tree_died.description>
+	<MinifiedTreeDied_Know_Disapproved_Mood.stages.extracted_tree_died.label>извлечённое дерево засохло</MinifiedTreeDied_Know_Disapproved_Mood.stages.extracted_tree_died.label>
+	<MinifiedTreeDied_Know_Horrible_Mood.stages.extracted_tree_died.label>извлечённое дерево засохло</MinifiedTreeDied_Know_Horrible_Mood.stages.extracted_tree_died.label>
+	<MinifiedTreeDied_Know_Prohibited_Mood.stages.extracted_tree_died.label>извлечённое дерево засохло</MinifiedTreeDied_Know_Prohibited_Mood.stages.extracted_tree_died.label>
+	<!-- Оригинал: ...земли и позволили ему погибнуть. Губить природу — неправильно -->
+	<MinifiedTreeDied_Know_Disapproved_Mood.stages.extracted_tree_died.description>Мы извлекли дерево из земли, но так и не успели посадить. Вредить природе — неправильно.</MinifiedTreeDied_Know_Disapproved_Mood.stages.extracted_tree_died.description>
+	<!-- Оригинал: ...земли и позволили ему погибнуть. Губить природу — это... -->
+	<MinifiedTreeDied_Know_Horrible_Mood.stages.extracted_tree_died.description>Мы извлекли дерево из земли, но так и не успели посадить. Вредить природе — это ужасно.</MinifiedTreeDied_Know_Horrible_Mood.stages.extracted_tree_died.description>
+	<!-- Оригинал: ...земли и позволили ему погибнуть. Такое... -->
+	<MinifiedTreeDied_Know_Prohibited_Mood.stages.extracted_tree_died.description>Мы извлекли дерево из земли, но так и не успели посадить. Такое надругательство над природой недопустимо.</MinifiedTreeDied_Know_Prohibited_Mood.stages.extracted_tree_died.description>
 
 </LanguageData>
