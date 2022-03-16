@@ -76,13 +76,15 @@
 	<ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.label>плохо себя ведёт</ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.label>
 	<ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.label>плохо себя ведёт</ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.label>
 	<ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.label>плохо себя ведёт</ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.label>
-	<!-- Оригинал: {OTHERPAWN_gender ? разделал : разделала} человека -->
-	<ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.labelSocial>плохо себя ведёт</ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.labelSocial>
+	<!-- Пробел заменён на неразрывный, т.к. одинаковое название с label вызывало красную ошибку.
+	Оригинал: {OTHERPAWN_gender ? разделал : разделала} человека -->
+	<ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.labelSocial>плохо себя ведёт</ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.labelSocial>
 	<!-- Оригинал: Один из нас разделал человека. Я считаю, что это неправильно. -->
 	<ButcheredHuman_Know_Disapproved.stages.we_butchered_humanlike.description>Наше поселение подобно какой-то свалке. Это напрягает.</ButcheredHuman_Know_Disapproved.stages.we_butchered_humanlike.description>
-	<!-- Оригиналы: {PAWN_gender ? разделал : разделала} человека -->
-	<ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.labelSocial>плохо себя ведёт</ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.labelSocial>
-	<ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.labelSocial>плохо себя ведёт</ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.labelSocial>
+	<!-- Пробел заменён на неразрывный, т.к. одинаковое название с label вызывало красную ошибку.
+	Оригиналы: {PAWN_gender ? разделал : разделала} человека -->
+	<ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.labelSocial>плохо себя ведёт</ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.labelSocial>
+	<ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.labelSocial>плохо себя ведёт</ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.labelSocial>
 	<!-- Оригинал: Один из нас разделал человека. Это ужасно. -->
 	<ButcheredHuman_Know_Horrible.stages.we_butchered_humanlike.description>Наше поселение подобно свалке! Это ужасно, как мы до сих пор не переломали ноги?</ButcheredHuman_Know_Horrible.stages.we_butchered_humanlike.description>
 
