@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
@@ -25,7 +25,7 @@
   </EnslaveAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: try to reduce will -->
-  <ReduceWill.label>попытка снизить волю</ReduceWill.label>
+  <ReduceWill.label>попытка ослабить волю</ReduceWill.label>
 
   <!-- Оригинал:
     ...
