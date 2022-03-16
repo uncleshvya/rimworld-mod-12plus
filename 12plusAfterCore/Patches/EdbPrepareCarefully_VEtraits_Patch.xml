@@ -5,7 +5,7 @@ Copyright (c) Oskar Potocki
 -->
 
 <Patch>
-	<Operation MayRequire="EdB.PrepareCarefully" Class="PatchOperationSequence">
+	<Operation MayRequire="VanillaExpanded.VanillaTraitsExpanded" Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
 			<!-- Трейты в ванили жёстко прописаны - так просто их не удалить.
