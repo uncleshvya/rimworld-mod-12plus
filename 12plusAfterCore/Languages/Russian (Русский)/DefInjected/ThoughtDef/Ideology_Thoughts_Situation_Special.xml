@@ -1,10 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициальных переводов от LeveFUN и Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
-	Оригинал: ...говорят, умирают и рождаются одновременно... -->
-	<PsychicArchotechEmanator_Grand.stages.archotech_emanation-0.description>Это заставляет меня воспринимать так много. Безглазое знание абсолютного существования, все умы говорят, исчезают и появляются одновременно. Трудно не потерять связь с самим собой.</PsychicArchotechEmanator_Grand.stages.archotech_emanation-0.description>
+	Оригинал: ...говорят, умирают и рождаются... -->
+	<PsychicArchotechEmanator_Grand.stages.archotech_emanation-0.description>Я вижу, слышу и ощущаю слишком много. Слепое знание абсолютной сущности, множество разумов говорят, умирают и рождаются одновременно. Как бы не потерять связь с {PAWN_gender ? самим : самой} собой...</PsychicArchotechEmanator_Grand.stages.archotech_emanation-0.description>
 
 </LanguageData>
