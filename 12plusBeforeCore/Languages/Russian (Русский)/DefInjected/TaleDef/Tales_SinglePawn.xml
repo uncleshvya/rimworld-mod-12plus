@@ -1,35 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- Исправление согласно концепции «12+».
+	<!-- Исправление согласно концепции «12+».
 
-  Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
+	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
 
-  Оригинал: съедено сырое человеческое мясо -->
-  <AteRawHumanlikeMeat.label>съедено мумиё</AteRawHumanlikeMeat.label>
-  <!-- Оригинал:
-  <AteRawHumanlikeMeat.rulePack.rulesStrings>
-    <li>tale_noun->как [PAWN_nameDef] ест человеческое мясо</li>
-    <li>image->, как [PAWN_nameFull][circumstance_phrase] [eat_gerund] мясо, определённо принадлежащее гуманоиду</li>
-    <li>image->, как [PAWN_nameFull][circumstance_phrase] [eat_gerund] мясо с руки, похожей на человеческую</li>
-    <li>image->, как [PAWN_nameFull][circumstance_phrase] [eat_gerund] мясо человека</li>
-    <li>eat_gerund->поедает</li>
-    ...
-    <li>circumstance_phrase->[empty] целенаправленно</li>
-    <li>circumstance_phrase->[empty] без единого признака стыда</li>
-    <li>circumstance_phrase->[empty] с чувством стыда</li>
-    <li>circumstance_phrase->, пока другие молча смотрят,</li>
-    <li>circumstance_phrase->[empty] со смаком</li>
-    <li>circumstance_phrase->, бешено, словно [PAWN_possessive] жизнь зависит от этого,</li>
-    <li>desc_sentence->Всё лицо [PAWN_nameDef] покрыто кровью.</li>
-    <li>desc_sentence->[PAWN_nameDef] облизывает свои пальцы.</li>
-    <li>desc_sentence->[PAWN_possessive] лицо и руки измазаны кровью и кусками внутренностей.</li>
-    <li>desc_sentence->[PAWN_nameDef] в середине огромной лужи крови.</li>
-    <li>desc_sentence->[PAWN_nameDef] смотрит на кого-то неподалёку с голодным блеском в глазах.</li>
-    <li>desc_sentence->Мясо блестит и выглядит очень сочным.</li>
-    <li>desc_sentence->Всё [PAWN_possessive] тело облеплено кусками мяса.</li>
-  </AteRawHumanlikeMeat.rulePack.rulesStrings>
-  -->
+	Оригинал: съедено сырое человеческое мясо -->
+	<AteRawHumanlikeMeat.label>съедено мумиё</AteRawHumanlikeMeat.label>
+	<!-- Оригинал:
+	...
+	<li>tale_noun->как [PAWN_nameDef] ест человеческое мясо</li>
+	<li>image...[eat_gerund] мясо, определённо принадлежащее гуманоиду</li>
+	<li>image...[eat_gerund] мясо с руки, похожей на человеческую</li>
+	<li>image...[eat_gerund] мясо человека</li>
+	...
+	<li>...покрыто кровью.</li>
+	...
+	<li>...измазаны кровью и кусками внутренностей.</li>
+	<li>...лужи крови.</li>
+	<li>...смотрит на кого-то неподалёку с голодным...</li>
+	<li>desc_sentence->Мясо блестит...очень сочным.</li>
+	<li>...облеплено кусками мяса.</li>
+	...
+	-->
   <AteRawHumanlikeMeat.rulePack.rulesStrings>
     <li>tale_noun->как [PAWN_nameDef] ест мумиё</li>
     <li>image->, как [PAWN_nameFull][circumstance_phrase] [eat_gerund] мумиё, определённо сделанное из экскрементов</li>
@@ -56,11 +49,10 @@
     <li>desc_sentence->Мумиё блестит и выглядит очень полезным.</li>
     <li>desc_sentence->Всё [PAWN_possessive] тело облеплено кусочками мумиё.</li>
   </AteRawHumanlikeMeat.rulePack.rulesStrings>
-
   <!-- Оригинал: разделано человеческое тело -->
   <ButcheredHumanlikeCorpse.label>бардак вокруг</ButcheredHumanlikeCorpse.label>
 
-  <!-- Эти полфайла без изменений, но необходимо оставить, иначе грамматика страдает:
+	<!-- Эти полфайла без изменений, но необходимо оставить, иначе грамматика страдает:
 
   EN: art crafted -->
   <CraftedArt.label>создан предмет искусства</CraftedArt.label>
@@ -118,7 +110,6 @@
     <li>title_sentence->На этом предмете красуется название: «[THING_title]».</li>
     <li>title_sentence->Название, «[THING_title]», висит сзади.</li>
   </CraftedArt.rulePack.rulesStrings>
-  
   <!-- EN: drunk -->
   <Drunk.label>загул</Drunk.label>
   <!-- EN:
@@ -184,7 +175,6 @@
     <li>desc_sentence->У н[PAWN_possessive] на одной ноге нет ботинка.</li>
     <li>desc_sentence->[PAWN_possessive] волосы растрёпаны.</li>
   </Drunk.rulePack.rulesStrings>
-  
   <!-- EN: research project finished -->
   <FinishedResearchProject.label>завершение исследования</FinishedResearchProject.label>
   <!-- EN:
@@ -215,7 +205,6 @@
     <li>desc_sentence->[PAWN_possessive] окружают горы различных инструментов и аппаратов.</li>
     <li>desc_sentence->[PAWN_nameDef] смотрит на своё открытие с благоговейным трепетом.</li>
   </FinishedResearchProject.rulePack.rulesStrings>
-  
   <!-- EN: landed in pod -->
   <LandedInPod.label>приземление в спасательной капсуле</LandedInPod.label>
   <!-- EN:
@@ -264,23 +253,18 @@
     <li>desc_sentence->На фоне виднеется [TerrainFeature].</li>
     <li>desc_sentence->[Outlander] молча наблюдает за происходящим издалека.</li>
   </LandedInPod.rulePack.rulesStrings>
-  
   <!-- EN: berserk rage -->
   <MentalStateBerserk.label>потеря рассудка</MentalStateBerserk.label>
 
-  <!-- Исправление согласно концепции «12+».
+	<!-- Исправление согласно концепции «12+».
 
-  Оригинал:
-    ...
-    <li>desc_sentence->[PAWN_pronoun] дрожит от неконтролируемой ярости.</li>
-    <li>desc_sentence->[PAWN_possessive] зубы обнажаются в смертоносном оскале.</li>
-    <li>desc_sentence->в [PAWN_possessive] замерших глазах плещется безумие.</li>
-    ...
-    <li>desc_sentence->Над [PAWN_possessive] головой символически изображается [Animal].</li>
-    <li>desc_sentence->В [PAWN_possessive] глазах виден убийственный блеск.</li>
-    <li>desc_sentence->Всё [PAWN_possessive] тело дрожит от ненависти.</li>
-    ...
-  -->
+	Оригинал:
+	...
+	<li>...обнажаются в смертоносном оскале.</li>
+	...
+	<li>...виден убийственный блеск.</li>
+	...
+	-->
   <MentalStateBerserk.rulePack.rulesStrings>
     <li>tale_noun->как [PAWN_nameDef] теряет рассудок</li>
     <li>image->, как [PAWN_nameFull] входит в ярость[circumstance_phrase]</li>
@@ -307,7 +291,7 @@
     <li>desc_sentence->Одинокая слеза скатывается по [PAWN_possessive] лицу.</li>
   </MentalStateBerserk.rulePack.rulesStrings>
 
-  <!-- Эта треть файла без изменений, но необходимо оставить, иначе грамматика страдает:
+	<!-- Эта треть файла без изменений, но необходимо оставить, иначе грамматика страдает:
 
   EN: gave up -->
   <MentalStateGaveUp.label>отчаяние</MentalStateGaveUp.label>
@@ -353,7 +337,6 @@
     <li>desc_sentence->[PAWN_pronoun], кажется, не замечает, что ходит без одного ботинка.</li>
     <li>desc_sentence->[PAWN_possessive] волосы растрёпаны.</li>
   </MentalStateGaveUp.rulePack.rulesStrings>
-  
   <!-- EN: struck mineable -->
   <StruckMineable.label>добыт ресурс</StruckMineable.label>
   <!-- EN:
@@ -388,7 +371,6 @@
     <li>desc_sentence->[PAWN_possessive] покрывает слой пота и грязи.</li>
     <li>desc_sentence->[PAWN_possessive] лицо покрыто потом и грязью.</li>
   </StruckMineable.rulePack.rulesStrings>
-  
   <!-- EN: vomited -->
   <Vomited.label>рвота</Vomited.label>
   <!-- EN:
@@ -429,7 +411,6 @@
     <li>desc_sentence->[PAWN_possessive] окружает мастерски изображённый ореол грязи.</li>
     <li>desc_sentence->На фоне [Animal] слизывает с земли рвоту.</li>
   </Vomited.rulePack.rulesStrings>
-  
   <!-- EN: walked naked -->
   <WalkedNaked.label>поход голышом</WalkedNaked.label>
   <!-- EN:
@@ -482,18 +463,16 @@
     <li>desc_sentence->[PAWN_nameDef] тяжело дышит без явных на то причин.</li>
     <li>desc_sentence->[PAWN_nameDef] гладит куст.</li>
   </WalkedNaked.rulePack.rulesStrings>
-  
   <!-- EN: on fire -->
   <WasOnFire.label>огонь</WasOnFire.label>
 
-  <!-- Исправление согласно концепции «12+».
+	<!-- Исправление согласно концепции «12+».
 
-  Оригинал:
-    ...
-    <li>desc_sentence->Над [PAWN_nameDef] поднимается струйка дыма.</li>
-    <li>desc_sentence->Художник мастерски изображает [PAWN_possessive] с выражением лица, характерным для мёртвого человека.</li>
-  </WasOnFire.rulePack.rulesStrings>
-  -->
+	Оригинал:
+	...
+	<li>...для мёртвого человека.</li>
+	...
+	-->
   <WasOnFire.rulePack.rulesStrings>
     <li>tale_noun->как [PAWN_nameDef] загорается</li>
     <li>image->, как [PAWN_nameFull] яростно борется с огнём, охватившим [PAWN_possessive] тело[circumstance_phrase]</li>
