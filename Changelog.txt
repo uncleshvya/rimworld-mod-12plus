@@ -52,7 +52,7 @@ For English, scroll down.
 "VEfactionsInsectoids_";
 "VEfactionsMedieval_";
 "VEfactionsSettlers_";
-"VEframework_";
+"VEfactionsFramework_";
 "VEfurniturePower_";
 "VEfurnitureProduction_";
 "VEfurniturePropsDecor_";
@@ -295,7 +295,7 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "VEfactionsInsectoids_";
 "VEfactionsMedieval_";
 "VEfactionsSettlers_";
-"VEframework_";
+"VEfactionsFramework_";
 "VEfurniturePower_";
 "VEfurnitureProduction_";
 "VEfurniturePropsDecor_";
