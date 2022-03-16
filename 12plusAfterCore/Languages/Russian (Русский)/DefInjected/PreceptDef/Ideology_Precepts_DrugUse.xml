@@ -1,19 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициальных переводов от LeveFUN и Sestrenka, в стиле ванили. На момент проведения работ, этот файл в ванили не был переведён.
-	Оригинал: Приниял слабые наркотики -->
-	<DrugUse_MedicalOnly.comps.2.description>Принята «химия» для развлечения</DrugUse_MedicalOnly.comps.2.description>
-	<!-- Оригиналы: Ввел сильный наркотик -->
-	<DrugUse_MedicalOnly.comps.5.description>Принята сильнодействующая «химия»</DrugUse_MedicalOnly.comps.5.description>
-	<DrugUse_MedicalOrSocial.comps.2.description>Принята сильнодействующая «химия»</DrugUse_MedicalOrSocial.comps.2.description>
-	<DrugUse_MedicalOrSocial.comps.5.description>Принята сильнодействующая «химия»</DrugUse_MedicalOrSocial.comps.5.description>
-	<DrugUse_Prohibited.comps.5.description>Принята сильнодействующая «химия»</DrugUse_Prohibited.comps.5.description>
-	<!-- Оригинал: Покурить и попить алкоголь - это нормально, особенно с друзьями, но отравлять организм сильнодействующими химическими веществами - неправильно. -->
-	<DrugUse_MedicalOrSocial.description>Употребить «химию» при безопасном уровне толерантности — допустимо, но если есть шанс получить зависимость либо передозировку — это неоправданный риск.</DrugUse_MedicalOrSocial.description>
-	<!-- Оригинал: Употребил наркотик -->
-	<DrugUse_Prohibited.comps.0.description>Принята «химия»</DrugUse_Prohibited.comps.0.description>
+	Оригинал: Принимать лёгкие наркотики -->
+	<DrugUse_MedicalOnly.comps.2.description>Принимать «химию» для развлечения</DrugUse_MedicalOnly.comps.2.description>
+	<!-- Оригинал: Назначать лёгкие наркотики -->
+	<DrugUse_MedicalOnly.comps.5.description>Назначать «химию» для развлечения</DrugUse_MedicalOnly.comps.5.description>
+	<!-- Оригинал: ...или рекреации -->
+	<DrugUse_MedicalOrSocial.label>только в медицинских целях или для развлечения</DrugUse_MedicalOrSocial.label>
+	<!-- Оригинал: Выпить пива с друзьями или выкурить сигарету — нормально, но накачивать свой организм тяжёлыми наркотиками — неправильно. -->
+	<DrugUse_MedicalOrSocial.description>Употребить «химию» при безопасном уровне толерантности — допустимо, но если есть шанс получить зависимость либо передозировку — неоправданный риск.</DrugUse_MedicalOrSocial.description>
+	<!-- Оригинал: Принимать тяжёлые наркотики -->
+	<DrugUse_MedicalOrSocial.comps.2.description>Принимать сильнодействующую «химию»</DrugUse_MedicalOrSocial.comps.2.description>
+	<!-- Оригинал: Назначать тяжёлые наркотики -->
+	<DrugUse_MedicalOrSocial.comps.5.description>Назначать сильнодействующую «химию»</DrugUse_MedicalOrSocial.comps.5.description>
+	<!-- Оригинал: Принимать наркотики -->
+	<DrugUse_Prohibited.comps.0.description>Принимать «химию»</DrugUse_Prohibited.comps.0.description>
+	<!-- Оригинал: Назначать наркотики -->
+	<DrugUse_Prohibited.comps.5.description>Назначать «химию»</DrugUse_Prohibited.comps.5.description>
 
 </LanguageData>
