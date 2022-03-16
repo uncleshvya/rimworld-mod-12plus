@@ -7,10 +7,10 @@
 	Исправление неофициального перевода от Sestrenka. На момент проведения работ, официальный перевод ещё не был полностью закончен. Перезаписываем значение переменной.
 	Оригинал: четыре или меньше -->
 	<SpouseCount_Female_MaxFour.label>четыре супруга или меньше</SpouseCount_Female_MaxFour.label>
-	<!-- Исправление неофициального перевода от Sestrenka.
+	<!-- Исправление перевода от Sestrenka.
 	Оригинал: три или меньше -->
 	<SpouseCount_Female_MaxThree.label>три супруга или меньше</SpouseCount_Female_MaxThree.label>
-	<!-- Исправление неофициального перевода от Sestrenka.
+	<!-- Исправление перевода от Sestrenka.
 	Оригинал: два или меньше -->
 	<SpouseCount_Female_MaxTwo.label>два супруга или меньше</SpouseCount_Female_MaxTwo.label>
 	<!-- Оригинал: четыре супруга или... -->
