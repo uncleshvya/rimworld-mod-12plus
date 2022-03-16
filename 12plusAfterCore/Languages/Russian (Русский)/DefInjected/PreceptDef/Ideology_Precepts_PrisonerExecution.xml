@@ -1,14 +1,28 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициальных переводов от LeveFUN и Sestrenka, в стиле ванили. На момент проведения работ, этот файл в ванили не был переведён.
-	Оригинал: ...за смерть заключенного -->
-	<Execution_Abhorrent.comps.3.description>Ответственный за казнь заключённого</Execution_Abhorrent.comps.3.description>
-	<Execution_Horrible.comps.3.description>Ответственный за казнь заключённого</Execution_Horrible.comps.3.description>
-	<Execution_Required.comps.3.description>Ответственный за казнь заключённого</Execution_Required.comps.3.description>
-	<!-- Оригинал: Ответственен за смерть невинного заключенного -->
-	<Execution_HorribleIfInnocent.comps.3.description>Ответственный за казнь невиновного заключённого</Execution_HorribleIfInnocent.comps.3.description>
+	Заодно исправлена неточность, сообщите разработчику ванили.
+	Оригинал: ...казнь заключённого — это... -->
+	<Execution_Abhorrent.description>Независимо от обстоятельств, казнь пленника — это отвратительный поступок.</Execution_Abhorrent.description>
+	<!-- Оригиналы: Казнил заключённого -->
+	<Execution_Abhorrent.comps.2.description>Казнь пленника</Execution_Abhorrent.comps.2.description>
+	<Execution_Horrible.comps.2.description>Казнь пленника</Execution_Horrible.comps.2.description>
+	<!-- Оригинал: Ответственный за смерть заключённого -->
+	<Execution_Abhorrent.comps.3.description>Ответственность за казнь пленника</Execution_Abhorrent.comps.3.description>
+	<Execution_Horrible.comps.3.description>Ответственность за казнь пленника</Execution_Horrible.comps.3.description>
+	<!-- Оригинал: Казнь заключённых допустима... -->
+	<Execution_DontCare.description>Казнь пленников допустима независимо от того, виновны они или невиновны.</Execution_DontCare.description>
+	<!-- Оригинал: ...казнь заключённого — ужасный... -->
+	<Execution_Horrible.description>Независимо от обстоятельств, казнь пленника — ужасный поступок.</Execution_Horrible.description>
+	<!-- Оригинал: ...казнил колониста -->
+	<Execution_Horrible.comps.5.description>Кто-то казнил поселенца</Execution_Horrible.comps.5.description>
+	<!-- Оригинал: ...казнил заключённого -->
+	<Execution_Horrible.comps.7.description>Кто-то казнил пленника</Execution_Horrible.comps.7.description>
+	<!-- Оригинал: Ответственный за смерть невиновного... -->
+	<Execution_HorribleIfInnocent.comps.3.description>Ответственность за казнь невиновного пленника</Execution_HorribleIfInnocent.comps.3.description>
+	<!-- Оригинал: Ответственный за смерть пленника -->
+	<Execution_Required.comps.3.description>Ответственность за казнь пленника</Execution_Required.comps.3.description>
 
 </LanguageData>
