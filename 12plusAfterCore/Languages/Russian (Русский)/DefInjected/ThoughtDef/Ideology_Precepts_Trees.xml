@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: ...не губили деревья... -->
+	<TreeDensityReduced.stages.healthy_trees.description>За последний квартал мы почти не рубили деревья. Гармония с деревьями — основа нормальной жизни.</TreeDensityReduced.stages.healthy_trees.description>
+	<!-- Оригинал: ...мы погубили несколько... -->
+	<TreeDensityReduced.stages.trees_disturbed.description>За последний квартал мы срубили несколько деревьев. Наверняка по-другому было никак, но это всё равно тревожно.</TreeDensityReduced.stages.trees_disturbed.description>
+	<!-- Оригинал: ...мы погубили много... -->
+	<TreeDensityReduced.stages.trees_defaced.description>За последний квартал мы срубили много деревьев. Вряд ли это было необходимо.</TreeDensityReduced.stages.trees_defaced.description>
+	<!-- Оригинал: ...мы погубили очень... -->
+	<TreeDensityReduced.stages.trees_damaged.description>За последний квартал мы срубили очень много деревьев. Такое надругательство точно не было необходимо.</TreeDensityReduced.stages.trees_damaged.description>
+	<!-- Оригинал: ...мы погубили слишком... -->
+	<TreeDensityReduced.stages.trees_harmed.description>За последний квартал мы срубили слишком много деревьев. Это никуда не годится.</TreeDensityReduced.stages.trees_harmed.description>
+	<!-- Оригинал: деревья загублены -->
+	<TreeDensityReduced.stages.trees_defiled.label>деревья вырублены</TreeDensityReduced.stages.trees_defiled.label>
+	<!-- Оригинал: ...мы погубили непозволительно... -->
+	<TreeDensityReduced.stages.trees_defiled.description>За последний квартал мы срубили непозволительно много деревьев. Тяжёлая вина лежит на всех нас.</TreeDensityReduced.stages.trees_defiled.description>
+	<!-- Оригинал: ...мы погубили огромное...их предсмертные вопли. -->
+	<TreeDensityReduced.stages.trees_wrecked.description>За последний квартал мы срубили огромное количество деревьев. Даже сейчас я слышу их крики боли.</TreeDensityReduced.stages.trees_wrecked.description>
+	<!-- Оригинал: ...квартал мы погубили ужасающее... -->
+	<TreeDensityReduced.stages.trees_ravaged.description>За последний квартал мы срубили ужасающее количество деревьев. Мы — чёрное пятно на нашей вселенной.</TreeDensityReduced.stages.trees_ravaged.description>
+
+</LanguageData>
