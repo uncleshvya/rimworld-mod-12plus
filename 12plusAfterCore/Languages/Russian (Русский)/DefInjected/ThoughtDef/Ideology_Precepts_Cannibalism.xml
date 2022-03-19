@@ -50,8 +50,9 @@
 	<NoRecentHumanMeat_RequiredStrong.stages.want_human_meat.label>хочет мумиё</NoRecentHumanMeat_RequiredStrong.stages.want_human_meat.label>
 	<!-- Оригинал: ...{PAWN_gender ? ел : ела} человечины, и мне... -->
 	<NoRecentHumanMeat_Preferred.stages.want_human_meat.description>Я долго не {PAWN_gender ? ел : ела} мумиё, и мне это не нравится.</NoRecentHumanMeat_Preferred.stages.want_human_meat.description>
-	<!-- Оригинал: ...{PAWN_gender ? ел : ела} человечины. Доколе! -->
-	<NoRecentHumanMeat_RequiredRavenous.stages.want_human_meat.description>Я уже чёрт-те сколько времени не {PAWN_gender ? ел : ела} мумиё. Доколе!</NoRecentHumanMeat_RequiredRavenous.stages.want_human_meat.description>
+	<!-- Это вопрос.
+	Оригинал: ...{PAWN_gender ? ел : ела} человечины. Доколе! -->
+	<NoRecentHumanMeat_RequiredRavenous.stages.want_human_meat.description>Я уже чёрт-те сколько времени не {PAWN_gender ? ел : ела} мумиё. Доколе?!</NoRecentHumanMeat_RequiredRavenous.stages.want_human_meat.description>
 	<!-- Оригинал: ...{PAWN_gender ? ел : ела} человечины, а есть её надо... -->
 	<NoRecentHumanMeat_RequiredStrong.stages.want_human_meat.description>Я уже слишком долго не {PAWN_gender ? ел : ела} мумиё, а есть его надо регулярно!</NoRecentHumanMeat_RequiredStrong.stages.want_human_meat.description>
 
