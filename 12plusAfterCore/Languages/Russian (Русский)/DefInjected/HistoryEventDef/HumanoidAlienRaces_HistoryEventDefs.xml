@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	EN: share bed with alien -->
+	<HAR_AlienDating_SharedBed.label>разделена постель с инопланетным существом</HAR_AlienDating_SharedBed.label>
+	<!-- EN: in a relationship with alien -->
+	<HAR_AlienDating_Dating.label>состоит в отношениях с инопланетным существом</HAR_AlienDating_Dating.label>
+	<!-- EN: sold slave -->
+	<HAR_Alien_SoldSlave.label>продан раб-инопланетянин</HAR_Alien_SoldSlave.label>
+	<!-- EN: enslaved prisoner -->
+	<HAR_Alien_EnslavedPrisoner.label>порабощён пленник-инопланетянин</HAR_Alien_EnslavedPrisoner.label>
+	<!-- EN: enslaved prisoner not previously enslaved -->
+	<HAR_Alien_EnslavedPrisonerNotPreviouslyEnslaved.label>порабощён инопланетянин</HAR_Alien_EnslavedPrisonerNotPreviouslyEnslaved.label>
+
+	<!-- Исправление согласно концепции «12+».
+
+	EN: ate alien meat -->
+	<HAR_AteAlienMeat.label>съедена инопланетная пища</HAR_AteAlienMeat.label>
+	<!-- EN: butchered alien -->
+	<HAR_ButcheredAlien.label>приготовлена инопланетная пища</HAR_ButcheredAlien.label>
+	<!-- EN: ate non-alien food -->
+	<HAR_AteNonAlienFood.label>съедена пища без иноплатеных ингредиентов</HAR_AteNonAlienFood.label>
+	<!-- EN: begin romance with alien -->
+	<HAR_AlienDating_BeginRomance.label>дружба с инопланетянами</HAR_AlienDating_BeginRomance.label>
+
+</LanguageData>
