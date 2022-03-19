@@ -14,7 +14,8 @@
 	<!-- Название следует синхронизировать с ванилью.
 	Оригинал: Заключенные -->
 	<Numbers_Prisoners.label>Пленники</Numbers_Prisoners.label>
-	<!-- Оригинал: Животные -->
+	<!-- Заодно сглажена ссылка на животных - для модов на неявно живых существ.
+	Оригинал: Животные -->
 	<Numbers_Animals.label>Питомцы</Numbers_Animals.label>
 	<!-- Оригинал: Дикие животные -->
 	<Numbers_WildAnimals.label>Фауна</Numbers_WildAnimals.label>
