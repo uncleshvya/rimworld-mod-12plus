@@ -18,6 +18,8 @@
 	<Numbers_Meditation.label>Виды медитации</Numbers_Meditation.label>
 	<!-- EN: allowed area -->
 	<Numbers_Areas.label>Разрешённая область</Numbers_Areas.label>
+	<!-- EN: Bad hediffs -->
+	<Numbers_HediffBadList.headerTip>Отличия (неудобные)</Numbers_HediffBadList.headerTip>
 
 	<!-- Исправлена неточность, сообщите разработчику.
 
