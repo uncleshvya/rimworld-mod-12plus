@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	EN: dating aliens -->
+	<HAR_AlienDating.label>отношения с инопланетянами</HAR_AlienDating.label>
+	<!-- EN: alien races -->
+	<HAR_AlienRaces.label>инопланетяне</HAR_AlienRaces.label>
+	<!-- EN: alien slavery -->
+	<HAR_AlienSlavery.label>порабощение инопланетян</HAR_AlienSlavery.label>
+
+	<!-- Исправление согласно концепции «12+».
+
+	EN: eating aliens -->
+	<HAR_EatingAliens.label>инопланетная пища</HAR_EatingAliens.label>
+
+</LanguageData>
