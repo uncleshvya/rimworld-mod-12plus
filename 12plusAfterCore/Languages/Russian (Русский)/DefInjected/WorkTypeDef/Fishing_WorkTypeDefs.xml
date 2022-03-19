@@ -7,7 +7,7 @@
 	EN: Catch fish with a fishing rod. -->
 	<Fishing.description>Рыбаки ловят водную живность на удочку.</Fishing.description>
 	<!-- EN: fishing -->
-	<Fishing.gerundLabel>Рыбачить</Fishing.gerundLabel>
+	<Fishing.gerundLabel>Удить рыбу</Fishing.gerundLabel>
 	<!-- EN: Fish -->
 	<Fishing.labelShort>Рыбак</Fishing.labelShort>
 	<!-- EN: Fisher -->
