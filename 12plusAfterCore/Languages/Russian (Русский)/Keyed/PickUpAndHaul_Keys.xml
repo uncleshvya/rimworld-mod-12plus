@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: Allow putting corpses into inventory -->
+	<PUAH.allowCorpses>Расрешить складывать тела в инвентарь</PUAH.allowCorpses>
+	<!-- Заодно исправлена неточность, сообщите разработчику.
+	Перетаскивать могут не только существа с руками.
+	Оригинал: Default Off. Only carry those directly in hands instead. -->
+	<PUAH.allowCorpsesTooltip>По умолчанию отключено, и тела перетаскиваются по одному.</PUAH.allowCorpsesTooltip>
+
+</LanguageData>
