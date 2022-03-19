@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	Исправлен конфликт с одноимёнными трейтами.
+	Слово "инопланетянам" не влезало в интерфейс.
+	EN: xenophilia -->
+	<HAR_Xenophilia.label>симпатия к иномирянам</HAR_Xenophilia.label>
+	<!-- EN: Relations with aliens are to be encouraged and embraced, to be fearful or hostile towards them only proves one's simplemindedness. -->
+	<HAR_Xenophilia.description>Отношения с инопланетянами следует поощрять и поддерживать, а боязнь или враждебность по отношению к расам с других планет свидетельствует об умственной неполноценности.</HAR_Xenophilia.description>
+	<!-- Слово "инопланетянам" не влезало в интерфейс. Заодно повышена экспрессия.
+	EN: xenophobia -->
+	<HAR_Xenophobia.label>ненависть к пришельцам</HAR_Xenophobia.label>
+
+	<!-- Исправление согласно концепции «12+».
+
+	EN: Suffer not the alien to live, their mere existence is a threat to ours. Species of such are better as our servants or our sustenance. -->
+	<HAR_Xenophobia.description>Эти мерзкие инопланетные животные из-за какого-то выверта эволюции освоили речь, что только усиливает наше отвращение к ним. Максимум, на что годятся эти беглецы из зоопарка — быть прислугой.</HAR_Xenophobia.description>
+
+</LanguageData>
