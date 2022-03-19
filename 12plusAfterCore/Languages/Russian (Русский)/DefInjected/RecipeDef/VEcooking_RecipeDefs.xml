@@ -4,25 +4,7 @@
 	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
 
 	Все описания следует синхронизировать с папкой ThingDef.
-	EN: mix condiments into kibble -->
-	<VCE_ChopCondiments.label>сделать комбикорм из пряностей</VCE_ChopCondiments.label>
-	<!-- EN: Mix a batch of different condiments into a barely edible organic mass that can be fed to animals. Still better than supermarket pet food. -->
-	<VCE_ChopCondiments.description>Смешать разные пряности в однородную массу. На вкус она ужасна, но её можно скормить животным в качестве пищевой добавки.</VCE_ChopCondiments.description>
-	<!-- EN: Mixing condiments into kibble. -->
-	<VCE_ChopCondiments.jobString>делает комбикорм из пряностей</VCE_ChopCondiments.jobString>
-	<!-- EN: make salt -->
-	<VCE_MakeSalt.label>добыть соль из каменного обломка</VCE_MakeSalt.label>
-	<!-- EN: Grind and process natural stone to extract edible salts from within stone chunks.\n\nUses the Cooking skill. -->
-	<VCE_MakeSalt.description>Раздробить обломки в поисках каменной соли. Полученные крупицы очистить и перемолоть для использования в кулинарии.</VCE_MakeSalt.description>
-	<!-- EN: Making salt. -->
-	<VCE_MakeSalt.jobString>добывает соль</VCE_MakeSalt.jobString>
-	<!-- EN: make salt (blocks) -->
-	<VCE_MakeSaltfromBlocks.label>добыть соль из каменных блоков</VCE_MakeSaltfromBlocks.label>
-	<!-- EN: Grind and process natural stone to extract edible salts from within stone blocks.\n\nUses the Cooking skill. -->
-	<VCE_MakeSaltfromBlocks.description>Раздробить блоки в поисках каменной соли. Полученные крупицы очистить и перемолоть для использования в кулинарии.</VCE_MakeSaltfromBlocks.description>
-	<!-- EN: Making salt from blocks. -->
-	<VCE_MakeSaltfromBlocks.jobString>добывает соль</VCE_MakeSaltfromBlocks.jobString>
-	<!-- Градация вкусных блюд расширилась. Подправляем ваниль.
+	Градация вкусных блюд расширилась. Подправляем ваниль.
 	Мясо+Растения.
 	Оригинал: приготовить вкусное блюдо -->
 	<CookMealFine.label>приготовить отличное блюдо</CookMealFine.label>
@@ -107,14 +89,32 @@
 	<!-- Оригинал: Приготовить шикарную выпечку. -->
 	<VCE_CookBakeLavishBulk.description>Приготовить сложную изысканную выпечку с начинкой из ингредиентов растительного и животного происхождения. Часть продуктов уйдёт впустую.</VCE_CookBakeLavishBulk.description>
 	<!-- В списке рецептов слова словно сливались: простое, превосходное, приготовить.
-	Оригинал: приготовить превосходную выпечку x8 -->
+	Оригинал: приготовить превосходную выпечку x2 -->
 	<VCE_CookBakeGourmet.label>приготовить эксклюзивную выпечку</VCE_CookBakeGourmet.label>
 	<!-- Добавлены намёки на трудозатратность и целесообразность.
 	Оригинал: Приготовить превосходную выпечку. Вершина кулинарного произведения искусства. -->
 	<VCE_CookBakeGourmet.description>Испечь уникальный комплект из двух мучных изделий. Это вершина кулинарного искусства, над каждым экземпляром шеф-повар трудится вручную, не считаясь с количеством продуктов и потраченным временем. Но результат впечатлит даже самого высокопоставленного клиента.</VCE_CookBakeGourmet.description>
-	<!-- Оригинал: готовит превосходную выпечку x8 -->
+	<!-- Оригинал: готовит превосходную выпечку x2 -->
 	<VCE_CookBakeGourmet.jobString>готовит эксклюзивную выпечку</VCE_CookBakeGourmet.jobString>
 
+	<!-- Оригинал: смешать пищевые добавки в комбикорм -->
+	<VCE_ChopCondiments.label>сделать комбикорм из пищевых добавок</VCE_ChopCondiments.label>
+	<!-- Оригинал: Смешать разнообразные пищевые добавки в едва съедобную органическую массу. -->
+	<VCE_ChopCondiments.description>Смешать разные пряности в однородную массу. На вкус она ужасна, но её можно скормить животным в качестве пищевой добавки.</VCE_ChopCondiments.description>
+	<!-- Оригинал: смешивает пищевые добавки в комбикорм. -->
+	<VCE_ChopCondiments.jobString>делает комбикорм из пищевых добавок</VCE_ChopCondiments.jobString>
+	<!-- Оригинал: изготовить соль -->
+	<VCE_MakeSalt.label>добыть соль из каменного обломка</VCE_MakeSalt.label>
+	<!-- Оригинал: Изготовить соль из каменных обломков. -->
+	<VCE_MakeSalt.description>Раздробить обломки в поисках каменной соли. Полученные крупицы очистить и перемолоть для использования в кулинарии.</VCE_MakeSalt.description>
+	<!-- Оригинал: изготавливает соль. -->
+	<VCE_MakeSalt.jobString>добывает соль</VCE_MakeSalt.jobString>
+	<!-- Оригинал: изготовить соль -->
+	<VCE_MakeSaltfromBlocks.label>добыть соль из каменных блоков</VCE_MakeSaltfromBlocks.label>
+	<!-- Оригинал: Изготовить соль из каменных блоков. -->
+	<VCE_MakeSaltfromBlocks.description>Раздробить блоки в поисках каменной соли. Полученные крупицы очистить и перемолоть для использования в кулинарии.</VCE_MakeSaltfromBlocks.description>
+	<!-- Оригинал: изготавливает соль -->
+	<VCE_MakeSaltfromBlocks.jobString>добывает соль</VCE_MakeSaltfromBlocks.jobString>
 	<!-- Оригинал: приготовить нектар агавы -->
 	<VCE_AgaveNectar.label>приготовить эссенцию из агавы</VCE_AgaveNectar.label>
 	<!-- Оригинал: Приготовить нектар агавы. -->
@@ -127,9 +127,6 @@
 	<VCE_Mayo.description>Майонез, хотя и ужасен для здоровья, обладает приятным запахом и очень калориен. Уменьшает голод на 15% в течение 24 часов.</VCE_Mayo.description>
 	<!-- Оригинал: Приготовить шоколадный сироп. -->
 	<VCE_ChocolateSyrup.description>Смесь какао, воды и сахара, взбитая в концентрированный горьковато-сладкий сироп. Он идеально подходит для украшения десертов и не так плох для здоровья, как сахар.</VCE_ChocolateSyrup.description>
-
-	<!-- Оригинал: Создайте пасту васаби из сырого васаби. Она используется как острая приправа для сущи и других продуктов. По вкусу она похожа на горячую горчицу, а не на перец чили в том, что стимулирует нос больше, чем язык. Она теряет вкус и очень быстро портится. -->
-	<VCE_WasabiPaste.description>Сделайте пасту из перемолотых корневищ васаби и используйте в качестве острой приправы для суши и других пищевых продуктов. По вкусу она больше похожа на острую горчицу, чем на перец чили, так как стимулирует нос сильнее, чем язык. Васаби очищает дыхание и на некоторое время заставляет чувствовать себя теплее. Очень быстро портится.</VCE_WasabiPaste.description>
 
 	<!-- Оригинал: Приготовить простой десерт. -->
 	<VCE_CookDessertSimple.description>Приготовить простой десерт из ягод.</VCE_CookDessertSimple.description>
@@ -203,24 +200,28 @@
 	<!-- Оригинал: готовит масло из дымолиста -->
 	<VCE_SmokeleafButter.jobString>готовит зелёное масло</VCE_SmokeleafButter.jobString>
 
+	<!-- Оригинал: приготовить сурими из человечины -->
+	<VCE_MakeHumanSurimi.label>приготовить сурими из мумиё</VCE_MakeHumanSurimi.label>
+	<!-- Оригинал: Приготовить сурими из человечины. Превратить человеческое мясо в однородную пасту, имитирующую текстуру моллюска. -->
+	<VCE_MakeHumanSurimi.description>Оформить мумиё в азиатском стиле.</VCE_MakeHumanSurimi.description>
+	<!-- Оригинал: готовит сурими из человечины -->
+	<VCE_MakeHumanSurimi.jobString>готовит сурими из мумиё</VCE_MakeHumanSurimi.jobString>
+
 	<!-- Не надо приучать детей есть просроченные консервы.
-	Оригинал: ...консервы. Консервирование в банки продлевает срок...еды практически до бесконечности. -->
+	Оригинал: ...консервы. Консервирование в банки продлевает срок годности продукта практически до бесконечности. -->
 	<VCE_CanMeats.description>Сделать мясные консервы. Это продлит срок годности еды на много лет.</VCE_CanMeats.description>
-	<!-- Убрана путаница с фруктами.
-	Оригинал: законсервировать фрукты/овощи... -->
-	<VCE_CanProduce.label>законсервировать овощи x20</VCE_CanProduce.label>
-	<!-- Оригинал: ...овощные/фруктовые консервы. Консервирование в банки продлевает срок...еды практически до бесконечности. -->
+	<!-- Оригинал: ...консервы. Консервирование в банки продлевает срок годности продукта практически до бесконечности. -->
 	<VCE_CanProduce.description>Сделать овощные консервы. Это продлит срок годности еды на много лет.</VCE_CanProduce.description>
-	<!-- Оригинал: консервирует фрукты/овощи... -->
-	<VCE_CanProduce.jobString>консервирует овощи x20</VCE_CanProduce.jobString>
-	<!-- Для группового переименования, сюда же перемещены аналогичные рецепты.
-	EN: can fruit x20 -->
+	<!-- Для группового переименования, сюда же перемещены аналогичные переменные.
+	Оригинал: законсервировать фрукты x20 -->
 	<VCE_CanFruit.label>законсервировать ягоды х20</VCE_CanFruit.label>
-	<!-- EN: Safely store fruit in a steel can. Canning food extends its shelf life almost indefinitely.\n\nPreserved fruit can be used in the production of desserts. -->
+	<!-- Оригинал: Сделать фруктовые консервы. Консервирование в банки продлевает срок годности продукта почти до бесконечности. -->
 	<VCE_CanFruit.description>Нагреть сырые ягоды и закатать в жестяные банки. Это продлит срок годности еды на много лет.\n\nКонсервированные ягоды можно будет использовать для приготовления десертов точно так же, как и свежие.</VCE_CanFruit.description>
-	<!-- EN: Canning produce. -->
-	<VCE_CanFruit.jobString>консервирует ягоды</VCE_CanFruit.jobString>
-	<!-- Оригинал: ...консервы. Консервирование в банки продлевает срок...еды практически до бесконечности. -->
+	<!-- Оригинал: консервирует фрукты x20 -->
+	<VCE_CanFruit.jobString>консервирует ягоды x20</VCE_CanFruit.jobString>
+	<!-- Оригинал: ...консервы. Консервирование в банки продлевает срок годности продукта почти до бесконечности. -->
 	<VCE_CanEggs.description>Сделать яичные консервы. Это продлит срок годности еды на много лет.</VCE_CanEggs.description>
+	<!-- Оригинал: Сделать консервы с рыбой. Консервирование в банки продлевает срок годности продукта почти до бесконечности. -->
+	<VCE_CanFish.description>Сделать рыбные консервы. Это продлит срок годности еды на много лет.</VCE_CanFish.description>
 
 </LanguageData>
