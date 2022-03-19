@@ -8,9 +8,13 @@
 	<VFEM_OpportunitySite_CastleRuins.questDescriptionRules.rulesStrings.1>questDescription(asker_factionLeader==True)->[asker_label], [asker_faction_leaderTitle] из [asker_faction_name], сообщает о таинственных руинах заброшенного замка неподалёку, в которых могут быть сокровища. Никто не знает, что случилось с предыдущими обитателями, но там наверняка можно поживиться.\n\n[asker_label] говорит, что [allSitePartsDescriptionsExceptFirst]</VFEM_OpportunitySite_CastleRuins.questDescriptionRules.rulesStrings.1>
 	<!-- Ошибка переменной VFEM_OpportunitySite_CastleRuins.root.nodes.0.label -->
 	<VFEM_OpportunitySite_CastleRuins.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Срок действия квеста истек: [resolvedQuestName]</VFEM_OpportunitySite_CastleRuins.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
-	<!-- Ошибка переменной VFEM_OpportunitySite_CastleRuins.root.nodes.0.text
+
+	<!-- Исправление согласно концепции «12+».
+
+	Заодно исправлена неточность, сообщите разработчику.
+	Ошибка переменной VFEM_OpportunitySite_CastleRuins.root.nodes.0.text
 	Заодно сглажена ссылка на людей, для модов на другие расы.
-	Оригинал: ...другими людьми. Квест срок действия [resolvedQuestName] истёк. -->
-	<VFEM_OpportunitySite_CastleRuins.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>Перехваченные сообщения указывают на то, что разрушенный замок был разграблен другими авантюристами. Срок действия квеста [resolvedQuestName] истёк.</VFEM_OpportunitySite_CastleRuins.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+	Оригинал: ...был разграблен другими людьми. Срок действия [resolvedQuestName] истёк. -->
+	<VFEM_OpportunitySite_CastleRuins.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>Перехваченные сообщения указывают на то, что разрушенный замок был захвачен другими авантюристами. Срок действия квеста «[resolvedQuestName]» истёк.</VFEM_OpportunitySite_CastleRuins.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
 
 </LanguageData>
