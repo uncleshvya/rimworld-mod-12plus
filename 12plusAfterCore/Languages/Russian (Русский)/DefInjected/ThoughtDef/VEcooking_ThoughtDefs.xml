@@ -9,6 +9,34 @@
 	<AteFineMeal.stages.ate_fine_meal.label>съедено отличное блюдо</AteFineMeal.stages.ate_fine_meal.label>
 	<!-- Оригинал: ...было по-настоящему вкусное блюдо... -->
 	<AteFineMeal.stages.ate_fine_meal.description>Это было отличное блюдо. Ням-ням!</AteFineMeal.stages.ate_fine_meal.description>
+	<!-- EN: ate awful cheese -->
+	<VCE_AteCheese.stages.ate_awful_cheese.label>съеден ужасный сыр</VCE_AteCheese.stages.ate_awful_cheese.label>
+	<!-- EN: I ate some poorly curdled milk with barely any cheese flavour. Disgusting. -->
+	<VCE_AteCheese.stages.ate_awful_cheese.description>Я {PAWN_gender ? съел : съела} шматок плохо свернувшегося молока с еле заметным привкусом сыра. Гадость какая.</VCE_AteCheese.stages.ate_awful_cheese.description>
+	<!-- EN: ate poor cheese -->
+	<VCE_AteCheese.stages.ate_poor_cheese.label>съеден плохой сыр</VCE_AteCheese.stages.ate_poor_cheese.label>
+	<!-- EN: That cheese wasn't horrible but wasn't great either. The aftertaste was kinda icky. -->
+	<VCE_AteCheese.stages.ate_poor_cheese.description>Этот сыр был ни то ни сё, да ещё и с противным послевкусием.</VCE_AteCheese.stages.ate_poor_cheese.description>
+	<!-- EN: ate normal cheese -->
+	<VCE_AteCheese.stages.ate_normal_cheese.label>съеден нормальный сыр</VCE_AteCheese.stages.ate_normal_cheese.label>
+	<!-- EN: That was some OK cheese. -->
+	<VCE_AteCheese.stages.ate_normal_cheese.description>Этот сыр был довольно неплох.</VCE_AteCheese.stages.ate_normal_cheese.description>
+	<!-- EN: ate good cheese -->
+	<VCE_AteCheese.stages.ate_good_cheese.label>съеден хороший сыр</VCE_AteCheese.stages.ate_good_cheese.label>
+	<!-- EN: I ate some fine cheese. Delicious. -->
+	<VCE_AteCheese.stages.ate_good_cheese.description>Я {PAWN_gender ? съел : съела} качественный сыр. Было вкусно!</VCE_AteCheese.stages.ate_good_cheese.description>
+	<!-- EN: ate excellent cheese -->
+	<VCE_AteCheese.stages.ate_excellent_cheese.label>съеден отличный сыр</VCE_AteCheese.stages.ate_excellent_cheese.label>
+	<!-- EN: I ate some fine cheese. You can tell when it has had a good amount of time to mature. -->
+	<VCE_AteCheese.stages.ate_excellent_cheese.description>Я {PAWN_gender ? съел : съела} очень качественный сыр, сразу видно, что его достаточно долго выдерживали.</VCE_AteCheese.stages.ate_excellent_cheese.description>
+	<!-- EN: ate masterwork cheese -->
+	<VCE_AteCheese.stages.ate_masterwork_cheese.label>съеден шедевральный сыр</VCE_AteCheese.stages.ate_masterwork_cheese.label>
+	<!-- EN: That cheese was simply amazing! It doesn't get much better than this. -->
+	<VCE_AteCheese.stages.ate_masterwork_cheese.description>Этот сыр был просто восхитителен! Трудно найти блюдо вкуснее.</VCE_AteCheese.stages.ate_masterwork_cheese.description>
+	<!-- EN: ate legendary cheese -->
+	<VCE_AteCheese.stages.ate_legendary_cheese.label>съеден легендарный сыр</VCE_AteCheese.stages.ate_legendary_cheese.label>
+	<!-- EN: I've eaten quite possibly some of the best cheese I've ever tasted! -->
+	<VCE_AteCheese.stages.ate_legendary_cheese.description>Я {PAWN_gender ? съел : съела}, возможно, лучший сыр из всех, что когда-либо {PAWN_gender ? пробовал : пробовала}!</VCE_AteCheese.stages.ate_legendary_cheese.description>
 
 	<!-- Исправлена неточность, сообщите разработчику.
 
@@ -79,9 +107,9 @@
 
 	Оригинал: кайф от масла из дымолиста -->
 	<VCE_SmokeleafButterHigh.stages.0.label>лёгкая тошнота</VCE_SmokeleafButterHigh.stages.0.label>
-	<!-- Оригинал: Чувак... я как камень, чувак. -->
+	<!-- Оригинал: Чел (многоточие) я как камень, чел. -->
 	<VCE_SmokeleafButterHigh.stages.0.description>Ой, не надо было есть столько жирного...</VCE_SmokeleafButterHigh.stages.0.description>
-	<!-- Оригинал: Мои вкусовые рецепторы никогда не испытывали такого взрыва оргазмических вкусов! Это была чистая порно-пища. Мне нужно больше! -->
+	<!-- Оригинал: ...взрыва оргазмических вкусов! Это была чистая порно-пища. Мне нужно больше! -->
 	<VCE_AteGourmetDessert.stages.0.description>Мои вкусовые рецепторы никогда не испытывали такого взрыва вкусов! Это был просто волшебный десерт!</VCE_AteGourmetDessert.stages.0.description>
 
 </LanguageData>
