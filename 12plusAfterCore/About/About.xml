@@ -17,120 +17,119 @@
 Родители! Теперь вам нет необходимости отвечать на неудобные вопросы детей, наблюдающих за игрой.
 Дети! С этим модом вы сможете играть в Римворлд при родителях, и спокойно разговаривать обо _всех_ особенностях своего поселения.
 
-Кое-где пришлось подправить баланс, см.файл changelog. Кого эти исправления не устраивают, просто удалите соответствующий файл:
-- «AndroidTiers_Rebalance.xml»;
-- «OrassansLite_Rebalance.xml»;
-- «RimOfMadnessBones_Rebalance.xml»;
-- «Royalty_VEfactionsInsectoids_Rebalance.xml»;
-- «VEcooking_VEstews_Rebalance.xml»;
-- «VEfactionsMedieval_Rebalance.xml»;
-- «VEfurnitureSecurity_Rebalance.xml»;
-- концепция и сейвы не пострадают.
-
 =====
 
 Совместимость:
-
-Целью является сделать играбельными моды типа этих:
-modpack http://lttlword.ru/rimworld-minimalism-v1-2
-modpack http://lttlword.ru/rimworld-sborka-modov-ot-lalks-i-pal
-multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
-Humanoid Cats — dianawinters.OrassansLite
-
-Если вдруг мод не понравился, просто отключите его. Сейвы не пострадают.
 
 Несовместим с модами «Psychology», «Rational Romance» и другими, меняющими отношения между полами.
 Пока несовместим с модами на другие расы и кухонные верстаки. Но если будут желающие, мы добавим совместимость, пишите uncleshvya@yandex.ru Ответим как будет время.
 Не идеально совместим с авто-обновлением русского языка от официального переводчика. Основной контент уже написан, так что больших проблем быть не должно. Но для гарантированного соответствия концепции «12+» лучше отключить авто-обновление.
 
+Целью является сделать играбельными моды типа этих:
+modpack http://lttlword.ru/rimworld-minimalism-v1-2
+modpack http://lttlword.ru/rimworld-sborka-modov-ot-lalks-i-pal
+multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
+
 =====
 
 Новая игра:
 
-Желательна, но необязательна — в этом случае надо вручную удалить нежелательные трейты из файла changelog. В интернете куча видео-инструкций, поищите строку «Rimworld удалить trait». Только будьте внимательны, тщательно удалите из .rws-файла все 6 нежелательных трейтов, и удалите все старые сохранения.
+Желательна, но необязательна — в этом случае надо вручную удалить нежелательные трейты из файла changelog. В интернете куча видео-инструкций, поищите строку «Rimworld удалить trait». Только будьте внимательны, тщательно вычистите из .rws-файла все нежелательные трейты, и удалите все старые сохранения.
+
+Если вдруг мод не понравился, просто отключите его. Сейвы не пострадают.
 
 =====
+
+Кое-где пришлось подправить баланс, см.файл changelog. Кого эти исправления не устраивают, просто удалите соответствующий файл — концепция и сейвы не пострадают:
+- «AndroidTiers_Rebalance.xml»;
+- «DubsBadHygiene_Rebalance.xml»;
+- «MedicalTraining_Rebalance.xml»;
+- «OrassansLite_Rebalance.xml»;
+- «RimOfMadnessBones_Rebalance.xml»;
+- «Royalty_VEfactionsInsectoids_Rebalance.xml»;
+- «UtilityColumns_Rebalance.xml»;
+- «VEcooking_VEstews_Rebalance.xml»;
+- «VEfactionsMedieval_Rebalance.xml»;
+- «VEfurnitureSecurity_Rebalance.xml».
 
 Известные проблемы:
 
 - Если перевод категории «12+» не обновился, заново выберите русский язык в главном меню;
-- Если часто переходить по ссылкам в информации о людях, иногда выходит красная ошибка. Не обращайте внимания, это особенность движка мода;
-- Если колонисты вдруг перестали сами есть, скачайте другую версию мода Alien Races;
+- Если часто переходить по ссылкам в информации о людях, иногда выходит красная ошибка. Не обращайте внимания, это особенность движка мода.
 
 =====
 
 Что нужно сделать в следующей версии:
 
 - исправить красную ошибку;
-- исправить все тексты, даже те, которые не должны появиться (на всякий случай). Ведётся поиск;
 - исправить предыстории из-за изменившихся правил перевода. Ведутся работы;
 - решить проблему авто-обновления перевода. Возможно, написать скрипт, аналогично как у официального переводчика, только отслеживающий несовпадение файлов перевода и наличие файла скрипта;
 - улучшить каменты в коде, в т.ч. по адаптации;
-- адаптировать рассказчика;
 - для rombones сделать механику порчи костей, чтобы костный мозг можно было достать только из свежих;
 - для rombones заменить графику для полимера кальция, чтобы он больше ассоциировался с металлическими изделиями;
 - для android tiers исправить ряд небольших ошибок, см.каменты в коде.
 
 =====
 
-12plus mod for Rimworld. Sorry for my English, I compiled this description for multilingual families.
+Sorry for my English, I compiled this description for multilingual families.
+
+12plus mod for Rimworld.
 
 Should be below all compatible mods in the list.
 
 This simple xml mod turns off the most hardcore aspects in order to allow 12+ aged children play Rimworld, without getting psychological trauma. For details, see changelog file.
 
 Parents! Now you shouldn't answer kids' ticklish questions during playing.
-Kids! Now you can play RimWorld in one room with parents, and to speak about _everything_ happens in your game. For now, only in Russian version.
-
-Had to rebalance some mods, see changelog file. But if you don't like these changes, just delete unwanted file:
-- "AndroidTiers_Rebalance.xml";
-- "OrassansLite_Rebalance.xml";
-- "RimOfMadnessBones_Rebalance.xml";
-- "Royalty_VEfactionsInsectoids_Rebalance.xml";
-- "VEcooking_VEstews_Rebalance.xml";
-- "VEfactionsMedieval_Rebalance.xml";
-- "VEfurnitureSecurity_Rebalance.xml";
-- saves will be playable, concept — workable.
+Kids! Now you can play RimWorld in one room with parents, and to speak about _everything_ happens in your game. For now, only Russian version is supported.
 
 =====
 
 Compatibility:
 
-The aim was to make such mods playable:
+Not compatible with "Psychology", "Rational Romance" or any other mods altering RimWorld's romance systems.
+For now, not compatible with mods for other races or butchering tables and stoves. But we can do the compatibility, just mail to us mailto:uncleshvya@yandex.ru We'll answer as fast as possible.
+Not absolutely compatible with auto-script from official Russian translator's site. Basic content is finished, but for guarantied match to "12+" concept, it's better to turn off the auto-updating.
+
+The aim is to make such mods playable:
 modpack http://lttlword.ru/rimworld-minimalism-v1-2
 modpack http://lttlword.ru/rimworld-sborka-modov-ot-lalks-i-pal
 multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty/
 Humanoid Cats — dianawinters.OrassansLite
 
-If you don't like the mod, just turn it off. Saves will be playable.
-
-Not compatible with "Psychology", "Rational Romance" or any other mods altering RimWorld's romance systems.
-For now, not compatible with mods for other races or butchering tables and stoves. But we can do the compatibility, just mail to us mailto:uncleshvya@yandex.ru We'll answer as fast as possible.
-Not absolutely compatible with auto-script from official Russian translator's site. Basic content is finished, but for guarantied match to "12+" concept, it's better to turn off the auto-updating.
-
 =====
 
 New game:
 
-It's better to start a new game. However, old games are playable too. You should manually delete unwanted traits (see changelog file). There are a lot of video lessons in www, search the string "Rimworld delete trait". Be carefull, delete all 6 unwanted traits from .rws file, and delete old saves.
+It's better to start a new game. However, old games are playable too. You should manually delete unwanted traits (see changelog file). There are a lot of video lessons in www, search the string "Rimworld delete trait". Be carefull, remove all unwanted traits from .rws file, and delete old saves.
+
+If you don't like the mod, just turn it off. Saves will remain playable.
 
 =====
+
+Had to rebalance some mods, see changelog file. But if you don't like these changes, just delete unwanted file, saves will be playable, concept — workable:
+- "AndroidTiers_Rebalance.xml";
+- "DubsBadHygiene_Rebalance.xml";
+- "MedicalTraining_Rebalance.xml";
+- "OrassansLite_Rebalance.xml";
+- "RimOfMadnessBones_Rebalance.xml";
+- "Royalty_VEfactionsInsectoids_Rebalance.xml";
+- "UtilityColumns_Rebalance.xml";
+- "VEcooking_VEstews_Rebalance.xml";
+- "VEfactionsMedieval_Rebalance.xml";
+- "VEfurnitureSecurity_Rebalance.xml".
 
 Known issues:
 
 - if russian "12plus" translation didn't refresh automatically, re-choose russian language from main menu;
-- if you open pawn's information panel, and click links too much, it may cause a red error. Just ignore, it's a rare bug;
-- if your pawns do not eat, just download another version of erdelf.HumanoidAlienRaces mod;
+- if you open pawn's information panel, and click links too much, it may cause a red error. Just ignore, it's a rare bug.
 
 =====
 
 Ideas to realize in next version:
 - to fix red error;
-- to correct all texts, even improbable, as a precaution. Testing;
 - to correct backstories according to new translation rules. In process;
 - to solve auto-update problem. Maybe modify auto-script from official Russian translator's site. And to add a watchdog script to eliminate an occasional translation mismatch and/or automation;
 - to make code comments better;
-- to adapt storyteller;
 - rombones: to make the bones' rotting, in order to prohibit the extraction of bone marrow from ancient bones;
 - rombones: to change boneplastic graphics, it should look like metal ore, according to the lore;
 - to fix several android tiers' bugs, see code comments.
@@ -193,7 +192,7 @@ Ideas to realize in next version:
 		<li>Unknown.Perevod.dismarzero.VGP.VGPGardenTools</li>
 		<li>VanillaExpanded.VCookE</li>
 		<li>VanillaExpanded.VCookEStews</li>
-		<li>Inoshishi3.VanillaExpanded.VCookERusPatch</li>
+		<li>Inoshishi3.VCE.RusPatch</li>
 		<li>Am.Rus.VCookE</li>
 		<li>nephlite.orbitaltradecolumn</li>
 		<li>gaster.orbitaltradecolumn</li>
@@ -204,25 +203,25 @@ Ideas to realize in next version:
 		<li>Am.Rus.VFECore</li>
 		<li>rimsenal.federation</li>
 		<li>VanillaExpanded.VFEFarming</li>
-		<li>Inoshishi3.VanillaExpanded.VFEFarmingRusPatch</li>
+		<li>Inoshishi3.VFE.FarmingRusPatch</li>
 		<li>VanillaExpanded.VWE</li>
 		<li>VanillaExpanded.VWEQ</li>
 		<li>VanillaExpanded.VWEL</li>
 		<li>Am.Rus.VWE</li>
 		<li>RU.VanillaExpanded.VWE</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.MedievalModule</li>
-		<li>Inoshishi3.VanillaFactionsExpanded.MedievalModuleRusPatch</li>
+		<li>Inoshishi3.VFE.MedievalModuleRusPatch</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.SettlersModule</li>
-		<li>Inoshishi3.VanillaFactionsExpanded.SettlersModuleRusPatch</li>
+		<li>Inoshishi3.VFE.SettlersModuleRusPatch</li>
 		<li>VanillaExpanded.VFESecurity</li>
 		<li>Am.Rus.VFESecurity</li>
-		<li>Inoshishi3.VanillaExpanded.VFESecurityRusPatch</li>
+		<li>Inoshishi3.VFE.SecurityRusPatch</li>
 		<li>VanillaExpanded.VFEProduction</li>
-		<li>Inoshishi3.VanillaExpanded.VFEProductionRusPatch</li>
+		<li>Inoshishi3.VFE.ProductionRusPatch</li>
 		<li>VanillaExpanded.VFEFarming</li>
-		<li>Inoshishi3.VanillaExpanded.VFEFarmingRusPatch</li>
+		<li>Inoshishi3.VFE.FarmingRusPatch</li>
 		<li>VanillaExpanded.VFEPower</li>
-		<li>Inoshishi3.VanillaExpanded.VFEPowerRusPatch</li>
+		<li>Inoshishi3.VFE.PowerRusPatch</li>
 		<li>Atlas.AndroidTiers</li>
 		<li>Android.Tiers.RUS</li>
 		<li>Dubwise.Rimatomics</li>
@@ -234,7 +233,7 @@ Ideas to realize in next version:
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>RU.VanillaFactionsExpanded.Core</li>
 		<li>Am.Rus.VEFCore</li>
-		<li>Inoshishi3.VanillaFactionsExpanded.CoreRusPatch</li>
+		<li>Inoshishi3.VFE.CoreRusPatch</li>
 		<li>sarg.alphaanimals</li>
 		<li>PiaRex.AlphaAnimalsTranslationRus</li>
 		<li>Unknown.Perevod.sarg.alphaanimals</li>
