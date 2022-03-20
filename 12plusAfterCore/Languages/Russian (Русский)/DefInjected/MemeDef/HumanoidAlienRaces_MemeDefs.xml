@@ -6,7 +6,7 @@
 	Исправлен конфликт с одноимёнными трейтами.
 	Слово "инопланетянам" не влезало в интерфейс.
 	EN: xenophilia -->
-	<HAR_Xenophilia.label>симпатия к иномирянам</HAR_Xenophilia.label>
+	<HAR_Xenophilia.label>симпатия к иным расам</HAR_Xenophilia.label>
 	<!-- EN: Relations with aliens are to be encouraged and embraced, to be fearful or hostile towards them only proves one's simplemindedness. -->
 	<HAR_Xenophilia.description>Отношения с инопланетянами следует поощрять и поддерживать, а боязнь или враждебность по отношению к расам с других планет свидетельствует об умственной неполноценности.</HAR_Xenophilia.description>
 	<!-- Слово "инопланетянам" не влезало в интерфейс. Заодно повышена экспрессия.
