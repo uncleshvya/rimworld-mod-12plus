@@ -4,6 +4,6 @@
 	<!-- Добавлена русская локализация, сообщите разработчику.
 
 	EN: Fishing. -->
-	<JobDef_CatchFish.reportString>рыбачит</JobDef_CatchFish.reportString>
+	<JobDef_CatchFish.reportString>удит рыбу</JobDef_CatchFish.reportString>
 
 </LanguageData>
