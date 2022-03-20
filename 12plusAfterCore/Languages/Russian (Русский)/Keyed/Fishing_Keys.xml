@@ -108,7 +108,7 @@
 	<!-- Добавлено противопоставление мальку.
 	EN: (пробел) caught a sturgeon! Maybe you'll be eating caviar soon? -->
 	<RBB.Sturgeon> ловит взрослого осетра! Может, сегодня на ужин будет чёрная икра?</RBB.Sturgeon>
-	<!-- EN: (пробел) caught a tiny fish. Better than nothing.... -->
+	<!-- EN: (пробел) caught a tiny fish. Better than nothing (4 точки) -->
 	<RBB.TinyFish> ловит малька́. Это лучше, чем ничего...</RBB.TinyFish>
 	<!-- Названия следует синхронизировать с папкой ThingDef.
 	EN: (пробел) caught a bass. -->
