@@ -18,6 +18,10 @@
 	Исправлены ошибки падежных окончаний и размытая ссылка для "{PAWN_objective}".
 	Оригинал: Тошнота это не про {PAWN_nameDef}. Рвота и пищевые отравления чужды {PAWN_objective}. -->
 	<VTE_IronStomach.degreeDatas.0.description>Сколько {PAWN_nameDef} себя помнит, {PAWN_pronoun} никогда не {PAWN_gender ? травился : травилась}, какие бы странные блюда ни {PAWN_gender ? ел : ела}. {PAWN_objective} чужды тошнота и рвота, вызванные стряпнёй неумелой кухарки.</VTE_IronStomach.degreeDatas.0.description>
+	<!-- Оригинал: покорный -->
+	<VTE_Submissive.degreeDatas.0.label>покорность</VTE_Submissive.degreeDatas.0.label>
+	<!-- Оригинал: ...работает с нормальность скоростью... -->
+	<VTE_Submissive.degreeDatas.0.description>{PAWN_nameDef} нуждается в чётких инструкциях о том, что и когда делать. {PAWN_pronoun} работает с нормальной скоростью только тогда, когда отдан приказ.</VTE_Submissive.degreeDatas.0.description>
 	<!-- Оригинал: отсталый -->
 	<VTE_Dunce.degreeDatas.0.label>умственная отсталость</VTE_Dunce.degreeDatas.0.label>
 	<!-- Название конфликтовало с ванильным "снобизм".
@@ -37,7 +41,9 @@
 	<VTE_Insatiable.degreeDatas.0.label>безответственность</VTE_Insatiable.degreeDatas.0.label>
 	<!-- Оригинал: непорочный -->
 	<VTE_Prude.degreeDatas.0.label>непорочность</VTE_Prude.degreeDatas.0.label>
-	<!-- Идея взята из описания. Лучше бы подошла "ожесточённость", но она имеет не ту эмоциональную окраску. Сглажена экспрессия.
+	<!-- Оригинал: ...давно не {PAWN_gender ? путешествовал : путешествовала}. Благодаря...путешествий, в дроге добывает... -->
+	<VTE_Wanderlust.degreeDatas.0.description>{PAWN_nameDef} любит путешествовать и делает это быстро. Будет грустить, если давно сидит в поселении. Благодаря опыту прошлых путешествий, в дороге добывает еды больше, чем кто-либо.</VTE_Wanderlust.degreeDatas.0.description>
+	<!-- Идея взята из описания. Лучше бы подошла "ожесточённость", но она имеет не ту эмоциональную окраску.
 	Оригинал: десенсибилизирован -->
 	<VTE_Desensitized.degreeDatas.0.label>душевная травма</VTE_Desensitized.degreeDatas.0.label>
 	<!-- Это не разведчик новых земель.
