@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+	<!-- Добавлена русская локализация, сообщите разработчику.
 
 	Исправлен конфликт с одноимёнными трейтами.
-	Слово "инопланетянам" не влезало в интерфейс.
 	EN: xenophilia -->
 	<HAR_Xenophilia.label>симпатия к иным расам</HAR_Xenophilia.label>
 	<!-- EN: Relations with aliens are to be encouraged and embraced, to be fearful or hostile towards them only proves one's simplemindedness. -->
