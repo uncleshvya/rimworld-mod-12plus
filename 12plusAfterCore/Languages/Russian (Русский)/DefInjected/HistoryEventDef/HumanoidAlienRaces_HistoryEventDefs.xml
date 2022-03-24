@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+	<!-- Добавлена русская локализация, сообщите разработчику.
 
 	EN: share bed with alien -->
 	<HAR_AlienDating_SharedBed.label>разделена постель с инопланетным существом</HAR_AlienDating_SharedBed.label>
@@ -23,6 +23,6 @@
 	<!-- EN: ate non-alien food -->
 	<HAR_AteNonAlienFood.label>съедена пища без иноплатеных ингредиентов</HAR_AteNonAlienFood.label>
 	<!-- EN: begin romance with alien -->
-	<HAR_AlienDating_BeginRomance.label>дружба с инопланетянами</HAR_AlienDating_BeginRomance.label>
+	<HAR_AlienDating_BeginRomance.label>отношения с инопланетным существом</HAR_AlienDating_BeginRomance.label>
 
 </LanguageData>
