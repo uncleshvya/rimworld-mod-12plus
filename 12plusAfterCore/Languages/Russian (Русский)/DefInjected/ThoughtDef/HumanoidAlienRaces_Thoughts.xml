@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+	<!-- Добавлена русская локализация, сообщите разработчику.
 
+	Трейты.
 	EN: xenophobe vs xenophile -->
 	<XenophobeVsXenophile.stages.0.label>ксенофоб и ксенофил</XenophobeVsXenophile.stages.0.label>
 	<!-- EN: xenophile loves aliens -->
@@ -26,7 +27,8 @@
 	<!-- Оригинал: ...зале. Простолюдины будут... -->
 	<ReignedInThroneroom.stages.unbelievably_impressive_throneroom.description>Я {PAWN_gender ? восседал : восседала} в восхитительном тронном зале. Поселенцы будут поражены моим величием.</ReignedInThroneroom.stages.unbelievably_impressive_throneroom.description>
 
-	<!-- EN: disgusting aliens! -->
+	<!-- Расы.
+	EN: disgusting aliens! -->
 	<HAR_AlienRaces_Abhorrent.stages.disgusting_aliens.label>ненавижу пришельцев</HAR_AlienRaces_Abhorrent.stages.disgusting_aliens.label>
 	<!-- EN: Other races are absolutely repulsive and I can’t stand them! -->
 	<HAR_AlienRaces_Abhorrent.stages.disgusting_aliens.description>Пришельцы отвратительны, чтоб им пусто было!</HAR_AlienRaces_Abhorrent.stages.disgusting_aliens.description>
@@ -39,10 +41,12 @@
 	<!-- EN: amazing aliens! -->
 	<HAR_AlienRaces_Exalted.stages.amazing_aliens.label>восхищаюсь инопланетянами</HAR_AlienRaces_Exalted.stages.amazing_aliens.label>
 	<!-- EN: I can’t believe I’m in the company of other races! -->
-	<HAR_AlienRaces_Exalted.stages.amazing_aliens.description>Не могу поверить — я общаюсь с жителями иных планет!</HAR_AlienRaces_Exalted.stages.amazing_aliens.description>
+	<HAR_AlienRaces_Exalted.stages.amazing_aliens.description>Не могу поверить — я общаюсь с жителем иной планеты!</HAR_AlienRaces_Exalted.stages.amazing_aliens.description>
 	<!-- EN: amazing alien! -->
 	<HAR_AlienRaces_Exalted_Social.stages.amazing_alien.label>восхищаюсь инопланетянами</HAR_AlienRaces_Exalted_Social.stages.amazing_alien.label>
-	<!-- EN: alien slaves in colony -->
+
+	<!-- Рабы.
+	EN: alien slaves in colony -->
 	<HAR_Alien_Slavery_Abhorrent_SlavesInColony.stages.alien_slaves_in_colony.label>раб-инопланетянин в поселении</HAR_Alien_Slavery_Abhorrent_SlavesInColony.stages.alien_slaves_in_colony.label>
 	<!-- EN: We're keeping alien slaves. It's barbaric. -->
 	<HAR_Alien_Slavery_Abhorrent_SlavesInColony.stages.alien_slaves_in_colony.description>Мы держим разумное существо в рабстве. Какое варварство!</HAR_Alien_Slavery_Abhorrent_SlavesInColony.stages.alien_slaves_in_colony.description>
@@ -105,7 +109,7 @@
 	<!-- EN: alien slaves in colony -->
 	<HAR_Alien_Slavery_Honorable_SlavesInColony.stages.alien_slaves_in_colony.label>раб-пришелец в поселении</HAR_Alien_Slavery_Honorable_SlavesInColony.stages.alien_slaves_in_colony.label>
 	<!-- EN: We've got alien slaves. It means we're on the right path. -->
-	<HAR_Alien_Slavery_Honorable_SlavesInColony.stages.alien_slaves_in_colony.description>У нас есть пришелец в рабах. Значит, мы на верном пути.</HAR_Alien_Slavery_Honorable_SlavesInColony.stages.alien_slaves_in_colony.description>
+	<HAR_Alien_Slavery_Honorable_SlavesInColony.stages.alien_slaves_in_colony.description>У нас есть пришелец в рабстве. Значит, мы на верном пути.</HAR_Alien_Slavery_Honorable_SlavesInColony.stages.alien_slaves_in_colony.description>
 	<!-- EN: no alien slaves in colony -->
 	<HAR_Alien_Slavery_Honorable_NoSlavesInColony.stages.no_alien_slaves_in_colony.label>нет рабов-пришельцев в поселении</HAR_Alien_Slavery_Honorable_NoSlavesInColony.stages.no_alien_slaves_in_colony.label>
 	<!-- EN: Without alien slaves, nobody will respect us. -->
@@ -117,7 +121,7 @@
 	<!-- EN: enslaved alien prisoner -->
 	<HAR_Alien_EnslavedPrisoner_Honorable.stages.enslaved_alien_prisoner.label>порабощён пришелец</HAR_Alien_EnslavedPrisoner_Honorable.stages.enslaved_alien_prisoner.label>
 	<!-- EN: I took an alien into slavery. With no choice, they had to submit to me. -->
-	<HAR_Alien_EnslavedPrisoner_Honorable.stages.enslaved_alien_prisoner.description>Я {PAWN_gender ? поработил : поработила} пришельца. У меня появилась разумная собственность.</HAR_Alien_EnslavedPrisoner_Honorable.stages.enslaved_alien_prisoner.description>
+	<HAR_Alien_EnslavedPrisoner_Honorable.stages.enslaved_alien_prisoner.description>Я {PAWN_gender ? поработил : поработила} пришельца. У меня появилась болтливая собственность.</HAR_Alien_EnslavedPrisoner_Honorable.stages.enslaved_alien_prisoner.description>
 	<!-- EN: sold alien slave -->
 	<HAR_Alien_SoldSlave_Know_Honorable.stages.sold_alien_slave.label>пришелец продан в рабство</HAR_Alien_SoldSlave_Know_Honorable.stages.sold_alien_slave.label>
 	<!-- EN: alien slave sold -->
@@ -130,6 +134,16 @@
 	<HAR_Alien_EnslavedPrisoner_Know_Honorable_Mood.stages.alien_prisoner_enslaved.label>порабощён пришелец</HAR_Alien_EnslavedPrisoner_Know_Honorable_Mood.stages.alien_prisoner_enslaved.label>
 	<!-- EN: We enslaved an alien. Now they know our honor and power! -->
 	<HAR_Alien_EnslavedPrisoner_Know_Honorable_Mood.stages.alien_prisoner_enslaved.description>Мы поработили пришельца. Пусть все знают, насколько мы сильны и велики!</HAR_Alien_EnslavedPrisoner_Know_Honorable_Mood.stages.alien_prisoner_enslaved.description>
+
+	<!-- Отношения.
+	EN: dated an alien -->
+	<HAR_AlienDating_Horrible.stages.dated_an_alien.label>отношения с пришельцем</HAR_AlienDating_Horrible.stages.dated_an_alien.label>
+	<!-- EN: How could I bring myself to date an alien? I feel disgusted with myself. -->
+	<HAR_AlienDating_Horrible.stages.dated_an_alien.description>Как так случилось, что я встречаюсь с пришельцем? Ненавижу себя.</HAR_AlienDating_Horrible.stages.dated_an_alien.description>
+	<!-- EN: dated an alien -->
+	<HAR_AlienDating_Know_Horrible.stages.dated_an_alien.label>отношения с пришельцем</HAR_AlienDating_Know_Horrible.stages.dated_an_alien.label>
+	<!-- EN: dated an alien -->
+	<HAR_AlienDating_Know_Honorable.stages.dated_an_alien.label>отношения с иномирным существом</HAR_AlienDating_Know_Honorable.stages.dated_an_alien.label>
 
 	<!-- Исправление согласно концепции «12+».
 
@@ -187,13 +201,5 @@
 	<HAR_NoRecentAlienMeat_RequiredStrong.stages.want_alien_meat.label>хочу пищу инопланетян</HAR_NoRecentAlienMeat_RequiredStrong.stages.want_alien_meat.label>
 	<!-- EN: It's been far too long since I consumed alien flesh. I should have eaten by now. -->
 	<HAR_NoRecentAlienMeat_RequiredStrong.stages.want_alien_meat.description>И где инопланетная пища? Это форменное издевательство над моим организмом!</HAR_NoRecentAlienMeat_RequiredStrong.stages.want_alien_meat.description>
-	<!-- EN: dated an alien -->
-	<HAR_AlienDating_Horrible.stages.dated_an_alien.label>отношения с пришельцем</HAR_AlienDating_Horrible.stages.dated_an_alien.label>
-	<!-- EN: How could I bring myself to date an alien? I feel disgusted with myself. -->
-	<HAR_AlienDating_Horrible.stages.dated_an_alien.description>Как так случилось, что я встречаюсь с пришельцем? Ненавижу себя.</HAR_AlienDating_Horrible.stages.dated_an_alien.description>
-	<!-- EN: dated an alien -->
-	<HAR_AlienDating_Know_Horrible.stages.dated_an_alien.label>отношения с пришельцем</HAR_AlienDating_Know_Horrible.stages.dated_an_alien.label>
-	<!-- EN: dated an alien -->
-	<HAR_AlienDating_Know_Honorable.stages.dated_an_alien.label>отношения с иномирным существом</HAR_AlienDating_Know_Honorable.stages.dated_an_alien.label>
 
 </LanguageData>
