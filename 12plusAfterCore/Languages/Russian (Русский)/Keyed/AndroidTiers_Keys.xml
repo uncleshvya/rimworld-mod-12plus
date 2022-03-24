@@ -74,8 +74,6 @@
 	<AnimalInteractedTooRecently>существо обучалось совсем недавно</AnimalInteractedTooRecently>
 	<!-- Оригинал: ...навык Животноводства, требуется... -->
 	<AnimalsSkillTooLow>низкий навык Зоотехники, требуется {0}</AnimalsSkillTooLow>
-	<!-- Оригинал: животное сражено -->
-	<CantInteractAnimalDowned>существо сражено</CantInteractAnimalDowned>
 	<!-- Оригинал: животное спит -->
 	<CantInteractAnimalAsleep>существо спит</CantInteractAnimalAsleep>
 	<!-- Оригинал: животное занято -->
