@@ -2,7 +2,7 @@
 
 For English, scroll below.
 
-Простой xml-мод, отключает самые жёсткие аспекты, чтобы дети от 12 лет могли играть в Rimworld, не получая психологических травм. Проверено на игре v.1.3.3102 сборка 25-08-2021, с официальным русским переводом от 02.11.2021.
+Проверено на игре v.1.3.3287 сборка 26-02-2022, с официальным русским переводом от 15.03.2022.
 
 Инструкция по установке: 
 
@@ -12,7 +12,7 @@ For English, scroll below.
 - если устанавливаете новую версию 12plus мода, для начала удалите старые версии из папки «Mods».
 - по желанию, из папки RimWorldUniverse возьмите адаптированный текстовый файл c лором.
 
-Simple xml mod turns off the most hardcore aspects in order to allow 12+ aged children play Rimworld, without getting psychological trauma. Tested with game v.1.3.3102 rev.2021aug25 and official russian translation v.2021nov02.
+Tested with game v.1.3.3287 rev.2022feb26 and official russian translation v.2022mar15.
 
 How to install:
 - download the repository.
