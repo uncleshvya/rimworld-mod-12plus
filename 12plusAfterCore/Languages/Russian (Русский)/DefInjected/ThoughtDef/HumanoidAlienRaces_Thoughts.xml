@@ -51,9 +51,9 @@
 	<!-- EN: We're keeping alien slaves. It's barbaric. -->
 	<HAR_Alien_Slavery_Abhorrent_SlavesInColony.stages.alien_slaves_in_colony.description>Мы держим разумное существо в рабстве. Какое варварство!</HAR_Alien_Slavery_Abhorrent_SlavesInColony.stages.alien_slaves_in_colony.description>
 	<!-- EN: sold alien slave -->
-	<HAR_Alien_SoldSlave_Know_Abhorrent.stages.sold_alien_slave.label>инопланетянин продан в рабство</HAR_Alien_SoldSlave_Know_Abhorrent.stages.sold_alien_slave.label>
+	<HAR_Alien_SoldSlave_Know_Abhorrent.stages.sold_alien_slave.label>продан инопланетянин</HAR_Alien_SoldSlave_Know_Abhorrent.stages.sold_alien_slave.label>
 	<!-- EN: alien slave sold -->
-	<HAR_Alien_SoldSlave_Know_Abhorrent_Mood.stages.alien_slave_sold.label>инопланетянин продан в рабство</HAR_Alien_SoldSlave_Know_Abhorrent_Mood.stages.alien_slave_sold.label>
+	<HAR_Alien_SoldSlave_Know_Abhorrent_Mood.stages.alien_slave_sold.label>продан инопланетянин</HAR_Alien_SoldSlave_Know_Abhorrent_Mood.stages.alien_slave_sold.label>
 	<!-- EN: We sold an alien into slavery. It was an abhorrent, barbaric act. -->
 	<HAR_Alien_SoldSlave_Know_Abhorrent_Mood.stages.alien_slave_sold.description>Мы продали разумное существо в рабство. Это непростительный, варварский поступок.</HAR_Alien_SoldSlave_Know_Abhorrent_Mood.stages.alien_slave_sold.description>
 	<!-- EN: enslaved alien prisoner -->
@@ -63,7 +63,7 @@
 	<!-- EN: We're keeping alien slaves. It's wrong. -->
 	<HAR_Alien_Slavery_Horrible_SlavesInColony.stages.alien_slaves_in_colony.description>Мы держим разумное существо в рабстве. Это неправильно.</HAR_Alien_Slavery_Horrible_SlavesInColony.stages.alien_slaves_in_colony.description>
 	<!-- EN: sold alien slave -->
-	<HAR_Alien_SoldSlave_Horrible.stages.sold_alien_slave.label>инопланетянин продан в рабство</HAR_Alien_SoldSlave_Horrible.stages.sold_alien_slave.label>
+	<HAR_Alien_SoldSlave_Horrible.stages.sold_alien_slave.label>продан инопланетянин</HAR_Alien_SoldSlave_Horrible.stages.sold_alien_slave.label>
 	<!-- EN: I sold an alien into slavery. I'm not sure I can forgive myself. -->
 	<HAR_Alien_SoldSlave_Horrible.stages.sold_alien_slave.description>Я {PAWN_gender ? продал : продала} разумное существо в рабство. Не {PAWN_gender ? уверен : уверена}, что смогу простить себя за это.</HAR_Alien_SoldSlave_Horrible.stages.sold_alien_slave.description>
 	<!-- EN: enslaved alien prisoner -->
@@ -71,9 +71,9 @@
 	<!-- EN: I forced an alien into slavery. How can I justify that? -->
 	<HAR_Alien_EnslavedPrisoner_Horrible.stages.enslaved_alien_prisoner.description>Я {PAWN_gender ? поработил : поработила} разумное существо. Как можно оправдать такое?</HAR_Alien_EnslavedPrisoner_Horrible.stages.enslaved_alien_prisoner.description>
 	<!-- EN: sold alien slave -->
-	<HAR_Alien_SoldSlave_Know_Horrible.stages.sold_alien_slave.label>инопланетянин продан в рабство</HAR_Alien_SoldSlave_Know_Horrible.stages.sold_alien_slave.label>
+	<HAR_Alien_SoldSlave_Know_Horrible.stages.sold_alien_slave.label>продан инопланетянин</HAR_Alien_SoldSlave_Know_Horrible.stages.sold_alien_slave.label>
 	<!-- EN: alien slave sold -->
-	<HAR_Alien_SoldSlave_Know_Horrible_Mood.stages.alien_slave_sold.label>инопланетянин продан в рабство</HAR_Alien_SoldSlave_Know_Horrible_Mood.stages.alien_slave_sold.label>
+	<HAR_Alien_SoldSlave_Know_Horrible_Mood.stages.alien_slave_sold.label>продан инопланетянин</HAR_Alien_SoldSlave_Know_Horrible_Mood.stages.alien_slave_sold.label>
 	<!-- EN: We sold an alien into slavery. What a horrible thing to do. -->
 	<HAR_Alien_SoldSlave_Know_Horrible_Mood.stages.alien_slave_sold.description>Мы продали разумное существо в рабство. Поступать так — плохо.</HAR_Alien_SoldSlave_Know_Horrible_Mood.stages.alien_slave_sold.description>
 	<!-- EN: enslaved alien prisoner -->
@@ -87,7 +87,7 @@
 	<!-- EN: We're keeping alien slaves. Even if it's necessary, it's distasteful and I wish we wouldn't. -->
 	<HAR_Alien_Slavery_Disapproved_SlavesInColony.stages.alien_slaves_in_colony.description>Мы держим в рабстве разумное существо. Это бесчестно, даже если необходимо. Лучше бы мы так не делали.</HAR_Alien_Slavery_Disapproved_SlavesInColony.stages.alien_slaves_in_colony.description>
 	<!-- EN: sold alien slave -->
-	<HAR_Alien_SoldSlave_Disapproved.stages.sold_alien_slave.label>инопланетянин продан в рабство</HAR_Alien_SoldSlave_Disapproved.stages.sold_alien_slave.label>
+	<HAR_Alien_SoldSlave_Disapproved.stages.sold_alien_slave.label>продан инопланетянин</HAR_Alien_SoldSlave_Disapproved.stages.sold_alien_slave.label>
 	<!-- EN: I sold an alien into slavery. I hope nothing terrible happens to them. -->
 	<HAR_Alien_SoldSlave_Disapproved.stages.sold_alien_slave.description>Я {PAWN_gender ? продал : продала} разумное существо, словно какую-то вещь. Надеюсь, с ним не случится ничего ужасного.</HAR_Alien_SoldSlave_Disapproved.stages.sold_alien_slave.description>
 	<!-- EN: enslaved alien prisoner -->
@@ -95,9 +95,9 @@
 	<!-- EN: I enslaved an alien. It's hard to justify such actions. -->
 	<HAR_Alien_EnslavedPrisoner_Disapproved.stages.enslaved_alien_prisoner.description>Я {PAWN_gender ? поработил : поработила} разумное существо. Этот поступок сложно оправдать.</HAR_Alien_EnslavedPrisoner_Disapproved.stages.enslaved_alien_prisoner.description>
 	<!-- EN: sold alien slave -->
-	<HAR_Alien_SoldSlave_Know_Disapproved.stages.sold_alien_slave.label>инопланетянин продан в рабство</HAR_Alien_SoldSlave_Know_Disapproved.stages.sold_alien_slave.label>
+	<HAR_Alien_SoldSlave_Know_Disapproved.stages.sold_alien_slave.label>продан инопланетянин</HAR_Alien_SoldSlave_Know_Disapproved.stages.sold_alien_slave.label>
 	<!-- EN: alien slave sold -->
-	<HAR_Alien_SoldSlave_Know_Disapproved_Mood.stages.alien_slave_sold.label>инопланетянин продан в рабство</HAR_Alien_SoldSlave_Know_Disapproved_Mood.stages.alien_slave_sold.label>
+	<HAR_Alien_SoldSlave_Know_Disapproved_Mood.stages.alien_slave_sold.label>продан инопланетянин</HAR_Alien_SoldSlave_Know_Disapproved_Mood.stages.alien_slave_sold.label>
 	<!-- EN: We sold an alien into slavery. We shouldn't have done that. -->
 	<HAR_Alien_SoldSlave_Know_Disapproved_Mood.stages.alien_slave_sold.description>Мы продали в рабство разумное существо. Не стоило этого делать.</HAR_Alien_SoldSlave_Know_Disapproved_Mood.stages.alien_slave_sold.description>
 	<!-- EN: enslaved alien prisoner -->
@@ -154,7 +154,7 @@
 	<!-- EN: ate alien meat -->
 	<HAR_AteAlienMeat_Know_Abhorrent.stages.ate_alien_meat.label>съедена пища инопланетян</HAR_AteAlienMeat_Know_Abhorrent.stages.ate_alien_meat.label>
 	<!-- EN: I butchered an alien -->
-	<HAR_ButcheredAlien_Abhorrent.stages.I_butchered_an_alien.label>Я {PAWN_gender ? приготовил : приготовила} инопланетное блюдо</HAR_ButcheredAlien_Abhorrent.stages.I_butchered_an_alien.label>
+	<HAR_ButcheredAlien_Abhorrent.stages.I_butchered_an_alien.label>Я — повар у пришельцев</HAR_ButcheredAlien_Abhorrent.stages.I_butchered_an_alien.label>
 	<!-- EN: I butchered a sapient alien. This is an offense against everything I believe. -->
 	<HAR_ButcheredAlien_Abhorrent.stages.I_butchered_an_alien.description>Мне пришлось от безысходности сварганить мерзкую жижу, которую пихают в себя голодные пришельцы.</HAR_ButcheredAlien_Abhorrent.stages.I_butchered_an_alien.description>
 	<!-- EN: we butchered an alien -->
@@ -170,7 +170,7 @@
 	<!-- EN: ate alien meat -->
 	<HAR_AteAlienMeat_Know_Disapproved.stages.ate_alien_meat.label>съедена пища инопланетян</HAR_AteAlienMeat_Know_Disapproved.stages.ate_alien_meat.label>
 	<!-- EN: I butchered an alien -->
-	<HAR_ButcheredAlien_Disapproved.stages.I_butchered_an_alien.label>Я {PAWN_gender ? приготовил : приготовила} инопланетное блюдо</HAR_ButcheredAlien_Disapproved.stages.I_butchered_an_alien.label>
+	<HAR_ButcheredAlien_Disapproved.stages.I_butchered_an_alien.label>Я — повар у пришельцев</HAR_ButcheredAlien_Disapproved.stages.I_butchered_an_alien.label>
 	<!-- EN: I butchered a sapient alien. I believe such actions are wrong. -->
 	<HAR_ButcheredAlien_Disapproved.stages.I_butchered_an_alien.description>Мне пришлось сделать жуткое блюдо по рецепту от пришельцев. Ну и вонь стояла!</HAR_ButcheredAlien_Disapproved.stages.I_butchered_an_alien.description>
 	<!-- EN: we butchered an alien -->
