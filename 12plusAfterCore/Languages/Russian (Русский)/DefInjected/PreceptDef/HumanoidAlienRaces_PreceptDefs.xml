@@ -10,7 +10,7 @@
 	<!-- EN: Each alien slave in colony -->
 	<HAR_AlienSlavery_Abhorrent.comps.0.description>За каждого раба-инопланетянина в поселении</HAR_AlienSlavery_Abhorrent.comps.0.description>
 	<!-- EN: Someone sold an alien slave -->
-	<HAR_AlienSlavery_Abhorrent.comps.5.description>Инопланетянин продан в рабство</HAR_AlienSlavery_Abhorrent.comps.5.description>
+	<HAR_AlienSlavery_Abhorrent.comps.5.description>Продан инопланетянин</HAR_AlienSlavery_Abhorrent.comps.5.description>
 	<!-- EN: horrible -->
 	<HAR_AlienSlavery_Horrible.label>вызывают жалость</HAR_AlienSlavery_Horrible.label>
 	<!-- EN: Owning or trading alien beings is a horrible thing. -->
@@ -18,9 +18,9 @@
 	<!-- EN: Each alien slave in colony -->
 	<HAR_AlienSlavery_Horrible.comps.0.description>За каждого раба-инопланетянина в поселении</HAR_AlienSlavery_Horrible.comps.0.description>
 	<!-- EN: Someone sold an alien slave -->
-	<HAR_AlienSlavery_Horrible.comps.5.description>Инопланетянин продан в рабство</HAR_AlienSlavery_Horrible.comps.5.description>
+	<HAR_AlienSlavery_Horrible.comps.5.description>Продан инопланетянин</HAR_AlienSlavery_Horrible.comps.5.description>
 	<!-- EN: Someone enslaved an alien prisoner -->
-	<HAR_AlienSlavery_Horrible.comps.6.description>Инопланетянин порабощён</HAR_AlienSlavery_Horrible.comps.6.description>
+	<HAR_AlienSlavery_Horrible.comps.6.description>Порабощён инопланетянин</HAR_AlienSlavery_Horrible.comps.6.description>
 	<!-- EN: disapproved -->
 	<HAR_AlienSlavery_Disapproved.label>не одобряются</HAR_AlienSlavery_Disapproved.label>
 	<!-- EN: Alien slavery is part of life, though it is extremely distasteful. -->
@@ -28,9 +28,9 @@
 	<!-- EN: Each alien slave in colony -->
 	<HAR_AlienSlavery_Disapproved.comps.0.description>За каждого раба-инопланетянина в поселении</HAR_AlienSlavery_Disapproved.comps.0.description>
 	<!-- EN: Someone sold an alien slave -->
-	<HAR_AlienSlavery_Disapproved.comps.5.description>Инопланетянин продан в рабство</HAR_AlienSlavery_Disapproved.comps.5.description>
+	<HAR_AlienSlavery_Disapproved.comps.5.description>Продан инопланетянин</HAR_AlienSlavery_Disapproved.comps.5.description>
 	<!-- EN: Someone enslaved an alien prisoner -->
-	<HAR_AlienSlavery_Disapproved.comps.6.description>Инопланетянин порабощён</HAR_AlienSlavery_Disapproved.comps.6.description>
+	<HAR_AlienSlavery_Disapproved.comps.6.description>Порабощён инопланетянин</HAR_AlienSlavery_Disapproved.comps.6.description>
 	<!-- EN: acceptable -->
 	<HAR_AlienSlavery_Acceptable.label>приемлемы</HAR_AlienSlavery_Acceptable.label>
 	<!-- EN: Slavery of alien races is a normal, unremarkable part of life. -->
@@ -90,7 +90,7 @@
 	EN: No alien meat for {HUMANMEATREQUIREDINTERVAL} days -->
 	<HAR_EatingAliens_Preferred.comps.1.description>В пище давно не было ничего инопланетного</HAR_EatingAliens_Preferred.comps.1.description>
 	<!-- EN: required -->
-	<HAR_EatingAliens_RequiredStrong.label>необходима</HAR_EatingAliens_RequiredStrong.label>
+	<HAR_EatingAliens_RequiredStrong.label>обязательна</HAR_EatingAliens_RequiredStrong.label>
 	<!-- EN: Alien meat is preferable to the meat of any insentient creature, in fact, regular consumption should be encouraged. -->
 	<HAR_EatingAliens_RequiredStrong.description>Пища с других планет содержит незаменимые аминокислоты и должна быть в каждом блюде.</HAR_EatingAliens_RequiredStrong.description>
 	<!-- EN: No alien meat for {HUMANMEATREQUIREDINTERVAL} days -->
