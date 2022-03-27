@@ -2,6 +2,15 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
+2022-03-27 добавлена адаптация и русская локализация для мода Rim of Madness Bones. Чтобы не было красных ошибок, добавлена зависимость от этого мода. По желанию, доступно исправление кривоватого баланса:
+- убраны кости из механоидов (код устарел);
+- исправлена графика дубины-вентилятора (попробуйте взять кость как оружие);
+- убраны древние костяные строения, из которых можно было добыть съедобный костный мозг;
+- рецепт выплавления пластали перемещён из перегонного аппарата в электроплавильню - там температура более подходящая;
+- добавлен срок годности для костного мозга 2 игровых суток, что соответствует реальному сроку в 4 дня;
+- добавлена горючесть костяных изделий, чуть больше чем у стали;
+- костяные блоки и фарфоровая плитка перемещены в соответствующие категории.
+
 2022-03-20 добавлена адаптация и русская локализация для мода Pick Up And Haul.
 Идёт работа по исправлению трудноуловимого бага - иногда не загружается карта квестов с сайтами, типа "лесозаготовочный лагерь" или "набожная деревня". Ведётся отсев модов; список уже проверенных - в файле ModsConfig.xml в корне репозитория.
 Для тех, кто не хочет ждать и не использует внешние квесты, сохранена версия 12+мода с поддержкой большего количества модов в файле Bugged096prDomosed.zip.
@@ -79,14 +88,6 @@ For English, scroll down.
 2022-02-24 добавлена адаптация и русская локализация для серии модов Fishing. Поддержка устаревших версий от Rainbeau, Mlie и kr33man остановлена до востребования, в пользу самой свежей версии - Fishing ReWork. По желанию, доступно исправление кривоватого баланса:
 - возвращено влияние изношенности на цену рыбы. Зачем автор убрал это?;
 - исправлен рецепт для морского огурца, т.к. голотурин содержится не в мясе, а в несъедобных органах.
-
-2022-02-17 добавлена адаптация и русская локализация для мода Rim of Madness Bones. Чтобы не было красных ошибок, добавлена зависимость от этого мода. По желанию, доступно исправление кривоватого баланса:
-- убраны кости из механоидов (код устарел);
-- исправлена графика дубины-вентилятора (попробуйте взять кость как оружие);
-- убраны древние костяные строения, из которых можно было добыть съедобный костный мозг;
-- рецепт выплавления пластали перемещён из перегонного аппарата в электроплавильню - там температура более подходящая;
-- добавлен срок годности для костного мозга 2 игровых суток, что соответствует реальному сроку в 4 дня;
-- костяные блоки и фарфоровая плитка перемещены в соответствующие категории.
 
 2022-02-15 добавлена адаптация для мода Edible Leather.
 
@@ -211,7 +212,7 @@ For English, scroll down.
 
 2021-02-04 добавлена адаптация для мода AllowTool, заодно исправлены его ошибки, см.каменты в коде.
 
-2020-09-29 исправлено большинство красных ошибок методом подключения мода Humanoid Alien Raсes, заодно исправлены его ошибки, см.каменты в коде.
+2020-09-29 исправлено большинство красных ошибок методом подключения мода Humanoid Alien Raсes, заодно исправлены его ошибки, см.каменты в коде, и добавлена русская локализация.
 
 2020-09-24 отключен инцест.
 
@@ -246,6 +247,15 @@ For English, scroll down.
 =====
 
 Changelog for Rimworld's 12plus modification.
+
+2022-mar-27 sihv.rombones mod adaptation and Russian translation added. To avoid red errors, mod dependence added. Optional balance change available:
+- removed bones from mechanoids (obsolete code);
+- corrected graphics' bug if bone is armed as club;
+- removed ancient bone structures (they could be deconstructed and processed into edible marrow);
+- plasteel smelt receipe moved from biofuel refinery into elecric smelter (looks like more real conditions);
+- added marrow rotting period of 2 days (more real);
+- added flammability to bone products (almost like steel);
+- bonecrete, bone ash moved to stone blocks category, and bone china floor - to stone tile group.
 
 2022-mar-20 Mehni.PickUpAndHaul mod adaptation added.
 Bugfix work is in process: there is a problem with site quests - sometimes the game can't load a map. Adapted mods are testing one by one; the whitelist is in "ModsConfig.xml" file.
@@ -326,14 +336,6 @@ Russifier.Ideology mod adaptation added. Support for RU.Ideology and Davyd.Trans
 2022-feb-24 RainbeausFishing.ReworkMod mod adaptation and Russian translation added. Support for obsolete firefoxpdm.RainbeausFishing is stopped until asked. Optional balance change available:
 - restored deterioration influence for fish price. Why did Si-Cafe removed it?;
 - corrected sea cucumber recipe. The useful toxine is not in the meat but in inedible organs.
-
-2022-feb-17 sihv.rombones mod adaptation and Russian translation added. To avoid red errors, mod dependence added. Optional balance change available:
-- removed bones from mechanoids (obsolete code);
-- corrected graphics' bug if bone is armed as club;
-- removed ancient bone structures (they could be deconstructed and processed into edible marrow);
-- plasteel smelt receipe moved from biofuel refinery into elecric smelter (looks like more real conditions);
-- added marrow rotting period of 2 days (more real);
-- bonecrete, bone ash moved to stone blocks category, and bone china floor - to stone tile group.
 
 2022-feb-15 UncleShvya.EdibleLeather mod adaptation added.
 
@@ -458,7 +460,7 @@ Had to rebalance the most rebarbative developers' mistake - now sentry gun needs
 
 2021-feb-04 UnlimitedHugs.AllowTool mod adaptation added. Also corrected its mistakes, see code comments.
 
-2020-sep-29 fixed almost all red errors via adding erdelf.HumanoidAlienRaces mod dependence. Also corrected its mistakes, see code comments.
+2020-sep-29 fixed almost all red errors via adding erdelf.HumanoidAlienRaces mod dependence. Also corrected its mistakes, see code comments, and Russian translation added.
 
 2020-sep-24 removed incestous ability.
 
