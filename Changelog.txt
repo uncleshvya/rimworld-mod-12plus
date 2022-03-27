@@ -11,7 +11,6 @@ For English, scroll down.
 - добавлена воспламеняемость для изделий из кости, чуть больше чем у стали;
 - костяные блоки и фарфоровая плитка перемещены в соответствующие категории.
 Идёт работа по исправлению трудноуловимого бага - иногда не загружается карта квестов с сайтами, типа "лесозаготовочный лагерь" или "набожная деревня". Ведётся отсев модов; список уже проверенных - в файле ModsConfig.xml в корне репозитория.
-Для тех, кто не хочет ждать и не использует внешние квесты, сохранена версия 12+мода с поддержкой большего количества модов в файле Bugged096prDomosed.zip.
 Скомпилирована версия 12+мода 0.9.94pre-release.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowDeadAnimals_";
@@ -257,7 +256,6 @@ Changelog for Rimworld's 12plus modification.
 - added flammability to bone products (almost like steel);
 - bonecrete, bone ash moved to stone blocks category, and bone china floor - to stone tile group.
 Bugfix work is in process: there is a problem with site quests - sometimes the game can't load a map. Adapted mods are testing one by one; the whitelist is in "ModsConfig.xml" file.
-For those who can't wait and doesn't like external quests, there is a backup file Bugged096prDomosed.zip in the repository.
 UncleShvya.12plus mod v.0.9.94pre-release compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowDeadAnimals_";
