@@ -53,6 +53,11 @@ Copyright (c) Sarg Bjornson
 				<xpath>Defs/ThingDef[defName = "ROMB_Marrow"]/comps/li[1]/daysToRotStart/text()</xpath>
 				<value>2</value>
 			</li>
+			<!-- Добавляем воспламеняемость изделиям из костей - чуть больше, чем у стали. Сырые кости оставляем негорючими, типа из-за влаги от костного мозга -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "BoneItem"]/stuffProps/statFactors/Flammability/text()</xpath>
+				<value>0.5</value>
+			</li>
 			<!-- Исправляем баг версии 1.3 с отображением маски -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName = "ROMB_Apparel_SkullMask"]/apparel/wornGraphicPaths/li[2]</xpath>
