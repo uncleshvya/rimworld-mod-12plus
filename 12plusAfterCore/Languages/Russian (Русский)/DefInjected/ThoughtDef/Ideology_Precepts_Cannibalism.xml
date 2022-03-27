@@ -4,13 +4,14 @@
 	<!-- Исправление согласно концепции «12+».
 
 	Плоть:
+	Заодно исправлена неточность, сообщите разработчику ванили - фигурные скобки видны во всплывающем меню над принципами.
 	Оригиналы: {PAWN_gender ? съел : съела} человечину -->
-	<AteHumanMeat_Abhorrent.stages.ate_human_meat.label>{PAWN_gender ? съел : съела} мумиё</AteHumanMeat_Abhorrent.stages.ate_human_meat.label>
-	<AteHumanMeat_Disapproved.stages.ate_human_meat.label>{PAWN_gender ? съел : съела} мумиё</AteHumanMeat_Disapproved.stages.ate_human_meat.label>
-	<AteHumanMeat_Horrible.stages.ate_human_meat.label>{PAWN_gender ? съел : съела} мумиё</AteHumanMeat_Horrible.stages.ate_human_meat.label>
-	<AteHumanMeat_Preferred.stages.ate_human_meat.label>{PAWN_gender ? съел : съела} мумиё</AteHumanMeat_Preferred.stages.ate_human_meat.label>
-	<AteHumanMeat_RequiredRavenous.stages.ate_human_meat.label>{PAWN_gender ? съел : съела} мумиё</AteHumanMeat_RequiredRavenous.stages.ate_human_meat.label>
-	<AteHumanMeat_RequiredStrong.stages.ate_human_meat.label>{PAWN_gender ? съел : съела} мумиё</AteHumanMeat_RequiredStrong.stages.ate_human_meat.label>
+	<AteHumanMeat_Abhorrent.stages.ate_human_meat.label>съедено мумиё</AteHumanMeat_Abhorrent.stages.ate_human_meat.label>
+	<AteHumanMeat_Disapproved.stages.ate_human_meat.label>съедено мумиё</AteHumanMeat_Disapproved.stages.ate_human_meat.label>
+	<AteHumanMeat_Horrible.stages.ate_human_meat.label>съедено мумиё</AteHumanMeat_Horrible.stages.ate_human_meat.label>
+	<AteHumanMeat_Preferred.stages.ate_human_meat.label>съедено мумиё</AteHumanMeat_Preferred.stages.ate_human_meat.label>
+	<AteHumanMeat_RequiredRavenous.stages.ate_human_meat.label>съедено мумиё</AteHumanMeat_RequiredRavenous.stages.ate_human_meat.label>
+	<AteHumanMeat_RequiredStrong.stages.ate_human_meat.label>съедено мумиё</AteHumanMeat_RequiredStrong.stages.ate_human_meat.label>
 	<!-- Оригинал: Я {PAWN_gender ? съел : съела} человечину. Это преступление против всего, во что я верю. -->
 	<AteHumanMeat_Abhorrent.stages.ate_human_meat.description>Я {PAWN_gender ? съел : съела} гадкое, противное мумиё. Какой кошмар!</AteHumanMeat_Abhorrent.stages.ate_human_meat.description>
 	<!-- Оригинал: Я {PAWN_gender ? съел : съела} человечину. Я {PAWN_gender ? совершил : совершила} ошибку. -->
@@ -31,9 +32,9 @@
 	<AteHumanMeat_RequiredRavenous.stages.ate_human_meat.description>Я {PAWN_gender ? съел : съела} мумиё — это так полезно! Я укрепляю иммунитет!</AteHumanMeat_RequiredRavenous.stages.ate_human_meat.description>
 	<!-- Оригинал: Я {PAWN_gender ? съел : съела} человечину: это заложено в человеческой природе. -->
 	<AteHumanMeat_RequiredStrong.stages.ate_human_meat.description>Я {PAWN_gender ? съел : съела} свежайшее мумиё. У меня будет железное здоровье.</AteHumanMeat_RequiredStrong.stages.ate_human_meat.description>
-	<!-- Оригиналы: ...пищу без человечины -->
-	<AteNonCannibalFood_Abhorrent.stages.ate_noncannibal_food.label>{PAWN_gender ? съел : съела} пищу без мумиё</AteNonCannibalFood_Abhorrent.stages.ate_noncannibal_food.label>
-	<AteNonCannibalFood_Horrible.stages.ate_noncannibal_food.label>{PAWN_gender ? съел : съела} пищу без мумиё</AteNonCannibalFood_Horrible.stages.ate_noncannibal_food.label>
+	<!-- Оригиналы: {PAWN_gender ? съел : съела} пищу без человечины -->
+	<AteNonCannibalFood_Abhorrent.stages.ate_noncannibal_food.label>съедена пища без мумиё</AteNonCannibalFood_Abhorrent.stages.ate_noncannibal_food.label>
+	<AteNonCannibalFood_Horrible.stages.ate_noncannibal_food.label>съедена пища без мумиё</AteNonCannibalFood_Horrible.stages.ate_noncannibal_food.label>
 	<!-- Оригинал: ...без человеческого мяса. Это абсолютно противоречит моим убеждениям. -->
 	<AteNonCannibalFood_Abhorrent.stages.ate_noncannibal_food.description>Я {PAWN_gender ? съел : съела} пищу без мумиё. Как бы не заболеть!</AteNonCannibalFood_Abhorrent.stages.ate_noncannibal_food.description>
 	<!-- Оригинал: ...пищу без человеческого мяса. Мои убеждения строго запрещают это делать. -->
