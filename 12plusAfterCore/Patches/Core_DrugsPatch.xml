@@ -14,28 +14,11 @@
 				defName = "Unrestricted"
 				]</xpath>
 			</li>
-			<!-- Убираем невозможность получения зависимости -->
-			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[
-				defName = "Beer" or
-				defName = "Ambrosia" or
-				defName = "PsychiteTea" or
-				defName = "SmokeleafJoint" or
-				defName = "WakeUp"
-				]/comps/li[@Class = "CompProperties_Drug"]/minToleranceToAddict</xpath>
-			</li>
-			<!-- Мягко убираем обучение наркоторговле -->
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[@Name = "DrugBase"]</xpath>
-				<value>
-					<tradeability>Buyable</tradeability>
-				</value>
-			</li>
+			<!-- По умолчанию отключаем приём для удовлетворения зависимости, чтобы она быстрее прошла -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/DrugPolicyDef[defName = "NoDrugs"]</xpath>
 				<value>
 					<entries>
-						<!-- Запрещён приём для удовлетворения зависимости, чтобы она быстрее прошла -->
 						<li>
 							<drug>Beer</drug>
 							<allowedForAddiction>false</allowedForAddiction>
@@ -73,13 +56,30 @@
 							<drug>Luciferium</drug>
 							<allowedForAddiction>false</allowedForAddiction>
 						</li>
-						<!-- Добавляем профилактический приём лекарств -->
+						<!-- Заодно добавляем профилактический приём лекарств -->
 						<li>
 							<drug>Penoxycyline</drug>
 							<allowScheduled>true</allowScheduled>
 							<daysFrequency>5</daysFrequency>
 						</li>
 					</entries>
+				</value>
+			</li>
+			<!-- Убираем невозможность получения зависимости -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[
+				defName = "Beer" or
+				defName = "Ambrosia" or
+				defName = "PsychiteTea" or
+				defName = "SmokeleafJoint" or
+				defName = "WakeUp"
+				]/comps/li[@Class = "CompProperties_Drug"]/minToleranceToAddict</xpath>
+			</li>
+			<!-- Мягко убираем обучение наркоторговле -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name = "DrugBase"]</xpath>
+				<value>
+					<tradeability>Buyable</tradeability>
 				</value>
 			</li>
 
