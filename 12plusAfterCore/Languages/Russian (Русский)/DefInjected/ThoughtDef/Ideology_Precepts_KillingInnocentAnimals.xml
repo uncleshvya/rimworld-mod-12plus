@@ -10,10 +10,11 @@
 	<KilledInnocentAnimal_Disapproved.stages.killed_innocent.description>Мне пришлось атаковать невинное животное. Я {PAWN_gender ? сделал : сделала} то, что {PAWN_gender ? сам : сама} не одобряю.</KilledInnocentAnimal_Disapproved.stages.killed_innocent.description>
 	<!-- Оригинал: ...пришлось убить невинное...Это почти то же самое, что и убить человека. -->
 	<KilledInnocentAnimal_Horrible.stages.killed_innocent.description>Мне пришлось атаковать невинное животное. Это ужасно!</KilledInnocentAnimal_Horrible.stages.killed_innocent.description>
-	<!-- Оригиналы: убил(а) невинное... -->
-	<KilledInnocentAnimal_Know_Abhorrent.stages.killed_innocent_animal.label>атаковано невинное животное</KilledInnocentAnimal_Know_Abhorrent.stages.killed_innocent_animal.label>
-	<KilledInnocentAnimal_Know_Disapproved.stages.killed_innocent_animal.label>атаковано невинное животное</KilledInnocentAnimal_Know_Disapproved.stages.killed_innocent_animal.label>
-	<KilledInnocentAnimal_Know_Horrible.stages.killed_innocent_animal.label>атаковано невинное животное</KilledInnocentAnimal_Know_Horrible.stages.killed_innocent_animal.label>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили - уж лучше использовать настояжее информирующее время, чем эти жуткие скобки.
+	Оригиналы: убил(а) невинное животное -->
+	<KilledInnocentAnimal_Know_Abhorrent.stages.killed_innocent_animal.label>обижает невинных животных</KilledInnocentAnimal_Know_Abhorrent.stages.killed_innocent_animal.label>
+	<KilledInnocentAnimal_Know_Disapproved.stages.killed_innocent_animal.label>обижает невинных животных</KilledInnocentAnimal_Know_Disapproved.stages.killed_innocent_animal.label>
+	<KilledInnocentAnimal_Know_Horrible.stages.killed_innocent_animal.label>обижает невинных животных</KilledInnocentAnimal_Know_Horrible.stages.killed_innocent_animal.label>
 	<!-- Оригиналы: {OTHERPAWN_gender ? убил : убила} невинное... -->
 	<KilledInnocentAnimal_Know_Abhorrent.stages.killed_innocent_animal.labelSocial>{OTHERPAWN_gender ? атаковал : атаковала} невинное животное</KilledInnocentAnimal_Know_Abhorrent.stages.killed_innocent_animal.labelSocial>
 	<KilledInnocentAnimal_Know_Disapproved.stages.killed_innocent_animal.labelSocial>{OTHERPAWN_gender ? атаковал : атаковала} невинное животное</KilledInnocentAnimal_Know_Disapproved.stages.killed_innocent_animal.labelSocial>
