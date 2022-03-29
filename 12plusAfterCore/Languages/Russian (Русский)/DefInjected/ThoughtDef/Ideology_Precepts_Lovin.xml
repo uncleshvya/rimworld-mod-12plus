@@ -1,24 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициального перевода от Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
-	Оригиналы: похотливый поступок -->
+	Оригиналы: блудодейство -->
 	<GotLovin_Abhorrent.stages.lustful_act.label>заведены отношения</GotLovin_Abhorrent.stages.lustful_act.label>
 	<GotLovin_Horrible.stages.lustful_act.label>заведены отношения</GotLovin_Horrible.stages.lustful_act.label>
-	<Lovin_Know_Abhorrent.stages.lustful_act.label>заведены отношения</Lovin_Know_Abhorrent.stages.lustful_act.label>
-	<Lovin_Know_Horrible.stages.lustful_act.label>заведены отношения</Lovin_Know_Horrible.stages.lustful_act.label>
-	<!-- Оригинал: Я совершил похотливый поступок, который был абсолютно отвратительным. -->
-	<GotLovin_Abhorrent.stages.lustful_act.description>Я {PAWN_gender ? завёл : завела} отношения, что совершенно против моих убеждений.</GotLovin_Abhorrent.stages.lustful_act.description>
-	<!-- Оригиналы: акт вожделения -->
-	<GotLovin_Disapproved.stages.act_of_desire.label>заведены отношения</GotLovin_Disapproved.stages.act_of_desire.label>
-	<Lovin_Know_Disapproved.stages.act_of_desire.label>заведены отношения</Lovin_Know_Disapproved.stages.act_of_desire.label>
-	<!-- Оригинал: Я совершил акт вожделения. То, что я сделал было неправильно. -->
-	<GotLovin_Disapproved.stages.act_of_desire.description>Я {PAWN_gender ? завёл : завела} отношения, что плохо совместимо с моими убеждениями.</GotLovin_Disapproved.stages.act_of_desire.description>
-	<!-- Оригинал: Я совершил похотливый поступок, который был глубоко неправильным.. -->
-	<GotLovin_Horrible.stages.lustful_act.description>Я {PAWN_gender ? завёл : завела} отношения, что абсолютно несовместимо с моими убеждениями.</GotLovin_Horrible.stages.lustful_act.description>
-	<!-- Оригинал: занимался сексом -->
-	<Lovin_Know_Approved.stages.initiated_lovin.label>заведены отношения</Lovin_Know_Approved.stages.initiated_lovin.label>
+	<!-- Оригинал: Я {PAWN_gender ? занялся : занялась} блудодейством, и это было отвратительно! -->
+	<GotLovin_Abhorrent.stages.lustful_act.description>Я {PAWN_gender ? завёл : завела} отношения, это отвратительно!</GotLovin_Abhorrent.stages.lustful_act.description>
+	<!-- Исправление неофициального перевода от Sestrenka. На момент проведения работ, официальный перевод ещё не был полностью закончен. Перезаписываем значение переменной.
+	Оригинал: акт вожделения -->
+	<GotLovin_Disapproved.stages.act_of_desire.label>распутство</GotLovin_Disapproved.stages.act_of_desire.label>
+	<!-- Оригинал: Я {PAWN_gender ? предался : предалась} плотским утехам. Лучше... -->
+	<GotLovin_Disapproved.stages.act_of_desire.description>Я {PAWN_gender ? завёл : завела} отношения. Лучше бы я этого не {PAWN_gender ? делал : делала}.</GotLovin_Disapproved.stages.act_of_desire.description>
+	<!-- Оригинал: Я {PAWN_gender ? предался : предалась} блуду, и это... -->
+	<GotLovin_Horrible.stages.lustful_act.description>Я {PAWN_gender ? завёл : завела} отношения, и это было большой ошибкой.</GotLovin_Horrible.stages.lustful_act.description>
+	<!-- Оригинал: блудодей(ка) -->
+	<Lovin_Know_Abhorrent.stages.lustful_act.label>заводит отношения</Lovin_Know_Abhorrent.stages.lustful_act.label>
+	<!-- Оригинал: {OTHERPAWN_gender ? блудодей : блудодейка} -->
+	<Lovin_Know_Abhorrent.stages.lustful_act.labelSocial>{OTHERPAWN_gender ? завёл : завела} отношения</Lovin_Know_Abhorrent.stages.lustful_act.labelSocial>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили - уж лучше использовать настояжее информирующее время, чем эти жуткие скобки.
+	Оригинал: предложил(а) близость -->
+	<Lovin_Know_Approved.stages.initiated_lovin.label>заводит отношения</Lovin_Know_Approved.stages.initiated_lovin.label>
+	<!-- Оригинал: {OTHERPAWN_gender ? предложил : предложила} близость -->
+	<Lovin_Know_Approved.stages.initiated_lovin.labelSocial>{OTHERPAWN_gender ? предложил : предложила} завести отношения</Lovin_Know_Approved.stages.initiated_lovin.labelSocial>
+	<!-- Оригинал: распутник(ца) -->
+	<Lovin_Know_Disapproved.stages.act_of_desire.label>распутничает</Lovin_Know_Disapproved.stages.act_of_desire.label>
+	<!-- Оригинал: блудодей(ка) любовью -->
+	<Lovin_Know_Horrible.stages.lustful_act.label>заводит отношения</Lovin_Know_Horrible.stages.lustful_act.label>
+	<!-- Оригинал: предложил(а) близость -->
+	<Lovin_Know_Horrible.stages.lustful_act.labelSocial>{OTHERPAWN_gender ? предложил : предложила} завести отношения</Lovin_Know_Horrible.stages.lustful_act.labelSocial>
 
 </LanguageData>
