@@ -18,10 +18,11 @@
 	<AteHumanMeat_Disapproved.stages.ate_human_meat.description>Я {PAWN_gender ? съел : съела} противное мумиё. Я {PAWN_gender ? совершил : совершила} ошибку.</AteHumanMeat_Disapproved.stages.ate_human_meat.description>
 	<!-- Оригинал: Я {PAWN_gender ? съел : съела} человечину. Это было ужасно. -->
 	<AteHumanMeat_Horrible.stages.ate_human_meat.description>Я {PAWN_gender ? съел : съела} отвратительное мумиё. Это было ужасно.</AteHumanMeat_Horrible.stages.ate_human_meat.description>
-	<!-- Оригиналы: съел(а) человечину -->
-	<AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.label>съедено мумиё</AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.label>
-	<AteHumanMeat_Know_Disapproved.stages.ate_human_meat.label>съедено мумиё</AteHumanMeat_Know_Disapproved.stages.ate_human_meat.label>
-	<AteHumanMeat_Know_Horrible.stages.ate_human_meat.label>съедено мумиё</AteHumanMeat_Know_Horrible.stages.ate_human_meat.label>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили - уж лучше использовать настояжее информирующее время, чем эти жуткие скобки.
+	Оригиналы: съел(а) человечину -->
+	<AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.label>ест мумиё</AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.label>
+	<AteHumanMeat_Know_Disapproved.stages.ate_human_meat.label>ест мумиё</AteHumanMeat_Know_Disapproved.stages.ate_human_meat.label>
+	<AteHumanMeat_Know_Horrible.stages.ate_human_meat.label>ест мумиё</AteHumanMeat_Know_Horrible.stages.ate_human_meat.label>
 	<!-- Оригиналы: {OTHERPAWN_gender ? съел : съела} человечину -->
 	<AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.labelSocial>{OTHERPAWN_gender ? съел : съела} мумиё</AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.labelSocial>
 	<AteHumanMeat_Know_Disapproved.stages.ate_human_meat.labelSocial>{OTHERPAWN_gender ? съел : съела} мумиё</AteHumanMeat_Know_Disapproved.stages.ate_human_meat.labelSocial>
@@ -67,7 +68,7 @@
 	<!-- Оригинал: Я {PAWN_gender ? разделал : разделала} человека. Я {PAWN_gender ? совершил : совершила} ошибку. -->
 	<ButcheredHuman_Disapproved.stages.I_butchered_humanlike.description>Что-то я плохо себя веду. Надо как-то сбросить негатив.</ButcheredHuman_Disapproved.stages.I_butchered_humanlike.description>
 	<!-- Оригинал: Я {PAWN_gender ? пустил : пустила} человека на мясо. Это было ужасно. -->
-	<ButcheredHuman_Horrible.stages.I_butchered_humanlike.description>Я определённо веду себя как киношный злодей, аж {PAWN_gender ? сам : сама} себе не нравлюсь. Надо поднапрячься и придумать, как исправить репутацию.</ButcheredHuman_Horrible.stages.I_butchered_humanlike.description>
+	<ButcheredHuman_Horrible.stages.I_butchered_humanlike.description>Я определённо веду себя как злодей из второсортного кино, аж {PAWN_gender ? сам : сама} себе не нравлюсь. Надо поднапрячься и придумать, как исправить репутацию.</ButcheredHuman_Horrible.stages.I_butchered_humanlike.description>
 	<!-- Оригиналы: мы разделали человека -->
 	<ButcheredHuman_Know_Abhorrent.stages.we_butchered_humanlike.label>бардак вокруг</ButcheredHuman_Know_Abhorrent.stages.we_butchered_humanlike.label>
 	<ButcheredHuman_Know_Disapproved.stages.we_butchered_humanlike.label>бардак вокруг</ButcheredHuman_Know_Disapproved.stages.we_butchered_humanlike.label>
@@ -78,9 +79,8 @@
 	<ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.label>плохо себя ведёт</ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.label>
 	<ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.label>плохо себя ведёт</ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.label>
 	<ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.label>плохо себя ведёт</ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.label>
-	<!-- Пробел заменён на неразрывный, т.к. одинаковое название с label вызывало красную ошибку.
-	Оригинал: {OTHERPAWN_gender ? разделал : разделала} человека -->
-	<ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.labelSocial>плохо себя ведёт</ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? разделал : разделала} человека -->
+	<ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.labelSocial>плохо себя {OTHERPAWN_gender ? вёл : вела}</ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.labelSocial>
 	<!-- Оригинал: Один из нас разделал человека. Я считаю, что это неправильно. -->
 	<ButcheredHuman_Know_Disapproved.stages.we_butchered_humanlike.description>Наше поселение подобно какой-то свалке. Это напрягает.</ButcheredHuman_Know_Disapproved.stages.we_butchered_humanlike.description>
 	<!-- Пробел заменён на неразрывный, т.к. одинаковое название с label вызывало красную ошибку.
