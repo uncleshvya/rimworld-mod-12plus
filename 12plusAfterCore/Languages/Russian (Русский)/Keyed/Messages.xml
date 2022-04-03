@@ -36,8 +36,9 @@
 	<MessagePlantDiedOfRot_LeftUnharvested>{0} {0_gender ? завял : завяла : завяло} от старости.</MessagePlantDiedOfRot_LeftUnharvested>
 	<!-- Оригинал: {0} {0_gender ? погиб : погибла : погибло}, так как... -->
 	<MessagePlantDiedOfRot_ExposedToLight>{0} {0_gender ? завял : завяла : завяло}, так как слишком много времени {0_gender ? провёл : провела : провело} на свету.</MessagePlantDiedOfRot_ExposedToLight>
-	<!-- Оригинал: {0} {0_gender ? погиб : погибла : погибло}. -->
-	<MessagePlantDiedOfRot>{0} {0_gender ? завял : завяла : завяло}.</MessagePlantDiedOfRot>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили. А вообще, при каких ещё условиях может выйти такое сообщение?
+	Оригинал: {0} {0_gender ? погиб : погибла : погибло}. -->
+	<MessagePlantDiedOfRot>{0} {0_gender ? завял : завяла : завяло} от недостатка света.</MessagePlantDiedOfRot>
 	<!-- Оригинал: {0} {0_gender ? погиб : погибла : погибло} из-за отравления. -->
 	<MessagePlantDiedOfPoison>{0} {0_gender ? завял : завяла : завяло} из-за отравления.</MessagePlantDiedOfPoison>
 	<!-- Оригинал: {0} {0_gender ? погиб : погибла : погибло} из-за болезни. -->
