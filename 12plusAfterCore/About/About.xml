@@ -60,8 +60,6 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 =====
 
 Что нужно сделать в следующей версии:
-
-- исправить красную ошибку;
 - исправить предыстории из-за изменившихся правил перевода. Ведутся работы;
 - решить проблему авто-обновления перевода. Возможно, написать скрипт, аналогично как у официального переводчика, только отслеживающий несовпадение файлов перевода и наличие файла скрипта;
 - улучшить каменты в коде, в т.ч. по адаптации;
@@ -126,7 +124,6 @@ Known issues:
 =====
 
 Ideas to realize in next version:
-- to fix red error;
 - to correct backstories according to new translation rules. In process;
 - to solve auto-update problem. Maybe modify auto-script from official Russian translator's site. And to add a watchdog script to eliminate an occasional translation mismatch and/or automation;
 - to make code comments better;
