@@ -31,7 +31,7 @@ Copyright (c) Sarg Bjornson
 				<xpath>Defs/ThingDef[defName = "BoneItem"]/graphicData/graphicClass/text()</xpath>
 				<value>Graphic_StackCount</value>
 			</li>
-			<!-- Убираем древние строения из кости, отключая возможность добывать из них съедобный костный мозг. Нужно решение поизящнее, как древесина интегрирована в генератор, но пока что найдено такое: -->
+			<!-- Убираем древние строения из кости, отключая возможность добывать из них съедобный костный мозг. Нужно решение поизящнее, интегрировать в генератор как древесину, но пока что найдено такое: -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "BoneItem"]/stuffProps/commonality/text()</xpath>
 				<value>0</value>
@@ -53,7 +53,7 @@ Copyright (c) Sarg Bjornson
 				<xpath>Defs/ThingDef[defName = "ROMB_Marrow"]/comps/li[1]/daysToRotStart/text()</xpath>
 				<value>2</value>
 			</li>
-			<!-- Добавляем воспламеняемость изделиям из костей - чуть больше, чем у стали. Сырые кости оставляем негорючими, типа из-за влаги от костного мозга -->
+			<!-- Добавляем воспламеняемость изделиям из костей - чуть больше, чем у стали. Сырые кости и стены из крупных костей оставляем негорючими, типа из-за влаги от костного мозга -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "BoneItem"]/stuffProps/statFactors/Flammability/text()</xpath>
 				<value>0.5</value>
