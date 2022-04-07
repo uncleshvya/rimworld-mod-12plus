@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Оригинал: ...{CAMP_label}, который контролирует фракция {FACTION_name}. -->
+	<MessageCampDetected>Вы обнаружили рядом {CAMP_label}, контролируемый фракцией «{FACTION_name}».</MessageCampDetected>
+
 	<!-- Исправление согласно концепции «12+».
 
 	Оригинал: {0_nameDef} {0_gender ? умер : умерла}, так... -->
