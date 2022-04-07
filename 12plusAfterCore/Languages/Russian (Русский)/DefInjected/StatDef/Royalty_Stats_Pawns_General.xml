@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Не влезало в интерфейс
+	Оригинал: скорость снижения нейроперегрева -->
+	<PsychicEntropyRecoveryRate.label>снижение нейроперегрева</PsychicEntropyRecoveryRate.label>
+	<!-- Этот параметр есть и у вещей.
+	Оригинал: ...которой этот персонаж понижает свой уровень... -->
+	<PsychicEntropyRecoveryRate.description>Скорость, с которой будет понижаться уровень нейроперегрева.</PsychicEntropyRecoveryRate.description>
+
+</LanguageData>
