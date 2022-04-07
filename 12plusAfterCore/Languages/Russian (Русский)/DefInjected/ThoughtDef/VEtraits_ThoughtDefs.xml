@@ -10,8 +10,9 @@
 	<VTE_BondedAnimalDiedHater.stages.0.description>Это существо было таким тупым и надоедливым. Как хорошо, что оно больше не будет мне досаждать!</VTE_BondedAnimalDiedHater.stages.0.description>
 	<!-- Оригинал: {PAWN_gender ? убил : убила} моего... -->
 	<VTE_KilledMyBondedAnimalHater.stages.0.label>{PAWN_gender ? избил : избила} моего питомца</VTE_KilledMyBondedAnimalHater.stages.0.label>
-	<!-- Оригинал: {PAWN_gender ? убил : убила} животное поселения -->
-	<VTE_KilledColonyAnimalHater.stages.0.label>{PAWN_gender ? избил : избила} нашего питомца</VTE_KilledColonyAnimalHater.stages.0.label>
+	<!-- Заодно исправлена неточность, сообщите разработчику о заглавной букве.
+	Оригинал: {PAWN_gender ? убил : убила} животное поселения -->
+	<VTE_KilledColonyAnimalHater.stages.0.label>{PAWN_gender ? Избил : Избила} нашего питомца</VTE_KilledColonyAnimalHater.stages.0.label>
 	<!-- Оригиналы: Находясь рядом с этой мерзкой тварью, я ненавижу саму жизнь -->
 	<VTE_BondedAnimalMasterHater.stages.0.description>Рядом с этой мерзкой тварью у меня сразу портится настроение.</VTE_BondedAnimalMasterHater.stages.0.description>
 	<VTE_BondedAnimalMasterHater.stages.1.description>Рядом с этой мерзкой тварью у меня сразу портится настроение.</VTE_BondedAnimalMasterHater.stages.1.description>
