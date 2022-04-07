@@ -38,7 +38,7 @@
 	<MessagePlantDiedOfRot_ExposedToLight>{0} {0_gender ? завял : завяла : завяло}, так как слишком много времени {0_gender ? провёл : провела : провело} на свету.</MessagePlantDiedOfRot_ExposedToLight>
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили. А вообще, при каких ещё условиях может выйти такое сообщение?
 	Оригинал: {0} {0_gender ? погиб : погибла : погибло}. -->
-	<MessagePlantDiedOfRot>{0} {0_gender ? завял : завяла : завяло} от недостатка света.</MessagePlantDiedOfRot>
+	<MessagePlantDiedOfRot>{0} {0_gender ? завял : завяла : завяло}, так как долго {0_gender ? находился : находилась : находилось} в неподходящих условиях для роста.</MessagePlantDiedOfRot>
 	<!-- Оригинал: {0} {0_gender ? погиб : погибла : погибло} из-за отравления. -->
 	<MessagePlantDiedOfPoison>{0} {0_gender ? завял : завяла : завяло} из-за отравления.</MessagePlantDiedOfPoison>
 	<!-- Оригинал: {0} {0_gender ? погиб : погибла : погибло} из-за болезни. -->
