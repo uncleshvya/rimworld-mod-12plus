@@ -9,18 +9,24 @@ Copyright (c) Oskar Potocki
 		<success>Always</success>
 		<operations>
 
-			<!-- Исправлен баланс, сообщите разработчику.
+			<!-- Исправлен баланс, сообщите разработчику ванили.
 
-			Плазменный меч из DLC Royalty должен светиться во время ночных схваток.
+			Плазменные мечи из DLC Royalty должны светиться во время ночных схваток.
 			Идея взята из мода OskarPotocki.VFE.Insectoid -->
 			<li MayRequire="Ludeon.RimWorld.Royalty" Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "MeleeWeapon_PlasmaSword"]/graphicData</xpath>
+				<xpath>Defs/ThingDef[
+				defName = "MeleeWeapon_PlasmaSword" or
+				defName = "MeleeWeapon_PlasmaSwordBladelink"
+				]/graphicData</xpath>
 				<value>
 					<shaderType>TransparentPostLight</shaderType>
 				</value>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Royalty" Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "MeleeWeapon_PlasmaSword"]</xpath>
+				<xpath>Defs/ThingDef[
+				defName = "MeleeWeapon_PlasmaSword" or
+				defName = "MeleeWeapon_PlasmaSwordBladelink"
+				]</xpath>
 				<value>
 					<comps>
 						<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
