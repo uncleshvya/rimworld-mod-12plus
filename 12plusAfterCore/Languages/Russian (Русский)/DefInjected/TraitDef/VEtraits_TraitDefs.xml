@@ -41,6 +41,12 @@
 	<VTE_Insatiable.degreeDatas.0.label>безответственность</VTE_Insatiable.degreeDatas.0.label>
 	<!-- Оригинал: непорочный -->
 	<VTE_Prude.degreeDatas.0.label>непорочность</VTE_Prude.degreeDatas.0.label>
+	<!-- Исправлена размытая ссылка слова {PAWN_pronoun} для мужчин.
+	Оригинал: ...моря! {PAWN_pronoun} будет... -->
+	<VTE_ChildOfSea.degreeDatas.0.description>{PAWN_nameDef} чувствует зов моря, и будет {PAWN_gender ? счастлив : счастлива} находиться рядом с морем или рекой.</VTE_ChildOfSea.degreeDatas.0.description>
+	<!-- Исправлена размытая ссылка слова {PAWN_pronoun} для мужчин.
+	Оригинал: ...гор! {PAWN_pronoun} будет... -->
+	<VTE_ChildOfMountain.degreeDatas.0.description>{PAWN_nameDef} чувствует зов гор, и будет {PAWN_gender ? счастлив : счастлива} находиться рядом с большой горой.</VTE_ChildOfMountain.degreeDatas.0.description>
 	<!-- Оригинал: ...давно не {PAWN_gender ? путешествовал : путешествовала}. Благодаря...путешествий, в дроге добывает... -->
 	<VTE_Wanderlust.degreeDatas.0.description>{PAWN_nameDef} любит путешествовать и делает это быстро. Будет грустить, если давно сидит в поселении. Благодаря опыту прошлых путешествий, в дороге добывает еды больше, чем кто-либо.</VTE_Wanderlust.degreeDatas.0.description>
 	<!-- Идея взята из описания. Лучше бы подошла "ожесточённость", но она имеет не ту эмоциональную окраску.
@@ -71,7 +77,7 @@
 	<!-- Использована цитата из песни Face2face - Кошка.
 	Оригинал: Никакой любви не хватит, чтобы удовлетворить желания {PAWN_nameDef}. {PAWN_pronoun} будет менять партнёров, как перчатки и регулярно развлекаться под простынями с каждым. -->
 	<VTE_Insatiable.degreeDatas.0.description>{PAWN_pronoun} {PAWN_gender ? сам : сама} по себе, {PAWN_pronoun} со всеми и ни с кем. {PAWN_pronoun} {PAWN_gender ? нужен всем и не нужен : нужна всем и не нужна} никому... {PAWN_nameDef} будет признаваться в любви всем подряд, сходясь и расставаясь с партнёрами без оглядки на последствия.</VTE_Insatiable.degreeDatas.0.description>
-	<!-- С отключенными мыслями это просто трейт с бафом. Анализировать в игре.
+	<!-- Мысли отключены патчем. Теперь это просто трейт с бафом.
 	Оригинал: безумный доктор -->
 	<VTE_MadSurgeon.degreeDatas.0.label>одарённый хирург</VTE_MadSurgeon.degreeDatas.0.label>
 	<!-- Оригинал: {PAWN_nameDef} хранит секрет. Операция по сбору органов это всего лишь небольшой эксперимент. Исследование, которое делает {PAWN_possessive} счастливым. {PAWN_nameDef} осознаёт всю важность своей работы и будет {PAWN_gender ? недоволен : недовольна} длительным перерывам между пополнениями коллекции... то есть между операциями. -->
