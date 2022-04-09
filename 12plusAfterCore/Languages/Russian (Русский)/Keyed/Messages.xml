@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<!-- Исправлена неточность, сообщите разработчику.
+	<!-- Исправлена неточность, сообщите разработчику ванили.
 
 	Не забываем про дикарей.
 	Оригинал: ...указать животных, на которых... -->
 	<MessageMustDesignateHuntable>Нужно указать существ, на которых можно охотиться.</MessageMustDesignateHuntable>
 	<!-- Оригинал: ...приручаемых животных. -->
 	<MessageMustDesignateTameable>Нужно указать приручаемых существ.</MessageMustDesignateTameable>
-	<!-- Оригинал: Потолок в виде толстой горной породы удалить невозможно. -->
+	<!-- Оригинал: Потолок в виде толстой горной... -->
 	<MessageNothingCanRemoveThickRoofs>Толщу горной породы удалить невозможно.</MessageNothingCanRemoveThickRoofs>
-	<!-- Оригинал глючащий: Невозможно изгнать {PAWN_labelShort}, так как {PAWN_pronoun} не может ходить. -->
+	<!-- Красная ошибка из-за переменных PAWN_label, PAWN_gender. Пробовал ещё 1_label, 1_gender - то же самое.
+	Оригинал: ...еды. {PAWN_label} {PAWN_gender ? голоден : голодна}. -->
+	<MessageCaravanRanOutOfFood>{0} остался без еды.</MessageCaravanRanOutOfFood>
+	<!-- Красная ошибка из-за переменных PAWN_labelShort, PAWN_pronoun.
+	Оригинал: ...изгнать {PAWN_labelShort}, так как {PAWN_pronoun} не... -->
 	<MessageCantBanishDownedPawn>Невозможно изгнать {1_labelShort}, так как {1_pronoun} не может ходить.</MessageCantBanishDownedPawn>
 
 	<!-- Исправление согласно концепции «12+».
 
 	Заодно сглажены ссылки на людей - для модов на другие расы.
-	Оригинал: Нужно указать мёртвых или лежащих на земле людей, в одежде, которую можно снять. -->
+	Оригинал: ...указать мёртвых или лежащих на земле людей, в одежде... -->
 	<MessageMustDesignateStrippable>Нужно указать тела или обездвиженных существ, в одежде, которую можно снять.</MessageMustDesignateStrippable>
 	<!-- Оригинал: ...{PAWN_gender ? умер : умерла}. Причина... -->
 	<PawnDiedBecauseOf>{PAWN_labelShort} {PAWN_gender ? проиграл : проиграла}. Причина: {1}.</PawnDiedBecauseOf>
