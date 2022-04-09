@@ -177,6 +177,8 @@
 	<!-- Соответственно, и ванить слегка подкручиваем.
 	Оригинал: плазменный меч -->
 	<MeleeWeapon_PlasmaSword.label>огнеплазменный меч</MeleeWeapon_PlasmaSword.label>
+	<!-- Оригинал: плазменный синхромеч -->
+	<MeleeWeapon_PlasmaSwordBladelink.label>огнеплазменный синхромеч</MeleeWeapon_PlasmaSwordBladelink.label>
 
 	<!-- Исправление согласно концепции «12+».
 
