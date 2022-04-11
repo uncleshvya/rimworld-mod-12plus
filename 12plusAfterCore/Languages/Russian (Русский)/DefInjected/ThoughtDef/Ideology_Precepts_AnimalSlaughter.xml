@@ -17,10 +17,11 @@
 	<SlaughteredAnimal_Disapproved.stages.slaughtered_animal.description>Мне пришлось забить питомца. Это плохой поступок.</SlaughteredAnimal_Disapproved.stages.slaughtered_animal.description>
 	<!-- Оригинал: ...забить животное, это...можно вот так оборвать чью-то жизнь? -->
 	<SlaughteredAnimal_Horrible.stages.slaughtered_animal.description>Мне пришлось забить питомца, это ужасно! Как вообще можно так поступать?</SlaughteredAnimal_Horrible.stages.slaughtered_animal.description>
-	<!-- Оригиналы: {OTHERPAWN_gender ? забил : забила} животное -->
-	<SlaughteredAnimal_Know_Disapproved.stages.slaughtered_animal.labelSocial>{OTHERPAWN_gender ? забил : забила} питомца</SlaughteredAnimal_Know_Disapproved.stages.slaughtered_animal.labelSocial>
-	<SlaughteredAnimal_Know_Horrible.stages.slaughtered_animal.labelSocial>{OTHERPAWN_gender ? забил : забила} питомца</SlaughteredAnimal_Know_Horrible.stages.slaughtered_animal.labelSocial>
-	<SlaughteredAnimal_Know_Prohibited.stages.slaughtered_animal.labelSocial>{OTHERPAWN_gender ? забил : забила} питомца</SlaughteredAnimal_Know_Prohibited.stages.slaughtered_animal.labelSocial>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили о заглавных буквах.
+	Оригиналы: {OTHERPAWN_gender ? забил : забила} животное -->
+	<SlaughteredAnimal_Know_Disapproved.stages.slaughtered_animal.labelSocial>{OTHERPAWN_gender ? Забил : Забила} питомца</SlaughteredAnimal_Know_Disapproved.stages.slaughtered_animal.labelSocial>
+	<SlaughteredAnimal_Know_Horrible.stages.slaughtered_animal.labelSocial>{OTHERPAWN_gender ? Забил : Забила} питомца</SlaughteredAnimal_Know_Horrible.stages.slaughtered_animal.labelSocial>
+	<SlaughteredAnimal_Know_Prohibited.stages.slaughtered_animal.labelSocial>{OTHERPAWN_gender ? Забил : Забила} питомца</SlaughteredAnimal_Know_Prohibited.stages.slaughtered_animal.labelSocial>
 	<!-- Оригинал: ...забил животное. Это... -->
 	<SlaughteredAnimal_Know_Disapproved_Mood.stages.animal_slaughtered.description>Кто-то забил питомца. Это грустно.</SlaughteredAnimal_Know_Disapproved_Mood.stages.animal_slaughtered.description>
 	<!-- Оригинал: ...забил животное! Как...можно вот так оборвать чью-то жизнь? Ужас! -->
