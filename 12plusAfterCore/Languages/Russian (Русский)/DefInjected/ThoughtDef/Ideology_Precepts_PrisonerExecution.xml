@@ -8,7 +8,7 @@
 	<ExecutedPrisoner_Know_Horrible.stages.executed_prisoner.label>казнь пленника</ExecutedPrisoner_Know_Horrible.stages.executed_prisoner.label>
 	<ExecutedPrisoner_Know_Respected.stages.executed_prisoner.label>казнь пленника</ExecutedPrisoner_Know_Respected.stages.executed_prisoner.label>
 	<!-- Оригинал: казнил(а) виновного пленника -->
-	<ExecutedPrisonerGuilty_Know_Respected.stages.executed_guilty_prisoner.label>справедливая казнь пленника</ExecutedPrisonerGuilty_Know_Respected.stages.executed_guilty_prisoner.label>
+	<ExecutedPrisonerGuilty_Know_Respected.stages.executed_guilty_prisoner.label>казнь преступника</ExecutedPrisonerGuilty_Know_Respected.stages.executed_guilty_prisoner.label>
 	<!-- Оригинал: Я казнил виновного... -->
 	<ExecutedPrisonerGuilty_Respected.stages.executed_guilty_prisoner.description>Я {PAWN_gender ? казнил : казнила} виновного пленника. Справедливость восторжествовала!</ExecutedPrisonerGuilty_Respected.stages.executed_guilty_prisoner.description>
 	<!-- Оригинал: казнил(а) невиновного... -->
