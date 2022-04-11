@@ -17,18 +17,19 @@
 	<GotLovin_Horrible.stages.lustful_act.description>Я {PAWN_gender ? завёл : завела} отношения, и это было большой ошибкой.</GotLovin_Horrible.stages.lustful_act.description>
 	<!-- Оригинал: блудодей(ка) -->
 	<Lovin_Know_Abhorrent.stages.lustful_act.label>заводит отношения</Lovin_Know_Abhorrent.stages.lustful_act.label>
-	<!-- Оригинал: {OTHERPAWN_gender ? блудодей : блудодейка} -->
-	<Lovin_Know_Abhorrent.stages.lustful_act.labelSocial>{OTHERPAWN_gender ? завёл : завела} отношения</Lovin_Know_Abhorrent.stages.lustful_act.labelSocial>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили о заглавных буквах.
+	Оригинал: {OTHERPAWN_gender ? блудодей : блудодейка} -->
+	<Lovin_Know_Abhorrent.stages.lustful_act.labelSocial>{OTHERPAWN_gender ? Завёл : Завела} отношения</Lovin_Know_Abhorrent.stages.lustful_act.labelSocial>
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили - уж лучше использовать настояжее информирующее время, чем эти жуткие скобки.
 	Оригинал: предложил(а) близость -->
 	<Lovin_Know_Approved.stages.initiated_lovin.label>заводит отношения</Lovin_Know_Approved.stages.initiated_lovin.label>
 	<!-- Оригинал: {OTHERPAWN_gender ? предложил : предложила} близость -->
-	<Lovin_Know_Approved.stages.initiated_lovin.labelSocial>{OTHERPAWN_gender ? предложил : предложила} завести отношения</Lovin_Know_Approved.stages.initiated_lovin.labelSocial>
+	<Lovin_Know_Approved.stages.initiated_lovin.labelSocial>{OTHERPAWN_gender ? Предложил : Предложила} завести отношения</Lovin_Know_Approved.stages.initiated_lovin.labelSocial>
 	<!-- Оригинал: распутник(ца) -->
 	<Lovin_Know_Disapproved.stages.act_of_desire.label>распутничает</Lovin_Know_Disapproved.stages.act_of_desire.label>
 	<!-- Оригинал: блудодей(ка) любовью -->
 	<Lovin_Know_Horrible.stages.lustful_act.label>заводит отношения</Lovin_Know_Horrible.stages.lustful_act.label>
 	<!-- Оригинал: предложил(а) близость -->
-	<Lovin_Know_Horrible.stages.lustful_act.labelSocial>{OTHERPAWN_gender ? предложил : предложила} завести отношения</Lovin_Know_Horrible.stages.lustful_act.labelSocial>
+	<Lovin_Know_Horrible.stages.lustful_act.labelSocial>{OTHERPAWN_gender ? Предложил : Предложила} завести отношения</Lovin_Know_Horrible.stages.lustful_act.labelSocial>
 
 </LanguageData>
