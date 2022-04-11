@@ -15,10 +15,11 @@
 	<KilledInnocentAnimal_Know_Abhorrent.stages.killed_innocent_animal.label>обижает невинных животных</KilledInnocentAnimal_Know_Abhorrent.stages.killed_innocent_animal.label>
 	<KilledInnocentAnimal_Know_Disapproved.stages.killed_innocent_animal.label>обижает невинных животных</KilledInnocentAnimal_Know_Disapproved.stages.killed_innocent_animal.label>
 	<KilledInnocentAnimal_Know_Horrible.stages.killed_innocent_animal.label>обижает невинных животных</KilledInnocentAnimal_Know_Horrible.stages.killed_innocent_animal.label>
-	<!-- Оригиналы: {OTHERPAWN_gender ? убил : убила} невинное... -->
-	<KilledInnocentAnimal_Know_Abhorrent.stages.killed_innocent_animal.labelSocial>{OTHERPAWN_gender ? атаковал : атаковала} невинное животное</KilledInnocentAnimal_Know_Abhorrent.stages.killed_innocent_animal.labelSocial>
-	<KilledInnocentAnimal_Know_Disapproved.stages.killed_innocent_animal.labelSocial>{OTHERPAWN_gender ? атаковал : атаковала} невинное животное</KilledInnocentAnimal_Know_Disapproved.stages.killed_innocent_animal.labelSocial>
-	<KilledInnocentAnimal_Know_Horrible.stages.killed_innocent_animal.labelSocial>{OTHERPAWN_gender ? атаковал : атаковала} невинное животное</KilledInnocentAnimal_Know_Horrible.stages.killed_innocent_animal.labelSocial>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили о заглавных буквах.
+	Оригиналы: {OTHERPAWN_gender ? убил : убила} невинное... -->
+	<KilledInnocentAnimal_Know_Abhorrent.stages.killed_innocent_animal.labelSocial>{OTHERPAWN_gender ? Атаковал : Атаковала} невинное животное</KilledInnocentAnimal_Know_Abhorrent.stages.killed_innocent_animal.labelSocial>
+	<KilledInnocentAnimal_Know_Disapproved.stages.killed_innocent_animal.labelSocial>{OTHERPAWN_gender ? Атаковал : Атаковала} невинное животное</KilledInnocentAnimal_Know_Disapproved.stages.killed_innocent_animal.labelSocial>
+	<KilledInnocentAnimal_Know_Horrible.stages.killed_innocent_animal.labelSocial>{OTHERPAWN_gender ? Атаковал : Атаковала} невинное животное</KilledInnocentAnimal_Know_Horrible.stages.killed_innocent_animal.labelSocial>
 	<!-- Оригинал: убито невинное... -->
 	<KilledInnocentAnimal_Know_Abhorrent_Mood.stages.innocent_animal_killed.label>атаковано невинное животное</KilledInnocentAnimal_Know_Abhorrent_Mood.stages.innocent_animal_killed.label>
 	<KilledInnocentAnimal_Know_Disapproved_Mood.stages.innocent_animal_killed.label>атаковано невинное животное</KilledInnocentAnimal_Know_Disapproved_Mood.stages.innocent_animal_killed.label>
