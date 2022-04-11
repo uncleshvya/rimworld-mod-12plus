@@ -16,6 +16,9 @@
 	<!-- Красная ошибка из-за переменных PAWN_labelShort, PAWN_pronoun.
 	Оригинал: ...изгнать {PAWN_labelShort}, так как {PAWN_pronoun} не... -->
 	<MessageCantBanishDownedPawn>Невозможно изгнать {1_labelShort}, так как {1_pronoun} не может ходить.</MessageCantBanishDownedPawn>
+	<!-- В Ideology есть такие события, как "ритуал обращения", "ослепление".
+	Оригинал: Ритуал {0} начался. -->
+	<RitualBegun>Начинается {0}.</RitualBegun>
 
 	<!-- Исправление согласно концепции «12+».
 
