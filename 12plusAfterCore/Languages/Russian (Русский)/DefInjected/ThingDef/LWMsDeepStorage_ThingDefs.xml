@@ -1,25 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	EN: Hayloft -->
+	<LWM_Hayloft.label>Сеновал</LWM_Hayloft.label>
+	<!-- Стиль приведён к ванили. Удалена неактуальная для игры информация.
+	EN: "A hayloft is a space above a barn, stable or cow-shed, traditionally used for storage of hay or other fodder for the animals below. Haylofts were used mainly before the widespread use of industrial sized farm machinery allowed creating very large haybales that cannot be easily lifted for storing..." (двойной пробел и двойное тире) Encyclopedia Galactica\n\nLet's be honest here.  Unless you're using some farming mods I don't know about, your colonists are probably making piles of hay by hand, which is slow, backbreaking labor.  You know what?  Most farming is slow, backbreaking labor, and your colonists can't even hire migrant workers from other colonies.  Treat farmers and farm workers with respect: they work a lot harder than YOU do ;) Amazing people, good food.\n\nThis structure can be used to store hay, silage, and various other plant materials off of damp floors.  You probably want to build it under a (very tall) roof. -->
+	<LWM_Hayloft.description>Вместительные по́лки, подходят для хранения сена и других растительных материалов.\n\nСеновалы под крышей обычно нужны для запасания корма скоту на холодное время года, когда на пастбищах не может расти свежая трава. Но и в тёплых краях поселенцы, массово заготавливая растения, не тратят время на лишние перемещения от поля до дома, а правильно организованное сенохранилище рядом с разделочным столом экономит как силы повара, так и место на складе.</LWM_Hayloft.description>
+	<!-- EN: Hampers -->
+	<LWM_FabricHamper.label>Корзины</LWM_FabricHamper.label>
+	<!-- EN: This is a set of hampers made out of fabric. The various pockets allow storing large amounts of diverse small items with ease.\n\nIf you really want to store fabric in bags, see the mod settings! -->
+	<LWM_FabricHamper.description>Контейнер, состоящий из двух текстильных мешков на металлической раме. Отлично подходит для хранения мелких предметов и сыпучих продуктов.</LWM_FabricHamper.description>
+	<!-- EN: Safe -->
+	<LWM_Safe.label>Сейф</LWM_Safe.label>
+	<!-- EN: A secure, lockable box for safely storing valuables against theft and/or damage from fire.\n\nNote: protection from fire not yet implemented) -->
+	<LWM_Safe.description>Тяжёлый несгораемый шкаф для хранения ценностей.</LWM_Safe.description>
+	<!-- EN: Tall Shelves -->
+	<LWM_VeryBigShelf.label>Потолочный стеллаж</LWM_VeryBigShelf.label>
+
 	<!-- Исправление согласно концепции «12+».
 
-	Оригинал: ...стульев до трупов. \n\nХранимые... -->
-	<LWM_BigShelf.description>Большой стеллаж для хранения разных предметов, от артиллерийских снарядов до произведений искусства, от бионических рук до кирпичей, от стульев до туш.\n\nХранимые предметы не будут ветшать, даже если стеллаж расположить вне помещения.</LWM_BigShelf.description>
-	<!-- Оригинал: ...стульев до трупов. \n\nЛежащие в нём вещи не портятся, даже если они на улице. -->
-	<LWM_BigShelf_Frame.description>Большой стеллаж для хранения разных предметов, от артиллерийских снарядов до произведений искусства, от бионических рук до кирпичей, от стульев до туш.\n\nХранимые предметы не будут ветшать, даже если стеллаж расположить вне помещения.</LWM_BigShelf_Frame.description>
-	<!-- Оригинал: Крюки для мяса -->
+	EN: A set of tall covered shelves for storing miscellaneous items, from artillery shells to artwork, from bionic arms to bricks, from chairs to corpses.  It doesn't ask questions, it just stores things.\n\nPawns access the top shelves using a small rolling ladder (currently not pitured), so while many things can be stored here, it can take a while if you're putting a lot of tiny bottles on the top shelf.  Items stored in this will not deteriorate, even if outside.\n\nNote:  Use your own judgement about what you put here.  Grand Sculptures?  Probably don't ACTUALLY fit.  But if that's what you want here, you play you! -->
+	<LWM_VeryBigShelf.description>Высокий, до потолка, шкаф с полками для хранения различных предметов — от артиллерийских снарядов до произведений искусства, от бионических рук до кирпичей, от стульев до туш.\n\nПоселенцы будут добираться до верхних полок с помощью небольших выдвижных ступенек, так что чем сильнее загружен стеллаж, тем больше времени требуется, чтобы уложить вещи.\n\nХранимые предметы не будут ветшать, даже если стеллаж расположить вне помещения.</LWM_VeryBigShelf.description>
+	<!-- Оригинал: ...предметов, от артиллерийских...стульев до трупов. \n\nХранимые... -->
+	<LWM_BigShelf.description>Большой стеллаж для хранения разных предметов — от артиллерийских снарядов до произведений искусства, от бионических рук до кирпичей, от стульев до туш.\n\nХранимые предметы не будут ветшать, даже если стеллаж расположить вне помещения.</LWM_BigShelf.description>
+	<!-- Оригинал: ...предметов, от артиллерийских...стульев до трупов. \n\nЛежащие в нём вещи не портятся, даже если они на улице. -->
+	<LWM_BigShelf_Frame.description>Большой стеллаж для хранения разных предметов — от артиллерийских снарядов до произведений искусства, от бионических рук до кирпичей, от стульев до туш.\n\nХранимые предметы не будут ветшать, даже если стеллаж расположить вне помещения.</LWM_BigShelf_Frame.description>
+	<!-- Оригинал: ...для мяса -->
 	<LWM_Meat_Hook.label>Крюки для туш</LWM_Meat_Hook.label>
-	<!-- Оригинал: Крюки для мяса (проект) -->
+	<!-- Оригинал: ...для мяса (проект) -->
 	<LWM_Meat_Hook_Blueprint.label>Крюки для туш (проект)</LWM_Meat_Hook_Blueprint.label>
-	<!-- Оригинал: Крюки для мяса (проект) -->
+	<!-- Оригинал: ...для мяса (проект) -->
 	<LWM_Meat_Hook_Blueprint_Install.label>Крюки для туш (проект)</LWM_Meat_Hook_Blueprint_Install.label>
-	<!-- Оригинал: Крюки для мяса (строительство) -->
+	<!-- Оригинал: ...для мяса (строительство) -->
 	<LWM_Meat_Hook_Frame.label>Крюки для туш (строительство)</LWM_Meat_Hook_Frame.label>
-	<!-- Стиль приведён к ванили.
-	Оригиналы: Высокий металлический каркас с несколькими крючками, висящими на цепях. Простая рукоятка позволяет поднимать несколько подвесных тушь в воздух. Хороший способ хранения трупов животных, которых вы убили, перед тем, как резать и употреблять их мясо. Вы монстр. -->
+	<!-- Оригиналы: Высокий металлический каркас с несколькими крючками, висящими на цепях. Простая рукоятка позволяет поднимать несколько подвесных тушь в воздух. Хороший способ хранения трупов животных, которых вы убили, перед тем, как резать и употреблять их мясо. Вы монстр. -->
 	<LWM_Meat_Hook.description>Высокая металлическая рама с несколькими крюками, висящими на цепях. Хорошее место для хранения туш в ожидании разделки. Для подъёма их над полом установлен простой механизм с рукоятью.</LWM_Meat_Hook.description>
 	<LWM_Meat_Hook_Frame.description>Высокая металлическая рама с несколькими крюками, висящими на цепях. Хорошее место для хранения туш в ожидании разделки. Для подъёма их над полом установлен простой механизм с рукоятью.</LWM_Meat_Hook_Frame.description>
-	<!-- EN: A set of tall covered shelves for storing miscellaneous items, from artillery shells to artwork, from bionic arms to bricks, from chairs to corpses.  It doesn't ask questions, it just stores things.\n\nPawns access the top shelves using a small rolling ladder (currently not pitured), so while many things can be stored here, it can take a while if you're putting a lot of tiny bottles on the top shelf.  Items stored in this will not deteriorate, even if outside.\n\nNote:  Use your own judgement about what you put here.  Grand Sculptures?  Probably don't ACTUALLY fit.  But if that's what you want here, you play you! -->
-	<LWM_VeryBigShelf.description>Высокий шкаф с полками для хранения различных предметов, от артиллерийских снарядов до произведений искусства, от бионических рук до кирпичей, от стульев до туш.\n\nПоселенцы будут добираться до верхних полок с помощью небольших выдвижных ступенек, так что чем сильнее загружен шкаф, тем больше времени требуется, чтобы достать вещи.\n\nХранимые предметы не будут ветшать, даже если стеллаж расположить вне помещения.</LWM_VeryBigShelf.description>
 
 </LanguageData>
