@@ -23,10 +23,11 @@
 	<AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.label>ест мумиё</AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.label>
 	<AteHumanMeat_Know_Disapproved.stages.ate_human_meat.label>ест мумиё</AteHumanMeat_Know_Disapproved.stages.ate_human_meat.label>
 	<AteHumanMeat_Know_Horrible.stages.ate_human_meat.label>ест мумиё</AteHumanMeat_Know_Horrible.stages.ate_human_meat.label>
-	<!-- Оригиналы: {OTHERPAWN_gender ? съел : съела} человечину -->
-	<AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.labelSocial>{OTHERPAWN_gender ? съел : съела} мумиё</AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.labelSocial>
-	<AteHumanMeat_Know_Disapproved.stages.ate_human_meat.labelSocial>{OTHERPAWN_gender ? съел : съела} мумиё</AteHumanMeat_Know_Disapproved.stages.ate_human_meat.labelSocial>
-	<AteHumanMeat_Know_Horrible.stages.ate_human_meat.labelSocial>{OTHERPAWN_gender ? съел : съела} мумиё</AteHumanMeat_Know_Horrible.stages.ate_human_meat.labelSocial>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили о заглавных буквах.
+	Оригиналы: {OTHERPAWN_gender ? съел : съела} человечину -->
+	<AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.labelSocial>{OTHERPAWN_gender ? Съел : Съела} мумиё</AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.labelSocial>
+	<AteHumanMeat_Know_Disapproved.stages.ate_human_meat.labelSocial>{OTHERPAWN_gender ? Съел : Съела} мумиё</AteHumanMeat_Know_Disapproved.stages.ate_human_meat.labelSocial>
+	<AteHumanMeat_Know_Horrible.stages.ate_human_meat.labelSocial>{OTHERPAWN_gender ? Съел : Съела} мумиё</AteHumanMeat_Know_Horrible.stages.ate_human_meat.labelSocial>
 	<!-- Оригинал: Я {PAWN_gender ? съел : съела} человечину. Теперь я чувствую себя благороднее и сильнее! -->
 	<AteHumanMeat_Preferred.stages.ate_human_meat.description>Я {PAWN_gender ? съел : съела} свежее мумиё. Теперь я чувствую себя здоровее и сильнее!</AteHumanMeat_Preferred.stages.ate_human_meat.description>
 	<!-- Оригинал: Я {PAWN_gender ? съел : съела} человечину! Мир жесток, и я ему соответствую! -->
@@ -43,9 +44,9 @@
 	<!-- Оригинал: съел(а) пищу без человечины -->
 	<AteNonCannibalFood_Know_Abhorrent.stages.ate_noncannibal_food.label>съедена пища без мумиё</AteNonCannibalFood_Know_Abhorrent.stages.ate_noncannibal_food.label>
 	<AteNonCannibalFood_Know_Horrible.stages.ate_noncannibal_food.label>съедена пища без мумиё</AteNonCannibalFood_Know_Horrible.stages.ate_noncannibal_food.label>
-	<!-- Оригиналы: ...без человечины -->
-	<AteNonCannibalFood_Know_Abhorrent.stages.ate_noncannibal_food.labelSocial>{OTHERPAWN_gender ? съел : съела} пищу без мумиё</AteNonCannibalFood_Know_Abhorrent.stages.ate_noncannibal_food.labelSocial>
-	<AteNonCannibalFood_Know_Horrible.stages.ate_noncannibal_food.labelSocial>{OTHERPAWN_gender ? съел : съела} пищу без мумиё</AteNonCannibalFood_Know_Horrible.stages.ate_noncannibal_food.labelSocial>
+	<!-- Оригиналы: {OTHERPAWN_gender ? съел : съела} пищу без человечины -->
+	<AteNonCannibalFood_Know_Abhorrent.stages.ate_noncannibal_food.labelSocial>{OTHERPAWN_gender ? Съел : Съела} пищу без мумиё</AteNonCannibalFood_Know_Abhorrent.stages.ate_noncannibal_food.labelSocial>
+	<AteNonCannibalFood_Know_Horrible.stages.ate_noncannibal_food.labelSocial>{OTHERPAWN_gender ? Съел : Съела} пищу без мумиё</AteNonCannibalFood_Know_Horrible.stages.ate_noncannibal_food.labelSocial>
 	<!-- Оригиналы: хочет человечины -->
 	<NoRecentHumanMeat_Preferred.stages.want_human_meat.label>хочет мумиё</NoRecentHumanMeat_Preferred.stages.want_human_meat.label>
 	<NoRecentHumanMeat_RequiredRavenous.stages.want_human_meat.label>хочет мумиё</NoRecentHumanMeat_RequiredRavenous.stages.want_human_meat.label>
@@ -80,13 +81,13 @@
 	<ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.label>плохо себя ведёт</ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.label>
 	<ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.label>плохо себя ведёт</ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.label>
 	<!-- Оригинал: {OTHERPAWN_gender ? разделал : разделала} человека -->
-	<ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.labelSocial>плохо себя {OTHERPAWN_gender ? вёл : вела}</ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.labelSocial>
+	<ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.labelSocial>Плохо себя {OTHERPAWN_gender ? вёл : вела}</ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.labelSocial>
 	<!-- Оригинал: Один из нас разделал человека. Я считаю, что это неправильно. -->
 	<ButcheredHuman_Know_Disapproved.stages.we_butchered_humanlike.description>Наше поселение подобно какой-то свалке. Это напрягает.</ButcheredHuman_Know_Disapproved.stages.we_butchered_humanlike.description>
 	<!-- Пробел заменён на неразрывный, т.к. одинаковое название с label вызывало красную ошибку.
 	Оригиналы: {PAWN_gender ? разделал : разделала} человека -->
-	<ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.labelSocial>плохо себя ведёт</ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.labelSocial>
-	<ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.labelSocial>плохо себя ведёт</ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.labelSocial>
+	<ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.labelSocial>Плохо себя ведёт</ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.labelSocial>
+	<ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.labelSocial>Плохо себя ведёт</ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.labelSocial>
 	<!-- Оригинал: Один из нас разделал человека. Это ужасно. -->
 	<ButcheredHuman_Know_Horrible.stages.we_butchered_humanlike.description>Наше поселение подобно свалке! Это ужасно, как мы до сих пор не переломали ноги?</ButcheredHuman_Know_Horrible.stages.we_butchered_humanlike.description>
 
