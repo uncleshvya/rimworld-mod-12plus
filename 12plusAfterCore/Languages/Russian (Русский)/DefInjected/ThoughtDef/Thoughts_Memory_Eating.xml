@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Не влезало в интерфейс.
+	Использовано название пещерного жука и внешний вид остальных инсектоидов: мегаскарабей похож на жука, мегапаук - на жука-носорога.
+	Оригинал: ...мясом насекомого -->
+	<AteInsectMeatAsIngredient.stages.ate_cooked_insect_meat.label>съедено блюдо с мясом жука</AteInsectMeatAsIngredient.stages.ate_cooked_insect_meat.label>
+
 	<!-- Исправление согласно концепции «12+».
 
 	Оригинал: съеден труп -->
@@ -9,23 +16,19 @@
 	Оригинал: ...пришлось есть сырое мясо неразделанного мёртвого существа, будто я животное. Это... -->
 	<AteCorpse.stages.ate_corpse.description>Мне пришлось отгрызать куски от неразделанной туши, будто я какой-то дикарь. Это было ужасно.</AteCorpse.stages.ate_corpse.description>
 
-	<!-- Оригинал: ...с человечиной -->
+	<!-- Оригиналы: ...с человечиной -->
 	<AteHumanlikeMeatAsIngredient.stages.cooked_cannibalism.label>съедено блюдо с мумиё</AteHumanlikeMeatAsIngredient.stages.cooked_cannibalism.label>
+	<AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.label>съедено блюдо с мумиё</AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.label>
 	<!-- Оригинал: Мне пришлось есть блюдо, приготовленное из плоти человека. Это ужасно! -->
 	<AteHumanlikeMeatAsIngredient.stages.cooked_cannibalism.description>Мне пришлось есть блюдо, испорченное гадким мумиё. Это ужасно!</AteHumanlikeMeatAsIngredient.stages.cooked_cannibalism.description>
-
-	<!-- Оригинал: ...с человечиной -->
-	<AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.label>съедено блюдо с мумиё</AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.label>
 	<!-- Оригинал: Блюдо из плоти человека — это так вкусно! Если бы только у меня было немного бобов и хорошее кьянти... -->
 	<AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.description>Мумиё — это так полезно! Я укрепляю иммунитет.</AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.description>
 
-	<!-- Оригинал: съедена сырая человечина -->
+	<!-- Оригиналы: съедена сырая человечина -->
 	<AteHumanlikeMeatDirect.stages.raw_cannibalism.label>съедено мумиё</AteHumanlikeMeatDirect.stages.raw_cannibalism.label>
+	<AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.label>съедено мумиё</AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.label>
 	<!-- Оригинал: ...есть сырую плоть человека. Как зверь. Какой кошмар! -->
 	<AteHumanlikeMeatDirect.stages.raw_cannibalism.description>Мне пришлось есть мумиё, будто я какой-то таракан. Какой кошмар!</AteHumanlikeMeatDirect.stages.raw_cannibalism.description>
-
-	<!-- Оригинал: съедена сырая человечина -->
-	<AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.label>съедено мумиё</AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.label>
 	<!-- Оригинал: ...вкусить сырой плоти человека. Я словно зверь! Она была такая (многоточие пробел) сочная. -->
 	<AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.description>Мне удалось вкусить свежайшего мумиё. Оно было такое... необычное... У меня будет железное здоровье!</AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.description>
 
