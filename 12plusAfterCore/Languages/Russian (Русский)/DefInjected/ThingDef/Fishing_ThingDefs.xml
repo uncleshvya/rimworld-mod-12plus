@@ -228,11 +228,15 @@
 	<SalmonRoe.description>Деликатес, изготовленный из засоленной икры лососевых. Может быть съеден в этом виде или использован в качестве ингредиента для праздничных блюд.</SalmonRoe.description>
 	<!-- EN: squid leather -->
 	<SquidLeather.label>кожа кальмара</SquidLeather.label>
+	<!-- EN: squid leather -->
+	<SquidLeather.stuffProps.stuffAdjective>кожи кальмара</SquidLeather.stuffProps.stuffAdjective>
 	<!-- Переведено в стиле ванили.
 	EN: Leather, of sorts, made from the hide of a squid. -->
 	<SquidLeather.description>Дублёная, высушенная, очищенная кожа кальмара. Прочный и красивый материал для одежды.</SquidLeather.description>
 	<!-- EN: eel leather -->
 	<EelLeather.label>кожа угря</EelLeather.label>
+	<!-- EN: eel leather -->
+	<EelLeather.stuffProps.stuffAdjective>кожи угря</EelLeather.stuffProps.stuffAdjective>
 	<!-- Переведено в стиле ванили.
 	EN: Leather, of sorts, made from the skin of an eel. -->
 	<EelLeather.description>Дублёная, высушенная, очищенная кожа угря. Относительно прочный материал для одежды и мебели. Ценится за привлекательный внешний вид.</EelLeather.description>
