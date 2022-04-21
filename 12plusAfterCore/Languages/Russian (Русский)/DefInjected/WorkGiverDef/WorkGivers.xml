@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<!-- Исправлена неточность, сообщите разработчику.
+	<!-- Исправлена неточность, сообщите разработчику ванили.
 
 	Появились рецепты шлема, арфы и др.
 	Конкретизированы ванильные кузни - для модов на новые верстаки.
@@ -9,7 +9,7 @@
 	<DoBillsMakeWeapons.label>ковать на кузне</DoBillsMakeWeapons.label>
 	<!-- Оригинал: изготовить оружие на -->
 	<DoBillsMakeWeapons.gerund>Ковать на</DoBillsMakeWeapons.gerund>
-	<!-- Оригинал: изготовить оружие на -->
+	<!-- Оригинал: изготавливать оружие на -->
 	<DoBillsMakeWeapons.verb>ковать</DoBillsMakeWeapons.verb>
 	<!-- Убрана путаница с DoctorTendToSelf.label, иначе 2 одинаковых задания выглядят как баг.
 	Оригинал: лечить себя -->
@@ -43,7 +43,6 @@
 	<DoBillsHaulCampfire.gerund>Сжигать, используя</DoBillsHaulCampfire.gerund>
 	<DoBillsMachiningTable.gerund>Работать, используя</DoBillsMachiningTable.gerund>
 	<DoBillsMakeApparel.gerund>Шить одежду, используя</DoBillsMakeApparel.gerund>
-	<DoBillsMakeWeapons.gerund>Изготовить оружие на</DoBillsMakeWeapons.gerund>
 	<DoBillsMedicalAnimalOperation.gerund>Провести медпроцедуру</DoBillsMedicalAnimalOperation.gerund>
 	<DoBillsMedicalHumanOperation.gerund>Провести медпроцедуру</DoBillsMedicalHumanOperation.gerund>
 	<DoBillsProduceDrugs.gerund>Изготавливать препараты, используя</DoBillsProduceDrugs.gerund>
@@ -115,7 +114,7 @@
 
 	Оригинал: разделывать существ -->
 	<DoBillsButcherFlesh.label>разделывать туши животных</DoBillsButcherFlesh.label>
-	<!-- Сглажена ссылка на трупы - в т.ч. для модов, добавляющих рецепты в крематорий.
+	<!-- Заодно сглажена ссылка на трупы - в т.ч. для модов, добавляющих рецепты в крематорий.
 	Оригинал: кремировать трупы -->
 	<DoBillsCremate.label>сжигать в крематории</DoBillsCremate.label>
 	<!-- Оригинал: переносить трупы -->
@@ -123,7 +122,7 @@
 	<!-- Проверено, этот параметр не влияет на раздевание людей без сознания и на раздевание пленников.
 	Оригинал: раздевать трупы -->
 	<Strip.label>раздевать тела</Strip.label>
-	<!-- Конфликт со <Strip> из файла FloatMenu.xml иногда приводил к багу, когда для снятия одежды с трупа отображались 2 одинаковых задания "Раздеть" в контекстном меню.
+	<!-- Конфликт со Strip из файла FloatMenu.xml иногда приводил к багу, когда для снятия одежды с трупа отображались 2 одинаковых задания "Раздеть" в контекстном меню.
 	Оригинал: Раздеть -->
 	<Strip.gerund>Раздеть тело</Strip.gerund>
 
