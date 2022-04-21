@@ -58,7 +58,23 @@ Copyright (c) Sarg Bjornson
 				<xpath>Defs/ThingDef[defName = "BoneItem"]/stuffProps/statFactors/Flammability/text()</xpath>
 				<value>0.5</value>
 			</li>
-			<!-- Исправляем баг версии 1.3 с отображением маски -->
+			<!-- Аналогично надо сделать для костяного моста из мода Simply More Bridges (Continued):
+			Но нужно подобрать подходящий код, т.к. стандартный не сработал:>
+			<li MayRequire="Mlie.SimplyMoreBridges" Class="PatchOperationReplace">
+				<xpath>Defs/TerrainDef[defName = "WoodenBridgeBoneItem"]/statBases/Flammability/text()</xpath>
+				<value>0.4</value>
+			</li>
+			Альтернативный тоже не подошёл:
+			<li MayRequire="Mlie.SimplyMoreBridges" Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "WoodenBridgeBoneItem"]</xpath>
+				<value>
+					<statBases>
+						<Flammability>0.4</Flammability>
+					</statBases>
+				</value>
+			</li>
+
+			Исправляем баг версии 1.3 с отображением маски -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName = "ROMB_Apparel_SkullMask"]/apparel/wornGraphicPaths/li[2]</xpath>
 			</li>
