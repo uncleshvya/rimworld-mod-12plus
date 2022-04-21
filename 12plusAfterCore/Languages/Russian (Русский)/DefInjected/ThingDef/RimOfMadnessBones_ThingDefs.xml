@@ -28,11 +28,11 @@
 	<BoneWall.description>Непроходимая стена, сделанная из крупных костей и черепов. Достаточно крепка, чтобы поддерживать крышу.</BoneWall.description>
 	<!-- EN: skull mask -->
 	<ROMB_Apparel_SkullMask.label>маска-череп</ROMB_Apparel_SkullMask.label>
-	<!-- EN: A terrifying mask. Hides the wearer -->
+	<!-- EN: A terrifying mask. Hides the wearer's face and makes them more confident. -->
 	<ROMB_Apparel_SkullMask.description>Страшная маска. Скрывает лицо владельца и придаёт уверенности в бою.</ROMB_Apparel_SkullMask.description>
 	<!-- EN: deer skull mask -->
 	<ROMB_Apparel_DeerSkullMask.label>рогатая маска-череп</ROMB_Apparel_DeerSkullMask.label>
-	<!-- EN: A terrifying mask. Hides the wearer -->
+	<!-- EN: A terrifying mask. Hides the wearer's face and makes them more confident. -->
 	<ROMB_Apparel_DeerSkullMask.description>Потрясающая маска из костей и рогов. Скрывает лицо владельца и придаёт уверенности в бою.</ROMB_Apparel_DeerSkullMask.description>
 	<!-- EN: bone armor -->
 	<Sihv_Apparel_BoneArmor.label>костяная броня</Sihv_Apparel_BoneArmor.label>
@@ -49,10 +49,10 @@
 	<!-- EN: An extremely light-weight plastic formed from hydroxyapatite and calcium stearate extracted from bone. Can be used to build metal stuff, but is weaker than metals. -->
 	<BonePlastic.description>Чрезвычайно лёгкий пластик, изготовленный из гидроксиапатита и стеарата кальция, извлечённых из кости. Его можно использовать в производстве вместо металлов, правда, он не такой прочный, как большинство из них.</BonePlastic.description>
 	<!-- EN: bone ash -->
-	<BoneChina.label>блоки костяного фарфора</BoneChina.label>
+	<BoneChina.label>блоки фарфора</BoneChina.label>
 	<!-- EN: ash made from bones burned at extremely high temperatures. Can be used to make art pieces out of bone china. -->
-	<BoneChina.description>Также известны под названием «фарфоровый бисквит». Керамика на основе костного пепла, белая и твёрдая как камень.</BoneChina.description>
-	<!-- EN: bone china -->
+	<BoneChina.description>Керамика на основе белой костяной золы, искусственный камень.</BoneChina.description>
+	<!-- EN: bone ash -->
 	<BoneChina.stuffProps.stuffAdjective>фарфора</BoneChina.stuffProps.stuffAdjective>
 	<!-- EN: bone marrow -->
 	<ROMB_Marrow.label>костный мозг</ROMB_Marrow.label>
