@@ -3,7 +3,11 @@
 
 	<!-- Исправлена неточность, сообщите разработчику ванили.
 
-	Не забываем про дикарей.
+	Хорошо бы найти код для имени животновода. Пробовал цифры 1-5, HANDLER, HUMAN, TAMER, PAWN с приставками nameDef, labelShort.
+	Заодно сглажены ссылки на животных - для модов на неявно живых существ.
+	Оригинал: Для {ANIMAL_labelShort} нет подходящего загона. Это животное рано... -->
+	<MessageTameNoSuitablePens>Зоотехник не может добраться до подходящих загонов или мест привязи для {ANIMAL_labelShort}. Так что {0_gender ? тот : та : оно} рано или поздно убредёт.</MessageTameNoSuitablePens>
+	<!-- Не забываем про дикарей.
 	Оригинал: ...указать животных, на которых... -->
 	<MessageMustDesignateHuntable>Нужно указать существ, на которых можно охотиться.</MessageMustDesignateHuntable>
 	<!-- Оригинал: ...приручаемых животных. -->
@@ -50,8 +54,7 @@
 	<MessagePlantDiedOfPoison>{0} {0_gender ? завял : завяла : завяло} из-за отравления.</MessagePlantDiedOfPoison>
 	<!-- Оригинал: {0} {0_gender ? погиб : погибла : погибло} из-за болезни. -->
 	<MessagePlantDiedOfBlight>{0} {0_gender ? завял : завяла : завяло} из-за болезни.</MessagePlantDiedOfBlight>
-	<!-- Заодно сглажена ссылка на животных - для модов на неявно живые существа.
-	Оригинал: ...вы убьёте {DESIGNATED_labelShort}...этому животному. -->
+	<!-- Оригинал: ...вы убьёте {DESIGNATED_labelShort}...этому животному. -->
 	<MessageSlaughteringBondedAnimal>Если вы потеряете {DESIGNATED_labelShort}, {BONDED_labelShort} расстроится, поскольку {BONDED_gender ? привязан : привязана} к этому питомцу.</MessageSlaughteringBondedAnimal>
 	<!-- Оригинал: Внимание: {0} не выживет на свету. -->
 	<MessageWarningCavePlantsExposedToLight>Внимание: {0} увядает на свету.</MessageWarningCavePlantsExposedToLight>
