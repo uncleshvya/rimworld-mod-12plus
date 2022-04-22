@@ -44,6 +44,12 @@
 	<ReportDiggingUpCorpse>выкапывает тело</ReportDiggingUpCorpse>
 	<!-- Оригинал: Мертв(а) -->
 	<Dead>Игра окончена</Dead>
+	<!-- Оригинал: ...(не испортится) -->
+	<CurrentlyFrozen>Замороженное (не будет гнить)</CurrentlyFrozen>
+	<!-- Оригинал: Охлаждённое (испортится через {0}) -->
+	<CurrentlyRefrigerated>Охлаждённое (начнёт гнить через {0})</CurrentlyRefrigerated>
+	<!-- Оригинал: Не охлаждённое (испортится через {0}) -->
+	<NotRefrigerated>Не охлаждённое (начнёт гнить через {0})</NotRefrigerated>
 	<!-- Оригинал: Погибает на свету -->
 	<DyingBecauseExposedToLight>Увядает на свету</DyingBecauseExposedToLight>
 	<!-- Оригинал: ...дерево погибнет через... -->
