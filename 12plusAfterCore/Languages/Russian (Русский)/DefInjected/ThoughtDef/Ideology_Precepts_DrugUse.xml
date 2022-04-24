@@ -22,8 +22,7 @@
 	<AdministeredRecreationalDrug_Horrible.stages.administered_recreational_drug.description>Я {PAWN_gender ? ввёл : ввела} пациенту мерзкую «химию», повысив тем самым риск химического повреждения органов. Ужасный, оскорбительный поступок!</AdministeredRecreationalDrug_Horrible.stages.administered_recreational_drug.description>
 	<!-- Оригинал: использовал наркотик -->
 	<IngestedDrug_Horrible.stages.used_drug.label>использован медикамент</IngestedDrug_Horrible.stages.used_drug.label>
-	<IngestedDrug_Know_Horrible.stages.used_drug.label>использован медикамент
-	</IngestedDrug_Know_Horrible.stages.used_drug.label>
+	<IngestedDrug_Know_Horrible.stages.used_drug.label>использован медикамент</IngestedDrug_Know_Horrible.stages.used_drug.label>
 	<!-- Оригинал: Я употребил наркотик. Такие химические вещества в организме являются ужасным преступлением против моих убеждений. -->
 	<IngestedDrug_Horrible.stages.used_drug.description>Я {PAWN_gender ? употребил : употребила} чужерожное вещество, и оно нанесло серьёзный удар по моей естественной способности исцеляться. Если вдруг кончатся лекарства, то мой организм не справится с болезнью, которую раньше мог с лёгкостью преодолеть.</IngestedDrug_Horrible.stages.used_drug.description>
 	<!-- Оригинал: использовал тяжелый наркотик -->
