@@ -15,9 +15,11 @@
 	<!-- Оригинал: холодолюбивый -->
 	<VTE_ColdInclined.degreeDatas.0.label>морозоустойчивость</VTE_ColdInclined.degreeDatas.0.label>
 	<!-- EN: [PAWN_nameDef] has never felt nausea in [PAWN_possessive] life. Throwing up or food poisoning is foreign to [PAWN_objective].
-	Исправлены ошибки падежных окончаний и размытая ссылка для "{PAWN_objective}".
+	Исправлены ошибки падежных окончаний и размытая ссылка для PAWN_objective.
 	Оригинал: Тошнота это не про {PAWN_nameDef}. Рвота и пищевые отравления чужды {PAWN_objective}. -->
 	<VTE_IronStomach.degreeDatas.0.description>Сколько {PAWN_nameDef} себя помнит, {PAWN_pronoun} никогда не {PAWN_gender ? травился : травилась}, какие бы странные блюда ни {PAWN_gender ? ел : ела}. {PAWN_objective} чужды тошнота и рвота, вызванные стряпнёй неумелой кухарки.</VTE_IronStomach.degreeDatas.0.description>
+	<!-- Оригинал: ...тяжёлых костй или... -->
+	<VTE_BigBoned.degreeDatas.0.description>В силу ли наследственности, тяжёлых костей или неправильного распределения веса, {PAWN_nameDef} уже {PAWN_gender ? успел : успела} сломать несколько стульев и наверняка сломает ещё больше.</VTE_BigBoned.degreeDatas.0.description>
 	<!-- Оригинал: покорный -->
 	<VTE_Submissive.degreeDatas.0.label>покорность</VTE_Submissive.degreeDatas.0.label>
 	<!-- Оригинал: ...работает с нормальность скоростью... -->
@@ -41,10 +43,10 @@
 	<VTE_Insatiable.degreeDatas.0.label>безответственность</VTE_Insatiable.degreeDatas.0.label>
 	<!-- Оригинал: непорочный -->
 	<VTE_Prude.degreeDatas.0.label>непорочность</VTE_Prude.degreeDatas.0.label>
-	<!-- Исправлена размытая ссылка слова {PAWN_pronoun} для мужчин.
+	<!-- Исправлена размытая ссылка слова PAWN_pronoun для мужчин.
 	Оригинал: ...моря! {PAWN_pronoun} будет... -->
 	<VTE_ChildOfSea.degreeDatas.0.description>{PAWN_nameDef} чувствует зов моря, и будет {PAWN_gender ? счастлив : счастлива} находиться рядом с морем или рекой.</VTE_ChildOfSea.degreeDatas.0.description>
-	<!-- Исправлена размытая ссылка слова {PAWN_pronoun} для мужчин.
+	<!-- Исправлена размытая ссылка слова PAWN_pronoun для мужчин.
 	Оригинал: ...гор! {PAWN_pronoun} будет... -->
 	<VTE_ChildOfMountain.degreeDatas.0.description>{PAWN_nameDef} чувствует зов гор, и будет {PAWN_gender ? счастлив : счастлива} находиться рядом с большой горой.</VTE_ChildOfMountain.degreeDatas.0.description>
 	<!-- Оригинал: ...давно не {PAWN_gender ? путешествовал : путешествовала}. Благодаря...путешествий, в дроге добывает... -->
@@ -88,7 +90,7 @@
 	<VTE_DrunkenMaster.degreeDatas.0.description>{PAWN_nameDef} много {PAWN_gender ? читал : читала} о восточной философии вообще и боевых искусствах в частности. К сожалению, одной теории мало для того, чтобы стать мастером рукопашных единоборств.</VTE_DrunkenMaster.degreeDatas.0.description>
 	<!-- Оригинал: клептоман -->
 	<VTE_Kleptomaniac.degreeDatas.0.label>мизантроп</VTE_Kleptomaniac.degreeDatas.0.label>
-	<!-- Оригинал: {PAWN_nameDef} не может удержаться от того, чтобы не стащить что-нибудь у другого человека. Даже если это приведёт к нехорошим последствиям. -->
+	<!-- Оригинал: {PAWN_nameDef} не может удержаться от того, чтобы не стащить что-нибудь у другого человека. Даже если... -->
 	<VTE_Kleptomaniac.degreeDatas.0.description>{PAWN_nameDef} с трудом сходится с другими поселенцами, а уж к чужакам относится с необоримым отвращением. {PAWN_pronoun} будет пытаться прогнать всех гостей из поселения любым способом, даже если это приведёт к нехорошим последствиям.</VTE_Kleptomaniac.degreeDatas.0.description>
 	<!-- Описания частично взяты из ванили.
 	Оригинал: торчок -->
