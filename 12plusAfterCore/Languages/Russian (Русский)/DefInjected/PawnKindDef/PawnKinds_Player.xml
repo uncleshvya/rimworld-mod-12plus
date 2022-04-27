@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Эти слова отображаются при событиях в вашем поселении. Чтобы сгладить уничижительную окраску, но не возвращаться к старому переводу "члены племени", использовано описание типа фракции.
+	Оригинал: житель -->
+	<Colonist.label>поселенец</Colonist.label>
+	<!-- Оригинал: жительница -->
+	<Colonist.labelFemale>поселенка</Colonist.labelFemale>
+	<!-- Оригинал: жители -->
+	<Colonist.labelPlural>поселенцы</Colonist.labelPlural>
+	<!-- Оригинал: абориген -->
+	<Tribesperson.label>житель</Tribesperson.label>
+	<!-- Оригинал: аборигенка -->
+	<Tribesperson.labelFemale>жительница</Tribesperson.labelFemale>
+	<!-- Оригинал: аборигены -->
+	<Tribesperson.labelPlural>жители</Tribesperson.labelPlural>
+
+</LanguageData>
