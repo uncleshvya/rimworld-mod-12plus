@@ -17,6 +17,9 @@
 	<!-- Красная ошибка из-за переменных PAWN_label, PAWN_gender. Пробовал ещё 1_label, 1_gender - то же самое.
 	Оригинал: ...еды. {PAWN_label} {PAWN_gender ? голоден : голодна}. -->
 	<MessageCaravanRanOutOfFood>{0} остался без еды.</MessageCaravanRanOutOfFood>
+	<!-- Сборщик создаёт по 1 механоиду за раз.
+	Оригинал: Сборка механоидов завершена, и они будут защищать... -->
+	<MessageMechanoidsAssembled>Сборка механоида завершена, и он будет защищать свой кластер.</MessageMechanoidsAssembled>
 	<!-- Красная ошибка из-за переменных PAWN_labelShort, PAWN_pronoun.
 	Оригинал: ...изгнать {PAWN_labelShort}, так как {PAWN_pronoun} не... -->
 	<MessageCantBanishDownedPawn>Невозможно изгнать {1_labelShort}, так как {1_pronoun} не может ходить.</MessageCantBanishDownedPawn>
