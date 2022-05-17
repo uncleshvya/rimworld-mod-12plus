@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- Исправление согласно концепции «12+».
+	<!-- Исправление согласно концепции «12+».
 
-  Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
+	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
 
-  Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
+	Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
 
   EN:
     <li>lodgersLabel->prisoner</li>
@@ -23,25 +23,21 @@
     <li>lodgersLabelPluralAcc->заключённых</li>
   </Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
 
-  <!-- Исправление согласно концепции «12+».
-
-  Заодно сглажена ссылка на людей - для модов на другие расы.
-  Оригинал:
-    ...
-    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Капитан корабля, находящегося на орбите, хочет, чтобы вы разместили заключённых в [map_definite] на срок [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
-    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nЗаключённые недавно совершили серию убийств [enemyFaction_pawnsPlural] из фракции [enemyFaction_name], и семьи погибших будут организовывать налёты, пока они находятся у вас. [enemyGroupsParagraph]</li>
-    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nЭти заключённые недавно [mechViolation_plural], и преследуются роем механоидов. [enemyGroupsParagraph]</li>
-    ...
-    <li>threatsInfo4(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name] [asker_wasCaught] в постели с неправильным человеком. В знак публичного отвержения [asker_pronoun] [asker_imprisoned] [lodgers0_lover_gen], [lodgers0_nameFull], под стражу. Теперь [asker_pronoun] хочет, чтобы вы передержали [lodgers0_possessive] у себя в течение [shuttleDelayTicks_duration], пока скандал не уляжется. [allLodgerInfo][threatsInfo5][commonDescEnding]</li>
-    <li>asker_wasCaught(asker_gender==Male)->был замечен</li>
-    ...
-    <li>asker_imprisoned(asker_gender==Female)->заключила</li>
-    <li>lodgers0_lover_gen(lodgers0_gender==Male)->своего любовника</li>
-    <li>lodgers0_lover_gen(lodgers0_gender==Female)->свою любовницу</li>
-    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nК сожалению, противники [asker_nameDef] по двору заплатили фракции [enemyFaction_name], чтобы попытаться вызволить [lodgers0_prisoner_gen] и пролить свет на историю. [enemyGroupsParagraph]</li>
-
-  -->
+	<!-- Заодно сглажена ссылка на людей - для модов на другие расы.
+	Оригинал:
+	...
+	<li>...серию убийств [enemyFaction_pawnsPlural]...семьи погибших будут организовывать...</li>
+	...
+	<li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name] [asker_wasCaught] в постели с неправильным человеком. В знак...Теперь [asker_pronoun] хочет, чтобы вы передержали [lodgers0_possessive] у себя в течение [shuttleDelayTicks_duration], пока скандал не уляжется. [allLodgerInfo][threatsInfo5][commonDescEnding]</li>
+	...
+	<li>...своего любовника</li>
+	<li>...свою любовницу</li>
+	...
+	Заодно исправлена неточность, сообщите разработчику ванили о размытых ссылках для слов "их".
+	Аналогично для слова "asker_possessive" в случае женщины-лидера.
+	<li>...помощи. [asker_possessive] придворные...собираются допросить их. Чтобы сохранить...тайне от соперников по двору, [asker_nameDef] хочет, чтобы вы разместили их у себя на срок [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo6][commonDescEnding]</li>
+	...
+	-->
   <Hospitality_Prisoners.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true,lodgersCount==1)->Капитан корабля, находящегося на орбите, хочет, чтобы вы разместили в [map_definite] [lodgers0_prisoner_gen] по имени [lodgers0_nameFull] на срок [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] недавно проявил пренебрежение к самому любимому ребёнку главы фракции [enemyFaction_name], [enemyFaction_leaderTitle] [enemyFaction_leader_nameFull]. [enemyFaction_leader_nameDef] отправит [enemyFaction_pawnsPlural], чтобы отомстить любому, кто будет защищать [lodgers0_possessive]. [enemyGroupsParagraph]</li>
@@ -49,7 +45,7 @@
     <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==false)-></li>
     <li>questDescription(askerIsNull==true,lodgersCount>=2)->Капитан корабля, находящегося на орбите, хочет, чтобы вы разместили заключённых в [map_definite] на срок [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
-    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nЗаключённые недавно совершили серию нападений на [enemyFaction_pawnsPlural] из фракции [enemyFaction_name], и семьи пострадавших будут организовывать налёты, пока они находятся у вас. [enemyGroupsParagraph]</li>
+	<li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nЗаключённые недавно совершили серию нападений на [enemyFaction_pawnsPlural] из фракции [enemyFaction_name], и семьи пострадавших будут организовывать налёты, пока они находятся у вас. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nЭти заключённые недавно [mechViolation_plural], и преследуются роем механоидов. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==false)-></li>
@@ -67,18 +63,18 @@
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nВраги [asker_nameDef] натравили на заключённых рой механоидов, поэтому они будут на вас регулярно нападать. [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name] [asker_wasCaught] в дружбе с персоной из вражеской фракции. В знак публичного отвержения [asker_pronoun] [asker_imprisoned] [lodgers0_lover_gen], [lodgers0_nameFull], под стражу. Теперь [asker_pronoun] хочет, чтобы вы приютили жертву интриг на [shuttleDelayTicks_duration], пока скандал не уляжется. [allLodgerInfo][threatsInfo5][commonDescEnding]</li>
+	<li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name] [asker_wasCaught] в дружбе с персоной из вражеской фракции. В знак публичного отвержения [asker_pronoun] [asker_imprisoned] [lodgers0_lover_gen], [lodgers0_nameFull], под стражу. Теперь [asker_pronoun] хочет, чтобы вы приютили жертву интриг на [shuttleDelayTicks_duration], пока скандал не уляжется. [allLodgerInfo][threatsInfo5][commonDescEnding]</li>
     <li>asker_wasCaught(asker_gender==Male)->был замечен</li>
     <li>asker_wasCaught(asker_gender==Female)->была замечена</li>
     <li>asker_imprisoned(asker_gender==Male)->заключил</li>
     <li>asker_imprisoned(asker_gender==Female)->заключила</li>
-    <li>lodgers0_lover_gen(lodgers0_gender==Male)->своего друга</li>
-    <li>lodgers0_lover_gen(lodgers0_gender==Female)->свою подругу</li>
+	<li>lodgers0_lover_gen(lodgers0_gender==Male)->своего друга</li>
+	<li>lodgers0_lover_gen(lodgers0_gender==Female)->свою подругу</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nК сожалению, противники [asker_nameDef] по двору заплатили фракции [enemyFaction_name], чтобы попытаться вызволить [lodgers0_prisoner_gen] и пролить свет на историю. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nК сожалению, противники [asker_nameDef] по двору спровоцировали механоидов, чтобы те вызволили [lodgers0_prisoner_gen] и пролили свет на историю. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name] нуждается в вашей помощи. [asker_possessive] придворные археологи недавно извлекли [lodgersCount] заключённых из древнего хранилища криптосна и собираются допросить их. Чтобы сохранить заключённых в тайне от соперников по двору, [asker_nameDef] хочет, чтобы вы разместили их у себя на срок [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo6][commonDescEnding]</li>
+	<li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_royalTitleInCurrentFaction] [asker_nameFull] из [asker_faction_name] нуждается в вашей помощи. Их придворные археологи недавно извлекли [lodgersCount] заключённых из древнего хранилища криптосна и собираются разузнать у тех всё о прошлом. Чтобы сохранить заключённых в тайне от соперника по двору, [asker_nameDef] хочет, чтобы вы разместили их у себя на срок [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo6][commonDescEnding]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nК сожалению, [enemyFaction_pawnsPlural] из фракции [enemyFaction_name] почитали хранилище, откуда были извлечены заключённые. Они будут отправлять налётчиков к тем, кто будет удерживать у себя этих заключённых. [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nК сожалению, [enemyFaction_pawnsPlural] из фракции [enemyFaction_name] охраняли хранилище, откуда были извлечены заключённые. Они будут отправлять отряды механоидов, чтобы вернуть обратно утерянных узников. [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
@@ -89,7 +85,7 @@
     <li>lodgers0_prisoner_gen(lodgers0_gender==Female)->заключённую</li>
   </Hospitality_Prisoners.questDescriptionRules.rulesStrings>
 
-  <!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
+	<!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
 
   EN:
     <li>questName->Guarding for [asker_nameDef]</li>
