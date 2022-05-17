@@ -22,7 +22,8 @@
 	<Mote_FishingRodWest.description>удочка</Mote_FishingRodWest.description>
 	<!-- EN: fishing spot -->
 	<RBB_FishingSpot.label>место рыбалки</RBB_FishingSpot.label>
-	<!-- Уже довольно давно отключён движок расслабления на месте рыбалки.
+	<!-- Заодно исправлена неточность, сообщите разработчику.
+	Уже довольно давно отключён движок расслабления на месте рыбалки.
 	EN: A spot from which pawns can relax and catch fish. -->
 	<RBB_FishingSpot.description>Место, где поселенцы могут удить рыбу.</RBB_FishingSpot.description>
 	<!-- EN: shellfish trap -->
@@ -185,10 +186,11 @@
 	<RawOctopusMeat.label>щупальца осьминога</RawOctopusMeat.label>
 	<!-- EN: Raw octopus meat. Could be eaten "as is," but would probably be better cooked. -->
 	<RawOctopusMeat.description>Очищенные щупальца осьминога. Могут быть приготовлены или съедены в сыром виде.</RawOctopusMeat.description>
-	<!-- EN: eel meat -->
-	<RawEelMeat.label>филе угря</RawEelMeat.label>
+	<!-- Появляется также при разделке сома.
+	EN: eel meat -->
+	<RawEelMeat.label>белое филе</RawEelMeat.label>
 	<!-- EN: Raw eel meat. Could be eaten "as is," but would probably be better cooked. -->
-	<RawEelMeat.description>Очищенное филе угря. Может быть приготовлено или съедено в сыром виде.</RawEelMeat.description>
+	<RawEelMeat.description>Очищенное филе донной рыбы. Может быть приготовлено или съедено в сыром виде.</RawEelMeat.description>
 	<!-- EN: jellyfish meat -->
 	<JellyfishMeat.label>филе медузы</JellyfishMeat.label>
 	<!-- EN: Raw jellyfish meat. Could be eaten "as is," but would probably be better cooked. -->
