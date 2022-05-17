@@ -5,6 +5,9 @@
 
 	Оригинал: ...{CAMP_label}, который контролирует фракция {FACTION_name}. -->
 	<MessageCampDetected>Вы обнаружили рядом {CAMP_label}, контролируемый фракцией «{FACTION_name}».</MessageCampDetected>
+	<!-- В режиме призыва можно атаковать.
+	Оригинал: Внимание: {PAWNKINDLABELPLURAL} считаются священными животными у всех {PAWNS}, и им не будет причинён вред. -->
+	<MessageAnimalIsVeneratedForAllColonists>Внимание: все местные {PAWNS} верят, что {PAWNKINDLABELPLURAL} — священные животные, поэтому не хотят причинять им вред.</MessageAnimalIsVeneratedForAllColonists>
 
 	<!-- Исправление согласно концепции «12+».
 
