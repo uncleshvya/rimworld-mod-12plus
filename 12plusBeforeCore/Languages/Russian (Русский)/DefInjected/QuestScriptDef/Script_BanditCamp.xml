@@ -3,11 +3,14 @@
 
 	<!-- Исправление согласно концепции «12+».
 
+	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
+	Заодно исправлена неточность, сообщите разработчику ванили о размытых ссылках слов "их".
+	Движок игры поднимает регистр буквы после двоеточия. Пока это не исправлено, поставлено тире.
 	Оригинал:
-	...земли: ликвидировать всех...
+	...грабят их караваны...земли: ликвидировать всех...уничтожить их турели.
 	-->
   <OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] фракции [asker_faction_name], передаёт нам сообщение.\n\nПо всей видимости, [siteFaction_pawnsPlural] из фракции [siteFaction_name] устроили неподалёку лагерь и грабят их караваны.\n\n[asker_nameDef] просит стереть лагерь с лица земли: нейтрализовать всех противников и уничтожить их турели. [asker_label] говорит, что [sitePart0_description].</li>
+    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] фракции [asker_faction_name], передаёт нам сообщение.\n\nПо всей видимости, [siteFaction_pawnsPlural] из фракции [siteFaction_name] устроили неподалёку лагерь и грабят проходящие караваны.\n\n[asker_nameDef] просит стереть лагерь с лица земли — нейтрализовать всех противников и уничтожить турели. [asker_label] говорит, что [sitePart0_description].</li>
   </OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
 
 	<!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
