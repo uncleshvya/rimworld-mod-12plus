@@ -10,7 +10,7 @@
 	<KilledInnocentAnimal_Disapproved.stages.killed_innocent.description>Мне пришлось атаковать невинное животное. Я {PAWN_gender ? сделал : сделала} то, что {PAWN_gender ? сам : сама} не одобряю.</KilledInnocentAnimal_Disapproved.stages.killed_innocent.description>
 	<!-- Оригинал: ...пришлось убить невинное...Это почти то же самое, что и убить человека. -->
 	<KilledInnocentAnimal_Horrible.stages.killed_innocent.description>Мне пришлось атаковать невинное животное. Это ужасно!</KilledInnocentAnimal_Horrible.stages.killed_innocent.description>
-	<!-- Заодно исправлена неточность, сообщите разработчику ванили - уж лучше использовать настояжее информирующее время, чем эти жуткие скобки.
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили - уж лучше использовать настоящее информирующее время, чем эти жуткие скобки.
 	Оригиналы: убил(а) невинное животное -->
 	<KilledInnocentAnimal_Know_Abhorrent.stages.killed_innocent_animal.label>обижает невинных животных</KilledInnocentAnimal_Know_Abhorrent.stages.killed_innocent_animal.label>
 	<KilledInnocentAnimal_Know_Disapproved.stages.killed_innocent_animal.label>обижает невинных животных</KilledInnocentAnimal_Know_Disapproved.stages.killed_innocent_animal.label>
