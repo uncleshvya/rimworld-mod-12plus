@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<!-- Исправлена неточность, сообщите разработчику.
+	<!-- Исправлена неточность, сообщите разработчику ванили.
 
-	Оригинал: Стоя -->
+	Уж лучше лёгкая потеря точности, чем эти жуткие скобки.
+	Оригинал: Сыт(а) -->
+	<HungerLevel_Fed>Сытость</HungerLevel_Fed>
+	<!-- Оригинал: Обессилел(а) -->
+	<HungerLevel_Exhausted>Бессилие</HungerLevel_Exhausted>
+	<!-- Оригинал: Очень устал(а) -->
+	<HungerLevel_VeryTired>Сильная усталость</HungerLevel_VeryTired>
+	<!-- Оригинал: Устал(а) -->
+	<HungerLevel_Tired>Усталость</HungerLevel_Tired>
+	<!-- Оригинал: Отдохнул(а) -->
+	<HungerLevel_Rested>Нет усталости</HungerLevel_Rested>
+	<!-- Оригинал: Стоя -->
 	<PlayerPawnsArriveMethod_Standing>Пешком</PlayerPawnsArriveMethod_Standing>
 	<!-- Оригинал: ...кухне -->
 	<FoodPoisonCause_FilthyKitchen>грязь на кухне или в столовой</FoodPoisonCause_FilthyKitchen>
