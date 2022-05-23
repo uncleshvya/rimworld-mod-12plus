@@ -23,6 +23,9 @@
 	<!-- Красная ошибка из-за переменных PAWN_labelShort, PAWN_pronoun.
 	Оригинал: ...изгнать {PAWN_labelShort}, так как {PAWN_pronoun} не... -->
 	<MessageCantBanishDownedPawn>Невозможно изгнать {1_labelShort}, так как {1_pronoun} не может ходить.</MessageCantBanishDownedPawn>
+	<!-- Применимо также к спальному мешку и спальному месту.
+	Оригинал: {0} более не назначена {1_nameDef} -->
+	<MessageBedLostAssignment>{0} больше не является местом отдыха только для {1_nameDef}</MessageBedLostAssignment>
 	<!-- В Ideology есть такие события, как "ритуал обращения", "ослепление".
 	Оригинал: Ритуал {0} начался. -->
 	<RitualBegun>Начинается {0}.</RitualBegun>
