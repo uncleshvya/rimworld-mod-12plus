@@ -18,7 +18,7 @@
 	<AteHumanMeat_Disapproved.stages.ate_human_meat.description>Я {PAWN_gender ? съел : съела} противное мумиё. Я {PAWN_gender ? совершил : совершила} ошибку.</AteHumanMeat_Disapproved.stages.ate_human_meat.description>
 	<!-- Оригинал: Я {PAWN_gender ? съел : съела} человечину. Это было ужасно. -->
 	<AteHumanMeat_Horrible.stages.ate_human_meat.description>Я {PAWN_gender ? съел : съела} отвратительное мумиё. Это было ужасно.</AteHumanMeat_Horrible.stages.ate_human_meat.description>
-	<!-- Заодно исправлена неточность, сообщите разработчику ванили - уж лучше использовать настояжее информирующее время, чем эти жуткие скобки.
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили - уж лучше использовать настоящее информирующее время, чем эти жуткие скобки.
 	Оригиналы: съел(а) человечину -->
 	<AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.label>ест мумиё</AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.label>
 	<AteHumanMeat_Know_Disapproved.stages.ate_human_meat.label>ест мумиё</AteHumanMeat_Know_Disapproved.stages.ate_human_meat.label>
