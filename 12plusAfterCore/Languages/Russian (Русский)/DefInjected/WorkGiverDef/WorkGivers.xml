@@ -11,14 +11,20 @@
 	<DoBillsMakeWeapons.gerund>Ковать на</DoBillsMakeWeapons.gerund>
 	<!-- Оригинал: изготавливать оружие на -->
 	<DoBillsMakeWeapons.verb>ковать</DoBillsMakeWeapons.verb>
-	<!-- Убрана путаница с DoctorTendToSelf.label, иначе 2 одинаковых задания выглядят как баг.
+	<!-- Убрана путаница с DoctorTendToSelf.label - две одинаковых работы в списке выглядели как баг.
 	Оригинал: лечить себя -->
 	<DoctorTendToSelfEmergency.label>проводить неотложное самолечение</DoctorTendToSelfEmergency.label>
-	<!-- Не забываем про дикарей.
+	<!-- Есть 3 разных переменные, с одинаковым герундием "Вести". Сделана попытка их переименовать:
+	RebalanceAnimalsInPens.gerund - Вести в новый загон
+	TakeRoamingAnimalsToPen.gerund - Ловить убредающее животное
+	TakeToPen.gerund - Вести в загон
+	Но это приводило к двум багам: в контекстном меню отображалось по 2 задания на одно животное. И отображались 2 строки в контекстном уведомлении об уже начавшейся работе. Пока баги не исправлены, возвращено исходное состояние. В идеале бы ещё придумать описания, подходящие для места привязи.
+
+	Не забываем про дикарей.
 	Оригинал: приручать животных -->
 	<Tame.label>приручать существ</Tame.label>
-	<!-- Все герундии, начинающиеся с маленькой буквы, выглядели некрасиво в контекстном меню. Это конечно классика, но нужно подправить движок gerund аналогично с движком label, который выставляет большую букву.
-	Пока это не сделано, все герундии переименованы.
+	<!-- Все герундии, начинающиеся с маленькой буквы, выглядели некрасиво в контекстном меню приказа на действие. Это конечно классика, но нужно подправить движок gerund аналогично с движком label, который выставляет большую букву.
+	Пока это не сделано, все герундии переименованы, т.к. приказ на действие употребляется чаще, чем уведомление об уже начавшейся работе.
 	Оригиналы: все с маленькой буквы -->
 	<BasicReleasePrisoner.gerund>Отпустить</BasicReleasePrisoner.gerund>
 	<BuildRoofs.gerund>Соорудить крышу</BuildRoofs.gerund>
@@ -36,13 +42,16 @@
 	<DeliverFoodToPrisoner.gerund>Отнести еду</DeliverFoodToPrisoner.gerund>
 	<DeliverResourcesToBlueprints.gerund>Нести материалы к</DeliverResourcesToBlueprints.gerund>
 	<DeliverResourcesToFrames.gerund>Нести материалы к</DeliverResourcesToFrames.gerund>
+	<!-- Герундий DoBillsBrew уже изменён в файле BeesNhoney_WorkGiverDefs.xml -->
 	<DoBillsButcherFlesh.gerund>Разделывать на</DoBillsButcherFlesh.gerund>
 	<DoBillsCook.gerund>Готовить на</DoBillsCook.gerund>
 	<DoBillsCookCampfire.gerund>Готовить, используя</DoBillsCookCampfire.gerund>
+	<!-- Герундий DoBillsCremate уже изменён в файле RimOfMadnessBones_WorkGiverDefs.xml -->
 	<DoBillsFabricationBench.gerund>Производить высокоточные изделия, используя</DoBillsFabricationBench.gerund>
 	<DoBillsHaulCampfire.gerund>Сжигать, используя</DoBillsHaulCampfire.gerund>
 	<DoBillsMachiningTable.gerund>Работать, используя</DoBillsMachiningTable.gerund>
 	<DoBillsMakeApparel.gerund>Шить одежду, используя</DoBillsMakeApparel.gerund>
+	<!-- Герундий DoBillsMakeWeapons - в начале файла -->
 	<DoBillsMedicalAnimalOperation.gerund>Провести медпроцедуру</DoBillsMedicalAnimalOperation.gerund>
 	<DoBillsMedicalHumanOperation.gerund>Провести медпроцедуру</DoBillsMedicalHumanOperation.gerund>
 	<DoBillsProduceDrugs.gerund>Изготавливать препараты, используя</DoBillsProduceDrugs.gerund>
@@ -103,7 +112,7 @@
 	<TakePrisonerToBed.gerund>Отнести в кровать</TakePrisonerToBed.gerund>
 	<TakeRoamingAnimalsToPen.gerund>Вести</TakeRoamingAnimalsToPen.gerund>
 	<TakeToBedToOperate.gerund>Отнести на операцию</TakeToBedToOperate.gerund>
-	<TakeToPen.gerund>вести</TakeToPen.gerund>
+	<TakeToPen.gerund>Вести</TakeToPen.gerund>
 	<Tame.gerund>Попытаться приручить</Tame.gerund>
 	<Train.gerund>Тренировать</Train.gerund>
 	<Uninstall.gerund>Демонтировать</Uninstall.gerund>
