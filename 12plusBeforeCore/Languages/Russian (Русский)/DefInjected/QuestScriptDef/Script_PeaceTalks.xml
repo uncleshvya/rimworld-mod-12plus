@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
+	Движок игры поднимает регистр буквы после двоеточия, даже с неразрывным пробелом. Пока это не исправлено, поставлено тире.
+	Оригинал:
+	...
+	...знайте: неумелый...
+	...
+	...лидера.
+	...
+	-->
+  <OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
+	<li>questDescription->[faction_leader_nameFull], [faction_leaderTitle] фракции [faction_name], сообщает, что хочет встретиться с вами на нейтральной территории для переговоров.\n\nЭто хорошая возможность улучшить отношения с этой фракцией и получить ценные дипломатические подарки, но знайте — неумелый переговорщик может принести больше вреда, чем пользы.[extraLeaderPart][favorRewardDetails]</li>
+    <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\nУспешная встреча может принести вашему переговорщику немного {lookup: [faction_royalFavorLabel]; Case; 1} от фракции [faction_name].</li>
+    <li>favorRewardDetails-></li>
+    <li>extraLeaderPart(priority=1)->\n\n[leaderRoleEffect].[leaderPawnInfo]</li>
+    <li>extraLeaderPart-></li>
+	<li>leaderRoleEffect->Другие фракции будут уважать вас больше, если вы пошлёте на переговоры своего лидера</li>
+    <li>leaderPawnInfo(playerFaction_hasLeader==True,priority=1)-> [playerFaction_leaderTitle] [playerFaction_leader_nameFull] получит бонус к вероятности удачного исхода переговоров.</li>
+    <li>leaderPawnInfo-></li>
+  </OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
+
+	<!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
+
+  EN:
+    <li>questName->[faction_leader_nameDef]'s [peaceTalks]</li>
+    <li>questName->[peaceTalks] with [faction_leader_nameDef]</li>
+    <li>questName->The [peaceTalks]</li>
+    <li>questName->[peaceTalks]</li>
+    <li>peaceTalks->Peace Talks</li>
+    <li>peaceTalks->Diplomacy</li>
+    <li>peaceTalks->Meeting</li>
+  -->
+  <OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
+    <li>questName->[peaceTalks] [faction_leader_nameDef]</li>
+    <li>questName->[peaceTalks] с [faction_leader_nameDef]</li>
+    <li>questName->[peaceTalks] большой важности</li>
+    <li>questName->[peaceTalks]</li>
+    <li>peaceTalks->переговоры</li>
+    <li>peaceTalks->собрание</li>
+    <li>peaceTalks->встреча</li>
+  </OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>Время задания истекло: [resolvedQuestName]</OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>
+  <!-- EN: The offer of peace talks with [faction_name] has expired. You have failed the quest [resolvedQuestName]. -->
+  <OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>Срок предложения о встрече для переговоров с фракцией [faction_name] истёк. Вы не выполнили задание [resolvedQuestName].</OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>
+
+</LanguageData>
