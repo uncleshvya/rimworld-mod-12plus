@@ -27,15 +27,47 @@ Copyright (c) Oskar Potocki
 				<value>0.08</value>
 			</li>
 			<!-- Сырые рагу и супы сделаны съедобными, но невкусными -->
+			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationAttributeSet">
+				<xpath>Defs/ThingDef[
+				defName = "VCE_UncookedStewSimple" or
+				defName = "VCE_UncookedStewFine" or
+				defName = "VCE_UncookedStewLavish" or
+				defName = "VCE_UncookedSoupSimple" or
+				defName = "VCE_UncookedSoupFine" or
+				defName = "VCE_UncookedSoupLavish" or
+				defName = "VCE_UncookedSoupGourmet"
+				]</xpath>
+				<attribute>ParentName</attribute>
+				<value>MealCooked</value>
+			</li>
 			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+				defName = "VCE_UncookedSoupSimple" or
+				defName = "VCE_UncookedSoupFine" or
+				defName = "VCE_UncookedSoupLavish" or
+				defName = "VCE_UncookedSoupGourmet"
+				]/statBases</xpath>
+				<value>
+					<Nutrition>4.5</Nutrition>
+				</value>
+			</li>
+			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[
 				defName = "VCE_UncookedStewSimple" or
 				defName = "VCE_UncookedStewFine" or
 				defName = "VCE_UncookedStewLavish"
 				]/statBases</xpath>
 				<value>
+					<Nutrition>4.5</Nutrition>
 					<Mass>4</Mass>
 				</value>
+			</li>
+			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[
+				defName = "VCE_UncookedStewSimple" or
+				defName = "VCE_UncookedStewFine" or
+				defName = "VCE_UncookedStewLavish"
+				]/comps</xpath>
 			</li>
 			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[
@@ -54,33 +86,6 @@ Copyright (c) Oskar Potocki
 					<ingestSound>RawVegetable_Eat</ingestSound>
 					<ingestEffect>EatVegetarian</ingestEffect>
 					<tasteThought>AteRawFood</tasteThought>
-				</value>
-			</li>
-			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationAttributeSet">
-				<xpath>Defs/ThingDef[
-				defName = "VCE_UncookedStewSimple" or
-				defName = "VCE_UncookedStewFine" or
-				defName = "VCE_UncookedStewLavish" or
-				defName = "VCE_UncookedSoupSimple" or
-				defName = "VCE_UncookedSoupFine" or
-				defName = "VCE_UncookedSoupLavish" or
-				defName = "VCE_UncookedSoupGourmet"
-				]</xpath>
-				<attribute>ParentName</attribute>
-				<value>MealCooked</value>
-			</li>
-			<li MayRequire="VanillaExpanded.VCookEStews" Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[
-				defName = "VCE_UncookedStewSimple" or
-				defName = "VCE_UncookedStewFine" or
-				defName = "VCE_UncookedStewLavish" or
-				defName = "VCE_UncookedSoupSimple" or
-				defName = "VCE_UncookedSoupFine" or
-				defName = "VCE_UncookedSoupLavish" or
-				defName = "VCE_UncookedSoupGourmet"
-				]/statBases</xpath>
-				<value>
-					<Nutrition>4.5</Nutrition>
 				</value>
 			</li>
 			<!-- Лишние категории консервов и сыра засоряют список -->
