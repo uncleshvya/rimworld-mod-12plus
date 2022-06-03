@@ -58,6 +58,16 @@ Copyright (c) Sarg Bjornson
 				<xpath>Defs/ThingDef[defName = "BoneItem"]/stuffProps/statFactors/Flammability/text()</xpath>
 				<value>0.5</value>
 			</li>
+			<!-- Для маски и брони горючесть сделаем чуть повыше - за счёт ремешков крепежа. Так как здесь используются кости целиком, а не композит, как в остальных изделиях -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+				defName = "ROMB_Apparel_SkullMask" or
+				defName = "Sihv_Apparel_BoneArmor"
+				]/statBases</xpath>
+				<value>
+					<Flammability>0.7</Flammability>
+				</value>
+			</li>
 			<!-- Аналогично надо сделать для костяного моста из мода Simply More Bridges (Continued):
 			Но нужно подобрать подходящий код, т.к. стандартный не сработал:>
 			<li MayRequire="Mlie.SimplyMoreBridges" Class="PatchOperationReplace">
