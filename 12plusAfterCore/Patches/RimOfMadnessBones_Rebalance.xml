@@ -31,7 +31,7 @@ Copyright (c) Sarg Bjornson
 				<xpath>Defs/ThingDef[defName = "BoneItem"]/graphicData/graphicClass/text()</xpath>
 				<value>Graphic_StackCount</value>
 			</li>
-			<!-- Убираем древние строения из кости, отключая возможность добывать из них съедобный костный мозг. Нужно решение поизящнее, интегрировать в генератор как древесину, но пока что найдено такое: -->
+			<!-- Убираем древние строения из кости, отключая возможность добывать из них съедобный костный мозг. Нужно решение поизящнее - интегрировать в генератор как древесину, но пока что найдено такое: -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "BoneItem"]/stuffProps/commonality/text()</xpath>
 				<value>0</value>
@@ -48,7 +48,7 @@ Copyright (c) Sarg Bjornson
 					</recipeUsers>
 				</value>
 			</li>
-			<!-- В реале вытащенный костный мозг хранится дня 4, это игровых дня 2. А то выставленные 80 дней - это ни в какие ворота -->
+			<!-- В реале вытащенный костный мозг хранится дня 4, это игровых 2 дня. А то выставленные полтора года - это ни в какие ворота -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "ROMB_Marrow"]/comps/li[1]/daysToRotStart/text()</xpath>
 				<value>2</value>
