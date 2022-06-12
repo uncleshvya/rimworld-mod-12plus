@@ -20,6 +20,34 @@
 					<tradeability>Buyable</tradeability>
 				</value>
 			</li>
+			<!-- Согласно решению с переименовыванием в "волосяной мусор", убираем оный из торговли. -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Leather_Human"]</xpath>
+				<value>
+					<tradeability>None</tradeability>
+				</value>
+			</li>
+			<!-- Для Meat_Human этот код не сработал:
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Meat_Human"]</xpath>
+				<value>
+					<tradeability>None</tradeability>
+				</value>
+			</li>
+			Пока не найдено решение, удаляем мумиё из ассортимента торговцев. -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[
+				defName = "Base_Neolithic_Standard" or
+				defName = "Base_Outlander_Standard" or
+				defName = "Caravan_Neolithic_BulkGoods" or
+				defName = "Caravan_Outlander_BulkGoods" or
+				defName = "Orbital_BulkGoods"
+				]/stockGenerators/li[categoryDef = "FoodRaw"]</xpath>
+				<value>
+					<excludedThingDefs> <li>Meat_Human</li> </excludedThingDefs>
+				</value>
+			</li>
+			<!-- Для события ResourcePodCrash решение не найдено, нужна правка workerClass "IncidentWorker_ResourcePodCrash" -->
 		</operations>
 	</Operation>
 </Patch>
