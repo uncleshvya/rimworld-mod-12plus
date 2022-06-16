@@ -3,9 +3,9 @@
 
 	<!-- Исправление согласно концепции «12+».
 
-	Оригиналы: {PAWN_gender ? убил : убила} невинное {0} -->
-	<KilledInnocentAnimal_Disapproved.stages.killed_innocent.label>{PAWN_gender ? атаковал : атаковала} невинное {0}</KilledInnocentAnimal_Disapproved.stages.killed_innocent.label>
-	<KilledInnocentAnimal_Horrible.stages.killed_innocent.label>{PAWN_gender ? атаковал : атаковала} невинное {0}</KilledInnocentAnimal_Horrible.stages.killed_innocent.label>
+	Оригиналы: {PAWN_gender ? Убил : Убила} невинное животное ({0}) -->
+	<KilledInnocentAnimal_Disapproved.stages.killed_innocent.label>{PAWN_gender ? Атаковал : Атаковала} невинное животное ({0})</KilledInnocentAnimal_Disapproved.stages.killed_innocent.label>
+	<KilledInnocentAnimal_Horrible.stages.killed_innocent.label>{PAWN_gender ? Атаковал : Атаковала} невинное животное ({0})</KilledInnocentAnimal_Horrible.stages.killed_innocent.label>
 	<!-- Оригинал: ...пришлось убить невинное... -->
 	<KilledInnocentAnimal_Disapproved.stages.killed_innocent.description>Мне пришлось атаковать невинное животное. Я {PAWN_gender ? сделал : сделала} то, что {PAWN_gender ? сам : сама} не одобряю.</KilledInnocentAnimal_Disapproved.stages.killed_innocent.description>
 	<!-- Оригинал: ...пришлось убить невинное...Это почти то же самое, что и убить человека. -->
@@ -20,7 +20,7 @@
 	<KilledInnocentAnimal_Know_Abhorrent.stages.killed_innocent_animal.labelSocial>{OTHERPAWN_gender ? Атаковал : Атаковала} невинное животное</KilledInnocentAnimal_Know_Abhorrent.stages.killed_innocent_animal.labelSocial>
 	<KilledInnocentAnimal_Know_Disapproved.stages.killed_innocent_animal.labelSocial>{OTHERPAWN_gender ? Атаковал : Атаковала} невинное животное</KilledInnocentAnimal_Know_Disapproved.stages.killed_innocent_animal.labelSocial>
 	<KilledInnocentAnimal_Know_Horrible.stages.killed_innocent_animal.labelSocial>{OTHERPAWN_gender ? Атаковал : Атаковала} невинное животное</KilledInnocentAnimal_Know_Horrible.stages.killed_innocent_animal.labelSocial>
-	<!-- Оригинал: убито невинное... -->
+	<!-- Оригиналы: убито невинное... -->
 	<KilledInnocentAnimal_Know_Abhorrent_Mood.stages.innocent_animal_killed.label>атаковано невинное животное</KilledInnocentAnimal_Know_Abhorrent_Mood.stages.innocent_animal_killed.label>
 	<KilledInnocentAnimal_Know_Disapproved_Mood.stages.innocent_animal_killed.label>атаковано невинное животное</KilledInnocentAnimal_Know_Disapproved_Mood.stages.innocent_animal_killed.label>
 	<KilledInnocentAnimal_Know_Horrible_Mood.stages.innocent_animal_killed.label>атаковано невинное животное</KilledInnocentAnimal_Know_Horrible_Mood.stages.innocent_animal_killed.label>
