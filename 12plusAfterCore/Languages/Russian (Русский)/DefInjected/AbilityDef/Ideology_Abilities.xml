@@ -6,10 +6,5 @@
 	Русскоязычное описание было слишком длинным, не влезало при разрешении экрана шириной 1280 пикселей.
 	Оригинал: ...{INITIATOR_gender ? смог : смогла} обратить {RECIPIENT_labelShort}. {RECIPIENT_labelShort} {RECIPIENT_gender ? недоволен : недовольна} тем, что {RECIPIENT_possessive} пытались обратить в другую идеолигию, но, тем не менее... -->
 	<Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort} не {INITIATOR_gender ? смог : смогла} обратить {RECIPIENT_labelShort} в другую идеолигию. {RECIPIENT_labelShort} {RECIPIENT_gender ? недоволен : недовольна} вмешательством, но, тем не менее, {RECIPIENT_possessive} уверенность в собственных убеждениях снизилась с {CERTAINTYBEFORE} до {CERTAINTYAFTER}.</Convert.comps.CompAbilityEffect_Convert.failMessage>
-	<!-- При использовании отображается переменная UsingVerb - "собирается {0}..."
-	Оригинал: проповедь за... -->
-	<PreachHealth.label>помолиться за здоровье</PreachHealth.label>
-	<!-- Оригинал: рабочий запал -->
-	<WorkDrive.label>вдохновить на труд</WorkDrive.label>
 
 </LanguageData>
