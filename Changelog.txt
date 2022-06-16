@@ -2,7 +2,7 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2022-03-29 обновление 12+мода до последней версии перевода игры. Так как у официалов Ideology ещё не допереведён, обработаны 3 неофициальных перевода. Приоритет смещён на оный от автора Sestrenka, как более качественный. Поддержка переводов от LeveFUN и Davyd остановлена до востребования.
+2022-06-16 обновление 12+мода до последней версии перевода игры. Так как у официалов Ideology ещё не допереведён, обработаны 3 неофициальных перевода. Приоритет смещён на оный от автора Sestrenka, как более качественный. Поддержка переводов от LeveFUN и Davyd остановлена до востребования.
 Идёт работа по исправлению трудноуловимого бага - иногда не загружается карта квестов с сайтами, типа "лесозаготовочный лагерь" или "набожная деревня". Ведётся отсев модов; список уже проверенных - в файле ModsConfig.xml в корне репозитория.
 Скомпилирована версия 12+мода 0.9.94pre-release.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
@@ -67,6 +67,8 @@ For English, scroll down.
 "VGPtools_";
 "ZiTools_".
 
+2022-06-15 обновление 12+мода до последней версии игры 1.3.3389.
+
 2022-03-28 добавлена адаптация и русская локализация для мода Rim of Madness Bones. Чтобы не было красных ошибок, добавлена зависимость от этого мода. По желанию, доступно исправление кривоватого баланса:
 - убраны кости из механоидов (код устарел);
 - исправлена графика дубины-вентилятора (попробуйте взять кость как оружие);
@@ -77,8 +79,6 @@ For English, scroll down.
 - костяные блоки и фарфоровая плитка перемещены в соответствующие категории.
 
 2022-03-20 добавлена адаптация и русская локализация для мода Pick Up And Haul.
-
-2022-03-16 обновление 12+мода до последней версии игры 1.3.3287.
 
 2022-03-01 добавлена адаптация и русская локализация для мода Medical Training. Убрана разделка гниющих трупов. По желанию, доступно исправление кривоватого баланса:
 - звук изменён на такой же, как при ванильной операции;
@@ -249,16 +249,7 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2022-mar-29 update to last Russian translation. Russifier.Ideology mod adaptation added. Support for RU.Ideology and Davyd.Translation.Ideology mods is paused until asked, because they are a bit worse.
-
-2022-mar-28 sihv.rombones mod adaptation and Russian translation added. To avoid red errors, mod dependence added. Optional balance change available:
-- removed bones from mechanoids (obsolete code);
-- corrected graphics' bug if bone is armed as club;
-- removed ancient bone structures (they could be deconstructed and processed into edible marrow);
-- plasteel smelt receipe moved from biofuel refinery into elecric smelter (looks like more real conditions);
-- added marrow rotting period of 2 days (more real);
-- added flammability to bone products (almost like steel);
-- bonecrete, bone ash moved to stone blocks category, and bone china floor - to stone tile group.
+2022-jun-16 update to last Russian translation. Russifier.Ideology mod adaptation added. Support for RU.Ideology and Davyd.Translation.Ideology mods is paused until asked, because they are a bit worse.
 Bugfix work is in process: there is a problem with site quests - sometimes the game can't load a map. Adapted mods are testing one by one; the whitelist is in "ModsConfig.xml" file.
 UncleShvya.12plus mod v.0.9.94pre-release compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
@@ -323,9 +314,18 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "VGPtools_";
 "ZiTools_".
 
-2022-mar-20 Mehni.PickUpAndHaul mod adaptation added.
+2022-jun-15 update to last game version 1.3.3389.
 
-2022-mar-16 update to last game version 1.3.3287.
+2022-mar-28 sihv.rombones mod adaptation and Russian translation added. To avoid red errors, mod dependence added. Optional balance change available:
+- removed bones from mechanoids (obsolete code);
+- corrected graphics' bug if bone is armed as club;
+- removed ancient bone structures (they could be deconstructed and processed into edible marrow);
+- plasteel smelt receipe moved from biofuel refinery into elecric smelter (looks like more real conditions);
+- added marrow rotting period of 2 days (more real);
+- added flammability to bone products (almost like steel);
+- bonecrete, bone ash moved to stone blocks category, and bone china floor - to stone tile group.
+
+2022-mar-20 Mehni.PickUpAndHaul mod adaptation added.
 
 2022-mar-01 itchyflea.medicaltraining mod adaptation and Russian translation added. Removed rotten corpses' autopsy. Optional balance change available:
 - autopsy action sound changed into vanilla surgery one;
