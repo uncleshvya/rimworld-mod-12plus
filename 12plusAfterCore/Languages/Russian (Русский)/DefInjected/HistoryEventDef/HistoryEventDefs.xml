@@ -3,15 +3,20 @@
 
 	<!-- Исправление согласно концепции «12+».
 
-	Оригинал: назначен тяжёлый наркотик -->
-	<AdministeredHardDrug.label>назначен сильнодействующий препарат</AdministeredHardDrug.label>
-	<!-- Оригинал: назначен рекреационный наркотик -->
-	<AdministeredRecreationalDrug.label>назначен препарат-релаксант</AdministeredRecreationalDrug.label>
+	Идеолигический принцип "употребление наркотиков" не касается лекарств.
+	Оригинал: дано лекарство или наркотик -->
+	<AdministeredDrug.label>дан препарат пациенту</AdministeredDrug.label>
+	<!-- Оригинал: дан тяжёлый наркотик -->
+	<AdministeredHardDrug.label>дан сильнодействующий препарат пациенту</AdministeredHardDrug.label>
+	<!-- Оригинал: дан лёгкий наркотик -->
+	<AdministeredRecreationalDrug.label>дан препарат-релаксант пациенту</AdministeredRecreationalDrug.label>
 	<!-- Оригинал: съедена человечина -->
 	<AteHumanMeat.label>съедено мумиё</AteHumanMeat.label>
+	<!-- Оригинал: принято лекарство или наркотик -->
+	<IngestedDrug.label>принят препарат</IngestedDrug.label>
 	<!-- Оригинал: принят тяжёлый наркотик -->
 	<IngestedHardDrug.label>принят сильнодействующий препарат</IngestedHardDrug.label>
-	<!-- Оригинал: принят рекреационный наркотик -->
+	<!-- Оригинал: принят лёгкий наркотик -->
 	<IngestedRecreationalDrug.label>принят препарат-релаксант</IngestedRecreationalDrug.label>
 	<!-- Оригинал: погибло дерево -->
 	<MinifiedTreeDied.label>загублено дерево</MinifiedTreeDied.label>
