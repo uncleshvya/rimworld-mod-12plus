@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Не влезало в интерфейс.
+	Оригинал: ...для {ROLE_label} -->
+	<IdeoRoleApparelRequirementNotMet.stages.Want_apparel.label>одежда не подходит для роли</IdeoRoleApparelRequirementNotMet.stages.Want_apparel.label>
+
+</LanguageData>
