@@ -3,24 +3,17 @@
 
 	<!-- Исправлена неточность, сообщите разработчику ванили.
 
-	Оригинал: ...казнь заключённого — это... -->
-	<Execution_Abhorrent.description>Независимо от обстоятельств, казнь пленника — это отвратительный поступок.</Execution_Abhorrent.description>
-	<!-- Оригиналы: Казнил заключённого -->
+	Применимо и к женщинам.
+	Оригиналы: Казнил пленника -->
 	<Execution_Abhorrent.comps.2.description>Казнь пленника</Execution_Abhorrent.comps.2.description>
 	<Execution_Horrible.comps.2.description>Казнь пленника</Execution_Horrible.comps.2.description>
-	<!-- Оригинал: Казнь заключённых допустима... -->
-	<Execution_DontCare.description>Казнь пленников допустима независимо от того, виновны они или невиновны.</Execution_DontCare.description>
-	<!-- Оригинал: ...казнь заключённого — ужасный... -->
-	<Execution_Horrible.description>Независимо от обстоятельств, казнь пленника — ужасный поступок.</Execution_Horrible.description>
 	<!-- Оригинал: ...казнил колониста -->
 	<Execution_Horrible.comps.5.description>Кто-то казнил поселенца</Execution_Horrible.comps.5.description>
-	<!-- Оригинал: ...казнил заключённого -->
-	<Execution_Horrible.comps.7.description>Кто-то казнил пленника</Execution_Horrible.comps.7.description>
 
 	<!-- Исправление согласно концепции «12+».
 
 	Заодно исправлена неточность, сообщите разработчику ванили.
-	<!-- Оригинал: Ответственный за смерть заключённого -->
+	Оригинал: Ответственный за смерть пленника -->
 	<Execution_Abhorrent.comps.3.description>Ответственность за казнь пленника</Execution_Abhorrent.comps.3.description>
 	<Execution_Horrible.comps.3.description>Ответственность за казнь пленника</Execution_Horrible.comps.3.description>
 	<!-- Оригинал: Ответственный за смерть невиновного... -->
