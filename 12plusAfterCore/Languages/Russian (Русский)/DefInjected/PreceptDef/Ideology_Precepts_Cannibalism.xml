@@ -5,17 +5,19 @@
 
 	Все описания следует синхронизировать с файлом PreceptDef\Precepts_Cannibalism.xml.
 	Заодно исправлена неточность, сообщите разработчику ванили о неразрывных пробелах в этом файле.
+	И убрана размытость разницы с Cannibalism_Horrible.label.
 	Оригинал: отвратителен -->
-	<Cannibalism_Abhorrent.label>отвратительны</Cannibalism_Abhorrent.label>
+	<Cannibalism_Abhorrent.label>абсолютно отвратительны</Cannibalism_Abhorrent.label>
 	<!-- Оригинал: Есть плоть человека — омерзительно и ужасно. -->
 	<Cannibalism_Abhorrent.description>Обжорам не место в новом поселении, здесь каждая порция пищи на счету. Нормальной пищи, без экспериментов с мумиё.\n\nМы все делаем общее дело, не надо оскорблять «высокомодными» нарядами чувства поселенца, от которого зависит завтрашнее выживание всех.</Cannibalism_Abhorrent.description>
-	<!-- Оригиналы: ...из человеческой кожи -->
-	<Cannibalism_Abhorrent.comps.5.description>Одежда из волосяного мусора</Cannibalism_Abhorrent.comps.5.description>
-	<Cannibalism_Disapproved.comps.5.description>Одежда из волосяного мусора</Cannibalism_Disapproved.comps.5.description>
-	<Cannibalism_Horrible.comps.5.description>Одежда из волосяного мусора</Cannibalism_Horrible.comps.5.description>
-	<Cannibalism_Preferred.comps.2.description>Одежда из волосяного мусора</Cannibalism_Preferred.comps.2.description>
-	<Cannibalism_RequiredRavenous.comps.4.description>Одежда из волосяного мусора</Cannibalism_RequiredRavenous.comps.4.description>
-	<Cannibalism_RequiredStrong.comps.4.description>Одежда из волосяного мусора</Cannibalism_RequiredStrong.comps.4.description>
+	<!-- Длина описания влияет на вид во всплывающем меню над принципами.
+	Оригиналы: ...из человеческой кожи -->
+	<Cannibalism_Abhorrent.comps.5.description>Одежда из мусора</Cannibalism_Abhorrent.comps.5.description>
+	<Cannibalism_Disapproved.comps.5.description>Одежда из мусора</Cannibalism_Disapproved.comps.5.description>
+	<Cannibalism_Horrible.comps.5.description>Одежда из мусора</Cannibalism_Horrible.comps.5.description>
+	<Cannibalism_Preferred.comps.2.description>Одежда из волос</Cannibalism_Preferred.comps.2.description>
+	<Cannibalism_RequiredRavenous.comps.4.description>Одежда из волос</Cannibalism_RequiredRavenous.comps.4.description>
+	<Cannibalism_RequiredStrong.comps.4.description>Одежда из волос</Cannibalism_RequiredStrong.comps.4.description>
 	<!-- Оригинал: приемлем -->
 	<Cannibalism_Acceptable.label>приемлемы</Cannibalism_Acceptable.label>
 	<!-- Оригинал: Человеческое мясо ничем не отличается от любого другого. -->
