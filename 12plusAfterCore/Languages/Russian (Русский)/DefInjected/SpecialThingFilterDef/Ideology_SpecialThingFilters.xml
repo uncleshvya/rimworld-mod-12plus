@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику ванили.
+	<!-- Исправлена неточность, сообщите разработчику ванили.
 
-	EN: allow vegetarian food -->
-	<AllowVegetarian.label>разрешить вегетарианские блюда</AllowVegetarian.label>
-	<!-- Эта настройка влияет только на блюда с ингредиентами из категории "мясо".
-	EN: Allow food that is acceptable to vegetarians but unacceptable to those that only eat meat. This accounts for meals whose classification depends on their ingredients. -->
-	<AllowVegetarian.description>Разрешить блюда, не содержащие мясо — те, что едят последователи «мягкого» вегетарианства. Мясоеды такое не любят.</AllowVegetarian.description>
-	<!-- EN: allow food with appetizing meat -->
-	<AllowCarnivore.label>разрешить мясные блюда</AllowCarnivore.label>
-	<!-- EN: allow food with insect meat -->
-	<AllowInsectMeat.label>разрешить блюда с мясом насекомого</AllowInsectMeat.label>
-	<!-- EN: Allow food that contains insect meat. This accounts for meals whose classification depends on their ingredients. -->
-	<AllowInsectMeat.description>Разрешить блюда, приготовленные из мяса насекомого — те, что можно группировать только с блюдами из похожих ингредиентов.</AllowInsectMeat.description>
+	Кто куда попадает?
+	Добавлена практическая конкретика.
+	Оригинал: ...содержащую мясо насекомых. Сюда будут попадать блюда в зависимости от ингредиентов. -->
+	<AllowInsectMeat.description>Разрешить еду, содержащую плоть инсектоидов. Сюда же относятся блюда с мясом насекомых — те, что можно объединять только с блюдами из похожих ингредиентов.</AllowInsectMeat.description>
+	<!-- Шла в списке сразу после "разрешить гнильё", что вносило путаницу.
+	Оригинал: вегетарианская -->
+	<AllowVegetarian.label>вегетарианская еда</AllowVegetarian.label>
+	<!-- Добавлен намёк наличие на животных продуктов. И на отсутствие мяса насекомых/человечины, которые тоже дают красную метку.
+	Оригинал: ...еду, подходящую для вегетарианцев, но неприемлемую тех, кто есть только мясо. Сюда будут попадать блюда в зависимости от ингредиентов. -->
+	<AllowVegetarian.description>Разрешить еду, не содержащую мясо — ту, что едят последователи «мягкого» вегетарианства. Мясоеды такое не любят.</AllowVegetarian.description>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициального перевода от Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
+	Оригинал: с человечиной -->
+	<AllowCannibal.label>с мумиё</AllowCannibal.label>
+	<!-- Оригинал: ...для каннибалов. Сюда будут попадать блюда в зависимости от ингредиентов. -->
+	<AllowCannibal.description>Разрешить еду, подходящую для любителей мумиё. Сюда же относятся блюда с мумиё — те, что можно объединять только с блюдами из похожих ингредиентов.</AllowCannibal.description>
+	<!-- Оригинал: ...еду, подходящую для любителей мяса, но неприемлемую для вегетарианцев. Сюда будут попадать блюда в зависимости от ингредиентов. Мясо насекомых, людей и блюда с ними в эту категорию не входят. -->
+	<AllowCarnivore.description>Разрешить еду, содержащую мясо — ту, что так не любят вегетарианцы. Мясоеды уважают только такую пищу.\nНастройка не относится к мясу насекомых, мумиё и блюдам с ними.</AllowCarnivore.description>
+	<!-- Исправление неофициального перевода от Sestrenka. На момент проведения работ, официальный перевод ещё не был полностью закончен.
+	Перезаписываем значение переменной.
 	Оригинал: разрешить трупы рабов -->
 	<AllowCorpsesSlave.label>рабов</AllowCorpsesSlave.label>
-	<!-- Оригинал: Разрешить мертвые тела... -->
-	<AllowCorpsesSlave.description>Разрешить складывать сюда тела рабов.</AllowCorpsesSlave.description>
-	<!-- EN: Allow food that is generally acceptable to meat eaters but unacceptable to vegetarians. This accounts for meals whose classification depends on their ingredients. This does not control human and insect meat. -->
-	<AllowCarnivore.description>Разрешить блюда, содержащие мясо — те, что так не любят вегетарианцы. Мясоеды уважают только такую еду.</AllowCarnivore.description>
-	<!-- EN: allow food with human meat -->
-	<AllowCannibal.label>разрешить блюда с мумиё</AllowCannibal.label>
-	<!-- EN: Allow food that is acceptable to cannibals (i.e. it contains human meat). This accounts for meals whose classification depends on their ingredients. -->
-	<AllowCannibal.description>Разрешить блюда, приготовленные из мумиё — те, что можно группировать только с блюдами из похожих ингредиентов.</AllowCannibal.description>
+	<!-- Оригинал: Разрешить мёртвых рабов. -->
+	<AllowCorpsesSlave.description>Разрешить тела рабов.</AllowCorpsesSlave.description>
 
 </LanguageData>
