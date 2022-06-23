@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Фигурные скобки были видны во всплывающем меню над принципами. Пока не исправлен движок, возвращены межполые описания.
+	Оригинал: {PAWN_gender ? Съел : Съела} сырые грибы -->
+	<AteFungus_Despised.stages.ate_fungus_raw.label>съедены сырые грибы</AteFungus_Despised.stages.ate_fungus_raw.label>
+	<!-- Оригинал: {PAWN_gender ? Съел : Съела} грибы -->
+	<AteFungus_Prefered.stages.ate_fungus.label>съедены сырые грибы</AteFungus_Prefered.stages.ate_fungus.label>
+	<!-- Оригиналы: {PAWN_gender ? Съел : Съела} блюдо... -->
+	<AteFungusAsIngredient_Despised.stages.ate_fungus_cooked.label>съедено блюдо с грибами</AteFungusAsIngredient_Despised.stages.ate_fungus_cooked.label>
+	<AteFungusAsIngredient_Prefered.stages.ate_cooked_fungus.label>съедено блюдо с грибами</AteFungusAsIngredient_Prefered.stages.ate_cooked_fungus.label>
+	<!-- Оригинал: {PAWN_gender ? Съел : Съела} блюдо... -->
+	<AteNonFungusMealWithPlants_Despised.stages.ate_nonfungus_plant_cooked.label>съедено блюдо без грибов</AteNonFungusMealWithPlants_Despised.stages.ate_nonfungus_plant_cooked.label>
+	<!-- Мысль появляется не из-за блюда.
+	Оригинал: {PAWN_gender ? Съел : Съела} блюдо из сырых растений -->
+	<AteNonFungusPlant_Despised.stages.ate_nonfungus_plant_raw.label>съеден сырой плод растения</AteNonFungusPlant_Despised.stages.ate_nonfungus_plant_raw.label>
+
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициального перевода от Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
-	Описание частично взято из ванили - Glowstool.
-	Оригинал: Этот мерзкий грибок пах словно мертвая крыса. -->
-	<AteFungus_Despised.stages.ate_fungus_raw.description>Этот гриб пах как старая грязная тряпка, и на вкус был не лучше.</AteFungus_Despised.stages.ate_fungus_raw.description>
-	<!-- Оригинал: Это блюдо пахло словно коровий навоз. -->
-	<AteFungusAsIngredient_Despised.stages.ate_fungus_cooked.description>Это блюдо пахло как грязная крыса, брошенная в стоячей луже.</AteFungusAsIngredient_Despised.stages.ate_fungus_cooked.description>
+	Исправление неофициального перевода от Sestrenka. На момент проведения работ, официальный перевод ещё не был полностью закончен.
+	Заодно исправлена неточность, сообщите разработчику ванили.
+	Частично возвращена утерянная экспрессия, как в первоисточнике Glowstool.
+	Sestrenka: ...как ссаные тряпки, и на...лучше.
+	Ванильное: ...как мокрые тряпки, и на... -->
+	<AteFungus_Despised.stages.ate_fungus_raw.description>Этот гриб пах, как старая грязная тряпка, и на вкус был не лучше!</AteFungus_Despised.stages.ate_fungus_raw.description>
+	<!-- Оригинал: ...как дохлая крыса... -->
+	<AteFungusAsIngredient_Despised.stages.ate_fungus_cooked.description>Это блюдо пахло, как грязная крыса, гниющая в луже. Всё из-за грибов.</AteFungusAsIngredient_Despised.stages.ate_fungus_cooked.description>
 
 </LanguageData>
