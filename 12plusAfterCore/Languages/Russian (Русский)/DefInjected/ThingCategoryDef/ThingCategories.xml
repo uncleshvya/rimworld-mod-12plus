@@ -3,7 +3,7 @@
 
 	<!-- Исправлена неточность, сообщите разработчику ванили.
 
-	Убрана путаница с MedicineIndustrial.label. Идея взята из Ideology.
+	Убрана путаница с MedicineIndustrial.label и DrugCategory_Medical. Идея взята из Ideology.
 	Оригинал: медикаменты -->
 	<Medicine.label>лекарства</Medicine.label>
 
