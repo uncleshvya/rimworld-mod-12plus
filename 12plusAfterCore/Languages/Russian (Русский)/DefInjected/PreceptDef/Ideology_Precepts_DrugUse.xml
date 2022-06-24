@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<!-- Исправлена неточность, сообщите разработчику ванили.
-
-	Оригинал: ...или рекреации -->
-	<DrugUse_MedicalOrSocial.label>только в медицинских целях или для расслабления</DrugUse_MedicalOrSocial.label>
-
 	<!-- Исправление согласно концепции «12+».
 
+	Заодно исправлена неточность, сообщите разработчику ванили о "рекреации".
+	Оригинал: только в медицинских целях или рекреации -->
+	<DrugUse_MedicalOrSocial.label>только лёгкая «химия» и вакцина</DrugUse_MedicalOrSocial.label>
+	<!-- Описания следует синхронизировать с IngestedHardDrug.
+	Заодно исправлена неточность, сообщите разработчику ванили.
+	Этот идеолигический принцип касается всех наркотиков, кроме пеноксицилина.
 	Оригинал: Принимать лёгкие наркотики -->
-	<DrugUse_MedicalOnly.comps.2.description>Принимать препараты-релаксанты</DrugUse_MedicalOnly.comps.2.description>
+	<DrugUse_MedicalOnly.comps.2.description>Принимать «химию»</DrugUse_MedicalOnly.comps.2.description>
 	<!-- Оригинал: Давать лёгкие наркотики -->
-	<DrugUse_MedicalOnly.comps.5.description>Давать препараты-релаксанты</DrugUse_MedicalOnly.comps.5.description>
+	<DrugUse_MedicalOnly.comps.5.description>Давать «химию»</DrugUse_MedicalOnly.comps.5.description>
 	<!-- Оригинал: Выпить пива с друзьями или выкурить сигарету — нормально, но накачивать свой организм тяжёлыми наркотиками — неправильно. -->
-	<DrugUse_MedicalOrSocial.description>Употребление «химии» при безопасном уровне толерантности допустимо, но если есть шанс получить зависимость либо передозировку — это неоправданный риск.</DrugUse_MedicalOrSocial.description>
+	<DrugUse_MedicalOrSocial.description>Употребление «химии» при безопасном уровне толерантности допустимо, но если есть шанс получить зависимость либо передозировку, то это неоправданный риск.</DrugUse_MedicalOrSocial.description>
 	<!-- Оригинал: Принимать тяжёлые наркотики -->
-	<DrugUse_MedicalOrSocial.comps.2.description>Принимать сильнодействующие препараты</DrugUse_MedicalOrSocial.comps.2.description>
+	<DrugUse_MedicalOrSocial.comps.2.description>Принимать тяжёлую «химию»</DrugUse_MedicalOrSocial.comps.2.description>
 	<!-- Оригинал: Давать тяжёлые наркотики -->
-	<DrugUse_MedicalOrSocial.comps.5.description>Давать сильнодействующие препараты</DrugUse_MedicalOrSocial.comps.5.description>
+	<DrugUse_MedicalOrSocial.comps.5.description>Давать тяжёлую «химию»</DrugUse_MedicalOrSocial.comps.5.description>
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
-	Идеолигический принцип "употребление наркотиков" не касается лекарств. Пеноксицилин категоризирован как наркотик, вот и не надо вносить путаницу с медикаментами. Проблему можно решить, переименовав категорию "наркотики" в "препараты".
+	Идеолигический принцип "употребление наркотиков" не касается лекарств. Пеноксицилин категоризирован как наркотик, это вносит путаницу с медикаментами. Проблему можно решить, переименовав категорию "наркотики" в "препараты", а категорию "медикаменты" в "лекарства".
 	Оригинал: Принимать лекарства или наркотики -->
 	<DrugUse_Prohibited.comps.0.description>Принимать препараты</DrugUse_Prohibited.comps.0.description>
 	<!-- Оригинал: Давать лекарства или наркотики -->
