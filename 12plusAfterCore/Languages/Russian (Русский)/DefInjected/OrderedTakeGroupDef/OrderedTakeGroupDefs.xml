@@ -1,11 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
 
+	Это появилось в версии 1.3. Где оно вообще используется? Переименовано по аналогии с ThingCategoryDef - Drugs.label и DrugCategory_Medical.
 	Оригинал: наркотик -->
-	<Drug.label>препарат</Drug.label>
+	<Drug.label>«химия»</Drug.label>
 	<!-- Оригинал: препарат -->
-	<Medicine.label>лекарство</Medicine.label>
+	<Medicine.label>вакцина</Medicine.label>
 
 </LanguageData>
