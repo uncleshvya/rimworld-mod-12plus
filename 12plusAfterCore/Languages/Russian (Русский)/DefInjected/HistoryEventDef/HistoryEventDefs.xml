@@ -4,21 +4,21 @@
 	<!-- Исправление согласно концепции «12+».
 
 	Заодно исправлена неточность, сообщите разработчику ванили.
-	Идеолигический принцип "употребление наркотиков" не касается лекарств. Пеноксицилин категоризирован как наркотик, вот и не надо вносить путаницу с медикаментами. Проблему можно решить, переименовав категорию "наркотики" в "препараты".
+	Пеноксицилин категоризирован как наркотик, это вносит путаницу с медикаментами. Проблему можно решить, переименовав категорию "наркотики" в "препараты", а категорию "медикаменты" в "лекарства".
 	Оригинал: дано лекарство или наркотик -->
 	<AdministeredDrug.label>дан препарат пациенту</AdministeredDrug.label>
 	<!-- Оригинал: дан тяжёлый наркотик -->
-	<AdministeredHardDrug.label>дан сильнодействующий препарат пациенту</AdministeredHardDrug.label>
+	<AdministeredHardDrug.label>дана тяжёлая «химия» пациенту</AdministeredHardDrug.label>
 	<!-- Оригинал: дан лёгкий наркотик -->
-	<AdministeredRecreationalDrug.label>дан препарат-релаксант пациенту</AdministeredRecreationalDrug.label>
+	<AdministeredRecreationalDrug.label>дана лёгкая «химия» пациенту</AdministeredRecreationalDrug.label>
 	<!-- Оригинал: съедена человечина -->
 	<AteHumanMeat.label>съедено мумиё</AteHumanMeat.label>
 	<!-- Оригинал: принято лекарство или наркотик -->
 	<IngestedDrug.label>принят препарат</IngestedDrug.label>
 	<!-- Оригинал: принят тяжёлый наркотик -->
-	<IngestedHardDrug.label>принят сильнодействующий препарат</IngestedHardDrug.label>
+	<IngestedHardDrug.label>принята тяжёлая «химия»</IngestedHardDrug.label>
 	<!-- Оригинал: принят лёгкий наркотик -->
-	<IngestedRecreationalDrug.label>принят препарат-релаксант</IngestedRecreationalDrug.label>
+	<IngestedRecreationalDrug.label>принята лёгкая «химия»</IngestedRecreationalDrug.label>
 	<!-- Оригинал: погибло дерево -->
 	<MinifiedTreeDied.label>загублено дерево</MinifiedTreeDied.label>
 
