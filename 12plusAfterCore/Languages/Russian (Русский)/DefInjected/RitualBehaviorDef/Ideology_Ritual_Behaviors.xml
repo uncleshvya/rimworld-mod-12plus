@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- Исправлена неточность, сообщите разработчику ванили.
-
-	Оригиналы: Заключённый недоступен -->
-	<Conversion.stages.0.failTriggers.0.desc>Пленник недоступен.</Conversion.stages.0.failTriggers.0.desc>
-	<Execution.stages.0.failTriggers.0.desc>Пленник недоступен.</Execution.stages.0.failTriggers.0.desc>
-	<!-- Оригиналы: заключённый -->
-	<Execution.roles.1.label>пленник</Execution.roles.1.label>
-	<SacrificePrisoner.roles.1.missingDesc>пленник</SacrificePrisoner.roles.1.missingDesc>
-	<!-- Оригиналы: заключённые / рабы... -->
-	<GladiatorDuel.roles.1.missingDesc>пленники / рабы (гладиаторы)</GladiatorDuel.roles.1.missingDesc>
-	<GladiatorDuel.roles.2.missingDesc>пленники / рабы (гладиаторы)</GladiatorDuel.roles.2.missingDesc>
-	<!-- Оригинал: заключённый недоступен -->
-	<SacrificePrisoner.stages.0.failTriggers.0.desc>пленник недоступен</SacrificePrisoner.stages.0.failTriggers.0.desc>
-	<!-- Оригинал: Заключённый-ответчик... -->
-	<TrialPrisoner.stages.0.failTriggers.0.desc>Пленник-ответчик недоступен</TrialPrisoner.stages.0.failTriggers.0.desc>
-
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициального перевода от Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
+	Связано с MessageRitualRoleMustBePrisoner.
 	Оригинал: жертва -->
-	<SacrificePrisoner.roles.1.label>преступник</SacrificePrisoner.roles.1.label>
-	<!-- Оригинал: жертвовать -->
+	<Execution.roles.1.label>казнимый</Execution.roles.1.label>
+	<!-- Оригинал: жертва -->
+	<SacrificePrisoner.roles.1.label>казнимый</SacrificePrisoner.roles.1.label>
+	<!-- Исправление неофициального перевода от Sestrenka. На момент проведения работ, официальный перевод ещё не был полностью закончен.
+	Перезаписываем значение переменной.
+	Оригинал: жертва -->
+	<SacrificePrisoner.roles.1.missingDesc>пленник</SacrificePrisoner.roles.1.missingDesc>
+	<!-- Исправление перевода от Sestrenka.
+	Сохраняем значение устаревшей переменной на случай использования прошлых версий Ideology.
+	Оригинал: жертвовать -->
 	<SacrificePrisoner.roles.2.label>казнить</SacrificePrisoner.roles.2.label>
 	<!-- Оригинал: ...окончена, жертвоприношение начинается. -->
 	<SacrificePrisoner.stages.0.postAction.text>{0}: Речь окончена, казнь начинается.</SacrificePrisoner.stages.0.postAction.text>
