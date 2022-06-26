@@ -1,22 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+».
 
-  <!-- EN: Allow the dead bodies of colonists. -->
-  <AllowCorpsesColonist.description>Разрешить складывать сюда тела поселенцев.</AllowCorpsesColonist.description>
-
-  <!-- EN: Allow the dead bodies of strangers and enemies. -->
-  <AllowCorpsesStranger.description>Разрешить складывать сюда тела чужаков и врагов.</AllowCorpsesStranger.description>
-
-  <!-- EN: allow tainted apparel -->
-  <AllowDeadmansApparel.label>разрешить окровавленную одежду</AllowDeadmansApparel.label>
-  <!-- EN: Allow clothing that was once worn by a corpse. Most humans find corpse-tainted clothing to be disturbing, and traders will not accept it. -->
-  <AllowDeadmansApparel.description>Разрешить складывать сюда одежду, снятую с тел после боя. Большинство людей считают такую одежду отвратительной. Торговцы отказываются её покупать.</AllowDeadmansApparel.description>
-
-  <!-- EN: allow clean apparel -->
-  <AllowNonDeadmansApparel.label>чистая одежда</AllowNonDeadmansApparel.label>
-  <!-- EN: Allow clothing that was never worn by a corpse. Most humans find corpse-tainted clothing to be disturbing, and traders will not accept it. -->
-  <AllowNonDeadmansApparel.description>Разрешить складывать сюда одежду, не испорченную боевыми действиями. Ту, которую не откажутся купить торговцы.</AllowNonDeadmansApparel.description>
+	Оригинал: одежда с трупов -->
+	<AllowDeadmansApparel.label>окровавленная</AllowDeadmansApparel.label>
+	<!-- Оригинал: ...снятую с мёртвых. Большинство...считают одежду, снятую с мёртвого человека, «грязной». Торговцы... -->
+	<AllowDeadmansApparel.description>Разрешить одежду, снятую с тел после боя или иных опасных событий. Большинство людей считают такую одежду отвратительной. Торговцы отказываются её покупать.</AllowDeadmansApparel.description>
+	<!-- Оригинал: одежда не с трупов -->
+	<AllowNonDeadmansApparel.label>чистая</AllowNonDeadmansApparel.label>
+	<!-- Оригинал: Разрешить одежду, не снятую с мёртвых. Большинство людей считают одежду, снятую с мёртвого человека, «грязной». Торговцы отказываются её покупать. -->
+	<AllowNonDeadmansApparel.description>Разрешить одежду, не испорченную боевыми действиями или иными опасными событиями. Ту, которую купят торговцы.</AllowNonDeadmansApparel.description>
 
 </LanguageData>
