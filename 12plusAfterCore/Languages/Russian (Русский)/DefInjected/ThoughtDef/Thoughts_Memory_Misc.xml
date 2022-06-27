@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<!-- Исправлена неточность, сообщите разработчику.
+	<!-- Исправлена неточность, сообщите разработчику ванили.
 
 	Оригинал: ...Да покоится его... -->
-	<KnowBuriedInSarcophagus.stages.buried_in_sarcophagus.description>Нашего поселенца похоронили в красивом саркофаге. Да упокоится его душа с миром!</KnowBuriedInSarcophagus.stages.buried_in_sarcophagus.description>
+	<KnowBuriedInSarcophagus.stages.buried_in_sarcophagus.description>Мы похоронили нашего поселенца в красивом саркофаге. Да упокоится его душа с миром!</KnowBuriedInSarcophagus.stages.buried_in_sarcophagus.description>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Оригинал: разделан человек -->
-	<ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>порезан сустав</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>
-	<!-- Оригинал: Мне пришлось пустить человека на мясо. Словно это было животное. -->
+	Оригинал: {PAWN_gender ? Разделал : Разделала} человека -->
+	<ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>{PAWN_gender ? Порезал : Порезала} сустав</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>
+	<!-- Оригинал: Я {PAWN_gender ? пустил : пустила} человека на мясо. Словно это было животное. -->
 	<ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>Как неудачно меня угораздило порезаться. Вроде не болит, но стоит неловко шевельнуться...</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>
-	<!-- Оригинал: разделал(а) человека -->
+	<!-- Оригинал: {OTHERPAWN_gender ? Разделал : Разделала} человека -->
 	<ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>плохо себя ведёт</ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>
 	<!-- Оригинал: ...брошен умирать -->
 	<ColonistBanishedToDie.stages.colonist_banished_to_death.label>поселенец изгнан и брошен</ColonistBanishedToDie.stages.colonist_banished_to_death.label>
-	<!-- Оригинал: убийство лидера вражеской фракции -->
-	<DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>устранение вражеского лидера</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>
+	<!-- Оригинал: {PAWN_gender ? Убил : Убила} вражеского лидера, {0} -->
+	<DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>{PAWN_gender ? Устранил : Устранила} вражеского лидера, {0}</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>
 	<!-- Исправлено вынужденное размытие смысла в заголовке. Заодно сглажена необязательная тавтология, сообщите разработчику ванили.
 	Оригинал: Они пытались...что им придётся...мной! -->
 	<DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>Враги пытались уничтожить нас, но они не знали, что придётся иметь дело со мной! Лидер этой фракции дорого заплатил за свою ошибку!</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>
-	<!-- Оригинал: убийство лидера... -->
-	<DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>устранение лидера вражеской фракции</DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>
+	<!-- Оригинал: {OTHERPAWN_gender ? Убил : Убила} вражеского лидера -->
+	<DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>{OTHERPAWN_gender ? Устранил : Устранила} вражеского лидера</DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>
 	<!-- Заодно сглажена ссылка на людей - для модов на другие расы.
 	Оригинал: ...отказали человеку в...он не погибнет из-за этого. -->
 	<DeniedJoining.stages.denied_joining.description>Мы только что отказали просителю в крыше над головой. Надеюсь, он справится сам.</DeniedJoining.stages.denied_joining.description>
@@ -30,39 +30,39 @@
 	<HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.label>мы можем спасти жизнь</HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.label>
 	<!-- Оригинал: Вырезать плоть из тел так приятно и увлекательно! -->
 	<HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.description>Теперь у нас больше шансов спасти неизлечимо больного поселенца.</HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.description>
-	<!-- Оригинал: убийство человека -->
-	<KilledHumanlikeBloodlust.stages.killed_someone.label>выживание</KilledHumanlikeBloodlust.stages.killed_someone.label>
-	<!-- Оригинал: Мне удалось убить человека! Ах это... -->
-	<KilledHumanlikeBloodlust.stages.killed_someone.description>Мне удалось выжить после ужасного риска! Ах, это волнующее чувство!</KilledHumanlikeBloodlust.stages.killed_someone.description>
+	<!-- Оригинал: {PAWN_gender ? Убил : Убила} человека -->
+	<KilledHumanlikeBloodlust.stages.killed_someone.label>{PAWN_gender ? Выжил : Выжила} в резне</KilledHumanlikeBloodlust.stages.killed_someone.label>
+	<!-- Оригинал: Я {PAWN_gender ? убил : убила} человека! Вот... -->
+	<KilledHumanlikeBloodlust.stages.killed_someone.description>Я {PAWN_gender ? выжил : выжила} после ужасного риска! Вот это ощущение!</KilledHumanlikeBloodlust.stages.killed_someone.description>
 	<!-- Оригинал: разделан человек -->
 	<KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.label>бардак вокруг</KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.label>
-	<!-- Оригинал: Мы только что пустили человека на мясо, словно это было животное. -->
+	<!-- Оригинал: Мы пустили человека на мясо, словно это было животное. -->
 	<KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.description>Наше поселение подобно огромной свалке! Это отвратительно.</KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.description>
-	<!-- Оригинал: вид трупа -->
-	<ObservedLayingCorpse.stages.observed_corpse.label>вид тела</ObservedLayingCorpse.stages.observed_corpse.label>
+	<!-- Оригинал: {PAWN_gender ? Увидел : Увидела} труп -->
+	<ObservedLayingCorpse.stages.observed_corpse.label>{PAWN_gender ? Увидел : Увидела} тело</ObservedLayingCorpse.stages.observed_corpse.label>
 	<!-- Оригинал: Труп человека, лежащий на... -->
 	<ObservedLayingCorpse.stages.observed_corpse.description>Тело человека, лежащее на земле, — не самое приятное зрелище.</ObservedLayingCorpse.stages.observed_corpse.description>
-	<!-- Оригинал: ...гниющего трупа -->
-	<ObservedLayingRottingCorpse.stages.observed_rotting_corpse.label>вид гниющего тела</ObservedLayingRottingCorpse.stages.observed_rotting_corpse.label>
-	<!-- Оригинал: ...лицезреть гниющий труп (многоточие пробел) Отвратительно. -->
-	<ObservedLayingRottingCorpse.stages.observed_rotting_corpse.description>Мне пришлось лицезреть гниющее тело... Отвратительно.</ObservedLayingRottingCorpse.stages.observed_rotting_corpse.description>
+	<!-- Оригинал: {PAWN_gender ? Увидел : Увидела} гниющий труп -->
+	<ObservedLayingRottingCorpse.stages.observed_rotting_corpse.label>{PAWN_gender ? Увидел : Увидела} гниющее тело</ObservedLayingRottingCorpse.stages.observed_rotting_corpse.label>
+	<!-- Оригинал: Я {PAWN_gender ? увидел : увидела} гниющий труп (многоточие пробел) Отвратительно. -->
+	<ObservedLayingRottingCorpse.stages.observed_rotting_corpse.description>Я {PAWN_gender ? увидел : увидела} гниющее тело... Отвратительно.</ObservedLayingRottingCorpse.stages.observed_rotting_corpse.description>
 	<!-- Оригинал: ...брошен умирать -->
 	<PrisonerBanishedToDie.stages.prisoner_banished_to_death.label>пленник изгнан и брошен</PrisonerBanishedToDie.stages.prisoner_banished_to_death.label>
-	<!-- Оригинал: свидетель смерти союзника -->
-	<WitnessedDeathAlly.stages.witnessed_allys_death.label>свидетель потери союзника</WitnessedDeathAlly.stages.witnessed_allys_death.label>
+	<!-- Оригинал: {PAWN_gender ? Увидел : Увидела} смерть союзника -->
+	<WitnessedDeathAlly.stages.witnessed_allys_death.label>{PAWN_gender ? Увидел : Увидела}, как был потерян союзник</WitnessedDeathAlly.stages.witnessed_allys_death.label>
 	<!-- Оригинал: Один из наших погиб. Ещё...был жив, а сейчас уже мёртв. -->
 	<WitnessedDeathAlly.stages.witnessed_allys_death.description>Мы потеряли одного из наших. Ещё мгновение назад он был с нами, а теперь нет.</WitnessedDeathAlly.stages.witnessed_allys_death.description>
-	<!-- Оригинал: свидетель кровавой смерти -->
-	<WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.label>свидетель победы</WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.label>
-	<!-- Оригинал: Смерть человека — вот это зрелище! -->
+	<!-- Оригинал: {PAWN_gender ? Увидел : Увидела} смерть -->
+	<WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.label>{PAWN_gender ? Увидел : Увидела}, как мы победили</WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.label>
+	<!-- Оригинал: Я {PAWN_gender ? увидел : увидела} смерть человека — вот это зрелище! -->
 	<WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>Победа в неравном бою — вот это удача!</WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>
-	<!-- Оригинал: свидетель смерти члена... -->
-	<WitnessedDeathFamily.stages.witnessed_family_members_death.label>свидетель потери члена семьи</WitnessedDeathFamily.stages.witnessed_family_members_death.label>
+	<!-- Оригинал: {PAWN_gender ? Увидел : Увидела} смерть члена... -->
+	<WitnessedDeathFamily.stages.witnessed_family_members_death.label>{PAWN_gender ? Увидел : Увидела}, как был потерян член семьи</WitnessedDeathFamily.stages.witnessed_family_members_death.label>
 	<!-- Оригинал: У меня на глазах погиб один из... -->
 	<WitnessedDeathFamily.stages.witnessed_family_members_death.description>Я {PAWN_gender ? потерял : потеряла} одного из членов моей семьи. Моя кровь и плоть...</WitnessedDeathFamily.stages.witnessed_family_members_death.description>
-	<!-- Оригинал: свидетель смерти незнакомца -->
-	<WitnessedDeathNonAlly.stages.witnessed_outsiders_death.label>свидетель потери бойца</WitnessedDeathNonAlly.stages.witnessed_outsiders_death.label>
-	<!-- Оригинал: Погиб человек. Только...был жив, а через секунду уже мёртв. -->
+	<!-- Оригинал: {PAWN_gender ? Увидел : Увидела} смерть чужака -->
+	<WitnessedDeathNonAlly.stages.witnessed_outsiders_death.label>{PAWN_gender ? Увидел : Увидела}, как был потерян чужак</WitnessedDeathNonAlly.stages.witnessed_outsiders_death.label>
+	<!-- Оригинал: Этот человек погиб. Только...был жив, а через секунду уже мёртв. -->
 	<WitnessedDeathNonAlly.stages.witnessed_outsiders_death.description>Потерян боец. Только что он был здесь, а через секунду его уже нет.</WitnessedDeathNonAlly.stages.witnessed_outsiders_death.description>
 
 </LanguageData>
