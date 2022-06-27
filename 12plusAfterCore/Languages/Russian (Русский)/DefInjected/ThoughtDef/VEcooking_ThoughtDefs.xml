@@ -5,9 +5,9 @@
 
 	Все описания следует синхронизировать с папкой ThingDef.
 	Подправляем ваниль в связи с расширившейся градацией блюд.
-	Оригинал: съедено хорошее блюдо -->
-	<AteFineMeal.stages.ate_fine_meal.label>съедено отличное блюдо</AteFineMeal.stages.ate_fine_meal.label>
-	<!-- Оригинал: ...было по-настоящему вкусное блюдо... -->
+	Оригинал: {PAWN_gender ? Съел : Съела} вкусное блюдо -->
+	<AteFineMeal.stages.ate_fine_meal.label>{PAWN_gender ? Съел : Съела} отличное блюдо</AteFineMeal.stages.ate_fine_meal.label>
+	<!-- Оригинал: ...было по-настоящему вкусно. Ням-ням! -->
 	<AteFineMeal.stages.ate_fine_meal.description>Это было отличное блюдо. Ням-ням!</AteFineMeal.stages.ate_fine_meal.description>
 	<!-- EN: ate awful cheese -->
 	<VCE_AteCheese.stages.ate_awful_cheese.label>съеден ужасный сыр</VCE_AteCheese.stages.ate_awful_cheese.label>
