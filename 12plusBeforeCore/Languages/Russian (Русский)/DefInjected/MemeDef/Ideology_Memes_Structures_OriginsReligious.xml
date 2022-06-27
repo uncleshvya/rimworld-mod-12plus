@@ -30,7 +30,7 @@
   -->
   <Structure_OriginBuddhist.generalRules.rulesStrings>
     <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
-    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective_masc] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[packIdeoName]</li>
     <li>memeLeaderNoun->бодхисаттва</li>
@@ -52,7 +52,7 @@
   <!-- EN: Buddhist -->
   <Structure_OriginBuddhist.symbolPacks.0.member>буддист</Structure_OriginBuddhist.symbolPacks.0.member>
   <!-- EN: Buddha -->
-  <Structure_OriginBuddhist.symbolPacks.0.theme>Будда</Structure_OriginBuddhist.symbolPacks.0.theme>
+  <Structure_OriginBuddhist.symbolPacks.0.theme>Будды</Structure_OriginBuddhist.symbolPacks.0.theme>
   <!-- EN: Theric -->
   <Structure_OriginBuddhist.symbolPacks.1.adjective>тхеравадский</Structure_OriginBuddhist.symbolPacks.1.adjective>
   <!-- EN: Theravada -->
@@ -140,7 +140,7 @@
   -->
   <Structure_OriginChristian.generalRules.rulesStrings>
     <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
-    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective_masc] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[packIdeoName]</li>
     <li>memeLeaderNoun->епископ</li>
@@ -342,7 +342,7 @@
   -->
   <Structure_OriginHindu.generalRules.rulesStrings>
     <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
-    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective_masc] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[packIdeoName]</li>
     <li>memeLeaderNoun->махатма</li>
@@ -473,7 +473,7 @@
   -->
   <Structure_OriginIslamic.generalRules.rulesStrings>
     <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
-    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective_masc] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[packIdeoName]</li>
     <li>memeLeaderNoun->мулла</li>
