@@ -3,10 +3,7 @@
 
 	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
 
-	EN: Faction relation modifiers -->
-	<VanillaFactionsExpanded.ScenPart_ForcedFactionRelations>Модификаторы отношений с фракцией</VanillaFactionsExpanded.ScenPart_ForcedFactionRelations>
-
-	<!-- EN: {0} patches found -->
+	EN: {0} patches found -->
 	<XPatchFound>Найдено {0} патчей</XPatchFound>
 	<!-- EN: Faction Discovery -->
 	<FDTitle>Добавление фракций</FDTitle>
@@ -21,14 +18,7 @@
 
 	<!-- Исправлена неточность, сообщите разработчику.
 
-	Оригиналы: Ввести -->
-	<IP_InsertFirstItemDesc>Добавить</IP_InsertFirstItemDesc>
-	<IP_InsertSecondItemDesc>Добавить</IP_InsertSecondItemDesc>
-	<IP_InsertThirdItemDesc>Добавить</IP_InsertThirdItemDesc>
-	<IP_InsertFourthItemDesc>Добавить</IP_InsertFourthItemDesc>
-	<!-- Оригинал: Ввести {0} -->
-	<IP_InsertVariable>Добавить {0}</IP_InsertVariable>
-	<!-- Оригинал: {0} получится после обработки. Для этого необходимо дать {1} -->
+	Оригинал: {0} получится после обработки. Для этого необходимо дать {1} -->
 	<IP_OutputDesc>После обработки получится {0}. Для этого необходимо загрузить {1}</IP_OutputDesc>
 	<!-- Оригинал: На карте нет предметов требуемого типа ({0}) -->
 	<IP_CantFindThing>Не удаётся найти «{0}» на этой карте</IP_CantFindThing>
@@ -46,11 +36,11 @@
 	<IP_IsEmpty>Нет заданий</IP_IsEmpty>
 	<!-- Оригинал: {0} хранит {1} -->
 	<IP_FilledWith>Внутри — {1}</IP_FilledWith>
-	<!-- Оригинал: "пробел" (заполнен на {0} из {1}) -->
+	<!-- Оригинал: "пробел" (заполнено на {0} из {1}) -->
 	<IP_IngredientPercentage>, загружено {0} из {1}</IP_IngredientPercentage>
-	<!-- Оригинал: {0} обрабатывает {1}. {2} будет готов через {3} {4} качества -->
+	<!-- Оригинал: {0} обрабатывает {1}. {2} появятся через {3} с качеством «{4}» -->
 	<IP_ProcessingInProgress>{2} подвергается автоматической обработке, приготовится с качеством «{3}», через {4}</IP_ProcessingInProgress>
-	<!-- Оригинал: {0} обрабатывает {1}. {2} будет готов через {3} -->
+	<!-- Оригинал: {0} обрабатывает {1}. {2} появятся через {3} -->
 	<IP_ProcessingInProgressNoQuality>{2} подвергается автоматической обработке, приготовится через {3}</IP_ProcessingInProgressNoQuality>
 	<!-- Оригинал: Удалить {0} ({1}) -->
 	<IP_RemoveProduct>Извлечь {0} ({1})</IP_RemoveProduct>
@@ -83,6 +73,8 @@
 
 	<!-- Оригинал: Закрыто -->
 	<VanillaFactionsExpanded.Protects>Защищает</VanillaFactionsExpanded.Protects>
+	<!-- Оригинал: Модификаторы отношений фракций -->
+	<VanillaFactionsExpanded.ScenPart_ForcedFactionRelations>Модификаторы отношений с фракцией</VanillaFactionsExpanded.ScenPart_ForcedFactionRelations>
 	<!-- Оригинал: без неразрывного пробела -->
 	<VanillaFactionsExpanded.FactionTitle>Новая фракция — {FactionName}</VanillaFactionsExpanded.FactionTitle>
 	<!-- Оригинал: Подкрепления -->
