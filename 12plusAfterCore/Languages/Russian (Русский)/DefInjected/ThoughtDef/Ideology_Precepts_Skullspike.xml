@@ -12,14 +12,15 @@
 	<Skullspike_Disapproved.stages.skullspikes-1.label>изображения черепов</Skullspike_Disapproved.stages.skullspikes-1.label>
 	<Skullspike_Disapproved.stages.skullspikes-2.label>изображения черепов</Skullspike_Disapproved.stages.skullspikes-2.label>
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили о размытой ссылке слова "они".
-	Оригинал: ...несколько черепов на кольях. Они говорят о том, что мы сильны. -->
-	<Skullspike_Desired.stages.skullspikes-0.description>Рядом с нами несколько скульптур черепов. Это олицетворяет нашу силу.</Skullspike_Desired.stages.skullspikes-0.description>
+	Мысль возникает, даже если есть 1 череп.
+	Оригинал: Рядом с нами несколько черепов на кольях. Они говорят о том, что мы сильны. -->
+	<Skullspike_Desired.stages.skullspikes-0.description>У нас есть скульптура черепа. Это олицетворяет нашу силу.</Skullspike_Desired.stages.skullspikes-0.description>
 	<!-- Оригинал: ...много черепов на кольях. Пусть... -->
 	<Skullspike_Desired.stages.skullspikes-1.description>Рядом с нами много скульптур черепов. Пусть все нас боятся.</Skullspike_Desired.stages.skullspikes-1.description>
 	<!-- Оригинал: ...оскалилось черепами на колах. Пусть...попробует усомнится в нашей... -->
 	<Skullspike_Desired.stages.skullspikes-2.description>Наше поселение словно оскалилось скульптурами черепов. Пусть кто-то только попробует усомниться в нашей мощи!</Skullspike_Desired.stages.skullspikes-2.description>
-	<!-- Оригинал: ...несколько черепов на кольях. Их... -->
-	<Skullspike_Disapproved.stages.skullspikes-0.description>Рядом с нами несколько скульптур черепов. Их не то чтобы много, но это всё равно неприятно.</Skullspike_Disapproved.stages.skullspikes-0.description>
+	<!-- Оригинал: Рядом с нами несколько черепов на кольях. Их не то чтобы много, но это всё равно неприятно. -->
+	<Skullspike_Disapproved.stages.skullspikes-0.description>У нас есть скульптура черепа. Не то чтобы это всё портило, но стало как-то неуютно.</Skullspike_Disapproved.stages.skullspikes-0.description>
 	<!-- Оригинал: ...много черепов на кольях. Жутковато. -->
 	<Skullspike_Disapproved.stages.skullspikes-1.description>Рядом с нами много скульптур черепов. Жутковато.</Skullspike_Disapproved.stages.skullspikes-1.description>
 	<!-- Оригинал: ...из колов с черепами? Это... -->
