@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- Исправление согласно концепции «12+».
+	<!-- Исправление согласно концепции «12+».
 
-  Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
+	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
 
-  Заодно сглажена ссылка на людей - для модов на другие расы.
-  Оригинал:
-    ...
-    <li>helpersParagraph(helpersCount==0)-></li>
-    <li>helpersParagraph(helpersCount==1)->\n\nПод ваш контроль будет передан [helperKind_label]. Вы будете должны расквартировать его, но он может погибнуть в бою без каких-либо последствий для вас.\n\n</li>
-    <li>helpersParagraph(helpersCount>=2)->\n\nПод ваш контроль будут переданы [helperKind_labelPlural] в количестве [helpersCount] человек. Вы будете должны расквартировать их, но они могут погибнуть в бою без каких-либо последствий для вас.\n\n</li>
-    <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
-    ...
-  -->
+	Оригинал:
+	...
+	<li>...может погибнуть в бою без каких-либо последствий для вас.\n\n</li>
+	Заодно сглажена ссылка на людей - для модов на другие расы.
+	<li>...переданы [helperKind_labelPlural] в количестве [helpersCount] человек. Вы будете должны расквартировать их, но они могут погибнуть в бою без каких-либо последствий для вас.\n\n</li>
+	...
+	-->
   <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
     <li>helpersParagraph(helpersCount==0)-></li>
-    <li>helpersParagraph(helpersCount==1)->\n\nПод ваш контроль будет передан [helperKind_label]. Вы будете должны расквартировать его, но он может быть потерян в бою без каких-либо последствий для вас.\n\n</li>
-    <li>helpersParagraph(helpersCount>=2)->\n\nПод ваш контроль будут переданы [helperKind_labelPlural] в количестве [helpersCount] воинов. Вы будете должны расквартировать их, но они могут быть потеряны в бою без каких-либо последствий для вас.\n\n</li>
+	<li>helpersParagraph(helpersCount==1)->\n\nПод ваш контроль будет передан [helperKind_label]. Вы будете должны расквартировать его, но он может быть потерян в бою без каких-либо последствий для вас.\n\n</li>
+	<li>helpersParagraph(helpersCount>=2)->\n\nПод ваш контроль будут переданы [helperKind_labelPlural], всего [helpersCount] бойцов. Вы будете должны расквартировать их, но они могут быть потеряны в бою без каких-либо последствий для вас.\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
     <li>helpersArrivalLetterEnd(helpersCount==1)->\n\n[helpersLabelSingOrPlural] [helpersDeparted] к вам на помощь.</li>
     <li>helpersArrivalLetterEnd(helpersCount>=2)->\n\n[helpersCount] [helpersLabelSingOrPlural] [helpersDeparted] к вам на помощь.</li>
@@ -35,7 +33,7 @@
     <li>helpersSpent(helpersCount>=2)->провели</li>
   </Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
 
-  <!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
+	<!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
 
   EN: [helpersLabelSingOrPlural] arrived -->
   <Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>[helpersLabelSingOrPlural] [helpersArrived]</Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>
