@@ -1,9 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Все герундии, начинающиеся с маленькой буквы, выглядели некрасиво в контекстном меню приказа на действие. Это конечно классика, но нужно подправить движок gerund аналогично с движком label, который выставляет большую букву.
+	Пока это не сделано, все герундии переименованы, т.к. приказ на действие употребляется чаще, чем уведомление об уже начавшейся работе.
+	Оригиналы: все с маленькой буквы -->
+	<ChangeTreeMode.gerund>Сменить касту дриад для</ChangeTreeMode.gerund>
+	<ConvertPrisoner.gerund>Обратить</ConvertPrisoner.gerund>
+	<EmancipateSlave.gerund>Освободить</EmancipateSlave.gerund>
+	<EnslavePrisoner.gerund>Поработить</EnslavePrisoner.gerund>
+	<ExecuteSlave.gerund>Казнить</ExecuteSlave.gerund>
+	<HaulToBiosculpterPod.gerund>Заполнить</HaulToBiosculpterPod.gerund>
+	<ImprisonSlave.gerund>Арестовать</ImprisonSlave.gerund>
+	<PruneGauranlenTree.gerund>Остригать</PruneGauranlenTree.gerund>
+	<SuppressSlave.gerund>Подавлять</SuppressSlave.gerund>
+	<!-- Оригинал: менять касту... -->
+	<ChangeTreeMode.verb>сменить касту дриад для</ChangeTreeMode.verb>
+	<!-- Оригинал: обращать -->
+	<ConvertPrisoner.verb>обратить</ConvertPrisoner.verb>
+	<!-- Оригинал: освобождать -->
+	<EmancipateSlave.verb>освободить</EmancipateSlave.verb>
+	<!-- Оригинал: порабощать -->
+	<EnslavePrisoner.verb>поработить</EnslavePrisoner.verb>
+	<!-- Убрана путаница с DoExecution.label.
+	Оригинал: казнить пленников -->
+	<ExecuteSlave.label>казнить рабов</ExecuteSlave.label>
+	<!-- Оригинал: заполнять -->
+	<HaulToBiosculpterPod.verb>заполнить</HaulToBiosculpterPod.verb>
+	<!-- Оригинал: арестовывать -->
+	<ImprisonSlave.verb>арестовать</ImprisonSlave.verb>
+	<!-- Оригинал: посадить семена -->
+	<PlantSeed.label>сажать семенные капсулы</PlantSeed.label>
+	<!-- Оригиналы: сажать -->
+	<PlantSeed.gerund>Посадить</PlantSeed.gerund>
+	<PlantSeed.verb>посадить</PlantSeed.verb>
+	<!-- Оригинал: подстричь деревья... -->
+	<PruneGauranlenTree.label>остригать деревья Гауранлен</PruneGauranlenTree.label>
+	<!-- Оригинал: подавить рабов -->
+	<SuppressSlave.label>подавлять рабов</SuppressSlave.label>
+
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициального перевода от Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
 	Механика заменена на ванильный поджог, см.патч.
 	Оригинал: извлечь череп -->
 	<ExtractSkull.label>предавать тела очищающему огню</ExtractSkull.label>
