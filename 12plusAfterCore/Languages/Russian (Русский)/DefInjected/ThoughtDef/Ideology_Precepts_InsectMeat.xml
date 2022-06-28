@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
 	<!-- Исправлена неточность, сообщите разработчику ванили.
 
 	Фигурные скобки были видны во всплывающем меню над принципами.
-	Оригинал: {PAWN_gender ? съел : съела} мясо насекомых -->
+	Оригинал: {PAWN_gender ? Съел : Съела} мясо насекомых -->
 	<AteInsectMeat_Loved.stages.ate_insect_meat.label>съедено мясо насекомых</AteInsectMeat_Loved.stages.ate_insect_meat.label>
 	<!-- Не влезало в интерфейс.
 	Использовано название пещерного жука и внешний вид остальных инсектоидов: мегаскарабей похож на жука, мегапаук - на жука-носорога.
-	Оригинал: {PAWN_gender ? съел : съела} блюдо с мясом насекомого -->
+	Оригинал: {PAWN_gender ? Съел : Съела} блюдо с мясом насекомого -->
 	<AteInsectMeatAsIngredient_Loved.stages.ate_cooked_insect_meat.label>съедено блюдо с мясом жука</AteInsectMeatAsIngredient_Loved.stages.ate_cooked_insect_meat.label>
 
 </LanguageData>
