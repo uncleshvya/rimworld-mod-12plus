@@ -4,11 +4,19 @@
 	<!-- Исправление согласно концепции «12+».
 
 	Оригинал: каннибал -->
-	<AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>неряха</AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>
-	<!-- Оригинал: убил(а) поселенца -->
+	<AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>ест мумиё</AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>
+ 	<!-- Оригинал: {OTHERPAWN_gender ? ел : ела} сырую человечину -->
+	<AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.labelSocial>{OTHERPAWN_gender ? Съел : Съела} мумиё</AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.labelSocial>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Уж лучше небольшая потеря точности, чем эти жуткие скобки.
+	Оригинал: убил(а) поселенца -->
 	<KilledColonist.stages.killed_colonist.label>бьёт поселенцев</KilledColonist.stages.killed_colonist.label>
-	<!-- Заодно сглажена ссылка на животных - для модов на неявно живых существ.
+	<!-- Оригинал: {OTHERPAWN_gender ? убил : убила} поселенца -->
+	<KilledColonist.stages.killed_colonist.labelSocial>{OTHERPAWN_gender ? Избил : Избила} поселенца</KilledColonist.stages.killed_colonist.labelSocial>
+	<!-- Заодно сглажены ссылки на животных - для модов на неявно живых существ.
 	Оригинал: убил(а) животное поселения -->
 	<KilledColonyAnimal.stages.killed_colony_animal.label>бьёт наших питомцев</KilledColonyAnimal.stages.killed_colony_animal.label>
+	<!-- Оригинал: {OTHERPAWN_gender ? убил : убила} животное поселения -->
+	<KilledColonyAnimal.stages.killed_colony_animal.labelSocial>{OTHERPAWN_gender ? Избил : Избила} нашего питомца</KilledColonyAnimal.stages.killed_colony_animal.labelSocial>
 
 </LanguageData>
