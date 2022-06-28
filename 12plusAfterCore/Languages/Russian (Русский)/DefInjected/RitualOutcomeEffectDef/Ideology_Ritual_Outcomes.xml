@@ -3,7 +3,22 @@
 
 	<!-- Исправлена неточность, сообщите разработчику ванили.
 
-	Оригиналы: без неразрывных пробелов -->
+	Исправлены размытые ссылки для необязательных слов "его".
+	Оригиналы: ...настроение его участников... -->
+	<AttendedFuneral.description>В зависимости от качества ритуала настроение участников изменится на величину от {MINMOOD} до {MAXMOOD} на {MOODDAYS_numCase ? день : дня : дней}.</AttendedFuneral.description>
+	<AttendedFuneralNoCorpse.description>В зависимости от качества ритуала настроение участников изменится на величину от {MINMOOD} до {MAXMOOD} на {MOODDAYS_numCase ? день : дня : дней}.</AttendedFuneralNoCorpse.description>
+	<BlindingCeremony.description>В зависимости от качества ритуала настроение участников изменится на величину от {MINMOOD} до {MAXMOOD} на {MOODDAYS_numCase ? день : дня : дней}.</BlindingCeremony.description>
+	<CelebratedDate.description>В зависимости от качества ритуала настроение участников изменится на величину от {MINMOOD} до {MAXMOOD} на {MOODDAYS_numCase ? день : дня : дней}.</CelebratedDate.description>
+	<CelebratedDate_Consumable.description>В зависимости от качества ритуала настроение участников изменится на величину от {MINMOOD} до {MAXMOOD} на {MOODDAYS_numCase ? день : дня : дней}.</CelebratedDate_Consumable.description>
+	<CelebrationPartyDanceDrum.description>В зависимости от качества ритуала настроение участников изменится на величину от {MINMOOD} до {MAXMOOD} на {MOODDAYS_numCase ? день : дня : дней}.</CelebrationPartyDanceDrum.description>
+	<CelebrationPartyDanceTech.description>В зависимости от качества ритуала настроение участников изменится на величину от {MINMOOD} до {MAXMOOD} на {MOODDAYS_numCase ? день : дня : дней}.</CelebrationPartyDanceTech.description>
+	<CelebrationSkyLanterns.description>В зависимости от качества ритуала настроение участников изменится на величину от {MINMOOD} до {MAXMOOD} на {MOODDAYS_numCase ? день : дня : дней}.</CelebrationSkyLanterns.description>
+	<GladiatorDuel.description>В зависимости от качества ритуала настроение участников изменится на величину от {MINMOOD} до {MAXMOOD} на {MOODDAYS_numCase ? день : дня : дней}.</GladiatorDuel.description>
+	<Sacrifice.description>В зависимости от качества ритуала настроение участников изменится на величину от {MINMOOD} до {MAXMOOD} на {MOODDAYS_numCase ? день : дня : дней}.</Sacrifice.description>
+	<ScarificationCeremony.description>В зависимости от качества ритуала настроение участников изменится на величину от {MINMOOD} до {MAXMOOD} на {MOODDAYS_numCase ? день : дня : дней}.</ScarificationCeremony.description>
+	<!-- Оригинал: ...настроение его участников... -->
+	<Execution.description>Подавленность наблюдающих рабов составит 100%. В зависимости от качества ритуала настроение участников изменится на величину от {MINMOOD} до {MAXMOOD} на {MOODDAYS_numCase ? день : дня : дней}.</Execution.description>
+	<!-- Оригиналы: без неразрывных пробелов -->
 	<Trial.outcomeChances.1.description>Обвинитель смог убедить всех в том, что {PAWN_labelShort} {PAWN_gender ? виновен : виновна}. {PAWN_possessive} теперь можно спокойно казнить или изгнать — никто не будет возражать.</Trial.outcomeChances.1.description>
 	<TrialMentalState.outcomeChances.1.description>Обвинитель смог убедить всех в том, что {PAWN_labelShort} {PAWN_gender ? виновен : виновна}. {PAWN_possessive} теперь можно спокойно казнить или изгнать — никто не будет возражать.</TrialMentalState.outcomeChances.1.description>
 
