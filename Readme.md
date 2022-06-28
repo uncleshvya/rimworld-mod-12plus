@@ -2,7 +2,7 @@
 
 For English, scroll below.
 
-Проверено на игре v.1.3.3287 сборка 26-02-2022, с официальным русским переводом от 15.03.2022.
+Проверено на игре v.1.3.3389 сборка от 08.06.2022, с официальным русским переводом от 13.06.2022.
 
 Инструкция по установке: 
 
@@ -12,7 +12,7 @@ For English, scroll below.
 - если устанавливаете новую версию 12plus мода, для начала удалите старые версии из папки «Mods».
 - по желанию, из папки RimWorldUniverse возьмите адаптированный текстовый файл c лором.
 
-Tested with game v.1.3.3287 rev.2022feb26 and official russian translation v.2022mar15.
+Tested with game v.1.3.3389 rev.2022jun08 and official russian translation v.2022jun13.
 
 How to install:
 - download the repository.
