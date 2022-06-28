@@ -3,32 +3,56 @@
 
 	<!-- Исправлена неточность, сообщите разработчику ванили.
 
+	Звучало, как будто поселенец не знал, о ком речь.
+	Оригинал: виновный пленник или гость казнён -->
+	<ExecutedGuest_Know_Abhorrent_Mood.stages.justified_execution.label>казнён пришлый преступник</ExecutedGuest_Know_Abhorrent_Mood.stages.justified_execution.label>
+	<!-- Оригинал: ...казнили пленника или гостя за... -->
+	<ExecutedGuest_Know_Abhorrent_Mood.stages.justified_execution.description>Мы казнили посетителя за его преступления. Хоть это и справедливо, но всё равно грустно.</ExecutedGuest_Know_Abhorrent_Mood.stages.justified_execution.description>
+	<!-- Оригинал: пленник или гость подвергнут... -->
+	<ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_euthanized.label>посетитель подвергнут эвтаназии</ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_euthanized.label>
+	<!-- Оригинал: ...нашего пленника или гостя эвтаназии... -->
+	<ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_euthanized.description>Мы подвергли нашего посетителя эвтаназии. Это гуманно, но всё равно грустно.</ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_euthanized.description>
+	<!-- Оригинал: гость или пленник казнён -->
+	<ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_executed.label>казнён невиновный посетитель</ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_executed.label>
+	<!-- Оригинал: ...повинного пленника или гостя. Это... -->
+	<ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_executed.description>Мы хладнокровно казнили ни в чём не повинного посетителя. Это жестоко!</ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_executed.description>
+	<!-- Оригинал: пленник или гость разобран... -->
+	<ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_organmurdered.label>посетитель разобран на органы</ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_organmurdered.label>
+	<!-- Фигурные скобки были видны во всплывающем меню над принципами. Пока не исправлен движок, возвращены межполые описания.
+	Оригиналы: {PAWN_gender ? Казнил : Казнила} пленника -->
+	<ExecutedPrisoner_Horrible.stages.executed_prisoner.label>я — палач</ExecutedPrisoner_Horrible.stages.executed_prisoner.label>
+	<ExecutedPrisoner_Respected.stages.executed_prisoner.label>я — палач</ExecutedPrisoner_Respected.stages.executed_prisoner.label>
+	<!-- Сложно найти что-то хуже этих жутких скобок.
 	Оригиналы: казнил(а) пленника -->
-	<ExecutedPrisoner_Know_Abhorrent.stages.executed_prisoner.label>казнь пленника</ExecutedPrisoner_Know_Abhorrent.stages.executed_prisoner.label>
-	<ExecutedPrisoner_Know_Horrible.stages.executed_prisoner.label>казнь пленника</ExecutedPrisoner_Know_Horrible.stages.executed_prisoner.label>
-	<ExecutedPrisoner_Know_Respected.stages.executed_prisoner.label>казнь пленника</ExecutedPrisoner_Know_Respected.stages.executed_prisoner.label>
+	<ExecutedPrisoner_Know_Abhorrent.stages.executed_prisoner.label>палач</ExecutedPrisoner_Know_Abhorrent.stages.executed_prisoner.label>
+	<ExecutedPrisoner_Know_Horrible.stages.executed_prisoner.label>палач</ExecutedPrisoner_Know_Horrible.stages.executed_prisoner.label>
+	<ExecutedPrisoner_Know_Respected.stages.executed_prisoner.label>палач</ExecutedPrisoner_Know_Respected.stages.executed_prisoner.label>
 	<!-- Оригинал: казнил(а) виновного пленника -->
-	<ExecutedPrisonerGuilty_Know_Respected.stages.executed_guilty_prisoner.label>казнь преступника</ExecutedPrisonerGuilty_Know_Respected.stages.executed_guilty_prisoner.label>
-	<!-- Оригинал: Я казнил виновного... -->
-	<ExecutedPrisonerGuilty_Respected.stages.executed_guilty_prisoner.description>Я {PAWN_gender ? казнил : казнила} виновного пленника. Справедливость восторжествовала!</ExecutedPrisonerGuilty_Respected.stages.executed_guilty_prisoner.description>
+	<ExecutedPrisonerGuilty_Know_Respected.stages.executed_guilty_prisoner.label>казнит преступников</ExecutedPrisonerGuilty_Know_Respected.stages.executed_guilty_prisoner.label>
+	<!-- Оригинал: справедливая казнь пленника -->
+	<ExecutedPrisonerGuilty_Know_Respected_Mood.stages.guilty_prisoner_executed.label>казнён преступник из тюрьмы</ExecutedPrisonerGuilty_Know_Respected_Mood.stages.guilty_prisoner_executed.label>
+	<!-- Оригинал: Мы казнили виновного пленника. Справедливость... -->
+	<ExecutedPrisonerGuilty_Know_Respected_Mood.stages.guilty_prisoner_executed.description>Мы казнили преступника, что ждал приговора в нашей тюрьме. Справедливость восторжествовала!</ExecutedPrisonerGuilty_Know_Respected_Mood.stages.guilty_prisoner_executed.description>
+	<!-- Оригинал: {PAWN_gender ? Казнил : Казнила} виновного пленника -->
+	<ExecutedPrisonerGuilty_Respected.stages.executed_guilty_prisoner.label>в ответе за казнь преступника из тюрьмы</ExecutedPrisonerGuilty_Respected.stages.executed_guilty_prisoner.label>
+	<!-- Оригинал: {PAWN_gender ? казнил : казнила} виновного пленника -->
+	<ExecutedPrisonerGuilty_Know_Respected.stages.executed_guilty_prisoner.labelSocial>{PAWN_gender ? Казнил : Казнила} преступника из тюрьмы</ExecutedPrisonerGuilty_Know_Respected.stages.executed_guilty_prisoner.labelSocial>
+	<!-- Оригинал: Я казнил виновного пленника. Справедливость... -->
+	<ExecutedPrisonerGuilty_Respected.stages.executed_guilty_prisoner.description>Я {PAWN_gender ? казнил : казнила} преступника из нашей тюрьмы. Справедливость восторжествовала!</ExecutedPrisonerGuilty_Respected.stages.executed_guilty_prisoner.description>
+	<!-- Оригинал: {PAWN_gender ? Казнил : Казнила} невиновного... -->
+	<ExecutedPrisonerInnocent_Horrible.stages.executed_innocent_prisoner.label>в ответе за казнь невиновного пленника</ExecutedPrisonerInnocent_Horrible.stages.executed_innocent_prisoner.label>
 	<!-- Оригинал: казнил(а) невиновного... -->
-	<ExecutedPrisonerInnocent_Know_Horrible.stages.executed_innocent_prisoner.label>казнь невиновного пленника</ExecutedPrisonerInnocent_Know_Horrible.stages.executed_innocent_prisoner.label>
+	<ExecutedPrisonerInnocent_Know_Horrible.stages.executed_innocent_prisoner.label>казнит невиновных пленников</ExecutedPrisonerInnocent_Know_Horrible.stages.executed_innocent_prisoner.label>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Оригинал: Поселенца хладнокровно убили. Это жестоко! -->
-	<ExecutedColonist_Know_Abhorrent_Mood.stages.colonist_executed.description>Поселенца хладнокровно казнили. Это жестоко!</ExecutedColonist_Know_Abhorrent_Mood.stages.colonist_executed.description>
-	<!-- Оригинал: смерть поселенца от извлечения органов -->
-	<ExecutedColonist_Know_Abhorrent_Mood.stages.colonist_organharvested.label>поселенец был потерян после извлечения органа</ExecutedColonist_Know_Abhorrent_Mood.stages.colonist_organharvested.label>
-	<!-- Оригинал: Поселенец умер из-за того, что у него удалили жизненно важные органы. Это просто ужасно! -->
-	<ExecutedColonist_Know_Abhorrent_Mood.stages.colonist_organharvested.description>Поселенец был потерян из-за того, что у него забрали часть тела. Это просто ужасно!</ExecutedColonist_Know_Abhorrent_Mood.stages.colonist_organharvested.description>
-	<!-- Во вкладке "Гость" нет действия "казнить".
-	Оригинал: Пленника или гостя хладнокровно убили. Это жестоко! -->
-	<ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_executed.description>Безобидный пленник был хладнокровно казнён. Это жестоко!</ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_executed.description>
-	<!-- Оригинал: смерть из-за удаления органа -->
-	<ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_organmurdered.label>посетитель был потерян после операции по удалению органа</ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_organmurdered.label>
-	<!-- Оригинал: Пленник или гость умер из-за того, что у него удалили жизненно важные органы. Это просто ужасно! -->
-	<ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_organmurdered.description>Посетитель был потерян после операции по удалению органа. Это просто ужасно!</ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_organmurdered.description>
+	Заодно исправлена неточность, сообщите разработчику ванили.
+	Одна операция - один орган.
+	Оригинал: ...поселенец умер из...что мы удалили его жизненно важные органы. Это... -->
+	<ExecutedColonist_Know_Abhorrent_Mood.stages.colonist_organharvested.description>Наш поселенец был потерян из-за того, что у него забрали часть тела. Это просто ужасно!</ExecutedColonist_Know_Abhorrent_Mood.stages.colonist_organharvested.description>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Оригинал: Наш пленник или гость умер из-за того, что мы удалили его жизненно важные органы. Это просто ужасно! -->
+	<ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_organmurdered.description>Посетитель был потерян из-за операции по удалению органа. Это просто ужасно!</ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_organmurdered.description>
 	<!-- Оригиналы: в ответе за смерть пленника -->
 	<GuiltyPrisonerDied_Know_Respected.stages.responsible_for_the_death_of_a_prisoner.label>в ответе за казнь пленника</GuiltyPrisonerDied_Know_Respected.stages.responsible_for_the_death_of_a_prisoner.label>
 	<GuiltyPrisonerDied_Respected.stages.guilty_prisoner_died_responsible.label>в ответе за казнь пленника</GuiltyPrisonerDied_Respected.stages.guilty_prisoner_died_responsible.label>
@@ -39,12 +63,12 @@
 	<!-- Оригинал: Я {PAWN_gender ? сделал : сделала} так, чтобы виновный пленник умер. Справедливость... -->
 	<GuiltyPrisonerDied_Respected.stages.guilty_prisoner_died_responsible.description>Я {PAWN_gender ? казнил : казнила} преступника. Справедливость восторжествовала.</GuiltyPrisonerDied_Respected.stages.guilty_prisoner_died_responsible.description>
 	<!-- Оригиналы: ...за смерть невиновного... -->
-	<InnocentPrisonerDied_Abhorrent.stages.innocent_prisoner_died_responsible.label>в ответе за казнь невиновного пленника</InnocentPrisonerDied_Abhorrent.stages.innocent_prisoner_died_responsible.label>
-	<InnocentPrisonerDied_Horrible.stages.innocent_prisoner_died_responsible.label>в ответе за казнь невиновного пленника</InnocentPrisonerDied_Horrible.stages.innocent_prisoner_died_responsible.label>
-	<!-- Оригинал: ...меня умер невиновный... -->
-	<InnocentPrisonerDied_Abhorrent.stages.innocent_prisoner_died_responsible.description>Из-за меня был казнён невиновный пленник. Я просто чудовище!</InnocentPrisonerDied_Abhorrent.stages.innocent_prisoner_died_responsible.description>
-	<!-- Оригинал: ...меня умер невиновный... -->
-	<InnocentPrisonerDied_Horrible.stages.innocent_prisoner_died_responsible.description>Из-за меня был казнён невиновный пленник. Я ужасный человек.</InnocentPrisonerDied_Horrible.stages.innocent_prisoner_died_responsible.description>
+	<InnocentPrisonerDied_Abhorrent.stages.innocent_prisoner_died_responsible.label>в ответе за потерю невиновного пленника</InnocentPrisonerDied_Abhorrent.stages.innocent_prisoner_died_responsible.label>
+	<InnocentPrisonerDied_Horrible.stages.innocent_prisoner_died_responsible.label>в ответе за потерю невиновного пленника</InnocentPrisonerDied_Horrible.stages.innocent_prisoner_died_responsible.label>
+	<!-- Оригинал: Из-за меня умер невиновный пленник. Я просто чудовище! -->
+	<InnocentPrisonerDied_Abhorrent.stages.innocent_prisoner_died_responsible.description>Я {PAWN_gender ? был : была} палачом для невиновного пленника. Я просто чудовище!</InnocentPrisonerDied_Abhorrent.stages.innocent_prisoner_died_responsible.description>
+	<!-- Оригинал: Из-за меня умер невиновный пленник. Я ужасный человек. -->
+	<InnocentPrisonerDied_Horrible.stages.innocent_prisoner_died_responsible.description>Я {PAWN_gender ? был : была} палачом для невиновного пленника. Я ужасный человек.</InnocentPrisonerDied_Horrible.stages.innocent_prisoner_died_responsible.description>
 	<!-- Оригинал: умер невиновный... -->
 	<InnocentPrisonerDied_Know_Abhorrent_Mood.stages.innocent_prisoner_died.label>казнён невиновный пленник</InnocentPrisonerDied_Know_Abhorrent_Mood.stages.innocent_prisoner_died.label>
 	<!-- Оригинал: Один из пленников умер, несмотря...Если нам действительно нужна их смерть, мы должны организовать казнь, но не допускать... -->
