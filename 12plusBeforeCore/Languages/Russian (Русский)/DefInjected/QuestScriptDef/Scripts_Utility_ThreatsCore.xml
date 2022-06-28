@@ -1,7 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
 
 	Первые полфайла - без изменений, но необходимо оставить, иначе грамматика страдает:
 
@@ -44,16 +46,13 @@
     <li>threatDescription->вас атакуют [enemyFaction_pawnsPlural] из фракции [enemyFaction_name]. В их группе:\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</li>
   </Util_Raid.questDescriptionRules.rulesStrings>
 
-	<!-- Не получается изящно исправить. Может, код потёрли, как для возраста квестовых персонажей? Пробовал следующие способы:
-	- сделать фигурные скобки для enemyFaction_pawnsPlural по аналогии с датой;
-	- заменить устаревшее значение "члены племени" из Factions_Misc.xml;
-	- использовать lookup по аналогии с Royalty.
+	<!-- Код не работает. Пробовал сделать фигурные скобки для enemyFaction_pawnsPlural по аналогии с датой - тоже не получилось.
 	Оригинал:
 	...
-	<li>...(raidCount==1)->Группа {replace: [enemyFaction_pawnsPlural]; "чужеземцы"-"чужеземцев"; "пираты"-"пиратов"; "члены племени"-"членов племени"} состоит...</li>
-	<li>...(raidCount==2)->Первая группа {replace: [enemyFaction_pawnsPlural]; "чужеземцы"-"чужеземцев"; "пираты"-"пиратов"; "члены племени"-"членов племени"} состоит...</li>
-	<li>...(raidCount==3)->Первая группа {replace: [enemyFaction_pawnsPlural]; "чужеземцы"-"чужеземцев"; "пираты"-"пиратов"; "члены племени"-"членов племени"} состоит...</li>
-	<li>...(raidCount>=4)->Первая группа {replace: [enemyFaction_pawnsPlural]; "чужеземцы"-"чужеземцев"; "пираты"-"пиратов"; "члены племени"-"членов племени"} состоит...</li>
+	<li>...(raidCount==1)->Группа {lookup: [enemyFaction_pawnsPlural]; Case; 1} состоит...</li>
+	<li>...(raidCount==2)->Первая группа {lookup: [enemyFaction_pawnsPlural]; Case; 1} состоит...</li>
+	<li>...(raidCount==3)->Первая группа {lookup: [enemyFaction_pawnsPlural]; Case; 1} состоит...</li>
+	<li>...(raidCount>=4)->Первая группа {lookup: [enemyFaction_pawnsPlural]; Case; 1} состоит...</li>
 	...
 	-->
   <Util_RaidDelayRepeatable.questDescriptionRules.rulesStrings>
