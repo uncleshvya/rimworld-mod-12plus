@@ -9,14 +9,15 @@
 	Оригинал: Такое надоедливое и глупое животное. Наконец-то оно умерло! -->
 	<VTE_BondedAnimalDiedHater.stages.0.description>Это существо было таким тупым и надоедливым. Как хорошо, что оно больше не будет мне досаждать!</VTE_BondedAnimalDiedHater.stages.0.description>
 	<!-- Оригинал: {PAWN_gender ? убил : убила} моего... -->
-	<VTE_KilledMyBondedAnimalHater.stages.0.label>{PAWN_gender ? избил : избила} моего питомца</VTE_KilledMyBondedAnimalHater.stages.0.label>
-	<!-- Заодно исправлена неточность, сообщите разработчику о заглавной букве.
+	<VTE_KilledMyBondedAnimalHater.stages.0.label>{PAWN_gender ? Избил : Избила} моего питомца</VTE_KilledMyBondedAnimalHater.stages.0.label>
+	<!-- Заодно исправлена неточность, сообщите разработчику.
+	Был конфликт с ванильным KilledColonyAnimal.stages.killed_colony_animal.labelSocial
+	К тому же почему эта репутация даёт всем баф? Чтобы сместить акцент эмоций на трейты друг или враг животных? Сделана попытка сгладить нелогичность.
 	Оригинал: {PAWN_gender ? убил : убила} животное поселения -->
-	<VTE_KilledColonyAnimalHater.stages.0.label>{PAWN_gender ? Избил : Избила} нашего питомца</VTE_KilledColonyAnimalHater.stages.0.label>
-	<!-- Оригиналы: Находясь рядом с этой мерзкой тварью, я ненавижу саму жизнь -->
+	<VTE_KilledColonyAnimalHater.stages.0.label>эффективный зоотехник</VTE_KilledColonyAnimalHater.stages.0.label>
+	<!-- Оригиналы: Находясь рядом с этой...тварью, я ненавижу саму жизнь -->
 	<VTE_BondedAnimalMasterHater.stages.0.description>Рядом с этой мерзкой тварью у меня сразу портится настроение.</VTE_BondedAnimalMasterHater.stages.0.description>
 	<VTE_BondedAnimalMasterHater.stages.1.description>Рядом с этой мерзкой тварью у меня сразу портится настроение.</VTE_BondedAnimalMasterHater.stages.1.description>
-
 	<!-- Описания следует синхронизировать с папкой TraitDefs.
 	Оригинал: враги живы -->
 	<VTE_MyRivalsAreAlive.stages.0.label>не все меня любят</VTE_MyRivalsAreAlive.stages.0.label>
