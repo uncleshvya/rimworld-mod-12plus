@@ -1,39 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициального перевода от Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
-	Оригинал: ввел кому-то препарат -->
-	<AdministeredDrug_Horrible.stages.administered_drug.label>использован медикамент на пациенте</AdministeredDrug_Horrible.stages.administered_drug.label>
-	<AdministeredDrug_Know_Horrible.stages.administered_drug.label>использован медикамент на пациенте</AdministeredDrug_Know_Horrible.stages.administered_drug.label>
-	<!-- Оригинал: Я ввел кому-то лекарство. Это было ужасное оскорбление моих убеждений. -->
-	<AdministeredDrug_Horrible.stages.administered_drug.description>Я {PAWN_gender ? ввёл : ввела} лекарство пациенту, нарушив натуральный обмен веществ в организме. Я ужасно {PAWN_gender ? поступил : поступила} — это действие ослабит его естественный иммунитет, и если вдруг кончатся лекарства, то он не справится с болезнью, которую раньше мог с лёгкостью преодолеть.</AdministeredDrug_Horrible.stages.administered_drug.description>
-	<!-- Оригинал: ввел кому-то тяжелый наркотик -->
-	<AdministeredHardDrug_Horrible.stages.administered_hard_drug.label>использован сильнодействующий препарат на пациенте</AdministeredHardDrug_Horrible.stages.administered_hard_drug.label>
-	<!-- Оригинал: ввел кому-то наркотик -->
-	<AdministeredHardDrug_Know_Horrible.stages.administered_hard_drug.label>использован сильнодействующий препарат на пациенте</AdministeredHardDrug_Know_Horrible.stages.administered_hard_drug.label>
-	<!-- Оригинал: Я ввел кому-то сильный наркотик - не медицинский и даже не социальный. Это было ужасное оскорбление моих убеждений. -->
-	<AdministeredHardDrug_Horrible.stages.administered_hard_drug.description>Я {PAWN_gender ? ввёл : ввела} пациенту жутко сильную «химию». Повезло, что сразу не было передозировки, как с тем несчастным... Но и без того повысился риск химического повреждения органов и, не дай бог, мозга. Нет мне прощения!</AdministeredHardDrug_Horrible.stages.administered_hard_drug.description>
-	<!-- Оригинал: ввел кому-то легкий наркотик -->
-	<AdministeredRecreationalDrug_Horrible.stages.administered_recreational_drug.label>использован препарат на пациенте</AdministeredRecreationalDrug_Horrible.stages.administered_recreational_drug.label>
-	<AdministeredRecreationalDrug_Know_Horrible.stages.administered_recreational_drug.label>использован препарат на пациенте</AdministeredRecreationalDrug_Know_Horrible.stages.administered_recreational_drug.label>
-	<!-- Оригинал: Я ввел кому-то легкий наркотик. Это было ужасное оскорбление моих убеждений. -->
-	<AdministeredRecreationalDrug_Horrible.stages.administered_recreational_drug.description>Я {PAWN_gender ? ввёл : ввела} пациенту мерзкую «химию», повысив тем самым риск химического повреждения органов. Ужасный, оскорбительный поступок!</AdministeredRecreationalDrug_Horrible.stages.administered_recreational_drug.description>
-	<!-- Оригинал: использовал наркотик -->
-	<IngestedDrug_Horrible.stages.used_drug.label>использован медикамент</IngestedDrug_Horrible.stages.used_drug.label>
-	<IngestedDrug_Know_Horrible.stages.used_drug.label>использован медикамент</IngestedDrug_Know_Horrible.stages.used_drug.label>
-	<!-- Оригинал: Я употребил наркотик. Такие химические вещества в организме являются ужасным преступлением против моих убеждений. -->
-	<IngestedDrug_Horrible.stages.used_drug.description>Я {PAWN_gender ? употребил : употребила} чужерожное вещество, и оно нанесло серьёзный удар по моей естественной способности исцеляться. Если вдруг кончатся лекарства, то мой организм не справится с болезнью, которую раньше мог с лёгкостью преодолеть.</IngestedDrug_Horrible.stages.used_drug.description>
-	<!-- Оригинал: использовал тяжелый наркотик -->
-	<IngestedHardDrug_Horrible.stages.used_hard_drug.label>использован сильнодействующий препарат</IngestedHardDrug_Horrible.stages.used_hard_drug.label>
-	<IngestedHardDrug_Know_Horrible.stages.used_hard_drug.label>использован сильнодействующий препарат</IngestedHardDrug_Know_Horrible.stages.used_hard_drug.label>
-	<!-- Оригинал: Я употреблял тяжелые наркотики - ни медицинские, ни даже социальные. Это было ужасное преступление против моих убеждений. -->
-	<IngestedHardDrug_Horrible.stages.used_hard_drug.description>Я {PAWN_gender ? употребил : употребила} отвратительную «химию»! Повезло, что я до сих пор {PAWN_gender ? жив : жива}! Эта жуткая дрянь разносит в пух и прах весь мой иммунитет, прикрываясь краткими мгновениями эффектов, кажущихся положительными!</IngestedHardDrug_Horrible.stages.used_hard_drug.description>
-	<!-- Оригинал: использовал легкий наркотик -->
-	<IngestedRecreationalDrug_Horrible.stages.used_recreational_drug.label>использован препарат</IngestedRecreationalDrug_Horrible.stages.used_recreational_drug.label>
-	<IngestedRecreationalDrug_Know_Horrible.stages.used_recreational_drug.label>использован препарат</IngestedRecreationalDrug_Know_Horrible.stages.used_recreational_drug.label>
-	<!-- Оригинал: Я употреблял наркотик для развлечения. Это было преступлением против моих убеждений. -->
-	<IngestedRecreationalDrug_Horrible.stages.used_recreational_drug.description>Я {PAWN_gender ? употребил : употребила} мерзкую «химию», повысив тем самым риск химического повреждения органов! Ужасный, непростительный поступок!</IngestedRecreationalDrug_Horrible.stages.used_recreational_drug.description>
+	Заодно исправлена неточность, сообщите разработчику ванили.
+	Идеолигический принцип "употребление наркотиков" не касается лекарств. Пеноксицилин категоризирован как наркотик, это вносит путаницу с медикаментами. Проблему можно решить, переименовав категорию "наркотики" в "препараты", а категорию "медикаменты" в "лекарства".
+	Фигурные скобки были видны во всплывающем меню над принципами. Пока не исправлен движок, возвращены межполые описания.
+	Оригинал: {PAWN_gender ? Дал : Дала} лекарство или наркотик -->
+	<AdministeredDrug_Horrible.stages.administered_drug.label>дан препарат пациенту</AdministeredDrug_Horrible.stages.administered_drug.label>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Все мысли применимы и к пациентам-животным.
+	Оригинал: Я {PAWN_gender ? дал : дала} другому человеку лекарство или наркотик. Это в корне противоречит моим убеждениям. -->
+	<AdministeredDrug_Horrible.stages.administered_drug.description>Я {PAWN_gender ? дал : дала} пациенту неестественное для его организма вещество, нарушив натуральный метаболизм. Я ужасно {PAWN_gender ? поступил : поступила} — это действие ослабит его иммунитет, и если вдруг как всегда невовремя кончатся лекарства, он не справится с болезнью, которую раньше мог с лёгкостью преодолеть.</AdministeredDrug_Horrible.stages.administered_drug.description>
+	<!-- Оригинал: дано лекарство или наркотик -->
+	<AdministeredDrug_Know_Horrible.stages.administered_drug.label>даёт препараты пациенту</AdministeredDrug_Know_Horrible.stages.administered_drug.label>
+	<!-- Оригинал: {OTHERPAWN_gender ? Дал : Дала} лекарство или наркотик -->
+	<AdministeredDrug_Know_Horrible.stages.administered_drug.labelSocial>{OTHERPAWN_gender ? Дал : Дала} пациенту препарат</AdministeredDrug_Know_Horrible.stages.administered_drug.labelSocial>
+	<!-- Описания следует синхронизировать с IngestedHardDrug.
+	Ограничение по длине для всплывающего меню над принципами.
+	Оригинал: {PAWN_gender ? Дал : Дала} тяжёлый наркотик -->
+	<AdministeredHardDrug_Horrible.stages.administered_hard_drug.label>дана тяжёлая «химия»</AdministeredHardDrug_Horrible.stages.administered_hard_drug.label>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Оригинал: Я {PAWN_gender ? дал : дала} другому человеку тяжёлый наркотик. Это в корне противоречит моим убеждениям. -->
+	<AdministeredHardDrug_Horrible.stages.administered_hard_drug.description>Я {PAWN_gender ? дал : дала} пациенту жутко сильную «химию». Повезло, что сразу не было передозировки, как с тем несчастным... Но и без того повысился риск химического повреждения органов, особенно мозга. Нет мне прощения!</AdministeredHardDrug_Horrible.stages.administered_hard_drug.description>
+	<!-- Оригинал: дан тяжёлый наркотик -->
+	<AdministeredHardDrug_Know_Horrible.stages.administered_hard_drug.label>даёт тяжёлую «химию» пациенту</AdministeredHardDrug_Know_Horrible.stages.administered_hard_drug.label>
+	<!-- Оригинал: {OTHERPAWN_gender : Дал : Дала} тяжёлый наркотик -->
+	<AdministeredHardDrug_Know_Horrible.stages.administered_hard_drug.labelSocial>{OTHERPAWN_gender : Дал : Дала} пациенту тяжёлую «химию»</AdministeredHardDrug_Know_Horrible.stages.administered_hard_drug.labelSocial>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Эта переменная используется в идеолигическом принципе "только в медицинских целях" и касается всех наркотиков, кроме пеноксицилина.
+	Оригинал: {PAWN_gender ? Дал : Дала} лёгкий наркотик -->
+	<AdministeredRecreationalDrug_Horrible.stages.administered_recreational_drug.label>дана «химия» пациенту</AdministeredRecreationalDrug_Horrible.stages.administered_recreational_drug.label>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Оригинал: Я {PAWN_gender ? дал : дала} другому человеку лёгкий наркотик. Это в корне противоречит моим убеждениям. -->
+	<AdministeredRecreationalDrug_Horrible.stages.administered_recreational_drug.description>Я {PAWN_gender ? дал : дала} пациенту мерзкую «химию», тем самым повысив риск повреждения органов. Ужасный, оскорбительный поступок!</AdministeredRecreationalDrug_Horrible.stages.administered_recreational_drug.description>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Оригинал: дан лёгкий наркотик -->
+	<AdministeredRecreationalDrug_Know_Horrible.stages.administered_recreational_drug.label>даёт «химию» пациенту</AdministeredRecreationalDrug_Know_Horrible.stages.administered_recreational_drug.label>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Оригинал: {OTHERPAWN_gender ? Дал : Дала} лёгкий наркотик -->
+	<AdministeredRecreationalDrug_Know_Horrible.stages.administered_recreational_drug.labelSocial>{OTHERPAWN_gender ? Дал : Дала} пациенту «химию»</AdministeredRecreationalDrug_Know_Horrible.stages.administered_recreational_drug.labelSocial>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Оригинал: {PAWN_gender ? Принял : Приняла} лекарство или наркотик -->
+	<IngestedDrug_Horrible.stages.used_drug.label>принят препарат</IngestedDrug_Horrible.stages.used_drug.label>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Оригинал: Я {PAWN_gender ? принял : приняла} лекарство или наркотик. Их употребление в корне противоречит моим убеждениям. -->
+	<IngestedDrug_Horrible.stages.used_drug.description>Я {PAWN_gender ? принял : приняла} чужерожное вещество, и оно нанесло серьёзный удар по моей естественной способности исцеляться. Если вдруг как всегда невовремя кончатся лекарства, мой организм не справится с болезнью, которую раньше мог с лёгкостью преодолеть.</IngestedDrug_Horrible.stages.used_drug.description>
+	<!-- Оригинал: принят наркотик -->
+	<IngestedDrug_Know_Horrible.stages.used_drug.label>принимает препараты</IngestedDrug_Know_Horrible.stages.used_drug.label>
+	<!-- Оригинал: {OTHERPAWN_gender ? Принял : Приняла} наркотик -->
+	<IngestedDrug_Know_Horrible.stages.used_drug.labelSocial>{OTHERPAWN_gender ? Принял : Приняла} препарат</IngestedDrug_Know_Horrible.stages.used_drug.labelSocial>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Оригинал: {PAWN_gender ? Принял : Приняла} тяжёлый наркотик -->
+	<IngestedHardDrug_Horrible.stages.used_hard_drug.label>принята тяжёлая «химия»</IngestedHardDrug_Horrible.stages.used_hard_drug.label>
+	<!-- Оригинал: Я {PAWN_gender ? принял : приняла} тяжёлый наркотик. Это в корне противоречит моим убеждениям. -->
+	<IngestedHardDrug_Horrible.stages.used_hard_drug.description>Я {PAWN_gender ? принял : приняла} отвратительную «химию»! Повезло, что я до сих пор {PAWN_gender ? жив : жива}! Эта жуткая дрянь разносит в пух и прах весь мой иммунитет, прикрываясь краткими мгновениями эффектов, кажущихся положительными!</IngestedHardDrug_Horrible.stages.used_hard_drug.description>
+	<!-- Оригинал: принят тяжёлый наркотик -->
+	<IngestedHardDrug_Know_Horrible.stages.used_hard_drug.label>принимает тяжёлую «химию»</IngestedHardDrug_Know_Horrible.stages.used_hard_drug.label>
+	<!-- Оригинал: {OTHERPAWN_gender ? Принял : Приняла} тяжёлый наркотик -->
+	<IngestedHardDrug_Know_Horrible.stages.used_hard_drug.labelSocial>{OTHERPAWN_gender ? Принял : Приняла} тяжёлую «химию»</IngestedHardDrug_Know_Horrible.stages.used_hard_drug.labelSocial>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Оригинал: {PAWN_gender ? Принял : Приняла} лёгкий наркотик -->
+	<IngestedRecreationalDrug_Horrible.stages.used_recreational_drug.label>принята «химия»</IngestedRecreationalDrug_Horrible.stages.used_recreational_drug.label>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Оригинал: Я {PAWN_gender ? принял : приняла} лёгкий наркотик. Это противоречит моим убеждениям! -->
+	<IngestedRecreationalDrug_Horrible.stages.used_recreational_drug.description>Я {PAWN_gender ? принял : приняла} мерзкую «химию», тем самым повысив риск химического повреждения органов! Ужасный, непростительный поступок!</IngestedRecreationalDrug_Horrible.stages.used_recreational_drug.description>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Оригинал: принят лёгкий наркотик -->
+	<IngestedRecreationalDrug_Know_Horrible.stages.used_recreational_drug.label>принимает «химию»</IngestedRecreationalDrug_Know_Horrible.stages.used_recreational_drug.label>
+	<!-- Оригинал: {OTHERPAWN_gender ? Принял : Приняла} лёгкий наркотик -->
+	<IngestedRecreationalDrug_Know_Horrible.stages.used_recreational_drug.labelSocial>{OTHERPAWN_gender ? Принял : Приняла} «химию»</IngestedRecreationalDrug_Know_Horrible.stages.used_recreational_drug.labelSocial>
 
 </LanguageData>
