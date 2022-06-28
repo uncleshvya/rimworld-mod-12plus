@@ -18,6 +18,9 @@
 	<PlayerPawnsArriveMethod_Standing>Пешком</PlayerPawnsArriveMethod_Standing>
 	<!-- Оригинал: ...кухне -->
 	<FoodPoisonCause_FilthyKitchen>грязь на кухне или в столовой</FoodPoisonCause_FilthyKitchen>
+	<!-- Убрана путаница с MedicineIndustrial.label и Medicine.label. Для пеноксицилина использовано функциональное описание. Для люциферия использована атмосфера мемов, посвящённых главной франшизе 2020 года.
+	Оригинал: медикамент -->
+	<DrugCategory_Medical>вакцина</DrugCategory_Medical>
 
 	<!-- Исправление согласно концепции «12+».
 
@@ -26,9 +29,11 @@
 	<!-- Вся таблица изменена по аналогии с инструкциями к лекарствам.
 	Оригинал: категория препарата -->
 	<DrugCategory>группа</DrugCategory>
-	<!-- Оригинал: рекреационный -->
-	<DrugCategory_Social>препарат-релаксант</DrugCategory_Social>
-	<!-- Оригинал: тяжёлый наркотик -->
-	<DrugCategory_Hard>сильнодействующий препарат</DrugCategory_Hard>
+	<!-- До Ideology здесь был "препарат-релаксант".
+	Оригинал: рекреационный -->
+	<DrugCategory_Social>лёгкая «химия»</DrugCategory_Social>
+	<!-- До Ideology здесь был "сильнодействующий препарат".
+	Оригинал: тяжёлый наркотик -->
+	<DrugCategory_Hard>тяжёлая «химия»</DrugCategory_Hard>
 
 </LanguageData>
