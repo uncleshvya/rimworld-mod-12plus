@@ -5,8 +5,9 @@
 
 	Оригинал: ...вещи и каких существ разделывать. -->
 	<BillsTab.helpText>Чтобы поселенцы работали за столами, выберите стол и откройте вкладку заданий. Здесь вы можете указать, какие готовить блюда, создавать вещи и чьи туши разделывать.</BillsTab.helpText>
-
 	<!-- Оригинал: ...землю, но не умер, попробуйте... -->
 	<Capturing.helpText>Если враг упал на землю, но ещё жив, попробуйте захватить его.\n\nДля захвата выберите поселенца, щёлкните правой кнопкой мыши на обездвиженном противнике и выберите «Захватить».\n\nВам потребуется дополнительная кровать, специально назначенная для пленников.</Capturing.helpText>
+	<!-- Оригинал: EN: When an enemy is downed on the ground but not dead, you can CAPTURE them.\n\nTo capture, select a colonist, press the left trigger button on the incapacitated enemy, and select Capture.\n\nYou'll need an extra bed marked for prisoner use -->
+	<Capturing.helpTextController>Если враг упал на землю, но ещё жив, попробуйте захватить его.\n\nДля захвата выберите поселенца, щёлкните левым переключателем на обездвиженном противнике и выберите «Захватить».\n\nВам потребуется дополнительная кровать, специально назначенная для пленников.</Capturing.helpTextController>
 
 </LanguageData>
