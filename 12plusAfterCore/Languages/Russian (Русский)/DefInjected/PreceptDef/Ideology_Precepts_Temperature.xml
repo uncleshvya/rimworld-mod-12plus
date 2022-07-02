@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Метка принципа Temperature.label не влезала в интерфейс.
+	Оригинал: суровые -->
+	<Temperature_Tough.label>приемлемы</Temperature_Tough.label>
+
+</LanguageData>
