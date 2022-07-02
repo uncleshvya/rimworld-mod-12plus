@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Обойдён баг движка, дающий частичную голубую подсветку слов на букву "с" или "ч" после цифры.
+	Заменены русские буквы "с" на латинские -->
+	<Scavenger.label>cтервятник</Scavenger.label>
+	<Scavenger.labelPlural>cтервятники</Scavenger.labelPlural>
+
+</LanguageData>
