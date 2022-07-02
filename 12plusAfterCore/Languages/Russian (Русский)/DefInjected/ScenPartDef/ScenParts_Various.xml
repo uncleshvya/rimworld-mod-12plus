@@ -3,9 +3,11 @@
 
 	<!-- Исправлена неточность, сообщите разработчику ванили.
 
-	Приручать возможно не только животных.
+	Оригинал: нельзя приручить -->
+	<Rule_DisallowDesignator_Tame.label>нельзя приручать</Rule_DisallowDesignator_Tame.label>
+	<!-- Приручать возможно не только животных.
 	Оригинал: ...приручать животных. -->
-	<Rule_DisallowDesignator_Tame.description>Нельзя приручать существ.</Rule_DisallowDesignator_Tame.description>
+	<Rule_DisallowDesignator_Tame.description>Нельзя приручать диких существ.</Rule_DisallowDesignator_Tame.description>
 	<!-- Игра начинается с приручёнными животными.
 	Оригинал: начать с животными -->
 	<StartingAnimal.label>начать с питомцами</StartingAnimal.label>
