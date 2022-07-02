@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Не влезало в интерфейс.
+	Оригинал: температурные условия -->
+	<Temperature.label>жара или холод</Temperature.label>
+
+</LanguageData>
