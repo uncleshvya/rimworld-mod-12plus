@@ -46,20 +46,20 @@
     <li>threatDescription->вас атакуют [enemyFaction_pawnsPlural] из фракции [enemyFaction_name]. В их группе:\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</li>
   </Util_Raid.questDescriptionRules.rulesStrings>
 
-	<!-- Код не работает. Пробовал сделать фигурные скобки для enemyFaction_pawnsPlural по аналогии с датой - тоже не получилось.
+	<!-- Код lookup не работает. Пробовал сделать фигурные скобки для enemyFaction_pawnsPlural по аналогии с датой - тоже не получилось.
 	Оригинал:
 	...
-	<li>...(raidCount==1)->Группа {lookup: [enemyFaction_pawnsPlural]; Case; 1} состоит...</li>
-	<li>...(raidCount==2)->Первая группа {lookup: [enemyFaction_pawnsPlural]; Case; 1} состоит...</li>
-	<li>...(raidCount==3)->Первая группа {lookup: [enemyFaction_pawnsPlural]; Case; 1} состоит...</li>
-	<li>...(raidCount>=4)->Первая группа {lookup: [enemyFaction_pawnsPlural]; Case; 1} состоит...</li>
+	<li>...(raidCount==1)->Группа {lookup: [enemyFaction_pawnsPlural]; Case; 1} состоит из...</li>
+	<li>...(raidCount==2)->Первая группа {lookup: [enemyFaction_pawnsPlural]; Case; 1} состоит из...</li>
+	<li>...(raidCount==3)->Первая группа {lookup: [enemyFaction_pawnsPlural]; Case; 1} состоит из...</li>
+	<li>...(raidCount>=4)->Первая группа {lookup: [enemyFaction_pawnsPlural]; Case; 1} состоит из...</li>
 	...
 	-->
   <Util_RaidDelayRepeatable.questDescriptionRules.rulesStrings>
-	<li>pawnKindsParagraph(raidCount==1)->Группа нападающих состоит из: \n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]</li>
-	<li>pawnKindsParagraph(raidCount==2)->Первая группа нападающих состоит из: \n\n[raid0/raidPawnKinds]\n\nВ скором времени за ними последует ещё одна группа с похожим составом.</li>
-	<li>pawnKindsParagraph(raidCount==3)->Первая группа нападающих состоит из: \n\n[raid0/raidPawnKinds]\n\nВ скором времени за ними последует ещё две группы с похожим составом.</li>
-	<li>pawnKindsParagraph(raidCount>=4)->Первая группа нападающих состоит из: \n\n[raid0/raidPawnKinds]\n\nВ скором времени за ними последуют ещё [raidCountMinusOne] групп с похожим составом.</li>
+	<li>pawnKindsParagraph(raidCount==1)->Группа нападающих будет состоять из: \n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]</li>
+	<li>pawnKindsParagraph(raidCount==2)->Первая группа нападающих будет состоять из: \n\n[raid0/raidPawnKinds]\n\nВ скором времени за ними последует ещё одна группа с похожим составом.</li>
+	<li>pawnKindsParagraph(raidCount==3)->Первая группа нападающих будет состоять из: \n\n[raid0/raidPawnKinds]\n\nВ скором времени за ними последует ещё две группы с похожим составом.</li>
+	<li>pawnKindsParagraph(raidCount>=4)->Первая группа нападающих будет состоять из: \n\n[raid0/raidPawnKinds]\n\nВ скором времени за ними последуют ещё [raidCountMinusOne] групп с похожим составом.</li>
     <li>numGroupsOf(raidCount==1)-></li>
     <li>numGroupsOf(raidCount==2)->две группы</li>
     <li>numGroupsOf(raidCount==3)->три группы</li>
