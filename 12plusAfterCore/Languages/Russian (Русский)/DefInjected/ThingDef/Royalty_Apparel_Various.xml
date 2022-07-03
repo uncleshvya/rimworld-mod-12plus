@@ -1,14 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- исправлена неточность, сообщите разработчику -->
 
-  <!-- EN: grenadier armor -->
-  <Apparel_ArmorMarineGrenadier.label>гренадёрская броня</Apparel_ArmorMarineGrenadier.label>
+	<!-- Исправление согласно концепции «12+».
 
-  <!-- исправление согласно концепции «12+» -->
+	Оригинал: ...быть удивительно смертоносны в замкнутых... -->
+	<Apparel_ArmorMarineGrenadier.description>Разновидность пехотной брони с интегрированным наплечным гранатомётом. Данная броня немного уступает по защищённости стандартному варианту. Гранатомёт имеет очень ограниченный боезапас и должен перезаряжаться после использования.\n\nГренадеры обычно специализируются в прорывах укреплений или внутренних переборок космических кораблей. Несмотря на свою пониженную эффективность на дальних расстояниях, гренадеры могут быть довольно опасны в замкнутых пространствах.</Apparel_ArmorMarineGrenadier.description>
 
-  <!-- EN: A variant of marine armor with an integrated frag launcher on the shoulder. The armor is slightly less protective than standard marine armor. The launcher can only hold a limited amount of ammo and must be reloaded after use.\n\nGrenadiers usually specialize in breaching buildings or internal ship bulkheads. While not effective at very long range, grenadiers can be surprisingly deadly in confined quarters. -->
-  <Apparel_ArmorMarineGrenadier.description>Разновидность пехотной брони с интегрированным наплечным гранатомётом. Данная броня немного уступает по защищённости стандартному варианту. Гранатомёт имеет очень ограниченный боезапас и должен перезаряжаться после использования.\n\nГренадёры обычно специализируются в прорывах укреплений или внутренних переборок космических кораблей. Несмотря на свою пониженную эффективность на дальних расстояниях, гренадеры могут быть довольно опасны в замкнутых пространствах.</Apparel_ArmorMarineGrenadier.description>
-  
 </LanguageData>
