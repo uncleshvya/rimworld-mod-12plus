@@ -54,10 +54,11 @@
 	<HAR_AlienRaces_Standard.label>безразличны</HAR_AlienRaces_Standard.label>
 	<!-- EN: Xenos from beyond should be seen as no lesser or greater than us. -->
 	<HAR_AlienRaces_Standard.description>Инопланетяне не так уж и отличаются от нас.</HAR_AlienRaces_Standard.description>
-	<!-- EN: respected -->
-	<HAR_AlienRaces_Respected.label>уважаются</HAR_AlienRaces_Respected.label>
+	<!-- Во избежание путаницы, перевод следующих 3 переменных адаптирован к соответствующим мыслям.
+	EN: respected -->
+	<HAR_AlienRaces_Respected.label>симпатичны</HAR_AlienRaces_Respected.label>
 	<!-- EN: Xenos from beyond our home world deserve our admiration. -->
-	<HAR_AlienRaces_Respected.description>Жители иных планет заслуживают нашего восхищения.</HAR_AlienRaces_Respected.description>
+	<HAR_AlienRaces_Respected.description>Жители иных планет заслуживают нашего уважения.</HAR_AlienRaces_Respected.description>
 	<!-- EN: exalted -->
 	<HAR_AlienRaces_Exalted.label>восхитительны</HAR_AlienRaces_Exalted.label>
 	<!-- EN: Xenos from beyond our solar system are incredible, and we’re blessed to serve the role as their cordial hosts. -->
