@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+».
 
-  <!-- EN: The first beverage besides water ever consumed by mankind. Beer can taste good, but its main effect is intoxication. Excessive consumption can lead to alcohol blackouts and, over time, addiction. -->
-  <Beer.description>Алкогольный напиток, получаемый из сусла после обработки дрожжевыми грибками. Пиво приятно на вкус и вызывает опьянение. Чрезмерное потребление может привести к алкоголизму.</Beer.description>
+	Оригинал: Первый, не считая воды, напиток, когда-либо употреблённый человечеством. Пиво...вкус и вызывает опьянение. Чрезмерное потребление может привести к алкоголизму. -->
+	<Beer.description>Алкогольный напиток, получаемый из сусла после обработки дрожжевыми грибками. Пиво приятно на вкус и опьяняет. Вызывает зависимость — алкоголизм.</Beer.description>
 
 </LanguageData>
