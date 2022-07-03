@@ -10,7 +10,7 @@
 	...грабят их караваны...стереть лагерь с лица земли: ликвидировать всех...уничтожить их турели.
 	-->
   <OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
-	<li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] фракции [asker_faction_name], передаёт нам сообщение.\n\nПо всей видимости, [siteFaction_pawnsPlural] из фракции [siteFaction_name] устроили неподалёку лагерь и грабят проходящие караваны.\n\n[asker_nameDef] просит стереть угрозу с лица земли — нейтрализовать всех противников и уничтожить турели. [asker_label] говорит, что [sitePart0_description].</li>
+	<li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] фракции [asker_faction_name], передаёт нам сообщение.\n\nПо всей видимости, [siteFaction_pawnsPlural] из фракции [siteFaction_name] устроили неподалёку лагерь и грабят караваны.\n\n[asker_nameDef] просит стереть угрозу с лица земли — нейтрализовать всех противников и уничтожить турели. [asker_label] говорит, что [sitePart0_description].</li>
   </OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
 
 	<!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
