@@ -23,7 +23,7 @@
 	<DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>Враги пытались уничтожить нас, но они не знали, что придётся иметь дело со мной! Лидер этой фракции дорого заплатил за свою ошибку!</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>
 	<!-- Оригинал: {OTHERPAWN_gender ? Убил : Убила} вражеского лидера -->
 	<DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>{OTHERPAWN_gender ? Устранил : Устранила} вражеского лидера</DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>
-	<!-- Заодно сглажена ссылка на людей - для модов на другие расы.
+	<!-- Заодно сглажены ссылки на людей - для модов на другие расы.
 	Оригинал: ...отказали человеку в...он не погибнет из-за этого. -->
 	<DeniedJoining.stages.denied_joining.description>Мы только что отказали просителю в крыше над головой. Надеюсь, он справится сам.</DeniedJoining.stages.denied_joining.description>
 	<!-- Оригинал: вырезан орган -->
@@ -38,14 +38,17 @@
 	<KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.label>бардак вокруг</KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.label>
 	<!-- Оригинал: Мы пустили человека на мясо, словно это было животное. -->
 	<KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.description>Наше поселение подобно огромной свалке! Это отвратительно.</KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.description>
-	<!-- Оригинал: {PAWN_gender ? Увидел : Увидела} труп -->
-	<ObservedLayingCorpse.stages.observed_corpse.label>{PAWN_gender ? Увидел : Увидела} тело</ObservedLayingCorpse.stages.observed_corpse.label>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Переменная используется в Ideology. Фигурные скобки были видны во всплывающем меню над принципами. Пока не исправлен движок, возвращены межполые описания.
+	Оригинал: {PAWN_gender ? Увидел : Увидела} труп -->
+	<ObservedLayingCorpse.stages.observed_corpse.label>увидено тело</ObservedLayingCorpse.stages.observed_corpse.label>
 	<!-- Оригинал: Труп человека, лежащий на... -->
-	<ObservedLayingCorpse.stages.observed_corpse.description>Тело человека, лежащее на земле, — не самое приятное зрелище.</ObservedLayingCorpse.stages.observed_corpse.description>
-	<!-- Оригинал: {PAWN_gender ? Увидел : Увидела} гниющий труп -->
-	<ObservedLayingRottingCorpse.stages.observed_rotting_corpse.label>{PAWN_gender ? Увидел : Увидела} гниющее тело</ObservedLayingRottingCorpse.stages.observed_rotting_corpse.label>
+	<ObservedLayingCorpse.stages.observed_corpse.description>Тело гуманоида, лежащее на земле, — не самое приятное зрелище.</ObservedLayingCorpse.stages.observed_corpse.description>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Оригинал: {PAWN_gender ? Увидел : Увидела} гниющий труп -->
+	<ObservedLayingRottingCorpse.stages.observed_rotting_corpse.label>увидено гниющее тело</ObservedLayingRottingCorpse.stages.observed_rotting_corpse.label>
 	<!-- Оригинал: Я {PAWN_gender ? увидел : увидела} гниющий труп (многоточие пробел) Отвратительно. -->
-	<ObservedLayingRottingCorpse.stages.observed_rotting_corpse.description>Я {PAWN_gender ? увидел : увидела} гниющее тело... Отвратительно.</ObservedLayingRottingCorpse.stages.observed_rotting_corpse.description>
+	<ObservedLayingRottingCorpse.stages.observed_rotting_corpse.description>Я {PAWN_gender ? увидел : увидела} гниющее тело гуманоида... Отвратительно.</ObservedLayingRottingCorpse.stages.observed_rotting_corpse.description>
 	<!-- Оригинал: ...брошен умирать -->
 	<PrisonerBanishedToDie.stages.prisoner_banished_to_death.label>пленник изгнан и брошен</PrisonerBanishedToDie.stages.prisoner_banished_to_death.label>
 	<!-- Оригинал: {PAWN_gender ? Увидел : Увидела} смерть союзника -->
