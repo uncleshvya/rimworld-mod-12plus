@@ -16,13 +16,18 @@
 	<ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>плохо себя ведёт</ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>
 	<!-- Оригинал: ...брошен умирать -->
 	<ColonistBanishedToDie.stages.colonist_banished_to_death.label>поселенец изгнан и брошен</ColonistBanishedToDie.stages.colonist_banished_to_death.label>
-	<!-- Оригинал: {PAWN_gender ? Убил : Убила} вражеского лидера, {0} -->
-	<DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>{PAWN_gender ? Устранил : Устранила} вражеского лидера, {0}</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Была красная ошибка из-за переменной PAWN_gender.
+	Имя перемещено в описание, т.к. не влезало в интерфейс.
+	Оригинал: {PAWN_gender ? Убил : Убила} вражеского лидера, {0} -->
+	<DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>устранение вражеского лидера</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>
 	<!-- Исправлено вынужденное размытие смысла в заголовке. Заодно сглажена необязательная тавтология, сообщите разработчику ванили.
 	Оригинал: Они пытались...что им придётся...мной! -->
-	<DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>Враги пытались уничтожить нас, но они не знали, что придётся иметь дело со мной! Лидер этой фракции дорого заплатил за свою ошибку!</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>
-	<!-- Оригинал: {OTHERPAWN_gender ? Убил : Убила} вражеского лидера -->
-	<DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>{OTHERPAWN_gender ? Устранил : Устранила} вражеского лидера</DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>
+	<DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>Враги пытались уничтожить нас, но они не знали, что придётся иметь дело со мной! Их лидер, {OTHERPAWN_labelShort}, дорого {OTHERPAWN_gender ? заплатил : заплатила} за свою ошибку!</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Была красная ошибка из-за переменной OTHERPAWN_gender.
+	Оригинал: {OTHERPAWN_gender ? Убил : Убила} вражеского лидера -->
+	<DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>устранение вражеского лидера</DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>
 	<!-- Заодно сглажены ссылки на людей - для модов на другие расы.
 	Оригинал: ...отказали человеку в...он не погибнет из-за этого. -->
 	<DeniedJoining.stages.denied_joining.description>Мы только что отказали просителю в крыше над головой. Надеюсь, он справится сам.</DeniedJoining.stages.denied_joining.description>
@@ -52,7 +57,7 @@
 	<!-- Оригинал: ...брошен умирать -->
 	<PrisonerBanishedToDie.stages.prisoner_banished_to_death.label>пленник изгнан и брошен</PrisonerBanishedToDie.stages.prisoner_banished_to_death.label>
 	<!-- Оригинал: {PAWN_gender ? Увидел : Увидела} смерть союзника -->
-	<WitnessedDeathAlly.stages.witnessed_allys_death.label>{PAWN_gender ? Увидел : Увидела}, как был потерян союзник</WitnessedDeathAlly.stages.witnessed_allys_death.label>
+	<WitnessedDeathAlly.stages.witnessed_allys_death.label>{PAWN_gender ? Увидел : Увидела}, как победили союзника</WitnessedDeathAlly.stages.witnessed_allys_death.label>
 	<!-- Оригинал: Один из наших погиб. Ещё...был жив, а сейчас уже мёртв. -->
 	<WitnessedDeathAlly.stages.witnessed_allys_death.description>Мы потеряли одного из наших. Ещё мгновение назад он был с нами, а теперь нет.</WitnessedDeathAlly.stages.witnessed_allys_death.description>
 	<!-- Оригинал: {PAWN_gender ? Увидел : Увидела} смерть -->
@@ -60,7 +65,7 @@
 	<!-- Оригинал: Я {PAWN_gender ? увидел : увидела} смерть человека — вот это зрелище! -->
 	<WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>Победа в неравном бою — вот это удача!</WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>
 	<!-- Оригинал: {PAWN_gender ? Увидел : Увидела} смерть члена... -->
-	<WitnessedDeathFamily.stages.witnessed_family_members_death.label>{PAWN_gender ? Увидел : Увидела}, как был потерян член семьи</WitnessedDeathFamily.stages.witnessed_family_members_death.label>
+	<WitnessedDeathFamily.stages.witnessed_family_members_death.label>{PAWN_gender ? Увидел : Увидела}, как победили члена семьи</WitnessedDeathFamily.stages.witnessed_family_members_death.label>
 	<!-- Оригинал: У меня на глазах погиб один из... -->
 	<WitnessedDeathFamily.stages.witnessed_family_members_death.description>Я {PAWN_gender ? потерял : потеряла} одного из членов моей семьи. Моя кровь и плоть...</WitnessedDeathFamily.stages.witnessed_family_members_death.description>
 	<!-- Оригинал: {PAWN_gender ? Увидел : Увидела} смерть чужака -->
