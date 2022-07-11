@@ -8,10 +8,13 @@
 
 			Убираем разделку бывших людей -->
 			<li Class="PatchOperationAdd">
-				<!-- Внимание! При добавлении нового параметра важен алфавитный порядок файлов патчей! disallowedThingDefs создан в первом файле, а здесь можно использовать только ссылку -->
-				<xpath>Defs/RecipeDef[defName = "ButcherCorpseFlesh"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+			<!-- Внимание! При добавлении нового параметра важен алфавитный порядок файлов патчей! В следущих за этим файлах не надо создавать disallowedThingDefs, только ссылаться на него.
+			Кроме того, файл с созданной переменной disallowedThingDefs должен относиться к действующему моду -->
+				<xpath>Defs/RecipeDef[defName = "ButcherCorpseFlesh"]/fixedIngredientFilter</xpath>
 				<value>
-					<li>Corpse_Abomination</li>
+					<disallowedThingDefs>
+						<li>Corpse_Abomination</li>
+					</disallowedThingDefs>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -26,7 +29,7 @@
 				<value>0</value>
 			</li>
 
-			<!-- Андроиды, 6 видов -->
+			<!-- Андроиды, 7 видов -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[
 				defName = "Android1Tier" or
@@ -34,33 +37,29 @@
 				defName = "Android3Tier" or
 				defName = "Android4Tier" or
 				defName = "Android5Tier" or
-				defName = "M7Mech"
+				defName = "M7Mech" or
+				defName = "M8Mech"
 				]/alienRace/generalSettings/disallowedTraits</xpath>
 				<value>
 					<li> <defName>Asexual</defName> </li>
 					<li> <defName>Bisexual</defName> </li>
 					<li> <defName>Cannibal</defName> </li>
-					<li> <defName>Gay</defName> </li> <!-- Masochist уже отключен у всех 6 -->
-					<li> <defName>Pyromaniac</defName> </li>
+					<li> <defName>Gay</defName> </li>
+					<!-- Masochist уже отключен у всех 7.
+					Pyromaniac уже отключен у всех кроме T5 -->
 				</value>
 			</li>
-			<!-- У Т5 по умолчанию не была отключена черта Pyromaniac -->
+			<!-- Т5 больше не пироман -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Android5Tier"]/alienRace/generalSettings/disallowedTraits</xpath>
 				<value>
-					<li> <defName>Asexual</defName> </li>
-					<li> <defName>Bisexual</defName> </li>
-					<li> <defName>Cannibal</defName> </li>
-					<li> <defName>Gay</defName> </li>
+					<li> <defName>Pyromaniac</defName> </li>
 				</value>
 			</li>
-			<!-- У М7 уже отключены все мысли.
-			У Т1 и Т5 уже отключены мысли ButcheredHumanlikeCorpse и KnowButcheredHumanlikeCorpse -->
+			<!-- У М7 и M8 уже отключены все мысли параметром cannotReceiveThoughtsAtAll.
+			У Т5 уже отключены мысли ButcheredHumanlikeCorpse и KnowButcheredHumanlikeCorpse -->
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[
-				defName = "Android1Tier" or
-				defName = "Android5Tier"
-				]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Android5Tier"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
 				<value>
 					<li>HarvestedOrgan_Bloodlust</li>
 					<li>KilledHumanlikeBloodlust</li>
@@ -71,6 +70,7 @@
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[
+				defName = "Android1Tier" or
 				defName = "Android2Tier" or
 				defName = "Android3Tier" or
 				defName = "Android4Tier"
@@ -98,7 +98,7 @@
 					<BoneAmount MayRequire="sihv.rombones">0</BoneAmount>
 				</value>
 			</li>
-			<!-- Аналогично для М7, дрона и 5-и механических питомцев -->
+			<!-- Аналогично для М7, M8, дрона и 5-и механических питомцев -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[
 				@Name = "AnimalAndroidThingBase" or
@@ -122,7 +122,8 @@
 				defName = "Android3Tier" or
 				defName = "Android4Tier" or
 				defName = "Android5Tier" or
-				defName = "M7Mech"
+				defName = "M7Mech" or
+				defName = "M8Mech"
 				]/race/useMeatFrom/text()</xpath>
 				<value>Mech_Centipede</value>
 			</li>
@@ -143,7 +144,7 @@
 			</li>
 
 			<!-- Ещё в новой версии Римворлда отображается тип кожи даже при её нулевом значении.
-			У всех 6 андроидов отключена ранее прописанная шкура мутанта -->
+			У всех 7 андроидов отключена ранее прописанная шкура мутанта -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[
 				defName = "Android1Tier" or
@@ -151,7 +152,8 @@
 				defName = "Android3Tier" or
 				defName = "Android4Tier" or
 				defName = "Android5Tier" or
-				defName = "M7Mech"
+				defName = "M7Mech" or
+				defName = "M8Mech"
 				]/race/leatherDef</xpath>
 				<value>
 					<useLeatherFrom>Mech_Centipede</useLeatherFrom>
@@ -221,9 +223,9 @@
 
 			<!-- Исправлена неточность, сообщите разработчику.
 
-			У андроида М7 нет кнопки "Персона". Но у мёртвого М7 эта кнопка снова появляется! Надо или вернуть её живым, или убрать у мёртвых.
+			У андроидов М7 и M8 нет кнопки "Персона", хотя в описании персонажа эта вкладка работает. Но у мёртвых кнопка снова появляется! Надо или вернуть её живым, или убрать у мёртвых.
 			Дополнительная информация по навыкам - в файле AndroidTiers_Rebalance.xml.
-			Виден навык "Животноводство" у покойного М7, а в описании персонажа М7 отображаются лишние характеристики "Скорость поглощения пищи", "Шансы на приручение/обучение животных", "Качество/Скорость лечения", "Эффективность жатвы", "Скорость работы с растениями", "Эффективность/Скорость работы с животными", "Скорость переплавки", "Качество ремонта андроидов".
+			Виден навык "Животноводство" у покойных М7 и M8, а в описании персонажа отображаются лишние характеристики "Скорость поглощения пищи", "Шансы на приручение/обучение животных", "Качество/Скорость лечения", "Эффективность жатвы", "Скорость работы с растениями", "Эффективность/Скорость работы с животными", "Скорость переплавки", "Качество ремонта андроидов".
 			Пока не найдено решение для этих багов, хотя бы сгладим явное несоответствие по животноводству в панели "Персона" у мёртвого М7: -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/TraitDef[defName = "MechAtlas"]/degreeDatas/li[1]</xpath>
@@ -239,11 +241,12 @@
 
 			<!-- Возраст андроидов и механоидов не может быть больше 3400 лет.
 			Действующий же алгоритм приводил к появлению отрицательных дат рождения.
-			Вероятнее, что все 6 моделей андроидов изобрели одновременно с механоидами -->
+			Вероятнее, что все 7 моделей андроидов изобрели в одно время с механоидами -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/PawnKindDef[
 				defName = "AndroidT5Colonist" or
-				defName = "M7MechPawn"
+				defName = "M7MechPawn" or
+				defName = "M8MechPawn"
 				]</xpath>
 				<value>
 					<maxGenerationAge>2500</maxGenerationAge>
@@ -269,6 +272,7 @@
 				<xpath>Defs/HediffDef[defName = "ATPP_Rusted"]/defaultLabelColor/text()</xpath>
 				<value>(255, 255, 255)</value>
 			</li>
+			<!-- Для трейтов из мода VanillaExpanded.VanillaTraitsExpanded изменения внесены в его файле VEtraits_Patch.xml -->
 
 		</operations>
 	</Operation>
