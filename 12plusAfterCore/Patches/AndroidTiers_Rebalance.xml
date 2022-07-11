@@ -17,11 +17,12 @@
 				<value>
 					<RecipeDef>
 						<defName>ATPP_Make_MeleeWeapon_MechKnife</defName>
-						<label>make a blade for M7</label>
-						<!-- Ask developers to add hyperlink, like in vanilla descriptions.
-						Temporarely, added a tip -->
-						<description>Forge a two-meter plasteel blade and put a durable steel handle, suitable for M7's "hand", on it. For details, press "Result" string or "i" button.</description>
-						<jobString>making a blade for M7</jobString>
+						<label>make a Mech Blade</label>
+						<description>Forge a two-meter plasteel blade and put a durable steel handle, suitable for huge "hand", on it.</description>
+						<descriptionHyperlinks>
+							<ThingDef>MeleeWeapon_MechKnife</ThingDef>
+						</descriptionHyperlinks>
+						<jobString>making a Mech Blade</jobString>
 						<ingredients>
 							<li>
 								<filter>
@@ -105,10 +106,11 @@
 								<!-- Трупы других рас следует добавлять сюда своими патчами, например как в файле OrassansLite_Patch.xml, причём обязательными, а не по желанию -->
 								<li>Corpse_Human</li>
 							</disallowedThingDefs>
-							<!-- Эти строки почему-то убирают видимость списка, хотя кнопки "разрешить всё" и "запретить всё" по прежнему управляют невидимыми галочками -->
+							<!-- Эти строки в прошлых версиях убирали видимость списка, хотя кнопки "разрешить всё" и "запретить всё" по прежнему управляли невидимыми галочками. Оставить камент как инструкцию на случай нового рефакторинга кода -->
 							<disallowedCategories>
 								<li>CorpsesMechanoid</li>
 								<li>CorpsesAnimal</li>
+								<!-- <li>alienCorpseCategory</li> не сработало почему-то -->
 							</disallowedCategories>
 						</fixedIngredientFilter>
 						<defaultIngredientFilter>
@@ -119,10 +121,12 @@
 								<li>Corpse_Android4Tier</li>
 								<li>Corpse_Android5Tier</li>
 								<li>Corpse_M7Mech</li>
+								<li>Corpse_M8Mech</li>
 							</thingDefs>
 							<specialFiltersToAllow>
 								<li>AllowCorpsesColonist</li>
 								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
 							</specialFiltersToAllow>
 						</defaultIngredientFilter>
 						<specialProducts>
@@ -138,7 +142,10 @@
 			Ещё они шутят, переживают, обсуждают социальные взаимодействия и т.п. Для отключения этого бага пока не найдено решение.
 			Дополнительная информация по навыкам - в файле AndroidTiers_Patch.xml -->
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/AlienRace.BackstoryDef[defName = "MechanizedInfantry"]/workDisables</xpath>
+				<xpath>Defs/AlienRace.BackstoryDef[
+				defName = "MechanizedInfantry" or
+				defName = "AndroidTier_PrototypeM8"
+				]/workDisables</xpath>
 				<value>
 					<li>Social</li>
 				</value>
