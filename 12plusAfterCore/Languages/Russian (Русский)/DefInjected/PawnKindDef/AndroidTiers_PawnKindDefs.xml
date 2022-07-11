@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- Добавлена недостающая строка русской локализации, сообщите разработчику.
+
+	EN: M8 mech -->
+	<M8MechPawn.label>андроид М8</M8MechPawn.label>
+
 	<!-- Исправлена неточность, сообщите разработчику.
 
 	Все названия нужно синхронизировать с папкой ThingDefs.
@@ -331,7 +336,6 @@
 	<AndroidCow.labelFemale>нутриентный дозатор</AndroidCow.labelFemale>
 	<!-- Оригинал: N.Solution самки -->
 	<AndroidCow.labelFemalePlural>нутриентные дозаторы</AndroidCow.labelFemalePlural>
-
 	<!-- Оригинал: Единица M.U.F.F -->
 	<AndroidMuff.label>робуффало</AndroidMuff.label>
 	<!-- Оригинал: Единицы M.U.F.F -->
@@ -356,7 +360,6 @@
 	<AndroidChicken.labelFemale>химкапсулятор</AndroidChicken.labelFemale>
 	<!-- Оригинал: Единицы химпроцесс самки -->
 	<AndroidChicken.labelFemalePlural>химкапсуляторы</AndroidChicken.labelFemalePlural>
-
 	<!-- Оригинал: K-9 кибернетическое еденица -->
 	<AndroidDog.label>робопёс К9</AndroidDog.label>
 	<!-- Оригинал: K-9 кибернетическое еденицы -->
