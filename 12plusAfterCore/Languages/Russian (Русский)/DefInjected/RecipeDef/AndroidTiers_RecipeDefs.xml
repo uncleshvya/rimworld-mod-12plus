@@ -68,12 +68,12 @@
 	<ATPP_Make_SM7MechHandCannon.jobString>изготавливает пистолет Х-5</ATPP_Make_SM7MechHandCannon.jobString>
 
 	<!-- Перевод для ножа, рецепт добавлен патчем в файле AndroidTiers_Rebalance.xml.
-	EN: make a blade for M7. -->
-	<ATPP_Make_MeleeWeapon_MechKnife.jobString>изготавливает нож для М7</ATPP_Make_MeleeWeapon_MechKnife.jobString>
-	<!-- EN: make a blade for M7 -->
-	<ATPP_Make_MeleeWeapon_MechKnife.label>изготовить нож для М7</ATPP_Make_MeleeWeapon_MechKnife.label>
-	<!-- EN: Forge a two-meter plasteel blade and put a durable steel handle, suitable for M7's "hand", on it. For details, press "Result" string or "i" button. -->
-	<ATPP_Make_MeleeWeapon_MechKnife.description>Выковать из пластали двухметровый клинок и установить его в прочную стальную рукоять по размеру «руки» гигантского андроида М7. Для подробностей нажмите на кнопку «Результат» или «i».</ATPP_Make_MeleeWeapon_MechKnife.description>
+	EN: making a Mech Blade -->
+	<ATPP_Make_MeleeWeapon_MechKnife.jobString>изготавливает гигантский нож</ATPP_Make_MeleeWeapon_MechKnife.jobString>
+	<!-- EN: make a Mech Blade -->
+	<ATPP_Make_MeleeWeapon_MechKnife.label>изготовить гигантский нож</ATPP_Make_MeleeWeapon_MechKnife.label>
+	<!-- EN: Forge a two-meter plasteel blade and put a durable steel handle, suitable for huge "hand", on it. -->
+	<ATPP_Make_MeleeWeapon_MechKnife.description>Выковать из пластали двухметровый клинок и установить его в прочную стальную рукоять по размеру огромной «руки» андроида модели M7 или M8.</ATPP_Make_MeleeWeapon_MechKnife.description>
 
 	<!-- EN: Make an artificial brain T1. -->
 	<ATPP_Make_T1ArtificialBrain.jobString>изготавливает реконфигуратор Т1</ATPP_Make_T1ArtificialBrain.jobString>
