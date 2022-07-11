@@ -16,7 +16,7 @@ Copyright (c) Oskar Potocki
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "Human"]/alienRace/generalSettings/disallowedTraits</xpath>
 				<value>
-					<!-- <li> <defName>VTE_MadSurgeon</defName> </li> мысли отключены, идёт тестирование -->
+					<!-- <li> <defName>VTE_MadSurgeon</defName> </li> мысли отключены, идёт тестирование у не-психопата -->
 					<li> <defName>VTE_DrunkenMaster</defName> </li>
 					<li> <defName>VTE_Kleptomaniac</defName> </li>
 					<!-- <li> <defName>VTE_Stoner</defName> </li> подведён под обычную химию, идёт тестирование -->
@@ -39,7 +39,7 @@ Copyright (c) Oskar Potocki
 				defName = "Alien_OrassanHumanHybrid"
 				]/alienRace/generalSettings/disallowedTraits</xpath>
 				<value>
-					<!-- <li> <defName>VTE_MadSurgeon</defName> </li> мысли отключены, идёт тестирование -->
+					<!-- <li> <defName>VTE_MadSurgeon</defName> </li> мысли отключены, идёт тестирование у не-психопата -->
 					<li> <defName>VTE_DrunkenMaster</defName> </li>
 					<li> <defName>VTE_Kleptomaniac</defName> </li>
 					<!-- <li> <defName>VTE_Stoner</defName> </li> подведён под обычную химию, идёт тестирование -->
@@ -65,17 +65,18 @@ Copyright (c) Oskar Potocki
 				defName = "Android3Tier" or
 				defName = "Android4Tier" or
 				defName = "Android5Tier" or
-				defName = "M7Mech"
+				defName = "M7Mech" or
+				defName = "M8Mech"
 				]/alienRace/generalSettings/disallowedTraits</xpath>
 				<value>
-					<!-- <li> <defName>VTE_MadSurgeon</defName> </li> мысли отключены, идёт тестирование -->
+					<!-- <li> <defName>VTE_MadSurgeon</defName> </li> мысли отключены, идёт тестирование у не-психопата -->
 					<li> <defName>VTE_DrunkenMaster</defName> </li>
 					<li> <defName>VTE_Kleptomaniac</defName> </li>
 					<!-- <li> <defName>VTE_Stoner</defName> </li> подведён под обычную химию, идёт тестирование -->
 					<!-- <li> <defName>VTE_Lush</defName> </li> подведён под обычную химию, идёт тестирование -->
 				</value>
 			</li>
-			<!-- У М7 уже отключены все мысли -->
+			<!-- У М7 и M8 уже отключены все мысли параметром cannotReceiveThoughtsAtAll -->
 			<li MayRequire="Atlas.AndroidTiers" Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[
 				defName = "Android1Tier" or
