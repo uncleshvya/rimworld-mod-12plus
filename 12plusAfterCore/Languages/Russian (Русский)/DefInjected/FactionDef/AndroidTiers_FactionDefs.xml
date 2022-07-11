@@ -13,6 +13,23 @@
 	<AndroidRebellionAtlas.pawnSingular>андроид</AndroidRebellionAtlas.pawnSingular>
 	<!-- EN: android -->
 	<AndroidFriendliesAtlas.pawnSingular>андроид</AndroidFriendliesAtlas.pawnSingular>
+	<!-- EN: Rise of the machines -->
+	<AndroidTiers_PlayerColonyROM.label>Восстание машин</AndroidTiers_PlayerColonyROM.label>
+	<!-- EN: Your Android colony. -->
+	<AndroidTiers_PlayerColonyROM.description>Ваше поселение андроидов.</AndroidTiers_PlayerColonyROM.description>
+	<!-- EN: member -->
+	<AndroidTiers_PlayerColonyROM.pawnSingular>поселенец</AndroidTiers_PlayerColonyROM.pawnSingular>
+	<!-- EN: colonists -->
+	<AndroidTiers_PlayerColonyROM.pawnsPlural>поселенцы</AndroidTiers_PlayerColonyROM.pawnsPlural>
+	<!-- Название получалось слишком длинным. Использован сюжет Терминатора 4.
+	EN: Last hope for humanity -->
+	<AndroidTiers_PlayerColonyApocalypse.label>Сопротивление</AndroidTiers_PlayerColonyApocalypse.label>
+	<!-- EN: Your human digitized mind colony. -->
+	<AndroidTiers_PlayerColonyApocalypse.description>Ваше поселение, основанное виртуальными личностями.</AndroidTiers_PlayerColonyApocalypse.description>
+	<!-- EN: member -->
+	<AndroidTiers_PlayerColonyApocalypse.pawnSingular>житель</AndroidTiers_PlayerColonyApocalypse.pawnSingular>
+	<!-- EN: colonists -->
+	<AndroidTiers_PlayerColonyApocalypse.pawnsPlural>жители</AndroidTiers_PlayerColonyApocalypse.pawnsPlural>
 
 	<!-- Исправлена неточность, сообщите разработчику.
 
