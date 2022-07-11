@@ -4,11 +4,12 @@
 	<!-- Исправление согласно концепции «12+».
 
 	Заодно исправлена неточность, сообщите разработчику ванили о неразрывных пробелах.
-	Оригинал: ...решения, от которых зависят жизнь и смерть — плохо. -->
-	<HasAutomatedTurrets_Disapproved.stages.automated_turrets.description>Мы пользуемся автоматическими турелями. Давать машинам принимать решения, имеет ли разумное существо право на жизнь — плохо.</HasAutomatedTurrets_Disapproved.stages.automated_turrets.description>
-	<!-- Оригинал: ...решения, от которых зависят жизнь и смерть — ужасно. -->
-	<HasAutomatedTurrets_Horrible.stages.automated_turrets.description>Мы пользуемся автоматическими турелями. Давать машинам принимать решения, имеет ли разумное существо право на жизнь — ужасно.</HasAutomatedTurrets_Horrible.stages.automated_turrets.description>
-	<!-- Оригинал: ...решения, от которых зависят жизнь и смерть — омерзительно и абсолютно неприемлемо. -->
-	<HasAutomatedTurrets_Prohibited.stages.automated_turrets.description>Мы пользуемся автоматическими турелями. Давать машинам принимать решения, имеет ли разумное существо право на жизнь — омерзительно и абсолютно неприемлемо.</HasAutomatedTurrets_Prohibited.stages.automated_turrets.description>
+	Заодно добавлена конкретика о машинах - для модов на разумных роботов.
+	Оригинал: ...Давать машинам...решения, от которых зависят жизнь и смерть — плохо. -->
+	<HasAutomatedTurrets_Disapproved.stages.automated_turrets.description>Мы пользуемся автоматическими турелями. Давать безмозглым машинам принимать решения, имеет ли разумное существо право на жизнь — плохо.</HasAutomatedTurrets_Disapproved.stages.automated_turrets.description>
+	<!-- Оригинал: ...Давать машинам...решения, от которых зависят жизнь и смерть — ужасно. -->
+	<HasAutomatedTurrets_Horrible.stages.automated_turrets.description>Мы пользуемся автоматическими турелями. Давать безмозглым машинам принимать решения, имеет ли разумное существо право на жизнь — ужасно.</HasAutomatedTurrets_Horrible.stages.automated_turrets.description>
+	<!-- Оригинал: ...Давать машинам...решения, от которых зависят жизнь и смерть — омерзительно... -->
+	<HasAutomatedTurrets_Prohibited.stages.automated_turrets.description>Мы пользуемся автоматическими турелями. Давать безмозглым машинам принимать решения, имеет ли разумное существо право на жизнь — омерзительно и абсолютно неприемлемо.</HasAutomatedTurrets_Prohibited.stages.automated_turrets.description>
 
 </LanguageData>
