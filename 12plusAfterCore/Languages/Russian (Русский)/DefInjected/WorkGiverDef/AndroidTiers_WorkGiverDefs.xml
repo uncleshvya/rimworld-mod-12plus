@@ -6,6 +6,12 @@
 	Стиль приведён к ванили.
 	EN: do mechanical crafting bills -->
 	<DoBillsRobotics.label>работать за робоверстаком</DoBillsRobotics.label>
+	<!-- EN: rescue surrogate -->
+	<AT_RescueSurrogates.label>относить суррогатов на место</AT_RescueSurrogates.label>
+	<!-- EN: rescuing surrogate -->
+	<AT_RescueSurrogates.gerund>Нести суррогата на место</AT_RescueSurrogates.gerund>
+	<!-- EN: rescue surrogate -->
+	<AT_RescueSurrogates.verb>отнести суррогата на место</AT_RescueSurrogates.verb>
 
 	<!-- Мод АТ добавил домашних роботов.
 	Пришлось использовать менее точную формулировку, в случае лечения диких животных. Примем уточнение к понятию "питомец" - не только приручённые, но и все окружённые заботой животные. Как у егерей.
