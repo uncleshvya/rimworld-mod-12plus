@@ -5,8 +5,10 @@
 
 	EN: M8 Mechanised infantry -->
 	<M8Mech.label>андроид М8</M8Mech.label>
-	<!-- EN: A prototype M7 mechanized infantry, equipped with a limited SkyCore unit and SkyMind radio. These units are very strong, powerful war machines and allow digital consciousness to move on battlefields but are subsequently slow and have limited internal storage capacity to them. -->
-	<M8Mech.description>Прототип на основе андроида M7, оснащённый маршрутизатором сети SkyMind и небольшим ядром SkyCloud. Имеет ограничение на количество поддерживаемых личностей и на скорость передачи данных, но полезен во время дальних походов. Сочетает в себе функции мощной боевой машины и штаба операторов суррогатов.</M8Mech.description>
+	<!-- Заодно исправлена неточность, сообщите разработчику.
+	Прототип - это первая пробная модель. А этого андроида можно изготавливать сколько угодно.
+	EN: A prototype M7 mechanized infantry, equipped with a limited SkyCore unit and SkyMind radio. These units are very strong, powerful war machines and allow digital consciousness to move on battlefields but are subsequently slow and have limited internal storage capacity to them. -->
+	<M8Mech.description>Гигантский андроид на основе M7, оснащённый маршрутизатором сети SkyMind и небольшим ядром SkyCloud. Имеет ограничение на количество поддерживаемых личностей и на скорость передачи данных, но полезен во время дальних походов. Сочетает в себе функции мощной боевой машины и штаба операторов суррогатов.</M8Mech.description>
 	<!-- EN: right fist -->
 	<M8Mech.tools.right_fist.label>правый кулак</M8Mech.tools.right_fist.label>
 	<!-- EN: left fist -->
