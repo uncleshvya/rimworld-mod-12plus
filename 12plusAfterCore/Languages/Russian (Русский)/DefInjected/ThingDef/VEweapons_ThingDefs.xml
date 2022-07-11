@@ -12,9 +12,11 @@
 	<Mote_GreenSmoketrail.label>частица</Mote_GreenSmoketrail.label>
 	<!-- EN: Mote -->
 	<VWEL_Mote_BloodPuff.label>частица</VWEL_Mote_BloodPuff.label>
-	<!-- Оригинал: стрела длинного лука -->
+	<!-- Мод попал под подозрение - полная сборка генерировала редкий баг. До момента отлова, исправление отключено:
+	Оригинал: стрела длинного лука
 	<Arrow_Great.label>стрела большого лука</Arrow_Great.label>
-	<!-- Анализировать историю перевода римворлда на гитхабе и вк, почему энерговинтовка недопереведена в ванили.
+	Энерговинтовка.
+	Анализировать историю перевода римворлда на гитхабе и вк, почему описание недопереведено в ванили.
 	Оригинал: Винтовка с энергетическими зарядами.
 	EN: A charged-shot assault rifle. Pulse-charge technology charges each shot with unstable energy as it leaves the barrel. Released on impact, the charged energy greatly increases the damage done.
 	Вероятно, это из-за кривости английской теории. В интернете нашлись следующие варианты технологий:
