@@ -94,13 +94,12 @@
 	<Bullet_HandMechCannon.label>бронебойный снаряд</Bullet_HandMechCannon.label>
 
 	<!-- Оригинал: Лезвие Меха -->
-	<MeleeWeapon_MechKnife.label>нож для М7</MeleeWeapon_MechKnife.label>
+	<MeleeWeapon_MechKnife.label>гигантский нож</MeleeWeapon_MechKnife.label>
 	<!-- Убран конфликт с модами на титан.
 	Оригинал: Довольно простой нож с длинным лезвием, сделанный из титана толщиной 3 дюйма, придаёт меху еще больше силы в ближнем бою. -->
-	<MeleeWeapon_MechKnife.description>Относительно простой нож с длинным клинком из пластали толщиной 8 см, заметно повышает эффективность гигантского андроида М7 в ближнем бою.</MeleeWeapon_MechKnife.description>
-	<!-- Лучше уж единообразие.
-	Оригинал: ручка -->
-	<MeleeWeapon_MechKnife.tools.0.label>рукоять</MeleeWeapon_MechKnife.tools.0.label>
+	<MeleeWeapon_MechKnife.description>Относительно простой нож с длинным клинком из пластали толщиной 8 см, заметно повышает эффективность андроидов M7 и M8 в ближнем бою.</MeleeWeapon_MechKnife.description>
+	<!-- Оригинал: ручка -->
+	<MeleeWeapon_MechKnife.tools.0.label>остриё</MeleeWeapon_MechKnife.tools.0.label>
 
 	<!-- Трупы. Название генерировалось автоматически из тегов по формуле "Corpse пробел label", выглядело в игре как "Труп андроид Т1". А описание, аналогично, "Мёртвое тело андроид Т1." -->
 	<Corpse_Android1Tier.label>сломанный андроид Т1</Corpse_Android1Tier.label>
