@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Трупы ещё не переведены по-нормальному у официалов. Название генерировалось автоматически из тегов по формуле "Corpse пробел label", выглядело в игре как "Труп дриада-гау". А описание, аналогично, "Мёртвое тело дриада-гау." -->
+	<Corpse_Dryad_Barkskin.label>туша дриады-дубокожа</Corpse_Dryad_Barkskin.label>
+	<Corpse_Dryad_Barkskin.description>Туша дриады-дубокожа.</Corpse_Dryad_Barkskin.description>
+	<Corpse_Dryad_Basic.label>туша незрелой дриады</Corpse_Dryad_Basic.label>
+	<Corpse_Dryad_Basic.description>Туша незрелой дриады.</Corpse_Dryad_Basic.description>
+	<Corpse_Dryad_Berrymaker.label>туша дриады-ягодника</Corpse_Dryad_Berrymaker.label>
+	<Corpse_Dryad_Berrymaker.description>Туша дриады-ягодника.</Corpse_Dryad_Berrymaker.description>
+	<Corpse_Dryad_Carrier.label>туша дриады-носильщика</Corpse_Dryad_Carrier.label>
+	<Corpse_Dryad_Carrier.description>Туша дриады-носильщика.</Corpse_Dryad_Carrier.description>
+	<Corpse_Dryad_Clawer.label>туша дриады-когтя</Corpse_Dryad_Clawer.label>
+	<Corpse_Dryad_Clawer.description>Туша дриады-когтя.</Corpse_Dryad_Clawer.description>
+	<Corpse_Dryad_Gaumaker.label>туша дриады-гау</Corpse_Dryad_Gaumaker.label>
+	<Corpse_Dryad_Gaumaker.description>Туша дриады-гау.</Corpse_Dryad_Gaumaker.description>
+	<Corpse_Dryad_Medicinemaker.label>туша дриады-травника</Corpse_Dryad_Medicinemaker.label>
+	<Corpse_Dryad_Medicinemaker.description>Туша дриады-травника.</Corpse_Dryad_Medicinemaker.description>
+	<Corpse_Dryad_Woodmaker.label>туша дриады-древесника</Corpse_Dryad_Woodmaker.label>
+	<Corpse_Dryad_Woodmaker.description>Туша дриады-древесника.</Corpse_Dryad_Woodmaker.description>
+
+</LanguageData>
