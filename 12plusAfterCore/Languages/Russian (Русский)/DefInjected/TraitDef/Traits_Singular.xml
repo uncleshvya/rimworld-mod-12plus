@@ -14,9 +14,9 @@
 	<!-- Оригинал: ...вид крови и смерти. {PAWN_pronoun}... -->
 	<Bloodlust.degreeDatas.bloodlust.description>{PAWN_nameDef} входит в раж, причиняя людям боль. {PAWN_objective} нравится вид ран и крови. {PAWN_pronoun} гораздо чаще других начинает бытовые драки.</Bloodlust.degreeDatas.bloodlust.description>
 	<!-- Оригинал: каннибализм -->
-	<Cannibal.degreeDatas.cannibal.label>веган</Cannibal.degreeDatas.cannibal.label>
-	<!-- Оригинал: ...учили, что есть человеческое мясо неправильно и ужасно, {PAWN_nameDef} однажды его пробует... и {PAWN_objective} нравится. -->
-	<Cannibal.degreeDatas.cannibal.description>Несмотря на то, что {PAWN_possessive} учили, что безбелковая диета вредна для всего организма и особенно для мозга, {PAWN_nameDef} однажды её пробует... и неожиданно получает удовольствие.</Cannibal.degreeDatas.cannibal.description>
+	<Cannibal.degreeDatas.cannibal.label>синдром Дауна</Cannibal.degreeDatas.cannibal.label>
+	<!-- Оригинал: Несмотря на то, что {PAWN_possessive} учили, что есть человеческое мясо неправильно и ужасно, {PAWN_nameDef} однажды его пробует (многоточие) (пробел) и {PAWN_objective} нравится. -->
+	<Cannibal.degreeDatas.cannibal.description>{PAWN_nameDef} страдает от очень редкого неизлечимого заболевания, вызванного повреждением ДНК. Чаще всего у таких поселенцев присутствуют: слабость, катаракта, потеря слуха, атеросклероз, больная спина, карцинома, проблемы с дыханием и речью — и всё это одновременно! В развитых мирах {PAWN_nameDef} {PAWN_gender ? смог : смогла} бы протянуть до 25 лет, в утопических — до 50. Но в условиях непокорённой планеты у бедолаги практически нет шансов выжить.</Cannibal.degreeDatas.cannibal.description>
 	<!-- Оригинал: гомосексуальность -->
 	<Gay.degreeDatas.gay.label>вонь скунса</Gay.degreeDatas.gay.label>
 	<!-- Оригинал: {PAWN_nameDef} испытывает влечение к людям своего пола. -->
