@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
-<!-- Исправление согласно концепции «12+» -->
-
 <Patch>
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
-			<!-- Отключаем разделку разумных существ -->
+
+			<!-- Исправление согласно концепции «12+».
+
+			Отключаем разделку разумных существ -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/RecipeDef[defName = "ButcherCorpseFlesh"]/fixedIngredientFilter/disallowedCategories</xpath>
 				<value>
@@ -34,7 +34,7 @@
 					<tradeability>None</tradeability>
 				</value>
 			</li>
-			Пока не найдено решение, удаляем мумиё из ассортимента торговцев. -->
+			Пока не найдено решение, удаляем мумиё из ассортимента торговцев -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/TraderKindDef[
 				defName = "Base_Neolithic_Standard" or
@@ -48,6 +48,7 @@
 				</value>
 			</li>
 			<!-- Для события ResourcePodCrash решение не найдено, нужна правка workerClass "IncidentWorker_ResourcePodCrash" -->
+
 		</operations>
 	</Operation>
 </Patch>
