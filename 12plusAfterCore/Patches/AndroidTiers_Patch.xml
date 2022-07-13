@@ -9,7 +9,7 @@
 			У андроидов M7 и M8 нет кнопки "Персона", хотя в описании персонажа "i" эта вкладка работает. Но у мёртвых кнопка снова появляется! Надо или вернуть её живым, или убрать у мёртвых.
 			Дополнительная информация по навыкам - в файле AndroidTiers_Rebalance.xml.
 			Виден навык "Животноводство" у покойных M7 и M8, а в описании персонажа отображаются лишние характеристики "Скорость поглощения пищи", "Шансы на приручение/обучение животных", "Качество/Скорость лечения", "Эффективность жатвы", "Скорость работы с растениями", "Эффективность/Скорость работы с животными", "Скорость переплавки", "Качество ремонта андроидов".
-			Пока не найдено решение для этих багов, хотя бы сгладим явное несоответствие по животноводству в панели "Персона" у мёртвого M7: -->
+			Пока не найдено решение для этих багов, хотя бы сгладим явное несоответствие по животноводству: -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/TraitDef[defName = "MechAtlas"]/degreeDatas/li[1]</xpath>
 				<value>
@@ -24,7 +24,7 @@
 
 			<!-- Возраст андроидов и механоидов не может быть больше 3400 лет.
 			Ещё более вероятно, что все 7 моделей андроидов изобрели в одно время с механоидами.
-			Действующий же алгоритм приводил к появлению отрицательных дат рождения  -->
+			Действующий же алгоритм приводил к появлению отрицательных дат рождения -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/PawnKindDef[
 				defName = "AndroidT5Colonist" or
@@ -47,9 +47,9 @@
 				]/maxGenerationAge/text()</xpath>
 				<value>0</value>
 			</li>
-			Для M7 это тоже актуально, а там возможно надо будет создать отдельный PawnKindDef для суррогатов.
+			Для M7 и M8 это тоже актуально, а там возможно надо будет создать отдельный PawnKindDef для суррогатов.
 
-			Андроиды из пластали не могут заржаветь. Более вероятна запылённость суставов и других движущихся частей. Цвет описания подправлен соответственно. -->
+			Андроиды из пластали не могут заржаветь. Более вероятна запылённость суставов и других движущихся частей. Цвет описания подправлен соответственно: -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/HediffDef[defName = "ATPP_Rusted"]/defaultLabelColor/text()</xpath>
 				<value>(255, 255, 255)</value>
@@ -127,7 +127,7 @@
 				</value>
 			</li>
 
-			<!-- Убираем кости у андроидов из мода Rim of Madness - Bones -->
+			<!-- Убираем кости у андроидов, добавленные модом Rim of Madness - Bones -->
 			<li MayRequire="sihv.rombones" Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[
 				defName = "Android1Tier" or
@@ -140,7 +140,7 @@
 					<BoneAmount>0</BoneAmount>
 				</value>
 			</li>
-			<!-- Аналогично для M7, M8, дрона и 5-и механических питомцев -->
+			<!-- Аналогично для M7, M8, дрона и 5 механических питомцев -->
 			<li MayRequire="sihv.rombones" Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[
 				@Name = "AnimalAndroidThingBase" or
@@ -165,10 +165,38 @@
 
 			<!-- Исправление согласно концепции «12+».
 
+			Внимание! При добавлении нового общего параметра важен алфавитный порядок файлов патчей! В следущих за этим файлах не надо создавать willNeverEat, только ссылаться на него.
+			Кроме того, файл с созданной переменной willNeverEat должен относиться к действующему моду.
+			Убираем съедобность мёртвых мутанта и дрона -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name = "BasePawn"]</xpath>
+				<value>
+					<race>
+						<willNeverEat>
+							<li>Corpse_Abomination</li>
+							<li>Corpse_MicroScyther</li>
+						</willNeverEat>
+					</race>
+				</value>
+			</li>
+			<!-- M8 генерируется не с пустым foodType, как прописано в его AlienRace.ThingDef_AlienRace -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name = "BasePawnMech"]</xpath>
+				<value>
+					<race>
+						<willNeverEat>
+							<li>Meat_Human</li>
+							<li>Corpse_Human</li>
+							<li>Corpse_Abomination</li>
+							<li>Corpse_MicroScyther</li>
+						</willNeverEat>
+					</race>
+				</value>
+			</li>
+
+			<!-- Аналогично с алфавитным порядком для переменной disallowedThingDefs.
 			Убираем разделку бывших людей -->
 			<li Class="PatchOperationAdd">
-			<!-- Внимание! При добавлении нового общего параметра важен алфавитный порядок файлов патчей! В следущих за этим файлах не надо создавать disallowedThingDefs, только ссылаться на него.
-			Кроме того, файл с созданной переменной disallowedThingDefs должен относиться к действующему моду -->
 				<xpath>Defs/RecipeDef[defName = "ButcherCorpseFlesh"]/fixedIngredientFilter</xpath>
 				<value>
 					<disallowedThingDefs>
@@ -188,7 +216,7 @@
 				<value>0</value>
 			</li>
 
-			<!-- Андроиды, 7 видов -->
+			<!-- Трейты для 7 видов андроидов -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[
 				defName = "Android1Tier" or
@@ -215,18 +243,7 @@
 					<li> <defName>Pyromaniac</defName> </li>
 				</value>
 			</li>
-			<!-- У M7 и M8 уже отключены все мысли параметром cannotReceiveThoughtsAtAll.
-			У T5 уже отключены мысли ButcheredHumanlikeCorpse и KnowButcheredHumanlikeCorpse -->
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Android5Tier"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
-				<value>
-					<li>HarvestedOrgan_Bloodlust</li>
-					<li>KilledHumanlikeBloodlust</li>
-					<li>MasochistPain</li>
-					<li>PyromaniacHappy</li>
-					<li>WitnessedDeathBloodlust</li>
-				</value>
-			</li>
+			<!-- У M7 и M8 уже отключены все мысли параметром cannotReceiveThoughtsAtAll -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[
 				defName = "Android1Tier" or
@@ -239,6 +256,17 @@
 					<li>HarvestedOrgan_Bloodlust</li>
 					<li>KilledHumanlikeBloodlust</li>
 					<li>KnowButcheredHumanlikeCorpse</li>
+					<li>MasochistPain</li>
+					<li>PyromaniacHappy</li>
+					<li>WitnessedDeathBloodlust</li>
+				</value>
+			</li>
+			<!-- У T5 уже отключены мысли ButcheredHumanlikeCorpse и KnowButcheredHumanlikeCorpse -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Android5Tier"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
+				<value>
+					<li>HarvestedOrgan_Bloodlust</li>
+					<li>KilledHumanlikeBloodlust</li>
 					<li>MasochistPain</li>
 					<li>PyromaniacHappy</li>
 					<li>WitnessedDeathBloodlust</li>
@@ -266,16 +294,6 @@
 					</fixedIngredientFilter>
 				</value>
 			</li>
-
-			<!-- Убираем съедобность мёртвого мутанта и дрона. Почему-то из этого файла она не отключается, вероятно из-за алфавитного порядка файлов патчей. Решено методом переноса нужных строк в файл "ManEatingPatch.xml".
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[@Name = "BasePawn"]/race/willNeverEat</xpath>
-				<value>
-					<li>Corpse_Abomination</li>
-					<li>Corpse_MicroScyther</li>
-				</value>
-			</li>
-			-->
 
 			<!-- Скрипт MOARANDROIDS.Recipe_RerollTraits. использует все трейты, вместо разрешённых для конкретной расы.
 			Кроме того, он добавляет черты характера даже андроидам без личности.
