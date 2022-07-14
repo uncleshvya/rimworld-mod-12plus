@@ -80,13 +80,6 @@
 				]/race/useMeatFrom/text()</xpath>
 				<value>Mech_Centipede</value>
 			</li>
-			<!-- Для механической коровы: -->
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "RoboticCow"]/race</xpath>
-				<value>
-					<useMeatFrom>Mech_Centipede</useMeatFrom>
-				</value>
-			</li>
 
 			<!-- Тип кожи тоже отображается даже при её нулевом количестве.
 			У всех 7 андроидов отключена ранее прописанная шкура мутанта -->
@@ -111,19 +104,25 @@
 					<useLeatherFrom>Mech_Centipede</useLeatherFrom>
 				</value>
 			</li>
-			<!-- Аналогично для 5 механических питомцев.
-			Кроме того, на данном этапе развития мода АТ, все робо-животные - металлические машины, поэтому не могут быть целью хищников -->
+			<!-- Аналогично для 4 механических питомцев.
+			Кроме того, на данном этапе развития мода АТ, почти все робо-животные - металлические машины без съедобных частей, поэтому не могут быть целью хищников -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[
 				defName = "AndroidMuff" or
 				defName = "AndroidChicken" or
 				defName = "RoboticSheep" or
-				defName = "AndroidDog" or
-				defName = "RoboticCow"
+				defName = "AndroidDog"
 				]/race/leatherDef</xpath>
 				<value>
 					<useLeatherFrom>Mech_Centipede</useLeatherFrom>
 					<canBePredatorPrey>false</canBePredatorPrey>
+				</value>
+			</li>
+			<!-- Аналогично для механической коровы. Кстати, она пахнет питательным раствором, так что должна привлекать хищников -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "RoboticCow"]/race/leatherDef</xpath>
+				<value>
+					<useLeatherFrom>Mech_Centipede</useLeatherFrom>
 				</value>
 			</li>
 
@@ -282,7 +281,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/RecipeDef[defName = "ATPP_DisassembleAndroid"]/fixedIngredientFilter</xpath>
 				<value>
-					<uiIconThing>Steel</uiIconThing>
+					<uiIconThing>Plasteel</uiIconThing>
 					<fixedIngredientFilter>
 						<categories>
 							<li>Corpses</li>
