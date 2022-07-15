@@ -173,7 +173,8 @@ Ideas to realize in next version:
 	</loadBefore>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
-		<li>Ludeon.Royalty</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
 		<li>erdelf.HumanoidAlienRaces</li>
 		<li>atsukohi.HumanoidAlienRacesRus</li>
 		<li>dianawinters.OrassansLite</li>
