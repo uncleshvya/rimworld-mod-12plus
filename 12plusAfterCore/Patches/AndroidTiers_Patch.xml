@@ -8,7 +8,7 @@
 
 			У андроидов M7 и M8 нет кнопки "Персона", хотя в описании персонажа "i" эта вкладка работает. Но у мёртвых кнопка снова появляется! Надо или вернуть её живым, или убрать у мёртвых.
 			Дополнительная информация по навыкам - в файле AndroidTiers_Rebalance.xml.
-			Виден навык "Животноводство" у покойных M7 и M8, а в описании персонажа отображаются лишние характеристики "Скорость поглощения пищи", "Шансы на приручение/обучение животных", "Качество/Скорость лечения", "Эффективность жатвы", "Скорость работы с растениями", "Эффективность/Скорость работы с животными", "Скорость переплавки", "Качество ремонта андроидов".
+			Виден навык "Животноводство" у M7 и M8, а в описании персонажа отображаются лишние характеристики.
 			Пока не найдено решение для этих багов, хотя бы сгладим явное несоответствие по животноводству: -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/TraitDef[defName = "MechAtlas"]/degreeDatas/li[1]</xpath>
@@ -19,6 +19,25 @@
 							<value>-20</value>
 						</li>
 					</skillGains>
+				</value>
+			</li>
+			<!-- И по характеристикам -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name = "BasePawnMech"]/statBases</xpath>
+				<value>
+					<TameAnimalChance>0</TameAnimalChance>
+					<TrainAnimalChance>0</TrainAnimalChance>
+					<BiosculpterOccupantSpeed MayRequire="Ludeon.RimWorld.Ideology">0</BiosculpterOccupantSpeed>
+					<GeneralLaborSpeed>0</GeneralLaborSpeed>
+					<MedicalTendQuality>0</MedicalTendQuality>
+					<MedicalTendSpeed>0</MedicalTendSpeed>
+					<DrugHarvestYield>0</DrugHarvestYield>
+					<PlantHarvestYield>0</PlantHarvestYield>
+					<PlantWorkSpeed>0</PlantWorkSpeed>
+					<AnimalGatherYield>0</AnimalGatherYield>
+					<AnimalGatherSpeed>0</AnimalGatherSpeed>
+					<SmeltingSpeed>0</SmeltingSpeed>
+					<ATPP_AndroidTendQuality>0</ATPP_AndroidTendQuality>
 				</value>
 			</li>
 
@@ -124,6 +143,16 @@
 				<value>
 					<useLeatherFrom>Mech_Centipede</useLeatherFrom>
 				</value>
+			</li>
+			<!-- Исправляем функциональные размеры механической коровы для соответствия видимым -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "RoboticCow"]/race/baseBodySize/text()</xpath>
+				<value>2.65</value>
+			</li>
+			<!-- Корректируем числа, чтобы голод остался прежним -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "RoboticCow"]/race/baseHungerRate/text()</xpath>
+				<value>0.7</value>
 			</li>
 
 			<!-- Убираем кости у андроидов, добавленные модом Rim of Madness - Bones -->
