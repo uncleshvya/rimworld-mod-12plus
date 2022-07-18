@@ -1,36 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- Исправление согласно концепции «12+».
+	<!-- Исправление согласно концепции «12+».
 
-  Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. И через ноды "rulesStrings.1" тоже. Пришлось создать суб мод перед Core.
+	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. И через ноды "rulesStrings.1" тоже. Пришлось создать суб мод перед Core.
 
-  Оригинал:
-  <Transition_Died.rulePack.rulesStrings>
-    <li>die(p=2)->умирает</li>
-    <li>die->погибает</li>
-    <li>die(SUBJECT_flesh!=Mechanoid)->отправляется на тот свет</li>
-    <li>die(SUBJECT_flesh!=Mechanoid)->погибает от ран</li>
+	Оригинал:
+	...
+	<li>die(p=2)->умирает</li>
+	<li>die->погибает</li>
+	<li>die(SUBJECT_flesh!=Mechanoid)->отправляется на тот свет</li>
+	<li>die(SUBJECT_flesh!=Mechanoid)->погибает от ран</li>
     <li>die(SUBJECT_flesh==Mechanoid)->отключается</li>
-    ...
-  </Transition_Died.rulePack.rulesStrings>
-  -->
+	...
+	-->
   <Transition_Died.rulePack.rulesStrings>
-    <li>die(p=2)->проигрывает</li>
-    <li>die->проигрывает</li>
-    <li>die(SUBJECT_flesh!=Mechanoid)->проигрывает окончательно</li>
-    <li>die(SUBJECT_flesh!=Mechanoid)->проигрывает из-за ран</li>
+	<li>die(p=2)->проигрывает</li>
+	<li>die->проигрывает</li>
+	<li>die(SUBJECT_flesh!=Mechanoid)->проигрывает окончательно</li>
+	<li>die(SUBJECT_flesh!=Mechanoid)->проигрывает от повреждений</li>
     <li>die(SUBJECT_flesh==Mechanoid)->отключается</li>
     <li>die(SUBJECT_flesh==Mechanoid)->перестаёт функционировать</li>
   </Transition_Died.rulePack.rulesStrings>
-
-  <!-- Оригинал:
-  <Transition_DiedExplosive.rulePack.rulesStrings>
-    ...
-    <li>flavorsuffix->, разбрасывая [everywhere] [pieces] своего тела</li>
-    ...
-  </Transition_DiedExplosive.rulePack.rulesStrings>
-  -->
+	<!-- Оригинал:
+	...
+	<li>...разбрасывая [everywhere] [pieces] своего тела</li>
+	...
+	-->
   <Transition_DiedExplosive.rulePack.rulesStrings>
     <li>die->исчезает [flavor]</li>
     <li>die->подрывается[flavorsuffix]</li>
@@ -39,7 +35,7 @@
     <li>die->взлетает на воздух [flavor]</li>
     <li>die->взлетает на воздух[flavorsuffix]</li>
     <li>flavorsuffix(p=4)-></li>
-    <li>flavorsuffix->, разбрасывая [everywhere] [pieces] земли</li>
+	<li>flavorsuffix->, разбрасывая [everywhere] [pieces] земли</li>
     <li>flavorsuffix(SUBJECT_flesh!=Mechanoid,p=2)->, забрызгивая окрестности [Gore]</li>
     <li>flavorsuffix(SUBJECT_flesh!=Mechanoid)->, разлетаясь на [pieces], покрытые [Gore]</li>
     <li>flavorsuffix->, оставляя небольшой кратер</li>
@@ -54,7 +50,7 @@
     <li>everywhere->кругом</li>
   </Transition_DiedExplosive.rulePack.rulesStrings>
 
-  <!-- Всё остальное без изменений, но необходимо оставить, иначе грамматика страдает:
+	<!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
 
   EN:
     <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun] caused [SUBJECT_definite] to [die].</li>
@@ -75,7 +71,6 @@
     <li>reason->[CULPRITHEDIFF_labelNoun] в [CULPRITHEDIFF_target_label]</li>
     <li>reason->[CULPRITHEDIFF_labelNoun] в [SUBJECT_possessive] [CULPRITHEDIFF_target_label]</li>
   </Transition_DiedInclude.rulePack.rulesStrings>
-
   <!-- EN:
     <li>r_logentry->[CULPRITHEDIFF_labelNoun] caused [SUBJECT_definite] to [collapsemeta].</li>
     <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] caused [SUBJECT_definite] to [collapsemeta].</li>
@@ -132,7 +127,6 @@
     <li>collapsemeta->[collapse]</li>
     <li>collapsemeta(p=0.5)->[helplessly] [collapse]</li>
   </Transition_Downed.rulePack.rulesStrings>
-
   <!-- EN:
     <li>duetoa->due to</li>
     <li>duetoa(p=0.5)->because of</li>
