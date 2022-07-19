@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Переменная lodgers_should не подгружается, хотя у себя в файле Script_Hospitality_TextCommon.xml работает нормально.
+	Оригинал: [lodgers_should] отбыть на челноке -->
+	<Hospitality_Util_Worker.InspectStringDepartShuttle.slateRef>Ожидается отбытие на челноке</Hospitality_Util_Worker.InspectStringDepartShuttle.slateRef>
+
 	<!-- Исправление согласно концепции «12+».
 
 	Оригинал: Гость погиб: {SUBJECT_definite} -->
