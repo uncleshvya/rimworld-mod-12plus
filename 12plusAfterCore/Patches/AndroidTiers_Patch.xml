@@ -43,7 +43,7 @@
 
 			<!-- Возраст андроидов и механоидов не может быть больше 3400 лет.
 			Ещё более вероятно, что все 7 моделей андроидов изобрели в одно время с механоидами.
-			Действующий же алгоритм приводил к появлению отрицательных дат рождения -->
+			Исправляем, иначе в игре будут отрицательные даты рождения -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/PawnKindDef[
 				defName = "AndroidT5Colonist" or
@@ -191,6 +191,86 @@
 				</value>
 			</li>
 
+			<!-- Скрипт MOARANDROIDS.Recipe_RerollTraits. использует все трейты, вместо разрешённых для конкретной расы.
+			Кроме того, он добавляет черты характера даже андроидам без личности.
+			Пока не найдено решение для этих багов, рецепт мягко отключён -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "RerollAndroidTraits"]/workerClass/text()</xpath>
+				<value>MOARANDROIDS.Recipe_AndroidRewireSurgery</value>
+			</li>
+
+			<!-- Большое оружие мода криво отображалось в слоте выбранного оружия.
+			В текстурах обрезаем пустое место -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "Mech40MMCannon"]/graphicData/texPath/text()</xpath>
+				<value>Things/Item/40MMCannon_cut</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "MechMastiffGun"]/graphicData/texPath/text()</xpath>
+				<value>Things/Item/MechFlakGun_cut</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "MechHandCannon"]/graphicData/texPath/text()</xpath>
+				<value>Things/Item/MechPistol_cut</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "MeleeWeapon_MechKnife"]/graphicData/texPath/text()</xpath>
+				<value>Things/Item/MechKnife_cut</value>
+			</li>
+			<!-- Корректируем отображение из-за изменившихся размеров -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "Mech40MMCannon"]/graphicData/drawSize/text()</xpath>
+				<value>2.8</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "MechMastiffGun"]/graphicData/drawSize/text()</xpath>
+				<value>2.4</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "MechHandCannon"]/graphicData/drawSize/text()</xpath>
+				<value>1.8</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "MeleeWeapon_MechKnife"]/graphicData/drawSize/text()</xpath>
+				<value>2.1</value>
+			</li>
+			<!-- Корректируем отображение оружия в руках, добавляя поворот.
+			Ещё это оружие криво отображалось в описании и в списке рецептов на верстаке -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Mech40MMCannon"]</xpath>
+				<value>
+					<uiIconScale>0.38</uiIconScale>
+					<equippedAngleOffset>-20</equippedAngleOffset>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "MechMastiffGun"]</xpath>
+				<value>
+					<uiIconScale>0.45</uiIconScale>
+					<equippedAngleOffset>-20</equippedAngleOffset>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "MechHandCannon"]</xpath>
+				<value>
+					<uiIconScale>0.62</uiIconScale>
+					<equippedAngleOffset>-20</equippedAngleOffset>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "MeleeWeapon_MechKnife"]</xpath>
+				<value>
+					<uiIconScale>0.49</uiIconScale>
+				</value>
+			</li>
+			<!-- Заодно подправляем противомеханоидную винтовку -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "AntiMechRifle"]</xpath>
+				<value>
+					<uiIconScale>0.7</uiIconScale>
+				</value>
+			</li>
+
 			<!-- Исправление согласно концепции «12+».
 
 			Внимание! При добавлении нового общего параметра важен алфавитный порядок файлов патчей! В следущих за этим файлах не надо создавать willNeverEat, только ссылаться на него.
@@ -321,14 +401,6 @@
 						</disallowedCategories>
 					</fixedIngredientFilter>
 				</value>
-			</li>
-
-			<!-- Скрипт MOARANDROIDS.Recipe_RerollTraits. использует все трейты, вместо разрешённых для конкретной расы.
-			Кроме того, он добавляет черты характера даже андроидам без личности.
-			Пока не найдено решение для этих багов, рецепт мягко отключён -->
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName = "RerollAndroidTraits"]/workerClass/text()</xpath>
-				<value>MOARANDROIDS.Recipe_AndroidRewireSurgery</value>
 			</li>
 
 		</operations>
