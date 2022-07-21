@@ -169,7 +169,7 @@
 	<AndroidT1Kit.description>Почти собранный андроид Т1, упакованный в транспортировочное устройство. Требует лишь незначительного вмешательства оператора, так что даже поселенец с ограниченными возможностями сможет запустить процедуру автоматической сборки андроида.</AndroidT1Kit.description>
 	<!-- В русификаторе использовался устаревший код переменной - AndroidT1Kit.comps.0.useLabel
 	Оригинал: Соберите T1 Андроид -->
-	<AndroidT1Kit.comps.CompUsable.useLabel>собрать андроида Т1</AndroidT1Kit.comps.CompUsable.useLabel>
+	<AndroidT1Kit.comps.CompUsable.useLabel>Собрать андроида Т1</AndroidT1Kit.comps.CompUsable.useLabel>
 
 	<!-- Оригинал: T2 Андроид -->
 	<T2AndroidGeneratorAI.label>андроид Т2</T2AndroidGeneratorAI.label>
@@ -185,7 +185,7 @@
 	<AndroidT2Kit.description>Почти собранный андроид Т2, упакованный в транспортировочное устройство. Требует лишь незначительного вмешательства оператора, так что даже поселенец с ограниченными возможностями сможет запустить процедуру автоматической сборки андроида.</AndroidT2Kit.description>
 	<!-- В русификаторе использовался устаревший код переменной - AndroidT2Kit.comps.0.useLabel
 	Оригинал: Соберите T2 Андроид -->
-	<AndroidT2Kit.comps.CompUsable.useLabel>собрать андроида Т2</AndroidT2Kit.comps.CompUsable.useLabel>
+	<AndroidT2Kit.comps.CompUsable.useLabel>Собрать андроида Т2</AndroidT2Kit.comps.CompUsable.useLabel>
 
 	<!-- Оригинал: T3 Андроид -->
 	<T3AndroidGeneratorAI.label>андроид Т3</T3AndroidGeneratorAI.label>
