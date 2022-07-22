@@ -3,8 +3,8 @@
 
 	<!-- Исправлена неточность, сообщите разработчику ванили.
 
-	Оригинал: без кавычек -->
-	<RitualAttachedOutcomesInfo>Если ритуал «{0}» прошёл {1}</RitualAttachedOutcomesInfo>
+	Оригинал: ...ритуал {0} прошёл {1} -->
+	<RitualAttachedOutcomesInfo>Если ритуал «{0}» пройдёт {1}</RitualAttachedOutcomesInfo>
 
 	<!-- Исправление согласно концепции «12+».
 
