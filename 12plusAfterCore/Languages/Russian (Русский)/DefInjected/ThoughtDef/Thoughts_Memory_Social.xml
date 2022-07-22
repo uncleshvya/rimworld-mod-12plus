@@ -3,9 +3,43 @@
 
 	<!-- Исправлена неточность, сообщите разработчику ванили.
 
-	Уж лучше слегка исказить фразу, чем использовать эти жуткие скобки.
-	Оригинал: накачал(а) меня люциферием -->
-	<ForcedMeToTakeLuciferium.stages.forced_me_to_take_luciferium.label>накачивает пациентов люциферием</ForcedMeToTakeLuciferium.stages.forced_me_to_take_luciferium.label>
+	Оригинал: {1_gender ? бросил : бросила} меня -->
+	<BrokeUpWithMe.stages.broke_up_with_me.labelSocial>{1_gender ? Бросил : Бросила} меня</BrokeUpWithMe.stages.broke_up_with_me.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? изменил : изменила} мне -->
+	<CheatedOnMe.stages.cheated_on_me.labelSocial>{OTHERPAWN_gender ? Изменил : Изменила} мне</CheatedOnMe.stages.cheated_on_me.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? развёлся : развелась} со... -->
+	<DivorcedMe.stages.divorced_me.labelSocial>{OTHERPAWN_gender ? Развёлся : Развелась} со мной</DivorcedMe.stages.divorced_me.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? приставал : приставала} ко... -->
+	<FailedRomanceAttemptOnMe.stages.failed_to_romance_me.labelSocial>{OTHERPAWN_gender ? Приставал : Приставала} ко мне</FailedRomanceAttemptOnMe.stages.failed_to_romance_me.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? накачал : накачала} меня... -->
+	<ForcedMeToTakeLuciferium.stages.forced_me_to_take_luciferium.labelSocial>{OTHERPAWN_gender ? Накачал : Накачала} меня люциферием</ForcedMeToTakeLuciferium.stages.forced_me_to_take_luciferium.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? дрался : дралась} со... -->
+	<HadAngeringFight.stages.angering_fight.labelSocial>{OTHERPAWN_gender ? Дрался : Дралась} со мной</HadAngeringFight.stages.angering_fight.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? причинил : причинила} мне... -->
+	<HarmedMe.stages.harmed_me.labelSocial>{OTHERPAWN_gender ? Причинил : Причинила} мне вред</HarmedMe.stages.harmed_me.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? оскорбил : оскорбила} меня -->
+	<Insulted.stages.insulted.labelSocial>{OTHERPAWN_gender ? Оскорбил : Оскорбила} меня</Insulted.stages.insulted.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? сделал : сделала} неприемлемое... -->
+	<IRejectedTheirProposal.stages.I_rejected_their_proposal.labelSocial>{OTHERPAWN_gender ? Сделал : Сделала} неприемлемое предложение</IRejectedTheirProposal.stages.I_rejected_their_proposal.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? поддержал : поддержала} меня -->
+	<KindWords.stages.kind_words.labelSocial>{OTHERPAWN_gender ? Поддержал : Поддержала} меня</KindWords.stages.kind_words.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? налаживал : налаживала} контакт -->
+	<RapportBuilt.stages.rapport_built.labelSocial>{OTHERPAWN_gender ? Налаживал : Налаживала} контакт</RapportBuilt.stages.rapport_built.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? отказал : отказала} мне -->
+	<RebuffedMyRomanceAttempt.stages.rebuffed_me.labelSocial>{OTHERPAWN_gender ? Отказал : Отказала} мне</RebuffedMyRomanceAttempt.stages.rebuffed_me.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? пригласил : пригласила} меня... -->
+	<RecruitedMe.stages.recruited_me.labelSocial>{OTHERPAWN_gender ? Пригласил : Пригласила} меня в поселение</RecruitedMe.stages.recruited_me.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? отверг : отвергла} моё... -->
+	<RejectedMyProposal.stages.rejected_my_proposal.labelSocial>{OTHERPAWN_gender ? Отверг : Отвергла} моё предложение</RejectedMyProposal.stages.rejected_my_proposal.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? спас : спасла} меня -->
+	<RescuedMe.stages.rescued_me.labelSocial>{OTHERPAWN_gender ? Спас : Спасла} меня</RescuedMe.stages.rescued_me.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? пренебрёг : пренебрегла} мной -->
+	<Slighted.stages.slighted.labelSocial>{OTHERPAWN_gender ? Пренебрёг : Пренебрегла} мной</Slighted.stages.slighted.labelSocial>
+	<!-- Оригиналы: {OTHERPAWN_gender ? продал : продала} любимого... -->
+	<SoldMyBondedAnimal.stages.bonded_animal_given_away.labelSocial>{OTHERPAWN_gender ? Продал : Продала} любимого питомца</SoldMyBondedAnimal.stages.bonded_animal_given_away.labelSocial>
+	<SoldMyBondedAnimalMood.stages.bonded_animal_given_away.labelSocial>{OTHERPAWN_gender ? Продал : Продала} любимого питомца</SoldMyBondedAnimalMood.stages.bonded_animal_given_away.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? продал : продала} любимого... -->
+	<SoldMyLovedOne.stages.loved_one_sold.labelSocial>{OTHERPAWN_gender ? Продал : Продала} любимого человека</SoldMyLovedOne.stages.loved_one_sold.labelSocial>
 
 	<!-- Исправление согласно концепции «12+».
 
@@ -14,8 +48,9 @@
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили - уж лучше слегка исказить фразу, чем использовать эти жуткие скобки.
 	Оригинал: накачал(а) меня наркотиками -->
 	<ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.label>накачивает пациентов «химией»</ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.label>
-	<!-- Оригинал: ...меня наркотиками -->
-	<ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.labelSocial>{1_gender ? накачал : накачала} меня «химией»</ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.labelSocial>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили о больших буквах для labelSocial в этом файле.
+	Оригинал: {1_gender ? накачал : накачала} меня наркотиками -->
+	<ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.labelSocial>{1_gender ? Накачал : Накачала} меня «химией»</ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.labelSocial>
 	<!-- Оригинал: ...{1_gender ? накачал : накачала} наркотиками -->
 	<ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.label>{0} {1_gender ? накачал : накачала} «химией»</ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.label>
 	<!-- Оригинал: Нет ничего лучше, чем покувыркаться под одеялом в своё удовольствие. -->
@@ -23,54 +58,54 @@
 	<!-- Оригинал: убил(а) любимого... -->
 	<KilledMyBondedAnimal.stages.killed_my_bonded_animal.label>{1_gender ? обидел : обидела} любимого питомца</KilledMyBondedAnimal.stages.killed_my_bonded_animal.label>
 	<!-- Оригинал: {OTHERPAWN_gender ? убил : убила} любимого... -->
-	<KilledMyBondedAnimal.stages.killed_my_bonded_animal.labelSocial>{OTHERPAWN_gender ? обидел : обидела} любимого питомца</KilledMyBondedAnimal.stages.killed_my_bonded_animal.labelSocial>
+	<KilledMyBondedAnimal.stages.killed_my_bonded_animal.labelSocial>{OTHERPAWN_gender ? Обидел : Обидела} любимого питомца</KilledMyBondedAnimal.stages.killed_my_bonded_animal.labelSocial>
 	<!-- Оригинал: убил(а) моего... -->
 	<KilledMyBrother.stages.killed_my_brother.label>{1_gender ? обидел : обидела} моего брата</KilledMyBrother.stages.killed_my_brother.label>
 	<!-- Оригинал: {OTHERPAWN_gender ? убил : убила} моего... -->
-	<KilledMyBrother.stages.killed_my_brother.labelSocial>{OTHERPAWN_gender ? обидел : обидела} моего брата</KilledMyBrother.stages.killed_my_brother.labelSocial>
+	<KilledMyBrother.stages.killed_my_brother.labelSocial>{OTHERPAWN_gender ? Обидел : Обидела} моего брата</KilledMyBrother.stages.killed_my_brother.labelSocial>
 	<!-- Оригинал: убил(а) мою... -->
 	<KilledMyDaughter.stages.killed_my_daughter.label>{1_gender ? обидел : обидела} мою дочь</KilledMyDaughter.stages.killed_my_daughter.label>
 	<!-- Оригинал: {OTHERPAWN_gender ? убил : убила} мою... -->
-	<KilledMyDaughter.stages.killed_my_daughter.labelSocial>{OTHERPAWN_gender ? обидел : обидела} мою дочь</KilledMyDaughter.stages.killed_my_daughter.labelSocial>
+	<KilledMyDaughter.stages.killed_my_daughter.labelSocial>{OTHERPAWN_gender ? Обидел : Обидела} мою дочь</KilledMyDaughter.stages.killed_my_daughter.labelSocial>
 	<!-- Оригинал: убил(а) моего... -->
 	<KilledMyFather.stages.killed_my_father.label>{1_gender ? обидел : обидела} моего отца</KilledMyFather.stages.killed_my_father.label>
 	<!-- Оригинал: {OTHERPAWN_gender ? убил : убила} моего... -->
-	<KilledMyFather.stages.killed_my_father.labelSocial>{OTHERPAWN_gender ? обидел : обидела} моего отца</KilledMyFather.stages.killed_my_father.labelSocial>
+	<KilledMyFather.stages.killed_my_father.labelSocial>{OTHERPAWN_gender ? Обидел : Обидела} моего отца</KilledMyFather.stages.killed_my_father.labelSocial>
 	<!-- Оригинал: убил(а) мою... -->
 	<KilledMyFiance.stages.killed_my_fiance.label>{1_gender ? обидел : обидела} мою невесту</KilledMyFiance.stages.killed_my_fiance.label>
 	<!-- Оригинал: {OTHERPAWN_gender ? убил : убила} мою... -->
-	<KilledMyFiance.stages.killed_my_fiance.labelSocial>{OTHERPAWN_gender ? обидел : обидела} мою невесту</KilledMyFiance.stages.killed_my_fiance.labelSocial>
+	<KilledMyFiance.stages.killed_my_fiance.labelSocial>{OTHERPAWN_gender ? Обидел : Обидела} мою невесту</KilledMyFiance.stages.killed_my_fiance.labelSocial>
 	<!-- Оригинал: убил(а) моего... -->
 	<KilledMyFriend.stages.killed_my_friend.label>{1_gender ? обидел : обидела} моего друга</KilledMyFriend.stages.killed_my_friend.label>
 	<!-- Оригинал: {OTHERPAWN_gender ? убил : убила} моего... -->
-	<KilledMyFriend.stages.killed_my_friend.labelSocial>{OTHERPAWN_gender ? обидел : обидела} моего друга</KilledMyFriend.stages.killed_my_friend.labelSocial>
+	<KilledMyFriend.stages.killed_my_friend.labelSocial>{OTHERPAWN_gender ? Обидел : Обидела} моего друга</KilledMyFriend.stages.killed_my_friend.labelSocial>
 	<!-- Оригинал: убил(а) моего... -->
 	<KilledMyKin.stages.killed_my_kin.label>{1_gender ? обидел : обидела} моего родственника</KilledMyKin.stages.killed_my_kin.label>
 	<!-- Оригинал: {OTHERPAWN_gender ? убил : убила} моего... -->
-	<KilledMyKin.stages.killed_my_kin.labelSocial>{OTHERPAWN_gender ? обидел : обидела} моего родственника</KilledMyKin.stages.killed_my_kin.labelSocial>
+	<KilledMyKin.stages.killed_my_kin.labelSocial>{OTHERPAWN_gender ? Обидел : Обидела} моего родственника</KilledMyKin.stages.killed_my_kin.labelSocial>
 	<!-- Оригинал: убил(а) любимого... -->
 	<KilledMyLover.stages.killed_my_lover.label>{1_gender ? обидел : обидела} любимого человека</KilledMyLover.stages.killed_my_lover.label>
 	<!-- Оригинал: {OTHERPAWN_gender ? убил : убила} любимого... -->
-	<KilledMyLover.stages.killed_my_lover.labelSocial>{OTHERPAWN_gender ? обидел : обидела} любимого человека</KilledMyLover.stages.killed_my_lover.labelSocial>
+	<KilledMyLover.stages.killed_my_lover.labelSocial>{OTHERPAWN_gender ? Обидел : Обидела} любимого человека</KilledMyLover.stages.killed_my_lover.labelSocial>
 	<!-- Оригинал: убил(а) мою... -->
 	<KilledMyMother.stages.killed_my_mother.label>{1_gender ? обидел : обидела} мою мать</KilledMyMother.stages.killed_my_mother.label>
 	<!-- Оригинал: {OTHERPAWN_gender ? убил : убила} мою... -->
-	<KilledMyMother.stages.killed_my_mother.labelSocial>{OTHERPAWN_gender ? обидел : обидела} мою мать</KilledMyMother.stages.killed_my_mother.labelSocial>
+	<KilledMyMother.stages.killed_my_mother.labelSocial>{OTHERPAWN_gender ? Обидел : Обидела} мою мать</KilledMyMother.stages.killed_my_mother.labelSocial>
 	<!-- Оригинал: убил(а) моего... -->
 	<KilledMyRival.stages.killed_my_rival.label>{1_gender ? обидел : обидела} моего соперника</KilledMyRival.stages.killed_my_rival.label>
 	<!-- Оригинал: {OTHERPAWN_gender ? убил : убила} моего... -->
-	<KilledMyRival.stages.killed_my_rival.labelSocial>{OTHERPAWN_gender ? обидел : обидела} моего соперника</KilledMyRival.stages.killed_my_rival.labelSocial>
+	<KilledMyRival.stages.killed_my_rival.labelSocial>{OTHERPAWN_gender ? Обидел : Обидела} моего соперника</KilledMyRival.stages.killed_my_rival.labelSocial>
 	<!-- Оригинал: убил(а) мою... -->
 	<KilledMySister.stages.killed_my_sister.label>{1_gender ? обидел : обидела} мою сестру</KilledMySister.stages.killed_my_sister.label>
 	<!-- Оригинал: {OTHERPAWN_gender ? убил : убила} мою... -->
-	<KilledMySister.stages.killed_my_sister.labelSocial>{OTHERPAWN_gender ? обидел : обидела} мою сестру</KilledMySister.stages.killed_my_sister.labelSocial>
+	<KilledMySister.stages.killed_my_sister.labelSocial>{OTHERPAWN_gender ? Обидел : Обидела} мою сестру</KilledMySister.stages.killed_my_sister.labelSocial>
 	<!-- Оригинал: убил(а) моего... -->
 	<KilledMySon.stages.killed_my_son.label>{1_gender ? обидел : обидела} моего сына</KilledMySon.stages.killed_my_son.label>
 	<!-- Оригинал: {OTHERPAWN_gender ? убил : убила} моего... -->
-	<KilledMySon.stages.killed_my_son.labelSocial>{OTHERPAWN_gender ? обидел : обидела} моего сына</KilledMySon.stages.killed_my_son.labelSocial>
+	<KilledMySon.stages.killed_my_son.labelSocial>{OTHERPAWN_gender ? Обидел : Обидела} моего сына</KilledMySon.stages.killed_my_son.labelSocial>
 	<!-- Оригинал: убил(а) моего... -->
 	<KilledMySpouse.stages.killed_my_spouse.label>{1_gender ? обидел : обидела} моего жениха</KilledMySpouse.stages.killed_my_spouse.label>
 	<!-- Оригинал: {OTHERPAWN_gender ? убил : убила} моего... -->
-	<KilledMySpouse.stages.killed_my_spouse.labelSocial>{OTHERPAWN_gender ? обидел : обидела} моего жениха</KilledMySpouse.stages.killed_my_spouse.labelSocial>
+	<KilledMySpouse.stages.killed_my_spouse.labelSocial>{OTHERPAWN_gender ? Обидел : Обидела} моего жениха</KilledMySpouse.stages.killed_my_spouse.labelSocial>
 
 </LanguageData>
