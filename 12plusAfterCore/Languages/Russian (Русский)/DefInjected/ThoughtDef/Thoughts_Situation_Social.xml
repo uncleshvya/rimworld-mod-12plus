@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Оригинал: {OTHERPAWN_gender ? изменил : изменила} -->
+	<Affair.stages.affair.labelSocial>{OTHERPAWN_gender ? Изменил : Изменила}</Affair.stages.affair.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? трезвенник : трезвенница} -->
+	<ChemicalInterestVsTeetotaler.stages.chemical_interest_vs_teetotaler.labelSocial>{OTHERPAWN_gender ? Трезвенник : Трезвенница}</ChemicalInterestVsTeetotaler.stages.chemical_interest_vs_teetotaler.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? обезображен : обезображена} -->
+	<Disfigured.stages.disfigured.labelSocial>{OTHERPAWN_gender ? Обезображен : Обезображена}</Disfigured.stages.disfigured.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? пьян : пьяна} -->
+	<Drunk.stages.drunk.labelSocial>{OTHERPAWN_gender ? Пьян : Пьяна}</Drunk.stages.drunk.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? казнил : казнила} пленника -->
+	<ExecutedPrisoner.stages.executed_prisoner.labelSocial>{OTHERPAWN_gender ? Казнил : Казнила} пленника</ExecutedPrisoner.stages.executed_prisoner.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? лентяй : лентяйка} -->
+	<HardWorkerVsLazy.stages.hard_worker_vs_lazy.labelSocial>{OTHERPAWN_gender ? Лентяй : Лентяйка}</HardWorkerVsLazy.stages.hard_worker_vs_lazy.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? кровосмеситель : кровосмесительница} -->
+	<Incestuous.stages.incestuous.labelSocial>{OTHERPAWN_gender ? Кровосмеситель : Кровосмесительница}</Incestuous.stages.incestuous.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? красив : красива} -->
+	<Pretty.stages.physically_appealing.labelSocial>{OTHERPAWN_gender ? Красив : Красива}</Pretty.stages.physically_appealing.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? продал : продала} пленника -->
+	<SoldPrisoner.stages.sold_prisoner_to_slavery.labelSocial>{OTHERPAWN_gender ? Продал : Продала} пленника</SoldPrisoner.stages.sold_prisoner_to_slavery.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? уродлив : уродлива} -->
+	<Ugly.stages.physically_unsightly.labelSocial>{OTHERPAWN_gender ? Уродлив : Уродлива}</Ugly.stages.physically_unsightly.labelSocial>
+
 	<!-- Исправление согласно концепции «12+».
 
 	Оригинал: каннибал -->
 	<AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>ест мумиё</AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>
- 	<!-- Оригинал: {OTHERPAWN_gender ? ел : ела} сырую человечину -->
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили о больших буквах для labelSocial в этом файле.
+	Оригинал: {OTHERPAWN_gender ? ел : ела} сырую человечину -->
 	<AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.labelSocial>{OTHERPAWN_gender ? Съел : Съела} мумиё</AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.labelSocial>
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
 	Уж лучше небольшая потеря точности, чем эти жуткие скобки.
