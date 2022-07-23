@@ -11,6 +11,8 @@
 	<GameplayTips.CaravanHitchingSpot>Назначайте место привязи там, где хотите снаряжать свои караваны. Обычно склад подходит для этого лучше всего.</GameplayTips.CaravanHitchingSpot>
 	<!-- Оригинал: ...привязи каравана. -->
 	<GameplayTips.CaravanHitchingSpotRoamers>Если во время остановок каравана вы не хотите, чтобы ваши животные разбредались, укажите место привязи.</GameplayTips.CaravanHitchingSpotRoamers>
+	<!-- Оригинал: ...животные — ослы, верблюды и лошади. -->
+	<GameplayTips.CaravanRideableAnimals>Караваны движутся быстрее, если в их составе есть ездовые животные — ослы, верблюды или лошади.</GameplayTips.CaravanRideableAnimals>
 	<!-- Оригинал: ...рядом с коновязью. Это... -->
 	<GameplayTips.CaravanStockpileNearPackingSpot>Перед формированием каравана соберите предметы, которые вы хотите отправить вместе с ним, на складе рядом с местом привязи. Это сильно ускорит процесс.</GameplayTips.CaravanStockpileNearPackingSpot>
 	<!-- Оригинал: ...чтобы рабочие могли удобно... -->
