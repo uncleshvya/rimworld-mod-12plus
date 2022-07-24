@@ -2078,7 +2078,7 @@
 		<!-- EN: shipcracker -->
 		<titleShort>штурмовик</titleShort>
 		<!-- EN: [PAWN_nameDef]'s role was to launch through the vacuum of space, land on the enemy ship's hull, punch holes to the interior, and conquer it in room-to-room combat. [PAWN_pronoun] became very good at wielding heavy cataphract weapons to cut both steel and flesh.\n\n[PAWN_pronoun] also developed a taste for the drugs [PAWN_pronoun] used to cope with the overwhelming stress. -->
-		<desc>В {PAWN_possessive} задачи входили полёт со своего корабля сквозь пустоту космоса в сторону вражеского корабля, создание проходных отверстий и последующий захват в тесном бою. {PAWN_nameDef} {PAWN_gender ? добился : добилась} больших успехов в обращении с тяжёлым катафрактарским вооружением, позволявшим прорубаться как сквозь переборки, так и сквозь людей.\n\n{PAWN_pronoun} также {PAWN_gender ? получил : получила} зависимость от боевых наркотиков, которые выдавали команде перед особо тяжёлыми штурмами.</desc>
+		<desc>В {PAWN_possessive} задачи входили полёт со своего корабля сквозь пустоту космоса в сторону вражеского корабля, создание проходных отверстий и последующий захват в тесном бою. {PAWN_nameDef} {PAWN_gender ? добился : добилась} больших успехов в обращении с тяжёлым катафрактарским вооружением, позволявшим прорубаться как сквозь переборки, так и сквозь людей.\n\n{PAWN_pronoun} также {PAWN_gender ? получил : получила} зависимость от боевых стимуляторов, которые выдавали команде перед особо тяжёлыми штурмами.</desc>
 	</Shipcracker37>
 
 	<!-- ImperialFighter_Child -->
