@@ -12,7 +12,7 @@
 	<CreateT3Android.jobString>изготавливает андроида Т3</CreateT3Android.jobString>
 	<CreateT4Android.jobString>изготавливает андроида Т4</CreateT4Android.jobString>
 	<CreateCyberDog.jobString>изготавливает робопса К9</CreateCyberDog.jobString>
-	<CreateCyberMuff.jobString>изготавливает робуффало</CreateCyberMuff.jobString>
+	<CreateCyberMuff.jobString>изготавливает МУФФ</CreateCyberMuff.jobString>
 	<CreateCyberSheep.jobString>изготавливает Железного Овна</CreateCyberSheep.jobString>
 	<CreateCyberCow.jobString>изготавливает нутриентный дозатор</CreateCyberCow.jobString>
 	<CreateCyberChick.jobString>изготавливает химкапсулятор</CreateCyberChick.jobString>
@@ -611,9 +611,9 @@
 	<!-- Оригинал: Сделать K-9 кибернетическую единицу -->
 	<CreateCyberDog.label>изготовить робопса К9</CreateCyberDog.label>
 	<!-- Оригинал: Сделать M.U.F.F -->
-	<CreateCyberMuff.label>изготовить робуффало</CreateCyberMuff.label>
+	<CreateCyberMuff.label>изготовить МУФФ</CreateCyberMuff.label>
 	<!-- Оригинал: Сделать единицу M.U.F.F. из пластали и компонентов. единица M.U.F.F, которая чрезвычайно полезна для длительных поездок в караванах. -->
-	<CreateCyberMuff.description>Начать технологический процесс изготовления автономной шагающей машины модели «Робуффало», для подробностей нажмите на кнопку «Результат» или «i».</CreateCyberMuff.description>
+	<CreateCyberMuff.description>Начать технологический процесс изготовления автономной шагающей машины модели «МУФФ», для подробностей нажмите на кнопку «Результат» или «i».</CreateCyberMuff.description>
 	<!-- Оригинал: сделать Фитомайнинг -->
 	<CreateCyberSheep.label>изготовить Железного Овна</CreateCyberSheep.label>
 	<!-- Оригинал: Сделать пустую Фитоминирующую единицу из пластали и компонентов. Мобильный механизм, который производит металлическую шерсть ценой высокой скорости голода. -->
