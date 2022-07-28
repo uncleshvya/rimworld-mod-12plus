@@ -356,7 +356,7 @@
 	<ATPP_UseBattery>Использовать электро- энергию</ATPP_UseBattery>
 	<!-- Применимо и к робо-животным.
 	Оригинал: Если это включено, это заставит андройд использовать непосредственно внутреннюю батарею вместо генератора биомассы. -->
-	<ATPP_UseBatteryDesc>Если включено, робот будет заряжать свой аккумулятор от электросети, вместо того, чтобы загружать пищу в свой биореактор.</ATPP_UseBatteryDesc>
+	<ATPP_UseBatteryDesc>Если включено, существо будет заряжать свой аккумулятор от электросети, вместо того, чтобы загружать пищу в свой биореактор.</ATPP_UseBatteryDesc>
 	<!-- Оригинал: Ремонт Андроидов -->
 	<ATPP_RepairAndroids>Ремонт андроидов</ATPP_RepairAndroids>
 	<!-- Оригинал: ...этому колонисту ремонтировать... -->
@@ -390,7 +390,7 @@
 	<ATPP_UploadMakeAndroidBatteryOverloadConfirm>Перегрузка аккумулятора</ATPP_UploadMakeAndroidBatteryOverloadConfirm>
 	<!-- Применимо и к некоторых робо-животным.
 	Оригинал: Будьте осторожны при проверке, батарея выбранного андроида будет перегружена и взорвется через короткое время. Ты действительно хочешь продолжать? -->
-	<ATPP_UploadMakeAndroidBatteryOverloadConfirmDesc>Предупреждение: аккумулятор выбранного робота будет перегружен и очень скоро взорвётся. Вы действительно хотите продолжить?</ATPP_UploadMakeAndroidBatteryOverloadConfirmDesc>
+	<ATPP_UploadMakeAndroidBatteryOverloadConfirmDesc>Предупреждение: аккумулятор выбранного устройства будет перегружен и очень скоро взорвётся. Вы действительно хотите продолжить?</ATPP_UploadMakeAndroidBatteryOverloadConfirmDesc>
 	<!-- Оригинал: Перегрузка -->
 	<ATPP_OverloadAndroid>Взорвать</ATPP_OverloadAndroid>
 	<!-- Применимо и к робо-животным, кроме робо-куриц. Добавлен намёк, что аккумулятор нужен большой.
@@ -482,12 +482,12 @@
 	<!-- Оригинал: Случайные навыки -->
 	<ATPP_SettingsRandomSkillsMode>Если включено, у новых андроидов Т1 и Т2 будут увеличены несколько случайных умений</ATPP_SettingsRandomSkillsMode>
 	<!-- Оригинал: Энергетический режим андройда по умолчанию : -->
-	<ATPP_SettingsDefaultAndroidGeneratorMode>Энергетический режим роботов по умолчанию:</ATPP_SettingsDefaultAndroidGeneratorMode>
+	<ATPP_SettingsDefaultAndroidGeneratorMode>Режим питания по умолчанию:</ATPP_SettingsDefaultAndroidGeneratorMode>
 	<!-- Оригинал: Использование генератора биомассы (они едят) -->
-	<ATPP_SettingsDefaultAndroidGeneratorModeBiomass>Использование биореактора — роботы едят обычную пищу</ATPP_SettingsDefaultAndroidGeneratorModeBiomass>
+	<ATPP_SettingsDefaultAndroidGeneratorModeBiomass>Использование биореактора — андроиды и механические питомцы едят обычную пищу</ATPP_SettingsDefaultAndroidGeneratorModeBiomass>
 	<!-- Настройка не работает, вероятно в отключенном состоянии она действует как костыль для целеуказателя М7. 
 	Оригинал: Прямое использование внутренней батареи (они могут заряжаться от электросети) -->
-	<ATPP_SettingsDefaultAndroidGeneratorModeBattery>Использование электросети — роботы заряжаются с помощью специальных устройств (экспериментальная опция)</ATPP_SettingsDefaultAndroidGeneratorModeBattery>
+	<ATPP_SettingsDefaultAndroidGeneratorModeBattery>Электропитание — они заряжаются с помощью специальных устройств (экспериментальная опция)</ATPP_SettingsDefaultAndroidGeneratorModeBattery>
 	<!-- Оригинал: Процент риска того, что наниты не смогут восстановить андроидов ({0}%) -->
 	<ATPP_SettingsNanitePercentageFail>Шанс неудачного ремонта андроидов механитами: {0}%</ATPP_SettingsNanitePercentageFail>
 	<!-- Оригинал: ...станцией при перезагрузке {0} (пробел) -->
@@ -528,7 +528,7 @@
 	<ATPP_SettingsRansomwareSilverPerSkillLevel>Размер выкупа за восстановление умений, повреждённых вирусом навыков:</ATPP_SettingsRansomwareSilverPerSkillLevel>
 	<!-- На робо-животных и носителей чипов VX тоже действует.
 	Оригинал: Отключить негативное влияние солнечных вспышек на андроидов -->
-	<ATPP_SettingsDisableSolarFlareImpactOnAndroids>Отключить уменьшение функциональности роботов и поселенцев с чипами VX из-за солнечной вспышки</ATPP_SettingsDisableSolarFlareImpactOnAndroids>
+	<ATPP_SettingsDisableSolarFlareImpactOnAndroids>Солнечные вспышки ухудшают сознание андроидов, роботов и поселенцев с нейрочипами (имба из-за механоидов)</ATPP_SettingsDisableSolarFlareImpactOnAndroids>
 	<!-- Оригинал: Отключить вирусы и взломы через SkyMind -->
 	<ATPP_SettingsDisableSecurityStuff>Отключить вирусы и взломы через сеть SkyMind</ATPP_SettingsDisableSecurityStuff>
 	<!-- Оригинал: Минимальный процент суррогатов, которые могут присутствовать в группах других фракций ({0}%) -->
@@ -546,7 +546,7 @@
 	<ATPP_SettingsCostHackingPoints>Потребность в хакерских программах для атаки типа «{0}»:</ATPP_SettingsCostHackingPoints>
 	<!-- В определённые настройки (5 шт) былы добавлены избыточные описания, так так в интерфейсе было сложно понять, какая галочка к чему относится. В результате, тексты протянулись до галочек.
 	Оригинал: Во время солнечных вспышек андроиды сбиты -->
-	<ATPP_SettingsDuringSolarFlareAndroidsShouldBeDowned>Во время солнечных вспышек андроиды, механические питомцы и носители чипов VX обездвиживаются</ATPP_SettingsDuringSolarFlareAndroidsShouldBeDowned>
+	<ATPP_SettingsDuringSolarFlareAndroidsShouldBeDowned>Солнечные вспышки обездвиживают андроидов, роботов и поселенцев с нейрочипами (имба из-за механоидов)</ATPP_SettingsDuringSolarFlareAndroidsShouldBeDowned>
 	<!-- Оригинал: Отключить тревогу нагревания серверов -->
 	<ATPP_SettingsDisableServersAlarm>Отключить сигнал о перегреве серверов. Опасайтесь взрывов!</ATPP_SettingsDisableServersAlarm>
 	<!-- Оригинал: (пробел) (Применяется после... -->
@@ -579,7 +579,7 @@
 	<!-- Оригинал: Отключить возможность говорить для ядра SkyCloud -->
 	<ATPP_SettingsDisableAbilityOfSkyCloudServersToTalk>Отключить голосовые сообщения от ядер SkyCloud</ATPP_SettingsDisableAbilityOfSkyCloudServersToTalk>
 	<!-- Оригинал: Не удалять всечерты характера для андроидов T1 / T2 -->
-	<ATPP_SettingsNotRemoveAllTraitsOfBasicAndroids>Не удалять все черты характера для андроидов T1, T2. Если отключено, у Т1 будет только «Ограничение эмоций»</ATPP_SettingsNotRemoveAllTraitsOfBasicAndroids>
+	<ATPP_SettingsNotRemoveAllTraitsOfBasicAndroids>Не удалять черты характера у простых андроидов. Если отключено, у T1/T2 будет только «Ограничение эмоций»</ATPP_SettingsNotRemoveAllTraitsOfBasicAndroids>
 	<!-- Добавлена экспрессия, с целью усилить акцент на антропоморфность.
 	Оригинал: ...могут есть посадки/растения -->
 	<ATPP_SettingsAndroidsCanEatLivingPlants>Андроиды могут пастись — питаться живыми растениями наравне с дикими и домашними травоядными животными</ATPP_SettingsAndroidsCanEatLivingPlants>
