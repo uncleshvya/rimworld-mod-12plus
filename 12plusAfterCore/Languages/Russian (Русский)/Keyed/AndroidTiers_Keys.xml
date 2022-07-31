@@ -546,7 +546,7 @@
 	<ATPP_SettingsCostHackingPoints>Потребность в хакерских программах для атаки типа «{0}»:</ATPP_SettingsCostHackingPoints>
 	<!-- В определённые настройки (5 шт) былы добавлены избыточные описания, так так в интерфейсе было сложно понять, какая галочка к чему относится. В результате, тексты протянулись до галочек.
 	Оригинал: Во время солнечных вспышек андроиды сбиты -->
-	<ATPP_SettingsDuringSolarFlareAndroidsShouldBeDowned>Солнечные вспышки обездвиживают андроидов, роботов и поселенцев с нейрочипами (имба из-за механоидов)</ATPP_SettingsDuringSolarFlareAndroidsShouldBeDowned>
+	<ATPP_SettingsDuringSolarFlareAndroidsShouldBeDowned>Солнечные вспышки обездвиживают андроидов, роботов и поселенцев с нейрочипами (это имба из-за механоидов)</ATPP_SettingsDuringSolarFlareAndroidsShouldBeDowned>
 	<!-- Оригинал: Отключить тревогу нагревания серверов -->
 	<ATPP_SettingsDisableServersAlarm>Отключить сигнал о перегреве серверов. Опасайтесь взрывов!</ATPP_SettingsDisableServersAlarm>
 	<!-- Оригинал: (пробел) (Применяется после... -->
@@ -579,12 +579,12 @@
 	<!-- Оригинал: Отключить возможность говорить для ядра SkyCloud -->
 	<ATPP_SettingsDisableAbilityOfSkyCloudServersToTalk>Отключить голосовые сообщения от ядер SkyCloud</ATPP_SettingsDisableAbilityOfSkyCloudServersToTalk>
 	<!-- Оригинал: Не удалять всечерты характера для андроидов T1 / T2 -->
-	<ATPP_SettingsNotRemoveAllTraitsOfBasicAndroids>Не удалять черты характера у простых андроидов. Если отключено, у T1/T2 будет только «Ограничение эмоций»</ATPP_SettingsNotRemoveAllTraitsOfBasicAndroids>
+	<ATPP_SettingsNotRemoveAllTraitsOfBasicAndroids>Не удалять черты характера у простых андроидов. Если отключено, у T1 и T2 будет только «Ограничение эмоций»</ATPP_SettingsNotRemoveAllTraitsOfBasicAndroids>
 	<!-- Добавлена экспрессия, с целью усилить акцент на антропоморфность.
 	Оригинал: ...могут есть посадки/растения -->
 	<ATPP_SettingsAndroidsCanEatLivingPlants>Андроиды могут пастись — питаться живыми растениями наравне с дикими и домашними травоядными животными</ATPP_SettingsAndroidsCanEatLivingPlants>
 	<!-- Оригинал: Не удалять все увлечения навыков (огоньки) для андроидов T1 / T2 -->
-	<ATPP_SettingsNotRemoveSkillsPassionForBasicAndroids>Не удалять интерес для умений (огоньки) у андроидов T1, T2</ATPP_SettingsNotRemoveSkillsPassionForBasicAndroids>
+	<ATPP_SettingsNotRemoveSkillsPassionForBasicAndroids>Не удалять интерес для умений (огоньки) у андроидов T1 и T2</ATPP_SettingsNotRemoveSkillsPassionForBasicAndroids>
 	<!-- Оригинал: Максимальное число суррогатов контролируемых одновременно с помощью VX3 ({0}) -->
 	<ATPP_SettingsVX3MaxSurrogateControllableAtOnce>Чип VX3 может контролировать максимум {0} cуррогатов</ATPP_SettingsVX3MaxSurrogateControllableAtOnce>
 	<!-- Оригинал: Количество производимых очков (каждые 30 секунд) для {0} серверов навыков ({1}) -->
