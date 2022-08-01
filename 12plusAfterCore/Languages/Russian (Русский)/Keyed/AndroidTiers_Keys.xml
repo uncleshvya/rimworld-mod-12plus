@@ -3,7 +3,35 @@
 
 	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
 
-	Андроиды могут питаться от электричества. Здесь и далее подправлена ваниль.
+	Здесь сгруппированы переменные, которые не были прописаны для перевода.
+	EN: AndroidSpawnedt -->
+	<AndroidSpawnedt>Автоматическая сборка андроида завершена успешно</AndroidSpawnedt>
+	<!-- EN: Shooting -->
+	<Shooting>Дальний бой</Shooting>
+	<!-- EN: Melee -->
+	<Melee>Ближний бой</Melee>
+	<!-- EN: Construction -->
+	<Construction>Строительство</Construction>
+	<!-- EN: Mining -->
+	<Mining>Горное дело</Mining>
+	<!-- EN: Cooking -->
+	<Cooking>Кулинария</Cooking>
+	<!-- EN: Plants -->
+	<Plants>Растениеводство</Plants>
+	<!-- EN: Animals -->
+	<Animals>Зоотехника</Animals>
+	<!-- EN: Crafting -->
+	<Crafting>Ремесло</Crafting>
+	<!-- EN: Artistic -->
+	<Artistic>Искусство</Artistic>
+	<!-- EN: Medicine -->
+	<Medicine>Медицина</Medicine>
+	<!-- EN: Social -->
+	<Social>Общение</Social>
+	<!-- EN: Intellectual -->
+	<Intellectual>Умственный труд</Intellectual>
+
+	<!-- Андроиды могут питаться от электричества. Здесь и далее подправлена ваниль.
 	Оригинал: Голод -->
 	<Starvation>Недостаточное питание</Starvation>
 	<!-- Заодно добавлены подсказки.
@@ -633,9 +661,6 @@
 	Пока это не сделано, рекомендуется снять эту галочку в настройках.
 	Оригинал: Сохранить предысторию марионетки (VX0) -->
 	<ATPP_SettingsVX0KeepBodyBackstory>Сохранять предыстории поселенца, превращённого в суррогата посредством имплантирования чипа VX0</ATPP_SettingsVX0KeepBodyBackstory>
-	<!-- Переменная не была прописана для перевода.
-	EN: AndroidSpawnedt -->
-	<AndroidSpawnedt>Автоматическая сборка андроида завершена успешно</AndroidSpawnedt>
 
 	<!-- Исправление согласно концепции «12+».
 
