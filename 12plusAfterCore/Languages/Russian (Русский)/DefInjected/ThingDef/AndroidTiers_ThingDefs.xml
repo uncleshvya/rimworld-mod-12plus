@@ -128,6 +128,8 @@
 	<Corpse_RoboticSheep.description>Непригодный к ремонту Железный Овен.</Corpse_RoboticSheep.description>
 	<Corpse_RoboticCow.label>сломанный н. дозатор</Corpse_RoboticCow.label>
 	<Corpse_RoboticCow.description>Непригодный к ремонту нутриентный дозатор.</Corpse_RoboticCow.description>
+	<!-- Оригинал: Металлическая шерсть -->
+	<SteelWool.stuffProps.stuffAdjective>металлической пряжи</SteelWool.stuffProps.stuffAdjective>
 
 	<!-- Исправлена неточность, сообщите разработчику.
 
@@ -423,11 +425,12 @@
 	<CoolantAndroidTier.label>жидкость-теплоноситель</CoolantAndroidTier.label>
 
 	<!-- Все сыворотки адаптированы к стилю ванили.
-	Андроиды в этой версии мода АТ - машины, как и робо-животные. "Старость" - неправильное определение.
+	На данном этапе развития мода АТ, андроиды и робо-животные являются металлическими машинами, поэтому "старость" - неправильное определение.
+	Усилена разница с протезами, использующими гидроцилиндры.
 	Оригинал: Банк нанитов (гидравлические) -->
-	<ATPP_NanitesHydraulicSerum.label>сыворотка для гидравлики</ATPP_NanitesHydraulicSerum.label>
+	<ATPP_NanitesHydraulicSerum.label>сыворотка для насосов и клапанов</ATPP_NanitesHydraulicSerum.label>
 	<!-- Оригинал: Одноразовый банк нанитов, настроенный на ремонт сломанных гидравлических систем андроидов (связанных со старостью). -->
-	<ATPP_NanitesHydraulicSerum.description>Сыворотка с дозой механитов, запрограммированных на ремонт гидравлической системы, неисправной из-за усталости материалов.</ATPP_NanitesHydraulicSerum.description>
+	<ATPP_NanitesHydraulicSerum.description>Сыворотка с дозой механитов, запрограммированных на ремонт системы перекачивания жидкости. Применима только к неисправностям, вызванным усталостью материалов.</ATPP_NanitesHydraulicSerum.description>
 	<!-- Оригинал: Используйте эту нанитную сыворотку, чтобы исправить возрастные проблемы андроидов -->
 	<ATPP_NanitesHydraulicSerum.comps.CompUsable.useLabel>Восстановить изношенную гидравлику</ATPP_NanitesHydraulicSerum.comps.CompUsable.useLabel>
 	<!-- Оригинал: Банк нанитов (CPU) -->
@@ -439,7 +442,7 @@
 	<!-- Оригинал: Банк нанитов (охлаждение) -->
 	<ATPP_NanitesCoolingSerum.label>сыворотка для радиатора</ATPP_NanitesCoolingSerum.label>
 	<!-- Оригинал: Одноразовый банк нанитов, настроенный на ремонт сломанной системы охлаждения андроидов в случае перегрева (связанного со старостью). -->
-	<ATPP_NanitesCoolingSerum.description>Сыворотка с дозой механитов, запрограммированных на ремонт системы теплообмена, неисправной из-за усталости материалов.</ATPP_NanitesCoolingSerum.description>
+	<ATPP_NanitesCoolingSerum.description>Сыворотка с дозой механитов, запрограммированных на ремонт теплообменника, неисправного из-за усталости материалов.</ATPP_NanitesCoolingSerum.description>
 	<!-- Оригинал: Используйте эту нанитную сыворотку, чтобы исправить возрастные проблемы андроидов -->
 	<ATPP_NanitesCoolingSerum.comps.CompUsable.useLabel>Восстановить изношенную систему теплообмена</ATPP_NanitesCoolingSerum.comps.CompUsable.useLabel>
 	<!-- Оригинал: Банк нанитов (каркас) -->
