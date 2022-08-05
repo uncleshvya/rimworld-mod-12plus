@@ -128,8 +128,6 @@
 	<Corpse_RoboticSheep.description>Непригодный к ремонту Железный Овен.</Corpse_RoboticSheep.description>
 	<Corpse_RoboticCow.label>сломанный н. дозатор</Corpse_RoboticCow.label>
 	<Corpse_RoboticCow.description>Непригодный к ремонту нутриентный дозатор.</Corpse_RoboticCow.description>
-	<!-- Оригинал: Металлическая шерсть -->
-	<SteelWool.stuffProps.stuffAdjective>металлической пряжи</SteelWool.stuffProps.stuffAdjective>
 
 	<!-- Исправлена неточность, сообщите разработчику.
 
@@ -258,8 +256,9 @@
 	<!-- Оригинал: Создает андроида-колониста. -->
 	<SheepAndroidGeneratorAI.description>Автономная самообучающаяся машина, ранее известная под названием «электроовца». Добывает молекулы металла из железосодержащих минералов, содержащихся в почве и камнях. Готовая сталь выделяется в виде длинных нитей в верхней части корпуса.\n\nВстроенный биореактор работает на любой пище. При её отсутствии, Железный Овен может самостоятельно подзаряжаться от электросети через специальный разъём.</SheepAndroidGeneratorAI.description>
 	<!-- Отсылка к реальному материалу.
-	Оригинал: Металлическая шерсть -->
+	Оригиналы: Металлическая шерсть -->
 	<SteelWool.label>металлическая пряжа</SteelWool.label>
+	<SteelWool.stuffProps.stuffAdjective>металлической пряжи</SteelWool.stuffProps.stuffAdjective>
 
 	<!-- Проведена параллель с дозатором пасты.
 	Оригиналы: N.Solution -->
@@ -430,7 +429,7 @@
 	Оригинал: Банк нанитов (гидравлические) -->
 	<ATPP_NanitesHydraulicSerum.label>сыворотка для насосов и клапанов</ATPP_NanitesHydraulicSerum.label>
 	<!-- Оригинал: Одноразовый банк нанитов, настроенный на ремонт сломанных гидравлических систем андроидов (связанных со старостью). -->
-	<ATPP_NanitesHydraulicSerum.description>Сыворотка с дозой механитов, запрограммированных на ремонт системы перекачивания жидкости. Применима только к неисправностям, вызванным усталостью материалов.</ATPP_NanitesHydraulicSerum.description>
+	<ATPP_NanitesHydraulicSerum.description>Сыворотка с дозой механитов, запрограммированных на ремонт износившейся системы перекачивания жидкости. Применима только к неисправностям, вызванным усталостью материалов.</ATPP_NanitesHydraulicSerum.description>
 	<!-- Оригинал: Используйте эту нанитную сыворотку, чтобы исправить возрастные проблемы андроидов -->
 	<ATPP_NanitesHydraulicSerum.comps.CompUsable.useLabel>Восстановить изношенную гидравлику</ATPP_NanitesHydraulicSerum.comps.CompUsable.useLabel>
 	<!-- Оригинал: Банк нанитов (CPU) -->
