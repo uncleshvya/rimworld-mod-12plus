@@ -1,18 +1,21 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправлена неточность, сообщите разработчику ванили.
 
-  <!-- EN: A small herd of thrumbos have wandered into the area.\n\nPeaceful by nature, these rare creatures are extremely dangerous when confronted. Some traders are willing to pay a lot of money for their precious leather and horn.\n\nThrumbos will leave the area in a few days. -->
-  <LetterThrumboPasses>Небольшое стадо трумбо забрело в этот район.\n\nЭти редкие и миролюбивые по своей природе животные тем не менее чрезвычайно опасны при столкновении. Отчасти поэтому некоторые торговцы готовы заплатить огромные деньги за их драгоценные рога и шкуру.\n\nТрумбо покинут эту зону в течение нескольких дней.</LetterThrumboPasses>
+	Описание необходимо синхронизировать с PowerConnectedRateStored.
+	Оригинал: ...{0} Вт*дней энергии... -->
+	<ShortCircuitDischargedEnergy>Все {0} Wd (Ватт*день) энергии в подключённых аккумуляторах потеряны.</ShortCircuitDischargedEnergy>
 
-  <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <EscapeShipFound>Вы достигли места, координаты которого вам отправил (*Name)Шарлон Вайтстоун(/Name) и обнаружили замаскированный космический корабль.\n\nБеглый осмотр выявил, что на текущий момент взлёт невозможен, поскольку реактор корабля в неактивном состоянии. Вы можете запустить его, отправив команду с компьютерного ядра.\n\nОднако (*Name)Шарлон Вайтстоун(/Name) предупреждает, что процесс запуска займёт около 15 дней, а сопутствующие всплески энергии будут заметны с большого расстояния и демаскируют расположение корабля. Эти всплески характерны для подготовки к межзвёздному перелёту, и привлекут к себе внимание банд отчаянных налётчиков и орд предельно опасных механоидов.\n\nНа вас будут нападать с яростью, которой вы можете не ожидать. Перед запуском стоит как следует подготовиться к обороне.</EscapeShipFound>
+	<!-- Исправление согласно концепции «12+».
 
-  <!-- EN: not tainted -->
-  <NotTainted>не испачканные кровью</NotTainted>
-
-  <!-- EN: The quest is now incompletable because {SUBJECT_definite} has died. -->
-  <LetterQuestAskerDied>Задание невозможно завершить, поскольку {SUBJECT_definite} {SUBJECT_gender ? проиграл : проиграла}.</LetterQuestAskerDied>
+	Оригинал: ...рога и кожу.\n\nТрумбо... -->
+	<LetterThrumboPasses>Небольшое стадо трумбо забрело в этот район.\n\nЭти редкие и миролюбивые по своей природе животные тем не менее чрезвычайно опасны при столкновении. Отчасти поэтому некоторые торговцы готовы заплатить огромные деньги за их драгоценные рога и шкуру.\n\nТрумбо покинут эту зону в течение нескольких дней.</LetterThrumboPasses>
+	<!-- Оригинал: ...орд смертельно опасных... -->
+	<EscapeShipFound>Вы достигли места, координаты которого вам отправил (*Name)Шарлон Вайтстоун(/Name) и обнаружили замаскированный космический корабль.\n\nБеглый осмотр выявил, что на текущий момент взлёт невозможен, поскольку реактор корабля в неактивном состоянии. Вы можете запустить его, отправив команду с компьютерного ядра.\n\nОднако (*Name)Шарлон Вайтстоун(/Name) предупреждает, что процесс запуска займёт около 15 дней, а сопутствующие всплески энергии будут заметны с большого расстояния и демаскируют расположение корабля. Эти всплески характерны для подготовки к межзвёздному перелёту, и привлекут к себе внимание банд отчаянных налётчиков и орд предельно опасных механоидов.\n\nНа вас будут нападать с яростью, которой вы можете не ожидать. Перед запуском стоит как следует подготовиться к обороне.</EscapeShipFound>
+	<!-- Оригинал: не с трупа -->
+	<NotTainted>не испачканные кровью</NotTainted>
+	<!-- Оригинал: ...{SUBJECT_gender ? погиб : погибла}. -->
+	<LetterQuestAskerDied>Задание невозможно завершить, поскольку {SUBJECT_definite} {SUBJECT_gender ? проиграл : проиграла}.</LetterQuestAskerDied>
 
 </LanguageData>
