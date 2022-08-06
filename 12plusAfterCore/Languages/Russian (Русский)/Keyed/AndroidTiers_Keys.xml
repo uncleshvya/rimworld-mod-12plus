@@ -253,6 +253,9 @@
 	<ATPP_IncidentSurrogateHackingCryptolocker>Вирус-шифровальщик для суррогатов</ATPP_IncidentSurrogateHackingCryptolocker>
 	<!-- Оригинал: SX Взрывоопасный вирус -->
 	<ATPP_IncidentSurrogateHackingExplosiveVirus>Взрывоопасный вирус для суррогатов</ATPP_IncidentSurrogateHackingExplosiveVirus>
+	<!-- Инцидент бывает и у суррогатов гостей.
+	Ваша система...суррогатов {0} были взломаны -->
+	<ATPP_IncidentSurrogateHackingLiteDesc>Система безопасности нейтрализовала часть атаки, однако некоторые подсистемы суррогатов были взломаны ({0} элементов).</ATPP_IncidentSurrogateHackingLiteDesc>
 	<!-- Суррогаты бывают биологические.
 	Оригинал: ...защищает весь ваш парк суррогатных андроидов, операционные системы {0} андроидов полностью подвержены... -->
 	<ATPP_IncidentSurrogateHackingHardDesc>Ваша система безопасности не защищает всех суррогатов, и {0} из них подвержены риску взлома.</ATPP_IncidentSurrogateHackingHardDesc>
@@ -282,7 +285,7 @@
 	<!-- Оригинал: Нет ремонта -->
 	<ATPP_NanoKitsNoCare>Не ремонтировать</ATPP_NanoKitsNoCare>
 	<!-- Оригинал: Визит техника без нанокитов -->
-	<ATPP_NanoKitsNoKitJustVisit>Ремонтировать без нанокитов</ATPP_NanoKitsNoKitJustVisit>
+	<ATPP_NanoKitsNoKitJustVisit>Ремонтировать без наноинструментов</ATPP_NanoKitsNoKitJustVisit>
 	<!-- Оригинал: без "ё" -->
 	<ATPP_SkyMindDetected>Подключён к SkyMind</ATPP_SkyMindDetected>
 	<!-- Оригинал: ...управляется {0} -->
@@ -579,8 +582,11 @@
 	<ATPP_SettingsDisableServersAlarm>Отключить сигнал о перегреве серверов. Опасайтесь взрывов!</ATPP_SettingsDisableServersAlarm>
 	<!-- Оригинал: (пробел) (Применяется после... -->
 	<ATPP_SettingsAppliedToNextSaveLoading> (настройка применится после перезагрузки карты)</ATPP_SettingsAppliedToNextSaveLoading>
-	<!-- Оригинал: ...SkyMind -->
-	<ATPP_SettingsDisableLowNetworkMalus>Отключить штраф слабого соединения с сетью SkyMind для поселений. Это чит, потому что караваны не пострадают</ATPP_SettingsDisableLowNetworkMalus>
+	<!-- Сглажена путаница с включением настройки.
+	Оригинал: Отключить штраф...SkyMind -->
+	<ATPP_SettingsDisableLowNetworkMalusInCaravans>Убрать штраф слабого соединения с сетью SkyMind для караванов (чит, если включена, а следующая выключена)</ATPP_SettingsDisableLowNetworkMalusInCaravans>
+	<!-- Оригинал: Отключить штраф...SkyMind -->
+	<ATPP_SettingsDisableLowNetworkMalus>Убрать штраф слабого соединения с сетью SkyMind для поселений</ATPP_SettingsDisableLowNetworkMalus>
 	<!-- Настройка касается только суррогатов, для просмотра всех подключённых устройств нужно выбрать антенну.
 	Оригинал: ...значок в верхней части устройств с дистанционным управлением -->
 	<ATPP_SettingsHideRemotelyControlledIcon>Скрыть значок подключения над суррогатами под управлением</ATPP_SettingsHideRemotelyControlledIcon>
