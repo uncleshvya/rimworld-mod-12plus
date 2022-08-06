@@ -450,20 +450,21 @@
 	<ATPP_NanitesFrameSerum.description>Сыворотка с дозой механитов, запрограммированных на ремонт каркаса андроида, потрескавшегося из-за усталости материалов.</ATPP_NanitesFrameSerum.description>
 	<!-- Оригинал: Используйте эту нанитную сыворотку, чтобы исправить возрастные проблемы андроидов -->
 	<ATPP_NanitesFrameSerum.comps.CompUsable.useLabel>Восстановить изношенный каркас</ATPP_NanitesFrameSerum.comps.CompUsable.useLabel>
-	<!-- Доработана классификация.
-	Пробел приводил к красной ошибке в описании автоматически сгенерироанного рецепта.
+	<!-- Пробел приводил к красной ошибке в описании автоматически сгенерироанного рецепта.
+	Нужно множественное число, для MessageTooLowMedCare.
+	Доработана классификация.
 	Оригинал: Базовый нанокит (пробел) -->
-	<ATPP_AndroidNanokitBasic.label>зелёный нанокит</ATPP_AndroidNanokitBasic.label>
+	<ATPP_AndroidNanokitBasic.label>зелёные наноинструменты</ATPP_AndroidNanokitBasic.label>
 	<!-- В этой игре нанороботы называются механитами.
 	Нанокиты применимы и к робо-животным.
 	Оригинал: Набор, содержащий наноботов для лечения ран андроидов -->
 	<ATPP_AndroidNanokitBasic.description>Ремонтный набор, содержащий механитов для починки основных повреждений у автономных шагающих машин.</ATPP_AndroidNanokitBasic.description>
 	<!-- Оригинал: Средний нанокит -->
-	<ATPP_AndroidNanokitIntermediate.label>синий нанокит</ATPP_AndroidNanokitIntermediate.label>
+	<ATPP_AndroidNanokitIntermediate.label>синие наноинструменты</ATPP_AndroidNanokitIntermediate.label>
 	<!-- Оригинал: Набор, содержащий наноботов для лечения ран андроидов -->
 	<ATPP_AndroidNanokitIntermediate.description>Ремонтный набор, содержащий механитов для починки серьёзных повреждений у автономных шагающих машин.</ATPP_AndroidNanokitIntermediate.description>
 	<!-- Оригинал: Расширенный нанокит -->
-	<ATPP_AndroidNanokitAdvanced.label>серый нанокит</ATPP_AndroidNanokitAdvanced.label>
+	<ATPP_AndroidNanokitAdvanced.label>серые наноинструменты</ATPP_AndroidNanokitAdvanced.label>
 	<!-- Оригинал: Набор, содержащий наноботов для лечения ран андроидов -->
 	<ATPP_AndroidNanokitAdvanced.description>Ремонтный набор, содержащий механитов, могущих спасти автономную шагающую машину от поездки на свалку.</ATPP_AndroidNanokitAdvanced.description>
 
