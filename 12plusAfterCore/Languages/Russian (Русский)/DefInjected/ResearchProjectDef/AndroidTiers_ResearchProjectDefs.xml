@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
 	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
@@ -155,15 +155,16 @@
 	<!-- Оригинал: Позволяют заряжать до 8 андроидов одновременно непосредственно на их внутренней батарее, а не через их генератор биомассы. -->
 	<ATPP_ResearchCharchingStation.description>Спроектируйте место групповой зарядки автономных шагающих машин от электросети, на случай одновременного отключения нескольких биореакторов.</ATPP_ResearchCharchingStation.description>
 	<!-- Оригинал: Базовый нанокит -->
-	<ATPP_ResearchCraftBasicNanoKit.label>зелёный нанокит</ATPP_ResearchCraftBasicNanoKit.label>
-	<!-- Оригинал: Позволит вам создать базовый нанокит, необходимый для восстановления ваших поврежденных андроидов -->
+	<ATPP_ResearchCraftBasicNanoKit.label>наноинструменты</ATPP_ResearchCraftBasicNanoKit.label>
+	<!-- Применимо и для механических питомцев.
+	Оригинал: Позволит вам создать базовый нанокит, необходимый для восстановления ваших поврежденных андроидов -->
 	<ATPP_ResearchCraftBasicNanoKit.description>Разработайте ремонтных механитов для ускорения процессов самовосстановления в автономных шагающих машинах.</ATPP_ResearchCraftBasicNanoKit.description>
 	<!-- Оригинал: Средний нанокит -->
-	<ATPP_ResearchCraftIntermediateNanoKit.label>синий нанокит</ATPP_ResearchCraftIntermediateNanoKit.label>
+	<ATPP_ResearchCraftIntermediateNanoKit.label>улучшенные наноинструменты</ATPP_ResearchCraftIntermediateNanoKit.label>
 	<!-- Оригинал: Позволит вам создать средний нанокит, необходимый для восстановления ваших поврежденных андроидов -->
 	<ATPP_ResearchCraftIntermediateNanoKit.description>Улучшите ремонтных механитов, чтобы они могли чинить серьёзные поломки шагающих машин.</ATPP_ResearchCraftIntermediateNanoKit.description>
 	<!-- Оригинал: Расширенный нанокит -->
-	<ATPP_ResearchCraftAdvancedNanoKit.label>серый нанокит</ATPP_ResearchCraftAdvancedNanoKit.label>
+	<ATPP_ResearchCraftAdvancedNanoKit.label>прецизионные наноинструменты</ATPP_ResearchCraftAdvancedNanoKit.label>
 	<!-- Оригинал: Позволит вам создать расширенный нанокит, необходимый для восстановления ваших поврежденных андроидов -->
 	<ATPP_ResearchCraftAdvancedNanoKit.description>Спроектируйте таких ремонтных механитов, чтобы они могли спасать даже безнадёжно сломанные шагающие машины.</ATPP_ResearchCraftAdvancedNanoKit.description>
 	<!-- Оригинал: Лечение неисправности старости -->
