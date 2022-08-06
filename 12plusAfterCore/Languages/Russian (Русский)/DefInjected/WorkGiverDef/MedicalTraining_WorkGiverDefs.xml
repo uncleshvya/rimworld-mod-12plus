@@ -6,7 +6,7 @@
 	EN: medicine training -->
 	<IF_TrainingMedicine.label>обучаться медицине</IF_TrainingMedicine.label>
 	<!-- EN: training -->
-	<IF_TrainingMedicine.gerund>Обучаться медицине, используя</IF_TrainingMedicine.gerund>
+	<IF_TrainingMedicine.gerund>Обучаться анатомии, используя</IF_TrainingMedicine.gerund>
 	<!-- EN: train -->
 	<IF_TrainingMedicine.verb>обучаться медицине здесь</IF_TrainingMedicine.verb>
 
