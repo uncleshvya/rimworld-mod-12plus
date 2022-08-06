@@ -95,7 +95,7 @@
 	<ATPP_Make_VX3Chip.jobString>изготавливает нейрочип VX3</ATPP_Make_VX3Chip.jobString>
 	<!-- Лучше конкретизировать тип сыворотки.
 	Оригиналы: Making android nanite serum -->
-	<ATPP_Make_NanitesHydraulicSerum.jobString>изготавливает сыворотку для гидравлики</ATPP_Make_NanitesHydraulicSerum.jobString>
+	<ATPP_Make_NanitesHydraulicSerum.jobString>изготавливает сыворотку для насосов и клапанов</ATPP_Make_NanitesHydraulicSerum.jobString>
 	<ATPP_Make_NanitesCPUSerum.jobString>изготавливает сыворотку для искусственного мозга</ATPP_Make_NanitesCPUSerum.jobString>
 	<ATPP_Make_NanitesCoolingSerum.jobString>изготавливает сыворотку для радиатора</ATPP_Make_NanitesCoolingSerum.jobString>
 	<ATPP_Make_NanitesFrameSerum.jobString>изготавливает сыворотку для каркаса</ATPP_Make_NanitesFrameSerum.jobString>
@@ -728,7 +728,7 @@
 	<!-- Оригинал: Создайте чип VX3, позволяющий хосту удаленно управлять несколькими андроидами или биологическими суррогатами серии SX одновременно и дублировать / переставлять их разум. -->
 	<ATPP_Make_VX3Chip.description>Начать технологическую последовательность по изготовлению нейронного чипа, для подробностей нажмите на кнопку «Результат» или «i».</ATPP_Make_VX3Chip.description>
 	<!-- Оригинал: Сделать нанитовый слот (гидравлический) -->
-	<ATPP_Make_NanitesHydraulicSerum.label>изготовить сыворотку для гидравлики</ATPP_Make_NanitesHydraulicSerum.label>
+	<ATPP_Make_NanitesHydraulicSerum.label>изготовить сыворотку для насосов и клапанов</ATPP_Make_NanitesHydraulicSerum.label>
 	<!-- Оригинал: Создание андроидной гидравлической нанитовой сыворотки, позволяющей восстанавливать проблемы андроида(связанные со старостью). -->
 	<ATPP_Make_NanitesHydraulicSerum.description>Начать технологический процесс изготовления сыворотки, исправляющей редкие поломки андроидов, для подробностей нажмите на кнопку «Результат» или «i».</ATPP_Make_NanitesHydraulicSerum.description>
 	<!-- Оригинал: Сделать нанитовый слот (CPU) -->
@@ -1128,11 +1128,11 @@
 	<!-- Оригинал: Покрасить каркас андроида в голубой. -->
 	<ATPP_PaintAndroidFrameworkCyan.description>Выполнить техобслуживание андроида: очистить суставы от пыли и покрасить металлические поверхности в голубой цвет.</ATPP_PaintAndroidFrameworkCyan.description>
 	<!-- Оригинал: Ввести банк гидравлических нанитов -->
-	<ATPP_ApplyHydraulicNaniteBank.label>ввести сыворотку для гидравлики</ATPP_ApplyHydraulicNaniteBank.label>
+	<ATPP_ApplyHydraulicNaniteBank.label>ввести сыворотку для насосов и клапанов</ATPP_ApplyHydraulicNaniteBank.label>
 	<!-- Оригинал: Ввести одноразовую дозу нанитов, настроенных на ремонт сломанных гидравлических систем андроида. -->
 	<ATPP_ApplyHydraulicNaniteBank.description>Ввести андроиду одноразовую сыворотку с механитами. Для подробностей нажмите на ячейку «Ингредиенты».</ATPP_ApplyHydraulicNaniteBank.description>
 	<!-- Оригинал: Исправление возрастных проблем андроидов с помощью сыворотки нанитов -->
-	<ATPP_ApplyHydraulicNaniteBank.jobString>вводит сыворотку для гидравлики</ATPP_ApplyHydraulicNaniteBank.jobString>
+	<ATPP_ApplyHydraulicNaniteBank.jobString>вводит сыворотку для насосов и клапанов</ATPP_ApplyHydraulicNaniteBank.jobString>
 	<!-- Оригинал: Ввести банк корпусных нанитов -->
 	<ATPP_ApplyHealFrameworkSystem.label>ввести сыворотку для каркаса</ATPP_ApplyHealFrameworkSystem.label>
 	<!-- Оригинал: Ввести дозу одноразового банка нанитов, настроенного на восстановление сломанного экзоскелета андроида. -->
