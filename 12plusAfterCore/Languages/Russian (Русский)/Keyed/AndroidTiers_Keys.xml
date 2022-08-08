@@ -118,8 +118,9 @@
 	<CantInteractAnimalAsleep>существо спит</CantInteractAnimalAsleep>
 	<!-- Оригинал: животное занято -->
 	<CantInteractAnimalBusy>существо занято</CantInteractAnimalBusy>
-	<!-- Оригинал: самолечение недоступно -->
-	<SelfTendDisabled>помощь себе не назначена</SelfTendDisabled>
+	<!-- Связано с DoctorTendToSelf.verb
+	Оригинал: самолечение недоступно -->
+	<SelfTendDisabled>не назначена «Помощь себе» во вкладке «Здоровье»</SelfTendDisabled>
 	<!-- Оригинал: ...кроватей для животных в местах... -->
 	<NoAnimalBed>Нет доступных свободных кроватей для питомцев в местах с безопасной температурой.</NoAnimalBed>
 
