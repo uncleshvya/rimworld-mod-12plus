@@ -18,6 +18,9 @@
 	<ScarificationCeremony.description>В зависимости от качества ритуала настроение участников изменится на величину от {MINMOOD} до {MAXMOOD} на {MOODDAYS_numCase ? день : дня : дней}.</ScarificationCeremony.description>
 	<!-- Оригинал: Если {0} пройдёт... -->
 	<CelebrationPartyDanceDrum.extraPredictedOutcomeDescriptions.0>Если ритуал «{0}» пройдёт весело или незабываемо, участники могут получить временный бонус к скорости работы.</CelebrationPartyDanceDrum.extraPredictedOutcomeDescriptions.0>
+	<!-- Связано с RitualAttachedOutcomesInfo и с CelebrationSkyLanterns.shortDescOverride. Приоритет от единообразия смещён в сторону красоты повествования.
+	Оригинал: (пробел) Если {0} пройдёт... -->
+	<CelebrationSkyLanterns.extraPredictedOutcomeDescriptions.0>Если ритуал пройдёт красиво или незабываемо, небесные фонарики могут привлечь группу дружелюбных путешественников.</CelebrationSkyLanterns.extraPredictedOutcomeDescriptions.0>
 	<!-- Оригинал: ...настроение его участников... -->
 	<Execution.description>Подавленность наблюдающих рабов составит 100%. В зависимости от качества ритуала настроение участников изменится на величину от {MINMOOD} до {MAXMOOD} на {MOODDAYS_numCase ? день : дня : дней}.</Execution.description>
 	<!-- Оригиналы: без неразрывных пробелов -->
