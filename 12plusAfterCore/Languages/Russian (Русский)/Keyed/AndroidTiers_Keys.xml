@@ -93,12 +93,24 @@
 	<!-- Оригинал: ...Некоторые животные или пленники хотели...положении.\n\nЖивотные, пленники...могут взять в плен враги... -->
 	<ConfirmMoveAutoJoinableCaravan>Некоторые зависимые существа хотели бы присоединиться к вашему каравану. Если вы двинетесь в путь, они окажутся в безвыходном положении.\n\nПленники в оковах и неспособные ходить поселенцы будут считаться оставленными на произвол судьбы, и их могут захватить враги.\n\nВы уверены, что хотите двинуться в путь?</ConfirmMoveAutoJoinableCaravan>
 
+	<!-- Из файла Enums.xml
+	Оригинал: Без медицинской помощи -->
+	<MedicalCareCategory_NoCare>Не оказывать помощь</MedicalCareCategory_NoCare>
+	<!-- Оригинал: Врачебный уход без лекарств -->
+	<MedicalCareCategory_NoMeds>Помощь без специальных средств</MedicalCareCategory_NoMeds>
+	<!-- Оригинал: Лечение лекарственными травами -->
+	<MedicalCareCategory_HerbalOrWorse>Помощь простыми средствами</MedicalCareCategory_HerbalOrWorse>
+	<!-- Оригинал: Лечение медикаментами индустриальной эры -->
+	<MedicalCareCategory_NormalOrWorse>Помощь стандартными средствами</MedicalCareCategory_NormalOrWorse>
+	<!-- Оригинал: Лечение передовыми медикаментами -->
+	<MedicalCareCategory_Best>Помощь лучшими средствами</MedicalCareCategory_Best>
 	<!-- Оригинал: животные -->
 	<TechLevel_Animal>стая</TechLevel_Animal>
 	<!-- Оригинал: Названия животных -->
 	<ShowAnimalNames>Имена питомцев</ShowAnimalNames>
 
-	<!-- Оригинал: животное обучалось... -->
+	<!-- Из файла FloatMenu.xml
+	Оригинал: животное обучалось... -->
 	<AnimalInteractedTooRecently>существо обучалось совсем недавно</AnimalInteractedTooRecently>
 	<!-- Оригинал: ...навык Животноводства, требуется... -->
 	<AnimalsSkillTooLow>низкий навык Зоотехники, требуется {0}</AnimalsSkillTooLow>
@@ -106,6 +118,8 @@
 	<CantInteractAnimalAsleep>существо спит</CantInteractAnimalAsleep>
 	<!-- Оригинал: животное занято -->
 	<CantInteractAnimalBusy>существо занято</CantInteractAnimalBusy>
+	<!-- Оригинал: самолечение недоступно -->
+	<SelfTendDisabled>помощь себе не назначена</SelfTendDisabled>
 	<!-- Оригинал: ...кроватей для животных в местах... -->
 	<NoAnimalBed>Нет доступных свободных кроватей для питомцев в местах с безопасной температурой.</NoAnimalBed>
 
@@ -128,6 +142,17 @@
 	<!-- Оригинал: Животное, {0}, становится... -->
 	<LetterAnimalSelfTameAndName>Дикое существо, {0}, становится ручным. Поселенцы дают ему кличку: {ANIMAL_nameFull}.</LetterAnimalSelfTameAndName>
 
+	<!-- Из файла ITabs.xml
+	Оригинал: Врачебный уход -->
+	<DoctorsCare>Помощь при ранениях</DoctorsCare>
+	<!-- Оригинал: Получает медикаменты -->
+	<GetsMedicine>Использовать средства</GetsMedicine>
+	<!-- Оригинал: Медицинские процедуры -->
+	<MedicalOperations>Назначенные процедуры</MedicalOperations>
+	<!-- Оригинал: Самолечение -->
+	<SelfTend>Помощь себе</SelfTend>
+	<!-- Оригинал: ...самостоятельно лечиться на... -->
+	<SelfTendTip>{0} будут самостоятельно оказывать себе помощь на месте, до эффективности в {1} от нормальной.</SelfTendTip>
 	<!-- Оригинал: Животные -->
 	<CaravanAnimals>Питомцы</CaravanAnimals>
 	<!-- Оригинал: вьючные животные -->
@@ -146,15 +171,22 @@
 	<!-- Оригинал: Животные могут... -->
 	<AnimalsCanGrazeNow>Травоядные существа могут пастись</AnimalsCanGrazeNow>
 
-	<!-- Оригинал: ...указать приручённое животное, принадлежащее поселению. -->
+	<!-- Из файла Messages.xml
+	Оригинал: ...указать приручённое животное, принадлежащее поселению. -->
 	<MessageMustDesignateSlaughterable>Нужно указать питомца, принадлежащего поселению.</MessageMustDesignateSlaughterable>
 	<!-- Оригинал: ...мест для животных. -->
 	<MessageNoAnimalBeds>Нет доступных спальных мест для питомцев.</MessageNoAnimalBeds>
+	<!-- Оригинал: ...получает медицинскую помощь — «{2}». -->
+	<MessageTooLowMedCare>Для операции требуются хотя бы {0}, а текущий режим, в котором {PAWN_labelShort} получает уход — «{2}».</MessageTooLowMedCare>
 	<!-- Оригинал: ...Лучший животновод, {HANDLER_labelShort}... -->
 	<MessageNoHandlerSkilledEnough>Никто не сможет приручить {ANIMAL_kindBase}. Требуется {2} уровня {1}. Лучший зоотехник, {HANDLER_labelShort}, имеет уровень {4}.</MessageNoHandlerSkilledEnough>
 	<!-- Это что ли устаревшее сообщение? Проанализировать условия его генерации в отношении пленников. Может, имеет смысл изменить ваниль.
 	Оригинал: Ваши животные присоединяются к нему. -->
 	<MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>Существа присоединяются к нему.</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
+	<!-- Оригинал: Чтобы выполнять самолечение, {1_labelShort}... -->
+	<MessageSelfTendUnsatisfied>Чтобы оказывать себе помощь, {1_labelShort} {1_gender ? должен : должна} быть {1_gender ? назначен : назначена} Врачом.</MessageSelfTendUnsatisfied>
+	<!-- Оригинал: ...включая самолечение. -->
+	<MessageCannotSelfTendEver>{1_labelShort} не в состоянии выполнять работу Врача, включая помощь себе.</MessageCannotSelfTendEver>
 
 	<!-- Для сглаживания разницы между животным мясом и белком робо-коровы.
 	Оригинал: Сырое мясо. Может быть приготовлено или съедено в сыром виде. -->
@@ -584,7 +616,7 @@
 	<ATPP_SettingsAppliedToNextSaveLoading> (настройка применится после перезагрузки карты)</ATPP_SettingsAppliedToNextSaveLoading>
 	<!-- Сглажена путаница с включением настройки.
 	Оригинал: Отключить штраф...SkyMind -->
-	<ATPP_SettingsDisableLowNetworkMalusInCaravans>Убрать штраф слабого соединения с сетью SkyMind для караванов (чит, если включена, а следующая выключена)</ATPP_SettingsDisableLowNetworkMalusInCaravans>
+	<ATPP_SettingsDisableLowNetworkMalusInCaravans>Убрать штраф слабого соединения с сетью SkyMind для караванов (это чит, если включена, а следующая выключена)</ATPP_SettingsDisableLowNetworkMalusInCaravans>
 	<!-- Оригинал: Отключить штраф...SkyMind -->
 	<ATPP_SettingsDisableLowNetworkMalus>Убрать штраф слабого соединения с сетью SkyMind для поселений</ATPP_SettingsDisableLowNetworkMalus>
 	<!-- Настройка касается только суррогатов, для просмотра всех подключённых устройств нужно выбрать антенну.
