@@ -13,8 +13,11 @@
 	<DoBillsMakeWeapons.gerund>Ковать на</DoBillsMakeWeapons.gerund>
 	<!-- Оригинал: изготавливать оружие на -->
 	<DoBillsMakeWeapons.verb>ковать</DoBillsMakeWeapons.verb>
+	<!-- Заодно сглажены ссылки на лечение - для модов на неявно живых существ.
+	Оригиналы: лечить себя -->
+	<DoctorTendToSelf.verb>оказать себе помощь для</DoctorTendToSelf.verb>
+	<DoctorTendToSelfEmergency.verb>оказать себе помощь для</DoctorTendToSelfEmergency.verb>
 	<!-- Убрана путаница с DoctorTendToSelf.label - две одинаковых работы в списке выглядели как баг.
-	Заодно сглажена ссылка на лечение - для модов на неявно живых существ
 	Оригинал: лечить себя -->
 	<DoctorTendToSelfEmergency.label>оказывать себе неотложную помощь</DoctorTendToSelfEmergency.label>
 	<!-- Есть 3 разных переменные, с одинаковым герундием "Вести". Сделана попытка их переименовать:
