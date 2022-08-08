@@ -14,8 +14,9 @@
 	<!-- Оригинал: изготавливать оружие на -->
 	<DoBillsMakeWeapons.verb>ковать</DoBillsMakeWeapons.verb>
 	<!-- Убрана путаница с DoctorTendToSelf.label - две одинаковых работы в списке выглядели как баг.
+	Заодно сглажена ссылка на лечение - для модов на неявно живых существ
 	Оригинал: лечить себя -->
-	<DoctorTendToSelfEmergency.label>проводить неотложное самолечение</DoctorTendToSelfEmergency.label>
+	<DoctorTendToSelfEmergency.label>оказывать себе неотложную помощь</DoctorTendToSelfEmergency.label>
 	<!-- Есть 3 разных переменные, с одинаковым герундием "Вести". Сделана попытка их переименовать:
 	RebalanceAnimalsInPens.gerund - Вести в новый загон
 	TakeRoamingAnimalsToPen.gerund - Ловить убредающее животное
