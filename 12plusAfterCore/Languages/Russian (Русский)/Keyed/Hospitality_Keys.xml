@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Описание необходимо синхронизировать с DeathAcidifier.
+	Оригинал: ...{PAWN_possessive} посмертный растворитель -->
+	<ForceAcidifierWarning>\n\nЭто активирует {PAWN_possessive} растворитель снаряжения.</ForceAcidifierWarning>
+
+</LanguageData>
