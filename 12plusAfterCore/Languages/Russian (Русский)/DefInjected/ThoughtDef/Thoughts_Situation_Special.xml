@@ -1,9 +1,18 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправлена неточность, сообщите разработчику ванили.
 
-  <!-- EN: One of us died and we're just leaving them lying in the open. Nobody should be left like that. People deserve a decent burial. -->
-  <ColonistLeftUnburied.stages.colonist_left_unburied.description>Мы потеряли одного из нас и бросили его останки под открытым небом. Так нельзя. Люди заслуживают достойных похорон.</ColonistLeftUnburied.stages.colonist_left_unburied.description>
+	Мысль появляется и при потере челюсти.
+	Оригинал: нет языка -->
+	<MissingTongue.stages.missing_tongue.label>не может говорить</MissingTongue.stages.missing_tongue.label>
+	<!-- Оригинал: ...хватает моего языка. Не иметь... -->
+	<MissingTongue.stages.missing_tongue.description>Мне не хватает органа речи. Не иметь возможности сказать хоть слово — это так обидно!</MissingTongue.stages.missing_tongue.description>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Заодно сглажена ссылка на людей - для модов на другие расы.
+	Оригинал: Один из нас умер и мы бросили его под...нельзя. Люди заслуживают... -->
+	<ColonistLeftUnburied.stages.colonist_left_unburied.description>Мы потеряли одного из наших и бросили его останки под открытым небом. Так нельзя. Каждый из нас заслуживает достойных похорон.</ColonistLeftUnburied.stages.colonist_left_unburied.description>
 
 </LanguageData>
