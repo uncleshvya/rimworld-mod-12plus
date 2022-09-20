@@ -10,7 +10,7 @@
 		<titleShort>поселенец</titleShort>
 		<titleShortFemale>поселенка</titleShortFemale>
 		<!-- EN: [PAWN_nameDef] was a settler on a new colony world.\n\nSuch a life requires a jack-of-all trades at basic hands-on tasks. -->
-		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} поселенцем в одном из колониальных миров.\n\nОт такой жизни быстро становишься мастером на все руки.</desc>
+		<desc>{PAWN_nameDef} {PAWN_gender ? был : была} поселенцем на одном из колониальных миров.\n\nОт такой жизни быстро становишься мастером на все руки.</desc>
 	</ColonySettler53>
 
 	<!-- Offworld_Medieval_Adult -->
