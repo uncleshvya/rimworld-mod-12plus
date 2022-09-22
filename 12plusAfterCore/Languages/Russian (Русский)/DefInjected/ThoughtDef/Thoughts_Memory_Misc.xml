@@ -56,21 +56,25 @@
 	<ObservedLayingRottingCorpse.stages.observed_rotting_corpse.description>Я {PAWN_gender ? увидел : увидела} гниющее тело гуманоида... Отвратительно.</ObservedLayingRottingCorpse.stages.observed_rotting_corpse.description>
 	<!-- Оригинал: ...брошен умирать -->
 	<PrisonerBanishedToDie.stages.prisoner_banished_to_death.label>пленник изгнан и брошен</PrisonerBanishedToDie.stages.prisoner_banished_to_death.label>
-	<!-- Оригинал: {PAWN_gender ? Увидел : Увидела} смерть союзника -->
-	<WitnessedDeathAlly.stages.witnessed_allys_death.label>{PAWN_gender ? Увидел : Увидела}, как победили союзника</WitnessedDeathAlly.stages.witnessed_allys_death.label>
+	<!-- Для соблюдения концепции 12+, надо заменить "смерть" на "как победили". Но тогда текст не влезает в интерфейс в случае нескольких мыслей, когда добавляется "х2". Пока не придуман вариант короче 28 символов, возвращено межполое описание из версии игры 1.2.
+	Оригинал: {PAWN_gender ? Увидел : Увидела} смерть союзника -->
+	<WitnessedDeathAlly.stages.witnessed_allys_death.label>Свидетель потери союзника</WitnessedDeathAlly.stages.witnessed_allys_death.label>
 	<!-- Оригинал: Один из наших погиб. Ещё...был жив, а сейчас уже мёртв. -->
 	<WitnessedDeathAlly.stages.witnessed_allys_death.description>Мы потеряли одного из наших. Ещё мгновение назад он был с нами, а теперь нет.</WitnessedDeathAlly.stages.witnessed_allys_death.description>
 	<!-- Оригинал: {PAWN_gender ? Увидел : Увидела} смерть -->
 	<WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.label>{PAWN_gender ? Увидел : Увидела}, как мы победили</WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.label>
 	<!-- Оригинал: Я {PAWN_gender ? увидел : увидела} смерть человека — вот это зрелище! -->
 	<WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>Победа в неравном бою — вот это удача!</WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>
-	<!-- Оригинал: {PAWN_gender ? Увидел : Увидела} смерть члена... -->
-	<WitnessedDeathFamily.stages.witnessed_family_members_death.label>{PAWN_gender ? Увидел : Увидела}, как победили члена семьи</WitnessedDeathFamily.stages.witnessed_family_members_death.label>
+	<!-- Аналогично WitnessedDeathAlly.label.
+	Оригинал: {PAWN_gender ? Увидел : Увидела} смерть члена... -->
+	<WitnessedDeathFamily.stages.witnessed_family_members_death.label>Свидетель потери члена семьи</WitnessedDeathFamily.stages.witnessed_family_members_death.label>
 	<!-- Оригинал: У меня на глазах погиб один из... -->
 	<WitnessedDeathFamily.stages.witnessed_family_members_death.description>Я {PAWN_gender ? потерял : потеряла} одного из членов моей семьи. Моя кровь и плоть...</WitnessedDeathFamily.stages.witnessed_family_members_death.description>
-	<!-- Оригинал: {PAWN_gender ? Увидел : Увидела} смерть чужака -->
-	<WitnessedDeathNonAlly.stages.witnessed_outsiders_death.label>{PAWN_gender ? Увидел : Увидела}, как был потерян чужак</WitnessedDeathNonAlly.stages.witnessed_outsiders_death.label>
-	<!-- Оригинал: Этот человек погиб. Только...был жив, а через секунду уже мёртв. -->
+	<!-- Аналогично WitnessedDeathAlly.label.
+	Оригинал: {PAWN_gender ? Увидел : Увидела} смерть чужака -->
+	<WitnessedDeathNonAlly.stages.witnessed_outsiders_death.label>Свидетель потери чужака</WitnessedDeathNonAlly.stages.witnessed_outsiders_death.label>
+	<!-- Использован оборот из песни "Отряд не заметил потери бойца".
+	Оригинал: Этот человек погиб. Только...был жив, а через секунду уже мёртв. -->
 	<WitnessedDeathNonAlly.stages.witnessed_outsiders_death.description>Потерян боец. Только что он был здесь, а через секунду его уже нет.</WitnessedDeathNonAlly.stages.witnessed_outsiders_death.description>
 
 </LanguageData>
