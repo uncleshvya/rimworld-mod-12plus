@@ -34,7 +34,7 @@
 
 	Оригинал: ...очень калорийен. Снижает уровень голода на 15%... -->
 	<VCE_ConsumedMayo.description>Майонез, хотя и ужасен для здоровья, обладает приятным запахом и очень калориен. Уменьшает голод на 15% в течение 24 часов.</VCE_ConsumedMayo.description>
-	<!-- Оригинал: потреблён нектар агавы (из блюда) -->
+	<!-- Оригинал: потреблён нектар агавы... -->
 	<VCE_ConsumedAgave.label>потреблён экстракт агавы (из блюда)</VCE_ConsumedAgave.label>
 	<!-- Оригинал: Полусладкий нектар, известный... -->
 	<VCE_ConsumedAgave.description>Эссенция из агавы — это концентрированный полусладкий экстракт из её листьев, известный своими целебными и противовоспалительными свойствами. Повышает скорость иммунизации на 15% в течение 24 часов.</VCE_ConsumedAgave.description>
@@ -46,16 +46,17 @@
 	<VCE_WellFedFine.label>сытная еда (гриль)</VCE_WellFedFine.label>
 	<VCE_WellFedLavish.label>сытная еда (гриль)</VCE_WellFedLavish.label>
 	<VCE_WellFedGourmet.label>сытная еда (гриль)</VCE_WellFedGourmet.label>
-	<!-- Оригиналы: Съедено вкусное блюдо...Снижает уровень голода на... -->
-	<VCE_WellFed.description>Съедено вкусное и сытное блюдо с гриля. Снижает голод на 25% в течение 12 часов.</VCE_WellFed.description>
-	<VCE_WellFedSimple.description>Съедено вкусное и сытное блюдо с гриля. Снижает голод на 25% в течение 12 часов.</VCE_WellFedSimple.description>
-	<VCE_WellFedFine.description>Съедено вкусное и сытное блюдо с гриля. Снижает голод на 25% в течение 12 часов.</VCE_WellFedFine.description>
-	<VCE_WellFedLavish.description>Съедено вкусное и сытное блюдо с гриля. Снижает голод на 25% в течение 12 часов.</VCE_WellFedLavish.description>
-	<VCE_WellFedGourmet.description>Съедено вкусное и сытное блюдо с гриля. Снижает голод на 25% в течение 12 часов.</VCE_WellFedGourmet.description>
+	<!-- Описание устарело, заодно добавлена экспрессия.
+	Оригиналы: Съедено вкусное блюдо с гриля. Снижает уровень голода на 25% в течение 12 часов. -->
+	<VCE_WellFed.description>Съев горячее мясное блюдо с гриля, целый день чувствуешь сытость.</VCE_WellFed.description>
+	<VCE_WellFedSimple.description>Съев горячее мясное блюдо с гриля, целый день чувствуешь сытость.</VCE_WellFedSimple.description>
+	<VCE_WellFedFine.description>Съев горячее мясное блюдо с гриля, целый день чувствуешь сытость.</VCE_WellFedFine.description>
+	<VCE_WellFedLavish.description>Съев горячее мясное блюдо с гриля, целый день чувствуешь сытость.</VCE_WellFedLavish.description>
+	<VCE_WellFedGourmet.description>Съев горячее мясное блюдо с гриля, целый день чувствуешь сытость.</VCE_WellFedGourmet.description>
 	<!-- Оригинал: Воскрешающие механиты воскресят эту пешку, пока они активны в её теле. Эффект длится 12 часов. -->
-	<VCE_ConsumedDigestibleResurrectorNanites.description>В случае чего, механиты воскресят этого поселенца. Они будут находиться в пищеварительном тракте 12 часов.</VCE_ConsumedDigestibleResurrectorNanites.description>
+	<VCE_ConsumedDigestibleResurrectorNanites.description>В случае чего, механиты воскресят этого поселенца. Они будут находиться в пищеварительном тракте около 12 часов.</VCE_ConsumedDigestibleResurrectorNanites.description>
 	<!-- Оригинал: ...подвижность на 15% за 24 часа. -->
-	<VCE_SugarRush.description>Сахар легко превращается организмом в энергию. Увеличивает подвижность на 15% в течение 24 часов.</VCE_SugarRush.description>
+	<VCE_SugarRush.description>Сахар легко превращается организмом в энергию. Увеличивает подвижность на 15% в течение суток.</VCE_SugarRush.description>
 	<!-- Игра рассчитана на одно поселение.
 	Оригинал: Этот колонист потребил... -->
 	<VCE_AteGourmetMeal.description>Этот поселенец потребил невероятно вкусную еду.</VCE_AteGourmetMeal.description>
