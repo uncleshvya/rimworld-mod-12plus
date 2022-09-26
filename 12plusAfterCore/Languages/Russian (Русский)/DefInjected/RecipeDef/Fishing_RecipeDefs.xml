@@ -21,7 +21,7 @@
 	<MakeCucumberMed.label>сделать лекарства из морского огурца</MakeCucumberMed.label>
 	<!-- Следует учитывать, на каких верстаках выполняется рецепт.
 	EN: Make herbal medicine from sea cucumber meats. -->
-	<MakeCucumberMed.description>Пропитать простую траву и водоросли токсинами голотурий, чтобы использовать для перевязки и в качестве обезболивающего, противомикробного средства.</MakeCucumberMed.description>
+	<MakeCucumberMed.description>Пропитать простую траву и водоросли токсинами голотурий, чтобы использовать в качестве обезболивающего и противомикробного средства.</MakeCucumberMed.description>
 	<!-- Рецепт исправлен, см.патч.
 	EN: Making herbal medicine from cucumber meat. -->
 	<MakeCucumberMed.jobString>делает лекарства из морского огурца</MakeCucumberMed.jobString>
