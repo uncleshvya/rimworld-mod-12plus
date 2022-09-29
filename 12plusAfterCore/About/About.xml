@@ -55,7 +55,7 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 Известные проблемы:
 
 - Если перевод категории «12+» не обновился, заново выберите русский язык в главном меню;
-- Если часто переходить по ссылкам в информации о людях, иногда выходит красная ошибка. Не обращайте внимания, это особенность движка мода.
+- Адаптация мода VEtraits привела к редкой красной ошибке при загрузке игры. Но это лишь уведомление, можно игнорировать.
 
 =====
 
@@ -119,7 +119,7 @@ Had to rebalance some mods, see changelog file. But if you don't like these chan
 Known issues:
 
 - if russian "12plus" translation didn't refresh automatically, re-choose russian language from main menu;
-- if you open pawn's information panel, and click links too much, it may cause a red error. Just ignore, it's a rare bug.
+- Vanilla Expanded Traits mod adaptation may cause a red error after savegame load. Ignore, it's just a notice.
 
 =====
 
