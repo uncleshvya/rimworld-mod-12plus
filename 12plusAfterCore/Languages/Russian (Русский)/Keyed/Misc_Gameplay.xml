@@ -46,8 +46,9 @@
 	<DeadTime>Тело ({0})</DeadTime>
 	<!-- Оригинал: умирает -->
 	<DyingLower>увядает</DyingLower>
-	<!-- Оригинал: Погибло из-за... -->
-	<RuinedByTemperature>Загнило из-за температурных условий.</RuinedByTemperature>
+	<!-- Это процесс.
+	Оригинал: Погибло из-за... -->
+	<RuinedByTemperature>Портится из-за температурных условий.</RuinedByTemperature>
 	<!-- Оригинал: Снято с трупа. -->
 	<WasWornByCorpse>В крови.</WasWornByCorpse>
 	<!-- Оригинал: Т -->
