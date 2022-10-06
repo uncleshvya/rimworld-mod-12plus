@@ -11,4 +11,9 @@
 	Оригинал: шрам от пули -->
 	<Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>шрам от огнестрельного ранения</Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>
 
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: вырезано -->
+	<Cut.injuryProps.destroyedOutLabel>отсутствует</Cut.injuryProps.destroyedOutLabel>
+
 </LanguageData>
