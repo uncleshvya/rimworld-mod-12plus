@@ -31,8 +31,9 @@
 	<SatisfyingSacrifice.stages.satisfying_sacrifice.label>достойный ритуал</SatisfyingSacrifice.stages.satisfying_sacrifice.label>
 	<!-- Оригинал: Жертвоприношение прошло достойно, исполнено качественно и в меру кроваво. -->
 	<SatisfyingSacrifice.stages.satisfying_sacrifice.description>Этот ритуал прошёл достойно — вполне в духе нашей идеолигии.</SatisfyingSacrifice.stages.satisfying_sacrifice.description>
-	<!-- Оригинал: изумительное ослепление -->
-	<SpectacularBlinding.stages.spectacular_blinding.label>изумительный ритуал анти-зрения</SpectacularBlinding.stages.spectacular_blinding.label>
+	<!-- Ограничение на длину заголовка.
+	Оригинал: изумительное ослепление -->
+	<SpectacularBlinding.stages.spectacular_blinding.label>изумительное таинство</SpectacularBlinding.stages.spectacular_blinding.label>
 	<!-- Оригинал: ...удивительный клинок, болезненный... -->
 	<SpectacularBlinding.stages.spectacular_blinding.description>Голоса песнопений, ужасный и удивительный гром, болезненный трепет и, наконец, кульминация — церемония прошла грандиозно!</SpectacularBlinding.stages.spectacular_blinding.description>
 	<!-- Оригинал: изумительное жертвоприношение -->
