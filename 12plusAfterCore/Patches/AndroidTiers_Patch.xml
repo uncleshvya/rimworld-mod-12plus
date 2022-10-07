@@ -41,9 +41,8 @@
 				</value>
 			</li>
 
-			<!-- Возраст андроидов и механоидов не может быть больше 3400 лет.
-			Ещё более вероятно, что все 7 моделей андроидов изобрели в одно время с механоидами.
-			Исправляем, иначе в игре будут отрицательные даты рождения -->
+			<!-- Возраст андроидов и механоидов не может быть больше 3400 лет, иначе в игре будут отрицательные даты рождения.
+			Ещё более вероятно, что все 7 моделей андроидов изобрели в одно время с механоидами -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/PawnKindDef[
 				defName = "AndroidT5Colonist" or
@@ -400,6 +399,16 @@
 							<li>CorpsesAnimal</li>
 						</disallowedCategories>
 					</fixedIngredientFilter>
+				</value>
+			</li>
+			<!-- Не получается убрать Meat_Human у всех торговцев сразу, см.код в файле Core_ButcheryPatch.xml. Пока решение не найдено, патчим каждого торговца -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[
+				defName = "Base_AndroidCollective_Standard" or
+				defName = "Caravan_AndroidCollective_BulkGoods"
+				]/stockGenerators/li[categoryDef = "FoodRaw"]</xpath>
+				<value>
+					<excludedThingDefs> <li>Meat_Human</li> </excludedThingDefs>
 				</value>
 			</li>
 
