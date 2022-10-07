@@ -37,6 +37,19 @@
 	<RitualNobodyAttended>Никто не пришёл на ритуал, и он не состоялся: «{0}»</RitualNobodyAttended>
 	<!-- Оригинал: Ритуал {0} завершился. -->
 	<RitualFinished>Ритуал завершился: «{0}»</RitualFinished>
+	<!-- Применимо и к безглазым.
+	Связано с RitualPredictedOutcomeDescParticipantCount.
+	Оригинал: Зрители -->
+	<Spectators>Присутствующие</Spectators>
+	<!-- Оригинал: без кавычек -->
+	<RitualOutcomeQualitySpecific>Итоговое качество ритуала «{0}» составило {1}. На качество повлияли следующие факторы</RitualOutcomeQualitySpecific>
+	<!-- Бывают отрицательные эффекты.
+	Оригинал: ...ритуала повысится на {0}... -->
+	<RitualOutcomeExtraDesc_Mood>Настроение всех участников ритуала изменится на {0} на {1_numCase ? день : дня : дней}.</RitualOutcomeExtraDesc_Mood>
+	<!-- Связано со Spectators в этом файле.
+	В Ideology ритуалы бывают равноправными, а бывают с одним ведущим, который не подсчитывается. Поэтому нужно универсальное описание, "наблюдатели" не подходит.
+	Оригинал: Участники -->
+	<RitualPredictedOutcomeDescParticipantCount>Присутствующие</RitualPredictedOutcomeDescParticipantCount>
 
 	<!-- Исправление согласно концепции «12+».
 
