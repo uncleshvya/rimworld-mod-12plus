@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Не влезало в интерфейс.
+	Оригинал: связь с древом Гауранлен -->
+	<GauranlenConnection.label>связь с Гауранлен</GauranlenConnection.label>
+
+</LanguageData>
