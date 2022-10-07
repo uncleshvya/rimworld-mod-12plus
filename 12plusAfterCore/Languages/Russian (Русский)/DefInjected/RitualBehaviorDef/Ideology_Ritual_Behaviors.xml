@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- Исправлена неточность, сообщите разработчику ванили, что все spectatorsLabel связаны с RitualPredictedOutcomeDescParticipantCount.
+
+	Оригинал: Зрители -->
+	<GladiatorDuel.spectatorsLabel>Наблюдатели</GladiatorDuel.spectatorsLabel>
+	<!-- Оригинал: смотреть -->
+	<RoleChange.spectatorGerund>наблюдать</RoleChange.spectatorGerund>
+	<!-- Оригинал: Зрители -->
+	<RoleChange.spectatorsLabel>Наблюдатели</RoleChange.spectatorsLabel>
+	<!-- Оригинал: участвовать -->
+	<SacrificeAnimal.spectatorGerund>наблюдать</SacrificeAnimal.spectatorGerund>
+	<!-- Оригинал: Участники -->
+	<SacrificeAnimal.spectatorsLabel>Наблюдатели</SacrificeAnimal.spectatorsLabel>
+	<!-- Оригинал: участвовать -->
+	<SacrificePrisoner.spectatorGerund>наблюдать</SacrificePrisoner.spectatorGerund>
+	<!-- Оригинал: Участники -->
+	<SacrificePrisoner.spectatorsLabel>Наблюдатели</SacrificePrisoner.spectatorsLabel>
+
 	<!-- Исправление согласно концепции «12+».
 
-	Связано с MessageRitualRoleMustBePrisoner.
+	Необходим мужской род, для совместимости с MessageRitualRoleMustBeHumanlike и MessageRitualRoleMustHaveEyes.
+	Оригинал: ослепляемый -->
+	<BlindingCeremony.roles.0.label>новый адепт</BlindingCeremony.roles.0.label>
+	<!-- Оригинал: тот, кого будут ослеплять -->
+	<BlindingCeremony.roles.0.missingDesc>тот, кому будут прививать анти-зрение</BlindingCeremony.roles.0.missingDesc>
+	<!-- Оригинал: ...будет ослеплять -->
+	<BlindingCeremony.roles.1.missingDesc>тот, кто будет проводить ритуал</BlindingCeremony.roles.1.missingDesc>
+	<!-- Оригинал: Ослепляемый недоступен. -->
+	<BlindingCeremony.stages.0.failTriggers.0.desc>Новый адепт недоступен.</BlindingCeremony.stages.0.failTriggers.0.desc>
+	<!-- Связано с MessageRitualRoleMustBePrisoner.
 	Оригинал: жертва -->
 	<Execution.roles.1.label>казнимый</Execution.roles.1.label>
 	<!-- Оригинал: жертва -->
