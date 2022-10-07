@@ -1,9 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
 
 	Оригинал: Содержит труп -->
 	<StatsReport_OccupiedCorpseCasket>Содержит тело</StatsReport_OccupiedCorpseCasket>
+	<!-- Оригинал: Бонус ослепления -->
+	<StatsReport_BlindPsychicSensitivityOffset>Бонус анти-зрения</StatsReport_BlindPsychicSensitivityOffset>
 
 </LanguageData>
