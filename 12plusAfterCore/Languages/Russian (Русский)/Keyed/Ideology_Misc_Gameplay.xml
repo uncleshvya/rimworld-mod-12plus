@@ -22,6 +22,15 @@
 	<RitualTargetGraveInfoAbstract>В могиле находится тело {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
 	<!-- Оригинал: ...находится труп. -->
 	<RitualTargetGraveInfoAbstractNoIdeo>В могиле находится тело.</RitualTargetGraveInfoAbstractNoIdeo>
+	<!-- Оригинал: ...верит в идеолигиозное ослепление и не хочет быть {PAWN_gender ? ослеплённым : ослеплённой}. -->
+	<RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort} не верит в древнюю магию и не хочет быть {PAWN_gender ? подверженным : подверженной} опасному ритуалу анти-зрения.</RitualBlindingWarnNonBlindingIdeo>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили о неправильной пунктуации.
+	Оригинал: {PAWN_labelShort} хлюпик и не...быть {PAWN_gender ? ослеплённым : ослеплённой}. -->
+	<RitualBlindingWarnWimp>{PAWN_labelShort} — хлюпик, поэтому не хочет быть {PAWN_gender ? подверженным : подверженной} болезненному ритуалу анти-зрения.</RitualBlindingWarnWimp>
+	<!-- Оригинал: Ослепления будет желать каждый {IDEOMEMBER}...нему. -->
+	<RitualBlindingTriggerExtraDesc>Каждый {IDEOMEMBER}, находящийся в поселении или присоединяющийся к нему, будет желать проведения над собой ритуала анти-зрения.</RitualBlindingTriggerExtraDesc>
+	<!-- Оригинал: ...ритуала ослепления, {PAWN_labelShort}... -->
+	<RitualOutcomeExtraDesc_BlindingPsylink>Благодаря проведению ритуала анти-зрения, {PAWN_labelShort} повышает свой уровень пси-связи!</RitualOutcomeExtraDesc_BlindingPsylink>
 	<!-- Оригинал: ...сценой смерти. Их... -->
 	<RitualOutcomeExtraDesc_Execution>Все присутствующие рабы были ошеломлены сценой казни. Их подавленность достигла максимального уровня.</RitualOutcomeExtraDesc_Execution>
 	<!-- Оригинал: ...можете убить противников одного за другим или... -->
