@@ -5,6 +5,8 @@
 
 	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. И через ноды "rulesStrings.1" тоже. Пришлось создать суб мод перед Core.
 
+	Заголовки в переменных label в этом файле не влияют на перевод, т.к. их надо загружать после Core. Влияющие варианты - в таком же файле в суб-моде 12plusAfterCore. Здесь же эти переменные оставлены просто как заголовки абзацев.
+
 	Оригинал: ...ритуале ослепления -->
 	<Speech_Blinding.label>речь на ритуале анти-зрения</Speech_Blinding.label>
 	<!-- Оригинал:
@@ -237,8 +239,8 @@
     <li>initiator_saw(INITIATOR_gender==Male)->видел</li>
     <li>initiator_saw(INITIATOR_gender==Female)->видела</li>
   </Speech_Leader.logRulesInitiator.rulesStrings>
-	<!-- Оригинал: ...перед жертвоприношением -->
-	<Speech_Sacrifice.label>речь перед жертвоприношением</Speech_Sacrifice.label>
+	<!-- Оригинал: речь перед жертвоприношением -->
+	<Speech_Sacrifice.label>ритуальная речь</Speech_Sacrifice.label>
 	<!-- Оригинал:
 	...
 	<li>...имеет смерть</li>
