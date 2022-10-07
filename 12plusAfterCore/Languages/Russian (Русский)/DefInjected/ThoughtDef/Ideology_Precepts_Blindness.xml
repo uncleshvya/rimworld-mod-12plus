@@ -1,5 +1,24 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Оригинал: {OTHERPAWN_gender ? слеп : слепа} -->
+	<Blindness_Elevated_Blind_Social.stages.blind.labelSocial>{OTHERPAWN_gender ? Слеп : Слепа}</Blindness_Elevated_Blind_Social.stages.blind.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? полуслеп : полуслепа} -->
+	<Blindness_Elevated_HalfBlind_Social.stages.halfblind.labelSocial>{OTHERPAWN_gender ? Полуслеп : Полуслепа}</Blindness_Elevated_HalfBlind_Social.stages.halfblind.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? зрячий : зрячая} -->
+	<Blindness_Elevated_NonBlind_Social.stages.sighted.labelSocial>{OTHERPAWN_gender ? Зрячий : Зрячая}</Blindness_Elevated_NonBlind_Social.stages.sighted.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? слеп : слепа} -->
+	<Blindness_Respected_Blind_Social.stages.blind.labelSocial>{OTHERPAWN_gender ? Слеп : Слепа}</Blindness_Respected_Blind_Social.stages.blind.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? зрячий : зрячая} -->
+	<Blindness_Respected_NonBlind_Social.stages.sighted.labelSocial>{OTHERPAWN_gender ? Зрячий : Зрячая}</Blindness_Respected_NonBlind_Social.stages.sighted.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? слеп : слепа} -->
+	<Blindness_Sublime_Blind_Social.stages.blind.labelSocial>{OTHERPAWN_gender ? Слеп : Слепа}</Blindness_Sublime_Blind_Social.stages.blind.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? полуслеп : полуслепа} -->
+	<Blindness_Sublime_HalfBlind_Social.stages.halfblind.labelSocial>{OTHERPAWN_gender ? Полуслеп : Полуслепа}</Blindness_Sublime_HalfBlind_Social.stages.halfblind.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? зрячий : зрячая} -->
+	<Blindness_Sublime_NonBlind_Social.stages.sighted.labelSocial>{OTHERPAWN_gender ? Зрячий : Зрячая}</Blindness_Sublime_NonBlind_Social.stages.sighted.labelSocial>
 
 	<!-- Исправление согласно концепции «12+».
 
@@ -30,8 +49,12 @@
 	<Blindness_Elevated_NonBlind.stages.not_blind.label>есть примитивное зрение</Blindness_Elevated_NonBlind.stages.not_blind.label>
 	<!-- Оригинал: Я хочу лишиться зрения, чтобы лучше чувствовать... -->
 	<Blindness_Elevated_NonBlind.stages.not_blind.description>Врождённое зрение мешает мне чувствовать мир вокруг себя истинно верным способом. У меня должна быть хотя бы повязка на глаза.</Blindness_Elevated_NonBlind.stages.not_blind.description>
+	<!-- Оригинал: есть зрение -->
+	<Blindness_Elevated_NonBlind_Social.stages.sighted.label>есть примитивное зрение</Blindness_Elevated_NonBlind_Social.stages.sighted.label>
 	<!-- Оригинал: Ослепление даровало... -->
 	<Blindness_Respected_Blind.stages.blind.description>Отсутствие примитивного зрения даровало мне способность видеть мир истинно верным способом.</Blindness_Respected_Blind.stages.blind.description>
+	<!-- Оригинал: есть зрение -->
+	<Blindness_Respected_NonBlind_Social.stages.sighted.label>есть примитивное зрение</Blindness_Respected_NonBlind_Social.stages.sighted.label>
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили о дефисе.
 	Оригинал: После ослепления я могу...каких либо... -->
 	<Blindness_Sublime_Blind.stages.blind.description>Теперь я могу исследовать глубины моего сознания без каких-либо ограничений, которые накладывало на меня зрение.</Blindness_Sublime_Blind.stages.blind.description>
@@ -41,5 +64,7 @@
 	<Blindness_Sublime_NonBlind.stages.not_blind.label>есть примитивное зрение</Blindness_Sublime_NonBlind.stages.not_blind.label>
 	<!-- Оригинал: Я очень хочу лишиться зрения. С ним я не могу нормально... -->
 	<Blindness_Sublime_NonBlind.stages.not_blind.description>Врождённое зрение мешает мне нормально входить в контакт с истинным миром. У меня должна быть хотя бы повязка на глаза.</Blindness_Sublime_NonBlind.stages.not_blind.description>
+	<!-- Оригинал: есть зрение -->
+	<Blindness_Sublime_NonBlind_Social.stages.sighted.label>есть примитивное зрение</Blindness_Sublime_NonBlind_Social.stages.sighted.label>
 
 </LanguageData>
