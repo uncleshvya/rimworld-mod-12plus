@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<!-- Исправление согласно концепции «12+».
+
+			Не получается изменить ритуал ослепления, чтобы не было кровотечения и режущего звука. Пока не найдено решение, этот звук используемый в том числе для казни, заменён на нейтральный -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/SoundDef[defName = "Execute_Cut"]/subSounds/li[1]/grains</xpath>
+				<value>
+					<grains>
+						<li Class="AudioGrain_Folder">
+							<clipFolderPath>Impact/PunchMiss</clipFolderPath>
+						</li>
+					</grains>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/SoundDef[defName = "Execute_Cut"]/subSounds/li[1]/volumeRange/text()</xpath>
+				<value>30</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>
