@@ -24,7 +24,7 @@
 	<!-- Оригинал: мазохизм -->
 	<Masochist.degreeDatas.masochist.label>недоразвитость</Masochist.degreeDatas.masochist.label>
 	<!-- Оригинал: Для {PAWN_nameDef} боль — это что-то возбуждающее. {PAWN_pronoun} не знает почему, просто {PAWN_possessive} голова работает по-другому. -->
-	<Masochist.degreeDatas.masochist.description>{PAWN_nameDef} — недоразвитое создание. Обычно {PAWN_pronoun} только вредит колонии. Избавьтесь от н{PAWN_possessive} как можно скорее.</Masochist.degreeDatas.masochist.description>
+	<Masochist.degreeDatas.masochist.description>{PAWN_nameDef} — недоразвитое создание. Обычно {PAWN_pronoun} только вредит остальным поселенцам. Избавьтесь от н{PAWN_possessive} как можно скорее.</Masochist.degreeDatas.masochist.description>
 	<!-- Заодно исправлена размытая ссылка в словосочетании "рабство, если {PAWN_possessive}", сообщите разработчику ванили. Также сглажена необязательная тавтология.
 	Оригинал: ...кого-то пустят на мясо, оставят...рабство, если {PAWN_possessive} лично это... -->
 	<Psychopath.degreeDatas.psychopath.description>{PAWN_nameDef} не знает, что такое сопереживание. Страдания других совсем не волнуют {PAWN_possessive}. {PAWN_objective} безразлично, если кого-то оставят не похороненным, посадят в тюрьму или продадут в рабство, когда лично {PAWN_possessive} это не касается. {PAWN_pronoun} также не получает удовольствия от общения с другими.</Psychopath.degreeDatas.psychopath.description>
