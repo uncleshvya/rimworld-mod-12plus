@@ -82,6 +82,15 @@
 					<tradeability>Buyable</tradeability>
 				</value>
 			</li>
+			<!-- Приближаем к реальности симптомы передозировки -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName = "DrugOverdose"]/lethalSeverity/text()</xpath>
+				<value>0.75</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName = "DrugOverdose"]/stages/li[2]/capMods/li[1]/setMax/text()</xpath>
+				<value>0.1</value>
+			</li>
 
 		</operations>
 	</Operation>
