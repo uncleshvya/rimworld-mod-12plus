@@ -23,13 +23,43 @@
 	<CelebrationSkyLanterns.extraPredictedOutcomeDescriptions.0>Если ритуал пройдёт красиво или незабываемо, небесные фонарики могут привлечь группу дружелюбных путешественников.</CelebrationSkyLanterns.extraPredictedOutcomeDescriptions.0>
 	<!-- Оригинал: ...настроение его участников... -->
 	<Execution.description>Подавленность наблюдающих рабов составит 100%. В зависимости от качества ритуала настроение участников изменится на величину от {MINMOOD} до {MAXMOOD} на {MOODDAYS_numCase ? день : дня : дней}.</Execution.description>
+	<!-- Перевод устарел. Переменная используется во всплывающей подсказке.
+	Связано с RoleChange.extraPredictedOutcomeDescriptions.0
+	Связано с RoleChange.description из файла Precepts_Ritual.xml
+	Оригинал: Поселенцу будет назначена новая роль. -->
+	<RoleChange.description>По окончании церемонии оратору будет назначена новая роль.</RoleChange.description>
+	<!-- Связано с RitualPredictedOutcomeDescParticipantCount.
+	Оригинал: ...число зрителей -->
+	<RoleChange.comps.0.label>требуемое число наблюдателей</RoleChange.comps.0.label>
+	<!-- Перевод устарел. Переменная используется во всплывающей подсказке и в подробном описании ритуала.
+	Связано с RoleChange.description из файла Precepts_Ritual.xml.
+	Связано с RitualPredictedOutcomeDescParticipantCount.
+	Применимо и к отмене роли, тогда наблюдатели не нужны.
+	Оригинал: Количество зрителей, требуемое для церемонии смены роли. -->
+	<RoleChange.extraPredictedOutcomeDescriptions.0>\n\nМинимально требуемое количество наблюдателей зависит от целевой роли.</RoleChange.extraPredictedOutcomeDescriptions.0>
+	<!-- Оригинал: ...Шрамирование было произведено с грубыми... -->
+	<ScarificationCeremony.outcomeChances.0.description>Это было ужасно! Речь была несвязной, оратор постоянно запинался. Шрамирование было проведено с грубыми ошибками. Все присутствующие просто ждали, когда всё закончится.</ScarificationCeremony.outcomeChances.0.description>
+	<!-- Оригинал: ...было произведено с хирургической... -->
+	<ScarificationCeremony.outcomeChances.2.description>Ритуал прошёл достойно и величественно. Речь была интересной, шрамирование было проведено с хирургической точностью.</ScarificationCeremony.outcomeChances.2.description>
 	<!-- Оригиналы: без неразрывных пробелов -->
 	<Trial.outcomeChances.1.description>Обвинитель смог убедить всех в том, что {PAWN_labelShort} {PAWN_gender ? виновен : виновна}. {PAWN_possessive} теперь можно спокойно казнить или изгнать — никто не будет возражать.</Trial.outcomeChances.1.description>
 	<TrialMentalState.outcomeChances.1.description>Обвинитель смог убедить всех в том, что {PAWN_labelShort} {PAWN_gender ? виновен : виновна}. {PAWN_possessive} теперь можно спокойно казнить или изгнать — никто не будет возражать.</TrialMentalState.outcomeChances.1.description>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Оригинал: гладиатор погибает -->
+	Оригинал: ...хорошо, ослеплённый может... -->
+	<BlindingCeremony.extraPredictedOutcomeDescriptions.0>Если {0} пройдёт хорошо, адепт может получить новый уровень пси-связи или обрести новые пси-способности.</BlindingCeremony.extraPredictedOutcomeDescriptions.0>
+	<!-- Оригинал: ...запинался. Ослепление было произведено с грубыми... -->
+	<BlindingCeremony.outcomeChances.0.description>Это было ужасно! Речь была несвязной, оратор постоянно запинался. Таинство анти-зрения было проведено с грубыми ошибками. Все присутствующие просто ждали, когда всё закончится.</BlindingCeremony.outcomeChances.0.description>
+	<!-- Оригинал: ...невыразительной, а процесс ослепления прошёл совсем... -->
+	<BlindingCeremony.outcomeChances.1.description>Ритуал был скучным. Речь была невыразительной, а таинство анти-зрения прошло совсем не гладко. Это однозначно не выглядело величественно.</BlindingCeremony.outcomeChances.1.description>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили о необязательной тавтологии.
+	Оригинал: ...интересной, ослепление было произведено с хирургической точностью. -->
+	<BlindingCeremony.outcomeChances.2.description>Ритуал прошёл достойно и величественно. Речь была интересной, таинство анти-зрения исполнили согласно древним традициям.</BlindingCeremony.outcomeChances.2.description>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили о пропущенном слове "изумительно".
+	Оригинал: ...было! Речь...беспамятство, после чего глаз с приятным звуком покинул глазницу. -->
+	<BlindingCeremony.outcomeChances.3.description>Это было изумительно! Речь почти ввела участников в беспамятство, а таинство анти-зрения было проведено как по нотам.</BlindingCeremony.outcomeChances.3.description>
+	<!-- Оригинал: гладиатор погибает -->
 	<GladiatorDuel.comps.2.label>гладиатор проигрывает</GladiatorDuel.comps.2.label>
 	<!-- Оригинал: ...Бойцы сражались до последней капли крови, не на жизнь, а на смерть. -->
 	<GladiatorDuel.outcomeChances.3.description>Это была незабываемая дуэль! Бойцы сражались исступлённо, упиваясь поединком.</GladiatorDuel.outcomeChances.3.description>
