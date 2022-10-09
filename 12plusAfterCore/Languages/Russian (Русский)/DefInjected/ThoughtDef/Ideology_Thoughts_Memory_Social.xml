@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Gender-оператор порождал красную ошибку.
+	Оригинал: {0} {1_gender ? оказал : оказала} помощь -->
+	<TendedByMedicalSpecialist.stages.tended_by.label>меня лечит {0}</TendedByMedicalSpecialist.stages.tended_by.label>
+
+</LanguageData>
