@@ -15,6 +15,21 @@
 					</specialFiltersToDisallow>
 				</value>
 			</li>
+			<!-- Адаптация к моду Android Tiers -->
+			<li MayRequire="Atlas.AndroidTiers" Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName = "IF_MedTable"]/fixedIngredientFilter</xpath>
+				<value>
+					<disallowedThingDefs>
+						<li>Corpse_Android1Tier</li>
+						<li>Corpse_Android2Tier</li>
+						<li>Corpse_Android3Tier</li>
+						<li>Corpse_Android4Tier</li>
+						<li>Corpse_Android5Tier</li>
+						<li>Corpse_M7Mech</li>
+						<li>Corpse_M8Mech</li>
+					</disallowedThingDefs>
+				</value>
+			</li>
 
 		</operations>
 	</Operation>
