@@ -41,7 +41,7 @@
 	<!-- EN: Fishing "Success" -->
 	<RBB.SnaggedJunkTitle>«Богатый» улов</RBB.SnaggedJunkTitle>
 	<!-- EN: (пробел) snagged some trash while fishing: (пробел) -->
-	<RBB.SnaggedJunk> цепляет какой-то мусор. О, да это же </RBB.SnaggedJunk>
+	<RBB.SnaggedJunk> цепляет какой-то мусор... О, да это же </RBB.SnaggedJunk>
 
 	<!-- EN: Fishing Successes: -->
 	<RBB.successLevel>Когда на удочку поймана живность:</RBB.successLevel>
@@ -100,8 +100,8 @@
 	<RBB.Pufferfish> ловит рыбу фугу!</RBB.Pufferfish>
 	<!-- EN: (пробел) caught a salmon. -->
 	<RBB.Salmon> ловит лосося</RBB.Salmon>
-	<!-- EN: (пробел) caught a sea cucumber.... -->
-	<RBB.SeaCucumber> ловит морского огурца...</RBB.SeaCucumber>
+	<!-- EN: (пробел) caught a sea cucumber (4 точки) -->
+	<RBB.SeaCucumber> ловит морского огурца</RBB.SeaCucumber>
 	<!-- Потерянная экспрессия заменена на отсылку к прочности кожи кальмара.
 	EN: (пробел) managed to catch a squid! -->
 	<RBB.Squid> ловит крупного кальмара!</RBB.Squid>
@@ -109,9 +109,9 @@
 	EN: (пробел) caught a sturgeon! Maybe you'll be eating caviar soon? -->
 	<RBB.Sturgeon> ловит взрослого осетра! Может, сегодня на ужин будет чёрная икра?</RBB.Sturgeon>
 	<!-- В моде найден баг из-за старой переменной RF_RawFishTiny, сообщите разработчику. Баг обойдён, и сейчас иногда вместо мальков ловятся морские огурцы. Соответственно подправлен перевод, сделан более нейтральным. Когда автор исправит ошибку, следует заменить строку на следующее:
-	" ловит малька́. Что ж, это лучше, чем совсем ничего..."
+	" ловит малька́. Что ж, это лучше, чем ничего..."
 	EN: (пробел) caught a tiny fish. Better than nothing (4 точки) -->
-	<RBB.TinyFish> ловит какую-то мелочь. Что ж, это лучше, чем совсем ничего...</RBB.TinyFish>
+	<RBB.TinyFish> ловит какую-то мелочь. Что ж, это лучше, чем ничего...</RBB.TinyFish>
 	<!-- Названия следует синхронизировать с папкой ThingDef.
 	EN: (пробел) caught a bass. -->
 	<RBB.Bass> ловит колючего ерша</RBB.Bass>
