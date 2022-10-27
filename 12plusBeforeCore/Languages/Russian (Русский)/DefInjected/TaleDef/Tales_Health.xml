@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+»
 
-  <!-- Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core. -->
+	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
 
-  <!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает: -->
+	Эти 2 группы - без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN: downed -->
+  EN: downed -->
   <Downed.label>сбитие с ног</Downed.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
@@ -83,7 +83,6 @@
     <li>desc_sentence->[KILLER_nameDef] чувствует удовлетворение, видя результат.</li>
     <li>desc_sentence->[KILLER_nameDef] выглядит триумфально.</li>
   </Downed.rulePack.rulesStrings>
-  
   <!-- EN: exhausted -->
   <Exhausted.label>изнеможение</Exhausted.label>
   <!-- EN:
@@ -120,31 +119,18 @@
     <li>desc_sentence->[Outlander] лежит рядом, в таком же состоянии.</li>
     <li>desc_sentence->В качестве места, где происходит сцена, выступает свежепостроенное поселение.</li>
   </Exhausted.rulePack.rulesStrings>
-  
   <!-- EN: gave birth -->
   <GaveBirth.label>рождение ребёнка</GaveBirth.label>
-  <!-- EN:
-    <li>tale_noun->[MOTHER_nameDef] giving birth to [CHILD_nameDef]</li>
-    <li>image->[MOTHER_nameFull] giving birth to [circumstance_group]</li>
-    <li>image->[MOTHER_nameFull] holding [MOTHER_possessive] [baby], [circumstance_group]</li>
-    <li>image->[MOTHER_nameFull] lying in bed next to [MOTHER_possessive] [baby], [circumstance_group]</li>
-    <li>image->[MOTHER_nameFull] collapsed in a chair with [MOTHER_possessive] [baby] [circumstance_group]</li>
-    <li>baby->infant</li>
-    <li>baby->newborn</li>
-    <li>baby->baby</li>
-    <li>circumstance_phrase->[CHILD_nameFull], who is bloody and crying</li>
-    <li>circumstance_phrase->[CHILD_nameFull], who is glowing softly [Color]</li>
-    <li>circumstance_phrase->[CHILD_nameFull], who is already trying to pull [CHILD_objective]self around</li>
-    <li>circumstance_phrase->[CHILD_nameFull], who is looking around with an expression of serenity</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s sleep peacefully nearby.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze upon the scene.</li>
-    <li>desc_sentence->A [PersonJob]s watches from a distance.</li>
-    <li>desc_sentence->The scene takes place inside a newly-built [Community].</li>
-  -->
+
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили. Генератор применим и к животным.
+	Ещё бы надо имена сделать с большой буквы, пока что решение не найдено.
+
+	Оригинал:
+	...держит на руках своего новорождённого... -->
   <GaveBirth.rulePack.rulesStrings>
     <li>tale_noun->как рождается [CHILD_nameFull]</li>
     <li>image->, как [MOTHER_nameFull] производит на свет ребёнка и даёт ему имя — [CHILD_nameDef]</li>
-    <li>image->, как [MOTHER_nameFull] [circumstance_phrase] держит на руках своего новорождённого ребёнка по имени [CHILD_nameDef]</li>
+	<li>image->, как [MOTHER_nameFull] [circumstance_phrase] держит своего новорождённого ребёнка по имени [CHILD_nameDef]</li>
     <li>image->, как [MOTHER_nameFull] [circumstance_phrase] кормит грудью своего ребёнка — [CHILD_possessive] зовут [CHILD_nameDef]</li>
     <li>baby->младенец</li>
     <li>baby->малютка</li>
@@ -159,23 +145,18 @@
     <li>desc_sentence->[baby] уже пробует переворачиваться на живот.</li>
     <li>desc_sentence->[baby] [circumstance_phrase] смотрит вокруг.</li>
   </GaveBirth.rulePack.rulesStrings>
-  
   <!-- EN: heatstroke revealed -->
   <HeatstrokeRevealed.label>тепловой удар</HeatstrokeRevealed.label>
 
-  <!-- исправление согласно концепции «12+» -->
-
-  <!-- Оригинал:
-    ...
-    <li>circumstance_phrase->, согнувшись в приступе рвоты,</li>
-    <li>desc_sentence->[PAWN_possessive] окружают иссушенные трупы животных.</li>
-    <li>desc_sentence->[PAWN_possessive] одежда изорвана в клочья.</li>
-    ...
-    <li>desc_sentence->Действие происходит в помещении рядом с источником тепла.</li>
-    <li>desc_sentence->[Quantity_adjphrase] животных неподвиждно лежат рядом.</li>
-    <li>desc_sentence->Повсюду лежат умирающие животные.</li>
-  </HeatstrokeRevealed.rulePack.rulesStrings>
-  -->
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили о слове "неподвиждно".
+	Оригинал:
+	...
+	<li>...иссушенные трупы животных.</li>
+	...
+	<li>...[Quantity_adjphrase] животных неподвиждно лежат рядом.</li>
+	<li>...Повсюду лежат умирающие животные.</li>
+	...
+	-->
   <HeatstrokeRevealed.rulePack.rulesStrings>
     <li>tale_noun->как [PAWN_nameDef] получает тепловой удар</li>
     <li>tale_noun->как [PAWN_nameDef] перегревается</li>
@@ -188,32 +169,24 @@
     <li>circumstance_phrase->, непрерывно потея,</li>
     <li>circumstance_phrase->[empty] с высохшими, потрескавшимися губами</li>
     <li>circumstance_phrase->, согнувшись в приступе рвоты,</li>
-    <li>desc_sentence->[PAWN_possessive] окружают иссушенные кости животных.</li>
+	<li>desc_sentence->[PAWN_possessive] окружают иссушенные кости животных.</li>
     <li>desc_sentence->[PAWN_possessive] одежда изорвана в клочья.</li>
     <li>desc_sentence->В небе висит палящее солнце.</li>
     <li>desc_sentence->Действие происходит посреди знойной пустыни.</li>
     <li>desc_sentence->Действие происходит в помещении рядом с источником тепла.</li>
-    <li>desc_sentence->[Quantity_adjphrase] горячих камней неподвижно лежат рядом.</li>
-    <li>desc_sentence->Повсюду лежат горячие камни.</li>
+	<li>desc_sentence->[Quantity_adjphrase] горячих камней неподвижно лежат рядом.</li>
+	<li>desc_sentence->Повсюду лежат горячие камни.</li>
   </HeatstrokeRevealed.rulePack.rulesStrings>
-
-  <!-- Эти 2 строчки без изменений, но необходимо оставить, иначе грамматика страдает: -->
-
   <!-- EN: hypothermia revealed -->
   <HypothermiaRevealed.label>обморожение</HypothermiaRevealed.label>
 
-  <!-- исправление согласно концепции «12+» -->
-
-  <!-- Оригинал:
-    ...
-    <li>circumstance_phrase->, выдыхая изо рта пар,</li>
-    <li>desc_sentence->[PAWN_possessive] окружают замёрзшие трупы животных.</li>
-    <li>desc_sentence->[PAWN_possessive] одежда изорвана в клочья.</li>
-    ...
-    <li>desc_sentence->Рядом дрожит от холода [Animal].</li>
-    <li>desc_sentence->Повсюду лежат замерзающие животные.</li>
-  </HypothermiaRevealed.rulePack.rulesStrings>
-  -->
+	<!-- Оригинал:
+	...
+	<li>...окружают замёрзшие трупы животных.</li>
+	...
+	<li>...Повсюду лежат замерзающие животные.</li>
+	...
+	-->
   <HypothermiaRevealed.rulePack.rulesStrings>
     <li>tale_noun->как [PAWN_nameDef] получает обморожение</li>
     <li>tale_noun->как [PAWN_nameDef] замерзает</li>
@@ -226,32 +199,26 @@
     <li>circumstance_phrase->, трясясь от холода,</li>
     <li>circumstance_phrase->, покрываясь инеем,</li>
     <li>circumstance_phrase->, выдыхая изо рта пар,</li>
-    <li>desc_sentence->[PAWN_possessive] окружают ледяные кристаллы.</li>
+	<li>desc_sentence->[PAWN_possessive] окружают ледяные кристаллы.</li>
     <li>desc_sentence->[PAWN_possessive] одежда изорвана в клочья.</li>
     <li>desc_sentence->В небе висит холодно-синяя луна.</li>
     <li>desc_sentence->[PAWN_possessive] окружает заснеженный лес.</li>
     <li>desc_sentence->Действие происходит в морозильной камере.</li>
     <li>desc_sentence->Рядом дрожит от холода [Animal].</li>
-    <li>desc_sentence->Повсюду лежат куски льда.</li>
+	<li>desc_sentence->Повсюду лежат куски льда.</li>
   </HypothermiaRevealed.rulePack.rulesStrings>
-
-  <!-- Эти 2 строчки без изменений, но необходимо оставить, иначе грамматика страдает: -->
-
   <!-- EN: illness revealed -->
   <IllnessRevealed.label>обнаружено заболевание</IllnessRevealed.label>
 
-  <!-- исправление согласно концепции «12+» -->
-
-  <!-- Оригинал:
-    ...
+	<!-- Оригинал:
+	...
     <li>desc_sentence->Врач подходит к н[PAWN_objective], чтобы приступить к лечению.</li>
-    <li>desc_sentence->Мёртвое животное, [Animal], лежит рядом, облепленное мухами.</li>
+	<li>desc_sentence->Мёртвое животное, [Animal], лежит рядом, облепленное мухами.</li>
     <li>desc_sentence->На фоне — закручивается спиралью [TerrainFeature].</li>
-    ...
-    <li>desc_sentence->[PAWN_nameDef] находится среди увядающего леса.</li>
-    <li>desc_sentence->Повсюду лежат умирающие животные.</li>
-  </IllnessRevealed.rulePack.rulesStrings>
-  -->
+	...
+	<li>...лежат умирающие животные.</li>
+	...
+	-->
   <IllnessRevealed.rulePack.rulesStrings>
     <li>tale_noun->как у [PAWN_nameDef] обнаруживается [ILLNESS_label]</li>
     <li>image->, как [PAWN_nameFull][circumstance_phrase] бредёт по улице шатаясь</li>
@@ -267,24 +234,21 @@
     <li>circumstance_phrase->, согнувшись в приступе рвоты,</li>
     <li>circumstance_phrase->, покрывшись сыпью,</li>
     <li>desc_sentence->Врач подходит к н[PAWN_objective], чтобы приступить к лечению.</li>
-    <li>desc_sentence->Чувствительное животное, [Animal], осваивает новый обогреватель модели «[PAWN_nameDef]».</li>
+	<li>desc_sentence->Чувствительное животное, [Animal], осваивает новый обогреватель модели «[PAWN_nameDef]».</li>
     <li>desc_sentence->На фоне — закручивается спиралью [TerrainFeature].</li>
     <li>desc_sentence->[Outlander], похоже, страдает тем же недугом.</li>
     <li>desc_sentence->[PAWN_nameDef] находится среди увядающего леса.</li>
-    <li>desc_sentence->Повсюду лежат грустные животные.</li>
+	<li>desc_sentence->Повсюду лежат грустные животные.</li>
   </IllnessRevealed.rulePack.rulesStrings>
-
-  <!-- Оригинал: убийство -->
-  <KilledCapacity.label>атака</KilledCapacity.label>
-  <!-- Оригинал:
-    ...
-    <li>cap_removal_verb->останавливается</li>
-    <li>death_verb_passive->погибает</li>
-    <li>death_verb_passive->падает замертво</li>
-    <li>death_verb_passive->умирает</li>
-    <li>wound_verb_passive->подставляется под удар</li>
-    ...
-  -->
+	<!-- Оригинал: убийство -->
+	<KilledCapacity.label>атака</KilledCapacity.label>
+	<!-- Оригинал:
+	...
+	<li>death_verb_passive->погибает</li>
+	<li>death_verb_passive->падает замертво</li>
+	<li>death_verb_passive->умирает</li>
+	...
+	-->
   <KilledCapacity.rulePack.rulesStrings>
     <li>tale_noun->как [wound_verb_passive] [VICTIM_nameDef]</li>
     <li>tale_noun->как [KILLER_nameDef] [wound_verb] [VICTIM_nameDef]</li>
@@ -294,9 +258,9 @@
     <li>cap_removal_phrase->[CAPACITY_label], жизненно важный процесс в организме жертвы, [cap_removal_verb], и [VICTIM_nameDef] [death_verb_passive]</li>
     <li>cap_removal_verb->прекращает свою работу</li>
     <li>cap_removal_verb->останавливается</li>
-    <li>death_verb_passive->проигрывает</li>
-    <li>death_verb_passive->падает на пол</li>
-    <li>death_verb_passive->проигрывает</li>
+	<li>death_verb_passive->проигрывает</li>
+	<li>death_verb_passive->падает на пол</li>
+	<li>death_verb_passive->проигрывает</li>
     <li>wound_verb_passive->подставляется под удар</li>
     <li>wound_verb_passive->получает телесные повреждения от</li>
     <li>wound_verb->ранит</li>
@@ -317,20 +281,19 @@
     <li>desc_sentence->[KILLER_nameDef] выглядит триумфально.</li>
   </KilledCapacity.rulePack.rulesStrings>
 
-  <!-- Оригинал: убийство с большого расстояния -->
-  <KilledLongRange.label>атака с большого расстояния</KilledLongRange.label>
-  <!-- Оригинал:
-    ...
-    <li>image->[empty] [wound_noun] противника по имени [VICTIM_nameDef], которого [KILLER_nameDef][weapon_optional] [wound_verb] [from_far_away]</li>
-    <li>wound_verb_passive->падает замертво</li>
-    <li>wound_verb_passive->погибает на месте</li>
-    <li>wound_noun->мгновенную смерть</li>
-    <li>wound_noun->ликвидацию</li>
+	<!-- Оригинал: убийство с большого расстояния -->
+	<KilledLongRange.label>атака с большого расстояния</KilledLongRange.label>
+	<!-- Оригинал:
+	...
+	<li>wound_verb_passive->падает замертво</li>
+	<li>wound_verb_passive->погибает на месте</li>
+	<li>wound_noun->мгновенную смерть</li>
+	<li>wound_noun->ликвидацию</li>
     <li>wound_verb->«снимает»</li>
-    <li>wound_verb->ликвидирует</li>
+	<li>wound_verb->ликвидирует</li>
     <li>wound_verb->устраняет</li>
-    ...
-  -->
+	...
+	-->
   <KilledLongRange.rulePack.rulesStrings>
     <li>tale_noun->как [KILLER_nameDef] [from_far_away] [wound_verb] [VICTIM_nameDef]</li>
     <li>tale_noun->как [VICTIM_nameDef] [wound_verb_passive] от [hit_gen]</li>
@@ -340,12 +303,12 @@
     <li>image->, как [KILLER_nameFull][weapon_optional] стреляет в [VICTIM_nameFull] [from_far_away]</li>
     <li>image->, как [KILLER_nameFull][weapon_optional] [wound_verb] [VICTIM_nameFull] [from_far_away]</li>
     <li>image->[empty] [wound_noun] противника по имени [VICTIM_nameDef], которого [KILLER_nameDef][weapon_optional] [wound_verb] [from_far_away]</li>
-    <li>wound_verb_passive->падает на пол</li>
-    <li>wound_verb_passive->сразу проигрывает</li>
-    <li>wound_noun->мгновенный проигрыш</li>
-    <li>wound_noun->нейтрализацию</li>
+	<li>wound_verb_passive->падает на пол</li>
+	<li>wound_verb_passive->сразу проигрывает</li>
+	<li>wound_noun->мгновенный проигрыш</li>
+	<li>wound_noun->нейтрализацию</li>
     <li>wound_verb->«снимает»</li>
-    <li>wound_verb->нейтрализует</li>
+	<li>wound_verb->нейтрализует</li>
     <li>wound_verb->устраняет</li>
     <li>wound_verb->поражает</li>
     <li>weapon_optional->[empty] [circumstance_word]</li>
@@ -366,18 +329,15 @@
     <li>desc_sentence->[KILLER_nameDef] чувствует удовлетворение, видя результат.</li>
     <li>desc_sentence->[KILLER_nameDef] выглядит триумфально.</li>
   </KilledLongRange.rulePack.rulesStrings>
-
-  <!-- Оригинал: убийство грозного противника -->
-  <KilledMajorThreat.label>атака грозного противника</KilledMajorThreat.label>
-  <!-- Оригинал:
-    ...
-    <li>combat_adj->эпической</li>
-    <li>wound_verb_passive->принимает смерть</li>
-    <li>wound_verb_passive->погибает</li>
-    <li>wound_verb_passive->умирает</li>
-    <li>wound_verb->сокрушает</li>
-    ...
-  -->
+	<!-- Оригинал: убийство грозного противника -->
+	<KilledMajorThreat.label>нейтрализация грозного противника</KilledMajorThreat.label>
+	<!-- Оригинал:
+	...
+	<li>wound_verb_passive->принимает смерть</li>
+	<li>wound_verb_passive->погибает</li>
+	<li>wound_verb_passive->умирает</li>
+	...
+	-->
   <KilledMajorThreat.rulePack.rulesStrings>
     <li>tale_noun->как [KILLER_nameDef] [wound_verb] [VICTIM_nameDef]</li>
     <li>tale_noun->как [wound_verb_passive] [VICTIM_nameDef]</li>
@@ -386,9 +346,9 @@
     <li>combat_adj->легендарной</li>
     <li>combat_adj->героической</li>
     <li>combat_adj->эпической</li>
-    <li>wound_verb_passive->принимает судьбу</li>
-    <li>wound_verb_passive->проигрывает</li>
-    <li>wound_verb_passive->проигрывает</li>
+	<li>wound_verb_passive->принимает судьбу</li>
+	<li>wound_verb_passive->проигрывает</li>
+	<li>wound_verb_passive->проигрывает</li>
     <li>wound_verb->сокрушает</li>
     <li>wound_verb->одерживает победу над</li>
     <li>wound_verb->побеждает</li>
@@ -416,27 +376,24 @@
     <li>desc_sentence->[KILLER_nameDef] чувствует удовлетворение, видя результат.</li>
     <li>desc_sentence->[KILLER_nameDef] изображается в ореоле из света, что придаёт [KILLER_objective] героический вид.</li>
   </KilledMajorThreat.rulePack.rulesStrings>
-
-  <!-- Оригинал: убийство врукопашную -->
-  <KilledMelee.label>атака врукопашную</KilledMelee.label>
-  <!-- Оригинал:
-    ...
-    <li>image->, как [VICTIM_nameFull] [wound_verb_passive] от удара [WEAPON_label], что держит в руках [KILLER_nameFull]</li>
-    <li>wound_verb_passive->погибает</li>
-    <li>wound_verb_passive->падает замертво</li>
-    <li>wound_noun->убийство</li>
+	<!-- Оригинал: убийство врукопашную -->
+	<KilledMelee.label>атака врукопашную</KilledMelee.label>
+	<!-- Оригинал:
+	...
+	<li>wound_verb_passive->погибает</li>
+	<li>wound_verb_passive->падает замертво</li>
+	<li>wound_noun->убийство</li>
     <li>wound_noun->расправу над</li>
-    <li>wound_verb->убивает</li>
+	<li>wound_verb->убивает</li>
     <li>wound_verb->разделывается с</li>
     <li>wound_verb->расправляется с</li>
-    <li>wound_verb->умерщвляет</li>
-    <li>weapon_optional->, держа в руках [WEAPON_label], [circumstance_phrase]</li>
-    <li>weapon_optional->[empty] [circumstance_phrase]</li>
+	<li>wound_verb->умерщвляет</li>
+	...
     <li>circumstance_phrase->беспощадно</li>
-    <li>circumstance_phrase->кроваво</li>
+	<li>circumstance_phrase->кроваво</li>
     <li>circumstance_phrase->безжалостно</li>
-    ...
-  -->
+	...
+	-->
   <KilledMelee.rulePack.rulesStrings>
     <li>tale_noun->как [KILLER_nameDef] [wound_verb] [VICTIM_nameDef] в ближнем бою</li>
     <li>tale_noun->как [KILLER_nameDef] [wound_verb] [VICTIM_nameDef] врукопашную</li>
@@ -444,18 +401,18 @@
     <li>image(p=4)->, как [KILLER_nameFull][weapon_optional] [wound_verb] [VICTIM_nameFull]</li>
     <li>image->, как [VICTIM_nameFull] [wound_verb_passive] от удара [KILLER_nameFull]</li>
     <li>image->, как [VICTIM_nameFull] [wound_verb_passive] от удара [WEAPON_label], что держит в руках [KILLER_nameFull]</li>
-    <li>wound_verb_passive->проигрывает</li>
-    <li>wound_verb_passive->падает на пол</li>
-    <li>wound_noun->расправу</li>
+	<li>wound_verb_passive->проигрывает</li>
+	<li>wound_verb_passive->падает на пол</li>
+	<li>wound_noun->нейтрализацию</li>
     <li>wound_noun->расправу над</li>
-    <li>wound_verb->разматывает</li>
+	<li>wound_verb->разматывает</li>
     <li>wound_verb->разделывается с</li>
     <li>wound_verb->расправляется с</li>
-    <li>wound_verb->уделывает</li>
+	<li>wound_verb->уделывает</li>
     <li>weapon_optional->, держа в руках [WEAPON_label], [circumstance_phrase]</li>
     <li>weapon_optional->[empty] [circumstance_phrase]</li>
     <li>circumstance_phrase->беспощадно</li>
-    <li>circumstance_phrase->жестоко</li>
+	<li>circumstance_phrase->жестоко</li>
     <li>circumstance_phrase->безжалостно</li>
     <li>circumstance_phrase->яростно</li>
     <li>circumstance_phrase->быстрыми, эффективными движениями</li>
@@ -476,9 +433,9 @@
     <li>desc_sentence->[KILLER_nameDef] выглядит триумфально.</li>
   </KilledMelee.rulePack.rulesStrings>
 
-  <!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает: -->
+	<!-- Этот кусок - без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN: killed with mortar -->
+  EN: killed with mortar -->
   <KilledMortar.label>попадание из миномёта</KilledMortar.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a mortar</li>
@@ -524,22 +481,16 @@
     <li>desc_sentence->[KILLER_nameDef] чувствует удовлетворение, видя результат.</li>
     <li>desc_sentence->[KILLER_nameDef] выглядит триумфально.</li>
   </KilledMortar.rulePack.rulesStrings>
-  
   <!-- EN: toxicity revealed -->
   <ToxicityRevealed.label>отравление токсинами</ToxicityRevealed.label>
 
-  <!-- исправление согласно концепции «12+» -->
-
-  <!-- Оригинал:
-    ...
-    <li>circumstance_phrase->, покрывшись сыпью,</li>
-    <li>desc_sentence->[PAWN_possessive] окружают искажённые трупы животных.</li>
-    <li>desc_sentence->[PAWN_possessive] одежда разрушается на глазах.</li>
-    ...
-    <li>desc_sentence->[PAWN_nameDef] находится среди больного, искажённого леса.</li>
-    <li>desc_sentence->Повсюду лежат умирающие животные.</li>
-  </ToxicityRevealed.rulePack.rulesStrings>
-  -->
+	<!-- Оригинал:
+	...
+	<li>...искажённые трупы животных.</li>
+	...
+	<li>...лежат умирающие животные.</li>
+	...
+	-->
   <ToxicityRevealed.rulePack.rulesStrings>
     <li>tale_noun->как [PAWN_nameDef] получает отравление токсинами</li>
     <li>tale_noun->как [PAWN_nameDef] получает большую дозу токсинов</li>
@@ -555,17 +506,17 @@
     <li>circumstance_phrase->[empty] с высохшими, потрескавшимися губами</li>
     <li>circumstance_phrase->, согнувшись в приступе рвоты,</li>
     <li>circumstance_phrase->, покрывшись сыпью,</li>
-    <li>desc_sentence->[PAWN_possessive] окружают искажённые туши животных.</li>
+	<li>desc_sentence->[PAWN_possessive] окружают искажённые туши животных.</li>
     <li>desc_sentence->[PAWN_possessive] одежда разрушается на глазах.</li>
     <li>desc_sentence->Небо окрасилось в угрюмо-[Color] цвет.</li>
     <li>desc_sentence->[TerrainFeature] на фоне принимает искажённо-[Color] цвет.</li>
     <li>desc_sentence->[PAWN_nameDef] находится среди больного, искажённого леса.</li>
-    <li>desc_sentence->Повсюду лежат ослабевшие животные.</li>
+	<li>desc_sentence->Повсюду лежат ослабевшие животные.</li>
   </ToxicityRevealed.rulePack.rulesStrings>
 
-  <!-- Всё что ниже - без изменений, но необходимо оставить, иначе грамматика страдает: -->
+	<!-- Всё что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN: wounded -->
+  EN: wounded -->
   <Wounded.label>ранение</Wounded.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
