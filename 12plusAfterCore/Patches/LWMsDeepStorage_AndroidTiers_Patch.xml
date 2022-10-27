@@ -1,0 +1,27 @@
+<!-- LGPL
+Copyright (c) LWM
+
+Исправление согласно концепции «12+» -->
+
+<Patch>
+	<Operation MayRequire="LWM.DeepStorage" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li MayRequire="Atlas.AndroidTiers" Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "LWM_Meat_Hook"]/building/fixedStorageSettings/filter/disallowedCategories</xpath>
+				<value>
+					<!-- Адаптация для модов на другие расы -->
+					<disallowedCategories>
+						<li>CorpsesMechanoid</li>
+						<li>CorpsesHumanlike</li>
+					</disallowedCategories>
+					<!-- Адаптация для мода Android Tiers -->
+					<disallowedThingDefs>
+						<li>Corpse_Abomination</li>
+					</disallowedThingDefs>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>
