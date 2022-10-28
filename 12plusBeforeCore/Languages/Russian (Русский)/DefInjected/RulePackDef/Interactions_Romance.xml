@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- Исправление согласно концепции «12+».
+	<!-- Исправление согласно концепции «12+».
 
-  Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. И через ноды "rulesStrings.1" тоже. Пришлось создать суб мод перед Core.
+	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. И через ноды "rulesStrings.1" тоже. Пришлось создать суб мод перед Core.
 
-  Первые полфайла без изменений, но необходимо оставить, иначе грамматика страдает:
+	Первые полфайла - без изменений, но необходимо оставить, иначе грамматика страдает:
 
   EN:
     <li>sent->[RECIPIENT_nameDef] agreed and the two are now engaged.</li>
@@ -13,21 +13,18 @@
   <Sentence_MarriageProposalAccepted.rulePack.rulesStrings>
     <li>sent->[RECIPIENT_nameDef] принимает предложение, и теперь они помолвлены.</li>
   </Sentence_MarriageProposalAccepted.rulePack.rulesStrings>
-
   <!-- EN:
     <li>sent->[RECIPIENT_nameDef] rejected the proposal.</li>
   -->
   <Sentence_MarriageProposalRejected.rulePack.rulesStrings>
     <li>sent->[RECIPIENT_nameDef] отклоняет предложение.</li>
   </Sentence_MarriageProposalRejected.rulePack.rulesStrings>
-
   <!-- EN:
     <li>sent->It was too much for the relationship to continue, and the two have now broken up.</li>
   -->
   <Sentence_MarriageProposalRejectedBrokeUp.rulePack.rulesStrings>
     <li>sent->После такого они не смогли продолжить свои отношения и расстались.</li>
   </Sentence_MarriageProposalRejectedBrokeUp.rulePack.rulesStrings>
-
   <!-- EN:
     <li>sent->[RECIPIENT_nameDef] was attracted and is now [INITIATOR_nameDef]'s lover.</li>
     <li>sent->[RECIPIENT_nameDef] responded well and is now [INITIATOR_nameDef]'s lover.</li>
@@ -40,18 +37,16 @@
     <li>sent->[RECIPIENT_nameDef] приходит от этого в восторг, и они начинают встречаться.</li>
   </Sentence_RomanceAttemptAccepted.rulePack.rulesStrings>
 
-  <!-- Исправление согласно концепции «12+».
-
-  Оригинал:
-  <Sentence_RomanceAttemptRejected.rulePack.rulesStrings>
-    <li>sent->[RECIPIENT_nameDef] отвергает [INITIATOR_possessive] ухаживания.</li>
-    <li>sent->[RECIPIENT_nameDef] игнорирует [INITIATOR_possessive] ухаживания.</li>
+	<!-- Оригинал:
+	...
+	<li>sent->[RECIPIENT_nameDef] отвергает [INITIATOR_possessive] ухаживания.</li>
+	<li>...игнорирует [INITIATOR_possessive] ухаживания.</li>
     <li>sent->[RECIPIENT_nameDef] смотрит на н[INITIATOR_possessive], как на пустое место.</li>
-    ...
-  -->
+	...
+	-->
   <Sentence_RomanceAttemptRejected.rulePack.rulesStrings>
-    <li>sent->[RECIPIENT_nameDef] ругается в ответ на [INITIATOR_possessive] действия.</li>
-    <li>sent->[RECIPIENT_nameDef] игнорирует [INITIATOR_possessive] действия.</li>
+	<li>sent->[RECIPIENT_nameDef] ругается в ответ на [INITIATOR_possessive] действия.</li>
+	<li>sent->[RECIPIENT_nameDef] игнорирует [INITIATOR_possessive] действия.</li>
     <li>sent->[RECIPIENT_nameDef] смотрит на н[INITIATOR_possessive], как на пустое место.</li>
     <li>sent->[RECIPIENT_nameDef] демонстративно поворачивается к н[INITIATOR_objective] спиной.</li>
     <li>sent->[RECIPIENT_nameDef] не реагирует.</li>
