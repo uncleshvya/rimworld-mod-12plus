@@ -275,6 +275,12 @@ Copyright (c) 2018 Rim of Madness Team
 				</value>
 			</li>
 
+			<!-- Исправляем ошибку категории, по аналогии с таким же автосборщиком T2 -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "AndroidT1Kit"]/thingCategories/li[1]/text()</xpath>
+				<value>Manufactured</value>
+			</li>
+
 			<!-- Исправление согласно концепции «12+».
 
 			Внимание! При добавлении нового общего параметра важен алфавитный порядок файлов патчей! В следущих за этим файлах не надо создавать willNeverEat, только ссылаться на него.
