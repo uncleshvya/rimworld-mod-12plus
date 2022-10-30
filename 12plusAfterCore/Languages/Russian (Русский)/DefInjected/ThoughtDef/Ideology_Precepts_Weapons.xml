@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Не всегда влезало в интерфейс. Вообще надо сделать ссылку только на тип оружия, без указания материала и качества, как в моде Simple Sidearms. Пока решение не найдено, заголовок обобщён, заодно убрано дублирование.
+	Использована идея из генератора описания идеолигий.
+	Оригинал: в руках {WEAPON_label} -->
+	<WieldingNobleOrDespisedWeapon.stages.wielding-0.label>благородное оружие в руках</WieldingNobleOrDespisedWeapon.stages.wielding-0.label>
+	<!-- Оригинал: Я держу в руках благородное оружие, {WEAPON_label}! -->
+	<WieldingNobleOrDespisedWeapon.stages.wielding-0.description>Я держу оружие, достойное героя! Трепещи, враг, у меня есть {WEAPON_label}!</WieldingNobleOrDespisedWeapon.stages.wielding-0.description>
+	<!-- Оригинал: в руках {WEAPON_label} -->
+	<WieldingNobleOrDespisedWeapon.stages.wielding-1.label>презренное оружие в руках</WieldingNobleOrDespisedWeapon.stages.wielding-1.label>
+	<!-- Оригинал: Я держу в руках презренное оружие, {WEAPON_label}! -->
+	<WieldingNobleOrDespisedWeapon.stages.wielding-1.description>Я держу оружие, на которое бы не позарился даже последний изгой! Как защищаться, надеясь лишь на {WEAPON_label}?</WieldingNobleOrDespisedWeapon.stages.wielding-1.description>
+
+</LanguageData>
