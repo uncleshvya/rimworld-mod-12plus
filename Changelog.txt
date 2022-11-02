@@ -2,7 +2,7 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2022-09-14 добавлена адаптация для мода Hospitality.
+2022-11-01 начата работа по обновлению 12+мода до последней версии игры. Так как у официалов Biotech ещё не переведён, обработаны 7 неофициальных переводов. Приоритет смещён на оный от автора Sestrenka, как более качественный. Поддержка переводов от LeveFUN, Davyd, Romanin, Arkanam и IIU остановлена до востребования.
 Идёт работа по исправлению трудноуловимого бага - иногда не загружается карта квестов с сайтами, типа "лесозаготовочный лагерь" или "набожная деревня". Ведётся отсев модов; список уже проверенных - в файле ModsConfig.xml в корне репозитория.
 Скомпилирована версия 12+мода 0.9.95pre-release.
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
@@ -11,6 +11,7 @@ For English, scroll down.
 "AlphaAnimals_";
 "AndroidTiers_";
 "BeesNhoney_";
+"Biotech_";
 "ConcreteWalls_";
 "DubsBadHygiene_";
 "EdbPrepareCarefully_";
@@ -68,13 +69,13 @@ For English, scroll down.
 "VGPtools_";
 "ZiTools_".
 
+2022-09-14 добавлена адаптация для мода Hospitality.
+
 2022-07-14 добавлена адаптация для мода Android Tiers и его русификатора, заодно исправлены их ошибки, см.каменты в коде. По желанию, доступно исправление кривоватого баланса:
 - добавлены рецепты изготовления гигантского ножа и разбивания андроидов;
 - у M7 и M8 убрана возможность общения;
 - питательный раствор больше не считается животным продуктом;
 - механическая корова теперь содержит мясо.
-
-2022-06-28 обновление 12+мода до последней версии игры. Так как у официалов Ideology ещё не допереведён, обработаны 3 неофициальных перевода. Приоритет смещён на оный от автора Sestrenka, как более качественный. Поддержка переводов от LeveFUN и Davyd остановлена до востребования.
 
 2022-03-28 добавлена адаптация и русская локализация для мода Rim of Madness Bones. Чтобы не было красных ошибок, добавлена зависимость от этого мода. По желанию, доступно исправление кривоватого баланса:
 - убраны кости из механоидов (код устарел);
@@ -250,7 +251,13 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2022-sep-14 Orion.Hospitality mod adaptation added.
+2022-nov-01 last game version update work started. Rus.Biotech.Nastia (non-vanilla translation) was prioritized. Support for following translations is paused until asked, because they are a bit worse:
+RU.Ideology;
+Davyd.Translation.Ideology;
+Russifier.Ideology;
+Rus.Biotech.IUGT;
+russian.biotech.rf;
+Rus.Biotech.Arkanam.
 Bugfix work is in process: there is a problem with site quests - sometimes the game can't load a map. Adapted mods are testing one by one; the whitelist is in "ModsConfig.xml" file.
 UncleShvya.12plus mod v.0.9.95pre-release compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
@@ -259,6 +266,7 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "AlphaAnimals_";
 "AndroidTiers_";
 "BeesNhoney_";
+"Biotech_";
 "ConcreteWalls_";
 "DubsBadHygiene_";
 "EdbPrepareCarefully_";
@@ -316,13 +324,13 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "VGPtools_";
 "ZiTools_".
 
+2022-sep-14 Orion.Hospitality mod adaptation added.
+
 2022-jul-14 Atlas.AndroidTiers and Android.Tiers.RUS mods' adaptation added. Also corrected their mistakes, see code comments. Optional balance change available:
 - added recipes for giant knife and android smash;
 - M7 and M8 now can't trade or lead peace talks;
 - blue milk is no more animal product;
 - robo-cow now contains meat.
-
-2022-jun-28 update to last game version. Russifier.Ideology mod adaptation added. Support for RU.Ideology and Davyd.Translation.Ideology mods is paused until asked, because they are a bit worse.
 
 2022-mar-28 sihv.rombones mod adaptation and Russian translation added. To avoid red errors, mod dependence added. Optional balance change available:
 - removed bones from mechanoids (obsolete code);
