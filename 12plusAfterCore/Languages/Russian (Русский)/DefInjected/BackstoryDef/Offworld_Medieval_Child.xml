@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Есть глобальная проблема перевода лора, в части употребления предлогов. Подробности - в статье:
+	https://github.com/uncleshvya/rimworld-mod-12plus/blob/master/RimWorldUniverse/%D0%A2%D0%B8%D0%BF%D1%8B%20%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%20%D0%BD%D0%B5%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D1%81%D1%82%D1%8C.txt
+	Оригинал: {PAWN_nameDef} {PAWN_gender ? родился : родилась} в дворянской...мира. {PAWN_pronoun} {PAWN_gender ? рос : росла} в каменном особняке, где... -->
+	<MedievalLordling19.baseDesc>Родившись в дворянской семье в одном из старых королевств средневекового мира, {PAWN_nameDef} {PAWN_gender ? рос : росла} в каменных палатах, где {PAWN_objective} прислуживали люди из более низких сословий.\n\nТакая жизнь не учит никаким практическим навыкам и вдобавок внушает пожизненное отвращение к ручному труду. Однако тонкости социальных манипуляций {PAWN_nameDef} {PAWN_gender ? постиг : постигла} с ранних лет.</MedievalLordling19.baseDesc>
+	<!-- Оригинал: ...ямы в средневековом мире. Простой...труд — {PAWN_possessive} старейший спутник, как...плеть.\n\n{PAWN_pronoun} {PAWN_gender ? научился : научилась} читать лишь... -->
+	<MedievalSlave49.baseDesc>{PAWN_nameDef} {PAWN_gender ? рос : росла}, тягая телеги и роя ямы на одном из средневековых миров. Простой ручной труд был {PAWN_objective} привычен с младых ногтей, как и хозяйская плеть.\n\nЧитать {PAWN_pronoun} {PAWN_gender ? научился : научилась} лишь к девяти годам.</MedievalSlave49.baseDesc>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: {PAWN_possessive} отдали...монастырь как дитя внебрачной любви. Там... -->
+	<ConventChild16.baseDesc>В раннем детстве {PAWN_possessive} отдали в средневековый монастырь. Там {PAWN_nameDef} {PAWN_gender ? познал : познала} праведность тяжёлой работы и послушания, однако высокие технологии стали ересью в {PAWN_possessive} сознании.</ConventChild16.baseDesc>
+	<!-- Скопировано с title: -->
+	<ConventChild16.titleFemale>монастырский ребёнок</ConventChild16.titleFemale>
+	<!-- Оригиналы: байстрюк -->
+	<ConventChild16.titleShort>послушник</ConventChild16.titleShort>
+	<ConventChild16.titleShortFemale>послушница</ConventChild16.titleShortFemale>
+
+</LanguageData>
