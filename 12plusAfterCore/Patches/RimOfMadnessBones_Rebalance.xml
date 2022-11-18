@@ -2,11 +2,7 @@
 
 <!-- MIT
 Copyright (c) 2018 Rim of Madness Team
-Копия лицензии - в файле RimOfMadnessBones_License_MIT.txt
-
-CC BY-NC-ND 4.0
-Copyright (c) Sarg Bjornson
-Копия лицензии - в файле VEcooking_License_CC_BY_NC_ND_4_0.txt -->
+-->
 
 <Patch>
 	<Operation MayRequire="sihv.rombones" Class="PatchOperationSequence">
@@ -90,16 +86,6 @@ Copyright (c) Sarg Bjornson
 				defName = "BoneChina"
 				]/thingCategories/li[1]/text()</xpath>
 				<value>StoneBlocks</value>
-			</li>
-			<!-- Для пропатченных блоков корректируем рецепт из мода VE cooking -->
-			<li MayRequire="VanillaExpanded.VCookE" Class="PatchOperationAdd">
-				<xpath>Defs/RecipeDef[defName = "VCE_MakeSaltfromBlocks"]/fixedIngredientFilter</xpath>
-				<value>
-					<disallowedThingDefs>
-						<li>Bonecrete</li>
-						<li>BoneChina</li>
-					</disallowedThingDefs>
-				</value>
 			</li>
 
 <!-- Далее - наработки кода, попытка приблизить кости к реальности. Нормальное решение пока не найдено -->
