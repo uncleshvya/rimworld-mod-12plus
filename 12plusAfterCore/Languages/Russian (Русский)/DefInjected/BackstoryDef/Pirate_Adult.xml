@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправлена неточность, сообщите разработчику ванили.
@@ -18,8 +18,8 @@
 	<Assassin20.title>бывший снайпер</Assassin20.title>
 	<Assassin20.titleFemale>бывший снайпер</Assassin20.titleFemale>
 	<!-- Оригинал: ассасин -->
-	<Assassin20.titleShort>снайпер</Assassin20.titleShort>
-	<Assassin20.titleShortFemale>снайпер</Assassin20.titleShortFemale>
+	<Assassin20.titleShort>стрелок</Assassin20.titleShort>
+	<Assassin20.titleShortFemale>стрелок</Assassin20.titleShortFemale>
 	<!-- Оригинал: {PAWN_nameDef} {PAWN_gender ? торговал : торговала} своим телом. Им пользовались сотни клиентов в борделях на... -->
 	<Gigolo30.baseDesc>{PAWN_nameDef} {PAWN_gender ? работал специалистом : работала специалисткой} по расслаблению, и {PAWN_gender ? снискал : снискала} большую популярность на нескольких планетах. Это не прошло незаметно для психики, но зато {PAWN_nameDef} {PAWN_gender ? научился : научилась} находить общий язык с самыми разными людьми.</Gigolo30.baseDesc>
 	<!-- Оригинал: жиголо -->
