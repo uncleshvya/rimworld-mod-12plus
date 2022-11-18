@@ -6,14 +6,14 @@
 
 			<!-- Исправление согласно концепции «12+».
 
-			Отключаем разделку разумных существ -->
+			Отключаем разделку разумных существ. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/RecipeDef[defName = "ButcherCorpseFlesh"]/fixedIngredientFilter/disallowedCategories</xpath>
 				<value>
 					<li>CorpsesHumanlike</li>
 				</value>
 			</li>
-			<!-- Мягко убираем обучение торговле органами из пленников -->
+			<!-- Мягко убираем обучение торговле органами из пленников. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[@Name = "BodyPartNaturalBase"]</xpath>
 				<value>
@@ -34,7 +34,7 @@
 					<tradeability>None</tradeability>
 				</value>
 			</li>
-			Пока не найдено решение, удаляем мумиё из ассортимента торговцев -->
+			Пока не найдено решение, удаляем мумиё из ассортимента торговцев. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/TraderKindDef[
 				defName = "Base_Neolithic_Standard" or
@@ -47,7 +47,7 @@
 					<excludedThingDefs> <li>Meat_Human</li> </excludedThingDefs>
 				</value>
 			</li>
-			<!-- Для события ResourcePodCrash решение не найдено, нужна правка workerClass "IncidentWorker_ResourcePodCrash" -->
+			<!-- Для события ResourcePodCrash решение не найдено, нужна правка workerClass "IncidentWorker_ResourcePodCrash". -->
 
 		</operations>
 	</Operation>
