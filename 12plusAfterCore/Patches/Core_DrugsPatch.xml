@@ -6,7 +6,7 @@
 
 			<!-- Исправление согласно концепции «12+».
 
-			Удаляем разрешающие наркополитики -->
+			Удаляем разрешающие наркополитики. -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/DrugPolicyDef[
 				defName = "OneDrinkPerDay" or
@@ -14,7 +14,7 @@
 				defName = "Unrestricted"
 				]</xpath>
 			</li>
-			<!-- По умолчанию отключаем приём для удовлетворения зависимости, чтобы она быстрее прошла -->
+			<!-- По умолчанию отключаем приём для удовлетворения зависимости, чтобы она быстрее прошла. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/DrugPolicyDef[defName = "NoDrugs"]</xpath>
 				<value>
@@ -51,12 +51,12 @@
 							<drug>WakeUp</drug>
 							<allowedForAddiction>false</allowedForAddiction>
 						</li>
-						<!-- А чего с люциферием тянуть-то? Лучше использовать мод на перепрограммирование механитов -->
+						<!-- А чего с люциферием тянуть-то? Лучше использовать мод на перепрограммирование механитов. -->
 						<li>
 							<drug>Luciferium</drug>
 							<allowedForAddiction>false</allowedForAddiction>
 						</li>
-						<!-- Заодно добавляем профилактический приём лекарств -->
+						<!-- Заодно добавляем профилактический приём лекарств. -->
 						<li>
 							<drug>Penoxycyline</drug>
 							<allowScheduled>true</allowScheduled>
@@ -65,7 +65,7 @@
 					</entries>
 				</value>
 			</li>
-			<!-- Убираем невозможность получения зависимости -->
+			<!-- Убираем невозможность получения зависимости. -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[
 				defName = "Beer" or
@@ -75,14 +75,14 @@
 				defName = "WakeUp"
 				]/comps/li[@Class = "CompProperties_Drug"]/minToleranceToAddict</xpath>
 			</li>
-			<!-- Мягко убираем обучение наркоторговле -->
+			<!-- Мягко убираем обучение наркоторговле. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[@Name = "DrugBase"]</xpath>
 				<value>
 					<tradeability>Buyable</tradeability>
 				</value>
 			</li>
-			<!-- Приближаем к реальности симптомы передозировки -->
+			<!-- Приближаем к реальности симптомы передозировки. -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/HediffDef[defName = "DrugOverdose"]/lethalSeverity/text()</xpath>
 				<value>0.75</value>
