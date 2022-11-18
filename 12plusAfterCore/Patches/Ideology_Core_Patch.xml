@@ -4,9 +4,9 @@
 		<success>Always</success>
 		<operations>
 
-			<!-- Исправление согласно концепции «12+»
+			<!-- Исправление согласно концепции «12+».
 
-			Заменена механика на ванильное поджигание. Заодно решена проблема утилизации тел для некоторых идеолигий. И зависти к налётчикам-поджигателям -->
+			Заменена механика на ванильное поджигание. Заодно решена проблема утилизации тел для некоторых идеолигий. И зависти к налётчикам-поджигателям. -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/JobDef[defName = "ExtractSkull"]</xpath>
 				<value>
@@ -21,11 +21,11 @@
 				<xpath>Defs/DesignationDef[defName = "ExtractSkull"]/texturePath/text()</xpath>
 				<value>Things/Building/Misc/Campfire</value>
 			</li>
-			<!-- Убран череп из рецепта -->
+			<!-- Убран череп из рецепта. -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName = "Skullspike"]/costList</xpath>
 			</li>
-			<!-- Замена картинки каннибальского блюда -->
+			<!-- Замена картинки каннибальского блюда. -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "CannibalPlatter"]/graphicData</xpath>
 				<value>
@@ -44,7 +44,7 @@
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName = "CannibalPlatter"]/defaultPlacingRot</xpath>
 			</li>
-			<!-- Добавление надписей о вреде курения -->
+			<!-- Добавление надписей о вреде курения. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[
 				defName = "Autobong" or
@@ -60,7 +60,7 @@
 					</descriptionHyperlinks>
 				</value>
 			</li>
-			<!-- Добавление роста толерантности от бонгов -->
+			<!-- Добавление роста толерантности от бонгов. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "Autobong"]/comps</xpath>
 				<value>
@@ -81,6 +81,21 @@
 						<severity>0.0006</severity>
 					</li>
 				</value>
+			</li>
+			<!-- Не получается изменить ритуал ослепления, чтобы не было кровотечения и режущего звука. Пока не найдено решение, этот звук используемый в том числе для казни в Core, заменён на нейтральный. -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/SoundDef[defName = "Execute_Cut"]/subSounds/li[1]/grains</xpath>
+				<value>
+					<grains>
+						<li Class="AudioGrain_Folder">
+							<clipFolderPath>Impact/PunchMiss</clipFolderPath>
+						</li>
+					</grains>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/SoundDef[defName = "Execute_Cut"]/subSounds/li[1]/volumeRange/text()</xpath>
+				<value>30</value>
 			</li>
 
 		</operations>
