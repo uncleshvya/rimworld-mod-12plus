@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
-<!-- MIT
-Copyright (c) 2018 Rim of Madness Team
--->
-
 <Patch>
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
@@ -11,7 +6,7 @@ Copyright (c) 2018 Rim of Madness Team
 
 			<!-- Исправление согласно концепции «12+».
 
-			Можно было бы совсем отключить текстильный ресурс с людей, но пусть вспомнится подвиг древнеримских женщин из г.Аквилея, отдавших свои волосы для ремонта катапульт -->
+			Можно было бы совсем отключить текстильный ресурс с людей, но пусть вспомнится подвиг древнеримских женщин из г.Аквилея, отдавших свои волосы для ремонта катапульт. -->
 			<li Class="PatchOperationAttributeSet">
 				<xpath>Defs/ThingDef[defName = "Leather_Human"]</xpath>
 				<attribute>ParentName</attribute>
@@ -24,6 +19,7 @@ Copyright (c) 2018 Rim of Madness Team
 					<drawSize>0.5</drawSize>
 				</value>
 			</li>
+			<!-- Убираем отображение количества плоти, кожи и костей. -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "Human"]/statBases/LeatherAmount</xpath>
 				<value>
@@ -40,27 +36,26 @@ Copyright (c) 2018 Rim of Madness Team
 					<color>(120, 80, 0)</color>
 				</value>
 			</li>
-			Вместо этого подкрашиваем ванильную текстуру: -->
+			Вместо этого подкрашиваем ванильную текстуру. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "Human"]/race</xpath>
 				<value>
 					<meatColor>(110, 110, 0)</meatColor>
 				</value>
 			</li>
-			<!-- Следить за алфавитным порядком файлов с патчами, тег disallowedTraits -->
+			<!-- Убираем возможность появления нежелательных трейтов. -->
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "Human"]/alienRace/generalSettings</xpath>
+				<xpath>Defs/ThingDef[defName = "Human"]/alienRace/generalSettings/disallowedTraits</xpath>
 				<value>
-					<disallowedTraits>
-						<li> <defName>Asexual</defName> </li>
-						<li> <defName>Bisexual</defName> </li>
-						<li> <defName>Cannibal</defName> </li>
-						<li> <defName>Gay</defName> </li>
-						<li> <defName>Masochist</defName> </li>
-						<li> <defName>Pyromaniac</defName> </li>
-					</disallowedTraits>
+					<li> <defName>Asexual</defName> </li>
+					<li> <defName>Bisexual</defName> </li>
+					<li> <defName>Cannibal</defName> </li>
+					<li> <defName>Gay</defName> </li>
+					<li> <defName>Masochist</defName> </li>
+					<li> <defName>Pyromaniac</defName> </li>
 				</value>
 			</li>
+			<!-- Убираем возможность появления нежелательных мыслей. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "Human"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
 				<value>
