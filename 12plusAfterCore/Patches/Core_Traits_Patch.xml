@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<!-- Исправление согласно концепции «12+».
+
+			Трейты в ванили жёстко прописаны - так просто их не удалить.
+			Красивое и совместимое с сетевыми модами решение не найдено, пока что удалось сделать их одиноко-бесполезными, максимально сокращающими время возможного общения пешки. -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[
+				defName = "Asexual" or
+				defName = "Bisexual" or
+				defName = "Cannibal" or
+				defName = "Gay" or
+				defName = "Masochist"
+				]/degreeDatas/li[1]</xpath>
+				<value>
+					<hungerRateFactor>100</hungerRateFactor>
+					<randomDiseaseMtbDays>0</randomDiseaseMtbDays>
+					<socialFightChanceFactor>100</socialFightChanceFactor>
+					<statFactors>
+						<EatingSpeed>0.01</EatingSpeed>
+					</statFactors>
+					<statOffsets>
+						<MentalBreakThreshold>1</MentalBreakThreshold>
+						<MoveSpeed>-10</MoveSpeed>
+						<PainShockThreshold>-1</PainShockThreshold>
+					</statOffsets>
+					<theOnlyAllowedMentalBreaks>
+						<li>Berserk</li>
+					</theOnlyAllowedMentalBreaks>
+					<randomMentalState>Berserk</randomMentalState>
+					<randomMentalStateMtbDaysMoodCurve>
+						<points>
+							<li>(0, 100)</li>
+						</points>
+					</randomMentalStateMtbDaysMoodCurve>
+				</value>
+			</li>
+			<!-- У пиромана уже были прописаны срывы, заменяем.
+			Добавляем намёк на английскую локализацию 12+мода -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/TraitDef[defName = "Pyromaniac"]/degreeDatas/li[1]</xpath>
+				<value>
+					<li>
+						<label>saboteur</label>
+						<description>{PAWN_nameDef} only likes to destroy. {PAWN_pronoun} is absolutely unsuitable for life in the colony, it's better to send {PAWN_possessive} to the enemy.</description>
+						<hungerRateFactor>100</hungerRateFactor>
+						<randomDiseaseMtbDays>0</randomDiseaseMtbDays>
+						<socialFightChanceFactor>100</socialFightChanceFactor>
+						<statFactors>
+							<EatingSpeed>0.01</EatingSpeed>
+						</statFactors>
+						<statOffsets>
+							<MentalBreakThreshold>1</MentalBreakThreshold>
+							<MoveSpeed>-10</MoveSpeed>
+							<PainShockThreshold>-1</PainShockThreshold>
+						</statOffsets>
+						<theOnlyAllowedMentalBreaks>
+							<li>Berserk</li>
+						</theOnlyAllowedMentalBreaks>
+						<randomMentalState>Berserk</randomMentalState>
+						<randomMentalStateMtbDaysMoodCurve>
+							<points>
+								<li>(0, 100)</li>
+							</points>
+						</randomMentalStateMtbDaysMoodCurve>
+					</li>
+				</value>
+			</li>
+			<!-- Трейты, у которых не было конфликтов: -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[
+				defName = "Nudist" or
+				defName = "Bloodlust" or
+				defName = "Psychopath" or
+				defName = "Cannibal" or
+				defName = "Abrasive" or
+				defName = "NightOwl" or
+				defName = "Gay" or
+				defName = "Bisexual" or
+				defName = "Asexual" or
+				defName = "AnnoyingVoice" or
+				defName = "CreepyBreathing" or
+				defName = "Pyromaniac" or
+				defName = "Nimble" or
+				defName = "FastLearner" or
+				defName = "Undergrounder" or
+				defName = "DislikesMen" or
+				defName = "DislikesWomen" or
+				defName = "GreatMemory" or
+				defName = "Tough" or
+				defName = "TorturedArtist" or
+				defName = "QuickSleeper" or
+				defName = "SpeedOffset" or
+				defName = "DrugDesire" or
+				defName = "NaturalMood" or
+				defName = "Nerves" or
+				defName = "Neurotic" or
+				defName = "Industriousness" or
+				defName = "PsychicSensitivity" or
+				defName = "Beauty" or
+				defName = "Immunity"
+				]</xpath>
+				<value>
+					<conflictingTraits>
+						<li>Asexual</li>
+						<li>Bisexual</li>
+						<li>Cannibal</li>
+						<li>Gay</li>
+						<li>Masochist</li>
+						<li>Pyromaniac</li>
+					</conflictingTraits>
+				</value>
+			</li>
+			<!-- Трейты, у которых уже были конфликты.
+			У хлюпика уже был указан Masochist, но это не мешает. -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[
+				defName = "Kind" or
+				defName = "TooSmart" or
+				defName = "Brawler" or
+				defName = "Masochist" or
+				defName = "Greedy" or
+				defName = "Jealous" or
+				defName = "Ascetic" or
+				defName = "SlowLearner" or
+				defName = "Transhumanist" or
+				defName = "BodyPurist" or
+				defName = "Gourmand" or
+				defName = "ShootingAccuracy" or
+				defName = "Wimp"
+				]/conflictingTraits</xpath>
+				<value>
+					<li>Asexual</li>
+					<li>Bisexual</li>
+					<li>Cannibal</li>
+					<li>Gay</li>
+					<li>Masochist</li>
+					<li>Pyromaniac</li>
+				</value>
+			</li>
+			<!-- Оставить эти скрытые строки как инструкцию по адаптации новых модов на трейты.
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "Wimp"]/conflictingTraits</xpath>
+				<value>
+					<li>Asexual</li>
+					<li>Bisexual</li>
+					<li>Cannibal</li>
+					<li>Gay</li>
+					<li>Pyromaniac</li>
+					<li>VTE_DrunkenMaster</li>
+					<li>VTE_Kleptomaniac</li>
+				</value>
+			</li>
+			-->
+
+		</operations>
+	</Operation>
+</Patch>
