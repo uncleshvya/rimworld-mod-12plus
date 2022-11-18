@@ -6,7 +6,7 @@
 	<packageId>UncleShvya.12plus.AfterCore</packageId>
 	<url>https://github.com/uncleshvya/rimworld-mod-12plus</url>
 	<supportedVersions>
-		<li>1.3</li>
+		<li>1.4</li>
 	</supportedVersions>
 	<description>For English, scroll down.
 
@@ -41,21 +41,12 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 =====
 
 Кое-где пришлось подправить баланс, см.файл changelog. Кого эти исправления не устраивают, просто удалите соответствующий файл — концепция и сейвы не пострадают:
-- «AndroidTiers_Rebalance.xml»;
-- «DubsBadHygiene_Rebalance.xml»;
 - «MedicalTraining_Rebalance.xml»;
-- «OrassansLite_Rebalance.xml»;
-- «RimOfMadnessBones_Rebalance.xml»;
-- «Royalty_VEfactionsInsectoids_Rebalance.xml»;
-- «UtilityColumns_Rebalance.xml»;
-- «VEcooking_VEstews_Rebalance.xml»;
-- «VEfactionsMedieval_Rebalance.xml»;
-- «VEfurnitureSecurity_Rebalance.xml».
+- «RimOfMadnessBones_Rebalance.xml».
 
 Известные проблемы:
 
-- Если перевод категории «12+» не обновился, заново выберите русский язык в главном меню;
-- Адаптация мода VEtraits привела к редкой красной ошибке при загрузке игры. Но это лишь уведомление, можно игнорировать.
+- Если перевод категории «12+» не обновился, заново выберите русский язык в главном меню.
 
 =====
 
@@ -64,8 +55,7 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 - решить проблему авто-обновления перевода. Возможно, написать скрипт, аналогично как у официального переводчика, только отслеживающий несовпадение файлов перевода и наличие файла скрипта;
 - улучшить каменты в коде, в т.ч. по адаптации;
 - для rombones сделать механику порчи костей, чтобы костный мозг можно было достать только из свежих;
-- для rombones заменить графику для полимера кальция, чтобы он больше ассоциировался с металлическими изделиями;
-- для android tiers исправить ряд небольших ошибок, см.каменты в коде.
+- для rombones заменить графику для полимера кальция, чтобы он больше ассоциировался с металлическими изделиями.
 
 =====
 
@@ -92,7 +82,6 @@ The aim is to make such mods playable:
 modpack http://lttlword.ru/rimworld-minimalism-v1-2
 modpack http://lttlword.ru/rimworld-sborka-modov-ot-lalks-i-pal
 multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty/
-Humanoid Cats — dianawinters.OrassansLite
 
 =====
 
@@ -105,21 +94,12 @@ If you don't like the mod, just turn it off. Saves will remain playable.
 =====
 
 Had to rebalance some mods, see changelog file. But if you don't like these changes, just delete unwanted file, saves will be playable, concept — workable:
-- "AndroidTiers_Rebalance.xml";
-- "DubsBadHygiene_Rebalance.xml";
 - "MedicalTraining_Rebalance.xml";
-- "OrassansLite_Rebalance.xml";
-- "RimOfMadnessBones_Rebalance.xml";
-- "Royalty_VEfactionsInsectoids_Rebalance.xml";
-- "UtilityColumns_Rebalance.xml";
-- "VEcooking_VEstews_Rebalance.xml";
-- "VEfactionsMedieval_Rebalance.xml";
-- "VEfurnitureSecurity_Rebalance.xml".
+- "RimOfMadnessBones_Rebalance.xml".
 
 Known issues:
 
-- if russian "12plus" translation didn't refresh automatically, re-choose russian language from main menu;
-- Vanilla Expanded Traits mod adaptation may cause a red error after savegame load. Ignore, it's just a notice.
+- if russian "12plus" translation didn't refresh automatically, re-choose russian language from main menu.
 
 =====
 
@@ -128,8 +108,7 @@ Ideas to realize in next version:
 - to solve auto-update problem. Maybe modify auto-script from official Russian translator's site. And to add a watchdog script to eliminate an occasional translation mismatch and/or automation;
 - to make code comments better;
 - rombones: to make the bones' rotting, in order to prohibit the extraction of bone marrow from ancient bones;
-- rombones: to change boneplastic graphics, it should look like metal ore, according to the lore;
-- to fix several android tiers' bugs, see code comments.
+- rombones: to change boneplastic graphics, it should look like metal ore, according to the lore.
 	</description>
 	<modDependencies>
 		<li>
@@ -148,33 +127,42 @@ Ideas to realize in next version:
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
 		</li>
 		<li>
+			<packageId>sihv.rombones</packageId>
+			<displayName>Rim of Madness - Bones</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/1180573408</steamWorkshopUrl>
+		</li>
+		<!-- Моды забракованы командой балансеров:
+		Cooking был нужен для адаптации VEfactionsMedieval, а он очень кривой и имбовый.
+		<li>
 			<packageId>VanillaExpanded.VCookE</packageId>
 			<displayName>Vanilla Cooking Expanded</displayName>
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2134308519</steamWorkshopUrl>
 		</li>
+		Имбовые либо нелогичные трейты:
 		<li>
 			<packageId>vanillaexpanded.vanillatraitsexpanded</packageId>
 			<displayName>Vanilla Traits Expanded</displayName>
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2296404655</steamWorkshopUrl>
 		</li>
-		<li>
-			<packageId>sihv.rombones</packageId>
-			<displayName>Rim of Madness - Bones</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/1180573408</steamWorkshopUrl>
-		</li>
+		Имбовые развлечения:
 		<li>
 			<packageId>JGH.training</packageId>
 			<displayName>Misc. Training retexture</displayName>
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2727678248</steamWorkshopUrl>
 		</li>
+		-->
 	</modDependencies>
+	<!-- Мод забракован командой балансеров:
+	Стал не нужен после Ideology:
 	<loadBefore>
 		<li>UncleShvya.ExpandedRoofingRusFix</li>
 	</loadBefore>
+	-->
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
 		<li>erdelf.HumanoidAlienRaces</li>
 		<li>atsukohi.HumanoidAlienRacesRus</li>
 		<li>dianawinters.OrassansLite</li>
@@ -272,11 +260,11 @@ Ideas to realize in next version:
 		<li>SirKota.InventoryTab</li>
 		<li>Xavior.GliterTech</li>
 		<li>maxzicode.zitools</li>
-		<li>Russifier.Ideology</li>
 		<li>UncleShvya.EdibleLeather</li>
 		<li>itchyflea.medicaltraining</li>
 		<li>RainbeausFishing.ReworkMod</li>
 		<li>Orion.Hospitality</li>
+		<li>Rus.Biotech.Nastia</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
@@ -289,8 +277,12 @@ Ideas to realize in next version:
 		<li>VanillaExpanded.VWEFT</li>
 		<li>VanillaExpanded.VWETB</li>
 		<li>VanillaExpanded.VAEAccessories</li>
+		<li>firefoxpdm.RainbeausFishing</li>
 		<li>RU.Ideology</li>
 		<li>Davyd.Translation.Ideology</li>
-		<li>firefoxpdm.RainbeausFishing</li>
+		<li>Russifier.Ideology</li>
+		<li>Rus.Biotech.IUGT</li>
+		<li>russian.biotech.rf</li>
+		<li>Rus.Biotech.Arkanam</li>
 	</incompatibleWith>
 </ModMetaData>
