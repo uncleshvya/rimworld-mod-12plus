@@ -6,13 +6,13 @@
 
 			<!-- Исправлен баланс, сообщите разработчику.
 
-			Звук изменяем на такой же, как при ванильной операции -->
+			Звук изменяем на такой же, как при ванильной операции. -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/RecipeDef[defName = "IF_MedTable"]/soundWorking/text()</xpath>
 				<value>Recipe_Surgery</value>
 			</li>
 			<!-- Добавляем необходимость исследования мебели.
-			Ко всему прочему, увеличивается ценность этого исследования на начальном этапе игры за племя -->
+			Ко всему прочему, увеличивается ценность этого исследования на начальном этапе игры за племя. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "IF_MeditrainTable"]</xpath>
 				<value>
