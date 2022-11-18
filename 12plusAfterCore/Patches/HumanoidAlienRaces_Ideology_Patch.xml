@@ -11,14 +11,14 @@ Copyright (c) 2018 Simon Latusek
 
 			<!-- Исправление согласно концепции «12+»
 
-			Замена текстов не решила всех проблем, пришлось подправить идеолигические черты -->
+			Замена текстов не решила всех проблем, пришлось подправить идеолигические черты. -->
 			<li MayRequire="Ludeon.RimWorld.Ideology" Class="PatchOperationRemove">
 				<xpath>Defs/MemeDef[
 				defName = "HAR_Xenophilia" or
 				defName = "HAR_Xenophobia"
 				]/requireOne/li[4]</xpath>
 			</li>
-			<!-- Аналогично с принципами  -->
+			<!-- Аналогично с принципами. -->
 			<li MayRequire="Ludeon.RimWorld.Ideology" Class="PatchOperationReplace">
 				<xpath>Defs/PreceptDef[defName = "HAR_EatingAliens_Abhorrent"]/conflictingMemes/li[1]/text()</xpath>
 				<value>HAR_Xenophilia</value>
@@ -38,12 +38,12 @@ Copyright (c) 2018 Simon Latusek
 				defName = "HAR_EatingAliens_RequiredStrong"
 				]/conflictingMemes</xpath>
 			</li>
-			<!-- Выставляем значение принципа по умолчанию для идеолигии ксенофилов -->
+			<!-- Выставляем значение принципа по умолчанию для идеолигии ксенофилов. -->
 			<li MayRequire="Ludeon.RimWorld.Ideology" Class="PatchOperationReplace">
 				<xpath>Defs/PreceptDef[defName = "HAR_EatingAliens_Acceptable"]/associatedMemes/li[1]/text()</xpath>
 				<value>HAR_Xenophilia</value>
 			</li>
-			<!-- И для идеолигии ксенофобов -->
+			<!-- И для идеолигии ксенофобов. -->
 			<li MayRequire="Ludeon.RimWorld.Ideology" Class="PatchOperationRemove">
 				<xpath>Defs/PreceptDef[
 				defName = "HAR_EatingAliens_Abhorrent" or
