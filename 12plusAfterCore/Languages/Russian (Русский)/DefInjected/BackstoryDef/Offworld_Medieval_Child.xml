@@ -5,17 +5,15 @@
 
 	Есть глобальная проблема перевода лора, в части употребления предлогов. Подробности - в статье:
 	https://github.com/uncleshvya/rimworld-mod-12plus/blob/master/RimWorldUniverse/%D0%A2%D0%B8%D0%BF%D1%8B%20%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%20%D0%BD%D0%B5%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D1%81%D1%82%D1%8C.txt
-	Оригинал: {PAWN_nameDef} {PAWN_gender ? родился : родилась} в дворянской...мира. {PAWN_pronoun} {PAWN_gender ? рос : росла} в каменном особняке, где... -->
-	<MedievalLordling19.baseDesc>Родившись в дворянской семье в одном из старых королевств средневекового мира, {PAWN_nameDef} {PAWN_gender ? рос : росла} в каменных палатах, где {PAWN_objective} прислуживали люди из более низких сословий.\n\nТакая жизнь не учит никаким практическим навыкам и вдобавок внушает пожизненное отвращение к ручному труду. Однако тонкости социальных манипуляций {PAWN_nameDef} {PAWN_gender ? постиг : постигла} с ранних лет.</MedievalLordling19.baseDesc>
+	Оригинал: {PAWN_nameDef} {PAWN_gender ? родился : родилась} в дворянской семье в одном из старых королевств средневекового мира. {PAWN_pronoun} {PAWN_gender ? рос : росла} в каменном особняке, где...сословий.\n\nТакая жизнь не учит никаким практическим навыкам и вдобавок внушает пожизненное отвращение к ручному труду. Однако тонкости социальных манипуляций {PAWN_nameDef} {PAWN_gender ? постиг : постигла}... -->
+	<MedievalLordling19.baseDesc>Родившись в {PAWN_gender ? дворянской семье : дворянском роду} в старом королевстве {PAWN_gender ? средневековой планеты : средневекового мира}, {PAWN_nameDef} {PAWN_gender ? рос : росла} в белокаменных палатах, где {PAWN_objective} прислуживали люди из более низких сословий.\n\n{PAWN_gender ? Он не научился : Она не научилась} никаким практическим навыкам и вдобавок {PAWN_gender ? приобрёл : приобрела} пожизненное отвращение к простым работам. Однако тонкости социальных манипуляций {PAWN_gender ? он постиг : она постигла} с ранних лет.</MedievalLordling19.baseDesc>
 	<!-- Оригинал: ...ямы в средневековом мире. Простой ручной труд — {PAWN_possessive} старейший спутник, как и хозяйская плеть.\n\n{PAWN_pronoun} {PAWN_gender ? научился : научилась} читать лишь... -->
-	<MedievalSlave49.baseDesc>{PAWN_nameDef} {PAWN_gender ? рос : росла}, тягая телеги и роя ямы на {PAWN_gender ? средневековой планете : средневековом мире}. Тяжёлые физические нагрузки {PAWN_pronoun} {PAWN_gender ? узнал : узнала} с младых ногтей, как и {PAWN_gender ? хозяйскую плеть : хозяйский кнут}.\n\nЧитать {PAWN_pronoun} {PAWN_gender ? научился : научилась} лишь к девяти годам.</MedievalSlave49.baseDesc>
+	<MedievalSlave49.baseDesc>{PAWN_nameDef} {PAWN_gender ? рос : росла}, тягая телеги и роя ямы на {PAWN_gender ? средневековой планете : средневековом мире}. Тяжёлые физические нагрузки {PAWN_gender ? он познал : она познала} с младых ногтей, как и {PAWN_gender ? хозяйскую плеть : хозяйский кнут}.\n\nЧитать {PAWN_pronoun} {PAWN_gender ? он научился : она научилась} лишь к девяти годам.</MedievalSlave49.baseDesc>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Оригинал: {PAWN_possessive} отдали...монастырь как дитя внебрачной любви. Там... -->
-	<ConventChild16.baseDesc>В раннем детстве {PAWN_possessive} отдали в средневековый монастырь. Там {PAWN_nameDef} {PAWN_gender ? познал : познала} праведность тяжёлой работы и послушания, однако высокие технологии стали ересью в {PAWN_possessive} сознании.</ConventChild16.baseDesc>
-	<!-- Скопировано с title: -->
-	<ConventChild16.titleFemale>монастырский ребёнок</ConventChild16.titleFemale>
+	Оригинал: {PAWN_possessive}...монастырь как дитя внебрачной любви. Там...ересью в {PAWN_possessive} сознании. -->
+	<ConventChild16.baseDesc>Ещё ребёнком {PAWN_possessive} отдали в средневековый монастырь. Там {PAWN_nameDef} {PAWN_gender ? познал : познала} праведность тяжёлой работы и послушания, однако высокие технологии стали ересью для н{PAWN_possessive}.</ConventChild16.baseDesc>
 	<!-- Оригиналы: байстрюк -->
 	<ConventChild16.titleShort>послушник</ConventChild16.titleShort>
 	<ConventChild16.titleShortFemale>послушница</ConventChild16.titleShortFemale>
