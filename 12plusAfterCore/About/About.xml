@@ -15,7 +15,7 @@
 Этот простой xml-мод отключает самые жёсткие аспекты, чтобы дети от 12 лет могли играть в Римворлд, не получая психологических травм. Подробности в файле changelog.
 
 Родители! Теперь вам нет необходимости отвечать на неудобные вопросы детей, наблюдающих за игрой.
-Дети! С этим модом вы сможете играть в Римворлд при родителях, и спокойно разговаривать обо _всех_ особенностях своего поселения.
+Дети! С этим модом вы сможете играть в Римку при родителях, и спокойно разговаривать обо _всех_ особенностях своего поселения.
 
 =====
 
@@ -195,7 +195,6 @@ Ideas to realize in next version:
 		<li>VanillaExpanded.VWEL</li>
 		<li>Am.Rus.VWE</li>
 		<li>RU.VanillaExpanded.VWE</li>
-		<li>OskarPotocki.VanillaFactionsExpanded.MedievalModule</li>
 		<li>Inoshishi3.VFE.MedievalModuleRusPatch</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.SettlersModule</li>
 		<li>Inoshishi3.VFE.SettlersModuleRusPatch</li>
@@ -224,7 +223,6 @@ Ideas to realize in next version:
 		<li>PiaRex.AlphaAnimalsTranslationRus</li>
 		<li>Unknown.Perevod.sarg.alphaanimals</li>
 		<li>sarg.geneticrimalphaanimals</li>
-		<li>vanillaexpanded.vanillatraitsexpanded</li>
 		<li>ru.vanillaexpanded.vanillatraitsexpanded</li>
 		<li>AndrewRaphaelLukasik.AllowDeadAnimals</li>
 		<li>VanillaExpanded.VBooksE</li>
@@ -278,6 +276,10 @@ Ideas to realize in next version:
 		<li>VanillaExpanded.VWETB</li>
 		<li>VanillaExpanded.VAEAccessories</li>
 		<li>firefoxpdm.RainbeausFishing</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.MedievalModule</li>
+		<li>vanillaexpanded.vanillatraitsexpanded</li>
+		<li>Haplo.Miscellaneous.Training</li>
+		<li>Haplo.Miscellaneous.TrainingNoTask</li>
 		<li>RU.Ideology</li>
 		<li>Davyd.Translation.Ideology</li>
 		<li>Russifier.Ideology</li>
