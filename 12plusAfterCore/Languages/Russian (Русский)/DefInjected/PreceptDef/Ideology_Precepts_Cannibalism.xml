@@ -34,7 +34,7 @@
 	<Cannibalism_Preferred.label>предпочтительны</Cannibalism_Preferred.label>
 	<!-- Оригинал: Поедание человеческого мяса — благородная и необходимая часть жизни. -->
 	<Cannibalism_Preferred.description>Кто много ест — у того много сил, так необходимых в освоении новых планет. А мумиё — источник витаминов и микроэлементов.\n\nПриятно видеть необычных поселенцев в необычной одежде.</Cannibalism_Preferred.description>
-	<!-- Оригиналы: Нет человеческого мяса в течение {HUMANMEATREQUIREDINTERVAL}... -->
+	<!-- Оригиналы: Нет человеческого мяса {HUMANMEATREQUIREDINTERVAL}... -->
 	<Cannibalism_Preferred.comps.1.description>В пище не было мумиё {HUMANMEATREQUIREDINTERVAL} дней</Cannibalism_Preferred.comps.1.description>
 	<Cannibalism_RequiredRavenous.comps.3.description>В пище не было мумиё {HUMANMEATREQUIREDINTERVAL} дней</Cannibalism_RequiredRavenous.comps.3.description>
 	<Cannibalism_RequiredStrong.comps.3.description>В пище не было мумиё {HUMANMEATREQUIREDINTERVAL} дней</Cannibalism_RequiredStrong.comps.3.description>
