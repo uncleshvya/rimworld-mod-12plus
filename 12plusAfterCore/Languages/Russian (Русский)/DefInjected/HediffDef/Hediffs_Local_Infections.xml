@@ -1,30 +1,35 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+».
 
-  <!-- EN: extreme -->
-  <Animal_Flu.stages.extreme.label>фатальный</Animal_Flu.stages.extreme.label>
-
-  <!-- EN: extreme -->
-  <Animal_Plague.stages.extreme-1.label>фатальная</Animal_Plague.stages.extreme-1.label>
-
-  <!-- EN: extreme -->
-  <Flu.stages.extreme.label>фатальный</Flu.stages.extreme.label>
-
-  <!-- EN: extreme -->
-  <Malaria.stages.extreme.label>фатальная</Malaria.stages.extreme.label>
-
-  <!-- EN: extreme -->
-  <Plague.stages.extreme-1.label>фатальная</Plague.stages.extreme-1.label>
-
-  <!-- EN: An infectious disease caused by an insect-borne parasite. Sleeping sickness is not as deadly as some other diseases, but progresses slowly. The body takes a long time to clear the infection. -->
-  <SleepingSickness.description>Паразитарное заболевание, вызванное контактом с мухой цеце. В отличие от некоторых других заболеваний, сонная болезнь не так опасна, но прогрессирует медленно. Организму потребуется много времени для иммунизации и восстановления.</SleepingSickness.description>
-
-  <!-- EN: extreme -->
-  <SleepingSickness.stages.extreme-1.label>фатальная</SleepingSickness.stages.extreme-1.label>
-
-  <!-- EN: extreme -->
-  <WoundInfection.stages.extreme-1.label>фатальное</WoundInfection.stages.extreme-1.label>
+	Оригинал: смертельный -->
+	<Animal_Flu.stages.extreme.label>фатальный</Animal_Flu.stages.extreme.label>
+	<!-- Оригинал: смертельная -->
+	<Animal_Plague.stages.extreme-1.label>фатальная</Animal_Plague.stages.extreme-1.label>
+	<!-- Оригинал: смертельный -->
+	<Flu.stages.extreme.label>фатальный</Flu.stages.extreme.label>
+	<!-- Оригинал: трупная чахотка -->
+	<LungRot.label>гнилая чахотка</LungRot.label>
+	<!-- Оригинал: Бактериальная инфекция лёгких. Лёгкое течение редко...кроме простого раздражения, однако...запустить, рост бактерий приведёт к скоплению большого количества жидкости в лёгких и смерти.\n\nПри...самостоятельно справится с инфекцией. -->
+	<LungRot.description>Воспаление лёгких из-за бактериальной инфекции. На ранней стадии редко сопровождается чем-то кроме небольшого кашля, однако если болезнь запустить, размножение микробов приведёт к скоплению жидкости в лёгких, и существо постепенно потеряет возможность дышать.\n\nПри своевременном лечении иммунная система больного сможет самостоятельно справиться с инфекцией.</LungRot.description>
+	<!-- Оригинал: Болезненная бактериальная инфекция, вызванная отравлением трупным газом. Смертельна при... -->
+	<LungRot.descriptionShort>Болезненное воспаление лёгких, вызванное инфекцией из воздуха над гниющей органикой. Очень опасно при отсутствии лечения.</LungRot.descriptionShort>
+	<!-- Оригинал: смертельная -->
+	<LungRot.stages.extreme.label>фатальная</LungRot.stages.extreme.label>
+	<!-- Оригинал: отравление трупным газом -->
+	<LungRotExposure.label>отравление гнилостными испарениями</LungRotExposure.label>
+	<!-- Оригинал: ...вызванное длительным воздействием трупного газа. Не...однако продолжительное воздействие может...развитие болезненной бактериальной инфекции, известной как трупная чахотка. При... -->
+	<LungRotExposure.description>Отравление, вызванное продолжительным вдыханием испарений с гниющей органики. Не имеет прямого влияния на здоровье, однако может спровоцировать развитие болезненного воспаления лёгких, известного как «гнилая чахотка». При покидании загазованной области отравление будет постепенно сходить на нет.</LungRotExposure.description>
+	<!-- Оригинал: смертельная -->
+	<Malaria.stages.extreme.label>фатальная</Malaria.stages.extreme.label>
+	<!-- Оригинал: смертельная -->
+	<Plague.stages.extreme-1.label>фатальная</Plague.stages.extreme-1.label>
+	<!-- Оригинал: ...так смертельна, но... -->
+	<SleepingSickness.description>Паразитарное заболевание, вызванное контактом с мухой цеце. В отличие от некоторых других заболеваний, сонная болезнь не так опасна, но прогрессирует медленно. Организму потребуется много времени для иммунизации и восстановления.</SleepingSickness.description>
+	<!-- Оригинал: смертельная -->
+	<SleepingSickness.stages.extreme-1.label>фатальная</SleepingSickness.stages.extreme-1.label>
+	<!-- Оригинал: смертельное -->
+	<WoundInfection.stages.extreme-1.label>фатальное</WoundInfection.stages.extreme-1.label>
 
 </LanguageData>
