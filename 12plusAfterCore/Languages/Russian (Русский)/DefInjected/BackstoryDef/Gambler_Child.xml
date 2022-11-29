@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: У детей, растущих на нижних улицах городских миров, есть лишь три пути: сильные становятся бойцами, умные — жуликами, остальные — погибают. {PAWN_nameDef} {PAWN_gender ? был : была} умным ребёнком. -->
+	<CardCounter25.baseDesc>{PAWN_nameDef} {PAWN_gender ? вырос : выросла} в тёмных трущобах перенаселённого мира. В отличие от большинства детей, {PAWN_gender ? малышу : малышке} повезло — вербовщик отметил склонность ребёнка к математике и устроил на трудную, но тёплую работу — считать фишки в казино каждый вечер.</CardCounter25.baseDesc>
+	<!-- Оригинал: картёжник -->
+	<CardCounter25.title>счетовод в казино</CardCounter25.title>
+	<!-- Оригинал: картёжниица -->
+	<CardCounter25.titleFemale>счетовод в казино</CardCounter25.titleFemale>
+	<!-- Оригинал: картёжник -->
+	<CardCounter25.titleShort>счетовод</CardCounter25.titleShort>
+	<!-- Оригинал: картёжница -->
+	<CardCounter25.titleShortFemale>счетовод</CardCounter25.titleShortFemale>
+	<!-- Код обновлён.
+	Оригинал: {PAWN_nameDef} {PAWN_gender ? рос : росла} под надзором двух картёжников-наркоманов, которые не могли обеспечить достойных условий жизни. {PAWN_nameDef} {PAWN_gender ? научился : научилась} выживать, ввязываясь в опасные и часто плохо спланированные схемы и аферы, которые позволяли не умереть с голоду. -->
+	<StreetUrchin22.baseDesc>{PAWN_nameDef} жить не {PAWN_gender ? мог : могла} без онлайн-игр. В {PAWN_gender ? виртуальной реальности он командовал своей гильдией : виртуальном мире она командовала своим отрядом}. Пусть персонажи были нарисованными, но управляли-то ими реальные люди. Так что даже играя у себя дома, {PAWN_pronoun} немного {PAWN_gender ? развивал : развивала} социальные навыки.</StreetUrchin22.baseDesc>
+	<!-- Оригинал: уличная шпана -->
+	<StreetUrchin22.title>онлайн-геймер</StreetUrchin22.title>
+	<StreetUrchin22.titleFemale>онлайн-геймер</StreetUrchin22.titleFemale>
+	<!-- Оригиналы: шпана -->
+	<StreetUrchin22.titleShort>геймер</StreetUrchin22.titleShort>
+	<StreetUrchin22.titleShortFemale>геймер</StreetUrchin22.titleShortFemale>
+
+</LanguageData>
