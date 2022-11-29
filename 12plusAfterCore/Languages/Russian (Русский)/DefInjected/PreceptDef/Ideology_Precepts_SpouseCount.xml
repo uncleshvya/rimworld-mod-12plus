@@ -4,16 +4,7 @@
 	<!-- Исправление согласно концепции «12+».
 
 	Все описания следует синхронизировать с папкой IssueDef.
-	Исправление неофициального перевода от Sestrenka. На момент проведения работ, официальный перевод ещё не был полностью закончен. Перезаписываем значение переменной.
-	Оригинал: четыре или меньше -->
-	<SpouseCount_Female_MaxFour.label>четыре супруга или меньше</SpouseCount_Female_MaxFour.label>
-	<!-- Исправление перевода от Sestrenka.
-	Оригинал: три или меньше -->
-	<SpouseCount_Female_MaxThree.label>три супруга или меньше</SpouseCount_Female_MaxThree.label>
-	<!-- Исправление перевода от Sestrenka.
-	Оригинал: два или меньше -->
-	<SpouseCount_Female_MaxTwo.label>два супруга или меньше</SpouseCount_Female_MaxTwo.label>
-	<!-- Оригинал: четыре супруга или... -->
+	Оригинал: четыре супруга или... -->
 	<SpouseCount_Male_MaxFour.label>четыре супруги или меньше</SpouseCount_Male_MaxFour.label>
 	<!-- Оригинал: ...четырёх супругов. -->
 	<SpouseCount_Male_MaxFour.description>У мужчины может быть до четырёх супруг.</SpouseCount_Male_MaxFour.description>
