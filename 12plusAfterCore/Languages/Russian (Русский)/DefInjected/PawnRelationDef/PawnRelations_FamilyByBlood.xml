@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Сглажены кровосмесительные генетические выкрутасы из Biotech, ну и смягчены анти-семейные сражения из Core.
+	Оригиналы: все без приставки "биологический " или "биологическая " -->
+	<Child.label>биологический сын</Child.label>
+	<Child.labelFemale>биологическая дочь</Child.labelFemale>
+	<Cousin.label>биологический двоюродный брат</Cousin.label>
+	<Cousin.labelFemale>биологическая двоюродная сестра</Cousin.labelFemale>
+	<CousinOnceRemoved.label>биологический двоюродный племянник</CousinOnceRemoved.label>
+	<CousinOnceRemoved.labelFemale>биологическая двоюродная племянница</CousinOnceRemoved.labelFemale>
+	<Grandchild.label>биологический внук</Grandchild.label>
+	<Grandchild.labelFemale>биологическая внучка</Grandchild.labelFemale>
+	<GrandnephewOrGrandniece.label>биологический праплемянник</GrandnephewOrGrandniece.label>
+	<GrandnephewOrGrandniece.labelFemale>биологическая праплемянница</GrandnephewOrGrandniece.labelFemale>
+	<Grandparent.label>биологический дедушка</Grandparent.label>
+	<Grandparent.labelFemale>биологическая бабушка</Grandparent.labelFemale>
+	<GranduncleOrGrandaunt.label>биологический прадядя</GranduncleOrGrandaunt.label>
+	<GranduncleOrGrandaunt.labelFemale>биологическая пратётя</GranduncleOrGrandaunt.labelFemale>
+	<GreatGrandchild.label>биологический правнук</GreatGrandchild.label>
+	<GreatGrandchild.labelFemale>биологическая правнучка</GreatGrandchild.labelFemale>
+	<GreatGrandparent.label>биологический прадедушка</GreatGrandparent.label>
+	<GreatGrandparent.labelFemale>биологическая прабабушка</GreatGrandparent.labelFemale>
+	<HalfSibling.label>биологический сводный брат</HalfSibling.label>
+	<HalfSibling.labelFemale>биологическая сводная сестра</HalfSibling.labelFemale>
+	<Kin.label>биологический родственник</Kin.label>
+	<Kin.labelFemale>биологическая родственница</Kin.labelFemale>
+	<NephewOrNiece.label>биологический племянник</NephewOrNiece.label>
+	<NephewOrNiece.labelFemale>биологическая племянница</NephewOrNiece.labelFemale>
+	<Parent.label>биологический отец</Parent.label>
+	<Parent.labelFemale>биологическая мать</Parent.labelFemale>
+	<SecondCousin.label>биологический троюродный брат</SecondCousin.label>
+	<SecondCousin.labelFemale>биологическая троюродная сестра</SecondCousin.labelFemale>
+	<Sibling.label>биологический брат</Sibling.label>
+	<Sibling.labelFemale>биологическая сестра</Sibling.labelFemale>
+	<UncleOrAunt.label>биологический дядя</UncleOrAunt.label>
+	<UncleOrAunt.labelFemale>биологическая тётя</UncleOrAunt.labelFemale>
+
+</LanguageData>
