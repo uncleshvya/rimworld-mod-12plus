@@ -26,11 +26,5 @@
 	<Lovin_SpouseOnly_Moderate.description>Заводить отношения вне брака — неправильно.</Lovin_SpouseOnly_Moderate.description>
 	<!-- Оригинал: Заниматься любовью с кем-то вне брака — верх... -->
 	<Lovin_SpouseOnly_Strict.description>Заводить отношения вне брака — верх безнравственности.</Lovin_SpouseOnly_Strict.description>
-	<!-- Исправление неофициального перевода от Sestrenka. На момент проведения работ, официальный перевод ещё не был полностью закончен. Перезаписываем значение переменной.
-	Оригиналы: Любовный акт с не-супругом -->
-	<Lovin_Horrible.comps.1.description>Прелюбодеяние</Lovin_Horrible.comps.1.description>
-	<Lovin_SpouseOnly_Mild.comps.1.description>Прелюбодеяние</Lovin_SpouseOnly_Mild.comps.1.description>
-	<Lovin_SpouseOnly_Moderate.comps.1.description>Прелюбодеяние</Lovin_SpouseOnly_Moderate.comps.1.description>
-	<Lovin_SpouseOnly_Strict.comps.1.description>Прелюбодеяние</Lovin_SpouseOnly_Strict.comps.1.description>
 
 </LanguageData>
