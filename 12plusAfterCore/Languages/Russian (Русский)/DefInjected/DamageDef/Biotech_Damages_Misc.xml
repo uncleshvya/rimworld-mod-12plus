@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: ...{0_gender ? сгорел : сгорела} заживо. -->
+	<AcidBurn.deathMessage>{0} {0_gender ? сгорел : сгорела}.</AcidBurn.deathMessage>
+	<!-- Оригинал: {0} {0_gender ? убит : убита} энергоплетью. -->
+	<Beam.deathMessage>{0} {0_gender ? пострадал : пострадала} от энергоплети.</Beam.deathMessage>
+	<!-- Оригинал: {0} {0_gender ? погиб : погибла}. -->
+	<ToxGas.deathMessage>{0} {0_gender ? задохнулся : задохнулась}.</ToxGas.deathMessage>
+	<!-- Оригинал: ...{0_gender ? испепелён : испепелена} заживо. -->
+	<Vaporize.deathMessage>{0} {0_gender ? испепелён : испепелена}.</Vaporize.deathMessage>
+
+</LanguageData>
