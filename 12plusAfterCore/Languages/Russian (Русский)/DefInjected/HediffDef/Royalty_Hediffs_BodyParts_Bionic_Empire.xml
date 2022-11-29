@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Описания следует синхронизировать с папкой ThingDef.
+	Оригинал: стерилизующий желудок -->
+	<DetoxifierStomach.label>детоксицирующий желудок</DetoxifierStomach.label>
+	<!-- Оригинал: Вживлённый стерилизующий желудок. -->
+	<DetoxifierStomach.description>Вживлённый детоксицирующий желудок.</DetoxifierStomach.description>
+	<!-- Оригинал: стерилизующий желудок -->
+	<DetoxifierStomach.labelNoun>детоксицирующий желудок</DetoxifierStomach.labelNoun>
+
+</LanguageData>
