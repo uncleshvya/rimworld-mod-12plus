@@ -7,8 +7,5 @@
 	<HuntedVeneratedAnimal.label>потеряно дикое священное животное</HuntedVeneratedAnimal.label>
 	<!-- Оригинал: приручённое...животное погибло -->
 	<TameVeneratedAnimalDied.label>потеряно приручённое священное животное</TameVeneratedAnimalDied.label>
-	<!-- Исправление неофициального перевода от Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
-	Оригинал: убито почитаемое животное -->
-	<SlaughteredVeneratedAnimal.label>забито священное животное</SlaughteredVeneratedAnimal.label>
 
 </LanguageData>
