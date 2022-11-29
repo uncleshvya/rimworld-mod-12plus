@@ -15,5 +15,12 @@
 
 	Оригинал: вырезано -->
 	<Cut.injuryProps.destroyedOutLabel>отсутствует</Cut.injuryProps.destroyedOutLabel>
+	<!-- Оригинал: вырезано -->
+	<ExecutionCut.injuryProps.destroyedOutLabel>отсутствует</ExecutionCut.injuryProps.destroyedOutLabel>
+	<!-- Оригинал: вырезано -->
+	<Stab.injuryProps.destroyedOutLabel>отсутствует</Stab.injuryProps.destroyedOutLabel>
+	<!-- Исправление неофициального перевода от Sestrenka. На момент проведения работ, официальный перевод ещё не был полностью закончен.
+	Оригинал: вырезано -->
+	<SurgicalCut.injuryProps.destroyedOutLabel>отсутствует</SurgicalCut.injuryProps.destroyedOutLabel>
 
 </LanguageData>
