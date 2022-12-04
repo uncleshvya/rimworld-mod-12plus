@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику Numbers.
 
 	EN: Psyfocus -->
 	<Numbers_Psyfocus.label>Пси-концентрация</Numbers_Psyfocus.label>
@@ -21,7 +21,7 @@
 	<!-- EN: Bad hediffs -->
 	<Numbers_HediffBadList.headerTip>Отличия (неудобные)</Numbers_HediffBadList.headerTip>
 
-	<!-- Исправлена неточность, сообщите разработчику.
+	<!-- Исправлена неточность, сообщите разработчику Numbers.
 
 	Оригинал: Возраст -->
 	<Numbers_Age.label>Возраст (точный)</Numbers_Age.label>
