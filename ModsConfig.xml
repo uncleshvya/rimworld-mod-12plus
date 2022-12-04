@@ -1,84 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModsConfigData>
-  <version>1.3.3389 rev40</version>
+  <version>1.4.3542 rev627</version>
   <activeMods>
     <li>brrainz.harmony</li>
     <li>uncleshvya.12plus.beforecore</li>
     <li>ludeon.rimworld</li>
     <li>ludeon.rimworld.royalty</li>
     <li>ludeon.rimworld.ideology</li>
+    <li>ludeon.rimworld.biotech</li>
+    <li>rus.biotech.nastia</li>
     <li>unlimitedhugs.hugslib</li>
-    <li>russifier.ideology</li>
-    <li>oskarpotocki.vanillafactionsexpanded.core</li>
-    <li>vanillaexpanded.vcooke</li>
-    <li>vanillaexpanded.vcookestews</li>
-    <li>inoshishi3.vce.ruspatch</li>
-    <li>erdelf.humanoidalienraces</li>
-    <li>vanillaexpanded.vanillatraitsexpanded</li>
-    <li>ru.vanillaexpanded.vanillatraitsexpanded</li>
-    <li>sihv.rombones</li>
-    <li>sirmashedpotato.insectshavenobones</li>
-    <li>unlimitedhugs.allowtool</li>
-    <li>dubwise.rimefeller</li>
-    <li>sandy.rpgstyleinventory.avilmask.revamped</li>
-    <li>crashm.colorcodedmoodbar.11</li>
-    <li>brrainz.cameraplus</li>
-    <li>cucumpear.embrasures</li>
-    <li>mehni.numbers</li>
-    <li>vinalx.researchpalforked</li>
-    <li>automatic.bionicicons</li>
-    <li>razor2.3.anotherrimworldmod.autocutblight</li>
-    <li>com.github.alandariva.moreplanning</li>
-    <li>tikubonn.dontblockdoor</li>
-    <li>lwm.deepstorage</li>
-    <li>notfood.mendandrecycle</li>
-    <li>mastertea.randomplus</li>
-    <li>uuugggg.replacestuff</li>
-    <li>unknown.perevod.petetimessix.simplesidearms</li>
-    <li>petetimessix.simplesidearms</li>
-    <li>mlie.simplymorebridges</li>
-    <li>weilbyte.snapout</li>
-    <li>tradingcontrol.common.core</li>
-    <li>vanillaexpanded.vfecore</li>
-    <li>am.rus.vfecore</li>
-    <li>vanillaexpanded.vfeproduction</li>
-    <li>inoshishi3.vfe.productionruspatch</li>
-    <li>vanillaexpanded.vfesecurity</li>
-    <li>am.rus.vfesecurity</li>
-    <li>murmur.walllight</li>
-    <li>maxzicode.zitools</li>
-    <li>uuugggg.sharetheload</li>
-    <li>edb.preparecarefully</li>
-    <li>wit.expandedroofing</li>
-    <li>lostrd.wildanimalalert</li>
     <li>andrewraphaellukasik.allowdeadanimals</li>
-    <li>mehni.pickupandhaul</li>
-    <li>eagle0600.dresspatients</li>
-    <li>uncleshvya.edibleleather</li>
-    <li>itchyflea.medicaltraining</li>
-    <li>rainbeausfishing.reworkmod</li>
-    <li>haplo.miscellaneous.training</li>
-    <li>jgh.training</li>
-    <li>uncleshvya.misctrainingrus</li>
-    <li>vanillaexpanded.vfefarming</li>
-    <li>inoshishi3.vfe.farmingruspatch</li>
-    <li>scherub.skilledstonecutting</li>
-    <li>sfwwl.velcroboy333</li>
-    <li>carnysenpai.enableoversizedweapons</li>
-    <li>atlas.androidtiers</li>
-    <li>androidtiers.ruslang.by.vsk</li>
-    <li>animalfilthdontcare.1trickponyta</li>
+    <li>unlimitedhugs.allowtool</li>
     <li>fluffy.areaunlocker</li>
-    <li>mlie.repairworktype</li>
-    <li>orion.hospitality</li>
+    <li>brrainz.cameraplus</li>
+    <li>tikubonn.dontblockdoor</li>
+    <li>uncleshvya.edibleleather</li>
+    <li>erdelf.humanoidalienraces</li>
+    <li>cucumpear.embrasures</li>
+    <li>itchyflea.medicaltraining</li>
+    <li>notfood.mendandrecycle</li>
+    <li>com.github.alandariva.moreplanning</li>
+    <li>mehni.numbers</li>
+    <li>mehni.pickupandhaul</li>
+    <li>uuugggg.replacestuff</li>
+    <li>sihv.rombones</li>
+    <li>sandy.rpgstyleinventory.avilmask.revamped</li>
+    <li>petetimessix.simplesidearms</li>
+    <li>unknown.perevod.petetimessix.simplesidearms</li>
+    <li>pyrce.thanks.for.all.the.fish</li>
     <li>vanillaexpanded.vtexe</li>
-    <li>ru.vanillafactionsexpanded.core</li>
+    <li>lostrd.wildanimalalert</li>
     <li>uncleshvya.12plus.aftercore</li>
-    <li>uncleshvya.expandedroofingrusfix</li>
-    <li>nals.rollover</li>
   </activeMods>
   <knownExpansions>
     <li>ludeon.rimworld.royalty</li>
     <li>ludeon.rimworld.ideology</li>
+    <li>ludeon.rimworld.biotech</li>
   </knownExpansions>
 </ModsConfigData>
