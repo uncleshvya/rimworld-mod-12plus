@@ -23,7 +23,7 @@
 
 Несовместим с модами «Psychology», «Rational Romance» и другими, меняющими отношения между полами.
 Пока несовместим с модами на другие расы и кухонные верстаки. Но если будут желающие, мы добавим совместимость, пишите uncleshvya@yandex.ru Ответим как будет время.
-Не идеально совместим с авто-обновлением русского языка от официального переводчика. Основной контент уже написан, так что больших проблем быть не должно. Но для гарантированного соответствия концепции «12+» лучше отключить авто-обновление.
+Не очень совместим с авто-обновлением русского языка от официального переводчика. Основной контент уже написан, так что больших проблем быть не должно. Но для гарантированного соответствия концепции «12+» лучше отключить авто-обновление.
 
 Целью является сделать играбельными моды типа этих:
 modpack http://lttlword.ru/rimworld-minimalism-v1-2
@@ -120,11 +120,6 @@ Ideas to realize in next version:
 			<packageId>UncleShvya.12plus.BeforeCore</packageId>
 			<displayName>12plus Before Core</displayName>
 			<downloadUrl>https://github.com/uncleshvya/rimworld-mod-12plus</downloadUrl>
-		</li>
-		<li>
-			<packageId>brrainz.harmony</packageId>
-			<displayName>Harmony</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
 		</li>
 		<li>
 			<packageId>sihv.rombones</packageId>
