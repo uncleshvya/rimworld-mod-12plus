@@ -3,23 +3,10 @@
 
 	<!-- Исправление согласно концепции «12+».
 
-	Оригинал: ...ритуал ослепления как... -->
-	<BlindingCeremony.ritualExpectedPostfix>{0} {1} хотят провести ритуал анти-зрения как можно скорее.</BlindingCeremony.ritualExpectedPostfix>
-	<!-- Оригинал: ...блюда с человеческой плотью и начнут пожирать её. -->
+	Оригинал: ...блюда с человеческой плотью и начнут пожирать её. -->
 	<FeastCannibal.descOverride>Ритуальный пир. Участники соберутся вокруг блюда с мумиё и будут объедаться им.</FeastCannibal.descOverride>
 	<!-- Оригинал: каннибальский пир -->
 	<FeastCannibal.shortDescOverride>пир любителей мумиё</FeastCannibal.shortDescOverride>
-	<!-- Исправление неофициального перевода от Sestrenka. На момент проведения работ, официальный перевод ещё не был полностью закончен.
-	Перезаписываем значение переменной.
-	Оригинал: ...год на {DATE} происходит каннибальская трапеза под названием {RITUAL_label} для последователей идеологии {IDEO}. -->
-	<FeastCannibal.ritualExpectedDesc>Каждый год {DATE} {MEMBERS} проводят {RITUAL_labelDef}.</FeastCannibal.ritualExpectedDesc>
-	<!-- Исправление перевода от Sestrenka.
-	Оригинал: В настоящее время у вас есть только {0} последователей. Пир каннибалов должен состояться как... -->
-	<FeastCannibal.ritualExpectedPostfix>{0} {1} хотят провести праздник как можно скорее.</FeastCannibal.ritualExpectedPostfix>
-	<!-- Оригинал: Когда последователь {IDEO} умирает и не остаётся... -->
-	<FuneralNoCorpse.ritualExpectedDesc>Когда поселение, исповедующее {IDEO}, теряет одного последователя, причём не остаётся тела, другие {MEMBERS} собираются вокруг пустой могилы в ходе {RITUAL_labelDef}.</FuneralNoCorpse.ritualExpectedDesc>
-	<!-- Оригинал: Когда последователь {IDEO} умирает, другие... -->
-	<FuneralStandard.ritualExpectedDesc>Когда поселение, исповедующее {IDEO}, теряет одного последователя, другие {MEMBERS} собираются вокруг его могилы в ходе {RITUAL_labelDef}.</FuneralStandard.ritualExpectedDesc>
 	<!-- Описания жертвоприношения и казни следует синхронизировать с описанием последствий ритуала, оно общее для обоих.
 	Оригинал: ...жертвоприношение. Исполнитель произнесёт речь, чтобы разгорячить толпу, после чего перережет жертве горло. Когда животное умрёт, исполнитель произнесёт короткую завершающую речь. -->
 	<SacrificeAnimal.descOverride>Ритуальное жертвоприношение. Исполнитель произнесёт речь, что на животное отпускаются все грехи поселенцев, и затем особым образом проведёт забой. В завершение исполнитель произнесёт короткую речь.</SacrificeAnimal.descOverride>
@@ -27,11 +14,6 @@
 	<SacrificeAnimal.shortDescOverride>жертвоприношение</SacrificeAnimal.shortDescOverride>
 	<!-- Оригинал: Ритуальное жертвоприношение. Исполнитель произнесёт речь, чтобы разгорячить толпу, после чего перережет жертве горло. Когда пленник умрёт, исполнитель произнесёт короткую... -->
 	<SacrificePrisoner.descOverride>Ритуальная казнь. Исполнитель произнесёт речь, перечисляя все преступления заключённого. После казни исполнитель произнесёт короткую завершающую речь.</SacrificePrisoner.descOverride>
-	<!-- Исправление перевода от Sestrenka.
-	Оригинал: ...год на {DATE} происходит жертвоприношение заключенных под названием {RITUAL_label} для последователей идеологии {IDEO}. -->
-	<SacrificePrisoner.ritualExpectedDesc>Каждый год {DATE} {MEMBERS} проводят {RITUAL_labelDef}.</SacrificePrisoner.ritualExpectedDesc>
-	<!-- Оригинал: ...провести жертвоприношение как... -->
-	<SacrificePrisoner.ritualExpectedPostfix>{0} {1} хотят провести казнь преступника как можно скорее.</SacrificePrisoner.ritualExpectedPostfix>
 	<!-- Оригинал: человеческое жертвоприношение -->
 	<SacrificePrisoner.shortDescOverride>казнь преступника</SacrificePrisoner.shortDescOverride>
 
