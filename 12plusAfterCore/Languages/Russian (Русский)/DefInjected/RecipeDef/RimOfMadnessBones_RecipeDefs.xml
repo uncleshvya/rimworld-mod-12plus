@@ -11,13 +11,6 @@
 	<!-- EN: making skull mask -->
 	<Make_ROMB_Apparel_SkullMask.jobString>вырезает маску-череп</Make_ROMB_Apparel_SkullMask.jobString>
 
-	<!-- EN: make deer skull mask -->
-	<Make_ROMB_Apparel_DeerSkullMask.label>вырезать рогатую маску-череп</Make_ROMB_Apparel_DeerSkullMask.label>
-	<!-- EN: Make deer skull mask -->
-	<Make_ROMB_Apparel_DeerSkullMask.description>Вырезать из кости страшную маску с рогами, превращающую лицо человека в символ ужаса.</Make_ROMB_Apparel_DeerSkullMask.description>
-	<!-- EN: making deer skull mask -->
-	<Make_ROMB_Apparel_DeerSkullMask.jobString>вырезает рогатую маску-череп</Make_ROMB_Apparel_DeerSkullMask.jobString>
-
 	<!-- EN: make bone armor -->
 	<Make_Sihv_Apparel_BoneArmor.label>изготовить костяную броню</Make_Sihv_Apparel_BoneArmor.label>
 	<!-- EN: Make bone armor -->
