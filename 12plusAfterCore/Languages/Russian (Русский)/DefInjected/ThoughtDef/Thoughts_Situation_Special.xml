@@ -14,5 +14,11 @@
 	Заодно сглажена ссылка на людей - для модов на другие расы.
 	Оригинал: Один из нас умер и мы бросили его под...нельзя. Люди заслуживают... -->
 	<ColonistLeftUnburied.stages.colonist_left_unburied.description>Мы потеряли одного из наших и бросили его останки под открытым небом. Так нельзя. Каждый из нас заслуживает достойных похорон.</ColonistLeftUnburied.stages.colonist_left_unburied.description>
+	<!-- Оригинал: трупная вонь -->
+	<RotStink.stages.rot_stink.label>гнилостная вонь</RotStink.stages.rot_stink.label>
+	<!-- Оригинал: жуткая трупная вонь -->
+	<RotStink.stages.awful_rot_stink.label>жуткая гнилостная вонь</RotStink.stages.awful_rot_stink.label>
+	<!-- Оригинал: преследующая трупная вонь -->
+	<RotStinkLingering.stages.rot_stink_lingering.label>преследующая гнилостная вонь</RotStinkLingering.stages.rot_stink_lingering.label>
 
 </LanguageData>
