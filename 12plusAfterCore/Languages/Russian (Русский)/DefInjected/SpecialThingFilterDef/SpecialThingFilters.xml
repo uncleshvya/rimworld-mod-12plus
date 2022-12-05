@@ -7,6 +7,10 @@
 	<AllowDeadmansApparel.label>окровавленная</AllowDeadmansApparel.label>
 	<!-- Оригинал: ...снятую с мёртвых. Большинство...считают одежду, снятую с мёртвого человека, «грязной». Торговцы... -->
 	<AllowDeadmansApparel.description>Разрешить одежду, снятую с тел после боя или иных опасных событий. Большинство людей считают такую одежду отвратительной. Торговцы отказываются её покупать.</AllowDeadmansApparel.description>
+	<!-- Оригинал: ...большие трупы -->
+	<AllowLargeCorpses.label>разрешить большие тела</AllowLargeCorpses.label>
+	<!-- Оригинал: ...большие трупы. -->
+	<AllowLargeCorpses.description>Разрешить большие тела.</AllowLargeCorpses.description>
 	<!-- Оригинал: одежда не с трупов -->
 	<AllowNonDeadmansApparel.label>чистая</AllowNonDeadmansApparel.label>
 	<!-- Оригинал: Разрешить одежду, не снятую с мёртвых. Большинство людей считают одежду, снятую с мёртвого человека, «грязной». Торговцы отказываются её покупать. -->
