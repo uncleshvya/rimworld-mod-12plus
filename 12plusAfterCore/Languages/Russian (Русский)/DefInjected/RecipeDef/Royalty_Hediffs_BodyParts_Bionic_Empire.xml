@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Описания следует синхронизировать с папкой ThingDef.
+	Оригинал: вживить стерилизующий желудок -->
+	<InstallDetoxifierStomach.label>вживить детоксицирующий желудок</InstallDetoxifierStomach.label>
+	<!-- Оригинал: Вживить стерилизующий желудок. -->
+	<InstallDetoxifierStomach.description>Вживить детоксицирующий желудок.</InstallDetoxifierStomach.description>
+	<!-- Оригинал: Вживляет стерилизующий желудок. -->
+	<InstallDetoxifierStomach.jobString>Вживляет детоксицирующий желудок</InstallDetoxifierStomach.jobString>
+
+</LanguageData>
