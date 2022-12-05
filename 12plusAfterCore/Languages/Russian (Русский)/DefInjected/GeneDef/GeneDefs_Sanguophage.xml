@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!-- Исправление согласно концепции «12+».
+
+	Исправление неофициального перевода от Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
+	Оригинал: immortal -->
+	<Ageless.symbolPack.wholeNameSymbols.0.symbol>вечный</Ageless.symbolPack.wholeNameSymbols.0.symbol>
+	<!-- Оригинал: бессмертный -->
+	<Deathless.label>сверхживучий</Deathless.label>
+	<!-- Оригинал: ...стабильность их жизненных процессов, несмотря...мозг остается неповрежденным, носитель никогда не умрет. -->
+	<Deathless.description>У носителей этого гена в кровотоке есть архиты, которые поддерживают стабильность жизненных процессов несмотря ни на что. Пока мозг остаётся неповреждённым, носитель будет жить.</Deathless.description>
+	<!-- Оригинал: Может умереть только от разрушения мозга. -->
+	<Deathless.customEffectDescriptions.0>Может без проблем терять любые органы, кроме мозга.</Deathless.customEffectDescriptions.0>
+	<!-- EN: immortal -->
+	<Deathless.symbolPack.wholeNameSymbols.0.symbol>вечный</Deathless.symbolPack.wholeNameSymbols.0.symbol>
+	<!-- Оригинал: смертосон -->
+	<Deathrest.label>торпор</Deathrest.label>
+	<!-- Оригинал: ...геном смертосна должны...регенерации. Он хоть...пользу. Смертосон можно...технологий. \n\nКогда...откладывает смертосон, он... -->
+	<Deathrest.description>Поселенцы с геном торпора должны периодически входить на несколько дней в особое коматозное состояние для восстановления и регенерации. Это хоть и длится несколько дней, но может принести значительную пользу. Торпор можно ускорить, а его действие усилить с помощью некоторых построек и технологий.\n\nКогда человек откладывает восстановление, он будет страдать от истощения.</Deathrest.description>
+	<!-- EN: death -->
+	<Deathrest.symbolPack.prefixSymbols.0.symbol>торпор</Deathrest.symbolPack.prefixSymbols.0.symbol>
+	<!-- EN: dead -->
+	<Deathrest.symbolPack.prefixSymbols.1.symbol>кома</Deathrest.symbolPack.prefixSymbols.1.symbol>
+
+</LanguageData>
