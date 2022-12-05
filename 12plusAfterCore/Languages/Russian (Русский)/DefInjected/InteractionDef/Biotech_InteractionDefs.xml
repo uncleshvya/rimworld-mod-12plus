@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	EN: subject->cannibalism -->
+	<SanguophageChat.logRulesInitiator.rulesStrings.29>subject->безразличии</SanguophageChat.logRulesInitiator.rulesStrings.29>
+	<!-- EN: subject->deathlessness -->
+	<SanguophageChat.logRulesInitiator.rulesStrings.30>subject->вечных</SanguophageChat.logRulesInitiator.rulesStrings.30>
+	<!-- EN: subject->life and death -->
+	<SanguophageChat.logRulesInitiator.rulesStrings.34>subject->вечной жизни</SanguophageChat.logRulesInitiator.rulesStrings.34>
+	<!-- EN: subject->deathrest -->
+	<SanguophageChat.logRulesInitiator.rulesStrings.35>subject->торпоре</SanguophageChat.logRulesInitiator.rulesStrings.35>
+	<!-- EN: subject->cheating death -->
+	<SanguophageChat.logRulesInitiator.rulesStrings.36>subject->хитрости</SanguophageChat.logRulesInitiator.rulesStrings.36>
+	<!-- EN: subject->agony -->
+	<SanguophageChat.logRulesInitiator.rulesStrings.42>subject->муках</SanguophageChat.logRulesInitiator.rulesStrings.42>
+	<!-- EN: subject->beheading -->
+	<SanguophageChat.logRulesInitiator.rulesStrings.43>subject->глупых людишках</SanguophageChat.logRulesInitiator.rulesStrings.43>
+	<!-- EN: subject->flaying enemies -->
+	<SanguophageChat.logRulesInitiator.rulesStrings.44>subject->толстокожих врагах</SanguophageChat.logRulesInitiator.rulesStrings.44>
+	<!-- EN: subject->torture -->
+	<SanguophageChat.logRulesInitiator.rulesStrings.45>subject->интригах</SanguophageChat.logRulesInitiator.rulesStrings.45>
+	<!-- EN: planType->destroying sanguophage hunters -->
+	<SanguophageChat.logRulesInitiator.rulesStrings.68>planType->выслеживании гемофагофобов</SanguophageChat.logRulesInitiator.rulesStrings.68>
+	<!-- EN: situation(p=0.1)->while drunk -->
+	<LessonCrafting.logRulesInitiator.rulesStrings.23>situation(p=0.1)->при хорошем освещении</LessonCrafting.logRulesInitiator.rulesStrings.23>
+
+</LanguageData>
