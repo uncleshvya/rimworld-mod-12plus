@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправлена неточность, сообщите разработчику ванили.
 
 	Не влезало в интерфейс.
 	Оригинал: биотехнологии -->
-	<Biotech.label>биотехнолог</Biotech.label>
+	<Biotech.label>биотехника</Biotech.label>
 
 </LanguageData>
