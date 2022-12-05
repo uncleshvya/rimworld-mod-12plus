@@ -34,14 +34,6 @@
 	<Execution.roles.1.label>казнимый</Execution.roles.1.label>
 	<!-- Оригинал: жертва -->
 	<SacrificePrisoner.roles.1.label>казнимый</SacrificePrisoner.roles.1.label>
-	<!-- Исправление неофициального перевода от Sestrenka. На момент проведения работ, официальный перевод ещё не был полностью закончен.
-	Перезаписываем значение переменной.
-	Оригинал: жертва -->
-	<SacrificePrisoner.roles.1.missingDesc>пленник</SacrificePrisoner.roles.1.missingDesc>
-	<!-- Исправление перевода от Sestrenka.
-	Сохраняем значение устаревшей переменной на случай использования прошлых версий Ideology.
-	Оригинал: жертвовать -->
-	<SacrificePrisoner.roles.2.label>казнить</SacrificePrisoner.roles.2.label>
 	<!-- Оригинал: ...окончена, жертвоприношение начинается. -->
 	<SacrificePrisoner.stages.0.postAction.text>{0}: Речь окончена, казнь начинается.</SacrificePrisoner.stages.0.postAction.text>
 
