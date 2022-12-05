@@ -13,11 +13,33 @@
 					<li>CorpsesHumanlike</li>
 				</value>
 			</li>
-			<!-- Мягко убираем обучение торговле органами из пленников. -->
+			<!-- Убираем обучение торговле органами из пленников. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[@Name = "BodyPartNaturalBase"]</xpath>
 				<value>
-					<tradeability>Buyable</tradeability>
+					<tradeability>None</tradeability>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[
+				defName = "Heart" or
+				defName = "Lung" or
+				defName = "Kidney" or
+				defName = "Liver"
+				]/statBases/MarketValue/text()</xpath>
+				<value>0</value>
+			</li>
+			<!-- Можно было бы совсем отключить текстильный ресурс с людей, но пусть вспомнится подвиг древнеримских женщин из г.Аквилея, отдавших свои волосы для ремонта катапульт. -->
+			<li Class="PatchOperationAttributeSet">
+				<xpath>Defs/ThingDef[defName = "Leather_Human"]</xpath>
+				<attribute>ParentName</attribute>
+				<value>WoolBase</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "Leather_Human"]/graphicData/color</xpath>
+				<value>
+					<color>(120, 98, 80)</color>
+					<drawSize>0.5</drawSize>
 				</value>
 			</li>
 			<!-- Согласно решению с переименовыванием в "волосяной мусор", убираем оный из торговли. -->
@@ -35,19 +57,20 @@
 				</value>
 			</li>
 			Пока не найдено решение, удаляем мумиё из ассортимента торговцев. -->
-			<li Class="PatchOperationAdd">
+			<li MayRequire="Ludeon.RimWorld.Royalty" Class="PatchOperationAdd">
 				<xpath>Defs/TraderKindDef[
 				defName = "Base_Neolithic_Standard" or
 				defName = "Base_Outlander_Standard" or
 				defName = "Caravan_Neolithic_BulkGoods" or
 				defName = "Caravan_Outlander_BulkGoods" or
-				defName = "Orbital_BulkGoods"
+				defName = "Orbital_BulkGoods" or
+				defName = "Base_Empire_Standard"
 				]/stockGenerators/li[categoryDef = "FoodRaw"]</xpath>
 				<value>
 					<excludedThingDefs> <li>Meat_Human</li> </excludedThingDefs>
 				</value>
 			</li>
-			<!-- Для события ResourcePodCrash решение не найдено, нужна правка workerClass "IncidentWorker_ResourcePodCrash". -->
+			<!-- Для события ResourcePodCrash решение не найдено, возможно нужна правка workerClass "IncidentWorker_ResourcePodCrash". -->
 
 		</operations>
 	</Operation>
