@@ -3,10 +3,7 @@
 
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициального перевода от Sestrenka. На момент проведения работ, официальный перевод ещё не был полностью закончен. Перезаписываем значение переменной.
-	Оригинал: Казнь прошла ужасно. Даже чуточку жалею, что мы в пустую лишили жизни человека. -->
-	<AwkwardExecution.stages.awkward_execution.description>Казнь была проведена неумело. Непрофессионализм палача вызвал у всех чувство неловкости и несправедливости происходящего.</AwkwardExecution.stages.awkward_execution.description>
-	<!-- Оригинал: скучное ослепление -->
+	Оригинал: скучное ослепление -->
 	<BoringBlinding.stages.boring_blinding.label>скучный ритуал анти-зрения</BoringBlinding.stages.boring_blinding.label>
 	<!-- Оригинал: Ослепление прошло скучно... -->
 	<BoringBlinding.stages.boring_blinding.description>Ритуал анти-зрения прошёл скучно, без огонька, а техника исполнения оставляла желать лучшего.</BoringBlinding.stages.boring_blinding.description>
@@ -17,12 +14,6 @@
 	<BoringSacrifice.stages.boring_sacrifice.label>скучный ритуал</BoringSacrifice.stages.boring_sacrifice.label>
 	<!-- Оригинал: Жертвоприношение прошло скучно... -->
 	<BoringSacrifice.stages.boring_sacrifice.description>Ритуал прошёл скучно, без огонька, а техника исполнения оставляла желать лучшего.</BoringSacrifice.stages.boring_sacrifice.description>
-	<!-- Исправление неофициального перевода от Sestrenka.
-	Оригинал: похороны прошли прекрасно. Они вызвали много хороших воспоминаний о умершем. -->
-	<HeartwarmingFuneral.stages.heartwarming_funeral.description>Похороны прошли замечательно. Они навеяли много приятных воспоминаний и дали надежду на будущее.</HeartwarmingFuneral.stages.heartwarming_funeral.description>
-	<!-- Исправление неофициального перевода от Sestrenka.
-	Оригинал: Эти похороны были неуважительными по отношению к покойному. -->
-	<LacklusterFuneral.stages.lackluster_funeral.description>Похороны были бездушными, заурядными и не принесли никакого чувства завершённости.</LacklusterFuneral.stages.lackluster_funeral.description>
 	<!-- Оригинал: достойное ослепление -->
 	<SatisfyingBlinding.stages.satisfying_blinding.label>достойный ритуал анти-зрения</SatisfyingBlinding.stages.satisfying_blinding.label>
 	<!-- Оригинал: Ослепление прошло достойно. Нож вошёл глубоко, с приятным сочным звуком. -->
