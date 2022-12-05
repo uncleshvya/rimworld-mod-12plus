@@ -86,9 +86,9 @@
 	<Corpse_Lynx.description>Туша рыси.</Corpse_Lynx.description>
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили обо всех механоидах.
 	Оригинал: труп сентипеды -->
-	<Corpse_Mech_Centipede.label>сломанная сентипеда</Corpse_Mech_Centipede.label>
+	<Corpse_Mech_CentipedeBlaster.label>сломанная сентипеда</Corpse_Mech_CentipedeBlaster.label>
 	<!-- Оригинал: Труп сентипеды. -->
-	<Corpse_Mech_Centipede.description>Непригодная к ремонту сентипеда.</Corpse_Mech_Centipede.description>
+	<Corpse_Mech_CentipedeBlaster.description>Непригодная к ремонту сентипеда.</Corpse_Mech_CentipedeBlaster.description>
 	<!-- Оригинал: труп улана -->
 	<Corpse_Mech_Lancer.label>сломанный улан</Corpse_Mech_Lancer.label>
 	<!-- Оригинал: Труп улана. -->
