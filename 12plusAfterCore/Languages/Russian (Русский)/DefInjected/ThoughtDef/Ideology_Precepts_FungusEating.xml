@@ -7,10 +7,10 @@
 	Оригинал: {PAWN_gender ? Съел : Съела} сырые грибы -->
 	<AteFungus_Despised.stages.ate_fungus_raw.label>съедены сырые грибы</AteFungus_Despised.stages.ate_fungus_raw.label>
 	<!-- Оригинал: {PAWN_gender ? Съел : Съела} грибы -->
-	<AteFungus_Prefered.stages.ate_fungus.label>съедены сырые грибы</AteFungus_Prefered.stages.ate_fungus.label>
+	<AteFungus_Preferred.stages.ate_fungus.label>съедены сырые грибы</AteFungus_Preferred.stages.ate_fungus.label>
 	<!-- Оригиналы: {PAWN_gender ? Съел : Съела} блюдо... -->
 	<AteFungusAsIngredient_Despised.stages.ate_fungus_cooked.label>съедено блюдо с грибами</AteFungusAsIngredient_Despised.stages.ate_fungus_cooked.label>
-	<AteFungusAsIngredient_Prefered.stages.ate_cooked_fungus.label>съедено блюдо с грибами</AteFungusAsIngredient_Prefered.stages.ate_cooked_fungus.label>
+	<AteFungusAsIngredient_Preferred.stages.ate_cooked_fungus.label>съедено блюдо с грибами</AteFungusAsIngredient_Preferred.stages.ate_cooked_fungus.label>
 	<!-- Оригинал: {PAWN_gender ? Съел : Съела} блюдо... -->
 	<AteNonFungusMealWithPlants_Despised.stages.ate_nonfungus_plant_cooked.label>съедено блюдо без грибов</AteNonFungusMealWithPlants_Despised.stages.ate_nonfungus_plant_cooked.label>
 	<!-- Мысль появляется не из-за блюда.
@@ -19,10 +19,8 @@
 
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициального перевода от Sestrenka. На момент проведения работ, официальный перевод ещё не был полностью закончен.
 	Заодно исправлена неточность, сообщите разработчику ванили.
 	Частично возвращена утерянная экспрессия, как в первоисточнике Glowstool.
-	Sestrenka: ...как ссаные тряпки, и на...лучше.
 	Ванильное: ...как мокрые тряпки, и на... -->
 	<AteFungus_Despised.stages.ate_fungus_raw.description>Этот гриб пах, как старая грязная тряпка, и на вкус был не лучше!</AteFungus_Despised.stages.ate_fungus_raw.description>
 	<!-- Оригинал: ...как дохлая крыса... -->
