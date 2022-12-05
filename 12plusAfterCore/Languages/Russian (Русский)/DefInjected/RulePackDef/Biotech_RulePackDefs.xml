@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	EN: situation(p=0.2)->while drunk -->
+	<LessonInteractionCommonSituations.rulePack.rulesStrings.4>situation(p=0.2)->в духоте</LessonInteractionCommonSituations.rulePack.rulesStrings.4>
+	<!-- EN: town->butchery -->
+	<NamerSettlementPirateWaster.rulePack.rulesStrings.22>town->свалка</NamerSettlementPirateWaster.rulePack.rulesStrings.22>
+
+</LanguageData>
