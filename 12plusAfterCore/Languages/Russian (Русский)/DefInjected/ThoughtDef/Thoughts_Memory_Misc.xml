@@ -28,6 +28,8 @@
 	Была красная ошибка из-за переменной OTHERPAWN_gender.
 	Оригинал: {OTHERPAWN_gender ? Убил : Убила} вражеского лидера -->
 	<DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>устранение вражеского лидера</DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>
+	<!-- Оригинал: Хороший жук — мёртвый жук! -->
+	<DefeatedInsectHive.stages.defeated_insect_hive.description>Хороший жук — раздавленный жук!</DefeatedInsectHive.stages.defeated_insect_hive.description>
 	<!-- Заодно сглажены ссылки на людей - для модов на другие расы.
 	Оригинал: ...отказали человеку в...он не погибнет из-за этого. -->
 	<DeniedJoining.stages.denied_joining.description>Мы только что отказали просителю в крыше над головой. Надеюсь, он справится сам.</DeniedJoining.stages.denied_joining.description>
