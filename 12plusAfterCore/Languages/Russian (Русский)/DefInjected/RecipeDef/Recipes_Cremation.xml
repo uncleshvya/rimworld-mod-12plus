@@ -3,7 +3,13 @@
 
 	<!-- Исправление согласно концепции «12+».
 
-	Оригинал: сжечь труп -->
+	Оригинал: сжечь наркотики -->
+	<BurnDrugs.label>сжечь «химию»</BurnDrugs.label>
+	<!-- Оригинал: Сжечь наркотики, чтобы...от них избавиться. -->
+	<BurnDrugs.description>Сжечь опасную «химию», чтобы навсегда от неё избавиться.</BurnDrugs.description>
+	<!-- Оригинал: Сжигает наркотики. -->
+	<BurnDrugs.jobString>Сжигает «химию»</BurnDrugs.jobString>
+	<!-- Оригинал: сжечь труп -->
 	<CremateCorpse.label>сжечь тело</CremateCorpse.label>
 	<!-- Оригинал: Сжечь труп, чтобы... -->
 	<CremateCorpse.description>Сжечь тело, чтобы навсегда от него избавиться.</CremateCorpse.description>
