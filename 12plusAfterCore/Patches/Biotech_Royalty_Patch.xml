@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation MayRequire="Ludeon.RimWorld.Biotech" Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<!-- Исправление согласно концепции «12+».
+
+			Убираем невозможность получения зависимости. -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/GeneTemplateDef[defName = "AddictionImmune"]/addictionChanceFactor/text()</xpath>
+				<value>0.25</value>
+			</li>
+			<!-- Убираем возможность инцеста. -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnRelationDef[defName = "ParentBirth"]/romanceChanceFactor/text()</xpath>
+				<value>0</value>
+			</li>
+			<!-- Гемоген больше не гематоген. -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "HemogenPack"]/thingCategories/li[1]/text()</xpath>
+				<value>Medicine</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "HemogenPack"]/statBases/Nutrition/text()</xpath>
+				<value>0</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "HemogenPack"]/ingestible/preferability/text()</xpath>
+				<value>NeverForNutrition</value>
+			</li>
+			<!-- Убираем обучение торговле частями людей. -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[
+				defName = "HemogenPack" or
+				defName = "Genepack" or
+				defName = "Xenogerm" or
+				defName = "HumanOvum" or
+				defName = "HumanEmbryo"
+				]/statBases/MarketValue/text()</xpath>
+				<value>0</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+				defName = "HemogenPack" or
+				@Name = "GeneSetHolderBase" or
+				defName = "HumanOvum" or
+				defName = "HumanEmbryo"
+				]</xpath>
+				<value>
+					<tradeability>None</tradeability>
+				</value>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty" Class="PatchOperationRemove">
+				<xpath>Defs/TraderKindDef[
+				defName = "Base_Outlander_Standard" or
+				defName = "Caravan_Outlander_CombatSupplier" or
+				defName = "Caravan_Outlander_PirateMerchant" or
+				defName = "Caravan_Outlander_Exotic" or
+				defName = "Orbital_CombatSupplier" or
+				defName = "Orbital_Exotic" or
+				defName = "Orbital_PirateMerchant" or
+				defName = "Base_Empire_Standard" or
+				defName = "Empire_Caravan_TraderGeneral" or
+				defName = "Orbital_Empire"
+				]/stockGenerators/li[thingDef = "Genepack"]</xpath>
+			</li>
+			<!-- Далее - код исправления красных ошибок в версии 3537. -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "DeathrestCasket"]/comps/li[4]/powerUsageDeathresting</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "DeathrestCasket"]/comps/li[4]/powerUsageNotDeathresting</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[
+				defName = "Hemopump" or
+				defName = "HemogenAmplifier" or
+				defName = "GlucosoidPump" or
+				defName = "PsychofluidPump"
+				]/comps/li[1]/powerUsageDeathresting</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[
+				defName = "Hemopump" or
+				defName = "HemogenAmplifier" or
+				defName = "GlucosoidPump" or
+				defName = "PsychofluidPump"
+				]/comps/li[1]/powerUsageNotDeathresting</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "DeathrestAccelerator"]/comps/li[2]/powerUsageDeathresting</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "DeathrestAccelerator"]/comps/li[2]/powerUsageNotDeathresting</xpath>
+			</li>
+			<!-- Восстанавливаем баланс после чистки глючного кода. -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "DeathrestCasket"]/comps/li[2]/basePowerConsumption/text()</xpath>
+				<value>100</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name = "DeathrestBuildingBase"]/comps/li[1]/basePowerConsumption/text()</xpath>
+				<value>100</value>
+			</li>
+			<!-- У саркофага не получается изящно изменить энергопотребление. -->
+			<li Class="PatchOperationAttributeSet">
+				<xpath>Defs/ThingDef[defName = "DeathrestAccelerator"]</xpath>
+				<attribute>ParentName</attribute>
+				<value>BuildingBase</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "DeathrestAccelerator"]/comps</xpath>
+				<value>
+					<li Class="CompProperties_Power">
+						<compClass>CompPowerTrader</compClass>
+						<basePowerConsumption>800</basePowerConsumption>
+						<alwaysDisplayAsUsingPower>true</alwaysDisplayAsUsingPower>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "DeathrestAccelerator"]</xpath>
+				<value>
+					<fillPercent>0.4</fillPercent>
+					<pathCost>42</pathCost>
+					<tickerType>Normal</tickerType>
+					<canOverlapZones>false</canOverlapZones>
+					<passability>PassThroughOnly</passability>
+					<designationCategory>Biotech</designationCategory>
+					<altitudeLayer>Building</altitudeLayer>
+					<uiOrder>2000</uiOrder>
+					<drawerType>MapMeshAndRealTime</drawerType>
+					<minifiedDef>MinifiedThing</minifiedDef>
+					<thingCategories Inherit="False">
+						<li>BuildingsMisc</li>
+					</thingCategories>
+					<researchPrerequisites>
+						<li>Deathrest</li>
+					</researchPrerequisites>
+					<descriptionHyperlinks>
+						<ThingDef>DeathrestCasket</ThingDef>
+					</descriptionHyperlinks>
+					<building>
+						<relatedBuildCommands>
+							<li>DeathrestCasket</li>
+						</relatedBuildCommands>
+						<buildingTags>
+							<li>Biotech</li>
+						</buildingTags>
+					</building>
+					<placeWorkers>
+						<li>PlaceWorker_DrawLinesToDeathrestCaskets</li>
+					</placeWorkers>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>
