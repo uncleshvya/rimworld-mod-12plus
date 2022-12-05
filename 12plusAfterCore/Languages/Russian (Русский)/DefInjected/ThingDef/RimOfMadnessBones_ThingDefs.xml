@@ -13,7 +13,6 @@
 	<Bonecrete.stuffProps.stuffAdjective>костяного бетона</Bonecrete.stuffProps.stuffAdjective>
 	<!-- EN: calcium polymer -->
 	<BonePlastic.stuffProps.stuffAdjective>кальциевого полимера</BonePlastic.stuffProps.stuffAdjective>
-
 	<!-- EN: bone chair -->
 	<BoneChair.label>костяной трон</BoneChair.label>
 	<!-- EN: A large, ornate chair, made from bones, designed for a noble to sit and reign. Thrones define the room in which they are placed as a throneroom, and sitting on the satisfies nobles -->
@@ -30,10 +29,6 @@
 	<ROMB_Apparel_SkullMask.label>маска-череп</ROMB_Apparel_SkullMask.label>
 	<!-- EN: A terrifying mask. Hides the wearer's face and makes them more confident. -->
 	<ROMB_Apparel_SkullMask.description>Страшная маска. Скрывает лицо владельца и придаёт уверенности в бою.</ROMB_Apparel_SkullMask.description>
-	<!-- EN: deer skull mask -->
-	<ROMB_Apparel_DeerSkullMask.label>рогатая маска-череп</ROMB_Apparel_DeerSkullMask.label>
-	<!-- EN: A terrifying mask. Hides the wearer's face and makes them more confident. -->
-	<ROMB_Apparel_DeerSkullMask.description>Потрясающая маска из костей и рогов. Скрывает лицо владельца и придаёт уверенности в бою.</ROMB_Apparel_DeerSkullMask.description>
 	<!-- EN: bone armor -->
 	<Sihv_Apparel_BoneArmor.label>костяная броня</Sihv_Apparel_BoneArmor.label>
 	<!-- EN: A vest with bone plates on the chest and back. Protects against gunfire. -->
@@ -62,7 +57,6 @@
 	<ROMB_Gelatin.label>желатин</ROMB_Gelatin.label>
 	<!-- EN: Basically Jello. It is smooth, rich, and brings joy to those who consume it. Because of its unique biological properties, it can nourish almost any creature and never rots. -->
 	<ROMB_Gelatin.description>Органический компонент кости, в основном используется для приготовления желе — прохладного студенистого лакомства. Желатин легко усваивается любым видом существ и имеет большой срок годности.</ROMB_Gelatin.description>
-
 	<!-- На случай развития мода ROM-B сохранено описание светильника:
 	EN: skull candles -->
 	<Jecrell_Bone_Candelabra.label>череп-канделябр</Jecrell_Bone_Candelabra.label>
