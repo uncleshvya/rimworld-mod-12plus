@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Адаптация к моду Numbers, без него этот параметр не отображается у людей.
+	EN: bone amount -->
+	<BoneAmount.label>прочность скелета</BoneAmount.label>
+	<!-- EN: The amount of bones you will get from butchering this creature. -->
+	<BoneAmount.description>Сколько всего костей в организме этого существа.</BoneAmount.description>
+
+</LanguageData>
