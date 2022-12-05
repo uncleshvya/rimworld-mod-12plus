@@ -16,5 +16,7 @@
 
 	EN: Suffer not the alien to live, their mere existence is a threat to ours. Species of such are better as our servants or our sustenance. -->
 	<HAR_Xenophobia.description>Эти мерзкие инопланетные животные из-за какого-то выверта эволюции освоили речь, что только усиливает наше отвращение. Максимум, на что годятся эти беглецы из зоопарка — прислуживать нам.</HAR_Xenophobia.description>
+	<!-- EN: victory(tag=meme_Xenophobia)         ->[founderName] slaughtered the alien scum as divinely ordered by [deity0_name], and ushered the [memberNamePlural] into a new era of progress and superiority. -->
+	<HAR_Xenophobia.descriptionMaker.rules.rulesStrings.5>victory(tag=meme_Xenophobia)         ->[founderName] уничтожил инопланетную мразь, как приказывало божество [deity0_name], и повёл [memberNamePlural] в новую эру прогресса и превосходства.</HAR_Xenophobia.descriptionMaker.rules.rulesStrings.5>
 
 </LanguageData>
