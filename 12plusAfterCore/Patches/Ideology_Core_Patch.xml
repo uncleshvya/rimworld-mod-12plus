@@ -6,7 +6,11 @@
 
 			<!-- Исправление согласно концепции «12+».
 
-			Заменена механика на ванильное поджигание. Заодно решена проблема утилизации тел для некоторых идеолигий. И зависти к налётчикам-поджигателям. -->
+			Красная ошибка в версии 3537 -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "BiosculpterPod"]/comps/li[3]/powerConsumptionStandby</xpath>
+			</li>
+			<!-- Заменена механика на ванильное поджигание. Заодно решена проблема утилизации тел для некоторых идеолигий. И зависти к налётчикам-поджигателям. -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/JobDef[defName = "ExtractSkull"]</xpath>
 				<value>
