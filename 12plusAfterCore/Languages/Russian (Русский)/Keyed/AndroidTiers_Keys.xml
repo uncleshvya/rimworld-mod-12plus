@@ -94,16 +94,16 @@
 	<ConfirmMoveAutoJoinableCaravan>Некоторые зависимые существа хотели бы присоединиться к вашему каравану. Если вы двинетесь в путь, они окажутся в безвыходном положении.\n\nПленники в оковах и неспособные ходить поселенцы будут считаться оставленными на произвол судьбы, и их могут захватить враги.\n\nВы уверены, что хотите двинуться в путь?</ConfirmMoveAutoJoinableCaravan>
 
 	<!-- Из файла Enums.xml
-	Оригинал: Без медицинской помощи -->
-	<MedicalCareCategory_NoCare>Не оказывать помощь</MedicalCareCategory_NoCare>
-	<!-- Оригинал: Врачебный уход без лекарств -->
-	<MedicalCareCategory_NoMeds>Помощь без специальных средств</MedicalCareCategory_NoMeds>
-	<!-- Оригинал: Лечение лекарственными травами -->
-	<MedicalCareCategory_HerbalOrWorse>Помощь простыми средствами</MedicalCareCategory_HerbalOrWorse>
-	<!-- Оригинал: Лечение медикаментами индустриальной эры -->
-	<MedicalCareCategory_NormalOrWorse>Помощь стандартными средствами</MedicalCareCategory_NormalOrWorse>
-	<!-- Оригинал: Лечение передовыми медикаментами -->
-	<MedicalCareCategory_Best>Помощь лучшими средствами</MedicalCareCategory_Best>
+	Оригинал: без медицинской помощи -->
+	<MedicalCareCategory_NoCare>не оказывать помощь</MedicalCareCategory_NoCare>
+	<!-- Оригинал: врачебный уход без лекарств -->
+	<MedicalCareCategory_NoMeds>помощь без специальных средств</MedicalCareCategory_NoMeds>
+	<!-- Оригинал: лечение лекарственными травами -->
+	<MedicalCareCategory_HerbalOrWorse>помощь простыми средствами</MedicalCareCategory_HerbalOrWorse>
+	<!-- Оригинал: лечение медикаментами индустриальной эры -->
+	<MedicalCareCategory_NormalOrWorse>помощь стандартными средствами</MedicalCareCategory_NormalOrWorse>
+	<!-- Оригинал: лечение передовыми медикаментами -->
+	<MedicalCareCategory_Best>помощь лучшими средствами</MedicalCareCategory_Best>
 	<!-- Оригинал: животные -->
 	<TechLevel_Animal>стая</TechLevel_Animal>
 	<!-- Оригинал: Названия животных -->
