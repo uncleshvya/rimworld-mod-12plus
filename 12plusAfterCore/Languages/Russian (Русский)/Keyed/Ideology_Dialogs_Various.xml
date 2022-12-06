@@ -12,7 +12,7 @@
 	Оригинал: ...раз съедена человечина -->
 	<LastHumanMeat>Последний раз съедено мумиё</LastHumanMeat>
 	<!-- Оригинал: ...есть человеческое мясо дольше... -->
-	<LastHumanMeatDesc>Из-за веры в {IDEO_name}, {PAWN_nameDef} расстроится, если не будет есть мумиё дольше {DURATION} дней.</LastHumanMeatDesc>
+	<LastHumanMeatDesc>Из-за веры в {IDEO_name}, {PAWN_nameDef} расстроится, если не будет есть мумиё дольше {DURATION_numCase ? дня : дней : дней}.</LastHumanMeatDesc>
 	<!-- Оригинал: Людоедская -->
 	<FoodRestrictionCannibal>Мумиё</FoodRestrictionCannibal>
 
