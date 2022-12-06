@@ -6,10 +6,10 @@
 	Есть предметы с названием во множественном числе, например "медикаменты".
 	Оригинал: {0} {0_gender ? пришёл : пришла : пришло} в негодность... -->
 	<MessageDeterioratedAway>Предмет «{0}» приходит в негодность на складе.</MessageDeterioratedAway>
-	<!-- Хорошо бы найти код для имени животновода. Пробовал цифры 1-5, HANDLER, HUMAN, TAMER, PAWN с приставками nameDef, labelShort. Ноль это тоже имя животного.
+	<!-- Хорошо бы найти код для имени животновода. Пробовал в версии 1.3 - цифры 1-5, HANDLER, HUMAN, TAMER, PAWN с приставками nameDef, labelShort. Ноль это тоже имя животного.
 	Заодно сглажены ссылки на животных - для модов на неявно живых существ.
-	Оригинал: Для {ANIMAL_labelShort} нет подходящего загона. Это животное рано... -->
-	<MessageTameNoSuitablePens>Зоотехник не может добраться до подходящих загонов или мест привязи для {ANIMAL_labelShort}. Этот питомец рано или поздно убредёт.</MessageTameNoSuitablePens>
+	Оригинал: Для {lookup: {ANIMAL_labelShort}; Case; 1} нет подходящего загона. Это животное рано... -->
+	<MessageTameNoSuitablePens>Зоотехник не может добраться до подходящих загонов или мест привязи для {lookup: {ANIMAL_labelShort}; Case; 1}. Этот питомец рано или поздно убредёт.</MessageTameNoSuitablePens>
 	<!-- Не забываем про дикарей.
 	Оригинал: ...указать животных, на которых... -->
 	<MessageMustDesignateHuntable>Нужно указать существ, на которых можно охотиться.</MessageMustDesignateHuntable>
@@ -20,9 +20,6 @@
 	<!-- Сборщик создаёт по 1 механоиду за раз.
 	Оригинал: Сборка механоидов завершена, и они будут защищать... -->
 	<MessageMechanoidsAssembled>Сборка механоида завершена, и он будет защищать свой кластер.</MessageMechanoidsAssembled>
-	<!-- Красная ошибка из-за переменных PAWN_labelShort, PAWN_pronoun.
-	Оригинал: ...изгнать {PAWN_labelShort}, так как {PAWN_pronoun} не... -->
-	<MessageCantBanishDownedPawn>Невозможно изгнать {1_labelShort}, так как {1_pronoun} не может ходить.</MessageCantBanishDownedPawn>
 	<!-- Применимо также к спальному мешку и спальному месту.
 	Оригинал: {0} более не назначена {1_nameDef} -->
 	<MessageBedLostAssignment>{0} больше не является местом отдыха для {1_nameDef}</MessageBedLostAssignment>
@@ -60,8 +57,8 @@
 	<MessagePlantDiedOfPoison>{0} {0_gender ? завял : завяла : завяло} из-за отравления.</MessagePlantDiedOfPoison>
 	<!-- Оригинал: {0} {0_gender ? погиб : погибла : погибло} из-за болезни. -->
 	<MessagePlantDiedOfBlight>{0} {0_gender ? завял : завяла : завяло} из-за болезни.</MessagePlantDiedOfBlight>
-	<!-- Оригинал: ...вы убьёте {DESIGNATED_labelShort}...этому животному. -->
-	<MessageSlaughteringBondedAnimal>Если вы потеряете {DESIGNATED_labelShort}, {BONDED_labelShort} расстроится, поскольку {BONDED_gender ? привязан : привязана} к этому питомцу.</MessageSlaughteringBondedAnimal>
+	<!-- Оригинал: ...вы убьёте {lookup: {DESIGNATED_labelShort}; Case; 3}...поскольку {BONDED_gender ? привязан : привязана } к этому животному. -->
+	<MessageSlaughteringBondedAnimal>Если вы потеряете {lookup: {DESIGNATED_labelShort}; Case; 3}, {BONDED_labelShort} расстроится, поскольку {BONDED_gender ? привязан : привязана} к этому питомцу.</MessageSlaughteringBondedAnimal>
 	<!-- Оригинал: Внимание: {0} не выживет на свету. -->
 	<MessageWarningCavePlantsExposedToLight>Внимание: {0} увядает на свету.</MessageWarningCavePlantsExposedToLight>
 	<!-- Оригинал: ...{1_gender ? погиб : погибла} -->
@@ -75,5 +72,7 @@
 	<!-- Связано с Execution.roles.1.label.
 	Оригинал: {0} должна быть... -->
 	<MessageRitualRoleMustBePrisoner>{0} должен быть пленником.</MessageRitualRoleMustBePrisoner>
+	<!-- Оригинал: {0_labelShort} не требует ритуального ослепления. -->
+	<MessageRitualRoleMustRequireBlinding>{0_labelShort} не требует ритуала анти-зрения.</MessageRitualRoleMustRequireBlinding>
 
 </LanguageData>
