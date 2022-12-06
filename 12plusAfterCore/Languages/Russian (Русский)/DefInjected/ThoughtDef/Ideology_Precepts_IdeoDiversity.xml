@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Заголовки не влезали в интерфейс.
+	Оригинал: {ADJECTIVE} стиль окружения -->
+	<IdeoDiversity_Abhorrent_StyleDominance.stages.style_surroundings.label>правильный стиль</IdeoDiversity_Abhorrent_StyleDominance.stages.style_surroundings.label>
+	<!-- Стили со сгенерированным названием, например "Архо-вишнуистский" состоят из стандартных стилей, например "рустиканский", "анимистский". Для устранения путаницы один из "стилей" хорошо бы переименовать. Наработки (по алфавиту):
+	акцент
+	архитектурный стиль (неполно)
+	гиперстиль
+	идея (сливается с идеолоджи)
+	категория
+	культура
+	мотив
+	надстиль
+	ордер
+	план
+	подвид
+	порядок
+	символика (занято)
+	тема
+	тип
+	традиция
+	строй
+	старый, новый стиль
+	форма
+	фриз
+	черта (занято)
+	элемент (выбрано временно)
+	Оригинал: ...обожаю стили, соответствующие моим убеждениям: {STYLES} -->
+	<IdeoDiversity_Abhorrent_StyleDominance.stages.style_surroundings.description>Стиль обстановки вокруг — {ADJECTIVE}. Я обожаю быть среди конструкций, соответствующих моим убеждениям. Правильный стиль состоит из следующих элементов: {STYLES}</IdeoDiversity_Abhorrent_StyleDominance.stages.style_surroundings.description>
+	<!-- Оригинал: не {ADJECTIVE} стиль окружения -->
+	<IdeoDiversity_Abhorrent_StyleDominance.stages.Nonstyle_surroundings.label>чуждый стиль</IdeoDiversity_Abhorrent_StyleDominance.stages.Nonstyle_surroundings.label>
+	<!-- Оригинал: ...люблю стили, соответствующие моим убеждениям: {STYLES} -->
+	<IdeoDiversity_Abhorrent_StyleDominance.stages.Nonstyle_surroundings.description>Стиль обстановки вокруг — не {ADJECTIVE}, а я люблю быть среди конструкций, соответствующих моим убеждениям. Правильный стиль состоит из следующих элементов: {STYLES}</IdeoDiversity_Abhorrent_StyleDominance.stages.Nonstyle_surroundings.description>
+	<!-- Заодно сглажены ссылки на людей - для модов на другие расы.
+	Оригинал: Некоторые люди здесь имеют... -->
+	<IdeoDiversity_Approved.stages.diverse_thoughts-0.description>Некоторые поселенцы имеют убеждения, отличные от моих. Это признак здоровой общины.</IdeoDiversity_Approved.stages.diverse_thoughts-0.description>
+	<!-- Оригинал: Многие люди здесь имеют... -->
+	<IdeoDiversity_Approved.stages.diverse_thoughts-1.description>Многие поселенцы имеют убеждения, отличные от моих. Это признак здоровой общины.</IdeoDiversity_Approved.stages.diverse_thoughts-1.description>
+	<!-- Оригинал: {ADJECTIVE} стиль окружения -->
+	<IdeoDiversity_Approved_StyleDominance.stages.surroundings.label>простой стиль</IdeoDiversity_Approved_StyleDominance.stages.surroundings.label>
+	<!-- Оригинал: не {ADJECTIVE} стиль окружения -->
+	<IdeoDiversity_Approved_StyleDominance.stages.Non_surroundings.label>необычный стиль</IdeoDiversity_Approved_StyleDominance.stages.Non_surroundings.label>
+	<!-- Оригинал: {ADJECTIVE} стиль окружения -->
+	<IdeoDiversity_Disapproved_StyleDominance.stages.style_surroundings.label>чуждый стиль</IdeoDiversity_Disapproved_StyleDominance.stages.style_surroundings.label>
+	<!-- Оригинал: ...Мне нравятся стили, соответствующие моим убеждениям: {STYLES} -->
+	<IdeoDiversity_Disapproved_StyleDominance.stages.style_surroundings.description>Стиль обстановки вокруг — {ADJECTIVE}. Мне нравится быть среди конструкций, соответствующих моим убеждениям. Правильный стиль состоит из следующих элементов: {STYLES}</IdeoDiversity_Disapproved_StyleDominance.stages.style_surroundings.description>
+	<!-- Оригинал: не {ADJECTIVE} стиль окружения -->
+	<IdeoDiversity_Disapproved_StyleDominance.stages.Nonstyle_surroundings.label>чуждый стиль</IdeoDiversity_Disapproved_StyleDominance.stages.Nonstyle_surroundings.label>
+	<!-- Оригинал: ...мне нравятся стили, соответствующие моим убеждениям: {STYLES} -->
+	<IdeoDiversity_Disapproved_StyleDominance.stages.Nonstyle_surroundings.description>Стиль обстановки вокруг — не {ADJECTIVE}, а мне нравится быть среди конструкций, соответствующих моим убеждениям. Правильный стиль состоит из следующих элементов: {STYLES}</IdeoDiversity_Disapproved_StyleDominance.stages.Nonstyle_surroundings.description>
+	<!-- Оригинал: {ADJECTIVE} стиль окружения -->
+	<IdeoDiversity_Exalted_StyleDominance.stages.surroundings.label>простой стиль</IdeoDiversity_Exalted_StyleDominance.stages.surroundings.label>
+	<!-- Оригинал: не {ADJECTIVE} стиль окружения -->
+	<IdeoDiversity_Exalted_StyleDominance.stages.Non_surroundings.label>необычный стиль</IdeoDiversity_Exalted_StyleDominance.stages.Non_surroundings.label>
+	<!-- Оригинал: {ADJECTIVE} стиль окружения -->
+	<IdeoDiversity_Horrible_StyleDominance.stages.style_surroundings.label>правильный стиль</IdeoDiversity_Horrible_StyleDominance.stages.style_surroundings.label>
+	<!-- Оригинал: ...люблю стили, соответствующие моим убеждениям: {STYLES} -->
+	<IdeoDiversity_Horrible_StyleDominance.stages.style_surroundings.description>Стиль обстановки вокруг — {ADJECTIVE}. Я люблю быть среди конструкций, соответствующих моим убеждениям. Правильный стиль состоит из следующих элементов: {STYLES}</IdeoDiversity_Horrible_StyleDominance.stages.style_surroundings.description>
+	<!-- Оригинал: не {ADJECTIVE} стиль окружения -->
+	<IdeoDiversity_Horrible_StyleDominance.stages.Nonstyle_surroundings.label>чуждый стиль</IdeoDiversity_Horrible_StyleDominance.stages.Nonstyle_surroundings.label>
+	<!-- Оригинал: ...люблю стили, соответствующие моим убеждениям: {STYLES} -->
+	<IdeoDiversity_Horrible_StyleDominance.stages.Nonstyle_surroundings.description>Стиль обстановки вокруг — не {ADJECTIVE}, а я люблю быть среди конструкций, соответствующих моим убеждениям. Правильный стиль состоит из следующих элементов: {STYLES}</IdeoDiversity_Horrible_StyleDominance.stages.Nonstyle_surroundings.description>
+	<!-- Оригинал: Некоторые люди здесь имеют... -->
+	<IdeoDiversity_Respected.stages.diverse_thoughts-0.description>Некоторые поселенцы имеют убеждения, отличные от моих. Это важный признак здоровой общины.</IdeoDiversity_Respected.stages.diverse_thoughts-0.description>
+	<!-- Оригинал: Многие люди здесь имеют... -->
+	<IdeoDiversity_Respected.stages.diverse_thoughts-1.description>Многие поселенцы имеют убеждения, отличные от моих. Это важный признак здоровой общины.</IdeoDiversity_Respected.stages.diverse_thoughts-1.description>
+	<!-- Оригинал: {ADJECTIVE} стиль окружения -->
+	<IdeoDiversity_Respected_StyleDominance.stages.surroundings.label>простой стиль</IdeoDiversity_Respected_StyleDominance.stages.surroundings.label>
+	<!-- Оригинал: не {ADJECTIVE} стиль окружения -->
+	<IdeoDiversity_Respected_StyleDominance.stages.Non_surroundings.label>необычный стиль</IdeoDiversity_Respected_StyleDominance.stages.Non_surroundings.label>
+	<!-- Оригинал: {ADJECTIVE} стиль окружения -->
+	<IdeoDiversity_Standard_StyleDominance.stages.style_surroundings.label>правильный стиль</IdeoDiversity_Standard_StyleDominance.stages.style_surroundings.label>
+	<!-- Оригинал: ...Мне нравятся стили, соответствующие моим убеждениям: {STYLES} -->
+	<IdeoDiversity_Standard_StyleDominance.stages.style_surroundings.description>Стиль обстановки вокруг — {ADJECTIVE}. Мне нравится быть среди конструкций, соответствующих моим убеждениям. Правильный стиль состоит из следующих элементов: {STYLES}</IdeoDiversity_Standard_StyleDominance.stages.style_surroundings.description>
+	<!-- Оригинал: ...предпочитаю стили, которые лучше соответствуют моим убеждениям: {STYLES} -->
+	<IdeoDiversity_Standard_StyleDominance.stages.Nonstyle_surroundings.description>Стиль обстановки вокруг — не {ADJECTIVE}. Это не плохо, но я предпочитаю быть среди конструкций, соответствующих моим убеждениям. Правильный стиль состоит из следующих элементов: {STYLES}</IdeoDiversity_Standard_StyleDominance.stages.Nonstyle_surroundings.description>
+
+</LanguageData>
