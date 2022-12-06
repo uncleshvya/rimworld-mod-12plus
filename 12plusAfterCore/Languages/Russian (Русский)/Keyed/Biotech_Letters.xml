@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Исправление неофициального перевода от Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
+	Оригинал: По крайней мере, один механоид без...управления механоидами на...невозможно воскресить после его смерти.\n\nСледующие... -->
+	<LetterMechsFeral>Механоид без контроля подключился к древним сигналам управления на этой планете и теперь принадлежит {0}. Он стал враждебным и, кажется, пытается пробиться с боем с карты.\n\nОдичалых механоидов невозможно восстановить после поломки.\n\nСледующие механоиды были затронуты:\n\n{1}</LetterMechsFeral>
+	<!-- Оригинал: ...нашли труп древнего механитора!\n\nИзвлеките его мехлинк, выбрав поселенца и щелкнув правой...на трупе. -->
+	<LetterMechanitorCasketOpened>Вы нашли мумифицированные останки древнего механитора!\n\nНо архотехнологичный мехлинк мог уцелеть. Проверьте это, выбрав поселенца и щёлкнув правой кнопкой мыши на мумии.</LetterMechanitorCasketOpened>
+	<!-- Оригинал: Ребенок, который рос в капсуле для выращивания, родился мертвым. -->
+	<LetterVatSillbornNoParents>Эмбрион в инкубаторе почему-то не сформировался в ребёнка.</LetterVatSillbornNoParents>
+	<!-- Оригинал: {0_labelShort} умерла из... -->
+	<LetterPartColonistDiedAfterChildbirth>{0_labelShort} была потеряна из-за осложнений при родах.</LetterPartColonistDiedAfterChildbirth>
+	<!-- Оригинал: У ребенка появляются признаки...за инцеста. -->
+	<InbredBabyBorn>У рёбенка появились признаки генетических аномалий из-за кровосмешения.</InbredBabyBorn>
+	<!-- Оригинал: Принудительный смертосон -->
+	<LetterLabelInvoluntaryDeathrest>Принудительный торпор</LetterLabelInvoluntaryDeathrest>
+	<!-- Оригинал: ...впал в смертосон. -->
+	<LetterTextInvoluntaryDeathrest>{PAWN_nameDef} впал в торпор.</LetterTextInvoluntaryDeathrest>
+	<!-- Оригинал: Бессмертный ген {PAWN_nameDef} предотвратил {PAWN_possessive} смерть. {HEDIFFINFO} -->
+	<LetterTextInvoluntaryDeathrestOrComa>Из-за особого гена, {PAWN_nameDef} {PAWN_gender ? выжил : выжила} даже после фатальных повреждений: {HEDIFFINFO}</LetterTextInvoluntaryDeathrestOrComa>
+	<!-- Оригинал: ...впал в смертосон. -->
+	<LetterTextDeathrest>Вместо этого {PAWN_pronoun} впал в торпор.</LetterTextDeathrest>
+	<!-- Оригинал: ...внезапным смертосном, {PAWN_possessive}... -->
+	<DeathrestLostSkill>Из-за нервного шока, вызванного внезапным торпором, {PAWN_possessive} навык {SKILL} ухудшился на {XPLOSS} единиц опыта.</DeathrestLostSkill>
+	<!-- Оригинал: Нанесен смертельный урон. -->
+	<DeathrestLethalDamage>Нанесён фатальный урон.</DeathrestLethalDamage>
+	<!-- Оригинал: Тело умершего родителя {PAWN_nameDef} так-же находится в транспортной капсуле. -->
+	<RefugeePodCrashBabyHasParent>{PAWN_nameDef} {PAWN_gender ? летел не один : летела не одна}: в транспортной капсуле осталось тело того, кому повезло гораздо меньше.</RefugeePodCrashBabyHasParent>
+	<!-- Оригинал: ...пару, {BONDPAWN_nameDef} установил связанные, романтические отношения с {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} получитает ментальную...окажутся в разных областях карты мира, они оба...стресса. Если один умрет, другой сойдёт с ума. -->
+	<LetterPsychicBondCreated>Инстинктивно ища пару, {BONDPAWN_nameDef} {BONDPAWN_gender ? установил : установила} ментально связанные романтические отношения с {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} {OTHERPAWN_gender ? получил : получила} ментальную пользу от привязанности к {BONDPAWN_nameDef}, но если они окажутся далеко друг от друга, то оба будут страдать от психического стресса, чем дальше, тем сильней — есть даже шанс сойти с ума.</LetterPsychicBondCreated>
+	<!-- Оригинал: {BONDPAWN_nameDef} сформировал психически связанные...отношения с {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} получит духовную пользу от связи с {BONDPAWN_nameDef}, но...окажутся в разных областях карты мира, то...стресса. Когда один умирает, другой сойдет с ума. -->
+	<LetterPsychicBondCreatedLovinText>{BONDPAWN_nameDef} {BONDPAWN_gender ? установил : установила} ментально связанные романтические отношения с {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} {OTHERPAWN_gender ? получил : получила} ментальную пользу от привязанности к {BONDPAWN_nameDef}, но если они окажутся далеко друг от друга, то оба будут страдать от психического стресса, чем дальше, тем сильней — есть даже шанс сойти с ума.</LetterPsychicBondCreatedLovinText>
+
+</LanguageData>
