@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
+	Исправление неофициального перевода от Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
+
+	<!-- Эта группа - без изменений, но необходимо оставить, иначе грамматика страдает:
+
+  EN:
+    <li>sanguophagesArriveLetterLabel->Sanguophages arrived</li>
+    <li>sanguophagesArriveLetterText->The [sanguophageCount] sanguophages are arriving at [map_definite] from different directions. They will meet and carry out their discussion in the colony.</li>
+    <li>argumentLetterLabel->Sanguophage argument</li>
+    <li>argumentLetterText->The sanguophages got into an argument and it has now escalated to violence!</li>
+    <li>successLetterLabel->Meeting complete</li>
+    <li>successLetterText->The sanguophages have completed their meeting and will now give you your reward.</li>
+    <li>raidArrivedLetterLabel->Sanguophage hunters</li>
+    <li>raidArrivedLetterText->A group of sanguophage hunters from [enemyFaction_name] are approaching!\n\nThey will attack the meeting sanguophages as well as those who hosted them.</li>
+  -->
+  <SanguophageMeetingHost.questContentRules.rulesStrings>
+    <li>sanguophagesArriveLetterLabel->Прибыли гемофаги</li>
+    <li>sanguophagesArriveLetterText->[sanguophageCount] гемофагов прибывают в [map_label] с разных направлений. Они соберутся и проведут свою встречу в вашей колонии.</li>
+    <li>argumentLetterLabel->Спор гемофагов</li>
+    <li>argumentLetterText->Гемофаги так сильно поссорились, что это переросло в насилие!</li>
+    <li>successLetterLabel->Встреча закончена</li>
+    <li>successLetterText->Гемофаги завершили свою встречу и теперь вручат вам вашу награду.</li>
+    <li>raidArrivedLetterLabel->Охотники на гемофагов</li>
+    <li>raidArrivedLetterText->Несколько охотников на гемофагов из фракции [enemyFaction_name] уже в пути!\n\nОни будут нападать на встречающихся гемофагов, а также на тех, кто их приютил.</li>
+  </SanguophageMeetingHost.questContentRules.rulesStrings>
+
+	<!-- Оригинал:
+	...
+	<li>...другим гемофагов</li>
+	...
+	<li>sanguophageInfo->(*Gray)Гемофаги-это нестареющие, бессмертные сверхлюди, питаемые в кровотоке архитами. Они красивы и чрезвычайно умны...стрелять смертоносными шипами...за это приходится...цену: во-первых...должны потреблять жизненно важный гемоген...называемого смертосна на длительное время. Гемофаги чрезвычайно подвержены...(/Gray)</li>
+	...
+	-->
+  <SanguophageMeetingHost.questDescriptionRules.rulesStrings>
+    <li>questDescription->Гемофаг по имени  [asker_nameDef] ищет безопасное место, чтобы тайно встретиться с [sanguophageSingOrPlural], где их бы не смогли отследить. Их лидер [asker_nameDef] хочет, чтобы встреча проходила в [map_label].\n\nЕсли вы согласитесь, [sanguophageCount] гемофагов прибудут в [map_label] с разных направлений. Они проведут тут несколько часов, обсуждая свои собственные секретные дела, прежде чем уйти. Они обещают оставить вам награду перед уходом.\n\nВы можете предать гемофагов и напасть на них. Сбитых с ног гемофагов можно заставить превратить одного из ваших собственных поселенцев в гемофага.\n\n[sanguophageInfo]</li>
+	<li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->другим гемофагом</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->другими гемофагами</li>
+	<li>sanguophageInfo->(*Gray)Гемофаги — это нестареющие, чрезвычайно живучие сверхлюди. Они красивы и очень умны. Они могут залечить любую травму, никогда не болеют и невосприимчивы к яду. В бою они могут стрелять ядовитыми шипами и исцелять раненых союзников. Но за всё это приходится платить высокую цену, так как суперспособности появляются не сами по себе, а за счёт архитов в кровотоке. Во-первых, гемофаги должны ежедневно потреблять необходимый для жизни гемоген, который можно получить из крови человека, а во-вторых, регулярно переводить свой организм в состояние так называемого торпора на длительное время. Вдобавок они сильно подвержены возгоранию и замедляются под воздействием ультрафиолета.(/Gray)</li>
+  </SanguophageMeetingHost.questDescriptionRules.rulesStrings>
+
+	<!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
+
+  EN:
+    <li>questName->[meetAdjective] [meetNoun]</li>
+    <li>meetAdjective->sanguophage</li>
+    <li>meetAdjective->bloodthirsty</li>
+    <li>meetAdjective->blood</li>
+    <li>meetAdjective->shadow</li>
+    <li>meetAdjective->dark</li>
+    <li>meetAdjective->crimson</li>
+    <li>meetAdjective->red</li>
+    <li>meetAdjective->scab</li>
+    <li>meetAdjective->hemic</li>
+    <li>meetAdjective->sanguine</li>
+    <li>meetNoun->meeting</li>
+    <li>meetNoun->host</li>
+    <li>meetNoun->gathering</li>
+    <li>meetNoun->reunion</li>
+    <li>meetNoun->assembly</li>
+    <li>meetNoun->conclave</li>
+    <li>meetNoun->congress</li>
+    <li>meetNoun->parley</li>
+  -->
+  <SanguophageMeetingHost.questNameRules.rulesStrings>
+    <li>questName(p=0.7)->[meetAdjective]ое [meetNoun]</li>
+    <li>questName(p=0.5)->[meetAdjective]ая [meetNoun2]</li>
+    <li>questName(p=0.5)->[meetAdjective]ый [meetNoun3]</li>
+    <li>questName(p=0.4)->[meetAdjective]ые переговоры</li>
+    <li>meetAdjective->кровожадн</li>
+    <li>meetAdjective->кровав</li>
+    <li>meetAdjective->темн</li>
+    <li>meetAdjective->черн</li>
+    <li>meetAdjective->бордов</li>
+    <li>meetAdjective->красн</li>
+    <li>meetAdjective->тайн</li>
+	<li>meetNoun->собрание</li>
+    <li>meetNoun->воссоединение</li>
+    <li>meetNoun->посещение</li>
+    <li>meetNoun2->секта</li>
+    <li>meetNoun2->община</li>
+    <li>meetNoun2->встреча</li>
+    <li>meetNoun3->конклав</li>
+    <li>meetNoun3->конгресс</li>
+  </SanguophageMeetingHost.questNameRules.rulesStrings>
+
+</LanguageData>

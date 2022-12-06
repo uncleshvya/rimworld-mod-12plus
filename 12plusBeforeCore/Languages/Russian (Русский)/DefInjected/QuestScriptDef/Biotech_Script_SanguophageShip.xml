@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
+
+	Исправление неофициального перевода от Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
+	Оригинал:
+	...
+	<li>...котором находились хозяин-гемофаг и [thrallCount]...бою (две точки)</li>
+	...
+	<li>...Враждебный хозяин-гемофаг и его прислужники...на колонию!</li>
+	...
+	-->
+  <SanguophageShip.questContentRules.rulesStrings>
+    <li>sanguophageShuttleCrashedLetterLabel->Разбившийся шаттл</li>
+	<li>sanguophageShuttleCrashedLetterText->Неподалёку потерпел крушение шаттл, в котором находятся гемофаг и [thrallCount] его прислужников. Они выйдут из разбившегося корабля и приготовятся к бою.</li>
+    <li>reinforcementsArrivedLetterLabel->Подкрепление прислужников</li>
+    <li>reinforcementsArrivedLetterText->Прислужники прибывают в десантных капсулах, чтобы помочь разбившемуся гемофагу.</li>
+    <li>assaultBeginLetterLabel->Начата атака</li>
+	<li>assaultBeginLetterText->Враждебный гемофаг и его прислужники начинают атаку на поселение!</li>
+  </SanguophageShip.questContentRules.rulesStrings>
+	<!-- Оригинал:
+	...
+	<li>...Враждебный хозяин-гемофаг и [thrallCount] прислужников...отправить шаттлу сигнал, чтобы он упал...корабль потерпит крушение, вы сможете напасть...Если вы сможете захватить хозяина-гемофага, то можете заставить его превратить одного из ваших поселенцев в гемофага.\n\n[sanguophageInfo]</li>
+	<li>sanguophageInfo->(*Gray)Гемофаги-это нестареющие, бессмертные сверхлюди, питаемые в кровотоке архитами. Они красивы и чрезвычайно умны...стрелять смертоносными шипами...за это приходится...цену: во-первых...должны потреблять жизненно важный гемоген...называемого смертосна на длительное время. Гемофаги чрезвычайно подвержены...(/Gray)</li>
+	...
+	-->
+  <SanguophageShip.questDescriptionRules.rulesStrings>
+	<li>questDescription->Вы перехватили сигнал бедствия! Враждебный гемофаг и [thrallCount] его прислужников находятся на борту шаттла, у которого возникли проблемы с двигателем. Вы можете отправить сигнал, чтобы шаттл упал рядом с [map_label].\n\nПосле того, как корабль приземлится, вы сможете напасть на гемофага и его подчинённых. Если вам повезёт захватить гемофага, то он может по вашему требованию превратить какого-нибудь поселенца в нового гемофага.\n\n[sanguophageInfo]</li>
+	<li>sanguophageInfo->(*Gray)Гемофаги — это нестареющие, чрезвычайно живучие сверхлюди. Они красивы и очень умны. Они могут залечить любую травму, никогда не болеют и невосприимчивы к яду. В бою они могут стрелять ядовитыми шипами и исцелять раненых союзников. Но за всё это приходится платить высокую цену, так как суперспособности появляются не сами по себе, а за счёт архитов в кровотоке. Во-первых, гемофаги должны ежедневно потреблять необходимый для жизни гемоген, который можно получить из крови человека, а во-вторых, регулярно переводить свой организм в состояние так называемого торпора на длительное время. Вдобавок они сильно подвержены возгоранию и замедляются под воздействием ультрафиолета.(/Gray)</li>
+  </SanguophageShip.questDescriptionRules.rulesStrings>
+
+	<!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
+
+  EN:
+    <li>questName->[shipAdjective] [shipNoun]</li>
+    <li>shipAdjective->sanguophage</li>
+    <li>shipAdjective->bloodthirsty</li>
+    <li>shipAdjective->blood</li>
+    <li>shipAdjective->shadow</li>
+    <li>shipAdjective->dark</li>
+    <li>shipAdjective->crimson</li>
+    <li>shipAdjective->red</li>
+    <li>shipAdjective->scab</li>
+    <li>shipAdjective->hemic</li>
+    <li>shipAdjective->sanguine</li>
+    <li>shipNoun->ship</li>
+    <li>shipNoun->shuttle</li>
+    <li>shipNoun->craft</li>
+    <li>shipNoun->hulk</li>
+    <li>shipNoun->crash</li>
+    <li>shipNoun->wreck</li>
+  -->
+  <SanguophageShip.questNameRules.rulesStrings>
+    <li>questName->[shipAdjective]ый [shipNoun]</li>
+    <li>questName->[shipAdjective]ая [shipNoun2]</li>
+    <li>shipAdjective->кровожадн</li>
+    <li>shipAdjective->кровав</li>
+    <li>shipAdjective->черн</li>
+    <li>shipAdjective->темн</li>
+    <li>shipAdjective->малинов</li>
+    <li>shipAdjective->красн</li>
+    <li>shipNoun->корабль</li>
+    <li>shipNoun->челнок</li>
+    <li>shipNoun->шаттл</li>
+    <li>shipNoun2->авария</li>
+    <li>shipNoun2->развалина</li>
+  </SanguophageShip.questNameRules.rulesStrings>
+
+</LanguageData>

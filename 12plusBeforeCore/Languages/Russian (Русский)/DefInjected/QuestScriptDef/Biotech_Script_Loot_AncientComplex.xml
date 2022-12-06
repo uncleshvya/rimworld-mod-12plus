@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
+
+	Исправление неофициального перевода от Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
+	Оригинал:
+	...
+	<li>questDescription->[discoveryDesc], который содержит останки давно умершего механитора.\n\nМеханиторы могут создавать...боя. Ворвавшись в комплекс и забрав с собой труп механитора, вы сможете извлечь его мехлинк и превратить одного из своих колонистов в механитора.\n\nБудьте осторожны-такого рода...</li>
+	...
+	-->
+  <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
+	<li>questDescription->[discoveryDesc]. Это гробница забытого культа, чьи адепты поклонялись способностям мысленно управлять машинами. В центре сооружения обычно покоятся останки древнего механитора — того, кто мог создавать, контролировать и манипулировать механоидами для работы и боя.\n\nМехлинк, имплант для связи с машинами, обычно очень крепок и мог уцелеть даже спустя века́. Если вы добудете его, то сможете превратить своего поселенца в нового механитора.\n\nБудьте осторожны: такого рода сооружения могут содержать множество угроз, кроме того, ваша деятельность в комплексе может привлечь нежелательное внимание.</li>
+    <li>discoveryDesc(discovered==false)->Вы узнали о древнем комплексе, находящемся неподалеку</li>
+    <li>discoveryDesc(discovered==true)->Вы определили местонахождение древнего комплекса, расположенного неподалеку</li>
+  </OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
+
+	<!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
+
+  EN:
+    <li>questName(p=3)->[complexAdj] mechanitor [complex]</li>
+    <li>questName->mechanitor [complex]</li>
+    <li>complexAdj->secret</li>
+    <li>complexAdj->ancient</li>
+    <li>complexAdj->old</li>
+    <li>complexAdj->hidden</li>
+    <li>complexAdj->dusty</li>
+    <li>complexAdj->dangerous</li>
+    <li>complexAdj->hidden</li>
+    <li>complex->complex</li>
+    <li>complex->lair</li>
+    <li>complex->base</li>
+    <li>complex->compound</li>
+    <li>complex->crypt</li>
+    <li>complex->mechplex</li>
+    <li>complex->mechsite</li>
+  -->
+  <OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
+    <li>questName(p=3)->[complexAdj] [complex] механитора</li>
+    <li>questName->[complex] механитора</li>
+    <li>complexAdj->секретный</li>
+    <li>complexAdj->древний</li>
+    <li>complexAdj->старый</li>
+    <li>complexAdj->скрытый</li>
+    <li>complexAdj->пыльный</li>
+    <li>complexAdj->опасный</li>
+    <li>complexAdj->заброшенный</li>
+    <li>complex->комплекс</li>
+    <li>complex->тайник</li>
+    <li>complex->опорный пункт</li>
+    <li>complex->склеп</li>
+  </OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
+
+</LanguageData>
