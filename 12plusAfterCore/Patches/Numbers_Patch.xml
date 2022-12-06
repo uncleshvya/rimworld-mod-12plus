@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- MIT and link
+Copyright (c) 2018 Mehni. With acknowledgement of the original idea and first implementation of Numbers by koisama as found on https://github.com/koisama/kNumbers
+
+Исправление согласно концепции «12+». -->
+
+<Patch>
+	<Operation MayRequire="Mehni.Numbers" Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/PawnTableDef[defName = "Numbers_Corpses"]/columns</xpath>
+		<value>
+			<columns>
+				<li>Label</li>
+				<li>Numbers_Equipment</li>
+				<li>Numbers_Forbidden</li>
+			</columns>
+		</value>
+	</Operation>
+</Patch>
