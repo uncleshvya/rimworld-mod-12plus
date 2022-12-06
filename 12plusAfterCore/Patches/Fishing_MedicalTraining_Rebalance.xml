@@ -6,7 +6,23 @@
 
 			<!-- Исправлен баланс, сообщите разработчику.
 
-			Возвращено влияние изношенности на цену рыбы. Зачем автор убрал это? -->
+			Пока ждём обновления до 1.4, подключён мод 1542362283_ThanksForAllTheFish, адаптируем его на время ожидания. -->
+			<li MayRequire="pyrce.thanks.for.all.the.fish" Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName = "IF_MedTable"]/fixedIngredientFilter</xpath>
+				<value>
+					<disallowedThingDefs>
+						<li>DeadFish</li>
+					</disallowedThingDefs>
+				</value>
+			</li>
+			<!-- Этот глючный дельфин задрал ещё в 2019 году.
+			Временное решение приводит к красной ошибке при загрузке карты. Просто уведомление, не мешает геймплею.
+			Одновременно появилась приятная фича - новая игра начинается с паузы. -->
+			<li MayRequire="pyrce.thanks.for.all.the.fish" Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "DolphinAway"]</xpath>
+			</li>
+
+			<!-- Возвращено влияние изношенности на цену рыбы. Зачем автор убрал это? -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[@Name = "RBB_FishBase"]/healthAffectsPrice/text()</xpath>
 				<value>true</value>
