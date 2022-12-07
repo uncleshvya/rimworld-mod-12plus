@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- Исправление согласно концепции «12+».
+	<!-- Исправление согласно концепции «12+».
 
-  Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. И через ноды "rulesStrings.1" тоже. Пришлось создать суб мод перед Core.
+	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. И через ноды "rulesStrings.1" тоже. Пришлось создать суб мод перед Core.
 
-  Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
+	Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
 
   EN: person captured -->
   <Captured.label>человек захвачен</Captured.label>
@@ -58,10 +58,10 @@
     <li>desc_sentence->[CAPTURER_nameDef] пинает пленника без видимых на то причин.</li>
   </Captured.rulePack.rulesStrings>
 
-  <!-- Оригинал: убит лидер вражеской фракции -->
-  <DefeatedHostileFactionLeader.label>уничтожен лидер вражеской фракции</DefeatedHostileFactionLeader.label>
+	<!-- Оригинал: убит лидер вражеской фракции -->
+	<DefeatedHostileFactionLeader.label>уничтожен лидер вражеской фракции</DefeatedHostileFactionLeader.label>
 
-  <!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
+	<!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
 
   EN: surgery performed -->
   <DidSurgery.label>операция проведена</DidSurgery.label>
@@ -95,21 +95,20 @@
     <li>desc_sentence->У [SURGEON_nameDef] всё лицо в крови.</li>
     <li>desc_sentence->[PATIENT_nameDef] дрожит и корчится.</li>
   </DidSurgery.rulePack.rulesStrings>
-  
   <!-- EN: prisoner executed -->
   <ExecutedPrisoner.label>пленник казнён</ExecutedPrisoner.label>
 
-  <!-- Оригинал:
-    ...
+	<!-- Оригинал:
+	...
     <li>image->, как [circumstance_start], в то время как [EXECUTIONER_nameFull][circumstance_execution] казнит [PRISONER_possessive]</li>
-    <li>image->, как [circumstance_start], в то время как [EXECUTIONER_nameFull][circumstance_execution] лишает [PRISONER_possessive] жизни</li>
+	<li>image->, как [circumstance_start], в то время как [EXECUTIONER_nameFull][circumstance_execution] лишает [PRISONER_possessive] жизни</li>
     <li>image->, как [circumstance_start], в то время как [EXECUTIONER_nameFull][circumstance_phrase] готовится казнить [PRISONER_possessive]</li>
-    ...
-  -->
+	...
+	-->
   <ExecutedPrisoner.rulePack.rulesStrings>
     <li>tale_noun->как казнили [PRISONER_nameDef]</li>
     <li>image->, как [circumstance_start], в то время как [EXECUTIONER_nameFull][circumstance_execution] казнит [PRISONER_possessive]</li>
-    <li>image->, как [circumstance_start], в то время как [EXECUTIONER_nameFull][circumstance_execution] хладнокровно казнит [PRISONER_possessive]</li>
+	<li>image->, как [circumstance_start], в то время как [EXECUTIONER_nameFull][circumstance_execution] хладнокровно казнит [PRISONER_possessive]</li>
     <li>image->, как [circumstance_start], в то время как [EXECUTIONER_nameFull][circumstance_phrase] готовится казнить [PRISONER_possessive]</li>
     <li>image->, как [circumstance_start], в то время как [EXECUTIONER_nameFull][circumstance_phrase] входит в тюремную камеру, чтобы казнить [PRISONER_possessive]</li>
     <li>circumstance_start->[PRISONER_nameFull] корчится на земле</li>
@@ -134,7 +133,7 @@
     <li>desc_sentence->[PRISONER_nameDef] выглядит демонстративно непокорно.</li>
   </ExecutedPrisoner.rulePack.rulesStrings>
 
-  <!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
+	<!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
 
   EN: animal hunted -->
   <Hunted.label>животное поймано</Hunted.label>
@@ -164,7 +163,6 @@
     <li>desc_sentence->[HUNTER_nameDef] крепко сжимает своё оружие.</li>
     <li>desc_sentence->[PREY_nameDef] осматривается, будто чувствует, что что-то не так.</li>
   </Hunted.rulePack.rulesStrings>
-  
   <!-- EN: colonist kidnapped -->
   <KidnappedColonist.label>поселенец похищен</KidnappedColonist.label>
   <!-- EN:
@@ -208,30 +206,29 @@
     <li>desc_sentence->[VICTIM_nameDef], похоже, страдает от серьёзных ран.</li>
   </KidnappedColonist.rulePack.rulesStrings>
 
-  <!-- Оригинал: убийство -->
-  <KilledBy.label>победа</KilledBy.label>
-  <!-- Оригинал:
+	<!-- Оригинал: убийство -->
+	<KilledBy.label>победа</KilledBy.label>
+	<!-- Оригинал:
+	...
+	<li>tale_noun->как [VICTIM_nameDef] погибает от руки [KILLER_nameDef]</li>
+	<li>tale_noun->как [KILLER_nameDef] убивает [VICTIM_nameDef]</li>
+	<li>tale_noun->как погибает [VICTIM_nameDef]</li>
+	<li>image->, как [circumstance_start], когда [VICTIM_possessive] [circumstance_phrase] убивают</li>
+	<li>image->, как [circumstance_start], когда [VICTIM_possessive] [circumstance_phrase] убивает [KILLER_nameFull]</li>
+	<li>image->, как [KILLER_nameFull] [circumstance_phrase] убивает [VICTIM_nameFull]</li>
+	<li>image->, как [KILLER_nameFull] [circumstance_phrase] прерывает жизнь поселенца по имени [VICTIM_nameFull]</li>
+	<li>image->, как [VICTIM_nameFull] погибает от руки противника по имени [KILLER_nameFull]</li>
+	...
+	-->
   <KilledBy.rulePack.rulesStrings>
-    <li>tale_noun->как [VICTIM_nameDef] погибает от руки [KILLER_nameDef]</li>
-    <li>tale_noun->как [KILLER_nameDef] убивает [VICTIM_nameDef]</li>
-    <li>tale_noun->как погибает [VICTIM_nameDef]</li>
-    <li>image->, как [circumstance_start], когда [VICTIM_possessive] [circumstance_phrase] убивают</li>
-    <li>image->, как [circumstance_start], когда [VICTIM_possessive] [circumstance_phrase] убивает [KILLER_nameFull]</li>
-    <li>image->, как [KILLER_nameFull] [circumstance_phrase] убивает [VICTIM_nameFull]</li>
-    <li>image->, как [KILLER_nameFull] [circumstance_phrase] прерывает жизнь поселенца по имени [VICTIM_nameFull]</li>
-    <li>image->, как [VICTIM_nameFull] погибает от руки противника по имени [KILLER_nameFull]</li>
-    <li>circumstance_start->[VICTIM_nameFull] в ужасе кричит</li>
-    ...
-  -->
-  <KilledBy.rulePack.rulesStrings>
-    <li>tale_noun->как [VICTIM_nameDef] падает от руки [KILLER_nameDef]</li>
-    <li>tale_noun->как [KILLER_nameDef] побеждает [VICTIM_nameDef]</li>
-    <li>tale_noun->как падает [VICTIM_nameDef]</li>
-    <li>image->, как [circumstance_start], когда [VICTIM_possessive] [circumstance_phrase] побеждают</li>
-    <li>image->, как [circumstance_start], когда [VICTIM_possessive] [circumstance_phrase] побеждает [KILLER_nameFull]</li>
-    <li>image->, как [KILLER_nameFull] [circumstance_phrase] побеждает [VICTIM_nameFull]</li>
-    <li>image->, как [KILLER_nameFull] [circumstance_phrase] прерывает игру поселенца по имени [VICTIM_nameFull]</li>
-    <li>image->, как [VICTIM_nameFull] падает от руки противника по имени [KILLER_nameFull]</li>
+	<li>tale_noun->как [VICTIM_nameDef] падает от руки [KILLER_nameDef]</li>
+	<li>tale_noun->как [KILLER_nameDef] побеждает [VICTIM_nameDef]</li>
+	<li>tale_noun->как падает [VICTIM_nameDef]</li>
+	<li>image->, как [circumstance_start], когда [VICTIM_possessive] [circumstance_phrase] побеждают</li>
+	<li>image->, как [circumstance_start], когда [VICTIM_possessive] [circumstance_phrase] побеждает [KILLER_nameFull]</li>
+	<li>image->, как [KILLER_nameFull] [circumstance_phrase] побеждает [VICTIM_nameFull]</li>
+	<li>image->, как [KILLER_nameFull] [circumstance_phrase] прерывает игру поселенца по имени [VICTIM_nameFull]</li>
+	<li>image->, как [VICTIM_nameFull] падает от руки противника по имени [KILLER_nameFull]</li>
     <li>circumstance_start->[VICTIM_nameFull] в ужасе кричит</li>
     <li>circumstance_start->[VICTIM_nameFull] корчится от боли</li>
     <li>circumstance_start->[VICTIM_nameFull] пытается сопротивляться</li>
@@ -252,13 +249,12 @@
     <li>desc_sentence->[KILLER_nameDef] выглядит триумфально.</li>
   </KilledBy.rulePack.rulesStrings>
 
-  <!-- Оригинал: убит поселенец -->
-  <KilledColonist.label>потерян поселенец</KilledColonist.label>
+	<!-- Оригинал: убит поселенец -->
+	<KilledColonist.label>потерян поселенец</KilledColonist.label>
+	<!-- Оригинал: убито животное поселения -->
+	<KilledColonyAnimal.label>потеряно животное поселения</KilledColonyAnimal.label>
 
-  <!-- Оригинал: убито животное поселения -->
-  <KilledColonyAnimal.label>потеряно животное поселения</KilledColonyAnimal.label>
-
-  <!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
+	<!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
 
   EN: person recruited -->
   <Recruited.label>человек завербован</Recruited.label>
@@ -281,7 +277,7 @@
   -->
   <Recruited.rulePack.rulesStrings>
     <li>tale_noun->как [JOINER_nameDef] присоединяется к поселению</li>
-    <li>image->, как [RECRUITER_nameFull] [circumstance_phrase] рекрутирует [JOINER_nameFull]</li>
+    <li>image->, как [RECRUITER_nameFull] [circumstance_phrase] вербует [JOINER_nameFull]</li>
     <li>image->, как [RECRUITER_nameFull] [circumstance_phrase] приветствует [JOINER_nameFull], когда [JOINER_pronoun] становится поселенцем</li>
     <li>image->, как [RECRUITER_nameFull] [circumstance_phrase] убедительно говорит с [JOINER_nameFull]</li>
     <li>circumstance_phrase->с явной доброжелательностью</li>
@@ -294,7 +290,6 @@
     <li>desc_sentence->[JOINER_nameDef] смотрит с облегчением.</li>
     <li>desc_sentence->[JOINER_nameDef] выглядит обнадёженно.</li>
   </Recruited.rulePack.rulesStrings>
-
   <!-- EN: prisoner sold -->
   <SoldPrisoner.label>пленник продан</SoldPrisoner.label>
   <!-- EN:
@@ -339,17 +334,14 @@
     <li>desc_sentence->[SELLER_nameDef] суёт цепи в руки покупателю.</li>
     <li>desc_sentence->[TRADER_nameDef] придирчиво осматривает пленника.</li>
   </SoldPrisoner.rulePack.rulesStrings>
-  
   <!-- EN: animal tamed -->
   <TamedAnimal.label>животное приручено</TamedAnimal.label>
 
-  <!-- Оригинал:
-    ...
-    <li>desc_sentence->[ANIMAL_nameDef] агрессивно рычит.</li>
-    <li>desc_sentence->животное, [ANIMAL_nameDef], выглядит сонным и опьянённым от любви.</li>
-    <li>desc_sentence->животное, [ANIMAL_nameDef], кажется, совершенно загипнотизировано.</li>
-    ...
-  -->
+	<!-- Оригинал:
+	...
+	<li>...сонным и опьянённым от любви.</li>
+	...
+	-->
   <TamedAnimal.rulePack.rulesStrings>
     <li>tale_noun->как [TAMER_nameDef] приручает [ANIMAL_nameDef]</li>
     <li>image->, как [TAMER_nameFull] [circumstance_phrase] приручает дикое животное</li>
@@ -367,7 +359,7 @@
     <li>desc_sentence->видно, как [TAMER_nameDef], словно создаёт невидимую, но сильную волну любви в сторону [ANIMAL_nameDef].</li>
   </TamedAnimal.rulePack.rulesStrings>
 
-  <!-- Всё что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
+	<!-- Всё что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
 
   EN: traded with someone -->
   <TradedWith.label>проведена сделка</TradedWith.label>
@@ -401,7 +393,6 @@
     <li>desc_sentence->[SELLER_nameDef] считает [SELLER_possessive] деньги.</li>
     <li>desc_sentence->[BUYER_nameDef] забирает [BUYER_possessive] товары.</li>
   </TradedWith.rulePack.rulesStrings>
-
   <!-- EN: animal trained -->
   <TrainedAnimal.label>животное натренировано</TrainedAnimal.label>
   <!-- EN:
@@ -435,8 +426,8 @@
     <li>desc_sentence->[ANIMAL_nameDef] is represented as a pile of power tools.</li>
     <li>desc_sentence->[ANIMAL_nameDef] is half [Color] and half [Color].</li>
     <li>desc_sentence->[ANIMAL_nameDef] is covered in scales.</li>
-    <li>desc_sentence->[TRAINER_nameDef] is depicted with [quantity] arms.</li>
-    <li>desc_sentence->[TRAINER_nameDef] is morphing into [ANIMAL_ShortDefinite].</li>
+    <li>desc_sentence->[TRAINER_nameDef] is depicted with [Quantity_adjphrase] arms.</li>
+    <li>desc_sentence->[TRAINER_nameDef] is morphing into [ANIMAL_definite].</li>
   -->
   <TrainedAnimal.rulePack.rulesStrings>
     <li>tale_noun->как удалось натренировать [ANIMAL_nameDef]</li>
@@ -467,8 +458,8 @@
     <li>desc_sentence->[ANIMAL_nameDef] изображается в виде кучи инструментов.</li>
     <li>desc_sentence->[ANIMAL_nameDef] имеет наполовину [Color], а наполовину [Color] цвет.</li>
     <li>desc_sentence->[ANIMAL_nameDef] стоит в перхоти.</li>
-    <li>desc_sentence->[TAMER_nameDef] имеет [quantity] рук.</li>
-    <li>desc_sentence->[TAMER_nameDef] уже почти выглядит как [ANIMAL_ShortDef].</li>
+    <li>desc_sentence->[TAMER_nameDef] имеет [Quantity_adjphrase] рук.</li>
+    <li>desc_sentence->[TAMER_nameDef] уже почти выглядит как [ANIMAL_definite].</li>
   </TrainedAnimal.rulePack.rulesStrings>
 
 </LanguageData>
