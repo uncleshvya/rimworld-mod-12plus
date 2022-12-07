@@ -45,9 +45,10 @@
     <li>Direction_neutral->Words/Adjectives/CompassDirections_Neutral</li>
     <li>Letter->WordParts/CapitalLetters</li>
     <li>LetterLatin->WordParts/CapitalLettersLatin</li>
-    <li>SylB->WordParts/Syllables_Byzantinian</li>
     <li>SylE->WordParts/Syllables_English</li>
     <li>SylG->WordParts/Syllables_Galician</li>
+    <li>SylB->WordParts/Syllables_Byzantinian</li>
+    <li>SylP->WordParts/Syllables_Pig</li>
     <li>Color->Words/Nouns/Colors</li>
     <li>Color_fem->Words/Nouns/Colors_Female</li>
     <li>Color_neutral->Words/Nouns/Colors_Neutral</li>
