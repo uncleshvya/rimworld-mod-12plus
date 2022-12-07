@@ -124,7 +124,6 @@
 
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили. Генератор применим и к животным.
 	Ещё бы надо имена сделать с большой буквы, пока что решение не найдено.
-
 	Оригинал:
 	...держит на руках своего новорождённого... -->
   <GaveBirth.rulePack.rulesStrings>
@@ -506,7 +505,7 @@
     <li>circumstance_phrase->[empty] с высохшими, потрескавшимися губами</li>
     <li>circumstance_phrase->, согнувшись в приступе рвоты,</li>
     <li>circumstance_phrase->, покрывшись сыпью,</li>
-	<li>desc_sentence->[PAWN_possessive] окружают искажённые туши животных.</li>
+	<li>desc_sentence->[PAWN_possessive] окружают искажённые деревья.</li>
     <li>desc_sentence->[PAWN_possessive] одежда разрушается на глазах.</li>
     <li>desc_sentence->Небо окрасилось в угрюмо-[Color] цвет.</li>
     <li>desc_sentence->[TerrainFeature] на фоне принимает искажённо-[Color] цвет.</li>
