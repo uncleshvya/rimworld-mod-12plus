@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
+
+	Исправление неофициального перевода от Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
+
+  EN: acidic smog -->
+  <NoxiousHaze.label>Токсичный туман</NoxiousHaze.label>
+	<!-- Оригинал:
+	...
+	<li>circumstance_phrase->без всякой жизни в поле зрения</li>
+	<li>circumstance_phrase->ждем, когда рассеется токсичный туман</li>
+	...
+	<li>desc_sentence->[Quantity_adjphrase] мертвые [Animal] лежали на земле.</li>
+	...
+	<li>desc_sentence->[Quantity_adjphrase] [Animal] улетают.</li>
+	...
+	-->
+  <NoxiousHaze.rulePack.rulesStrings>
+    <li>tale_noun->токсичный туман опустился на [Community] [PAWN_nameDef]</li>
+    <li>tale_noun->атмосфера рядом с [Community] [PAWN_nameDef] становится вредной</li>
+    <li>image->зловещее небо, [circumstance_group]</li>
+    <li>image->воздух становится густым и [circumstance_group]</li>
+	<li>circumstance_phrase->без всякого движения в поле зрения</li>
+	<li>circumstance_phrase->ждём, когда рассеется токсичный туман</li>
+    <li>circumstance_phrase->наблюдаем, как животные убегают</li>
+    <li>desc_sentence->[PAWN_nameDef] прячется рядом с [TerrainFeature], выглядывая наружу с [AdjectiveAngsty] взглядом.</li>
+    <li>desc_sentence->[PAWN_nameDef] смотрит с тряпкой, обернутой вокруг [PAWN_possessive] лица.</li>
+	<li>desc_sentence->[Quantity_adjphrase] обессиленные [Animal] лежали на земле.</li>
+    <li>desc_sentence->[Quantity_adjphrase] лежали на земле.</li>
+    <li>desc_sentence->[Quantity_adjphrase] задыхающееся [Animal] лежало на земле.</li>
+	<li>desc_sentence->[Quantity_adjphrase] [Animal] убегают.</li>
+  </NoxiousHaze.rulePack.rulesStrings>
+
+</LanguageData>
