@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+».
 
-  <!-- Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core. -->
+	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
 
-  <!-- Первые полфайла без изменений, но необходимо оставить, иначе грамматика страдает: -->
+	Первые полфайла без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN: aurora -->
+  EN: aurora -->
   <Aurora.label>полярное сияние</Aurora.label>
   <!-- EN:
     <li>tale_noun->the time an aurora appeared over [PAWN_nameDef]'s [Community]</li>
@@ -49,7 +49,6 @@
     <li>desc_sentence->[PAWN_nameDef] смотрит вверх в немом потрясении.</li>
     <li>desc_sentence->Внизу [PAWN_nameDef] играет в [Game], бросая [AdjectiveFriendly] взгляд.</li>
   </Aurora.rulePack.rulesStrings>
-  
   <!-- EN: caravan ambushed -->
   <CaravanAmbushedByHumanlike.label>засада</CaravanAmbushedByHumanlike.label>
   <!-- EN:
@@ -95,7 +94,6 @@
     <li>desc_sentence->Перепуганные животные удирают из опасного места.</li>
     <li>desc_sentence->На это издалека смотрит [Outlander].</li>
   </CaravanAmbushedByHumanlike.rulePack.rulesStrings>
-  
   <!-- EN: caravan ambushed by manhunter -->
   <CaravanAmbushedByManhunter.label>нападение животных</CaravanAmbushedByManhunter.label>
   <!-- EN:
@@ -137,7 +135,6 @@
     <li>desc_sentence->[Animal] в страхе удирает из опасного места.</li>
     <li>desc_sentence->На это издалека смотрит [Outlander].</li>
   </CaravanAmbushedByManhunter.rulePack.rulesStrings>
-  
   <!-- EN: caravan demand -->
   <CaravanDemand.label>засада разбойников</CaravanDemand.label>
   <!-- EN:
@@ -189,7 +186,6 @@
     <li>common_action->готовят своё оружие к бою</li>
     <li>common_action->ждут [PAWN_possessive] решения</li>
   </CaravanDemand.rulePack.rulesStrings>
-  
   <!-- EN: caravan meeting -->
   <CaravanMeeting.label>встреча караванов</CaravanMeeting.label>
   <!-- EN:
@@ -242,7 +238,6 @@
     <li>event->знакомятся друг с другом</li>
     <li>event->неуверенно общаются друг с другом</li>
   </CaravanMeeting.rulePack.rulesStrings>
-  
   <!-- EN: eclipse -->
   <Eclipse.label>затмение</Eclipse.label>
   <!-- EN:
@@ -279,7 +274,6 @@
     <li>desc_sentence->[Community] со всеми жителями спокойно смотрит на небо.</li>
     <li>desc_sentence->Ни один [Enemy] не виден в поле зрения.</li>
   </Eclipse.rulePack.rulesStrings>
-  
   <!-- EN: journey offer -->
   <EndGame_ShipEscape.label>сообщение о спасительном корабле</EndGame_ShipEscape.label>
   <!-- EN:
@@ -340,7 +334,6 @@
     <li>desc_sentence->[TransFriendly], [PAWN_pronoun] читает сообщение от начала до конца.</li>
     <li>desc_sentence->Вдалеке можно увидеть космический корабль.</li>
   </EndGame_ShipEscape.rulePack.rulesStrings>
-  
   <!-- EN: flashstorm -->
   <Flashstorm.label>грозовой шторм</Flashstorm.label>
   <!-- EN:
@@ -387,7 +380,6 @@
     <li>desc_sentence->[Outlander] спешно готовится ко встрече с огнём.</li>
     <li>desc_sentence->Все животные покинули эту местность.</li>
   </Flashstorm.rulePack.rulesStrings>
-  
   <!-- EN: infestation -->
   <Infestation.label>насекомые</Infestation.label>
   <!-- EN:
@@ -434,7 +426,6 @@
     <li>desc_sentence->Земля покрыта [Gore].</li>
     <li>desc_sentence->Все животные покинули этот район.</li>
   </Infestation.rulePack.rulesStrings>
-  
   <!-- EN: manhunter pack -->
   <ManhunterPack.label>агрессивные животные</ManhunterPack.label>
   <!-- EN:
@@ -442,7 +433,7 @@
     <li>tale_noun->[PAWN_nameDef]'s [Community] being attacked by mad animals</li>
     <li>image->a herd of [Animal]s [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] [Animal]s [circumstance_phrase]</li>
-    <li>image->a [huge] [Animal] [circumstance_phrase]</li>
+    <li>image->a [AdjectiveLarge] [Animal] [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] shadowy figures [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] shadowy quadrupeds [circumstance_phrase]</li>
     <li>circumstance_phrase->advancing over a [TerrainFeature]</li>
@@ -490,18 +481,14 @@
     <li>desc_sentence->[PAWN_nameDef] принимает [AdjectiveAngsty] вид.</li>
     <li>desc_sentence->Земля вокруг покрыта [Gore].</li>
   </ManhunterPack.rulePack.rulesStrings>
-  
   <!-- EN: meteorite impact -->
   <MeteoriteImpact.label>падение метеорита</MeteoriteImpact.label>
 
-  <!-- исправление согласно концепции «12+» -->
-
-  <!-- Оригинал:
-    ...
-    <li>desc_sentence->Издалека приближаются [Quantity_adjphrase] фигур.</li>
-    <li>desc_sentence->Царит мёртвая тишина.</li>
-  </MeteoriteImpact.rulePack.rulesStrings>
-  -->
+	<!-- Оригинал:
+	...
+	<li>...Царит мёртвая тишина.</li>
+	...
+	-->
   <MeteoriteImpact.rulePack.rulesStrings>
     <li>tale_noun->как рядом с поселением падает метеорит</li>
     <li>image(p=3)->, как [airborne_subject] [airborne_action][airborne_circumstance]</li>
@@ -528,9 +515,9 @@
     <li>desc_sentence->Царит полная тишина.</li>
   </MeteoriteImpact.rulePack.rulesStrings>
 
-  <!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает: -->
+	<!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN: raid -->
+  EN: raid -->
   <Raid.label>налёт</Raid.label>
   <!-- EN:
     <li>tale_noun->an raid on [PAWN_nameDef]'s [Community]</li>
@@ -593,7 +580,6 @@
     <li>defender_circumstance->поднимая кулак в знак непокорности</li>
     <li>defender_circumstance->поигрывая мышцами</li>
   </Raid.rulePack.rulesStrings>
-  
   <!-- EN: ship part crash -->
   <ShipPartCrash.label>падение обломка корабля</ShipPartCrash.label>
   <!-- EN:
@@ -603,7 +589,7 @@
     <li>image->a swarm of [Mechanoid]s [circumstance_phrase]</li>
     <li>image->an army of [Mechanoid]s [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] [Mechanoid]s [circumstance_phrase]</li>
-    <li>image->a [huge] [Mechanoid] [circumstance_phrase]</li>
+    <li>image->a [AdjectiveLarge] [Mechanoid] [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] [Mechanoid] silhouettes [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] [Mechanoid]s with glowing [Color] sensors [circumstance_phrase]</li>
     <li>circumstance_phrase->advancing over a [TerrainFeature]</li>
@@ -660,7 +646,6 @@
     <li>defender_circumstance->воинственно подняв кулак</li>
     <li>defender_circumstance->поигрывая мышцами</li>
   </ShipPartCrash.rulePack.rulesStrings>
-  
   <!-- EN: tornado -->
   <Tornado.label>смерч</Tornado.label>
   <!-- EN:
@@ -707,7 +692,6 @@
     <li>desc_sentence->[Outlander] спешно готовится ко встрече со стихией.</li>
     <li>desc_sentence->Все животные покинули эту местность.</li>
   </Tornado.rulePack.rulesStrings>
-  
   <!-- EN: tornado -->
   <TornadoFromItem.label>смерч</TornadoFromItem.label>
   <!-- EN:
@@ -758,34 +742,28 @@
     <li>desc_sentence->[Outlander] спешно готовится ко встрече со стихией.</li>
     <li>desc_sentence->[COLONIST_nameDef] принимает меры по защите поселения.</li>
   </TornadoFromItem.rulePack.rulesStrings>
-  
   <!-- EN: toxic fallout -->
   <ToxicFallout.label>токсичные осадки</ToxicFallout.label>
 
-  <!-- исправление согласно концепции «12+» -->
-
-  <!-- Оригинал:
-    ...
-    <li>image->[empty] землю, слегка светящуюся [circumstance_phrase]</li>
-    <li>image->[empty] поля погибших растений [circumstance_phrase]</li>
-    <li>image->[empty] свежие могилы [circumstance_phrase]</li>
-    <li>circumstance_phrase->в ядовито-мёртвом безмолвии</li>
+	<!-- Оригинал:
+	...
+	<li>...поля погибших растений [circumstance_phrase]</li>
+	<li>...свежие могилы [circumstance_phrase]</li>
+	<li>circumstance_phrase->в ядовито-мёртвом безмолвии</li>
     <li>circumstance_phrase->под тонкой пеленой ядовито светящейся пыли</li>
-    ...
-    <li>desc_sentence->[PAWN_nameDef] спокойно отдыхает, [PAWN_possessive] лицо покрыто каплями пота.</li>
-    <li>desc_sentence->Тела мёртвых животных усеивают местность вокруг.</li>
-    <li>desc_sentence->Животные покинули эту местность.</li>
-    ...
-  -->
+	...
+	<li>desc_sentence->Тела мёртвых животных...</li>
+	...
+	-->
   <ToxicFallout.rulePack.rulesStrings>
     <li>tale_noun->как в поселении выпали токсичные осадки</li>
     <li>tale_noun->как воздух в поселении становится ядовитым</li>
     <li>image->[empty] зловещие небеса [circumstance_phrase]</li>
     <li>image->, как воздух становится вязким [circumstance_phrase]</li>
     <li>image->[empty] землю, слегка светящуюся [circumstance_phrase]</li>
-    <li>image->[empty] поля увядших растений [circumstance_phrase]</li>
-    <li>image->[empty] свежие могилы [circumstance_phrase]</li>
-    <li>circumstance_phrase->в ядовитом безмолвии</li>
+	<li>image->[empty] поля увядших растений [circumstance_phrase]</li>
+	<li>image->[empty] свежие следы [circumstance_phrase]</li>
+	<li>circumstance_phrase->в ядовитом безмолвии</li>
     <li>circumstance_phrase->под тонкой пеленой ядовито светящейся пыли</li>
     <li>circumstance_phrase->в узоре из фигур, напоминающих кости</li>
     <li>circumstance_phrase->в клубах токсичных испарений</li>
@@ -793,47 +771,41 @@
     <li>desc_sentence->[PAWN_nameDef] бросает [AdjectiveAngsty] взгляд, спрятавшись под крышей.</li>
     <li>desc_sentence->[PAWN_nameDef] стоит в шоке от увиденного.</li>
     <li>desc_sentence->[PAWN_nameDef] спокойно отдыхает, [PAWN_possessive] лицо покрыто каплями пота.</li>
-    <li>desc_sentence->Кости животных усеивают местность вокруг.</li>
+	<li>desc_sentence->Кости животных усеивают местность вокруг.</li>
     <li>desc_sentence->Животные покинули эту местность.</li>
     <li>desc_sentence->[Animal], ни о чём не подозревая, рассеянно бродит туда-сюда.</li>
   </ToxicFallout.rulePack.rulesStrings>
 
-  <!-- Эти 2 строчки без изменений, но необходимо оставить, иначе грамматика страдает: -->
+	<!-- Эти 2 строчки без изменений, но необходимо оставить, иначе грамматика страдает:
 
-  <!-- EN: volcanic winter -->
+  EN: volcanic winter -->
   <VolcanicWinter.label>вулканическая зима</VolcanicWinter.label>
 
-  <!-- исправление согласно концепции «12+» -->
-
-  <!-- Оригинал:
-    ...
-    <li>image->[empty] поля, покрытые пеплом, [circumstance_phrase]</li>
-    <li>circumstance_phrase->среди мёртвого серого безмолвия</li>
-    <li>circumstance_phrase->в тусклых лучах солнца, едва пробивающихся сквозь тучи</li>
-    <li>circumstance_phrase->в мертвенно-голубом свете</li>
-    <li>desc_sentence->[PAWN_nameDef] сжимается у огня.</li>
-    ...
-    <li>desc_sentence->Все животные дрожат от холода.</li>
-    <li>desc_sentence->Повсюду видны умирающие животные.</li>
-    <li>desc_sentence->[Animal] в недоумении бродит туда-сюда.</li>
-    </VolcanicWinter.rulePack.rulesStrings>
-  -->
+	<!-- Оригинал:
+	...
+	<li>...среди мёртвого серого безмолвия</li>
+	...
+	<li>circumstance_phrase->в мертвенно-голубом...</li>
+	...
+	<li>...видны умирающие животные.</li>
+	...
+	-->
   <VolcanicWinter.rulePack.rulesStrings>
     <li>tale_noun->как в поселении начинается вулканическая зима</li>
     <li>image->[empty] тяжёлое, холодное небо [circumstance_phrase]</li>
     <li>image->[empty] пепел, витающий в воздухе, [circumstance_phrase]</li>
     <li>image->, как [TerrainFeature] покрывается инеем [circumstance_phrase]</li>
     <li>image->[empty] поля, покрытые пеплом, [circumstance_phrase]</li>
-    <li>circumstance_phrase->среди серого безмолвия</li>
+	<li>circumstance_phrase->среди серого безмолвия</li>
     <li>circumstance_phrase->в тусклых лучах солнца, едва пробивающихся сквозь тучи</li>
-    <li>circumstance_phrase->в эфемерно-голубом свете</li>
+	<li>circumstance_phrase->в эфемерно-голубом свете</li>
     <li>desc_sentence->[PAWN_nameDef] сжимается у огня.</li>
     <li>desc_sentence->Чтобы согреться, [PAWN_nameDef] надевает [Apparel] в количестве нескольких штук.</li>
     <li>desc_sentence->[PAWN_nameDef] сидит без сил.</li>
     <li>desc_sentence->[PAWN_nameDef] бросает [AdjectiveAngsty] взгляд.</li>
     <li>desc_sentence->Вокруг бродят голодные животные.</li>
     <li>desc_sentence->Все животные дрожат от холода.</li>
-    <li>desc_sentence->Повсюду видны ослабевшие животные.</li>
+	<li>desc_sentence->Повсюду видны ослабевшие животные.</li>
     <li>desc_sentence->[Animal] в недоумении бродит туда-сюда.</li>
   </VolcanicWinter.rulePack.rulesStrings>
 
