@@ -49,8 +49,8 @@
     <li>desc_sentence->Мумиё блестит и выглядит очень полезным.</li>
     <li>desc_sentence->Всё [PAWN_possessive] тело облеплено кусочками мумиё.</li>
   </AteRawHumanlikeMeat.rulePack.rulesStrings>
-  <!-- Оригинал: разделано человеческое тело -->
-  <ButcheredHumanlikeCorpse.label>бардак вокруг</ButcheredHumanlikeCorpse.label>
+	<!-- Оригинал: разделано человеческое тело -->
+	<ButcheredHumanlikeCorpse.label>бардак вокруг</ButcheredHumanlikeCorpse.label>
 
 	<!-- Эти полфайла без изменений, но необходимо оставить, иначе грамматика страдает:
 
@@ -179,7 +179,7 @@
   <FinishedResearchProject.label>завершение исследования</FinishedResearchProject.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] finishing research on [PROJECT_label]</li>
-    <li>image->[PAWN_nameFull] working on [PROJECT_label] research project [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] working on the [PROJECT_label] research project [circumstance_group]</li>
     <li>image->[PAWN_nameFull] studying the secrets of [PROJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] researching [PROJECT_label] [circumstance_group]</li>
     <li>circumstance_phrase->with great intensity</li>
@@ -256,9 +256,7 @@
   <!-- EN: berserk rage -->
   <MentalStateBerserk.label>потеря рассудка</MentalStateBerserk.label>
 
-	<!-- Исправление согласно концепции «12+».
-
-	Оригинал:
+	<!-- Оригинал:
 	...
 	<li>...обнажаются в смертоносном оскале.</li>
 	...
@@ -466,9 +464,7 @@
   <!-- EN: on fire -->
   <WasOnFire.label>огонь</WasOnFire.label>
 
-	<!-- Исправление согласно концепции «12+».
-
-	Оригинал:
+	<!-- Оригинал:
 	...
 	<li>...для мёртвого человека.</li>
 	...
