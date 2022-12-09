@@ -281,5 +281,20 @@ Ideas to realize in next version:
 		<li>Rus.Biotech.IUGT</li>
 		<li>russian.biotech.rf</li>
 		<li>Rus.Biotech.Arkanam</li>
+		<!-- 14 нижеследующих модов запрещены на время работ по адаптации VEfactionsFramework, при необходимости подключения сместить приоритет на нужный мод. -->
+		<li>VanillaExpanded.VanillaSocialInteractionsExpanded</li>
+		<li>vanillaexpanded.skills</li>
+		<li>kikohi.BetterGroundPenetratingScanner</li>
+		<li>kikohi.sometimesraidsgowrongforked</li>
+		<li>VanillaExpanded.VChemfuelE</li>
+		<li>OskarPotocki.VanillaExpanded.IdeologyPatches</li>
+		<li>VanillaExpanded.HelixienGas</li>
+		<li>VanillaExpanded.VHE</li>
+		<li>VanillaExpanded.VCEF</li>
+		<li>Nals.FacialAnimation</li>
+		<li>VanillaExpanded.VEE</li>
+		<li>VanillaExpanded.VChemfuelE</li>
+		<li>VanillaExpanded.VBooksE</li>
+		<li>vanillaexpanded.backgrounds</li>
 	</incompatibleWith>
 </ModMetaData>
