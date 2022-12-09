@@ -18,16 +18,31 @@
 			</li>
 			<!-- Гемоген больше не гематоген. -->
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "HemogenPack"]/thingCategories/li[1]/text()</xpath>
-				<value>Medicine</value>
-			</li>
-			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "HemogenPack"]/statBases/Nutrition/text()</xpath>
 				<value>0</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "HemogenPack"]/ingestible/preferability/text()</xpath>
 				<value>NeverForNutrition</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThoughtDef[defName = "IngestedHemogenPack"]/stages/li[1]/baseMoodEffect/text()</xpath>
+				<value>-20</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "HemogenPack"]/thingCategories/li[1]/text()</xpath>
+				<value>Medicine</value>
+			</li>
+			<!-- Корректируем автоматически сгенерированные рецепты. -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[@Name = "SurgeryFlesh"]</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<disallowedThingDefs>
+							<li>HemogenPack</li>
+						</disallowedThingDefs>
+					</fixedIngredientFilter>
+				</value>
 			</li>
 			<!-- Убираем обучение торговле частями людей. -->
 			<li Class="PatchOperationReplace">
@@ -67,43 +82,34 @@
 			</li>
 			<!-- Далее - код исправления красных ошибок в версии 3537. -->
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "DeathrestCasket"]/comps/li[4]/powerUsageDeathresting</xpath>
-			</li>
-			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "DeathrestCasket"]/comps/li[4]/powerUsageNotDeathresting</xpath>
-			</li>
-			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[
+				defName = "DeathrestCasket" or
 				defName = "Hemopump" or
 				defName = "HemogenAmplifier" or
 				defName = "GlucosoidPump" or
-				defName = "PsychofluidPump"
-				]/comps/li[1]/powerUsageDeathresting</xpath>
+				defName = "PsychofluidPump" or
+				defName = "DeathrestAccelerator"
+				]/comps/li[@Class = "CompProperties_DeathrestBindable"]/powerUsageDeathresting</xpath>
 			</li>
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[
+				defName = "DeathrestCasket" or
 				defName = "Hemopump" or
 				defName = "HemogenAmplifier" or
 				defName = "GlucosoidPump" or
-				defName = "PsychofluidPump"
-				]/comps/li[1]/powerUsageNotDeathresting</xpath>
-			</li>
-			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "DeathrestAccelerator"]/comps/li[2]/powerUsageDeathresting</xpath>
-			</li>
-			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "DeathrestAccelerator"]/comps/li[2]/powerUsageNotDeathresting</xpath>
+				defName = "PsychofluidPump" or
+				defName = "DeathrestAccelerator"
+				]/comps/li[@Class = "CompProperties_DeathrestBindable"]/powerUsageNotDeathresting</xpath>
 			</li>
 			<!-- Восстанавливаем баланс после чистки глючного кода. -->
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName = "DeathrestCasket"]/comps/li[2]/basePowerConsumption/text()</xpath>
+				<xpath>Defs/ThingDef[
+				defName = "DeathrestCasket" or
+				@Name = "DeathrestBuildingBase"
+				]/comps/li[@Class = "CompProperties_Power"]/basePowerConsumption/text()</xpath>
 				<value>100</value>
 			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[@Name = "DeathrestBuildingBase"]/comps/li[1]/basePowerConsumption/text()</xpath>
-				<value>100</value>
-			</li>
-			<!-- У саркофага не получается изящно изменить энергопотребление. -->
+			<!-- У ускорителя не получается изящно исправить энергопотребление. Прописываем заново. -->
 			<li Class="PatchOperationAttributeSet">
 				<xpath>Defs/ThingDef[defName = "DeathrestAccelerator"]</xpath>
 				<attribute>ParentName</attribute>
