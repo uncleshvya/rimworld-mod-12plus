@@ -68,6 +68,9 @@
 	<WasWornByCorpse>В крови.</WasWornByCorpse>
 	<!-- Оригинал: Т -->
 	<WornByCorpseChar>К</WornByCorpseChar>
+	<!-- Слово "осадки" будет конфликтовать с токсичными. Как вариант - "непогода", но звучит просторечиво.
+	Оригинал: идёт дождь -->
+	<DeterioratingRaining>погодные условия</DeterioratingRaining> 
 	<!-- Оригинал: {lookup: {0}; Case; 1} убито -->
 	<PawnsKilled>{lookup: {0}; Case; 1} побеждено</PawnsKilled>
 	<!-- Оригинал: выкапывает труп -->
