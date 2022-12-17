@@ -17,6 +17,10 @@
 	<MessageMustDesignateTameable>Нужно указать приручаемых существ.</MessageMustDesignateTameable>
 	<!-- Оригинал: Потолок в виде толстой горной... -->
 	<MessageNothingCanRemoveThickRoofs>Толщу горной породы удалить невозможно.</MessageNothingCanRemoveThickRoofs>
+	<!-- Не влезало в интерфейс при разрешении 1280х1024.
+	Падежи. Размытая ссылка слова PAWN_possessive для женщин.
+	Оригинал: Внимание: политика врачебного ухода {PAWN_nameDef} ({RESTRICTIONLABEL}) мешает провести эту операцию...изменением {PAWN_possessive} политики врачебного... -->
+	<MessageWarningNoMedicineForRestriction>Внимание: {PAWN_nameDef} получает уход в режиме «{RESTRICTIONLABEL}», это мешает провести операцию. Подумайте над изменением режима врачебного ухода.</MessageWarningNoMedicineForRestriction>
 	<!-- Сборщик создаёт по 1 механоиду за раз.
 	Оригинал: Сборка механоидов завершена, и они будут защищать... -->
 	<MessageMechanoidsAssembled>Сборка механоида завершена, и он будет защищать свой кластер.</MessageMechanoidsAssembled>
