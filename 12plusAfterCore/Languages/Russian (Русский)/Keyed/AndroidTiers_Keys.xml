@@ -184,8 +184,6 @@
 	<MessageMustDesignateSlaughterable>Нужно указать питомца, принадлежащего поселению.</MessageMustDesignateSlaughterable>
 	<!-- Оригинал: ...мест для животных. -->
 	<MessageNoAnimalBeds>Нет доступных спальных мест для питомцев.</MessageNoAnimalBeds>
-	<!-- Оригинал: ...получает медицинскую помощь — «{2}». -->
-	<MessageTooLowMedCare>Для операции требуются хотя бы {0}, а текущий режим, в котором {PAWN_labelShort} получает уход — «{2}».</MessageTooLowMedCare>
 	<!-- Оригинал: ...Лучший животновод, {HANDLER_labelShort}... -->
 	<MessageNoHandlerSkilledEnough>Никто не сможет приручить {ANIMAL_kindBase}. Требуется {2} уровня {1}. Лучший зоотехник, {HANDLER_labelShort}, имеет уровень {4}.</MessageNoHandlerSkilledEnough>
 	<!-- Это что ли устаревшее сообщение? Проанализировать условия его генерации в отношении пленников. Может, имеет смысл изменить ваниль.
