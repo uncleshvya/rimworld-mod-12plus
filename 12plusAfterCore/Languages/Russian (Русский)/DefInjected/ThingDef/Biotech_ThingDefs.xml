@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Исправление неофициального перевода от Sestrenka. На момент проведения работ, официальный перевод ещё не был полностью закончен.
+	Оригиналы заголовков: все сгенерированы по формуле "труп название", например, "труп копатель". -->
+	<Corpse_Mech_Tunneler.label>сломанный копатель</Corpse_Mech_Tunneler.label>
+	<!-- Оригиналы описаний: все сгенерированы по формуле "Труп название.", например, "Труп копатель.". -->
+	<Corpse_Mech_Tunneler.description>Непригодный к ремонту механоид модели «Копатель».</Corpse_Mech_Tunneler.description>
+	<Corpse_Mech_Agrihand.label>сломанный агроном</Corpse_Mech_Agrihand.label>
+	<Corpse_Mech_Agrihand.description>Непригодный к ремонту механоид модели «Агроном».</Corpse_Mech_Agrihand.description>
+	<Corpse_Mech_Cleansweeper.label>сломанный уборщик</Corpse_Mech_Cleansweeper.label>
+	<Corpse_Mech_Cleansweeper.description>Непригодный к ремонту механоид модели «Уборщик».</Corpse_Mech_Cleansweeper.description>
+	<Corpse_Mech_Constructoid.label>сломанный строитель</Corpse_Mech_Constructoid.label>
+	<Corpse_Mech_Constructoid.description>Непригодный к ремонту механоид модели «Строитель».</Corpse_Mech_Constructoid.description>
+	<Corpse_Mech_Fabricor.label>обломки ремесленника</Corpse_Mech_Fabricor.label>
+	<Corpse_Mech_Fabricor.description>Непригодный к ремонту механоид модели «Ремесленник».</Corpse_Mech_Fabricor.description>
+	<Corpse_Mech_Lifter.label>сломанный грузчик</Corpse_Mech_Lifter.label>
+	<Corpse_Mech_Lifter.description>Непригодный к ремонту механоид модели «Грузчик».</Corpse_Mech_Lifter.description>
+	<Corpse_Mech_Militor.label>сломанный ополченец</Corpse_Mech_Militor.label>
+	<Corpse_Mech_Militor.description>Непригодный к ремонту механоид модели «Ополченец».</Corpse_Mech_Militor.description>
+	<Corpse_Mech_Paramedic.label>сломанный парамедик</Corpse_Mech_Paramedic.label>
+	<Corpse_Mech_Paramedic.description>Непригодный к ремонту механоид модели «Парамедик».</Corpse_Mech_Paramedic.description>
+	<Corpse_Mech_WarUrchin.label>обломки боевой пчелы</Corpse_Mech_WarUrchin.label>
+	<Corpse_Mech_WarUrchin.description>Непригодный к ремонту механоид модели «Боевая пчела».</Corpse_Mech_WarUrchin.description>
+	<Corpse_Mech_Apocriton.label>сломанный апокритон</Corpse_Mech_Apocriton.label>
+	<Corpse_Mech_Apocriton.description>Непригодный к ремонту механоид модели «Апокритон».</Corpse_Mech_Apocriton.description>
+	<Corpse_Mech_Legionary.label>сломанный легионер</Corpse_Mech_Legionary.label>
+	<Corpse_Mech_Legionary.description>Непригодный к ремонту механоид модели «Легионер».</Corpse_Mech_Legionary.description>
+	<Corpse_Mech_Scorcher.label>обломки испепелителя</Corpse_Mech_Scorcher.label>
+	<Corpse_Mech_Scorcher.description>Непригодный к ремонту механоид модели «Испепелитель».</Corpse_Mech_Scorcher.description>
+	<Corpse_Mech_Tesseron.label>сломанный тессерон</Corpse_Mech_Tesseron.label>
+	<Corpse_Mech_Tesseron.description>Непригодный к ремонту механоид модели «Тессерон».</Corpse_Mech_Tesseron.description>
+	<Corpse_Mech_Centurion.label>сломанный центурион</Corpse_Mech_Centurion.label>
+	<Corpse_Mech_Centurion.description>Непригодный к ремонту механоид модели «Центурион».</Corpse_Mech_Centurion.description>
+	<Corpse_Mech_Diabolus.label>сломанный дьявол</Corpse_Mech_Diabolus.label>
+	<Corpse_Mech_Diabolus.description>Непригодный к ремонту механоид модели «Дьявол».</Corpse_Mech_Diabolus.description>
+	<Corpse_Mech_Warqueen.label>остов предводительницы</Corpse_Mech_Warqueen.label>
+	<Corpse_Mech_Warqueen.description>Непригодный к ремонту механоид модели «Предводительница».</Corpse_Mech_Warqueen.description>
+
+</LanguageData>
