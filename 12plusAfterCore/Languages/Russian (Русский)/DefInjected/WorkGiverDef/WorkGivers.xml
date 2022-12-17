@@ -48,7 +48,9 @@
 	<DeliverResourcesToFrames.gerund>Нести материалы к</DeliverResourcesToFrames.gerund>
 	<!-- Герундий DoBillsBrew уже изменён в файле BeesNhoney_WorkGiverDefs.xml -->
 	<DoBillsButcherFlesh.gerund>Разделывать на</DoBillsButcherFlesh.gerund>
-	<DoBillsCook.gerund>Готовить на</DoBillsCook.gerund>
+	<!-- В версии 1.4 стали использоваться падежи.
+	Оригинал: готовить на -->
+	<DoBillsCook.gerund>Готовить, используя</DoBillsCook.gerund>
 	<DoBillsCookCampfire.gerund>Готовить, используя</DoBillsCookCampfire.gerund>
 	<!-- Герундий DoBillsCremate уже изменён в файле RimOfMadnessBones_WorkGiverDefs.xml -->
 	<DoBillsFabricationBench.gerund>Производить высокоточные изделия, используя</DoBillsFabricationBench.gerund>
