@@ -6,7 +6,7 @@
 	Не влезало в интерфейс. Переименовано по аналогии с соседними в списке.
 	Оригиналы: Носильщик+ -->
 	<HaulingUrgent.label>Перенос+</HaulingUrgent.label>
-	<HaulingUrgent.labelShort>Перенос+</HaulingUrgent.labelShort>
+	<HaulingUrgent.labelShort>перенос+</HaulingUrgent.labelShort>
 	<!-- Оригинал: ...предметам помеченным инструментом "Срочный перенос"... -->
 	<HaulingUrgent.description>Перенос высокого приоритета. Применяется к предметам, помеченным инструментом «Срочный перенос».\nДобавлено модом Allow Tool.</HaulingUrgent.description>
 	<!-- Отображается во вкладке "Персона" под заголовком "Недоступно", во всплывающем описании над недоступным видом работ.
