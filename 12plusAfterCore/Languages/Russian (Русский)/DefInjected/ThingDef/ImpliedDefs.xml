@@ -86,25 +86,33 @@
 	<Corpse_Lynx.description>Туша рыси.</Corpse_Lynx.description>
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили обо всех механоидах.
 	Оригинал: труп сентипеды -->
-	<Corpse_Mech_CentipedeBlaster.label>сломанная сентипеда</Corpse_Mech_CentipedeBlaster.label>
+	<Corpse_Mech_CentipedeBlaster.label>обломки сентипеды-Б</Corpse_Mech_CentipedeBlaster.label>
 	<!-- Оригинал: Труп сентипеды. -->
-	<Corpse_Mech_CentipedeBlaster.description>Непригодная к ремонту сентипеда.</Corpse_Mech_CentipedeBlaster.description>
+	<Corpse_Mech_CentipedeBlaster.description>Непригодный к ремонту механоид модели «Бластерная сентипеда».</Corpse_Mech_CentipedeBlaster.description>
+	<!-- Оригинал: труп сентипеда -->
+	<Corpse_Mech_CentipedeBurner.label>обломки сентипеды-О</Corpse_Mech_CentipedeBurner.label>
+	<!-- Оригинал: Труп сентипеда. -->
+	<Corpse_Mech_CentipedeBurner.description>Непригодный к ремонту механоид модели «Огнемётная сентипеда».</Corpse_Mech_CentipedeBurner.description>
+	<!-- Оригинал: труп сентипеда -->
+	<Corpse_Mech_CentipedeGunner.label>обломки сентипеды-П</Corpse_Mech_CentipedeGunner.label>
+	<!-- Оригинал: Труп сентипеда. -->
+	<Corpse_Mech_CentipedeGunner.description>Непригодный к ремонту механоид модели «Пулемётная сентипеда».</Corpse_Mech_CentipedeGunner.description>
 	<!-- Оригинал: труп улана -->
 	<Corpse_Mech_Lancer.label>сломанный улан</Corpse_Mech_Lancer.label>
 	<!-- Оригинал: Труп улана. -->
-	<Corpse_Mech_Lancer.description>Непригодный к ремонту улан.</Corpse_Mech_Lancer.description>
+	<Corpse_Mech_Lancer.description>Непригодный к ремонту механоид модели «Улан».</Corpse_Mech_Lancer.description>
 	<!-- Оригинал: труп жнеца -->
 	<Corpse_Mech_Scyther.label>сломанный жнец</Corpse_Mech_Scyther.label>
 	<!-- Оригинал: Труп жнеца. -->
-	<Corpse_Mech_Scyther.description>Непригодный к ремонту жнец.</Corpse_Mech_Scyther.description>
+	<Corpse_Mech_Scyther.description>Непригодный к ремонту механоид модели «Жнец».</Corpse_Mech_Scyther.description>
 	<!-- Оригинал: труп драгун -->
 	<Corpse_Mech_Pikeman.label>сломанный драгун</Corpse_Mech_Pikeman.label>
 	<!-- Оригинал: Мёртвое тело драгун. -->
-	<Corpse_Mech_Pikeman.description>Непригодный к ремонту драгун.</Corpse_Mech_Pikeman.description>
+	<Corpse_Mech_Pikeman.description>Непригодный к ремонту механоид модели «Драгун».</Corpse_Mech_Pikeman.description>
 	<!-- Оригинал: труп термит -->
 	<Corpse_Mech_Termite.label>сломанный термит</Corpse_Mech_Termite.label>
 	<!-- Оригинал: Мёртвое тело термит. -->
-	<Corpse_Mech_Termite.description>Непригодный к ремонту термит.</Corpse_Mech_Termite.description>
+	<Corpse_Mech_Termite.description>Непригодный к ремонту механоид модели «Термит».</Corpse_Mech_Termite.description>
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
 	Оригинал: туша мегаскарабея -->
 	<Corpse_Megascarab.label>тушка мегаскарабея</Corpse_Megascarab.label>
