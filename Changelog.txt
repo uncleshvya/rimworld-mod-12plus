@@ -2,9 +2,10 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2022-11-01 начата работа по обновлению 12+мода до последней версии игры. Так как у официалов Biotech ещё не переведён, обработаны 7 неофициальных переводов. Приоритет смещён на оный от автора Sestrenka, как более качественный. Поддержка переводов от LeveFUN, Davyd, Romanin, Arkanam и IIU остановлена до востребования.
+2022-11-23 обновление до Римворлда 1.4 с официальным переводом. Поддержка версии 1.3 остановлена до востребования;
+Добавлена адаптация для DLC Biotech. Так как у официалов перевод ещё не закончен, обработаны 7 неофициальных переводов. Приоритет смещён на оный от автора Sestrenka, как более качественный. Поддержка переводов от LeveFUN, Davyd, Romanin, Arkanam и IIU остановлена до востребования;
 Идёт работа по исправлению трудноуловимого бага - иногда не загружается карта квестов с сайтами, типа "лесозаготовочный лагерь" или "набожная деревня". Ведётся отсев модов; список уже проверенных - в файле ModsConfig.xml в корне репозитория.
-Скомпилирована версия 12+мода 0.9.95pre-release.
+Скомпилирована версия 12+мода 0.9.96pre-release;
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -95,7 +96,7 @@ For English, scroll down.
 2022-02-26 начата работа над адаптацией мода Misc.Training от Haplo - мишени нужно увеличить. Но был обнаружен гораздо более красивый мод текстур Misc. Training retexture [JGH]. Сделана зависимость от него.
 
 2022-02-24 добавлена адаптация и русская локализация для серии модов Fishing. Поддержка устаревших версий от Rainbeau, Mlie и kr33man остановлена до востребования, в пользу самой свежей версии - Fishing ReWork. По желанию, доступно исправление кривоватого баланса:
-- возвращено влияние изношенности на цену рыбы. Зачем автор убрал это?;
+- возвращено влияние изношенности на цену рыбы. Зачем автор убрал это?
 - исправлен рецепт для морского огурца, т.к. голотурин содержится не в мясе, а в несъедобных органах.
 
 2022-02-15 добавлена адаптация для мода Edible Leather.
@@ -108,45 +109,45 @@ For English, scroll down.
 
 2021-10-06 добавлена адаптация и локализация для мода OrassansLite. Исправлена его красные ошибки: текстур (для RW 1.3), предысторий, см.каменты в коде, и почему-то пропала красная ошибка генерации кошачьих имён.
 
-2021-10-03 добавлена адаптация для Ideology и рассказчика.
+2021-10-03 добавлена адаптация для рассказчика и DLC Ideology.
 
 2021-09-15 добавлена адаптация для мода DubsBadHygiene, заодно исправлены его ошибки, см.каменты в коде. По желанию, доступно исправление кривоватого баланса:
 - возвращено отображение радиуса загрязнения колодца, зачем автор убрал это?
 
-2021-09-11 закончен апдейт до Римворлда 1.3 с Роялти. Поддержка версии 1.2 остановлена до востребования.
+2021-09-11 обновление до Римворлда 1.3. Поддержка версии 1.2 остановлена до востребования;
 Отключён баф Bloodlust при вырезании органа.
 
-2021-09-10 добавлена адаптация для мода ZiTools objects seeker.
+2021-09-10 добавлена адаптация для мода ZiTools objects seeker;
 Добавлена адаптация для мода GlitterTech и переводов от KappaKan и kr33man.
 
-2021-09-07 добавлена адаптация для мода InventoryTab.
+2021-09-07 добавлена адаптация для мода InventoryTab;
 Добавлена адаптация для мода Expanded Prosthetics and Organ Engineering, заодно исправлены ошибки перевода, см.каменты в коде.
 
 2021-09-04 добавлена адаптация для мода Rimsenal Feral Faction Pack и перевода от Doc, заодно исправлены их ошибки, см.каменты в коде.
 
-2021-09-03 добавлена адаптация для мода Rimsenal Augmented Vanilla Pack и русификатора от Unknown, заодно исправлены их ошибки, см.каменты в коде.
-Добавлена адаптация для мода Rimsenal Security Pack, русификатора от Unknown и перевода от Nubasik, заодно исправлены их ошибки, см.каменты в коде.
+2021-09-03 добавлена адаптация для мода Rimsenal Augmented Vanilla Pack и русификатора от Unknown, заодно исправлены их ошибки, см.каменты в коде;
+Добавлена адаптация для мода Rimsenal Security Pack, русификатора от Unknown и перевода от Nubasik, заодно исправлены их ошибки, см.каменты в коде;
 Добавлена адаптация для мода Rimsenal Core Murder Diversified, русификатора от Unknown и перевода от kr33man, заодно исправлены их ошибки, см.каменты в коде.
 
-2021-09-02 добавлена адаптация для мода Outfitted.
+2021-09-02 добавлена адаптация для мода Outfitted;
 Добавлена адаптация для мода PsiTech и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 
-2021-09-01 добавлена адаптация для мода MendAndRecycle, заодно исправлены его ошибки, см.каменты в коде.
-Добавлена адаптация для мода Fertile Fields и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
+2021-09-01 добавлена адаптация для мода MendAndRecycle, заодно исправлены его ошибки, см.каменты в коде;
+Добавлена адаптация для мода Fertile Fields и его русификатора, заодно исправлены их ошибки, см.каменты в коде;
 Добавлена адаптация для мода Utility Columns и его русификатора, заодно исправлены их ошибки, см.каменты в коде. По желанию, доступно исправление кривоватого баланса:
 - теперь защитная колонна заряжается химтопливом по аналогии со взрывчаткой из ванили;
 - колонна с большой солнечной лампой и подогревом перемещена во вкладку "Ферма" мода Fertile Fields.
 
-2021-08-31 добавлена адаптация для мода Mechalit Equipment + Faction, заодно исправлены его ошибки, см.каменты в коде.
+2021-08-31 добавлена адаптация для мода Mechalit Equipment + Faction, заодно исправлены его ошибки, см.каменты в коде;
 Добавлена адаптация для мода Mechalit Core, заодно исправлены его ошибки, см.каменты в коде.
 
 2021-08-14 добавлена адаптация и русская локализация для мода The Birds And The Bees, заодно исправлены его ошибки, см.каменты в коде.
 
 2021-08-11 добавлена адаптация для мода Pharmacist, заодно исправлены его ошибки, см.каменты в коде. 
 
-2021-08-10 Надо сообщить разработчикам avius.locks и Star.Translation.Locks о неточностях в описаниях. Пока это не сделано, исправления внесены здесь, см.каменты в коде.
-Добавлена адаптация для мода Numbers, заодно исправлены его ошибки, см.каменты в коде.
-Добавлена адаптация для мода Vanilla Furniture Expanded Props and Decor и его русификатора.
+2021-08-10 Надо сообщить разработчикам avius.locks и Star.Translation.Locks о неточностях в описаниях. Пока это не сделано, исправления внесены здесь, см.каменты в коде;
+Добавлена адаптация для мода Numbers, заодно исправлены его ошибки, см.каменты в коде;
+Добавлена адаптация для мода Vanilla Furniture Expanded Props and Decor и его русификатора;
 Добавлена адаптация для мода Vanilla Plants Expanded и его русификатора.
 
 2021-08-09 добавлена адаптация для мода Vanilla Books Expanded и его русификатора.
@@ -157,7 +158,7 @@ For English, scroll down.
 
 2021-08-01 добавлена адаптация для мода Alpha Animals и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 
-2021-07-22 добавлена адаптация для мода Genetic Rim, заодно исправлены его ошибки, см.каменты в коде.
+2021-07-22 добавлена адаптация для мода Genetic Rim, заодно исправлены его ошибки, см.каменты в коде;
 Добавлена адаптация для мода Vanilla Expanded Framework и его русификаторов, заодно исправлены их ошибки, см.каменты в коде.
 
 2021-07-19 добавлена адаптация для мода Vanilla Expanded Factions Insectoids и его русификатора, заодно исправлены их ошибки, см.каменты в коде. По желанию, доступны косметические исправления (подключена зависимость от мода Harmony):
@@ -176,7 +177,7 @@ For English, scroll down.
 
 2021-04-25 добавлена адаптация для мода Vanilla Expanded Furniture Power и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
 
-2021-04-20 добавлена адаптация для мода Vanilla Expanded Furniture Security и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
+2021-04-20 добавлена адаптация для мода Vanilla Expanded Furniture Security и его русификатора, заодно исправлены их ошибки, см.каменты в коде;
 По желанию, доступно перебалансирование самой явной имбы - автономный пулемёт теперь заправляется химтопливом, а стволы не изнашиваются.
 
 2021-04-19 добавлена адаптация для мода Vanilla Expanded Factions Settlers и его русификатора, заодно исправлены их ошибки, см.каменты в коде.
@@ -221,7 +222,8 @@ For English, scroll down.
 
 2020-09-23 отключено людоедство, в т.ч. для новых стандартных животных. Аналогично и для других разумных рас, поддерживаемых модом.
 
-2020-09-05 закончен апдейт до Римворлда 1.2 с Роялти. Поддержка версии 1.0 остановлена до востребования.
+2020-09-05 закончено обновление до Римворлда 1.2. Поддержка версии 1.0 остановлена до востребования;
+Добавлена адаптация для DLC Royalty
 
 2020-08-17 отключены трейты Asexual и Bisexual.
 
@@ -251,7 +253,9 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2022-nov-01 last game version update work started. Rus.Biotech.Nastia (non-vanilla translation) was prioritized. Support for following translations is paused until asked, because they are a bit worse:
+2022-nov-23 update to RW v.1.4. Support for RW v.1.3 was paused until asked;
+DLC Biotech adaptation added;
+Official Russian translation is not ready yet, so unofficial one was prioritized - Rus.Biotech.Nastia. Support for following translations was paused until asked, because they are a bit worse:
 RU.Ideology;
 Davyd.Translation.Ideology;
 Russifier.Ideology;
@@ -259,7 +263,7 @@ Rus.Biotech.IUGT;
 russian.biotech.rf;
 Rus.Biotech.Arkanam.
 Bugfix work is in process: there is a problem with site quests - sometimes the game can't load a map. Adapted mods are testing one by one; the whitelist is in "ModsConfig.xml" file.
-UncleShvya.12plus mod v.0.9.95pre-release compiled.
+UncleShvya.12plus mod v.0.9.96pre-release compiled.
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -351,7 +355,7 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 2022-feb-26 Haplo.Miscellaneous.Training mod adaptation work started - targets should be enlarged. But suddenly JGH.training mod detected, with much more pretty textures. Just added mod dependence.
 
 2022-feb-24 RainbeausFishing.ReworkMod mod adaptation and Russian translation added. Support for obsolete firefoxpdm.RainbeausFishing is stopped until asked. Optional balance change available:
-- restored deterioration influence for fish price. Why did Si-Cafe removed it?;
+- restored deterioration influence for fish price. Why did the author Si-Cafe remove it?
 - corrected sea cucumber recipe. The useful toxine is not in the meat but in inedible organs.
 
 2022-feb-15 UncleShvya.EdibleLeather mod adaptation added.
@@ -364,45 +368,45 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 
 2021-oct-10 DianaWinters.OrassansLite mod adaptation and russian translation added. Fixed cats' backstories red error. Suddenly cats' names' red error disappeared. For RW 1.3 fixed textures' red error.
 
-2021-oct-03 DLC Ideology and storyteller adaptation added.
+2021-oct-03 storyteller and DLC Ideology adaptation added.
 
 2021-sep-15 Dubwise.DubsBadHygiene mod adaptation added. Also corrected its mistakes, see code comments. Optional balance change available:
-- restored well contamination radius. Why did Dubwise removed it?
+- restored well contamination radius. Why did the author Dubwise remove it?
 
-2021-sep-11 update to RW v.1.3 with Royalty finished. Support for RimWorld v.1.2 was paused until asked.
-removed "Bloodlust" buff: after organ harvesting.
+2021-sep-11 update to RW v.1.3. Support for RW v.1.2 was paused until asked;
+Removed "Bloodlust" buff: after organ harvesting.
 
-2021-sep-10 maxzicode.zitools mod adaptation added.
+2021-sep-10 maxzicode.zitools mod adaptation added;
 Xavior.GliterTech mod adaptation added, for Russian translations by KappaKan and kr33man.
 
-2021-sep-07 SirKota.InventoryTab mod adaptation added.
+2021-sep-07 SirKota.InventoryTab mod adaptation added;
 Ykara.EPOE mod adaptation added. Also corrected translation mistakes, see code comments.
 
 2021-sep-04 rimsenal.feral mod adaptation added. Also corrected its mistakes, see code comments.
 
-2021-sep-03 rimsenal.EVP and Unknown.Perevod.rimsenal.EVP mods' adaptation added. Also corrected their mistakes, see code comments.
-rimsenal.security and Unknown.Perevod.rimsenal.security mods' adaptation added. Also corrected their mistakes, see code comments.
+2021-sep-03 rimsenal.EVP and Unknown.Perevod.rimsenal.EVP mods' adaptation added. Also corrected their mistakes, see code comments;
+rimsenal.security and Unknown.Perevod.rimsenal.security mods' adaptation added. Also corrected their mistakes, see code comments;
 rimsenal.core and Unknown.Perevod.rimsenal.core mods' adaptation added. Also corrected their mistakes, see code comments.
 
-2021-sep-02 notfood.Outfitted mod adaptation added.
+2021-sep-02 notfood.Outfitted mod adaptation added;
 K.PsiTech and RU.K.PsiTech mods' adaptation added. Also corrected their mistakes, see code comments.
 
-2021-sep-01 notfood.MendAndRecycle mod adaptation added. Also corrected its mistakes, see code comments.
-jamaicancastle.RF.fertilefields and VSK.Fertile.Fields.Rus mods' adaptation added. Also corrected their mistakes, see code comments.
+2021-sep-01 notfood.MendAndRecycle mod adaptation added. Also corrected its mistakes, see code comments;
+jamaicancastle.RF.fertilefields and VSK.Fertile.Fields.Rus mods' adaptation added. Also corrected their mistakes, see code comments;
 nephlite.orbitaltradecolumn and gaster.orbitaltradecolumn mods' adaptation added. Also corrected their mistakes, see code comments. Optional balance change available:
 - cluster column is now reloading with chemfuel, like vanilla explosives;
 - sun column moved to Farming tab added by jamaicancastle.RF.fertilefields mod;
 
-2021-aug-31 Mlie.MechalitEquipmentFaction mod adaptation added. Also corrected its mistakes, see code comments.
+2021-aug-31 Mlie.MechalitEquipmentFaction mod adaptation added. Also corrected its mistakes, see code comments;
 Mlie.MechalitCore mod adaptation added. Also corrected its mistakes, see code comments.
 
 2021-aug-14 fluffy.thebirdsandthebees mod adaptation and Russian translation added. Also corrected its mistakes, see code comments.
 
 2021-aug-11 fluffy.pharmacist mod adaptation added. Also corrected its mistakes, see code comments.
 
-2021-aug-10 It's better to tell the developers of avius.locks и Star.Translation.Locks about their mistakes. Until it done, the correcting file is placed here, see code comments.
-Mehni.Numbers mod adaptation added. Also corrected its mistakes, see code comments.
-VanillaExpanded.VFEPropsandDecor and Farxmai2.VFEPropsandDecorRU mods' adaptation added.
+2021-aug-10 It's better to tell the developers of avius.locks и Star.Translation.Locks about their mistakes. Until it done, the correcting file is placed here, see code comments;
+Mehni.Numbers mod adaptation added. Also corrected its mistakes, see code comments;
+VanillaExpanded.VFEPropsandDecor and Farxmai2.VFEPropsandDecorRU mods' adaptation added;
 VanillaExpanded.VPlantsE and RU.VanillaExpanded.VPlantsE mods' adaptation added.
 
 2021-aug-09 VanillaExpanded.VBooksE and RU.VanillaExpanded.VBooksE mods' adaptation added.
@@ -413,7 +417,7 @@ VanillaExpanded.VPlantsE and RU.VanillaExpanded.VPlantsE mods' adaptation added.
 
 2021-aug-01 sarg.alphaanimals and PiaRex.AlphaAnimalsTranslationRus mods' adaptation added. Also corrected their mistakes, see code comments.
 
-2021-jul-22 sarg.geneticrim mod adaptation added.
+2021-jul-22 sarg.geneticrim mod adaptation added;
 OskarPotocki.VanillaFactionsExpanded.Core and RU.VanillaFactionsExpanded.Core mods' adaptation added. Also corrected their mistakes, see code comments.
 
 2021-jul-19 OskarPotocki.VFE.Insectoid and RU.VFE.Insectoid mods' adaptation added. Also corrected their mistakes, see code comments. Optional cosmetic fixes available (brrainz.harmony mod dependence added):
@@ -432,7 +436,7 @@ OskarPotocki.VanillaFactionsExpanded.Core and RU.VanillaFactionsExpanded.Core mo
 
 2021-apr-25 VanillaExpanded.VFEPower and Inoshishi3.VanillaExpanded.VFEPowerRusPatch mods' adaptation added. Also corrected their mistakes, see code comments.
 
-2021-apr-20 VanillaExpanded.VFESecurity and Am.Rus.VFESecurity mods' adaptation added. Also corrected their mistakes, see code comments.
+2021-apr-20 VanillaExpanded.VFESecurity and Am.Rus.VFESecurity mods' adaptation added. Also corrected their mistakes, see code comments;
 Had to rebalance the most rebarbative developers' mistake - now sentry gun needs chemfuel to work, but doesn't need barrel change.
 
 2021-apr-19 OskarPotocki.VanillaFactionsExpanded.SettlersModule and Inoshishi3.VanillaFactionsExpanded.SettlersModuleRusPatch mods' adaptation added. Also corrected their mistakes, see code comments.
@@ -477,9 +481,10 @@ Had to rebalance the most rebarbative developers' mistake - now sentry gun needs
 
 2020-sep-23 removed man-eating, also for new standart animals. And for every supported race.
 
-2020-sep-05 update to RW v.1.2 with Royalty finished. Support for RimWorld v.1.0 was paused until asked.
+2020-sep-05 update to RW v.1.2. Support for RimWorld v.1.0 was paused until asked;
+DLC Royalty adaptation added.
 
-2020-aug-17 "Asexual" and "Bisexual" traits turned off.
+2020-aug-17 "Asexual" and "Bisexual" traits removed.
 
 2020-aug-09 hardcode bug detected in RW v.1.0. Cause - hidden "Bisexual" trait. Mod updating to RW v.1.2 began. Thanks to player leon_111 for inspiration.
 
