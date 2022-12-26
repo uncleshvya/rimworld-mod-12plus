@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Оригинал: с маленькой буквы -->
+	<AttendedSpeech.comps.0.label>Социальное влияние {PAWN_labelShort}</AttendedSpeech.comps.0.label>
+
+</LanguageData>
