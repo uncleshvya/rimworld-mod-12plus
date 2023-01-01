@@ -78,87 +78,11 @@
 				defName = "Base_Empire_Standard" or
 				defName = "Empire_Caravan_TraderGeneral" or
 				defName = "Orbital_Empire"
-				]/stockGenerators/li[thingDef = "Genepack"]</xpath>
+				]/stockGenerators/li[thingDef="Genepack"]</xpath>
 			</li>
-			<!-- Далее - код исправления красных ошибок в версии 3537. -->
+			<!-- Убираем возможность появления детей в капсулах. -->
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[
-				defName = "DeathrestCasket" or
-				defName = "Hemopump" or
-				defName = "HemogenAmplifier" or
-				defName = "GlucosoidPump" or
-				defName = "PsychofluidPump" or
-				defName = "DeathrestAccelerator"
-				]/comps/li[@Class = "CompProperties_DeathrestBindable"]/powerUsageDeathresting</xpath>
-			</li>
-			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[
-				defName = "DeathrestCasket" or
-				defName = "Hemopump" or
-				defName = "HemogenAmplifier" or
-				defName = "GlucosoidPump" or
-				defName = "PsychofluidPump" or
-				defName = "DeathrestAccelerator"
-				]/comps/li[@Class = "CompProperties_DeathrestBindable"]/powerUsageNotDeathresting</xpath>
-			</li>
-			<!-- Восстанавливаем баланс после чистки глючного кода. -->
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[
-				defName = "DeathrestCasket" or
-				@Name = "DeathrestBuildingBase"
-				]/comps/li[@Class = "CompProperties_Power"]/basePowerConsumption/text()</xpath>
-				<value>100</value>
-			</li>
-			<!-- У ускорителя не получается изящно исправить энергопотребление. Прописываем заново. -->
-			<li Class="PatchOperationAttributeSet">
-				<xpath>Defs/ThingDef[defName = "DeathrestAccelerator"]</xpath>
-				<attribute>ParentName</attribute>
-				<value>BuildingBase</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "DeathrestAccelerator"]/comps</xpath>
-				<value>
-					<li Class="CompProperties_Power">
-						<compClass>CompPowerTrader</compClass>
-						<basePowerConsumption>800</basePowerConsumption>
-						<alwaysDisplayAsUsingPower>true</alwaysDisplayAsUsingPower>
-					</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "DeathrestAccelerator"]</xpath>
-				<value>
-					<fillPercent>0.4</fillPercent>
-					<pathCost>42</pathCost>
-					<tickerType>Normal</tickerType>
-					<canOverlapZones>false</canOverlapZones>
-					<passability>PassThroughOnly</passability>
-					<designationCategory>Biotech</designationCategory>
-					<altitudeLayer>Building</altitudeLayer>
-					<uiOrder>2000</uiOrder>
-					<drawerType>MapMeshAndRealTime</drawerType>
-					<minifiedDef>MinifiedThing</minifiedDef>
-					<thingCategories Inherit="False">
-						<li>BuildingsMisc</li>
-					</thingCategories>
-					<researchPrerequisites>
-						<li>Deathrest</li>
-					</researchPrerequisites>
-					<descriptionHyperlinks>
-						<ThingDef>DeathrestCasket</ThingDef>
-					</descriptionHyperlinks>
-					<building>
-						<relatedBuildCommands>
-							<li>DeathrestCasket</li>
-						</relatedBuildCommands>
-						<buildingTags>
-							<li>Biotech</li>
-						</buildingTags>
-					</building>
-					<placeWorkers>
-						<li>PlaceWorker_DrawLinesToDeathrestCaskets</li>
-					</placeWorkers>
-				</value>
+				<xpath>Defs/IncidentDef[defName = "RefugeePodCrash_Baby"]</xpath>
 			</li>
 
 		</operations>
