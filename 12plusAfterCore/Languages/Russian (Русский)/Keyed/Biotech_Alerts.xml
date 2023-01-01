@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
@@ -19,6 +19,6 @@
 	<!-- Оригинал: смертосон завершён -->
 	<AlertDeathrestComplete>торпор завершён</AlertDeathrestComplete>
 	<!-- Оригинал: ...свой смертосон и могут... -->
-	<AlertDeathrestCompleteDesc>Эти люди завершили свой торпор и могут быть спокойно разбужены без каких-либо побочных эффектов:</AlertDeathrestCompleteDesc>
+	<AlertDeathrestCompleteDesc>Следующие люди закончили свой торпор и могут безопасно проснуться</AlertDeathrestCompleteDesc>
 
 </LanguageData>
