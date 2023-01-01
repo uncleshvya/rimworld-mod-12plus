@@ -3,7 +3,9 @@
 
 	<!-- Исправлена неточность, сообщите разработчику ванили.
 
-	Связано с AlertGauranlenTreeWithoutDryadTypeDesc.
+	Оригинал: Свидание -->
+	<Date>Дата</Date>
+	<!-- Связано с AlertGauranlenTreeWithoutDryadTypeDesc.
 	Оригинал: Выберите касту... -->
 	<ChangeMode>Выбрать касту дриад</ChangeMode>
 
