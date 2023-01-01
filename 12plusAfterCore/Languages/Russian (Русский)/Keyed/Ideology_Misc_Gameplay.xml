@@ -5,6 +5,10 @@
 
 	Оригинал: ...ритуал {0} прошёл {1} -->
 	<RitualAttachedOutcomesInfo>Если ритуал «{0}» пройдёт {1}</RitualAttachedOutcomesInfo>
+	<!-- Оригинал: Мы {0} -->
+	<MemeGoodwillImpact_Player>Мы исповедуем {0}</MemeGoodwillImpact_Player>
+	<!-- Оригинал: Они {0} -->
+	<MemeGoodwillImpact_Other>Они исповедуют {0}</MemeGoodwillImpact_Other>
 
 	<!-- Исправление согласно концепции «12+».
 
