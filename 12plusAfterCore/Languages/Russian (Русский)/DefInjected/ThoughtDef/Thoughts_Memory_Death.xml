@@ -24,6 +24,9 @@
 	Одна операция - один орган.
 	Оригинал: Наш поселенец умер из-за того, что мы удалили его жизненно важные органы. Это... -->
 	<KnowColonistExecuted.stages.colonist_organharvested.description>Мы потеряли поселенца из-за того, что у него удалили жизненно важный орган. Это просто ужасно!</KnowColonistExecuted.stages.colonist_organharvested.description>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Оригинал: пленник или гость разобран на органы -->
+	<KnowGuestExecuted.stages.someone_was_organmurdered.label>у нас пропадают посетители</KnowGuestExecuted.stages.someone_was_organmurdered.label>
 	<!-- Оригинал: Наш пленник или гость умер из-за того, что мы удалили его жизненно важные органы. Это... -->
 	<KnowGuestExecuted.stages.someone_was_organmurdered.description>Мы потеряли посетителя из-за того, что у него удалили жизненно важный орган. Это просто ужасно!</KnowGuestExecuted.stages.someone_was_organmurdered.description>
 	<!-- Оригинал: умер пленник -->
