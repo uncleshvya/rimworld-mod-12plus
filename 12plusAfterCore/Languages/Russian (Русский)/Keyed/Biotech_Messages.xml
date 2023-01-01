@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
@@ -10,13 +10,13 @@
 	<MessagePlantDiedOfNoPollution>{0} пострадал из-за отсутствия загрязнения.</MessagePlantDiedOfNoPollution>
 	<!-- Оригинал: ...от смертосна. -->
 	<MessageDeathrestingPawnCanWakeSafely>{PAWN_nameDef} теперь может безопасно пробудиться от торпора.</MessageDeathrestingPawnCanWakeSafely>
-	<!-- Оригинал: ...{PAWN_nameDef} к смертосну увеличилась... -->
-	<MessageDeathrestCapacityChanged>Способность {PAWN_nameDef} к торпору увеличилась с {OLD} до {NEW}.</MessageDeathrestCapacityChanged>
+	<!-- Оригинал: Смертосонная вместимость... -->
+	<MessageDeathrestCapacityChanged>Торпорная вместимость {PAWN_nameDef} увеличилась с {OLD} до {NEW}.</MessageDeathrestCapacityChanged>
 	<!-- Оригинал: ...от смертосна из... -->
 	<MessagePawnWokenFromSunlight>{PAWN_nameDef} пробудился от торпора из-за солнечного света.</MessagePawnWokenFromSunlight>
 	<!-- Оригинал: ...воскрешать высохшие трупы. -->
 	<MessageCannotResurrectDessicatedCorpse>Нельзя воскрешать скелеты.</MessageCannotResurrectDessicatedCorpse>
-	<!-- Оригинал: Строение "{BUILDING_labelShort}" было...(использовано {CUR}/{MAX} емкости смертосна). -->
-	<MessageDeathrestBuildingBound>Строение «{BUILDING_labelShort}» было привязано к {PAWN_nameDef} (использовано {CUR}/{MAX} ёмкости торпора).</MessageDeathrestBuildingBound>
+	<!-- Оригинал: Строение "{BUILDING_labelShort}" было...(использовано {CUR}/{MAX} смертосонной вместимости). -->
+	<MessageDeathrestBuildingBound>Строение «{BUILDING_labelShort}» было привязано к {PAWN_nameDef} (использовано {CUR}/{MAX} торпорной вместимости).</MessageDeathrestBuildingBound>
 
 </LanguageData>
