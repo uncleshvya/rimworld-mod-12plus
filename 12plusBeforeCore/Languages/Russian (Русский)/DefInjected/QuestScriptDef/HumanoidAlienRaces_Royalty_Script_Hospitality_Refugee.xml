@@ -114,9 +114,14 @@
     <li>lodgersLabelPluralAcc->беженцев</li>
   </Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>
 
-	<!-- Оригинал:
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили. Обойдён баг движка, дающий частичную голубую подсветку слов на букву "с" или "ч" после цифры.
+	Оригинал:
 	...
-	<li>...можете убить, арестовать, продать в рабство или пустить [lodgersPossessive] на органы без каких...</li>
+	<li>...стороне.\n\n[joinInfo] [lodgersPronoun] так же [can] вознаградить...Если вы хотите, вы можете убить, арестовать, продать в рабство или пустить [lodgersPossessive] на органы без каких...</li>
+	...
+	<li>...количестве [lodgerCount] человек...</li>
+	<li>...количестве [lodgerCount] человек...</li>
+	<li>...количестве [lodgerCount] человек...</li>
 	...
 	-->
   <Hospitality_Refugee.questDescriptionRules.rulesStrings>
@@ -132,7 +137,7 @@
     <li>lodgersPossessive(lodgerCount>=2)->их</li>
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
     <li>lodgersSingularOrPluralDef(lodgerCount>=2)->[lodgersLabelPlural]</li>
-	<li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] умоляет вас разрешить [lodgersObjective] остаться в [map_definite] на [questDurationTicks_duration], чтобы [lodgersPronoun] [could] отдохнуть и собраться в дальнейший путь.\n\nВзамен [lodgersPronoun] [offer] помогать вашим поселенцам и сражаться на вашей стороне.\n\n[joinInfo] [lodgersPronoun] так же [can] вознаградить вас за помощь в будущем, но никто не знает, какие у н[lodgersPossessive] истинные намерения.\n\n[travelerInfo] к какой-либо фракции. Если вы хотите, вы можете избить, арестовать или продать [lodgersPossessive] в рабство без каких-либо дипломатических последствий.</li>
+	<li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] умоляет вас разрешить [lodgersObjective] остаться в [map_definite] на [questDurationTicks_duration], чтобы [lodgersPronoun] [could] отдохнуть и собраться в дальнейший путь.\n\nВзамен [lodgersPronoun] [offer] помогать вашим поселенцам и сражаться на вашей стороне.\n\n[joinInfo] [lodgersPronoun] также [can] вознаградить вас за помощь в будущем, но никто не знает, какие у н[lodgersPossessive] истинные намерения.\n\n[travelerInfo] к какой-либо фракции. Если хотите, вы можете избить, арестовать или продать [lodgersPossessive] в рабство без каких-либо дипломатических последствий.</li>
     <li>could(lodgerCount==1,lodgers0_gender==Male)->мог</li>
     <li>could(lodgerCount==1,lodgers0_gender==Female)->могла</li>
     <li>could(lodgerCount>=2)->могли</li>
@@ -141,9 +146,9 @@
     <li>approachInfo(lodgerCount==1)->Приближается отчаянный [faction_pawnSingular] по имени [asker_nameDef].</li>
     <li>approachInfo(lodgerCount==2)->Приближаются [asker_nameDef] и ещё один отчаянный [faction_pawnSingular].</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->Приближается [asker_nameDef] с ребёнком.</li>
-    <li>approachInfo(lodgerCount>=3)->Приближаются отчаянные [faction_pawnsPlural] в количестве [lodgerCount] человек. Их ведёт [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->Приближаются отчаянные [faction_pawnsPlural] с ребёнком, в количестве [lodgerCount] человек. Их ведёт [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->Приближаются отчаянные [faction_pawnsPlural] с детьми, в количестве [lodgerCount] человек. Их ведёт [asker_nameDef].</li>
+	<li>approachInfo(lodgerCount>=3)->Приближаются отчаянные [faction_pawnsPlural] в количестве [lodgerCount] человек. Их ведёт [asker_nameDef].</li>
+	<li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->Приближаются отчаянные [faction_pawnsPlural] с ребёнком, в количестве [lodgerCount] человек. Их ведёт [asker_nameDef].</li>
+	<li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->Приближаются отчаянные [faction_pawnsPlural] с детьми, в количестве [lodgerCount] человек. Их ведёт [asker_nameDef].</li>
     <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->Приближаются отчаянные [faction_pawnsPlural]: [asker_nameDef] и [lodgersCountMinusOne] детей, которых [asker_pronoun] [taken] под своё крыло.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] утверждает, что [hasLost] своего дома после недавнего нападения.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] говорит, что проснувшись от криптосна, [appearedAlone].</li>
