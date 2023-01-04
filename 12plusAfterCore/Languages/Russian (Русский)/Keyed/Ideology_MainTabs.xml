@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Связано с Date, при праздновании в определённый день.
+	Оригинал: Дата -->
+	<StartingCondition_Date>В конкретную дату</StartingCondition_Date>
+
+</LanguageData>
