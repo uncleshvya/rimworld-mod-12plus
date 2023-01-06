@@ -1,8 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<!-- добавлена недостающая строка русской локализации, сообщите разработчику -->
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику ванили.
 
+	EN: Toggle режим дня tab -->
+	<MainTab_Schedule.label>показать/скрыть вкладку «Режим дня»</MainTab_Schedule.label>
 	<!-- EN: Toggle задания tab -->
 	<MainTab_Quests.label>показать/скрыть вкладку «Задания»</MainTab_Quests.label>
 
