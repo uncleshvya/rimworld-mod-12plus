@@ -2,8 +2,8 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2023-01-02 убрано событие "крушение капсулы с ребёнком";
-Идёт работа по исправлению трудноуловимого бага - иногда не загружается карта квестов с сайтами, типа "лесозаготовочный лагерь" или "набожная деревня". Ведётся отсев модов; список уже проверенных - в файле ModsConfig.xml в корне репозитория.
+2023-01-06 обновление до свежей версии русской локализации. Так как у официалов перевод ещё не закончен, обработаны 7 неофициальных переводов. Приоритет смещён на оный от автора Sestrenka, как более качественный. Поддержка переводов от LeveFUN, Davyd, Romanin, Arkanam и IIU остановлена до востребования;
+Идёт работа по исправлению трудноуловимого бага - иногда не загружается карта квестов с сайтами, типа "лесозаготовочный лагерь" или "набожная деревня". Ведётся отсев модов, список уже проверенных - в файле ModsConfig.xml в корне репозитория;
 Скомпилирована версия 12+мода 0.9.97pre-release;
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowDeadAnimals_";
@@ -69,8 +69,10 @@ For English, scroll down.
 "VGPtools_";
 "ZiTools_".
 
-2022-11-23 обновление до Римворлда 1.4 с официальным переводом. Поддержка версии 1.3 остановлена до востребования;
-Добавлена адаптация для DLC Biotech. Так как у официалов перевод ещё не закончен, обработаны 7 неофициальных переводов. Приоритет смещён на оный от автора Sestrenka, как более качественный. Поддержка переводов от LeveFUN, Davyd, Romanin, Arkanam и IIU остановлена до востребования.
+2023-01-02 убрано событие "крушение капсулы с ребёнком".
+
+2022-11-23 обновление до Римворлда 1.4. Поддержка версии 1.3 остановлена до востребования;
+Добавлена адаптация для DLC Biotech.
 
 2022-09-14 добавлена адаптация для мода Hospitality.
 
@@ -255,9 +257,15 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2023-jan-02 removed incident "pod crash with baby";
-Bugfix work is in process: there is a problem with site quests - sometimes the game can't load a map. Adapted mods are testing one by one; the whitelist is in "ModsConfig.xml" file.
-UncleShvya.12plus mod v.0.9.97pre-release compiled.
+2023-jan-06 update to actual Russian localization. Official Russian translation is not ready yet, so unofficial one was prioritized - Rus.Biotech.Nastia. Support for following translations was paused until asked, because they are a bit worse:
+RU.Ideology;
+Davyd.Translation.Ideology;
+Russifier.Ideology;
+Rus.Biotech.IUGT;
+russian.biotech.rf;
+Rus.Biotech.Arkanam;
+Bugfix work is in process: there is a problem with site quests - sometimes the game can't load a map. Adapted mods are testing one by one; the whitelist is in "ModsConfig.xml" file;
+UncleShvya.12plus mod v.0.9.97pre-release compiled;
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -322,15 +330,10 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "VGPtools_";
 "ZiTools_".
 
+2023-jan-02 removed incident "pod crash with baby".
+
 2022-nov-23 update to RW v.1.4. Support for RW v.1.3 was paused until asked;
-DLC Biotech adaptation added;
-Official Russian translation is not ready yet, so unofficial one was prioritized - Rus.Biotech.Nastia. Support for following translations was paused until asked, because they are a bit worse:
-RU.Ideology;
-Davyd.Translation.Ideology;
-Russifier.Ideology;
-Rus.Biotech.IUGT;
-russian.biotech.rf;
-Rus.Biotech.Arkanam.
+DLC Biotech adaptation added.
 
 2022-sep-14 Orion.Hospitality mod adaptation added.
 
