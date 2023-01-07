@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Оригинал: снести двери -->
+	<DemolishDoors.label>урон дверям</DemolishDoors.label>
+
+</LanguageData>
