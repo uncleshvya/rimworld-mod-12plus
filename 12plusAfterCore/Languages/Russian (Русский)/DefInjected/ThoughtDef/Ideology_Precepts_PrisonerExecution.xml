@@ -35,8 +35,8 @@
 	<ExecutedPrisonerGuilty_Know_Respected_Mood.stages.guilty_prisoner_executed.description>Мы казнили преступника, что ждал приговора в нашей тюрьме. Справедливость восторжествовала!</ExecutedPrisonerGuilty_Know_Respected_Mood.stages.guilty_prisoner_executed.description>
 	<!-- Оригинал: {PAWN_gender ? Казнил : Казнила} виновного пленника -->
 	<ExecutedPrisonerGuilty_Respected.stages.executed_guilty_prisoner.label>в ответе за казнь преступника из тюрьмы</ExecutedPrisonerGuilty_Respected.stages.executed_guilty_prisoner.label>
-	<!-- Оригинал: {PAWN_gender ? казнил : казнила} виновного пленника -->
-	<ExecutedPrisonerGuilty_Know_Respected.stages.executed_guilty_prisoner.labelSocial>{PAWN_gender ? Казнил : Казнила} преступника из тюрьмы</ExecutedPrisonerGuilty_Know_Respected.stages.executed_guilty_prisoner.labelSocial>
+	<!-- Оригинал: {OTHERPAWN_gender ? казнил : казнила} виновного пленника -->
+	<ExecutedPrisonerGuilty_Know_Respected.stages.executed_guilty_prisoner.labelSocial>{OTHERPAWN_gender ? Казнил : Казнила} преступника из тюрьмы</ExecutedPrisonerGuilty_Know_Respected.stages.executed_guilty_prisoner.labelSocial>
 	<!-- Оригинал: Я казнил виновного пленника. Справедливость... -->
 	<ExecutedPrisonerGuilty_Respected.stages.executed_guilty_prisoner.description>Я {PAWN_gender ? казнил : казнила} преступника из нашей тюрьмы. Справедливость восторжествовала!</ExecutedPrisonerGuilty_Respected.stages.executed_guilty_prisoner.description>
 	<!-- Оригинал: {PAWN_gender ? Казнил : Казнила} невиновного... -->
