@@ -1,10 +1,54 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Оригинал: Когда {BABY_labelShort} контактирует с последователями...определённой идеолигии, {BABY_pronoun} с большей...этой идеологии, когда {BABY_objective} исполнится {CHILDAGE}. -->
+	<IdeoExposurePointsTooltipJoinDescription>Если {BABY_labelShort} будет контактировать с последователями определённой идеолигии, то с большей вероятностью присоединится к этой идеолигии, когда достигнет возраста {CHILDAGE}.</IdeoExposurePointsTooltipJoinDescription>
+	<!-- Оригинал: ...Различные активности с ребёнком...добавлять {BABY_labelShort} очки...той идеологии, к которой... -->
+	<IdeoExposurePointsTooltipExposureDescription>Влияние идеолигии измеряется очками влияния. Различные действия с ребёнком, такие как кормление грудью, укачивание или игра, будут добавлять малышу очки влияния той идеолигии, к которой принадлежит взрослый.</IdeoExposurePointsTooltipExposureDescription>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициального перевода от Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
-	Оригинал: ...что [0_pronoun] асексуал. -->
-	<CantRomanceInitiateMessageAsexual>{0_labelShort} не может ни за кем ухаживать, потому что {0_pronoun} одиночка.</CantRomanceInitiateMessageAsexual>
+	Оригинал: Флиртовать -->
+	<TryRomanceButtonLabel>Отношения</TryRomanceButtonLabel>
+	<!-- Оригинал: ...бы флиртовать. -->
+	<TryRomanceNoOptsMessage>Нет никого, с кем {0_labelShort} {0_gender ? мог : могла} бы завести новые отношения.</TryRomanceNoOptsMessage>
+	<!-- Связано с TryRomanceButtonLabel.
+	Оригинал: плохие отношения -->
+	<CantRomanceTargetOpinion>плохое мнение</CantRomanceTargetOpinion>
+	<!-- Оригинал: неподходящая ориентация -->
+	<CantRomanceTargetSexuality>не тот пол</CantRomanceTargetSexuality>
+	<!-- Оригинал: ...может флиртовать, так... -->
+	<CantRomanceInitiateMessagePrisoner>{0_labelShort} не может завести новые отношения, так как {0_pronoun} в плену.</CantRomanceInitiateMessagePrisoner>
+	<!-- Оригинал: ...может флиртовать, так... -->
+	<CantRomanceInitiateMessageSlave>{0_labelShort} не может завести новые отношения, так как {0_pronoun} в рабстве.</CantRomanceInitiateMessageSlave>
+	<!-- Оригинал: ...может флиртовать, так как {0_pronoun} {0_gender ? асексуален : асексуальна}. -->
+	<CantRomanceInitiateMessageAsexual>{0_labelShort} не может завести новые отношения, так как {0_pronoun} — одиночка.</CantRomanceInitiateMessageAsexual>
+	<!-- Оригинал: ...может флиртовать, так... -->
+	<CantRomanceInitiateMessageDowned>{0_labelShort} не может завести новые отношения, так как {0_pronoun} {0_gender ? обездвижен : обездвижена}.</CantRomanceInitiateMessageDowned>
+	<!-- Оригинал: ...может флиртовать, так... -->
+	<CantRomanceInitiateMessageDrafted>{0_labelShort} не может завести новые отношения, так как {0_pronoun} находится в режиме призыва.</CantRomanceInitiateMessageDrafted>
+	<!-- Оригинал: ...может флиртовать, так... -->
+	<CantRomanceInitiateMessageMentalState>{0_labelShort} не может завести новые отношения, так как {0_pronoun} в состоянии нервного срыва.</CantRomanceInitiateMessageMentalState>
+	<!-- Оригинал: ...может флиртовать, так... -->
+	<CantRomanceInitiateMessageTalk>{0_labelShort} не может завести новые отношения, так как {0_pronoun} не может говорить.</CantRomanceInitiateMessageTalk>
+	<!-- Оригинал: ...{0_gender ? пытался : пыталась} флиртовать, и нужно... -->
+	<CantRomanceInitiateMessageCooldown>{0_labelShort} недавно уже {0_gender ? пытался : пыталась} завести новые отношения, и нужно подождать {1}.</CantRomanceInitiateMessageCooldown>
+	<!-- Оригинал: ...{0_labelShort} флиртовать с {1_labelShort}... -->
+	<TryRomanceFailedMessage>Попытка {0_labelShort} завести новые отношения с {1_labelShort} была неудачной.</TryRomanceFailedMessage>
+	<!-- Оригинал: ...{INITIATOR_nameDef} флиртовать с {TARGET_nameDef}...разрыву отношений. -->
+	<RomanceExistingRelationshipWarning>Попытка {INITIATOR_nameDef} завести новый роман с {TARGET_nameDef} может вызвать негодование текущего партнёра, привести к ссорам и разрыву уже имеющихся отношений.</RomanceExistingRelationshipWarning>
+	<!-- Оригинал: Не может флиртовать -->
+	<RomanceChanceCant>Не получится завести новые отношения</RomanceChanceCant>
+	<!-- Связано с TryRomanceButtonLabel, отображается при наведении на цифры во вкладке "Социум".
+	Заодно исправлена неточность, сообщите разработчику ванили - можно конкретизировать, чьи отношения влияют.
+	Оригинал: Отношение -->
+	<RomanceChanceOpinionFactor>Мнение цели</RomanceChanceOpinionFactor>
+	<!-- Связано с TryRomanceButtonLabel.
+	Оригинал: Отношение к тек. партнёру -->
+	<RomanceChancePartnerFactor>Мнение о текущем партнёре</RomanceChancePartnerFactor>
+	<!-- Оригинал: ...{0_gender ? смог : смогла} флиртовать с {1_labelShort} -->
+	<RomanceFailedUnexpected>{0_labelShort} не {0_gender ? смог : смогла} завести новые отношения с {1_labelShort}</RomanceFailedUnexpected>
 
 </LanguageData>
