@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Оригинал: {PAWN_gender ? выпил : выпила} гемоген (пробел) -->
+	<IngestedHemogenPack.stages.ingested_hemogen_pack.label>{PAWN_gender ? Выпил : Выпила} гемоген</IngestedHemogenPack.stages.ingested_hemogen_pack.label>
+
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициального перевода от Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
-	Оригинал: проглотил пакет... -->
-	<IngestedHemogenPack.stages.ingested_hemogen_pack.label>{PAWN_gender ? Съел : Съела} пакет гемогена</IngestedHemogenPack.stages.ingested_hemogen_pack.label>
-	<!-- Оригинал: Я проглотил пакет с гемогеном. Это помогло сохранить мне жизнь, но было абсолютно отвратительно. -->
-	<IngestedHemogenPack.stages.ingested_hemogen_pack.description>Я {PAWN_gender ? проглотил : проглотила} гемоген, как какой-то кровопийца, вместо того чтобы поставить капельницу. Это было абсолютно бесполезно, расточительно, да ещё и отвратительно на вкус.</IngestedHemogenPack.stages.ingested_hemogen_pack.description>
-	<!-- Оригинал: Я потерял(а) своего ребенка. -->
+	Питательность отключена патчем.
+	Оригинал: Мне пришлось выпить пакет гемогена. Это может сохранить мне жизнь, но это было абсолютно отвратительно. -->
+	<IngestedHemogenPack.stages.ingested_hemogen_pack.description>Мне пришлось выпить пакет гемогена, вместо того чтобы поставить капельницу. Это было абсолютно бесполезно, расточительно, да ещё и отвратительно на вкус.</IngestedHemogenPack.stages.ingested_hemogen_pack.description>
+	<!-- Оригинал: Я потеряла своего ребёнка. -->
 	<Miscarried.stages.miscarried.description>Мы не смогли вырастить эмбрион и превратить его в ребёнка.</Miscarried.stages.miscarried.description>
-	<!-- Оригинал: мертворождение -->
+	<!-- Оригинал: мёртворождение -->
 	<Stillbirth.stages.stillbirth.label>выкидыш</Stillbirth.stages.stillbirth.label>
-	<!-- Оригинал: Мой ребенок умер во время родов. -->
+	<!-- Оригинал: Мой рёбенок умер во время родов. -->
 	<Stillbirth.stages.stillbirth.description>Мой ребёнок так и не смог сформироваться из эмбриона. А узнать об этом удалось только во время родов.</Stillbirth.stages.stillbirth.description>
 
 </LanguageData>
