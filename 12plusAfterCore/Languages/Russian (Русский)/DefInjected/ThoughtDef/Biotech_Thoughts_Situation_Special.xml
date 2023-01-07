@@ -1,56 +1,91 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Оригинал: ...Красиво! Ву-хуу! -->
+	<ChildlikePositivity.stages.childlike_joy.description>Весело! Красиво! Клёво!</ChildlikePositivity.stages.childlike_joy.description>
+	<!-- Оригинал: без неразрывного пробела. -->
+	<ChildlikePositivity.stages.childlike_wonder.description>Наш мир — волшебное место. Жду не дождусь, когда вырасту!</ChildlikePositivity.stages.childlike_wonder.description>
+	<!-- Оригинал: ...{CHEMICAL_possessive} его {PAWN_gender ? принимал : принимала}. -->
+	<GeneticChemicalDependency.stages.genetic_chemical_dependency.description>Мне жизненно {CHEMICAL_gender ? необходим : необходима : необходимо} {CHEMICAL_label} из-за моей генетической зависимости. Прошло очень много времени с тех пор, как я {CHEMICAL_possessive} {PAWN_gender ? принимал : принимала}.</GeneticChemicalDependency.stages.genetic_chemical_dependency.description>
+	<!-- Оригинал: гемогенное голодание -->
+	<HemogenCraving.stages.hemogen_craving-0.label>гемогеновое голодание</HemogenCraving.stages.hemogen_craving-0.label>
+	<!-- Оригинал: ...беременность меня доканает, моё... -->
+	<PregnancyMood_Collapse.stages.pregnancy_mood_collapse.description>Эта беременность меня доконает, моё тело меня не слушается, я чувствую себя ужасно. Это так выматывает!</PregnancyMood_Collapse.stages.pregnancy_mood_collapse.description>
+	<!-- Оригиналы: без неразрывных пробелов. -->
+	<PregnancyMood_Down.stages.pregnancy_mood_down.description>Сегодня всё идет не так, всё раздражает. Беременность — не сахар.</PregnancyMood_Down.stages.pregnancy_mood_down.description>
+	<PregnancyMood_High.stages.pregnancy_mood_high.description>Чувствую себя превосходно. Быть беременной — великолепно!</PregnancyMood_High.stages.pregnancy_mood_high.description>
+	<PregnancyMood_Up.stages.pregnancy_mood_up.description>Сегодня все идёт хорошо, быть беременной — не так уж и плохо!</PregnancyMood_Up.stages.pregnancy_mood_up.description>
+	<Recluse.stages.recluse_very_crowded.description>Куда ни глянь — везде люди. Они повсюду!</Recluse.stages.recluse_very_crowded.description>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициального перевода от Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
-	Оригинал: смертосон проведён... -->
-	<DeathrestChamber.stages.deathrested_outside.label>торпор проведён на улице</DeathrestChamber.stages.deathrested_outside.label>
-	<!-- Оригинал: ...комната смертосна -->
-	<DeathrestChamber.stages.awful_deathrest_chamber.label>ужасная комната торпора</DeathrestChamber.stages.awful_deathrest_chamber.label>
-	<!-- Оригинал: ...свой смертосон в ужасной... -->
-	<DeathrestChamber.stages.awful_deathrest_chamber.description>Мне пришлось провести свой торпор в ужасной комнате.</DeathrestChamber.stages.awful_deathrest_chamber.description>
-	<!-- Оригинал: ...комната смертосна -->
-	<DeathrestChamber.stages.decent_deathrest_chamber.label>неплохая комната торпора</DeathrestChamber.stages.decent_deathrest_chamber.label>
-	<!-- Оригинал: Я провел свой смертосон в неплохой... -->
-	<DeathrestChamber.stages.decent_deathrest_chamber.description>Я провёл свой торпор в неплохой комнате.</DeathrestChamber.stages.decent_deathrest_chamber.description>
-	<!-- Оригинал: ...комната смертосна -->
-	<DeathrestChamber.stages.good_deathrest_chamber.label>хорошая комната торпора</DeathrestChamber.stages.good_deathrest_chamber.label>
-	<!-- Оригинал: ...свой смертосон в довольно... -->
-	<DeathrestChamber.stages.good_deathrest_chamber.description>Я провёл свой торпор в довольно хорошей комнате. Это было замечательно.</DeathrestChamber.stages.good_deathrest_chamber.description>
-	<!-- Оригинал: ...комната смертосна -->
-	<DeathrestChamber.stages.great_deathrest_chamber.label>великолепная комната торпора</DeathrestChamber.stages.great_deathrest_chamber.label>
-	<!-- Оригинал: Я провел свой смертосон великолепной... -->
-	<DeathrestChamber.stages.great_deathrest_chamber.description>Я провёл свой торпор великолепной комнате. Я чувствую себя лучше.</DeathrestChamber.stages.great_deathrest_chamber.description>
-	<!-- Оригинал: ...комната смертосна -->
-	<DeathrestChamber.stages.excellent_deathrest_chamber.label>превосходная комната торпора</DeathrestChamber.stages.excellent_deathrest_chamber.label>
-	<!-- Оригинал: Я провел свой смертосон в очень превосходной... -->
-	<DeathrestChamber.stages.excellent_deathrest_chamber.description>Я провёл свой торпор в превосходной комнате. Я чувствую себя прекрасно.</DeathrestChamber.stages.excellent_deathrest_chamber.description>
-	<!-- Оригинал: ...комната смертосна -->
-	<DeathrestChamber.stages.exceptional_deathrest_chamber.label>выдающаяся комната торпора</DeathrestChamber.stages.exceptional_deathrest_chamber.label>
-	<!-- Оригинал: Я провел свой смертосон в чрезвычайно... -->
-	<DeathrestChamber.stages.exceptional_deathrest_chamber.description>Я провёл свой торпор в чрезвычайно внушительной комнате. Это было восхитительно.</DeathrestChamber.stages.exceptional_deathrest_chamber.description>
-	<!-- Оригинал: ...комната смертосна -->
-	<DeathrestChamber.stages.unbelievable_deathrest_chamber.label>невероятная комната торпора</DeathrestChamber.stages.unbelievable_deathrest_chamber.label>
-	<!-- Оригинал: Я провел свой смертосон в невероятно... -->
-	<DeathrestChamber.stages.unbelievable_deathrest_chamber.description>Я провёл свой торпор в невероятно внушительной комнате. Это было впечатляюще.</DeathrestChamber.stages.unbelievable_deathrest_chamber.description>
-	<!-- Оригинал: ...комната смертосна -->
-	<DeathrestChamber.stages.wondrous_deathrest_chamber.label>легендарная комната торпора</DeathrestChamber.stages.wondrous_deathrest_chamber.label>
-	<!-- Оригинал: смертосон (истощение) -->
+	Исправление неофициального перевода от Sestrenka. На момент проведения работ, официальный перевод ещё не был полностью закончен. Перезаписываем значение переменной из ванили.
+	Оригинал: смертосон проведён на... -->
+	<DeathrestChamber.stages.deathrested_outside.label>вошёл в торпор на улице</DeathrestChamber.stages.deathrested_outside.label>
+	<!-- Исправление перевода от Sestrenka.
+	Оригинал: ужасная комната смертосна -->
+	<DeathrestChamber.stages.awful_deathrest_chamber.label>отвратительная торпорная камера</DeathrestChamber.stages.awful_deathrest_chamber.label>
+	<!-- Исправление перевода от Sestrenka.
+	Оригинал: ...пришлось провести свой смертосон в ужасной комнате. -->
+	<DeathrestChamber.stages.awful_deathrest_chamber.description>Мне пришлось входить в торпор в отвратительной торпорной камере.</DeathrestChamber.stages.awful_deathrest_chamber.description>
+	<!-- Исправление перевода от Sestrenka.
+	Оригинал: неплохая комната смертосна -->
+	<DeathrestChamber.stages.decent_deathrest_chamber.label>неплохая торпорная камера</DeathrestChamber.stages.decent_deathrest_chamber.label>
+	<!-- Исправление перевода от Sestrenka.
+	Оригинал: Я провел свой смертосон в неплохой комнате. -->
+	<DeathrestChamber.stages.decent_deathrest_chamber.description>Я {PAWN_gender ? отдохнул : отдохнула} в неплохой торпорной камере.</DeathrestChamber.stages.decent_deathrest_chamber.description>
+	<!-- Исправление перевода от Sestrenka.
+	Оригинал: хорошая комната смертосна -->
+	<DeathrestChamber.stages.good_deathrest_chamber.label>хорошая торпорная камера</DeathrestChamber.stages.good_deathrest_chamber.label>
+	<!-- Исправление перевода от Sestrenka.
+	Оригинал: Я провёл свой смертосон в довольно хорошей комнате. Это было замечательно. -->
+	<DeathrestChamber.stages.good_deathrest_chamber.description>Я {PAWN_gender ? отдохнул : отдохнула} в хорошей камере. Это было приятно.</DeathrestChamber.stages.good_deathrest_chamber.description>
+	<!-- Исправление перевода от Sestrenka.
+	Оригинал: великолепная комната смертосна -->
+	<DeathrestChamber.stages.great_deathrest_chamber.label>очень хорошая торпорная камера</DeathrestChamber.stages.great_deathrest_chamber.label>
+	<!-- Исправление перевода от Sestrenka.
+	Оригинал: Я провел свой смертосон великолепной комнате. Я чувствую себя лучше. -->
+	<DeathrestChamber.stages.great_deathrest_chamber.description>Я {PAWN_gender ? отдохнул : отдохнула} в приятной торпорной камере. Чувствую себя {PAWN_gender ? обновленным : обновленной}.</DeathrestChamber.stages.great_deathrest_chamber.description>
+	<!-- Исправление перевода от Sestrenka.
+	Оригинал: превосходная комната смертосна -->
+	<DeathrestChamber.stages.excellent_deathrest_chamber.label>прекрасная торпорная камера</DeathrestChamber.stages.excellent_deathrest_chamber.label>
+	<!-- Исправление перевода от Sestrenka.
+	Оригинал: Я провел свой смертосон в очень превосходной комнате. Я чувствую себя прекрасно. -->
+	<DeathrestChamber.stages.excellent_deathrest_chamber.description>Я {PAWN_gender ? отдохнул : отдохнула} в прекрасной торпорной камере. Чувствую себя превосходно!</DeathrestChamber.stages.excellent_deathrest_chamber.description>
+	<!-- Исправление перевода от Sestrenka.
+	Оригинал: выдающаяся комната смертосна -->
+	<DeathrestChamber.stages.exceptional_deathrest_chamber.label>великолепная торпорная камера</DeathrestChamber.stages.exceptional_deathrest_chamber.label>
+	<!-- Исправление перевода от Sestrenka.
+	Оригинал: Я провел свой смертосон в чрезвычайно внушительной комнате. Это было восхитительно. -->
+	<DeathrestChamber.stages.exceptional_deathrest_chamber.description>Я {PAWN_gender ? отдохнул : отдохнула} в крайне впечатляющей торпорной камере. Это было великолепно!</DeathrestChamber.stages.exceptional_deathrest_chamber.description>
+	<!-- Исправление перевода от Sestrenka.
+	Оригинал: невероятная комната смертосна -->
+	<DeathrestChamber.stages.unbelievable_deathrest_chamber.label>восхитительная торпорная камера</DeathrestChamber.stages.unbelievable_deathrest_chamber.label>
+	<!-- Исправление перевода от Sestrenka.
+	Оригинал: Я провел свой смертосон в невероятно внушительной комнате. Это...впечатляюще. -->
+	<DeathrestChamber.stages.unbelievable_deathrest_chamber.description>Я {PAWN_gender ? отдохнул : отдохнула} в невероятной торпорной камере. Это было впечатляюще!</DeathrestChamber.stages.unbelievable_deathrest_chamber.description>
+	<!-- Исправление перевода от Sestrenka.
+	Оригинал: легендарная комната смертосна -->
+	<DeathrestChamber.stages.wondrous_deathrest_chamber.label>чудесная торпорная камера</DeathrestChamber.stages.wondrous_deathrest_chamber.label>
+	<!-- Исправление перевода от Sestrenka.
+	Оригинал: смертосон (истощение) -->
 	<DeathrestExhaustion.stages.deathrest_exhaustion.label>торпорное истощение</DeathrestExhaustion.stages.deathrest_exhaustion.label>
-	<!-- Оригинал: Гроб зовет, и я падаю усталый. Я едва...нужен смертосон. -->
-	<DeathrestExhaustion.stages.deathrest_exhaustion.description>Торпор зовёт, и я едва держусь на ногах. Мне нужен саркофаг.</DeathrestExhaustion.stages.deathrest_exhaustion.description>
-	<!-- Оригинал: ...Все они заслужили смерть. -->
-	<HateAura.stages.apocriton_hatred_intense.description>Я чувствую его ненависть внутри себя, как будто она моя собственная. Это так близко и так холодно. Все вокруг кажутся врагами.</HateAura.stages.apocriton_hatred_intense.description>
-	<!-- Оригинал: ...должны умереть. -->
-	<HateAura.stages.apocriton_hatred_strong.description>Я чувствую, как его ненависть отражается в моих мыслях. Снова и снова причины, по которым мои друзья должны стать врагами навек.</HateAura.stages.apocriton_hatred_strong.description>
-	<!-- Оригинал: ...люди заслуживают смерти. Он всегда следует логике убийства. Трудно... -->
-	<HateAura.stages.apocriton_hatred_distant.description>Я чувствую его где-то там. Он всегда думает о том, почему эти люди должны стать моими врагами навек. Он находит всё новые и новые логичные доводы. Трудно игнорировать.</HateAura.stages.apocriton_hatred_distant.description>
-	<!-- Оригинал: ...затуманен. Я мог бы убить за...стоит это сделать. -->
-	<HemogenCraving.stages.hemogen_craving-1.description>Боль невыносима, и мой разум затуманен. Я готов на всё за небольшое количество крови. Может быть, мне стоит что-то придумать.</HemogenCraving.stages.hemogen_craving-1.description>
-	<!-- Оригинал: Жажда убийства -->
+	<!-- Исправление перевода от Sestrenka.
+	Оригинал: Гроб зовет, и я падаю усталый. Я едва держусь на ногах. Мне нужен смертосон. -->
+	<DeathrestExhaustion.stages.deathrest_exhaustion.description>Мой саркофаг зовёт меня, я падаю от усталости. Всё вокруг как будто в тумане. Мне нужен покой.</DeathrestExhaustion.stages.deathrest_exhaustion.description>
+	<!-- Оригинал: ...Все эти люди заслуживают смерти! -->
+	<HateAura.stages.apocriton_hatred_intense.description>Я чувствую его холодную ненависть, словно свою. Она сжигает меня изнутри. Все вокруг кажутся врагами!</HateAura.stages.apocriton_hatred_intense.description>
+	<!-- Оригинал: ...друзья не заслуживают жизни. -->
+	<HateAura.stages.apocriton_hatred_strong.description>Я чувствую, как его ненависть пробивается сквозь мои мысли. Его голос находит всё новые причины, по которым мои друзья должны стать врагами навек.</HateAura.stages.apocriton_hatred_strong.description>
+	<!-- Оригинал: ...меня заслуживают смерти. И от... -->
+	<HateAura.stages.apocriton_hatred_distant.description>Я слышу голос ненависти в своём сознании. Он говорит, почему люди вокруг меня должны стать врагами навек. И от него сложно отделаться.</HateAura.stages.apocriton_hatred_distant.description>
+	<!-- Оригинал: ...жажду. {PAWN_gender ? Убил : Убила} бы ради...крови. А может, так и сделать? -->
+	<HemogenCraving.stages.hemogen_craving-1.description>Это невыносимо, я {PAWN_gender ? должен : должна} утолить эту жажду. Я {PAWN_gender ? готов : готова} на всё ради порции крови. Может быть, мне стоит что-то придумать?</HemogenCraving.stages.hemogen_craving-1.description>
+	<!-- Оригинал: жажда убийства -->
 	<KillThirst.stages.kill_thirst.label>жажда драки</KillThirst.stages.kill_thirst.label>
-	<!-- Оригинал: Должен убить (многоточие) прошло много...как я убивал кого-то в упор. -->
-	<KillThirst.stages.kill_thirst.description>Как же чешутся кулаки... Прошло слишком много времени с тех пор, как я кого-нибудь хорошенько отдубасил.</KillThirst.stages.kill_thirst.description>
+	<!-- Оригинал: Нужно убивать. Бить, колоть, резать (многоточие) Сколько мне ещё терпеть? (две точки) -->
+	<KillThirst.stages.kill_thirst.description>Как же чешутся кулаки... Прошло слишком много времени с тех пор, как я кого-нибудь хорошенько {PAWN_gender ? отдубасил : отдубасила}.</KillThirst.stages.kill_thirst.description>
 
 </LanguageData>
