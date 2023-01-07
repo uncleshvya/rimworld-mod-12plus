@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageData>
-
-	<!-- Исправлена неточность, сообщите разработчику ванили.
-
-	Оригинал: с лишней треугольной скобкой -->
-	<SleptInBarracks.stages.awful_barracks.description>Мало того, что эта общая спальня ужасна — так мне ещё и приходится делить её с другими!</SleptInBarracks.stages.awful_barracks.description>
-
-</LanguageData>
