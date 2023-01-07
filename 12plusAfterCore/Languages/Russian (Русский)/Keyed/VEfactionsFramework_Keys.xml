@@ -75,7 +75,7 @@
 	<VanillaFactionsExpanded.Protects>Защищает</VanillaFactionsExpanded.Protects>
 	<!-- Оригинал: Модификаторы отношений фракций -->
 	<VanillaFactionsExpanded.ScenPart_ForcedFactionRelations>Модификаторы отношений с фракцией</VanillaFactionsExpanded.ScenPart_ForcedFactionRelations>
-	<!-- Оригинал: без неразрывного пробела -->
+	<!-- Оригинал: без неразрывного пробела. -->
 	<VanillaFactionsExpanded.FactionTitle>Новая фракция — {FactionName}</VanillaFactionsExpanded.FactionTitle>
 	<!-- Оригинал: Подкрепления -->
 	<VSE.Reinforcements>Подкрепление</VSE.Reinforcements>
