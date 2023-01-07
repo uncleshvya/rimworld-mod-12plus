@@ -1,24 +1,24 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициального перевода от Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
-	Оригинал: убит ребёнок -->
-	<KilledChild.stages.killed_a_child.label>потерян ребёнок</KilledChild.stages.killed_a_child.label>
-	<!-- Оригинал: Убийство ребёнка это неправильно, независимо от ситуации. -->
-	<KilledChild.stages.killed_a_child.description>Нападать на детей — неправильно, в любой ситуации.</KilledChild.stages.killed_a_child.description>
+	Оригинал: {0_gender ? убил : убила} ребёнка -->
+	<KilledChild.stages.killed_a_child.label>ребёнок потерян</KilledChild.stages.killed_a_child.label>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили о неразрывном пробеле.
+	Оригинал: Убивать кого...юного — ужасно... -->
+	<KilledChild.stages.killed_a_child.description>Нападать на кого-то столь юного — ужасно, вне зависимости от ситуации.</KilledChild.stages.killed_a_child.description>
 	<!-- Необходимо синхронизировать с адаптированным ParentBirth.labelFemale.
-	Оригинал: убили мою биологическую мать -->
-	<KilledMyBirthMother.stages.killed_my_birth_mother.label>атакована суррогатная мать</KilledMyBirthMother.stages.killed_my_birth_mother.label>
+	Оригинал: {1_gender ? убил : убила} мою родную мать -->
+	<KilledMyBirthMother.stages.killed_my_birth_mother.label>{1_gender ? атаковал : атаковала} мою суррогатную мать</KilledMyBirthMother.stages.killed_my_birth_mother.label>
 	<!-- Длинные прозвища не влезали в заголовок. Имена перемещены в описания.
-	Оригинал: биологическая мать {0} умерла -->
+	Оригинал: умерла суррогатная мать, {0} -->
 	<MyBirthMotherDied.stages.my_birth_mother_died.label>потеряна суррогатная мать</MyBirthMotherDied.stages.my_birth_mother_died.label>
-	<!-- Оригинал: Моя биологическая мать {1_labelShort} умерла. Теперь она ушла навсегда. Что я буду делать без нее? -->
-	<MyBirthMotherDied.stages.my_birth_mother_died.description>Моей суррогатной матери больше нет с нами. Покойся с миром, {1_labelShort}.</MyBirthMotherDied.stages.my_birth_mother_died.description>
-	<!-- Оригинал: биологическая мать {0} потеряна -->
+	<!-- Оригинал: Моя суррогатная мать умерла. Я больше никогда её не увижу. В моём...пусто. -->
+	<MyBirthMotherDied.stages.my_birth_mother_died.description>Моей суррогатной матери больше нет с нами. В моём сердце стало пусто... Покойся с миром, {1_labelShort}.</MyBirthMotherDied.stages.my_birth_mother_died.description>
+	<!-- Оригинал: ...мать {0} -->
 	<MyBirthMotherLost.stages.my_birth_mother_lost.label>пропала суррогатная мать</MyBirthMotherLost.stages.my_birth_mother_lost.label>
-	<!-- Оригинал: Я потерял свою биологическую мать {1_labelShort}. Надеюсь, она когда-нибудь вернется к нам. -->
-	<MyBirthMotherLost.stages.my_birth_mother_lost.description>Моя суррогатная мать, {1_labelShort}, куда-то запропастилась. Надеюсь, когда-нибудь она даст о себе знать.</MyBirthMotherLost.stages.my_birth_mother_lost.description>
+	<!-- Оригинал: ...мать пропала... -->
+	<MyBirthMotherLost.stages.my_birth_mother_lost.description>Моя суррогатная мать, {1_labelShort}, пропала без вести. Надеюсь, она однажды вернётся к нам.</MyBirthMotherLost.stages.my_birth_mother_lost.description>
 
 </LanguageData>
