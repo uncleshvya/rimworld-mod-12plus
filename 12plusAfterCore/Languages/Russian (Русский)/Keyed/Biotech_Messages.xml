@@ -1,22 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Оригинал: ...когда на ней заряжался {PAWN_nameDef}! Внезапное отключение тока повредило {PAWN_possessive} мозг и {PAWN_pronoun} {PAWN_gender ? вошёл : вошла} в состояние... -->
+	<MessageMechChargerDestroyedMechGoesBerserk>Зарядная станция была уничтожена, когда от неё был запитан {PAWN_nameDef}! Внезапные скачки́ тока повредили искусственный мозг, и механоид {PAWN_gender ? вошёл : вошла} в состояние берсерка.</MessageMechChargerDestroyedMechGoesBerserk>
+	<!-- Оригинал: ...как {MECH_pronoun} сопровождает {OVERSEER_nameDef} -->
+	<MessageCaravanAddingEscortingMech>{MECH_nameDef} {MECH_gender ? был : была} автоматически {MECH_gender ? добавлен : добавлена} к каравану, так как может нормально функционировать только под управлением своего оператора ({OVERSEER_nameDef})</MessageCaravanAddingEscortingMech> 
+	<!-- Оригинал: ...как {MECH_pronoun} сопровождает {OVERSEER_nameDef} -->
+	<MessageCaravanRemovingEscortingMech>{MECH_nameDef} {MECH_gender ? был : была} автоматически {MECH_gender ? исключён : исключена} из каравана, так как может нормально функционировать только под управлением своего оператора ({OVERSEER_nameDef})</MessageCaravanRemovingEscortingMech>
+	<!-- Тестить в игре, похоже переменная устарела.
+	Оригинал: ...быть без сознания, чтобы... -->
+	<MessageTargetMustBeDownedToForceReimplant>{PAWN_nameDef} {PAWN_gender ? должен : должна} быть {PAWN_gender ? обездвижен : обездвижена}, чтобы попытаться имплантировать {PAWN_objective} ксеносемя.</MessageTargetMustBeDownedToForceReimplant>
+
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициального перевода от Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
-	Оригинал: {0} умер из... -->
-	<MessagePlantDiedOfPollution>{0} пострадал из-за загрязнения.</MessagePlantDiedOfPollution>
-	<!-- Оригинал: {0} умер из... -->
-	<MessagePlantDiedOfNoPollution>{0} пострадал из-за отсутствия загрязнения.</MessagePlantDiedOfNoPollution>
-	<!-- Оригинал: ...от смертосна. -->
-	<MessageDeathrestingPawnCanWakeSafely>{PAWN_nameDef} теперь может безопасно пробудиться от торпора.</MessageDeathrestingPawnCanWakeSafely>
-	<!-- Оригинал: Смертосонная вместимость... -->
-	<MessageDeathrestCapacityChanged>Торпорная вместимость {PAWN_nameDef} увеличилась с {OLD} до {NEW}.</MessageDeathrestCapacityChanged>
-	<!-- Оригинал: ...от смертосна из... -->
-	<MessagePawnWokenFromSunlight>{PAWN_nameDef} пробудился от торпора из-за солнечного света.</MessagePawnWokenFromSunlight>
-	<!-- Оригинал: ...воскрешать высохшие трупы. -->
-	<MessageCannotResurrectDessicatedCorpse>Нельзя воскрешать скелеты.</MessageCannotResurrectDessicatedCorpse>
-	<!-- Оригинал: Строение "{BUILDING_labelShort}" было...(использовано {CUR}/{MAX} смертосонной вместимости). -->
-	<MessageDeathrestBuildingBound>Строение «{BUILDING_labelShort}» было привязано к {PAWN_nameDef} (использовано {CUR}/{MAX} торпорной вместимости).</MessageDeathrestBuildingBound>
+	Оригинал: {0} {0_gender ? погиб : погибла : погибло} от... -->
+	<MessagePlantDiedOfPollution>{0} {0_gender ? пострадал : пострадала : пострадало} от загрязнения.</MessagePlantDiedOfPollution>
+	<!-- Оригинал: {0} {0_gender ? погиб : погибла : погибло} из... -->
+	<MessagePlantDiedOfNoPollution>{0} {0_gender ? пострадал : пострадала : пострадало} из-за недостатка загрязнения.</MessagePlantDiedOfNoPollution>
+	<!-- Исправление неофициального перевода от Sestrenka. На момент проведения работ, официальный перевод ещё не был полностью закончен. Перезаписываем значение переменной из ванили.
+	Оригинал: {PAWN_nameDef} теперь может безопасно пробудиться от смертосна. -->
+	<MessageDeathrestingPawnCanWakeSafely>{PAWN_nameDef} может безопасно выйти из торпора.</MessageDeathrestingPawnCanWakeSafely>
+	<!-- Исправление перевода от Sestrenka.
+	Заодно исправлена неточность, сообщите разработчику ванили о падежах.
+	Sestrenka: Смертосонная вместимость {PAWN_nameDef} увеличилась с {OLD} до {NEW}.
+	Ваниль: Торпорная вместимость {PAWN_nameDef} увеличилась с {OLD} до {NEW} -->
+	<MessageDeathrestCapacityChanged>{PAWN_nameDef} {PAWN_gender ? увеличил : увеличила} свою торпорную вместимость с {OLD} до {NEW}</MessageDeathrestCapacityChanged>
+	<!-- Исправление перевода от Sestrenka.
+	Оригинал: {PAWN_nameDef} пробудился от смертосна из-за солнечного... -->
+	<MessagePawnWokenFromSunlight>{PAWN_nameDef} {PAWN_gender ? пробудился : пробудилась} из-за воздействия солнечного света.</MessagePawnWokenFromSunlight>
+	<!-- Исправление перевода от Sestrenka.
+	Оригинал: Нельзя воскрешать высохшие трупы. -->
+	<MessageCannotResurrectDessicatedCorpse>Невозможно воскресить скелетированное тело.</MessageCannotResurrectDessicatedCorpse>
+	<!-- Исправление перевода от Sestrenka.
+	Оригинал: Строение "{BUILDING_labelShort}" было привязано к {PAWN_nameDef} (использовано {CUR}/{MAX} смертосонной вместимости). -->
+	<MessageDeathrestBuildingBound>{BUILDING_labelShort} {BUILDING_gender ? привязан : привязана : привязано} к {PAWN_nameDef} (торпорная вместимость: {CUR}/{MAX}).</MessageDeathrestBuildingBound>
 
 </LanguageData>
