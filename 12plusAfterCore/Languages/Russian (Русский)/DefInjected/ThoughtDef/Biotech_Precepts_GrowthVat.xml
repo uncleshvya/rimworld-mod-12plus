@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Оригинал: Деторождение это... -->
+	<GrowthVat_Essential_Pregnant.stages.natural_pregnancy.description>Деторождение — это ужасно! Нам нужны инкубаторы для безопасного выращивания наших детей.</GrowthVat_Essential_Pregnant.stages.natural_pregnancy.description>
+	<!-- Оригинал: ...детьми. Детство — слишком ценно, чтобы... -->
+	<GrowthVat_Prohibited_ChildNotInGrowthVat.stages.child_not_in_growth_vat.description>Я {PAWN_gender ? рад : рада}, что мои дети могут быть детьми. Этот период слишком ценен, чтобы заменять его инкубатором.</GrowthVat_Prohibited_ChildNotInGrowthVat.stages.child_not_in_growth_vat.description>
+
+</LanguageData>

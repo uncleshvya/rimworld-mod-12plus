@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Оригинал: без неразрывного пробела. -->
+	<SelfDislikedXenotype.stages.I_am_disliked_xenotype.description>Я — {XENOTYPENAME}, а это плохой ксенотип.</SelfDislikedXenotype.stages.I_am_disliked_xenotype.description>
+
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Оригинал: без неразрывных пробелов. -->
+	<ChildInGrowthVat.stages.my_child_is_in_a_growth_vat.description>Я скучаю по своему ребёнку. Знать, что он плавает в этой машине и упускает своё детство — невыносимо.</ChildInGrowthVat.stages.my_child_is_in_a_growth_vat.description>
+	<MyParentHappy.stages.parent_is_happy.description>Когда родители счастливы — {PAWN_gender ? счастлив : счастлива} и я.</MyParentHappy.stages.parent_is_happy.description>
+	<MyParentsHappy.stages.parents_are_happy.description>Когда родители счастливы — {PAWN_gender ? счастлив : счастлива} и я.</MyParentsHappy.stages.parents_are_happy.description>
+
+</LanguageData>

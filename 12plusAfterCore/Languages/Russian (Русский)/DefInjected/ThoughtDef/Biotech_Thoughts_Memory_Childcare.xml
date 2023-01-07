@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Оригинал: младенец хихикает -->
+	<GigglingBaby.stages.baby_giggling.label>младенец радуется</GigglingBaby.stages.baby_giggling.label>
+	<!-- Оригинал: Хихикающий малыш... -->
+	<GigglingBaby.stages.baby_giggling.description>Радующийся малыш вызывает у меня улыбку.</GigglingBaby.stages.baby_giggling.description>
+	<!-- Оригинал: ...малыш хихикает -->
+	<MyGigglingBaby.stages.my_baby_giggling.label>мой малыш радуется</MyGigglingBaby.stages.my_baby_giggling.label>
+	<!-- Оригинал: без неразрывного пробела. -->
+	<MyGigglingBaby.stages.my_baby_giggling.description>Мой малыш — самый милый в антросфере!</MyGigglingBaby.stages.my_baby_giggling.description>
+
+</LanguageData>

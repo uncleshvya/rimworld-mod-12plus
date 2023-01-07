@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Уж лучше использовать настоящее информирующее время, чем эти жуткие скобки.
+	Оригинал: пил(а) мою... -->
+	<FedOn_Social.stages.fed_on.label>пьёт мою кровь</FedOn_Social.stages.fed_on.label>
+
+</LanguageData>
