@@ -20,14 +20,16 @@
 	Была красная ошибка из-за переменной PAWN_gender.
 	Имя перемещено в описание, т.к. не влезало в интерфейс.
 	Оригинал: {PAWN_gender ? Убил : Убила} вражеского лидера, {0} -->
-	<DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>устранение вражеского лидера</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>
+	<DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>побеждён вражеский лидер</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>
 	<!-- Исправлено вынужденное размытие смысла в заголовке. Заодно сглажена необязательная тавтология, сообщите разработчику ванили.
 	Оригинал: Они пытались...что им придётся...мной! -->
 	<DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>Враги пытались уничтожить нас, но они не знали, что придётся иметь дело со мной! Их лидер, {OTHERPAWN_labelShort}, дорого {OTHERPAWN_gender ? заплатил : заплатила} за свою ошибку!</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
 	Была красная ошибка из-за переменной OTHERPAWN_gender.
-	Оригинал: {OTHERPAWN_gender ? Убил : Убила} вражеского лидера -->
-	<DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>устранение вражеского лидера</DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>
+	Оригиналы: {OTHERPAWN_gender ? Убил : Убила} вражеского лидера -->
+	<DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>победа над вражеским лидером</DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>
+	<!-- Прописываем labelSocial. -->
+	<DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.labelSocial>{OTHERPAWN_gender ? Победил : Победила} вражеского лидера</DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.labelSocial>
 	<!-- Оригинал: Хороший жук — мёртвый жук! -->
 	<DefeatedInsectHive.stages.defeated_insect_hive.description>Хороший жук — раздавленный жук!</DefeatedInsectHive.stages.defeated_insect_hive.description>
 	<!-- Заодно сглажены ссылки на людей - для модов на другие расы.
