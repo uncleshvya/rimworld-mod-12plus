@@ -258,6 +258,7 @@ Ideas to realize in next version:
 		<li>RainbeausFishing.ReworkMod</li>
 		<li>Orion.Hospitality</li>
 		<li>Rus.Biotech.Nastia</li>
+		<li>OW.RU.CORE</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
@@ -281,7 +282,8 @@ Ideas to realize in next version:
 		<li>Rus.Biotech.IUGT</li>
 		<li>russian.biotech.rf</li>
 		<li>Rus.Biotech.Arkanam</li>
-		<!-- 14 нижеследующих модов запрещены на время работ по адаптации VEfactionsFramework, при необходимости подключения сместить приоритет на нужный мод. -->
+		<li>RU.VanillaExpanded.VEE</li>
+		<!-- 12 нижеследующих модов запрещены на время работ по адаптации VEfactionsFramework, при необходимости подключения сместить приоритет на нужный мод. -->
 		<li>VanillaExpanded.VanillaSocialInteractionsExpanded</li>
 		<li>vanillaexpanded.skills</li>
 		<li>kikohi.BetterGroundPenetratingScanner</li>
@@ -291,8 +293,6 @@ Ideas to realize in next version:
 		<li>VanillaExpanded.HelixienGas</li>
 		<li>VanillaExpanded.VHE</li>
 		<li>VanillaExpanded.VCEF</li>
-		<li>Nals.FacialAnimation</li>
-		<li>VanillaExpanded.VEE</li>
 		<li>VanillaExpanded.VChemfuelE</li>
 		<li>VanillaExpanded.VBooksE</li>
 		<li>vanillaexpanded.backgrounds</li>
