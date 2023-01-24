@@ -42,7 +42,7 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 
 Кое-где пришлось подправить баланс, см.файл changelog. Кого эти исправления не устраивают, просто удалите соответствующий файл — концепция и сейвы не пострадают:
 - «MedicalTraining_Rebalance.xml»;
-- «RimOfMadnessBones_Rebalance.xml».
+- «Fishing_MedicalTraining_Rebalance.xml».
 
 Известные проблемы:
 
@@ -53,9 +53,7 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 Что нужно сделать в следующей версии:
 - исправить предыстории из-за изменившихся правил перевода. Ведутся работы;
 - решить проблему авто-обновления перевода. Возможно, написать скрипт, аналогично как у официального переводчика, только отслеживающий несовпадение файлов перевода и наличие файла скрипта;
-- улучшить каменты в коде, в т.ч. по адаптации;
-- для rombones сделать механику порчи костей, чтобы костный мозг можно было достать только из свежих;
-- для rombones заменить графику для полимера кальция, чтобы он больше ассоциировался с металлическими изделиями.
+- улучшить каменты в коде, в т.ч. по адаптации.
 
 =====
 
@@ -95,7 +93,7 @@ If you don't like the mod, just turn it off. Saves will remain playable.
 
 Had to rebalance some mods, see changelog file. But if you don't like these changes, just delete unwanted file, saves will be playable, concept — workable:
 - "MedicalTraining_Rebalance.xml";
-- "RimOfMadnessBones_Rebalance.xml".
+- "Fishing_MedicalTraining_Rebalance.xml".
 
 Known issues:
 
@@ -106,9 +104,7 @@ Known issues:
 Ideas to realize in next version:
 - to correct backstories according to new translation rules. In process;
 - to solve auto-update problem. Maybe modify auto-script from official Russian translator's site. And to add a watchdog script to eliminate an occasional translation mismatch and/or automation;
-- to make code comments better;
-- rombones: to make the bones' rotting, in order to prohibit the extraction of bone marrow from ancient bones;
-- rombones: to change boneplastic graphics, it should look like metal ore, according to the lore.
+- to make code comments better.
 	</description>
 	<modDependencies>
 		<li>
@@ -121,12 +117,13 @@ Ideas to realize in next version:
 			<displayName>12plus Before Core</displayName>
 			<downloadUrl>https://github.com/uncleshvya/rimworld-mod-12plus</downloadUrl>
 		</li>
+		<!-- Моды забракованы командой балансеров:
+		Мод на кости нуждается в полной перебалансировке и перерисовке, фактически он заброшен.
 		<li>
 			<packageId>sihv.rombones</packageId>
 			<displayName>Rim of Madness - Bones</displayName>
 			<steamWorkshopUrl>steam://url/CommunityFilePage/1180573408</steamWorkshopUrl>
 		</li>
-		<!-- Моды забракованы командой балансеров:
 		Cooking был нужен для адаптации VEfactionsMedieval, а он очень кривой и имбовый.
 		<li>
 			<packageId>VanillaExpanded.VCookE</packageId>
@@ -147,12 +144,12 @@ Ideas to realize in next version:
 		</li>
 		-->
 	</modDependencies>
-	<!-- Мод забракован командой балансеров:
-	Стал не нужен после Ideology:
 	<loadBefore>
+	<!-- Мод забракован командой балансеров:
+	Стал не особо нужен после Ideology, идёт тестирование на холодных биомах:
 		<li>UncleShvya.ExpandedRoofingRusFix</li>
-	</loadBefore>
 	-->
+	</loadBefore>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
@@ -171,13 +168,11 @@ Ideas to realize in next version:
 		<li>Am.Rus.DubsBadHygiene</li>
 		<li>dismarzero.VGP.VGPGardenTools</li>
 		<li>Unknown.Perevod.dismarzero.VGP.VGPGardenTools</li>
-		<li>VanillaExpanded.VCookE</li>
 		<li>VanillaExpanded.VCookEStews</li>
 		<li>Inoshishi3.VCE.RusPatch</li>
 		<li>Am.Rus.VCookE</li>
 		<li>nephlite.orbitaltradecolumn</li>
 		<li>gaster.orbitaltradecolumn</li>
-		<li>sihv.rombones</li>
 		<li>OskarPotocki.VFE.Insectoid</li>
 		<li>RU.VFE.Insectoid</li>
 		<li>VanillaExpanded.VFECore</li>
@@ -283,6 +278,8 @@ Ideas to realize in next version:
 		<li>russian.biotech.rf</li>
 		<li>Rus.Biotech.Arkanam</li>
 		<li>RU.VanillaExpanded.VEE</li>
+		<li>VanillaExpanded.VCookE</li>
+		<li>sihv.rombones</li>
 		<!-- 12 нижеследующих модов запрещены на время работ по адаптации VEfactionsFramework, при необходимости подключения сместить приоритет на нужный мод. -->
 		<li>VanillaExpanded.VanillaSocialInteractionsExpanded</li>
 		<li>vanillaexpanded.skills</li>
