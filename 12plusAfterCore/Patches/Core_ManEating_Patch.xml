@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
-<!-- MIT
-Copyright (c) 2018 Rim of Madness Team
--->
-
 <Patch>
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
@@ -48,13 +43,12 @@ Copyright (c) 2018 Rim of Madness Team
 					</disallowedThingDefs>
 				</value>
 			</li>
-			<!-- Убираем отображение количества плоти, кожи и костей. -->
+			<!-- Убираем отображение количества плоти и кожи. -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "Human"]/statBases/LeatherAmount</xpath>
 				<value>
 					<LeatherAmount>0</LeatherAmount>
 					<MeatAmount>0</MeatAmount>
-					<BoneAmount MayRequire="sihv.rombones">0</BoneAmount>
 				</value>
 			</li>
 
