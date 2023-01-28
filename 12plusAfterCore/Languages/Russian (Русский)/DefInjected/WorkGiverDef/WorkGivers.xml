@@ -3,33 +3,9 @@
 
 	<!-- Исправлена неточность, сообщите разработчику ванили.
 
-	Появились рецепты шлема, арфы и др.
-	Конкретизированы ванильные кузни - для модов на новые верстаки.
-	Оригинал: изготавливать оружие -->
-	<DoBillsMakeWeapons.label>ковать на кузне</DoBillsMakeWeapons.label>
-	<!-- Все герундии, начинающиеся с маленькой буквы, выглядели некрасиво в контекстном меню приказа на действие. Это конечно классика, но нужно подправить движок gerund аналогично с движком label, который выставляет большую букву.
+	Все герундии, начинающиеся с маленькой буквы, выглядели некрасиво в контекстном меню приказа на действие. Это конечно классика, но нужно подправить движок gerund аналогично с движком label, который выставляет большую букву.
 	Пока это не сделано, все герундии переименованы, т.к. приказ на действие употребляется чаще, чем уведомление об уже начавшейся работе.
-	Оригинал: изготовить оружие на -->
-	<DoBillsMakeWeapons.gerund>Ковать на</DoBillsMakeWeapons.gerund>
-	<!-- Оригинал: изготавливать оружие на -->
-	<DoBillsMakeWeapons.verb>ковать</DoBillsMakeWeapons.verb>
-	<!-- Заодно сглажены ссылки на лечение - для модов на неявно живых существ.
-	Оригиналы: лечить себя -->
-	<DoctorTendToSelf.verb>оказать себе помощь для</DoctorTendToSelf.verb>
-	<DoctorTendToSelfEmergency.verb>оказать себе помощь для</DoctorTendToSelfEmergency.verb>
-	<!-- Убрана путаница с DoctorTendToSelf.label - две одинаковых работы в списке выглядели как баг.
-	Оригинал: лечить себя -->
-	<DoctorTendToSelfEmergency.label>оказывать себе неотложную помощь</DoctorTendToSelfEmergency.label>
-	<!-- Есть 3 разных переменные, с одинаковым герундием "Вести". Сделана попытка их переименовать:
-	RebalanceAnimalsInPens.gerund - Вести в новый загон
-	TakeRoamingAnimalsToPen.gerund - Ловить убредающее животное
-	TakeToPen.gerund - Вести в загон
-	Но это приводило к двум багам: в контекстном меню отображалось по 2 задания на одно животное. И отображались 2 строки в контекстном уведомлении об уже начавшейся работе. Пока баги не исправлены, возвращено исходное состояние. В идеале бы ещё придумать описания, подходящие для места привязи.
-
-	Не забываем про дикарей.
-	Оригинал: приручать животных -->
-	<Tame.label>приручать существ</Tame.label>
-	<!-- Оригиналы: все с маленькой буквы -->
+	Оригиналы: все с маленькой буквы -->
 	<BasicReleasePrisoner.gerund>Отпустить</BasicReleasePrisoner.gerund>
 	<BuildRoofs.gerund>Соорудить крышу</BuildRoofs.gerund>
 	<ChatWithPrisoner.gerund>Разговаривать с</ChatWithPrisoner.gerund>
@@ -48,22 +24,17 @@
 	<DeliverResourcesToFrames.gerund>Нести материалы к</DeliverResourcesToFrames.gerund>
 	<!-- Герундий DoBillsBrew уже изменён в файле BeesNhoney_WorkGiverDefs.xml -->
 	<DoBillsButcherFlesh.gerund>Разделывать на</DoBillsButcherFlesh.gerund>
-	<!-- В версии 1.4 стали использоваться падежи.
-	Оригинал: готовить на -->
-	<DoBillsCook.gerund>Готовить, используя</DoBillsCook.gerund>
 	<DoBillsCookCampfire.gerund>Готовить, используя</DoBillsCookCampfire.gerund>
 	<!-- Герундий DoBillsCremate уже изменён в файле RimOfMadnessBones_WorkGiverDefs.xml -->
 	<DoBillsFabricationBench.gerund>Производить высокоточные изделия, используя</DoBillsFabricationBench.gerund>
 	<DoBillsHaulCampfire.gerund>Сжигать, используя</DoBillsHaulCampfire.gerund>
 	<DoBillsMachiningTable.gerund>Работать, используя</DoBillsMachiningTable.gerund>
 	<DoBillsMakeApparel.gerund>Шить одежду, используя</DoBillsMakeApparel.gerund>
-	<!-- Герундий DoBillsMakeWeapons - в начале файла -->
 	<DoBillsMedicalAnimalOperation.gerund>Провести медпроцедуру</DoBillsMedicalAnimalOperation.gerund>
 	<DoBillsMedicalHumanOperation.gerund>Провести медпроцедуру</DoBillsMedicalHumanOperation.gerund>
 	<DoBillsProduceDrugs.gerund>Изготавливать препараты, используя</DoBillsProduceDrugs.gerund>
 	<DoBillsRefinery.gerund>Работать, используя</DoBillsRefinery.gerund>
 	<DoBillsSculpt.gerund>Творить, используя</DoBillsSculpt.gerund>
-	<DoBillsSmelter.gerund>Плавить в</DoBillsSmelter.gerund>
 	<DoBillsStonecut.gerund>Тесать камень, используя</DoBillsStonecut.gerund>
 	<DoBillsUseCraftingSpot.gerund>Работать на</DoBillsUseCraftingSpot.gerund>
 	<DoctorFeedAnimals.gerund>Кормить</DoctorFeedAnimals.gerund>
@@ -124,6 +95,35 @@
 	<Uninstall.gerund>Демонтировать</Uninstall.gerund>
 	<UnloadCarriers.gerund>Разгружать</UnloadCarriers.gerund>
 	<VisitSickPawn.gerund>Навестить</VisitSickPawn.gerund>
+	<!-- В версии 1.4 стали использоваться падежи.
+	Оригинал: готовить на -->
+	<DoBillsCook.gerund>Готовить, используя</DoBillsCook.gerund>
+	<!-- Появились рецепты шлема, арфы и др.
+	Конкретизированы ванильные кузни - для модов на новые верстаки.
+	Оригинал: изготавливать оружие -->
+	<DoBillsMakeWeapons.label>ковать на кузне</DoBillsMakeWeapons.label>
+	<!-- Оригинал: изготовить оружие на -->
+	<DoBillsMakeWeapons.gerund>Ковать на</DoBillsMakeWeapons.gerund>
+	<!-- Оригинал: изготавливать оружие на -->
+	<DoBillsMakeWeapons.verb>ковать</DoBillsMakeWeapons.verb>
+	<!-- Оригинал: плавить в -->
+	<DoBillsSmelter.gerund>Плавить, используя</DoBillsSmelter.gerund>
+	<!-- Заодно сглажены ссылки на лечение - для модов на неявно живых существ.
+	Оригиналы: лечить себя -->
+	<DoctorTendToSelf.verb>оказать себе помощь для</DoctorTendToSelf.verb>
+	<DoctorTendToSelfEmergency.verb>оказать себе помощь для</DoctorTendToSelfEmergency.verb>
+	<!-- Убрана путаница с DoctorTendToSelf.label - две одинаковых работы в списке выглядели как баг.
+	Оригинал: лечить себя -->
+	<DoctorTendToSelfEmergency.label>оказывать себе неотложную помощь</DoctorTendToSelfEmergency.label>
+	<!-- Есть 3 разных переменные, с одинаковым герундием "Вести". Сделана попытка их переименовать:
+	RebalanceAnimalsInPens.gerund - Вести в новый загон
+	TakeRoamingAnimalsToPen.gerund - Ловить убредающее животное
+	TakeToPen.gerund - Вести в загон
+	Но это приводило к двум багам: в контекстном меню отображалось по 2 задания на одно животное. И отображались 2 строки в контекстном уведомлении об уже начавшейся работе. Пока баги не исправлены, возвращено исходное состояние. В идеале бы ещё придумать описания, подходящие для места привязи.
+
+	Не забываем про дикарей.
+	Оригинал: приручать животных -->
+	<Tame.label>приручать существ</Tame.label>
 
 	<!-- Исправление согласно концепции «12+».
 
