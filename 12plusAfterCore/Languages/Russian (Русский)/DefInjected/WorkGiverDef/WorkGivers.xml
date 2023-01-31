@@ -103,7 +103,7 @@
 	Оригинал: изготавливать оружие -->
 	<DoBillsMakeWeapons.label>ковать на кузне</DoBillsMakeWeapons.label>
 	<!-- Оригинал: изготовить оружие на -->
-	<DoBillsMakeWeapons.gerund>Ковать на</DoBillsMakeWeapons.gerund>
+	<DoBillsMakeWeapons.gerund>Ковать, используя</DoBillsMakeWeapons.gerund>
 	<!-- Оригинал: изготавливать оружие на -->
 	<DoBillsMakeWeapons.verb>ковать</DoBillsMakeWeapons.verb>
 	<!-- Оригинал: плавить в -->
