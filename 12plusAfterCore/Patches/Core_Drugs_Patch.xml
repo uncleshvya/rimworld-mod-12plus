@@ -82,6 +82,9 @@
 					<tradeability>Buyable</tradeability>
 				</value>
 			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "Ambrosia"]/tradeability</xpath>
+			</li>
 			<!-- Приближаем к реальности симптомы передозировки. -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/HediffDef[defName = "DrugOverdose"]/lethalSeverity/text()</xpath>
