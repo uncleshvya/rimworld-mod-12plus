@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Оригинал: ...огнемётную сентипиду -->
+	<CentipedeBurner.label>вырастить огнемётную сентипеду</CentipedeBurner.label>
+	<!-- Оригинал: Вырастить сентипиду, оборудованную... -->
+	<CentipedeBurner.description>Вырастить сентипеду, оборудованную инферно-пушкой.</CentipedeBurner.description>
+	<!-- Оригинал: ...пулемётную сентипиду -->
+	<CentipedeGunner.label>вырастить пулемётную сентипеду</CentipedeGunner.label>
+	<!-- Оригинал: Вырастить сентипиду, оборудованную... -->
+	<CentipedeGunner.description>Вырастить сентипеду, оборудованную пулемётом.</CentipedeGunner.description>
+
+</LanguageData>
