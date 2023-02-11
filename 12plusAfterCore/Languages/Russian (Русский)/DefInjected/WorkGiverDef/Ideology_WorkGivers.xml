@@ -30,11 +30,6 @@
 	<HaulToBiosculpterPod.verb>заполнить</HaulToBiosculpterPod.verb>
 	<!-- Оригинал: арестовывать -->
 	<ImprisonSlave.verb>арестовать</ImprisonSlave.verb>
-	<!-- Оригинал: посадить семена -->
-	<PlantSeed.label>сажать семенные капсулы</PlantSeed.label>
-	<!-- Оригиналы: сажать -->
-	<PlantSeed.gerund>Посадить</PlantSeed.gerund>
-	<PlantSeed.verb>посадить</PlantSeed.verb>
 	<!-- Оригинал: подстричь деревья... -->
 	<PruneGauranlenTree.label>остригать деревья Гауранлен</PruneGauranlenTree.label>
 	<!-- Оригинал: подавить рабов -->
