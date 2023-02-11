@@ -100,12 +100,12 @@
 
 	<!-- Оригинал:
 	...
-    <li>image->, как [circumstance_start], в то время как [EXECUTIONER_nameFull][circumstance_execution] казнит [PRISONER_possessive]</li>
-	<li>image->, как [circumstance_start], в то время как [EXECUTIONER_nameFull][circumstance_execution] лишает [PRISONER_possessive] жизни</li>
-    <li>image->, как [circumstance_start], в то время как [EXECUTIONER_nameFull][circumstance_phrase] готовится казнить [PRISONER_possessive]</li>
+    <li>...[circumstance_execution] казнит [PRISONER_possessive]</li>
+	<li>...[circumstance_execution] лишает [PRISONER_possessive] жизни</li>
 	...
 	-->
   <ExecutedPrisoner.rulePack.rulesStrings>
+    <li>tale_noun->как [EXECUTIONER_nameDef] казнит [PRISONER_nameDef]</li>
     <li>tale_noun->как казнили [PRISONER_nameDef]</li>
     <li>image->, как [circumstance_start], в то время как [EXECUTIONER_nameFull][circumstance_execution] казнит [PRISONER_possessive]</li>
 	<li>image->, как [circumstance_start], в то время как [EXECUTIONER_nameFull][circumstance_execution] хладнокровно казнит [PRISONER_possessive]</li>
@@ -213,11 +213,11 @@
 	<li>tale_noun->как [VICTIM_nameDef] погибает от руки [KILLER_nameDef]</li>
 	<li>tale_noun->как [KILLER_nameDef] убивает [VICTIM_nameDef]</li>
 	<li>tale_noun->как погибает [VICTIM_nameDef]</li>
-	<li>image->, как [circumstance_start], когда [VICTIM_possessive] [circumstance_phrase] убивают</li>
-	<li>image->, как [circumstance_start], когда [VICTIM_possessive] [circumstance_phrase] убивает [KILLER_nameFull]</li>
-	<li>image->, как [KILLER_nameFull] [circumstance_phrase] убивает [VICTIM_nameFull]</li>
-	<li>image->, как [KILLER_nameFull] [circumstance_phrase] прерывает жизнь поселенца по имени [VICTIM_nameFull]</li>
-	<li>image->, как [VICTIM_nameFull] погибает от руки противника по имени [KILLER_nameFull]</li>
+	<li>...[circumstance_phrase] убивают</li>
+	<li>...[circumstance_phrase] убивает [KILLER_nameFull]</li>
+	<li>...[circumstance_phrase] убивает [VICTIM_nameFull]</li>
+	<li>...[circumstance_phrase] прерывает жизнь поселенца...</li>
+	<li>image->, как [VICTIM_nameFull] погибает от руки противника...</li>
 	...
 	-->
   <KilledBy.rulePack.rulesStrings>
