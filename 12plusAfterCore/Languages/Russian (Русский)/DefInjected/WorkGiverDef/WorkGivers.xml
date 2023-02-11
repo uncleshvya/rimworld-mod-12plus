@@ -115,6 +115,11 @@
 	<!-- Убрана путаница с DoctorTendToSelf.label - две одинаковых работы в списке выглядели как баг.
 	Оригинал: лечить себя -->
 	<DoctorTendToSelfEmergency.label>оказывать себе неотложную помощь</DoctorTendToSelfEmergency.label>
+	<!-- Оригинал: посадить семена -->
+	<PlantSeed.label>сажать семенные капсулы</PlantSeed.label>
+	<!-- Оригиналы: сажать -->
+	<PlantSeed.gerund>Посадить</PlantSeed.gerund>
+	<PlantSeed.verb>посадить</PlantSeed.verb>
 	<!-- Есть 3 разных переменные, с одинаковым герундием "Вести". Сделана попытка их переименовать:
 	RebalanceAnimalsInPens.gerund - Вести в новый загон
 	TakeRoamingAnimalsToPen.gerund - Ловить убредающее животное
