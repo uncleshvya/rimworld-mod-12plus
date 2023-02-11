@@ -27,8 +27,14 @@
 	<ExecutedPrisoner_Know_Abhorrent.stages.executed_prisoner.label>палач</ExecutedPrisoner_Know_Abhorrent.stages.executed_prisoner.label>
 	<ExecutedPrisoner_Know_Horrible.stages.executed_prisoner.label>палач</ExecutedPrisoner_Know_Horrible.stages.executed_prisoner.label>
 	<ExecutedPrisoner_Know_Respected.stages.executed_prisoner.label>палач</ExecutedPrisoner_Know_Respected.stages.executed_prisoner.label>
+	<!-- Оригиналы: {OTHERPAWN_gender ? казнил : казнила} пленника -->
+	<ExecutedPrisoner_Know_Abhorrent.stages.executed_prisoner.labelSocial>{OTHERPAWN_gender ? Казнил : Казнила} пленника</ExecutedPrisoner_Know_Abhorrent.stages.executed_prisoner.labelSocial>
+	<ExecutedPrisoner_Know_Horrible.stages.executed_prisoner.labelSocial>{OTHERPAWN_gender ? Казнил : Казнила} пленника</ExecutedPrisoner_Know_Horrible.stages.executed_prisoner.labelSocial>
+	<ExecutedPrisoner_Know_Respected.stages.executed_prisoner.labelSocial>{OTHERPAWN_gender ? Казнил : Казнила} пленника</ExecutedPrisoner_Know_Respected.stages.executed_prisoner.labelSocial>
 	<!-- Оригинал: казнил(а) виновного пленника -->
 	<ExecutedPrisonerGuilty_Know_Respected.stages.executed_guilty_prisoner.label>казнит преступников</ExecutedPrisonerGuilty_Know_Respected.stages.executed_guilty_prisoner.label>
+	<!-- Оригинал: {OTHERPAWN_gender ? казнил : казнила} виновного... -->
+	<ExecutedPrisonerGuilty_Know_Respected.stages.executed_guilty_prisoner.labelSocial>{OTHERPAWN_gender ? Казнил : Казнила} виновного пленника</ExecutedPrisonerGuilty_Know_Respected.stages.executed_guilty_prisoner.labelSocial>
 	<!-- Оригинал: справедливая казнь пленника -->
 	<ExecutedPrisonerGuilty_Know_Respected_Mood.stages.guilty_prisoner_executed.label>казнён преступник из тюрьмы</ExecutedPrisonerGuilty_Know_Respected_Mood.stages.guilty_prisoner_executed.label>
 	<!-- Оригинал: Мы казнили виновного пленника. Справедливость... -->
@@ -43,6 +49,8 @@
 	<ExecutedPrisonerInnocent_Horrible.stages.executed_innocent_prisoner.label>в ответе за казнь невиновного пленника</ExecutedPrisonerInnocent_Horrible.stages.executed_innocent_prisoner.label>
 	<!-- Оригинал: казнил(а) невиновного... -->
 	<ExecutedPrisonerInnocent_Know_Horrible.stages.executed_innocent_prisoner.label>казнит невиновных пленников</ExecutedPrisonerInnocent_Know_Horrible.stages.executed_innocent_prisoner.label>
+	<!-- Оригинал: {OTHERPAWN_gender ? казнил : казнила} невиновного... -->
+	<ExecutedPrisonerInnocent_Know_Horrible.stages.executed_innocent_prisoner.labelSocial>{OTHERPAWN_gender ? Казнил : Казнила} невиновного пленника</ExecutedPrisonerInnocent_Know_Horrible.stages.executed_innocent_prisoner.labelSocial>
 
 	<!-- Исправление согласно концепции «12+».
 
@@ -50,9 +58,20 @@
 	Одна операция - один орган.
 	Оригинал: ...поселенец умер из...что мы удалили его жизненно важные органы. Это... -->
 	<ExecutedColonist_Know_Abhorrent_Mood.stages.colonist_organharvested.description>Наш поселенец был потерян из-за того, что у него забрали часть тела. Это просто ужасно!</ExecutedColonist_Know_Abhorrent_Mood.stages.colonist_organharvested.description>
+	<!-- Оригинал: поселенец убит душегубом -->
+	<ExecutedColonist_Know_Abhorrent_Mood.stages.colonist_ripscanned.label>поселенца обменяли на машину</ExecutedColonist_Know_Abhorrent_Mood.stages.colonist_ripscanned.label>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Оригинал: Наш поселенец или гость погиб в душегубе. Его мозг испепелила и поглотила машина. Это... -->
+	<ExecutedColonist_Know_Abhorrent_Mood.stages.colonist_ripscanned.description>Мы взяли живого поселенца и превратили его душу в набор программ для кошмарной машины. Это ужасно!</ExecutedColonist_Know_Abhorrent_Mood.stages.colonist_ripscanned.description>
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
 	Оригинал: Наш пленник или гость умер из-за того, что мы удалили его жизненно важные органы. Это просто ужасно! -->
 	<ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_organmurdered.description>Посетитель был потерян из-за операции по удалению органа. Это просто ужасно!</ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_organmurdered.description>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Оригинал: пленник или гость убит душегубом -->
+	<ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_ripscanned.label>у нас исчезают люди</ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_ripscanned.label>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Оригинал: Наш пленник или гость погиб в душегубе. Его мозг испепелила и поглотила машина. Это... -->
+	<ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_ripscanned.description>Мы взяли живого посетителя и превратили его душу в набор программ для кошмарной машины. Это ужасно!</ExecutedGuest_Know_Abhorrent_Mood.stages.someone_was_ripscanned.description>
 	<!-- Оригиналы: в ответе за смерть пленника -->
 	<GuiltyPrisonerDied_Know_Respected.stages.responsible_for_the_death_of_a_prisoner.label>в ответе за казнь пленника</GuiltyPrisonerDied_Know_Respected.stages.responsible_for_the_death_of_a_prisoner.label>
 	<GuiltyPrisonerDied_Respected.stages.guilty_prisoner_died_responsible.label>в ответе за казнь пленника</GuiltyPrisonerDied_Respected.stages.guilty_prisoner_died_responsible.label>
