@@ -24,11 +24,21 @@
 	Одна операция - один орган.
 	Оригинал: Наш поселенец умер из-за того, что мы удалили его жизненно важные органы. Это... -->
 	<KnowColonistExecuted.stages.colonist_organharvested.description>Мы потеряли поселенца из-за того, что у него удалили жизненно важный орган. Это просто ужасно!</KnowColonistExecuted.stages.colonist_organharvested.description>
+	<!-- Оригинал: поселенец убит душегубом -->
+	<KnowColonistExecuted.stages.colonist_ripscanned.label>поселенца обменяли на машину</KnowColonistExecuted.stages.colonist_ripscanned.label>
+	<!-- Оригинал: Наш поселенец погиб в душегубе. Его мозг сожгла и поглотила машина. Это... -->
+	<KnowColonistExecuted.stages.colonist_ripscanned.description>Мы взяли живого поселенца и превратили его душу в набор программ для кошмарной машины. Это ужасно.</KnowColonistExecuted.stages.colonist_ripscanned.description>
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
 	Оригинал: пленник или гость разобран на органы -->
 	<KnowGuestExecuted.stages.someone_was_organmurdered.label>у нас пропадают посетители</KnowGuestExecuted.stages.someone_was_organmurdered.label>
 	<!-- Оригинал: Наш пленник или гость умер из-за того, что мы удалили его жизненно важные органы. Это... -->
 	<KnowGuestExecuted.stages.someone_was_organmurdered.description>Мы потеряли посетителя из-за того, что у него удалили жизненно важный орган. Это просто ужасно!</KnowGuestExecuted.stages.someone_was_organmurdered.description>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Оригинал: пленник или гость убит душегубом -->
+	<KnowGuestExecuted.stages.someone_was_ripscanned.label>у нас исчезают люди</KnowGuestExecuted.stages.someone_was_ripscanned.label>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	Оригинал: Наш пленник или гость погиб в душегубе. Его мозг сожгла и поглотила машина. Это... -->
+	<KnowGuestExecuted.stages.someone_was_ripscanned.description>Мы взяли живого посетителя и превратили его душу в набор программ для кошмарной машины. Это ужасно.</KnowGuestExecuted.stages.someone_was_ripscanned.description>
 	<!-- Оригинал: умер пленник -->
 	<KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>потерян пленник</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>
 	<!-- Оригинал: Один из пленников умер, несмотря...Если нам действительно нужна их смерть, мы должны организовать казнь, но не допускать... -->
