@@ -41,7 +41,7 @@
 	<!-- Оригинал: Предупреждение: гены {PAWN_nameDef} восстанавливаются. Извлечение {PAWN_possessive} генов до того, как они восстановятся-{PAWN_possessive} убьёт.\n\nВы...хотите продолжить? -->
 	<ConfirmExtractXenogermWillKill>Предупреждение: {PAWN_nameDef} ещё не {PAWN_gender ? восстановил : восстановила} свои гены. Извлечение их до восстановления крайне опасно для н{PAWN_possessive}!\n\nВы уверены, что хотите рискнуть?</ConfirmExtractXenogermWillKill>
 	<!-- Оригинал: бессмертный -->
-	<Deathless>нестареющий</Deathless>
+	<Deathless>гемофагам неопасна</Deathless>
 	<!-- Оригинал: {PAWN_nameDef} должен регулярно...{DEATHDURATION} {PAWN_pronoun} умрет. -->
 	<GeneDefChemicalNeedDurationDesc>{PAWN_nameDef} {PAWN_gender ? должен : должна} регулярно принимать {0}, чтобы выжить. После {DEFICIENCYDURATION} без {0} {PAWN_pronoun} будет страдать от дефицита {0}. После {COMADURATION} {PAWN_pronoun} впадет в кому. После {DEATHDURATION} {PAWN_possessive} уже не спасти никак.</GeneDefChemicalNeedDurationDesc>
 	<!-- Оригинал: ...продолжать смертосон до...есть смертельные травмы. -->
