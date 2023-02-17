@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Обойдён баг движка, дающий частичную голубую подсветку слов на букву "с" или "ч" после цифры.
+
+	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. И через ноды "rulesStrings.1" тоже. Пришлось создать суб мод перед Core.
+
+	Оригинал: без неразрывного пробела. -->
+  <Sentence_RecruitAttemptAccepted.rulePack.rulesStrings>
+	<li>sent->[RECIPIENT_nameDef] соглашается присоединиться к поселению.</li>
+  </Sentence_RecruitAttemptAccepted.rulePack.rulesStrings>
+
+	<!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
+
+  EN:
+    <li>sent->[RECIPIENT_nameDef] refused.</li>
+  -->
+  <Sentence_RecruitAttemptRejected.rulePack.rulesStrings>
+    <li>sent->[RECIPIENT_nameDef] не хочет присоединяться к поселению.</li>
+  </Sentence_RecruitAttemptRejected.rulePack.rulesStrings>
+</LanguageData>
