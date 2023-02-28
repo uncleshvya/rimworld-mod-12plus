@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModsConfigData>
-  <version>1.4.3580 rev1304</version>
+  <version>1.4.3613 rev641</version>
   <activeMods>
     <li>brrainz.harmony</li>
     <li>uncleshvya.12plus.beforecore</li>
@@ -35,6 +35,7 @@
     <li>com.github.alandariva.moreplanning</li>
     <li>mehni.numbers</li>
     <li>mehni.pickupandhaul</li>
+    <li>mlie.repairworktype</li>
     <li>uuugggg.replacestuff</li>
     <li>dubwise.rimefeller</li>
     <li>nals.rollover</li>
