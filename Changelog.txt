@@ -108,7 +108,7 @@ For English, scroll down.
 
 2022-02-15 добавлена адаптация для мода Edible Leather.
 
-2022-02-10 мягко отключено обучение торговле органами и наркотиками.
+2022-02-10 мягко отключено обучение торговле наркотиками.
 
 2022-01-05 добавлена адаптация для мода EdB Prepare Carefully и его русификатора.
 
@@ -368,7 +368,7 @@ DLC Biotech adaptation added.
 
 2022-feb-15 UncleShvya.EdibleLeather mod adaptation added.
 
-2022-feb-10 gently removed organs' and drugs' trade learning.
+2022-feb-10 gently removed drugs' trade learning.
 
 2022-jan-05 EdB.PrepareCarefully mod adaptation added.
 
