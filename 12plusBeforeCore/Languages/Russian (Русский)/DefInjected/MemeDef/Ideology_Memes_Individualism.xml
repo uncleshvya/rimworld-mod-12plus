@@ -5,7 +5,7 @@
 
 	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. И через ноды "rulesStrings.1" тоже. Пришлось создать суб мод перед Core.
 
-	Эти 2 переменные без изменений, но необходимо оставить, иначе грамматика страдает:
+	Эти 2 переменные без изменений, оставлены как заголовок:
 
   EN: collectivist -->
   <Collectivist.label>коллективизм</Collectivist.label>
@@ -38,24 +38,24 @@
 	...
 	-->
   <Collectivist.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Collectivist)        ->[deity0_created] [deity0_name] всех мужчин и женщин по единому великому образу, а тех, кто не соответствовал, [deity0_threw] [deity0_pronoun] прочь, чтобы истинные верующие жили в гармонии.</li>
-    <li>episode(uses=1,tag=meme_Collectivist)  ->И [deity0_said] [deity0_name] всем: «Ни один из вас не стои́т выше других. Работайте все вместе, и отдыхайте все вместе».</li>
+	<li>creation(tag=meme_Collectivist)        ->[deity0_created] [deity0_name] всех мужчин и женщин по единому великому образу, а тех, кто не соответствовал, [deity0_threw] [deity0_pronoun] прочь, чтобы истинные верующие жили в гармонии.</li>
+	<li>episode(uses=1,tag=meme_Collectivist)  ->И [deity0_said] [deity0_name] всем: «Ни один из вас не стои́т выше других. Работайте все вместе, и отдыхайте все вместе».</li>
     <li>intro(tag=meme_Collectivist)           ->Работали на [place_summary] [place_name] люди во всеобщей гармонии, и построили они великий [altarName], чтобы воздавать хвалу [deity0_name], [deity0_who] научил их истинной ценности [memeConcept].</li>
     <li>conflict(tag=meme_Collectivist)        ->Но не смог [foeLeader] стать частью общества, и послал [foeSoldiers] своих на [place_community], где жили [memberNamePlural], чтобы посеять вражду между ними.</li>
     <li>founderJoin(tag=meme_Collectivist)     ->И [founder_threw] [place_job] по имени [founderName] прямо в огонь, в знак несогласия с [foeLeader], но [memberNamePlural] спасли [founder_possessive] и сделали своим лидером, ибо [founder_was] [founderName] [founder_devotion] своему сообществу.</li>
     <li>victory(tag=meme_Collectivist)         ->И поступками своими [founder_united] [founder_pronoun] людей. И двинулись они в едином строю к дому, где были [foeLeader] и его [foeSoldiers]. И те, кто шёл впереди, пожертвовали собой ради всеобщей победы, и захвачен был [foeLeader].</li>
     <li>setup(tag=meme_Collectivist)           ->В мире, где каждый был сам за себя, [founderName] [founder_gathered] собрал рядом с собой большую семью из совершенно разных и не знакомых друг с другом людей.</li>
     <li>story(uses=1,tag=meme_Collectivist)    ->Некоторые лжепоследователи пытались нарушить общие правила и навязать свои собственные. [founderName] сурово [founder_punished] их.</li>
-    <li>lessonIntro(tag=meme_Collectivist)     ->Один [place_job] перестал работать на благо общества, но продолжил есть из общих запасов. Я собственноручно [founder_took] его, [founder_killed] использовать [place_personalWeapon]. Люди вокруг были шокированы этим, но я им объяснил, что</li>
+	<li>lessonIntro(tag=meme_Collectivist)     ->Один [place_job] перестал работать на благо общества, но продолжил есть из общих запасов. Я собственноручно [founder_took] его, [founder_killed] использовать [place_personalWeapon]. Люди вокруг были шокированы этим, но я им объяснил, что</li>
     <li>lesson(tag=meme_Collectivist)          ->если я или ты выбудем из рядов, это ничего не будет значить, пока все</li>
-    <li>lessonReinforcement(tag=meme_Collectivist)->Если я потрачу всю свою жизнь, чтобы научить этому ойкумену, итог будет моим величайшим триумфом.</li>
+	<li>lessonReinforcement(tag=meme_Collectivist)->Если я потрачу всю свою жизнь, чтобы научить этому ойкумену, итог будет моим величайшим триумфом.</li>
     <li>archistBasis(tag=meme_Collectivist)    ->Все архотеки — части единого сверхразума.</li>
     <li>archistFact(tag=meme_Collectivist)     ->Архотекам не интересно судить нас каждого по отдельности. Они ждут тех, кто продемонстрирует своё достоинство, действуя как единое нравственное целое.</li>
     <li>archistProphecy(tag=meme_Collectivist) ->[inTheEnd] архотеки уйдут, когда найдут тех, кто покажет себя достойным партнёром для машинно-божественного сознания.</li>
-    <li>animistFact(tag=meme_Collectivist)     ->Каждый дух — часть всех остальных, а те, кто пытается стоять особняком, быстро скатятся до уровня диких животных.</li>
-    <li>deity0_threw(deity0_gender==None)->изгоняло</li>
-    <li>deity0_threw(deity0_gender==Male)->изгонял</li>
-    <li>deity0_threw(deity0_gender==Female)->изгоняла</li>
+	<li>animistFact(tag=meme_Collectivist)     ->Каждый дух — часть всех остальных, а те, кто пытается стоять особняком, быстро скатятся до уровня диких животных.</li>
+	<li>deity0_threw(deity0_gender==None)->изгоняло</li>
+	<li>deity0_threw(deity0_gender==Male)->изгонял</li>
+	<li>deity0_threw(deity0_gender==Female)->изгоняла</li>
     <li>deity0_said(deity0_gender==None)->молвило</li>
     <li>deity0_said(deity0_gender==Male)->молвил</li>
     <li>deity0_said(deity0_gender==Female)->молвила</li>
@@ -75,13 +75,13 @@
     <li>founder_united(founder_gender==Female)->сплотила</li>
     <li>founder_punished(founder_gender==Male)->наказал</li>
     <li>founder_punished(founder_gender==Female)->наказала</li>
-    <li>founder_killed(founder_gender==Male)->избил и пригрозил</li>
-    <li>founder_killed(founder_gender==Female)->избила и пригрозила</li>
-    <li>founder_took(founder_gender==Male)->арестовал</li>
-    <li>founder_took(founder_gender==Female)->арестовала</li>
+	<li>founder_killed(founder_gender==Male)->избил и пригрозил</li>
+	<li>founder_killed(founder_gender==Female)->избила и пригрозила</li>
+	<li>founder_took(founder_gender==Male)->арестовал</li>
+	<li>founder_took(founder_gender==Female)->арестовала</li>
   </Collectivist.descriptionMaker.rules.rulesStrings>
 
-  <!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
+	<!-- Этот кусок без изменений, но необходимо оставить, иначе грамматика страдает:
 
   EN:
     <li>memeAdjective->unity</li>
@@ -162,7 +162,7 @@
 
 	<!-- Оригинал:
 	...
-	<li>archistFact(tag=meme_Individualist)     ->После смерти архотеки изучат уникальный нравственный облик каждого человека.</li>
+	<li>archistFact(tag=meme_Individualist)     ->После смерти архотеки изучат уникальный...</li>
 	...
 	-->
   <Individualist.descriptionMaker.rules.rulesStrings>
@@ -178,7 +178,7 @@
     <li>lesson(tag=meme_Individualist)              ->каждый человек уникален и ценен, и должен идти своим путём</li>
     <li>lessonReinforcement(tag=meme_Individualist) ->Но это был мой путь, а каков твой?</li>
     <li>archistBasis(tag=meme_Individualist)    ->Архотеки, являясь сущностями с высшим уровнем сознания, отмечают и судят каждого из нас индивидуально и беспристрастно.</li>
-    <li>archistFact(tag=meme_Individualist)     ->Архотеки изучают уникальный нравственный облик каждого человека.</li>
+	<li>archistFact(tag=meme_Individualist)     ->Архотеки изучают уникальный нравственный облик каждого человека.</li>
     <li>archistFact(tag=meme_Individualist)     ->Архотеки отметят того, кто будет нести их реликвии, такие как [relic1_name].</li>
     <li>archistProphecy(tag=meme_Individualist) ->[inTheEnd] архотеки уйдут. Они возьмут с собой лишь тех, кого они отметили, а остальных обрекут на разрушение в вечной вселенской энтропии.</li>
     <li>animistBasis(tag=meme_Individualist)    ->В начале времён существовал пантеон духов, и каждый из них был по-своему уникален. И они объединили свои силы, чтобы создать наш мир.</li>
