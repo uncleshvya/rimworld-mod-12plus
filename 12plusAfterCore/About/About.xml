@@ -254,6 +254,7 @@ Ideas to realize in next version:
 		<li>Orion.Hospitality</li>
 		<li>Rus.Biotech.Nastia</li>
 		<li>OW.RU.CORE</li>
+		<li>RU.NFD.TranslationFix</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
@@ -280,6 +281,8 @@ Ideas to realize in next version:
 		<li>RU.VanillaExpanded.VEE</li>
 		<li>VanillaExpanded.VCookE</li>
 		<li>sihv.rombones</li>
+		<!-- Мод на генетику запрещён из-за избыточного контента в адаптированном моде RU.NFD.TranslationFix. -->
+		<li>VanillaExpanded.VGeneticsE</li>
 		<!-- 12 нижеследующих модов запрещены на время работ по адаптации VEfactionsFramework, при необходимости подключения сместить приоритет на нужный мод. -->
 		<li>VanillaExpanded.VanillaSocialInteractionsExpanded</li>
 		<li>vanillaexpanded.skills</li>
