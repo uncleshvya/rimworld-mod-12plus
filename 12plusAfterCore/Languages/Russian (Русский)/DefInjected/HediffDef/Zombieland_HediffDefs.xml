@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	EN: zombie infection -->
+	<ZombieInfection.label>зомби-вирус</ZombieInfection.label>
+	<!-- EN: Zombie infection after death -->
+	<ZombieInfection.description>Особый вирус уже размножается и скоро восстановит двигательные функции этого тела. Но с земли поднимется совершенно иное существо — вечно голодное и безжалостное.</ZombieInfection.description>
+
+</LanguageData>
