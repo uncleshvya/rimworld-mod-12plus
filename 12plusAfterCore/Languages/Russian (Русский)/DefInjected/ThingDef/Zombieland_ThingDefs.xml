@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	EN: zombie extract -->
+	<ZombieExtract.label>зомби-экстракт</ZombieExtract.label>
+	<!-- EN: Small amount of extract from a dead zombie. Combine up to 100 extract to craft a drug called Zombie Serum that is used in operations on infected body parts. -->
+	<ZombieExtract.description>Небольшое количество мозговой жидкости, содержащей зомби-вирус. Нужно до 100 таких порций для создания уникального лекарства, способного излечить укус зомби.</ZombieExtract.description>
+	<!-- EN: unfinished zombie serum -->
+	<UnfinishedZombieSerum.label>незаконченная сыворотка зомби</UnfinishedZombieSerum.label>
+	<!-- EN: zombie serum 100% -->
+	<ZombieSerumSimple.label>100% сыворотка зомби</ZombieSerumSimple.label>
+	<!-- EN: Pure serum from dead zombies that guaranteed cures zombie infections during operations -->
+	<ZombieSerumSimple.description>Чистая сыворотка, изготовленная из ослабленного зомби-вируса, гарантированно излечивает укус зомби.</ZombieSerumSimple.description>
+	<!-- EN: zombie serum 10% -->
+	<Zombie10Serum.label>10% сыворотка зомби</Zombie10Serum.label>
+	<!-- EN: Serum from dead zombies that cures zombie infections during operations (10% success rate) -->
+	<Zombie10Serum.description>Сыворотка, изготовленная из ослабленного зомби-вируса, способная с 10% шансом излечить укус зомби.</Zombie10Serum.description>
+	<!-- EN: zombie serum 20% -->
+	<Zombie20Serum.label>20% сыворотка зомби</Zombie20Serum.label>
+	<!-- EN: Serum from dead zombies that cures zombie infections during operations (20% success rate) -->
+	<Zombie20Serum.description>Сыворотка, изготовленная из ослабленного зомби-вируса, способная с 20% шансом излечить укус зомби.</Zombie20Serum.description>
+	<!-- EN: zombie serum 30% -->
+	<Zombie30Serum.label>30% сыворотка зомби</Zombie30Serum.label>
+	<!-- EN: Serum from dead zombies that cures zombie infections during operations (30% success rate) -->
+	<Zombie30Serum.description>Сыворотка, изготовленная из ослабленного зомби-вируса, способная с 30% шансом излечить укус зомби.</Zombie30Serum.description>
+	<!-- EN: zombie serum 40% -->
+	<Zombie40Serum.label>40% сыворотка зомби</Zombie40Serum.label>
+	<!-- EN: Serum from dead zombies that cures zombie infections during operations (40% success rate) -->
+	<Zombie40Serum.description>Сыворотка, изготовленная из ослабленного зомби-вируса, способная с 40% шансом излечить укус зомби.</Zombie40Serum.description>
+	<!-- EN: zombie serum 50% -->
+	<Zombie50Serum.label>50% сыворотка зомби</Zombie50Serum.label>
+	<!-- EN: Serum from dead zombies that cures zombie infections during operations (50% success rate) -->
+	<Zombie50Serum.description>Сыворотка, изготовленная из ослабленного зомби-вируса, способная с 50% шансом излечить укус зомби.</Zombie50Serum.description>
+	<!-- EN: zombie serum 60% -->
+	<Zombie60Serum.label>60% сыворотка зомби</Zombie60Serum.label>
+	<!-- EN: Serum from dead zombies that cures zombie infections during operations (60% success rate) -->
+	<Zombie60Serum.description>Сыворотка, изготовленная из ослабленного зомби-вируса, способная с 60% шансом излечить укус зомби.</Zombie60Serum.description>
+	<!-- EN: zombie serum 70% -->
+	<Zombie70Serum.label>70% сыворотка зомби</Zombie70Serum.label>
+	<!-- EN: Serum from dead zombies that cures zombie infections during operations (70% success rate) -->
+	<Zombie70Serum.description>Сыворотка, изготовленная из ослабленного зомби-вируса, способная с 70% шансом излечить укус зомби.</Zombie70Serum.description>
+	<!-- EN: zombie serum 80% -->
+	<Zombie80Serum.label>80% сыворотка зомби</Zombie80Serum.label>
+	<!-- EN: Serum from dead zombies that cures zombie infections during operations (80% success rate) -->
+	<Zombie80Serum.description>Сыворотка, изготовленная из ослабленного зомби-вируса, способная с 80% шансом излечить укус зомби.</Zombie80Serum.description>
+	<!-- EN: zombie serum 90% -->
+	<Zombie90Serum.label>90% сыворотка зомби</Zombie90Serum.label>
+	<!-- EN: Serum from dead zombies that cures zombie infections during operations (90% success rate) -->
+	<Zombie90Serum.description>Сыворотка, изготовленная из ослабленного зомби-вируса, способная с 90% шансом излечить укус зомби.</Zombie90Serum.description>
+	<!-- EN: zombie serum 100% -->
+	<Zombie100Serum.label>99% сыворотка зомби</Zombie100Serum.label>
+	<!-- EN: Pure serum from dead zombies that guaranteed cures zombie infections during operations -->
+	<Zombie100Serum.description>Сыворотка, изготовленная из ослабленного зомби-вируса, способная с 99% шансом излечить укус зомби.</Zombie100Serum.description>
+
+</LanguageData>
