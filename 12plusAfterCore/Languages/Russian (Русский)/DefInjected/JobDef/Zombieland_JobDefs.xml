@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	EN: stumbling. -->
+	<Stumble.reportString>шатается</Stumble.reportString>
+	<!-- EN: sabotaging. -->
+	<Sabotage.reportString>крушит</Sabotage.reportString>
+	<!-- EN: extracting zombie serum from TargetA. -->
+	<ExtractZombieSerum.reportString>извлекает экстракт из TargetA</ExtractZombieSerum.reportString>
+	<!-- EN: roping TargetA. -->
+	<RopeZombie.reportString>связывает TargetA</RopeZombie.reportString>
+	<!-- EN: starting zombie zapper. -->
+	<ZapZombies.reportString>включает парализатор зомби</ZapZombies.reportString>
+	<!-- EN: replacing broken components in TargetA. -->
+	<FixBrokenChainsaw.reportString>заменяет сломанные компоненты в TargetA</FixBrokenChainsaw.reportString>
+
+	<!-- Исправление согласно концепции «12+».
+
+	EN: double tapping TargetA. -->
+	<DoubleTap.reportString>упокаивает TargetA</DoubleTap.reportString>
+
+</LanguageData>
