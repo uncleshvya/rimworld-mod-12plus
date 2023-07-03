@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику.
+
+	EN: Zombies -->
+	<Zombies.label>Орда нежити</Zombies.label>
+	<!-- EN: Undead creatures. -->
+	<Zombies.description>Вечно голодные любители мозгов.</Zombies.description>
+	<!-- EN: Zombies -->
+	<Zombies.fixedName>Зомби</Zombies.fixedName>
+	<!-- EN: leader -->
+	<Zombies.leaderTitle>старейший зомби</Zombies.leaderTitle>
+	<!-- EN: zombie -->
+	<Zombies.pawnSingular>зомби</Zombies.pawnSingular>
+	<!-- EN: zombies -->
+	<Zombies.pawnsPlural>зомби</Zombies.pawnsPlural>
+
+</LanguageData>
