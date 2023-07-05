@@ -12,7 +12,7 @@
 	<CorpseObsession.label>осквернение могил</CorpseObsession.label>
 	<!-- Оригинал: Душевное состояние: глумление над трупами -->
 	<CorpseObsession.baseInspectLine>Душевное состояние: осквернение могил</CorpseObsession.baseInspectLine>
-	<!-- Оригинал: ...и выставить труп на всеобщее обозрение. -->
+	<!-- Оригинал: ...и выставить труп на... -->
 	<CorpseObsession.beginLetter>{0} явно не в себе.\n\nПохоже, {PAWN_pronoun} собирается разорить могилу и выставить содержимое на всеобщее обозрение.</CorpseObsession.beginLetter>
 	<!-- Оригинал: глумление над трупами -->
 	<CorpseObsession.beginLetterLabel>осквернение могил</CorpseObsession.beginLetterLabel>
