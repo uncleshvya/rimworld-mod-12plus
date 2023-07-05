@@ -158,8 +158,8 @@
 
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
 
-  Оригинал: зверистсвий -->
-  <AnimalPersonhood.symbolPacks.1.adjective>зверистский</AnimalPersonhood.symbolPacks.1.adjective>
+	Оригинал: зверистсвий -->
+	<AnimalPersonhood.symbolPacks.1.adjective>зверистский</AnimalPersonhood.symbolPacks.1.adjective>
   <!-- EN: Beastism -->
   <AnimalPersonhood.symbolPacks.1.ideoName>зверизм</AnimalPersonhood.symbolPacks.1.ideoName>
   <!-- EN: beastor -->
@@ -182,7 +182,7 @@
 	<li>...Однажды [founder_pronoun] собственноручно [founder_removed] глаза у целой семьи, чтобы они могли видеть, как [founder_pronoun].</li>
 	<li>...многое. Лишь кислота, пролитая на мои глаза, показала...</li>
 	...
-	<li>lessonReinforcement(tag=meme_Blindsight) ->Я никогда бы не [founder_could] полностью этого понять, пока пелена зрения отвлекала моё внимание. Лезвие, пронзившее мой глаз, дало мне свободу.</li>
+	<li>...внимание. Лезвие, пронзившее мой глаз, дало мне свободу.</li>
 	...
 	<li>deity0_tore_out(deity0_gender==None)->вырвало</li>
 	<li>deity0_tore_out(deity0_gender==Male)->вырвал</li>
@@ -307,10 +307,15 @@
     <li>memeMoralist->ясновидящий</li>
   </Blindsight.generalRules.rulesStrings>
 
-	<!-- Оригинал: каннибализм -->
-	<Cannibal.label>обжорство</Cannibal.label>
-	<!-- Оригинал: Нам нужно есть человеческую плоть. -->
-	<Cannibal.description>Лишь поселение с полными складами вкусной и полезной еды — достойная цель для нас.</Cannibal.description>
+	<!-- Хорошо бы убрать возможность людоедства. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например на новые идеолигии.
+	Почему-то при отключении адаптации слетает перевод. Перезаписываем значение из ванили:
+
+	Оригинал: каннибализм
+	Адаптация: обжорство -->
+	<Cannibal.label>каннибализм</Cannibal.label>
+	<!-- Оригинал: Нам нужно есть человеческую плоть.
+	Адаптация: Лишь поселение с полными складами вкусной и полезной еды — достойная цель для нас. -->
+	<Cannibal.description>Нам нужно есть человеческую плоть.</Cannibal.description>
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили:
 	Не был выставлен gender-оператор для слова "сделал".
 	Оригинал:
@@ -328,7 +333,7 @@
 	<li>lesson(tag=meme_Cannibal) (14 пробелов) ->нельзя...съев его плоти</li>
 	<li>lessonReinforcement(tag=meme_Cannibal) (пробел) ->Каждый...делюсь телом врага с новым другом...</li>
 	...
-	<li>...поглотив всё человечество и слившись с ним.</li>
+	<li>...роста, поглотив всё человечество и слившись с ним.</li>
 	<li>...живут в людях.</li>
 	<li>...поедая их плоть.</li>
 	...
@@ -346,31 +351,64 @@
 	<li>founder_surrounded(founder_gender==Male)->окружённый</li>
 	<li>founder_surrounded(founder_gender==Female)->окружённая</li>
 	...
-	-->
-  <Cannibal.descriptionMaker.rules.rulesStrings>
-	<li>creation(tag=meme_Cannibal)        ->[deity0_went] [deity0_name] к брату своему и [deity0_murdered] его, и [deity0_feasted] на его запасах пищи, и, налившись силой, [deity0_became] [deity0_first] среди богов.</li>
+	Адаптация:
+	...
+	<li>...[deity0_murdered] его, и [deity0_feasted] на его запасах пищи, и, налившись силой, [deity0_became] [deity0_first]...</li>
 	<li>episode(uses=1,tag=meme_Cannibal)  ->И [deity0_ate] [deity0_type] [deity0_name] все запасы пищи врагов своих.</li>
-	<li>intro(tag=meme_Cannibal)           ->На [place_summary] [place_name] [deity0_lived_human] по имени [deity0_name]. Став во главе своего народа, [deity0_ate] [deity0_pronoun] бессчётное количество пищи и [deity0_became] [deity0_type].</li>
-	<li>intro(tag=meme_Cannibal)           ->На [place_summary] [place_name], когда шёл [ritualName], [deity0_came_down] [deity0_name] в [altarRoomLabel] и [deity0_feasted] священной пищей, и все [memberNamePlural] узрели это.</li>
-	<li>conflict(tag=meme_Cannibal)        ->И заявил [foeLeader] в жадности своей, что все, кто ел его пищу — преступники, и отправил своих [foeSoldiers], и гонимы были [memberNamePlural].</li>
-	<li>founderJoin(tag=meme_Cannibal)     ->И напали на [place_job] по имени [founderName] [foeSoldiers], которых послал [foeLeader]. Но [founder_killed] [founderName] их [place_personalWeapon] своим, [founder_ate] все их запасы еды и [founder_received] силу [deity0_name].</li>
-	<li>victory(tag=meme_Cannibal)         ->Наконец, пришли [founderName] и [memberNamePlural] [founder_possessive] в [place_powerCenter], и заточили [foeLeader] в подвал вместо тюрьмы, и устроили пир на [foeLeader_possessive] запасах пищи. И [founder_received] [founderName] власть, что раньше имел [foeLeader], но уже под новым светочем, которым [deity0_became] [deity0_name].</li>
-	<li>setup(tag=meme_Cannibal)           ->[founderName] [founder_crashlanded] крушение на далёкой планете. Испытывая нехватку еды и наблюдая за страданиями раненых спутников, [founder_pronoun] [founder_surrounded] стать эффективным лидером, отчего [founder_received] невиданную силу духа. И никогда больше [founder_possessive] товарищи не знали голода.</li>
-	<li>story(uses=1,tag=meme_Cannibal)    ->Чтобы освятить твёрдость убеждений своих последователей, [founderName] [founder_demanded] им доедать всю имеющуюся пищу хотя бы раз в неделю.</li>
-	<li>lessonIntro(tag=meme_Cannibal)     ->Лишь после доброй трапезы я [founder_got] того, чтобы люди узрели истину —</li>
-	<li>lesson(tag=meme_Cannibal)          ->нельзя по-настоящему объединиться с человеком, не съев с ним пуд соли</li>
-	<li>lessonReinforcement(tag=meme_Cannibal)->Каждый раз, когда я делюсь пищей с новым другом, я убеждаюсь, что он понимает это.</li>
-    <li>archistBasis(tag=meme_Cannibal)    ->Архотеки, боги-машины, сделали себя таковыми, поглощая из раза в раз собственных предшественников и становясь всё сильнее и сильнее.</li>
-    <li>archistFact(tag=meme_Cannibal)     ->Когда сознание архотеков расширяется, им нужно наращивать свою основу, поглощая и сливаясь с другими машинами.</li>
-	<li>archistProphecy(tag=meme_Cannibal) ->[inTheEnd] архотеки завершат последнюю фазу своего роста, поглотив всю планету и слившись с ней.</li>
-	<li>animistBasis(tag=meme_Cannibal)    ->Духи населяют всё сущее вокруг нас, и во время еды мы забираем силу съедаемых духов себе. А нет духов более сильных, чем те, что живут в складах с пищей.</li>
-	<li>animistFact(tag=meme_Cannibal)     ->Мы вбираем в себя дух и силу других людей, поедая их запасы пищи.</li>
-    <li>deity0_went(deity0_gender==None)->пошло</li>
-    <li>deity0_went(deity0_gender==Male)->пошёл</li>
-    <li>deity0_went(deity0_gender==Female)->пошла</li>
+	<li>...[deity0_lived_human] по имени [deity0_name]. Став во главе своего народа, [deity0_ate] [deity0_pronoun] бессчётное количество пищи и [deity0_became] [deity0_type].</li>
+	<li>...[altarRoomLabel] и [deity0_feasted] священной пищей, и все [memberNamePlural] узрели это.</li>
+	<li>...заявил [foeLeader] в жадности своей, что все, кто ел его пищу — преступники, и отправил...</li>
+	<li>...[founder_ate] все их запасы еды и [founder_received] силу [deity0_name].</li>
+	<li>...[place_powerCenter], и заточили [foeLeader] в подвал вместо тюрьмы, и устроили пир на [foeLeader_possessive] запасах пищи. И [founder_received] [founderName] власть, что раньше имел [foeLeader], но уже под новым светочем, которым [deity0_became] [deity0_name].</li>
+	<li>...нехватку еды и наблюдая за страданиями раненых спутников, [founder_pronoun] [founder_surrounded] стать эффективным лидером, отчего [founder_received] невиданную силу духа. И никогда больше [founder_possessive] товарищи не знали голода.</li>
+	<li>...[founder_demanded] им доедать всю имеющуюся пищу хотя...</li>
+	<li>lessonIntro(tag=meme_Cannibal) (9 пробелов) ->Лишь после доброй трапезы я [founder_got]...</li>
+	<li>lesson(tag=meme_Cannibal) (14 пробелов) ->нельзя...съев с ним пуд соли</li>
+	<li>lessonReinforcement(tag=meme_Cannibal) (пробел) ->Каждый...делюсь пищей с новым другом...</li>
+	...
+	<li>...роста, поглотив всю планету и слившись с ней.</li>
+	<li>...живут в складах с пищей.</li>
+	<li>...поедая их запасы пищи.</li>
+	...
 	<li>deity0_murdered(deity0_gender==None)->прогнало</li>
 	<li>deity0_murdered(deity0_gender==Male)->прогнал</li>
 	<li>deity0_murdered(deity0_gender==Female)->прогнала</li>
+	...
+	<li>deity0_lived_human(deity0_gender==None)->жил наследник правителя, человек</li>
+	<li>deity0_lived_human(deity0_gender==Male)->жил наследник правителя, мужчина</li>
+	<li>deity0_lived_human(deity0_gender==Female)->жила наследница правителя, женщина</li>
+	...
+	<li>founder_killed(founder_gender==Male)->напугал</li>
+	<li>founder_killed(founder_gender==Female)->напугала</li>
+	...
+	<li>founder_surrounded(founder_gender==Male)->был вынужден</li>
+	<li>founder_surrounded(founder_gender==Female)->была вынуждена</li>
+	...
+	-->
+  <Cannibal.descriptionMaker.rules.rulesStrings>
+	<li>creation(tag=meme_Cannibal)        ->[deity0_went] [deity0_name] к брату своему и [deity0_murdered] его, и [deity0_feasted] плотью его, и, поглотив силу его, [deity0_became] [deity0_first] среди богов.</li>
+	<li>episode(uses=1,tag=meme_Cannibal)  ->И [deity0_ate] [deity0_type] [deity0_name] тела врагов своих.</li>
+	<li>intro(tag=meme_Cannibal)           ->На [place_summary] [place_name] [deity0_lived_human] по имени [deity0_name]. Когда умер отец [deity0_possessive], [deity0_ate] [deity0_pronoun] плоть его и [deity0_became] [deity0_type].</li>
+	<li>intro(tag=meme_Cannibal)           ->На [place_summary] [place_name], когда шёл [ritualName], [deity0_came_down] [deity0_name] в [altarRoomLabel] и [deity0_feasted] плотью человеческой, и все [memberNamePlural] узрели это.</li>
+	<li>conflict(tag=meme_Cannibal)        ->И заявил [foeLeader], что есть человеческую плоть — преступление, и отправил своих [foeSoldiers], и гонимы были [memberNamePlural].</li>
+	<li>founderJoin(tag=meme_Cannibal)     ->И напали на [place_job] по имени [founderName] [foeSoldiers], которых послал [foeLeader]. Но [founder_killed] [founderName] их [place_personalWeapon] своим, [founder_ate] плоть их и [founder_received] силу [deity0_name].</li>
+	<li>victory(tag=meme_Cannibal)         ->Наконец, пришли [founderName] и [memberNamePlural] [founder_possessive] в [place_powerCenter], и убили [foeLeader], и вкусили плоти [foeLeader_possessive]. И сделал [deity0_name] [founderName] новым [foeLeader].</li>
+	<li>setup(tag=meme_Cannibal)           ->[founderName] [founder_crashlanded] крушение на далёкой планете. Испытывая нехватку еды и [founder_surrounded] мёртвыми спутниками, [founder_pronoun] съел их плоть, отчего [founder_received] силу.</li>
+	<li>story(uses=1,tag=meme_Cannibal)    ->Чтобы освятить твёрдость убеждений своих последователей, [founderName] [founder_demanded] им есть человеческую плоть хотя бы раз в неделю.</li>
+	<li>lessonIntro(tag=meme_Cannibal)     ->Лишь после доброй трапезы человечиной я [founder_got] того, чтобы люди узрели истину —</li>
+	<li>lesson(tag=meme_Cannibal)          ->нельзя по-настоящему объединиться с человеком, не съев его плоти</li>
+	<li>lessonReinforcement(tag=meme_Cannibal)->Каждый раз, когда я делюсь телом врага с новым другом, я убеждаюсь, что он понимает это.</li>
+    <li>archistBasis(tag=meme_Cannibal)    ->Архотеки, боги-машины, сделали себя таковыми, поглощая из раза в раз собственных предшественников и становясь всё сильнее и сильнее.</li>
+    <li>archistFact(tag=meme_Cannibal)     ->Когда сознание архотеков расширяется, им нужно наращивать свою основу, поглощая и сливаясь с другими машинами.</li>
+	<li>archistProphecy(tag=meme_Cannibal) ->[inTheEnd] архотеки завершат последнюю фазу своего роста, поглотив всё человечество и слившись с ним.</li>
+	<li>animistBasis(tag=meme_Cannibal)    ->Духи населяют всё сущее вокруг нас, и во время еды мы забираем силу съедаемых духов себе. А нет духов более сильных, чем те, что живут в людях.</li>
+	<li>animistFact(tag=meme_Cannibal)     ->Мы вбираем в себя дух и силу других людей, поедая их плоть.</li>
+    <li>deity0_went(deity0_gender==None)->пошло</li>
+    <li>deity0_went(deity0_gender==Male)->пошёл</li>
+    <li>deity0_went(deity0_gender==Female)->пошла</li>
+	<li>deity0_murdered(deity0_gender==None)->убило</li>
+	<li>deity0_murdered(deity0_gender==Male)->убил</li>
+	<li>deity0_murdered(deity0_gender==Female)->убила</li>
     <li>deity0_feasted(deity0_gender==None)->воспировало</li>
     <li>deity0_feasted(deity0_gender==Male)->воспировал</li>
     <li>deity0_feasted(deity0_gender==Female)->воспировала</li>
@@ -383,22 +421,22 @@
     <li>deity0_ate(deity0_gender==None)->съело</li>
     <li>deity0_ate(deity0_gender==Male)->съел</li>
     <li>deity0_ate(deity0_gender==Female)->съел</li>
-	<li>deity0_lived_human(deity0_gender==None)->жил наследник правителя, человек</li>
-	<li>deity0_lived_human(deity0_gender==Male)->жил наследник правителя, мужчина</li>
-	<li>deity0_lived_human(deity0_gender==Female)->жила наследница правителя, женщина</li>
+	<li>deity0_lived_human(deity0_gender==None)->жил человек</li>
+	<li>deity0_lived_human(deity0_gender==Male)->жил мужчина</li>
+	<li>deity0_lived_human(deity0_gender==Female)->жила женщина</li>
     <li>deity0_came_down(deity0_gender==None)->снизошло</li>
     <li>deity0_came_down(deity0_gender==Male)->снизошёл</li>
     <li>deity0_came_down(deity0_gender==Female)->снизошла</li>
-	<li>founder_killed(founder_gender==Male)->напугал</li>
-	<li>founder_killed(founder_gender==Female)->напугала</li>
+	<li>founder_killed(founder_gender==Male)->убил</li>
+	<li>founder_killed(founder_gender==Female)->убила</li>
     <li>founder_ate(founder_gender==Male)->съел</li>
     <li>founder_ate(founder_gender==Female)->съела</li>
     <li>founder_received(founder_gender==Male)->обрёл</li>
     <li>founder_received(founder_gender==Female)->обрела</li>
     <li>founder_crashlanded(founder_gender==Male)->потерпел</li>
     <li>founder_crashlanded(founder_gender==Female)->потерпела</li>
-	<li>founder_surrounded(founder_gender==Male)->был вынужден</li>
-	<li>founder_surrounded(founder_gender==Female)->была вынуждена</li>
+	<li>founder_surrounded(founder_gender==Male)->окружённый</li>
+	<li>founder_surrounded(founder_gender==Female)->окружённая</li>
     <li>founder_demanded(founder_gender==Male)->наказал</li>
     <li>founder_demanded(founder_gender==Female)->наказала</li>
     <li>founder_got(founder_gender==Male)->добился</li>
@@ -426,17 +464,16 @@
     <li>memeMoralist->первоед</li>
 	<li>memeMoralist->плотевед</li>
 	...
-	-->
-  <Cannibal.generalRules.rulesStrings>
+	Адаптация:
+	...
 	<li>memeAdjective_masc->обжорный</li>
 	<li>memeAdjective_fem->обжорная</li>
 	<li>memeAdjective_neutral->обжорное</li>
 	<li>memeAdjective_plural->обжорные</li>
-    <li>memeCreed_plural->едоки</li>
-    <li>memeCreed_plural->зубы</li>
+	...
 	<li>memeCreed_fem->эффект</li>
-    <li>memeCreed_masc->культ</li>
-    <li>memeHyphenPrefix->голодо</li>
+	...
+	<li>memeHyphenPrefix->голодо</li>
 	<li>memeConcept->блюда</li>
 	<li>memeConcept->гарнира</li>
 	<li>memeConcept->приправы</li>
@@ -448,40 +485,75 @@
 	<li>memeLeaderNoun->гурман</li>
     <li>memeMoralist->первоед</li>
 	<li>memeMoralist->знаток пиров</li>
+	...
+	-->
+  <Cannibal.generalRules.rulesStrings>
+	<li>memeAdjective_masc->кровавый</li>
+	<li>memeAdjective_fem->кровавая</li>
+	<li>memeAdjective_neutral->кровавое</li>
+	<li>memeAdjective_plural->кровавые</li>
+    <li>memeCreed_plural->едоки</li>
+    <li>memeCreed_plural->зубы</li>
+	<li>memeCreed_fem->бойня</li>
+    <li>memeCreed_masc->культ</li>
+	<li>memeHyphenPrefix->крове</li>
+	<li>memeConcept->крови</li>
+	<li>memeConcept->плоти</li>
+	<li>memeConcept->убиения</li>
+    <li>memeConcept->поедания</li>
+    <li>memeLeaderNoun->едок</li>
+    <li>memeLeaderNoun->шеф-повар</li>
+	<li>memeLeaderNoun->кровопийца</li>
+    <li>memeLeaderNoun->зуб</li>
+	<li>memeLeaderNoun->потрошитель</li>
+    <li>memeMoralist->первоед</li>
+	<li>memeMoralist->плотевед</li>
   </Cannibal.generalRules.rulesStrings>
-
-	<!-- Эти 2 группы - без изменений, но необходимо оставить, иначе грамматика страдает:
-
-  Оригинал: cannibal -->
-  <Cannibal.symbolPacks.0.adjective>обжорный</Cannibal.symbolPacks.0.adjective>
-  <!-- Оригинал: Cannibalism -->
-  <Cannibal.symbolPacks.0.ideoName>обжорство</Cannibal.symbolPacks.0.ideoName>
-  <!-- Оригинал: cannibal -->
-  <Cannibal.symbolPacks.0.member>обжора</Cannibal.symbolPacks.0.member>
-  <!-- Оригинал: cannibalism -->
-  <Cannibal.symbolPacks.0.theme>обжорства</Cannibal.symbolPacks.0.theme>
-  <!-- Оригинал: androphage -->
-  <Cannibal.symbolPacks.1.adjective>пожирательский</Cannibal.symbolPacks.1.adjective>
-  <!-- Оригинал: Androphagy -->
-  <Cannibal.symbolPacks.1.ideoName>пожирательство</Cannibal.symbolPacks.1.ideoName>
-  <!-- Оригинал: androphage -->
-  <Cannibal.symbolPacks.1.member>пожиратель</Cannibal.symbolPacks.1.member>
-  <!-- Оригинал: androphagy -->
-  <Cannibal.symbolPacks.1.theme>пожирательства</Cannibal.symbolPacks.1.theme>
-  <!-- Оригинал: manporky -->
-  <Cannibal.symbolPacks.2.adjective>переедательский</Cannibal.symbolPacks.2.adjective>
-  <!-- Оригинал: Manporkism -->
-  <Cannibal.symbolPacks.2.ideoName>переедание</Cannibal.symbolPacks.2.ideoName>
-  <!-- Оригинал: manporkist -->
-  <Cannibal.symbolPacks.2.member>переедающий</Cannibal.symbolPacks.2.member>
-  <!-- Оригинал: manpork -->
-  <Cannibal.symbolPacks.2.theme>переедания</Cannibal.symbolPacks.2.theme>
+	<!-- Оригинал: каннибальский
+	Адаптация: обжорный -->
+	<Cannibal.symbolPacks.0.adjective>каннибальский</Cannibal.symbolPacks.0.adjective>
+	<!-- Оригинал: каннибализм
+	Адаптация: обжорство -->
+	<Cannibal.symbolPacks.0.ideoName>каннибализм</Cannibal.symbolPacks.0.ideoName>
+	<!-- Оригинал: каннибал
+	Адаптация: обжора -->
+	<Cannibal.symbolPacks.0.member>каннибал</Cannibal.symbolPacks.0.member>
+	<!-- Оригинал: каннибализма
+	Адаптация: обжорства -->
+	<Cannibal.symbolPacks.0.theme>каннибализма</Cannibal.symbolPacks.0.theme>
+	<!-- Оригинал: людоедский
+	Адаптация: пожирательский -->
+	<Cannibal.symbolPacks.1.adjective>людоедский</Cannibal.symbolPacks.1.adjective>
+	<!-- Оригинал: людоедство
+	Адаптация: пожирательство -->
+	<Cannibal.symbolPacks.1.ideoName>людоедство</Cannibal.symbolPacks.1.ideoName>
+	<!-- Оригинал: людоед
+	Адаптация: пожиратель -->
+	<Cannibal.symbolPacks.1.member>людоед</Cannibal.symbolPacks.1.member>
+	<!-- Оригинал: людоедства
+	Адаптация: пожирательства -->
+	<Cannibal.symbolPacks.1.theme>людоедства</Cannibal.symbolPacks.1.theme>
+	<!-- Оригинал: челоедский
+	Адаптация: переедательский -->
+	<Cannibal.symbolPacks.2.adjective>челоедский</Cannibal.symbolPacks.2.adjective>
+	<!-- Оригинал: челоедство
+	Адаптация: переедание -->
+	<Cannibal.symbolPacks.2.ideoName>челоедство</Cannibal.symbolPacks.2.ideoName>
+	<!-- Оригинал: челоед
+	Адаптация: переедающий -->
+	<Cannibal.symbolPacks.2.member>челоед</Cannibal.symbolPacks.2.member>
+	<!-- Оригинал: челоедства
+	Адаптация: переедания -->
+	<Cannibal.symbolPacks.2.theme>челоедства</Cannibal.symbolPacks.2.theme>
 
   <!-- EN: darkness -->
   <Darkness.label>почитание тьмы</Darkness.label>
   <!-- EN: Bright light burns and destroys! Darkness nourishes and creates. People ought to live in darkness. -->
   <Darkness.description>Яркий свет сжигает и разрушает! Тьма питает и созидает. Люди должны жить во тьме.</Darkness.description>
-  <!-- EN:
+
+	<!-- Эти 2 группы - без изменений, но необходимо оставить, иначе грамматика страдает.
+
+  EN:
     <li>creation(tag=meme_Darkness)        ->[deity0_name] cloaked the universe in darkness and placed humanity within it so that [deity0_pronoun] could share the darkness with us.</li>
     <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name] created light so that humanity could know [deity0_name] through the shadows light creates.</li>
     <li>intro(tag=meme_Darkness)           ->The [deity0_type] [deity0_name] created a decade-long eclipse to force the first settlers of the [place_summary] [place_name] to understand that [deity0_name]'s truth is found in the shadow.</li>
@@ -849,14 +921,14 @@
   <!-- EN: dope -->
   <HighLife.symbolPacks.1.theme>психонавтики</HighLife.symbolPacks.1.theme>
 
-  <!-- Оригинал: курический -->
-  <HighLife.symbolPacks.2.adjective>чилерский</HighLife.symbolPacks.2.adjective>
-  <!-- Оригинал: куризм -->
-  <HighLife.symbolPacks.2.ideoName>чилерство</HighLife.symbolPacks.2.ideoName>
-  <!-- Оригинал: курец -->
-  <HighLife.symbolPacks.2.member>чилер</HighLife.symbolPacks.2.member>
-  <!-- Оригинал: курение -->
-  <HighLife.symbolPacks.2.theme>чилерства</HighLife.symbolPacks.2.theme>
+	<!-- Оригинал: курический -->
+	<HighLife.symbolPacks.2.adjective>чилерский</HighLife.symbolPacks.2.adjective>
+	<!-- Оригинал: куризм -->
+	<HighLife.symbolPacks.2.ideoName>чилерство</HighLife.symbolPacks.2.ideoName>
+	<!-- Оригинал: курец -->
+	<HighLife.symbolPacks.2.member>чилер</HighLife.symbolPacks.2.member>
+	<!-- Оригинал: курение -->
+	<HighLife.symbolPacks.2.theme>чилерства</HighLife.symbolPacks.2.theme>
 
 	<!-- Этот кусок - без изменений, но необходимо оставить, иначе грамматика страдает:
 
