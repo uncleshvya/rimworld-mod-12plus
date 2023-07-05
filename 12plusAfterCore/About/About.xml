@@ -255,6 +255,8 @@ Ideas to realize in next version:
 		<li>Rus.Biotech.Nastia</li>
 		<li>OW.RU.CORE</li>
 		<li>RU.NFD.TranslationFix</li>
+		<li>roolo.RunAndGun</li>
+		<li>brrainz.zombieland</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
