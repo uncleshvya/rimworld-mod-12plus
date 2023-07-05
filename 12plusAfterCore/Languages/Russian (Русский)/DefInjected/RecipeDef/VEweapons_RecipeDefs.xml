@@ -43,9 +43,8 @@
 	<Make_VWE_Gun_ChargeSniperRifle.jobString>изготавливает снайперскую энерговинтовку</Make_VWE_Gun_ChargeSniperRifle.jobString>
 	<Make_VWE_Gun_ChargeRocketLauncher.jobString>изготавливает энергоракетницу</Make_VWE_Gun_ChargeRocketLauncher.jobString>
 	<Make_VWE_Apparel_DynamiteBelt.jobString>изготавливает пояс с динамитными шашками</Make_VWE_Apparel_DynamiteBelt.jobString>
-	<!-- Мод попал под подозрение - полная сборка генерировала редкий баг. До момента отлова, исправление отключено.
-	Оригинал: Изготавливает большой лук. -->
-	<Make_Bow_Great.jobString>изготавливает длинный лук</Make_Bow_Great.jobString>
+	<!-- Оригинал: Изготавливает большой лук. -->
+	<Make_Bow_Great.jobString>изготавливает большой лук</Make_Bow_Great.jobString>
 	<!-- Эти гранаты не лишают слуха или зрения.
 	Оригиналы: все про "свето-шумовые" -->
 	<Make_VWE_FlashGrenade.label>изготовить парализующие гранаты</Make_VWE_FlashGrenade.label>
