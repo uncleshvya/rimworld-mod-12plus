@@ -257,6 +257,12 @@ Ideas to realize in next version:
 		<li>RU.NFD.TranslationFix</li>
 		<li>roolo.RunAndGun</li>
 		<li>brrainz.zombieland</li>
+		<li>Jaxe.RimHUD</li>
+		<li>dodther.RimHUDSubmodRussian</li>
+		<li>Unknown.Perevod.Jaxe.RimHUD</li>
+		<li>RimHUD.ru.zh</li>
+		<li>kamikadza13.RimHUD</li>
+		<li>RusAloveS.RimHUD</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
