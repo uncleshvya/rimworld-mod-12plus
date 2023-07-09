@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Добавлены недостающие строки русской локализации, сообщите разработчику dodther.RimHUDSubmodRussian.
+
+	EN: Layout -->
+	<RimHUD.Dialog_Config.Tab.Content.Layout>Оформление</RimHUD.Dialog_Config.Tab.Content.Layout>
+	<!-- EN: Include minimum tabs -->
+	<RimHUD.Dialog_SavePreset.IncludeTabs>Включить минимум вкладок</RimHUD.Dialog_SavePreset.IncludeTabs>
+
+	<!-- EN: unit -->
+	<RimHUD.Model.Creature.Unit>юнит</RimHUD.Model.Creature.Unit>
+	<!-- EN: Rules selector (Requires Pawn Rules) -->
+	<RimHUD.Model.Component.Rules>Выбор правил (требуется Pawn Rules)</RimHUD.Model.Component.Rules>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: Мёртв -->
+	<RimHUD.Model.Health.Dead>Тело</RimHUD.Model.Health.Dead>
+	<!-- Оригинал: Умрет: {0} -->
+	<RimHUD.Model.Health.Bleed>Истечёт кровью через: {0}</RimHUD.Model.Health.Bleed>
+
+</LanguageData>
