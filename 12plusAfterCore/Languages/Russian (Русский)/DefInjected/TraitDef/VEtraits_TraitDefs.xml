@@ -12,7 +12,7 @@
 	Заодно повышена экпрессия.
 	Оригинал: теплолюбивый -->
 	<VTE_HeatInclined.degreeDatas.0.label>жаростойкость</VTE_HeatInclined.degreeDatas.0.label>
-	<!-- Оригинал: холодолюбивый -->
+	<!-- Оригинал: хладолюбивый -->
 	<VTE_ColdInclined.degreeDatas.0.label>морозоустойчивость</VTE_ColdInclined.degreeDatas.0.label>
 	<!-- EN: [PAWN_nameDef] has never felt nausea in [PAWN_possessive] life. Throwing up or food poisoning is foreign to [PAWN_objective].
 	Исправлены ошибки падежных окончаний и размытая ссылка для PAWN_objective.
