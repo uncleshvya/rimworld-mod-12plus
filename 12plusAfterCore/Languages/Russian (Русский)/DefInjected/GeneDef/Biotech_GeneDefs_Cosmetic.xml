@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: унисекс-бороды -->
+	<Beard_Always.label>волосы на лице</Beard_Always.label>
+	<!-- Оригинал: бородатость -->
+	<Beard_Always.labelShortAdj>лицевой мех</Beard_Always.labelShortAdj>
+	<!-- Оригинал: винно -->
+	<Skin_DeepRed.symbolPack.prefixSymbols.4.symbol>бордово</Skin_DeepRed.symbolPack.prefixSymbols.4.symbol>
+	<!-- Оригинал: вино -->
+	<Skin_Purple.symbolPack.prefixSymbols.1.symbol>пурпурно</Skin_Purple.symbolPack.prefixSymbols.1.symbol>
+
+</LanguageData>
