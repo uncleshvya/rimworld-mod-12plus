@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Оригиналы: без неразрывных пробелов -->
+	<Body_Fat.description>Носители этого могут быть грузными и тучными. Человек может иметь несколько генов телосложения — доминантным будет только один.</Body_Fat.description>
+	<Body_Hulk.description>Носители этого гена могут быть крупными и мускулистыми. Человек может иметь несколько генов телосложения — доминантным будет только один.</Body_Hulk.description>
+	<Body_Standard.description>Носители этого гена обладают могут обладать среднестатистическим телосложением. Человек может иметь несколько генов телосложения — доминантным будет только один.</Body_Standard.description>
+	<Body_Thin.description>Носители этого гена могут быть худощавыми. Человек может иметь несколько генов телосложения — доминантным будет только один.</Body_Thin.description>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: мёртвая голова -->
+	<Head_Gaunt.label>сморщенная голова</Head_Gaunt.label>
+	<!-- Оригинал: ...выглядят по-мертвецки иссушёнными. -->
+	<Head_Gaunt.description>Лицо и голова носителей этого гена выглядят впалыми, иссушёнными.</Head_Gaunt.description>
+	<!-- Оригинал: мертво -->
+	<Head_Gaunt.symbolPack.prefixSymbols.0.symbol>морщинисто</Head_Gaunt.symbolPack.prefixSymbols.0.symbol>
+	<!-- Оригинал: трупо -->
+	<Head_Gaunt.symbolPack.prefixSymbols.1.symbol>черепо</Head_Gaunt.symbolPack.prefixSymbols.1.symbol>
+	<!-- Оригинал: гробо -->
+	<Head_Gaunt.symbolPack.prefixSymbols.2.symbol>сморщенно</Head_Gaunt.symbolPack.prefixSymbols.2.symbol>
+	<!-- Оригинал: жутко -->
+	<Head_Gaunt.symbolPack.prefixSymbols.3.symbol>костляво</Head_Gaunt.symbolPack.prefixSymbols.3.symbol>
+
+</LanguageData>
