@@ -19,5 +19,9 @@
 	<ElectricalShock.label>шок</ElectricalShock.label>
 	<!-- EN: {0} has been shocked to death. -->
 	<ElectricalShock.deathMessage>{0} {0_gender ? был поражён : была поражена} электрическим зомби.</ElectricalShock.deathMessage>
+	<!-- EN: seismic wave -->
+	<SeismicWave.label>дрожь земли</SeismicWave.label>
+	<!-- EN: {0} has been killed. -->
+	<SeismicWave.deathMessage>{0} {0_gender ? был поражён : была поражена} невыносимой вибрацией.</SeismicWave.deathMessage>
 
 </LanguageData>
