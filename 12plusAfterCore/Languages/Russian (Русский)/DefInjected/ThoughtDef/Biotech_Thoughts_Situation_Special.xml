@@ -7,10 +7,6 @@
 	<ChildlikePositivity.stages.childlike_joy.description>Весело! Красиво! Клёво!</ChildlikePositivity.stages.childlike_joy.description>
 	<!-- Оригинал: без неразрывного пробела. -->
 	<ChildlikePositivity.stages.childlike_wonder.description>Наш мир — волшебное место. Жду не дождусь, когда вырасту!</ChildlikePositivity.stages.childlike_wonder.description>
-	<!-- Оригинал: ...{CHEMICAL_possessive} его {PAWN_gender ? принимал : принимала}. -->
-	<GeneticChemicalDependency.stages.genetic_chemical_dependency.description>Мне жизненно {CHEMICAL_gender ? необходим : необходима : необходимо} {CHEMICAL_label} из-за моей генетической зависимости. Прошло очень много времени с тех пор, как я {CHEMICAL_possessive} {PAWN_gender ? принимал : принимала}.</GeneticChemicalDependency.stages.genetic_chemical_dependency.description>
-	<!-- Оригинал: гемогенное голодание -->
-	<HemogenCraving.stages.hemogen_craving-0.label>гемогеновое голодание</HemogenCraving.stages.hemogen_craving-0.label>
 	<!-- Оригинал: ...беременность меня доканает, моё... -->
 	<PregnancyMood_Collapse.stages.pregnancy_mood_collapse.description>Эта беременность меня доконает, моё тело меня не слушается, я чувствую себя ужасно. Это так выматывает!</PregnancyMood_Collapse.stages.pregnancy_mood_collapse.description>
 	<!-- Оригиналы: без неразрывных пробелов. -->
