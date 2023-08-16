@@ -3,9 +3,9 @@
 
 	<!-- Исправление согласно концепции «12+».
 
-	Оригиналы: {PAWN_gender ? Убил : Убила} невинное животное ({0}) -->
-	<KilledInnocentAnimal_Disapproved.stages.killed_innocent.label>{PAWN_gender ? Атаковал : Атаковала} невинное животное ({0})</KilledInnocentAnimal_Disapproved.stages.killed_innocent.label>
-	<KilledInnocentAnimal_Horrible.stages.killed_innocent.label>{PAWN_gender ? Атаковал : Атаковала} невинное животное ({0})</KilledInnocentAnimal_Horrible.stages.killed_innocent.label>
+	Оригиналы: убито невинное... -->
+	<KilledInnocentAnimal_Disapproved.stages.killed_innocent.label>потеряно невинное животное ({0})</KilledInnocentAnimal_Disapproved.stages.killed_innocent.label>
+	<KilledInnocentAnimal_Horrible.stages.killed_innocent.label>потеряно невинное животное ({0})</KilledInnocentAnimal_Horrible.stages.killed_innocent.label>
 	<!-- Оригинал: ...пришлось убить невинное... -->
 	<KilledInnocentAnimal_Disapproved.stages.killed_innocent.description>Мне пришлось атаковать невинное животное. Я {PAWN_gender ? сделал : сделала} то, что {PAWN_gender ? сам : сама} не одобряю.</KilledInnocentAnimal_Disapproved.stages.killed_innocent.description>
 	<!-- Оригинал: ...пришлось убить невинное...Это почти то же самое, что и убить человека. -->
