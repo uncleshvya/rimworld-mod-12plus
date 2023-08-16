@@ -1,14 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициального перевода от Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
-	Оригинал: ...что мать умрет при родах. -->
-	<ChildBirth.extraOutcomeDescriptions.0.description>Существует {0_percentage} вероятность того, что роды приведут к потере матери.</ChildBirth.extraOutcomeDescriptions.0.description>
-	<!-- Оригинал: Мертворождение -->
+	Оригинал: Риск смерти матери... -->
+	<ChildBirth.extraOutcomeDescriptions.0.description>Риск потери матери при родах составляет {0_percentage}.</ChildBirth.extraOutcomeDescriptions.0.description>
+	<!-- Оригинал: мертворождённый -->
 	<ChildBirth.outcomeChances.0.label>выкидыш</ChildBirth.outcomeChances.0.label>
-	<!-- Оригинал: Ребенок {MOTHER_labelShort} родился мертвым. -->
-	<ChildBirth.outcomeChances.0.description>Плод в животе {MOTHER_labelShort} так и не смог сформироваться в ребёнка из-за осложнений во время беременности.</ChildBirth.outcomeChances.0.description>
+	<!-- Оригинал: {MOTHER_labelShort} родила мёртвого ребёнка. -->
+	<ChildBirth.outcomeChances.0.description>{MOTHER_labelShort} перенесла осложнения во время беременности, и эмбрион не смог сформироваться в ребёнка.</ChildBirth.outcomeChances.0.description>
 
 </LanguageData>
