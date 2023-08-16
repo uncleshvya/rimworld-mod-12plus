@@ -84,7 +84,7 @@
 	<Corpse_LabradorRetriever.description>Туша лабрадора-ретривера.</Corpse_LabradorRetriever.description>
 	<!-- Оригинал: Мёртвая рысь. -->
 	<Corpse_Lynx.description>Туша рыси.</Corpse_Lynx.description>
-	<!-- Заодно исправлена неточность, сообщите разработчику ванили обо всех механоидах.
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили - сентипеды не влезали в интерфейс.
 	Оригинал: труп сентипеды -->
 	<Corpse_Mech_CentipedeBlaster.label>обломки сентипеды-Б</Corpse_Mech_CentipedeBlaster.label>
 	<!-- Оригинал: Труп сентипеды. -->
@@ -164,7 +164,10 @@
 	<Corpse_Yak.description>Туша яка.</Corpse_Yak.description>
 	<!-- Оригинал: Мёртвый йоркширский терьер. -->
 	<Corpse_YorkshireTerrier.description>Тушка йоркширского терьера.</Corpse_YorkshireTerrier.description>
-	<!-- Оригинал: плоть человека -->
-	<Meat_Human.label>поддельное мумиё</Meat_Human.label>
+	<!-- Хорошо бы убрать возможность людоедства. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например для повышения урожайности и облегчения утилизации трупов.
+	Сохраняем код на случай повторной выбраковки:
+
+	Оригинал: плоть человека
+	<Meat_Human.label>поддельное мумиё</Meat_Human.label> -->
 
 </LanguageData>
