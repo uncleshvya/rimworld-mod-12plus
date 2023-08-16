@@ -13,9 +13,9 @@
 	<IngestedHemogenPack.stages.ingested_hemogen_pack.description>Мне пришлось выпить гемоген-пакет, вместо того чтобы поставить капельницу. Это было абсолютно бесполезно, расточительно, да ещё и отвратительно на вкус.</IngestedHemogenPack.stages.ingested_hemogen_pack.description>
 	<!-- Оригинал: Я потеряла своего ребёнка. -->
 	<Miscarried.stages.miscarried.description>Мы не смогли вырастить эмбрион и превратить его в ребёнка.</Miscarried.stages.miscarried.description>
-	<!-- Оригинал: мёртворождение -->
+	<!-- Оригинал: мертворождение -->
 	<Stillbirth.stages.stillbirth.label>выкидыш</Stillbirth.stages.stillbirth.label>
-	<!-- Оригинал: Мой рёбенок умер во время родов. -->
+	<!-- Оригинал: ...ребёнок умер во время родов. -->
 	<Stillbirth.stages.stillbirth.description>Мой ребёнок так и не смог сформироваться из эмбриона. А узнать об этом удалось только во время родов.</Stillbirth.stages.stillbirth.description>
 
 </LanguageData>
