@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Оригинал: без неразрывного пробела -->
+	<Children.arrivalTextExtra>Все {PAWNSPLURAL} — дети!</Children.arrivalTextExtra>
+
+</LanguageData>
