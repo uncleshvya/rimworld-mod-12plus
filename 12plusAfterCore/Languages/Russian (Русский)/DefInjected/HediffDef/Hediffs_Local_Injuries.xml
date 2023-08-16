@@ -13,13 +13,22 @@
 
 	<!-- Исправление согласно концепции «12+».
 
-	Оригинал: вырезано -->
+	Оригинал: отрезано -->
+	<Cut.injuryProps.destroyedLabel>отсутствует</Cut.injuryProps.destroyedLabel>
+	<!-- Оригинал: вырезано -->
 	<Cut.injuryProps.destroyedOutLabel>отсутствует</Cut.injuryProps.destroyedOutLabel>
+	<!-- Оригинал: отрезано -->
+	<ExecutionCut.injuryProps.destroyedLabel>отсутствует</ExecutionCut.injuryProps.destroyedLabel>
 	<!-- Оригинал: вырезано -->
 	<ExecutionCut.injuryProps.destroyedOutLabel>отсутствует</ExecutionCut.injuryProps.destroyedOutLabel>
+	<!-- Оригинал: отрезано -->
+	<Stab.injuryProps.destroyedLabel>отсутствует</Stab.injuryProps.destroyedLabel>
 	<!-- Оригинал: вырезано -->
 	<Stab.injuryProps.destroyedOutLabel>отсутствует</Stab.injuryProps.destroyedOutLabel>
 	<!-- Исправление неофициального перевода от Sestrenka. На момент проведения работ, официальный перевод ещё не был полностью закончен.
+	Оригинал: отрезано -->
+	<SurgicalCut.injuryProps.destroyedLabel>отсутствует</SurgicalCut.injuryProps.destroyedLabel>
+	<!-- Исправление перевода от Sestrenka.
 	Оригинал: вырезано -->
 	<SurgicalCut.injuryProps.destroyedOutLabel>отсутствует</SurgicalCut.injuryProps.destroyedOutLabel>
 
