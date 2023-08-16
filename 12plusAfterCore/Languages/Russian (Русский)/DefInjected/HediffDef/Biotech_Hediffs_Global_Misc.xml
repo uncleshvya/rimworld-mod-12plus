@@ -1,14 +1,19 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Оригинал: без неразрывного пробела -->
+	<MorningSickness.description>Тошнота, сопровождающаяся недомоганием и спутанностью сознания — частый спутник беременных.</MorningSickness.description>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Исправление неофициального перевода от Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
+	Исправление неофициального перевода от Sestrenka. На момент проведения работ, официальный перевод ещё не был полностью закончен. Перезаписываем значение переменной из ванили.
 	Оригинал: смертельно -->
-	<InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.0.labelPrefix>фатально</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.0.labelPrefix>
-	<!-- Оригинал: Мертворождение -->
+	<InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.0.labelPrefix>очень опасная</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.0.labelPrefix>
+	<!-- Оригинал: мертворождение -->
 	<Stillborn.label>выкидыш</Stillborn.label>
-	<!-- Оригинал: Этот ребенок умер из-за осложнений... -->
+	<!-- Оригинал: Этот младенец погиб из... -->
 	<Stillborn.description>Этот эмбрион так и не смог сформироваться в ребёнка из-за осложнений во время беременности.</Stillborn.description>
 
 </LanguageData>
