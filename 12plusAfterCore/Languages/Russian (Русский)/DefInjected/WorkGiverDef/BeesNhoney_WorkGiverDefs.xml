@@ -7,19 +7,19 @@
 	Оригинал: варить сусло -->
 	<DoBillsBrew.label>готовить напитки</DoBillsBrew.label>
 	<!-- Оригинал: варить сусло, используя -->
-	<DoBillsBrew.gerund>Готовить, используя</DoBillsBrew.gerund>
+	<DoBillsBrew.gerund>готовить, используя</DoBillsBrew.gerund>
 	<!-- Оригинал: варить сусло -->
 	<DoBillsBrew.verb>приготовить напитки</DoBillsBrew.verb>
 	<!-- Оригинал: вырастить новую пчелиную королеву -->
 	<DoBillsRaiseNewQueen.label>выращивать пчелиную матку</DoBillsRaiseNewQueen.label>
 	<!-- Оригинал: выращивание пчелиной королевы -->
-	<DoBillsRaiseNewQueen.gerund>Вырастить пчелиную матку, используя</DoBillsRaiseNewQueen.gerund>
+	<DoBillsRaiseNewQueen.gerund>вырастить пчелиную матку, используя</DoBillsRaiseNewQueen.gerund>
 	<!-- Оригинал: вырастить пчелиную королеву -->
 	<DoBillsRaiseNewQueen.verb>вырастить пчелиную матку</DoBillsRaiseNewQueen.verb>
 	<!-- Оригинал: сбор мёда -->
 	<GetHoney.label>извлекать мёд</GetHoney.label>
 	<!-- Оригинал: сбор -->
-	<GetHoney.gerund>Извлечь мёд из</GetHoney.gerund>
+	<GetHoney.gerund>извлечь мёд из</GetHoney.gerund>
 	<!-- Оригинал: собирать -->
 	<GetHoney.verb>извлечь мёд</GetHoney.verb>
 
