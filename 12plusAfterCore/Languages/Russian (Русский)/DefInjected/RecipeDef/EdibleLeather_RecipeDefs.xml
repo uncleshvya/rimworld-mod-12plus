@@ -3,18 +3,21 @@
 
 	<!-- Исправление согласно концепции «12+».
 
-	Оригинал: ...из кожи -->
-	<CookMealEdibleLeather.label>приготовить варево из шкур</CookMealEdibleLeather.label>
-	<!-- Оригинал: ...обрезки кожи. -->
-	<CookMealEdibleLeather.description>Приготовить корм для скота, выварив обрезки шкур животных.</CookMealEdibleLeather.description>
-	<!-- Оригинал: ...из кожи -->
-	<CookMealEdibleLeather.jobString>готовит варево из шкур</CookMealEdibleLeather.jobString>
+	Хорошо бы убрать разделку людей. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например на новые материалы.
+	Сохраняем код на случай повторной выбраковки:
 
-	<!-- Оригинал: ...из кожи х4 -->
-	<CookMealEdibleLeatherBulk.label>приготовить варево из шкур х4</CookMealEdibleLeatherBulk.label>
-	<!-- Оригинал: ...обрезки кожи. -->
-	<CookMealEdibleLeatherBulk.description>Приготовить много корма для скота, выварив обрезки шкур животных.</CookMealEdibleLeatherBulk.description>
-	<!-- Оригинал: ...из кожи х4 -->
-	<CookMealEdibleLeatherBulk.jobString>готовит варево из шкур х4</CookMealEdibleLeatherBulk.jobString>
+	Оригинал: ...из кожи
+	Адаптация:
+	<CookMealEdibleLeather.label>приготовить варево из шкур</CookMealEdibleLeather.label> -->
+	<!-- Оригинал: ...обрезки кожи.
+	<CookMealEdibleLeather.description>Приготовить корм для скота, выварив обрезки шкур животных.</CookMealEdibleLeather.description> -->
+	<!-- Оригинал: ...из кожи
+	<CookMealEdibleLeather.jobString>готовит варево из шкур</CookMealEdibleLeather.jobString> -->
+	<!-- Оригинал: ...из кожи х4
+	<CookMealEdibleLeatherBulk.label>приготовить варево из шкур х4</CookMealEdibleLeatherBulk.label> -->
+	<!-- Оригинал: ...обрезки кожи.
+	<CookMealEdibleLeatherBulk.description>Приготовить много корма для скота, выварив обрезки шкур животных.</CookMealEdibleLeatherBulk.description> -->
+	<!-- Оригинал: ...из кожи х4
+	<CookMealEdibleLeatherBulk.jobString>готовит варево из шкур х4</CookMealEdibleLeatherBulk.jobString> -->
 
 </LanguageData>
