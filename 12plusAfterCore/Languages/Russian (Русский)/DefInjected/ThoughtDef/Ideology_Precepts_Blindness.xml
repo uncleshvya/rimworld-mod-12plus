@@ -22,49 +22,56 @@
 
 	<!-- Исправление согласно концепции «12+».
 
-	Заодно исправлена неточность, сообщите разработчику ванили. Нужно использовать более уничижительное слово вместо "церемония".
-	Оригинал: церемония ослепления -->
-	<BlindingCeremony_Know_Horrible.stages.blinding_ceremony.label>обряд анти-зрения</BlindingCeremony_Know_Horrible.stages.blinding_ceremony.label>
-	<!-- Оригинал: Мы кого-то ослепили из идеолигиозных соображений! Это... -->
-	<BlindingCeremony_Know_Horrible.stages.blinding_ceremony.description>Мы провели варварский обряд по замене нормального зрения на нечто непонятное! Это ужасно!</BlindingCeremony_Know_Horrible.stages.blinding_ceremony.description>
-	<!-- Оригинал: ослепление -->
-	<BlindingCeremony_Self_Elevated.stages.was_blinded.label>открыто анти-зрение</BlindingCeremony_Self_Elevated.stages.was_blinded.label>
-	<!-- Оригинал: Меня ослепили в ходе... -->
-	<BlindingCeremony_Self_Elevated.stages.was_blinded.description>Мне открыли анти-зрение в ходе праведного ритуала. Наконец-то я могу учиться по-настоящему видеть.</BlindingCeremony_Self_Elevated.stages.was_blinded.description>
-	<!-- Оригинал: ослепление -->
-	<BlindingCeremony_Self_Respected.stages.was_blinded.label>открыто анти-зрение</BlindingCeremony_Self_Respected.stages.was_blinded.label>
-	<!-- Оригинал: Меня ослепили в ходе... -->
-	<BlindingCeremony_Self_Respected.stages.was_blinded.description>Мне открыли анти-зрение в ходе праведного ритуала. Наконец-то я могу учиться по-настоящему видеть.</BlindingCeremony_Self_Respected.stages.was_blinded.description>
-	<!-- Оригинал: ослепление -->
-	<BlindingCeremony_Self_Sublime.stages.was_blinded.label>открыто анти-зрение</BlindingCeremony_Self_Sublime.stages.was_blinded.label>
-	<!-- Оригинал: Меня ослепили в ходе... -->
-	<BlindingCeremony_Self_Sublime.stages.was_blinded.description>Мне открыли анти-зрение в ходе праведного ритуала. Наконец-то я могу учиться по-настоящему видеть.</BlindingCeremony_Self_Sublime.stages.was_blinded.description>
-	<!-- Оригинал: ...настоящее ослепление в разы... -->
-	<Blindness_ArtificialBlind.stages.vision_blocked.description>Временно закрывая свой обзор, я помогаю себе воспринимать мир истинным образом. Этого хватает, но настоящее анти-зрение в разы лучше.</Blindness_ArtificialBlind.stages.vision_blocked.description>
-	<!-- Оригинал: Ослепление даровало... -->
-	<Blindness_Elevated_Blind.stages.blind.description>Отсутствие примитивного зрения даровало мне способность видеть мир истинно верным способом.</Blindness_Elevated_Blind.stages.blind.description>
-	<!-- Оригинал: ...пути к просветлению через слепоту. -->
-	<Blindness_Elevated_HalfBlind.stages.halfblind.description>Я на пути к анти-зрению.</Blindness_Elevated_HalfBlind.stages.halfblind.description>
-	<!-- Оригинал: есть зрение -->
-	<Blindness_Elevated_NonBlind.stages.not_blind.label>есть примитивное зрение</Blindness_Elevated_NonBlind.stages.not_blind.label>
-	<!-- Оригинал: Я хочу лишиться зрения, чтобы лучше чувствовать... -->
-	<Blindness_Elevated_NonBlind.stages.not_blind.description>Врождённое зрение мешает мне чувствовать мир вокруг себя истинно верным способом. У меня должна быть хотя бы повязка на глаза.</Blindness_Elevated_NonBlind.stages.not_blind.description>
-	<!-- Оригинал: есть зрение -->
-	<Blindness_Elevated_NonBlind_Social.stages.sighted.label>есть примитивное зрение</Blindness_Elevated_NonBlind_Social.stages.sighted.label>
-	<!-- Оригинал: Ослепление даровало... -->
-	<Blindness_Respected_Blind.stages.blind.description>Отсутствие примитивного зрения даровало мне способность видеть мир истинно верным способом.</Blindness_Respected_Blind.stages.blind.description>
-	<!-- Оригинал: есть зрение -->
-	<Blindness_Respected_NonBlind_Social.stages.sighted.label>есть примитивное зрение</Blindness_Respected_NonBlind_Social.stages.sighted.label>
+	Хорошо бы убрать возможность вивисекции людей. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например на новые идеолигии.
+	Сохраняем код на случай повторной выбраковки:
+
+	Заодно исправлена неточность, сообщите разработчику ванили. Средневековый колорит реализован в Royalty, нужно использовать более уничижительное слово вместо "церемония".
+	Оригинал: церемония ослепления
+	Адаптация: обряд анти-зрения -->
+	<BlindingCeremony_Know_Horrible.stages.blinding_ceremony.label>обряд ослепления</BlindingCeremony_Know_Horrible.stages.blinding_ceremony.label>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили - по возможности следует избегать эффекта, как будто поселенцы не знают о ком речь.
+	Оригинал: Мы кого-то ослепили из идеолигиозных соображений! Это ужасно!
+	Адаптация: Мы провели варварский обряд по замене нормального зрения на нечто непонятное! Это ужасно! -->
+	<BlindingCeremony_Know_Horrible.stages.blinding_ceremony.description>Мы провели варварский обряд лишения зрения! Это ужасно!</BlindingCeremony_Know_Horrible.stages.blinding_ceremony.description>
+	<!-- Оригинал: ослепление
+	<BlindingCeremony_Self_Elevated.stages.was_blinded.label>открыто анти-зрение</BlindingCeremony_Self_Elevated.stages.was_blinded.label> -->
+	<!-- Оригинал: Меня ослепили в ходе...
+	<BlindingCeremony_Self_Elevated.stages.was_blinded.description>Мне открыли анти-зрение в ходе праведного ритуала. Наконец-то я могу учиться по-настоящему видеть.</BlindingCeremony_Self_Elevated.stages.was_blinded.description> -->
+	<!-- Оригинал: ослепление
+	<BlindingCeremony_Self_Respected.stages.was_blinded.label>открыто анти-зрение</BlindingCeremony_Self_Respected.stages.was_blinded.label> -->
+	<!-- Оригинал: Меня ослепили в ходе...
+	<BlindingCeremony_Self_Respected.stages.was_blinded.description>Мне открыли анти-зрение в ходе праведного ритуала. Наконец-то я могу учиться по-настоящему видеть.</BlindingCeremony_Self_Respected.stages.was_blinded.description> -->
+	<!-- Оригинал: ослепление
+	<BlindingCeremony_Self_Sublime.stages.was_blinded.label>открыто анти-зрение</BlindingCeremony_Self_Sublime.stages.was_blinded.label> -->
+	<!-- Оригинал: Меня ослепили в ходе...
+	<BlindingCeremony_Self_Sublime.stages.was_blinded.description>Мне открыли анти-зрение в ходе праведного ритуала. Наконец-то я могу учиться по-настоящему видеть.</BlindingCeremony_Self_Sublime.stages.was_blinded.description> -->
+	<!-- Оригинал: ...настоящее ослепление в разы...
+	<Blindness_ArtificialBlind.stages.vision_blocked.description>Временно закрывая свой обзор, я помогаю себе воспринимать мир истинным образом. Этого хватает, но настоящее анти-зрение в разы лучше.</Blindness_ArtificialBlind.stages.vision_blocked.description> -->
+	<!-- Оригинал: Ослепление даровало...
+	<Blindness_Elevated_Blind.stages.blind.description>Отсутствие примитивного зрения даровало мне способность видеть мир истинно верным способом.</Blindness_Elevated_Blind.stages.blind.description> -->
+	<!-- Оригинал: ...пути к просветлению через слепоту.
+	<Blindness_Elevated_HalfBlind.stages.halfblind.description>Я на пути к анти-зрению.</Blindness_Elevated_HalfBlind.stages.halfblind.description> -->
+	<!-- Оригинал: есть зрение
+	<Blindness_Elevated_NonBlind.stages.not_blind.label>есть примитивное зрение</Blindness_Elevated_NonBlind.stages.not_blind.label> -->
+	<!-- Оригинал: Я хочу лишиться зрения, чтобы лучше чувствовать...
+	<Blindness_Elevated_NonBlind.stages.not_blind.description>Врождённое зрение мешает мне чувствовать мир вокруг себя истинно верным способом. У меня должна быть хотя бы повязка на глаза.</Blindness_Elevated_NonBlind.stages.not_blind.description> -->
+	<!-- Оригинал: есть зрение
+	<Blindness_Elevated_NonBlind_Social.stages.sighted.label>есть примитивное зрение</Blindness_Elevated_NonBlind_Social.stages.sighted.label> -->
+	<!-- Оригинал: Ослепление даровало...
+	<Blindness_Respected_Blind.stages.blind.description>Отсутствие примитивного зрения даровало мне способность видеть мир истинно верным способом.</Blindness_Respected_Blind.stages.blind.description> -->
+	<!-- Оригинал: есть зрение
+	<Blindness_Respected_NonBlind_Social.stages.sighted.label>есть примитивное зрение</Blindness_Respected_NonBlind_Social.stages.sighted.label> -->
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили о дефисе.
-	Оригинал: После ослепления я могу...каких либо... -->
-	<Blindness_Sublime_Blind.stages.blind.description>Теперь я могу исследовать глубины моего сознания без каких-либо ограничений, которые накладывало на меня зрение.</Blindness_Sublime_Blind.stages.blind.description>
-	<!-- Оригинал: Я на пороге просветления через слепоту. -->
-	<Blindness_Sublime_HalfBlind.stages.halfblind.description>Я на пути к анти-зрению.</Blindness_Sublime_HalfBlind.stages.halfblind.description>
-	<!-- Оригинал: есть зрение -->
-	<Blindness_Sublime_NonBlind.stages.not_blind.label>есть примитивное зрение</Blindness_Sublime_NonBlind.stages.not_blind.label>
-	<!-- Оригинал: Я очень хочу лишиться зрения. С ним я не могу нормально... -->
-	<Blindness_Sublime_NonBlind.stages.not_blind.description>Врождённое зрение мешает мне нормально входить в контакт с истинным миром. У меня должна быть хотя бы повязка на глаза.</Blindness_Sublime_NonBlind.stages.not_blind.description>
-	<!-- Оригинал: есть зрение -->
-	<Blindness_Sublime_NonBlind_Social.stages.sighted.label>есть примитивное зрение</Blindness_Sublime_NonBlind_Social.stages.sighted.label>
+	Оригинал: После ослепления я могу исследовать глубины моего сознания без каких либо ограничений, которые накладывало на меня зрение.
+	Адаптация: Теперь я могу исследовать глубины моего сознания без каких-либо ограничений, которые накладывало на меня зрение. -->
+	<Blindness_Sublime_Blind.stages.blind.description>После ослепления я могу исследовать глубины моего сознания без каких-либо ограничений, которые накладывало на меня зрение.</Blindness_Sublime_Blind.stages.blind.description>
+	<!-- Оригинал: Я на пороге просветления через слепоту.
+	<Blindness_Sublime_HalfBlind.stages.halfblind.description>Я на пути к анти-зрению.</Blindness_Sublime_HalfBlind.stages.halfblind.description> -->
+	<!-- Оригинал: есть зрение
+	<Blindness_Sublime_NonBlind.stages.not_blind.label>есть примитивное зрение</Blindness_Sublime_NonBlind.stages.not_blind.label> -->
+	<!-- Оригинал: Я очень хочу лишиться зрения. С ним я не могу нормально...
+	<Blindness_Sublime_NonBlind.stages.not_blind.description>Врождённое зрение мешает мне нормально входить в контакт с истинным миром. У меня должна быть хотя бы повязка на глаза.</Blindness_Sublime_NonBlind.stages.not_blind.description> -->
+	<!-- Оригинал: есть зрение
+	<Blindness_Sublime_NonBlind_Social.stages.sighted.label>есть примитивное зрение</Blindness_Sublime_NonBlind_Social.stages.sighted.label> -->
 
 </LanguageData>
