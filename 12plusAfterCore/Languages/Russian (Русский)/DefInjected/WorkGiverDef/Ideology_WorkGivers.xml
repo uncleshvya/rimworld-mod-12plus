@@ -3,46 +3,22 @@
 
 	<!-- Исправлена неточность, сообщите разработчику ванили.
 
-	Все герундии, начинающиеся с маленькой буквы, выглядели некрасиво в контекстном меню приказа на действие. Это конечно классика, но нужно подправить движок gerund аналогично с движком label, который выставляет большую букву.
-	Пока это не сделано, все герундии переименованы, т.к. приказ на действие употребляется чаще, чем уведомление об уже начавшейся работе.
-	Оригиналы: все с маленькой буквы -->
-	<ChangeTreeMode.gerund>Сменить касту дриад для</ChangeTreeMode.gerund>
-	<ConvertPrisoner.gerund>Обратить</ConvertPrisoner.gerund>
-	<EmancipateSlave.gerund>Освободить</EmancipateSlave.gerund>
-	<EnslavePrisoner.gerund>Поработить</EnslavePrisoner.gerund>
-	<ExecuteSlave.gerund>Казнить</ExecuteSlave.gerund>
-	<HaulToBiosculpterPod.gerund>Заполнить</HaulToBiosculpterPod.gerund>
-	<ImprisonSlave.gerund>Арестовать</ImprisonSlave.gerund>
-	<PruneGauranlenTree.gerund>Остригать</PruneGauranlenTree.gerund>
-	<SuppressSlave.gerund>Подавлять</SuppressSlave.gerund>
-	<!-- Оригинал: менять касту... -->
-	<ChangeTreeMode.verb>сменить касту дриад для</ChangeTreeMode.verb>
-	<!-- Оригинал: обращать -->
-	<ConvertPrisoner.verb>обратить</ConvertPrisoner.verb>
-	<!-- Оригинал: освобождать -->
-	<EmancipateSlave.verb>освободить</EmancipateSlave.verb>
-	<!-- Оригинал: порабощать -->
-	<EnslavePrisoner.verb>поработить</EnslavePrisoner.verb>
-	<!-- Убрана путаница с DoExecution.label.
+	Убрана путаница с DoExecution.label.
 	Оригинал: казнить пленников -->
 	<ExecuteSlave.label>казнить рабов</ExecuteSlave.label>
-	<!-- Оригинал: заполнять -->
-	<HaulToBiosculpterPod.verb>заполнить</HaulToBiosculpterPod.verb>
-	<!-- Оригинал: арестовывать -->
-	<ImprisonSlave.verb>арестовать</ImprisonSlave.verb>
-	<!-- Оригинал: подстричь деревья... -->
-	<PruneGauranlenTree.label>остригать деревья Гауранлен</PruneGauranlenTree.label>
-	<!-- Оригинал: подавить рабов -->
-	<SuppressSlave.label>подавлять рабов</SuppressSlave.label>
 
 	<!-- Исправление согласно концепции «12+».
 
+	Хорошо бы убрать извлечение черепа. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужен мод например на новые трофеи.
+	Сохраняем код на случай повторной выбраковки:
+
 	Механика заменена на ванильный поджог, см.патч.
-	Оригинал: извлечь череп -->
-	<ExtractSkull.label>предавать тела очищающему огню</ExtractSkull.label>
-	<!-- Оригинал: извлечь -->
-	<ExtractSkull.verb>предать огню</ExtractSkull.verb>
-	<!-- Оригинал: извлечение черепа из -->
-	<ExtractSkull.gerund>Предать очищающему огню</ExtractSkull.gerund>
+	Оригинал: извлекать черепа
+	Адаптация:
+	<ExtractSkull.label>предавать тела очищающему огню</ExtractSkull.label> -->
+	<!-- Оригинал: извлечь череп
+	<ExtractSkull.gerund>предать очищающему огню</ExtractSkull.gerund> -->
+	<!-- Оригинал: извлечь череп
+	<ExtractSkull.verb>предать огню</ExtractSkull.verb> -->
 
 </LanguageData>
