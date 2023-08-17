@@ -6,7 +6,7 @@
 	EN: fix broken-down chainsaw -->
 	<FixBrokenChainsaw.label>чинить сломанные бензопилы</FixBrokenChainsaw.label>
 	<!-- EN: replacing broken components in -->
-	<FixBrokenChainsaw.gerund>Заменить сломанные компоненты в</FixBrokenChainsaw.gerund>
+	<FixBrokenChainsaw.gerund>заменить сломанные компоненты в</FixBrokenChainsaw.gerund>
 	<!-- EN: replace broken components in -->
 	<FixBrokenChainsaw.verb>заменить сломанные компоненты</FixBrokenChainsaw.verb>
 
@@ -15,13 +15,13 @@
 	EN: extract serum from zombie corpses -->
 	<ExtractZombieSerum.label>извлекать экстракт из зомби</ExtractZombieSerum.label>
 	<!-- EN: extracting -->
-	<ExtractZombieSerum.gerund>Извлечь зомби-экстракт</ExtractZombieSerum.gerund>
+	<ExtractZombieSerum.gerund>извлечь зомби-экстракт</ExtractZombieSerum.gerund>
 	<!-- EN: extract -->
 	<ExtractZombieSerum.verb>извлечь зомби-экстракт</ExtractZombieSerum.verb>
 	<!-- EN: double tap a corpses -->
 	<DoubleTap.label>упокаивать павших бойцов</DoubleTap.label>
 	<!-- EN: double tapping -->
-	<DoubleTap.gerund>Упокоить</DoubleTap.gerund>
+	<DoubleTap.gerund>упокоить</DoubleTap.gerund>
 	<!-- EN: double tap -->
 	<DoubleTap.verb>упокоить</DoubleTap.verb>
 
