@@ -8,15 +8,17 @@
 
 	<!-- Исправлена неточность, сообщите разработчику.
 
-	Оригиналы: все с "английскими" кавычками -->
-	<setting_selectionLimit_desc>Ограничивает количество предметов, которые могут быть выделены инструментом «Выделить схожие».</setting_selectionLimit_desc>
+	Добавлена конкретика.
+	Оригинал: ...инструментом "Выделить схожие". -->
+	<setting_selectionLimit_desc>Ограничивает количество предметов, которые могут быть выделены инструментом «Выделить схожие», при ускоренном выборе.</setting_selectionLimit_desc>
+	<!-- Оригиналы: все с "английскими" кавычками. -->
 	<setting_contextOverlay_desc>Отображает иконку «правый клик» на инструментах, у которых есть контекстное меню.</setting_contextOverlay_desc>
 	<setting_extendedContextHotkey_label>Расширенная клавиша «Действие контекстного меню»</setting_extendedContextHotkey_label>
 	<setting_extendedContextHotkey_desc>Когда не выбран ни одни инструмент, клавиша «Действие контекстного меню» активирует действие контекстного меню первого инструмента на выделенных предметах.</setting_extendedContextHotkey_desc>
 	<setting_finishOffUnforbids_label>Выпавшее разрешено после «Добить»</setting_finishOffUnforbids_label>
 	<!-- Оригинал: ...предметы при добивании автоматически... -->
 	<setting_finishOffUnforbids_desc>Если включено, тела и выпавшие предметы после добивания автоматически станут доступны для переноса.</setting_finishOffUnforbids_desc>
-	<!-- Название работы необходимо синхронизировать с переменной HaulingUrgent.labelShort
+	<!-- Название работы необходимо синхронизировать с переменной HaulingUrgent.labelShort.
 	Оригинал: ...работы "Носильщик+" -->
 	<setting_haulUrgentlyWorktype_label>Отображать тип работы «Перенос+»</setting_haulUrgentlyWorktype_label>
 	<!-- Оригинал: ...работы "Добивание" -->
@@ -44,6 +46,10 @@
 	<setting_partyHuntDesignated_label>Только цели с пометкой «Охотиться»</setting_partyHuntDesignated_label>
 	<!-- Оригинал: ...месте не складе... -->
 	<Alert_noStorage_desc>Предметы нуждаются в свободном месте на складе:\n{0}\n\nНужно отменить приказ срочного переноса или освободить под них место.</Alert_noStorage_desc>
+	<!-- Оригинал: ...выше чтобы... -->
+	<Finish_off_skillRequired>Требуется поселенец с навыком ближнего боя {0} или выше, чтобы использовать этот инструмент.</Finish_off_skillRequired>
+	<!-- Оригинал: {0} отмечено тел...одежды. -->
+	<Designator_context_strip_succ>Отмечено тел для снятия одежды: {0}</Designator_context_strip_succ>
 	<!-- Оригинал: ...дополнительных кусков руды... -->
 	<Designator_context_mine_succ>Отмечено {0} дополнительных клеток руды для копания.</Designator_context_mine_succ>
 	<!-- Оригинал: ...отметить один или более кусков руды... -->
