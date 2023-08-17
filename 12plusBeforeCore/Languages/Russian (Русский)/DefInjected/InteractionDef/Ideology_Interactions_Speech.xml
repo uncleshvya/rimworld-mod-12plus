@@ -7,20 +7,23 @@
 
 	Заголовки в переменных label в этом файле не влияют на перевод, т.к. их надо загружать после Core. Влияющие варианты - в таком же файле в суб-моде 12plusAfterCore. Здесь же эти переменные оставлены просто как заголовки абзацев.
 
-	Оригинал: ...ритуале ослепления -->
-	<Speech_Blinding.label>речь на ритуале анти-зрения</Speech_Blinding.label>
+	Хорошо бы убрать возможность вивисекции людей. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например на новые идеолигии.
+	Сохраняем код на случай повторной выбраковки:
+
+	Оригинал: ...ритуале ослепления
+	<Speech_Blinding.label>речь на ритуале анти-зрения</Speech_Blinding.label> -->
 	<!-- Оригинал:
 	...
 	<li>speechtopic->слепоте</li>
-	<li>speechtopic->чистоте слепоты</li>
+	<li>...чистоте слепоты</li>
 	...
-	<li>speechtopic->методах ослепления</li>
+	<li>...методах ослепления</li>
 	...
 	<li>...без зрения или передвижений</li>
     <li>speechtopic->истинных слоях реальности, кроющихся за зримым</li>
 	<li>speechtopic->psychic connections</li>
 	...
-	-->
+	
   <Speech_Blinding.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
 	<li>speechtopic->анти-зрении</li>
@@ -36,7 +39,7 @@
 	<li>speechtopic->познании мира без обычного зрения</li>
     <li>speechtopic->истинных слоях реальности, кроющихся за зримым</li>
 	<li>speechtopic->пси-связях</li>
-  </Speech_Blinding.logRulesInitiator.rulesStrings>
+  </Speech_Blinding.logRulesInitiator.rulesStrings> -->
 
 	<!-- Эти 2 блока - без изменений, но необходимо оставить, иначе грамматика страдает:
 
