@@ -1,21 +1,21 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+».
 
-  <!-- EN: Ow... Heh heh heh... I could get used to this! -->
-  <MasochistPain.stages.masochist_in_minor_pain.description>Ай... Это больно.</MasochistPain.stages.masochist_in_minor_pain.description>
-
-  <!-- EN: Ughhh... It hurts, but I love it! Keep it coming! -->
-  <MasochistPain.stages.masochist_in_serious_pain.description>У-у-ух... Эти боли... Когда же это всё кончится?</MasochistPain.stages.masochist_in_serious_pain.description>
-
-  <!-- EN: Ouch... I think something's broken... But what an exquisite feeling! -->
-  <MasochistPain.stages.masochist_in_intense_pain.description>У собачки заболи... У кошечки заболи... А-ай-ай-ай, пройди же у меня скорее!</MasochistPain.stages.masochist_in_intense_pain.description>
-
-  <!-- EN: Ahhh... Am I in heaven? -->
-  <MasochistPain.stages.masochist_in_mindshattering_pain.description>А-А-А-А-А-А!</MasochistPain.stages.masochist_in_mindshattering_pain.description>
-
-  <!-- EN: It makes me think of flame and fire. I'm so happy. -->
-  <PyromaniacHappy.stages.pyromaniac_has_incendiary_weapon.description>Я несу зажигательное оружие.</PyromaniacHappy.stages.pyromaniac_has_incendiary_weapon.description>
+	Хорошо бы убрать трейт Masochist. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, чтобы снизить вред игрокам от этого трейта, и найти интересные моды на трейты.
+	Когда Masochist был отключен, все его мысли были заменены на обычные мысли при боли у нормальных поселенцев.
+	Оригинал: Ай... Хи-хи... К такому можно привыкнуть! -->
+	<MasochistPain.stages.masochist_in_minor_pain.description>Ай... Это больно. Но я одновременно чувствую щекотку!</MasochistPain.stages.masochist_in_minor_pain.description>
+	<!-- Оригинал: О-о-ох... Больно, но мне нравится! Хочу ещё. -->
+	<MasochistPain.stages.masochist_in_serious_pain.description>У-у-ух... Эти боли... Но они так хорошо меня отвлекают!</MasochistPain.stages.masochist_in_serious_pain.description>
+	<!-- Оригинал: Ай!.. Похоже, перелом... Что за прекрасное чувство! -->
+	<MasochistPain.stages.masochist_in_intense_pain.description>Какая сильная боль! Она и меня делает сильнее!</MasochistPain.stages.masochist_in_intense_pain.description>
+	<!-- Оригинал: болевой шок -->
+	<MasochistPain.stages.masochist_in_mindshattering_pain.label>всепоглощающая боль</MasochistPain.stages.masochist_in_mindshattering_pain.label>
+	<!-- Оригинал: А-а-ах... Я уже в раю? -->
+	<MasochistPain.stages.masochist_in_mindshattering_pain.description>О-о-ох... Где этот скучный мир? Ведь вокруг одна боль!</MasochistPain.stages.masochist_in_mindshattering_pain.description>
+	<!-- Оригинал: Эта штука готова изрыгать огонь и пламя! Меня это возбуждает. -->
+	<PyromaniacHappy.stages.pyromaniac_has_incendiary_weapon.description>Я несу зажигательное оружие.</PyromaniacHappy.stages.pyromaniac_has_incendiary_weapon.description>
 
 </LanguageData>
