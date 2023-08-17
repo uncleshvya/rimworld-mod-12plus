@@ -3,7 +3,8 @@
 
 	<!-- Исправление согласно концепции «12+».
 
-	Оригинал: убийство невинных... -->
-	<KillingInnocentAnimals.label>атаковать невинных животных</KillingInnocentAnimals.label>
+	Заодно исправлена неточность, сообщите разработчику ванили - не влезает в интерфейс.
+	Оригинал: убийство невинных животных -->
+	<KillingInnocentAnimals.label>атака на животных</KillingInnocentAnimals.label>
 
 </LanguageData>
