@@ -4,134 +4,162 @@
 	<!-- Исправлена неточность, сообщите разработчику ванили.
 
 	Звучало, как будто поселенец не знал, о ком речь.
-	Оригинал: виновный пленник или гость казнён -->
-	<KnowGuestExecuted.stages.justified_execution.label>казнён преступник</KnowGuestExecuted.stages.justified_execution.label>
-	<!-- Оригинал: Мы казнили пленника или гостя за его преступления. Хоть... -->
+	Оригинал: Мы казнили пленника или гостя за его преступления. Хоть... -->
 	<KnowGuestExecuted.stages.justified_execution.description>Мы казнили преступника. Хоть это и справедливо, но всё равно грустно.</KnowGuestExecuted.stages.justified_execution.description>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Оригинал: умер питомец, {0} -->
-	<BondedAnimalDied.stages.bonded_animal_died.label>потерян питомец, {0}</BondedAnimalDied.stages.bonded_animal_died.label>
+	Хорошо бы убрать акцент со смерти. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например на новые идеолигии или на автоматическую утилизацию трупов.
+	Сохраняем код на случай повторной выбраковки:
+
+	Оригинал: умер питомец, {0}
+	<BondedAnimalDied.stages.bonded_animal_died.label>потерян питомец, {0}</BondedAnimalDied.stages.bonded_animal_died.label> -->
 	<!-- Оригинал: {OTHERPAWN_gender ? Умер мой маленький друг : Умерла моя маленькая подруга}. Такое... -->
 	<BondedAnimalDied.stages.bonded_animal_died.description>Больше нет {OTHERPAWN_gender ? моего маленького друга : моей маленькой подруги}. Такого ласкового, необыкновенного создания. Мир жесток!</BondedAnimalDied.stages.bonded_animal_died.description>
-	<!-- Оригинал: умер поселенец -->
-	<KnowColonistDied.stages.colonist_died.label>потерян поселенец</KnowColonistDied.stages.colonist_died.label>
+	<!-- Оригинал: умер поселенец
+	<KnowColonistDied.stages.colonist_died.label>потерян поселенец</KnowColonistDied.stages.colonist_died.label> -->
+
 	<!-- Заодно сглажены ссылки на людей - для модов на другие расы.
-	Оригинал: Один из наших поселенцев умер. Мы должны...заботиться о своих людях. -->
-	<KnowColonistDied.stages.colonist_died.description>Мы потеряли одного из наших поселенцев. Мы должны быть в состоянии заботиться хотя бы о своих.</KnowColonistDied.stages.colonist_died.description>
+	Оригинал: Один из наших поселенцев умер. Мы должны быть в состоянии заботиться о своих людях.
+	Адаптация: Мы потеряли одного из наших поселенцев. Мы должны быть в состоянии заботиться хотя бы о своих. -->
+	<KnowColonistDied.stages.colonist_died.description>Один из наших поселенцев умер. Мы должны быть в состоянии заботиться хотя бы о своих.</KnowColonistDied.stages.colonist_died.description>
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
 	Одна операция - один орган.
-	Оригинал: Наш поселенец умер из-за того, что мы удалили его жизненно важные органы. Это... -->
-	<KnowColonistExecuted.stages.colonist_organharvested.description>Мы потеряли поселенца из-за того, что у него удалили жизненно важный орган. Это просто ужасно!</KnowColonistExecuted.stages.colonist_organharvested.description>
-	<!-- Оригинал: поселенец убит душегубом -->
-	<KnowColonistExecuted.stages.colonist_ripscanned.label>поселенца обменяли на машину</KnowColonistExecuted.stages.colonist_ripscanned.label>
+	Оригинал: Наш поселенец умер из-за того, что мы удалили его жизненно важные органы. Это просто ужасно!
+	Адаптация: Мы потеряли поселенца из-за того, что у него удалили жизненно важный орган. Это просто ужасно! -->
+	<KnowColonistExecuted.stages.colonist_organharvested.description>Наш поселенец умер из-за того, что у него удалили жизненно важный орган. Это просто ужасно!</KnowColonistExecuted.stages.colonist_organharvested.description>
+	<!-- Оригинал: поселенец убит душегубом
+	<KnowColonistExecuted.stages.colonist_ripscanned.label>поселенца обменяли на машину</KnowColonistExecuted.stages.colonist_ripscanned.label> -->
 	<!-- Оригинал: Наш поселенец погиб в душегубе. Его мозг сожгла и поглотила машина. Это... -->
 	<KnowColonistExecuted.stages.colonist_ripscanned.description>Мы взяли живого поселенца и превратили его душу в набор программ для кошмарной машины. Это ужасно.</KnowColonistExecuted.stages.colonist_ripscanned.description>
-	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
-	Оригинал: пленник или гость разобран на органы -->
+	<!-- Оригинал: человек разобран на органы -->
 	<KnowGuestExecuted.stages.someone_was_organmurdered.label>у нас пропадают посетители</KnowGuestExecuted.stages.someone_was_organmurdered.label>
-	<!-- Оригинал: Наш пленник или гость умер из-за того, что мы удалили его жизненно важные органы. Это... -->
-	<KnowGuestExecuted.stages.someone_was_organmurdered.description>Мы потеряли посетителя из-за того, что у него удалили жизненно важный орган. Это просто ужасно!</KnowGuestExecuted.stages.someone_was_organmurdered.description>
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
-	Оригинал: пленник или гость убит душегубом -->
-	<KnowGuestExecuted.stages.someone_was_ripscanned.label>у нас исчезают люди</KnowGuestExecuted.stages.someone_was_ripscanned.label>
+	Оригинал: Наш пленник или гость умер из-за того, что мы удалили его жизненно важные органы. Это просто ужасно!
+	Адаптация: Мы потеряли посетителя из-за того, что у него удалили жизненно важный орган. Это просто ужасно! -->
+	<KnowGuestExecuted.stages.someone_was_organmurdered.description>Наш посетитель умер из-за того, что у него удалили жизненно важный орган. Это просто ужасно!</KnowGuestExecuted.stages.someone_was_organmurdered.description>
+	<!-- Оригинал: человек убит душегубом -->
+	<KnowGuestExecuted.stages.someone_was_ripscanned.label>у нас пропадают посетители</KnowGuestExecuted.stages.someone_was_ripscanned.label>
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
 	Оригинал: Наш пленник или гость погиб в душегубе. Его мозг сожгла и поглотила машина. Это... -->
 	<KnowGuestExecuted.stages.someone_was_ripscanned.description>Мы взяли живого посетителя и превратили его душу в набор программ для кошмарной машины. Это ужасно.</KnowGuestExecuted.stages.someone_was_ripscanned.description>
-	<!-- Оригинал: умер пленник -->
-	<KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>потерян пленник</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>
-	<!-- Оригинал: Один из пленников умер, несмотря...Если нам действительно нужна их смерть, мы должны организовать казнь, но не допускать... -->
-	<KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>Мы потеряли пленника, несмотря на то, что он никому не причинил вреда. Мы должны быть в состоянии позаботиться о тех, кого берём в плен. Если они нам не нужны, мы должны освобождать их, а не допускать такого варварства.</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>
-	<!-- Длинные прозвища не влезали в заголовок. Имена перемещены в описания.
-	Оригинал: умерла тётя, {0} -->
-	<MyAuntDied.stages.my_aunt_died.label>моей тёти больше нет</MyAuntDied.stages.my_aunt_died.label>
+	<!-- Оригинал: умер пленник
+	<KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>потерян пленник</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label> -->
+	<!-- Оригинал: Один из пленников умер, несмотря на то, что он никому не причинил вреда. Мы должны быть в состоянии позаботиться о тех, кого берём в плен. Если нам действительно нужна их смерть, мы должны организовать казнь, но не допускать такого варварства.
+	Адаптация: Мы потеряли пленника, несмотря на то, что он никому не причинил вреда. Мы должны быть в состоянии позаботиться о тех, кого захватываем. Если они нам не нужны, мы должны освобождать их, а не допускать такого варварства. -->
+	<KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>Наш пленник умер, несмотря на то, что он никому не причинил вреда. Мы должны быть в состоянии позаботиться о тех, кого захватываем. Если они нам не нужны, мы должны освобождать их, а не допускать такого варварства.</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили - длинные прозвища не влезали в заголовок. Все нижеследующие переменные для имён удалены из заголовков и внесены в описания.
+	Оригинал: умерла тётя, {0}
+	Адаптация: моей тёти больше нет -->
+	<MyAuntDied.stages.my_aunt_died.label>умерла моя тётя</MyAuntDied.stages.my_aunt_died.label>
 	<!-- Оригинал: Моя тётя мертва. -->
 	<MyAuntDied.stages.my_aunt_died.description>Покойся с миром, тётя {OTHERPAWN_labelShort}.</MyAuntDied.stages.my_aunt_died.description>
-	<!-- Оригинал: умер брат, {0} -->
-	<MyBrotherDied.stages.my_brother_died.label>{1_gender ? Моего брата : Моей сестры} больше нет</MyBrotherDied.stages.my_brother_died.label>
+	<!-- Оригинал: умер брат, {0}
+	Адаптация: моего брата больше нет -->
+	<MyBrotherDied.stages.my_brother_died.label>умер мой брат</MyBrotherDied.stages.my_brother_died.label>
 	<!-- Выражение "плоть и кровь" обычно применимо к предкам или потомкам.
 	Оригинал: Мой родной брат мёртв. Моя плоть и кровь (многоточие) -->
 	<MyBrotherDied.stages.my_brother_died.description>{OTHERPAWN_labelShort}, покойся с миром, братишка.</MyBrotherDied.stages.my_brother_died.description>
-	<!-- Оригинал: {1_gender ? Умер двоюродный брат : Умерла двоюродная сестра}, {0} -->
-	<MyCousinDied.stages.my_cousin_died.label>{1_gender ? Двоюродного брата : Двоюродной сестры} больше нет</MyCousinDied.stages.my_cousin_died.label>
+	<!-- Оригинал: {1_gender ? Умер двоюродный брат : Умерла двоюродная сестра}, {0}
+	Адаптация: {1_gender ? Двоюродного брата : Двоюродной сестры} больше нет -->
+	<MyCousinDied.stages.my_cousin_died.label>{1_gender ? Умер мой двоюродный брат : Умерла моя двоюродная сестра}</MyCousinDied.stages.my_cousin_died.label>
 	<!-- Оригинал: {OTHERPAWN_gender ? Моего двоюродного брата : Моей двоюродной сестры} нет в живых. -->
 	<MyCousinDied.stages.my_cousin_died.description>{OTHERPAWN_gender ? Моего двоюродного брата : Моей двоюродной сестры} больше нет с нами. Покойся с миром, {OTHERPAWN_labelShort}.</MyCousinDied.stages.my_cousin_died.description>
-	<!-- Оригинал: умерла дочь, {0} -->
-	<MyDaughterDied.stages.my_daughter_died.label>моей дочери больше нет</MyDaughterDied.stages.my_daughter_died.label>
+	<!-- Оригинал: умерла дочь, {0}
+	Адаптация: моей дочери больше нет -->
+	<MyDaughterDied.stages.my_daughter_died.label>умерла моя дочь</MyDaughterDied.stages.my_daughter_died.label>
 	<!-- Оригинал: Моя родная дочь умерла. Моя плоть и кровь (многоточие) -->
 	<MyDaughterDied.stages.my_daughter_died.description>Моя родная дочь... Покойся с миром, {OTHERPAWN_labelShort}.</MyDaughterDied.stages.my_daughter_died.description>
-	<!-- Оригинал: умер отец, {0} -->
-	<MyFatherDied.stages.my_father_died.label>моего отца больше нет</MyFatherDied.stages.my_father_died.label>
+	<!-- Оригинал: умер отец, {0}
+	Адаптация: моего отца больше нет -->
+	<MyFatherDied.stages.my_father_died.label>умер мой отец</MyFatherDied.stages.my_father_died.label>
 	<!-- Оригинал: Мой родной отец мёртв. Я больше никогда его не увижу. -->
 	<MyFatherDied.stages.my_father_died.description>{OTHERPAWN_labelShort}, папа... Я больше никогда его не увижу.</MyFatherDied.stages.my_father_died.description>
-	<!-- Оригинал: умер жених, {0} -->
-	<MyFianceDied.stages.my_fiance_died.label>моего жениха больше нет</MyFianceDied.stages.my_fiance_died.label>
+	<!-- Оригинал: умер жених, {0}
+	Адаптация: моего жениха больше нет -->
+	<MyFianceDied.stages.my_fiance_died.label>умер мой жених</MyFianceDied.stages.my_fiance_died.label>
 	<!-- Оригинал: Мой жених мёртв. Я не...дальше. -->
 	<MyFianceDied.stages.my_fiance_died.description>Я теперь не знаю, как жить дальше. {OTHERPAWN_labelShort}, на кого ты меня покинул?</MyFianceDied.stages.my_fiance_died.description>
-	<!-- Оригинал: умерла невеста, {0} -->
-	<MyFianceeDied.stages.my_fiance_died.label>моей невесты больше нет</MyFianceeDied.stages.my_fiance_died.label>
+	<!-- Оригинал: умерла невеста, {0}
+	Адаптация: моей невесты больше нет -->
+	<MyFianceeDied.stages.my_fiance_died.label>умерла моя невеста</MyFianceeDied.stages.my_fiance_died.label>
 	<!-- Оригинал: Моя невеста мертва. Я не...дальше. -->
 	<MyFianceeDied.stages.my_fiance_died.description>Я теперь не знаю, как жить дальше. {OTHERPAWN_labelShort}, на кого ты меня покинула?</MyFianceeDied.stages.my_fiance_died.description>
-	<!-- Оригинал: {1_gender ? Умер внук : Умерла внучка}, {0} -->
-	<MyGrandchildDied.stages.my_grandchild_died.label>{1_gender ? Моего внука : Моей внучки} больше нет</MyGrandchildDied.stages.my_grandchild_died.label>
+	<!-- Оригинал: {1_gender ? Умер внук : Умерла внучка}, {0}
+	Адаптация: {1_gender ? Моего внука : Моей внучки} больше нет -->
+	<MyGrandchildDied.stages.my_grandchild_died.label>{1_gender ? Умер мой внук : Умерла моя внучка}</MyGrandchildDied.stages.my_grandchild_died.label>
 	<!-- Оригинал: {OTHERPAWN_gender ? Моего внука : Моей внучки} нет в живых. -->
 	<MyGrandchildDied.stages.my_grandchild_died.description>{OTHERPAWN_gender ? Мой родной внучек : Моя родная внучка}... Покойся с миром, {OTHERPAWN_labelShort}.</MyGrandchildDied.stages.my_grandchild_died.description>
-	<!-- Оригинал: {1_gender ? Умер дед : Умерла бабушка}, {0} -->
-	<MyGrandparentDied.stages.my_grandparent_died.label>{1_gender ? Моего деда : Моей бабушки} больше нет.</MyGrandparentDied.stages.my_grandparent_died.label>
+	<!-- Оригинал: {1_gender ? Умер дед : Умерла бабушка}, {0}
+	Адаптация: {1_gender ? Моего деда : Моей бабушки} больше нет. -->
+	<MyGrandparentDied.stages.my_grandparent_died.label>{1_gender ? Умер мой дедушка : Умерла моя бабушка}</MyGrandparentDied.stages.my_grandparent_died.label>
 	<!-- Оригинал: {OTHERPAWN_gender ? Моего деда : Моей бабушки} нет в живых. -->
 	<MyGrandparentDied.stages.my_grandparent_died.description>Покойся с миром, {OTHERPAWN_gender ? деда : баба} {OTHERPAWN_labelShort}.</MyGrandparentDied.stages.my_grandparent_died.description>
-	<!-- Оригинал: {1_gender ? Умер сводный брат : Умерла сводная сестра}, {0} -->
-	<MyHalfSiblingDied.stages.my_halfsibling_died.label>{1_gender ? Моего сводного брата : Моей сводной сестры} больше нет</MyHalfSiblingDied.stages.my_halfsibling_died.label>
+	<!-- Оригинал: {1_gender ? Умер сводный брат : Умерла сводная сестра}, {0}
+	Адаптация: {1_gender ? Моего сводного брата : Моей сводной сестры} больше нет -->
+	<MyHalfSiblingDied.stages.my_halfsibling_died.label>{1_gender ? Умер мой сводный брат : Умерла моя сводная сестра}</MyHalfSiblingDied.stages.my_halfsibling_died.label>
 	<!-- Оригинал: {OTHERPAWN_gender ? Моего сводного брата : Моей сводной сестры} нет в живых. -->
 	<MyHalfSiblingDied.stages.my_halfsibling_died.description>{OTHERPAWN_labelShort}, покойся с миром, {OTHERPAWN_gender ? братишка : сестрёнка}.</MyHalfSiblingDied.stages.my_halfsibling_died.description>
-	<!-- Оригинал: умер муж, {0} -->
-	<MyHusbandDied.stages.my_husband_died.label>моего мужа больше нет</MyHusbandDied.stages.my_husband_died.label>
+	<!-- Оригинал: умер муж, {0}
+	Адаптация: моего мужа больше нет -->
+	<MyHusbandDied.stages.my_husband_died.label>умер мой муж</MyHusbandDied.stages.my_husband_died.label>
 	<!-- Оригинал: Мой муж мёртв. Я осталась одна. -->
 	<MyHusbandDied.stages.my_husband_died.description>Я теперь вдова. {OTHERPAWN_labelShort}, на кого ты меня покинул?</MyHusbandDied.stages.my_husband_died.description>
-	<!-- Оригинал: {1_gender ? Умер родственник : Умерла родственница}, {0} -->
-	<MyKinDied.stages.my_kin_died.label>{1_gender ? Моего родственника : Моей родственницы} больше нет</MyKinDied.stages.my_kin_died.label>
+	<!-- Оригинал: {1_gender ? Умер родственник : Умерла родственница}, {0}
+	Адаптация: {1_gender ? Моего родственника : Моей родственницы} больше нет -->
+	<MyKinDied.stages.my_kin_died.label>{1_gender ? Умер мой родственник : Умерла моя родственница}</MyKinDied.stages.my_kin_died.label>
 	<!-- Оригинал: {OTHERPAWN_gender ?  Мой родственник умер : Моя родственница умерла}. -->
 	<MyKinDied.stages.my_kin_died.description>Покойся с миром, {OTHERPAWN_labelShort}.</MyKinDied.stages.my_kin_died.description>
-	<!-- Оригинал: {1_gender ? Умер любовник : Умерла любовница}, {0} -->
-	<MyLoverDied.stages.my_lover_died.label>{1_gender ? Моего любимого : Моей любимой} больше нет</MyLoverDied.stages.my_lover_died.label>
+	<!-- Оригинал: {1_gender ? Умер любовник : Умерла любовница}, {0}
+	Адаптация: {1_gender ? Моего любимого : Моей любимой} больше нет -->
+	<MyLoverDied.stages.my_lover_died.label>{1_gender ? Умер мой любимый : Умерла моя любимая}</MyLoverDied.stages.my_lover_died.label>
 	<!-- Оригинал: {OTHERPAWN_gender ? Умер мой любимый : Умерла моя любимая}. Мне так одиноко (многоточие) -->
 	<MyLoverDied.stages.my_lover_died.description>О, {OTHERPAWN_gender ? мой любимый : моя любимая}... Стало так пусто и одиноко. {OTHERPAWN_labelShort}, на кого ты меня {OTHERPAWN_gender ? покинул : покинула}?</MyLoverDied.stages.my_lover_died.description>
-	<!-- Оригинал: умерла мать, {0} -->
-	<MyMotherDied.stages.my_mother_died.label>моей матери больше нет</MyMotherDied.stages.my_mother_died.label>
+	<!-- Оригинал: умерла мать, {0}
+	Адаптация: моей матери больше нет -->
+	<MyMotherDied.stages.my_mother_died.label>умерла моя мать</MyMotherDied.stages.my_mother_died.label>
 	<!-- Оригинал: Моя мать мертва. Я больше... -->
 	<MyMotherDied.stages.my_mother_died.description>{OTHERPAWN_labelShort}, мама... Я больше никогда её не увижу.</MyMotherDied.stages.my_mother_died.description>
-	<!-- Оригинал: умер племянник, {0} -->
-	<MyNephewDied.stages.my_nephew_died.label>моего племянника больше нет</MyNephewDied.stages.my_nephew_died.label>
+	<!-- Оригинал: умер племянник, {0}
+	Адаптация: моего племянника больше нет -->
+	<MyNephewDied.stages.my_nephew_died.label>умер мой племянник</MyNephewDied.stages.my_nephew_died.label>
 	<!-- Оригинал: Мой дорогой племянник мёртв. -->
 	<MyNephewDied.stages.my_nephew_died.description>Мой дорогой племянник... Покойся с миром, {OTHERPAWN_labelShort}.</MyNephewDied.stages.my_nephew_died.description>
-	<!-- Оригинал: умерла племянница, {0} -->
-	<MyNieceDied.stages.my_niece_died.label>моей племянницы больше нет</MyNieceDied.stages.my_niece_died.label>
-	<!-- Оригинал: Моя дорогая племянница мертва. -->
+	<!-- Оригинал: умерла племянница, {0}
+	Адаптация: моей племянницы больше нет -->
+	<MyNieceDied.stages.my_niece_died.label>умерла моя племянница</MyNieceDied.stages.my_niece_died.label>
+	<!-- Оригинал: Моя...племянница мертва. -->
 	<MyNieceDied.stages.my_niece_died.description>Моя дорогая племянница... Покойся с миром, {OTHERPAWN_labelShort}.</MyNieceDied.stages.my_niece_died.description>
-	<!-- Оригинал: умерла сестра, {0} -->
-	<MySisterDied.stages.my_sister_died.label>моей сестры больше нет</MySisterDied.stages.my_sister_died.label>
+	<!-- Оригинал: умерла сестра, {0}
+	Адаптация: моей сестры больше нет -->
+	<MySisterDied.stages.my_sister_died.label>умерла моя сестра</MySisterDied.stages.my_sister_died.label>
 	<!-- Оригинал: Моя родная сестра мертва. Моя плоть и кровь (многоточие) -->
 	<MySisterDied.stages.my_sister_died.description>Моя родная сестра... Покойся с миром, {OTHERPAWN_labelShort}.</MySisterDied.stages.my_sister_died.description>
-	<!-- Оригинал: умер сын, {0} -->
-	<MySonDied.stages.my_son_died.label>моего сына больше нет</MySonDied.stages.my_son_died.label>
+	<!-- Оригинал: умер сын, {0}
+	Адаптация: моего сына больше нет -->
+	<MySonDied.stages.my_son_died.label>умер мой сын</MySonDied.stages.my_son_died.label>
 	<!-- Оригинал: Мой родной сын умер. Моя плоть и кровь (многоточие) -->
 	<MySonDied.stages.my_son_died.description>Мой родной сын... Покойся с миром, {OTHERPAWN_labelShort}.</MySonDied.stages.my_son_died.description>
-	<!-- Оригинал: умер дядя, {0} -->
-	<MyUncleDied.stages.my_uncle_died.label>моего дяди больше нет</MyUncleDied.stages.my_uncle_died.label>
+	<!-- Оригинал: умер дядя, {0}
+	Адаптация: моего дяди больше нет -->
+	<MyUncleDied.stages.my_uncle_died.label>умер мой дядя</MyUncleDied.stages.my_uncle_died.label>
 	<!-- Оригинал: Мой дядя мёртв. -->
 	<MyUncleDied.stages.my_uncle_died.description>Покойся с миром, дядя {OTHERPAWN_labelShort}.</MyUncleDied.stages.my_uncle_died.description>
-	<!-- Оригинал: умерла жена, {0} -->
-	<MyWifeDied.stages.my_wife_died.label>моей жены больше нет</MyWifeDied.stages.my_wife_died.label>
+	<!-- Оригинал: умерла жена, {0}
+	Адаптация: моей жены больше нет -->
+	<MyWifeDied.stages.my_wife_died.label>умерла моя жена</MyWifeDied.stages.my_wife_died.label>
 	<!-- Оригинал: Моя жена мертва. Я остался один. -->
 	<MyWifeDied.stages.my_wife_died.description>Я теперь вдовец. {OTHERPAWN_labelShort}, на кого ты меня покинула?</MyWifeDied.stages.my_wife_died.description>
-	<!-- Оригинал: {1_gender ? Умер соперник : Умерла соперница}, {0} -->
-	<PawnWithBadOpinionDied.stages.my_rival_died.label>{1_gender ? Мой соперник проиграл : Моя соперница проиграла}</PawnWithBadOpinionDied.stages.my_rival_died.label>
+	<!-- Оригинал: {1_gender ? Умер соперник : Умерла соперница}, {0}
+	Адаптация: {1_gender ? Мой соперник проиграл : Моя соперница проиграла} -->
+	<PawnWithBadOpinionDied.stages.my_rival_died.label>{1_gender ? Умер мой соперник : Умерла моя соперница}</PawnWithBadOpinionDied.stages.my_rival_died.label>
 	<!-- Оригинал: ...справедливость. -->
 	<PawnWithBadOpinionDied.stages.my_rival_died.description>Вот и славно. Всё же есть на свете справедливость. Прощай, {OTHERPAWN_labelShort}!</PawnWithBadOpinionDied.stages.my_rival_died.description>
-	<!-- Оригинал: {1_gender ? Умер друг : Умерла подруга}, {0} -->
-	<PawnWithGoodOpinionDied.stages.my_friend_died.label>{1_gender ? Моего друга : Моей подруги} больше нет</PawnWithGoodOpinionDied.stages.my_friend_died.label>
-	<!-- Оригинал: {OTHERPAWN_gender ? Мой близкий друг умер : Моя близкая подруга умерла}. {OTHERPAWN_possessive} больше нет со мной рядом. -->
-	<PawnWithGoodOpinionDied.stages.my_friend_died.description>Потеряна такая замечательная личность... Вселенная с каждым днём всё мрачнее. Покойся с миром, {OTHERPAWN_labelShort}.</PawnWithGoodOpinionDied.stages.my_friend_died.description>
+	<!-- Оригинал: {1_gender ? Умер друг : Умерла подруга}, {0}
+	Адаптация: {1_gender ? Моего друга : Моей подруги} больше нет -->
+	<PawnWithGoodOpinionDied.stages.my_friend_died.label>{1_gender ? Умер мой друг : Умерла моя подруга}</PawnWithGoodOpinionDied.stages.my_friend_died.label>
+	<!-- Оригинал: {OTHERPAWN_gender ? Мой близкий друг умер : Моя близкая подруга умерла}. {OTHERPAWN_possessive} больше нет со мной рядом.
+	Адаптация: Потеряна такая замечательная личность (многоточие пробел) Вселенная с каждым днём всё мрачнее. Покойся с миром, {OTHERPAWN_labelShort}. -->
+	<PawnWithGoodOpinionDied.stages.my_friend_died.description>{OTHERPAWN_gender ? Мой близкий друг умер. Его : Моя близкая подруга умерла. Её} больше нет со мной рядом. Покойся с миром, {OTHERPAWN_labelShort}.</PawnWithGoodOpinionDied.stages.my_friend_died.description>
 
 </LanguageData>
