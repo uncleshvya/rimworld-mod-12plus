@@ -5,8 +5,8 @@
 
 	В крематории теперь можно не только кремировать. Подправляем ваниль.
 	Оригинал: кремировать, используя -->
-	<DoBillsCremate.gerund>Сжигать, используя</DoBillsCremate.gerund>
-	<!-- Оригинал: кремировать, используя -->
+	<DoBillsCremate.gerund>сжигать, используя</DoBillsCremate.gerund>
+	<!-- Оригинал: кремировать -->
 	<DoBillsCremate.verb>сжигать</DoBillsCremate.verb>
 
 </LanguageData>
