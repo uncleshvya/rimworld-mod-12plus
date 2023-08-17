@@ -34,23 +34,23 @@
 	<!-- Исправление согласно концепции «12+».
 
 	Заодно сглажены ссылки на людей - для модов на другие расы.
-	Оригинал: ...указать мёртвых или лежащих на земле людей, в одежде... -->
+	Оригинал: ...указать мёртвых или обездвиженных людей, в одежде... -->
 	<MessageMustDesignateStrippable>Нужно указать тела или обездвиженных существ, в одежде, которую можно снять.</MessageMustDesignateStrippable>
-	<!-- Оригинал: ...{PAWN_gender ? умер : умерла}. Причина... -->
+	<!-- Оригинал: {PAWN_labelShort} {PAWN_gender ? умер : умерла}. Причина... -->
 	<PawnDiedBecauseOf>{PAWN_labelShort} {PAWN_gender ? проиграл : проиграла}. Причина: {1}.</PawnDiedBecauseOf>
-	<!-- Оригинал: ...{PAWN_gender ? умер : умерла}. -->
+	<!-- Оригинал: {PAWN_labelShort} {PAWN_gender ? умер : умерла}. -->
 	<PawnDied>{PAWN_labelShort} {PAWN_gender ? проиграл : проиграла}.</PawnDied>
-	<!-- Оригинал: ...{1_gender ? мёртв : мертва}. -->
+	<!-- Оригинал: {1_labelShort} {1_gender ? мёртв : мертва}. -->
 	<MessageCantSelectDeadPawn>{1_labelShort} {1_gender ? вне игры : вне игры}.</MessageCantSelectDeadPawn>
-	<!-- Оригинал: ...{HUMAN_gender ? умер : умерла} {HUMAN_labelShort}. -->
+	<!-- Оригинал: ...что {HUMAN_gender ? умер : умерла} {HUMAN_labelShort}. -->
 	<MessageBondedAnimalMentalBreak>{ANIMAL} {ANIMAL_gender ? получил : получила} нервный срыв из-за того, что {HUMAN_gender ? проиграл : проиграла} {HUMAN_labelShort}.</MessageBondedAnimalMentalBreak>
-	<!-- Оригинал: ...{HUMAN_gender ? умер : умерла} {HUMAN_labelShort}. -->
+	<!-- Оригинал: ...что {HUMAN_gender ? умер : умерла} {HUMAN_labelShort}. -->
 	<MessageNamedBondedAnimalMentalBreak>{ANIMAL_kindIndef} по имени {ANIMAL_label} {ANIMAL_gender ? получил : получила} нервный срыв из-за того, что {HUMAN_gender ? проиграл : проиграла} {HUMAN_labelShort}.</MessageNamedBondedAnimalMentalBreak>
-	<!-- Оригинал: ...{HUMAN_gender ? умер : умерла} {HUMAN_labelShort}. -->
+	<!-- Оригинал: ...что {HUMAN_gender ? умер : умерла} {HUMAN_labelShort}. -->
 	<MessageBondedAnimalsMentalBreak>{0} животных получили нервный срыв из-за того, что {HUMAN_gender ? проиграл : проиграла} {HUMAN_labelShort}.</MessageBondedAnimalsMentalBreak>
-	<!-- Оригинал: ...{0_gender ? погиб : погибла : погибло} от холода. -->
+	<!-- Оригинал: {0} {0_gender ? погиб : погибла : погибло} от холода. -->
 	<MessagePlantDiedOfCold>{0} {0_gender ? завял : завяла : завяло} от холода.</MessagePlantDiedOfCold>
-	<!-- Оригинал: ...{0_gender ? погиб : погибла : погибло} от старости. -->
+	<!-- Оригинал: {0} {0_gender ? погиб : погибла : погибло} от старости. -->
 	<MessagePlantDiedOfRot_LeftUnharvested>{0} {0_gender ? завял : завяла : завяло} от старости.</MessagePlantDiedOfRot_LeftUnharvested>
 	<!-- Оригинал: {0} {0_gender ? погиб : погибла : погибло}, так как... -->
 	<MessagePlantDiedOfRot_ExposedToLight>{0} {0_gender ? завял : завяла : завяло}, так как слишком много времени {0_gender ? провёл : провела : провело} на свету.</MessagePlantDiedOfRot_ExposedToLight>
@@ -65,7 +65,7 @@
 	<MessageSlaughteringBondedAnimal>Если вы потеряете {lookup: {DESIGNATED_labelShort}; Case; 3}, {BONDED_labelShort} расстроится, поскольку {BONDED_gender ? привязан : привязана} к этому питомцу.</MessageSlaughteringBondedAnimal>
 	<!-- Оригинал: Внимание: {0} не выживет на свету. -->
 	<MessageWarningCavePlantsExposedToLight>Внимание: {0} увядает на свету.</MessageWarningCavePlantsExposedToLight>
-	<!-- Оригинал: ...{1_gender ? погиб : погибла} -->
+	<!-- Оригинал: {1_labelShort} {1_gender ? погиб : погибла} -->
 	<GoodwillChangedReason_PawnDied>{1_labelShort} {1_gender ? потерян : потеряна}</GoodwillChangedReason_PawnDied>
 	<!-- Оригинал: погибли гражданские -->
 	<GoodwillChangeReason_CiviliansLost>потеряны гражданские</GoodwillChangeReason_CiviliansLost>
@@ -76,7 +76,10 @@
 	<!-- Связано с Execution.roles.1.label.
 	Оригинал: {0} должна быть... -->
 	<MessageRitualRoleMustBePrisoner>{0} должен быть пленником.</MessageRitualRoleMustBePrisoner>
-	<!-- Оригинал: {0_labelShort} не требует ритуального ослепления. -->
-	<MessageRitualRoleMustRequireBlinding>{0_labelShort} не требует ритуала анти-зрения.</MessageRitualRoleMustRequireBlinding>
+	<!-- Хорошо бы убрать возможность вивисекции людей. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например на новые идеолигии.
+	Сохраняем код на случай повторной выбраковки:
+
+	Оригинал: {0_labelShort} не требует ритуального ослепления.
+	<MessageRitualRoleMustRequireBlinding>{0_labelShort} не требует ритуала анти-зрения.</MessageRitualRoleMustRequireBlinding> -->
 
 </LanguageData>
