@@ -1,13 +1,16 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- исправление согласно концепции «12+» -->
+	<!-- Исправление согласно концепции «12+».
 
-  <!-- EN: death acidifier -->
-  <DeathAcidifier.label>растворитель снаряжения</DeathAcidifier.label>
-  <!-- EN: An installed death acidifier. -->
-  <DeathAcidifier.description>Вживлённый растворитель снаряжения</DeathAcidifier.description>
-  <!-- EN: a death acidifier -->
-  <DeathAcidifier.labelNoun>растворитель снаряжения</DeathAcidifier.labelNoun>
+	Хорошо бы убрать акцент со смерти. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например на новые импланты.
+	Сохраняем код на случай повторной выбраковки:
+
+	Оригинал: посмертный растворитель
+	<DeathAcidifier.label>растворитель снаряжения</DeathAcidifier.label> -->
+	<!-- Оригинал: Вживлённый посмертный растворитель
+	<DeathAcidifier.description>Вживлённый растворитель снаряжения</DeathAcidifier.description> -->
+	<!-- Оригинал: посмертный растворитель
+	<DeathAcidifier.labelNoun>растворитель снаряжения</DeathAcidifier.labelNoun> -->
 
 </LanguageData>
