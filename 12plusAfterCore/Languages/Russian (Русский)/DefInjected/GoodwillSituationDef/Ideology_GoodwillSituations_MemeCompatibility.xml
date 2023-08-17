@@ -1,15 +1,19 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Оригинал: ...в каннибализме -->
-	<Cannibal_Cannibal.label>солидарность в обжорстве</Cannibal_Cannibal.label>
-	<!-- Оригинал: каннибализм vs... -->
-	<Cannibal_FleshPurity.label>обжорство vs биоконсерватизм</Cannibal_FleshPurity.label>
-	<!-- Оригинал: каннибализм vs... -->
-	<Cannibal_PainIsVirtue.label>обжорство vs флагелланство</Cannibal_PainIsVirtue.label>
-	<!-- Оригинал: ...vs каннибализм -->
-	<Individualist_Cannibal.label>индивидуализм vs обжорство</Individualist_Cannibal.label>
+	Хорошо бы убрать возможность людоедства. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например на новые идеолигии.
+	Сохраняем код на случай повторной выбраковки:
+
+	Оригинал: солидарность в каннибализме
+	Адаптация:
+	<Cannibal_Cannibal.label>солидарность в обжорстве</Cannibal_Cannibal.label> -->
+	<!-- Оригинал: каннибализм vs...
+	<Cannibal_FleshPurity.label>обжорство vs биоконсерватизм</Cannibal_FleshPurity.label> -->
+	<!-- Оригинал: каннибализм vs...
+	<Cannibal_PainIsVirtue.label>обжорство vs флагелланство</Cannibal_PainIsVirtue.label> -->
+	<!-- Оригинал: ...vs каннибализм
+	<Individualist_Cannibal.label>индивидуализм vs обжорство</Individualist_Cannibal.label> -->
 
 </LanguageData>
