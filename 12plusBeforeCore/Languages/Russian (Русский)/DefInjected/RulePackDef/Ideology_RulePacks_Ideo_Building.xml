@@ -33,10 +33,19 @@
     <li>buildingName_neutral->чучело</li>
   </NamerBurnTarget.rulePack.rulesStrings>
 
-	<!-- Оригинал:
+	<!-- Хорошо бы убрать возможность людоедства. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например на новые идеолигии.
+	Сохраняем код на случай повторной выбраковки:
+
+	Оригинал:
 	...
     <li>buildingName_neutral->блюдо</li>
 	<li>buildingName_neutral->челмясо</li>
+	...
+	
+	Адаптация:
+	...
+    <li>buildingName_neutral->блюдо</li>
+	<li>buildingName_neutral->пиршество</li>
 	...
 	-->
   <NamerCannibalPlatter.rulePack.rulesStrings>
@@ -44,7 +53,7 @@
     <li>buildingName(p=2)->[buildingName_neutral]</li>
     <li>buildingName_masc->пир</li>
     <li>buildingName_neutral->блюдо</li>
-	<li>buildingName_neutral->пиршество</li>
+	<li>buildingName_neutral->челмясо</li>
   </NamerCannibalPlatter.rulePack.rulesStrings>
 
 	<!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
