@@ -10,7 +10,7 @@
 	Адаптация: бирюк -->
 	<Asexual.degreeDatas.asexual.label>язвительность</Asexual.degreeDatas.asexual.label>
 	<!-- Оригинал: {PAWN_nameDef} не испытывает влечение к кому-либо. -->
-	<Asexual.degreeDatas.asexual.description>{PAWN_nameDef} — одиночка по природе, и никогда не будет заботиться о других. Такому не место в поселении.</Asexual.degreeDatas.asexual.description>
+	<Asexual.degreeDatas.asexual.description>{PAWN_nameDef} — одиночка по природе, и никогда не будет заботиться о других. Такой личности не место в поселении.</Asexual.degreeDatas.asexual.description>
 	<!-- Оригинал: бисексуальность
 	Адаптация: подлость -->
 	<Bisexual.degreeDatas.bisexual.label>ябеда</Bisexual.degreeDatas.bisexual.label>
@@ -39,7 +39,7 @@
 	<Masochist.degreeDatas.masochist.label>недоразвитость</Masochist.degreeDatas.masochist.label>
 	Оригинал: Для {PAWN_nameDef} боль — это что-то возбуждающее. {PAWN_pronoun} не знает почему, просто {PAWN_possessive} голова работает по-другому.
 	Адаптация: {PAWN_nameDef} — недоразвитое создание. Обычно {PAWN_pronoun} только вредит остальным поселенцам. Избавьтесь от н{PAWN_possessive} как можно скорее. -->
-	<Masochist.degreeDatas.masochist.description>{PAWN_nameDef} имеет редкое психическое расстройство: {PAWN_pronoun} никогда не страдает от боли, а наоборот, получает от неё некоторое удовольствие. Эта пугает остальных поселенцев, поэтому мазохист ещё сильнее замыкается в себе.</Masochist.degreeDatas.masochist.description>
+	<Masochist.degreeDatas.masochist.description>{PAWN_nameDef} имеет редкое психическое расстройство — {PAWN_pronoun} никогда не страдает от боли, а наоборот, получает от неё некоторое удовольствие. Это пугает остальных поселенцев, поэтому {PAWN_gender ? одинокий мазохист : одинокая мазохистка} ещё сильнее замыкается в себе.</Masochist.degreeDatas.masochist.description>
 	<!-- Заодно исправлена размытая ссылка в словосочетании "рабство, если {PAWN_possessive}", сообщите разработчику ванили. Также сглажена необязательная тавтология.
 	Оригинал: ...кого-то пустят на мясо, оставят...рабство, если {PAWN_possessive} лично это... -->
 	<Psychopath.degreeDatas.psychopath.description>{PAWN_nameDef} не знает, что такое сопереживание. Страдания других совсем не волнуют {PAWN_possessive}. {PAWN_objective} безразлично, если кого-то оставят не похороненным, посадят в тюрьму или продадут в рабство, когда лично {PAWN_possessive} это не касается. {PAWN_pronoun} также не получает удовольствия от общения с другими.</Psychopath.degreeDatas.psychopath.description>
@@ -53,7 +53,7 @@
 	<Pyromaniac.degreeDatas.0.description>{PAWN_nameDef} любит только разрушать, {PAWN_pronoun} абсолютно {PAWN_gender ? непригоден : непригодна} для жизни в поселении, лучше пусть {PAWN_pronoun} присоединится к врагам и вредит им, а не вам.</Pyromaniac.degreeDatas.0.description>
 
 	Оригинал: {PAWN_nameDef} обожает огонь, никогда...дотянется. Когда рядом огонь — {PAWN_pronoun} радуется, а с зажигательным оружием в руках — радуется ещё больше. -->
-	<Pyromaniac.degreeDatas.pyromaniac.description>{PAWN_nameDef} имеет редкое психическое расстройство: {PAWN_pronoun} обожает открытое пламя, никогда не тушит пожары и время от времени может {PAWN_gender ? сам : сама} поджигать всё, до чего дотянется. {PAWN_pronoun} отпугивает остальных поселенцев и живёт по простому правилу: «Если у вас в руках зажигалка, то любая проблема выглядит как топливо!»</Pyromaniac.degreeDatas.pyromaniac.description>
+	<Pyromaniac.degreeDatas.pyromaniac.description>{PAWN_nameDef} имеет редкое психическое расстройство — {PAWN_pronoun} обожает открытое пламя, никогда не тушит пожары и время от времени может {PAWN_gender ? сам : сама} поджигать всё, до чего дотянется. {PAWN_pronoun} отпугивает остальных поселенцев, так как живёт по простому правилу: «Если у вас в руках зажигалка, то любая проблема выглядит как топливо!»</Pyromaniac.degreeDatas.pyromaniac.description>
 	<!-- Заодно исправлена размытая ссылка в словосочетании "урона...{PAWN_possessive}", сообщите разработчику ванили.
 	Оригинал: ...меньше урона от...атак. {PAWN_possessive} очень трудно убить. -->
 	<Tough.degreeDatas.tough.description>{PAWN_nameDef} обладает толстой кожей, крепкими мышцами и прочными костями. По сравнению с обычным человеком {PAWN_pronoun} получает гораздо меньше повреждений от тех же атак. Врагам будет очень трудно победить {PAWN_possessive}.</Tough.degreeDatas.tough.description>
