@@ -1,10 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
 
 			<!-- Исправление согласно концепции «12+».
 
 			Трейты в ванили жёстко прописаны - так просто их не удалить.
-			Убираем возможность появления нежелательных трейтов при стандартной генерации пешек. -->
+			Убираем возможность появления нежелательных трейтов при стандартной генерации пешек.
+			Хорошо бы убрать трейты Masochist и Pyromaniac. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, чтобы снизить вред игрокам от трейтов, и найти замещающие интересные моды. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "Human"]/alienRace/generalSettings/disallowedTraits</xpath>
 				<value>
@@ -12,47 +16,218 @@
 					<li> <defName>Bisexual</defName> </li>
 					<li> <defName>Cannibal</defName> </li>
 					<li> <defName>Gay</defName> </li>
-					<li> <defName>Masochist</defName> </li>
-					<li> <defName>Pyromaniac</defName> </li>
+					<!-- <li> <defName>Masochist</defName> </li> -->
+					<!-- <li> <defName>Pyromaniac</defName> </li> -->
 				</value>
 			</li>
-			<!-- Убираем возможность появления нежелательных мыслей. -->
+			<!-- Убираем возможность появления нежелательных мыслей.
+			Хорошо бы убрать радость Bloodlust от убийства. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, чтобы снизить вред игрокам от мысли, и найти замещающие интересные моды на сбор трофеев и на интересные бои. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "Human"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
 				<value>
 					<li>ButcheredHumanlikeCorpse</li>
 					<li>HarvestedOrgan_Bloodlust</li>
-					<li>KilledHumanlikeBloodlust</li>
+					<!-- <li>KilledHumanlikeBloodlust</li> -->
 					<li>KnowButcheredHumanlikeCorpse</li>
-					<li>MasochistPain</li>
+					<!-- <li>MasochistPain</li> -->
 					<li>PyromaniacHappy</li>
 					<li>PyromaniacNearFire</li>
 					<li>WitnessedDeathBloodlust</li>
 				</value>
 			</li>
+			<!-- Пока не убрана мысль Bloodlust и не отключены трейты Masochist и Pyromaniac, уменьшаем вероятность появления трейтов. -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/TraitDef[
+				defName = "Bloodlust" or
+				defName = "Masochist" or
+				defName = "Pyromaniac"
+				]/commonality/text()</xpath>
+				<value>0.00001</value>
+			</li>
+			<!-- Пока не отключена мысль Bloodlust, снижаем ценность трейта. -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "Bloodlust"]</xpath>
+				<value>
+					<disabledWorkTags>
+						<li>Animals</li>
+						<li>Caring</li>
+						<li>Social</li>
+					</disabledWorkTags>
+					<disabledWorkTypes>
+						<li>Doctor</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">Childcare</li>
+						<li>Handling</li>
+					</disabledWorkTypes>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/TraitDef[defName = "Bloodlust"]/degreeDatas/li[1]/allowedMeditationFocusTypes</xpath>
+				<value>
+					<randomDiseaseMtbDays>0</randomDiseaseMtbDays>
+					<statFactors>
+						<EatingSpeed>0.7</EatingSpeed>
+					</statFactors>
+					<statOffsets>
+						<MentalBreakThreshold>0.1</MentalBreakThreshold>
+						<PainShockThreshold>+0.2</PainShockThreshold>
+					</statOffsets>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThoughtDef[defName = "KilledHumanlikeBloodlust"]/durationDays/text()</xpath>
+				<value>1</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThoughtDef[defName = "KilledHumanlikeBloodlust"]/stackLimit/text()</xpath>
+				<value>1</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThoughtDef[defName = "KilledHumanlikeBloodlust"]/stages/li[1]/baseMoodEffect/text()</xpath>
+				<value>5</value>
+			</li>
+			<!-- Пока не отключен трейт Masochist, снижаем его ценность. -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "Masochist"]</xpath>
+				<value>
+					<disabledWorkTags>
+						<li>Firefighting</li>
+						<li>Mining</li>
+						<li>Cooking</li>
+						<li>Animals</li>
+						<li>Caring</li>
+						<li>Social</li>
+					</disabledWorkTags>
+					<disabledWorkTypes>
+						<li>Firefighter</li>
+						<li>Doctor</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">Childcare</li>
+						<li>Warden</li>
+						<li>Handling</li>
+						<li>Cooking</li>
+						<li>Hunting</li>
+						<li>Construction</li>
+						<li>Growing</li>
+						<li>Mining</li>
+						<li>PlantCutting</li>
+						<li>Smithing</li>
+						<li>Tailoring</li>
+						<li>Crafting</li>
+					</disabledWorkTypes>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/TraitDef[defName = "Masochist"]/degreeDatas/li[1]/allowedMeditationFocusTypes</xpath>
+				<value>
+					<hungerRateFactor>1.5</hungerRateFactor>
+					<randomDiseaseMtbDays>0</randomDiseaseMtbDays>
+					<socialFightChanceFactor>10</socialFightChanceFactor>
+					<statFactors>
+						<EatingSpeed>0.7</EatingSpeed>
+					</statFactors>
+					<statOffsets>
+						<MentalBreakThreshold>0.1</MentalBreakThreshold>
+						<MoveSpeed>-0.9</MoveSpeed>
+						<PainShockThreshold>+0.2</PainShockThreshold>
+					</statOffsets>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThoughtDef[defName = "MasochistPain"]/stages/li[1]/baseMoodEffect/text()</xpath>
+				<value>1</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThoughtDef[defName = "MasochistPain"]/stages/li[2]/baseMoodEffect/text()</xpath>
+				<value>2</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThoughtDef[defName = "MasochistPain"]/stages/li[3]/baseMoodEffect/text()</xpath>
+				<value>3</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThoughtDef[defName = "MasochistPain"]/stages/li[4]/baseMoodEffect/text()</xpath>
+				<value>4</value>
+			</li>
+			<!-- Пока не отключен трейт Pyromaniac, снижаем его ценность. -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/TraitDef[defName = "Pyromaniac"]/disabledWorkTags</xpath>
+				<value>
+					<disabledWorkTags>
+						<li>Firefighting</li>
+						<!-- <li>Mining</li> -->
+						<!-- <li>Cooking</li> -->
+						<!-- <li>Animals</li> -->
+						<!-- <li>Caring</li> -->
+						<!-- <li>Social</li> -->
+					</disabledWorkTags>
+					<disabledWorkTypes>
+						<li>Firefighter</li>
+						<li>Doctor</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">Childcare</li>
+						<li>Warden</li>
+						<li>Handling</li>
+						<li>Cooking</li>
+						<li>Hunting</li>
+						<li>Mining</li>
+						<li>Smithing</li>
+						<li MayRequire="Dubwise.Rimefeller">RimefellerCrafting</li>
+					</disabledWorkTypes>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/TraitDef[defName = "Pyromaniac"]/degreeDatas/li[1]/allowedMeditationFocusTypes</xpath>
+				<value>
+					<!-- <hungerRateFactor>1.5</hungerRateFactor> -->
+					<randomDiseaseMtbDays>0</randomDiseaseMtbDays>
+					<socialFightChanceFactor>10</socialFightChanceFactor>
+					<statFactors>
+						<!-- <EatingSpeed>0.7</EatingSpeed> -->
+					</statFactors>
+					<statOffsets>
+						<!-- <MentalBreakThreshold>0.1</MentalBreakThreshold> -->
+						<!-- <MoveSpeed>-0.9</MoveSpeed> -->
+						<!-- <PainShockThreshold>+0.2</PainShockThreshold> -->
+					</statOffsets>
+				</value>
+			</li>
 			<!-- Далее - перестраховка, на случай хитрой генерации нежелательных трейтов, как в модах на андроидов или на предстартовую подготовку поселенцев.
-			Красивое и совместимое с сетевыми модами решение не найдено, пока что удалось сделать их одиноко-бесполезными, максимально сокращающими время возможного общения с нормальными пешками. -->
+			Ориентация глубоко прописана, не получилось обойти. Каннибала в принципе можно интегрировать, используя код трейта Eccentric из VEtraits - описание подходит. Правда, пока команда балансеров забраковала соответствующие аспекты, это решение привлекает лишнее внимание к каннибализму.
+			На случай возвращения нужных аспектов, код сохранён в папке разработки.
+			Красивое и совместимое с сетевыми модами решение не найдено, пока что удалось сделать трейты одиноко-бесполезными, максимально сокращающими время возможного общения с нормальными пешками.
+			Пока не отключен трейт Masochist, он убран из этой li-ветки. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/TraitDef[
 				defName = "Asexual" or
 				defName = "Bisexual" or
 				defName = "Cannibal" or
-				defName = "Gay" or
-				defName = "Masochist"
+				defName = "Gay"
 				]/degreeDatas/li[1]</xpath>
 				<value>
 					<hungerRateFactor>100</hungerRateFactor>
 					<randomDiseaseMtbDays>0</randomDiseaseMtbDays>
 					<socialFightChanceFactor>100</socialFightChanceFactor>
 					<statFactors>
+						<EatingSpeed>0.01</EatingSpeed>
+					</statFactors>
+					<statOffsets>
+						<MentalBreakThreshold>1</MentalBreakThreshold>
+						<MoveSpeed>-10</MoveSpeed>
+						<PainShockThreshold>-1</PainShockThreshold>
+					</statOffsets>
+					<theOnlyAllowedMentalBreaks>
+						<li>Berserk</li>
+					</theOnlyAllowedMentalBreaks>
+					<randomMentalState>Berserk</randomMentalState>
+					<randomMentalStateMtbDaysMoodCurve>
 						<points>
 							<li>(0, 100)</li>
 						</points>
 					</randomMentalStateMtbDaysMoodCurve>
 				</value>
 			</li>
-			<!-- У пиромана уже были прописаны срывы, заменяем.
-			Добавляем намёк на английскую локализацию 12+мода -->
+			<!-- Когда Pyromaniac был отключен, его патчили отдельно. Код рабочий, сохраняем его на случай повторной выбраковки трейта командой балансеров:
+
+			У пиромана уже были прописаны срывы, заменяем.
+			Добавляем намёк на английскую локализацию 12+мода. Код поменялся, переводим в файле TraitDef - Traits_Singular.xml
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/TraitDef[defName = "Pyromaniac"]/degreeDatas/li[1]</xpath>
 				<value>
@@ -82,35 +257,65 @@
 					</li>
 				</value>
 			</li>
-			<!-- Трейты, у которых не было конфликтов: -->
+
+			Трейты, у которых не было конфликтов. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/TraitDef[
 				defName = "Nudist" or
 				defName = "Bloodlust" or
 				defName = "Psychopath" or
 				defName = "Cannibal" or
+				defName = "Abrasive" or
+				defName = "NightOwl" or
+				defName = "Gay" or
+				defName = "Bisexual" or
+				defName = "Asexual" or
+				defName = "AnnoyingVoice" or
+				defName = "CreepyBreathing" or
+				defName = "Pyromaniac" or
+				defName = "Nimble" or
+				defName = "FastLearner" or
+				defName = "Undergrounder" or
+				defName = "DislikesMen" or
+				defName = "DislikesWomen" or
+				defName = "GreatMemory" or
+				defName = "Tough" or
+				defName = "TorturedArtist" or
+				defName = "QuickSleeper" or
+				defName = "SpeedOffset" or
+				defName = "DrugDesire" or
+				defName = "NaturalMood" or
+				defName = "Nerves" or
+				defName = "Neurotic" or
+				defName = "Industriousness" or
+				defName = "PsychicSensitivity" or
+				defName = "Beauty" or
+				defName = "Immunity"
+				]</xpath>
 				<value>
 					<conflictingTraits>
 						<li>Asexual</li>
 						<li>Bisexual</li>
 						<li>Cannibal</li>
 						<li>Gay</li>
-						<li>Masochist</li>
-						<li>Pyromaniac</li>
+						<!-- <li>Masochist</li> -->
+						<!-- <li>Pyromaniac</li> -->
 					</conflictingTraits>
 				</value>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Biotech" Class="PatchOperationAdd">
 				<xpath>Defs/TraitDef[
 				defName = "Delicate" or
+				defName = "Recluse"
+				]</xpath>
 				<value>
 					<conflictingTraits>
 						<li>Asexual</li>
 						<li>Bisexual</li>
 						<li>Cannibal</li>
 						<li>Gay</li>
-						<li>Masochist</li>
-						<li>Pyromaniac</li>
+						<!-- <li>Masochist</li> -->
+						<!-- <li>Pyromaniac</li> -->
 					</conflictingTraits>
 				</value>
 			</li>
@@ -122,13 +327,13 @@
 						<li>Bisexual</li>
 						<li>Cannibal</li>
 						<li>Gay</li>
-						<li>Masochist</li>
-						<li>Pyromaniac</li>
+						<!-- <li>Masochist</li> -->
+						<!-- <li>Pyromaniac</li> -->
 					</conflictingTraits>
 				</value>
 			</li>
 			<!-- Трейты, у которых уже были конфликты.
-			У хлюпика уже был указан Masochist, но это не мешает. -->
+			У трейта Wimp уже был указан Masochist, но это не мешает ни при включенном, ни при отключенном трейте Masochist. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/TraitDef[
 				defName = "Kind" or
@@ -150,8 +355,8 @@
 					<li>Bisexual</li>
 					<li>Cannibal</li>
 					<li>Gay</li>
-					<li>Masochist</li>
-					<li>Pyromaniac</li>
+					<!-- <li>Masochist</li> -->
+					<!-- <li>Pyromaniac</li> -->
 				</value>
 			</li>
 			<!-- Оставить эти скрытые строки как инструкцию по адаптации новых модов на трейты.
