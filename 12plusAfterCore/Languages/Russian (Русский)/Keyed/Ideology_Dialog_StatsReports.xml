@@ -5,7 +5,10 @@
 
 	Оригинал: Содержит труп -->
 	<StatsReport_OccupiedCorpseCasket>Содержит тело</StatsReport_OccupiedCorpseCasket>
-	<!-- Оригинал: Бонус ослепления -->
-	<StatsReport_BlindPsychicSensitivityOffset>Бонус анти-зрения</StatsReport_BlindPsychicSensitivityOffset>
+	<!-- Хорошо бы убрать возможность вивисекции людей. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например на новые идеолигии.
+	Сохраняем код на случай повторной выбраковки:
+
+	Оригинал: Бонус ослепления
+	<StatsReport_BlindPsychicSensitivityOffset>Бонус анти-зрения</StatsReport_BlindPsychicSensitivityOffset> -->
 
 </LanguageData>
