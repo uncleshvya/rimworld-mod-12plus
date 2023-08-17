@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
@@ -11,8 +11,6 @@
 	<li>noun_random_acc->Words/Nouns/Random_Acc</li>
 	<li>concept_random->Words/Nouns/Concepts_Random</li>
 	...
-	<li>enemies->Words/Nouns/People_Enemies_Plural</li>
-	...
 	-->
   <TalelessImages.rulePack.rulesFiles>
 	<li>noun_random->Words/Nouns/Random_12plus</li>
@@ -21,8 +19,6 @@
     <li>action_random->Words/Verbs/Action</li>
     <li>action_womit->Words/Verbs/Womit</li>
     <li>adverb_random->Words/Adverbs/Random</li>
-    <li>animals->Words/Nouns/Animals_Badass_Plural</li>
-	<li>enemies->Words/Nouns/People_Enemies_Plural_12plus</li>
   </TalelessImages.rulePack.rulesFiles>
 
 	<!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
@@ -75,7 +71,7 @@
     <li>image(p=0.5)-> чьи-то потаённые страхи в виде [concept_random]</li>
     <li>image(p=0.5)-> чьи-то потаённые мечты в виде [concept_random]</li>
     <li>subject_animate_plural->[animals]</li>
-    <li>subject_animate_plural->[enemies]</li>
+    <li>subject_animate_plural->[Enemies]</li>
     <li>subject_animate->[Outlander]</li>
     <li>subject_animate->[NamePerson]</li>
     <li>subject_animate->[Animal]</li>
@@ -97,6 +93,7 @@
     <li>noun_acc->[noun_random_acc] [random_concept]</li>
     <li>random_concept->[ConceptAny]</li>
     <li>random_concept->[concept_random]</li>
+    <li>animals->[AnimalBadass_plural]</li>
   </TalelessImages.rulePack.rulesStrings>
-  
+
 </LanguageData>
