@@ -7,10 +7,10 @@
 	Заодно сглажена ссылка на людей - для модов на другие расы.
 	Оригинал: Убийство невинного животного — это бесчеловечное преступление. Все...спровоцированы человеком, — невинны. -->
 	<KillingInnocentAnimals_Abhorrent.description>Атаковать неагрессивное животное — отвратительный поступок. Все животные, которые не напали сами или были спровоцированы, — невинны.</KillingInnocentAnimals_Abhorrent.description>
-	<!-- Оригиналы: Убито невинное животное -->
-	<KillingInnocentAnimals_Abhorrent.comps.2.description>Атаковано неагрессивное животное</KillingInnocentAnimals_Abhorrent.comps.2.description>
-	<KillingInnocentAnimals_Disapproved.comps.0.description>Атаковано неагрессивное животное</KillingInnocentAnimals_Disapproved.comps.0.description>
-	<KillingInnocentAnimals_Horrible.comps.0.description>Атаковано неагрессивное животное</KillingInnocentAnimals_Horrible.comps.0.description>
+	<!-- Оригиналы: Убито невинное... -->
+	<KillingInnocentAnimals_Abhorrent.comps.2.description>Потеряно невинное животное</KillingInnocentAnimals_Abhorrent.comps.2.description>
+	<KillingInnocentAnimals_Disapproved.comps.0.description>Потеряно невинное животное</KillingInnocentAnimals_Disapproved.comps.0.description>
+	<KillingInnocentAnimals_Horrible.comps.0.description>Потеряно невинное животное</KillingInnocentAnimals_Horrible.comps.0.description>
 	<!-- Оригинал: Убивать невинных животных...спровоцированы человеком — невинны. -->
 	<KillingInnocentAnimals_Disapproved.description>Атаковать неагрессивных животных — плохо. Все животные, которые не напали сами или были спровоцированы, — невинны.</KillingInnocentAnimals_Disapproved.description>
 	<!-- Оригиналы: Кто-то убил невинное животное -->
