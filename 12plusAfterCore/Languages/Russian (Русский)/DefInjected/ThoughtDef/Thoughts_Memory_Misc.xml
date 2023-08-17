@@ -8,13 +8,17 @@
 
 	<!-- Исправление согласно концепции «12+».
 
-	Оригинал: {PAWN_gender ? Разделал : Разделала} человека -->
-	<ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>{PAWN_gender ? Порезал : Порезала} сустав</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>
-	<!-- Оригинал: Я {PAWN_gender ? пустил : пустила} человека на мясо. Словно это было животное. -->
-	<ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>Как неудачно меня угораздило порезаться. Вроде не болит, но стоит неловко шевельнуться...</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>
-	<!-- Оригинал: {OTHERPAWN_gender ? Разделал : Разделала} человека -->
+	Хорошо бы убрать возможность людоедства. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например для повышения урожайности и облегчения утилизации трупов.
+	Сохраняем код на случай повторной выбраковки:
+
+	Оригинал: {PAWN_gender ? Разделал : Разделала} человека
+	<ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>{PAWN_gender ? Порезал : Порезала} сустав</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label> -->
+	<!-- Оригинал: Я {PAWN_gender ? пустил : пустила} человека на мясо. Словно это было животное.
+	<ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>Как неудачно меня угораздило порезаться. Вроде не болит, но стоит неловко шевельнуться...</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description> -->
+	<!-- Оригинал: {OTHERPAWN_gender ? Разделал : Разделала} человека
 	<ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>плохо себя ведёт</ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>
-	<!-- Оригинал: ...брошен умирать -->
+
+	Оригинал: ...изгнан и умрёт -->
 	<ColonistBanishedToDie.stages.colonist_banished_to_death.label>поселенец изгнан и брошен</ColonistBanishedToDie.stages.colonist_banished_to_death.label>
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
 	Была красная ошибка из-за переменной PAWN_gender.
@@ -39,14 +43,18 @@
 	<HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.label>мы можем спасти жизнь</HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.label>
 	<!-- Оригинал: Вырезать плоть из тел так приятно и увлекательно! -->
 	<HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.description>Теперь у нас больше шансов спасти неизлечимо больного поселенца.</HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.description>
-	<!-- Оригинал: {PAWN_gender ? Убил : Убила} человека -->
-	<KilledHumanlikeBloodlust.stages.killed_someone.label>{PAWN_gender ? Выжил : Выжила} в резне</KilledHumanlikeBloodlust.stages.killed_someone.label>
-	<!-- Оригинал: Я {PAWN_gender ? убил : убила} человека! Вот... -->
-	<KilledHumanlikeBloodlust.stages.killed_someone.description>Я {PAWN_gender ? выжил : выжила} после ужасного риска! Вот это ощущение!</KilledHumanlikeBloodlust.stages.killed_someone.description>
-	<!-- Оригинал: разделан человек -->
-	<KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.label>бардак вокруг</KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.label>
-	<!-- Оригинал: Мы пустили человека на мясо, словно это было животное. -->
-	<KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.description>Наше поселение подобно огромной свалке! Это отвратительно.</KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.description>
+	<!-- Хорошо бы убрать радость Bloodlust от убийства. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, чтобы снизить вред игрокам от мысли, и найти замещающие интересные моды на сбор трофеев и на интересные бои.
+	Сохраняем адаптацию на случай повторной выбраковки мысли.
+	Оригинал: {PAWN_gender ? Убил : Убила} человека
+	Адаптация: {PAWN_gender ? Выжил : Выжила} в резне -->
+	<KilledHumanlikeBloodlust.stages.killed_someone.label>{PAWN_gender ? Победил : Победила} врага</KilledHumanlikeBloodlust.stages.killed_someone.label>
+	<!-- Оригинал: Я {PAWN_gender ? убил : убила} человека! Вот это ощущение!
+	Адаптация: Я {PAWN_gender ? выжил : выжила} после ужасного риска! Вот это ощущение! -->
+	<KilledHumanlikeBloodlust.stages.killed_someone.description>Я {PAWN_gender ? победил : победила} непримиримого врага! Вот это ощущение!</KilledHumanlikeBloodlust.stages.killed_someone.description>
+	<!-- Оригинал: разделан человек
+	<KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.label>бардак вокруг</KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.label> -->
+	<!-- Оригинал: Мы пустили человека на мясо, словно это было животное.
+	<KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.description>Наше поселение подобно огромной свалке! Это отвратительно.</KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike.description> -->
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
 	Переменная используется в Ideology. Фигурные скобки были видны во всплывающем меню над принципами. Пока не исправлен движок, возвращены межполые описания.
 	Оригинал: {PAWN_gender ? Увидел : Увидела} труп -->
@@ -58,7 +66,7 @@
 	<ObservedLayingRottingCorpse.stages.observed_rotting_corpse.label>увидено гниющее тело</ObservedLayingRottingCorpse.stages.observed_rotting_corpse.label>
 	<!-- Оригинал: Я {PAWN_gender ? увидел : увидела} гниющий труп (многоточие пробел) Отвратительно. -->
 	<ObservedLayingRottingCorpse.stages.observed_rotting_corpse.description>Я {PAWN_gender ? увидел : увидела} гниющее тело гуманоида... Отвратительно.</ObservedLayingRottingCorpse.stages.observed_rotting_corpse.description>
-	<!-- Оригинал: ...брошен умирать -->
+	<!-- Оригинал: ...изгнан и умрёт -->
 	<PrisonerBanishedToDie.stages.prisoner_banished_to_death.label>пленник изгнан и брошен</PrisonerBanishedToDie.stages.prisoner_banished_to_death.label>
 	<!-- Для соблюдения концепции 12+, надо заменить "смерть" на "как победили". Но тогда текст не влезает в интерфейс в случае нескольких мыслей, когда добавляется "х2". Пока не придуман вариант короче 28 символов, возвращено межполое описание из версии игры 1.2.
 	Оригинал: {PAWN_gender ? Увидел : Увидела} смерть союзника -->
