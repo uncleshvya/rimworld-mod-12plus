@@ -3,27 +3,33 @@
 
 	<!-- Исправление согласно концепции «12+».
 
-	Рецепт изменён патчем..
-	Оригиналы: черепа на кольях -->
+	Хорошо бы убрать извлечение черепа. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужен мод например на новые трофеи.
+	Сохраняем код на случай повторной выбраковки:
+
+	Рецепт изменён патчем.
+	Оригиналы: черепа на кольях
 	<Skullspike_Desired.stages.skullspikes-0.label>изображения черепов</Skullspike_Desired.stages.skullspikes-0.label>
 	<Skullspike_Desired.stages.skullspikes-1.label>изображения черепов</Skullspike_Desired.stages.skullspikes-1.label>
 	<Skullspike_Desired.stages.skullspikes-2.label>изображения черепов</Skullspike_Desired.stages.skullspikes-2.label>
 	<Skullspike_Disapproved.stages.skullspikes-0.label>изображения черепов</Skullspike_Disapproved.stages.skullspikes-0.label>
 	<Skullspike_Disapproved.stages.skullspikes-1.label>изображения черепов</Skullspike_Disapproved.stages.skullspikes-1.label>
-	<Skullspike_Disapproved.stages.skullspikes-2.label>изображения черепов</Skullspike_Disapproved.stages.skullspikes-2.label>
+	<Skullspike_Disapproved.stages.skullspikes-2.label>изображения черепов</Skullspike_Disapproved.stages.skullspikes-2.label> -->
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили о размытой ссылке слова "они".
 	Мысль возникает, даже если есть 1 череп.
-	Оригинал: Рядом с нами несколько черепов на кольях. Они говорят о том, что мы сильны. -->
-	<Skullspike_Desired.stages.skullspikes-0.description>У нас есть скульптура черепа. Это олицетворяет нашу силу.</Skullspike_Desired.stages.skullspikes-0.description>
-	<!-- Оригинал: ...много черепов на кольях. Пусть... -->
-	<Skullspike_Desired.stages.skullspikes-1.description>Рядом с нами много скульптур черепов. Пусть все нас боятся.</Skullspike_Desired.stages.skullspikes-1.description>
-	<!-- Оригинал: ...оскалилось черепами на колах. Пусть...попробует усомнится в нашей... -->
-	<Skullspike_Desired.stages.skullspikes-2.description>Наше поселение словно оскалилось скульптурами черепов. Пусть кто-то только попробует усомниться в нашей мощи!</Skullspike_Desired.stages.skullspikes-2.description>
-	<!-- Оригинал: Рядом с нами несколько черепов на кольях. Их не то чтобы много, но это всё равно неприятно. -->
-	<Skullspike_Disapproved.stages.skullspikes-0.description>У нас есть скульптура черепа. Не то чтобы это всё портило, но стало как-то неуютно.</Skullspike_Disapproved.stages.skullspikes-0.description>
-	<!-- Оригинал: ...много черепов на кольях. Жутковато. -->
-	<Skullspike_Disapproved.stages.skullspikes-1.description>Рядом с нами много скульптур черепов. Жутковато.</Skullspike_Disapproved.stages.skullspikes-1.description>
-	<!-- Оригинал: ...из колов с черепами? Это... -->
-	<Skullspike_Disapproved.stages.skullspikes-2.description>Почему вокруг меня целый лес из скульптур черепов? Это же просто чудовищно!</Skullspike_Disapproved.stages.skullspikes-2.description>
+	Оригинал: Рядом с нами несколько черепов на кольях. Они говорят о том, что мы сильны.
+	Адаптация: У нас есть скульптура черепа. Это олицетворяет нашу силу. -->
+	<Skullspike_Desired.stages.skullspikes-0.description>У нас установлен череп на колу. Это олицетворяет нашу силу.</Skullspike_Desired.stages.skullspikes-0.description>
+	<!-- Оригинал: ...много черепов на кольях. Пусть...
+	<Skullspike_Desired.stages.skullspikes-1.description>Рядом с нами много скульптур черепов. Пусть все нас боятся.</Skullspike_Desired.stages.skullspikes-1.description> -->
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили о мягком знаке.
+	Оригинал: Наше поселение словно оскалилось черепами на колах. Пусть кто-то только попробует усомнится в нашей мощи!
+	Адаптация: Наше поселение словно оскалилось скульптурами черепов. Пусть кто-то только попробует усомниться в нашей мощи! -->
+	<Skullspike_Desired.stages.skullspikes-2.description>Наше поселение словно оскалилось черепами на колах. Пусть кто-то только попробует усомниться в нашей мощи!</Skullspike_Desired.stages.skullspikes-2.description>
+	<!-- Оригинал: Рядом с нами несколько черепов на кольях. Их не то чтобы много, но это всё равно неприятно.
+	<Skullspike_Disapproved.stages.skullspikes-0.description>У нас есть скульптура черепа. Не то чтобы это всё портило, но стало как-то неуютно.</Skullspike_Disapproved.stages.skullspikes-0.description> -->
+	<!-- Оригинал: ...много черепов на кольях. Жутковато.
+	<Skullspike_Disapproved.stages.skullspikes-1.description>Рядом с нами много скульптур черепов. Жутковато.</Skullspike_Disapproved.stages.skullspikes-1.description> -->
+	<!-- Оригинал: ...из колов с черепами? Это...
+	<Skullspike_Disapproved.stages.skullspikes-2.description>Почему вокруг меня целый лес из скульптур черепов? Это же просто чудовищно!</Skullspike_Disapproved.stages.skullspikes-2.description> -->
 
 </LanguageData>
