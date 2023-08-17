@@ -20,21 +20,23 @@
 	<!-- Заодно сглажена ссылка на животных - для модов на неявно живых существ.
 	Оригинал: ...пришлось есть сырое мясо неразделанного мёртвого существа, будто я животное. Это... -->
 	<AteCorpse.stages.ate_corpse.description>Мне пришлось отгрызать куски от неразделанной туши, будто я какой-то дикарь. Это было ужасно.</AteCorpse.stages.ate_corpse.description>
+	<!-- Хорошо бы убрать возможность людоедства. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например для повышения урожайности и облегчения утилизации трупов.
+	Сохраняем код на случай повторной выбраковки.
 
-	<!-- Оригиналы: ...с человечиной -->
+	Оригиналы: ...с человечиной
+	Адаптация:
 	<AteHumanlikeMeatAsIngredient.stages.cooked_cannibalism.label>{PAWN_gender ? Съел : Съела} блюдо с мумиё</AteHumanlikeMeatAsIngredient.stages.cooked_cannibalism.label>
-	<AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.label>{PAWN_gender ? Съел : Съела} блюдо с мумиё</AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.label>
-	<!-- Оригинал: ...блюдо, приготовленное из плоти человека. Это... -->
-	<AteHumanlikeMeatAsIngredient.stages.cooked_cannibalism.description>Я {PAWN_gender ? съел : съела} блюдо, испорченное гадким мумиё. Это ужасно!</AteHumanlikeMeatAsIngredient.stages.cooked_cannibalism.description>
-	<!-- Оригинал: Блюдо из человечины — это так вкусно! Не хватает гарнира из бобов и хорошего Кьянти. -->
-	<AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.description>Мумиё — это так полезно! Я {PAWN_gender ? укрепил : укрепила} свой иммунитет.</AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.description>
-
-	<!-- Оригиналы: {PAWN_gender ? Съел : Съела} сырую человечину -->
+	<AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.label>{PAWN_gender ? Съел : Съела} блюдо с мумиё</AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.label> -->
+	<!-- Оригинал: ...блюдо, приготовленное из плоти человека. Это...
+	<AteHumanlikeMeatAsIngredient.stages.cooked_cannibalism.description>Я {PAWN_gender ? съел : съела} блюдо, испорченное гадким мумиё. Это ужасно!</AteHumanlikeMeatAsIngredient.stages.cooked_cannibalism.description> -->
+	<!-- Оригинал: Блюдо из человечины — это так вкусно! Не хватает гарнира из бобов и хорошего Кьянти.
+	<AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.description>Мумиё — это так полезно! Я {PAWN_gender ? укрепил : укрепила} свой иммунитет.</AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.description> -->
+	<!-- Оригиналы: {PAWN_gender ? Съел : Съела} сырую человечину
 	<AteHumanlikeMeatDirect.stages.raw_cannibalism.label>{PAWN_gender ? Съел : Съела} мумиё</AteHumanlikeMeatDirect.stages.raw_cannibalism.label>
-	<AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.label>{PAWN_gender ? Съел : Съела} мумиё</AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.label>
-	<!-- Оригинал: ...есть сырую плоть человека. Как зверь. Какой кошмар! -->
-	<AteHumanlikeMeatDirect.stages.raw_cannibalism.description>Мне пришлось есть мумиё, будто я какой-то таракан. Какой кошмар!</AteHumanlikeMeatDirect.stages.raw_cannibalism.description>
-	<!-- Оригинал: ...вкусить сырой плоти человека. Я словно зверь! Она была такая (многоточие пробел) сочная. -->
-	<AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.description>Мне удалось вкусить свежайшего мумиё. Оно было такое... необычное... У меня будет железное здоровье!</AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.description>
+	<AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.label>{PAWN_gender ? Съел : Съела} мумиё</AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.label> -->
+	<!-- Оригинал: ...есть сырую плоть человека. Как зверь. Какой кошмар!
+	<AteHumanlikeMeatDirect.stages.raw_cannibalism.description>Мне пришлось есть мумиё, будто я какой-то таракан. Какой кошмар!</AteHumanlikeMeatDirect.stages.raw_cannibalism.description> -->
+	<!-- Оригинал: ...вкусить сырой плоти человека. Я словно зверь! Она была такая (многоточие пробел) сочная.
+	<AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.description>Мне удалось вкусить свежайшего мумиё. Оно было такое... необычное... У меня будет железное здоровье!</AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.description> -->
 
 </LanguageData>
