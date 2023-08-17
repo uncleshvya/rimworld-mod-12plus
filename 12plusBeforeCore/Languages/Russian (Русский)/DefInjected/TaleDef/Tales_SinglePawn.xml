@@ -5,8 +5,12 @@
 
 	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
 
-	Оригинал: съедено сырое человеческое мясо -->
-	<AteRawHumanlikeMeat.label>съедено мумиё</AteRawHumanlikeMeat.label>
+	Хорошо бы убрать возможность людоедства. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например для повышения урожайности и облегчения утилизации трупов.
+	Сохраняем код на случай повторной выбраковки:
+
+	Оригинал: съедено сырое человеческое мясо
+	Адаптация:
+	<AteRawHumanlikeMeat.label>съедено мумиё</AteRawHumanlikeMeat.label> -->
 	<!-- Оригинал:
 	...
 	<li>tale_noun->как [PAWN_nameDef] ест человеческое мясо</li>
@@ -22,12 +26,12 @@
 	<li>desc_sentence->Мясо блестит...очень сочным.</li>
 	<li>...облеплено кусками мяса.</li>
 	...
-	-->
+	
   <AteRawHumanlikeMeat.rulePack.rulesStrings>
-    <li>tale_noun->как [PAWN_nameDef] ест мумиё</li>
-    <li>image->, как [PAWN_nameFull][circumstance_phrase] [eat_gerund] мумиё, определённо сделанное из экскрементов</li>
-    <li>image->, как [PAWN_nameFull][circumstance_phrase] [eat_gerund] мумиё, всё в грязи</li>
-    <li>image->, как [PAWN_nameFull][circumstance_phrase] [eat_gerund] мумиё, которое мерзко воняет</li>
+	<li>tale_noun->как [PAWN_nameDef] ест мумиё</li>
+	<li>image->, как [PAWN_nameFull][circumstance_phrase] [eat_gerund] мумиё, определённо сделанное из экскрементов</li>
+	<li>image->, как [PAWN_nameFull][circumstance_phrase] [eat_gerund] мумиё, всё в грязи</li>
+	<li>image->, как [PAWN_nameFull][circumstance_phrase] [eat_gerund] мумиё, которое мерзко воняет</li>
     <li>eat_gerund->поедает</li>
     <li>eat_gerund->уплетает</li>
     <li>eat_gerund->жуёт</li>
@@ -41,16 +45,16 @@
     <li>circumstance_phrase->, пока другие молча смотрят,</li>
     <li>circumstance_phrase->[empty] со смаком</li>
     <li>circumstance_phrase->, бешено, словно [PAWN_possessive] жизнь зависит от этого,</li>
-    <li>desc_sentence->Всё лицо [PAWN_nameDef] покрыто слизью.</li>
+	<li>desc_sentence->Всё лицо [PAWN_nameDef] покрыто слизью.</li>
     <li>desc_sentence->[PAWN_nameDef] облизывает свои пальцы.</li>
-    <li>desc_sentence->[PAWN_possessive] лицо и руки измазаны слизью и гнилью.</li>
-    <li>desc_sentence->[PAWN_nameDef] в середине огромной лужи нечистот.</li>
-    <li>desc_sentence->[PAWN_nameDef] смотрит с голодным блеском в глазах.</li>
-    <li>desc_sentence->Мумиё блестит и выглядит очень полезным.</li>
-    <li>desc_sentence->Всё [PAWN_possessive] тело облеплено кусочками мумиё.</li>
-  </AteRawHumanlikeMeat.rulePack.rulesStrings>
-	<!-- Оригинал: разделано человеческое тело -->
-	<ButcheredHumanlikeCorpse.label>бардак вокруг</ButcheredHumanlikeCorpse.label>
+	<li>desc_sentence->[PAWN_possessive] лицо и руки измазаны слизью и гнилью.</li>
+	<li>desc_sentence->[PAWN_nameDef] в середине огромной лужи нечистот.</li>
+	<li>desc_sentence->[PAWN_nameDef] смотрит с голодным блеском в глазах.</li>
+	<li>desc_sentence->Мумиё блестит и выглядит очень полезным.</li>
+	<li>desc_sentence->Всё [PAWN_possessive] тело облеплено кусочками мумиё.</li>
+  </AteRawHumanlikeMeat.rulePack.rulesStrings> -->
+	<!-- Оригинал: разделано человеческое тело
+	<ButcheredHumanlikeCorpse.label>бардак вокруг</ButcheredHumanlikeCorpse.label> -->
 
 	<!-- Эти полфайла без изменений, но необходимо оставить, иначе грамматика страдает:
 
@@ -275,7 +279,7 @@
     <li>circumstance_phrase->[empty] из-за стресса</li>
     <li>circumstance_phrase->, не владея более собой</li>
     <li>desc_sentence->[PAWN_pronoun] дрожит от неконтролируемой ярости.</li>
-    <li>desc_sentence->[PAWN_possessive] зубы обнажаются в жутком оскале.</li>
+	<li>desc_sentence->[PAWN_possessive] зубы обнажаются в жутком оскале.</li>
     <li>desc_sentence->в [PAWN_possessive] замерших глазах плещется безумие.</li>
     <li>desc_sentence->Плевки летят из [PAWN_possessive] рта, в то время как [PAWN_pronoun] кричит в безумной ярости.</li>
     <li>desc_sentence->[PAWN_pronoun] рвёт на себе одежду.</li>
@@ -283,7 +287,7 @@
     <li>desc_sentence->[PAWN_pronoun] маниакально улыбается.</li>
     <li>desc_sentence->[PAWN_pronoun] рычит, как [Animal].</li>
     <li>desc_sentence->Над [PAWN_possessive] головой символически изображается [Animal].</li>
-    <li>desc_sentence->В [PAWN_possessive] глазах виден нездоровый блеск.</li>
+	<li>desc_sentence->В [PAWN_possessive] глазах виден нездоровый блеск.</li>
     <li>desc_sentence->Всё [PAWN_possessive] тело дрожит от ненависти.</li>
     <li>desc_sentence->[PAWN_possessive] лицо замерло в извращённом спокойствии.</li>
     <li>desc_sentence->Одинокая слеза скатывается по [PAWN_possessive] лицу.</li>
@@ -487,7 +491,7 @@
     <li>desc_sentence->[PAWN_pronoun] маниакально смеётся.</li>
     <li>desc_sentence->[PAWN_pronoun] не понимает, что происходит.</li>
     <li>desc_sentence->Над [PAWN_nameDef] поднимается струйка дыма.</li>
-    <li>desc_sentence->Художник мастерски изображает [PAWN_possessive] с выражением лица, характерным для опустошённого человека.</li>
+	<li>desc_sentence->Художник мастерски изображает [PAWN_possessive] с выражением лица, характерным для опустошённого человека.</li>
   </WasOnFire.rulePack.rulesStrings>
 
 </LanguageData>
