@@ -6,14 +6,19 @@
 
 			<!-- Исправление согласно концепции «12+».
 
-			Отключаем разделку разумных существ. -->
+			Хорошо бы убрать разделку людей. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например на еду типа балюта, новых животных, новые идеолигии.
+			Сохраняем код на случай повторной выбраковки:
+
+			Отключаем разделку разумных существ.
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/RecipeDef[defName = "ButcherCorpseFlesh"]/fixedIngredientFilter/disallowedCategories</xpath>
 				<value>
 					<li>CorpsesHumanlike</li>
 				</value>
-			</li>
-			<!-- Убираем обучение торговле органами из пленников. -->
+			</li> -->
+			<!-- Хорошо бы убрать обучение торговле органами из пленников. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например на стартовый капитал и новые трофеи.
+			Сохраняем код на случай повторной выбраковки:
+
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[@Name = "BodyPartNaturalBase"]</xpath>
 				<value>
@@ -29,7 +34,8 @@
 				]/statBases/MarketValue/text()</xpath>
 				<value>0</value>
 			</li>
-			<!-- Можно было бы совсем отключить текстильный ресурс с людей, но пусть вспомнится подвиг древнеримских женщин из г.Аквилея, отдавших свои волосы для ремонта катапульт. -->
+
+			Можно было бы совсем отключить текстильный ресурс с людей, но пусть вспомнится подвиг древнеримских женщин из г.Аквилея, отдавших свои волосы для ремонта катапульт.
 			<li Class="PatchOperationAttributeSet">
 				<xpath>Defs/ThingDef[defName = "Leather_Human"]</xpath>
 				<attribute>ParentName</attribute>
@@ -41,8 +47,9 @@
 					<color>(120, 98, 80)</color>
 					<drawSize>0.5</drawSize>
 				</value>
-			</li>
-			<!-- Согласно решению с переименовыванием в "волосяной мусор", убираем оный из торговли. -->
+			</li> -->
+
+			<!-- Убираем человечскую кожу из торговли. -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "Leather_Human"]</xpath>
 				<value>
@@ -56,7 +63,7 @@
 					<tradeability>None</tradeability>
 				</value>
 			</li>
-			Пока не найдено решение, удаляем мумиё из ассортимента торговцев. -->
+			Пока не найдено решение, удаляем человечину из ассортимента торговцев. -->
 			<li MayRequire="Ludeon.RimWorld.Royalty" Class="PatchOperationAdd">
 				<xpath>Defs/TraderKindDef[
 				defName = "Base_Neolithic_Standard" or
