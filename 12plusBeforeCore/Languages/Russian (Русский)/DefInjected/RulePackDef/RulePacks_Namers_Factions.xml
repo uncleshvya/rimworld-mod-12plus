@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
 
 	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. И через ноды "rulesStrings.1" тоже. Пришлось создать суб мод перед Core.
 
-	Первые 3 блока - без изменений, но необходимо оставить, иначе грамматика страдает:
+	Первые полфайла - без изменений, но необходимо оставить, иначе грамматика страдает:
 
   EN:
     <li>r_name->[msyl][msyl] [mechhive]</li>
@@ -97,19 +97,10 @@
     <li>political_name_fem(p=2)->[political_union_fem]</li>
     <li>political_name_neutral(p=2)->[political_union_neutral]</li>
   </NamerFactionOutlander.rulePack.rulesStrings>
-
-	<!-- Оригинал:
-	...
-	<li>badasspeople->Words/Nouns/People_Enemies_Plural</li>
-	<li>of_badasspeople->Words/Nouns/People_Enemies_Genitive_Plural</li>
-	<li>badassconcept->Words/Nouns/Concepts_Badass</li>
-	...
-	-->
+  <!-- EN:
+    <li>groupname->Words/Nouns/GroupNames</li>
+  -->
   <NamerFactionPirate.rulePack.rulesFiles>
-    <li>badassanimals->Words/Nouns/Animals_Badass_Plural</li>
-	<li>badasspeople->Words/Nouns/People_Enemies_Plural_12plus</li>
-	<li>of_badasspeople->Words/Nouns/People_Enemies_Genitive_Plural_12plus</li>
-	<li>badassconcept->Words/Nouns/Concepts_Badass_12plus</li>
     <li>Group_masc->Words/Nouns/Groups_masc</li>
     <li>Group_fem->Words/Nouns/Groups_fem</li>
     <li>Group_neutral->Words/Nouns/Groups_neutral</li>
@@ -117,10 +108,7 @@
     <li>ColorBadass_fem->Words/Nouns/Colors_Badass_Female</li>
     <li>ColorBadass_plural->Words/Nouns/Colors_Badass_Plural</li>
   </NamerFactionPirate.rulePack.rulesFiles>
-
-	<!-- Далее до середины файла - без изменений, но необходимо оставить, иначе грамматика страдает:
-
-  EN:
+  <!-- EN:
     <li>r_name->The [AnimalBadass]s</li>
     <li>r_name->The [AnimalBadass] Men</li>
     <li>r_name->The [AnimalBadass]s of [ConceptBadass]</li>
@@ -150,28 +138,28 @@
     <li>r_name->[ConceptBadass] [groupname]</li>
   -->
   <NamerFactionPirate.rulePack.rulesStrings>
-    <li>r_name->[badassanimals]</li>
-    <li>r_name->Люди-[badassanimals]</li>
-    <li>r_name->[badassanimals] [ConceptBadass]</li>
-    <li>r_name->[badasspeople] [ConceptBadass]</li>
-    <li>r_name->[badasspeople]</li>
+    <li>r_name->[AnimalBadass_plural]</li>
+    <li>r_name->Люди-[AnimalBadass_plural]</li>
+    <li>r_name->[AnimalBadass_plural] [ConceptBadass]</li>
+    <li>r_name->[Enemies] [ConceptBadass]</li>
+    <li>r_name->[Enemies]</li>
     <li>r_name->[AdjectiveBadass_plural]</li>
     <li>r_name(p=0.4)->[AdjectiveBadass] [Weapon_masc]</li>
     <li>r_name(p=0.6)->[AdjectiveBadass_fem] [Weapon_fem]</li>
     <li>r_name(p=0.1)->[AdjectiveBadass_neutral] [Weapon_neutral]</li>
     <li>r_name->[Weapon] [ConceptBadass]</li>
     <li>r_name->[ColorBadass_plural]</li>
-    <li>r_name->[ColorBadass_plural] [badassanimals]</li>
-    <li>r_name->[ColorBadass_plural] [badasspeople]</li>
-    <li>r_name->[badassanimals]-[badasspeople]</li>
+    <li>r_name->[ColorBadass_plural] [AnimalBadass_plural]</li>
+    <li>r_name->[ColorBadass_plural] [Enemies]</li>
+    <li>r_name->[AnimalBadass_plural]-[Enemies]</li>
     <li>r_name(p=0.2)->[AdjectiveBadass] [Group_masc]</li>
     <li>r_name(p=1)->[AdjectiveBadass_fem] [Group_fem]</li>
     <li>r_name(p=0.2)->[AdjectiveBadass_neutral] [Group_neutral]</li>
-    <li>r_name->[AdjectiveBadass_plural] [badassanimals]</li>
-    <li>r_name->[AdjectiveBadass_plural] [badasspeople]</li>
+    <li>r_name->[AdjectiveBadass_plural] [AnimalBadass_plural]</li>
+    <li>r_name->[AdjectiveBadass_plural] [Enemies]</li>
     <li>r_name->[ColorBadass_masc] [Weapon_masc]</li>
     <li>r_name->[ColorBadass_fem] [Weapon_fem]</li>
-    <li>r_name(p=2)->[group] [of_badasspeople]</li>
+    <li>r_name(p=2)->[group] [Enemies_gen]</li>
     <li>r_name(p=4)->[group] [ConceptBadass]</li>
     <li>group->[Group_masc]</li>
     <li>group(p=5)->[Group_fem]</li>
@@ -248,7 +236,7 @@
     <li>TerrainFeature_prep->Words/Nouns/TerrainFeatures_Prepos</li>
   </NamerSettlementOutlander.rulePack.rulesFiles>
 
-	<!-- Этот блок - без изменений, но необходимо оставить, иначе грамматика страдает:
+	<!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
 
   EN:
     <li>r_name(p=12)->[townname_wordgen]</li>
@@ -335,21 +323,7 @@
     <li>townend->шо</li>
     <li>townend->вик</li>
   </NamerSettlementOutlander.rulePack.rulesStrings>
-
-	<!-- Оригинал:
-	...
-	<li>of_badasspeople->Words/Nouns/People_Enemies_Genitive_Plural</li>
-	...
-	-->
-  <NamerSettlementPirate.rulePack.rulesFiles>
-    <li>of_badassanimal->Words/Nouns/Animals_Badass_Genitive</li>
-    <li>of_badassanimals->Words/Nouns/Animals_Badass_Genitive_Plural</li>
-	<li>of_badasspeople->Words/Nouns/People_Enemies_Genitive_Plural_12plus</li>
-  </NamerSettlementPirate.rulePack.rulesFiles>
-
-	<!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
-
-  EN:
+  <!-- EN:
     <li>r_name(p=4)->[townname_combo]</li>
     <li>r_name->[townname_wordgen]</li>
     <li>townname_combo->[AnimalBadass] [geography]</li>
@@ -392,10 +366,10 @@
     <li>townendevil->thad</li>
   -->
   <NamerSettlementPirate.rulePack.rulesStrings>
-    <li>r_name->[geography] [of_badassanimal]</li>
-    <li>r_name->[geography] [of_badassanimals]</li>
+    <li>r_name->[geography] [AnimalBadass_gen]</li>
+    <li>r_name->[geography] [AnimalBadass_plural_gen]</li>
     <li>r_name->[geography] [ConceptBadass]</li>
-    <li>r_name->[geography] [of_badasspeople]</li>
+    <li>r_name->[geography] [Enemies_gen]</li>
     <li>geography->[TerrainFeature]</li>
     <li>geography->[Community]</li>
   </NamerSettlementPirate.rulePack.rulesStrings>
