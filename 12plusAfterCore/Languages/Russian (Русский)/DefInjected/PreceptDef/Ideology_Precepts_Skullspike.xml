@@ -3,18 +3,22 @@
 
 	<!-- Исправление согласно концепции «12+».
 
+	Хорошо бы убрать извлечение черепа. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужен мод например на новые трофеи.
+	Сохраняем код на случай повторной выбраковки.
+
 	Механика замещена патчем.
 	Все описания следует синхронизировать с папкой IssueDef.
-	Оригинал: требуются -->
-	<Skullspike_Desired.label>требуется</Skullspike_Desired.label>
-	<!-- Оригинал: Черепа на кольях служат символом нашего превосходства. -->
-	<Skullspike_Desired.description>Пускай враги узна́ют, что мы не намерены шутить.</Skullspike_Desired.description>
-	<!-- Оригиналы: Череп на колу -->
+	Оригинал: требуются
+	Адаптация:
+	<Skullspike_Desired.label>требуется</Skullspike_Desired.label> -->
+	<!-- Оригинал: Черепа на кольях служат символом нашего превосходства.
+	<Skullspike_Desired.description>Пускай враги узна́ют, что мы не намерены шутить.</Skullspike_Desired.description> -->
+	<!-- Оригиналы: Череп на колу
 	<Skullspike_Desired.comps.0.description>Установлена скульптура «Череп»</Skullspike_Desired.comps.0.description>
-	<Skullspike_Disapproved.comps.0.description>Установлена скульптура «Череп»</Skullspike_Disapproved.comps.0.description>
-	<!-- Оригинал: не одобряются -->
-	<Skullspike_Disapproved.label>не одобряется</Skullspike_Disapproved.label>
-	<!-- Оригинал: Насаживать черепа на колья — это... -->
-	<Skullspike_Disapproved.description>Изображать столь реалистичные черепа — это по-варварски.</Skullspike_Disapproved.description>
+	<Skullspike_Disapproved.comps.0.description>Установлена скульптура «Череп»</Skullspike_Disapproved.comps.0.description> -->
+	<!-- Оригинал: не одобряются
+	<Skullspike_Disapproved.label>не одобряется</Skullspike_Disapproved.label> -->
+	<!-- Оригинал: Насаживать черепа на колья — это...
+	<Skullspike_Disapproved.description>Изображать столь реалистичные черепа — это по-варварски.</Skullspike_Disapproved.description> -->
 
 </LanguageData>
