@@ -80,7 +80,7 @@
 				defName = "Orbital_Empire"
 				]/stockGenerators/li[thingDef="Genepack"]</xpath>
 			</li>
-			<!-- Убираем возможность появления детей в капсулах. -->
+			<!-- Убираем возможность появления детей в транспортных капсулах. -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/IncidentDef[defName = "RefugeePodCrash_Baby"]</xpath>
 			</li>
