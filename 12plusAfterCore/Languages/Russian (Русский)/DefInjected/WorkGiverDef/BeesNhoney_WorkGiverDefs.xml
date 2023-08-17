@@ -3,27 +3,24 @@
 
 	<!-- Исправлена неточность, сообщите разработчику.
 
-	<Оригинал: вырастить новую пчелиную королеву -->
+	Медовуху не надо настаивать. Правим ваниль.
+	Оригинал: варить сусло -->
+	<DoBillsBrew.label>готовить напитки</DoBillsBrew.label>
+	<!-- Оригинал: варить сусло, используя -->
+	<DoBillsBrew.gerund>Готовить, используя</DoBillsBrew.gerund>
+	<!-- Оригинал: варить сусло -->
+	<DoBillsBrew.verb>приготовить напитки</DoBillsBrew.verb>
+	<!-- Оригинал: вырастить новую пчелиную королеву -->
 	<DoBillsRaiseNewQueen.label>выращивать пчелиную матку</DoBillsRaiseNewQueen.label>
 	<!-- Оригинал: выращивание пчелиной королевы -->
 	<DoBillsRaiseNewQueen.gerund>Вырастить пчелиную матку, используя</DoBillsRaiseNewQueen.gerund>
 	<!-- Оригинал: вырастить пчелиную королеву -->
 	<DoBillsRaiseNewQueen.verb>вырастить пчелиную матку</DoBillsRaiseNewQueen.verb>
-
 	<!-- Оригинал: сбор мёда -->
 	<GetHoney.label>извлекать мёд</GetHoney.label>
 	<!-- Оригинал: сбор -->
 	<GetHoney.gerund>Извлечь мёд из</GetHoney.gerund>
 	<!-- Оригинал: собирать -->
 	<GetHoney.verb>извлечь мёд</GetHoney.verb>
-
-	<!-- Исправление согласно концепции «12+».
-
-	Оригинал: варить пиво -->
-	<DoBillsBrew.label>готовить напитки</DoBillsBrew.label>
-	<!-- Оригинал: варить пиво на -->
-	<DoBillsBrew.gerund>Готовить на</DoBillsBrew.gerund>
-	<!-- Оригинал: варить пиво на -->
-	<DoBillsBrew.verb>приготовить</DoBillsBrew.verb>
 
 </LanguageData>
