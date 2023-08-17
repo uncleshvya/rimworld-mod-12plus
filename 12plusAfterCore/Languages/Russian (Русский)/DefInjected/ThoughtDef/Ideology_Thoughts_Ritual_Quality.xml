@@ -3,10 +3,13 @@
 
 	<!-- Исправление согласно концепции «12+».
 
-	Оригинал: скучное ослепление -->
-	<BoringBlinding.stages.boring_blinding.label>скучный ритуал анти-зрения</BoringBlinding.stages.boring_blinding.label>
-	<!-- Оригинал: Ослепление прошло скучно... -->
-	<BoringBlinding.stages.boring_blinding.description>Ритуал анти-зрения прошёл скучно, без огонька, а техника исполнения оставляла желать лучшего.</BoringBlinding.stages.boring_blinding.description>
+	Хорошо бы убрать возможность вивисекции людей. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например на новые идеолигии.
+	Сохраняем код на случай повторной выбраковки:
+
+	Оригинал: скучное ослепление
+	<BoringBlinding.stages.boring_blinding.label>скучный ритуал анти-зрения</BoringBlinding.stages.boring_blinding.label> -->
+	<!-- Оригинал: Ослепление прошло скучно...
+	<BoringBlinding.stages.boring_blinding.description>Ритуал анти-зрения прошёл скучно, без огонька, а техника исполнения оставляла желать лучшего.</BoringBlinding.stages.boring_blinding.description> -->
 	<!-- Оригинал: ...напора. Такое чувство, что дуэлянты просто хотели выжить. -->
 	<BoringDuel.stages.boring_duel.description>Дуэль прошла скучно. Ни агрессии, ни напора, только попытки уклониться.</BoringDuel.stages.boring_duel.description>
 	<!-- Разделены жертвоприношения людей и животных.
@@ -14,32 +17,33 @@
 	<BoringSacrifice.stages.boring_sacrifice.label>скучный ритуал</BoringSacrifice.stages.boring_sacrifice.label>
 	<!-- Оригинал: Жертвоприношение прошло скучно... -->
 	<BoringSacrifice.stages.boring_sacrifice.description>Ритуал прошёл скучно, без огонька, а техника исполнения оставляла желать лучшего.</BoringSacrifice.stages.boring_sacrifice.description>
-	<!-- Оригинал: достойное ослепление -->
-	<SatisfyingBlinding.stages.satisfying_blinding.label>достойный ритуал анти-зрения</SatisfyingBlinding.stages.satisfying_blinding.label>
-	<!-- Оригинал: Ослепление прошло достойно. Нож вошёл глубоко, с приятным сочным звуком. -->
-	<SatisfyingBlinding.stages.satisfying_blinding.description>Ритуал анти-зрения прошёл достойно, согласно древним традициям.</SatisfyingBlinding.stages.satisfying_blinding.description>
+	<!-- Оригинал: достойное ослепление
+	<SatisfyingBlinding.stages.satisfying_blinding.label>достойный ритуал анти-зрения</SatisfyingBlinding.stages.satisfying_blinding.label> -->
+	<!-- Оригинал: Ослепление прошло достойно. Нож вошёл глубоко, с приятным сочным звуком.
+	Адаптация: Ритуал анти-зрения прошёл достойно, согласно древним традициям. -->
+	<SatisfyingBlinding.stages.satisfying_blinding.description>Ослепление прошло достойно. Ритуал был проведён по всем правилам.</SatisfyingBlinding.stages.satisfying_blinding.description>
 	<!-- Оригинал: достойное жертвоприношение -->
 	<SatisfyingSacrifice.stages.satisfying_sacrifice.label>достойный ритуал</SatisfyingSacrifice.stages.satisfying_sacrifice.label>
 	<!-- Оригинал: Жертвоприношение прошло достойно, исполнено качественно и в меру кроваво. -->
 	<SatisfyingSacrifice.stages.satisfying_sacrifice.description>Этот ритуал прошёл достойно — вполне в духе нашей идеолигии.</SatisfyingSacrifice.stages.satisfying_sacrifice.description>
 	<!-- Ограничение на длину заголовка.
-	Оригинал: изумительное ослепление -->
-	<SpectacularBlinding.stages.spectacular_blinding.label>изумительное таинство</SpectacularBlinding.stages.spectacular_blinding.label>
-	<!-- Оригинал: ...удивительный клинок, болезненный... -->
-	<SpectacularBlinding.stages.spectacular_blinding.description>Голоса песнопений, ужасный и удивительный гром, болезненный трепет и, наконец, кульминация — церемония прошла грандиозно!</SpectacularBlinding.stages.spectacular_blinding.description>
+	Оригинал: изумительное ослепление
+	<SpectacularBlinding.stages.spectacular_blinding.label>изумительное таинство</SpectacularBlinding.stages.spectacular_blinding.label> -->
+	<!-- Оригинал: ...удивительный клинок, болезненный...
+	<SpectacularBlinding.stages.spectacular_blinding.description>Голоса песнопений, ужасный и удивительный гром, болезненный трепет и, наконец, кульминация — церемония прошла грандиозно!</SpectacularBlinding.stages.spectacular_blinding.description> -->
 	<!-- Оригинал: изумительное жертвоприношение -->
 	<SpectacularSacrifice.stages.spectacular_sacrifice.label>изумительный ритуал</SpectacularSacrifice.stages.spectacular_sacrifice.label>
 	<!-- Оригинал: ...Освобождение! Это жертвоприношение заставило меня... -->
 	<SpectacularSacrifice.stages.spectacular_sacrifice.description>Кровь! Освобождение! Этот ритуал заставил меня почувствовать, что мы буквально соприкасаемся с другим миром.</SpectacularSacrifice.stages.spectacular_sacrifice.description>
-	<!-- Оригинал: ужасное ослепление -->
-	<TerribleBlinding.stages.terrible_blinding.label>ужасный ритуал анти-зрения</TerribleBlinding.stages.terrible_blinding.label>
-	<!-- Оригинал: Ритуал ослепления был... -->
-	<TerribleBlinding.stages.terrible_blinding.description>Ритуал анти-зрения был безнадёжно испорчен, а нужный настрой сбит. Какая нелепая церемония.</TerribleBlinding.stages.terrible_blinding.description>
+	<!-- Оригинал: ужасное ослепление
+	<TerribleBlinding.stages.terrible_blinding.label>ужасный ритуал анти-зрения</TerribleBlinding.stages.terrible_blinding.label> -->
+	<!-- Оригинал: Ритуал ослепления был...
+	<TerribleBlinding.stages.terrible_blinding.description>Ритуал анти-зрения был безнадёжно испорчен, а нужный настрой сбит. Какая нелепая церемония.</TerribleBlinding.stages.terrible_blinding.description> -->
 	<!-- Оригинал: ужасное жертвоприношение -->
 	<TerribleSacrifice.stages.terrible_sacrifice.label>ужасный ритуал</TerribleSacrifice.stages.terrible_sacrifice.label>
 	<!-- Оригинал: Ритуал жертвоприношения был...просто ужасная и нелепая смерть. -->
 	<TerribleSacrifice.stages.terrible_sacrifice.description>Ритуал был безнадёжно испорчен, а нужный настрой сбит. Это была просто нелепая трата времени.</TerribleSacrifice.stages.terrible_sacrifice.description>
-	<!-- Заодно исправлена неточность, сообщите разработчику ванили.
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили о слове "они".
 	Оригинал: ...сущей пыткой, и они всё равно выглядели как... -->
 	<TerribleSkyLanterns.stages.terrible_skylantern_festival.description>Собирать этот фонарик было сущей морокой, и он всё равно выглядел как мусор.</TerribleSkyLanterns.stages.terrible_skylantern_festival.description>
 	<!-- Оригинал: Ярость! Кровь! Смерть! Это... -->
