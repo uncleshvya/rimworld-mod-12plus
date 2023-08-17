@@ -3,48 +3,56 @@
 
 	<!-- Исправление согласно концепции «12+».
 
+	Хорошо бы убрать возможность людоедства. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например для повышения урожайности и облегчения утилизации трупов.
+	Сохраняем код на случай повторной выбраковки:
+
 	Все описания следует синхронизировать с файлом PreceptDef\Precepts_Cannibalism.xml.
 	Заодно исправлена неточность, сообщите разработчику ванили о неразрывных пробелах в этом файле.
 	И убрана размытость разницы с Cannibalism_Horrible.label.
-	Оригинал: отвратителен -->
-	<Cannibalism_Abhorrent.label>абсолютно отвратительны</Cannibalism_Abhorrent.label>
-	<!-- Оригинал: Есть плоть человека — омерзительно и ужасно. -->
-	<Cannibalism_Abhorrent.description>Обжорам не место в новом поселении, здесь каждая порция пищи на счету. Нормальной пищи, без экспериментов с мумиё.\n\nМы все делаем общее дело, не надо оскорблять «высокомодными» нарядами чувства поселенца, от которого зависит завтрашнее выживание всех.</Cannibalism_Abhorrent.description>
+	Оригинал: отвратителен
+	Адаптация: абсолютно отвратительны -->
+	<Cannibalism_Abhorrent.label>абсолютно отвратителен</Cannibalism_Abhorrent.label>
+	<!-- Оригинал: Есть плоть человека — омерзительно и ужасно.
+	Адаптация: Обжорам не место в новом поселении, здесь каждая порция пищи на счету. Нормальной пищи, без экспериментов с мумиё.\n\nМы все делаем общее дело, не надо оскорблять «высокомодными» нарядами чувства поселенца, от которого зависит завтрашнее выживание всех. -->
+	<Cannibalism_Abhorrent.description>Есть плоть человека — омерзительно и ужасно.</Cannibalism_Abhorrent.description>
 	<!-- Длина описания влияет на вид во всплывающем меню над принципами.
-	Оригиналы: ...из человеческой кожи -->
+	Оригиналы: ...из человеческой кожи
 	<Cannibalism_Abhorrent.comps.5.description>Одежда из мусора</Cannibalism_Abhorrent.comps.5.description>
 	<Cannibalism_Disapproved.comps.5.description>Одежда из мусора</Cannibalism_Disapproved.comps.5.description>
 	<Cannibalism_Horrible.comps.5.description>Одежда из мусора</Cannibalism_Horrible.comps.5.description>
 	<Cannibalism_Preferred.comps.2.description>Одежда из волос</Cannibalism_Preferred.comps.2.description>
 	<Cannibalism_RequiredRavenous.comps.4.description>Одежда из волос</Cannibalism_RequiredRavenous.comps.4.description>
-	<Cannibalism_RequiredStrong.comps.4.description>Одежда из волос</Cannibalism_RequiredStrong.comps.4.description>
-	<!-- Оригинал: приемлем -->
-	<Cannibalism_Acceptable.label>приемлемы</Cannibalism_Acceptable.label>
-	<!-- Оригинал: Человеческое мясо ничем не отличается от любого другого. -->
-	<Cannibalism_Acceptable.description>Обжорство — это нормальная реакция поселенца на стресс, а свежее мумиё в блюде снабжает организм витаминами.\n\nКто как себя выражает — это его личное дело.</Cannibalism_Acceptable.description>
-	<!-- Оригинал: не одобряется -->
-	<Cannibalism_Disapproved.label>не одобряются</Cannibalism_Disapproved.label>
-	<!-- Оригинал: Есть плоть человека — плохо. -->
-	<Cannibalism_Disapproved.description>Обжорство подрывает экономику поселения, а мумиё — это несъедобная субстанция.\n\nВидеть кого-то, одетого в «новомодное» рубище, и ведущего себя вызывающе — неприятно.</Cannibalism_Disapproved.description>
-	<!-- Оригинал: ужасен -->
-	<Cannibalism_Horrible.label>ужасны</Cannibalism_Horrible.label>
-	<!-- Оригинал: Есть плоть человека — ужасно. -->
-	<Cannibalism_Horrible.description>Обжорство — это ужасно, и может привести к потере многолетних трудов. А мумиё — отвратительная жижа из навоза, источник глистов.\n\nТот, кто одевается в «новомодные» грязные тряпки и ведёт себя как бомж, пусть будет готов к соответствующему отношению.</Cannibalism_Horrible.description>
-	<!-- Оригинал: предпочтителен -->
-	<Cannibalism_Preferred.label>предпочтительны</Cannibalism_Preferred.label>
-	<!-- Оригинал: Поедание человеческого мяса — благородная и необходимая часть жизни. -->
-	<Cannibalism_Preferred.description>Кто много ест — у того много сил, так необходимых в освоении новых планет. А мумиё — источник витаминов и микроэлементов.\n\nПриятно видеть необычных поселенцев в необычной одежде.</Cannibalism_Preferred.description>
-	<!-- Оригиналы: Нет человеческого мяса {HUMANMEATREQUIREDINTERVAL}... -->
+	<Cannibalism_RequiredStrong.comps.4.description>Одежда из волос</Cannibalism_RequiredStrong.comps.4.description> -->
+	<!-- Оригинал: приемлем
+	<Cannibalism_Acceptable.label>приемлемы</Cannibalism_Acceptable.label> -->
+	<!-- Оригинал: Человеческое мясо ничем не отличается от любого другого.
+	<Cannibalism_Acceptable.description>Обжорство — это нормальная реакция поселенца на стресс, а свежее мумиё в блюде снабжает организм витаминами.\n\nКто как себя выражает — это его личное дело.</Cannibalism_Acceptable.description> -->
+	<!-- Оригинал: не одобряется
+	<Cannibalism_Disapproved.label>не одобряются</Cannibalism_Disapproved.label> -->
+	<!-- Оригинал: Есть плоть человека — плохо.
+	<Cannibalism_Disapproved.description>Обжорство подрывает экономику поселения, а мумиё — это несъедобная субстанция.\n\nВидеть кого-то, одетого в «новомодное» рубище, и ведущего себя вызывающе — неприятно.</Cannibalism_Disapproved.description> -->
+	<!-- Оригинал: ужасен
+	<Cannibalism_Horrible.label>ужасны</Cannibalism_Horrible.label> -->
+	<!-- Оригинал: Есть плоть человека — ужасно.
+	Адаптация: Обжорство — это ужасно, и может привести к потере многолетних трудов. А мумиё — отвратительная жижа из навоза, источник глистов.\n\nТот, кто одевается в «новомодные» грязные тряпки и ведёт себя как бомж, пусть будет готов к соответствующему отношению -->
+	<Cannibalism_Horrible.description>Есть плоть человека — ужасно.</Cannibalism_Horrible.description>
+	<!-- Оригинал: предпочтителен
+	<Cannibalism_Preferred.label>предпочтительны</Cannibalism_Preferred.label> -->
+	<!-- Оригинал: Поедание человеческого мяса — благородная и необходимая часть жизни.
+	Адаптация: Кто много ест — у того много сил, так необходимых в освоении новых планет. А мумиё — источник витаминов и микроэлементов.\n\nПриятно видеть необычных поселенцев в необычной одежде -->
+	<Cannibalism_Preferred.description>Поедание человеческого мяса — благородная и необходимая часть жизни.</Cannibalism_Preferred.description>
+	<!-- Оригиналы: Нет человеческого мяса {HUMANMEATREQUIREDINTERVAL}...
 	<Cannibalism_Preferred.comps.1.description>В пище не было мумиё {HUMANMEATREQUIREDINTERVAL} дней</Cannibalism_Preferred.comps.1.description>
 	<Cannibalism_RequiredRavenous.comps.3.description>В пище не было мумиё {HUMANMEATREQUIREDINTERVAL} дней</Cannibalism_RequiredRavenous.comps.3.description>
-	<Cannibalism_RequiredStrong.comps.3.description>В пище не было мумиё {HUMANMEATREQUIREDINTERVAL} дней</Cannibalism_RequiredStrong.comps.3.description>
-	<!-- Оригинал: необходим (очень сильно) -->
-	<Cannibalism_RequiredRavenous.label>необходимы (очень сильно)</Cannibalism_RequiredRavenous.label>
-	<!-- Оригинал: Человеческая плоть — это благочестие. Есть что-то кроме неё — немыслимо. -->
-	<Cannibalism_RequiredRavenous.description>Только славный пир может согреть душу отважного покорителя планет. А мумиё — это жизнь, оно должно быть в каждом блюде.\n\nВ нашем форпосте цивилизации не место скучным серым личностям в штампованной одежде.</Cannibalism_RequiredRavenous.description>
-	<!-- Оригинал: необходим (сильно) -->
-	<Cannibalism_RequiredStrong.label>необходимы (сильно)</Cannibalism_RequiredStrong.label>
-	<!-- Оригинал: Есть человечину — очень важно. Она должна употребляться при каждом приёме пищи. -->
-	<Cannibalism_RequiredStrong.description>Чем больше съедено пищи, тем лучше для организма. А те, кто не любит полезнейшее мумиё — слабаки и неучи.\n\nУ нас принято одеваться и вести себя согласно модным тенденциям.</Cannibalism_RequiredStrong.description>
+	<Cannibalism_RequiredStrong.comps.3.description>В пище не было мумиё {HUMANMEATREQUIREDINTERVAL} дней</Cannibalism_RequiredStrong.comps.3.description> -->
+	<!-- Оригинал: необходим (очень сильно)
+	<Cannibalism_RequiredRavenous.label>необходимы (очень сильно)</Cannibalism_RequiredRavenous.label> -->
+	<!-- Оригинал: Человеческая плоть — это благочестие. Есть что-то кроме неё — немыслимо.
+	Адаптация: Только славный пир может согреть душу отважного покорителя планет. А мумиё — это жизнь, оно должно быть в каждом блюде.\n\nВ нашем форпосте цивилизации не место скучным серым личностям в штампованной одежде -->
+	<Cannibalism_RequiredRavenous.description>Человеческая плоть — это благочестие. Есть что-то кроме неё — немыслимо.</Cannibalism_RequiredRavenous.description>
+	<!-- Оригинал: необходим (сильно)
+	<Cannibalism_RequiredStrong.label>необходимы (сильно)</Cannibalism_RequiredStrong.label> -->
+	<!-- Оригинал: Есть человечину — очень важно. Она должна употребляться при каждом приёме пищи.
+	<Cannibalism_RequiredStrong.description>Чем больше съедено пищи, тем лучше для организма. А те, кто не любит полезнейшее мумиё — слабаки и неучи.\n\nУ нас принято одеваться и вести себя согласно модным тенденциям.</Cannibalism_RequiredStrong.description> -->
 
 </LanguageData>
