@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Исправлена неточность, сообщите разработчику ванили.
+
+	Скобки - зло.
+	Оригинал: Прикрепить механоида(ов) к другой... -->
+	<DesignatorMechControlGroupDesc>Прикрепить механоидов к другой группе механитора.</DesignatorMechControlGroupDesc>
+
+</LanguageData>
