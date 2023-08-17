@@ -1,9 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
 
-	Оригинал: ...из человеческой кожи -->
-	<Cannibalism_Classic.comps.6.description>Одежда из волосяного мусора</Cannibalism_Classic.comps.6.description>
+	Хорошо бы убрать возможность разделки людей ради кожи. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например на новые материалы.
+	Сохраняем код на случай повторной выбраковки:
+
+	Оригинал: ...из человеческой кожи
+	<Cannibalism_Classic.comps.6.description>Одежда из волосяного мусора</Cannibalism_Classic.comps.6.description> -->
 
 </LanguageData>
