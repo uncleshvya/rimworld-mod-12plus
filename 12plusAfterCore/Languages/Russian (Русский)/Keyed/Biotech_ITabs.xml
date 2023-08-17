@@ -38,7 +38,7 @@
 	<!-- Оригинал: ...{0_labelShort} флиртовать с {1_labelShort}... -->
 	<TryRomanceFailedMessage>Попытка {0_labelShort} завести новые отношения с {1_labelShort} была неудачной.</TryRomanceFailedMessage>
 	<!-- Оригинал: ...{INITIATOR_nameDef} флиртовать с {TARGET_nameDef}...разрыву отношений. -->
-	<RomanceExistingRelationshipWarning>Попытка {INITIATOR_nameDef} завести новый роман с {TARGET_nameDef} может вызвать негодование текущего партнёра, привести к ссорам и разрыву уже имеющихся отношений.</RomanceExistingRelationshipWarning>
+	<RomanceExistingRelationshipWarning>Попытка {INITIATOR_nameDef} завести новые отношения с {TARGET_nameDef} может вызвать негодование текущего партнёра, привести к ссорам и разрыву уже имеющихся отношений.</RomanceExistingRelationshipWarning>
 	<!-- Оригинал: Не может флиртовать -->
 	<RomanceChanceCant>Не получится завести новые отношения</RomanceChanceCant>
 	<!-- Связано с TryRomanceButtonLabel, отображается при наведении на цифры во вкладке "Социум".
