@@ -48,6 +48,8 @@
 	<Alert_noStorage_desc>Предметы нуждаются в свободном месте на складе:\n{0}\n\nНужно отменить приказ срочного переноса или освободить под них место.</Alert_noStorage_desc>
 	<!-- Оригинал: ...выше чтобы... -->
 	<Finish_off_skillRequired>Требуется поселенец с навыком ближнего боя {0} или выше, чтобы использовать этот инструмент.</Finish_off_skillRequired>
+	<!-- Оригинал: друг, удерживать Shift -->
+	<Finish_off_floatMenu_reason_friendly>дружественное существо, если всё же хотите добить — удерживайте Shift</Finish_off_floatMenu_reason_friendly>
 	<!-- Оригинал: {0} отмечено тел...одежды. -->
 	<Designator_context_strip_succ>Отмечено тел для снятия одежды: {0}</Designator_context_strip_succ>
 	<!-- Оригинал: ...дополнительных кусков руды... -->
