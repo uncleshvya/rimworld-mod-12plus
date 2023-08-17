@@ -1,295 +1,193 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
 
 	Простой способ (дублирование после Core) не работает. Альтернативный через rep-path-trans тоже. И патч ни фига. Пришлось создать суб мод перед Core.
 
-	Исправление неофициального перевода от Sestrenka, в стиле ванили. На момент проведения работ, у официалов этот файл ещё не был переведён.
 	Оригинал:
 	...
-	<li>secondSentence(tierSection==0)->[PAWN_nameDef] живет в страхе получить серьезную травму...</li>
+	<li>...заболеет трупной чахоткой</li>
 	...
-	<li>nounFuture2->в слудкющем году</li>
+	<li>...увидит смерть своих...</li>
 	...
-	<li>situationFun->игру [Game]</li>
-	<li>situationFun->игру [Game] с друзьями</li>
-	...
-	<li>...написании истории с [friendNameSingular] который охотился на [enemyNamePlural]</li>
-	<li>situationFun2->игре [Game]</li>
-	<li>situationFun2->игре [Game] с друзьями</li>
-	...
-	<li>...написанию истории с [friendNameSingular] который охотился на [enemyNamePlural]</li>
-	<li>situationFun3->игры [Game]</li>
-	<li>situationFun3->игры [Game] с друзьями</li>
-	...
-	<li>situationFun3->проведений времени на солнце</li>
-	...
-	<li>situationFun3->рисований картинок с [friendNamePlural] на полу</li>
-	...
-	<li>situationFun3->рисований картинок [enemyNamePlural]</li>
-	<li>situationFun3->рисований картинок с [friendNameSingular]</li>
-	<li>situationFun4->игры [Game]</li>
-	<li>situationFun4->игры [Game] с друзьями</li>
-	...
-	<li>situationFun5->игрпет [Game]</li>
-	<li>situationFun5->играет [Game] с друзьями</li>
-	...
-	<li>topicLearning2->архотех</li>
-	...
-	<li>topicLearning2->ракетостроения</li>
-	<li>topicLearning2->добычи руды</li>
-	...
-    <li>situationBad->он подвергнется атаке [enemyNamePlural]</li>
-	<li>situationBad->он подвергнется атаке [enemyNamePlural]</li>
-	<li>situationBad->на него будет охотится [enemyNameSingular]</li>
-	...
-	<li>situationBad->он задохнется от...</li>
-	<li>...заразится лёгочной гнилью</li>
-	...
-	<li>...увидит, как умирают его близкие</li>
-	...
-	<li>friendAdj->злорадн</li>
-	...
-	<li>enemyNameSingular->женщина без глаз</li>
-	<li>enemyNameSingular->мужчина с тесаком в руке</li>
+    <li>enemyNameSingular->гемофаг</li>
+	<li>enemyNameSingular->безглазая женщина</li>
+	<li>enemyNameSingular->человек с крюком в руке</li>
 	...
 	-->
   <GrowthMomentFlavor.rulePack.rulesStrings>
     <li>r_root->[firstSentence] [secondSentence]</li>
-    <li>firstSentence(tierSection==4)->[PAWN_pronoun] продемонстрировал превосходный [nounGrowth] и имел [adjGood] [nounAttitudeGood] [nounFuture].</li>
-    <li>firstSentence(tierSection==4)->[PAWN_pronoun] развил ряд новых увлечений благодаря [situationLearning].</li>
-    <li>firstSentence(tierSection==4)->Благодаря [situationLearning], [PAWN_pronoun] приобрел ряд новых увлечений.</li>
-    <li>firstSentence(tierSection==4)->В прошлом году, [PAWN_pronoun] продемонстрировал отличный [nounGrowth].</li>
-    <li>secondSentence(tierSection==4)->[PAWN_nameDef] хочет потратить больше времени на [situationLearning2] и [situationFun].</li>
-    <li>secondSentence(tierSection==4)->[PAWN_nameDef] любит [situationLearning2], но больше всего [PAWN_pronoun] любит тратить время на [situationFun].</li>
-    <li>secondSentence(tierSection==4)->[PAWN_nameDef] наслаждается временем, потраченным [situationLearning] и мечтает о [situationAspirational].</li>
-    <li>secondSentence(tierSection==4)->[PAWN_nameDef] надеется, что благодаря [situationLearning], [PAWN_pronoun] сможет [situationAspirational2].</li>
-    <li>firstSentence(tierSection==3)->Недавно [PAWN_pronoun] показал [adjGood] [nounAttitudeGood] [nounFuture].</li>
-    <li>firstSentence(tierSection==3)->[PAWN_pronoun] чувствовал [nounAttitudeGood] [nounFuture].</li>
-    <li>firstSentence(tierSection==3)->[PAWN_pronoun] заинтересовался рядом новых видов деятельности, включая [situationLearning2].</li>
-    <li>firstSentence(tierSection==3)->[PAWN_pronoun] продемонстрировал превосходный [nounGrowth].</li>
-    <li>secondSentence(tierSection==3)->[PAWN_nameDef] благодарен, что [PAWN_pronoun] редко испытывает [feelingBad] и заинтересован в том, чтобы проводить больше времени [situationFun].</li>
-    <li>secondSentence(tierSection==3)->[PAWN_nameDef] нравится [situationLearning2], но [PAWN_pronoun] счастливее всего, когда проводит больше времени при [situationFun].</li>
-    <li>secondSentence(tierSection==3)->Когда [PAWN_nameDef] стал старше, [PAWN_pronoun] захотел тратить [PAWN_possessive] время на [taskWork].</li>
-    <li>secondSentence(tierSection==3)->Больше всего [PAWN_nameDef] любит когда тратит больше времени на [situationFun].</li>
-    <li>firstSentence(tierSection==2)->[PAWN_pronoun] продемонстрировал некоторый [nounGrowth] и хочет продолжать [situationLearning2].</li>
-    <li>firstSentence(tierSection==2)->[PAWN_pronoun] имеет некоторый [nounAttitudeGood] для освоения дополнительной информации.</li>
-    <li>firstSentence(tierSection==2)->Взбудораженный [nounFuture], [PAWN_pronoun] хотел бы потратить время на [situationLearning2].</li>
-    <li>firstSentence(tierSection==2)->[PAWN_pronoun] развил в себе новое увлечение благодаря [situationLearning].</li>
-    <li>secondSentence(tierSection==2)->[PAWN_nameDef] хочет потратить больше времени [situationFun2].</li>
-    <li>secondSentence(tierSection==2)->[PAWN_nameDef] надеется потратить все своё время [situationFun].</li>
-    <li>secondSentence(tierSection==2)->[PAWN_nameDef] считает, что [taskWork] это скучно.</li>
-    <li>secondSentence(tierSection==2)->[PAWN_nameDef] хотел бы тратить время на [situationLearning2].</li>
-    <li>firstSentence(tierSection==1)->[PAWN_pronoun] показал небольшой [nounGrowth] и имел низкие ожидания [nounFuture].</li>
-    <li>firstSentence(tierSection==1)->Несмотря на оптимизм [nounFuture], [PAWN_pronoun] показал небольшой [nounGrowth].</li>
-    <li>firstSentence(tierSection==1)->[PAWN_pronoun] надеется, что ситуация улучшится [nounFuture2].</li>
-    <li>firstSentence(tierSection==1)->[PAWN_pronoun] показал минимальный [nounGrowth], жалуясь, что [situationLearning2] было скучным.</li>
-    <li>secondSentence(tierSection==1)->[PAWN_nameDef] хочет потратить больше времени [situationFun2], но слишком занят, беспокоясь о том, что [situationBad].</li>
-    <li>secondSentence(tierSection==1)->[PAWN_nameDef] часто чувствует [feelingBad] во время [situationFun3].</li>
-    <li>secondSentence(tierSection==1)->[PAWN_nameDef] испытывает странный страх, что во время [situationFun3] [situationBad].</li>
-    <li>secondSentence(tierSection==1)->[PAWN_nameDef] регулярно снятся кошмары о том, что [situationBad].</li>
-    <li>firstSentence(tierSection==0)->[PAWN_pronoun] часто хочет тратить время [situationLearning], но [PAWN_pronoun] редко имеет такую возможность.</li>
-    <li>firstSentence(tierSection==0)->[PAWN_pronoun] не показал [nounGrowth].</li>
-    <li>firstSentence(tierSection==0)->[PAWN_pronoun] не смог развить никаких новых увлечений и имел мало [nounAttitudeGood]а [nounFuture].</li>
-    <li>firstSentence(tierSection==0)->[PAWN_pronoun] проявляет мало интереса к обучению и особенно не любит [situationLearning2].</li>
-    <li>secondSentence(tierSection==0)->[PAWN_nameDef] интересует только [situationFun4].</li>
-    <li>secondSentence(tierSection==0)->[PAWN_nameDef] постоянно сдерживается страхом того, что [situationBad].</li>
-	<li>secondSentence(tierSection==0)->[PAWN_nameDef] живёт в страхе получить серьёзную травму в результате того, что [situationBad].</li>
-    <li>secondSentence(tierSection==0)->[PAWN_nameDef] имеет повторяющийся кошмар, в котором [PAWN_pronoun] [situationFun5], и это приводит к тому, что [situationBad].</li>
-    <li>adjGood->отличный</li>
-    <li>adjGood->ненасытный</li>
-    <li>adjGood->оживленный</li>
+    <li>firstSentence(tierSection==4)->[PAWN_pronoun] {PAWN_gender ? продемонстрировал : продемонстрировала} отличный [nounGrowth] и испытывает [adjGood] [nounAttitudeGood] в отношении [nounFutureGen].</li>
+    <li>firstSentence(tierSection==4)->[PAWN_pronoun] {PAWN_gender ? выработал : выработала} интерес к нескольким видам занятий, когда [situationLearning].</li>
+    <li>firstSentence(tierSection==4)->Когда [PAWN_nameDef] [situationLearning], [PAWN_pronoun] {PAWN_gender ? выработал : выработала} интерес к нескольким видам занятий.</li>
+    <li>firstSentence(tierSection==4)->За последний год [PAWN_pronoun] {PAWN_gender ? показал : показала} отличный [nounGrowth].</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] хочет больше [situationLearning] и [situationFun].</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] нравится [situationLearning], но больше всего [PAWN_pronoun] любит [situationFun].</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] любит [situationLearning] и мечтает [situationAspirational].</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] надеется, что если [PAWN_pronoun] будет [situationLearning], [PAWN_pronoun] сможет в будущем [situationAspirational].</li>
+    <li>firstSentence(tierSection==3)->За последнее время [PAWN_pronoun] {PAWN_gender ? продемонстрировал : продемонстрировала} [adjGood] [nounAttitudeGood] в отношении [nounFutureGen].</li>
+    <li>firstSentence(tierSection==3)->[PAWN_pronoun] испытывает [nounAttitudeGood] в отношении [nounFutureGen].</li>
+    <li>firstSentence(tierSection==3)->[PAWN_pronoun] {PAWN_gender ? заинтересовался : заинтересовалась} новыми видами занятий, а также начал [situationLearning].</li>
+    <li>firstSentence(tierSection==3)->[PAWN_pronoun] {PAWN_gender ? показал : показала} отличный [nounGrowth].</li>
+    <li>secondSentence(tierSection==3)->[PAWN_nameDef] рад, что редко чувствует себя [feelingBad], и хочет побольше [situationFun].</li>
+    <li>secondSentence(tierSection==3)->[PAWN_nameDef] любит [situationLearning], но больше всего {PAWN_gender ? рад : рада} [situationFun].</li>
+    <li>secondSentence(tierSection==3)->Когда [PAWN_nameDef] вырастет, [PAWN_pronoun] хочет [taskWork].</li>
+    <li>secondSentence(tierSection==3)->Но больше всего [PAWN_nameDef] любит [situationFun].</li>
+    <li>firstSentence(tierSection==2)->[PAWN_pronoun] {PAWN_gender ? продемонстрировал : продемонстрировала} определённый [nounGrowth] и хочет продолжать [situationLearning].</li>
+    <li>firstSentence(tierSection==2)->[PAWN_pronoun] испытывает сдержанный [nounAttitudeGood] в отношении дальнейшей учёбы.</li>
+    <li>firstSentence(tierSection==2)->Строя планы [nounFutureGen], [PAWN_pronoun] {PAWN_gender ? хотел : хотела} бы [situationLearning].</li>
+    <li>firstSentence(tierSection==2)->Благодаря тому, что [PAWN_pronoun] мог [situationLearning], [PAWN_nameDef] {PAWN_gender ? заинтересовался : заинтересовалась} новым видом занятия.</li>
+    <li>secondSentence(tierSection==2)->А ещё [PAWN_nameDef] любит [situationFun].</li>
+    <li>secondSentence(tierSection==2)->Однако [PAWN_nameDef] {PAWN_gender ? хотел : хотела} бы почаще [situationFun].</li>
+    <li>secondSentence(tierSection==2)->Тем не менее, [PAWN_nameDef] считает, что [taskWork] — это скучно.</li>
+    <li>secondSentence(tierSection==2)->В особенности [PAWN_nameDef] {PAWN_gender ? хотел : хотела} бы сосредоточиться на том, чтобы [situationLearning].</li>
+    <li>firstSentence(tierSection==1)->[PAWN_pronoun] {PAWN_gender ? показал : показала} слабый [nounGrowth] и не имеет больших ожиданий в отношении [nounFutureGen].</li>
+    <li>firstSentence(tierSection==1)->Несмотря на оптимизм в отношении [nounFutureGen], [PAWN_pronoun] {PAWN_gender ? показал : показала} слабый [nounGrowth].</li>
+    <li>firstSentence(tierSection==1)->[PAWN_pronoun] надеется, что жизнь станет лучше, начиная с [nounFutureGen].</li>
+    <li>firstSentence(tierSection==1)->[PAWN_pronoun] {PAWN_gender ? показал : показала} минимальный [nounGrowth], и жалуется на то, что [situationLearning] — это скучно.</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] хочет больше [situationFun], но опасается, что [situationBad].</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] часто чувствует себя [feelingBad], когда пытается [situationFun].</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] почему-то боится, что [situationBad], когда [PAWN_pronoun] будет [situationFun].</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] регулярно видит кошмарный сон о том, как [situationBad].</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] хочет больше [situationLearning], но [PAWN_objective] редко это удаётся.</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] не {PAWN_gender ? показал : показала} [nounGrowth].</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] не {PAWN_gender ? проявил : проявила} интереса ни к каким занятиям и почти не испытывает оптимизма в отношении [nounFutureGen].</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] не {PAWN_gender ? показал : показала} интереса к учёбе, и в особенности не любит [situationLearning].</li>
+    <li>secondSentence(tierSection==0)->И вообще, [PAWN_nameDef] хочет только [situationFun].</li>
+    <li>secondSentence(tierSection==0)->[PAWN_nameDef] постоянно сдерживает себя, опасаясь, что [situationBad].</li>
+    <li>secondSentence(tierSection==0)->Вдобавок, [PAWN_nameDef] боится потерять здоровье из-за того, что [situationBad].</li>
+    <li>secondSentence(tierSection==0)->[PAWN_nameDef] боится снова увидеть кошмарный сон, в котором [PAWN_pronoun] будет [situationFun], и из-за этого [situationBad].</li>
+    <li>adjGood->огромный</li>
+    <li>adjGood->бурный</li>
+    <li>adjGood->неподдельный</li>
+    <li>adjGood->живой</li>
     <li>adjGood->подлинный</li>
     <li>adjGood->безграничный</li>
-    <li>adjGood->огромный</li>
-    <li>adjGood->похвальный</li>
-    <li>adjGood->бесконечный</li>
-    <li>adjGood->чистый</li>
-    <li>adjGood->впечатляющий</li>
-    <li>feelingBad->одиночество</li>
-    <li>feelingBad->страх</li>
-    <li>feelingBad->боль</li>
-    <li>feelingBad->болезнь</li>
-    <li>feelingBad->страх</li>
+    <li>adjGood->безмерный</li>
+    <li>adjGood->здоровый</li>
+    <li>adjGood->неиссякаемый</li>
+    <li>adjGood->глубокий</li>
+    <li>adjGood->искренний</li>
+    <li>feelingBad->{PAWN_gender ? одиноким : одинокой}</li>
+    <li>feelingBad->{PAWN_gender ? напуганным : напуганной}</li>
+    <li>feelingBad->{PAWN_gender ? уязвимым : уязвимой}</li>
+    <li>feelingBad->{PAWN_gender ? подавленным : подавленной}</li>
+    <li>feelingBad->{PAWN_gender ? измученным : измученной}</li>
     <li>nounAttitudeGood->энтузиазм</li>
+    <li>nounAttitudeGood->восторг</li>
     <li>nounAttitudeGood->оптимизм</li>
-    <li>nounFuture->на прошлых нескольких неделях</li>
-    <li>nounFuture->в прошлых месяцах</li>
-    <li>nounFuture->в прошлом году</li>
-    <li>nounFuture->в прошлом</li>
-    <li>nounFuture2->на следующих нескольких неделях</li>
-    <li>nounFuture2->в следующих месяцах</li>
-	<li>nounFuture2->в следующем году</li>
-    <li>nounFuture2->в будущем</li>
+    <li>nounFutureGen->завтрашнего дня</li>
+    <li>nounFutureGen->следующих недель</li>
+    <li>nounFutureGen->следующих месяцев</li>
+    <li>nounFutureGen->следующего года</li>
+    <li>nounFutureGen->ближайшего будущего</li>
+    <li>nounGrowth->личностный прогресс</li>
     <li>nounGrowth->личностный рост</li>
-    <li>nounGrowth->потенциал</li>
-	<li>situationFun->игру в [Game]</li>
-	<li>situationFun->игру в [Game] с друзьями</li>
-    <li>situationFun->игру с [friendNameSingular]</li>
-    <li>situationFun->беседу с [friendNameSingular]</li>
-    <li>situationFun->сплетни с [friendNamePlural]</li>
-    <li>situationFun->заведение друзей</li>
-    <li>situationFun->проведение времени на солнце</li>
-    <li>situationFun->наблюдение за ночным небом в поисках метеоритов</li>
-    <li>situationFun->разговор по радио о [topicLearning]</li>
-    <li>situationFun->болтовне по радио с незнакомцами</li>
-    <li>situationFun->рисование картинок с [friendNamePlural] на полу</li>
-    <li>situationFun->размышление о [topicLearning]</li>
-    <li>situationFun->совместные приключения с [friendNamePlural]</li>
-    <li>situationFun->поиск спрятанных сокровищ</li>
-    <li>situationFun->рисование картинок [enemyNamePlural]</li>
-    <li>situationFun->рисование картинок с [friendNameSingular]</li>
-	<li>situationFun->написании истории о [friendNameSingular], который выслеживал [enemyNamePlural]</li>
-	<li>situationFun2->игре в [Game]</li>
-	<li>situationFun2->игре в [Game] с друзьями</li>
-    <li>situationFun2->игре с [friendNameSingular]</li>
-    <li>situationFun2->беседе с [friendNameSingular]</li>
-    <li>situationFun2->сплетням с [friendNamePlural]</li>
-    <li>situationFun2->проведению времени на солнце</li>
-    <li>situationFun2->наблюдению за ночным небом в поисках метеоритов</li>
-    <li>situationFun2->разговоре по радио о [topicLearning]</li>
-    <li>situationFun2->болтовне по радио с незнакомцами</li>
-    <li>situationFun2->рисованию картинок с [friendNamePlural] на полу</li>
-    <li>situationFun2->размышлению о [topicLearning]</li>
-    <li>situationFun2->совместным приключения с [friendNamePlural]</li>
-    <li>situationFun2->поиску спрятанных сокровищ</li>
-    <li>situationFun2->рисованию картинок [enemyNamePlural]</li>
-    <li>situationFun2->рисованию картинок с [friendNameSingular]</li>
-	<li>situationFun2->написанию истории о [friendNameSingular], который выслеживал [enemyNamePlural]</li>
-	<li>situationFun3->игры в [Game]</li>
-	<li>situationFun3->игры в [Game] с друзьями</li>
-    <li>situationFun3->игры с [friendNameSingular]</li>
-    <li>situationFun3->беседы с [friendNameSingular]</li>
-    <li>situationFun3->сплетен с [friendNamePlural]</li>
-	<li>situationFun3->проведения времени на солнце</li>
-    <li>situationFun3->наблюдений за ночным небом в поисках метеоритов</li>
-    <li>situationFun3->болтовни по радио с незнакомцами</li>
-	<li>situationFun3->рисования картинок с [friendNamePlural] на полу</li>
-    <li>situationFun3->размышлений о [topicLearning]</li>
-    <li>situationFun3->совместных приключений с [friendNamePlural]</li>
-    <li>situationFun3->поисков спрятанных сокровищ</li>
-	<li>situationFun3->рисования картинок [enemyNamePlural]</li>
-	<li>situationFun3->рисования картинок с [friendNameSingular]</li>
-	<li>situationFun4->игры в [Game]</li>
-	<li>situationFun4->игры в [Game] с друзьями</li>
-    <li>situationFun4->игры с [friendNameSingular]</li>
-    <li>situationFun4->беседы с [friendNameSingular]</li>
-    <li>situationFun4->сплетни с [friendNamePlural]</li>
-    <li>situationFun4->проведение времени на солнце</li>
-    <li>situationFun4->наблюдение за ночным небом в поисках метеоритов</li>
-    <li>situationFun4->болтовня по радио с незнакомцами</li>
-    <li>situationFun4->рисование картинок с [friendNamePlural] на полу</li>
-    <li>situationFun4->размышления о [topicLearning]</li>
-    <li>situationFun4->совместные приключений с [friendNamePlural]</li>
-    <li>situationFun4->поиски спрятанных сокровищ</li>
-    <li>situationFun4->рисование картинок [enemyNamePlural]</li>
-    <li>situationFun4->рисование картинок с [friendNameSingular]</li>
-	<li>situationFun5->играет в [Game]</li>
-	<li>situationFun5->играет в [Game] с друзьями</li>
-    <li>situationFun5->играет с [friendNameSingular]</li>
-    <li>situationFun5->беседует с [friendNameSingular]</li>
-    <li>situationFun5->сплетничает с [friendNamePlural]</li>
-    <li>situationFun5->проводит время на солнце</li>
-    <li>situationFun5->наблюдает за ночным небом в поисках метеоритов</li>
-    <li>situationFun5->болтает по радио с незнакомцами</li>
-    <li>situationFun5->рисует картинки с [friendNamePlural] на полу</li>
-    <li>situationFun5->размышляет о [topicLearning]</li>
-    <li>situationFun5->ищет спрятанные сокровища</li>
-    <li>situationFun5->рисует картинки [enemyNamePlural]</li>
-    <li>situationFun5->рисует картинки с [friendNameSingular]</li>
-    <li>situationLearning->изучению [topicLearning]</li>
-    <li>situationLearning->обучению [topicLearning]</li>
-    <li>situationLearning->чтению о [topicLearning]</li>
-    <li>situationLearning->выполнению значимой работы</li>
-    <li>situationLearning->изучению науки</li>
-    <li>situationLearning->изучению планетарной экономики</li>
-    <li>situationLearning->изучению вселенной</li>
-    <li>situationLearning->изучению архотех</li>
-    <li>situationLearning->изучению психологии</li>
-    <li>situationLearning2->изучение [topicLearning2]</li>
-    <li>situationLearning2->чтение о [topicLearning2]</li>
-    <li>situationLearning2->выполнение значимой работы</li>
-    <li>situationLearning2->изучение науки</li>
-    <li>situationLearning2->изучение планетарной экономики</li>
-    <li>situationLearning2->изучение вселенной</li>
-    <li>situationLearning2->изучение архотех</li>
-    <li>situationLearning2->изучение психологии</li>
-    <li>topicLearning2->вселенной</li>
-	<li>topicLearning2->архотехнологии</li>
-    <li>topicLearning2->планетологии</li>
-    <li>topicLearning2->психологии</li>
-    <li>topicLearning2->биологии насекомых</li>
-	<li>topicLearning2->ракетной индустрии</li>
-	<li>topicLearning2->профессии шахтёра</li>
-    <li>situationAspirational->изменении мира к лучшему</li>
-    <li>situationAspirational->богатстве</li>
-    <li>situationAspirational->спасении мира</li>
-    <li>situationAspirational->помощи другим</li>
-    <li>situationAspirational->извесности</li>
-    <li>situationAspirational->покидании этой планеты</li>
-    <li>situationAspirational2->измененить мир к лучшему</li>
-    <li>situationAspirational2->достить богатства</li>
-    <li>situationAspirational2->спасти мир</li>
-    <li>situationAspirational2->помочь другим</li>
-    <li>situationAspirational2->получить извесность</li>
-    <li>situationAspirational2->покинуть эту планету</li>
-    <li>situationBad->он подвергнется атаке [enemyNamePlural]</li>
-	<li>situationBad->он подвергнется нападению [enemyNamePlural]</li>
-	<li>situationBad->его напугает [enemyNameSingular]</li>
-    <li>situationBad->его будет преследовать [enemyNameSingular]</li>
-	<li>situationBad->он задохнётся от токсинов</li>
-	<li>situationBad->он заразится гнилой чахоткой</li>
-    <li>situationBad->он подхватит чуму</li>
-    <li>situationBad->он получит пищевое отравление</li>
-	<li>situationBad->он увидит, как болеют его близкие</li>
-    <li>situationBad->он будет есть с пола</li>
-    <li>topicLearning->вселенной</li>
-    <li>topicLearning->архотех</li>
-    <li>topicLearning->планетарной экономике</li>
-    <li>topicLearning->психологии</li>
-    <li>topicLearning->биологии насекомых</li>
-    <li>topicLearning->ракетостроении</li>
-    <li>topicLearning->добыче руды</li>
-    <li>taskWork->приготовление блюд</li>
-    <li>taskWork->дрессировку животных</li>
-    <li>taskWork->уход за больными людьми</li>
-    <li>taskWork->помощь друзьям</li>
-    <li>taskWork->охоту на муффало</li>
-    <li>taskWork->выращивание продуктов питания</li>
-    <li>taskWork->пошив одежды</li>
-    <li>friendNamePlural->друзьями</li>
-    <li>friendNamePlural->любимыми людьми</li>
-    <li>friendNamePlural->[friendAdj]ыми животными</li>
-    <li>friendNamePlural->[friendAdj]ыми механоидами</li>
-    <li>friendNamePlural->[friendAdj]ыми детьми</li>
-    <li>friendNamePlural->воображаемыми друзьями</li>
-    <li>friendNameSingular->другом</li>
-    <li>friendNameSingular->собакой</li>
-    <li>friendNameSingular->[friendAdj]ым котом</li>
-    <li>friendNameSingular->ребёнком</li>
-    <li>friendNameSingular->[friendAdj]ым ребенком</li>
-    <li>friendNameSingular->другом семьи</li>
-    <li>friendAdj->добр</li>
-    <li>friendAdj->полезн</li>
-    <li>friendAdj->дружелюбн</li>
-	<li>friendAdj->радостн</li>
-    <li>friendAdj->весёл</li>
-    <li>enemyNamePlural->рейдеров</li>
-    <li>enemyNamePlural->[AdjectiveBadass] рейдеров</li>
-    <li>enemyNamePlural->мистических странников</li>
-    <li>enemyNamePlural->[AdjectiveBadass] насекомых</li>
-    <li>enemyNamePlural->диких бумалоп</li>
-    <li>enemyNamePlural->скрытных кровопийц</li>
-    <li>enemyNamePlural->богов машин</li>
-    <li>enemyNamePlural->диких механоидов</li>
-    <li>enemyNamePlural->психических существ со страшными способностями</li>
+    <li>situationFun->исследовать новые места в компании [friendNamePluralGen]</li>
+    <li>situationFun->играть в [Game]</li>
+    <li>situationFun->играть в [Game] с друзьями</li>
+    <li>situationFun->играть в компании [friendNameSingularGen]</li>
+    <li>situationFun->болтать в компании [friendNameSingularGen]</li>
+    <li>situationFun->сплетничать про [friendNamePluralGen]</li>
+    <li>situationFun->заводить новых друзей</li>
+    <li>situationFun->гулять на свежем воздухе</li>
+    <li>situationFun->смотреть на ночное небо в ожидании метеоритов</li>
+    <li>situationFun->болтать [topicLearningPrep] по радио</li>
+    <li>situationFun->болтать по радио с чужаками</li>
+    <li>situationFun->рисовать портреты [friendNamePluralGen] на полу</li>
+    <li>situationFun->мечтать [topicLearningPrep]</li>
+    <li>situationFun->бегать на природе</li>
+    <li>situationFun->искать приключения в компании [friendNamePluralGen]</li>
+    <li>situationFun->искать спрятанные сокровища</li>
+    <li>situationFun->рисовать [enemyNamePluralGen]</li>
+    <li>situationFun->рисовать [friendNameSingularGen]</li>
+    <li>situationFun->писать рассказ про [friendNameSingularGen], который преследует [enemyNamePluralGen]</li>
+    <li>situationFun->представлять, как борется против [enemyNamePluralGen]</li>
+    <li>situationFun->рассказывать истории про [enemyNamePluralGen]</li>
+    <li>situationLearning->смотреть, как надо [taskWork]</li>
+    <li>situationLearning->учиться [taskWork]</li>
+    <li>situationLearning->узнавать новое [topicLearningPrep]</li>
+    <li>situationLearning->читать [topicLearningPrep]</li>
+    <li>situationLearning->делать важную работу</li>
+    <li>situationAspirational->поменять этот мир к лучшему</li>
+    <li>situationAspirational->стать {PAWN_gender ? богатым : богатой}</li>
+    <li>situationAspirational->спасти этот мир</li>
+    <li>situationAspirational->помогать другим</li>
+    <li>situationAspirational->стать {PAWN_gender ? знаменитым : знаменитой}</li>
+    <li>situationAspirational->улететь с этой планеты</li>
+    <li>situationBad->на н[PAWN_possessive] нападут [enemyNamePlural]</li>
+    <li>situationBad->[PAWN_possessive] похитят [enemyNamePlural]</li>
+    <li>situationBad->[PAWN_possessive] поймает [enemyNameSingular]</li>
+    <li>situationBad->вдохнёт токсичный газ</li>
+	<li>situationBad->заболеет гнилой чахоткой</li>
+    <li>situationBad->заразится чумой</li>
+    <li>situationBad->получит пищевое отравление</li>
+	<li>situationBad->увидит страдание своих близких</li>
+    <li>situationBad->поест на земле</li>
+    <li>topicLearningPrep->о вселенной</li>
+    <li>topicLearningPrep->о науке</li>
+    <li>topicLearningPrep->о других культурах</li>
+    <li>topicLearningPrep->об архотехнологиях</li>
+    <li>topicLearningPrep->о планетарной экономике</li>
+    <li>topicLearningPrep->о психологии</li>
+    <li>topicLearningPrep->об энтомологии</li>
+    <li>topicLearningPrep->о гестации механоидов</li>
+    <li>topicLearningPrep->о генной инженерии</li>
+    <li>topicLearningPrep->о ракетостроении</li>
+    <li>topicLearningPrep->о горном деле</li>
+    <li>taskWork->готовить</li>
+    <li>taskWork->дрессировать животных</li>
+    <li>taskWork->заботиться о больных</li>
+    <li>taskWork->помогать людям</li>
+    <li>taskWork->охотиться на муффало</li>
+    <li>taskWork->выращивать еду</li>
+    <li>taskWork->шить одежду</li>
+    <li>friendNamePluralGen->друзей</li>
+    <li>friendNamePluralGen->родственников</li>
+    <li>friendNamePluralGen->[friendAdjPluralGen] животных</li>
+    <li>friendNamePluralGen->[friendAdjPluralGen] механоидов</li>
+    <li>friendNamePluralGen->[friendAdjPluralGen] сверстников</li>
+    <li>friendNamePluralGen->воображаемых друзей</li>
+    <li>friendNameSingularGen->друга</li>
+    <li>friendNameSingularGen->собаки</li>
+    <li>friendNameSingularGen->[friendAdjGen] кота</li>
+    <li>friendNameSingularGen->своего сверстника</li>
+    <li>friendNameSingularGen->своего [friendAdjGen] сверстника</li>
+    <li>friendNameSingularGen->члена своей семьи</li>
+    <li>friendAdjGen->доброго</li>
+    <li>friendAdjGen->отзывчивого</li>
+    <li>friendAdjGen->дружелюбного</li>
+    <li>friendAdjGen->озорного</li>
+    <li>friendAdjGen->весёлого</li>
+    <li>friendAdjPluralGen->добрых</li>
+    <li>friendAdjPluralGen->отзывчивых</li>
+    <li>friendAdjPluralGen->дружелюбных</li>
+    <li>friendAdjPluralGen->озорных</li>
+    <li>friendAdjPluralGen->весёлых</li>
+    <li>enemyNamePlural->налётчики</li>
+    <li>enemyNamePlural->[AdjectiveBadass_plural] налётчики</li>
+    <li>enemyNamePlural->загадочные чужаки</li>
+    <li>enemyNamePlural->[AdjectiveBadass_plural] насекомые</li>
+    <li>enemyNamePlural->агрессивные бумалопы</li>
+    <li>enemyNamePlural->таинственные кровопийцы</li>
+    <li>enemyNamePlural->боги-машины</li>
+    <li>enemyNamePlural->дикие механоиды</li>
+    <li>enemyNamePlural->существа с ужасными пси-способностями</li>
+    <li>enemyNamePluralGen->налётчиков</li>
+    <li>enemyNamePluralGen->загадочных чужаков</li>
+    <li>enemyNamePluralGen->гигантских насекомых</li>
+    <li>enemyNamePluralGen->агрессивных бумалоп</li>
+    <li>enemyNamePluralGen->таинственных кровопийц</li>
+    <li>enemyNamePluralGen->богов-машин</li>
+    <li>enemyNamePluralGen->диких механоидов</li>
+    <li>enemyNamePluralGen->существ с ужасными пси-способностями</li>
     <li>enemyNameSingular->[AdjectiveBadass] [Enemy]</li>
     <li>enemyNameSingular->[AdjectiveBadass] [AnimalBadass]</li>
     <li>enemyNameSingular->[AnimalBadass]</li>
     <li>enemyNameSingular->[Mechanoid]</li>
-    <li>enemyNameSingular->[AdjectiveBadass] [Enemy]</li>
-    <li>enemyNameSingular->незнакомец</li>
+    <li>enemyNameSingular->[AdjectiveBadass] мусорщик</li>
+    <li>enemyNameSingular->чужак</li>
     <li>enemyNameSingular->гемофаг</li>
 	<li>enemyNameSingular->чудовище</li>
 	<li>enemyNameSingular->волосатый дикарь</li>
