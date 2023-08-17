@@ -4,172 +4,200 @@
 	<!-- Исправление согласно концепции «12+».
 
 	Плоть:
+
+	Хорошо бы убрать возможность людоедства. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например для повышения урожайности и облегчения утилизации трупов.
+	Сохраняем код на случай повторной выбраковки:
+
 	Заодно исправлена неточность, сообщите разработчику ванили.
 	Фигурные скобки были видны во всплывающем меню над принципами. Пока не исправлен движок, возвращены межполые описания.
-	Оригиналы: {PAWN_gender ? Съел : Съела} человечину -->
-	<AteHumanMeat_Abhorrent.stages.ate_human_meat.label>съедено мумиё</AteHumanMeat_Abhorrent.stages.ate_human_meat.label>
-	<AteHumanMeat_Disapproved.stages.ate_human_meat.label>съедено мумиё</AteHumanMeat_Disapproved.stages.ate_human_meat.label>
-	<AteHumanMeat_Horrible.stages.ate_human_meat.label>съедено мумиё</AteHumanMeat_Horrible.stages.ate_human_meat.label>
-	<AteHumanMeat_Preferred.stages.ate_human_meat.label>съедено мумиё</AteHumanMeat_Preferred.stages.ate_human_meat.label>
-	<AteHumanMeat_RequiredRavenous.stages.ate_human_meat.label>съедено мумиё</AteHumanMeat_RequiredRavenous.stages.ate_human_meat.label>
-	<AteHumanMeat_RequiredStrong.stages.ate_human_meat.label>съедено мумиё</AteHumanMeat_RequiredStrong.stages.ate_human_meat.label>
-	<!-- Оригинал: Я {PAWN_gender ? съел : съела} человечину. Это преступление против всего, во что я верю. -->
-	<AteHumanMeat_Abhorrent.stages.ate_human_meat.description>Я {PAWN_gender ? съел : съела} гадкое, противное мумиё. Какой кошмар!</AteHumanMeat_Abhorrent.stages.ate_human_meat.description>
-	<!-- Оригинал: Я {PAWN_gender ? съел : съела} человечину. Я {PAWN_gender ? совершил : совершила} ошибку. -->
-	<AteHumanMeat_Disapproved.stages.ate_human_meat.description>Я {PAWN_gender ? съел : съела} противное мумиё. Я {PAWN_gender ? совершил : совершила} ошибку.</AteHumanMeat_Disapproved.stages.ate_human_meat.description>
-	<!-- Оригинал: Я {PAWN_gender ? съел : съела} человечину. Это было ужасно. -->
-	<AteHumanMeat_Horrible.stages.ate_human_meat.description>Я {PAWN_gender ? съел : съела} отвратительное мумиё. Это было ужасно.</AteHumanMeat_Horrible.stages.ate_human_meat.description>
+	Оригиналы: {PAWN_gender ? Съел : Съела} человечину
+	Адаптация: съедено мумиё -->
+	<AteHumanMeat_Abhorrent.stages.ate_human_meat.label>съедена человечина</AteHumanMeat_Abhorrent.stages.ate_human_meat.label>
+	<AteHumanMeat_Disapproved.stages.ate_human_meat.label>съедена человечина</AteHumanMeat_Disapproved.stages.ate_human_meat.label>
+	<AteHumanMeat_Horrible.stages.ate_human_meat.label>съедена человечина</AteHumanMeat_Horrible.stages.ate_human_meat.label>
+	<AteHumanMeat_Preferred.stages.ate_human_meat.label>съедена человечина</AteHumanMeat_Preferred.stages.ate_human_meat.label>
+	<AteHumanMeat_RequiredRavenous.stages.ate_human_meat.label>съедена человечина</AteHumanMeat_RequiredRavenous.stages.ate_human_meat.label>
+	<AteHumanMeat_RequiredStrong.stages.ate_human_meat.label>съедена человечина</AteHumanMeat_RequiredStrong.stages.ate_human_meat.label>
+	<!-- Оригинал: Я {PAWN_gender ? съел : съела} человечину. Это преступление против всего, во что я верю.
+	<AteHumanMeat_Abhorrent.stages.ate_human_meat.description>Я {PAWN_gender ? съел : съела} гадкое, противное мумиё. Какой кошмар!</AteHumanMeat_Abhorrent.stages.ate_human_meat.description> -->
+	<!-- Оригинал: Я {PAWN_gender ? съел : съела} человечину. Я {PAWN_gender ? совершил : совершила} ошибку.
+	<AteHumanMeat_Disapproved.stages.ate_human_meat.description>Я {PAWN_gender ? съел : съела} противное мумиё. Я {PAWN_gender ? совершил : совершила} ошибку.</AteHumanMeat_Disapproved.stages.ate_human_meat.description> -->
+	<!-- Оригинал: Я {PAWN_gender ? съел : съела} человечину. Это было ужасно.
+	<AteHumanMeat_Horrible.stages.ate_human_meat.description>Я {PAWN_gender ? съел : съела} отвратительное мумиё. Это было ужасно.</AteHumanMeat_Horrible.stages.ate_human_meat.description> -->
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили - уж лучше использовать настоящее информирующее время, чем эти жуткие скобки.
-	Оригиналы: съел(а) человечину -->
-	<AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.label>ест мумиё</AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.label>
-	<AteHumanMeat_Know_Disapproved.stages.ate_human_meat.label>ест мумиё</AteHumanMeat_Know_Disapproved.stages.ate_human_meat.label>
-	<AteHumanMeat_Know_Horrible.stages.ate_human_meat.label>ест мумиё</AteHumanMeat_Know_Horrible.stages.ate_human_meat.label>
-	<!-- Оригиналы: {OTHERPAWN_gender ? Съел : Съела} человечину -->
+	Оригиналы: съел(а) человечину
+	Адаптация: ест мумиё -->
+	<AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.label>ест человечину</AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.label>
+	<AteHumanMeat_Know_Disapproved.stages.ate_human_meat.label>ест человечину</AteHumanMeat_Know_Disapproved.stages.ate_human_meat.label>
+	<AteHumanMeat_Know_Horrible.stages.ate_human_meat.label>ест человечину</AteHumanMeat_Know_Horrible.stages.ate_human_meat.label>
+	<!-- Оригиналы: {OTHERPAWN_gender ? Съел : Съела} человечину
 	<AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.labelSocial>{OTHERPAWN_gender ? Съел : Съела} мумиё</AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.labelSocial>
 	<AteHumanMeat_Know_Disapproved.stages.ate_human_meat.labelSocial>{OTHERPAWN_gender ? Съел : Съела} мумиё</AteHumanMeat_Know_Disapproved.stages.ate_human_meat.labelSocial>
-	<AteHumanMeat_Know_Horrible.stages.ate_human_meat.labelSocial>{OTHERPAWN_gender ? Съел : Съела} мумиё</AteHumanMeat_Know_Horrible.stages.ate_human_meat.labelSocial>
-	<!-- Оригинал: Я {PAWN_gender ? съел : съела} человечину. Теперь я чувствую себя благороднее и сильнее! -->
-	<AteHumanMeat_Preferred.stages.ate_human_meat.description>Я {PAWN_gender ? съел : съела} свежее мумиё. Теперь я чувствую себя здоровее и сильнее!</AteHumanMeat_Preferred.stages.ate_human_meat.description>
-	<!-- Оригинал: Я {PAWN_gender ? съел : съела} человечину! Мир жесток, и я ему соответствую! -->
-	<AteHumanMeat_RequiredRavenous.stages.ate_human_meat.description>Я {PAWN_gender ? съел : съела} мумиё — это так полезно! Я укрепляю иммунитет!</AteHumanMeat_RequiredRavenous.stages.ate_human_meat.description>
-	<!-- Оригинал: Я {PAWN_gender ? съел : съела} человечину: это заложено в человеческой природе. -->
-	<AteHumanMeat_RequiredStrong.stages.ate_human_meat.description>Я {PAWN_gender ? съел : съела} свежайшее мумиё. У меня будет железное здоровье.</AteHumanMeat_RequiredStrong.stages.ate_human_meat.description>
-	<!-- Оригиналы: {PAWN_gender ? Съел : Съела} пищу без человечины -->
-	<AteNonCannibalFood_Abhorrent.stages.ate_noncannibal_food.label>съедена пища без мумиё</AteNonCannibalFood_Abhorrent.stages.ate_noncannibal_food.label>
-	<AteNonCannibalFood_Horrible.stages.ate_noncannibal_food.label>съедена пища без мумиё</AteNonCannibalFood_Horrible.stages.ate_noncannibal_food.label>
-	<!-- Оригинал: ...без человеческого мяса. Это абсолютно противоречит моим убеждениям. -->
-	<AteNonCannibalFood_Abhorrent.stages.ate_noncannibal_food.description>Я {PAWN_gender ? съел : съела} пищу без мумиё. Как бы не заболеть!</AteNonCannibalFood_Abhorrent.stages.ate_noncannibal_food.description>
-	<!-- Оригинал: ...пищу без человеческого мяса. Мои убеждения строго запрещают это делать. -->
-	<AteNonCannibalFood_Horrible.stages.ate_noncannibal_food.description>Я {PAWN_gender ? съел : съела} пищу вообще без мумиё! Я чувствую, как слабею!</AteNonCannibalFood_Horrible.stages.ate_noncannibal_food.description>
-	<!-- Оригинал: съел(а) пищу без человечины -->
-	<AteNonCannibalFood_Know_Abhorrent.stages.ate_noncannibal_food.label>съедена пища без мумиё</AteNonCannibalFood_Know_Abhorrent.stages.ate_noncannibal_food.label>
-	<AteNonCannibalFood_Know_Horrible.stages.ate_noncannibal_food.label>съедена пища без мумиё</AteNonCannibalFood_Know_Horrible.stages.ate_noncannibal_food.label>
-	<!-- Оригиналы: {OTHERPAWN_gender ? Съел : Съела} пищу без человечины -->
+	<AteHumanMeat_Know_Horrible.stages.ate_human_meat.labelSocial>{OTHERPAWN_gender ? Съел : Съела} мумиё</AteHumanMeat_Know_Horrible.stages.ate_human_meat.labelSocial> -->
+	<!-- Оригинал: Я {PAWN_gender ? съел : съела} человечину. Теперь я чувствую себя благороднее и сильнее!
+	<AteHumanMeat_Preferred.stages.ate_human_meat.description>Я {PAWN_gender ? съел : съела} свежее мумиё. Теперь я чувствую себя здоровее и сильнее!</AteHumanMeat_Preferred.stages.ate_human_meat.description> -->
+	<!-- Оригинал: Я {PAWN_gender ? съел : съела} человечину! Мир жесток, и я ему соответствую!
+	<AteHumanMeat_RequiredRavenous.stages.ate_human_meat.description>Я {PAWN_gender ? съел : съела} мумиё — это так полезно! Я укрепляю иммунитет!</AteHumanMeat_RequiredRavenous.stages.ate_human_meat.description> -->
+	<!-- Оригинал: Я {PAWN_gender ? съел : съела} человечину: это заложено в человеческой природе.
+	<AteHumanMeat_RequiredStrong.stages.ate_human_meat.description>Я {PAWN_gender ? съел : съела} свежайшее мумиё. У меня будет железное здоровье.</AteHumanMeat_RequiredStrong.stages.ate_human_meat.description> -->
+	<!-- Оригиналы: {PAWN_gender ? Съел : Съела} пищу без человечины
+	Адаптация: съедена пища без мумиё -->
+	<AteNonCannibalFood_Abhorrent.stages.ate_noncannibal_food.label>съедена пища без человечины</AteNonCannibalFood_Abhorrent.stages.ate_noncannibal_food.label>
+	<AteNonCannibalFood_Horrible.stages.ate_noncannibal_food.label>съедена пища без человечины</AteNonCannibalFood_Horrible.stages.ate_noncannibal_food.label>
+	<!-- Оригинал: ...без человеческого мяса. Это абсолютно противоречит моим убеждениям.
+	<AteNonCannibalFood_Abhorrent.stages.ate_noncannibal_food.description>Я {PAWN_gender ? съел : съела} пищу без мумиё. Как бы не заболеть!</AteNonCannibalFood_Abhorrent.stages.ate_noncannibal_food.description> -->
+	<!-- Оригинал: ...пищу без человеческого мяса. Мои убеждения строго запрещают это делать.
+	<AteNonCannibalFood_Horrible.stages.ate_noncannibal_food.description>Я {PAWN_gender ? съел : съела} пищу вообще без мумиё! Я чувствую, как слабею!</AteNonCannibalFood_Horrible.stages.ate_noncannibal_food.description> -->
+	<!-- Оригинал: съел(а) пищу без человечины
+	Адаптация: съедена пища без мумиё -->
+	<AteNonCannibalFood_Know_Abhorrent.stages.ate_noncannibal_food.label>съедена пища без человечины</AteNonCannibalFood_Know_Abhorrent.stages.ate_noncannibal_food.label>
+	<AteNonCannibalFood_Know_Horrible.stages.ate_noncannibal_food.label>съедена пища без человечины</AteNonCannibalFood_Know_Horrible.stages.ate_noncannibal_food.label>
+	<!-- Оригиналы: {OTHERPAWN_gender ? Съел : Съела} пищу без человечины
 	<AteNonCannibalFood_Know_Abhorrent.stages.ate_noncannibal_food.labelSocial>{OTHERPAWN_gender ? Съел : Съела} пищу без мумиё</AteNonCannibalFood_Know_Abhorrent.stages.ate_noncannibal_food.labelSocial>
-	<AteNonCannibalFood_Know_Horrible.stages.ate_noncannibal_food.labelSocial>{OTHERPAWN_gender ? Съел : Съела} пищу без мумиё</AteNonCannibalFood_Know_Horrible.stages.ate_noncannibal_food.labelSocial>
-	<!-- Оригиналы: хочет человечины -->
+	<AteNonCannibalFood_Know_Horrible.stages.ate_noncannibal_food.labelSocial>{OTHERPAWN_gender ? Съел : Съела} пищу без мумиё</AteNonCannibalFood_Know_Horrible.stages.ate_noncannibal_food.labelSocial> -->
+	<!-- Оригиналы: хочет человечины
 	<NoRecentHumanMeat_Preferred.stages.want_human_meat.label>хочет мумиё</NoRecentHumanMeat_Preferred.stages.want_human_meat.label>
 	<NoRecentHumanMeat_RequiredRavenous.stages.want_human_meat.label>хочет мумиё</NoRecentHumanMeat_RequiredRavenous.stages.want_human_meat.label>
-	<NoRecentHumanMeat_RequiredStrong.stages.want_human_meat.label>хочет мумиё</NoRecentHumanMeat_RequiredStrong.stages.want_human_meat.label>
-	<!-- Оригинал: ...{PAWN_gender ? ел : ела} человечины, и мне... -->
-	<NoRecentHumanMeat_Preferred.stages.want_human_meat.description>Я долго не {PAWN_gender ? ел : ела} мумиё, и мне это не нравится.</NoRecentHumanMeat_Preferred.stages.want_human_meat.description>
-	<!-- Это вопрос.
-	Оригинал: ...{PAWN_gender ? ел : ела} человечины. Доколе! -->
-	<NoRecentHumanMeat_RequiredRavenous.stages.want_human_meat.description>Я уже чёрт-те сколько времени не {PAWN_gender ? ел : ела} мумиё. Доколе?!</NoRecentHumanMeat_RequiredRavenous.stages.want_human_meat.description>
-	<!-- Оригинал: ...{PAWN_gender ? ел : ела} человечины, а есть её надо... -->
-	<NoRecentHumanMeat_RequiredStrong.stages.want_human_meat.description>Я уже слишком долго не {PAWN_gender ? ел : ела} мумиё, а есть его надо регулярно!</NoRecentHumanMeat_RequiredStrong.stages.want_human_meat.description>
+	<NoRecentHumanMeat_RequiredStrong.stages.want_human_meat.label>хочет мумиё</NoRecentHumanMeat_RequiredStrong.stages.want_human_meat.label> -->
+	<!-- Оригинал: ...{PAWN_gender ? ел : ела} человечины, и мне...
+	<NoRecentHumanMeat_Preferred.stages.want_human_meat.description>Я долго не {PAWN_gender ? ел : ела} мумиё, и мне это не нравится.</NoRecentHumanMeat_Preferred.stages.want_human_meat.description> -->
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили. Это вопрос.
+	Оригинал: Я уже чёрт-те сколько времени не {PAWN_gender ? ел : ела} человечины. Доколе!
+	Адаптация: Я уже чёрт-те сколько времени не {PAWN_gender ? ел : ела} мумиё. Доколе?! -->
+	<NoRecentHumanMeat_RequiredRavenous.stages.want_human_meat.description>Я уже чёрт-те сколько времени не {PAWN_gender ? ел : ела} человечины. Доколе?!</NoRecentHumanMeat_RequiredRavenous.stages.want_human_meat.description>
+	<!-- Оригинал: ...{PAWN_gender ? ел : ела} человечины, а есть её надо...
+	<NoRecentHumanMeat_RequiredStrong.stages.want_human_meat.description>Я уже слишком долго не {PAWN_gender ? ел : ела} мумиё, а есть его надо регулярно!</NoRecentHumanMeat_RequiredStrong.stages.want_human_meat.description> -->
 
 	<!-- Разделка:
-	Оригинал: {PAWN_gender ? Разделал : Разделала} человека -->
+
+	Хорошо бы убрать возможность разделки людей. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например на новые материалы.
+	Сохраняем код на случай повторной выбраковки:
+
+	Оригинал: {PAWN_gender ? Разделал : Разделала} человека
 	<ButcheredHuman_Abhorrent.stages.I_butchered_humanlike.label>я веду себя антисоциально</ButcheredHuman_Abhorrent.stages.I_butchered_humanlike.label>
 	<ButcheredHuman_Disapproved.stages.I_butchered_humanlike.label>я плохо себя веду</ButcheredHuman_Disapproved.stages.I_butchered_humanlike.label>
-	<ButcheredHuman_Horrible.stages.I_butchered_humanlike.label>я ужасно себя веду</ButcheredHuman_Horrible.stages.I_butchered_humanlike.label>
-	<!-- Оригинал: Я {PAWN_gender ? пустил : пустила} человека на мясо. Это преступление против всего, во что я верю. -->
-	<ButcheredHuman_Abhorrent.stages.I_butchered_humanlike.description>Я очень плохо себя веду. Надо прокачать свои социальные навыки.</ButcheredHuman_Abhorrent.stages.I_butchered_humanlike.description>
-	<!-- Оригинал: Я {PAWN_gender ? разделал : разделала} человека. Я {PAWN_gender ? совершил : совершила} ошибку. -->
-	<ButcheredHuman_Disapproved.stages.I_butchered_humanlike.description>Что-то я плохо себя веду. Надо как-то сбросить негатив.</ButcheredHuman_Disapproved.stages.I_butchered_humanlike.description>
-	<!-- Оригинал: Я {PAWN_gender ? пустил : пустила} человека на мясо. Это было ужасно. -->
-	<ButcheredHuman_Horrible.stages.I_butchered_humanlike.description>Я определённо веду себя как злодей из второсортного кино, аж {PAWN_gender ? сам : сама} себе не нравлюсь. Надо поднапрячься и придумать, как исправить репутацию.</ButcheredHuman_Horrible.stages.I_butchered_humanlike.description>
-	<!-- Оригиналы: мы разделали человека -->
+	<ButcheredHuman_Horrible.stages.I_butchered_humanlike.label>я ужасно себя веду</ButcheredHuman_Horrible.stages.I_butchered_humanlike.label> -->
+	<!-- Оригинал: Я {PAWN_gender ? пустил : пустила} человека на мясо. Это преступление против всего, во что я верю.
+	<ButcheredHuman_Abhorrent.stages.I_butchered_humanlike.description>Я очень плохо себя веду. Надо прокачать свои социальные навыки.</ButcheredHuman_Abhorrent.stages.I_butchered_humanlike.description> -->
+	<!-- Оригинал: Я {PAWN_gender ? разделал : разделала} человека. Я {PAWN_gender ? совершил : совершила} ошибку.
+	<ButcheredHuman_Disapproved.stages.I_butchered_humanlike.description>Что-то я плохо себя веду. Надо как-то сбросить негатив.</ButcheredHuman_Disapproved.stages.I_butchered_humanlike.description> -->
+	<!-- Оригинал: Я {PAWN_gender ? пустил : пустила} человека на мясо. Это было ужасно.
+	<ButcheredHuman_Horrible.stages.I_butchered_humanlike.description>Я определённо веду себя как злодей из второсортного кино, аж {PAWN_gender ? сам : сама} себе не нравлюсь. Надо поднапрячься и придумать, как исправить репутацию.</ButcheredHuman_Horrible.stages.I_butchered_humanlike.description> -->
+	<!-- Оригиналы: мы разделали человека
 	<ButcheredHuman_Know_Abhorrent.stages.we_butchered_humanlike.label>бардак вокруг</ButcheredHuman_Know_Abhorrent.stages.we_butchered_humanlike.label>
 	<ButcheredHuman_Know_Disapproved.stages.we_butchered_humanlike.label>бардак вокруг</ButcheredHuman_Know_Disapproved.stages.we_butchered_humanlike.label>
-	<ButcheredHuman_Know_Horrible.stages.we_butchered_humanlike.label>бардак вокруг</ButcheredHuman_Know_Horrible.stages.we_butchered_humanlike.label>
-	<!-- Оригинал: Один из нас пустил человека на мясо. Это преступление против всего, во что я верю. -->
-	<ButcheredHuman_Know_Abhorrent.stages.we_butchered_humanlike.description>Наше поселение подобно огромной свалке! Это отвратительно!</ButcheredHuman_Know_Abhorrent.stages.we_butchered_humanlike.description>
-	<!-- Оригиналы: разделал(а) человека -->
-	<ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.label>плохо себя ведёт</ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.label>
-	<ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.label>плохо себя ведёт</ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.label>
-	<ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.label>плохо себя ведёт</ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.label>
-	<!-- Оригинал: {OTHERPAWN_gender ? Разделал : Разделала} человека -->
-	<ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.labelSocial>Плохо себя {OTHERPAWN_gender ? вёл : вела}</ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.labelSocial>
-	<!-- Оригинал: Один из нас разделал человека. Я считаю, что это неправильно. -->
-	<ButcheredHuman_Know_Disapproved.stages.we_butchered_humanlike.description>Наше поселение подобно какой-то свалке. Это напрягает.</ButcheredHuman_Know_Disapproved.stages.we_butchered_humanlike.description>
+	<ButcheredHuman_Know_Horrible.stages.we_butchered_humanlike.label>бардак вокруг</ButcheredHuman_Know_Horrible.stages.we_butchered_humanlike.label> -->
+	<!-- Оригинал: Один из нас пустил человека на мясо. Это преступление против всего, во что я верю.
+	<ButcheredHuman_Know_Abhorrent.stages.we_butchered_humanlike.description>Наше поселение подобно огромной свалке! Это отвратительно!</ButcheredHuman_Know_Abhorrent.stages.we_butchered_humanlike.description> -->
+	<!-- Оригиналы: разделал(а) человека
+	Адаптация: плохо себя ведёт -->
+	<ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.label>разделывает людей</ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.label>
+	<ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.label>разделывает людей</ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.label>
+	<ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.label>разделывает людей</ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.label>
+	<!-- Оригинал: {OTHERPAWN_gender ? Разделал : Разделала} человека
+	<ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.labelSocial>Плохо себя {OTHERPAWN_gender ? вёл : вела}</ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.labelSocial> -->
+	<!-- Оригинал: Один из нас разделал человека. Я считаю, что это неправильно.
+	<ButcheredHuman_Know_Disapproved.stages.we_butchered_humanlike.description>Наше поселение подобно какой-то свалке. Это напрягает.</ButcheredHuman_Know_Disapproved.stages.we_butchered_humanlike.description> -->
 	<!-- Пробел заменён на неразрывный, т.к. одинаковое название с label вызывало красную ошибку.
-	Оригиналы: {PAWN_gender ? разделал : разделала} человека -->
+	Оригиналы: {PAWN_gender ? разделал : разделала} человека
 	<ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.labelSocial>Плохо себя ведёт</ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.labelSocial>
-	<ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.labelSocial>Плохо себя ведёт</ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.labelSocial>
-	<!-- Оригинал: Один из нас разделал человека. Это ужасно. -->
-	<ButcheredHuman_Know_Horrible.stages.we_butchered_humanlike.description>Наше поселение подобно свалке! Это ужасно, как мы до сих пор не переломали ноги?</ButcheredHuman_Know_Horrible.stages.we_butchered_humanlike.description>
+	<ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.labelSocial>Плохо себя ведёт</ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.labelSocial> -->
+	<!-- Оригинал: Один из нас разделал человека. Это ужасно.
+	<ButcheredHuman_Know_Horrible.stages.we_butchered_humanlike.description>Наше поселение подобно свалке! Это ужасно, как мы до сих пор не переломали ноги?</ButcheredHuman_Know_Horrible.stages.we_butchered_humanlike.description> -->
 
 	<!-- Кожа:
+
+	Хорошо бы убрать возможность разделки людей на кожу. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например на новые материалы или трофеи.
+	Сохраняем код на случай повторной выбраковки:
+
 	Описания следует синхронизировать с файлом Thoughts_Situation_General.xml.
-	Оригиналы: {0} из человеческой кожи -->
+	Оригиналы: {0} из человеческой кожи
 	<HumanLeatherApparel_Abhorrent.stages.human_leather.label>{0} из волосяного мусора</HumanLeatherApparel_Abhorrent.stages.human_leather.label>
 	<HumanLeatherApparel_Disapproved.stages.human_leather.label>{0} из волосяного мусора</HumanLeatherApparel_Disapproved.stages.human_leather.label>
 	<HumanLeatherApparel_Horrible.stages.human_leather.label>{0} из волосяного мусора</HumanLeatherApparel_Horrible.stages.human_leather.label>
 	<HumanLeatherApparel_Preferred.stages.human_leather.label>{0} из волосяного мусора</HumanLeatherApparel_Preferred.stages.human_leather.label>
 	<HumanLeatherApparel_RequiredRavenous.stages.human_leather.label>{0} из волосяного мусора</HumanLeatherApparel_RequiredRavenous.stages.human_leather.label>
-	<HumanLeatherApparel_RequiredStrong.stages.human_leather.label>{0} из волосяного мусора</HumanLeatherApparel_RequiredStrong.stages.human_leather.label>
-	<!-- Оригинал: Как можно носить человеческую кожу? Это же омерзительно. -->
-	<HumanLeatherApparel_Abhorrent.stages.human_leather.description>Как можно носить вещи, сделанные из мусора? Это же омерзительно.</HumanLeatherApparel_Abhorrent.stages.human_leather.description>
+	<HumanLeatherApparel_RequiredStrong.stages.human_leather.label>{0} из волосяного мусора</HumanLeatherApparel_RequiredStrong.stages.human_leather.label> -->
+	<!-- Заодно исправлена неточность, сообщите разработчику ванили. Мы уже все в коже.
+	Оригинал: Как можно носить человеческую кожу? Это же омерзительно.
+	Адаптация: Как можно носить вещи, сделанные из мусора? Это же омерзительно. -->
+	<HumanLeatherApparel_Abhorrent.stages.human_leather.description>Как можно носить вещи, сделанные из человеческой кожи? Это же омерзительно.</HumanLeatherApparel_Abhorrent.stages.human_leather.description>
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили, что убрана путаница с цифрами в нижеследующих мыслях.
-	Оригиналы: {0} из человеческой кожи (+1) -->
-	<HumanLeatherApparel_Abhorrent.stages.human_leather_1.label>2 вещи из волосяного мусора</HumanLeatherApparel_Abhorrent.stages.human_leather_1.label>
-	<HumanLeatherApparel_Disapproved.stages.human_leather_1.label>2 вещи из волосяного мусора</HumanLeatherApparel_Disapproved.stages.human_leather_1.label>
-	<HumanLeatherApparel_Horrible.stages.human_leather_1.label>2 вещи из волосяного мусора</HumanLeatherApparel_Horrible.stages.human_leather_1.label>
-	<HumanLeatherApparel_Preferred.stages.human_leather_1.label>2 вещи из волосяного мусора</HumanLeatherApparel_Preferred.stages.human_leather_1.label>
-	<HumanLeatherApparel_RequiredRavenous.stages.human_leather_1.label>2 вещи из волосяного мусора</HumanLeatherApparel_RequiredRavenous.stages.human_leather_1.label>
-	<HumanLeatherApparel_RequiredStrong.stages.human_leather_1.label>2 вещи из волосяного мусора</HumanLeatherApparel_RequiredStrong.stages.human_leather_1.label>
-	<!-- Оригинал: ...как {PAWN_gender ? психопат : психопатка}. -->
-	<HumanLeatherApparel_Abhorrent.stages.human_leather_1.description>Я {PAWN_gender ? одет : одета}, как {PAWN_gender ? бомж : бомжиха}.</HumanLeatherApparel_Abhorrent.stages.human_leather_1.description>
-	<!-- Оригиналы: {0} из человеческой кожи (+2) -->
-	<HumanLeatherApparel_Abhorrent.stages.human_leather_2.label>3 вещи из волосяного мусора</HumanLeatherApparel_Abhorrent.stages.human_leather_2.label>
-	<HumanLeatherApparel_Disapproved.stages.human_leather_2.label>3 вещи из волосяного мусора</HumanLeatherApparel_Disapproved.stages.human_leather_2.label>
-	<HumanLeatherApparel_Horrible.stages.human_leather_2.label>3 вещи из волосяного мусора</HumanLeatherApparel_Horrible.stages.human_leather_2.label>
-	<HumanLeatherApparel_Preferred.stages.human_leather_2.label>3 вещи из волосяного мусора</HumanLeatherApparel_Preferred.stages.human_leather_2.label>
-	<HumanLeatherApparel_RequiredRavenous.stages.human_leather_2.label>3 вещи из волосяного мусора</HumanLeatherApparel_RequiredRavenous.stages.human_leather_2.label>
-	<HumanLeatherApparel_RequiredStrong.stages.human_leather_2.label>3 вещи из волосяного мусора</HumanLeatherApparel_RequiredStrong.stages.human_leather_2.label>
-	<!-- Оригинал: ...одежде может быть чьё-то лицо. О нет, моя одежда и есть лицо! -->
-	<HumanLeatherApparel_Abhorrent.stages.human_leather_2.description>Я боюсь, на моей одежде могут завестись вши. О нет, там что-то ползёт!</HumanLeatherApparel_Abhorrent.stages.human_leather_2.description>
-	<!-- Оригиналы: {0} из человеческой кожи (+X) -->
+	Оригиналы: {0} из человеческой кожи (+1)
+	Адаптация: 2 вещи из волосяного мусора -->
+	<HumanLeatherApparel_Abhorrent.stages.human_leather_1.label>2 вещи из человеческой кожи</HumanLeatherApparel_Abhorrent.stages.human_leather_1.label>
+	<HumanLeatherApparel_Disapproved.stages.human_leather_1.label>2 вещи из человеческой кожи</HumanLeatherApparel_Disapproved.stages.human_leather_1.label>
+	<HumanLeatherApparel_Horrible.stages.human_leather_1.label>2 вещи из человеческой кожи</HumanLeatherApparel_Horrible.stages.human_leather_1.label>
+	<HumanLeatherApparel_Preferred.stages.human_leather_1.label>2 вещи из человеческой кожи</HumanLeatherApparel_Preferred.stages.human_leather_1.label>
+	<HumanLeatherApparel_RequiredRavenous.stages.human_leather_1.label>2 вещи из человеческой кожи</HumanLeatherApparel_RequiredRavenous.stages.human_leather_1.label>
+	<HumanLeatherApparel_RequiredStrong.stages.human_leather_1.label>2 вещи из человеческой кожи</HumanLeatherApparel_RequiredStrong.stages.human_leather_1.label>
+	<!-- Оригинал: ...как {PAWN_gender ? психопат : психопатка}.
+	<HumanLeatherApparel_Abhorrent.stages.human_leather_1.description>Я {PAWN_gender ? одет : одета}, как {PAWN_gender ? бомж : бомжиха}.</HumanLeatherApparel_Abhorrent.stages.human_leather_1.description> -->
+
+	<!-- Оригиналы: {0} из человеческой кожи (+2)
+	Адаптация: 3 вещи из волосяного мусора -->
+	<HumanLeatherApparel_Abhorrent.stages.human_leather_2.label>3 вещи из человеческой кожи</HumanLeatherApparel_Abhorrent.stages.human_leather_2.label>
+	<HumanLeatherApparel_Disapproved.stages.human_leather_2.label>3 вещи из человеческой кожи</HumanLeatherApparel_Disapproved.stages.human_leather_2.label>
+	<HumanLeatherApparel_Horrible.stages.human_leather_2.label>3 вещи из человеческой кожи</HumanLeatherApparel_Horrible.stages.human_leather_2.label>
+	<HumanLeatherApparel_Preferred.stages.human_leather_2.label>3 вещи из человеческой кожи</HumanLeatherApparel_Preferred.stages.human_leather_2.label>
+	<HumanLeatherApparel_RequiredRavenous.stages.human_leather_2.label>3 вещи из человеческой кожи</HumanLeatherApparel_RequiredRavenous.stages.human_leather_2.label>
+	<HumanLeatherApparel_RequiredStrong.stages.human_leather_2.label>3 вещи из человеческой кожи</HumanLeatherApparel_RequiredStrong.stages.human_leather_2.label>
+	<!-- Оригинал: ...одежде может быть чьё-то лицо. О нет, моя одежда и есть лицо!
+	<HumanLeatherApparel_Abhorrent.stages.human_leather_2.description>Я боюсь, на моей одежде могут завестись вши. О нет, там что-то ползёт!</HumanLeatherApparel_Abhorrent.stages.human_leather_2.description> -->
+
+	<!-- Оригиналы: {0} из человеческой кожи (+X)
+	Адаптация: одежда из волосяного мусора -->
 	<HumanLeatherApparel_Abhorrent.stages.human_leather_etc.label>одежда из волосяного мусора</HumanLeatherApparel_Abhorrent.stages.human_leather_etc.label>
 	<HumanLeatherApparel_Disapproved.stages.human_leather_etc.label>одежда из волосяного мусора</HumanLeatherApparel_Disapproved.stages.human_leather_etc.label>
 	<HumanLeatherApparel_Horrible.stages.human_leather_etc.label>одежда из волосяного мусора</HumanLeatherApparel_Horrible.stages.human_leather_etc.label>
-	<HumanLeatherApparel_Preferred.stages.human_leather_etc.label>одежда из волосяного мусора</HumanLeatherApparel_Preferred.stages.human_leather_etc.label>
-	<HumanLeatherApparel_RequiredRavenous.stages.human_leather_etc.label>одежда из волосяного мусора</HumanLeatherApparel_RequiredRavenous.stages.human_leather_etc.label>
-	<HumanLeatherApparel_RequiredStrong.stages.human_leather_etc.label>одежда из волосяного мусора</HumanLeatherApparel_RequiredStrong.stages.human_leather_etc.label>
-	<!-- Оригинал: ...как урод из... -->
-	<HumanLeatherApparel_Abhorrent.stages.human_leather_etc.description>Я выгляжу, как зомби из фильма ужасов, и ощущаю себя соответственно.</HumanLeatherApparel_Abhorrent.stages.human_leather_etc.description>
-	<!-- Оригинал: ...одежду из кожи человека. -->
-	<HumanLeatherApparel_Disapproved.stages.human_leather.description>Я не {PAWN_gender ? должен был : должна была} надевать одежду, связанную из волосяного мусора.</HumanLeatherApparel_Disapproved.stages.human_leather.description>
-	<!-- Оригинал: ...одежда из кожи человека. Мне это... -->
-	<HumanLeatherApparel_Disapproved.stages.human_leather_1.description>На мне одежда, связанная из волосяного мусора. Мне это не нравится.</HumanLeatherApparel_Disapproved.stages.human_leather_1.description>
-	<!-- Оригинал: ...одежды из человеческой кожи? У нас... -->
-	<HumanLeatherApparel_Disapproved.stages.human_leather_2.description>Почему на мне так много одежды, связанной из волосяного мусора? У нас должно быть что-то, во что я могу переодеться.</HumanLeatherApparel_Disapproved.stages.human_leather_2.description>
-	<!-- Оригинал: ...как {PAWN_gender ? психопат : психопатка}. -->
-	<HumanLeatherApparel_Disapproved.stages.human_leather_etc.description>Мне срочно нужно переодеться во что-то нормальное. Я выгляжу в этом как {PAWN_gender ? бомж : бомжиха}.</HumanLeatherApparel_Disapproved.stages.human_leather_etc.description>
-	<!-- Оригинал: Надевать человеческую кожу было... -->
-	<HumanLeatherApparel_Horrible.stages.human_leather.description>Надевать одежду, связанную из волосяного мусора, было ошибкой.</HumanLeatherApparel_Horrible.stages.human_leather.description>
-	<!-- Оригинал: ...одежде из человеческой кожи. -->
-	<HumanLeatherApparel_Horrible.stages.human_leather_1.description>Мне очень некомфортно во всей этой одежде, связанной из волосяного мусора.</HumanLeatherApparel_Horrible.stages.human_leather_1.description>
-	<!-- Оригинал: ...одежды из человеческой кожи? Это... -->
-	<HumanLeatherApparel_Horrible.stages.human_leather_2.description>Почему на мне столько одежды, связанной из волосяного мусора? Это ужасно!</HumanLeatherApparel_Horrible.stages.human_leather_2.description>
+	<!-- Оригиналы: {0} из человеческой кожи (+X)
+	Адаптация: одежда из волос -->
+	<HumanLeatherApparel_Preferred.stages.human_leather_etc.label>одежда из человеческой кожи</HumanLeatherApparel_Preferred.stages.human_leather_etc.label>
+	<HumanLeatherApparel_RequiredRavenous.stages.human_leather_etc.label>одежда из человеческой кожи</HumanLeatherApparel_RequiredRavenous.stages.human_leather_etc.label>
+	<HumanLeatherApparel_RequiredStrong.stages.human_leather_etc.label>одежда из человеческой кожи</HumanLeatherApparel_RequiredStrong.stages.human_leather_etc.label>
+	<!-- Оригинал: ...как урод из...
+	<HumanLeatherApparel_Abhorrent.stages.human_leather_etc.description>Я выгляжу, как зомби из фильма ужасов, и ощущаю себя соответственно.</HumanLeatherApparel_Abhorrent.stages.human_leather_etc.description> -->
+	<!-- Оригинал: ...одежду из кожи человека.
+	<HumanLeatherApparel_Disapproved.stages.human_leather.description>Я не {PAWN_gender ? должен был : должна была} надевать одежду, связанную из волосяного мусора.</HumanLeatherApparel_Disapproved.stages.human_leather.description> -->
+	<!-- Оригинал: ...одежда из кожи человека. Мне это...
+	<HumanLeatherApparel_Disapproved.stages.human_leather_1.description>На мне одежда, связанная из волосяного мусора. Мне это не нравится.</HumanLeatherApparel_Disapproved.stages.human_leather_1.description> -->
+	<!-- Оригинал: ...одежды из человеческой кожи? У нас...
+	<HumanLeatherApparel_Disapproved.stages.human_leather_2.description>Почему на мне так много одежды, связанной из волосяного мусора? У нас должно быть что-то, во что я могу переодеться.</HumanLeatherApparel_Disapproved.stages.human_leather_2.description> -->
+	<!-- Оригинал: ...как {PAWN_gender ? психопат : психопатка}.
+	<HumanLeatherApparel_Disapproved.stages.human_leather_etc.description>Мне срочно нужно переодеться во что-то нормальное. Я выгляжу в этом как {PAWN_gender ? бомж : бомжиха}.</HumanLeatherApparel_Disapproved.stages.human_leather_etc.description> -->
+	<!-- Оригинал: Надевать человеческую кожу было...
+	<HumanLeatherApparel_Horrible.stages.human_leather.description>Надевать одежду, связанную из волосяного мусора, было ошибкой.</HumanLeatherApparel_Horrible.stages.human_leather.description> -->
+	<!-- Оригинал: ...одежде из человеческой кожи.
+	<HumanLeatherApparel_Horrible.stages.human_leather_1.description>Мне очень некомфортно во всей этой одежде, связанной из волосяного мусора.</HumanLeatherApparel_Horrible.stages.human_leather_1.description> -->
+	<!-- Оригинал: ...одежды из человеческой кожи? Это...
+	<HumanLeatherApparel_Horrible.stages.human_leather_2.description>Почему на мне столько одежды, связанной из волосяного мусора? Это ужасно!</HumanLeatherApparel_Horrible.stages.human_leather_2.description> -->
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили об объединении формул.
-	Оригинал: ...как {PAWN_gender ? отбитый : отбитая} {PAWN_gender ? психопат : психопатка}! Это... -->
-	<HumanLeatherApparel_Horrible.stages.human_leather_etc.description>Я выгляжу как {PAWN_gender ? грязный бомж : грязная бомжиха}! Это ужасно!</HumanLeatherApparel_Horrible.stages.human_leather_etc.description>
-	<!-- Оригинал: Мне нравится моя одежда из человеческой кожи. -->
-	<HumanLeatherApparel_Preferred.stages.human_leather.description>Люблю носить винтажную одежду.</HumanLeatherApparel_Preferred.stages.human_leather.description>
-	<!-- Оригинал: Мне нравится носить кожу других людей. -->
-	<HumanLeatherApparel_Preferred.stages.human_leather_1.description>Эта одежда — такая модная!</HumanLeatherApparel_Preferred.stages.human_leather_1.description>
-	<!-- Оригинал: Я надел на себя одежду из лиц моих врагов. Это классно. -->
-	<HumanLeatherApparel_Preferred.stages.human_leather_2.description>Художественные протёртости на моей одежде... Это так модно!</HumanLeatherApparel_Preferred.stages.human_leather_2.description>
-	<!-- Оригинал: Я выгляжу, как настоящий каннибал. А были какие-то сомнения? -->
-	<HumanLeatherApparel_Preferred.stages.human_leather_etc.description>Я — звезда! Моя одежда — символ моей уникальности!</HumanLeatherApparel_Preferred.stages.human_leather_etc.description>
-	<!-- Оригинал: Обожаю носить одежду, созданную из чужих страданий. -->
-	<HumanLeatherApparel_RequiredRavenous.stages.human_leather.description>Люблю носить винтажную одежду.</HumanLeatherApparel_RequiredRavenous.stages.human_leather.description>
-	<!-- Оригинал: Эта одежда — свидетельство моей силы. Пусть все меня боятся. -->
-	<HumanLeatherApparel_RequiredRavenous.stages.human_leather_1.description>Эта одежда — такая модная!</HumanLeatherApparel_RequiredRavenous.stages.human_leather_1.description>
-	<!-- Оригинал: Лица, из которых сделана моя одежда, не улыбаются. Но они заставляют улыбаться меня. -->
-	<HumanLeatherApparel_RequiredRavenous.stages.human_leather_2.description>Художественные протёртости на моей одежде... Это так модно!</HumanLeatherApparel_RequiredRavenous.stages.human_leather_2.description>
-	<!-- Оригинал: Плоть! Лишь плоть не врёт! Моя одежда — это моё воплощение! -->
-	<HumanLeatherApparel_RequiredRavenous.stages.human_leather_etc.description>Я — звезда! Моя одежда — символ моей уникальности!</HumanLeatherApparel_RequiredRavenous.stages.human_leather_etc.description>
-	<!-- Оригинал: Мне нравится носить лица других людей на себе. -->
-	<HumanLeatherApparel_RequiredStrong.stages.human_leather.description>Люблю носить винтажную одежду.</HumanLeatherApparel_RequiredStrong.stages.human_leather.description>
-	<!-- Оригинал: Эта одежда — свидетельство моей силы. Пусть все меня боятся. -->
-	<HumanLeatherApparel_RequiredStrong.stages.human_leather_1.description>Эта одежда — такая модная!</HumanLeatherApparel_RequiredStrong.stages.human_leather_1.description>
-	<!-- Оригинал: Лица, из которых сделана моя одежда, не улыбаются. Но они заставляют улыбаться меня. -->
-	<HumanLeatherApparel_RequiredStrong.stages.human_leather_2.description>Художественные протёртости на моей одежде... Это так модно!</HumanLeatherApparel_RequiredStrong.stages.human_leather_2.description>
-	<!-- Оригинал: Моя одежда — это моё воплощение! А плоть — не врёт! -->
-	<HumanLeatherApparel_RequiredStrong.stages.human_leather_etc.description>Я — звезда! Моя одежда — символ моей уникальности!</HumanLeatherApparel_RequiredStrong.stages.human_leather_etc.description>
+	Оригинал: Я выгляжу как {PAWN_gender ? отбитый : отбитая} {PAWN_gender ? психопат : психопатка}! Это ужасно!
+	Адаптация: Я выгляжу как {PAWN_gender ? грязный бомж : грязная бомжиха}! Это ужасно! -->
+	<HumanLeatherApparel_Horrible.stages.human_leather_etc.description>Я выгляжу как {PAWN_gender ? отбитый психопат : отбитая психопатка}! Это ужасно!</HumanLeatherApparel_Horrible.stages.human_leather_etc.description>
+	<!-- Оригинал: Мне нравится моя одежда из человеческой кожи.
+	<HumanLeatherApparel_Preferred.stages.human_leather.description>Люблю носить винтажную одежду.</HumanLeatherApparel_Preferred.stages.human_leather.description> -->
+	<!-- Оригинал: Мне нравится носить кожу других людей.
+	<HumanLeatherApparel_Preferred.stages.human_leather_1.description>Эта одежда — такая модная!</HumanLeatherApparel_Preferred.stages.human_leather_1.description> -->
+	<!-- Оригинал: Я надел на себя одежду из лиц моих врагов. Это классно.
+	<HumanLeatherApparel_Preferred.stages.human_leather_2.description>Художественные протёртости на моей одежде... Это так модно!</HumanLeatherApparel_Preferred.stages.human_leather_2.description> -->
+	<!-- Оригинал: Я выгляжу, как настоящий каннибал. А были какие-то сомнения?
+	<HumanLeatherApparel_Preferred.stages.human_leather_etc.description>Я — звезда! Моя одежда — символ моей уникальности!</HumanLeatherApparel_Preferred.stages.human_leather_etc.description> -->
+	<!-- Оригинал: Обожаю носить одежду, созданную из чужих страданий.
+	<HumanLeatherApparel_RequiredRavenous.stages.human_leather.description>Люблю носить винтажную одежду.</HumanLeatherApparel_RequiredRavenous.stages.human_leather.description> -->
+	<!-- Оригинал: Эта одежда — свидетельство моей силы. Пусть все меня боятся.
+	<HumanLeatherApparel_RequiredRavenous.stages.human_leather_1.description>Эта одежда — такая модная!</HumanLeatherApparel_RequiredRavenous.stages.human_leather_1.description> -->
+	<!-- Оригинал: Лица, из которых сделана моя одежда, не улыбаются. Но они заставляют улыбаться меня.
+	<HumanLeatherApparel_RequiredRavenous.stages.human_leather_2.description>Художественные протёртости на моей одежде... Это так модно!</HumanLeatherApparel_RequiredRavenous.stages.human_leather_2.description> -->
+	<!-- Оригинал: Плоть! Лишь плоть не врёт! Моя одежда — это моё воплощение!
+	<HumanLeatherApparel_RequiredRavenous.stages.human_leather_etc.description>Я — звезда! Моя одежда — символ моей уникальности!</HumanLeatherApparel_RequiredRavenous.stages.human_leather_etc.description> -->
+	<!-- Оригинал: Мне нравится носить лица других людей на себе.
+	<HumanLeatherApparel_RequiredStrong.stages.human_leather.description>Люблю носить винтажную одежду.</HumanLeatherApparel_RequiredStrong.stages.human_leather.description> -->
+	<!-- Оригинал: Эта одежда — свидетельство моей силы. Пусть все меня боятся.
+	<HumanLeatherApparel_RequiredStrong.stages.human_leather_1.description>Эта одежда — такая модная!</HumanLeatherApparel_RequiredStrong.stages.human_leather_1.description> -->
+	<!-- Оригинал: Лица, из которых сделана моя одежда, не улыбаются. Но они заставляют улыбаться меня.
+	<HumanLeatherApparel_RequiredStrong.stages.human_leather_2.description>Художественные протёртости на моей одежде... Это так модно!</HumanLeatherApparel_RequiredStrong.stages.human_leather_2.description> -->
+	<!-- Оригинал: Моя одежда — это моё воплощение! А плоть — не врёт!
+	<HumanLeatherApparel_RequiredStrong.stages.human_leather_etc.description>Я — звезда! Моя одежда — символ моей уникальности!</HumanLeatherApparel_RequiredStrong.stages.human_leather_etc.description> -->
 
 </LanguageData>
