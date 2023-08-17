@@ -6,15 +6,36 @@
 
 			<!-- Исправление согласно концепции «12+».
 
-			Убираем съедобность человечины -->
+			Хорошо бы убрать возможность подкорма животных трупами людей. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например для повышения урожайности и облегчения утилизации трупов.
+			Сохраняем код на случай повторной выбраковки:
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name = "BasePawn"]/race/willNeverEat</xpath>
+				<value>
+					<li>Corpse_Human</li>
+				</value>
+			</li>
+
+			Пока замена не найдена, отдельно для людей убираем съедобность их трупов. -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Human"]/race</xpath>
+				<value>
+					<willNeverEat>
+						<li>Corpse_Human</li>
+					</willNeverEat>
+				</value>
+			</li>
+			<!-- Хорошо бы убрать возможность людоедства. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например для повышения урожайности и облегчения утилизации трупов.
+			Сохраняем код на случай повторной выбраковки:
+
+			Убираем съедобность чистой человечины.
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[@Name = "BasePawn"]/race/willNeverEat</xpath>
 				<value>
 					<li>Meat_Human</li>
-					<li>Corpse_Human</li>
 				</value>
-			</li>
-			<!-- Не получается подобрать код для замены картинки плоти:
+			</li> -->
+			<!-- Не получается найти код для замены картинки плоти:
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "Meat_Human"]/graphicData/texPath</xpath>
 				<value>
@@ -22,14 +43,14 @@
 					<color>(120, 80, 0)</color>
 				</value>
 			</li>
-			Вместо этого подкрашиваем ванильную текстуру. -->
+			Вместо этого подкрашиваем ванильную текстуру.
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "Human"]/race</xpath>
 				<value>
 					<meatColor>(110, 110, 0)</meatColor>
 				</value>
-			</li>
-			<!-- Убираем мумиё из рецептов. -->
+			</li> -->
+			<!-- Убираем мумиё из рецептов.
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/RecipeDef[
 				defName = "Make_Kibble" or
@@ -42,15 +63,15 @@
 						<li>Meat_Human</li>
 					</disallowedThingDefs>
 				</value>
-			</li>
-			<!-- Убираем отображение количества плоти и кожи. -->
+			</li> -->
+			<!-- Убираем отображение количества плоти и кожи.
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "Human"]/statBases/LeatherAmount</xpath>
 				<value>
 					<LeatherAmount>0</LeatherAmount>
 					<MeatAmount>0</MeatAmount>
 				</value>
-			</li>
+			</li> -->
 
 		</operations>
 	</Operation>
