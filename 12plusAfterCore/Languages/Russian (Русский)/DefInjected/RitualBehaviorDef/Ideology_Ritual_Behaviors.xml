@@ -20,15 +20,19 @@
 
 	<!-- Исправление согласно концепции «12+».
 
+	Хорошо бы убрать возможность вивисекции людей. Код работает, но команда балансеров забраковала результат. Начата работа по перебалансировке, нужны моды например на новые идеолигии.
+	Сохраняем код на случай повторной выбраковки:
+
 	Необходим мужской род, для совместимости с MessageRitualRoleMustBeHumanlike и MessageRitualRoleMustHaveEyes.
-	Оригинал: ослепляемый -->
-	<BlindingCeremony.roles.0.label>новый адепт</BlindingCeremony.roles.0.label>
-	<!-- Оригинал: тот, кого будут ослеплять -->
-	<BlindingCeremony.roles.0.missingDesc>тот, кому будут прививать анти-зрение</BlindingCeremony.roles.0.missingDesc>
-	<!-- Оригинал: ...будет ослеплять -->
-	<BlindingCeremony.roles.1.missingDesc>тот, кто будет проводить ритуал</BlindingCeremony.roles.1.missingDesc>
-	<!-- Оригинал: Ослепляемый недоступен. -->
-	<BlindingCeremony.stages.0.failTriggers.0.desc>Новый адепт недоступен.</BlindingCeremony.stages.0.failTriggers.0.desc>
+	Оригинал: ослепляемый
+	<BlindingCeremony.roles.0.label>новый адепт</BlindingCeremony.roles.0.label> -->
+	<!-- Оригинал: тот, кого будут ослеплять
+	<BlindingCeremony.roles.0.missingDesc>тот, кому будут прививать анти-зрение</BlindingCeremony.roles.0.missingDesc> -->
+	<!-- Оригинал: ...будет ослеплять
+	<BlindingCeremony.roles.1.missingDesc>тот, кто будет проводить ритуал</BlindingCeremony.roles.1.missingDesc> -->
+	<!-- Оригинал: Ослепляемый недоступен.
+	<BlindingCeremony.stages.0.failTriggers.0.desc>Новый адепт недоступен.</BlindingCeremony.stages.0.failTriggers.0.desc> -->
+
 	<!-- Связано с MessageRitualRoleMustBePrisoner.
 	Оригинал: жертва -->
 	<Execution.roles.1.label>казнимый</Execution.roles.1.label>
