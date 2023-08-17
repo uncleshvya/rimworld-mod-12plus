@@ -8,7 +8,7 @@
 	Эти 2 группы - без изменений, но необходимо оставить, иначе грамматика страдает:
 
   EN: downed -->
-  <Downed.label>сбитие с ног</Downed.label>
+  <Downed.label>обездвиживание</Downed.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>
@@ -123,7 +123,7 @@
   <GaveBirth.label>рождение ребёнка</GaveBirth.label>
 
 	<!-- Заодно исправлена неточность, сообщите разработчику ванили. Генератор применим и к животным.
-	Ещё бы надо имена сделать с большой буквы, пока что решение не найдено.
+	Ещё бы надо имена, сгенерированные из названий животных, сделать с большой буквы. Пока что решение не найдено.
 	Оригинал:
 	...держит на руках своего новорождённого... -->
   <GaveBirth.rulePack.rulesStrings>
@@ -513,7 +513,7 @@
 	<li>desc_sentence->Повсюду лежат ослабевшие животные.</li>
   </ToxicityRevealed.rulePack.rulesStrings>
 
-	<!-- Всё что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
+	<!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
 
   EN: wounded -->
   <Wounded.label>ранение</Wounded.label>
