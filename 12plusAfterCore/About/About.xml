@@ -46,7 +46,8 @@ multiplayer https://rimworldmultiplayer.com/post/20_04_17_royalty
 
 Известные проблемы:
 
-- Если перевод категории «12+» не обновился, заново выберите русский язык в главном меню.
+- Если перевод категории «12+» не обновился, заново выберите русский язык в главном меню;
+- При использовании мода Yayo's Animation рекомендуется в его настройках снять галочку «Сон для влюбленных» (Lovin' animations). Ведутся работы по автоматизации.
 
 =====
 
@@ -97,7 +98,8 @@ Had to rebalance some mods, see changelog file. But if you don't like these chan
 
 Known issues:
 
-- if russian "12plus" translation didn't refresh automatically, re-choose russian language from main menu.
+- if russian "12plus" translation didn't refresh automatically, re-choose russian language from main menu;
+- if you use com.yayo.yayoAni.continued mod or similar, open mod settings and turn off "Lovin' animations". Automation work started.
 
 =====
 
