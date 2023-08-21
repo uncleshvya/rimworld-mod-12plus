@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModsConfigData>
-  <version>1.4.3613 rev641</version>
+  <version>1.4.3704 rev896</version>
   <activeMods>
     <li>brrainz.harmony</li>
     <li>uncleshvya.12plus.beforecore</li>
@@ -84,6 +84,8 @@
     <li>am.rus.walllight</li>
     <li>lostrd.wildanimalalert</li>
     <li>scuba156.withoutsteam</li>
+    <li>com.yayo.yayoani.continued</li>
+    <li>crtdgd.rutrans.yayoani</li>
     <li>mlie.yayoscaravan</li>
     <li>mlie.yayoscombat3</li>
     <li>ru.com.yayo.combat3</li>
