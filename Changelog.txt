@@ -74,7 +74,7 @@ For English, scroll down.
 "Zombieland_".
 
 2023-08-16 команда балансеров забраковала ряд изменений. Значения возвращены к ванили, начата работа по перебалансировке, чтобы снова адаптировать эти же аспекты, но не потерять экспрессию:
-- рыбалка (у мода Fishing нелорны концепция, кожа, рыбник. Мод заменён на ThanksForAllTheFish, и только для экстремальных биомов. Нужны моды, повышающие интерес к игре на островах, льдах и песках);
+- рыбалка (у мода Fishing нелорны концепция, кожа, рыбник. Мод заменён на ThanksForAllTheFish, и только для экстремальных биомов. Нужны моды, повышающие интерес к игре на островах, льдах и песках. Либо на необычных рыб);
 - разделка гуманоидов (нужны моды например на новую еду типа балюта, новых животных, новые трофеи, стартовый капитал, новые квесты);
 - людоедство, в т.ч. у всеядных животных (нужны моды например на автоматические фермы);
 - прививание детям привычности смерти (нужны моды например на подкрашивание одежды с трупов);
@@ -352,7 +352,7 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "Zombieland_".
 
 2023-aug-16 balance team rejected some adaptation aspects. Restored default values. Rebalance work started, to re-add adaptations but to save expression:
-- fishing (RainbeausFishing.ReworkMod replaced into pyrce.thanks.for.all.the.fish, strongly for extreme bioms. Need new mods like ones for interesting game on islands, ice, sands);
+- fishing (RainbeausFishing.ReworkMod replaced into pyrce.thanks.for.all.the.fish, strongly for extreme bioms. Need new mods like ones for interesting game on islands, ice, sands. Or for unusual fish);
 - humanlikes' butchering (need new mods like for new food like balut, new alimals, new trophys, start resources, new quests);
 - human eating, including carnivores (need new mods like ones for automated farms);
 - texts, where children are taught with ordinariness of death (need new mods like ones for auto coloring tainted clothes);
