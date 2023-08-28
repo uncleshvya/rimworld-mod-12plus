@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: Cut off -->
+	<TaserStab.injuryProps.destroyedLabel>отсутствует</TaserStab.injuryProps.destroyedLabel>
+	<!-- Оригинал: Cut out -->
+	<TaserStab.injuryProps.destroyedOutLabel>отсутствует</TaserStab.injuryProps.destroyedOutLabel>
+	<!-- Оригинал: Cut off -->
+	<VenomousArrow.injuryProps.destroyedLabel>отсутствует</VenomousArrow.injuryProps.destroyedLabel>
+	<!-- Оригинал: Cut out -->
+	<VenomousArrow.injuryProps.destroyedOutLabel>отсутствует</VenomousArrow.injuryProps.destroyedOutLabel>
+
+</LanguageData>
