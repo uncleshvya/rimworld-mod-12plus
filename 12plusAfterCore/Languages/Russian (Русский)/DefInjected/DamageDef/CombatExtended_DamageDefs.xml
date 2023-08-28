@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Оригинал: {0} был убит тазером -->
+	<Taser.deathMessage>{0} {0_gender ? был поражён : была поражена} тазером</Taser.deathMessage>
+	<!-- Оригинал: {0} был убит -->
+	<Bomb_Secondary.deathMessage>{0} {0_gender ? был снесён : была снесена} взрывной волной</Bomb_Secondary.deathMessage>
+	<!-- Оригинал: {0} был убит -->
+	<Thermobaric.deathMessage>{0} {0_gender ? был снесён : была снесена} воздушной волной</Thermobaric.deathMessage>
+	<!-- Оригинал: {0} умер от удара электричеством -->
+	<Electrical.deathMessage>{0} {0_gender ? был ударен : была ударена} электротоком/Electrical.deathMessage>
+	<!-- Оригинал: {0} был убит -->
+	<ArrowFire.deathMessage>{0} {0_gender ? был поражён : была поражена} стрелой</ArrowFire.deathMessage>
+	<!-- Оригинал: {0} has been killed. -->
+	<Flashbang.deathMessage>{0} {0_gender ? был ослеплён : была ослеплена} вспышкой</Flashbang.deathMessage>
+	<!-- Оригинал: {0} has been cut to death. -->
+	<VWE_RangedCut.deathMessage>{0} {0_gender ? был изрезан : была изрезана}</VWE_RangedCut.deathMessage>
+
+</LanguageData>
