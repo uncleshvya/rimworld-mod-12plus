@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Исправление согласно концепции «12+».
+
+	Путь, сгенерированный через TranslationReport, приводит к ошибке. Как будто переменная недопрописана, и в игре её не нашёл. Пусть лежит здесь как заготовка.
+	Пробовал переименовать каталог в CombatExtended.LoadoutGenericDef, помещать переменную GenericDrugs.description в папку Keyed, искал в dll теги GenericDrugs, rug и esc через hex-editor чередуя с 00. Пробовал угадать дополнительные символы - добавлял "_Desc" к изначальной переменной CE_Generic_Drugs.
+	Оригинал: Generic Loadout for Drugs.  Intended for compatibility with pawns automatically picking up drugs in compliance with drug policies. -->
+	<GenericDrugs.description>Автоматическое заполнение инвентаря препаратами. Установите, сколько их нужно держать при себе поселенцам, и те будут самостоятельно подбирать недостающее со складов. Основа — политика приёма препаратов.</GenericDrugs.description>
+
+</LanguageData>
