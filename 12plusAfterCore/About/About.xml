@@ -266,6 +266,8 @@ Ideas to realize in next version:
 		<li>RimHUD.ru.zh</li>
 		<li>kamikadza13.RimHUD</li>
 		<li>RusAloveS.RimHUD</li>
+		<li>CETeam.CombatExtended</li>
+		<li>kamikadza13.CombatExtended</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
