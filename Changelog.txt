@@ -21,6 +21,7 @@ For English, scroll down.
 "Fishing_";
 "GeneticRim_";
 "GeneticRimAlphaAnimalsPatch_";
+"GiddyUp2_";
 "GlitterTech_";
 "Hospitality_";
 "HumanoidAlienRaces_";
