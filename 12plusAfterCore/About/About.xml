@@ -4,7 +4,7 @@
 	<name>12plus After Core</name>
 	<author>Uncle Shvya</author>
 	<packageId>UncleShvya.12plus.AfterCore</packageId>
-	<modVersion>0.9.994pre-alpha</modVersion>
+	<modVersion>0.9.995pre-alpha</modVersion>
 	<url>https://github.com/uncleshvya/rimworld-mod-12plus</url>
 	<supportedVersions>
 		<li>1.4</li>
@@ -268,6 +268,8 @@ Ideas to realize in next version:
 		<li>RusAloveS.RimHUD</li>
 		<li>CETeam.CombatExtended</li>
 		<li>kamikadza13.CombatExtended</li>
+		<li>Owlchemist.GiddyUp</li>
+		<li>Macropod.RuTrans.Owlchemist.GiddyUp</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>dianawinters.Orassans</li>
