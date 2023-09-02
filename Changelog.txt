@@ -2,8 +2,8 @@ For English, scroll down.
 
 История изменений мода 12plus для Rimworld.
 
-2023-08-28 добавлена адаптация для мода Combat Extended.
-Идёт работа по исправлению трудноуловимого бага - иногда не загружается карта квестов с сайтами, типа "лесозаготовочный лагерь" или "набожная деревня". Ведётся отсев модов, список уже проверенных - в файле ModsConfig.xml в корне репозитория;
+2023-09-02 добавлена адаптация для мода Giddy Up 2.
+Идёт работа по исправлению трудноуловимого бага - иногда не загружается карта квестов с сайтами, например "лесозаготовочный лагерь" или "набожная деревня". Ведётся отсев модов, список уже проверенных - в файле ModsConfig.xml в корне репозитория;
 Чтобы не плодить кучу взаимозависимых субмодов, соответствующие файлы помечены текстом в именах, для возможности поиска (здесь теги в алфавитном порядке):
 "AllowDeadAnimals_";
 "AllowTool_";
@@ -73,6 +73,8 @@ For English, scroll down.
 "VGPtools_";
 "ZiTools_";
 "Zombieland_".
+
+2023-08-28 добавлена адаптация для мода Combat Extended.
 
 2023-08-17 обновление до свежей версии русской локализации. Так как у официалов перевод ещё не закончен, обработаны 7 неофициальных переводов. Приоритет смещён на оный от автора Sestrenka, как более качественный. Поддержка переводов от LeveFUN, Davyd, Romanin, Arkanam и IIU остановлена до востребования;
 
@@ -282,7 +284,7 @@ For English, scroll down.
 
 Changelog for Rimworld's 12plus modification.
 
-2023-aug-28 CETeam.CombatExtended mod adaptation added.
+2023-sep-02 Owlchemist.GiddyUp and Macropod.RuTrans.Owlchemist.GiddyUp mods' adaptation added.
 Bugfix work is in process: there is a problem with site quests - sometimes the game can't load a map. Adapted mods are testing one by one, the whitelist is in "ModsConfig.xml" file;
 To avoid a croud of small linked mods, the files were marked with searchable tags in their names (alphabetically):
 "AllowDeadAnimals_";
@@ -301,6 +303,7 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "Fishing_";
 "GeneticRim_";
 "GeneticRimAlphaAnimalsPatch_";
+"GiddyUp2_";
 "GlitterTech_";
 "Hospitality_";
 "HumanoidAlienRaces_";
@@ -352,6 +355,8 @@ To avoid a croud of small linked mods, the files were marked with searchable tag
 "VGPtools_";
 "ZiTools_";
 "Zombieland_".
+
+2023-aug-28 CETeam.CombatExtended and kamikadza13.CombatExtended mods' adaptation added.
 
 2023-aug-17 update to actual Russian localization. Official Russian translation is not ready yet, so unofficial one was prioritized - Rus.Biotech.Nastia. Support for following translations was paused until asked, because they are a bit worse:
 RU.Ideology, Davyd.Translation.Ideology, Russifier.Ideology, Rus.Biotech.IUGT, russian.biotech.rf, Rus.Biotech.Arkanam;
