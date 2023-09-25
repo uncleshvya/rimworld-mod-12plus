@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправление согласно концепции «12+».
@@ -159,7 +159,7 @@
     <li>men->сорняки</li>
     <li>group->[Group_masc]</li>
     <li>group(p=5)->[Group_fem]</li>
-    <li>group->[Group_neutral]</li>    
+    <li>group->[Group_neutral]</li>
   </NamerFactionPirateWaster.rulePack.rulesStrings>
 
 	<!-- Всё, что ниже - без изменений, но необходимо оставить, иначе грамматика страдает:
@@ -223,7 +223,7 @@
     <!-- Взято из NamerFactionTribal.rulePack.rulesFiles. Файла PoliticalUnions_Tribal не существует -->
     <li>political_union_masc->Words/Nouns/PoliticalUnions_Tribal_Masc</li>
     <li>political_union_fem->Words/Nouns/PoliticalUnions_Tribal_Fem</li>
-    <li>political_union_neutral->Words/Nouns/PoliticalUnions_Tribal_Neutral</li>  
+    <li>political_union_neutral->Words/Nouns/PoliticalUnions_Tribal_Neutral</li>
   </NamerFactionTribalNeanderthal.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name(p=2)->[placeNameCore]</li>
@@ -375,7 +375,7 @@
   -->
   <NeanderthalUtility.rulePack.rulesFiles>
     <li>SylN->WordParts/Syllables_Neanderthal</li>
-  </NeanderthalUtility.rulePack.rulesFiles>  
+  </NeanderthalUtility.rulePack.rulesFiles>
   <!-- EN:
     <li>maybeApo(p=8)-></li>
     <li>maybeApo->'</li>
