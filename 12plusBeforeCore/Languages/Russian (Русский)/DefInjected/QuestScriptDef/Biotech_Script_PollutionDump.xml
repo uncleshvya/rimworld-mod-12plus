@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 	<!-- Исправлена неточность, сообщите разработчику ванили
@@ -13,7 +13,7 @@
   -->
   <PollutionDump.questContentRules.rulesStrings>
     <li>wastepacksLetterLabel->Отходы прибыли</li>
-	<li>wastepacksLetterText->Мешки с токсичными отходами доставлены.</li>
+    <li>wastepacksLetterText->Мешки с токсичными отходами доставлены.</li>
   </PollutionDump.questContentRules.rulesStrings>
 
 	<!-- Оригинал:
