@@ -7,5 +7,9 @@
 	<ZombieInfection.label>зомби-вирус</ZombieInfection.label>
 	<!-- EN: Zombie infection after death -->
 	<ZombieInfection.description>Особый вирус уже размножается и скоро восстановит двигательные функции этого тела. Но с земли поднимется совершенно иное существо — вечно голодное и безжалостное.</ZombieInfection.description>
+	<!-- EN: deadly -->
+	<Contamination.stages.deadly-0.label>фатальное</Contamination.stages.deadly-0.label>
+	<!-- EN: deadly -->
+	<Contamination.stages.deadly-1.label>фатальное</Contamination.stages.deadly-1.label>
 
 </LanguageData>
