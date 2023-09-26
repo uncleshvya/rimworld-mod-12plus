@@ -20,5 +20,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Exception: the software includes patching scripts. These scripts are to modify
-special software and have own licenses. Licenses files are in the "Patches" folder.
+Exception: the software uses a transformed code of another authors. This code is distributed under original license. Modified code file is in the "Source" folder. The software includes patching scripts which are to modify special software and have own licenses. Additional licenses' files are in the "About" folder. 
