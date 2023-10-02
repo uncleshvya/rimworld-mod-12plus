@@ -13,7 +13,7 @@
 
 В списке должен быть ниже всех поддерживаемых модов.
 
-Этот простой xml-мод отключает самые жёсткие аспекты, чтобы дети от 12 лет могли играть в Римворлд, не получая психологических травм. Подробности в файле changelog.
+Мод отключает самые жёсткие аспекты, чтобы дети от 12 лет могли играть в Римворлд, не получая психологических травм. Подробности в файле changelog.
 
 Родители! Теперь вам нет необходимости отвечать на неудобные вопросы детей, наблюдающих за игрой.
 Дети! С этим модом вы сможете играть в Римку при родителях, и спокойно разговаривать обо _всех_ особенностях своего поселения.
@@ -65,7 +65,7 @@ Sorry for my English, I compiled this description for multilingual families.
 
 Should be below all compatible mods in the list.
 
-This simple xml mod turns off the most hardcore aspects in order to allow 12+ aged children play Rimworld, without getting psychological trauma. For details, see changelog file.
+The mod turns off the most hardcore aspects in order to allow 12+ aged children play Rimworld, without getting psychological trauma. For details, see changelog file.
 
 Parents! Now you shouldn't answer kids' ticklish questions during playing.
 Kids! Now you can play RimWorld in one room with parents, and to speak about _everything_ happens in your game. For now, only Russian version is supported.
@@ -299,7 +299,7 @@ Ideas to realize in next version:
 		<li>Xenomorphchyma.VVERussian</li>
 		<!-- Мод на генетику запрещён из-за избыточного контента в адаптированном моде RU.NFD.TranslationFix. -->
 		<li>VanillaExpanded.VGeneticsE</li>
-		<!-- 12 нижеследующих модов запрещены на время работ по адаптации VEfactionsFramework, при необходимости подключения сместить приоритет на нужный мод. -->
+		<!-- 12 нижеследующих модов запрещены на время работ по адаптации VEfactionsFramework, при необходимости подключения следует сместить приоритет на нужный мод. -->
 		<li>VanillaExpanded.VanillaSocialInteractionsExpanded</li>
 		<li>vanillaexpanded.skills</li>
 		<li>kikohi.BetterGroundPenetratingScanner</li>
