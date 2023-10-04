@@ -3,9 +3,20 @@
 
 	<!-- Исправлена неточность, сообщите разработчику ванили.
 
-	Сглажена необязательная тавтология.
+	Движок автоматического подсчёта не учитывает высокопитательные продукты типа яиц.
+	Оригинал: протеины -->
+	<CookMealFine.ingredients.0.filter.customSummary>небольших продуктов животного происхождения</CookMealFine.ingredients.0.filter.customSummary>
+	<!-- Оригинал: содержит белок -->
+	<CookMealFineBulk.ingredients.0.filter.customSummary>небольших продуктов животного происхождения</CookMealFineBulk.ingredients.0.filter.customSummary>
+	<!-- Оригиналы: вегетарианские ингредиенты -->
+	<CookMealFine_Veg.ingredients.0.filter.customSummary>небольших вегетарианских ингредиентов</CookMealFine_Veg.ingredients.0.filter.customSummary>
+	<CookMealFineBulk_Veg.ingredients.0.filter.customSummary>небольших вегетарианских ингредиентов</CookMealFineBulk_Veg.ingredients.0.filter.customSummary>
+	<!-- Сглажена необязательная тавтология.
 	Оригинал: ...часть ингредиентов уйдёт... -->
 	<CookMealLavish.description>Приготовить сложное изысканное блюдо из ингредиентов растительного и животного происхождения. Значительная часть продуктов уйдёт впустую ради создания неповторимой палитры вкусов.</CookMealLavish.description>
+	<!-- Оригиналы: содержит белок -->
+	<CookMealLavish.ingredients.0.filter.customSummary>небольших продуктов животного происхождения</CookMealLavish.ingredients.0.filter.customSummary>
+	<CookMealLavishBulk.ingredients.0.filter.customSummary>небольших продуктов животного происхождения</CookMealLavishBulk.ingredients.0.filter.customSummary>
 	<!-- В рецепте используется только мясо.
 	Оригинал: ...блюдо из ингредиентов животного происхождения. Значительная...Использование ингредиентов только животного происхождения приведёт... -->
 	<CookMealLavish_Meat.description>Приготовить сложное изысканное блюдо исключительно из мяса. Значительная часть ингредиентов уйдёт впустую ради создания неповторимой палитры вкусов. Использование только мяса приведёт к дополнительному расходу продуктов.</CookMealLavish_Meat.description>
@@ -14,11 +25,23 @@
 	<!-- В рецепте можно использовать молоко, яйца и т.п.
 	Оригинал: ...растительного происхождения. Значительная часть ингредиентов уйдёт...Использование только растительных ингредиентов приведёт...расходу продуктов. -->
 	<CookMealLavish_Veg.description>Приготовить сложное изысканное блюдо из ингредиентов растительного и животного происхождения, но без мяса. Значительная часть продуктов уйдёт впустую ради создания неповторимой палитры вкусов. Использование однотипных ингредиентов приведёт к дополнительному расходу ресурсов.</CookMealLavish_Veg.description>
-	<!-- Название не влезало в интерфейс.
+	<!-- Оригинал: вегетарианские ингредиенты -->
+	<CookMealLavish_Veg.ingredients.0.filter.customSummary>небольших вегетарианских ингредиентов</CookMealLavish_Veg.ingredients.0.filter.customSummary>
+	<!-- Неровно отображалось в интерфейсе.
 	Оригинал: без неразрывного пробела. -->
 	<CookMealLavishBulk_Veg.label>приготовить шикарное вегетарианское блюдо х4</CookMealLavishBulk_Veg.label>
 	<!-- Оригинал: ...растительного происхождения. Значительная часть ингредиентов уйдёт...Использование только растительных ингредиентов приведёт...расходу продуктов. -->
 	<CookMealLavishBulk_Veg.description>Приготовить 4 сложных изысканных блюда из ингредиентов растительного и животного происхождения, но без мяса. Значительная часть продуктов уйдёт впустую ради создания неповторимой палитры вкусов. Использование однотипных ингредиентов приведёт к дополнительному расходу ресурсов.</CookMealLavishBulk_Veg.description>
-	<!-- Ещё есть исправленные рецепты ванили в файле VEcooking_RecipeDefs.xml -->
+	<!-- Оригинал: вегетарианские ингредиенты -->
+	<CookMealLavishBulk_Veg.ingredients.0.filter.customSummary>небольших вегетарианских ингредиентов</CookMealLavishBulk_Veg.ingredients.0.filter.customSummary>
+	<!-- Оригинал: ...часть ингредиентов уйдёт... -->
+	<CookMealSurvival.description>Приготовить запечатанный сухой паёк из ингредиентов растительного и животного происхождения. В процессе консервации часть продуктов уйдёт впустую.</CookMealSurvival.description>
+	<!-- Оригинал: содержит белок -->
+	<CookMealSurvival.ingredients.0.filter.customSummary>небольших продуктов животного происхождения</CookMealSurvival.ingredients.0.filter.customSummary>
+	<!-- Оригинал: ...часть ингредиентов уйдёт... -->
+	<CookMealSurvivalBulk.description>Приготовить 4 запечатанных сухих пайка из ингредиентов растительного и животного происхождения. В процессе консервации часть продуктов уйдёт впустую.</CookMealSurvivalBulk.description>
+	<!-- Оригинал: содержит белок -->
+	<CookMealSurvivalBulk.ingredients.0.filter.customSummary>небольших продуктов животного происхождения</CookMealSurvivalBulk.ingredients.0.filter.customSummary>
+	<!-- Ещё есть исправленные ванильные рецепты в файле VEcooking_RecipeDefs.xml -->
 
 </LanguageData>
